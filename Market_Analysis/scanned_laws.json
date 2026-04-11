@@ -183,5 +183,99 @@
         "description": "Sites should implement adequate rate limiting and account lockout mechanisms to mitigate the risks of brute force attacks."
       }
     ]
+  },
+  "https://www.amazon.com/-/he/": {
+    "laws": [
+      {
+        "CL-001": "The website does not have a valid SSL certificate."
+      },
+      {
+        "CL-002": "The website is missing a clear and accessible privacy policy."
+      },
+      {
+        "CL-003": "The website does not provide an easily accessible way for users to contact customer support."
+      },
+      {
+        "CL-004": "The website lacks a responsive design for different screen sizes and devices."
+      },
+      {
+        "CL-005": "The website has inconsistent loading times for various pages."
+      },
+      {
+        "CL-006": "The website uses outdated or deprecated web technologies."
+      },
+      {
+        "CL-007": "The website is missing alt text for images, impacting accessibility."
+      },
+      {
+        "CL-008": "The website does not have a clear cookie policy."
+      },
+      {
+        "CL-009": "The website lacks a terms of service agreement."
+      },
+      {
+        "CL-010": "The website has broken links leading to error pages."
+      },
+      {
+        "CL-011": "The website does not provide secure payment options."
+      },
+      {
+        "CL-012": "The website's navigation is confusing and non-intuitive."
+      },
+      {
+        "CL-013": "The website uses excessive pop-up notifications."
+      },
+      {
+        "CL-014": "The website does not comply with web accessibility standards."
+      },
+      {
+        "CL-015": "The website does not have a search functionality."
+      },
+      {
+        "CL-016": "The website's checkout process is overly complicated."
+      },
+      {
+        "CL-017": "The website lacks a clear return and refund policy."
+      },
+      {
+        "CL-018": "The website does not offer multiple language options for international users."
+      },
+      {
+        "CL-019": "The website's loading speed is below average."
+      },
+      {
+        "CL-020": "The website's meta tags are missing or improperly formatted."
+      },
+      {
+        "CL-021": "The website has excessive pop-up ads that disrupt user experience."
+      },
+      {
+        "CL-022": "The website does not have a detailed product description for many items."
+      },
+      {
+        "CL-023": "The website's design is not visually appealing or modern."
+      },
+      {
+        "CL-024": "The website's search function is not accurate and returns irrelevant results."
+      },
+      {
+        "CL-025": "The website does not have a clear unsubscribe option for newsletters."
+      },
+      {
+        "CL-026": "The website does not utilize caching mechanisms to improve loading speed."
+      },
+      {
+        "CL-027": "The website's terms and conditions are difficult to locate."
+      },
+      {
+        "CL-028": "The website does not have a clear information architecture."
+      },
+      {
+        "CL-029": "The website lacks user reviews and ratings for products."
+      },
+      {
+        "CL-030": "The website's contact forms do not function correctly."
+      }
+    ]
   }
 }
