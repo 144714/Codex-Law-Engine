@@ -43,54 +43,73 @@
 <script>
     // פונקציה לטעינת הנתונים
     async function loadData() {
-        try {
-            const response = await fetch('Market_Analysis/scanned_laws.json?t=' + Date.now());
-            if (!response.ok) {
-                console.warn("הקובץ לא נמצא, אולי עוד לא סרקת כלום?");
-                return;
+    try {
+        const response = await fetch('Market_Analysis/scanned_laws.json?t=' + Date.now());
+        if (!response.ok) return;
+        
+        const data = await response.json();
+        const dashboard = document.getElementById('dashboard');
+        dashboard.innerHTML = ''; 
+
+        for (const [site, info] of Object.entries(data)) {
+            if (!site || site === "" || !info) continue;
+
+            // יצירת כותרת אתר
+            const siteSection = document.createElement('div');
+            siteSection.className = 'col-12';
+            siteSection.innerHTML = `<h3 class="site-header mt-5">🌐 מקור החוק: ${site}</h3>`;
+            dashboard.appendChild(siteSection);
+
+            // חילוץ נתונים מכל פורמט אפשרי
+            let lawsArray = [];
+
+            if (Array.isArray(info)) { 
+                lawsArray = info; 
+            } else if (info.security_flaws) {
+                lawsArray = info.security_flaws;
+            } else if (info.vulnerabilities) {
+                lawsArray = info.vulnerabilities;
+            } else if (info.potential_technical_flaws) {
+                lawsArray = info.potential_technical_flaws;
+            } else if (info.laws) {
+                // טיפול במקרה של אובייקט חוקים (כמו ב-ynet) או מערך (כמו ב-n12)
+                lawsArray = Array.isArray(info.laws) ? info.laws : Object.entries(info.laws).map(([id, text]) => ({ law_id: id, description: text }));
+            } else {
+                // טיפול במקרה שהחוקים הם ישירות בתוך האובייקט (כמו ב-themarker)
+                lawsArray = Object.entries(info).filter(([k]) => k.startsWith('CL-')).map(([id, text]) => ({ law_id: id, description: text }));
             }
-            
-            const data = await response.json();
-            const dashboard = document.getElementById('dashboard');
-            dashboard.innerHTML = ''; 
 
-            let lawCounter = 1;
-            for (const [site, info] of Object.entries(data)) {
-                if (!site || site === "" || !info) continue;
+            lawsArray.forEach((f, index) => {
+                // נירמול הנתונים - מוודא שיש כותרת ותיאור לכל כרטיס
+                const id = f.law_id || f.id || `CL-${index + 100}`;
+                const title = f.flaw || f.title || (typeof f === 'string' ? f : "סעיף חקיקה");
                 
-                const rawIssues = info.security_flaws || info.vulnerabilities || info.potential_technical_flaws || [];
+                // חילוץ תיאור מכל מיני שדות אפשריים
+                let desc = "חובה ליישם תיקון זה לפי תקן Codex.";
+                if (typeof f === 'object') {
+                    desc = f.description || (f.fix ? f.fix.description || f.fix.problem : null) || Object.values(f)[0];
+                }
                 
-                const siteSection = document.createElement('div');
-                siteSection.className = 'col-12';
-                siteSection.innerHTML = `<h3 class="site-header mt-5">🌐 מקור החוק: ${site}</h3>`;
-                dashboard.appendChild(siteSection);
+                const severity = f.severity || "Medium";
 
-                rawIssues.forEach(f => {
-                    const id = f.law_id || `CL-${100 + lawCounter++}`;
-                    const title = f.flaw || "חוק הגנת המרחב";
-                    const desc = f.description || (f.fix ? (f.fix.description || f.fix.problem) : "חובה לתקן ליקוי זה לפי תקן Codex.");
-                    const severity = f.severity || "Medium";
-
-                    const lawCard = document.createElement('div');
-                    lawCard.className = 'col-md-6 col-lg-4 mb-4';
-                    lawCard.innerHTML = `
-                        <div class="card law-card h-100 shadow severity-${severity}">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge badge-id">${id}</span>
-                                    <span class="badge bg-secondary opacity-75 small">${severity}</span>
-                                </div>
-                                <h6 class="fw-bold mb-2">${title}</h6>
-                                <p class="small text-muted mb-0">${desc}</p>
+                const lawCard = document.createElement('div');
+                lawCard.className = 'col-md-6 col-lg-4 mb-4';
+                lawCard.innerHTML = `
+                    <div class="card law-card h-100 shadow severity-${severity}">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge badge-id">${id}</span>
+                                <span class="badge bg-secondary opacity-75 small">${severity}</span>
                             </div>
-                        </div>`;
-                    dashboard.appendChild(lawCard);
-                });
-            }
-        } catch (e) {
-            console.error("שגיאה בטעינה:", e);
+                            <h6 class="fw-bold mb-2">${title}</h6>
+                            <p class="small text-muted mb-0">${desc}</p>
+                        </div>
+                    </div>`;
+                dashboard.appendChild(lawCard);
+            });
         }
-    }
+    } catch (e) { console.error("Error parsing laws:", e); }
+}
 
     // הפונקציה להפעלת הסריקה דרך GitHub Issues
     function startMassLegislation() {
