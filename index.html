@@ -22,35 +22,32 @@
 <div class="container">
     <div class="text-center mb-5">
         <h1 class="display-4 fw-bold">⚖️ Codex Law Engine</h1>
-        <p class="lead text-secondary">מערכת חקיקה אוטונומית מבוססת AI - הופכת פרצות אבטחה לחוקי קוד</p>
+        <p class="lead text-secondary">מערכת חקיקה אוטונומית - הופכת פרצות אבטחה לחוקי קוד</p>
     </div>
 
     <div class="legislator-card p-4 mb-5 shadow-lg">
         <h4 class="mb-3 text-info">🔨 מרכז חקיקה המוני</h4>
-        <p class="small text-secondary">הכנס רשימת כתובות (אחת בכל שורה) לשאיבת חוקים אוטומטית:</p>
-        <textarea id="siteList" class="form-control mb-3" rows="4" placeholder="https://example.com"></textarea>
+        <textarea id="siteList" class="form-control mb-3" rows="4" placeholder="הכנס כתובות אתרים, אחת בכל שורה..."></textarea>
         <button onclick="startMassLegislation()" class="btn btn-info w-100 fw-bold">הפעל סריקה המונית ושאיבת חוקים</button>
         <div id="statusMsg" class="mt-2 small text-success text-center"></div>
     </div>
 
-    <hr class="my-5 opacity-25">
-
     <div id="dashboard" class="row">
         <div class="text-center">
             <div class="spinner-border text-info" role="status"></div>
-            <p class="mt-2">קורא את ספר החוקים המצטבר...</p>
+            <p class="mt-2">טוען את ספר החוקים...</p>
         </div>
     </div>
 </div>
 
 <script>
-    // פונקציה לטעינת הנתונים והצגתם
+    // פונקציה לטעינת הנתונים
     async function loadData() {
         try {
             const response = await fetch('Market_Analysis/scanned_laws.json?t=' + Date.now());
             if (!response.ok) {
-                console.warn("הקובץ עדיין לא קיים, מחכה לסריקה ראשונה...");
-                return; // כאן מותר להשתמש ב-return כי אנחנו בתוך פונקציה
+                console.warn("הקובץ לא נמצא, אולי עוד לא סרקת כלום?");
+                return;
             }
             
             const data = await response.json();
@@ -62,8 +59,7 @@
                 if (!site || site === "" || !info) continue;
                 
                 const rawIssues = info.security_flaws || info.vulnerabilities || info.potential_technical_flaws || [];
-                if (rawIssues.length === 0) continue;
-
+                
                 const siteSection = document.createElement('div');
                 siteSection.className = 'col-12';
                 siteSection.innerHTML = `<h3 class="site-header mt-5">🌐 מקור החוק: ${site}</h3>`;
@@ -92,11 +88,11 @@
                 });
             }
         } catch (e) {
-            console.error("שגיאה בטעינת נתונים:", e);
+            console.error("שגיאה בטעינה:", e);
         }
     }
 
-    // הפונקציה להפעלת הסריקה (דרך פתיחת Issue בגיטהב)
+    // הפונקציה להפעלת הסריקה דרך GitHub Issues
     function startMassLegislation() {
         const siteText = document.getElementById('siteList').value.trim();
         if (!siteText) {
@@ -118,8 +114,9 @@
 
     // הפעלה ראשונית
     loadData();
-    // רענון אוטומטי כל 30 שניות
+    // רענון אוטומטי
     setInterval(loadData, 30000);
 </script>
+
 </body>
 </html>
