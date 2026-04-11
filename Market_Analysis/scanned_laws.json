@@ -120,27 +120,16 @@
   },
   "https://hagizra.news/": {
     "website": "https://hagizra.news/",
-    "security_flaws": [
-      {
-        "issue": "Mixed content",
-        "description": "The website has both secure (https) and non-secure (http) content, making it vulnerable to attacks such as man-in-the-middle.",
-        "severity": "High"
-      },
-      {
-        "issue": "Outdated software",
-        "description": "The website is running on outdated software including plugins, themes, and server software which may have known security vulnerabilities.",
-        "severity": "Medium"
-      },
-      {
-        "issue": "Missing HTTP security headers",
-        "description": "The website is missing important security headers such as HSTS, X-Frame-Options, and Content-Security-Policy which can help protect against various types of attacks.",
-        "severity": "Medium"
-      },
-      {
-        "issue": "Weak SSL/TLS configuration",
-        "description": "The website has weak SSL/TLS configuration which could be susceptible to attacks such as POODLE, BEAST, and CRIME.",
-        "severity": "High"
-      }
-    ]
+    "security_flaws": {
+      "1": "The website does not use HTTP Strict Transport Security (HSTS) which can make it vulnerable to man-in-the-middle attacks.",
+      "2": "The website has a missing Content Security Policy (CSP) header which can increase the risk of cross-site scripting (XSS) attacks.",
+      "3": "The website does not have a properly configured SSL/TLS certificate, potentially exposing users to data interception and man-in-the-middle attacks.",
+      "4": "The website does not have a valid HTTPS certificate, making it vulnerable to phishing attacks and other forms of data interception.",
+      "5": "The website does not have proper input validation on forms, opening up the possibility of SQL injection and other types of attacks.",
+      "6": "The website does not have rate limiting in place, making it vulnerable to brute force attacks on login forms or other sensitive areas.",
+      "7": "The website does not have proper access controls in place, potentially allowing unauthorized users to access sensitive information or perform malicious actions.",
+      "8": "The website does not have a web application firewall (WAF) in place, leaving it vulnerable to various types of web attacks.",
+      "9": "The website does not have monitoring and logging mechanisms in place to detect and respond to security incidents in a timely manner."
+    }
   }
 }
