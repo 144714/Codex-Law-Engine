@@ -23,3 +23,26 @@
   "action": "render_critical_path_only",
   "description": "אם האתר לא נטען תוך 3 שניות, הצג רק את המידע החיוני ואל תיתן למשתמש לחכות לדף ריק"
 }
+[
+  {
+    "id": "LAW_005",
+    "name": "חסימת קליק ימני",
+    "condition": "mouse_event == 'right_click' on 'img'",
+    "action": "prevent_default",
+    "description": "מונע מהמשתמש לפתוח את התפריט שמאפשר 'שמור תמונה בשם'"
+  },
+  {
+    "id": "LAW_006",
+    "name": "הגנת גרירה",
+    "condition": "drag_event on 'img'",
+    "action": "disable_drag",
+    "description": "מונע מהמשתמש לגרור את התמונה לשולחן העבודה שלו"
+  },
+  {
+    "id": "LAW_007",
+    "name": "חומת סימן מים דינמית",
+    "condition": "screen_capture_detected",
+    "action": "overlay_watermark",
+    "description": "אם המערכת מזהה ניסיון לצילום מסך, היא מדביקה את הלוגו של בעל האתר על התמונה"
+  }
+]
