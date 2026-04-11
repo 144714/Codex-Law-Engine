@@ -9,9 +9,10 @@ def generate_ai_laws(prompt_from_user):
     # כאן ה-AI מקבל את ההנחיות שלך וממציא חוקים
     response = client.chat.completions.create(
         model="gpt-4", # או gpt-3.5-turbo
-        messages=[
-            {"role": "system", "content": "You are the Codex Law Engine. Generate 3 technical laws in JSON format for the following user request."},
-            {"role": "user", "content": prompt_from_user}
+     messages=[
+    {"role": "system", "content": "You are the Codex Anti-Bot Commander. Generate a list of 10 sophisticated technical laws to detect and block non-human traffic and spam comments."},
+    {"role": "user", "content": "The targets are: Automated form fillers, fake comment bots, and scrapers."}
+]
         ]
     )
     
