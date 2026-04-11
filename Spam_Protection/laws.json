@@ -1,0 +1,12 @@
+[
+  "Comments containing URLs must be reviewed before publishing.",
+  "Implement CAPTCHA or reCAPTCHA to verify human users.",
+  "Set limits on the number of comments a user can post in a given time period.",
+  "Utilize honeypot technique to detect and block bots.",
+  "Implement IP address blocking for suspicious activities.",
+  "Use machine learning algorithms to identify patterns of spam behavior.",
+  "Regularly update and monitor your spam detection system.",
+  "Require email verification for user comments.",
+  "Implement content moderation tools to filter out inappropriate content.",
+  "Educate users on the importance of reporting spam and suspicious activities."
+]

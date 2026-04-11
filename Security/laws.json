@@ -1,0 +1,12 @@
+[
+  "Input validation must be performed to prevent SQL injection attacks.",
+  "Output encoding must be implemented to prevent XSS attacks.",
+  "Store passwords securely using hashing algorithms with salts to prevent brute force attacks.",
+  "Implement CAPTCHA or rate limiting to prevent automated brute force attacks.",
+  "Use prepared statements and parameterized queries to prevent SQL injection attacks.",
+  "Regularly update and patch software to address security vulnerabilities.",
+  "Implement secure communication protocols like HTTPS to protect data in transit.",
+  "Apply least privilege principle to limit access rights for users and processes.",
+  "Implement security headers to protect against common web vulnerabilities.",
+  "Regularly conduct security audits and penetration testing to identify and address security weaknesses."
+]

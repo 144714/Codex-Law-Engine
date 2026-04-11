@@ -1,0 +1,12 @@
+[
+  "Ensure all content is accessible to users with disabilities according to WCAG guidelines.",
+  "Regularly test and audit website for broken links and fix them promptly.",
+  "Implement responsive design to ensure optimal user experience on all devices.",
+  "Provide text alternatives for non-text content like images and videos.",
+  "Use descriptive link text that clearly indicates the destination.",
+  "Ensure keyboard accessibility for users who rely on keyboard navigation.",
+  "Design with color contrast in mind for users with visual impairments.",
+  "Enable users to skip repetitive content through proper skip navigation techniques.",
+  "Implement ARIA landmarks to help screen readers navigate the site efficiently.",
+  "Conduct usability testing with users of diverse abilities to identify and address accessibility issues."
+]
