@@ -133,5 +133,26 @@
         "severity": "High"
       }
     ]
+  },
+  "https://hagizra.news/": {
+    "website": "https://hagizra.news/",
+    "security_flaws": [
+      {
+        "flaw": "Mixed content - some resources loaded over HTTP",
+        "severity": "Medium"
+      },
+      {
+        "flaw": "Absence of Content Security Policy (CSP) headers",
+        "severity": "High"
+      },
+      {
+        "flaw": "HTTP Strict Transport Security (HSTS) header not implemented",
+        "severity": "High"
+      },
+      {
+        "flaw": "Outdated SSL certificate",
+        "severity": "Medium"
+      }
+    ]
   }
 }
