@@ -1,18 +1,19 @@
 name: Codex AI Generator
 on:
   workflow_dispatch: 
-  repository_dispatch:
-    types: [generate_new_law]
+
+permissions:
+  contents: write # נותן לרובוט רשות לכתוב קבצים בגיטהב שלך
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4  # עודכן לגרסה חדשה
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5 # עודכן לגרסה חדשה
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -23,3 +24,11 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python generator_engine.py
+
+      - name: Commit and Push changes # השלב ששומר את הקובץ באמת
+        run: |
+          git config --global user.name "Codex-Bot"
+          git config --global user.email "bot@codex.ai"
+          git add generated_laws.json
+          git commit -m "AI generated a new law" || echo "No changes to commit"
+          git push
