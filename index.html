@@ -35,50 +35,82 @@
 </div>
 
 <script>
-    // הגדרות גיטהב - תחליף את הערכים כאן בפרטים שלך
-    const GITHUB_AUTH = "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// המפתח שייצרת בשלב 1
-    const REPO_OWNER = "144714"; 
+    const GITHUB_AUTH = "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"; 
+    const REPO_OWNER = "144714";
     const REPO_NAME = "Codex-Law-Engine";
 
     async function triggerScan() {
-        const site = document.getElementById('siteInput').value;
+        const siteInput = document.getElementById('siteInput');
         const msg = document.getElementById('statusMsg');
-        if(!site) return alert("נא להזין אתר");
+        const site = siteInput.value.trim();
+        
+        if(!site) {
+            alert("Please enter a URL");
+            return;
+        }
 
-        msg.innerHTML = `🚀 שולח פקודה ל-Codex...`;
+        msg.innerHTML = "🚀 Sending command to Codex AI...";
 
         try {
             const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/ai_law_generator.yml/dispatches`, {
                 method: 'POST',
                 headers: {
-                    'Authorization': `Bearer ${GITHUB_AUTH}`,
+                    'Authorization': 'Bearer ' + GITHUB_AUTH,
                     'Accept': 'application/vnd.github.v3+json',
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    ref: 'main', // או master, תלוי בשם ה-branch שלך
+                    ref: 'main',
                     inputs: { target_site: site }
                 })
             });
 
             if (response.ok) {
-                msg.innerHTML = `✅ הפקודה התקבלה! ה-AI התחיל לסרוק את ${site}. <br> התוצאות יופיעו כאן בעוד כ-2 דקות.`;
+                msg.innerHTML = "✅ Success! AI Scan started for " + site + ". Check back in 2 minutes.";
             } else {
                 const err = await response.json();
-                msg.innerHTML = `❌ שגיאה בהפעלת הסורק: ${err.message}`;
+                msg.innerHTML = "❌ Error: " + err.message;
             }
         } catch (e) {
-            msg.innerHTML = `❌ תקלה בתקשורת: ${e.message}`;
+            msg.innerHTML = "❌ Connection failed: " + e.message;
         }
     }
 
-    // פונקציית טעינת הנתונים (נשארת אותו דבר)
     async function loadData() {
-        // ... הקוד הקיים שלך לטעינת ה-JSON
+        try {
+            const response = await fetch('Market_Analysis/scanned_laws.json');
+            if (!response.ok) return;
+            const data = await response.json();
+            const dashboard = document.getElementById('dashboard');
+            dashboard.innerHTML = '';
+
+            for (const [site, info] of Object.entries(data)) {
+                const card = document.createElement('div');
+                card.className = 'col-md-6 col-lg-4';
+                const flaws = info.fix_laws || info.vulnerabilities || [];
+
+                card.innerHTML = `
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-body">
+                            <h5 class="text-primary fw-bold">${site}</h5>
+                            <hr>
+                            ${flaws.slice(0, 3).map(f => `
+                                <div class="mb-3 text-start">
+                                    <strong style="color:#ff7b72">⚠️ ${f.flaw || "Risk"}</strong>
+                                    <div style="background:#090c10; padding:8px; font-size:0.8em; border-radius:4px;">
+                                        ${f.fix?.law || f.fix || "Analyzing..."}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>`;
+                dashboard.appendChild(card);
+            }
+        } catch (e) { console.log("Data not ready yet"); }
     }
+    
     loadData();
-    // רענון אוטומטי כל דקה כדי לראות תוצאות חדשות
-    setInterval(loadData, 60000); 
+    setInterval(loadData, 30000);
 </script>
 </body>
 </html>
