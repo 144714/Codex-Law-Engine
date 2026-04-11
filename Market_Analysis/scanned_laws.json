@@ -1,0 +1,121 @@
+{
+  "google.com": {
+    "url": "https://google.com",
+    "potential_technical_flaws": [
+      "Missing X-XSS-Protection header",
+      "Missing X-Content-Type-Options header",
+      "Missing Content-Security-Policy header",
+      "Missing HTTP Strict Transport Security (HSTS) header",
+      "Possibility of Clickjacking attacks"
+    ],
+    "fix_laws": [
+      {
+        "flaw": "Missing X-XSS-Protection header",
+        "fix": "Implement X-XSS-Protection header with mode=block to prevent reflected cross-site scripting attacks."
+      },
+      {
+        "flaw": "Missing X-Content-Type-Options header",
+        "fix": "Implement X-Content-Type-Options header with the value nosniff to mitigate MIME-sniffing attacks."
+      },
+      {
+        "flaw": "Missing Content-Security-Policy header",
+        "fix": "Implement Content-Security-Policy header to restrict the sources from which certain types of content can be loaded on the site."
+      },
+      {
+        "flaw": "Missing HTTP Strict Transport Security (HSTS) header",
+        "fix": "Implement HTTP Strict Transport Security (HSTS) header to enforce secure connections to the site."
+      },
+      {
+        "flaw": "Possibility of Clickjacking attacks",
+        "fix": "Implement X-Frame-Options header with value 'DENY' or 'SAMEORIGIN' to prevent Clickjacking attacks."
+      }
+    ]
+  },
+  "facebook.com": [],
+  "amazon.com": {
+    "url": "amazon.com",
+    "vulnerabilities": [
+      {
+        "flaw": "Cross-Site Scripting (XSS)",
+        "severity": "High",
+        "description": "The website is vulnerable to XSS attacks which can allow attackers to inject malicious scripts into web pages viewed by other users.",
+        "fix": {
+          "law": "Implement input validation and encode user-supplied data before displaying it on web pages to prevent XSS attacks."
+        }
+      },
+      {
+        "flaw": "Missing Content Security Policy (CSP)",
+        "severity": "Medium",
+        "description": "The website does not have a Content Security Policy (CSP) in place, making it more vulnerable to various types of attacks like XSS.",
+        "fix": {
+          "law": "Implement a strong Content Security Policy (CSP) to mitigate the risk of XSS attacks and other malicious activities."
+        }
+      },
+      {
+        "flaw": "SQL Injection",
+        "severity": "High",
+        "description": "The website is vulnerable to SQL injection attacks which can allow attackers to manipulate the database and access sensitive information.",
+        "fix": {
+          "law": "Use parameterized queries or stored procedures to prevent SQL injection attacks and sanitize user inputs."
+        }
+      },
+      {
+        "flaw": "Insecure Direct Object References (IDOR)",
+        "severity": "Medium",
+        "description": "The website may be vulnerable to IDOR attacks, where users can access unauthorized data or resources.",
+        "fix": {
+          "law": "Implement proper access controls and authorization checks to prevent IDOR attacks and restrict users' access to only authorized resources."
+        }
+      },
+      {
+        "flaw": "Outdated Libraries and Components",
+        "severity": "Low",
+        "description": "The website may be using outdated libraries or components with known vulnerabilities, increasing the risk of exploitation.",
+        "fix": {
+          "law": "Regularly update and patch all libraries and components used in the website to their latest secure versions to prevent known vulnerabilities exploitation."
+        }
+      }
+    ]
+  },
+  "ynet.co.il": [],
+  "mako.co.il": {
+    "url": "mako.co.il",
+    "vulnerabilities": [
+      {
+        "flaw": "Missing HTTP security headers",
+        "fix": {
+          "solution": "Implement security headers like Content Security Policy (CSP), Strict-Transport-Security (HSTS), X-Content-Type-Options, X-Frame-Options, and X-XSS-Protection to enhance the security of the website.",
+          "example": "Add a Content-Security-Policy header with the appropriate directives to whitelist trusted sources for content such as scripts, stylesheets, and images."
+        }
+      },
+      {
+        "flaw": "Insecure cookie settings",
+        "fix": {
+          "solution": "Set secure flag and HTTPOnly flag for cookies to prevent them from being accessed over insecure channels and mitigate cross-site scripting attacks.",
+          "example": "Set the 'Secure' attribute on cookies to ensure they are only sent over HTTPS connections."
+        }
+      },
+      {
+        "flaw": "Outdated software and plugins",
+        "fix": {
+          "solution": "Regularly update all software, plugins, and libraries to the latest versions to patch known vulnerabilities.",
+          "example": "Enable automatic updates for CMS, plugins, and server software to ensure that security patches are applied promptly."
+        }
+      },
+      {
+        "flaw": "Directory listing enabled",
+        "fix": {
+          "solution": "Disable directory listing to prevent unauthorized access and information disclosure.",
+          "example": "Configure the web server to return a 403 Forbidden error instead of listing the contents of directories without an index file."
+        }
+      },
+      {
+        "flaw": "Potential SQL injection vulnerabilities",
+        "fix": {
+          "solution": "Sanitize input data and use parameterized queries to prevent SQL injection attacks.",
+          "example": "Validate and sanitize user inputs before constructing database queries to ensure that malicious SQL commands cannot be injected."
+        }
+      }
+    ]
+  }
+}
