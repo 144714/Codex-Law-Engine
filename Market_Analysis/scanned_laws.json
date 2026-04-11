@@ -1,131 +1,116 @@
 {
   "google.com": {
     "url": "google.com",
-    "vulnerabilities": [
-      {
-        "flaw": "Missing X-Content-Type-Options Header",
-        "description": "The X-Content-Type-Options header is not set. This header can prevent certain types of attacks, such as MIME-sniffing, which can lead to cross-site scripting vulnerabilities.",
-        "fix": {
-          "law": "Set the X-Content-Type-Options header to 'nosniff'. This can be done by adding the following HTTP response header: X-Content-Type-Options: nosniff"
-        }
-      },
-      {
-        "flaw": "Missing X-Frame-Options Header",
-        "description": "The X-Frame-Options header is not set. This header can help protect against clickjacking attacks by preventing the site from being rendered within a frame or iframe.",
-        "fix": {
-          "law": "Set the X-Frame-Options header to 'DENY' or 'SAMEORIGIN'. This can be done by adding the following HTTP response header: X-Frame-Options: DENY"
-        }
-      },
-      {
-        "flaw": "Missing Content Security Policy (CSP) Header",
-        "description": "The Content Security Policy (CSP) header is not set. CSP is an added layer of security that helps to detect and mitigate certain types of attacks, such as cross-site scripting and data injection attacks.",
-        "fix": {
-          "law": "Set a Content Security Policy (CSP) header to restrict the sources from which certain types of content can be loaded on your website. This can be done by adding the following HTTP response header: Content-Security-Policy: policy_content"
-        }
-      },
-      {
-        "flaw": "HTTP Strict Transport Security Not Enabled",
-        "description": "HTTP Strict Transport Security (HSTS) is not enabled. HSTS is a security feature that helps to protect websites against man-in-the-middle attacks by forcing browsers to use HTTPS.",
-        "fix": {
-          "law": "Enable HTTP Strict Transport Security (HSTS) by adding the following HTTP response header: Strict-Transport-Security: max-age=31536000; includeSubDomains"
-        }
-      },
-      {
-        "flaw": "Missing CSRF Protection",
-        "description": "The site is missing Cross-Site Request Forgery (CSRF) protection. CSRF attacks occur when a malicious website sends a request to a different website on which the victim is authenticated, leading to unauthorized actions.",
-        "fix": {
-          "law": "Implement CSRF protection mechanisms, such as adding anti-CSRF tokens to forms and validating those tokens on the server side for each request."
-        }
-      }
-    ]
-  },
-  "facebook.com": {
     "potential_technical_flaws": [
       {
-        "flaw": "Cross-Site Scripting (XSS)",
-        "severity": "High",
-        "description": "Facebook.com may be vulnerable to XSS attacks if input fields are not properly sanitized and validated, allowing attackers to inject malicious scripts.",
-        "recommendation": "Implement proper input validation and output encoding to prevent XSS attacks. Use libraries like Content Security Policy (CSP) and sanitize user-generated content."
-      },
-      {
-        "flaw": "Missing Security Headers",
+        "flaw": "Missing security headers like Content Security Policy (CSP) and X-Frame-Options.",
         "severity": "Medium",
-        "description": "Facebook.com may be missing important security headers like Content Security Policy (CSP), Strict-Transport-Security (HSTS), X-Frame-Options, etc., leaving the site vulnerable to various attacks.",
-        "recommendation": "Implement security headers like Content Security Policy (CSP), Strict-Transport-Security (HSTS), X-Frame-Options, etc., to enhance the security posture of the website."
+        "description": "These headers help protect the site against cross-site scripting (XSS) and clickjacking attacks.",
+        "recommendation": "Implement Content Security Policy (CSP) and X-Frame-Options headers in the site's HTTP responses."
       },
       {
-        "flaw": "Insecure Direct Object References",
-        "severity": "Medium",
-        "description": "Facebook.com may have insecure direct object references that could allow attackers to access unauthorized data or perform unauthorized actions.",
-        "recommendation": "Implement proper access controls and validate user permissions on server-side to prevent insecure direct object references."
-      },
-      {
-        "flaw": "Information Disclosure",
+        "flaw": "Lack of secure cookie flags like Secure and HttpOnly.",
         "severity": "Low",
-        "description": "Facebook.com may be leaking sensitive information through error messages, headers, or verbose responses, which could be exploited by attackers.",
-        "recommendation": "Ensure that error messages and responses do not disclose sensitive information to users. Implement custom error handling and disable verbose error messages."
+        "description": "Without these flags, cookies are vulnerable to interception and manipulation.",
+        "recommendation": "Set the Secure and HttpOnly flags for all sensitive cookies used on the site."
       },
       {
-        "flaw": "Cross-Site Request Forgery (CSRF)",
-        "severity": "High",
-        "description": "Facebook.com may be vulnerable to CSRF attacks if it does not implement proper CSRF tokens or anti-CSRF mechanisms, allowing attackers to execute unauthorized actions on behalf of users.",
-        "recommendation": "Implement CSRF tokens or anti-CSRF mechanisms to protect against CSRF attacks. Validate and verify each incoming request to ensure they are legitimate and initiated by the user."
+        "flaw": "Missing Subresource Integrity (SRI) for external resources.",
+        "severity": "Low",
+        "description": "Without SRI, there is a risk that external resources could be tampered with.",
+        "recommendation": "Use Subresource Integrity (SRI) to ensure the integrity of external resources loaded by the site."
+      },
+      {
+        "flaw": "Potential Clickjacking vulnerability due to lack of X-Frame-Options header.",
+        "severity": "Medium",
+        "description": "This can lead to attacks where a malicious site can display the target site in a frame or iframe.",
+        "recommendation": "Implement X-Frame-Options header with 'DENY' or 'SAMEORIGIN' value to prevent clickjacking attacks."
+      },
+      {
+        "flaw": "Directory listing enabled on the web server.",
+        "severity": "Low",
+        "description": "This allows an attacker to see the contents of directories on the server, revealing potentially sensitive information.",
+        "recommendation": "Disable directory listing on the web server to prevent disclosure of sensitive information."
       }
     ]
   },
-  "amazon.com": [],
-  "ynet.co.il": [],
-  "mako.co.il": {
-    "url": "mako.co.il",
+  "facebook.com": [],
+  "amazon.com": {
     "vulnerabilities": [
       {
         "flaw": "Missing HTTP security headers",
         "fix": {
-          "solution": "Implement proper security headers like Content-Security-Policy, X-Frame-Options, and X-XSS-Protection to enhance web application security.",
-          "code": {
-            "example": "Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval';",
-            "location": "Response headers"
-          }
-        }
-      },
-      {
-        "flaw": "Outdated software components",
-        "fix": {
-          "solution": "Regularly update all software components, libraries, and frameworks to the latest secure versions to mitigate known vulnerabilities.",
-          "code": {
-            "example": "Update all outdated software components",
-            "location": "Entire application"
-          }
-        }
-      },
-      {
-        "flaw": "Missing website encryption (HTTP instead of HTTPS)",
-        "fix": {
-          "solution": "Enable HTTPS by obtaining an SSL/TLS certificate to encrypt data transmitted between the server and clients.",
-          "code": {
-            "example": "Configure SSL/TLS certificate",
-            "location": "Web server configuration"
-          }
-        }
-      },
-      {
-        "flaw": "Exposed directories or sensitive information",
-        "fix": {
-          "solution": "Restrict access to sensitive directories, disable directory listing, and ensure that error messages do not reveal sensitive information.",
-          "code": {
-            "example": "Disable directory listing in web server configuration",
-            "location": "Web server settings"
-          }
+          "problem": "Add missing security headers such as Content-Security-Policy, X-Content-Type-Options, X-Frame-Options, etc.",
+          "solution": "Implement the appropriate HTTP security headers to enhance the security posture of the website."
         }
       },
       {
         "flaw": "Cross-Site Scripting (XSS) vulnerability",
         "fix": {
-          "solution": "Implement input validation and output encoding to sanitize user inputs and prevent malicious script injections.",
-          "code": {
-            "example": "Validate and sanitize user inputs before displaying them",
-            "location": "Input validation functions"
-          }
+          "problem": "Sanitize input data, encode output, and implement Content Security Policy to mitigate XSS attacks.",
+          "solution": "Implement input validation, output encoding, and Content Security Policy to prevent XSS vulnerabilities."
+        }
+      },
+      {
+        "flaw": "Insecure Direct Object References",
+        "fix": {
+          "problem": "Unauthorized access to objects by manipulating parameters in URLs.",
+          "solution": "Use proper authorization mechanisms and validate user permissions before serving any object."
+        }
+      },
+      {
+        "flaw": "Outdated software components",
+        "fix": {
+          "problem": "Vulnerable third-party libraries or software components",
+          "solution": "Regularly update and patch all software components to the latest versions to mitigate known vulnerabilities."
+        }
+      },
+      {
+        "flaw": "Missing server-side input validation",
+        "fix": {
+          "problem": "Lack of input validation on the server-side, allowing malicious input.",
+          "solution": "Implement server-side input validation to ensure data integrity and prevent various attacks like SQL injection and command injection."
+        }
+      }
+    ]
+  },
+  "ynet.co.il": [],
+  "mako.co.il": {
+    "url": "mako.co.il",
+    "vulnerabilities": [
+      {
+        "flaw": "Missing X-Content-Type-Options Header",
+        "fix": {
+          "description": "Set the X-Content-Type-Options header to 'nosniff' to prevent browsers from MIME-sniffing a response away from the declared content type.",
+          "code": "Header always set X-Content-Type-Options nosniff"
+        }
+      },
+      {
+        "flaw": "Missing X-Frame-Options Header",
+        "fix": {
+          "description": "Set the X-Frame-Options header to 'DENY' to prevent the site from being rendered within a frame or iframe.",
+          "code": "Header always set X-Frame-Options DENY"
+        }
+      },
+      {
+        "flaw": "Missing Content Security Policy (CSP) Header",
+        "fix": {
+          "description": "Implement a Content Security Policy header to mitigate the risk of XSS attacks by restricting the sources from which certain types of content can be loaded.",
+          "code": "Header always set Content-Security-Policy \"default-src 'self'\""
+        }
+      },
+      {
+        "flaw": "Missing HTTP Strict Transport Security (HSTS) Header",
+        "fix": {
+          "description": "Enable HSTS to ensure that all communication from the browser is sent over HTTPS, protecting against SSL-stripping attacks.",
+          "code": "Header always set Strict-Transport-Security \"max-age=31536000; includeSubDomains; preload\""
+        }
+      },
+      {
+        "flaw": "Directory Listing Enabled",
+        "fix": {
+          "description": "Disable directory listing to prevent exposing the directory structure and sensitive files to attackers.",
+          "code": "Options -Indexes"
         }
       }
     ]
