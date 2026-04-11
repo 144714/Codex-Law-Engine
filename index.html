@@ -2,161 +2,80 @@
 <html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>Codex | מרכז הבקרה העולמי</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex Law Engine - Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #0d1117; color: #c9d1d9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        .hero { background: linear-gradient(45deg, #1f6feb, #238636); padding: 40px; border-radius: 0 0 20px 20px; text-align: center; }
-        .card { background-color: #161b22; border: 1px solid #30363d; color: white; margin-bottom: 20px; }
-        .vulnerability-high { color: #ff7b72; font-weight: bold; }
-        .fix-law { background-color: #238636; color: white; padding: 5px 10px; border-radius: 5px; font-size: 0.9em; }
-        #loading { display: block; text-align: center; padding: 50px; }
+        body { background-color: #f4f7f6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .card { border: none; border-radius: 15px; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+        .status-badge { font-size: 0.8em; padding: 5px 10px; border-radius: 20px; }
     </style>
 </head>
 <body>
-
-<div class="hero">
-    <h1>CODEX LAW ENGINE</h1>
-    <p>סורק הבינה המלאכותית הגלובלי - הזן אתר לסריקה מיידית</p>
-    
-    <div class="container mt-4">
-        <div class="input-group mb-3 shadow-lg" style="max-width: 600px; margin: 0 auto;">
-            <input type="text" id="siteInput" class="form-control form-control-lg" placeholder="example.com">
-            <button class="btn btn-warning btn-lg" type="button" onclick="triggerScan()">🔍 סרוק עכשיו</button>
+    <nav class="navbar navbar-dark bg-dark mb-4">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">🛡️ Codex Law Engine - ניתוח אבטחה</span>
         </div>
-        <div id="statusMsg" class="mt-2 text-white-50"></div>
+    </nav>
+
+    <div class="container">
+        <div id="dashboard" class="row">
+            <div class="text-center">
+                <div class="spinner-border text-primary" role="status"></div>
+                <p>טוען נתוני סריקה...</p>
+            </div>
+        </div>
     </div>
-</div>
 
-<div class="container mt-5">
-    <h3 class="mb-4">📋 ממצאים אחרונים מהרשת</h3>
-    <div id="loading">📡 מתחבר למסד הנתונים...</div>
-    <div id="dashboard" class="row"></div>
-</div>
+    <script>
+        async function loadData() {
+            try {
+                // משיכת הקובץ עם מנגנון למניעת Cache
+                const response = await fetch('Market_Analysis/scanned_laws.json?t=' + Date.now());
+                if (!response.ok) throw new Error('File not found');
+                
+                const data = await response.json();
+                const dashboard = document.getElementById('dashboard');
+                dashboard.innerHTML = '';
 
-<script>
-// אנחנו מחלקים את המפתח לשני משתנים נפרדים
-const p1 = "ghp_"; 
-const p2 = "w3r91VpFmZNmbeD0QvTRq0fdhdMlHZ44awRb"; // כאן אתה שם את כל ההמשך של המפתח שלך בלי ה-ghp_
-
-// כאן אנחנו מחברים אותם חזרה למשתנה אחד
-const GITHUB_AUTH = p1 + p2;    const REPO_OWNER = "144714";
-    const REPO_NAME = "Codex-Law-Engine";
-
-    async function triggerScan() {
-        const siteInput = document.getElementById('siteInput');
-        const msg = document.getElementById('statusMsg');
-        const site = siteInput.value.trim();
-        
-        if(!site) {
-            alert("Please enter a URL");
-            return;
-        }
-
-        msg.innerHTML = "🚀 Sending command to Codex AI...";
-
-        try {
-            const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/ai_law_generator.yml/dispatches`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': 'Bearer ' + GITHUB_AUTH,
-                    'Accept': 'application/vnd.github.v3+json',
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    ref: 'main',
-                    inputs: { target_site: site }
-                })
-            });
-
-            if (response.ok) {
-                msg.innerHTML = "✅ Success! AI Scan started for " + site + ". Check back in 2 minutes.";
-            } else {
-                const err = await response.json();
-                msg.innerHTML = "❌ Error: " + err.message;
-            }
-        } catch (e) {
-            msg.innerHTML = "❌ Connection failed: " + e.message;
-        }
-    }
-
-   async function loadData() {
-    try {
-        // הוספת timestamp כדי למנוע מהדפדפן להשתמש בגרסה ישנה מהזיכרון
-        const response = await fetch('Market_Analysis/scanned_laws.json?t=' + Date.now());
-        if (!response.ok) return;
-        const data = await response.json();
-        const dashboard = document.getElementById('dashboard');
-        dashboard.innerHTML = '';
-
-        for (const [site, info] of Object.entries(data)) {
-            const card = document.createElement('div');
-            card.className = 'col-md-6 col-lg-4';
-            
-            // איסוף כל סוגי הפרצות האפשריים מה-JSON
-            const flaws = info.vulnerabilities || info.potential_technical_flaws || info.fix_laws || [];
-
-            card.innerHTML = `
-                <div class="card shadow-sm mb-4" style="border-left: 5px solid #0d6efd;">
-                    <div class="card-body">
-                        <h5 class="text-primary fw-bold text-truncate">${site}</h5>
-                        <hr>
-                        <div class="flaws-container">
-                            ${flaws.slice(0, 3).map(f => `
-                                <div class="mb-3 text-start">
-                                    <strong style="color:#ff7b72; font-size: 0.9em;">⚠️ ${f.flaw || f.flaw_type || f.name || "Security Risk"}</strong>
-                                    <div style="background:#f8f9fa; border: 1px solid #eee; padding:8px; font-size:0.8em; border-radius:4px; color: #333;">
-                                        ${f.description || f.flaw_description || f.fix || "Analyzing vulnerability details..."}
-                                    </div>
-                                </div>
-                            `).join('')}
+                for (const [site, info] of Object.entries(data)) {
+                    // זיהוי רשימת התקלות בכל השמות האפשריים
+                    const issues = info.security_flaws || info.vulnerabilities || info.potential_technical_flaws || info.security_issues || [];
+                    
+                    const card = document.createElement('div');
+                    card.className = 'col-md-6 col-lg-4 mb-4';
+                    
+                    const issuesHtml = issues.length > 0 ? issues.map(f => `
+                        <div class="p-2 mb-2 border-start border-danger border-4 bg-light rounded">
+                            <div class="fw-bold" style="font-size:0.9em;">⚠️ ${f.flaw || f.name || "איום זוהה"}</div>
+                            <div class="text-muted" style="font-size:0.8em;">${f.description || f.flaw_description || "רמת סיכון: " + (f.severity || "Medium")}</div>
                         </div>
-                    </div>
-                </div>`;
-            dashboard.appendChild(card);
+                    `).join('') : '<p class="text-muted">אין נתוני פירוט זמינים.</p>';
+
+                    card.innerHTML = `
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary text-truncate" title="${site}">${site}</h5>
+                                <hr>
+                                ${issuesHtml}
+                            </div>
+                        </div>
+                    `;
+                    dashboard.appendChild(card);
+                }
+            } catch (e) {
+                document.getElementById('dashboard').innerHTML = `
+                    <div class="alert alert-danger">שגיאה בטעינת הנתונים. וודא שהקובץ scanned_laws.json קיים ומכיל JSON תקין.</div>
+                `;
+                console.error(e);
+            }
         }
-    } catch (e) { console.log("Waiting for data update..."); }
-}
-    
-   async function loadData() {
-    try {
-        const response = await fetch('Market_Analysis/scanned_laws.json?t=' + Date.now());
-        const data = await response.json();
-        const dashboard = document.getElementById('dashboard');
-        dashboard.innerHTML = '';
 
-        for (const [site, info] of Object.entries(data)) {
-            const card = document.createElement('div');
-            card.className = 'col-md-6 col-lg-4 mb-4';
-            
-            // כאן העדכון הקריטי - הוספנו את info.security_flaws
-            let issues = info.vulnerabilities || 
-                         info.potential_technical_flaws || 
-                         info.security_flaws || 
-                         info.security_issues || 
-                         info.flaws || [];
-            
-            if (!Array.isArray(issues)) issues = Object.values(issues);
-
-            const contentHtml = issues.length > 0 ? issues.map(f => `
-                <div class="mb-2 p-2" style="background: #f8f9fa; border-radius: 5px; border-right: 3px solid ${f.severity === 'High' ? '#dc3545' : '#ffc107'};">
-                    <strong style="font-size: 0.9em; display: block;">⚠️ ${f.flaw || f.name || "סיכון אבטחה"}</strong>
-                    <small style="color: #555;">${f.description || f.flaw_description || "זוהתה פרצה ברמת חומרה: " + (f.severity || "Medium")}</small>
-                </div>
-            `).join('') : '<p class="text-muted">סריקה בבסיס הנתונים...</p>';
-
-            card.innerHTML = `
-                <div class="card h-100 shadow-sm border-0" style="background: #ffffff; border-radius: 12px;">
-                    <div class="card-body">
-                        <h6 class="card-title fw-bold text-primary text-truncate">${site}</h6>
-                        <hr>
-                        ${contentHtml}
-                    </div>
-                </div>`;
-            dashboard.appendChild(card);
-        }
-    } catch (e) { console.error("Error loading JSON:", e); }
-}
-</script>
+        // הפעלה
+        loadData();
+        // רענון אוטומטי כל דקה
+        setInterval(loadData, 60000);
+    </script>
 </body>
 </html>
