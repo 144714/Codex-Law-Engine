@@ -14,7 +14,7 @@ def run():
     try:
         # ה-Prompt החדש והחזק שלנו
         prompt = (
-            f"Analyze the website {target_site}. Identify 3-5 technical or security failures. "
+            f"Analyze the website {target_site}. Identify 3-100000 technical or security failures. "
             f"Convert each failure into a formal Law for the 'Codex Law Engine'. "
             f"Format as JSON only with the key 'security_flaws'. Each item must have: "
             f"'law_id' (e.g., CL-101), 'flaw' (Short Law Name), 'description' (Formal Law Text), 'severity'."
