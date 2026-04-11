@@ -1,39 +1,51 @@
 import os
+import sys
 import json
-from openai import OpenAI
+import openai
 
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+def run():
+    target_site = sys.argv[1] if len(sys.argv) > 1 else "unknown"
+    print(f"🔍 Starting scan for: {target_site}")
+    
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        print("❌ ERROR: OPENAI_API_KEY is missing!")
+        return
 
-def analyze_site_and_generate_law(url):
-    print(f"🔍 סורק אתר: {url}...")
+    client = openai.OpenAI(api_key=api_key)
+
     try:
+        print("🤖 Sending request to OpenAI...")
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": "You are a web vulnerability scanner. Identify 5 potential technical flaws for the given URL and generate a fix-law in JSON format."},
-                {"role": "user", "content": f"Analyze this site: {url}"}
-            ]
+            messages=[{"role": "user", "content": f"Analyze security flaws for {target_site} and return JSON only."}]
         )
-        return json.loads(response.choices[0].message.content)
-    except:
-        return []
+        
+        raw_result = response.choices[0].message.content
+        print("✅ OpenAI responded successfully!")
+        
+        # ניסיון לנקות את התשובה אם ה-AI הוסיף ```json
+        clean_result = raw_result.replace('```json', '').replace('```', '').strip()
+        ai_data = json.loads(clean_result)
+
+        file_path = 'Market_Analysis/scanned_laws.json'
+        
+        # קריאת הנתונים הקיימים
+        if os.path.exists(file_path):
+            with open(file_path, 'r', encoding='utf-8') as f:
+                db = json.load(f)
+        else:
+            db = {}
+
+        # עדכון ושמירה
+        db[target_site] = ai_data
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(db, f, indent=2, ensure_ascii=False)
+            
+        print(f"💾 Successfully saved data for {target_site}")
+
+    except Exception as e:
+        print(f"❌ CRITICAL ERROR: {str(e)}")
 
 if __name__ == "__main__":
-    # קריאת רשימת האתרים
-    with open("target_sites.txt", "r") as f:
-        sites = f.read().splitlines()
-
-    all_scanned_laws = {}
-
-    for site in sites:
-        laws = analyze_site_and_generate_law(site)
-        all_scanned_laws[site] = laws
-        
-    # שמירה לתיקייה חדשה של "ניתוח שוק"
-    if not os.path.exists("Market_Analysis"):
-        os.makedirs("Market_Analysis")
-        
-    with open("Market_Analysis/scanned_laws.json", "w", encoding="utf-8") as f:
-        json.dump(all_scanned_laws, f, ensure_ascii=False, indent=2)
-
-    print("🎯 הסריקה הושלמה! כל הבעיות והפתרונות תועדו.")
+    run()
