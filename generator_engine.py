@@ -2,30 +2,38 @@ import os
 import json
 from openai import OpenAI
 
-# המנוע שואב את המפתח הסודי מהכספת של גיטהב באופן אוטומטי
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
-def generate_ai_laws(prompt_from_user):
-    # כאן ה-AI מקבל את ההנחיות שלך וממציא חוקים
+# רשימת הקטגוריות של Codex
+CATEGORIES = {
+    "Spam_Protection": "Detecting bots, fake comments, and form spam.",
+    "Data_Privacy": "GDPR compliance, cookie consent, and data encryption rules.",
+    "Security": "Preventing SQL injection, XSS attacks, and brute force.",
+    "Performance": "Image optimization, caching rules, and server load balancing.",
+    "User_Experience": "Accessibility rules, broken link detection, and mobile responsiveness."
+}
+
+def generate_laws_for_category(category_name, description):
+    print(f"🏗️ מייצר חוקים עבור: {category_name}...")
     response = client.chat.completions.create(
-        model="gpt-4", # או gpt-3.5-turbo
-     messages=[
-    {"role": "system", "content": "You are the Codex Anti-Bot Commander. Generate a list of 10 sophisticated technical laws to detect and block non-human traffic and spam comments."},
-    {"role": "user", "content": "The targets are: Automated form fillers, fake comment bots, and scrapers."}
-]
+        model="gpt-3.5-turbo", # מהיר וזול לייצור המוני
+        messages=[
+            {"role": "system", "content": f"You are a legal-tech AI. Generate 50 technical website laws for the category: {category_name}. Use JSON format."},
+            {"role": "user", "content": f"Context: {description}"}
         ]
     )
-    
-    laws = response.choices[0].message.content
-    return json.loads(laws)
+    return json.loads(response.choices[0].message.content)
 
-# הניסוי הראשון: בקשה מבעל אתר
 if __name__ == "__main__":
-    user_request = "אני רוצה שאף אחד לא יוכל להעתיק תמונות מהאתר שלי"
-    new_laws = generate_ai_laws(user_request)
-    
-    # שמירת החוקים החדשים לקובץ
-    with open("generated_laws.json", "w", encoding="utf-8") as f:
-        json.dump(new_laws, f, ensure_ascii=False, indent=2)
-    
-    print("ה-AI יצר חוקים חדשים ושמר אותם בהצלחה!")
+    for cat_name, cat_desc in CATEGORIES.items():
+        laws = generate_laws_for_category(cat_name, cat_desc)
+        
+        # יצירת תיקייה לכל קטגוריה אם היא לא קיימת
+        if not os.path.exists(cat_name):
+            os.makedirs(cat_name)
+            
+        file_path = os.path.join(cat_name, "laws.json")
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(laws, f, ensure_ascii=False, indent=2)
+
+    print("🚀 המשימה הושלמה! כל החוקים קוטלגו בתיקיות.")
