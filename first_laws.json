@@ -16,3 +16,10 @@
     }
   ]
 }
+{
+  "id": "LAW_003",
+  "name": "חוק הטעינה המהירה",
+  "condition": "load_time > 3s",
+  "action": "render_critical_path_only",
+  "description": "אם האתר לא נטען תוך 3 שניות, הצג רק את המידע החיוני ואל תיתן למשתמש לחכות לדף ריק"
+}
