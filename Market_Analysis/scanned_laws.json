@@ -139,5 +139,49 @@
         "severity": "High"
       }
     ]
+  },
+  "https://my.bezeq.co.il/": {
+    "security_flaws": [
+      {
+        "law_id": "CL-001",
+        "description": "All websites storing sensitive user data must ensure secure communication by using HTTPS"
+      },
+      {
+        "law_id": "CL-002",
+        "description": "Websites must not expose directory listings which could leak sensitive information"
+      },
+      {
+        "law_id": "CL-003",
+        "description": "Cross-Site Scripting (XSS) vulnerabilities must be actively prevented and mitigated"
+      },
+      {
+        "law_id": "CL-004",
+        "description": "Proper input validation must be performed to prevent SQL Injection attacks"
+      },
+      {
+        "law_id": "CL-005",
+        "description": "Sensitive data should be stored securely using encryption and access control measures"
+      },
+      {
+        "law_id": "CL-006",
+        "description": "Access control mechanisms should be implemented to restrict unauthorized access to sensitive data"
+      },
+      {
+        "law_id": "CL-007",
+        "description": "Regular security assessments and testing should be conducted to identify and address vulnerabilities"
+      },
+      {
+        "law_id": "CL-008",
+        "description": "Websites should have mechanisms in place to prevent Clickjacking attacks"
+      },
+      {
+        "law_id": "CL-009",
+        "description": "Sensitive operations should require strong authentication methods, such as multi-factor authentication"
+      },
+      {
+        "law_id": "CL-010",
+        "description": "Websites must have a clear vulnerability disclosure policy to encourage responsible reporting"
+      }
+    ]
   }
 }
