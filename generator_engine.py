@@ -19,10 +19,10 @@ def run():
         try:
             response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
-                messages=[
-                    {"role": "system", "content": "You are a Digital Legislator. Formulate 10 formal laws (ID: CL-xxx) based on security flaws. Return ONLY JSON with key 'security_flaws'."},
-                    {"role": "user", "content": f"Analyze {site}"}
-                ]
+               messages=[
+    {"role": "system", "content": "You are a Chief Digital Legislator. Your task is to extract AS MANY laws as possible. Do not stop at 10. Aim for 20-30 distinct laws per site if possible."},
+    {"role": "user", "content": f"Analyze {site} in extreme detail. Identify every possible technical flaw and formulate it as a formal Law (CL-xxx). Return ONLY JSON."}
+]
             )
             raw = response.choices[0].message.content
             match = re.search(r'\{.*\}', raw, re.DOTALL)
