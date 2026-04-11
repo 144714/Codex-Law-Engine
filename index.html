@@ -118,8 +118,45 @@ const GITHUB_AUTH = p1 + p2;    const REPO_OWNER = "144714";
     } catch (e) { console.log("Waiting for data update..."); }
 }
     
-    loadData();
-    setInterval(loadData, 30000);
+   async function loadData() {
+    try {
+        const response = await fetch('Market_Analysis/scanned_laws.json?t=' + Date.now());
+        const data = await response.json();
+        const dashboard = document.getElementById('dashboard');
+        dashboard.innerHTML = '';
+
+        for (const [site, info] of Object.entries(data)) {
+            const card = document.createElement('div');
+            card.className = 'col-md-6 col-lg-4 mb-4';
+            
+            // כאן העדכון הקריטי - הוספנו את info.security_flaws
+            let issues = info.vulnerabilities || 
+                         info.potential_technical_flaws || 
+                         info.security_flaws || 
+                         info.security_issues || 
+                         info.flaws || [];
+            
+            if (!Array.isArray(issues)) issues = Object.values(issues);
+
+            const contentHtml = issues.length > 0 ? issues.map(f => `
+                <div class="mb-2 p-2" style="background: #f8f9fa; border-radius: 5px; border-right: 3px solid ${f.severity === 'High' ? '#dc3545' : '#ffc107'};">
+                    <strong style="font-size: 0.9em; display: block;">⚠️ ${f.flaw || f.name || "סיכון אבטחה"}</strong>
+                    <small style="color: #555;">${f.description || f.flaw_description || "זוהתה פרצה ברמת חומרה: " + (f.severity || "Medium")}</small>
+                </div>
+            `).join('') : '<p class="text-muted">סריקה בבסיס הנתונים...</p>';
+
+            card.innerHTML = `
+                <div class="card h-100 shadow-sm border-0" style="background: #ffffff; border-radius: 12px;">
+                    <div class="card-body">
+                        <h6 class="card-title fw-bold text-primary text-truncate">${site}</h6>
+                        <hr>
+                        ${contentHtml}
+                    </div>
+                </div>`;
+            dashboard.appendChild(card);
+        }
+    } catch (e) { console.error("Error loading JSON:", e); }
+}
 </script>
 </body>
 </html>
