@@ -122,21 +122,21 @@
     "security_flaws": [
       {
         "law_id": "CL-101",
-        "flaw": "Outdated Software",
-        "description": "All software used in a system must be kept up-to-date with the latest security patches and updates.",
+        "flaw": "Insecure Password Storage",
+        "description": "All user passwords must be securely hashed and salted before storage in the database to prevent unauthorized access.",
         "severity": "High"
       },
       {
         "law_id": "CL-102",
-        "flaw": "Absence of HTTPS",
-        "description": "All web traffic must be encrypted using HTTPS to protect the privacy and security of users.",
-        "severity": "High"
+        "flaw": "Missing HTTPS Encryption",
+        "description": "All communication between the website and users must be encrypted using HTTPS to protect data privacy and prevent man-in-the-middle attacks.",
+        "severity": "Medium"
       },
       {
         "law_id": "CL-103",
-        "flaw": "Missing Content Security Policy (CSP)",
-        "description": "A Content Security Policy (CSP) must be implemented to mitigate the risk of Cross-Site Scripting (XSS) attacks.",
-        "severity": "Medium"
+        "flaw": "Outdated Software",
+        "description": "All software components used in the website must be regularly updated to patch security vulnerabilities and protect against exploits.",
+        "severity": "High"
       }
     ]
   }
