@@ -35,31 +35,50 @@
 </div>
 
 <script>
-    // פונקציה ששולחת פקודה לגיטהב להתחיל סריקה חדשה
+    // הגדרות גיטהב - תחליף את הערכים כאן בפרטים שלך
+    const GITHUB_AUTH = "הדבק_כאן_את_הטוקן_שלך"; // המפתח שייצרת בשלב 1
+    const REPO_OWNER = "144714"; 
+    const REPO_NAME = "Codex-Law-Engine";
+
     async function triggerScan() {
-        const url = document.getElementById('siteInput').value;
+        const site = document.getElementById('siteInput').value;
         const msg = document.getElementById('statusMsg');
-        
-        if (!url) return alert("נא להזין כתובת אתר");
-        
-        msg.innerHTML = "⌛ שולח פקודה ל-Codex... נא המתן";
-        
-        // כאן בעתיד נחבר את המפתח (PAT) כדי שהסריקה תרוץ באמת מהדפדפן
-        alert("הפקודה נשלחה! הרובוט של Codex יתחיל לסרוק את " + url + " בדקות הקרובות. רענן את הדף בעוד 2 דקות.");
-        msg.innerHTML = "✅ הסריקה בדרך! תוצאות יופיעו כאן בקרוב.";
+        if(!site) return alert("נא להזין אתר");
+
+        msg.innerHTML = `🚀 שולח פקודה ל-Codex...`;
+
+        try {
+            const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/ai_law_generator.yml/dispatches`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${GITHUB_AUTH}`,
+                    'Accept': 'application/vnd.github.v3+json',
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    ref: 'main', // או master, תלוי בשם ה-branch שלך
+                    inputs: { target_site: site }
+                })
+            });
+
+            if (response.ok) {
+                msg.innerHTML = `✅ הפקודה התקבלה! ה-AI התחיל לסרוק את ${site}. <br> התוצאות יופיעו כאן בעוד כ-2 דקות.`;
+            } else {
+                const err = await response.json();
+                msg.innerHTML = `❌ שגיאה בהפעלת הסורק: ${err.message}`;
+            }
+        } catch (e) {
+            msg.innerHTML = `❌ תקלה בתקשורת: ${e.message}`;
+        }
     }
 
-    // הקוד הקודם לטעינת הנתונים נשאר כאן...
+    // פונקציית טעינת הנתונים (נשארת אותו דבר)
     async function loadData() {
-        try {
-            const response = await fetch('Market_Analysis/scanned_laws.json');
-            const data = await response.json();
-            const dashboard = document.getElementById('dashboard');
-            document.getElementById('loading').style.display = 'none';
-            // ... (שאר הלוגיקה של הצגת הכרטיסים)
-        } catch(e) {}
+        // ... הקוד הקיים שלך לטעינת ה-JSON
     }
     loadData();
+    // רענון אוטומטי כל דקה כדי לראות תוצאות חדשות
+    setInterval(loadData, 60000); 
 </script>
 </body>
 </html>
