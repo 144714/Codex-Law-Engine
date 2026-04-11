@@ -1,6 +1,11 @@
 name: Codex AI Generator
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
+    inputs:
+      target_site:
+        description: 'האתר לסריקה'
+        required: false
+        default: ''
   schedule:
     - cron: '0 * * * *'
 
@@ -25,12 +30,12 @@ jobs:
       - name: Run AI Generation script
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python generator_engine.py
+        run: python generator_engine.py "${{ github.event.inputs.target_site }}"
 
-      - name: Commit and Push changes
+      - name: Commit and Push
         run: |
-          git config --global user.name "Codex-Mass-Generator"
+          git config --global user.name "Codex-Bot"
           git config --global user.email "bot@codex.ai"
           git add .
-          git commit -m "Generated mass laws for all categories" || echo "No changes"
+          git commit -m "New scan results added" || echo "No changes"
           git push
