@@ -80,38 +80,43 @@ const GITHUB_AUTH = p1 + p2;    const REPO_OWNER = "144714";
         }
     }
 
-    async function loadData() {
-        try {
-            const response = await fetch('Market_Analysis/scanned_laws.json');
-            if (!response.ok) return;
-            const data = await response.json();
-            const dashboard = document.getElementById('dashboard');
-            dashboard.innerHTML = '';
+   async function loadData() {
+    try {
+        // הוספת timestamp כדי למנוע מהדפדפן להשתמש בגרסה ישנה מהזיכרון
+        const response = await fetch('Market_Analysis/scanned_laws.json?t=' + Date.now());
+        if (!response.ok) return;
+        const data = await response.json();
+        const dashboard = document.getElementById('dashboard');
+        dashboard.innerHTML = '';
 
-            for (const [site, info] of Object.entries(data)) {
-                const card = document.createElement('div');
-                card.className = 'col-md-6 col-lg-4';
-                const flaws = info.fix_laws || info.vulnerabilities || [];
+        for (const [site, info] of Object.entries(data)) {
+            const card = document.createElement('div');
+            card.className = 'col-md-6 col-lg-4';
+            
+            // איסוף כל סוגי הפרצות האפשריים מה-JSON
+            const flaws = info.vulnerabilities || info.potential_technical_flaws || info.fix_laws || [];
 
-                card.innerHTML = `
-                    <div class="card shadow-sm mb-4">
-                        <div class="card-body">
-                            <h5 class="text-primary fw-bold">${site}</h5>
-                            <hr>
+            card.innerHTML = `
+                <div class="card shadow-sm mb-4" style="border-left: 5px solid #0d6efd;">
+                    <div class="card-body">
+                        <h5 class="text-primary fw-bold text-truncate">${site}</h5>
+                        <hr>
+                        <div class="flaws-container">
                             ${flaws.slice(0, 3).map(f => `
                                 <div class="mb-3 text-start">
-                                    <strong style="color:#ff7b72">⚠️ ${f.flaw || "Risk"}</strong>
-                                    <div style="background:#090c10; padding:8px; font-size:0.8em; border-radius:4px;">
-                                        ${f.fix?.law || f.fix || "Analyzing..."}
+                                    <strong style="color:#ff7b72; font-size: 0.9em;">⚠️ ${f.flaw || f.flaw_type || f.name || "Security Risk"}</strong>
+                                    <div style="background:#f8f9fa; border: 1px solid #eee; padding:8px; font-size:0.8em; border-radius:4px; color: #333;">
+                                        ${f.description || f.flaw_description || f.fix || "Analyzing vulnerability details..."}
                                     </div>
                                 </div>
                             `).join('')}
                         </div>
-                    </div>`;
-                dashboard.appendChild(card);
-            }
-        } catch (e) { console.log("Data not ready yet"); }
-    }
+                    </div>
+                </div>`;
+            dashboard.appendChild(card);
+        }
+    } catch (e) { console.log("Waiting for data update..."); }
+}
     
     loadData();
     setInterval(loadData, 30000);
