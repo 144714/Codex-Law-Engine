@@ -1,0 +1,59 @@
+{
+  "law_1": {
+    "description": "Prohibiting Direct Image Copy",
+    "parameters": {
+      "action": "copy",
+      "subject": "any user",
+      "object": "images on the website"
+    },
+    "condition": {
+      "if": {
+        "action": "attempted",
+        "user": "any user",
+        "task": "copy images"
+      },
+      "then": {
+        "action": "disable",
+        "process": "copy function"
+      }
+    }
+  },
+  "law_2": {
+    "description": "Prohibiting Image Download",
+    "parameters": {
+      "action": "download",
+      "subject": "any user",
+      "object": "images on the website"
+    },
+    "condition": {
+      "if": {
+        "action": "attempted",
+        "user": "any user",
+        "task": "download images"
+      },
+      "then": {
+        "action": "disable",
+        "process": "download function"
+      }
+    }
+  },
+  "law_3": {
+    "description": "Prohibiting Right Clicks on Images",
+    "parameters": {
+      "action": "right click",
+      "subject": "any user",
+      "object": "images on the website"
+    },
+    "condition": {
+      "if": {
+        "action": "attempted",
+        "user": "any user",
+        "task": "right click on images"
+      },
+      "then": {
+        "action": "disable",
+        "process": "right click function"
+      }
+    }
+  }
+}
