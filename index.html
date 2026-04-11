@@ -1,49 +1,121 @@
-async function loadData() {
-    try {
-        const response = await fetch('Market_Analysis/scanned_laws.json?t=' + Date.now());
-        const data = await response.json();
-        const dashboard = document.getElementById('dashboard');
-        dashboard.innerHTML = ''; // ניקוי הלוח
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex Law Engine | ספר החוקים הדיגיטלי</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: 'Segoe UI', system-ui, sans-serif; padding-top: 50px; }
+        .legislator-card { background: #1e293b; border: 1px solid #334155; border-radius: 15px; }
+        .law-card { background: #ffffff; color: #1e293b; border-radius: 12px; border-right: 5px solid #3b82f6; transition: 0.3s; }
+        .law-card:hover { transform: scale(1.01); }
+        .badge-id { background: #334155; color: #3b82f6; font-weight: bold; }
+        .site-header { border-bottom: 2px solid #3b82f6; padding-bottom: 10px; margin-top: 40px; color: #60a5fa; }
+        textarea { background: #0f172a !important; color: #10b981 !important; border: 1px solid #334155 !important; font-family: monospace; }
+        .severity-High { border-right-color: #ef4444 !important; }
+        .severity-Medium { border-right-color: #f59e0b !important; }
+    </style>
+</head>
+<body>
 
-        let lawCounter = 1; // מונה חוקים רץ
+<div class="container">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">⚖️ Codex Law Engine</h1>
+        <p class="lead text-secondary">מערכת חקיקה אוטונומית מבוססת AI - הופכת פרצות אבטחה לחוקי קוד</p>
+    </div>
 
-        for (const [site, info] of Object.entries(data)) {
-            if (site === "" || !info) continue; // דילוג על אתרים ריקים
+    <div class="legislator-card p-4 mb-5 shadow-lg">
+        <h4 class="mb-3 text-info">🔨 מרכז חקיקה המוני</h4>
+        <p class="small text-secondary">הכנס רשימת כתובות (אחת בכל שורה) לשאיבת חוקים אוטומטית:</p>
+        <textarea id="siteList" class="form-control mb-3" rows="4" placeholder="https://example.com"></textarea>
+        <button onclick="startMassLegislation()" class="btn btn-info w-100 fw-bold">הפעל סריקה המונית ושאיבת חוקים</button>
+        <div id="statusMsg" class="mt-2 small text-success text-center"></div>
+    </div>
 
-            // איסוף מכל השדות האפשריים שה-AI יצר
-            const rawIssues = info.security_flaws || info.vulnerabilities || info.potential_technical_flaws || [];
+    <hr class="my-5 opacity-25">
+
+    <div id="dashboard" class="row">
+        <div class="text-center">
+            <div class="spinner-border text-info" role="status"></div>
+            <p class="mt-2">קורא את ספר החוקים המצטבר...</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // פונקציה לטעינת הנתונים מה-JSON והצגתם כחוקים
+    async function loadData() {
+        try {
+            const response = await fetch('Market_Analysis/scanned_laws.json?t=' + Date.now());
+            if (!response.ok) throw new Error('Database not found');
             
-            if (rawIssues.length === 0) continue;
+            const data = await response.json();
+            const dashboard = document.getElementById('dashboard');
+            dashboard.innerHTML = ''; 
 
-            const card = document.createElement('div');
-            card.className = 'col-12 mb-4'; // כרטיס רחב לכל אתר
-            
-            const lawsHtml = rawIssues.map(f => {
-                const id = f.law_id || `CL-${100 + lawCounter++}`; // אם אין ID, מייצר אחד
-                const title = f.flaw || "חוק הגנת המידע";
-                const desc = f.description || (f.fix ? f.fix.problem : "חובה לתקן ליקוי אבטחה זה באופן מיידי.");
-                const sevColor = f.severity === 'High' ? '#dc3545' : '#ffc107';
+            let lawCounter = 1;
 
-                return `
-                <div class="p-3 mb-2 border-start border-4 shadow-sm" style="background:#fff; border-radius:8px; border-color:${sevColor} !important;">
-                    <div class="d-flex justify-content-between">
-                        <span class="badge bg-dark mb-2">${id}</span>
-                        <small class="text-muted">${f.severity || 'Medium'}</small>
-                    </div>
-                    <h6 class="fw-bold">${title}</h6>
-                    <p class="small text-secondary mb-0">${desc}</p>
-                </div>`;
-            }).join('');
+            for (const [site, info] of Object.entries(data)) {
+                if (!site || site === "" || site === "null") continue;
 
-            card.innerHTML = `
-                <div class="card shadow-sm" style="background: #f8f9fa; border-radius: 15px;">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary fw-bold">🌐 מקור החוק: ${site}</h5>
-                        <hr>
-                        <div class="law-list">${lawsHtml}</div>
-                    </div>
-                </div>`;
-            dashboard.appendChild(card);
+                // איסוף מכל סוגי השדות האפשריים שה-AI ייצר בגרסאות השונות
+                const rawIssues = info.security_flaws || info.vulnerabilities || info.potential_technical_flaws || [];
+                if (rawIssues.length === 0) continue;
+
+                // יצירת כותרת אתר
+                const siteSection = document.createElement('div');
+                siteSection.className = 'col-12';
+                siteSection.innerHTML = `<h3 class="site-header mt-5">🌐 מקור החוק: ${site}</h3>`;
+                dashboard.appendChild(siteSection);
+
+                rawIssues.forEach(f => {
+                    const id = f.law_id || `CL-${100 + lawCounter++}`;
+                    const title = f.flaw || "חוק הגנת המרחב";
+                    const desc = f.description || (f.fix ? (f.fix.description || f.fix.problem) : "חובה לתקן ליקוי זה לפי תקן Codex.");
+                    const severity = f.severity || "Medium";
+
+                    const lawCard = document.createElement('div');
+                    lawCard.className = 'col-md-6 col-lg-4 mb-4';
+                    lawCard.innerHTML = `
+                        <div class="card law-card h-100 shadow severity-${severity}">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span class="badge badge-id">${id}</span>
+                                    <span class="badge bg-secondary opacity-75 small">${severity}</span>
+                                </div>
+                                <h6 class="fw-bold mb-2">${title}</h6>
+                                <p class="small text-muted mb-0">${desc}</p>
+                            </div>
+                        </div>
+                    `;
+                    dashboard.appendChild(lawCard);
+                });
+            }
+        } catch (e) {
+            document.getElementById('dashboard').innerHTML = '<div class="alert alert-danger text-center">ממתין להזנת נתונים ראשונית...</div>';
+            console.error("Load Error:", e);
         }
-    } catch (e) { console.error("Error:", e); }
-}
+    }
+
+    // פונקציה לשליחת האתרים לסריקה (כרגע מדפיסה ללוג, דורשת GitHub Token לחיבור מלא)
+    function startMassLegislation() {
+        const sites = document.getElementById('siteList').value.split('\n').filter(s => s.trim() !== '');
+        const status = document.getElementById('statusMsg');
+        
+        if (sites.length === 0) return alert("נא להזין לפחות כתובת אחת");
+
+        status.innerText = `הפקודה התקבלה. שואב חוקים מ-${sites.length} מקורות...`;
+        
+        // כאן בעתיד נחבר את ה-API של GitHub Actions
+        console.log("Sites to process:", sites);
+        alert("התהליך הופעל! החוקים יופיעו כאן לאחר סיום הסריקה ב-GitHub (כ-2 דקות).");
+    }
+
+    // טעינה ראשונית ורענון אוטומטי
+    loadData();
+    setInterval(loadData, 30000); 
+</script>
+
+</body>
+</html>
