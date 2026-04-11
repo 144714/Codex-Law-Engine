@@ -1,0 +1,18 @@
+{
+  "startup_laws": [
+    {
+      "id": "LAW_001",
+      "name": "חוק המהירות",
+      "condition": "action_time < 1s",
+      "action": "allow",
+      "else": "block_and_alert"
+    },
+    {
+      "id": "LAW_002",
+      "name": "חוק העזרה",
+      "condition": "user_stuck == true",
+      "action": "show_support_button",
+      "description": "אם המשתמש נתקע, תמיד להראות לו כפתור עזרה"
+    }
+  ]
+}
