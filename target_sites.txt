@@ -1,0 +1,5 @@
+google.com
+facebook.com
+amazon.com
+ynet.co.il
+mako.co.il
