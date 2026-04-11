@@ -15,10 +15,19 @@ def run():
     client = openai.OpenAI(api_key=api_key)
 
     try:
-        print("🤖 Sending request to OpenAI...")
+      print("⚖️ Formulating New Laws for the Codex...")
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=[{"role": "user", "content": f"Analyze security flaws for {target_site} and return JSON only."}]
+            model="gpt-4-turbo-preview", # או gpt-3.5-turbo
+            messages=[{
+                "role": "system", 
+                "content": "You are the Chief Legislator of the Codex Law Engine. Your job is to scan websites and derive universal digital laws from their failures. Return ONLY a JSON object."
+            },
+            {
+                "role": "user", 
+                "content": f"Analyze {target_site}. For every security flaw or technical failure found, formulate a formal Digital Law. "
+                           f"The output must be a list under the key 'security_flaws'. "
+                           f"Each item must have: 'law_id' (e.g., CL-10x), 'flaw' (The law name), 'description' (The formal law text), and 'severity'."
+            }]
         )
         
         raw_result = response.choices[0].message.content
