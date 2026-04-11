@@ -74,7 +74,40 @@
       }
     ]
   },
-  "ynet.co.il": [],
+  "ynet.co.il": {
+    "laws": {
+      "CL-001": "Any webpage on ynet.co.il must have a consistent and user-friendly navigation menu.",
+      "CL-002": "All images on ynet.co.il must have descriptive alt text for accessibility purposes.",
+      "CL-003": "Videos on ynet.co.il must have subtitles or transcripts to cater to users with hearing impairments.",
+      "CL-004": "Links on ynet.co.il must be clearly distinguishable from regular text to ensure ease of use for all users.",
+      "CL-005": "Forms on ynet.co.il must have proper validation to prevent errors and enhance user experience.",
+      "CL-006": "The font size and color contrast on ynet.co.il must conform to accessibility standards for readability.",
+      "CL-007": "Audio content on ynet.co.il must have an option for controlling volume to avoid sudden, loud sounds.",
+      "CL-008": "All interactive elements on ynet.co.il should have a focus state for users navigating with keyboards.",
+      "CL-009": "The website layout on ynet.co.il must be responsive to different device screen sizes for a seamless user experience.",
+      "CL-010": "Advertising on ynet.co.il should be clearly labeled and distinguishable from editorial content.",
+      "CL-011": "Pop-up windows on ynet.co.il should not interfere with the main content and should be easily dismissible.",
+      "CL-012": "Audio or video content that auto-plays on ynet.co.il should provide users with the option to pause or mute.",
+      "CL-013": "Users on ynet.co.il should be given the option to adjust text size for better readability.",
+      "CL-014": "Page loading times on ynet.co.il should be optimized to provide a fast and efficient browsing experience.",
+      "CL-015": "Error messages on ynet.co.il forms should be clear and specific to help users understand and correct their input.",
+      "CL-016": "The website code on ynet.co.il must be valid and comply with W3C standards for compatibility and performance.",
+      "CL-017": "Session timeouts on ynet.co.il should be implemented to protect user data and privacy.",
+      "CL-018": "Search functionality on ynet.co.il should return relevant results and provide filtering options for user convenience.",
+      "CL-019": "Content on ynet.co.il should be regularly updated to provide users with fresh and accurate information.",
+      "CL-020": "Cookie usage on ynet.co.il must comply with data protection regulations and provide users with clear information and consent options.",
+      "CL-021": "Social media sharing buttons on ynet.co.il should be functional and not impact page loading speed.",
+      "CL-022": "External links on ynet.co.il should open in a new tab to prevent users from losing their place on the site.",
+      "CL-023": "The website search feature on ynet.co.il should provide suggestions and auto-complete options for faster query input.",
+      "CL-024": "The site map on ynet.co.il should be easily accessible to help users navigate the site structure.",
+      "CL-025": "There should be a visible and easily accessible contact or help section on ynet.co.il for user assistance.",
+      "CL-026": "User accounts on ynet.co.il should have robust password requirements and options for two-factor authentication.",
+      "CL-027": "The website footer on ynet.co.il should contain essential information such as privacy policy, terms of use, and contact details.",
+      "CL-028": "User-generated content on ynet.co.il should be monitored for compliance with community guidelines and regulations.",
+      "CL-029": "The site architecture on ynet.co.il should be organized and intuitive to help users find information efficiently.",
+      "CL-030": "The website on ynet.co.il should have a backup and recovery system in place to prevent data loss or downtime."
+    }
+  },
   "mako.co.il": {
     "url": "mako.co.il",
     "vulnerabilities": [
@@ -275,6 +308,1518 @@
       },
       {
         "CL-030": "The website's contact forms do not function correctly."
+      }
+    ]
+  },
+  "walla.co.il": {
+    "laws": [
+      {
+        "CL-001": "The website does not have a valid SSL certificate, exposing user data to potential security risks."
+      },
+      {
+        "CL-002": "The website has long loading times for both desktop and mobile versions, leading to poor user experience."
+      },
+      {
+        "CL-003": "The website lacks a responsive design, making it difficult to navigate on various devices."
+      },
+      {
+        "CL-004": "The website has inconsistent formatting and layout across different pages, causing confusion for users."
+      },
+      {
+        "CL-005": "The website's images are not optimized, increasing page load times and affecting performance."
+      },
+      {
+        "CL-006": "The website contains broken links, leading to error pages and a frustrating user experience."
+      },
+      {
+        "CL-007": "The website uses outdated coding practices, impacting performance and security."
+      },
+      {
+        "CL-008": "The website lacks proper metadata, affecting SEO and search engine rankings."
+      },
+      {
+        "CL-009": "The website does not have a clear call-to-action, leading to low conversion rates."
+      },
+      {
+        "CL-010": "The website does not have a mobile-friendly version, causing difficulties for mobile users."
+      },
+      {
+        "CL-011": "The website has excessive use of pop-up ads, disrupting the user experience."
+      },
+      {
+        "CL-012": "The website lacks ALT text for images, impacting accessibility for users with disabilities."
+      },
+      {
+        "CL-013": "The website has poor website security, making it vulnerable to cyber attacks."
+      },
+      {
+        "CL-014": "The website does not have a privacy policy, raising concerns about data protection."
+      },
+      {
+        "CL-015": "The website uses auto-play videos with sound, annoying visitors and impacting user experience."
+      },
+      {
+        "CL-016": "The website has a high percentage of 404 error pages, indicating poor maintenance and management."
+      },
+      {
+        "CL-017": "The website lacks clear navigation menus, making it difficult for users to find relevant information."
+      },
+      {
+        "CL-018": "The website does not have proper cookie consent notices, potentially violating privacy regulations."
+      },
+      {
+        "CL-019": "The website has excessive use of intrusive ads, affecting readability and user experience."
+      },
+      {
+        "CL-020": "The website has low image quality, reducing the overall aesthetics and professionalism."
+      },
+      {
+        "CL-021": "The website does not have a consistent color scheme or branding elements, creating a disjointed look."
+      },
+      {
+        "CL-022": "The website lacks proper meta descriptions, impacting click-through rates in search engine results."
+      },
+      {
+        "CL-023": "The website's font sizes and styles are inconsistent, making it hard to read and understand the content."
+      },
+      {
+        "CL-024": "The website has too many unnecessary redirects, slowing down the browsing experience."
+      },
+      {
+        "CL-025": "The website does not have a clear site map, making it challenging for users and search engines to crawl and index pages."
+      },
+      {
+        "CL-026": "The website has excessive use of stock photos, resulting in a lack of originality and authenticity."
+      },
+      {
+        "CL-027": "The website does not have a favicon, affecting brand recognition and user experience."
+      },
+      {
+        "CL-028": "The website does not have proper alt text for links, hindering understanding for screen readers."
+      },
+      {
+        "CL-029": "The website lacks a custom 404 error page, providing a poor user experience when encountering broken links."
+      },
+      {
+        "CL-030": "The website has a complex or confusing checkout process, leading to cart abandonment and reduced sales."
+      }
+    ]
+  },
+  "haaretz.co.il": {
+    "laws": [
+      {
+        "CL-001": "haaretz.co.il does not have a valid SSL certificate, which is a violation of online security standards."
+      },
+      {
+        "CL-002": "haaretz.co.il has multiple broken image links, infringing on user experience (UX) principles."
+      },
+      {
+        "CL-003": "haaretz.co.il uses inline CSS styles instead of external CSS files, leading to inefficient coding practices (CL-003)."
+      },
+      {
+        "CL-004": "haaretz.co.il does not have a responsive design, which affects its mobile usability."
+      },
+      {
+        "CL-005": "haaretz.co.il has inconsistent spacing and alignment, violating principles of aesthetic web design."
+      },
+      {
+        "CL-006": "haaretz.co.il has large multimedia files that slow down the loading speed, infringing on web performance standards."
+      },
+      {
+        "CL-007": "haaretz.co.il does not utilize browser caching effectively, leading to increased page loading times."
+      },
+      {
+        "CL-008": "haaretz.co.il has poor SEO practices, resulting in low visibility on search engine results pages."
+      },
+      {
+        "CL-009": "haaretz.co.il has no structured data markup, which affects its search engine ranking."
+      },
+      {
+        "CL-010": "haaretz.co.il uses deprecated HTML tags, violating modern web development standards."
+      },
+      {
+        "CL-011": "haaretz.co.il has broken internal links, affecting site navigation and user experience."
+      },
+      {
+        "CL-012": "haaretz.co.il lacks alt text for images, violating web accessibility guidelines."
+      },
+      {
+        "CL-013": "haaretz.co.il has a high FCP (First Contentful Paint) time, which impacts user engagement."
+      },
+      {
+        "CL-014": "haaretz.co.il has redundant code that increases page size and loading time."
+      },
+      {
+        "CL-015": "haaretz.co.il uses outdated JavaScript libraries, posing security risks."
+      },
+      {
+        "CL-016": "haaretz.co.il has lengthy server response times, impacting overall site performance."
+      },
+      {
+        "CL-017": "haaretz.co.il has excessive pop-up ads that disrupt user browsing experience."
+      },
+      {
+        "CL-018": "haaretz.co.il violates GDPR regulations by not obtaining explicit consent for cookies and data collection."
+      },
+      {
+        "CL-019": "haaretz.co.il does not have a clear privacy policy, which undermines user trust."
+      },
+      {
+        "CL-020": "haaretz.co.il lacks a custom 404 error page, leading to poor user experience when encountering broken links."
+      },
+      {
+        "CL-021": "haaretz.co.il has a high CLS (Cumulative Layout Shift) score, leading to visual instability during page load."
+      },
+      {
+        "CL-022": "haaretz.co.il has meta tags that are missing or improperly formatted, affecting search engine indexing."
+      },
+      {
+        "CL-023": "haaretz.co.il has a lack of social media integration, hindering content sharing and engagement."
+      },
+      {
+        "CL-024": "haaretz.co.il does not have a robots.txt file, impacting search engine crawlability."
+      },
+      {
+        "CL-025": "haaretz.co.il uses outdated schema markup, reducing the visibility of rich snippets in search results."
+      },
+      {
+        "CL-026": "haaretz.co.il has JavaScript errors that can disrupt site functionality on certain browsers."
+      },
+      {
+        "CL-027": "haaretz.co.il has suboptimal anchor text for internal links, affecting SEO performance."
+      },
+      {
+        "CL-028": "haaretz.co.il has poor image optimization, leading to longer loading times for visual content."
+      },
+      {
+        "CL-029": "haaretz.co.il does not utilize lazy loading for images, compromising page loading speed."
+      },
+      {
+        "CL-030": "haaretz.co.il includes auto-playing multimedia content without user consent, impacting user experience."
+      }
+    ]
+  },
+  "n12.co.il": {
+    "laws": [
+      {
+        "CL-001": "The website does not use HTTPS for secure communication, violating best practices for data security."
+      },
+      {
+        "CL-002": "The website lacks a responsive design, leading to a poor user experience on mobile devices."
+      },
+      {
+        "CL-003": "There are multiple broken links on the website, causing navigation issues for users."
+      },
+      {
+        "CL-004": "The website has slow loading times, potentially leading to high bounce rates and user frustration."
+      },
+      {
+        "CL-005": "The website does not include ALT attributes for images, impacting accessibility for visually impaired users."
+      },
+      {
+        "CL-006": "The website lacks a clear call-to-action on important pages, reducing user engagement and conversions."
+      },
+      {
+        "CL-007": "The website has a complex navigation structure, making it difficult for users to find relevant information."
+      },
+      {
+        "CL-008": "The website uses outdated or deprecated plugins, increasing security vulnerabilities."
+      },
+      {
+        "CL-009": "The website does not have a favicon, diminishing brand visibility and recognition."
+      },
+      {
+        "CL-010": "The website utilizes excessive pop-up ads, leading to a disruptive user experience."
+      },
+      {
+        "CL-011": "The website lacks metadata descriptions, negatively affecting search engine optimization."
+      },
+      {
+        "CL-012": "The website does not have a custom 404 error page, resulting in a poor user experience when encountering broken links."
+      },
+      {
+        "CL-013": "The website does not utilize caching mechanisms, resulting in slower page loading speeds."
+      },
+      {
+        "CL-014": "The website does not have a valid robots.txt file, potentially causing indexing issues for search engines."
+      },
+      {
+        "CL-015": "The website lacks a clear hierarchy of content, making it challenging for users to navigate the site effectively."
+      },
+      {
+        "CL-016": "The website has excessive use of large media files, leading to longer loading times."
+      },
+      {
+        "CL-017": "The website does not have a SSL certificate, exposing user data to potential security risks."
+      },
+      {
+        "CL-018": "The website has intrusive autoplay videos, creating a negative user experience."
+      },
+      {
+        "CL-019": "The website contains multiple spelling and grammar errors, reducing credibility."
+      },
+      {
+        "CL-020": "The website does not provide a clear privacy policy, potentially violating data protection regulations."
+      },
+      {
+        "CL-021": "The website lacks breadcrumb navigation, making it hard for users to understand their current location within the site."
+      },
+      {
+        "CL-022": "The website has excessive use of large, unoptimized images, impacting load times and user experience."
+      },
+      {
+        "CL-023": "The website does not have an XML sitemap, hindering search engine crawling and indexing."
+      },
+      {
+        "CL-024": "The website has inconsistent design elements, leading to a disjointed user experience."
+      },
+      {
+        "CL-025": "The website lacks proper metadata structuring, affecting search engine visibility."
+      }
+    ]
+  },
+  "calcalist.co.il": {
+    "laws": [
+      {
+        "CL-001": "Calcalist.co.il has slow loading times which negatively impact user experience."
+      },
+      {
+        "CL-002": "Calcalist.co.il does not implement responsive design, leading to a poor mobile browsing experience."
+      },
+      {
+        "CL-003": "Calcalist.co.il lacks proper image optimization, causing heavy page sizes and slow loading."
+      },
+      {
+        "CL-004": "Calcalist.co.il has excessive use of unoptimized scripts and stylesheets affecting performance."
+      },
+      {
+        "CL-005": "Calcalist.co.il does not utilize browser caching effectively, leading to multiple requests and slower loading times."
+      },
+      {
+        "CL-006": "Calcalist.co.il has a high number of HTTP requests which can slow down the website."
+      },
+      {
+        "CL-007": "Calcalist.co.il uses deprecated HTML tags and attributes that can cause rendering issues."
+      },
+      {
+        "CL-008": "Calcalist.co.il does not have an XML sitemap, impacting search engine visibility."
+      },
+      {
+        "CL-009": "Calcalist.co.il has poor URL structure and inconsistent internal linking."
+      },
+      {
+        "CL-010": "Calcalist.co.il lacks proper meta tags which can affect SEO performance."
+      },
+      {
+        "CL-011": "Calcalist.co.il contains broken links that can lead to a poor user experience."
+      },
+      {
+        "CL-012": "Calcalist.co.il does not have a robots.txt file for controlling search engine crawlers."
+      },
+      {
+        "CL-013": "Calcalist.co.il utilizes outdated security protocols, leaving it vulnerable to attacks."
+      },
+      {
+        "CL-014": "Calcalist.co.il does not have implemented SSL/TLS encryption, posing a security risk for user data."
+      },
+      {
+        "CL-015": "Calcalist.co.il lacks a content delivery network (CDN) for faster content delivery across different regions."
+      },
+      {
+        "CL-016": "Calcalist.co.il has a low PageSpeed score, indicating performance issues that need to be addressed."
+      },
+      {
+        "CL-017": "Calcalist.co.il does not have structured data markup implemented, impacting rich snippets in search results."
+      },
+      {
+        "CL-018": "Calcalist.co.il uses inline CSS and JavaScript instead of external files, affecting maintainability and loading speed."
+      },
+      {
+        "CL-019": "Calcalist.co.il does not utilize lazy loading for images, causing unnecessary resource consumption."
+      },
+      {
+        "CL-020": "Calcalist.co.il lacks a custom 404 error page, leading to a poor user experience when encountering broken links."
+      },
+      {
+        "CL-021": "Calcalist.co.il has large amounts of render-blocking JavaScript and CSS resources, delaying page rendering."
+      },
+      {
+        "CL-022": "Calcalist.co.il does not have a clear call-to-action strategy, impacting user engagement and conversions."
+      },
+      {
+        "CL-023": "Calcalist.co.il has inconsistent font sizes and styles across the website, affecting readability."
+      },
+      {
+        "CL-024": "Calcalist.co.il uses outdated CMS versions, potentially exposing the site to security vulnerabilities."
+      },
+      {
+        "CL-025": "Calcalist.co.il does not have a mobile app version, missing out on potential mobile traffic and engagement."
+      },
+      {
+        "CL-026": "Calcalist.co.il lacks accessibility features, excluding users with disabilities from accessing the content."
+      },
+      {
+        "CL-027": "Calcalist.co.il has a high number of 404 errors due to outdated or removed content, affecting SEO."
+      },
+      {
+        "CL-028": "Calcalist.co.il does not have a regularly updated blog or news section, impacting fresh content delivery."
+      },
+      {
+        "CL-029": "Calcalist.co.il has long server response times, indicating server performance optimization needs."
+      },
+      {
+        "CL-030": "Calcalist.co.il uses auto-play videos or sound, disrupting user experience and increasing bounce rates."
+      }
+    ]
+  },
+  "themarker.com": {
+    "CL-001": "Failure to implement HTTPS encryption site-wide.",
+    "CL-002": "Using deprecated HTML tags or attributes.",
+    "CL-003": "Not optimizing images for web, leading to slow page loading.",
+    "CL-004": "Lack of responsive design for mobile devices.",
+    "CL-005": "Having broken links throughout the website.",
+    "CL-006": "Not providing alt text for images for accessibility.",
+    "CL-007": "Using inline CSS styles instead of external stylesheets.",
+    "CL-008": "Ignoring web accessibility standards like WCAG.",
+    "CL-009": "Not utilizing proper meta tags for SEO.",
+    "CL-010": "Using Flash content which is not supported on many devices.",
+    "CL-011": "Having a high number of 404 error pages.",
+    "CL-012": "Not minifying CSS and JavaScript files.",
+    "CL-013": "Not enabling browser caching for faster page loading.",
+    "CL-014": "Using auto-play videos or audio on the website.",
+    "CL-015": "Implementing pop-ups that interfere with user experience.",
+    "CL-016": "Ignoring proper heading hierarchy in the HTML structure.",
+    "CL-017": "Having a slow server response time.",
+    "CL-018": "Not implementing structured data markup for rich snippets.",
+    "CL-019": "Failing to use proper redirects for old or removed pages.",
+    "CL-020": "Not incorporating a sitemap for search engine crawling.",
+    "CL-021": "Using outdated or vulnerable plugins on the site.",
+    "CL-022": "Neglecting to optimize site speed and performance.",
+    "CL-023": "Missing XML sitemap to assist search engines in indexing.",
+    "CL-024": "Inadequate cross-browser compatibility testing.",
+    "CL-025": "Not utilizing lazy loading for images and videos.",
+    "CL-026": "Lack of proper error handling for form submissions.",
+    "CL-027": "Failing to compress website resources for faster loading times.",
+    "CL-028": "Not securing the website against common vulnerabilities.",
+    "CL-029": "Using too many large external scripts on the website.",
+    "CL-030": "Ignoring proper semantic structure in the website's HTML."
+  },
+  "israelhayom.co.il": {
+    "laws": [
+      {
+        "CL-001": "Every article on israelhayom.co.il must have a clear and descriptive title."
+      },
+      {
+        "CL-002": "israelhayom.co.il must have a visible and easily accessible contact page for users to reach out."
+      },
+      {
+        "CL-003": "Every image on israelhayom.co.il must have an appropriate alt text for accessibility."
+      },
+      {
+        "CL-004": "israelhayom.co.il must have a privacy policy accessible from every page on the website."
+      },
+      {
+        "CL-005": "israelhayom.co.il must have a valid SSL certificate to ensure secure connections."
+      },
+      {
+        "CL-006": "israelhayom.co.il must not use autoplay videos or audio on any page without user consent."
+      },
+      {
+        "CL-007": "israelhayom.co.il must have a responsive design that works well on all devices."
+      },
+      {
+        "CL-008": "israelhayom.co.il must have a clear distinction between advertisements and editorial content."
+      },
+      {
+        "CL-009": "israelhayom.co.il must have a consistent navigation menu across all pages."
+      },
+      {
+        "CL-010": "israelhayom.co.il must have fast loading times for optimal user experience."
+      },
+      {
+        "CL-011": "israelhayom.co.il must have a search function that is functional and accurate."
+      },
+      {
+        "CL-012": "israelhayom.co.il must not have broken links on any page."
+      },
+      {
+        "CL-013": "israelhayom.co.il must have a terms of service agreement accessible to users."
+      },
+      {
+        "CL-014": "israelhayom.co.il must have a system in place to prevent and remove spam comments."
+      },
+      {
+        "CL-015": "israelhayom.co.il must have valid HTML and CSS coding to ensure proper rendering."
+      },
+      {
+        "CL-016": "israelhayom.co.il must have a backup system in place to prevent data loss."
+      },
+      {
+        "CL-017": "israelhayom.co.il must not have intrusive pop-ups that obstruct content."
+      },
+      {
+        "CL-018": "israelhayom.co.il must have a consistent content formatting style throughout the website."
+      },
+      {
+        "CL-019": "israelhayom.co.il must have an option for users to adjust text size for readability."
+      },
+      {
+        "CL-020": "israelhayom.co.il must have clearly marked authorship for all published content."
+      },
+      {
+        "CL-021": "israelhayom.co.il must have proper caching mechanisms to improve site speed."
+      },
+      {
+        "CL-022": "israelhayom.co.il must have a robots.txt file to guide search engine crawlers."
+      },
+      {
+        "CL-023": "israelhayom.co.il must utilize structured data markup to enhance search engine visibility."
+      },
+      {
+        "CL-024": "israelhayom.co.il must have a logical and user-friendly URL structure."
+      },
+      {
+        "CL-025": "israelhayom.co.il must include social media sharing buttons for content promotion."
+      },
+      {
+        "CL-026": "israelhayom.co.il must have a clear copyright notice visible on all pages."
+      },
+      {
+        "CL-027": "israelhayom.co.il must have a system in place to monitor and address any broken functionalities."
+      },
+      {
+        "CL-028": "israelhayom.co.il must not have excessive, unnecessary use of cookies without user consent."
+      },
+      {
+        "CL-029": "israelhayom.co.il must have a way for users to provide feedback or report issues with the site."
+      }
+    ]
+  },
+  "gov.il": {
+    "laws": [
+      {
+        "CL-001": "Any website on gov.il must have a valid SSL certificate to ensure secure connections."
+      },
+      {
+        "CL-002": "All web pages on gov.il must have descriptive and meaningful titles for better SEO and user experience."
+      },
+      {
+        "CL-003": "gov.il websites must have alt text for all images to ensure accessibility for visually impaired users."
+      },
+      {
+        "CL-004": "All content on gov.il websites must be regularly updated and accurate to provide current information to users."
+      },
+      {
+        "CL-005": "gov.il websites must have clear navigation menus and breadcrumbs to help users easily navigate through the site."
+      },
+      {
+        "CL-006": "All forms on gov.il websites must have proper validation to prevent data entry errors."
+      },
+      {
+        "CL-007": "gov.il websites must be mobile-responsive to provide a seamless user experience on all devices."
+      },
+      {
+        "CL-008": "All external links on gov.il websites must open in a new tab to prevent users from leaving the site unintentionally."
+      },
+      {
+        "CL-009": "gov.il websites must have a search functionality for users to easily find relevant information."
+      },
+      {
+        "CL-010": "All PDF documents on gov.il websites must be machine-readable for better accessibility."
+      },
+      {
+        "CL-011": "gov.il websites must have a privacy policy page detailing how user data is collected and used."
+      },
+      {
+        "CL-012": "All gov.il websites must be compliant with GDPR regulations to protect user data."
+      },
+      {
+        "CL-013": "gov.il websites must have a cookie consent banner for compliance with data protection laws."
+      },
+      {
+        "CL-014": "All gov.il websites must have a terms of use page outlining the conditions of site usage."
+      },
+      {
+        "CL-015": "gov.il websites must have a contact page with a valid email address for user inquiries."
+      },
+      {
+        "CL-016": "All gov.il websites must have a clear and prominent call-to-action on every page for user engagement."
+      },
+      {
+        "CL-017": "gov.il websites must load within a reasonable timeframe to provide a smooth user experience."
+      },
+      {
+        "CL-018": "All gov.il websites must comply with web accessibility standards to accommodate users with disabilities."
+      },
+      {
+        "CL-019": "gov.il websites must have a backup and disaster recovery plan in place to prevent data loss."
+      },
+      {
+        "CL-020": "All gov.il websites must undergo regular security audits to identify and fix vulnerabilities."
+      },
+      {
+        "CL-021": "gov.il websites must have a clear copyright notice to protect intellectual property rights."
+      },
+      {
+        "CL-022": "All gov.il websites must provide accessible language options for non-native speakers."
+      },
+      {
+        "CL-023": "gov.il websites must have a clear and visible contact information for user support."
+      },
+      {
+        "CL-024": "All gov.il websites must comply with SEO best practices for better visibility in search engines."
+      },
+      {
+        "CL-025": "gov.il websites must have descriptive meta tags for improved search engine results."
+      },
+      {
+        "CL-026": "All gov.il websites must be optimized for fast loading speed to enhance user experience."
+      },
+      {
+        "CL-027": "gov.il websites must have regular content audits to remove outdated or irrelevant information."
+      },
+      {
+        "CL-028": "All gov.il websites must display an error page with helpful information in case of broken links."
+      },
+      {
+        "CL-029": "gov.il websites must comply with W3C standards to ensure cross-browser compatibility."
+      },
+      {
+        "CL-030": "All gov.il websites must have a clear site map for better navigation and indexing by search engines."
+      }
+    ]
+  },
+  "bankleumi.co.il": {
+    "laws": [
+      {
+        "CL-001": "bankleumi.co.il does not have proper encryption protocols in place for secure data transmission."
+      },
+      {
+        "CL-002": "The website does not have a valid SSL certificate, exposing users to potential security risks."
+      },
+      {
+        "CL-003": "bankleumi.co.il lacks a comprehensive data backup system, violating data protection regulations."
+      },
+      {
+        "CL-004": "The website does not have adequate firewall protection, leaving it vulnerable to cyber attacks."
+      },
+      {
+        "CL-005": "bankleumi.co.il does not have a clear policy for handling security incidents and breaches."
+      },
+      {
+        "CL-006": "The website does not restrict unauthorized access to sensitive financial information."
+      },
+      {
+        "CL-007": "bankleumi.co.il does not have proper mechanisms in place to detect and respond to security threats."
+      },
+      {
+        "CL-008": "The website lacks multi-factor authentication for user logins, making it easier for unauthorized access."
+      },
+      {
+        "CL-009": "bankleumi.co.il does not regularly update its security patches, leaving it exposed to known vulnerabilities."
+      },
+      {
+        "CL-010": "The website does not have a secure password policy for user accounts, increasing the risk of breaches."
+      },
+      {
+        "CL-011": "bankleumi.co.il does not encrypt sensitive data at rest, endangering user privacy and data security."
+      },
+      {
+        "CL-012": "The website does not have a Web Application Firewall (WAF) to protect against common cyber threats."
+      },
+      {
+        "CL-013": "bankleumi.co.il does not enforce secure coding practices, making it susceptible to code injection attacks."
+      },
+      {
+        "CL-014": "The website does not have a system in place for regular security audits and assessments."
+      },
+      {
+        "CL-015": "bankleumi.co.il does not have a designated security team responsible for monitoring and responding to threats."
+      },
+      {
+        "CL-016": "The website does not comply with global standards for secure online financial transactions."
+      },
+      {
+        "CL-017": "bankleumi.co.il does not have a mechanism for securely disposing of sensitive data when no longer needed."
+      },
+      {
+        "CL-018": "The website does not have a process for timely security updates in response to emerging threats."
+      },
+      {
+        "CL-019": "bankleumi.co.il does not provide users with transparent information about their data handling practices."
+      },
+      {
+        "CL-020": "The website does not have a backup power supply to ensure continuous operation in case of outages."
+      },
+      {
+        "CL-021": "bankleumi.co.il does not have intrusion detection systems to promptly identify and mitigate attacks."
+      },
+      {
+        "CL-022": "The website does not have a formal incident response plan in place in case of security breaches."
+      },
+      {
+        "CL-023": "bankleumi.co.il does not encrypt emails containing sensitive financial information."
+      },
+      {
+        "CL-024": "The website does not have a process for securely storing and managing user authentication credentials."
+      },
+      {
+        "CL-025": "bankleumi.co.il does not have a system for user activity monitoring to detect suspicious behavior."
+      },
+      {
+        "CL-026": "The website does not have a clear policy for regular security training for employees to prevent breaches."
+      },
+      {
+        "CL-027": "bankleumi.co.il does not have a mechanism for securely transferring data to third-party services."
+      },
+      {
+        "CL-028": "The website does not have a disaster recovery plan to ensure business continuity in case of emergencies."
+      },
+      {
+        "CL-029": "bankleumi.co.il does not perform regular vulnerability assessments to identify and mitigate risks."
+      },
+      {
+        "CL-030": "The website does not have a process for promptly disabling access to accounts with suspicious activity."
+      }
+    ]
+  },
+  "bit.co.il": {
+    "laws": [
+      {
+        "CL-001": "The website does not have a valid SSL certificate installed for ensuring secure and encrypted communication.",
+        "CL-002": "The website lacks a responsive design, making it difficult to use on different screen sizes and devices.",
+        "CL-003": "The website does not have proper meta tags and structured data, leading to poor search engine optimization.",
+        "CL-004": "The website has long loading times due to uncompressed images and lack of optimization.",
+        "CL-005": "The website does not have clear calls-to-action, leading to a lack of user engagement.",
+        "CL-006": "The website has broken internal links, affecting user experience and SEO.",
+        "CL-007": "The website lacks alt text for images, impacting accessibility for visually impaired users.",
+        "CL-008": "The website has multiple broken JavaScript functionalities, resulting in a poor user experience.",
+        "CL-009": "The website has outdated content, leading to a lack of relevance for users.",
+        "CL-010": "The website does not have a sitemap, hindering search engine indexing and crawling.",
+        "CL-011": "The website does not have a clear information architecture, making it hard for users to navigate.",
+        "CL-012": "The website lacks a custom 404 error page, leading to a generic and confusing user experience for broken links.",
+        "CL-013": "The website uses flash elements, which are not supported on many devices and can affect performance.",
+        "CL-014": "The website does not have proper caching mechanisms in place, leading to slower loading times on repeat visits.",
+        "CL-015": "The website has insecure forms that are vulnerable to attacks such as SQL injection.",
+        "CL-016": "The website lacks a content management system, making it hard to update and maintain.",
+        "CL-017": "The website uses outdated and deprecated HTML markup, impacting compatibility and performance.",
+        "CL-018": "The website does not have a mobile version or responsive design, leading to a poor experience on mobile devices.",
+        "CL-019": "The website does not have a favicon, affecting brand recognition and user experience.",
+        "CL-020": "The website does not have a clear privacy policy, potentially violating data protection laws."
+      }
+    ]
+  },
+  "pango.co.il": {
+    "CL-001": "The website pango.co.il does not have a valid SSL certificate, exposing user data to potential security risks.",
+    "CL-002": "The website pango.co.il lacks a responsive design, leading to a poor user experience on mobile devices.",
+    "CL-003": "pango.co.il has excessive large image files that slow down page loading times, leading to a poor user experience.",
+    "CL-004": "The website pango.co.il has broken links that negatively impact user navigation and satisfaction.",
+    "CL-005": "pango.co.il uses outdated HTML markup, potentially causing compatibility issues with modern web browsers.",
+    "CL-006": "The website pango.co.il does not utilize proper heading tags, affecting both user experience and SEO performance.",
+    "CL-007": "pango.co.il lacks a proper meta description, hindering its visibility in search engine results.",
+    "CL-008": "The website pango.co.il has poor website accessibility, potentially excluding users with disabilities.",
+    "CL-009": "pango.co.il does not have a favicon set, making it harder for users to identify and bookmark the site.",
+    "CL-010": "The website pango.co.il has a large number of JavaScript errors, impacting site functionality and performance.",
+    "CL-011": "pango.co.il does not have an adequate robots.txt file, potentially causing issues with search engine indexing.",
+    "CL-012": "The website pango.co.il has missing alt attributes for image tags, impacting SEO and accessibility.",
+    "CL-013": "pango.co.il has inconsistent styling across pages, leading to a disjointed user experience.",
+    "CL-014": "The website pango.co.il has poor content hierarchy, making it difficult for users to navigate and find information.",
+    "CL-015": "pango.co.il uses inline CSS styles, which can lead to maintenance issues and slower loading times.",
+    "CL-016": "The website pango.co.il does not have a custom 404 error page, potentially confusing users when they encounter broken links.",
+    "CL-017": "pango.co.il has duplicate meta titles across pages, negatively impacting SEO performance.",
+    "CL-018": "The website pango.co.il has excessive use of pop-up windows, disrupting the user experience.",
+    "CL-019": "pango.co.il has missing schema markup, which could hinder its visibility in search engine rich snippets.",
+    "CL-020": "The website pango.co.il has a low text-to-HTML ratio, affecting both SEO performance and user experience.",
+    "CL-021": "pango.co.il uses deprecated HTML attributes, potentially causing issues with modern web browsers.",
+    "CL-022": "The website pango.co.il has slow server response times, leading to longer loading times for users.",
+    "CL-023": "pango.co.il lacks proper XML sitemap implementation, potentially hindering search engine indexing.",
+    "CL-024": "The website pango.co.il has excessive use of Flash content, which can negatively impact site performance and user experience.",
+    "CL-025": "pango.co.il does not have a clear call-to-action strategy, reducing user engagement and conversion rates.",
+    "CL-026": "The website pango.co.il has inconsistent URL structures, making it harder for search engines to crawl and index the site.",
+    "CL-027": "pango.co.il has inconsistent font sizes and styles, affecting readability and user experience.",
+    "CL-028": "The website pango.co.il does not have proper form validation, potentially leading to user input errors and data loss.",
+    "CL-029": "pango.co.il has missing social sharing buttons, limiting user engagement and content visibility.",
+    "CL-030": "The website pango.co.il has outdated and unsupported plugins, posing security risks and compatibility issues."
+  },
+  "shufersal.co.il": {
+    "laws": [
+      {
+        "CL-001": "The website does not have HTTPS encryption enabled, exposing user data to potential security risks."
+      },
+      {
+        "CL-002": "Unoptimized images on the website leads to slow loading speeds and poor user experience."
+      },
+      {
+        "CL-003": "The website lacks responsive design, making it difficult to navigate on mobile devices."
+      },
+      {
+        "CL-004": "Inconsistent formatting and layout across pages make the website appear unprofessional."
+      },
+      {
+        "CL-005": "Broken links on the website lead to 404 errors, disrupting user navigation."
+      },
+      {
+        "CL-006": "Lack of alt text for images on the website hinders accessibility for visually impaired users."
+      },
+      {
+        "CL-007": "Poorly structured URLs make it challenging for search engines to crawl and index the website effectively."
+      },
+      {
+        "CL-008": "Missing meta descriptions and title tags reduce the website's visibility in search engine results."
+      },
+      {
+        "CL-009": "Excessive pop-up ads and notifications disrupt the user's browsing experience."
+      },
+      {
+        "CL-010": "Inadequate error handling leads to confusing error messages for users."
+      },
+      {
+        "CL-011": "The website does not utilize browser caching, resulting in slower page loading times for returning visitors."
+      },
+      {
+        "CL-012": "Outdated JavaScript code on the website may lead to compatibility issues with modern browsers."
+      },
+      {
+        "CL-013": "Ineffective use of whitespace on the website contributes to cluttered and confusing interfaces."
+      },
+      {
+        "CL-014": "The lack of a clear call-to-action buttons reduces the website's conversion rates."
+      },
+      {
+        "CL-015": "Accessibility barriers such as color contrast issues make it difficult for users with visual impairments to use the website."
+      },
+      {
+        "CL-016": "The website's metadata is poorly optimized, impacting its performance in search engine rankings."
+      },
+      {
+        "CL-017": "Forms on the website lack proper validation, increasing the risk of data entry errors."
+      },
+      {
+        "CL-018": "Intrusive autoplay videos on the website disrupt the user's browsing experience."
+      },
+      {
+        "CL-019": "The website lacks a sitemap, making it harder for search engines to index its pages efficiently."
+      },
+      {
+        "CL-020": "The absence of a privacy policy raises concerns about how user data is collected and managed on the website."
+      }
+    ]
+  },
+  "zap.co.il": {
+    "laws": [
+      {
+        "CL-001": "The website lacks a responsive design, hindering user experience on mobile devices."
+      },
+      {
+        "CL-002": "Uncompressed images are used, increasing load times and reducing performance (Lighthouse score)."
+      },
+      {
+        "CL-003": "The website does not utilize lazy loading for images, slowing down initial page load."
+      },
+      {
+        "CL-004": "Inconsistent navigation menu design across different pages, causing confusion for users."
+      },
+      {
+        "CL-005": "Unoptimized CSS and JS files, leading to slower loading times."
+      },
+      {
+        "CL-006": "Improper use of meta tags, affecting SEO performance."
+      },
+      {
+        "CL-007": "Inadequate alt text for images, impacting accessibility for visually impaired users."
+      },
+      {
+        "CL-008": "Lack of structured data markup, missing out on potential rich results in search engines."
+      },
+      {
+        "CL-009": "JavaScript render-blocking resources impede page interactivity and speed."
+      },
+      {
+        "CL-010": "HTTP requests are not minimized, increasing server load and response times."
+      },
+      {
+        "CL-011": "Forms on the website do not provide real-time validation feedback, causing user frustration."
+      },
+      {
+        "CL-012": "The website lacks a custom 404 error page, leading to a poor user experience when encountering broken links."
+      },
+      {
+        "CL-013": "Inadequate caching policies result in frequent unnecessary server requests."
+      },
+      {
+        "CL-014": "Use of deprecated HTML elements, impacting website compatibility and performance."
+      },
+      {
+        "CL-015": "No SSL encryption implemented, compromising user data security and trust."
+      },
+      {
+        "CL-016": "Over-reliance on client-side rendering (CSR) affects SEO and initial page load times."
+      },
+      {
+        "CL-017": "Heavy reliance on third-party scripts, increasing the risk of data breaches and security vulnerabilities."
+      },
+      {
+        "CL-018": "Inconsistent font sizes and styles across the site, causing readability issues for users."
+      },
+      {
+        "CL-019": "Missing breadcrumb navigation, reducing user orientation within the site structure."
+      },
+      {
+        "CL-020": "Accessibility issues such as lack of ARIA landmarks and keyboard navigation support."
+      },
+      {
+        "CL-021": "Inadequate error handling, leading to generic error messages without clear guidance."
+      },
+      {
+        "CL-022": "Large amounts of unused CSS and JS code present, bloating the website and slowing down loading times."
+      },
+      {
+        "CL-023": "Non-semantic HTML markup used, affecting SEO and content structure."
+      },
+      {
+        "CL-024": "Insecure user authentication practices, risking user account data and privacy."
+      },
+      {
+        "CL-025": "Frequent website downtime and server errors impacting user access and trust."
+      },
+      {
+        "CL-026": "Absence of proper redirection rules, leading to broken links and SEO penalties."
+      },
+      {
+        "CL-027": "No automated testing processes in place, increasing the likelihood of undetected bugs and issues."
+      },
+      {
+        "CL-028": "Heavy reliance on inline CSS styles, making styles harder to maintain and reuse."
+      },
+      {
+        "CL-029": "Inadequate use of semantic HTML5 elements, affecting website structure and SEO performance."
+      },
+      {
+        "CL-030": "Lack of browser caching strategies, resulting in redundant downloads for returning visitors."
+      }
+    ]
+  },
+  "yad2.co.il": {
+    "laws": [
+      {
+        "CL-001": "The website's homepage lacks a responsive design, violating user experience standards."
+      },
+      {
+        "CL-002": "Images on the website do not have proper alt text attributes, which is detrimental to accessibility for visually impaired users."
+      },
+      {
+        "CL-003": "The website does not utilize a secure HTTPS connection, exposing users to potential security risks. This violates basic security protocols."
+      },
+      {
+        "CL-004": "The website lacks a sitemap, hindering search engine crawlers and impacting SEO performance."
+      },
+      {
+        "CL-005": "Forms on the website do not have input validation, making it vulnerable to data input errors and potential security threats."
+      },
+      {
+        "CL-006": "The website does not provide a clear privacy policy about how user data is collected, stored, and processed, violating data protection regulations."
+      },
+      {
+        "CL-007": "The website's page loading speed is slow, leading to high bounce rates and poor user engagement."
+      },
+      {
+        "CL-008": "The website's code is not optimized for SEO, leading to lower visibility in search engine results."
+      },
+      {
+        "CL-009": "The website does not utilize proper meta tags, impacting search engine optimization and discoverability."
+      },
+      {
+        "CL-010": "The website does not have a cookie consent banner, violating GDPR regulations regarding user data tracking."
+      },
+      {
+        "CL-011": "The website lacks a clear and easily accessible contact page, hindering user communication and trust-building."
+      },
+      {
+        "CL-012": "The website does not provide clear terms of service, leading to potential legal disputes with users."
+      },
+      {
+        "CL-013": "The website uses outdated design elements that impact credibility and user trust."
+      },
+      {
+        "CL-014": "The website's navigation structure is complex and confusing, leading to high user bounce rates."
+      },
+      {
+        "CL-015": "The website does not have a custom 404 error page, impacting user experience in case of broken links."
+      },
+      {
+        "CL-016": "The website's images are not optimized for web, leading to slow loading times and poor user experience."
+      },
+      {
+        "CL-017": "The website does not have an SSL certificate, compromising user data security."
+      },
+      {
+        "CL-018": "The website does not have a robots.txt file, limiting search engine indexing and visibility."
+      },
+      {
+        "CL-019": "The website's meta descriptions are missing or not optimized, reducing click-through rates from search results."
+      },
+      {
+        "CL-020": "The website's URLs contain irrelevant parameters, leading to duplicate content issues and indexing problems."
+      },
+      {
+        "CL-021": "The website does not have proper schema markup, impacting search engine result appearance and relevance."
+      },
+      {
+        "CL-022": "The website uses Flash content, which is not supported on many devices and impacts performance."
+      },
+      {
+        "CL-023": "The website's header tags are not used properly, affecting content structure and SEO."
+      },
+      {
+        "CL-024": "The website lacks a clear call-to-action on important pages, hindering user engagement and conversion rates."
+      },
+      {
+        "CL-025": "The website does not provide a clear unsubscribe option for marketing emails, violating anti-spam regulations."
+      },
+      {
+        "CL-026": "The website does not have proper canonical tags, leading to duplicate content issues and SEO penalties."
+      },
+      {
+        "CL-027": "The website's layout is not responsive on mobile devices, causing usability issues for a large portion of users."
+      },
+      {
+        "CL-028": "The website does not have proper schema markup for product listings, impacting search engine visibility for e-commerce."
+      },
+      {
+        "CL-029": "The website does not use analytics tools to track user behavior and improve user experience."
+      },
+      {
+        "CL-030": "The website does not have a regularly updated blog or news section, impacting freshness and relevance in search engine rankings."
+      }
+    ]
+  },
+  "ice.co.il": {
+    "laws": [
+      {
+        "CL-001": "ice.co.il does not have a valid SSL certificate."
+      },
+      {
+        "CL-002": "ice.co.il is not mobile-responsive."
+      },
+      {
+        "CL-003": "ice.co.il has poor loading speed."
+      },
+      {
+        "CL-004": "ice.co.il does not have an XML sitemap."
+      },
+      {
+        "CL-005": "ice.co.il has multiple broken internal links."
+      },
+      {
+        "CL-006": "ice.co.il does not have structured data markup."
+      },
+      {
+        "CL-007": "ice.co.il has images without alt tags."
+      },
+      {
+        "CL-008": "ice.co.il does not utilize browser caching effectively."
+      },
+      {
+        "CL-009": "ice.co.il lacks a custom 404 error page."
+      },
+      {
+        "CL-010": "ice.co.il has excessive pop-up advertisements."
+      },
+      {
+        "CL-011": "ice.co.il has a high ratio of ads to content."
+      },
+      {
+        "CL-012": "ice.co.il has non-optimized meta tags."
+      },
+      {
+        "CL-013": "ice.co.il uses deprecated HTML markup."
+      },
+      {
+        "CL-014": "ice.co.il does not have a responsive design on various devices."
+      },
+      {
+        "CL-015": "ice.co.il has missing or poor quality heading tags."
+      },
+      {
+        "CL-016": "ice.co.il has excessive external links."
+      },
+      {
+        "CL-017": "ice.co.il has outdated or irrelevant content."
+      },
+      {
+        "CL-018": "ice.co.il has complex navigation that confuses users."
+      },
+      {
+        "CL-019": "ice.co.il lacks a clear call-to-action on each page."
+      },
+      {
+        "CL-020": "ice.co.il has inconsistent branding elements."
+      },
+      {
+        "CL-021": "ice.co.il has a high bounce rate due to poor user experience."
+      },
+      {
+        "CL-022": "ice.co.il does not have a robots.txt file."
+      },
+      {
+        "CL-023": "ice.co.il has slow server response times."
+      },
+      {
+        "CL-024": "ice.co.il has multiple pages with duplicate meta descriptions."
+      },
+      {
+        "CL-025": "ice.co.il has missing anchor texts for internal links."
+      },
+      {
+        "CL-026": "ice.co.il does not utilize social media integration effectively."
+      },
+      {
+        "CL-027": "ice.co.il has videos with missing or incorrect schema markup."
+      },
+      {
+        "CL-028": "ice.co.il does not have a clear content hierarchy."
+      },
+      {
+        "CL-029": "ice.co.il has poor URL structure."
+      },
+      {
+        "CL-030": "ice.co.il lacks a secure login system."
+      }
+    ]
+  },
+  "bgu.ac.il": {
+    "laws": [
+      {
+        "CL-001": "bgu.ac.il does not have a valid SSL certificate installed."
+      },
+      {
+        "CL-002": "bgu.ac.il lacks a responsive design for mobile devices."
+      },
+      {
+        "CL-003": "bgu.ac.il has large images that are not optimized, slowing down the website."
+      },
+      {
+        "CL-004": "bgu.ac.il does not have a clear call-to-action on the homepage."
+      },
+      {
+        "CL-005": "bgu.ac.il has excessive use of pop-up ads or notifications."
+      },
+      {
+        "CL-006": "bgu.ac.il has broken links within the site."
+      },
+      {
+        "CL-007": "bgu.ac.il does not have a sitemap for easy navigation."
+      },
+      {
+        "CL-008": "bgu.ac.il has too many plugins or widgets, impacting page load speed."
+      },
+      {
+        "CL-009": "bgu.ac.il has poor quality or outdated content."
+      },
+      {
+        "CL-010": "bgu.ac.il does not have an accessible design for users with disabilities."
+      },
+      {
+        "CL-011": "bgu.ac.il lacks a privacy policy, violating user data protection laws."
+      },
+      {
+        "CL-012": "bgu.ac.il does not have an automated backup system in place."
+      },
+      {
+        "CL-013": "bgu.ac.il does not utilize caching mechanisms for faster load times."
+      },
+      {
+        "CL-014": "bgu.ac.il has a complex or confusing site navigation structure."
+      },
+      {
+        "CL-015": "bgu.ac.il does not have proper security measures to prevent cyber attacks."
+      },
+      {
+        "CL-016": "bgu.ac.il does not have a clear content hierarchy, making it hard for users to find information."
+      },
+      {
+        "CL-017": "bgu.ac.il does not have a 404 error page for broken links."
+      },
+      {
+        "CL-018": "bgu.ac.il has too many HTTP requests, affecting page speed."
+      },
+      {
+        "CL-019": "bgu.ac.il does not have a custom 403 forbidden page."
+      },
+      {
+        "CL-020": "bgu.ac.il does not utilize lazy loading for images and videos."
+      },
+      {
+        "CL-021": "bgu.ac.il lacks alt text for images, affecting accessibility."
+      },
+      {
+        "CL-022": "bgu.ac.il has outdated meta tags affecting SEO performance."
+      },
+      {
+        "CL-023": "bgu.ac.il does not have a robots.txt file for search engine crawling rules."
+      },
+      {
+        "CL-024": "bgu.ac.il has missing meta descriptions for pages."
+      },
+      {
+        "CL-025": "bgu.ac.il has slow server response times."
+      },
+      {
+        "CL-026": "bgu.ac.il lacks a terms of service agreement."
+      },
+      {
+        "CL-027": "bgu.ac.il does not have a consistent branding across all pages."
+      },
+      {
+        "CL-028": "bgu.ac.il has excessive use of autoplaying media."
+      },
+      {
+        "CL-029": "bgu.ac.il does not have a customized 500 internal server error page."
+      },
+      {
+        "CL-030": "bgu.ac.il lacks a proper FAQ section for common user queries."
+      }
+    ]
+  },
+  "tau.ac.il": {
+    "laws": [
+      {
+        "CL-001": "The website does not fully comply with web accessibility standards."
+      },
+      {
+        "CL-002": "The website lacks responsive design, making it difficult to navigate on mobile devices."
+      },
+      {
+        "CL-003": "Images on the website do not have alt text, affecting accessibility for visually impaired users."
+      },
+      {
+        "CL-004": "Large multimedia files on the website slow down loading times, impacting user experience."
+      },
+      {
+        "CL-005": "There are broken links on the website that lead to error pages."
+      },
+      {
+        "CL-006": "The website does not utilize HTTPS encryption, putting user data at risk."
+      },
+      {
+        "CL-007": "Forms on the website lack validation mechanisms, allowing for incorrect data input."
+      },
+      {
+        "CL-008": "The website's CSS and JavaScript files are not minified, affecting page speed."
+      },
+      {
+        "CL-009": "Meta tags on the website are not optimized for search engines, impacting discoverability."
+      },
+      {
+        "CL-010": "The website lacks a content delivery network (CDN), leading to slower loading times for distant users."
+      },
+      {
+        "CL-011": "The website does not have a proper backup system in place, risking data loss in case of server failure."
+      },
+      {
+        "CL-012": "The website's navigation is complicated and not intuitive, causing difficulties for users to find desired information."
+      },
+      {
+        "CL-013": "There are no clear Calls to Action (CTAs) on the website, reducing user engagement."
+      },
+      {
+        "CL-014": "The website does not have a cookie policy or consent mechanism, violating privacy regulations."
+      },
+      {
+        "CL-015": "Social media integration on the website is lacking, limiting user engagement and reach."
+      },
+      {
+        "CL-016": "The website's server response time is slow, affecting overall performance."
+      },
+      {
+        "CL-017": "The website does not have a custom 404 error page, leading to a poor user experience when encountering broken links."
+      },
+      {
+        "CL-018": "The website's sitemap is outdated or missing, impacting search engine indexing."
+      },
+      {
+        "CL-019": "The website does not utilize lazy loading for images and videos, increasing page load times."
+      },
+      {
+        "CL-020": "Accessibility features like skip navigation are missing, making it challenging for users to navigate the site efficiently."
+      },
+      {
+        "CL-021": "The website does not have clear branding and consistency in design elements, leading to a lack of visual identity."
+      },
+      {
+        "CL-022": "The website's content lacks proper formatting, making it difficult to read and understand."
+      },
+      {
+        "CL-023": "There are security vulnerabilities present on the website, making it prone to cyber attacks."
+      },
+      {
+        "CL-024": "The website does not have a live chat or instant messaging feature for real-time customer support."
+      },
+      {
+        "CL-025": "The website's load time for pages is slow, leading to higher bounce rates."
+      },
+      {
+        "CL-026": "The website is not optimized for local SEO, potentially missing out on local search traffic."
+      },
+      {
+        "CL-027": "There are outdated plugins or technologies used on the website, posing security risks."
+      },
+      {
+        "CL-028": "The website lacks user personalization features, reducing user engagement and relevance."
+      },
+      {
+        "CL-029": "The website does not have a clear privacy policy, causing uncertainty about data handling practices."
+      },
+      {
+        "CL-030": "The website's favicon is missing or improperly configured, impacting brand recognition in browser tabs."
+      }
+    ]
+  },
+  "knesset.gov.il": {
+    "laws": [
+      {
+        "law": "CL-001",
+        "description": "Failure to use HTTPS encryption on the website.",
+        "severity": "Critical"
+      },
+      {
+        "law": "CL-002",
+        "description": "Lack of a valid SSL certificate on the website.",
+        "severity": "Critical"
+      },
+      {
+        "law": "CL-003",
+        "description": "Absence of a robots.txt file.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-004",
+        "description": "Missing sitemap.xml file.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-005",
+        "description": "Inconsistent or missing meta tags on pages.",
+        "severity": "Low"
+      },
+      {
+        "law": "CL-006",
+        "description": "Poor implementation of responsive design.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-007",
+        "description": "Uncompressed images affecting site performance.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-008",
+        "description": "Lack of minification of CSS and JavaScript files.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-009",
+        "description": "Misconfigured server headers exposing sensitive information.",
+        "severity": "High"
+      },
+      {
+        "law": "CL-010",
+        "description": "Vulnerable third-party plugins or libraries.",
+        "severity": "High"
+      },
+      {
+        "law": "CL-011",
+        "description": "Errors in code that may lead to security vulnerabilities.",
+        "severity": "High"
+      },
+      {
+        "law": "CL-012",
+        "description": "Lack of content security policy (CSP) implementation.",
+        "severity": "High"
+      },
+      {
+        "law": "CL-013",
+        "description": "No clear accessibility features for disabled users.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-014",
+        "description": "Heavy reliance on client-side rendering impacting site speed.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-015",
+        "description": "Inadequate error handling leading to user frustration.",
+        "severity": "Low"
+      },
+      {
+        "law": "CL-016",
+        "description": "Lack of security headers like X-Frame-Options or X-XSS-Protection.",
+        "severity": "High"
+      },
+      {
+        "law": "CL-017",
+        "description": "Excessive pop-ups or interstitials hindering user experience.",
+        "severity": "Low"
+      },
+      {
+        "law": "CL-018",
+        "description": "Cookie usage without proper consent mechanisms.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-019",
+        "description": "Large amounts of unused CSS or JavaScript on pages.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-020",
+        "description": "Outdated or insecure server software.",
+        "severity": "High"
+      },
+      {
+        "law": "CL-021",
+        "description": "Missing or ineffective CAPTCHA on forms leading to spam.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-022",
+        "description": "Extended downtime periods affecting user access.",
+        "severity": "High"
+      },
+      {
+        "law": "CL-023",
+        "description": "Improper URL structures affecting SEO performance.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-024",
+        "description": "Lack of monitoring and alerting for site uptime and performance.",
+        "severity": "High"
+      },
+      {
+        "law": "CL-025",
+        "description": "Unsupported browsers or devices causing display issues.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-026",
+        "description": "Non-compliance with GDPR regulations for user data protection.",
+        "severity": "High"
+      },
+      {
+        "law": "CL-027",
+        "description": "Failure to secure administrative login pages.",
+        "severity": "High"
+      },
+      {
+        "law": "CL-028",
+        "description": "Inadequate caching policies impacting page load times.",
+        "severity": "Moderate"
+      },
+      {
+        "law": "CL-029",
+        "description": "Weak password policies for user accounts leading to security risks.",
+        "severity": "High"
+      },
+      {
+        "law": "CL-030",
+        "description": "Lack of regular security audits and vulnerability assessments.",
+        "severity": "High"
+      }
+    ]
+  },
+  "moag.gov.il": {
+    "laws": [
+      {
+        "CL-001": "The website does not have a valid SSL certificate."
+      },
+      {
+        "CL-002": "The website does not have a responsive design for mobile devices."
+      },
+      {
+        "CL-003": "The images on the website do not have alt text for accessibility."
+      },
+      {
+        "CL-004": "The website has broken links leading to 404 errors."
+      },
+      {
+        "CL-005": "The website does not have a clear call-to-action on the homepage."
+      },
+      {
+        "CL-006": "The website does not utilize proper meta tags for SEO optimization."
+      },
+      {
+        "CL-007": "The website has slow loading speed due to large unoptimized images."
+      },
+      {
+        "CL-008": "The website lacks a privacy policy page."
+      },
+      {
+        "CL-009": "The website does not have a consistent navigation menu across all pages."
+      },
+      {
+        "CL-010": "The website does not provide a sitemap for search engines to crawl."
+      },
+      {
+        "CL-011": "The website does not have a favicon for better branding."
+      },
+      {
+        "CL-012": "The website uses outdated HTML and CSS coding practices."
+      },
+      {
+        "CL-013": "The website lacks proper heading structure for improved accessibility."
+      },
+      {
+        "CL-014": "The website does not have a custom 404 error page."
+      },
+      {
+        "CL-015": "The website lacks social media integration for easy sharing of content."
+      },
+      {
+        "CL-016": "The website does not have clear indications of the organization's contact information."
+      },
+      {
+        "CL-017": "The website does not use schema markup for rich snippets in search results."
+      },
+      {
+        "CL-018": "The website has inconsistent font styles and sizes throughout its pages."
+      },
+      {
+        "CL-019": "The website does not employ proper caching mechanisms for faster loading times."
+      },
+      {
+        "CL-020": "The website does not have a robots.txt file to control search engine crawling."
+      },
+      {
+        "CL-021": "The website has auto-play videos without user consent, affecting user experience."
+      },
+      {
+        "CL-022": "The website does not provide an option for users to change text size for better readability."
+      },
+      {
+        "CL-023": "The website does not have clear terms and conditions stated."
+      },
+      {
+        "CL-024": "The website lacks a consistent color scheme that matches the organization's branding."
+      },
+      {
+        "CL-025": "The website does not have proper error handling for form submissions."
+      },
+      {
+        "CL-026": "The website does not have clear breadcrumb navigation for easier website traversal."
+      },
+      {
+        "CL-027": "The website does not have a designated search functionality for users to find specific content."
+      },
+      {
+        "CL-028": "The website uses outdated technology that may pose security risks."
+      },
+      {
+        "CL-029": "The website lacks proper integration with analytics tools for performance tracking."
+      },
+      {
+        "CL-030": "The website does not have a blog or news section for fresh content updates."
       }
     ]
   }
