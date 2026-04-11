@@ -1,0 +1,16 @@
+name: Codex AI Generator
+on:
+  repository_dispatch:
+    types: [generate_new_law]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run AI Generation script
+        run: |
+          echo "הרובוט מתחבר לבינה המלאכותית..."
+          python generator_engine.py
