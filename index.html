@@ -44,26 +44,26 @@
 </div>
 
 <script>
-    // פונקציה לטעינת הנתונים מה-JSON והצגתם כחוקים
+    // פונקציה לטעינת הנתונים והצגתם
     async function loadData() {
         try {
             const response = await fetch('Market_Analysis/scanned_laws.json?t=' + Date.now());
-            if (!response.ok) throw new Error('Database not found');
+            if (!response.ok) {
+                console.warn("הקובץ עדיין לא קיים, מחכה לסריקה ראשונה...");
+                return; // כאן מותר להשתמש ב-return כי אנחנו בתוך פונקציה
+            }
             
             const data = await response.json();
             const dashboard = document.getElementById('dashboard');
             dashboard.innerHTML = ''; 
 
             let lawCounter = 1;
-
             for (const [site, info] of Object.entries(data)) {
-                if (!site || site === "" || site === "null") continue;
-
-                // איסוף מכל סוגי השדות האפשריים שה-AI ייצר בגרסאות השונות
+                if (!site || site === "" || !info) continue;
+                
                 const rawIssues = info.security_flaws || info.vulnerabilities || info.potential_technical_flaws || [];
                 if (rawIssues.length === 0) continue;
 
-                // יצירת כותרת אתר
                 const siteSection = document.createElement('div');
                 siteSection.className = 'col-12';
                 siteSection.innerHTML = `<h3 class="site-header mt-5">🌐 מקור החוק: ${site}</h3>`;
@@ -87,47 +87,39 @@
                                 <h6 class="fw-bold mb-2">${title}</h6>
                                 <p class="small text-muted mb-0">${desc}</p>
                             </div>
-                        </div>
-                    `;
+                        </div>`;
                     dashboard.appendChild(lawCard);
                 });
             }
         } catch (e) {
-            document.getElementById('dashboard').innerHTML = '<div class="alert alert-danger text-center">ממתין להזנת נתונים ראשונית...</div>';
-            console.error("Load Error:", e);
+            console.error("שגיאה בטעינת נתונים:", e);
         }
     }
 
-    // פונקציה לשליחת האתרים לסריקה (כרגע מדפיסה ללוג, דורשת GitHub Token לחיבור מלא)
-  function startMassLegislation() {
-    const sites = document.getElementById('siteList').value.trim();
-    if (!sites) return alert("נא להזין אתרים");
+    // הפונקציה להפעלת הסריקה (דרך פתיחת Issue בגיטהב)
+    function startMassLegislation() {
+        const siteText = document.getElementById('siteList').value.trim();
+        if (!siteText) {
+            alert("נא להזין לפחות כתובת אחת");
+            return;
+        }
 
-    const GITHUB_USERNAME = "144714"; 
-    const REPO_NAME = "Codex-Law-Engine";
-    
-    // יצירת קישור לפתיחת Issue עם האתרים כתוכן
-    const title = encodeURIComponent("MASS_SCAN_REQUEST");
-    const body = encodeURIComponent(sites);
-    
-    const url = `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/issues/new?title=${title}&body=${body}`;
-    
-    alert("כעת תיפתח חלונית בגיטהב. לחץ על 'Submit new issue' והמכונה תתחיל לעבוד!");
-    window.open(url, '_blank');
-}
-        if (sites.length === 0) return alert("נא להזין לפחות כתובת אחת");
-
-        status.innerText = `הפקודה התקבלה. שואב חוקים מ-${sites.length} מקורות...`;
+        const GITHUB_USERNAME = "144714"; 
+        const REPO_NAME = "Codex-Law-Engine";
         
-        // כאן בעתיד נחבר את ה-API של GitHub Actions
-        console.log("Sites to process:", sites);
-        alert("התהליך הופעל! החוקים יופיעו כאן לאחר סיום הסריקה ב-GitHub (כ-2 דקות).");
+        const title = encodeURIComponent("MASS_SCAN_REQUEST");
+        const body = encodeURIComponent(siteText);
+        
+        const url = `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/issues/new?title=${title}&body=${body}`;
+        
+        alert("כעת תיפתח חלונית בגיטהב. לחץ על 'Submit new issue' והמכונה תתחיל לעבוד!");
+        window.open(url, '_blank');
     }
 
-    // טעינה ראשונית ורענון אוטומטי
+    // הפעלה ראשונית
     loadData();
-    setInterval(loadData, 30000); 
+    // רענון אוטומטי כל 30 שניות
+    setInterval(loadData, 30000);
 </script>
-
 </body>
 </html>
