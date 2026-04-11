@@ -144,43 +144,43 @@
     "security_flaws": [
       {
         "law_id": "CL-001",
-        "description": "All websites storing sensitive user data must ensure secure communication by using HTTPS"
+        "description": "All websites handling sensitive user information must enforce secure HTTPS connections to protect data in transit."
       },
       {
         "law_id": "CL-002",
-        "description": "Websites must not expose directory listings which could leak sensitive information"
+        "description": "Websites must avoid including sensitive information, such as passwords, in the URL parameters to prevent data leakage."
       },
       {
         "law_id": "CL-003",
-        "description": "Cross-Site Scripting (XSS) vulnerabilities must be actively prevented and mitigated"
+        "description": "Any website collecting user data should implement proper input validation and sanitization to prevent injection attacks."
       },
       {
         "law_id": "CL-004",
-        "description": "Proper input validation must be performed to prevent SQL Injection attacks"
+        "description": "Websites should have mechanisms in place to prevent cross-site scripting (XSS) attacks, such as input validation and output encoding."
       },
       {
         "law_id": "CL-005",
-        "description": "Sensitive data should be stored securely using encryption and access control measures"
+        "description": "Web applications should enforce secure session management practices to prevent session hijacking and fixation."
       },
       {
         "law_id": "CL-006",
-        "description": "Access control mechanisms should be implemented to restrict unauthorized access to sensitive data"
+        "description": "Websites should implement Content Security Policy (CSP) headers to mitigate risks associated with unauthorized third-party scripts."
       },
       {
         "law_id": "CL-007",
-        "description": "Regular security assessments and testing should be conducted to identify and address vulnerabilities"
+        "description": "All websites must regularly patch and update software to address known security vulnerabilities and protect against potential exploits."
       },
       {
         "law_id": "CL-008",
-        "description": "Websites should have mechanisms in place to prevent Clickjacking attacks"
+        "description": "Websites should restrict access to sensitive files and directories through proper permission management to prevent unauthorized access."
       },
       {
         "law_id": "CL-009",
-        "description": "Sensitive operations should require strong authentication methods, such as multi-factor authentication"
+        "description": "Web applications must sanitize and validate user input to prevent SQL injection attacks that can compromise the database."
       },
       {
         "law_id": "CL-010",
-        "description": "Websites must have a clear vulnerability disclosure policy to encourage responsible reporting"
+        "description": "Sites should implement adequate rate limiting and account lockout mechanisms to mitigate the risks of brute force attacks."
       }
     ]
   }
