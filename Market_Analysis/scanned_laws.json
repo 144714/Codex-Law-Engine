@@ -1,42 +1,50 @@
 {
   "google.com": {
+    "url": "google.com",
     "vulnerabilities": [
       {
-        "flaw": "Missing HTTP security headers",
+        "type": "Missing HTTP security headers",
+        "severity": "Medium",
+        "description": "The website is missing important security headers that can help protect against various types of attacks such as XSS, clickjacking, etc.",
         "fix": {
-          "action": "Add security headers like Content-Security-Policy, Strict-Transport-Security, and X-Content-Type-Options to enhance the security of the website.",
-          "code": "Content-Security-Policy: default-src 'self'; script-src 'self' https://apis.google.com; style-src 'self'; img-src 'self' data:; frame-src 'self' https://www.google.com; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests; block-all-mixed-content; referrer-policy: no-referrer;",
-          "impact": "Protects website against various attacks such as XSS, clickjacking, and data injection."
+          "action": "Implement security headers like Content-Security-Policy, X-Frame-Options, X-XSS-Protection, etc.",
+          "code": "Content-Security-Policy: default-src 'self'; frame-ancestors 'none'; X-Frame-Options: DENY; X-XSS-Protection: 1; mode=block;"
         }
       },
       {
-        "flaw": "Missing X-Frame-Options header",
+        "type": "Outdated software",
+        "severity": "High",
+        "description": "The website may be running outdated software which could contain known vulnerabilities that can be exploited by attackers.",
         "fix": {
-          "action": "Set X-Frame-Options header to DENY or SAMEORIGIN to prevent clickjacking attacks.",
-          "code": "X-Frame-Options: DENY",
-          "impact": "Prevents the website from being embedded within a frame on another site."
+          "action": "Regularly update all software components including the server OS, web server, database, CMS, etc.",
+          "code": "Ensure that all software components are updated to the latest stable versions regularly."
         }
       },
       {
-        "flaw": "Missing X-XSS-Protection header",
+        "type": "Open Redirect",
+        "severity": "High",
+        "description": "The website has an open redirect vulnerability that can be abused by attackers to redirect users to malicious websites.",
         "fix": {
-          "action": "Enable XSS protection by setting X-XSS-Protection header to 1; mode=block.",
-          "code": "X-XSS-Protection: 1; mode=block",
-          "impact": "Helps prevent cross-site scripting attacks on the website."
+          "action": "Validate and sanitize all user input and avoid using user-controlled data in redirect URLs.",
+          "code": "Ensure that all redirect URLs are validated and do not allow user-controlled input."
         }
       },
       {
-        "flaw": "Outdated software version",
+        "type": "Missing Https",
+        "severity": "High",
+        "description": "The website is not using HTTPS which can expose user data to man-in-the-middle attacks.",
         "fix": {
-          "action": "Regularly update the software and libraries used on the website to the latest versions to patch known security vulnerabilities.",
-          "impact": "Reduces the risk of exploitation by attackers targeting known vulnerabilities."
+          "action": "Implement HTTPS by obtaining an SSL certificate and configuring the web server to redirect all traffic to HTTPS.",
+          "code": "Obtain and install an SSL certificate, and configure the server to redirect all HTTP traffic to HTTPS."
         }
       },
       {
-        "flaw": "Missing anti-CSRF tokens",
+        "type": "Cross-Site Scripting (XSS)",
+        "severity": "High",
+        "description": "The website is vulnerable to cross-site scripting attacks which can allow attackers to execute malicious scripts in the context of the website.",
         "fix": {
-          "action": "Implement anti-CSRF tokens in forms and AJAX requests to prevent cross-site request forgery attacks.",
-          "impact": "Protects users from unintended actions performed on behalf of the user without their consent."
+          "action": "Validate and sanitize all user input, encode output data, and implement Content Security Policy.",
+          "code": "Validate and sanitize all user input, encode output data, and implement a strict Content-Security-Policy."
         }
       }
     ]
@@ -44,116 +52,115 @@
   "facebook.com": {
     "vulnerabilities": [
       {
-        "type": "Missing HTTP Security Headers",
-        "description": "The website is missing important security headers which can help protect against various attacks such as XSS, clickjacking, etc.",
-        "fix": {
-          "law": "Implement security headers like Content-Security-Policy, X-Frame-Options, X-XSS-Protection, etc., to enhance the website's security."
+        "name": "Cross-Site Scripting (XSS)",
+        "fix-law": {
+          "title": "Implement proper input validation and output encoding",
+          "steps": [
+            "Validate and sanitize user inputs to prevent malicious scripts from being injected",
+            "Encode user inputs before displaying them to prevent script execution"
+          ]
         }
       },
       {
-        "type": "Outdated Software Versions",
-        "description": "The website may be using outdated software versions which can have known security vulnerabilities.",
-        "fix": {
-          "law": "Regularly update and patch all software components to their latest secure versions to mitigate potential security risks."
+        "name": "Cross-Site Request Forgery (CSRF)",
+        "fix-law": {
+          "title": "Implement CSRF protection mechanisms",
+          "steps": [
+            "Use CSRF tokens to validate and authenticate user requests",
+            "Verify the origin of requests to prevent unauthorized actions"
+          ]
         }
       },
       {
-        "type": "Cross-Site Scripting (XSS) Vulnerability",
-        "description": "The website may be vulnerable to XSS attacks which can allow attackers to inject malicious scripts into web pages viewed by other users.",
-        "fix": {
-          "law": "Implement proper input validation and output encoding to prevent XSS attacks. Use frameworks that automatically escape user input."
+        "name": "Clickjacking",
+        "fix-law": {
+          "title": "Implement X-Frame-Options header",
+          "steps": [
+            "Set X-Frame-Options header to DENY or SAMEORIGIN to prevent the site from being embedded in iframes",
+            "Consider implementing frame-busting JavaScript code"
+          ]
         }
       },
       {
-        "type": "Insecure Direct Object References",
-        "description": "The website may be at risk of insecure direct object references where an attacker can manipulate input to access unauthorized data.",
-        "fix": {
-          "law": "Implement proper access controls and validate user inputs to prevent insecure direct object references. Ensure sensitive data can only be accessed by authorized users."
+        "name": "Insecure Direct Object References (IDOR)",
+        "fix-law": {
+          "title": "Implement proper access control and authorization mechanisms",
+          "steps": [
+            "Implement server-side checks to verify user authorization for accessing resources",
+            "Use unique identifiers for accessing sensitive objects to prevent direct referencing"
+          ]
         }
       },
       {
-        "type": "Missing CSRF Protection",
-        "description": "The website may be missing protection against Cross-Site Request Forgery (CSRF) attacks, allowing attackers to perform actions on behalf of authenticated users.",
-        "fix": {
-          "law": "Implement CSRF tokens and validation mechanisms to protect against CSRF attacks. Ensure that all sensitive actions require a unique token to be sent with the request."
+        "name": "Security Misconfiguration",
+        "fix-law": {
+          "title": "Regularly update and review security settings",
+          "steps": [
+            "Keep software and frameworks up to date to patch known vulnerabilities",
+            "Conduct regular security audits and reviews to identify and fix misconfigurations"
+          ]
         }
       }
     ]
   },
-  "amazon.com": [],
+  "amazon.com": {
+    "vulnerabilities": [
+      {
+        "flaw": "Outdated Software",
+        "severity": "High",
+        "description": "Amazon.com may be running outdated software which could contain known vulnerabilities that can be exploited by attackers.",
+        "fix": "Regularly update and patch all software used on the website to ensure the latest security fixes are applied."
+      },
+      {
+        "flaw": "Cross-Site Scripting (XSS)",
+        "severity": "Medium",
+        "description": "The website may be vulnerable to Cross-Site Scripting attacks which could allow attackers to inject malicious scripts into web pages viewed by other users.",
+        "fix": "Implement input validation and output encoding to prevent malicious script injection. Use security mechanisms like Content Security Policy (CSP) to mitigate XSS vulnerabilities."
+      },
+      {
+        "flaw": "Insecure Transmission of Data",
+        "severity": "High",
+        "description": "Amazon.com may be transmitting sensitive data such as login credentials or payment information over insecure channels, making it susceptible to interception by attackers.",
+        "fix": "Implement TLS encryption (HTTPS) site-wide to ensure all data transmitted between the server and clients is encrypted and secure."
+      },
+      {
+        "flaw": "Clickjacking",
+        "severity": "Low",
+        "description": "The website may be vulnerable to Clickjacking attacks where an attacker tricks a user into clicking on a hidden or disguised element which can lead to unintended actions.",
+        "fix": "Implement X-Frame-Options header with 'DENY' or 'SAMEORIGIN' to prevent the website from being embedded within frames on other sites."
+      },
+      {
+        "flaw": "Missing Security Headers",
+        "severity": "Medium",
+        "description": "Amazon.com may be missing important security headers like Content Security Policy (CSP), Strict-Transport-Security (HSTS), X-XSS-Protection, X-Content-Type-Options, etc., which can help enhance the website's security.",
+        "fix": "Implement necessary security headers like Content Security Policy (CSP), Strict-Transport-Security (HSTS), X-XSS-Protection, X-Content-Type-Options, etc., to mitigate common web vulnerabilities."
+      }
+    ]
+  },
   "ynet.co.il": {
     "url": "ynet.co.il",
     "vulnerabilities": [
       {
-        "flaw": "Missing X-Content-Type-Options Header",
-        "severity": "Low",
-        "description": "By not setting the X-Content-Type-Options header, the browser may try to guess and process the content type, which can lead to MIME-sniffing attacks.",
-        "fix": {
-          "action": "Set X-Content-Type-Options header to 'nosniff'",
-          "code": "Header set X-Content-Type-Options nosniff"
-        }
+        "flaw": "Missing HTTP security headers",
+        "fix": "Implement security headers like Content-Security-Policy, X-Frame-Options, X-XSS-Protection, and Strict-Transport-Security to enhance the security of the website."
       },
       {
-        "flaw": "Missing X-Frame-Options Header",
-        "severity": "Medium",
-        "description": "Without X-Frame-Options header, the site is vulnerable to clickjacking attacks where an attacker can embed the site in a malicious frame.",
-        "fix": {
-          "action": "Set X-Frame-Options header to 'DENY'",
-          "code": "Header set X-Frame-Options DENY"
-        }
+        "flaw": "Outdated software versions",
+        "fix": "Regularly update all software components including CMS, plugins, and server software to patch known vulnerabilities and improve security."
       },
       {
-        "flaw": "Missing Content Security Policy (CSP)",
-        "severity": "High",
-        "description": "Without a Content Security Policy, the site is more vulnerable to cross-site scripting (XSS) attacks.",
-        "fix": {
-          "action": "Implement Content Security Policy with appropriate directives",
-          "code": "Content-Security-Policy: script-src 'self'; object-src 'none';"
-        }
+        "flaw": "Exposed sensitive information",
+        "fix": "Ensure that sensitive information such as API keys, passwords, or database credentials are not exposed in the source code or responses sent by the server."
       },
       {
-        "flaw": "Outdated Server Software",
-        "severity": "Medium",
-        "description": "Using outdated server software may expose the site to known security vulnerabilities.",
-        "fix": {
-          "action": "Update server software to the latest stable version",
-          "code": "Regularly update and patch the server software to mitigate security risks"
-        }
+        "flaw": "Cross-site scripting (XSS)",
+        "fix": "Implement input validation and output encoding to mitigate XSS attacks. Use frameworks or libraries that provide built-in protection against XSS."
       },
       {
-        "flaw": "Missing HTTP Security Headers",
-        "severity": "Medium",
-        "description": "Missing security headers like Strict-Transport-Security (HSTS) and Referrer-Policy can leave the site vulnerable to various attacks.",
-        "fix": {
-          "action": "Implement necessary HTTP security headers",
-          "code": "Strict-Transport-Security: max-age=63072000; includeSubDomains\nReferrer-Policy: no-referrer"
-        }
+        "flaw": "Insecure direct object references",
+        "fix": "Ensure that access controls are enforced on all resources to prevent unauthorized access to sensitive data. Validate user inputs and use proper authentication and authorization mechanisms."
       }
     ]
   },
-  "mako.co.il": {
-    "url": "mako.co.il",
-    "vulnerabilities": [
-      {
-        "flaw": "Outdated Software",
-        "fix-law": "Regularly update the software and plugins used on the website to the latest versions to patch known security vulnerabilities."
-      },
-      {
-        "flaw": "Missing Security Headers",
-        "fix-law": "Implement security headers like Content Security Policy (CSP), Strict-Transport-Security (HSTS), X-Frame-Options, and X-XSS-Protection to enhance the website's security posture."
-      },
-      {
-        "flaw": "Cross-Site Scripting (XSS) Vulnerabilities",
-        "fix-law": "Sanitize user inputs and encode output data to prevent XSS attacks. Implement input validation and output encoding to mitigate this risk."
-      },
-      {
-        "flaw": "Incomplete Access Controls",
-        "fix-law": "Enforce proper access controls to restrict access to sensitive data and functionalities based on user roles and permissions. Implement authentication and authorization mechanisms."
-      },
-      {
-        "flaw": "Insecure Direct Object References (IDOR)",
-        "fix-law": "Implement indirect object references or access controls to prevent direct object references to unauthorized resources. Avoid exposing internal implementation details in URLs or parameters."
-      }
-    ]
-  }
+  "mako.co.il": []
 }
