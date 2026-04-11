@@ -1822,5 +1822,37 @@
         "CL-030": "The website does not have a blog or news section for fresh content updates."
       }
     ]
+  },
+  "https://www.prog.co.il/": {
+    "CL-001": "The website does not have a responsive design, violating user experience best practices.",
+    "CL-002": "The website lacks an SSL certificate, exposing user data to potential security risks.",
+    "CL-003": "The website has excessive large image files, leading to slow loading times (large page size).",
+    "CL-004": "The website uses outdated coding technologies that may pose security vulnerabilities.",
+    "CL-005": "The website lacks proper alt text for images, impacting accessibility for visually impaired users.",
+    "CL-006": "The website has multiple broken links, providing a poor user experience and hindering SEO efforts.",
+    "CL-007": "The website's HTML structure is not semantically sound, affecting SEO and user experience.",
+    "CL-008": "The website does not utilize caching mechanisms, resulting in slower load times for repeat visitors.",
+    "CL-009": "The website has an excessive amount of CSS and JavaScript files, impacting performance.",
+    "CL-010": "The website does not have a clear call-to-action on critical pages, potentially reducing conversion rates.",
+    "CL-011": "The website lacks a sitemap, making it difficult for search engines to index all pages.",
+    "CL-012": "The website has inconsistent branding elements across pages, confusing users and diluting brand identity.",
+    "CL-013": "The website does not have a custom 404 error page, leading to a poor user experience when users encounter broken links.",
+    "CL-014": "The website does not employ lazy loading for images, leading to unnecessary strain on bandwidth and slower load times.",
+    "CL-015": "The website does not have a mobile-friendly design, impacting user experience on smartphones and tablets.",
+    "CL-016": "The website does not employ minification techniques for CSS and JavaScript files, leading to larger file sizes and slower load times.",
+    "CL-017": "The website lacks proper meta tags, impacting SEO and potentially reducing visibility in search engine results.",
+    "CL-018": "The website's content is not optimized for relevant keywords, hindering organic search traffic.",
+    "CL-019": "The website uses deprecated HTML attributes, potentially causing rendering issues in modern browsers.",
+    "CL-020": "The website does not utilize structured data markup, missing out on potential rich snippets in search engine results.",
+    "CL-021": "The website has excessive server requests, leading to performance bottlenecks and slower load times.",
+    "CL-022": "The website's forms do not have proper validation mechanisms, potentially exposing vulnerabilities to injection attacks.",
+    "CL-023": "The website has long scrolling pages without anchor links, hindering user navigation and experience.",
+    "CL-024": "The website's font sizes and styles are inconsistent across pages, impacting readability and visual coherence.",
+    "CL-025": "The website does not have a cookie consent banner or mechanism, potentially violating data privacy regulations.",
+    "CL-026": "The website lacks an automated backup system, risking data loss in case of server failures or cyberattacks.",
+    "CL-027": "The website does not have a robots.txt file, potentially causing issues with search engine crawling and indexing.",
+    "CL-028": "The website uses inline CSS styles instead of external stylesheets, making maintenance and scalability challenging.",
+    "CL-029": "The website's navigation menu lacks clear hierarchy, making it difficult for users to navigate and find desired content.",
+    "CL-030": "The website's URL structure is not user-friendly or optimized for search engine visibility, potentially reducing organic traffic."
   }
 }
