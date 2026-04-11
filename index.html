@@ -99,10 +99,22 @@
     }
 
     // פונקציה לשליחת האתרים לסריקה (כרגע מדפיסה ללוג, דורשת GitHub Token לחיבור מלא)
-    function startMassLegislation() {
-        const sites = document.getElementById('siteList').value.split('\n').filter(s => s.trim() !== '');
-        const status = document.getElementById('statusMsg');
-        
+  function startMassLegislation() {
+    const sites = document.getElementById('siteList').value.trim();
+    if (!sites) return alert("נא להזין אתרים");
+
+    const GITHUB_USERNAME = "144714"; 
+    const REPO_NAME = "Codex-Law-Engine";
+    
+    // יצירת קישור לפתיחת Issue עם האתרים כתוכן
+    const title = encodeURIComponent("MASS_SCAN_REQUEST");
+    const body = encodeURIComponent(sites);
+    
+    const url = `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/issues/new?title=${title}&body=${body}`;
+    
+    alert("כעת תיפתח חלונית בגיטהב. לחץ על 'Submit new issue' והמכונה תתחיל לעבוד!");
+    window.open(url, '_blank');
+}
         if (sites.length === 0) return alert("נא להזין לפחות כתובת אחת");
 
         status.innerText = `הפקודה התקבלה. שואב חוקים מ-${sites.length} מקורות...`;
