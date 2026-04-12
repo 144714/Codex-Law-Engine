@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 18:34"
+    "date": "2026-04-12 19:33"
   },
   "data": [
     {
-      "title": "DDOS Protection",
-      "description": "Layered security measures to prevent Distributed Denial of Service attacks.",
-      "technical_spec": "Employs Cloudflare and AWS Shield Advanced.",
-      "severity_score": 30
+      "title": "Data Encryption",
+      "description": "Protects sensitive information in transit and at rest.",
+      "technical_spec": "Uses AES-256 encryption and TLS 1.3 for secure communication.",
+      "severity_score": 95
     },
     {
-      "title": "Encryption of Data in Transit",
-      "description": "Data transmitted between services is encrypted to prevent interception.",
-      "technical_spec": "Uses TLS 1.2 and above for secure communication.",
-      "severity_score": 15
+      "title": "Intrusion Detection Systems",
+      "description": "Monitors network traffic for signs of malicious activity.",
+      "technical_spec": "Employs machine learning algorithms for anomaly detection.",
+      "severity_score": 85
     },
     {
       "title": "Regular Security Audits",
-      "description": "Routine audits ensure compliance with security standards and identify vulnerabilities.",
-      "technical_spec": "Follows ISO 27001 standards for security assessments.",
-      "severity_score": 25
+      "description": "Conducts frequent reviews to identify vulnerabilities.",
+      "technical_spec": "Utilizes both automated tools and manual penetration testing.",
+      "severity_score": 80
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Consistent monitoring and patching of system vulnerabilities.",
-      "technical_spec": "Uses automated scanning tools like Nessus.",
-      "severity_score": 20
+      "title": "User Access Controls",
+      "description": "Ensures users have access only to necessary information.",
+      "technical_spec": "Implements role-based access control (RBAC) systems.",
+      "severity_score": 82
     },
     {
-      "title": "AI-driven Threat Detection",
-      "description": "Integration of AI systems to detect unusual patterns and potential threats.",
-      "technical_spec": "Utilizes machine learning algorithms for anomaly detection.",
-      "severity_score": 10
+      "title": "Disaster Recovery Plan",
+      "description": "Maintains business continuity during cyber incidents.",
+      "technical_spec": "Includes regular backups and failover strategies.",
+      "severity_score": 90
     }
   ]
 }

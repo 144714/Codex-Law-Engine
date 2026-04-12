@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 18:34"
+    "date": "2026-04-12 19:33"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Minimizing the number of choices to optimize user decision-making time.",
-      "technical_spec": "UI design focuses on minimalism and clarity in navigation.",
-      "severity_score": 5
+      "description": "Simplifies decision-making by minimizing choices.",
+      "technical_spec": "Streamlined navigation with a focus on key actions.",
+      "severity_score": 78
     },
     {
-      "title": "Fitts’ Law",
-      "description": "Designing interactive elements to be accessible and large enough to be easily clicked.",
-      "technical_spec": "CTA buttons are prominently placed and easily reachable.",
-      "severity_score": 8
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Users prefer websites to work similarly to others they use, ensuring intuitive design.",
-      "technical_spec": "Adopts common design patterns and conventions from leading tech platforms.",
-      "severity_score": 12
+      "title": "Fitts's Law",
+      "description": "Design elements prioritize easy access to commonly used actions.",
+      "technical_spec": "Optimized layout for fast interaction with primary features.",
+      "severity_score": 75
     },
     {
       "title": "Miller’s Law",
-      "description": "Limiting content chunks to manageable amounts for better cognitive processing.",
-      "technical_spec": "Content is broken into short, digestible sections with clear headings.",
-      "severity_score": 10
+      "description": "Information is presented in manageable chunks for better retention.",
+      "technical_spec": "Content structured into digestible sections and themes.",
+      "severity_score": 80
     },
     {
-      "title": "Norman’s Law",
-      "description": "Accentuates the simplicity of design by focusing on human-centered design.",
-      "technical_spec": "Adapts a user-centric approach throughout the development lifecycle.",
-      "severity_score": 20
+      "title": "Aesthetic-Usability Effect",
+      "description": "Aesthetically pleasing designs considered more usable.",
+      "technical_spec": "Modern, clean design with cohesive color palette and typography.",
+      "severity_score": 85
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Groups related items together to intuitively organize information.",
+      "technical_spec": "Strategically placed elements to enhance user understanding.",
+      "severity_score": 82
     }
   ]
 }
