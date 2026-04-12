@@ -35,5 +35,44 @@
       "description": "The website contact forms lack proper labels and landmarks for accessible form completion.",
       "remediation": "Add descriptive labels and ARIA landmarks to enhance contact form accessibility."
     }
+  },
+  "google.com": {
+    "CL-05": {
+      "title": "Provide Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Ensure all images have descriptive alt text to assist users using screen readers.",
+      "remediation": "Add alt text to all images on the website."
+    },
+    "CL-06": {
+      "title": "Ensure Keyboard Navigation",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Ensure that all website functionalities can be accessed and operated using a keyboard only.",
+      "remediation": "No action required."
+    },
+    "CL-07": {
+      "title": "Implement ARIA Landmarks",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Use ARIA landmarks to provide additional context for screen reader users.",
+      "remediation": "No action required."
+    }
+  },
+  "stripe.com": {
+    "CL-04": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "All images should have descriptive alt text for screen readers.",
+      "remediation": "Add alt text to images for improved accessibility."
+    },
+    "CL-05": {
+      "title": "Keyboard Navigation",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Website must be navigable using keyboard only.",
+      "remediation": "N/A"
+    }
   }
 }

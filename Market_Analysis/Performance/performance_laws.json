@@ -14,5 +14,51 @@
       "description": "The website uses non-descriptive URLs that are not optimized for search engine visibility.",
       "remediation": "Implement SEO-friendly URLs with relevant keywords to improve search engine rankings and user experience."
     }
+  },
+  "google.com": {
+    "CL-08": {
+      "title": "Optimize JavaScript Execution",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Optimize the execution of JavaScript code to enhance website performance.",
+      "remediation": "Review and optimize JavaScript code."
+    },
+    "CL-09": {
+      "title": "Compress Text Files",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Compress text files to reduce website loading times.",
+      "remediation": "No action required."
+    },
+    "CL-10": {
+      "title": "Minimize HTTP Requests",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Reduce the number of HTTP requests to speed up website loading.",
+      "remediation": "Combine or eliminate unnecessary resources to minimize HTTP requests."
+    }
+  },
+  "stripe.com": {
+    "CL-06": {
+      "title": "Lazy Loading",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Use lazy loading for images and resources to improve loading times.",
+      "remediation": "N/A"
+    },
+    "CL-07": {
+      "title": "Minification of CSS/JS",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "CSS and JS files should be minified to reduce file size.",
+      "remediation": "Minify CSS and JS files for faster loading."
+    },
+    "CL-15": {
+      "title": "Load Time Optimization",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Optimize website for fast load times.",
+      "remediation": "Optimize images, resources, and server response times for faster loading."
+    }
   }
 }

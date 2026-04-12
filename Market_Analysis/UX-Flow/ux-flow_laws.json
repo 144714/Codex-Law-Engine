@@ -28,5 +28,58 @@
       "description": "The website features a search functionality for users to easily find content.",
       "remediation": "N/A"
     }
+  },
+  "google.com": {
+    "CL-15": {
+      "title": "Streamline User Registration Process",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Simplify the user registration process to reduce friction and increase conversions.",
+      "remediation": "Optimize the registration form by minimizing required fields and steps."
+    },
+    "CL-16": {
+      "title": "Effective Error Handling",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Implement effective error handling to provide clear feedback to users.",
+      "remediation": "No action required."
+    },
+    "CL-17": {
+      "title": "Personalized User Experience",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Personalize the user experience based on user preferences and behavior.",
+      "remediation": "Implement user profiling and customization features."
+    },
+    "CL-18": {
+      "title": "Efficient Checkout Process",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Optimize the checkout process for a seamless and efficient user experience.",
+      "remediation": "Streamline the checkout steps and provide multiple payment options."
+    }
+  },
+  "stripe.com": {
+    "CL-11": {
+      "title": "Intuitive Navigation",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Ensure intuitive website navigation for users.",
+      "remediation": "N/A"
+    },
+    "CL-13": {
+      "title": "Form Validation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Implement client-side form validation for better user experience.",
+      "remediation": "Add client-side form validation to improve user experience."
+    },
+    "CL-14": {
+      "title": "Error Handling",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Provide clear error messages and guidance to users.",
+      "remediation": "N/A"
+    }
   }
 }

@@ -42,5 +42,65 @@
       "description": "The website integrates social media buttons for easy sharing and engagement.",
       "remediation": "N/A"
     }
+  },
+  "google.com": {
+    "CL-11": {
+      "title": "Consistent Design Language",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Maintain a consistent design language across all pages of the website.",
+      "remediation": "No action required."
+    },
+    "CL-12": {
+      "title": "Responsive Layout",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Ensure the website layout is responsive and adapts to different screen sizes.",
+      "remediation": "No action required."
+    },
+    "CL-13": {
+      "title": "Optimize Typography",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Optimize typography for readability and accessibility.",
+      "remediation": "Review font sizes, line spacing, and contrast ratios for optimal readability."
+    },
+    "CL-14": {
+      "title": "Clear Call-to-Actions",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Ensure clear and prominent call-to-action buttons for effective user engagement.",
+      "remediation": "Enhance the visibility and clarity of call-to-action elements."
+    }
+  },
+  "stripe.com": {
+    "CL-08": {
+      "title": "Consistent Design",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Maintain consistent design elements throughout the website.",
+      "remediation": "N/A"
+    },
+    "CL-09": {
+      "title": "Color Contrast",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Ensure sufficient color contrast for text readability.",
+      "remediation": "Improve color contrast for better readability."
+    },
+    "CL-10": {
+      "title": "Clear Call-to-Actions",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Use clear and prominent call-to-action buttons.",
+      "remediation": "N/A"
+    },
+    "CL-12": {
+      "title": "Responsive Design",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Website should be responsive and work well across devices.",
+      "remediation": "N/A"
+    }
   }
 }
