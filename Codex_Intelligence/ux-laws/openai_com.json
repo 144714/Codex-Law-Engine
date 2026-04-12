@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 13:54"
+    "date": "2026-04-12 14:34"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Design focuses on reducing decision-making time by minimizing choices.",
-      "technical_spec": "Implementation: Simple navigation, prioritized content flow.",
-      "severity_score": 30
+      "title": "Hick's Law",
+      "description": "Minimization of choices to improve decision-making speed.",
+      "technical_spec": "Streamlined menus, focused content display.",
+      "severity_score": 12
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Users prefer interfaces familiar to their own experiences from other sites.",
-      "technical_spec": "Standards: Consistent iconography, similar navigation patterns.",
-      "severity_score": 35
+      "title": "Fitts's Law",
+      "description": "Optimizing button size and placement for easier interaction.",
+      "technical_spec": "Clickable areas designed to reduce pointer movements.",
+      "severity_score": 14
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Design with larger, more accessible target elements for a more user-friendly experience.",
-      "technical_spec": "Approach: Enlarged buttons, accessible links with enough space.",
-      "severity_score": 28
+      "title": "Gestalt Principles",
+      "description": "Use of visual grouping to enhance comprehension and visibility.",
+      "technical_spec": "Whitespace, alignment, and proximity in design.",
+      "severity_score": 18
     },
     {
-      "title": "Miller’s Law",
-      "description": "The idea that users can only hold 7±2 pieces of information in their working memory.",
-      "technical_spec": "Design: Information chunking, concise messaging.",
-      "severity_score": 25
+      "title": "Miller's Law",
+      "description": "Simplifying content for better memory retention.",
+      "technical_spec": "Breaking information into chunks of 7±2 elements.",
+      "severity_score": 8
     },
     {
-      "title": "Tesler’s Law",
-      "description": "Available simplicity in user interfaces minimizes complexity for users.",
-      "technical_spec": "Strategies: Automation features, simplified workflows.",
-      "severity_score": 32
+      "title": "Aesthetic Usability Effect",
+      "description": "Create an aesthetically pleasing interface to enhance perceived usability.",
+      "technical_spec": "Consistent branding, color schemes, and typography.",
+      "severity_score": 10
     }
   ]
 }

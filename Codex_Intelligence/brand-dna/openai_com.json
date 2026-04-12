@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 13:54"
+    "date": "2026-04-12 14:34"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Commitment to cutting-edge AI research and technology development.",
-      "technical_spec": "Core: GPT models, AI advancements, research labs.",
-      "severity_score": 95
+      "title": "Innovation Leadership",
+      "description": "Leading in AI research and development.",
+      "technical_spec": "Investment in research laboratories and partnerships.",
+      "severity_score": 5
     },
     {
-      "title": "Ethical AI",
-      "description": "Ensures AI technologies are developed and used with ethical considerations.",
-      "technical_spec": "Policies: AI ethics guidelines, responsible AI usage policies.",
-      "severity_score": 92
+      "title": "Ethical AI Advocacy",
+      "description": "Promoting responsible AI usage and development.",
+      "technical_spec": "Ethics boards, transparent data usage policies.",
+      "severity_score": 12
     },
     {
-      "title": "Accessibility",
-      "description": "Dedicated to creating AI accessible to a wide range of users and developers.",
-      "technical_spec": "Outreach: OpenAI API, educational resources, partnerships.",
-      "severity_score": 88
+      "title": "User-Centric Solutions",
+      "description": "Focusing on creating solutions that enhance user experience.",
+      "technical_spec": "User feedback loops, design thinking methodologies.",
+      "severity_score": 8
     },
     {
-      "title": "Transparency",
-      "description": "Promotes transparency in AI model development and decision processes.",
-      "technical_spec": "Approach: Open research publications, model cards.",
-      "severity_score": 85
+      "title": "Community Engagement",
+      "description": "Active involvement in developer and open-source communities.",
+      "technical_spec": "Organizing hackathons, contributing to open-source projects.",
+      "severity_score": 10
     },
     {
-      "title": "Collaboration",
-      "description": "Encourages collaboration with other organizations and developers in AI field.",
-      "technical_spec": "Programs: Partner collaborations, community forums.",
-      "severity_score": 90
+      "title": "Global Outreach",
+      "description": "Expanding presence and influence globally through strategic partnerships.",
+      "technical_spec": "Localization efforts, partnerships with international firms.",
+      "severity_score": 7
     }
   ]
 }

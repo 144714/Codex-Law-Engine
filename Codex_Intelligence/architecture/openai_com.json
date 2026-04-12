@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 13:54"
+    "date": "2026-04-12 14:34"
   },
   "data": [
     {
-      "title": "Microservices Structure",
-      "description": "OpenAI's platform uses a microservices architecture to facilitate scalability and deployment.",
-      "technical_spec": "Design pattern: Microservices; Communication: REST, gRPC; Hosted on: AWS, GCP.",
-      "severity_score": 10
+      "title": "Responsive Design",
+      "description": "Ensures access across all device types by adapting layout responsively.",
+      "technical_spec": "CSS media queries, fluid grids, and flexible images.",
+      "severity_score": 5
     },
     {
-      "title": "Load Balancing",
-      "description": "Efficient load balancing ensures optimal distribution of incoming requests across multiple servers.",
-      "technical_spec": "Algorithms: Round Robin, Least Connections; Tools: NGINX, HAProxy.",
-      "severity_score": 15
-    },
-    {
-      "title": "Database Management",
-      "description": "Handles storage requirements using a combination of relational and NoSQL databases.",
-      "technical_spec": "Databases: PostgreSQL, MongoDB; Backup: Automated scripts; Replication: Master-slave.",
+      "title": "Microservices",
+      "description": "A microservices architecture that decomposes the site into small services.",
+      "technical_spec": "Docker, Kubernetes, API gateways.",
       "severity_score": 20
     },
     {
-      "title": "Containerization",
-      "description": "Utilizing container technology to streamline development and deployment processes.",
-      "technical_spec": "Tools: Docker, Kubernetes; Orchestration: K8s Helm Charts.",
-      "severity_score": 12
+      "title": "CDN Integration",
+      "description": "Utilization of Content Delivery Networks for faster load times.",
+      "technical_spec": "Integration with services like Cloudflare or Akamai.",
+      "severity_score": 10
     },
     {
-      "title": "Cache Optimization",
-      "description": "Cache layers improve performance by reducing latency and server workload.",
-      "technical_spec": "Technologies: Redis, Memcached; Strategy: TTL, Lazy Caching.",
-      "severity_score": 18
+      "title": "Scalable Backend",
+      "description": "Backend designed to handle high volumes of traffic.",
+      "technical_spec": "AWS EC2, auto-scaling, load balancing.",
+      "severity_score": 15
+    },
+    {
+      "title": "Serverless Computing",
+      "description": "Functions hosted in serverless platforms to reduce infrastructure overhead.",
+      "technical_spec": "AWS Lambda, Azure Functions.",
+      "severity_score": 25
     }
   ]
 }

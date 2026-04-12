@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 13:54"
+    "date": "2026-04-12 14:34"
   },
   "data": [
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Ensures all data exchanges are encrypted to prevent eavesdropping and data breaches.",
-      "technical_spec": "Protocols: TLS 1.2, 1.3; Certificates: Managed by Let's Encrypt.",
-      "severity_score": 80
+      "title": "Data Encryption",
+      "description": "All data transmissions are encrypted to protect user data.",
+      "technical_spec": "TLS 1.3, AES-256 encryption.",
+      "severity_score": 30
     },
     {
-      "title": "Firewall Implementation",
-      "description": "Protects against unauthorized access and potential threats from the internet.",
-      "technical_spec": "Systems: AWS WAF, Cloudflare; Rules: IP whitelisting, strict ACLs.",
-      "severity_score": 85
-    },
-    {
-      "title": "Intrusion Detection System (IDS)",
-      "description": "Real-time monitoring to identify and respond to potential threats.",
-      "technical_spec": "Tools: Snort, Suricata; Configurations: Anomaly detection, Signature-based detection.",
-      "severity_score": 90
-    },
-    {
-      "title": "Multi-factor Authentication",
-      "description": "Adds an extra layer of security by requiring multiple forms of identifying factors.",
-      "technical_spec": "Technologies: TOTP apps (Authenticator), hardware tokens (YubiKey).",
-      "severity_score": 75
+      "title": "DDoS Mitigation",
+      "description": "Measures implemented to protect against Distributed Denial-of-Service attacks.",
+      "technical_spec": "Rate limiting, automated network traffic analysis.",
+      "severity_score": 35
     },
     {
       "title": "Regular Security Audits",
-      "description": "Frequent audits to detect vulnerabilities and ensure compliance with security standards.",
-      "technical_spec": "Frameworks: OWASP, NIST; Tools: Nessus, Qualys.",
-      "severity_score": 88
+      "description": "Routine audits to identify and rectify vulnerabilities.",
+      "technical_spec": "Penetration testing, vulnerability scanning tools.",
+      "severity_score": 40
+    },
+    {
+      "title": "Secure User Authentication",
+      "description": "Multi-factor authentication to verify user identity.",
+      "technical_spec": "OAuth2.0, SMS-based OTP, biometrics.",
+      "severity_score": 45
+    },
+    {
+      "title": "Intrusion Detection Systems",
+      "description": "Real-time monitoring for suspicious activities.",
+      "technical_spec": "AI-based IDS, anomaly detection algorithms.",
+      "severity_score": 50
     }
   ]
 }
