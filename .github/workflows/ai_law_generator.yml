@@ -1,54 +1,32 @@
-name: Codex DNA Engine Auto-Scan
-
+name: Enterprise DNA Pipeline
 on:
   workflow_dispatch:
-    inputs:
-      sites:
-        description: 'Sites to audit'
-        required: true
   issues:
     types: [opened]
 
 permissions:
   contents: write
-  issues: read
 
 jobs:
-  audit:
-    # מריץ רק אם ה-Issue כולל את מילת המפתח מהאתר
+  ingest:
     if: contains(github.event.issue.title, 'MASS_SCAN_REQUEST') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-
-      - name: Set up Python
+      - uses: actions/checkout@v3
+      - name: Setup Python
         uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-
-      - name: Install Dependencies
-        run: pip install openai
-
-      - name: Run Codex Engine
+        with: { python-version: '3.9' }
+      - run: pip install openai
+      - name: Execution
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
           GITHUB_EVENT_PATH: ${{ github.event_path }}
-        run: python generator_engine.py "${{ github.event.inputs.sites }}"
-
-      - name: Commit and Push Changes
+        run: python generator_engine.py
+      - name: Push Database Update
         run: |
-          git config --global user.name "Codex-Bot"
-          git config --global user.email "bot@codex.law"
-          
-          # הוספת כל השינויים כולל תיקיות חדשות ב-Market_Analysis
+          git config --global user.name "Codex-System"
+          git config --global user.email "system@codex.ai"
           git add Market_Analysis/
-          
-          # ביצוע Commit רק אם יש שינויים אמיתיים
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "DNA Scan Update: ${{ github.event.issue.title || 'Manual' }}"
-            git push origin main
-          else
-            echo "No changes to commit (all data is up to date)"
-          fi
+          git commit -m "Auto-Ingest: DNA Metadata Update [skip ci]" || echo "No changes"
+          git push
