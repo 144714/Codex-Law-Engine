@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 22:24"
+    "date": "2026-04-12 23:26"
   },
   "data": [
     {
-      "title": "Innovative Image",
-      "description": "The brand is positioned as a leader in AI research and development.",
-      "technical_spec": "Showcasing cutting-edge AI projects and partnerships",
-      "severity_score": 92
+      "title": "Innovative Leadership",
+      "description": "Pioneering advancements in AI and machine learning technology.",
+      "technical_spec": "Regular publishing of whitepapers and research findings.",
+      "severity_score": 95
     },
     {
-      "title": "Transparent Communication",
-      "description": "Clearly communicated goals and ethical guidelines to foster trust with users and stakeholders.",
-      "technical_spec": "OpenAI charter and regular progress updates",
+      "title": "Ethical AI Deployment",
+      "description": "Commitment to developing AI models that adhere to ethical guidelines.",
+      "technical_spec": "Deployment of fairness metrics and bias detection tools.",
+      "severity_score": 93
+    },
+    {
+      "title": "User-Centric Design",
+      "description": "Focus on crafting experiences that prioritize user needs and feedback.",
+      "technical_spec": "Integrated user feedback loops in the development cycle.",
       "severity_score": 88
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Commitment to developing AI that is beneficial and accessible to all.",
-      "technical_spec": "Inclusive design practices and user feedback integration",
-      "severity_score": 85
+      "title": "Collaborative Ecosystem",
+      "description": "Fostering partnerships with academia, industry, and developers.",
+      "technical_spec": "OpenAI API for external integrations and collaborations.",
+      "severity_score": 91
     },
     {
-      "title": "Future-Focused",
-      "description": "A vision centered on future technological advancements and global impact.",
-      "technical_spec": "Long-term projects and innovation roadmaps",
-      "severity_score": 90
-    },
-    {
-      "title": "Collaborative Culture",
-      "description": "Emphasizes partnerships with other research institutions and tech companies.",
-      "technical_spec": "Public-private partnerships and joint research initiatives",
-      "severity_score": 84
+      "title": "Cutting-Edge Research",
+      "description": "Leading the forefront of AI technology through continuous research.",
+      "technical_spec": "Investments in AI labs and talent acquisition.",
+      "severity_score": 96
     }
   ]
 }

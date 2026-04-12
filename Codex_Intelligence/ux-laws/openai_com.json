@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 22:24"
+    "date": "2026-04-12 23:26"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Web interface minimizes choices to reduce decision time for users.",
-      "technical_spec": "Simplified navigation menu",
-      "severity_score": 76
+      "title": "Hick's Law",
+      "description": "Simplified navigation reducing the number of choices at any given point.",
+      "technical_spec": "Limits primary navigation to under 5 choices per menu.",
+      "severity_score": 80
     },
     {
-      "title": "Fitts’ Law",
-      "description": "Interactive elements are sized and positioned for easy accessibility.",
-      "technical_spec": "Responsive design with touch-friendly buttons",
-      "severity_score": 82
+      "title": "Fitts' Law",
+      "description": "Focuses on minimizing the distance between interactive elements for efficiency.",
+      "technical_spec": "Consistent button sizes with accessibility in mind.",
+      "severity_score": 85
     },
     {
-      "title": "Law of Proximity",
-      "description": "Related elements are placed closer together to enhance usability and visual comprehension.",
-      "technical_spec": "Grouping of similar functions and content",
-      "severity_score": 75
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Chunking of information into digestible groups to aid memory retention.",
-      "technical_spec": "Content sectioned with appropriate headings and subheadings",
+      "title": "Miller's Law",
+      "description": "Manages cognitive load by chunking information into digestible groups.",
+      "technical_spec": "Designed with a 7±2 information chunking approach.",
       "severity_score": 78
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Important information is positioned strategically where users are most likely to remember it.",
-      "technical_spec": "Call-to-action buttons placed at the top and bottom of pages",
-      "severity_score": 80
+      "title": "Gestalt Principles",
+      "description": "Focused on perception and how users visually segment layout and content.",
+      "technical_spec": "Utilizes proximity and similarity for cohesive UI design.",
+      "severity_score": 82
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Users expect websites to work similarly to others they are familiar with.",
+      "technical_spec": "Design language aligns with common web standards.",
+      "severity_score": 87
     }
   ]
 }
