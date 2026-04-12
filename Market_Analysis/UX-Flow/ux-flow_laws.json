@@ -57,6 +57,20 @@
       "category": "UX-Flow",
       "description": "Optimize the checkout process for a seamless and efficient user experience.",
       "remediation": "Streamline the checkout steps and provide multiple payment options."
+    },
+    "CL-07": {
+      "title": "Intuitive Navigation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Improve website navigation to enhance user experience",
+      "remediation": "Simplify website structure and improve menu navigation for better usability"
+    },
+    "CL-08": {
+      "title": "Form Field Validation",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Validate user inputs in forms to prevent errors",
+      "remediation": "Continue to check and enhance form field validation to improve user experience"
     }
   },
   "stripe.com": {
@@ -79,6 +93,13 @@
       "status": "Compliant",
       "category": "UX-Flow",
       "description": "Provide clear error messages and guidance to users.",
+      "remediation": "N/A"
+    },
+    "CL-12": {
+      "title": "Intuitive Navigation",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Provide intuitive navigation to help users easily find information.",
       "remediation": "N/A"
     }
   }

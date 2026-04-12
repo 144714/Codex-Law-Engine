@@ -57,6 +57,20 @@
       "category": "Accessibility",
       "description": "Use ARIA landmarks to provide additional context for screen reader users.",
       "remediation": "No action required."
+    },
+    "CL-03": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Images should have descriptive alt text for screen readers",
+      "remediation": "Add alt text to all images to make them accessible to visually impaired users"
+    },
+    "CL-04": {
+      "title": "Color Contrast Ratio",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Ensure that text has sufficient color contrast to be easily readable",
+      "remediation": "Continue to monitor and maintain color contrast ratios across the website"
     }
   },
   "stripe.com": {
@@ -72,6 +86,27 @@
       "status": "Compliant",
       "category": "Accessibility",
       "description": "Website must be navigable using keyboard only.",
+      "remediation": "N/A"
+    },
+    "CL-06": {
+      "title": "Alternative Text for Images",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Provide alternative text for images to assist users with visual impairments.",
+      "remediation": "N/A"
+    },
+    "CL-07": {
+      "title": "Keyboard Navigation",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Ensure all website functionalities can be accessed using a keyboard.",
+      "remediation": "N/A"
+    },
+    "CL-08": {
+      "title": "Color Contrast",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Maintain sufficient color contrast for text readability.",
       "remediation": "N/A"
     }
   }

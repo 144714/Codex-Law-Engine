@@ -1,130 +1,60 @@
 {
   "google.com": {
     "CL-01": {
-      "title": "Ensure HTTPS Protocol is Enforced",
+      "title": "Website Security Certificate",
       "status": "Compliant",
       "category": "Security",
-      "description": "Ensure that the website enforces the use of HTTPS protocol to secure data transmission.",
-      "remediation": "No action required."
+      "description": "Ensure that the website has a valid security certificate to protect user data",
+      "remediation": "Make sure that the SSL certificate is up-to-date and valid"
     },
     "CL-02": {
-      "title": "Implement Cross-Origin Resource Sharing (CORS) Protection",
-      "status": "Compliant",
+      "title": "Two-Factor Authentication",
+      "status": "Issue",
       "category": "Security",
-      "description": "Ensure that Cross-Origin Resource Sharing protection is implemented to prevent unauthorized access to resources.",
-      "remediation": "No action required."
+      "description": "Implement two-factor authentication for added security",
+      "remediation": "Introduce two-factor authentication to improve user account security"
     },
     "CL-03": {
-      "title": "Enable Content Security Policy (CSP)",
-      "status": "Compliant",
-      "category": "Security",
-      "description": "Implement Content Security Policy to mitigate risks associated with content injection attacks.",
-      "remediation": "No action required."
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Images should have descriptive alt text for screen readers",
+      "remediation": "Add alt text to all images to make them accessible to visually impaired users"
     },
     "CL-04": {
-      "title": "Conduct Regular Security Audits",
-      "status": "Issue",
-      "category": "Security",
-      "description": "Regularly audit the website for security vulnerabilities and address them promptly.",
-      "remediation": "Implement a routine security audit schedule."
+      "title": "Color Contrast Ratio",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Ensure that text has sufficient color contrast to be easily readable",
+      "remediation": "Continue to monitor and maintain color contrast ratios across the website"
     },
     "CL-05": {
-      "title": "Provide Alt Text for Images",
-      "status": "Issue",
-      "category": "Accessibility",
-      "description": "Ensure all images have descriptive alt text to assist users using screen readers.",
-      "remediation": "Add alt text to all images on the website."
+      "title": "Page Load Speed",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Optimize website to ensure fast page load speeds",
+      "remediation": "Regularly monitor and optimize website performance to maintain fast load speeds"
     },
     "CL-06": {
-      "title": "Ensure Keyboard Navigation",
+      "title": "Mobile Responsiveness",
       "status": "Compliant",
-      "category": "Accessibility",
-      "description": "Ensure that all website functionalities can be accessed and operated using a keyboard only.",
-      "remediation": "No action required."
+      "category": "UI-Design",
+      "description": "Ensure that the website is fully responsive and functional across all devices",
+      "remediation": "Continue to test and optimize the website for different screen sizes and devices"
     },
     "CL-07": {
-      "title": "Implement ARIA Landmarks",
-      "status": "Compliant",
-      "category": "Accessibility",
-      "description": "Use ARIA landmarks to provide additional context for screen reader users.",
-      "remediation": "No action required."
+      "title": "Intuitive Navigation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Improve website navigation to enhance user experience",
+      "remediation": "Simplify website structure and improve menu navigation for better usability"
     },
     "CL-08": {
-      "title": "Optimize JavaScript Execution",
-      "status": "Issue",
-      "category": "Performance",
-      "description": "Optimize the execution of JavaScript code to enhance website performance.",
-      "remediation": "Review and optimize JavaScript code."
-    },
-    "CL-09": {
-      "title": "Compress Text Files",
-      "status": "Compliant",
-      "category": "Performance",
-      "description": "Compress text files to reduce website loading times.",
-      "remediation": "No action required."
-    },
-    "CL-10": {
-      "title": "Minimize HTTP Requests",
-      "status": "Issue",
-      "category": "Performance",
-      "description": "Reduce the number of HTTP requests to speed up website loading.",
-      "remediation": "Combine or eliminate unnecessary resources to minimize HTTP requests."
-    },
-    "CL-11": {
-      "title": "Consistent Design Language",
-      "status": "Compliant",
-      "category": "UI-Design",
-      "description": "Maintain a consistent design language across all pages of the website.",
-      "remediation": "No action required."
-    },
-    "CL-12": {
-      "title": "Responsive Layout",
-      "status": "Compliant",
-      "category": "UI-Design",
-      "description": "Ensure the website layout is responsive and adapts to different screen sizes.",
-      "remediation": "No action required."
-    },
-    "CL-13": {
-      "title": "Optimize Typography",
-      "status": "Issue",
-      "category": "UI-Design",
-      "description": "Optimize typography for readability and accessibility.",
-      "remediation": "Review font sizes, line spacing, and contrast ratios for optimal readability."
-    },
-    "CL-14": {
-      "title": "Clear Call-to-Actions",
-      "status": "Issue",
-      "category": "UI-Design",
-      "description": "Ensure clear and prominent call-to-action buttons for effective user engagement.",
-      "remediation": "Enhance the visibility and clarity of call-to-action elements."
-    },
-    "CL-15": {
-      "title": "Streamline User Registration Process",
-      "status": "Issue",
-      "category": "UX-Flow",
-      "description": "Simplify the user registration process to reduce friction and increase conversions.",
-      "remediation": "Optimize the registration form by minimizing required fields and steps."
-    },
-    "CL-16": {
-      "title": "Effective Error Handling",
+      "title": "Form Field Validation",
       "status": "Compliant",
       "category": "UX-Flow",
-      "description": "Implement effective error handling to provide clear feedback to users.",
-      "remediation": "No action required."
-    },
-    "CL-17": {
-      "title": "Personalized User Experience",
-      "status": "Issue",
-      "category": "UX-Flow",
-      "description": "Personalize the user experience based on user preferences and behavior.",
-      "remediation": "Implement user profiling and customization features."
-    },
-    "CL-18": {
-      "title": "Efficient Checkout Process",
-      "status": "Issue",
-      "category": "UX-Flow",
-      "description": "Optimize the checkout process for a seamless and efficient user experience.",
-      "remediation": "Streamline the checkout steps and provide multiple payment options."
+      "description": "Validate user inputs in forms to prevent errors",
+      "remediation": "Continue to check and enhance form field validation to improve user experience"
     }
   },
   "facebook.com": [],
@@ -2539,109 +2469,88 @@
   },
   "stripe.com": {
     "CL-01": {
-      "title": "SSL/TLS Usage",
+      "title": "HTTPS Protocol",
       "status": "Compliant",
       "category": "Security",
-      "description": "Website must use SSL/TLS to encrypt data transmission.",
+      "description": "Ensure the website uses HTTPS protocol to encrypt data transmission.",
       "remediation": "N/A"
     },
     "CL-02": {
-      "title": "Content Security Policy",
-      "status": "Issue",
-      "category": "Security",
-      "description": "Website should have a proper Content Security Policy in place.",
-      "remediation": "Implement a Content Security Policy to prevent XSS attacks."
-    },
-    "CL-03": {
-      "title": "Two-Factor Authentication",
+      "title": "Data Encryption",
       "status": "Compliant",
       "category": "Security",
-      "description": "Strongly recommended to have Two-Factor Authentication for user accounts.",
+      "description": "Ensure all sensitive data is encrypted to protect user information.",
+      "remediation": "N/A"
+    },
+    "CL-03": {
+      "title": "Cross-Site Scripting (XSS) Protection",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Implement measures to prevent cross-site scripting attacks.",
       "remediation": "N/A"
     },
     "CL-04": {
-      "title": "Alt Text for Images",
-      "status": "Issue",
-      "category": "Accessibility",
-      "description": "All images should have descriptive alt text for screen readers.",
-      "remediation": "Add alt text to images for improved accessibility."
+      "title": "Content Security Policy (CSP)",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Enforce a robust Content Security Policy to mitigate risks of unauthorized content injection.",
+      "remediation": "N/A"
     },
     "CL-05": {
-      "title": "Keyboard Navigation",
+      "title": "Two-Factor Authentication",
       "status": "Compliant",
-      "category": "Accessibility",
-      "description": "Website must be navigable using keyboard only.",
+      "category": "Security",
+      "description": "Offer two-factor authentication for enhanced account security.",
       "remediation": "N/A"
     },
     "CL-06": {
-      "title": "Lazy Loading",
+      "title": "Alternative Text for Images",
       "status": "Compliant",
-      "category": "Performance",
-      "description": "Use lazy loading for images and resources to improve loading times.",
+      "category": "Accessibility",
+      "description": "Provide alternative text for images to assist users with visual impairments.",
       "remediation": "N/A"
     },
     "CL-07": {
-      "title": "Minification of CSS/JS",
-      "status": "Issue",
-      "category": "Performance",
-      "description": "CSS and JS files should be minified to reduce file size.",
-      "remediation": "Minify CSS and JS files for faster loading."
+      "title": "Keyboard Navigation",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Ensure all website functionalities can be accessed using a keyboard.",
+      "remediation": "N/A"
     },
     "CL-08": {
-      "title": "Consistent Design",
+      "title": "Color Contrast",
       "status": "Compliant",
-      "category": "UI-Design",
-      "description": "Maintain consistent design elements throughout the website.",
+      "category": "Accessibility",
+      "description": "Maintain sufficient color contrast for text readability.",
       "remediation": "N/A"
     },
     "CL-09": {
-      "title": "Color Contrast",
-      "status": "Issue",
-      "category": "UI-Design",
-      "description": "Ensure sufficient color contrast for text readability.",
-      "remediation": "Improve color contrast for better readability."
+      "title": "Page Load Speed",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Optimize website performance to ensure fast page load speeds.",
+      "remediation": "N/A"
     },
     "CL-10": {
-      "title": "Clear Call-to-Actions",
+      "title": "Minify CSS and JavaScript",
       "status": "Compliant",
-      "category": "UI-Design",
-      "description": "Use clear and prominent call-to-action buttons.",
+      "category": "Performance",
+      "description": "Reduce file sizes by minifying CSS and JavaScript resources.",
       "remediation": "N/A"
     },
     "CL-11": {
-      "title": "Intuitive Navigation",
-      "status": "Compliant",
-      "category": "UX-Flow",
-      "description": "Ensure intuitive website navigation for users.",
-      "remediation": "N/A"
-    },
-    "CL-12": {
       "title": "Responsive Design",
       "status": "Compliant",
       "category": "UI-Design",
-      "description": "Website should be responsive and work well across devices.",
+      "description": "Ensure the website is fully responsive across different devices and screen sizes.",
       "remediation": "N/A"
     },
-    "CL-13": {
-      "title": "Form Validation",
-      "status": "Issue",
-      "category": "UX-Flow",
-      "description": "Implement client-side form validation for better user experience.",
-      "remediation": "Add client-side form validation to improve user experience."
-    },
-    "CL-14": {
-      "title": "Error Handling",
+    "CL-12": {
+      "title": "Intuitive Navigation",
       "status": "Compliant",
       "category": "UX-Flow",
-      "description": "Provide clear error messages and guidance to users.",
+      "description": "Provide intuitive navigation to help users easily find information.",
       "remediation": "N/A"
-    },
-    "CL-15": {
-      "title": "Load Time Optimization",
-      "status": "Issue",
-      "category": "Performance",
-      "description": "Optimize website for fast load times.",
-      "remediation": "Optimize images, resources, and server response times for faster loading."
     }
   }
 }

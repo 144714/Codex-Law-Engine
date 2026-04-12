@@ -24,18 +24,18 @@
   },
   "google.com": {
     "CL-01": {
-      "title": "Ensure HTTPS Protocol is Enforced",
+      "title": "Website Security Certificate",
       "status": "Compliant",
       "category": "Security",
-      "description": "Ensure that the website enforces the use of HTTPS protocol to secure data transmission.",
-      "remediation": "No action required."
+      "description": "Ensure that the website has a valid security certificate to protect user data",
+      "remediation": "Make sure that the SSL certificate is up-to-date and valid"
     },
     "CL-02": {
-      "title": "Implement Cross-Origin Resource Sharing (CORS) Protection",
-      "status": "Compliant",
+      "title": "Two-Factor Authentication",
+      "status": "Issue",
       "category": "Security",
-      "description": "Ensure that Cross-Origin Resource Sharing protection is implemented to prevent unauthorized access to resources.",
-      "remediation": "No action required."
+      "description": "Implement two-factor authentication for added security",
+      "remediation": "Introduce two-factor authentication to improve user account security"
     },
     "CL-03": {
       "title": "Enable Content Security Policy (CSP)",
@@ -54,24 +54,38 @@
   },
   "stripe.com": {
     "CL-01": {
-      "title": "SSL/TLS Usage",
+      "title": "HTTPS Protocol",
       "status": "Compliant",
       "category": "Security",
-      "description": "Website must use SSL/TLS to encrypt data transmission.",
+      "description": "Ensure the website uses HTTPS protocol to encrypt data transmission.",
       "remediation": "N/A"
     },
     "CL-02": {
-      "title": "Content Security Policy",
-      "status": "Issue",
+      "title": "Data Encryption",
+      "status": "Compliant",
       "category": "Security",
-      "description": "Website should have a proper Content Security Policy in place.",
-      "remediation": "Implement a Content Security Policy to prevent XSS attacks."
+      "description": "Ensure all sensitive data is encrypted to protect user information.",
+      "remediation": "N/A"
     },
     "CL-03": {
+      "title": "Cross-Site Scripting (XSS) Protection",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Implement measures to prevent cross-site scripting attacks.",
+      "remediation": "N/A"
+    },
+    "CL-04": {
+      "title": "Content Security Policy (CSP)",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Enforce a robust Content Security Policy to mitigate risks of unauthorized content injection.",
+      "remediation": "N/A"
+    },
+    "CL-05": {
       "title": "Two-Factor Authentication",
       "status": "Compliant",
       "category": "Security",
-      "description": "Strongly recommended to have Two-Factor Authentication for user accounts.",
+      "description": "Offer two-factor authentication for enhanced account security.",
       "remediation": "N/A"
     }
   }

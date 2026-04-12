@@ -36,6 +36,13 @@
       "category": "Performance",
       "description": "Reduce the number of HTTP requests to speed up website loading.",
       "remediation": "Combine or eliminate unnecessary resources to minimize HTTP requests."
+    },
+    "CL-05": {
+      "title": "Page Load Speed",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Optimize website to ensure fast page load speeds",
+      "remediation": "Regularly monitor and optimize website performance to maintain fast load speeds"
     }
   },
   "stripe.com": {
@@ -59,6 +66,20 @@
       "category": "Performance",
       "description": "Optimize website for fast load times.",
       "remediation": "Optimize images, resources, and server response times for faster loading."
+    },
+    "CL-09": {
+      "title": "Page Load Speed",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Optimize website performance to ensure fast page load speeds.",
+      "remediation": "N/A"
+    },
+    "CL-10": {
+      "title": "Minify CSS and JavaScript",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Reduce file sizes by minifying CSS and JavaScript resources.",
+      "remediation": "N/A"
     }
   }
 }

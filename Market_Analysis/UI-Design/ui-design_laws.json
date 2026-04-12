@@ -71,6 +71,13 @@
       "category": "UI-Design",
       "description": "Ensure clear and prominent call-to-action buttons for effective user engagement.",
       "remediation": "Enhance the visibility and clarity of call-to-action elements."
+    },
+    "CL-06": {
+      "title": "Mobile Responsiveness",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Ensure that the website is fully responsive and functional across all devices",
+      "remediation": "Continue to test and optimize the website for different screen sizes and devices"
     }
   },
   "stripe.com": {
@@ -100,6 +107,13 @@
       "status": "Compliant",
       "category": "UI-Design",
       "description": "Website should be responsive and work well across devices.",
+      "remediation": "N/A"
+    },
+    "CL-11": {
+      "title": "Responsive Design",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Ensure the website is fully responsive across different devices and screen sizes.",
       "remediation": "N/A"
     }
   }
