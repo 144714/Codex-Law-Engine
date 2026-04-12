@@ -30,15 +30,15 @@ jobs:
           SITES=$(echo "${{ github.event.issue.body }}" | tr '\n' ',')
           python generator_engine.py "$SITES"
 
-      - name: Commit and Push Laws
+      - name: Commit and Push changes
         run: |
-          git config --global user.name "Codex-Bot"
-          git config --global user.email "bot@codex.law"
-          git add Market_Analysis/scanned_laws.json
-          git commit -m "New Laws Codified from Issue #${{ github.event.issue.number }}" || echo "No changes to commit"
-          git push
+         git config --global user.name "Codex-Bot"
+         git config --global user.email "bot@codex.analysis"
+         git add Market_Analysis/
+         git commit -m "Auto-update: Categorized Laws" || echo "No changes to commit"
+         git push
 
-      - name: Close Issue
-        run: gh issue close ${{ github.event.issue.number }} --comment "Laws have been successfully added to the Codex."
+         - name: Close Issue
+         run: gh issue close ${{ github.event.issue.number }} --comment "Laws have been successfully added to the Codex."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
