@@ -80,6 +80,27 @@
       "category": "Performance",
       "description": "Reduce file sizes by minifying CSS and JavaScript resources.",
       "remediation": "N/A"
+    },
+    "CL-6938B7": {
+      "title": "Lazy Loading of Images",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Delay the loading of non-essential images until they are about to enter the viewport.",
+      "remediation": "N/A"
+    },
+    "CL-372DC5": {
+      "title": "Minification of CSS and JS",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Reduce the file size of CSS and JavaScript files by removing unnecessary characters.",
+      "remediation": "N/A"
+    },
+    "CL-CEB653": {
+      "title": "Image Optimization",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Optimize images for the web by compressing and resizing them appropriately.",
+      "remediation": "N/A"
     }
   }
 }

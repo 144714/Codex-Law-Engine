@@ -87,6 +87,27 @@
       "category": "Security",
       "description": "Offer two-factor authentication for enhanced account security.",
       "remediation": "N/A"
+    },
+    "CL-8A6E87": {
+      "title": "Use of SSL/TLS Encryption",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Ensure that sensitive information is transmitted securely over HTTPS.",
+      "remediation": "N/A"
+    },
+    "CL-90088A": {
+      "title": "Cross-Site Scripting (XSS) Prevention",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Protect against XSS attacks by sanitizing user input and encoding output.",
+      "remediation": "N/A"
+    },
+    "CL-B38A34": {
+      "title": "2FA for Account Security",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Encourage or enforce two-factor authentication to enhance user account security.",
+      "remediation": "Prompt users to enable 2FA and provide clear instructions on how to set it up."
     }
   }
 }

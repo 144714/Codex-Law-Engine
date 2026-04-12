@@ -108,6 +108,34 @@
       "category": "Accessibility",
       "description": "Maintain sufficient color contrast for text readability.",
       "remediation": "N/A"
+    },
+    "CL-419395": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Images should have alternative text to assist users with visual impairments.",
+      "remediation": "Add descriptive alt text to all images on the website."
+    },
+    "CL-7A813E": {
+      "title": "Keyboard Navigation",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Users should be able to navigate the website using only a keyboard.",
+      "remediation": "Ensure all interactive elements are accessible and focusable via keyboard."
+    },
+    "CL-FF668F": {
+      "title": "Skip to Content Link",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Include a 'skip to content' link to allow screen readers to jump directly to main content.",
+      "remediation": "Add a hidden anchor link at the beginning of the page that becomes visible when focused."
+    },
+    "CL-CEEC8D": {
+      "title": "Content Readability",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Ensure content is easy to read and understand for all users.",
+      "remediation": "N/A"
     }
   }
 }

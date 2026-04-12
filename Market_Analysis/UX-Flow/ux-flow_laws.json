@@ -101,6 +101,20 @@
       "category": "UX-Flow",
       "description": "Provide intuitive navigation to help users easily find information.",
       "remediation": "N/A"
+    },
+    "CL-439A5F": {
+      "title": "Form Error Handling",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Provide clear error messages and guidance when users fill out forms incorrectly.",
+      "remediation": "Improve error messages to help users correct their mistakes."
+    },
+    "CL-EF0E7F": {
+      "title": "Consent for Cookies",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Obtain user consent before setting any non-essential cookies.",
+      "remediation": "Implement a cookie banner that allows users to accept or decline cookies."
     }
   }
 }

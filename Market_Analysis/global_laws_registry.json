@@ -1,1 +1,107 @@
-{}
+{
+  "8a6e87db530b0760d7cf04ec0e224e55": {
+    "title": "Use of SSL/TLS Encryption",
+    "category": "Security",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "4193954fc40df553964257f986461ca7": {
+    "title": "Alt Text for Images",
+    "category": "Accessibility",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "6938b7bcadf39d4a9e545432f2030de1": {
+    "title": "Lazy Loading of Images",
+    "category": "Performance",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "d0f019ef4258e1cf229c9b0d8c9493cb": {
+    "title": "Color Contrast",
+    "category": "UI-Design",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "7a813e866027001f9fb2ce4c4c3fa59a": {
+    "title": "Keyboard Navigation",
+    "category": "Accessibility",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "372dc57af055e5c415637c01dde82aed": {
+    "title": "Minification of CSS and JS",
+    "category": "Performance",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "d204a0071aec9d8241a206257b9f46c7": {
+    "title": "Consistent Design",
+    "category": "UI-Design",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "439a5fe47a81fb1419b1d28e9a19e82d": {
+    "title": "Form Error Handling",
+    "category": "UX-Flow",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "90088a9dcf33329aafaf941842a9c91c": {
+    "title": "Cross-Site Scripting (XSS) Prevention",
+    "category": "Security",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "ff668f71c33d7e131e94ec23c9deebc4": {
+    "title": "Skip to Content Link",
+    "category": "Accessibility",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "ceb65347d3dad80c96955f6ee572c558": {
+    "title": "Image Optimization",
+    "category": "Performance",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "48bd81f945da9a184ef34011f33dbc3e": {
+    "title": "Mobile Responsiveness",
+    "category": "UI-Design",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "ef0e7fad4ed5689eb680b9285441c97a": {
+    "title": "Consent for Cookies",
+    "category": "UX-Flow",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "ceec8d4aa8483ca76523f7db9d99a177": {
+    "title": "Content Readability",
+    "category": "Accessibility",
+    "sites": [
+      "stripe.com"
+    ]
+  },
+  "b38a34b840d518a7b2ae62fbd3343549": {
+    "title": "2FA for Account Security",
+    "category": "Security",
+    "sites": [
+      "stripe.com"
+    ]
+  }
+}

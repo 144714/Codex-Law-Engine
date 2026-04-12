@@ -115,6 +115,27 @@
       "category": "UI-Design",
       "description": "Ensure the website is fully responsive across different devices and screen sizes.",
       "remediation": "N/A"
+    },
+    "CL-D0F019": {
+      "title": "Color Contrast",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Ensure there is sufficient color contrast between text and background for readability.",
+      "remediation": "Adjust the color scheme to meet WCAG standards for color contrast."
+    },
+    "CL-D204A0": {
+      "title": "Consistent Design",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Maintain consistency in design elements throughout the website.",
+      "remediation": "N/A"
+    },
+    "CL-48BD81": {
+      "title": "Mobile Responsiveness",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Ensure the website is fully responsive and functions well on different devices.",
+      "remediation": "N/A"
     }
   }
 }
