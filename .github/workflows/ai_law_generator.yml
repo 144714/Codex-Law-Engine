@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   audit:
-    # מריץ רק אם פתחת Issue או הפעלת ידנית
+    # מריץ רק אם ה-Issue כולל את מילת המפתח מהאתר
     if: contains(github.event.issue.title, 'MASS_SCAN_REQUEST') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
@@ -28,22 +28,27 @@ jobs:
           python-version: '3.9'
 
       - name: Install Dependencies
-        run: |
-          pip install openai
+        run: pip install openai
 
       - name: Run Codex Engine
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
           GITHUB_EVENT_PATH: ${{ github.event_path }}
-        run: |
-          # אם זו הפעלה ידנית, קח את הקלט מה-input. אם זה Issue, קח מה-Python שיקרא את הקובץ.
-          python generator_engine.py "${{ github.event.inputs.sites }}"
+        run: python generator_engine.py "${{ github.event.inputs.sites }}"
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "Codex-Bot"
           git config --global user.email "bot@codex.law"
+          
+          # הוספת כל השינויים כולל תיקיות חדשות ב-Market_Analysis
           git add Market_Analysis/
-          git commit -m "New Design DNA ingested from scan" || echo "No changes to commit"
-          git push
+          
+          # ביצוע Commit רק אם יש שינויים אמיתיים
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "DNA Scan Update: ${{ github.event.issue.title || 'Manual' }}"
+            git push origin main
+          else
+            echo "No changes to commit (all data is up to date)"
+          fi
