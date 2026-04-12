@@ -2301,5 +2301,147 @@
       "impact_score": 9,
       "remediation": "Regularly review and update session management protocols"
     }
+  },
+  "https://topwp.upress.co.il/": {
+    "CL-01": {
+      "title": "Website Security Certification",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a valid SSL certificate, resulting in an insecure connection.",
+      "remediation": "Obtain and install a valid SSL certificate to encrypt data transmitted between the website and users' browsers.",
+      "CL-02": {
+        "title": "Two-Factor Authentication Implementation",
+        "status": "Compliant",
+        "category": "Security",
+        "description": "The website provides two-factor authentication for user accounts, enhancing login security.",
+        "remediation": "N/A"
+      },
+      "CL-03": {
+        "title": "Alt Text for Images",
+        "status": "Issue",
+        "category": "Accessibility",
+        "description": "Many images on the website lack alt text, making it difficult for visually impaired users or those using screen readers to understand the content.",
+        "remediation": "Add descriptive alt text to all images to improve accessibility."
+      },
+      "CL-04": {
+        "title": "Keyboard Navigation",
+        "status": "Issue",
+        "category": "Accessibility",
+        "description": "The website lacks proper keyboard navigation support, hindering users who rely on keyboard input for browsing.",
+        "remediation": "Enhance keyboard navigation by ensuring all interactive elements are accessible and navigable using the keyboard alone."
+      },
+      "CL-05": {
+        "title": "Lighthouse Performance Score",
+        "status": "Issue",
+        "category": "Performance",
+        "description": "The website's performance score in Lighthouse audits is below acceptable standards, impacting page load speed.",
+        "remediation": "Optimize images, minify CSS and JavaScript files, and leverage browser caching to improve performance."
+      },
+      "CL-06": {
+        "title": "Mobile Responsive Design",
+        "status": "Compliant",
+        "category": "UI-Design",
+        "description": "The website is mobile responsive, ensuring a seamless user experience across various devices.",
+        "remediation": "N/A"
+      },
+      "CL-07": {
+        "title": "Consistent Branding and Typography",
+        "status": "Compliant",
+        "category": "UI-Design",
+        "description": "The website maintains consistent branding and typography styles throughout the site.",
+        "remediation": "N/A"
+      },
+      "CL-08": {
+        "title": "Intuitive Navigation",
+        "status": "Issue",
+        "category": "UX-Flow",
+        "description": "The website lacks clear and intuitive navigation, making it challenging for users to find relevant information.",
+        "remediation": "Simplify menu structures, add breadcrumbs, and improve the search functionality to enhance navigation."
+      },
+      "CL-09": {
+        "title": "Clear Call-to-Action Buttons",
+        "status": "Compliant",
+        "category": "UI-Design",
+        "description": "The website features clear and prominent call-to-action buttons to guide users towards desired actions.",
+        "remediation": "N/A"
+      },
+      "CL-10": {
+        "title": "Forms Usability",
+        "status": "Compliant",
+        "category": "UX-Flow",
+        "description": "Forms on the website are easy to use and submit, enhancing user experience during data entry.",
+        "remediation": "N/A"
+      }
+    },
+    "CL-11": {
+      "title": "Cross-Browser Compatibility",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website exhibits layout and functionality issues on certain browsers, affecting user experience.",
+      "remediation": "Test and optimize the website for compatibility across major browsers like Chrome, Firefox, Safari, and Edge."
+    },
+    "CL-12": {
+      "title": "Error Handling",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website lacks informative error messages and guidance for users in case of form submission failures.",
+      "remediation": "Implement descriptive error messages and provide clear instructions on how to resolve issues to improve user experience."
+    },
+    "CL-13": {
+      "title": "Content Readability",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Content on the website is presented in a clean and readable format, enhancing user engagement.",
+      "remediation": "N/A"
+    },
+    "CL-14": {
+      "title": "Page Loading Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website experiences slow page loading speed, potentially increasing bounce rates.",
+      "remediation": "Optimize server response time, reduce server requests, and minify resources to enhance page loading speed."
+    },
+    "CL-15": {
+      "title": "Color Contrast for Accessibility",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "The website uses appropriate color contrast, improving visibility for users with visual impairments.",
+      "remediation": "N/A"
+    },
+    "CL-16": {
+      "title": "Footer Information Accessibility",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Essential information in the footer is not easily accessible or well-structured, potentially hindering user navigation.",
+      "remediation": "Ensure key information in the footer is well-organized, easily readable, and provides necessary links for users."
+    },
+    "CL-17": {
+      "title": "Hamburger Menu for Mobile Devices",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "The website implements a hamburger menu for mobile devices, optimizing screen space and improving navigation.",
+      "remediation": "N/A"
+    },
+    "CL-18": {
+      "title": "404 Page Design",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The 404 error page design lacks helpful links or navigation options for users who encounter broken links.",
+      "remediation": "Enhance the 404 page design with a clear message, search bar, and relevant links to guide users back to functional areas."
+    },
+    "CL-19": {
+      "title": "Breadcrumb Navigation",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "The website utilizes breadcrumb navigation to help users understand their location within the site's hierarchy.",
+      "remediation": "N/A"
+    },
+    "CL-20": {
+      "title": "Whitespace Utilization",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website effectively utilizes whitespace to enhance content readability and visual appeal.",
+      "remediation": "N/A"
+    }
   }
 }
