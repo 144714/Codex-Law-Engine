@@ -1,41 +1,49 @@
-name: Codex Law Engine Audit
+name: Codex DNA Engine Auto-Scan
 
 on:
-  workflow_dispatch: # מאפשר לך להריץ ידנית בלחיצת כפתור
+  workflow_dispatch:
     inputs:
       sites:
-        description: 'Sites to audit (comma separated)'
+        description: 'Sites to audit'
         required: true
-        default: 'google.com, stripe.com'
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: read
 
 jobs:
-  build:
+  audit:
+    # מריץ רק אם פתחת Issue או הפעלת ידנית
+    if: contains(github.event.issue.title, 'MASS_SCAN_REQUEST') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.9'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-    - name: Install Dependencies
-      run: |
-        pip install openai
+      - name: Install Dependencies
+        run: |
+          pip install openai
 
-    - name: Run Generator Engine
-      env:
-        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      run: |
-        python generator_engine.py "${{ github.event.inputs.sites }}"
+      - name: Run Codex Engine
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+        run: |
+          # אם זו הפעלה ידנית, קח את הקלט מה-input. אם זה Issue, קח מה-Python שיקרא את הקובץ.
+          python generator_engine.py "${{ github.event.inputs.sites }}"
 
-    - name: Commit and Push Categorized Laws
-      run: |
-        git config --global user.name "Codex-Bot"
-        git config --global user.email "bot@codex.analysis"
-        git add Market_Analysis/
-        # אם אין שינויים, הפקודה לא תיכשל
-        git commit -m "Auto-update: Laws categorization" || echo "No changes to commit"
-        git push
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "Codex-Bot"
+          git config --global user.email "bot@codex.law"
+          git add Market_Analysis/
+          git commit -m "New Design DNA ingested from scan" || echo "No changes to commit"
+          git push
