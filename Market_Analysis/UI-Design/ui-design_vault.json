@@ -8,5 +8,15 @@
       "category": "UI-Design",
       "status": "Analyzed"
     }
+  },
+  "Airbnb.com": {
+    "DNA-D41D8C": {
+      "title": "Unknown",
+      "description": "",
+      "design_token": "iconography.standard",
+      "remediation": "",
+      "category": "UI-Design",
+      "status": "Analyzed"
+    }
   }
 }

@@ -8,5 +8,15 @@
       "category": "Security",
       "status": "Analyzed"
     }
+  },
+  "Airbnb.com": {
+    "DNA-D41D8C": {
+      "title": "Unknown",
+      "description": "",
+      "design_token": null,
+      "remediation": "",
+      "category": "Security",
+      "status": "Analyzed"
+    }
   }
 }

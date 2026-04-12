@@ -8,5 +8,15 @@
       "category": "Accessibility",
       "status": "Analyzed"
     }
+  },
+  "Airbnb.com": {
+    "DNA-D41D8C": {
+      "title": "Unknown",
+      "description": "",
+      "design_token": "color.contrast_text",
+      "remediation": "",
+      "category": "Accessibility",
+      "status": "Analyzed"
+    }
   }
 }
