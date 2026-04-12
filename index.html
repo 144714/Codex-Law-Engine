@@ -3,115 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codex DNA Engine | המאגר המלא</title>
+    <title>Codex DNA | Advanced Management Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { background-color: #020617; color: #e2e8f0; font-family: 'Segoe UI', sans-serif; padding-top: 40px; }
-        .legislator-card { background: #0f172a; border: 1px solid #3b82f6; border-radius: 15px; padding: 20px; margin-bottom: 30px; }
-        textarea { background: #020617 !important; color: #10b981 !important; border: 1px solid #1e293b !important; font-family: monospace; }
+        :root { --bg: #020617; --card: #0f172a; --accent: #3b82f6; --text: #f8fafc; --success: #10b981; }
+        body { background-color: var(--bg); color: var(--text); font-family: 'Inter', system-ui, sans-serif; }
         
-        .nav-pills .nav-link { color: #94a3b8; border: 1px solid #1e293b; margin: 5px; }
-        .nav-pills .nav-link.active { background-color: #3b82f6; color: white; }
+        /* Sidebar Style Navigation */
+        .sidebar { background: var(--card); border-left: 1px solid #1e293b; height: 100vh; position: fixed; right: 0; top: 0; width: 260px; padding: 20px; z-index: 100; }
+        .main-content { margin-right: 260px; padding: 30px; }
         
-        .site-card { background: #0f172a; border: 1px solid #1e293b; border-radius: 16px; margin-bottom: 40px; padding: 20px; }
-        .site-title { color: #60a5fa; font-weight: 800; border-right: 4px solid #3b82f6; padding-right: 15px; margin-bottom: 20px; }
+        /* Dashboard Cards */
+        .stat-card { background: var(--card); border: 1px solid #1e293b; border-radius: 12px; padding: 20px; transition: 0.3s; }
+        .stat-card:hover { border-color: var(--accent); }
         
-        .law-card { background: #1e293b; border-radius: 12px; padding: 15px; height: 100%; border-right: 4px solid #334155; }
-        .token-code { background: #020617; color: #10b981; padding: 5px; border-radius: 4px; font-size: 0.85em; display: block; mt-2; }
+        /* Search Bar */
+        .search-box { background: var(--card); border: 1px solid #1e293b; color: white; border-radius: 10px; padding: 12px 20px; width: 100%; margin-bottom: 30px; }
         
-        #loading { display: none; text-align: center; padding: 30px; }
+        /* Content Cards */
+        .law-card { background: var(--card); border-radius: 12px; border-top: 4px solid var(--accent); height: 100%; transition: 0.3s; position: relative; }
+        .law-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.4); }
+        .badge-id { font-family: monospace; color: var(--accent); background: rgba(59, 130, 246, 0.1); padding: 2px 8px; border-radius: 4px; }
+        
+        .token-block { background: #020617; border-radius: 6px; padding: 10px; font-family: 'Courier New', monospace; font-size: 0.85em; color: var(--success); margin-top: 15px; border: 1px solid #1e293b; }
+        
+        .nav-link { color: #94a3b8; padding: 12px; border-radius: 8px; margin-bottom: 5px; cursor: pointer; display: flex; align-items: center; }
+        .nav-link i { margin-left: 12px; }
+        .nav-link.active { background: var(--accent); color: white; }
+        .nav-link:hover:not(.active) { background: #1e293b; color: white; }
+
+        @media (max-width: 768px) { .sidebar { display: none; } .main-content { margin-right: 0; } }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="text-center mb-5">
-        <h1 class="display-4 fw-bold">⚖️ Codex DNA Engine</h1>
-        <p class="lead text-secondary">ניהול חקיקה דיגיטלית וסריקת DNA של אתרים</p>
+<nav class="sidebar">
+    <div class="mb-5 text-center">
+        <h2 class="fw-bold"><i class="fas fa-gavel text-primary"></i> CODEX</h2>
+        <span class="badge bg-primary">v2.5 Admin</span>
+    </div>
+    <div class="nav-links">
+        <div class="nav-link active" onclick="switchView('overview', this)"><i class="fas fa-home"></i> סקירה כללית</div>
+        <div class="nav-link" onclick="loadCategory('scanned_laws.json', this)"><i class="fas fa-database"></i> המאגר הראשי</div>
+        <div class="nav-link" onclick="loadCategory('UI-Design/ui-design_vault.json', this)"><i class="fas fa-paint-brush"></i> חוקי עיצוב DNA</div>
+        <div class="nav-link" onclick="loadCategory('Security/security_vault.json', this)"><i class="fas fa-shield-alt"></i> אבטחת מידע</div>
+        <div class="nav-link" onclick="loadCategory('Accessibility/accessibility_vault.json', this)"><i class="fas fa-universal-access"></i> נגישות</div>
+        <div class="nav-link" onclick="loadCategory('UX-Flow/ux-flow_vault.json', this)"><i class="fas fa-user-check"></i> חווית משתמש</div>
+        <hr class="my-4" style="border-color: #1e293b">
+        <div class="nav-link text-info" onclick="toggleScanner()"><i class="fas fa-plus-circle"></i> סריקה חדשה</div>
+    </div>
+</nav>
+
+<div class="main-content">
+    
+    <div id="overview-header" class="row mb-4">
+        <div class="col-md-3 mb-3">
+            <div class="stat-card">
+                <small class="text-secondary">סה"כ אתרים</small>
+                <h2 id="count-sites">--</h2>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="stat-card">
+                <small class="text-secondary">חוקים במאגר</small>
+                <h2 id="count-laws" class="text-primary">--</h2>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <input type="text" id="globalSearch" class="search-box" placeholder="חפש אתר, חוק או ערך CSS..." onkeyup="filterResults()">
+        </div>
     </div>
 
-    <div class="legislator-card shadow-lg">
-        <h4 class="mb-3 text-info">🔨 מרכז חקיקה והרצת סקריפט</h4>
-        <textarea id="siteList" class="form-control mb-3" rows="3" placeholder="הכנס כתובות אתרים (מופרדות בפסיקים או שורות)..."></textarea>
-        <button onclick="startMassLegislation()" class="btn btn-info w-100 fw-bold">הפעל סריקת AI ושאיבת DNA</button>
+    <div id="scanner-section" class="stat-card mb-4 d-none">
+        <h4 class="mb-3 text-info">🔨 מרכז הרצת סריקות AI</h4>
+        <textarea id="siteList" class="form-control mb-3 bg-dark text-success" rows="3" placeholder="הכנס כתובות אתרים מופרדות בפסיקים..."></textarea>
+        <button onclick="startMassLegislation()" class="btn btn-info w-100 fw-bold">שגר למנוע ה-Codex</button>
     </div>
 
-    <div class="d-flex justify-content-center flex-wrap mb-5 nav nav-pills">
-        <button class="nav-link active" onclick="loadData('scanned_laws.json', this)">📚 המאגר הישן (100 אתרים)</button>
-        <button class="nav-link" onclick="loadData('UI-Design/ui-design_vault.json', this)">🎨 עיצוב (DNA)</button>
-        <button class="nav-link" onclick="loadData('Security/security_vault.json', this)">🛡️ אבטחה</button>
-        <button class="nav-link" onclick="loadData('UX-Flow/ux-flow_vault.json', this)">🧠 חווית משתמש</button>
+    <div id="loading" class="text-center p-5 d-none">
+        <div class="spinner-border text-primary" role="status"></div>
     </div>
 
-    <div id="loading">
-        <div class="spinner-border text-info" role="status"></div>
-        <p class="mt-2">טוען נתונים מהשרת...</p>
-    </div>
-
-    <main id="dashboard"></main>
+    <div id="dashboard-grid" class="row">
+        </div>
 </div>
 
 <script>
-    async function loadData(filePath, btn) {
-        document.querySelectorAll('.nav-link').forEach(b => b.classList.remove('active'));
-        if(btn) btn.classList.add('active');
+    let currentData = {};
 
-        const dashboard = document.getElementById('dashboard');
-        const loader = document.getElementById('loading');
-        
-        dashboard.innerHTML = '';
-        loader.style.display = 'block';
+    async function loadCategory(filePath, btn) {
+        // UI Updates
+        document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+        if(btn) btn.classList.add('active');
+        document.getElementById('loading').classList.remove('d-none');
+        document.getElementById('dashboard-grid').innerHTML = '';
 
         try {
-            // טעינה עם מנגנון מניעת Cache
             const response = await fetch(`Market_Analysis/${filePath}?t=${Date.now()}`);
-            if (!response.ok) throw new Error("File not found");
+            if (!response.ok) throw new Error("File Missing");
+            currentData = await response.json();
             
-            const data = await response.json();
-            loader.style.display = 'none';
-
-            for (const [site, info] of Object.entries(data)) {
-                const siteSection = document.createElement('div');
-                siteSection.className = 'site-card shadow';
-                
-                let cardsHtml = '';
-                // המנגנון יודע לטפל גם במבנה הישן וגם בחדש (Vault)
-                Object.entries(info).forEach(([id, details]) => {
-                    cardsHtml += `
-                        <div class="col-md-6 col-lg-4 mb-3">
-                            <div class="law-card">
-                                <small class="text-muted">${id}</small>
-                                <h6 class="fw-bold text-white mt-1">${details.title || 'חוק ללא כותרת'}</h6>
-                                <p style="font-size: 0.85em;" class="text-secondary">${details.description || ''}</p>
-                                <p style="font-size: 0.85em;" class="text-info"><strong>תיקון:</strong> ${details.remediation || 'תקין'}</p>
-                                ${details.design_token ? `<code class="token-code">${details.design_token}</code>` : ''}
-                            </div>
-                        </div>
-                    `;
-                });
-
-                siteSection.innerHTML = `<h3 class="site-title">🌐 ${site}</h3><div class="row">${cardsHtml}</div>`;
-                dashboard.appendChild(siteSection);
-            }
+            renderDashboard(currentData);
+            updateStats(currentData);
         } catch (e) {
-            loader.style.display = 'none';
-            dashboard.innerHTML = `<div class="text-center p-5 text-muted">לא נמצאו נתונים בקובץ <b>${filePath}</b>. הרץ סריקה קודם!</div>`;
+            document.getElementById('dashboard-grid').innerHTML = `<div class="text-center p-5">לא נמצאו נתונים בקובץ זה.</div>`;
+        } finally {
+            document.getElementById('loading').classList.add('d-none');
         }
     }
 
-    function startMassLegislation() {
-        const siteText = document.getElementById('siteList').value.trim();
-        if (!siteText) { alert("נא להזין כתובות"); return; }
+    function renderDashboard(data) {
+        const grid = document.getElementById('dashboard-grid');
+        grid.innerHTML = '';
+
+        for (const [site, laws] of Object.entries(data)) {
+            const siteWrapper = document.createElement('div');
+            siteWrapper.className = 'col-12 mb-5 site-group';
+            siteWrapper.setAttribute('data-site', site.toLowerCase());
+
+            let lawsHtml = '';
+            Object.entries(laws).forEach(([id, info]) => {
+                lawsHtml += `
+                    <div class="col-md-4 mb-3 law-item" data-title="${(info.title || '').toLowerCase()}">
+                        <div class="law-card p-3 card shadow-sm">
+                            <div class="d-flex justify-content-between mb-2">
+                                <span class="badge-id">${id}</span>
+                                <span class="badge ${info.status === 'Compliant' ? 'bg-success' : 'bg-danger'}">
+                                    ${info.status || 'Analysis'}
+                                </span>
+                            </div>
+                            <h6 class="fw-bold">${info.title || 'Untitled Law'}</h6>
+                            <p class="small text-secondary mb-2">${info.description || ''}</p>
+                            <p class="small text-info"><b>תיקון:</b> ${info.remediation || 'N/A'}</p>
+                            ${info.design_token ? `<div class="token-block"><code>${info.design_token}</code></div>` : ''}
+                        </div>
+                    </div>
+                `;
+            });
+
+            siteWrapper.innerHTML = `<h3 class="mb-3 border-bottom pb-2">🌐 ${site}</h3><div class="row">${lawsHtml}</div>`;
+            grid.appendChild(siteWrapper);
+        }
+    }
+
+    function updateStats(data) {
+        const sitesCount = Object.keys(data).length;
+        let lawsCount = 0;
+        Object.values(data).forEach(s => lawsCount += Object.keys(s).length);
         
-        // החלף את הפרמטרים כאן לשם המשתמש והריפו שלך!
-        const GITHUB_USERNAME = "144714"; 
-        const REPO_NAME = "Codex-Law-Engine";
-        const url = `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/issues/new?title=MASS_SCAN_REQUEST&body=${encodeURIComponent(siteText)}`;
+        document.getElementById('count-sites').innerText = sitesCount;
+        document.getElementById('count-laws').innerText = lawsCount;
+    }
+
+    function filterResults() {
+        const query = document.getElementById('globalSearch').value.toLowerCase();
+        
+        document.querySelectorAll('.site-group').forEach(group => {
+            const siteName = group.getAttribute('data-site');
+            const items = group.querySelectorAll('.law-item');
+            let hasVisibleItem = false;
+
+            items.forEach(item => {
+                const title = item.getAttribute('data-title');
+                if (title.includes(query) || siteName.includes(query)) {
+                    item.classList.remove('d-none');
+                    hasVisibleItem = true;
+                } else {
+                    item.classList.add('d-none');
+                }
+            });
+
+            group.style.display = hasVisibleItem ? 'block' : 'none';
+        });
+    }
+
+    function toggleScanner() {
+        document.getElementById('scanner-section').classList.toggle('d-none');
+    }
+
+    function startMassLegislation() {
+        const sites = document.getElementById('siteList').value;
+        const url = `https://github.com/144714/Codex-Law-Engine/issues/new?title=MASS_SCAN_REQUEST&body=${encodeURIComponent(sites)}`;
         window.open(url, '_blank');
     }
 
-    // טעינה ראשונית - המאגר הכללי
-    window.onload = () => loadData('scanned_laws.json');
+    // Initial Load
+    window.onload = () => loadCategory('scanned_laws.json');
 </script>
 
 </body>
