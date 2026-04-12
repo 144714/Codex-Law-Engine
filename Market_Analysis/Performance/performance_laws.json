@@ -1,0 +1,18 @@
+{
+  "https://topwp.upress.co.il/": {
+    "CL-09": {
+      "title": "Page Loading Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has slow loading speed, leading to high bounce rates and poor user experience.",
+      "remediation": "Optimize images, minify CSS and JavaScript files, and leverage browser caching to enhance page loading speed."
+    },
+    "CL-14": {
+      "title": "SEO-Friendly URLs",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website uses non-descriptive URLs that are not optimized for search engine visibility.",
+      "remediation": "Implement SEO-friendly URLs with relevant keywords to improve search engine rankings and user experience."
+    }
+  }
+}

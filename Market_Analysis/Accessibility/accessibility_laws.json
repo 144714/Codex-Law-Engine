@@ -1,0 +1,39 @@
+{
+  "https://topwp.upress.co.il/": {
+    "CL-04": {
+      "title": "Image Alt Text",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Images on the website lack appropriate alt text, making it inaccessible to visually impaired users.",
+      "remediation": "Add descriptive alt text to all images to improve accessibility for screen readers."
+    },
+    "CL-05": {
+      "title": "Color Contrast",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some text elements on the website have low color contrast ratios, hindering readability for users with visual impairments.",
+      "remediation": "Adjust the color combinations to ensure sufficient color contrast for better readability."
+    },
+    "CL-13": {
+      "title": "Keyboard Navigation",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website lacks proper keyboard navigation support, hampering accessibility for users who rely on keyboard input.",
+      "remediation": "Ensure all interactive elements are accessible and navigable via keyboard tabbing and shortcuts."
+    },
+    "CL-16": {
+      "title": "Video Captions",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Videos on the website lack captions, making them inaccessible to users with hearing impairments.",
+      "remediation": "Add captions or transcripts to all videos to ensure accessibility for all users."
+    },
+    "CL-18": {
+      "title": "Contact Form Accessibility",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website contact forms lack proper labels and landmarks for accessible form completion.",
+      "remediation": "Add descriptive labels and ARIA landmarks to enhance contact form accessibility."
+    }
+  }
+}

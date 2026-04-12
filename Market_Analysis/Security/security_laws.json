@@ -1,0 +1,25 @@
+{
+  "https://topwp.upress.co.il/": {
+    "CL-01": {
+      "title": "Website Security Certificate",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a valid SSL certificate, exposing user data to security risks.",
+      "remediation": "Install and configure a valid SSL certificate to encrypt the data transmitted between the user and the server."
+    },
+    "CL-11": {
+      "title": "Password Security",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website allows weak password creation without enforced security measures, making it vulnerable to brute force attacks.",
+      "remediation": "Implement password strength requirements and enable multi-factor authentication for enhanced security."
+    },
+    "CL-20": {
+      "title": "GDPR Compliance",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website lacks a GDPR compliance statement and explicit user consent mechanisms for data processing.",
+      "remediation": "Implement GDPR-compliant privacy policies, cookie consent, and data processing notifications."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "https://topwp.upress.co.il/": {
+    "CL-02": {
+      "title": "Cookie Consent",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website does not have a visible cookie consent banner informing users about the use of cookies.",
+      "remediation": "Implement a clear and conspicuous cookie consent banner to comply with GDPR regulations."
+    },
+    "CL-03": {
+      "title": "Mobile Responsiveness",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is not fully responsive on mobile devices, affecting user experience.",
+      "remediation": "Optimize the website layout and design to ensure complete responsiveness across all devices."
+    },
+    "CL-08": {
+      "title": "Clear Call-to-Action Buttons",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website features clear and prominent call-to-action buttons for easy user navigation.",
+      "remediation": "N/A"
+    },
+    "CL-12": {
+      "title": "Readability",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website maintains good readability with appropriate font sizes and spacing for easy content consumption.",
+      "remediation": "N/A"
+    },
+    "CL-15": {
+      "title": "Error Message Consistency",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website maintains consistent error message formats for better user understanding.",
+      "remediation": "N/A"
+    },
+    "CL-17": {
+      "title": "Social Media Integration",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website integrates social media buttons for easy sharing and engagement.",
+      "remediation": "N/A"
+    }
+  }
+}

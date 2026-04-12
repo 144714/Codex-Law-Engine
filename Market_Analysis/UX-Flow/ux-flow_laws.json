@@ -1,0 +1,32 @@
+{
+  "https://topwp.upress.co.il/": {
+    "CL-06": {
+      "title": "404 Error Page",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website lacks a custom 404 error page, leading to poor user experience when encountering broken links.",
+      "remediation": "Create a custom 404 error page with helpful information and navigation options to guide users back to the main site."
+    },
+    "CL-07": {
+      "title": "Form Validation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Form fields on the website do not have real-time validation feedback, causing user confusion.",
+      "remediation": "Implement client-side form validation to provide instant feedback on input errors."
+    },
+    "CL-10": {
+      "title": "Breadcrumb Navigation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website lacks breadcrumb navigation, making it difficult for users to track their navigation path.",
+      "remediation": "Implement breadcrumb navigation to help users understand their current location within the website."
+    },
+    "CL-19": {
+      "title": "Search Functionality",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "The website features a search functionality for users to easily find content.",
+      "remediation": "N/A"
+    }
+  }
+}
