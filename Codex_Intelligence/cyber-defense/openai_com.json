@@ -2,37 +2,37 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 12:56"
+    "date": "2026-04-12 13:54"
   },
   "data": [
     {
-      "title": "HTTPS with TLS Encryption",
-      "description": "Protects data integrity and privacy by encrypting data in transit.",
-      "technical_spec": "TLS 1.3 protocol with strong cipher suites.",
-      "severity_score": 95
-    },
-    {
-      "title": "Multi-Factor Authentication",
-      "description": "Enhances security by requiring multiple forms of verification from users.",
-      "technical_spec": "Implemented through third-party services like Google Authenticator.",
-      "severity_score": 85
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts routine and thorough audits to identify and mitigate security vulnerabilities.",
-      "technical_spec": "Automated scanning using tools like OWASP ZAP paired with manual reviews.",
+      "title": "SSL/TLS Encryption",
+      "description": "Ensures all data exchanges are encrypted to prevent eavesdropping and data breaches.",
+      "technical_spec": "Protocols: TLS 1.2, 1.3; Certificates: Managed by Let's Encrypt.",
       "severity_score": 80
     },
     {
-      "title": "Web Application Firewall (WAF)",
-      "description": "Protects against various web-based attacks like SQL injection and cross-site scripting.",
-      "technical_spec": "Integrated via a WAF solution like AWS Shield.",
+      "title": "Firewall Implementation",
+      "description": "Protects against unauthorized access and potential threats from the internet.",
+      "technical_spec": "Systems: AWS WAF, Cloudflare; Rules: IP whitelisting, strict ACLs.",
+      "severity_score": 85
+    },
+    {
+      "title": "Intrusion Detection System (IDS)",
+      "description": "Real-time monitoring to identify and respond to potential threats.",
+      "technical_spec": "Tools: Snort, Suricata; Configurations: Anomaly detection, Signature-based detection.",
       "severity_score": 90
     },
     {
-      "title": "Data Backups and Recovery",
-      "description": "Regular backups and redundancy to ensure data is not lost and can be quickly recovered.",
-      "technical_spec": "Automated backup process using AWS Backup and RDS snapshots.",
+      "title": "Multi-factor Authentication",
+      "description": "Adds an extra layer of security by requiring multiple forms of identifying factors.",
+      "technical_spec": "Technologies: TOTP apps (Authenticator), hardware tokens (YubiKey).",
+      "severity_score": 75
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Frequent audits to detect vulnerabilities and ensure compliance with security standards.",
+      "technical_spec": "Frameworks: OWASP, NIST; Tools: Nessus, Qualys.",
       "severity_score": 88
     }
   ]

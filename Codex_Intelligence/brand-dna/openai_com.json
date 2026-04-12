@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 12:56"
+    "date": "2026-04-12 13:54"
   },
   "data": [
     {
-      "title": "Innovative Solutions",
-      "description": "Brand rooted in providing cutting-edge AI and machine learning solutions.",
-      "technical_spec": "Focus on deep learning models and AI research advancements.",
-      "severity_score": 93
+      "title": "Innovation",
+      "description": "Commitment to cutting-edge AI research and technology development.",
+      "technical_spec": "Core: GPT models, AI advancements, research labs.",
+      "severity_score": 95
     },
     {
-      "title": "Ethical AI Development",
-      "description": "Commitment to ethical AI practices, ensuring technology is used responsibly.",
-      "technical_spec": "Complies with industry standards and guidelines for ethical AI use.",
-      "severity_score": 90
+      "title": "Ethical AI",
+      "description": "Ensures AI technologies are developed and used with ethical considerations.",
+      "technical_spec": "Policies: AI ethics guidelines, responsible AI usage policies.",
+      "severity_score": 92
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Emphasizes user experience and usability across platforms.",
-      "technical_spec": "Incorporates user feedback loops and iterative design improvements.",
+      "title": "Accessibility",
+      "description": "Dedicated to creating AI accessible to a wide range of users and developers.",
+      "technical_spec": "Outreach: OpenAI API, educational resources, partnerships.",
       "severity_score": 88
     },
     {
-      "title": "Collaborative Ecosystem",
-      "description": "Encourages collaboration with partners, developers, and the research community.",
-      "technical_spec": "OpenAI API access and community forums for shared learning and development.",
-      "severity_score": 87
+      "title": "Transparency",
+      "description": "Promotes transparency in AI model development and decision processes.",
+      "technical_spec": "Approach: Open research publications, model cards.",
+      "severity_score": 85
     },
     {
-      "title": "Commitment to Education",
-      "description": "Focus on educating the public about AI and its implications.",
-      "technical_spec": "Offers resources, tutorials, and transparent research documentation.",
-      "severity_score": 85
+      "title": "Collaboration",
+      "description": "Encourages collaboration with other organizations and developers in AI field.",
+      "technical_spec": "Programs: Partner collaborations, community forums.",
+      "severity_score": 90
     }
   ]
 }

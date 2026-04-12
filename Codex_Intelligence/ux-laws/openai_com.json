@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 12:56"
+    "date": "2026-04-12 13:54"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Simplified navigation to reduce the time and cognitive load for users to make decisions.",
-      "technical_spec": "Utilizes clear menus with limited and categorized choices.",
-      "severity_score": 85
+      "description": "Design focuses on reducing decision-making time by minimizing choices.",
+      "technical_spec": "Implementation: Simple navigation, prioritized content flow.",
+      "severity_score": 30
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Users prefer interfaces familiar to their own experiences from other sites.",
+      "technical_spec": "Standards: Consistent iconography, similar navigation patterns.",
+      "severity_score": 35
     },
     {
       "title": "Fitts’s Law",
-      "description": "Ensures actionable items are easily clickable by maintaining size and positioning according to user interactions.",
-      "technical_spec": "Button sizes optimized for both desktop and mobile, ensuring minimum size for easy interaction.",
-      "severity_score": 80
+      "description": "Design with larger, more accessible target elements for a more user-friendly experience.",
+      "technical_spec": "Approach: Enlarged buttons, accessible links with enough space.",
+      "severity_score": 28
     },
     {
-      "title": "Affordance Principles",
-      "description": "Design elements indicate clear actions that users can take, promoting intuitive use.",
-      "technical_spec": "Interactive elements like buttons and links are visually distinct and consistent.",
-      "severity_score": 90
+      "title": "Miller’s Law",
+      "description": "The idea that users can only hold 7±2 pieces of information in their working memory.",
+      "technical_spec": "Design: Information chunking, concise messaging.",
+      "severity_score": 25
     },
     {
-      "title": "Consistency and Standards",
-      "description": "Consistent elements across pages for familiarity and ease of use.",
-      "technical_spec": "Adheres to a design system for consistent styles, components, and patterns.",
-      "severity_score": 88
-    },
-    {
-      "title": "Accessibility Design",
-      "description": "Ensures the platform is accessible to users with disabilities.",
-      "technical_spec": "Follows WCAG 2.1 guidelines, implementing features such as text alternatives and keyboard navigability.",
-      "severity_score": 92
+      "title": "Tesler’s Law",
+      "description": "Available simplicity in user interfaces minimizes complexity for users.",
+      "technical_spec": "Strategies: Automation features, simplified workflows.",
+      "severity_score": 32
     }
   ]
 }
