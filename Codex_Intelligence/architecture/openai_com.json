@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 16:28"
+    "date": "2026-04-12 17:28"
   },
   "data": [
     {
-      "title": "Serverless Infrastructure",
-      "description": "Utilizes cloud-based serverless infrastructure to scale resources automatically.",
-      "technical_spec": "AWS Lambda, API Gateway, DynamoDB.",
-      "severity_score": 85
+      "title": "Microservices Framework",
+      "description": "The website uses a microservices architecture to enhance scalability and maintainability.",
+      "technical_spec": "Deployed on Kubernetes, uses Docker containers.",
+      "severity_score": 20
     },
     {
-      "title": "Microservices Design",
-      "description": "Employs microservices architecture to allow independent deployment of components.",
-      "technical_spec": "Docker containers, Kubernetes orchestration.",
-      "severity_score": 80
+      "title": "Single Page Application",
+      "description": "Employs React.js for a dynamic and responsive user experience.",
+      "technical_spec": "Built with React.js, served by a Node.js backend.",
+      "severity_score": 15
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Employs CDNs to deliver content efficiently across the globe.",
-      "technical_spec": "Cloudflare, Fastly.",
-      "severity_score": 75
+      "title": "Cloud-Based Hosting",
+      "description": "Utilizes cloud services to ensure high availability and redundancy.",
+      "technical_spec": "Hosted on AWS with S3 and EC2 instances for backend services.",
+      "severity_score": 25
     },
     {
-      "title": "Load Balancing",
-      "description": "Ensures even distribution of traffic to prevent overloading.",
-      "technical_spec": "Elastic Load Balancing (ELB).",
-      "severity_score": 70
+      "title": "RESTful API Integration",
+      "description": "The site integrates with internal and external APIs for functionality.",
+      "technical_spec": "Uses RESTful services with JSON data exchange.",
+      "severity_score": 30
     },
     {
-      "title": "Database Sharding",
-      "description": "Partitions large databases to improve performance and manageability.",
-      "technical_spec": "PostgreSQL, horizontal sharding.",
-      "severity_score": 65
+      "title": "Scalable Data Storage",
+      "description": "Relies on scalable database solutions to handle large volumes of data.",
+      "technical_spec": "Utilizes AWS RDS for relational database management.",
+      "severity_score": 18
     }
   ]
 }

@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 16:28"
+    "date": "2026-04-12 17:28"
   },
   "data": [
     {
-      "title": "Innovation-Driven",
-      "description": "Focuses heavily on pushing the boundaries of AI technology.",
-      "technical_spec": "Continuous research and development, AI breakthroughs.",
-      "severity_score": 95
+      "title": "Innovation Focus",
+      "description": "Commits to pushing the boundaries of technology and innovation.",
+      "technical_spec": "Regular updates and exposure to cutting-edge AI research.",
+      "severity_score": 18
     },
     {
-      "title": "User-Centric Design",
-      "description": "Prioritizes user experience in design and product development.",
-      "technical_spec": "User feedback integration, design sprints.",
-      "severity_score": 85
+      "title": "Open Accessibility",
+      "description": "Strives for inclusivity and accessibility in all experiences.",
+      "technical_spec": "WCAG 2.1 AA compliant web accessibility standards.",
+      "severity_score": 28
     },
     {
-      "title": "Open Collaboration",
-      "description": "Encourages partnerships and open dialogue with the tech community.",
-      "technical_spec": "Open-source projects, shared API access.",
-      "severity_score": 80
+      "title": "Collaborative Ecosystem",
+      "description": "Fosters a community-oriented approach to AI development.",
+      "technical_spec": "Interactive forums and collaborative environments for developers.",
+      "severity_score": 25
     },
     {
       "title": "Ethical AI Commitment",
-      "description": "Commits to developing and supporting ethical AI practices.",
-      "technical_spec": "Bias reduction algorithms, transparent AI policies.",
-      "severity_score": 90
+      "description": "Adheres to ethical standards in AI development and deployment.",
+      "technical_spec": "Guidelines for ethical AI use, aligned with industry standards.",
+      "severity_score": 20
     },
     {
-      "title": "Sustainability Focus",
-      "description": "Incorporates sustainable practices in operations and development.",
-      "technical_spec": "Eco-efficient data centers, green energy initiatives.",
-      "severity_score": 75
+      "title": "Educational Initiatives",
+      "description": "Invests in education and resources to promote AI understanding.",
+      "technical_spec": "Offers workshops, tutorials, and comprehensive documentation.",
+      "severity_score": 22
     }
   ]
 }

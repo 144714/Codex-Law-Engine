@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 16:28"
+    "date": "2026-04-12 17:28"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Minimizes the time needed for users to make decisions by reducing the number of choices.",
-      "technical_spec": "Simplified navigation, clear call-to-action buttons.",
-      "severity_score": 80
+      "description": "Minimizes the number of choices users face to facilitate decision-making.",
+      "technical_spec": "Simplified navigation bar and fewer top-level menu items.",
+      "severity_score": 30
     },
     {
       "title": "Fitts’s Law",
-      "description": "Designs interactive elements based on their size and distance to enhance accessibility.",
-      "technical_spec": "Larger buttons for touch interfaces.",
-      "severity_score": 85
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Aligns with user expectations by following familiar design patterns.",
-      "technical_spec": "Standardized layouts, consistent menu positioning.",
-      "severity_score": 75
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Groups related items together to indicate their relationship.",
-      "technical_spec": "Whitespace usage, grouped buttons.",
-      "severity_score": 70
+      "description": "Optimizes interactive elements to aid quick and easy access.",
+      "technical_spec": "Large, easily clickable buttons for primary actions.",
+      "severity_score": 25
     },
     {
       "title": "Miller’s Law",
-      "description": "Limits the amount of information presented to prevent cognitive overload.",
-      "technical_spec": "Progressive disclosure, chunking information.",
-      "severity_score": 65
+      "description": "Groups content into manageable chunks to align with short-term memory capacity.",
+      "technical_spec": "Utilizes sections and headings to break down information.",
+      "severity_score": 28
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Employs visual grouping to create a harmonious and intuitive layout.",
+      "technical_spec": "Alignment, proximity, and similarity used for layout design.",
+      "severity_score": 22
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Balances aesthetics and functionality to improve perceived usability.",
+      "technical_spec": "Consistent color schemes and visually appealing design elements.",
+      "severity_score": 35
     }
   ]
 }
