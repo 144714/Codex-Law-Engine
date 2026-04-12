@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 15:28"
+    "date": "2026-04-12 16:28"
   },
   "data": [
     {
-      "title": "Jakob's Law",
-      "description": "Users expect a familiar experience with the design based on their experiences with similar products.",
-      "technical_spec": "Design elements echo industry standards for AI interfaces.",
-      "severity_score": 12
-    },
-    {
       "title": "Hick’s Law",
-      "description": "The time taken to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Streamlined menu options to minimize decision paralysis.",
-      "severity_score": 18
+      "description": "Minimizes the time needed for users to make decisions by reducing the number of choices.",
+      "technical_spec": "Simplified navigation, clear call-to-action buttons.",
+      "severity_score": 80
     },
     {
       "title": "Fitts’s Law",
-      "description": "Predicts the time required to move to a target area, such as a button or control.",
-      "technical_spec": "Ensures interactive elements are adequately sized and spaced.",
-      "severity_score": 22
+      "description": "Designs interactive elements based on their size and distance to enhance accessibility.",
+      "technical_spec": "Larger buttons for touch interfaces.",
+      "severity_score": 85
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Users judge an experience based on the peak moment and the end.",
-      "technical_spec": "Designs highlight key interactions and ensure a strong finish.",
-      "severity_score": 20
+      "title": "Jakob’s Law",
+      "description": "Aligns with user expectations by following familiar design patterns.",
+      "technical_spec": "Standardized layouts, consistent menu positioning.",
+      "severity_score": 75
     },
     {
       "title": "Law of Proximity",
-      "description": "Objects that are close together are perceived as related.",
-      "technical_spec": "Grouping related content logically through spacing.",
-      "severity_score": 15
+      "description": "Groups related items together to indicate their relationship.",
+      "technical_spec": "Whitespace usage, grouped buttons.",
+      "severity_score": 70
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Limits the amount of information presented to prevent cognitive overload.",
+      "technical_spec": "Progressive disclosure, chunking information.",
+      "severity_score": 65
     }
   ]
 }

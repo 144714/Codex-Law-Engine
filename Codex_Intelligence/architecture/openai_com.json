@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 15:28"
+    "date": "2026-04-12 16:28"
   },
   "data": [
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "OpenAI utilizes a scalable cloud infrastructure to support its AI models and services.",
-      "technical_spec": "Deployed across multiple cloud service providers for redundancy and scalability.",
-      "severity_score": 5
+      "title": "Serverless Infrastructure",
+      "description": "Utilizes cloud-based serverless infrastructure to scale resources automatically.",
+      "technical_spec": "AWS Lambda, API Gateway, DynamoDB.",
+      "severity_score": 85
     },
     {
-      "title": "Microservices Architecture",
-      "description": "The system is built on a microservices architecture to facilitate independent deployment and scaling.",
-      "technical_spec": "Uses container orchestration platforms like Kubernetes for service management.",
-      "severity_score": 12
+      "title": "Microservices Design",
+      "description": "Employs microservices architecture to allow independent deployment of components.",
+      "technical_spec": "Docker containers, Kubernetes orchestration.",
+      "severity_score": 80
     },
     {
-      "title": "RESTful API Design",
-      "description": "APIs are designed to be RESTful, allowing easy integration and interaction with other systems.",
-      "technical_spec": "Follows standard HTTP methods and stateless communication.",
-      "severity_score": 8
+      "title": "Content Delivery Network (CDN)",
+      "description": "Employs CDNs to deliver content efficiently across the globe.",
+      "technical_spec": "Cloudflare, Fastly.",
+      "severity_score": 75
     },
     {
       "title": "Load Balancing",
-      "description": "Employs load balancing techniques to ensure efficient distribution of incoming requests.",
-      "technical_spec": "Uses technologies like NGINX or AWS Elastic Load Balancing.",
-      "severity_score": 10
+      "description": "Ensures even distribution of traffic to prevent overloading.",
+      "technical_spec": "Elastic Load Balancing (ELB).",
+      "severity_score": 70
     },
     {
-      "title": "Data Storage Solutions",
-      "description": "Incorporates various data storage solutions to cater to different data needs.",
-      "technical_spec": "Combines SQL databases, NoSQL databases, and in-memory data stores like Redis.",
-      "severity_score": 15
+      "title": "Database Sharding",
+      "description": "Partitions large databases to improve performance and manageability.",
+      "technical_spec": "PostgreSQL, horizontal sharding.",
+      "severity_score": 65
     }
   ]
 }

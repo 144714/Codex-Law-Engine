@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 15:28"
+    "date": "2026-04-12 16:28"
   },
   "data": [
     {
-      "title": "Innovative Leadership",
-      "description": "OpenAI is positioned as a leader in cutting-edge AI research and development.",
-      "technical_spec": "Continuously pioneering in AI model architecture and applications.",
-      "severity_score": 10
+      "title": "Innovation-Driven",
+      "description": "Focuses heavily on pushing the boundaries of AI technology.",
+      "technical_spec": "Continuous research and development, AI breakthroughs.",
+      "severity_score": 95
     },
     {
-      "title": "Ethical AI",
-      "description": "Commitment to developing AI technologies responsibly and ethically.",
-      "technical_spec": "Publishes AI alignment and safety research regularly.",
-      "severity_score": 18
+      "title": "User-Centric Design",
+      "description": "Prioritizes user experience in design and product development.",
+      "technical_spec": "User feedback integration, design sprints.",
+      "severity_score": 85
     },
     {
-      "title": "User-Centric Solutions",
-      "description": "Designs AI solutions that prioritize user needs and usability.",
-      "technical_spec": "Gathering user feedback to tailor AI interactions.",
-      "severity_score": 14
+      "title": "Open Collaboration",
+      "description": "Encourages partnerships and open dialogue with the tech community.",
+      "technical_spec": "Open-source projects, shared API access.",
+      "severity_score": 80
     },
     {
-      "title": "Collaborative Ecosystem",
-      "description": "Fosters partnerships and collaborations with leading tech entities.",
-      "technical_spec": "Participates in joint ventures and research with global tech firms.",
-      "severity_score": 12
+      "title": "Ethical AI Commitment",
+      "description": "Commits to developing and supporting ethical AI practices.",
+      "technical_spec": "Bias reduction algorithms, transparent AI policies.",
+      "severity_score": 90
     },
     {
-      "title": "Transparent Communication",
-      "description": "Maintains open lines of communication with users and stakeholders about AI capabilities and limitations.",
-      "technical_spec": "Regular updates and reports on AI developments and impacts.",
-      "severity_score": 16
+      "title": "Sustainability Focus",
+      "description": "Incorporates sustainable practices in operations and development.",
+      "technical_spec": "Eco-efficient data centers, green energy initiatives.",
+      "severity_score": 75
     }
   ]
 }
