@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 17:28"
+    "date": "2026-04-12 18:34"
   },
   "data": [
     {
-      "title": "Innovation Focus",
-      "description": "Commits to pushing the boundaries of technology and innovation.",
-      "technical_spec": "Regular updates and exposure to cutting-edge AI research.",
+      "title": "Innovative AI Solutions",
+      "description": "Providing cutting-edge AI technology to solve real-world problems.",
+      "technical_spec": "Develops state-of-the-art models leveraging deep learning techniques.",
+      "severity_score": 10
+    },
+    {
+      "title": "Ethical AI Development",
+      "description": "Commitment to ethical standards in AI advancements.",
+      "technical_spec": "Follows strict ethical guidelines and focuses on bias reduction.",
+      "severity_score": 15
+    },
+    {
+      "title": "Accessibility and Inclusivity",
+      "description": "Ensuring that services are accessible to a diverse user base irrespective of ability.",
+      "technical_spec": "WCAG 2.1 compliance for accessibility in digital platforms.",
+      "severity_score": 12
+    },
+    {
+      "title": "Transparent Communication",
+      "description": "Maintaining transparency in AI communication and operations.",
+      "technical_spec": "Provides clear documentation and disclosures on AI capabilities and limitations.",
       "severity_score": 18
     },
     {
-      "title": "Open Accessibility",
-      "description": "Strives for inclusivity and accessibility in all experiences.",
-      "technical_spec": "WCAG 2.1 AA compliant web accessibility standards.",
-      "severity_score": 28
-    },
-    {
-      "title": "Collaborative Ecosystem",
-      "description": "Fosters a community-oriented approach to AI development.",
-      "technical_spec": "Interactive forums and collaborative environments for developers.",
-      "severity_score": 25
-    },
-    {
-      "title": "Ethical AI Commitment",
-      "description": "Adheres to ethical standards in AI development and deployment.",
-      "technical_spec": "Guidelines for ethical AI use, aligned with industry standards.",
+      "title": "Community Engagement",
+      "description": "Building a collaborative community around AI education and research.",
+      "technical_spec": "Organizes open forums, webinars, and collaborative research projects.",
       "severity_score": 20
-    },
-    {
-      "title": "Educational Initiatives",
-      "description": "Invests in education and resources to promote AI understanding.",
-      "technical_spec": "Offers workshops, tutorials, and comprehensive documentation.",
-      "severity_score": 22
     }
   ]
 }

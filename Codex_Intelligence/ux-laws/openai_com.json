@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 17:28"
+    "date": "2026-04-12 18:34"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Minimizes the number of choices users face to facilitate decision-making.",
-      "technical_spec": "Simplified navigation bar and fewer top-level menu items.",
-      "severity_score": 30
+      "description": "Minimizing the number of choices to optimize user decision-making time.",
+      "technical_spec": "UI design focuses on minimalism and clarity in navigation.",
+      "severity_score": 5
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizes interactive elements to aid quick and easy access.",
-      "technical_spec": "Large, easily clickable buttons for primary actions.",
-      "severity_score": 25
+      "title": "Fitts’ Law",
+      "description": "Designing interactive elements to be accessible and large enough to be easily clicked.",
+      "technical_spec": "CTA buttons are prominently placed and easily reachable.",
+      "severity_score": 8
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Users prefer websites to work similarly to others they use, ensuring intuitive design.",
+      "technical_spec": "Adopts common design patterns and conventions from leading tech platforms.",
+      "severity_score": 12
     },
     {
       "title": "Miller’s Law",
-      "description": "Groups content into manageable chunks to align with short-term memory capacity.",
-      "technical_spec": "Utilizes sections and headings to break down information.",
-      "severity_score": 28
+      "description": "Limiting content chunks to manageable amounts for better cognitive processing.",
+      "technical_spec": "Content is broken into short, digestible sections with clear headings.",
+      "severity_score": 10
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Employs visual grouping to create a harmonious and intuitive layout.",
-      "technical_spec": "Alignment, proximity, and similarity used for layout design.",
-      "severity_score": 22
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Balances aesthetics and functionality to improve perceived usability.",
-      "technical_spec": "Consistent color schemes and visually appealing design elements.",
-      "severity_score": 35
+      "title": "Norman’s Law",
+      "description": "Accentuates the simplicity of design by focusing on human-centered design.",
+      "technical_spec": "Adapts a user-centric approach throughout the development lifecycle.",
+      "severity_score": 20
     }
   ]
 }

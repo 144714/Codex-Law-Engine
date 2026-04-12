@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 17:28"
+    "date": "2026-04-12 18:34"
   },
   "data": [
     {
-      "title": "HTTPS Encryption",
-      "description": "Ensures all data transmitted between users and the site is encrypted.",
-      "technical_spec": "TLS 1.3 encryption standard for all data exchanges.",
-      "severity_score": 10
+      "title": "DDOS Protection",
+      "description": "Layered security measures to prevent Distributed Denial of Service attacks.",
+      "technical_spec": "Employs Cloudflare and AWS Shield Advanced.",
+      "severity_score": 30
     },
     {
-      "title": "Web Application Firewall",
-      "description": "Protects the site against common web exploits.",
-      "technical_spec": "Configured with AWS WAF to mitigate OWASP top 10 vulnerabilities.",
-      "severity_score": 35
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Prevents downtime from distributed denial-of-service attacks.",
-      "technical_spec": "Integrated with AWS Shield Advanced for proactive threat mitigation.",
-      "severity_score": 40
+      "title": "Encryption of Data in Transit",
+      "description": "Data transmitted between services is encrypted to prevent interception.",
+      "technical_spec": "Uses TLS 1.2 and above for secure communication.",
+      "severity_score": 15
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts routine audits to identify and address potential vulnerabilities.",
-      "technical_spec": "Penetration testing and vulnerability scanning using tools like Nessus.",
-      "severity_score": 32
+      "description": "Routine audits ensure compliance with security standards and identify vulnerabilities.",
+      "technical_spec": "Follows ISO 27001 standards for security assessments.",
+      "severity_score": 25
     },
     {
-      "title": "Data Privacy Compliance",
-      "description": "Adheres to stringent data protection regulations to maintain user privacy.",
-      "technical_spec": "Compliance with GDPR and CCPA regulations.",
+      "title": "Vulnerability Management",
+      "description": "Consistent monitoring and patching of system vulnerabilities.",
+      "technical_spec": "Uses automated scanning tools like Nessus.",
       "severity_score": 20
+    },
+    {
+      "title": "AI-driven Threat Detection",
+      "description": "Integration of AI systems to detect unusual patterns and potential threats.",
+      "technical_spec": "Utilizes machine learning algorithms for anomaly detection.",
+      "severity_score": 10
     }
   ]
 }

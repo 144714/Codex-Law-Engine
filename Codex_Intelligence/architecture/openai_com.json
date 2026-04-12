@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 17:28"
+    "date": "2026-04-12 18:34"
   },
   "data": [
     {
       "title": "Microservices Framework",
-      "description": "The website uses a microservices architecture to enhance scalability and maintainability.",
-      "technical_spec": "Deployed on Kubernetes, uses Docker containers.",
-      "severity_score": 20
+      "description": "The architecture is based on microservices to ensure scalability and independent deployment.",
+      "technical_spec": "Uses Docker containers and Kubernetes for orchestration.",
+      "severity_score": 5
     },
     {
-      "title": "Single Page Application",
-      "description": "Employs React.js for a dynamic and responsive user experience.",
-      "technical_spec": "Built with React.js, served by a Node.js backend.",
+      "title": "RESTful API Design",
+      "description": "APIs are designed to be RESTful, allowing for easy extension and third-party integration.",
+      "technical_spec": "Utilizes JSON for data interchange and adheres to HTTP standards.",
+      "severity_score": 10
+    },
+    {
+      "title": "Scalable Cloud Infrastructure",
+      "description": "Deployed on scalable cloud providers to handle high traffic volumes.",
+      "technical_spec": "Utilizes AWS with auto-scaling groups and load balancers.",
+      "severity_score": 8
+    },
+    {
+      "title": "Data-Driven Architecture",
+      "description": "The architecture supports real-time data processing and analytics.",
+      "technical_spec": "Uses Apache Kafka and Apache Spark for data streaming and analysis.",
       "severity_score": 15
     },
     {
-      "title": "Cloud-Based Hosting",
-      "description": "Utilizes cloud services to ensure high availability and redundancy.",
-      "technical_spec": "Hosted on AWS with S3 and EC2 instances for backend services.",
-      "severity_score": 25
-    },
-    {
-      "title": "RESTful API Integration",
-      "description": "The site integrates with internal and external APIs for functionality.",
-      "technical_spec": "Uses RESTful services with JSON data exchange.",
-      "severity_score": 30
-    },
-    {
-      "title": "Scalable Data Storage",
-      "description": "Relies on scalable database solutions to handle large volumes of data.",
-      "technical_spec": "Utilizes AWS RDS for relational database management.",
-      "severity_score": 18
+      "title": "Secure Access and Authentication",
+      "description": "Access control is managed through secure authentication services.",
+      "technical_spec": "Implements OAuth 2.0 and JWT for secure token handling.",
+      "severity_score": 20
     }
   ]
 }
