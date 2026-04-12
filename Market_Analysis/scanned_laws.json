@@ -36,43 +36,166 @@
   },
   "facebook.com": [],
   "amazon.com": {
-    "vulnerabilities": [
-      {
-        "flaw": "Missing HTTP security headers",
-        "fix": {
-          "problem": "Add missing security headers such as Content-Security-Policy, X-Content-Type-Options, X-Frame-Options, etc.",
-          "solution": "Implement the appropriate HTTP security headers to enhance the security posture of the website."
-        }
-      },
-      {
-        "flaw": "Cross-Site Scripting (XSS) vulnerability",
-        "fix": {
-          "problem": "Sanitize input data, encode output, and implement Content Security Policy to mitigate XSS attacks.",
-          "solution": "Implement input validation, output encoding, and Content Security Policy to prevent XSS vulnerabilities."
-        }
-      },
-      {
-        "flaw": "Insecure Direct Object References",
-        "fix": {
-          "problem": "Unauthorized access to objects by manipulating parameters in URLs.",
-          "solution": "Use proper authorization mechanisms and validate user permissions before serving any object."
-        }
-      },
-      {
-        "flaw": "Outdated software components",
-        "fix": {
-          "problem": "Vulnerable third-party libraries or software components",
-          "solution": "Regularly update and patch all software components to the latest versions to mitigate known vulnerabilities."
-        }
-      },
-      {
-        "flaw": "Missing server-side input validation",
-        "fix": {
-          "problem": "Lack of input validation on the server-side, allowing malicious input.",
-          "solution": "Implement server-side input validation to ensure data integrity and prevent various attacks like SQL injection and command injection."
-        }
-      }
-    ]
+    "CL-001": {
+      "title": "Data Encryption",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Amazon.com uses strong encryption to protect user data during transit.",
+      "impact_score": 9,
+      "remediation": "Regularly update encryption protocols to ensure the highest security standards."
+    },
+    "CL-002": {
+      "title": "Cookie Usage",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Amazon.com uses cookies for tracking and personalization without explicit user consent.",
+      "impact_score": 7,
+      "remediation": "Obtain user consent before storing non-essential cookies to comply with privacy laws."
+    },
+    "CL-003": {
+      "title": "Two-Factor Authentication",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Amazon.com offers two-factor authentication for enhanced account security.",
+      "impact_score": 8,
+      "remediation": "Encourage all users to enable two-factor authentication for their accounts."
+    },
+    "CL-004": {
+      "title": "Alt Text for Images",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Amazon.com provides descriptive alt text for images to assist visually impaired users.",
+      "impact_score": 9,
+      "remediation": "Continue to maintain a consistent practice of adding alt text to all images on the website."
+    },
+    "CL-005": {
+      "title": "Keyboard Navigation",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Amazon.com allows users to navigate the site easily using only a keyboard.",
+      "impact_score": 9,
+      "remediation": "Regularly test and ensure that all interactive elements are accessible via keyboard navigation."
+    },
+    "CL-006": {
+      "title": "Captcha Usage",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Amazon.com sometimes uses CAPTCHA that can be challenging for users with disabilities.",
+      "impact_score": 6,
+      "remediation": "Provide alternative methods for users with disabilities to complete CAPTCHA challenges."
+    },
+    "CL-007": {
+      "title": "Page Load Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Certain pages on Amazon.com have slow load times, impacting user experience.",
+      "impact_score": 8,
+      "remediation": "Optimize images and scripts, use caching, and leverage content delivery networks (CDNs) to improve page load speed."
+    },
+    "CL-008": {
+      "title": "Mobile Responsiveness",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Amazon.com is optimized for various devices and screen sizes.",
+      "impact_score": 9,
+      "remediation": "Regularly test across different devices and screen sizes to ensure optimal responsiveness."
+    },
+    "CL-009": {
+      "title": "Broken Links",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Some pages on Amazon.com contain broken links, leading to a poor user experience.",
+      "impact_score": 7,
+      "remediation": "Regularly scan and fix broken links to maintain a seamless browsing experience."
+    },
+    "CL-010": {
+      "title": "Privacy Policy",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Amazon.com has a detailed privacy policy outlining how user data is collected and used.",
+      "impact_score": 9,
+      "remediation": "Regularly update the privacy policy to reflect any changes in data handling practices."
+    },
+    "CL-011": {
+      "title": "Search Engine Optimization (SEO)",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Amazon.com optimizes content for search engines to improve visibility and user reach.",
+      "impact_score": 8,
+      "remediation": "Regularly update SEO strategies to align with search engine algorithms."
+    },
+    "CL-012": {
+      "title": "User Session Management",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Amazon.com effectively manages user sessions to prevent unauthorized access.",
+      "impact_score": 9,
+      "remediation": "Continue monitoring and enhancing user session security protocols."
+    },
+    "CL-013": {
+      "title": "Color Contrast",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Amazon.com maintains sufficient color contrast for readability and accessibility.",
+      "impact_score": 8,
+      "remediation": "Regularly check and adjust color combinations to ensure readability for all users."
+    },
+    "CL-014": {
+      "title": "Payment Security",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Amazon.com employs secure payment methods and protocols to protect user financial information.",
+      "impact_score": 9,
+      "remediation": "Stay updated on the latest security standards for online payment processing."
+    },
+    "CL-015": {
+      "title": "Social Media Integration",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Amazon.com effectively integrates social media for enhanced user engagement and marketing.",
+      "impact_score": 7,
+      "remediation": "Monitor social media integrations for optimal performance and relevance."
+    },
+    "CL-016": {
+      "title": "Form Input Validation",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Amazon.com validates form inputs to prevent common security threats like SQL injection.",
+      "impact_score": 8,
+      "remediation": "Regularly update and enhance input validation mechanisms to address emerging threats."
+    },
+    "CL-017": {
+      "title": "Language Declaration",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Amazon.com declares the language of each page for better assistive technology compatibility.",
+      "impact_score": 7,
+      "remediation": "Ensure consistent declaration of language tags on all website pages."
+    },
+    "CL-018": {
+      "title": "SSL Certificate",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Amazon.com uses SSL certificates to establish secure connections for data transfer.",
+      "impact_score": 9,
+      "remediation": "Regularly update SSL certificates and ensure proper configuration for secure communication."
+    },
+    "CL-019": {
+      "title": "404 Error Handling",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Amazon.com provides helpful error messages and suggestions for users landing on 404 pages.",
+      "impact_score": 8,
+      "remediation": "Regularly review and update error handling processes to guide users effectively."
+    },
+    "CL-020": {
+      "title": "Email Spam Protection",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Amazon.com may need to improve email spam protection measures to prevent phishing attacks.",
+      "impact_score": 7,
+      "remediation": "Enhance email filtering mechanisms to identify and filter out potential spam and phishing emails."
+    }
   },
   "ynet.co.il": {
     "laws": {
@@ -1854,5 +1977,329 @@
     "CL-028": "The website uses inline CSS styles instead of external stylesheets, making maintenance and scalability challenging.",
     "CL-029": "The website's navigation menu lacks clear hierarchy, making it difficult for users to navigate and find desired content.",
     "CL-030": "The website's URL structure is not user-friendly or optimized for search engine visibility, potentially reducing organic traffic."
+  },
+  "ebay.com": {
+    "CL-001": {
+      "title": "SSL/TLS Usage",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website is using SSL/TLS to encrypt data in transit.",
+      "impact_score": 9,
+      "remediation": "Continuously monitor SSL/TLS configuration and promptly apply security patches."
+    },
+    "CL-002": {
+      "title": "Multi-Factor Authentication (MFA)",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have multi-factor authentication for user logins, increasing the risk of unauthorized access.",
+      "impact_score": 8,
+      "remediation": "Implement MFA to add an extra layer of security for user accounts."
+    },
+    "CL-003": {
+      "title": "Alt Text for Images",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Images on the website have appropriate alt text for screen readers.",
+      "impact_score": 7,
+      "remediation": "Continue ensuring all images have descriptive alt text."
+    },
+    "CL-004": {
+      "title": "Keyboard Navigation",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "The website supports easy navigation using keyboard only.",
+      "impact_score": 7,
+      "remediation": "Periodically test the website's keyboard navigation for any issues."
+    },
+    "CL-005": {
+      "title": "Lazy Loading Images",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website does not implement lazy loading for images, affecting initial load times.",
+      "impact_score": 6,
+      "remediation": "Implement lazy loading to improve page load performance, especially for image-heavy pages."
+    },
+    "CL-006": {
+      "title": "Content Compression",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "The website uses gzip or other compression techniques to reduce the size of transmitted data.",
+      "impact_score": 8,
+      "remediation": "Monitor server configurations to ensure content compression is consistently applied."
+    },
+    "CL-007": {
+      "title": "Form Field Errors",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Form field errors on the website are clearly identified and described for screen readers.",
+      "impact_score": 7,
+      "remediation": "Regularly assess and enhance error validation messages for improved accessibility."
+    },
+    "CL-008": {
+      "title": "Cross-Site Scripting (XSS) Prevention",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website has protections in place to prevent cross-site scripting attacks.",
+      "impact_score": 9,
+      "remediation": "Regularly update security mechanisms to stay protected against evolving XSS threats."
+    },
+    "CL-009": {
+      "title": "Third-Party Library Security",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website uses third-party libraries with known security vulnerabilities.",
+      "impact_score": 8,
+      "remediation": "Regularly update all third-party libraries and dependencies to patch security vulnerabilities."
+    },
+    "CL-010": {
+      "title": "Content Delivery Network (CDN)",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "The website leverages a CDN to efficiently deliver content to users globally.",
+      "impact_score": 8,
+      "remediation": "Optimize CDN configurations to ensure efficient content delivery and improve website performance."
+    },
+    "CL-011": {
+      "title": "Readability",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Website content is presented in a clear and readable manner.",
+      "impact_score": 7,
+      "remediation": "Continue to prioritize readability in design and content layout."
+    },
+    "CL-012": {
+      "title": "SQL Injection Prevention",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website has measures in place to prevent SQL injection attacks.",
+      "impact_score": 9,
+      "remediation": "Regularly validate and sanitize user inputs to mitigate SQL injection risks."
+    },
+    "CL-013": {
+      "title": "Cookie Security",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website cookies are not flagged as secure, potentially exposing sensitive information.",
+      "impact_score": 7,
+      "remediation": "Update cookie attributes to include the 'Secure' flag for enhanced security."
+    },
+    "CL-014": {
+      "title": "Color Contrast",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "The website maintains sufficient color contrast for text readability.",
+      "impact_score": 8,
+      "remediation": "Regularly check color combinations for optimal readability and accessibility compliance."
+    },
+    "CL-015": {
+      "title": "Cache Control Headers",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "The website includes cache control headers to enable efficient caching of resources.",
+      "impact_score": 8,
+      "remediation": "Ensure proper cache control directives are implemented to optimize resource caching."
+    },
+    "CL-016": {
+      "title": "Clickjacking Protection",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website is vulnerable to clickjacking attacks due to inadequate protections.",
+      "impact_score": 8,
+      "remediation": "Implement X-Frame-Options or Content Security Policy to prevent clickjacking threats."
+    },
+    "CL-017": {
+      "title": "Text Resizing",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "The website supports text resizing without loss of content or functionality.",
+      "impact_score": 7,
+      "remediation": "Ensure all text elements are scalable to enhance user experience for visually impaired users."
+    },
+    "CL-018": {
+      "title": "HTTPS Redirect",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not consistently redirect HTTP requests to HTTPS, leaving users vulnerable to potential data interception.",
+      "impact_score": 9,
+      "remediation": "Implement a strict HTTPS redirect policy to ensure all traffic is encrypted."
+    },
+    "CL-019": {
+      "title": "Error Handling",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website gracefully handles errors to prevent sensitive data exposure and maintain user trust.",
+      "impact_score": 9,
+      "remediation": "Regularly review and improve error handling mechanisms for enhanced security."
+    },
+    "CL-020": {
+      "title": "Mobile Responsiveness",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "The website is fully responsive across various mobile devices.",
+      "impact_score": 8,
+      "remediation": "Continuously test and optimize mobile responsiveness for a seamless user experience."
+    }
+  },
+  "apple.com": {
+    "CL-001": {
+      "title": "SSL/TLS Usage",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website uses SSL/TLS to encrypt data in transit",
+      "impact_score": 9,
+      "remediation": "Ensure SSL/TLS certificates are regularly updated"
+    },
+    "CL-002": {
+      "title": "Cross-Site Scripting (XSS) Prevention",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website prevents XSS attacks",
+      "impact_score": 8,
+      "remediation": "Continue regular security testing to maintain XSS protection"
+    },
+    "CL-003": {
+      "title": "Content Security Policy (CSP)",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website has a strict CSP in place",
+      "impact_score": 7,
+      "remediation": "Regularly review and update CSP directives"
+    },
+    "CL-004": {
+      "title": "Two-Factor Authentication (2FA)",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website offers 2FA for user accounts",
+      "impact_score": 8,
+      "remediation": "Promote the use of 2FA to enhance security"
+    },
+    "CL-005": {
+      "title": "Alt Text for Images",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Images on the website have appropriate alt text",
+      "impact_score": 7,
+      "remediation": "Continue adding alt text to images for improved accessibility"
+    },
+    "CL-006": {
+      "title": "Keyboard Navigation",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "The website is navigable using a keyboard",
+      "impact_score": 8,
+      "remediation": "Regularly test keyboard navigation functionality"
+    },
+    "CL-007": {
+      "title": "Color Contrast",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some color combinations on the website may not meet accessibility standards",
+      "impact_score": 6,
+      "remediation": "Adjust color combinations to meet WCAG guidelines"
+    },
+    "CL-008": {
+      "title": "Page Load Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has some pages with slow loading times",
+      "impact_score": 7,
+      "remediation": "Optimize images and scripts to improve page load speed"
+    },
+    "CL-009": {
+      "title": "Caching Policy",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "The website implements caching policies for faster loading",
+      "impact_score": 8,
+      "remediation": "Regularly review and update caching policies"
+    },
+    "CL-010": {
+      "title": "Mobile Responsiveness",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "The website is fully responsive on mobile devices",
+      "impact_score": 9,
+      "remediation": "Continue testing on various mobile devices to ensure responsiveness"
+    },
+    "CL-011": {
+      "title": "Third-Party Library Security",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Some third-party libraries used on the website may have security vulnerabilities",
+      "impact_score": 8,
+      "remediation": "Regularly update and monitor third-party libraries for security patches"
+    },
+    "CL-012": {
+      "title": "Form Field Labels",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "All form fields on the website have associated labels",
+      "impact_score": 7,
+      "remediation": "Maintain proper labeling for all form fields"
+    },
+    "CL-013": {
+      "title": "Cookie Policy Compliance",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website complies with cookie policies and regulations",
+      "impact_score": 6,
+      "remediation": "Regularly update cookie policies as regulations change"
+    },
+    "CL-014": {
+      "title": "Error Handling",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website handles errors securely without exposing sensitive information",
+      "impact_score": 8,
+      "remediation": "Regularly test error handling mechanisms"
+    },
+    "CL-015": {
+      "title": "Link Text",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some link text may not be descriptive enough",
+      "impact_score": 6,
+      "remediation": "Ensure all link text is descriptive and provides context"
+    },
+    "CL-016": {
+      "title": "Security Headers",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website employs important security headers",
+      "impact_score": 8,
+      "remediation": "Regularly review and update security headers as needed"
+    },
+    "CL-017": {
+      "title": "User Input Sanitization",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website properly sanitizes user inputs to prevent vulnerabilities",
+      "impact_score": 9,
+      "remediation": "Continuously validate and sanitize user inputs"
+    },
+    "CL-018": {
+      "title": "Audio/Video Transcripts",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some audio/video content lacks transcripts for accessibility",
+      "impact_score": 7,
+      "remediation": "Provide transcripts for all audio/video content"
+    },
+    "CL-019": {
+      "title": "Database Encryption",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Database data may not be fully encrypted at rest",
+      "impact_score": 8,
+      "remediation": "Implement encryption for sensitive data at rest in the database"
+    },
+    "CL-020": {
+      "title": "Robust Session Management",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website has robust session management practices",
+      "impact_score": 9,
+      "remediation": "Regularly review and update session management protocols"
+    }
   }
 }
