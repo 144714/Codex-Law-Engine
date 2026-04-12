@@ -1,0 +1,37 @@
+{
+  "site": "amazon.com",
+  "category": "UI-Design",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Color Contrast",
+      "description": "Insufficient color contrast for text on category banners.",
+      "design_token": "color/banner-background",
+      "remediation": "Increase contrast by adjusting the background color for banners."
+    },
+    {
+      "title": "Font Size Consistency",
+      "description": "Inconsistent font sizes on product detail pages.",
+      "design_token": "font/size-default",
+      "remediation": "Standardize font sizes in product descriptions using a base design token."
+    },
+    {
+      "title": "Button Style Inconsistency",
+      "description": "Variable padding and border radius on primary buttons across pages.",
+      "design_token": "button/primary-style",
+      "remediation": "Ensure consistent padding and border radius for primary buttons."
+    },
+    {
+      "title": "Iconography Uniformity",
+      "description": "Different styles of icons used in navigation menus.",
+      "design_token": "icon/style-standard",
+      "remediation": "Adopt a uniform icon style based on the design system."
+    },
+    {
+      "title": "Image Aspect Ratios",
+      "description": "Product images have inconsistent aspect ratios causing layout shifts.",
+      "design_token": "image/ratio-standard",
+      "remediation": "Implement a consistent aspect ratio for all product images."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "site": "amazon.com",
+  "category": "Accessibility",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Alt Text for Images",
+      "description": "Many product images lack descriptive alt text.",
+      "design_token": "accessibility/image-alt",
+      "remediation": "Ensure all product images have meaningful alt attributes."
+    },
+    {
+      "title": "Keyboard Navigation",
+      "description": "Difficulty in navigating drop-downs through keyboard.",
+      "design_token": "accessibility/keyboard-focus",
+      "remediation": "Improve focus styles and navigation logic for keyboard users."
+    },
+    {
+      "title": "ARIA Landmarks",
+      "description": "Missing ARIA landmarks for different sections.",
+      "design_token": "accessibility/aria-landmarks",
+      "remediation": "Define ARIA landmarks for major content areas to aid screen readers."
+    },
+    {
+      "title": "Form Labels",
+      "description": "Forms with fields lacking proper labels.",
+      "design_token": "accessibility/field-labels",
+      "remediation": "Ensure all form fields have clearly associated labels."
+    },
+    {
+      "title": "Video Captioning",
+      "description": "Promotional videos missing closed captions.",
+      "design_token": "accessibility/video-captions",
+      "remediation": "Add closed captions to all video content."
+    }
+  ]
+}

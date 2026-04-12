@@ -1,0 +1,37 @@
+{
+  "site": "youtube.com",
+  "category": "UI-Design",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Consistency in Design Elements",
+      "description": "There are inconsistencies in button sizes and color shades across different pages.",
+      "design_token": "UI-CONSISTENCY-01",
+      "remediation": "Use consistent design tokens for buttons and colors across the site."
+    },
+    {
+      "title": "Visual Clutter on Video Pages",
+      "description": "Video pages have numerous distracting elements that can overwhelm the user.",
+      "design_token": "UI-MINIMALISM-02",
+      "remediation": "Reduce the number of non-essential elements on video pages to enhance focus on the main content."
+    },
+    {
+      "title": "Alignment Issues",
+      "description": "Some page elements are not properly aligned, causing visual imbalance.",
+      "design_token": "UI-ALIGNMENT-03",
+      "remediation": "Ensure that grid systems are consistently followed for proper alignment."
+    },
+    {
+      "title": "Responsive Design Shortcomings",
+      "description": "Certain interactive elements are not fully responsive on smaller screens.",
+      "design_token": "UI-RESPONSIVE-04",
+      "remediation": "Utilize media queries to ensure all elements adapt seamlessly to screen size changes."
+    },
+    {
+      "title": "Inadequate Typography Hierarchy",
+      "description": "Lack of clear typographic hierarchy affects readability.",
+      "design_token": "UI-TYPOGRAPHY-05",
+      "remediation": "Implement consistent text styles to distinguish different information levels effectively."
+    }
+  ]
+}

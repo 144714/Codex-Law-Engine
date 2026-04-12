@@ -1,0 +1,37 @@
+{
+  "site": "facebook.com",
+  "category": "Accessibility",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Screen Reader Compatibility",
+      "description": "Ensure all components and navigation items are screen reader compatible.",
+      "design_token": "a11y-screen-reader",
+      "remediation": "Use ARIA roles and labels to improve screen reader navigation."
+    },
+    {
+      "title": "Keyboard Navigation",
+      "description": "Improve site accessibility by ensuring all operations are navigable via keyboard.",
+      "design_token": "a11y-key-nav",
+      "remediation": "Audit focus management and ensure logical tab order."
+    },
+    {
+      "title": "Alternative Text",
+      "description": "Ensure all images include alt text for visually impaired users.",
+      "design_token": "a11y-alt-text",
+      "remediation": "Regularly audit image assets for missing or incorrect alt attributes."
+    },
+    {
+      "title": "Video Captioning",
+      "description": "All video content should have captions for users with hearing impairments.",
+      "design_token": "a11y-video-caption",
+      "remediation": "Provide an option to enable captions and encourage content creators to caption videos."
+    },
+    {
+      "title": "Form Accessibility",
+      "description": "Forms should be fully accessible and usable for all users, including those using assistive technologies.",
+      "design_token": "a11y-forms",
+      "remediation": "Associate labels with respective inputs and ensure error messages are clearly communicated."
+    }
+  ]
+}

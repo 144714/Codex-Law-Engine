@@ -1,0 +1,37 @@
+{
+  "site": "netflix.com",
+  "category": "UX-Flow",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Intuitive Navigation",
+      "description": "Navigation should be straightforward and intuitive, helping users find content easily.",
+      "design_token": "intuitive-navigation",
+      "remediation": "Implement clear labels and a hierarchical menu structure."
+    },
+    {
+      "title": "Search Functionality",
+      "description": "A powerful and efficient search tool to quickly lead users to desired content.",
+      "design_token": "search-functionality",
+      "remediation": "Enhance search algorithms for speed and relevance, and provide filters for refining results."
+    },
+    {
+      "title": "Onboarding Flow",
+      "description": "A seamless new user onboarding experience that is informative yet not overwhelming.",
+      "design_token": "onboarding-flow",
+      "remediation": "Guide users with progressive disclosure and interactive tutorials."
+    },
+    {
+      "title": "Error Handling",
+      "description": "User experience should not degrade due to input errors; provide informative error messages.",
+      "design_token": "error-handling",
+      "remediation": "Utilize inline validation and meaningful error feedback."
+    },
+    {
+      "title": "Loading Times",
+      "description": "Pages and content should load quickly to prevent user frustration and drop-off.",
+      "design_token": "loading-times",
+      "remediation": "Optimize images, scripts, and utilize lazy loading techniques."
+    }
+  ]
+}

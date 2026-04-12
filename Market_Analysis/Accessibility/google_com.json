@@ -1,0 +1,37 @@
+{
+  "site": "google.com",
+  "category": "Accessibility",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Alt Text on Images",
+      "description": "Ensure all images have descriptive alt text for screen readers.",
+      "design_token": "alt-text",
+      "remediation": "Audit the HTML content to include alt attributes for all images."
+    },
+    {
+      "title": "Keyboard Navigation",
+      "description": "Ensure all interactive elements are accessible via keyboard.",
+      "design_token": "keyboard-accessibility",
+      "remediation": "Verify tab order and add focus states to all interactive components."
+    },
+    {
+      "title": "Accessible Forms",
+      "description": "Ensure all form fields are properly labeled and accessible.",
+      "design_token": "form-accessibility",
+      "remediation": "Associate labels with inputs using 'for' attribute and ensure proper fieldset/legend use."
+    },
+    {
+      "title": "Contrast Ratios",
+      "description": "Maintain sufficient contrast between text and background colors for readability.",
+      "design_token": "contrast-ratios",
+      "remediation": "Use tools to test and adjust contrast ratios to meet WCAG 2.1 standards."
+    },
+    {
+      "title": "ARIA Landmarks",
+      "description": "Employ ARIA roles to enhance the accessibility of dynamic content.",
+      "design_token": "aria-roles",
+      "remediation": "Integrate ARIA roles and properties to assistive technologies in navigating web content."
+    }
+  ]
+}

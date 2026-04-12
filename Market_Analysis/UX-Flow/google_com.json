@@ -1,0 +1,37 @@
+{
+  "site": "google.com",
+  "category": "UX-Flow",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Clear Search Box Visibility",
+      "description": "Ensure the search box is easily noticeable and accessible from the homepage.",
+      "design_token": "search-box-visibility",
+      "remediation": "Apply high contrast and prominent placement for the search input area."
+    },
+    {
+      "title": "Intuitive Navigation",
+      "description": "Provide easy access to essential Google services from the main page.",
+      "design_token": "navigation-usability",
+      "remediation": "Use a consistent menu structure with clear labels for better user guidance."
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Ensure the site functions well on various device sizes.",
+      "design_token": "responsive-layout",
+      "remediation": "Utilize media queries and flexible grids to adapt layouts across screen resolutions."
+    },
+    {
+      "title": "Load Time Optimization",
+      "description": "Optimize the site's loading time for a better user experience.",
+      "design_token": "performance-optimization",
+      "remediation": "Leverage browser caching, minify resources and employ Lazy Loading techniques."
+    },
+    {
+      "title": "Feedback Mechanisms",
+      "description": "Offer clear feedback on user actions such as searches or errors.",
+      "design_token": "user-feedback",
+      "remediation": "Incorporate loading animations and informative error messages where appropriate."
+    }
+  ]
+}

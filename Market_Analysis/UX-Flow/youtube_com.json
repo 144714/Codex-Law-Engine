@@ -1,0 +1,37 @@
+{
+  "site": "youtube.com",
+  "category": "UX-Flow",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Complex Sign-In Process",
+      "description": "The sign-in process involves multiple steps and can be confusing.",
+      "design_token": "UX-SIGNIN-01",
+      "remediation": "Streamline the sign-in process to reduce the number of steps and simplify user interactions."
+    },
+    {
+      "title": "Confusing Navigation",
+      "description": "Users find it difficult to locate certain sections due to complex navigation structure.",
+      "design_token": "UX-NAVIGATION-02",
+      "remediation": "Simplify the navigation structure and include a clear, concise menu layout."
+    },
+    {
+      "title": "Subscription Management",
+      "description": "Managing subscriptions is not intuitive for users.",
+      "design_token": "UX-SUBSCRIPTION-03",
+      "remediation": "Redesign the subscription management interface for ease of use and clarity."
+    },
+    {
+      "title": "Delayed Feedback on Actions",
+      "description": "Actions like clicking on a video or button lack immediate feedback.",
+      "design_token": "UX-FEEDBACK-04",
+      "remediation": "Implement loading indicators or transitional animations to provide feedback."
+    },
+    {
+      "title": "Overwhelming Recommendation System",
+      "description": "Users feel overwhelmed by the volume of recommendations provided.",
+      "design_token": "UX-RECOMMENDATION-05",
+      "remediation": "Refine the recommendation algorithm to personalize and reduce the clutter."
+    }
+  ]
+}

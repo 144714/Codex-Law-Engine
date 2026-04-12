@@ -1,0 +1,34 @@
+{
+  "UI-Design": [
+    "google.com",
+    "youtube.com",
+    "facebook.com",
+    "amazon.com",
+    "apple.com",
+    "netflix.com"
+  ],
+  "Security": [
+    "google.com",
+    "youtube.com",
+    "facebook.com",
+    "amazon.com",
+    "apple.com",
+    "netflix.com"
+  ],
+  "UX-Flow": [
+    "google.com",
+    "youtube.com",
+    "facebook.com",
+    "amazon.com",
+    "apple.com",
+    "netflix.com"
+  ],
+  "Accessibility": [
+    "google.com",
+    "youtube.com",
+    "facebook.com",
+    "amazon.com",
+    "apple.com",
+    "netflix.com"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "site": "google.com",
+  "category": "UI-Design",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Logo Visibility",
+      "description": "Ensure the Google logo is highly visible and not obstructed by other elements.",
+      "design_token": "logo-visibility",
+      "remediation": "Adjust z-index or positioning if the logo overlaps with other components."
+    },
+    {
+      "title": "Consistent Color Palette",
+      "description": "Maintain a consistent use of colors matching Google's primary color scheme.",
+      "design_token": "color-palette",
+      "remediation": "Review CSS styles to ensure all elements adhere to the defined color tokens."
+    },
+    {
+      "title": "Button Shape Consistency",
+      "description": "Ensure all buttons have a uniform shape and style across the site.",
+      "design_token": "button-shape",
+      "remediation": "Use a centralized style guide for button components and apply globally."
+    },
+    {
+      "title": "Spacing and Padding",
+      "description": "Ensure consistent spacing and padding between elements for a balanced layout.",
+      "design_token": "spacing-padding",
+      "remediation": "Use a grid system or design tokens to standardize spacing throughout."
+    },
+    {
+      "title": "Typography Hierarchy",
+      "description": "Implement a clear hierarchy in text styles to enhance readability.",
+      "design_token": "typography-hierarchy",
+      "remediation": "Define and use heading, subheading, and body text styles consistently."
+    }
+  ]
+}

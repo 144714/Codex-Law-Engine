@@ -1,0 +1,37 @@
+{
+  "site": "apple.com",
+  "category": "Accessibility",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Keyboard Navigation",
+      "description": "Ensure that all interactive elements are accessible via keyboard navigation.",
+      "design_token": "focus-style: outline;",
+      "remediation": "Test site keyboard accessibility and fix any navigation flow issues."
+    },
+    {
+      "title": "Alternative Text for Images",
+      "description": "All images should have descriptive alternative text for screen reader users.",
+      "design_token": "img-alt-required: true;",
+      "remediation": "Audit current site images for alternative text and add missing descriptions."
+    },
+    {
+      "title": "Color Contrast Ratio",
+      "description": "Text and interactive elements must have a sufficient contrast ratio against their backgrounds.",
+      "design_token": "contrast-ratio: 4.5:1;",
+      "remediation": "Adjust color schemes as necessary to meet WCAG contrast requirements."
+    },
+    {
+      "title": "ARIA Landmarks Usage",
+      "description": "Use ARIA landmarks to define page regions to improve screen reader navigation.",
+      "design_token": "aria-defined: true;",
+      "remediation": "Add ARIA landmark roles to main, navigation, and complementary site sections."
+    },
+    {
+      "title": "Video Closed Captions",
+      "description": "Ensure all video content has accurate closed captions available for accessibility.",
+      "design_token": "captions-available: true;",
+      "remediation": "Review video content for caption accuracy and consistency with spoken dialogue."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "site": "netflix.com",
+  "category": "Accessibility",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Screen Reader Compatibility",
+      "description": "Ensure screen reader programs can accurately interpret and narrate page content.",
+      "design_token": "screen-reader-compatibility",
+      "remediation": "Implement ARIA labels and roles properly on interactive elements."
+    },
+    {
+      "title": "Keyboard Navigation",
+      "description": "All website functions should be operable via keyboard for users with accessibility needs.",
+      "design_token": "keyboard-navigation",
+      "remediation": "Provide focus styles and ensure all interactive elements are focusable."
+    },
+    {
+      "title": "Video Subtitles and Captions",
+      "description": "Subtitles and captions should be available for all video content for users with hearing impairments.",
+      "design_token": "video-subtitles-captions",
+      "remediation": "Integrate timely and accurately synced captions with video content."
+    },
+    {
+      "title": "Color Blindness Accessibility",
+      "description": "Site should be navigable by users with color vision deficiency.",
+      "design_token": "color-blindness-accessibility",
+      "remediation": "Use textures and patterns in addition to color to convey information."
+    },
+    {
+      "title": "Text Resizing",
+      "description": "Text should be resizable without disrupting site layout to accommodate users with visual impairments.",
+      "design_token": "text-resizing",
+      "remediation": "Ensure responsive typographic scale and assess using browser zoom functions."
+    }
+  ]
+}

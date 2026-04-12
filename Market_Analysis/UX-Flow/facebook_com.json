@@ -1,0 +1,37 @@
+{
+  "site": "facebook.com",
+  "category": "UX-Flow",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Onboarding Experience",
+      "description": "Streamline the onboarding process to reduce friction for new users.",
+      "design_token": "flow-onboard",
+      "remediation": "Simplify account creation steps and provide guidance through tooltips."
+    },
+    {
+      "title": "Navigation Intuitiveness",
+      "description": "Review navigation structure for ease of use and ensure quick access to vital features.",
+      "design_token": "flow-nav",
+      "remediation": "Conduct user testing to identify pain points and simplify the navigation hierarchy."
+    },
+    {
+      "title": "Notification Management",
+      "description": "Users need a centralized place to manage notification settings effectively.",
+      "design_token": "flow-notif-settings",
+      "remediation": "Consolidate notification settings into a single, accessible section."
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Improve the search tool to deliver faster and more relevant results.",
+      "design_token": "flow-search",
+      "remediation": "Implement AI-driven search suggestions and filters to enhance search accuracy."
+    },
+    {
+      "title": "User Feedback Mechanism",
+      "description": "Facilitate an easy way to collect user feedback to continually improve UX.",
+      "design_token": "flow-feedback",
+      "remediation": "Place feedback options prominently and reduce the number of steps to submit feedback."
+    }
+  ]
+}

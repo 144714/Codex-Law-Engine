@@ -1,0 +1,37 @@
+{
+  "site": "amazon.com",
+  "category": "UX-Flow",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Checkout process clarity",
+      "description": "Lack of progress indicators during the checkout process.",
+      "design_token": "ux/progress-indicator",
+      "remediation": "Include a step-by-step progress bar during checkout."
+    },
+    {
+      "title": "Navigation Complexity",
+      "description": "Overlapping categories in dropdowns make navigation cumbersome.",
+      "design_token": "ux/navigation-structure",
+      "remediation": "Simplify navigation by restructuring category hierarchies."
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Search bar does not provide instant suggestions or autocomplete.",
+      "design_token": "ux/search-suggestions",
+      "remediation": "Implement live search suggestions and autocomplete functionality."
+    },
+    {
+      "title": "Account Settings Accessibility",
+      "description": "Difficult to locate account settings amidst numerous links.",
+      "design_token": "ux/settings-navigation",
+      "remediation": "Group account-related actions under a unified dropdown."
+    },
+    {
+      "title": "Error Messaging",
+      "description": "Vague error messages on payment failures.",
+      "design_token": "ux/error-message-clarity",
+      "remediation": "Provide specific error messages with step-by-step solutions."
+    }
+  ]
+}

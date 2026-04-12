@@ -1,0 +1,37 @@
+{
+  "site": "apple.com",
+  "category": "Security",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Secure Data Transmission",
+      "description": "All data exchanged between the user and the site should be encrypted.",
+      "design_token": "SSL/TLS certificates",
+      "remediation": "Ensure all connections are made using HTTPS and regularly inspect certificates for any issues."
+    },
+    {
+      "title": "Cross-Site Scripting (XSS) Prevention",
+      "description": "User inputs should be properly sanitized to prevent XSS attacks.",
+      "design_token": "input-validation: true;",
+      "remediation": "Utilize libraries or frameworks that offer built-in protection against XSS."
+    },
+    {
+      "title": "Content Security Policy",
+      "description": "Implement a Content Security Policy to guard against a range of vulnerabilities.",
+      "design_token": "Content-Security-Policy: default-src 'self';",
+      "remediation": "Set strict CSP rules and regularly update them to adapt to new threats."
+    },
+    {
+      "title": "Session Management",
+      "description": "User sessions should be managed securely and have a reasonable timeout.",
+      "design_token": "session-timeout: 15min;",
+      "remediation": "Implement secure session cookies with the 'HttpOnly' and 'Secure' flags set."
+    },
+    {
+      "title": "Password Policy Enforcement",
+      "description": "Strong password policies should be in place for user accounts.",
+      "design_token": "min-password-length: 12;",
+      "remediation": "Require a mix of uppercase, lowercase, numbers, and symbols in passwords."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "site": "apple.com",
+  "category": "UI-Design",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Consistent Typography",
+      "description": "Ensure that typography is consistent across the website for better readability and brand alignment.",
+      "design_token": "font-family: SF Pro Text, Helvetica, Arial, sans-serif;",
+      "remediation": "Use a design system to maintain typography consistency throughout the site."
+    },
+    {
+      "title": "Color Scheme Coherence",
+      "description": "The color scheme used should align with Apple's branding and should be consistent across all pages.",
+      "design_token": "primary-color: #0071e3;",
+      "remediation": "Implement a color palette with well-defined primary, secondary, and accent colors."
+    },
+    {
+      "title": "Button Styling",
+      "description": "Buttons should have a consistent style that includes clear call-to-action text.",
+      "design_token": "button-background-color: #0071e3;",
+      "remediation": "Use a uniform button style guide that includes default, hover, and active states."
+    },
+    {
+      "title": "Whitespace Use",
+      "description": "Appropriate use of whitespace helps to focus the user’s attention and improves readability.",
+      "design_token": "grid-gap: 20px;",
+      "remediation": "Adjust margins and padding to ensure content is not crowded and flows naturally."
+    },
+    {
+      "title": "Iconography Consistency",
+      "description": "Icons should have a consistent style and size for uniformity across different site sections.",
+      "design_token": "icon-size: 24px;",
+      "remediation": "Use a single icon set across the website and ensure all icons adhere to the same style."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "site": "youtube.com",
+  "category": "Accessibility",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Lack of Keyboard Navigation Support",
+      "description": "Some interactive elements are inaccessible via keyboard navigation.",
+      "design_token": "ACC-KEYBOARD-01",
+      "remediation": "Ensure all interactive elements can be accessed and controlled using keyboard inputs."
+    },
+    {
+      "title": "Inadequate Alt Text for Images",
+      "description": "Certain video thumbnails and images lack descriptive alt text.",
+      "design_token": "ACC-ALT-02",
+      "remediation": "Provide meaningful alt text for all images to enhance screen reader accessibility."
+    },
+    {
+      "title": "Color Contrast Issues",
+      "description": "Certain text elements do not have sufficient color contrast, affecting readability.",
+      "design_token": "ACC-CONTRAST-03",
+      "remediation": "Review and adjust color combinations to ensure adequate contrast ratios."
+    },
+    {
+      "title": "Absence of ARIA Labels",
+      "description": "Important interactive components lack ARIA labels for assistive technologies.",
+      "design_token": "ACC-ARIA-04",
+      "remediation": "Implement ARIA labels on all interactive and significant elements."
+    },
+    {
+      "title": "Video Captioning and Descriptions",
+      "description": "Many videos do not provide captions or descriptions for accessibility.",
+      "design_token": "ACC-CAPTIONS-05",
+      "remediation": "Encourage the use of captions and descriptions for all video content to enhance accessibility."
+    }
+  ]
+}

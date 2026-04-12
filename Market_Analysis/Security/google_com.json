@@ -1,0 +1,37 @@
+{
+  "site": "google.com",
+  "category": "Security",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "TLS/SSL Certificate",
+      "description": "Ensure the site uses a valid SSL certificate to encrypt data.",
+      "design_token": "ssl-certificate",
+      "remediation": "Regularly check and renew SSL certificates to maintain secure connections."
+    },
+    {
+      "title": "Content Security Policy (CSP)",
+      "description": "Implement CSP headers to mitigate XSS attacks.",
+      "design_token": "csp-policy",
+      "remediation": "Define and deploy a robust CSP policy restricting resource loading origins."
+    },
+    {
+      "title": "Subresource Integrity (SRI)",
+      "description": "Utilize SRI for external scripts and resources to prevent loading tampered files.",
+      "design_token": "sri-usage",
+      "remediation": "Include integrity checks in script or link tags for critical external resources."
+    },
+    {
+      "title": "HTTP Strict Transport Security (HSTS)",
+      "description": "Enforce secure connections by setting HSTS policy.",
+      "design_token": "hsts-policy",
+      "remediation": "Add an HSTS header to enforce HTTPS and prevent man-in-the-middle attacks."
+    },
+    {
+      "title": "Cross-Origin Resource Sharing (CORS)",
+      "description": "Properly configure CORS to control resource sharing across domains.",
+      "design_token": "cors-settings",
+      "remediation": "Restrict CORS headers to only allow trusted domains, reducing threat surfaces."
+    }
+  ]
+}

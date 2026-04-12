@@ -1,0 +1,37 @@
+{
+  "site": "netflix.com",
+  "category": "UI-Design",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Consistency in Visual Elements",
+      "description": "Ensure buttons, icons, and other visual elements maintain uniformity across different pages.",
+      "design_token": "consistency-visual-elements",
+      "remediation": "Establish a design system with guidelines for all UI components to ensure consistency."
+    },
+    {
+      "title": "Responsive Design",
+      "description": "UI elements should adapt seamlessly to various screen sizes to ensure a smooth viewing experience.",
+      "design_token": "responsive-design",
+      "remediation": "Implement CSS media queries and flexible grids to enhance mobile responsiveness."
+    },
+    {
+      "title": "Color Contrast",
+      "description": "Sufficient contrast between text and background colors to ensure readability against various backdrops.",
+      "design_token": "color-contrast",
+      "remediation": "Apply WCAG AA standards for color contrast ratios."
+    },
+    {
+      "title": "Use of White Space",
+      "description": "Appropriate use of white space for comfortable navigation and improved focus on key content areas.",
+      "design_token": "use-of-white-space",
+      "remediation": "Design layout spacing guidelines and apply padding and margins uniformly."
+    },
+    {
+      "title": "Typography Hierarchy",
+      "description": "Proper typography hierarchy to guide the user's eye and improve understanding of text content.",
+      "design_token": "typography-hierarchy",
+      "remediation": "Define font sizes, weights, and styles for H1, H2, and paragraph texts within the design system."
+    }
+  ]
+}

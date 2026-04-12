@@ -1,0 +1,37 @@
+{
+  "site": "apple.com",
+  "category": "UX-Flow",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Intuitive Navigation",
+      "description": "Ensure the navigation layout is straightforward to enhance the user's journey across the site.",
+      "design_token": "nav-structure: horizontal;",
+      "remediation": "Conduct usability testing to revise and optimize the navigation structure."
+    },
+    {
+      "title": "Responsive Design",
+      "description": "The site should provide a seamless experience across all devices.",
+      "design_token": "media-queries: responsive;",
+      "remediation": "Adapt grid systems and flexbox designs to improve responsiveness."
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Provide a robust search feature that can accurately predict and suggest results.",
+      "design_token": "search-depth: deep;",
+      "remediation": "Incorporate AI-driven search algorithms for enhanced search capabilities."
+    },
+    {
+      "title": "Checkout Process Simplification",
+      "description": "Streamline the checkout process to ensure it is as quick and simple for users as possible.",
+      "design_token": "checkout-steps: 3;",
+      "remediation": "Reduce the number of checkout pages and include a progress indicator."
+    },
+    {
+      "title": "Clear Call-to-Actions",
+      "description": "Call-to-actions (CTAs) should be prominently displayed and encourage user interaction.",
+      "design_token": "cta-color: #ff9500;",
+      "remediation": "Design CTAs with contrasting colors and strategic positioning on the pages."
+    }
+  ]
+}

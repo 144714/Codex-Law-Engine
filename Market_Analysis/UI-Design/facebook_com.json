@@ -1,0 +1,37 @@
+{
+  "site": "facebook.com",
+  "category": "UI-Design",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Consistent Button Styles",
+      "description": "Ensure all button styles across various interfaces are consistent to maintain uniformity and recognizability.",
+      "design_token": "btn-primary, btn-secondary",
+      "remediation": "Standardize button styles in the style guide and enforce them through component libraries."
+    },
+    {
+      "title": "Color Contrast",
+      "description": "Improve contrast between text and background colors to enhance readability.",
+      "design_token": "color-text, color-background",
+      "remediation": "Adjust color palette to meet WCAG 2.1 Level AA contrast ratios."
+    },
+    {
+      "title": "Responsive Grid Layout",
+      "description": "Ensure the grid system adapts seamlessly across various devices for optimal viewing experience.",
+      "design_token": "grid-lg, grid-sm",
+      "remediation": "Implement CSS media queries to adjust the grid system responsively."
+    },
+    {
+      "title": "Iconography",
+      "description": "Icons need to be intuitive and clearly indicative of their functionality.",
+      "design_token": "icon-home, icon-alert",
+      "remediation": "Use a consistent icon library and conduct usability testing to ensure clarity."
+    },
+    {
+      "title": "Typography Hierarchy",
+      "description": "Apply a logical hierarchy in typography to guide user attention effectively.",
+      "design_token": "font-h1, font-body",
+      "remediation": "Define a clear typography scale and apply styles consistently across the site."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "site": "netflix.com",
+  "category": "Security",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "HTTPS Encryption",
+      "description": "All data transmitted should be encrypted to protect user information.",
+      "design_token": "https-encryption",
+      "remediation": "Ensure all web pages and assets are served over HTTPS."
+    },
+    {
+      "title": "Cross-Site Scripting (XSS)",
+      "description": "Prevent malicious scripts from being injected into web pages viewed by other users.",
+      "design_token": "cross-site-scripting",
+      "remediation": "Implement content security policy (CSP) headers and sanitize user inputs."
+    },
+    {
+      "title": "User Authentication",
+      "description": "Strong authentication measures should be in place to verify user identity.",
+      "design_token": "user-authentication",
+      "remediation": "Incorporate multi-factor authentication (MFA) and password strength checks."
+    },
+    {
+      "title": "Session Management",
+      "description": "Proper management of user sessions to prevent hijacking or leakage of session information.",
+      "design_token": "session-management",
+      "remediation": "Use secure, HttpOnly cookies and implement session timeouts."
+    },
+    {
+      "title": "Regular Security Updates",
+      "description": "Ensure that all software and libraries used are up-to-date with the latest security patches.",
+      "design_token": "security-updates",
+      "remediation": "Set up a regular audit schedule for monitoring dependencies and apply updates swiftly."
+    }
+  ]
+}

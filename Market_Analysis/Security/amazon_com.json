@@ -1,0 +1,37 @@
+{
+  "site": "amazon.com",
+  "category": "Security",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Mixed Content Warnings",
+      "description": "HTTP elements loaded over HTTPS connections.",
+      "design_token": "security/protocol-enforcement",
+      "remediation": "Ensure all content is served over HTTPS."
+    },
+    {
+      "title": "Password Management",
+      "description": "No prompt for users to update weak passwords.",
+      "design_token": "security/password-policy",
+      "remediation": "Implement client-side prompts for users to upgrade weak passwords."
+    },
+    {
+      "title": "Session Timeout",
+      "description": "Sessions do not expire on inactivity.",
+      "design_token": "security/session-duration",
+      "remediation": "Configure automatic session expiration after a defined period of inactivity."
+    },
+    {
+      "title": "CSRF Protection",
+      "description": "Forms lack CSRF tokens.",
+      "design_token": "security/csrf-token",
+      "remediation": "Implement CSRF tokens on all form submissions."
+    },
+    {
+      "title": "Form Input Validation",
+      "description": "Client-side input validation is bypassable.",
+      "design_token": "security/input-validation",
+      "remediation": "Enhance server-side validation checks to complement client-side validation."
+    }
+  ]
+}

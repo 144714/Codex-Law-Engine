@@ -1,0 +1,37 @@
+{
+  "site": "youtube.com",
+  "category": "Security",
+  "scanned_at": "2026-04-12",
+  "laws": [
+    {
+      "title": "Potential Phishing Through Comments",
+      "description": "Links in comments might lead to phishing sites.",
+      "design_token": "SEC-LINK-01",
+      "remediation": "Implement stricter filtering and warning systems for external links in comments."
+    },
+    {
+      "title": "Sensitive Data Exposure in URLs",
+      "description": "User-specific data is occasionally embedded in URL parameters.",
+      "design_token": "SEC-URL-02",
+      "remediation": "Avoid exposing user data in URLs. Use session or token-based methods."
+    },
+    {
+      "title": "Third-Party Script Security",
+      "description": "Numerous third-party scripts are integrated, potentially posing security risks.",
+      "design_token": "SEC-SCRIPTS-03",
+      "remediation": "Regularly audit third-party scripts and apply Content Security Policies."
+    },
+    {
+      "title": "Outdated Encryption Standards",
+      "description": "Some parts of the site use outdated cryptographic methods.",
+      "design_token": "SEC-ENCRYPTION-04",
+      "remediation": "Update to the latest encryption standards to ensure data security."
+    },
+    {
+      "title": "Improper Handling of User Input",
+      "description": "There is potential risk for injection attacks due to inadequate input validation.",
+      "design_token": "SEC-INPUT-05",
+      "remediation": "Strengthen server-side validation and sanitize all user inputs."
+    }
+  ]
+}
