@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 21:25"
+    "date": "2026-04-12 22:24"
   },
   "data": [
     {
-      "title": "Innovative Thought Leadership",
-      "description": "Positions as a pioneer in AI research and deployment.",
-      "technical_spec": "Continual research publications and product innovation.",
-      "severity_score": 95
+      "title": "Innovative Image",
+      "description": "The brand is positioned as a leader in AI research and development.",
+      "technical_spec": "Showcasing cutting-edge AI projects and partnerships",
+      "severity_score": 92
     },
     {
-      "title": "Ethical AI Development",
-      "description": "Commitment to responsible AI creation and usage.",
-      "technical_spec": "Transparency reports and ethical guidelines.",
-      "severity_score": 93
-    },
-    {
-      "title": "User-Centric Communication",
-      "description": "Focus on clear, accessible information dissemination.",
-      "technical_spec": "Simplified language in product descriptions and FAQs.",
-      "severity_score": 90
-    },
-    {
-      "title": "Collaborative Partnerships",
-      "description": "Engages with various industries to expand AI applications.",
-      "technical_spec": "Joint projects with educational and commercial entities.",
+      "title": "Transparent Communication",
+      "description": "Clearly communicated goals and ethical guidelines to foster trust with users and stakeholders.",
+      "technical_spec": "OpenAI charter and regular progress updates",
       "severity_score": 88
     },
     {
-      "title": "Commitment to Open Research",
-      "description": "Contributes to the AI field with open studies and collaboration.",
-      "technical_spec": "Shared datasets and open source tools.",
-      "severity_score": 92
+      "title": "User-Centric Approach",
+      "description": "Commitment to developing AI that is beneficial and accessible to all.",
+      "technical_spec": "Inclusive design practices and user feedback integration",
+      "severity_score": 85
+    },
+    {
+      "title": "Future-Focused",
+      "description": "A vision centered on future technological advancements and global impact.",
+      "technical_spec": "Long-term projects and innovation roadmaps",
+      "severity_score": 90
+    },
+    {
+      "title": "Collaborative Culture",
+      "description": "Emphasizes partnerships with other research institutions and tech companies.",
+      "technical_spec": "Public-private partnerships and joint research initiatives",
+      "severity_score": 84
     }
   ]
 }

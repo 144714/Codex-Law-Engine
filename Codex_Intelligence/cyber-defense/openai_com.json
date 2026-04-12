@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 21:25"
+    "date": "2026-04-12 22:24"
   },
   "data": [
     {
-      "title": "Secure Data Transmission",
-      "description": "Enforces secure connections through SSL/TLS.",
-      "technical_spec": "HTTPS with updated ciphers.",
-      "severity_score": 95
+      "title": "End-to-End Encryption",
+      "description": "Data transmission is secured using strong encryption protocols to prevent interception.",
+      "technical_spec": "TLS 1.3",
+      "severity_score": 94
     },
     {
-      "title": "Robust Authentication",
-      "description": "Ensures user identity with strong authentication protocols.",
-      "technical_spec": "OAuth 2.0 and two-factor authentication.",
+      "title": "DDoS Protection",
+      "description": "Robust mechanisms are in place to mitigate Distributed Denial-of-Service attacks.",
+      "technical_spec": "AWS Shield or similar service",
       "severity_score": 90
     },
     {
-      "title": "Protection Against DDoS",
-      "description": "Safeguard measures against distributed denial-of-service attacks.",
-      "technical_spec": "Leverages rate limiting and Web Application Firewall (WAF).",
+      "title": "Regular Security Audits",
+      "description": "Conducting frequent security audits to find vulnerabilities proactively.",
+      "technical_spec": "Automated vulnerability scanners and manual penetration tests",
       "severity_score": 85
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Frequent audits to identify and fix vulnerabilities.",
-      "technical_spec": "Third-party penetration testing and internal code reviews.",
-      "severity_score": 88
+      "title": "Access Management",
+      "description": "Strict access policies and protocols for users and administrators to mitigate unauthorized access.",
+      "technical_spec": "Role-Based Access Controls (RBAC)",
+      "severity_score": 87
     },
     {
-      "title": "Data Privacy Measures",
-      "description": "Compliance with data protection regulations.",
-      "technical_spec": "Implementation of GDPR guidelines and privacy policies.",
-      "severity_score": 92
+      "title": "Incident Response Plan",
+      "description": "A comprehensive incident response plan is in place to quickly address security breaches.",
+      "technical_spec": "Formal incident response policy",
+      "severity_score": 80
     }
   ]
 }

@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 21:25"
+    "date": "2026-04-12 22:24"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Reduces decision time by simplifying available choices.",
-      "technical_spec": "Streamlined navigation with concise menu options.",
-      "severity_score": 85
+      "description": "Web interface minimizes choices to reduce decision time for users.",
+      "technical_spec": "Simplified navigation menu",
+      "severity_score": 76
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizes button sizes and placements for easier access.",
-      "technical_spec": "Larger clickable areas for critical actions.",
-      "severity_score": 80
+      "title": "Fitts’ Law",
+      "description": "Interactive elements are sized and positioned for easy accessibility.",
+      "technical_spec": "Responsive design with touch-friendly buttons",
+      "severity_score": 82
     },
     {
-      "title": "Jakob’s Law of Internet User Experience",
-      "description": "Adheres to common web practices for intuitive experience.",
-      "technical_spec": "Consistent UI for expected user behavior.",
-      "severity_score": 88
+      "title": "Law of Proximity",
+      "description": "Related elements are placed closer together to enhance usability and visual comprehension.",
+      "technical_spec": "Grouping of similar functions and content",
+      "severity_score": 75
     },
     {
       "title": "Miller’s Law",
-      "description": "Limits information presentation to avoid overload.",
-      "technical_spec": "Chunking content into manageable groups.",
+      "description": "Chunking of information into digestible groups to aid memory retention.",
+      "technical_spec": "Content sectioned with appropriate headings and subheadings",
       "severity_score": 78
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Balances aesthetics with functionality.",
-      "technical_spec": "Visual hierarchy to guide user actions.",
-      "severity_score": 82
+      "title": "Serial Position Effect",
+      "description": "Important information is positioned strategically where users are most likely to remember it.",
+      "technical_spec": "Call-to-action buttons placed at the top and bottom of pages",
+      "severity_score": 80
     }
   ]
 }
