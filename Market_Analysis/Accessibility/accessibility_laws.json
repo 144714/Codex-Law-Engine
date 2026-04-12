@@ -137,5 +137,633 @@
       "description": "Ensure content is easy to read and understand for all users.",
       "remediation": "N/A"
     }
+  },
+  "haaretz.co.il": {
+    "CL-74A19E": {
+      "title": "Alt Attributes for Images",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Some images on the website are missing alt attributes, which are important for users who rely on screen readers to understand the content of the images.",
+      "remediation": "Add descriptive alt attributes to all images to provide alternative text for screen readers."
+    },
+    "CL-D0F019": {
+      "title": "Color Contrast",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some text elements on the website have low color contrast, making it difficult for users with visual impairments to read the content.",
+      "remediation": "Ensure that text and background color combinations meet accessibility standards for sufficient color contrast."
+    },
+    "CL-AA03D5": {
+      "title": "Form Input Labels",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Form inputs on the website are clearly labeled, making it easy for users to understand the purpose of each field.",
+      "remediation": "N/A"
+    }
+  },
+  "israelhayom.co.il": {
+    "CL-419395": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Many images on the website are missing alt text, making it difficult for visually impaired users to understand the content.",
+      "remediation": "Add descriptive alt text to all images to improve accessibility for visually impaired users."
+    },
+    "CL-78C646": {
+      "title": "Keyboard Accessibility",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some interactive elements on the website are not accessible via keyboard, limiting usability for users who rely on keyboard navigation.",
+      "remediation": "Ensure all interactive elements can be accessed and operated using a keyboard only."
+    },
+    "CL-61BEBC": {
+      "title": "Focus States",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Interactive elements lack clear focus states, making it difficult for users to navigate using assistive technologies.",
+      "remediation": "Add visible focus states to interactive elements that are keyboard accessible to improve usability for all users."
+    }
+  },
+  "ice.co.il": {
+    "CL-C58313": {
+      "title": "Images Missing Alt Text",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some images on the website do not have alt text, making it inaccessible to visually impaired users.",
+      "remediation": "Add descriptive alt text to all images to provide context for screen readers and improve accessibility."
+    },
+    "CL-550B2A": {
+      "title": "Low Color Contrast",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some text on the website has low color contrast, making it difficult to read for users with visual impairments.",
+      "remediation": "Increase the color contrast ratio to meet accessibility standards and improve readability."
+    },
+    "CL-51CC3E": {
+      "title": "Missing Alternative Text for Links",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some links on the website are missing alternative text, hindering navigation for screen readers.",
+      "remediation": "Include descriptive alternative text for all links to provide context and improve accessibility for users."
+    }
+  },
+  "calcalist.co.il": {
+    "CL-9DC7A5": {
+      "title": "Website Accessibility",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Ensure that the website is accessible to users with disabilities.",
+      "remediation": "Conduct an accessibility audit and make necessary changes to ensure compliance with accessibility standards."
+    },
+    "CL-7A813E": {
+      "title": "Keyboard Navigation",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Ensure that users can navigate the website using only a keyboard.",
+      "remediation": "Implement keyboard navigation functionality to enhance accessibility for all users."
+    },
+    "CL-A18CAD": {
+      "title": "Image Alt Text",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Provide alt text for images to assist users with screen readers.",
+      "remediation": "Add descriptive alt text to all images to improve accessibility for visually impaired users."
+    }
+  },
+  "kikar.co.il": {
+    "CL-419395": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Images on the website do not have alt text, making it inaccessible for visually impaired users who rely on screen readers.",
+      "remediation": "Add descriptive alt text to all images to make the content accessible to users with visual impairments."
+    },
+    "CL-E8DC72": {
+      "title": "Logical Information Hierarchy",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website content lacks a clear logical information hierarchy, making it challenging for users to navigate and locate relevant information.",
+      "remediation": "Organize the content with clear headings, subheadings, and visual cues to establish a logical hierarchy for easier navigation."
+    },
+    "CL-78C646": {
+      "title": "Keyboard Accessibility",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website is not fully accessible via keyboard navigation, limiting usability for users who rely on keyboard input.",
+      "remediation": "Ensure all interactive elements and functionalities can be accessed and utilized using only keyboard inputs."
+    },
+    "CL-5CC5DA": {
+      "title": "Contact Information",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website's contact information is difficult to find or inaccessible, potentially leading to user frustration and lack of communication.",
+      "remediation": "Ensure that contact information is prominently displayed and easily accessible on the website for users seeking assistance or information."
+    }
+  },
+  "leumi.co.il": {
+    "CL-74A19E": {
+      "title": "Alt Attributes for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Images on the website do not have alt attributes for visually impaired users.",
+      "remediation": "Add descriptive alt attributes to all images to ensure accessibility for visually impaired users who use screen readers."
+    },
+    "CL-EE2BB9": {
+      "title": "Form Field Accessibility",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Forms on the website do not have adequate labels or placeholders for easy completion by users with disabilities.",
+      "remediation": "Ensure all form fields have visible labels or placeholders to assist users in filling out the forms correctly."
+    },
+    "CL-7A813E": {
+      "title": "Keyboard Navigation",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website lacks proper keyboard navigation support, which is essential for users with mobility impairments.",
+      "remediation": "Ensure all interactive elements are accessible via keyboard navigation to accommodate users who rely on keyboard input."
+    },
+    "CL-880E8E": {
+      "title": "Multi-Language Support",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website does not provide multilingual support for non-English speaking users.",
+      "remediation": "Implement language options or translations to make the website accessible to a wider audience."
+    }
+  },
+  "mizrahi-tefahot.co.il": {
+    "CL-419395": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Images on the website do not have alt text for screen readers.",
+      "remediation": "Include descriptive alt text for all images to ensure accessibility for visually impaired users."
+    },
+    "CL-E7AA9E": {
+      "title": "Font Size",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some text on the website has a small font size, affecting readability.",
+      "remediation": "Increase the font size of text to improve readability, especially for users with visual impairments."
+    },
+    "CL-9E574D": {
+      "title": "Accessibility Labels for Form Fields",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Form fields lack proper accessibility labels for screen readers.",
+      "remediation": "Include descriptive labels for form fields to improve accessibility for all users."
+    },
+    "CL-BD1DA4": {
+      "title": "Focus Management",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Focus is properly managed for interactive elements on the website.",
+      "remediation": "Continue to maintain proper focus management for all interactive elements to support keyboard navigation."
+    }
+  },
+  "max.co.il": {
+    "CL-A82615": {
+      "title": "Contrast Ratio Failures",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some text on the website does not have sufficient color contrast, making it difficult for users with visual impairments to read the content.",
+      "remediation": "Ensure that all text on the website meets the WCAG standards for color contrast ratio."
+    },
+    "CL-B0625B": {
+      "title": "Missing Alt Tags",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some images on the website are missing alt attributes, which are essential for users who rely on screen readers to navigate the site.",
+      "remediation": "Add descriptive alt text to all images to provide context for visually impaired users."
+    },
+    "CL-6D2290": {
+      "title": "Lack of Contact Information",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website lacks clear contact information, making it difficult for users to get in touch with the site owners.",
+      "remediation": "Provide easily accessible contact information on the website, including email, phone number, or contact form."
+    },
+    "CL-0ED092": {
+      "title": "Keyboard Accessibility Issues",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some interactive elements on the website are not keyboard accessible, excluding users who rely on keyboard navigation.",
+      "remediation": "Ensure all interactive elements can be accessed and operated using a keyboard only."
+    }
+  },
+  "cal-online.co.il": {
+    "CL-419395": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Images on the website are missing alt text, making it inaccessible to visually impaired users who rely on screen readers.",
+      "remediation": "Add descriptive alt text to all images on the website to provide equivalent information to all users."
+    },
+    "CL-7A813E": {
+      "title": "Keyboard Navigation",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website lacks proper keyboard navigation support, making it difficult for users who rely on keyboard navigation to browse the site.",
+      "remediation": "Ensure all interactive elements are accessible via keyboard navigation and follow a logical tab order."
+    },
+    "CL-CEEC8D": {
+      "title": "Content Readability",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "The website's content is well-structured and easily readable, ensuring a positive user experience for all visitors.",
+      "remediation": "Maintain good content readability standards to aid users in comprehending and interacting with the website."
+    }
+  },
+  "isracard.co.il": {
+    "CL-48BD81": {
+      "title": "Mobile Responsiveness",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Ensure the website is easily accessible and usable on mobile devices.",
+      "remediation": "N/A"
+    },
+    "CL-345005": {
+      "title": "Text Alternatives for Images",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Provide descriptive text alternatives for images for screen readers.",
+      "remediation": "Include alt text for all images, provide detailed descriptions when necessary."
+    },
+    "CL-78C646": {
+      "title": "Keyboard Accessibility",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Ensure all interactive elements are accessible via keyboard.",
+      "remediation": "Implement keyboard focus indicators, ensure all functionality is keyboard operable."
+    }
+  },
+  "clalbi.co.il": {
+    "CL-419395": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Images on the website clalbi.co.il are missing alt text.",
+      "remediation": "Add descriptive alt text to images for visually impaired users."
+    },
+    "CL-8636A0": {
+      "title": "Form Field Labels",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some form fields on clalbi.co.il do not have associated labels.",
+      "remediation": "Ensure each form field has a descriptive label for screen reader users."
+    },
+    "CL-7A813E": {
+      "title": "Keyboard Navigation",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Keyboard navigation on clalbi.co.il is not fully supported.",
+      "remediation": "Ensure all interactive elements can be accessed and operated using a keyboard alone."
+    },
+    "CL-8B0984": {
+      "title": "PDF Accessibility",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "PDF documents on clalbi.co.il are not accessible to screen readers.",
+      "remediation": "Ensure PDFs are properly tagged and structured for accessibility."
+    }
+  },
+  "harel-group.co.il": {
+    "CL-170B65": {
+      "title": "Alt tags for images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some images lack alt tags for accessibility purposes.",
+      "remediation": "Add descriptive alt tags to all images."
+    },
+    "CL-7A813E": {
+      "title": "Keyboard navigation",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Keyboard navigation is not fully supported on the website.",
+      "remediation": "Enhance keyboard navigation for better accessibility."
+    },
+    "CL-D0F019": {
+      "title": "Color contrast",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some elements have low color contrast, affecting readability.",
+      "remediation": "Increase color contrast for better clarity and accessibility."
+    }
+  },
+  "huji.ac.il": {
+    "CL-CA286B": {
+      "title": "Providing accessible content",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Ensure content is accessible to users with disabilities such as providing alt text for images.",
+      "remediation": "Conduct an accessibility audit and make necessary improvements to meet WCAG guidelines."
+    },
+    "CL-7A813E": {
+      "title": "Keyboard navigation",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Ensure all interactive elements are accessible via keyboard navigation.",
+      "remediation": "Add keyboard focus styles and ensure all functions can be operated with the keyboard only."
+    },
+    "CL-D0F019": {
+      "title": "Color contrast",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Ensure sufficient color contrast for text and background elements for readability.",
+      "remediation": "Use tools to check color contrast ratios and adjust colors as necessary to meet accessibility standards."
+    }
+  },
+  "technion.ac.il": {
+    "CL-944BE8": {
+      "title": "Alternative text for images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Many images on the website are missing alternative text, impacting accessibility for visually impaired users.",
+      "remediation": "Add descriptive alternative text to all images to improve accessibility."
+    },
+    "CL-7A813E": {
+      "title": "Keyboard navigation",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Keyboard navigation is not fully supported on the website, hindering accessibility for users who rely on keyboard controls.",
+      "remediation": "Ensure all interactive elements are accessible via keyboard navigation for users who cannot use a mouse."
+    },
+    "CL-B929C1": {
+      "title": "Text alternative for non-text content",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Non-text content such as videos and audio files lack text alternatives, excluding users who rely on screen readers.",
+      "remediation": "Provide descriptive text alternatives for all non-text content to ensure accessibility for all users."
+    }
+  },
+  "ivory.co.il": {
+    "CL-74A19E": {
+      "title": "Alt Attributes for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some images on the website are missing alt attributes, which is important for screen readers and SEO.",
+      "remediation": "Add alt attributes to all images that describe the content or function of the image."
+    },
+    "CL-7A813E": {
+      "title": "Keyboard Navigation",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website lacks proper keyboard navigation, making it difficult for users with disabilities to navigate.",
+      "remediation": "Ensure all interactive elements can be accessed and navigated using a keyboard only."
+    },
+    "CL-D0F019": {
+      "title": "Color Contrast",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some text on the website does not have sufficient color contrast, making it hard to read for some users.",
+      "remediation": "Increase the color contrast of text to meet accessibility guidelines."
+    }
+  },
+  "terminalx.com": {
+    "CL-3E8FB4": {
+      "title": "Missing alt attribute for image on homepage",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The image on the homepage is missing an alt attribute, which is important for users who rely on screen readers.",
+      "remediation": "Add a descriptive alt attribute to the image on the homepage."
+    },
+    "CL-EC065B": {
+      "title": "Non-descriptive link text on navigation menu",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The navigation menu contains non-descriptive link text, making it challenging for users using screen readers to understand the menu options.",
+      "remediation": "Use descriptive and informative link text in the navigation menu to improve accessibility for all users."
+    },
+    "CL-7A7701": {
+      "title": "No skip navigation option for keyboard users",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website lacks a skip navigation option, hindering keyboard users from bypassing repetitive content and directly accessing main page sections.",
+      "remediation": "Implement a skip navigation option at the beginning of the page to enhance accessibility for keyboard users."
+    }
+  },
+  "wallashops.co.il": {
+    "CL-419395": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some images on the website do not have alt text, making it difficult for visually impaired users to understand the content.",
+      "remediation": "Add descriptive alt text to all images to improve accessibility for users who rely on screen readers."
+    },
+    "CL-2AF36B": {
+      "title": "Text Readability",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "The website uses clear fonts and colors, making the text easily readable for all users.",
+      "remediation": "No action required."
+    },
+    "CL-C2EB6B": {
+      "title": "Skip to Main Content Link",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "The website includes a 'Skip to main content' link that allows keyboard and screen reader users to bypass repetitive content.",
+      "remediation": "No action required."
+    },
+    "CL-D0F019": {
+      "title": "Color Contrast",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some elements on the website have low color contrast, making it difficult for users with visual impairments to distinguish content.",
+      "remediation": "Improve color contrast by using colors that meet accessibility guidelines such as WCAG 2.1."
+    }
+  },
+  "cellcom.co.il": {
+    "CL-419395": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some images on the website are missing alt text.",
+      "remediation": "Add descriptive alt text to all images to ensure accessibility for users who rely on screen readers."
+    },
+    "CL-115D60": {
+      "title": "Heading Structure",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website does not have a clear hierarchical heading structure.",
+      "remediation": "Use heading tags (h1, h2, h3, etc.) in a logical order to improve screen reader navigation and content structure."
+    },
+    "CL-3C8380": {
+      "title": "Multilingual Support",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website lacks support for multiple languages, making it inaccessible to non-English speakers.",
+      "remediation": "Implement language toggle options or provide content translations to cater to a diverse audience."
+    },
+    "CL-7A813E": {
+      "title": "Keyboard Navigation",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Keyboard navigation is not fully optimized for all interactive elements on the website.",
+      "remediation": "Ensure all interactive elements can be accessed and operated using a keyboard only, without reliance on mouse or touch input."
+    }
+  },
+  "eged.co.il": {
+    "CL-74A19E": {
+      "title": "Alt Attributes for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some images on eged.co.il are missing alt attributes, making it difficult for users with visual impairments to understand their content.",
+      "remediation": "Add descriptive alt attributes to all images to ensure accessibility compliance."
+    }
+  },
+  "alljobs.co.il": {
+    "CL-C58313": {
+      "title": "Images Missing Alt Text",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some images on the website are missing alt text, making it difficult for visually impaired users using screen readers to understand the content.",
+      "remediation": "Add descriptive alt text to all images to ensure accessibility for users with visual impairments."
+    },
+    "CL-06FFDE": {
+      "title": "Autoplaying Media",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some media elements autoplay on the website, which can be disruptive for users with sensory sensitivities or impairments.",
+      "remediation": "Disable autoplay for media elements and provide user controls for playback."
+    },
+    "CL-60375D": {
+      "title": "Low Contrast Text",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Certain text elements on the website have low contrast against their background, reducing readability for users with visual impairments.",
+      "remediation": "Increase the contrast ratio between text and background to improve readability and accessibility."
+    }
+  },
+  "geektime.co.il": {
+    "CL-022931": {
+      "title": "Missing alt text on images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Images on the website do not have alternative text (alt text) attributes, which is essential for screen readers to describe images to visually impaired users.",
+      "remediation": "Add descriptive alt text to all images on the website."
+    },
+    "CL-5251EC": {
+      "title": "Lack of skip navigation option",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website lacks a skip navigation option, making it challenging for keyboard and screen reader users to navigate efficiently.",
+      "remediation": "Implement a skip navigation link at the beginning of each page to improve accessibility for keyboard and screen reader users."
+    }
+  },
+  "feeding.co.il": {
+    "CL-9B4718": {
+      "title": "Missing alt attributes on images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some images on the website are missing alt attributes, which can impact accessibility for visually impaired users.",
+      "remediation": "Add descriptive alt attributes to all images to improve accessibility."
+    },
+    "CL-550B2A": {
+      "title": "Low color contrast",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some text content on the website has low color contrast, making it difficult for users with visual impairments to read.",
+      "remediation": "Increase color contrast on text elements to meet accessibility standards and improve readability."
+    },
+    "CL-11309E": {
+      "title": "Large font size",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "The font size on the website is sufficiently large, making it easier for users with visual impairments to read content.",
+      "remediation": "N/A"
+    },
+    "CL-6CAC8D": {
+      "title": "Inaccessible forms",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some forms on the website are inaccessible for users who rely on assistive technologies, such as screen readers.",
+      "remediation": "Ensure all forms are properly labeled and structured for assistive technologies to interpret accurately."
+    }
+  },
+  "strauss-group.co.il": {
+    "CL-419395": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Many images on the website lack alt text, making them inaccessible to visually impaired users who rely on screen readers.",
+      "remediation": "Add descriptive alt text to all images to provide meaningful descriptions and improve accessibility for users who cannot see the images."
+    }
+  },
+  "instagram.com": {
+    "CL-419395": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Images across the platform lack appropriate alt text, hindering accessibility for visually impaired users.",
+      "remediation": "Add descriptive alt text to all images to improve accessibility."
+    },
+    "CL-7A813E": {
+      "title": "Keyboard Navigation",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "The website lacks proper keyboard navigation support, making it challenging for users who rely on keyboard-only navigation.",
+      "remediation": "Implement keyboard accessibility features to allow users to navigate using the keyboard only."
+    },
+    "CL-B841A6": {
+      "title": "Text Alternatives for Non-Text Content",
+      "status": "Compliant",
+      "category": "Accessibility",
+      "description": "Non-text content like videos and images have appropriate text alternatives, improving accessibility.",
+      "remediation": "N/A"
+    }
+  },
+  "linkedin.com": {
+    "CL-419395": {
+      "title": "Alt Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "LinkedIn lacks alt text for some images, affecting accessibility for visually impaired users.",
+      "remediation": "Add descriptive alt text to all images for better accessibility."
+    }
+  },
+  "netflix.com": {
+    "CL-022931": {
+      "title": "Missing alt text on images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some images on the website lack alt text, making it inaccessible for visually impaired users who rely on screen readers.",
+      "remediation": "Add descriptive alt text to all images to provide context for screen readers."
+    },
+    "CL-053A20": {
+      "title": "Contrast issues",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some text on the website has low color contrast against the background, which can be hard to read for users with visual impairments.",
+      "remediation": "Increase the color contrast between text and background to meet accessibility standards."
+    },
+    "CL-87CC30": {
+      "title": "Lack of focus indication",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Interactive elements like links and buttons do not have a clear focus indication, making it challenging for keyboard users to navigate the site.",
+      "remediation": "Add a visible focus indicator to interactive elements to improve keyboard accessibility."
+    },
+    "CL-E2FF3A": {
+      "title": "Missing descriptive labels for form fields",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Some form fields lack descriptive labels or instructions, making it confusing for users to understand the purpose of each field.",
+      "remediation": "Provide clear and descriptive labels for all form fields to guide users through the input process."
+    }
+  },
+  "aliexpress.com": {
+    "CL-B54A9F": {
+      "title": "Missing Alternative Text for Images",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Images on the website lack alternative text for screen readers.",
+      "remediation": "Add descriptive alternative text to all images on the website."
+    },
+    "CL-97A11A": {
+      "title": "Missing Alt Attributes for Links",
+      "status": "Issue",
+      "category": "Accessibility",
+      "description": "Links on the website lack alt attributes, making it difficult for screen reader users to understand their purpose.",
+      "remediation": "Add descriptive alt attributes to links to provide context for screen reader users."
+    }
   }
 }

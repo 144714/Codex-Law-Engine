@@ -1,0 +1,38 @@
+{
+  "terminalx.com": {
+    "CL-A8D161": {
+      "title": "Missing meta descriptions for key pages",
+      "status": "Issue",
+      "category": "SEO",
+      "description": "Key pages on the website are missing meta descriptions, which can impact the website's search engine visibility.",
+      "remediation": "Add unique and compelling meta descriptions to key pages for better search engine optimization."
+    }
+  },
+  "alljobs.co.il": {
+    "CL-B5D79D": {
+      "title": "Unoptimized Meta Tags",
+      "status": "Issue",
+      "category": "SEO",
+      "description": "Meta tags such as meta titles and descriptions are unoptimized, impacting the website's search engine visibility and click-through rates.",
+      "remediation": "Optimize meta tags with relevant keywords and compelling descriptions to improve search engine rankings and attract more clicks."
+    }
+  },
+  "geektime.co.il": {
+    "CL-A0EC8C": {
+      "title": "Missing meta descriptions",
+      "status": "Issue",
+      "category": "SEO",
+      "description": "Pages on the website do not have meta descriptions, which can impact search engine visibility and click-through rates.",
+      "remediation": "Add unique and relevant meta descriptions to each page to improve SEO performance."
+    }
+  },
+  "aliexpress.com": {
+    "CL-80BCEF": {
+      "title": "Missing Meta Tags",
+      "status": "Issue",
+      "category": "SEO",
+      "description": "The website is missing important meta tags such as meta descriptions and title tags.",
+      "remediation": "Add relevant meta tags to improve search engine visibility and user engagement."
+    }
+  }
+}

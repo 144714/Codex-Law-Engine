@@ -102,5 +102,437 @@
       "description": "Optimize images for the web by compressing and resizing them appropriately.",
       "remediation": "N/A"
     }
+  },
+  "haaretz.co.il": {
+    "CL-BEDCF3": {
+      "title": "Page Load Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website takes a long time to load, which can lead to a poor user experience and high bounce rates.",
+      "remediation": "Optimize images, minify CSS and JavaScript files, leverage browser caching, and consider using a content delivery network (CDN) to improve page load speed."
+    }
+  },
+  "israelhayom.co.il": {
+    "CL-1E0EE3": {
+      "title": "Page Loading Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has slow page loading speed, which can lead to high bounce rates and poor user experience.",
+      "remediation": "Optimize images, minify CSS and JavaScript files, and leverage browser caching to improve page loading speed."
+    },
+    "CL-5494FF": {
+      "title": "Caching Policies",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website does not have proper caching policies in place, leading to slower loading times for returning visitors.",
+      "remediation": "Implement caching strategies like browser caching and server-side caching to reduce loading times for returning visitors."
+    },
+    "CL-02D2A0": {
+      "title": "Lazy Loading",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Images and other media assets are not lazy loaded, leading to longer page load times and increased bandwidth usage.",
+      "remediation": "Implement lazy loading for images and media assets to defer their loading until they are needed, improving page speed and performance."
+    }
+  },
+  "ice.co.il": {
+    "CL-7276C8": {
+      "title": "Large Image Sizes",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has large image sizes that affect the loading speed and performance.",
+      "remediation": "Optimize images by compressing them without compromising quality to improve website performance."
+    },
+    "CL-6D6C0D": {
+      "title": "JavaScript Errors",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has JavaScript errors that may impact functionality and user experience.",
+      "remediation": "Identify and fix JavaScript errors to ensure smooth website performance and functionality."
+    },
+    "CL-9935ED": {
+      "title": "Uncompressed CSS Files",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The CSS files on the website are not compressed, leading to longer loading times.",
+      "remediation": "Minify and compress CSS files to reduce file sizes and improve website performance."
+    }
+  },
+  "calcalist.co.il": {
+    "CL-BEDCF3": {
+      "title": "Page Load Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Optimize website performance to improve page load speed.",
+      "remediation": "Minimize image sizes, reduce server response time, and utilize browser caching to improve load speed."
+    }
+  },
+  "kikar.co.il": {
+    "CL-BEDCF3": {
+      "title": "Page Load Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has slow page load speed, leading to a poor user experience and potentially higher bounce rates.",
+      "remediation": "Optimize images, minify code, and leverage browser caching to improve the website's page load speed."
+    }
+  },
+  "leumi.co.il": {
+    "CL-BEDCF3": {
+      "title": "Page Load Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has slow loading speed which may result in high bounce rates.",
+      "remediation": "Optimize images, minify CSS and JavaScript files, and utilize browser caching to improve page load speed."
+    },
+    "CL-A43092": {
+      "title": "Cross-Browser Compatibility",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website may not function properly on all web browsers, affecting user experience on certain platforms.",
+      "remediation": "Test the website on multiple browsers and devices to ensure consistent functionality and appearance across different platforms."
+    }
+  },
+  "mizrahi-tefahot.co.il": {
+    "CL-5B9E3F": {
+      "title": "Unused CSS",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website contains unused CSS code, affecting performance.",
+      "remediation": "Remove or optimize unused CSS to improve page loading speed."
+    },
+    "CL-DD792A": {
+      "title": "Page Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has slow page loading speed.",
+      "remediation": "Optimize images, scripts, and server response time to improve overall page speed."
+    }
+  },
+  "max.co.il": {
+    "CL-7276C8": {
+      "title": "Large Image Sizes",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Some images on the website are large in file size, leading to slow loading times and increased data usage for users.",
+      "remediation": "Optimize images for the web by compressing them without significantly reducing quality."
+    },
+    "CL-72C90E": {
+      "title": "Unused CSS and JS Files",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website contains unused CSS and JS files, contributing to slower loading times and increased page weight.",
+      "remediation": "Remove or concatenate unused CSS and JS files to streamline the website's performance."
+    }
+  },
+  "cal-online.co.il": {
+    "CL-1EEAB9": {
+      "title": "Page Load Time",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has a slow page load time, which can lead to high bounce rates and negatively impact user experience.",
+      "remediation": "Optimize images, minify CSS and JavaScript files, and utilize browser caching to improve page load speed."
+    },
+    "CL-317AB1": {
+      "title": "CSS and JavaScript Minification",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website's CSS and JavaScript files are not minified, leading to longer page load times and increased bandwidth consumption.",
+      "remediation": "Minify CSS and JavaScript files to reduce file sizes and improve website performance."
+    }
+  },
+  "isracard.co.il": {
+    "CL-BEDCF3": {
+      "title": "Page Load Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Optimize page loading times for a better user experience.",
+      "remediation": "Minify CSS and JavaScript, optimize images, leverage browser caching."
+    },
+    "CL-A43092": {
+      "title": "Cross-browser Compatibility",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Ensure website functionality across different browsers.",
+      "remediation": "Test website on multiple browsers, use progressive enhancement techniques."
+    },
+    "CL-CEB653": {
+      "title": "Image Optimization",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Optimize images for faster loading times.",
+      "remediation": "Compress images without reducing quality, use appropriate image formats."
+    }
+  },
+  "clalbi.co.il": {
+    "CL-BEDCF3": {
+      "title": "Page Load Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website clalbi.co.il has slow page load speed.",
+      "remediation": "Optimize images, minify CSS and JS files, and leverage browser caching to improve page load speed."
+    },
+    "CL-CEB653": {
+      "title": "Image Optimization",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Images on clalbi.co.il are not optimized for web, leading to slow load times.",
+      "remediation": "Compress images and use modern image formats like WebP to improve load times."
+    }
+  },
+  "harel-group.co.il": {
+    "CL-8D5110": {
+      "title": "Optimize images",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Images are not optimized for web, leading to slow loading times.",
+      "remediation": "Compress and resize images for optimal web performance."
+    },
+    "CL-41109A": {
+      "title": "Loading speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Website has slow loading speed.",
+      "remediation": "Optimize code, images, and server performance to improve loading speed."
+    }
+  },
+  "huji.ac.il": {
+    "CL-485D39": {
+      "title": "Optimizing page speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Optimize website loading speed to enhance user experience and SEO.",
+      "remediation": "Minimize image sizes, leverage browser caching, and consider implementing a CDN."
+    },
+    "CL-ECACC7": {
+      "title": "Caching strategies",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Implement caching mechanisms to reduce server load and improve site responsiveness.",
+      "remediation": "Utilize browser caching, set caching headers, and consider using a content delivery network (CDN)."
+    },
+    "CL-CEB653": {
+      "title": "Image optimization",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Optimize images to reduce file sizes without compromising quality.",
+      "remediation": "Use image compression tools, consider lazy loading images, and implement responsive image techniques."
+    }
+  },
+  "technion.ac.il": {
+    "CL-371E0E": {
+      "title": "Large image files",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website contains large image files that slow down loading times.",
+      "remediation": "Optimize images for web by compressing their size to improve performance."
+    },
+    "CL-5494FF": {
+      "title": "Caching policies",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website lacks proper caching policies, resulting in slower loading times for returning visitors.",
+      "remediation": "Implement caching strategies to store static content locally and reduce server load."
+    },
+    "CL-0FA1F0": {
+      "title": "Minification of assets",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "CSS and JavaScript files are not minified, leading to longer loading times.",
+      "remediation": "Minify CSS and JavaScript files to reduce file sizes and improve website performance."
+    }
+  },
+  "ivory.co.il": {
+    "CL-8D5110": {
+      "title": "Optimize Images",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Images on the website are not optimized for the web, leading to slow loading times.",
+      "remediation": "Compress and resize images to reduce their file size and improve loading speed."
+    },
+    "CL-171812": {
+      "title": "Minify CSS and JavaScript",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The CSS and JavaScript files on the website are not minified, increasing page load times.",
+      "remediation": "Minify CSS and JavaScript files to reduce their size and improve loading speed."
+    },
+    "CL-0AE6D5": {
+      "title": "Content Delivery Network (CDN)",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website does not utilize a CDN to deliver content more efficiently to users.",
+      "remediation": "Implement a CDN to reduce server load and improve content delivery speed."
+    }
+  },
+  "terminalx.com": {
+    "CL-C4B1A8": {
+      "title": "Large image files slowing down webpage loading",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The webpage contains large image files that are slowing down the loading speed of the website.",
+      "remediation": "Optimize the images by compressing them without sacrificing quality."
+    },
+    "CL-836F7C": {
+      "title": "Large amount of unused CSS and JS files",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "There are a large number of unused CSS and JS files in the website code, increasing loading times and affecting performance.",
+      "remediation": "Remove unused CSS and JS files to reduce the page load time and improve overall performance."
+    }
+  },
+  "wallashops.co.il": {
+    "CL-1E0EE3": {
+      "title": "Page Loading Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has slow loading speed, which can lead to a poor user experience and lower search engine rankings.",
+      "remediation": "Optimize images, minify CSS and JavaScript files, and leverage browser caching to improve page loading speed."
+    },
+    "CL-DFAA76": {
+      "title": "Lazy Loading for Images",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "The website implements lazy loading for images, which improves page loading speed by loading images only as they are about to be viewed.",
+      "remediation": "No action required."
+    },
+    "CL-947FAF": {
+      "title": "Caching Policy",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website lacks an effective caching policy, resulting in slower page loading times for returning visitors.",
+      "remediation": "Implement browser caching and set appropriate cache-control headers to improve website performance."
+    }
+  },
+  "cellcom.co.il": {
+    "CL-BEDCF3": {
+      "title": "Page Load Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has slow load times, especially on mobile devices.",
+      "remediation": "Optimize images, minify CSS and JS files, leverage browser caching, and consider using a content delivery network (CDN) to improve page load speed."
+    }
+  },
+  "eged.co.il": {
+    "CL-9E8719": {
+      "title": "Minification of Resources",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Some CSS and JavaScript files on eged.co.il are not minified, impacting page loading speed.",
+      "remediation": "Minify CSS and JavaScript files to reduce their size and improve website performance."
+    }
+  },
+  "alljobs.co.il": {
+    "CL-371E0E": {
+      "title": "Large Image Files",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Some images on the website are large in file size, leading to slow loading times and potentially increasing bounce rates.",
+      "remediation": "Optimize images by compressing them without compromising quality to improve website performance."
+    }
+  },
+  "geektime.co.il": {
+    "CL-371E0E": {
+      "title": "Large image files",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website contains large image files that can slow down page loading times.",
+      "remediation": "Optimize images for the web by compressing them without losing quality."
+    },
+    "CL-CCB6A7": {
+      "title": "Slow server response time",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has a slow server response time, causing delays in loading content and affecting user experience.",
+      "remediation": "Optimize server performance by leveraging caching, reducing server load, and optimizing code."
+    }
+  },
+  "feeding.co.il": {
+    "CL-24A522": {
+      "title": "Large images impacting load time",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website contains large images that are slowing down the load time of the pages.",
+      "remediation": "Optimize images for the web by reducing their file size without compromising quality."
+    },
+    "CL-CCB6A7": {
+      "title": "Slow server response time",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has a slow server response time, resulting in delayed loading of pages and content.",
+      "remediation": "Optimize server settings and configurations to improve response time and enhance website performance."
+    }
+  },
+  "strauss-group.co.il": {
+    "CL-DD792A": {
+      "title": "Page Speed",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has slow page loading speed, which can lead to higher bounce rates and decreased user satisfaction.",
+      "remediation": "Optimize images, minify CSS and JS files, leverage browser caching, and consider using a content delivery network to improve page loading speed."
+    }
+  },
+  "instagram.com": {
+    "CL-5D1C5B": {
+      "title": "Large CSS Files",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website has large CSS files that can impact page loading speed.",
+      "remediation": "Minify CSS files and optimize their delivery to improve performance."
+    },
+    "CL-4680C8": {
+      "title": "Optimized Images",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Images on the website are optimized and do not significantly impact page loading speed.",
+      "remediation": "N/A"
+    },
+    "CL-02D2A0": {
+      "title": "Lazy Loading",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "Lazy loading is implemented for off-screen images, optimizing page loading performance.",
+      "remediation": "N/A"
+    }
+  },
+  "linkedin.com": {
+    "CL-1E0EE3": {
+      "title": "Page Loading Speed",
+      "status": "Compliant",
+      "category": "Performance",
+      "description": "LinkedIn's pages load relatively fast, optimizing user experience.",
+      "remediation": "N/A"
+    }
+  },
+  "netflix.com": {
+    "CL-7276C8": {
+      "title": "Large image sizes",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Some images on the website are large in file size, leading to slower loading times and increased data usage for users.",
+      "remediation": "Optimize images by compressing them without compromising quality to improve loading times."
+    },
+    "CL-8B68C8": {
+      "title": "Unoptimized CSS and JS files",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website loads CSS and JS files that are not minified or optimized, leading to slower loading times and increased page weight.",
+      "remediation": "Minify and optimize CSS and JS files to reduce load times and improve performance."
+    }
+  },
+  "aliexpress.com": {
+    "CL-7276C8": {
+      "title": "Large Image Sizes",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "Images on the website are large in file size, leading to slow loading times.",
+      "remediation": "Optimize images to reduce file sizes and improve website loading speed."
+    },
+    "CL-D2F5BD": {
+      "title": "Slow Server Response Times",
+      "status": "Issue",
+      "category": "Performance",
+      "description": "The website experiences slow server response times, leading to delays in loading content.",
+      "remediation": "Optimize server performance by investing in better hosting solutions and reducing server-side processing times."
+    }
   }
 }

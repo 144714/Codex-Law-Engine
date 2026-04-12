@@ -137,5 +137,703 @@
       "description": "Ensure the website is fully responsive and functions well on different devices.",
       "remediation": "N/A"
     }
+  },
+  "haaretz.co.il": {
+    "CL-48BD81": {
+      "title": "Mobile Responsiveness",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website is mobile responsive and adapts well to different screen sizes and devices.",
+      "remediation": "N/A"
+    },
+    "CL-1AAB43": {
+      "title": "Font Legibility",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website uses fonts that are easily readable and accessible to users.",
+      "remediation": "N/A"
+    },
+    "CL-AB3B33": {
+      "title": "Social Media Integration",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website integrates social media buttons and links effectively, allowing users to share content easily.",
+      "remediation": "N/A"
+    },
+    "CL-5CC5DA": {
+      "title": "Contact Information",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website displays clear contact information, such as email addresses or contact forms, making it easy for users to reach out.",
+      "remediation": "N/A"
+    }
+  },
+  "israelhayom.co.il": {
+    "CL-D943B4": {
+      "title": "Inconsistent Font Sizes",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website has inconsistent font sizes across different pages, which can make the content harder to read and affect user experience.",
+      "remediation": "Establish a consistent typography system with appropriate font sizes for headings, subheadings, and body text."
+    },
+    "CL-D0F019": {
+      "title": "Color Contrast",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Some text elements on the website have low color contrast, making it hard for users with visual impairments to read the content.",
+      "remediation": "Ensure that all text has sufficient color contrast against the background to improve readability for all users."
+    },
+    "CL-E0ADE9": {
+      "title": "Mobile Responsive Design",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website is well-designed and fully responsive, ensuring a consistent user experience across different devices.",
+      "remediation": "Regularly test the website on various devices and screen sizes to maintain a responsive design."
+    }
+  },
+  "ice.co.il": {
+    "CL-D943B4": {
+      "title": "Inconsistent Font Sizes",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website has inconsistent font sizes which may lead to a disjointed user experience.",
+      "remediation": "Maintain consistent font sizes across the website for a better visual hierarchy and user experience."
+    },
+    "CL-9FAA13": {
+      "title": "Inconsistent Button Styling",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Buttons on the website have inconsistent styling, creating a lack of visual harmony.",
+      "remediation": "Establish consistent button styles throughout the website for better design cohesion."
+    },
+    "CL-BF1AA5": {
+      "title": "Inconsistent Color Scheme",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website has an inconsistent color scheme that can confuse users and dilute brand identity.",
+      "remediation": "Establish a cohesive color palette and apply it consistently across the website for visual unity."
+    }
+  },
+  "calcalist.co.il": {
+    "CL-48BD81": {
+      "title": "Mobile Responsiveness",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Ensure that the website is responsive and user-friendly on mobile devices.",
+      "remediation": "Test the website on various mobile devices and screen sizes to ensure proper display and functionality."
+    },
+    "CL-04C1D8": {
+      "title": "Content Legibility",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Ensure that website content is easily readable and legible.",
+      "remediation": "Use appropriate font sizes, colors, and spacing to enhance content legibility."
+    },
+    "CL-A43092": {
+      "title": "Cross-Browser Compatibility",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Ensure website functions properly on different web browsers.",
+      "remediation": "Test website on popular web browsers (Chrome, Firefox, Safari, etc.) to ensure compatibility."
+    },
+    "CL-D204A0": {
+      "title": "Consistent Design",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Maintain consistency in design elements and layout throughout the website.",
+      "remediation": "Establish design guidelines and templates to ensure consistency in design."
+    }
+  },
+  "kikar.co.il": {
+    "CL-BCC24A": {
+      "title": "Contrast Ratio",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website has low contrast ratio between text and background colors, making it difficult for users with visual impairments to read the content.",
+      "remediation": "Increase the contrast ratio between text and background colors to improve readability for all users."
+    },
+    "CL-48BD81": {
+      "title": "Mobile Responsiveness",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is not fully responsive on mobile devices, leading to a subpar user experience for mobile users.",
+      "remediation": "Implement responsive design principles to ensure that the website is optimized for viewing on all devices."
+    },
+    "CL-4AB95E": {
+      "title": "Clear Call-to-Action",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website lacks clear and prominent call-to-action buttons, making it confusing for users to navigate.",
+      "remediation": "Place clear and visually distinct call-to-action buttons to guide users towards desired actions."
+    },
+    "CL-DA779D": {
+      "title": "Consistent Navigation",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website has inconsistent navigation menus across different pages, causing user confusion and hindering usability.",
+      "remediation": "Ensure a consistent navigation structure and menu layout across all pages for a seamless user experience."
+    },
+    "CL-8636A0": {
+      "title": "Form Field Labels",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Some form fields do not have visible labels next to them, making it difficult for users to understand the purpose of each field.",
+      "remediation": "Add clear and visible labels next to each form field to improve form usability and user experience."
+    },
+    "CL-AB3B33": {
+      "title": "Social Media Integration",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website lacks visible and easily accessible social media integration links, hindering user engagement and social sharing.",
+      "remediation": "Add prominent social media icons or sharing buttons to encourage users to connect and share content on social platforms."
+    }
+  },
+  "leumi.co.il": {
+    "CL-D445B9": {
+      "title": "Mobile-Friendly Design",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is not optimized for mobile devices, leading to a poor user experience on smartphones and tablets.",
+      "remediation": "Implement responsive design techniques to ensure the website looks and functions well on all screen sizes."
+    },
+    "CL-CEEC8D": {
+      "title": "Content Readability",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website has low contrast text which impacts readability, especially for users with visual impairments.",
+      "remediation": "Increase text contrast ratio to ensure content is easily readable for all users."
+    },
+    "CL-ABA256": {
+      "title": "Navigation Consistency",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The navigation menu structure is inconsistent across different pages, causing confusion for users.",
+      "remediation": "Maintain consistent navigation menu structure and placement across all pages for a smoother user experience."
+    },
+    "CL-CF07E9": {
+      "title": "Error 404 Page",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The 404 error page is generic and lacks helpful information for users who land on it.",
+      "remediation": "Customize the 404 error page with links to key pages, a search bar, and a clear message to help users find their way back."
+    }
+  },
+  "mizrahi-tefahot.co.il": {
+    "CL-BCC24A": {
+      "title": "Contrast Ratio",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Some text on the website has low contrast ratio, making it hard to read.",
+      "remediation": "Increase the color contrast of text to meet accessibility standards."
+    },
+    "CL-48BD81": {
+      "title": "Mobile Responsiveness",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is not fully responsive on mobile devices.",
+      "remediation": "Optimize the design and layout to ensure proper display and functionality on mobile devices."
+    }
+  },
+  "max.co.il": {
+    "CL-CB83EB": {
+      "title": "Mobile Responsiveness Issues",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website does not adapt well to different screen sizes, resulting in a poor user experience on mobile devices.",
+      "remediation": "Implement responsive design techniques to ensure the website looks and functions correctly on all devices."
+    },
+    "CL-A155B3": {
+      "title": "Large Font Sizes",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website uses large font sizes that enhance readability and user experience.",
+      "remediation": "N/A"
+    },
+    "CL-E69D81": {
+      "title": "Missing Favicon",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is missing a favicon, which impacts brand recognition and visual appeal for users.",
+      "remediation": "Create and add a favicon to the website to enhance its visual identity."
+    },
+    "CL-9FAA13": {
+      "title": "Inconsistent Button Styling",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Buttons on the website have inconsistent styling, leading to confusion about their purpose and functionality.",
+      "remediation": "Establish a unified button style guide and apply it consistently throughout the website."
+    }
+  },
+  "cal-online.co.il": {
+    "CL-48BD81": {
+      "title": "Mobile Responsiveness",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is not fully responsive on mobile devices, leading to a poor user experience for mobile users.",
+      "remediation": "Implement responsive design techniques to ensure the website displays properly on all screen sizes."
+    },
+    "CL-4AB95E": {
+      "title": "Clear Call-to-Action",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website lacks clear call-to-action buttons, making it difficult for users to navigate and take desired actions.",
+      "remediation": "Place prominent and visually appealing call-to-action buttons throughout the website to guide users towards conversion points."
+    },
+    "CL-BCC24A": {
+      "title": "Contrast Ratio",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Some text on the website has poor contrast ratios, making it hard to read for users with visual impairments.",
+      "remediation": "Increase the contrast between text and background colors to meet accessibility standards and improve readability."
+    },
+    "CL-7447F0": {
+      "title": "Cross-Device Compatibility",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website does not render consistently across different devices and browsers, leading to a fragmented user experience.",
+      "remediation": "Test the website on various devices and browsers to ensure consistent rendering and usability across all platforms."
+    }
+  },
+  "isracard.co.il": {
+    "CL-BCC24A": {
+      "title": "Contrast Ratio",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Ensure sufficient contrast between text and background for readability.",
+      "remediation": "N/A"
+    },
+    "CL-DA779D": {
+      "title": "Consistent Navigation",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Maintain consistent navigation menu for easy user experience.",
+      "remediation": "N/A"
+    },
+    "CL-4779A7": {
+      "title": "Consistent Design Elements",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Maintain consistent design elements throughout the website.",
+      "remediation": "N/A"
+    }
+  },
+  "clalbi.co.il": {
+    "CL-BCC24A": {
+      "title": "Contrast Ratio",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Some text elements on clalbi.co.il have low contrast ratios, which can make them hard to read.",
+      "remediation": "Increase the color contrast to ensure text is easily readable."
+    },
+    "CL-48BD81": {
+      "title": "Mobile Responsiveness",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website clalbi.co.il is not fully optimized for mobile devices.",
+      "remediation": "Implement responsive design principles to ensure a seamless user experience on all devices."
+    },
+    "CL-E680FB": {
+      "title": "Loading Spinners",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website clalbi.co.il lacks loading spinners or indicators, causing users to be unsure if a process is ongoing.",
+      "remediation": "Implement loading spinners or progress bars to indicate to users when processes are in progress."
+    },
+    "CL-B0E4F1": {
+      "title": "Contact Form Validation",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Validation messages on the contact form of clalbi.co.il are not displayed clearly.",
+      "remediation": "Show validation messages prominently near the faulty input fields for better visibility."
+    }
+  },
+  "harel-group.co.il": {
+    "CL-E0ADE9": {
+      "title": "Mobile responsive design",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Website is not fully responsive on mobile devices.",
+      "remediation": "Update website layout to ensure responsiveness on all screen sizes."
+    },
+    "CL-0538FA": {
+      "title": "Clear call-to-action buttons",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Call-to-action buttons are clearly visible and distinguishable.",
+      "remediation": "N/A"
+    },
+    "CL-D204A0": {
+      "title": "Consistent design",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Website maintains consistent design elements throughout.",
+      "remediation": "N/A"
+    },
+    "CL-2F52F2": {
+      "title": "Font size and readability",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Font size and readability are appropriate for easy reading.",
+      "remediation": "N/A"
+    }
+  },
+  "huji.ac.il": {
+    "CL-0867B1": {
+      "title": "Consistent UI design",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Maintain consistency in design elements such as colors, fonts, and layouts.",
+      "remediation": "Create a style guide and ensure all pages adhere to the established design principles."
+    },
+    "CL-48BD81": {
+      "title": "Mobile responsiveness",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Ensure the website is optimized for various devices and screen sizes.",
+      "remediation": "Adopt a responsive design approach and test the website on different devices and browsers."
+    },
+    "CL-09ACEB": {
+      "title": "Consistent branding",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "Maintain consistent branding elements such as logos, colors, and messaging.",
+      "remediation": "Create brand guidelines and ensure all design assets adhere to the established brand identity."
+    }
+  },
+  "technion.ac.il": {
+    "CL-BCC24A": {
+      "title": "Contrast ratio",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Some text on the website has insufficient color contrast, making it difficult to read for users with visual impairments.",
+      "remediation": "Increase the color contrast ratio between text and background to enhance readability."
+    },
+    "CL-D204A0": {
+      "title": "Consistent design",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website lacks consistency in design elements such as fonts, colors, and layouts.",
+      "remediation": "Establish and follow a design system to ensure a cohesive and uniform user experience."
+    },
+    "CL-CB7FF5": {
+      "title": "Error feedback",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Error messages on the website lack clarity and guidance for users who encounter issues.",
+      "remediation": "Provide informative error messages that explain the problem and suggest solutions for users."
+    }
+  },
+  "ivory.co.il": {
+    "CL-48BD81": {
+      "title": "Mobile Responsiveness",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is not fully responsive on mobile devices, leading to a poor user experience.",
+      "remediation": "Implement responsive design principles to ensure the website is user-friendly on all devices."
+    },
+    "CL-4AB95E": {
+      "title": "Clear Call-to-Action",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website has clear and prominent call-to-action buttons for users to take specific actions.",
+      "remediation": "No action needed, as the website already complies with this digital law."
+    },
+    "CL-D204A0": {
+      "title": "Consistent Design",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website maintains a consistent design throughout all pages for a cohesive user experience.",
+      "remediation": "No action needed, as the website already complies with this digital law."
+    }
+  },
+  "terminalx.com": {
+    "CL-F238A1": {
+      "title": "Unclear call-to-action buttons color contrast",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The color contrast of the call-to-action buttons is not sufficient, making it harder for users with visual impairments to distinguish them.",
+      "remediation": "Increase the color contrast of the call-to-action buttons to meet accessibility standards."
+    },
+    "CL-9C1B9D": {
+      "title": "Mobile responsiveness issues on product pages",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The product pages have mobile responsiveness issues, causing layout problems on smaller devices.",
+      "remediation": "Optimize the product pages for mobile responsiveness to ensure a consistent user experience across all devices."
+    },
+    "CL-5E0B66": {
+      "title": "Inconsistent typography styles across pages",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "There is inconsistency in typography styles across different pages of the website, affecting visual coherence.",
+      "remediation": "Establish a consistent typography system and apply it uniformly across all pages for a harmonious design."
+    },
+    "CL-2E91BF": {
+      "title": "Missing favicon for website",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is missing a favicon, which helps in branding and providing a recognizable icon for the website.",
+      "remediation": "Add a favicon to the website to improve brand visibility and user recognition."
+    }
+  },
+  "wallashops.co.il": {
+    "CL-48BD81": {
+      "title": "Mobile Responsiveness",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is not fully responsive on mobile devices, causing layout and usability issues for mobile users.",
+      "remediation": "Implement responsive design techniques to ensure the website is user-friendly on all types of devices."
+    },
+    "CL-96BE88": {
+      "title": "Breadcrumb Navigation",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website has clear breadcrumb navigation that helps users understand their current location within the site.",
+      "remediation": "No action required."
+    },
+    "CL-D204A0": {
+      "title": "Consistent Design",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website maintains a consistent design across all pages, providing a cohesive user experience.",
+      "remediation": "No action required."
+    },
+    "CL-F917FD": {
+      "title": "Responsive Images",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website uses responsive images that adjust dynamically based on the user's screen size, ensuring optimal viewing experience.",
+      "remediation": "No action required."
+    }
+  },
+  "cellcom.co.il": {
+    "CL-D0F019": {
+      "title": "Color Contrast",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Some text on the website has low color contrast, making it difficult to read.",
+      "remediation": "Increase the color contrast between text and background to meet accessibility standards and improve readability."
+    },
+    "CL-E0ADE9": {
+      "title": "Mobile Responsive Design",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is not fully optimized for mobile devices and may have layout issues.",
+      "remediation": "Implement responsive design principles to ensure proper display and functionality on various screen sizes."
+    },
+    "CL-0538FA": {
+      "title": "Clear Call-to-Action Buttons",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The website has clear and easily identifiable call-to-action buttons.",
+      "remediation": "N/A"
+    },
+    "CL-B2CDC7": {
+      "title": "Visual Hierarchy",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website lacks a clear visual hierarchy, leading to confusion in content organization.",
+      "remediation": "Utilize proper typography, spacing, and layout to establish a clear visual hierarchy that guides users' attention to key elements."
+    }
+  },
+  "eged.co.il": {
+    "CL-D0F019": {
+      "title": "Color Contrast",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Certain text elements on eged.co.il have low color contrast, affecting readability for users with visual impairments.",
+      "remediation": "Adjust text colors to meet accessibility standards for proper color contrast."
+    }
+  },
+  "alljobs.co.il": {
+    "CL-D943B4": {
+      "title": "Inconsistent Font Sizes",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "There is inconsistency in font sizes used throughout the website, which can make the content look disjointed and unprofessional.",
+      "remediation": "Maintain a consistent font size hierarchy across the website for better visual harmony."
+    },
+    "CL-6BB178": {
+      "title": "Unclear Call-to-Action Buttons",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Some call-to-action buttons lack clarity in their messaging, which may confuse users about the action they are expected to take.",
+      "remediation": "Ensure that all call-to-action buttons have clear and concise labels that indicate the desired action."
+    },
+    "CL-E79E59": {
+      "title": "Non-responsive Design",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is not fully responsive, leading to a poor user experience on devices with different screen sizes.",
+      "remediation": "Implement responsive design principles to ensure the website adapts seamlessly to various devices and screen sizes."
+    },
+    "CL-E69D81": {
+      "title": "Missing Favicon",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is missing a favicon, which can affect brand recognition and make the site appear less professional.",
+      "remediation": "Create and add a favicon to the website to enhance brand identity and improve user experience."
+    }
+  },
+  "geektime.co.il": {
+    "CL-139881": {
+      "title": "Inconsistent color contrast",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website has inconsistent color contrast between text and background, which can make it difficult for users with visual impairments to read the content.",
+      "remediation": "Ensure that text has sufficient color contrast with the background to meet accessibility standards."
+    },
+    "CL-E79E59": {
+      "title": "Non-responsive design",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is not fully responsive, leading to a poor user experience on mobile devices and different screen sizes.",
+      "remediation": "Implement responsive design principles to ensure the website adapts and functions well across various devices."
+    },
+    "CL-943870": {
+      "title": "Overuse of pop-ups",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website has an excessive number of pop-up windows or notifications, disrupting the user experience.",
+      "remediation": "Reduce the number of pop-ups and prioritize essential messages to avoid overwhelming users."
+    },
+    "CL-028F7A": {
+      "title": "Auto-play videos with sound",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Videos on the website auto-play with sound enabled, which can be disruptive and annoying for users.",
+      "remediation": "Set videos to require user interaction to play and consider muting them by default."
+    }
+  },
+  "feeding.co.il": {
+    "CL-D48918": {
+      "title": "Lack of responsive design",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is not responsive on mobile devices, leading to a poor user experience for mobile users.",
+      "remediation": "Implement responsive design techniques to ensure the website looks and functions well on all devices."
+    },
+    "CL-6BB178": {
+      "title": "Unclear call-to-action buttons",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Some call-to-action buttons on the website are unclear and may confuse users about the next steps.",
+      "remediation": "Use clear and concise language on call-to-action buttons to guide users towards desired actions."
+    },
+    "CL-308282": {
+      "title": "Inconsistent navigation menu",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The navigation menu on the website is inconsistent across different pages, leading to confusion for users.",
+      "remediation": "Standardize the navigation menu design and layout to provide a consistent user experience."
+    }
+  },
+  "strauss-group.co.il": {
+    "CL-BCC24A": {
+      "title": "Contrast Ratio",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Some text on the website does not have sufficient color contrast against the background, impacting readability for users with visual impairments.",
+      "remediation": "Ensure that the color contrast ratio between text and background meets accessibility standards to improve readability for all users."
+    }
+  },
+  "instagram.com": {
+    "CL-9FAA13": {
+      "title": "Inconsistent Button Styling",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Buttons have inconsistent styling across different pages, leading to a fragmented user experience.",
+      "remediation": "Establish a unified button design system and apply it consistently throughout the platform."
+    },
+    "CL-5A65F6": {
+      "title": "Consistent Color Scheme",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The platform maintains a consistent color scheme, enhancing visual coherence.",
+      "remediation": "N/A"
+    },
+    "CL-2F09BD": {
+      "title": "Responsive Design",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "The platform is responsive, ensuring a seamless user experience across various devices and screen sizes.",
+      "remediation": "N/A"
+    }
+  },
+  "linkedin.com": {
+    "CL-D0F019": {
+      "title": "Color Contrast",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Some color combinations on LinkedIn may not have sufficient contrast, impacting readability for color-blind users.",
+      "remediation": "Ensure all text has adequate color contrast for improved readability."
+    },
+    "CL-48BD81": {
+      "title": "Mobile Responsiveness",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "LinkedIn is fully responsive on mobile devices.",
+      "remediation": "N/A"
+    },
+    "CL-D204A0": {
+      "title": "Consistent Design",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "LinkedIn maintains a consistent design theme throughout its platform.",
+      "remediation": "N/A"
+    },
+    "CL-0538FA": {
+      "title": "Clear Call-to-Action Buttons",
+      "status": "Compliant",
+      "category": "UI-Design",
+      "description": "LinkedIn uses clear and intuitive call-to-action buttons for users.",
+      "remediation": "N/A"
+    }
+  },
+  "netflix.com": {
+    "CL-9FAA13": {
+      "title": "Inconsistent button styling",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Buttons across the website have inconsistent styles, leading to a lack of visual coherence and confusion for users.",
+      "remediation": "Establish a standardized button design system and apply it consistently throughout the website."
+    },
+    "CL-4CC84E": {
+      "title": "Inconsistent typography",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website uses a variety of fonts and font sizes inconsistently, resulting in a lack of visual hierarchy and readability.",
+      "remediation": "Establish a typography system with consistent fonts and sizes for different content types to improve readability and visual consistency."
+    }
+  },
+  "aliexpress.com": {
+    "CL-6BB178": {
+      "title": "Unclear Call-To-Action Buttons",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Call-to-action buttons on the website are not clearly labeled or distinguishable.",
+      "remediation": "Ensure that all call-to-action buttons have clear and concise labels with contrasting colors."
+    },
+    "CL-BC3477": {
+      "title": "Lack of Mobile Responsiveness",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website is not optimized for mobile devices, leading to poor user experience on smaller screens.",
+      "remediation": "Implement responsive design techniques to ensure the website functions well on all devices."
+    },
+    "CL-AD6940": {
+      "title": "Inconsistent Branding",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "The website's branding elements such as colors and fonts are inconsistent across pages.",
+      "remediation": "Establish brand guidelines and ensure consistent application of branding elements throughout the website."
+    },
+    "CL-D4FDC8": {
+      "title": "Unintuitive Form Validation Messages",
+      "status": "Issue",
+      "category": "UI-Design",
+      "description": "Form validation messages on the website are unclear and confusing for users.",
+      "remediation": "Provide concise and descriptive form validation messages that help users understand and correct input errors."
+    }
   }
 }

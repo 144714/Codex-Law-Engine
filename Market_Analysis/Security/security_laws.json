@@ -109,5 +109,577 @@
       "description": "Encourage or enforce two-factor authentication to enhance user account security.",
       "remediation": "Prompt users to enable 2FA and provide clear instructions on how to set it up."
     }
+  },
+  "haaretz.co.il": {
+    "CL-308677": {
+      "title": "HTTPS Usage",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website is not using HTTPS to encrypt data transmitted between the server and the user's browser, which may expose sensitive information to interception.",
+      "remediation": "Implement HTTPS by obtaining an SSL certificate and configuring the server to serve content over HTTPS."
+    },
+    "CL-9A8AA8": {
+      "title": "Cookie Consent",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not provide clear information to users about the use of cookies and obtain explicit consent for cookie usage.",
+      "remediation": "Implement a cookie consent banner that informs users about the use of cookies and allows them to accept or decline cookies."
+    },
+    "CL-08CF7E": {
+      "title": "Terms of Service and Privacy Policy",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website provides links to Terms of Service and Privacy Policy pages, outlining user rights and data handling practices.",
+      "remediation": "N/A"
+    }
+  },
+  "israelhayom.co.il": {
+    "CL-2F14D5": {
+      "title": "SSL Certificate",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a valid SSL certificate, which can put user data at risk.",
+      "remediation": "Obtain and install a valid SSL certificate to ensure all data transmitted through the website is encrypted."
+    },
+    "CL-CA0F9A": {
+      "title": "Privacy Policy",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website has a clear and accessible privacy policy that outlines how user data is collected, used, and protected.",
+      "remediation": "Regularly review and update the privacy policy to ensure it complies with relevant data protection regulations."
+    },
+    "CL-308677": {
+      "title": "HTTPS Usage",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Some resources on the website are loaded over HTTP instead of HTTPS, leaving them vulnerable to man-in-the-middle attacks.",
+      "remediation": "Ensure that all resources are loaded securely over HTTPS to protect user data from interception."
+    }
+  },
+  "ice.co.il": {
+    "CL-CE02B1": {
+      "title": "SSL Certificate Missing",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a valid SSL certificate, making it vulnerable to security threats.",
+      "remediation": "Install an SSL certificate to encrypt data transmitted between the user's browser and the website."
+    },
+    "CL-55FD48": {
+      "title": "Cookie Policy Missing",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a visible cookie policy, which is required for GDPR compliance.",
+      "remediation": "Create and display a cookie policy that informs users about the use of cookies and their consent options."
+    },
+    "CL-F32191": {
+      "title": "Outdated CMS",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website appears to be running on an outdated CMS version, potentially exposing it to security vulnerabilities.",
+      "remediation": "Update the CMS to the latest version and regularly apply security patches to protect against potential threats."
+    }
+  },
+  "calcalist.co.il": {
+    "CL-073395": {
+      "title": "Data Protection",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Ensure that user data is protected according to data protection laws.",
+      "remediation": "Regularly review and update data protection policies to comply with regulations."
+    },
+    "CL-9A8AA8": {
+      "title": "Cookie Consent",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Obtain user consent before placing cookies on their devices.",
+      "remediation": "Implement a cookie consent banner or pop-up to inform users and obtain their consent."
+    },
+    "CL-2F14D5": {
+      "title": "SSL Certificate",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Secure website data with an SSL certificate.",
+      "remediation": "Ensure that the SSL certificate is properly installed and configure the website to load over HTTPS."
+    },
+    "CL-A8BCA3": {
+      "title": "User Privacy Policy",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Have a transparent privacy policy to inform users about data collection and usage.",
+      "remediation": "Regularly review and update privacy policy to reflect any changes in data handling practices."
+    }
+  },
+  "kikar.co.il": {
+    "CL-41157D": {
+      "title": "SSL/TLS Encryption",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not use SSL/TLS encryption, leaving user data vulnerable to attacks.",
+      "remediation": "Implement SSL/TLS encryption to secure data transfers between users and the website server."
+    },
+    "CL-9A8AA8": {
+      "title": "Cookie Consent",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not display a clear cookie consent notice or provide an option for users to manage cookie preferences.",
+      "remediation": "Implement a cookie consent banner that informs users about the use of cookies and provides options to manage their cookie settings."
+    }
+  },
+  "leumi.co.il": {
+    "CL-BE506F": {
+      "title": "HTTPS Protocol",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website is not using HTTPS protocol for secure data transmission.",
+      "remediation": "Implement HTTPS protocol to encrypt data transmitted between the user's browser and the website's server."
+    },
+    "CL-F30738": {
+      "title": "Cookie Policy Compliance",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a visible cookie policy or consent mechanism for user data tracking.",
+      "remediation": "Implement a cookie policy banner with options for users to accept or reject cookies based on GDPR guidelines."
+    }
+  },
+  "mizrahi-tefahot.co.il": {
+    "CL-17D78A": {
+      "title": "TLS Encryption",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have TLS encryption implemented.",
+      "remediation": "Implement TLS encryption to secure data transmission by obtaining an SSL certificate."
+    },
+    "CL-853B30": {
+      "title": "Form Validation",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Form fields on the website lack proper validation, posing a security risk.",
+      "remediation": "Implement input validation to prevent malicious data entry and enhance security."
+    },
+    "CL-DB0B59": {
+      "title": "Error Handling",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website has proper error handling mechanisms in place.",
+      "remediation": "Regularly test and review error handling processes to address any vulnerabilities."
+    }
+  },
+  "max.co.il": {
+    "CL-ACE9AE": {
+      "title": "Missing SSL Certificate",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have an SSL certificate, making the connection between the user's browser and the website vulnerable to interception.",
+      "remediation": "Install an SSL certificate to encrypt the data exchanged between the website and users."
+    },
+    "CL-BFE003": {
+      "title": "Missing Terms of Service",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a clear Terms of Service agreement, potentially leaving the site vulnerable to legal disputes.",
+      "remediation": "Create and prominently display a Terms of Service agreement that outlines the conditions of using the website."
+    },
+    "CL-A2683D": {
+      "title": "Cookie Usage Disclaimer",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website includes a clear disclaimer about the use of cookies, ensuring transparency with users.",
+      "remediation": "N/A"
+    }
+  },
+  "cal-online.co.il": {
+    "CL-2F14D5": {
+      "title": "SSL Certificate",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a valid SSL certificate, which can expose user data to potential security risks.",
+      "remediation": "Install and configure an SSL certificate to encrypt data transmitted between the website and users' browsers."
+    },
+    "CL-9A8AA8": {
+      "title": "Cookie Consent",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a visible cookie consent banner, which may lead to non-compliance with data protection regulations.",
+      "remediation": "Implement a cookie consent banner that informs users about the use of cookies on the website and allows them to provide consent."
+    }
+  },
+  "isracard.co.il": {
+    "CL-8A6E87": {
+      "title": "Use of SSL/TLS Encryption",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Ensure all sensitive information is transmitted securely over HTTPS.",
+      "remediation": "N/A"
+    },
+    "CL-914158": {
+      "title": "Anti-Phishing Measures",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Implement measures to protect users from phishing attacks.",
+      "remediation": "Regularly educate users, use multi-factor authentication, implement email authentication protocols."
+    },
+    "CL-E9E30D": {
+      "title": "Data Privacy Compliance",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Comply with data privacy regulations and protect user data.",
+      "remediation": "Regularly review and update privacy policies, secure data storage."
+    }
+  },
+  "clalbi.co.il": {
+    "CL-8AB27E": {
+      "title": "SSL/TLS Protocol",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website clalbi.co.il does not have SSL/TLS encryption implemented.",
+      "remediation": "Implement SSL/TLS encryption to ensure secure data transmission."
+    },
+    "CL-9A8AA8": {
+      "title": "Cookie Consent",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website clalbi.co.il does not have a cookie consent mechanism.",
+      "remediation": "Implement a cookie consent banner to inform users and obtain their consent for cookies."
+    }
+  },
+  "harel-group.co.il": {
+    "CL-9639A8": {
+      "title": "Secure data transmission",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Website does not have SSL certificate for secure data transmission.",
+      "remediation": "Install SSL certificate to enable HTTPS encryption."
+    },
+    "CL-9A8AA8": {
+      "title": "Cookie consent",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Website has a visible and GDPR-compliant cookie consent banner.",
+      "remediation": "N/A"
+    }
+  },
+  "huji.ac.il": {
+    "CL-E5CD1B": {
+      "title": "Ensuring data privacy",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Ensure that personal data is handled securely and in accordance with data protection laws.",
+      "remediation": "Regularly review and update privacy policies and data protection measures."
+    },
+    "CL-8A0616": {
+      "title": "Securing sensitive data",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Protect sensitive information such as payment details and login credentials.",
+      "remediation": "Implement encryption protocols and regular security audits to prevent data breaches."
+    },
+    "CL-3C8CC7": {
+      "title": "Regular security updates",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "Stay up to date with security patches and software updates to mitigate vulnerabilities.",
+      "remediation": "Establish a patch management process and monitor security advisories for relevant updates."
+    }
+  },
+  "technion.ac.il": {
+    "CL-41157D": {
+      "title": "SSL/TLS encryption",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not use SSL/TLS encryption, leaving data vulnerable to interception.",
+      "remediation": "Implement SSL/TLS encryption to secure data transmission."
+    },
+    "CL-2CF2C9": {
+      "title": "Cross-site scripting prevention",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website is vulnerable to cross-site scripting attacks due to lack of input validation.",
+      "remediation": "Implement input validation and sanitize user input to prevent cross-site scripting vulnerabilities."
+    },
+    "CL-C84DFC": {
+      "title": "Content Security Policy",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a Content Security Policy in place, increasing the risk of malicious script execution.",
+      "remediation": "Implement a Content Security Policy to prevent unauthorized script execution and protect user data."
+    }
+  },
+  "ivory.co.il": {
+    "CL-2F14D5": {
+      "title": "SSL Certificate",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a valid SSL certificate which can compromise data security.",
+      "remediation": "Install an SSL certificate to encrypt data transmitted between the website and users' devices."
+    },
+    "CL-9A8AA8": {
+      "title": "Cookie Consent",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a cookie consent banner, which is required for GDPR compliance.",
+      "remediation": "Implement a cookie consent banner that allows users to accept or decline cookies."
+    },
+    "CL-C84DFC": {
+      "title": "Content Security Policy",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a Content Security Policy (CSP) to protect against various types of attacks.",
+      "remediation": "Implement a CSP to restrict the origins from which resources can be loaded on the website."
+    }
+  },
+  "terminalx.com": {
+    "CL-ED92CB": {
+      "title": "HTTP used instead of HTTPS",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website is using HTTP instead of HTTPS, which can pose security risks especially when handling sensitive data.",
+      "remediation": "Implement an SSL certificate to enable HTTPS on the website."
+    },
+    "CL-F978AE": {
+      "title": "Lack of two-factor authentication for user accounts",
+      "status": "Issue",
+      "category": "Security",
+      "description": "User accounts on the website do not have two-factor authentication enabled, leaving them vulnerable to unauthorized access.",
+      "remediation": "Implement two-factor authentication for user accounts to enhance security measures."
+    }
+  },
+  "wallashops.co.il": {
+    "CL-2F14D5": {
+      "title": "SSL Certificate",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a valid SSL certificate, which may expose user data to security risks.",
+      "remediation": "Install an SSL certificate to ensure all data transmitted between users and the website is encrypted."
+    },
+    "CL-46557B": {
+      "title": "Form Input Validation",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website validates user input on forms to prevent security vulnerabilities like SQL injection and cross-site scripting.",
+      "remediation": "No action required."
+    },
+    "CL-DB0B59": {
+      "title": "Error Handling",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website provides informative error messages to users in case of form submission errors or other issues.",
+      "remediation": "No action required."
+    }
+  },
+  "cellcom.co.il": {
+    "CL-9E8710": {
+      "title": "Use of Cookies",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not provide a clear notice about the use of cookies.",
+      "remediation": "Add a cookie consent banner that clearly informs users about the use of cookies and provides an option to accept or manage preferences."
+    },
+    "CL-4EB807": {
+      "title": "Secure Connection",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website is using HTTPS to securely encrypt data transmission.",
+      "remediation": "N/A"
+    },
+    "CL-351C17": {
+      "title": "Data Privacy Policy",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a visible data privacy policy.",
+      "remediation": "Create a comprehensive data privacy policy that outlines how user data is collected, used, and protected on the website."
+    }
+  },
+  "eged.co.il": {
+    "CL-4EB807": {
+      "title": "Secure Connection",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website eged.co.il does not use HTTPS encryption, potentially exposing user data to security risks.",
+      "remediation": "Implement an SSL certificate to enable HTTPS encryption for all website pages."
+    }
+  },
+  "alljobs.co.il": {
+    "CL-ACE9AE": {
+      "title": "Missing SSL Certificate",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have an SSL certificate, which can lead to security risks, especially when users need to input sensitive information.",
+      "remediation": "Install an SSL certificate to enable HTTPS on the website for secure data transfer."
+    },
+    "CL-C26B74": {
+      "title": "Missing Privacy Policy",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website lacks a privacy policy, which is essential to inform users about data collection and usage practices.",
+      "remediation": "Create and publish a comprehensive privacy policy that outlines how user data is collected, stored, and used."
+    },
+    "CL-13878A": {
+      "title": "Long Form Fields Without Validation",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Some long form fields do not have input validation, leaving the website vulnerable to injection attacks and data manipulation.",
+      "remediation": "Implement input validation for all form fields to ensure that only valid and expected data is accepted."
+    }
+  },
+  "geektime.co.il": {
+    "CL-FABC10": {
+      "title": "Mixed content (HTTP and HTTPS)",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website contains a mix of secure (HTTPS) and non-secure (HTTP) content, which can pose security risks.",
+      "remediation": "Ensure all content is loaded over HTTPS to maintain a secure connection."
+    },
+    "CL-C794C9": {
+      "title": "Unsecured forms",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Forms on the website are not secured with SSL encryption, potentially exposing user data to security risks.",
+      "remediation": "Secure all forms with SSL encryption to protect user information during data transmission."
+    }
+  },
+  "feeding.co.il": {
+    "CL-1E132D": {
+      "title": "HTTPS encryption",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website is not using HTTPS encryption to secure the connection between the user and the server.",
+      "remediation": "Implement HTTPS encryption to ensure data security and protect user information."
+    },
+    "CL-2A8A09": {
+      "title": "No privacy policy",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have a privacy policy, which is essential for informing users about data collection and usage.",
+      "remediation": "Create and prominently display a privacy policy that outlines how user data is collected, used, and protected."
+    },
+    "CL-A44AEB": {
+      "title": "No automatic timeout for user inactivity",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have an automatic timeout feature for user inactivity, which can pose a security risk.",
+      "remediation": "Implement an automatic timeout mechanism to log out users after a period of inactivity."
+    },
+    "CL-E23A7D": {
+      "title": "Missing contact information",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not have clear contact information, making it difficult for users to reach out for support or inquiries.",
+      "remediation": "Provide prominent contact information, including email, phone number, or contact form, for users to get in touch."
+    }
+  },
+  "strauss-group.co.il": {
+    "CL-41157D": {
+      "title": "SSL/TLS Encryption",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website does not use SSL/TLS encryption to secure data in transit, which can expose user information to interception.",
+      "remediation": "Implement SSL/TLS encryption to protect user data during transmission by obtaining an SSL certificate and configuring the server to use HTTPS."
+    }
+  },
+  "instagram.com": {
+    "CL-78B3DA": {
+      "title": "Secure Login Process",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Login process does not utilize multi-factor authentication, increasing the risk of unauthorized access.",
+      "remediation": "Implement multi-factor authentication for the login process to enhance security."
+    },
+    "CL-B5491F": {
+      "title": "Encrypted Connections",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The website uses HTTPS to establish encrypted connections, ensuring secure data transmission.",
+      "remediation": "N/A"
+    },
+    "CL-C84DFC": {
+      "title": "Content Security Policy",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "The platform has a well-defined Content Security Policy (CSP) in place to mitigate risks associated with cross-site scripting attacks.",
+      "remediation": "N/A"
+    }
+  },
+  "linkedin.com": {
+    "CL-9E8710": {
+      "title": "Use of Cookies",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "LinkedIn uses cookies to improve user experience and track user activity.",
+      "remediation": "N/A"
+    },
+    "CL-351C17": {
+      "title": "Data Privacy Policy",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "LinkedIn has a comprehensive data privacy policy to protect user data.",
+      "remediation": "N/A"
+    },
+    "CL-20FAB2": {
+      "title": "SSL Encryption",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "LinkedIn uses SSL encryption to secure data transmission.",
+      "remediation": "N/A"
+    },
+    "CL-6DFC2B": {
+      "title": "Transparent Data Usage",
+      "status": "Compliant",
+      "category": "Security",
+      "description": "LinkedIn is transparent about how user data is collected and used.",
+      "remediation": "N/A"
+    }
+  },
+  "netflix.com": {
+    "CL-FABC10": {
+      "title": "Mixed content (HTTP and HTTPS)",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website loads some resources over HTTP which can pose a security risk by exposing user data to potential attacks.",
+      "remediation": "Ensure all resources are loaded securely over HTTPS to prevent mixed content issues."
+    },
+    "CL-F37B58": {
+      "title": "Unsecured third-party integrations",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website includes unsecured third-party integrations that may expose user data to security risks and vulnerabilities.",
+      "remediation": "Regularly update third-party integrations to the latest secure versions to mitigate potential security threats."
+    },
+    "CL-8E041D": {
+      "title": "Inadequate password policy",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website's password policy may be inadequate, potentially leaving user accounts vulnerable to unauthorized access.",
+      "remediation": "Upgrade the password policy to enforce stronger password requirements and implement additional security measures like multi-factor authentication."
+    }
+  },
+  "aliexpress.com": {
+    "CL-C88B03": {
+      "title": "Use of HTTP instead of HTTPS",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website is using unsecured HTTP instead of HTTPS for secure communication.",
+      "remediation": "Implement HTTPS to ensure secure data transfer between the users and the website."
+    },
+    "CL-31719D": {
+      "title": "Insecure Form Submission",
+      "status": "Issue",
+      "category": "Security",
+      "description": "Forms on the website are submitted insecurely, posing a risk to user data.",
+      "remediation": "Implement secure form submission protocols such as using HTTPS and encryption."
+    },
+    "CL-506178": {
+      "title": "Missing Error Handling",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website lacks proper error handling mechanisms, leaving it vulnerable to exploitation.",
+      "remediation": "Implement robust error handling to prevent security vulnerabilities and ensure smooth user experience."
+    },
+    "CL-1B1E31": {
+      "title": "Unclear Privacy Policy",
+      "status": "Issue",
+      "category": "Security",
+      "description": "The website's privacy policy is unclear or difficult to locate, leading to concerns about data handling practices.",
+      "remediation": "Make the privacy policy easily accessible and ensure it clearly outlines how user data is collected, stored, and used."
+    }
   }
 }

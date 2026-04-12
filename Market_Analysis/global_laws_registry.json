@@ -3,14 +3,25 @@
     "title": "Use of SSL/TLS Encryption",
     "category": "Security",
     "sites": [
-      "stripe.com"
+      "stripe.com",
+      "isracard.co.il"
     ]
   },
   "4193954fc40df553964257f986461ca7": {
     "title": "Alt Text for Images",
     "category": "Accessibility",
     "sites": [
-      "stripe.com"
+      "stripe.com",
+      "israelhayom.co.il",
+      "kikar.co.il",
+      "mizrahi-tefahot.co.il",
+      "cal-online.co.il",
+      "clalbi.co.il",
+      "wallashops.co.il",
+      "cellcom.co.il",
+      "strauss-group.co.il",
+      "instagram.com",
+      "linkedin.com"
     ]
   },
   "6938b7bcadf39d4a9e545432f2030de1": {
@@ -24,14 +35,33 @@
     "title": "Color Contrast",
     "category": "UI-Design",
     "sites": [
-      "stripe.com"
+      "stripe.com",
+      "haaretz.co.il",
+      "israelhayom.co.il",
+      "harel-group.co.il",
+      "huji.ac.il",
+      "ivory.co.il",
+      "wallashops.co.il",
+      "cellcom.co.il",
+      "eged.co.il",
+      "linkedin.com"
     ]
   },
   "7a813e866027001f9fb2ce4c4c3fa59a": {
     "title": "Keyboard Navigation",
     "category": "Accessibility",
     "sites": [
-      "stripe.com"
+      "stripe.com",
+      "calcalist.co.il",
+      "leumi.co.il",
+      "cal-online.co.il",
+      "clalbi.co.il",
+      "harel-group.co.il",
+      "huji.ac.il",
+      "technion.ac.il",
+      "ivory.co.il",
+      "cellcom.co.il",
+      "instagram.com"
     ]
   },
   "372dc57af055e5c415637c01dde82aed": {
@@ -45,7 +75,13 @@
     "title": "Consistent Design",
     "category": "UI-Design",
     "sites": [
-      "stripe.com"
+      "stripe.com",
+      "calcalist.co.il",
+      "harel-group.co.il",
+      "technion.ac.il",
+      "ivory.co.il",
+      "wallashops.co.il",
+      "linkedin.com"
     ]
   },
   "439a5fe47a81fb1419b1d28e9a19e82d": {
@@ -73,14 +109,29 @@
     "title": "Image Optimization",
     "category": "Performance",
     "sites": [
-      "stripe.com"
+      "stripe.com",
+      "isracard.co.il",
+      "clalbi.co.il",
+      "huji.ac.il"
     ]
   },
   "48bd81f945da9a184ef34011f33dbc3e": {
     "title": "Mobile Responsiveness",
     "category": "UI-Design",
     "sites": [
-      "stripe.com"
+      "stripe.com",
+      "haaretz.co.il",
+      "calcalist.co.il",
+      "kikar.co.il",
+      "mizrahi-tefahot.co.il",
+      "cal-online.co.il",
+      "isracard.co.il",
+      "clalbi.co.il",
+      "huji.ac.il",
+      "technion.ac.il",
+      "ivory.co.il",
+      "wallashops.co.il",
+      "linkedin.com"
     ]
   },
   "ef0e7fad4ed5689eb680b9285441c97a": {
@@ -94,7 +145,10 @@
     "title": "Content Readability",
     "category": "Accessibility",
     "sites": [
-      "stripe.com"
+      "stripe.com",
+      "haaretz.co.il",
+      "leumi.co.il",
+      "cal-online.co.il"
     ]
   },
   "b38a34b840d518a7b2ae62fbd3343549": {
@@ -102,6 +156,1769 @@
     "category": "Security",
     "sites": [
       "stripe.com"
+    ]
+  },
+  "308677e935982b600a21b5d404d88c8f": {
+    "title": "HTTPS Usage",
+    "category": "Security",
+    "sites": [
+      "haaretz.co.il",
+      "israelhayom.co.il"
+    ]
+  },
+  "74a19ee8d55d632458216ad44964c3c6": {
+    "title": "Alt Attributes for Images",
+    "category": "Accessibility",
+    "sites": [
+      "haaretz.co.il",
+      "leumi.co.il",
+      "ivory.co.il",
+      "eged.co.il"
+    ]
+  },
+  "bedcf32f85194637ba7d6c94944db847": {
+    "title": "Page Load Speed",
+    "category": "Performance",
+    "sites": [
+      "haaretz.co.il",
+      "calcalist.co.il",
+      "kikar.co.il",
+      "leumi.co.il",
+      "isracard.co.il",
+      "clalbi.co.il",
+      "cellcom.co.il"
+    ]
+  },
+  "1aab4398cf270ca8c2f85dc2c3b15430": {
+    "title": "Font Legibility",
+    "category": "UI-Design",
+    "sites": [
+      "haaretz.co.il"
+    ]
+  },
+  "aa03d55e4cc1b1369d62b7083f3589ed": {
+    "title": "Form Input Labels",
+    "category": "Accessibility",
+    "sites": [
+      "haaretz.co.il"
+    ]
+  },
+  "9a9ef6fc5fa404e9006e0085299f1c07": {
+    "title": "404 Error Page",
+    "category": "UX-Flow",
+    "sites": [
+      "haaretz.co.il"
+    ]
+  },
+  "931108b94754fa420a438dca7179477d": {
+    "title": "Page Titles",
+    "category": "UX-Flow",
+    "sites": [
+      "haaretz.co.il"
+    ]
+  },
+  "28c1905521b3ec35b5c9c8cf2bfa945e": {
+    "title": "Search Functionality",
+    "category": "UX-Flow",
+    "sites": [
+      "haaretz.co.il"
+    ]
+  },
+  "9a8aa837a77b5b4b0aa918a11a70ca64": {
+    "title": "Cookie Consent",
+    "category": "Security",
+    "sites": [
+      "haaretz.co.il",
+      "calcalist.co.il",
+      "kikar.co.il",
+      "cal-online.co.il",
+      "clalbi.co.il",
+      "harel-group.co.il",
+      "ivory.co.il"
+    ]
+  },
+  "ab3b330c28aec68246abd5af25bdab0f": {
+    "title": "Social Media Integration",
+    "category": "UI-Design",
+    "sites": [
+      "haaretz.co.il",
+      "kikar.co.il"
+    ]
+  },
+  "5cc5da0d4a5ad2e59df02166866c7cb0": {
+    "title": "Contact Information",
+    "category": "UI-Design",
+    "sites": [
+      "haaretz.co.il",
+      "kikar.co.il"
+    ]
+  },
+  "08cf7e6733016a00a18c35c9e787d45f": {
+    "title": "Terms of Service and Privacy Policy",
+    "category": "Security",
+    "sites": [
+      "haaretz.co.il"
+    ]
+  },
+  "2f14d50daa934408ff667debf9d977e9": {
+    "title": "SSL Certificate",
+    "category": "Security",
+    "sites": [
+      "israelhayom.co.il",
+      "calcalist.co.il",
+      "cal-online.co.il",
+      "ivory.co.il",
+      "wallashops.co.il"
+    ]
+  },
+  "1e0ee3be7bbc325990b11b8fc4f0390c": {
+    "title": "Page Loading Speed",
+    "category": "Performance",
+    "sites": [
+      "israelhayom.co.il",
+      "wallashops.co.il",
+      "linkedin.com"
+    ]
+  },
+  "d943b4f12adfdc858e4fdbc67a6d8b2f": {
+    "title": "Inconsistent Font Sizes",
+    "category": "UI-Design",
+    "sites": [
+      "israelhayom.co.il",
+      "ice.co.il",
+      "alljobs.co.il"
+    ]
+  },
+  "68232533aa4689081b4a732024fed595": {
+    "title": "Confusing Navigation",
+    "category": "UX-Flow",
+    "sites": [
+      "israelhayom.co.il",
+      "instagram.com"
+    ]
+  },
+  "ca0f9a86ca33f1d6baa9051bd7f4ed21": {
+    "title": "Privacy Policy",
+    "category": "Security",
+    "sites": [
+      "israelhayom.co.il"
+    ]
+  },
+  "78c64611867e272f784d57e07ec5eb0e": {
+    "title": "Keyboard Accessibility",
+    "category": "Accessibility",
+    "sites": [
+      "israelhayom.co.il",
+      "kikar.co.il",
+      "isracard.co.il"
+    ]
+  },
+  "5494ffcfd18020895ea5950c3d13f792": {
+    "title": "Caching Policies",
+    "category": "Performance",
+    "sites": [
+      "israelhayom.co.il",
+      "technion.ac.il"
+    ]
+  },
+  "34fa6709e2a8c92fd15a66cb52ce9a1f": {
+    "title": "Form Errors Handling",
+    "category": "UX-Flow",
+    "sites": [
+      "israelhayom.co.il"
+    ]
+  },
+  "61bebca9b31e6028e1567fd7a8b2cabb": {
+    "title": "Focus States",
+    "category": "Accessibility",
+    "sites": [
+      "israelhayom.co.il"
+    ]
+  },
+  "02d2a0d415a43392ba9d494116ac606f": {
+    "title": "Lazy Loading",
+    "category": "Performance",
+    "sites": [
+      "israelhayom.co.il",
+      "instagram.com"
+    ]
+  },
+  "e0ade9bf68e37bfe9071d980e81e665d": {
+    "title": "Mobile Responsive Design",
+    "category": "UI-Design",
+    "sites": [
+      "israelhayom.co.il",
+      "harel-group.co.il",
+      "cellcom.co.il"
+    ]
+  },
+  "0538fa9994b607b7ab4b704ab3e1b72d": {
+    "title": "Clear Call-to-Action Buttons",
+    "category": "UX-Flow",
+    "sites": [
+      "israelhayom.co.il",
+      "isracard.co.il",
+      "harel-group.co.il",
+      "cellcom.co.il",
+      "linkedin.com"
+    ]
+  },
+  "ce02b15db92b42dd0004a9a373611f14": {
+    "title": "SSL Certificate Missing",
+    "category": "Security",
+    "sites": [
+      "ice.co.il"
+    ]
+  },
+  "c583132a353b5b1a7358e8815a2ac695": {
+    "title": "Images Missing Alt Text",
+    "category": "Accessibility",
+    "sites": [
+      "ice.co.il",
+      "alljobs.co.il"
+    ]
+  },
+  "7276c8d82b7c51aae1c2f452184d0ed4": {
+    "title": "Large Image Sizes",
+    "category": "Performance",
+    "sites": [
+      "ice.co.il",
+      "max.co.il",
+      "netflix.com",
+      "aliexpress.com"
+    ]
+  },
+  "c5f7a92e48196abe99119d1678155557": {
+    "title": "Complex Navigation",
+    "category": "UX-Flow",
+    "sites": [
+      "ice.co.il"
+    ]
+  },
+  "55fd484e0e77c7c4e467754efe8b4a37": {
+    "title": "Cookie Policy Missing",
+    "category": "Security",
+    "sites": [
+      "ice.co.il"
+    ]
+  },
+  "550b2acaf12bc6ecf56e436fe8635653": {
+    "title": "Low Color Contrast",
+    "category": "Accessibility",
+    "sites": [
+      "ice.co.il",
+      "feeding.co.il"
+    ]
+  },
+  "6d6c0d07aa4dc9831c08d33a657b5a05": {
+    "title": "JavaScript Errors",
+    "category": "Performance",
+    "sites": [
+      "ice.co.il"
+    ]
+  },
+  "9faa132d4bd2ce91a0f454967e373a2b": {
+    "title": "Inconsistent Button Styling",
+    "category": "UI-Design",
+    "sites": [
+      "ice.co.il",
+      "max.co.il",
+      "instagram.com",
+      "netflix.com"
+    ]
+  },
+  "4d770ee03ab9b415fb79a621d908c4ef": {
+    "title": "Long Form Fields",
+    "category": "UX-Flow",
+    "sites": [
+      "ice.co.il"
+    ]
+  },
+  "f321910a74642c31aa236efecfbc1d9f": {
+    "title": "Outdated CMS",
+    "category": "Security",
+    "sites": [
+      "ice.co.il"
+    ]
+  },
+  "51cc3e22e735f4b02abb4113b6c56930": {
+    "title": "Missing Alternative Text for Links",
+    "category": "Accessibility",
+    "sites": [
+      "ice.co.il"
+    ]
+  },
+  "9935edc089b0a79e32432b8d59e6ef76": {
+    "title": "Uncompressed CSS Files",
+    "category": "Performance",
+    "sites": [
+      "ice.co.il"
+    ]
+  },
+  "bf1aa5deab2441ca16fe163d2e17f2ad": {
+    "title": "Inconsistent Color Scheme",
+    "category": "UI-Design",
+    "sites": [
+      "ice.co.il"
+    ]
+  },
+  "6bb178bb9f6162170d0a5ce013206b29": {
+    "title": "Unclear Call-to-Action Buttons",
+    "category": "UX-Flow",
+    "sites": [
+      "ice.co.il",
+      "alljobs.co.il",
+      "geektime.co.il",
+      "feeding.co.il",
+      "aliexpress.com"
+    ]
+  },
+  "073395e7b5fc53b602884ac0aaf757fb": {
+    "title": "Data Protection",
+    "category": "Security",
+    "sites": [
+      "calcalist.co.il"
+    ]
+  },
+  "9dc7a5033e53809d93bc3e1687f6240c": {
+    "title": "Website Accessibility",
+    "category": "Accessibility",
+    "sites": [
+      "calcalist.co.il"
+    ]
+  },
+  "da29c286d8c53383bee7bc59389080b3": {
+    "title": "Clear Call-to-Actions",
+    "category": "UX-Flow",
+    "sites": [
+      "calcalist.co.il",
+      "leumi.co.il",
+      "eged.co.il",
+      "instagram.com"
+    ]
+  },
+  "04c1d8a3c279a96e1918f623d6f08b07": {
+    "title": "Content Legibility",
+    "category": "UI-Design",
+    "sites": [
+      "calcalist.co.il"
+    ]
+  },
+  "db0b59b9623daf50a80d69cd1518a7d2": {
+    "title": "Error Handling",
+    "category": "UX-Flow",
+    "sites": [
+      "calcalist.co.il",
+      "kikar.co.il",
+      "leumi.co.il",
+      "mizrahi-tefahot.co.il",
+      "cal-online.co.il",
+      "isracard.co.il",
+      "clalbi.co.il",
+      "harel-group.co.il",
+      "ivory.co.il",
+      "wallashops.co.il",
+      "cellcom.co.il",
+      "linkedin.com"
+    ]
+  },
+  "a43092aa46e34e1761c7a3ffad1830ba": {
+    "title": "Cross-Browser Compatibility",
+    "category": "UI-Design",
+    "sites": [
+      "calcalist.co.il",
+      "leumi.co.il",
+      "mizrahi-tefahot.co.il",
+      "isracard.co.il"
+    ]
+  },
+  "a8bca31545e5861ccedd15ce28c5736f": {
+    "title": "User Privacy Policy",
+    "category": "Security",
+    "sites": [
+      "calcalist.co.il"
+    ]
+  },
+  "a18cadf415614c79ee72bc79b6be891c": {
+    "title": "Image Alt Text",
+    "category": "Accessibility",
+    "sites": [
+      "calcalist.co.il"
+    ]
+  },
+  "853b30b91b14419a93f204d635b1b524": {
+    "title": "Form Validation",
+    "category": "UX-Flow",
+    "sites": [
+      "calcalist.co.il",
+      "mizrahi-tefahot.co.il",
+      "harel-group.co.il",
+      "technion.ac.il",
+      "ivory.co.il",
+      "cellcom.co.il"
+    ]
+  },
+  "41157dd787b2046e0e5fade8668a9d4f": {
+    "title": "SSL/TLS Encryption",
+    "category": "Security",
+    "sites": [
+      "kikar.co.il",
+      "technion.ac.il",
+      "strauss-group.co.il"
+    ]
+  },
+  "bcc24acc45f9ccb5e00843cd09b8d256": {
+    "title": "Contrast Ratio",
+    "category": "UI-Design",
+    "sites": [
+      "kikar.co.il",
+      "mizrahi-tefahot.co.il",
+      "cal-online.co.il",
+      "isracard.co.il",
+      "clalbi.co.il",
+      "technion.ac.il",
+      "strauss-group.co.il"
+    ]
+  },
+  "4ab95e750cae4cf00c690a35015b4768": {
+    "title": "Clear Call-to-Action",
+    "category": "UI-Design",
+    "sites": [
+      "kikar.co.il",
+      "mizrahi-tefahot.co.il",
+      "cal-online.co.il",
+      "ivory.co.il"
+    ]
+  },
+  "da779d094d3bd0dc53d6d8a835fdbb42": {
+    "title": "Consistent Navigation",
+    "category": "UI-Design",
+    "sites": [
+      "kikar.co.il",
+      "isracard.co.il",
+      "strauss-group.co.il"
+    ]
+  },
+  "8636a04a5c919c09e218638511501105": {
+    "title": "Form Field Labels",
+    "category": "UI-Design",
+    "sites": [
+      "kikar.co.il",
+      "clalbi.co.il"
+    ]
+  },
+  "e8dc72b8e17f73fc70fafe2f5b2b48d3": {
+    "title": "Logical Information Hierarchy",
+    "category": "Accessibility",
+    "sites": [
+      "kikar.co.il"
+    ]
+  },
+  "46a713b1b6253c478972bee9d7f663aa": {
+    "title": "404 Page",
+    "category": "UX-Flow",
+    "sites": [
+      "kikar.co.il",
+      "clalbi.co.il"
+    ]
+  },
+  "be506fd388512ef68acb954f0a2ad447": {
+    "title": "HTTPS Protocol",
+    "category": "Security",
+    "sites": [
+      "leumi.co.il"
+    ]
+  },
+  "d445b9790b9f0378558d9fe6cd585533": {
+    "title": "Mobile-Friendly Design",
+    "category": "UI-Design",
+    "sites": [
+      "leumi.co.il"
+    ]
+  },
+  "ee2bb9dd567288eb74663b90848c605a": {
+    "title": "Form Field Accessibility",
+    "category": "Accessibility",
+    "sites": [
+      "leumi.co.il"
+    ]
+  },
+  "f307389f4c98d2c61a65a72d8808c396": {
+    "title": "Cookie Policy Compliance",
+    "category": "Security",
+    "sites": [
+      "leumi.co.il"
+    ]
+  },
+  "aba25623dc61a837de06015b9c15f18c": {
+    "title": "Navigation Consistency",
+    "category": "UI-Design",
+    "sites": [
+      "leumi.co.il"
+    ]
+  },
+  "cf07e965efa18ce1237b5ed4e8959dd6": {
+    "title": "Error 404 Page",
+    "category": "UI-Design",
+    "sites": [
+      "leumi.co.il"
+    ]
+  },
+  "dde3fcf1e5a741db1fda4da35a8e5880": {
+    "title": "User Feedback Mechanism",
+    "category": "UX-Flow",
+    "sites": [
+      "leumi.co.il",
+      "huji.ac.il",
+      "wallashops.co.il"
+    ]
+  },
+  "880e8eeb7a288e348d8f75e5e898baaf": {
+    "title": "Multi-Language Support",
+    "category": "Accessibility",
+    "sites": [
+      "leumi.co.il"
+    ]
+  },
+  "17d78a1912a2efc0003d2182ac6f9837": {
+    "title": "TLS Encryption",
+    "category": "Security",
+    "sites": [
+      "mizrahi-tefahot.co.il"
+    ]
+  },
+  "5b9e3fc4fced20b11ee106247f2bd1d0": {
+    "title": "Unused CSS",
+    "category": "Performance",
+    "sites": [
+      "mizrahi-tefahot.co.il"
+    ]
+  },
+  "e7aa9e9a04161ddb6cd3b45b224c9973": {
+    "title": "Font Size",
+    "category": "Accessibility",
+    "sites": [
+      "mizrahi-tefahot.co.il"
+    ]
+  },
+  "bad48f5d47b68ca3059ac646d0320808": {
+    "title": "Broken Links",
+    "category": "UX-Flow",
+    "sites": [
+      "mizrahi-tefahot.co.il",
+      "alljobs.co.il"
+    ]
+  },
+  "9e574d5fad569a0e441087bd98f2d2ba": {
+    "title": "Accessibility Labels for Form Fields",
+    "category": "Accessibility",
+    "sites": [
+      "mizrahi-tefahot.co.il"
+    ]
+  },
+  "dd792a48ba05f64ff3e45bcc2cc12b99": {
+    "title": "Page Speed",
+    "category": "Performance",
+    "sites": [
+      "mizrahi-tefahot.co.il",
+      "strauss-group.co.il"
+    ]
+  },
+  "96be88ed2e09eff035a149d65ae519fe": {
+    "title": "Breadcrumb Navigation",
+    "category": "UX-Flow",
+    "sites": [
+      "mizrahi-tefahot.co.il",
+      "wallashops.co.il"
+    ]
+  },
+  "bd1da4e523014d608c5450afb44203f1": {
+    "title": "Focus Management",
+    "category": "Accessibility",
+    "sites": [
+      "mizrahi-tefahot.co.il"
+    ]
+  },
+  "ace9aef3aacc1e441cbde40e9f2a7927": {
+    "title": "Missing SSL Certificate",
+    "category": "Security",
+    "sites": [
+      "max.co.il",
+      "alljobs.co.il"
+    ]
+  },
+  "a826159d12e1fda487d8782130d77e9c": {
+    "title": "Contrast Ratio Failures",
+    "category": "Accessibility",
+    "sites": [
+      "max.co.il"
+    ]
+  },
+  "cb83eb4ac968a60fe2ee1857eeee28c2": {
+    "title": "Mobile Responsiveness Issues",
+    "category": "UI-Design",
+    "sites": [
+      "max.co.il"
+    ]
+  },
+  "b0625b1485420cf362114ad989b3e6ec": {
+    "title": "Missing Alt Tags",
+    "category": "Accessibility",
+    "sites": [
+      "max.co.il"
+    ]
+  },
+  "72c90e125b59fceb0b6821958f4a5a63": {
+    "title": "Unused CSS and JS Files",
+    "category": "Performance",
+    "sites": [
+      "max.co.il"
+    ]
+  },
+  "57d8b2d2b45cd13c098f91dd5a5116fc": {
+    "title": "Inconsistent Navigation",
+    "category": "UX-Flow",
+    "sites": [
+      "max.co.il"
+    ]
+  },
+  "6d22909137536b72514c20bbaf5a0f0d": {
+    "title": "Lack of Contact Information",
+    "category": "Accessibility",
+    "sites": [
+      "max.co.il",
+      "alljobs.co.il"
+    ]
+  },
+  "a155b3be313cd481fbe1fbc775b002ab": {
+    "title": "Large Font Sizes",
+    "category": "UI-Design",
+    "sites": [
+      "max.co.il"
+    ]
+  },
+  "bfe003ae34989614374842491f56f370": {
+    "title": "Missing Terms of Service",
+    "category": "Security",
+    "sites": [
+      "max.co.il"
+    ]
+  },
+  "115a597e6620a5b1d1f0c2ca0c03a614": {
+    "title": "Form Validation Errors",
+    "category": "UX-Flow",
+    "sites": [
+      "max.co.il"
+    ]
+  },
+  "e69d819c4de932f32ec1d2e77b8ac227": {
+    "title": "Missing Favicon",
+    "category": "UI-Design",
+    "sites": [
+      "max.co.il",
+      "alljobs.co.il"
+    ]
+  },
+  "a2683d592d110bfb713d172697cb3b92": {
+    "title": "Cookie Usage Disclaimer",
+    "category": "Security",
+    "sites": [
+      "max.co.il"
+    ]
+  },
+  "0ed09257aecf57f7238c4dca0f9da08f": {
+    "title": "Keyboard Accessibility Issues",
+    "category": "Accessibility",
+    "sites": [
+      "max.co.il"
+    ]
+  },
+  "1eeab99ad8e31ec16fa0c99bc8c641b3": {
+    "title": "Page Load Time",
+    "category": "Performance",
+    "sites": [
+      "cal-online.co.il"
+    ]
+  },
+  "600f8de46be559efb31596291d437d61": {
+    "title": "User-Friendly Forms",
+    "category": "UX-Flow",
+    "sites": [
+      "cal-online.co.il"
+    ]
+  },
+  "317ab19d05d6c094d9bf05a59ea4bf59": {
+    "title": "CSS and JavaScript Minification",
+    "category": "Performance",
+    "sites": [
+      "cal-online.co.il"
+    ]
+  },
+  "7447f086ef98e7a14dbf93ae9c1155b8": {
+    "title": "Cross-Device Compatibility",
+    "category": "UI-Design",
+    "sites": [
+      "cal-online.co.il"
+    ]
+  },
+  "d6986a9da09adb58072b4cc28f2c0daa": {
+    "title": "Form Error Validation",
+    "category": "UX-Flow",
+    "sites": [
+      "cal-online.co.il"
+    ]
+  },
+  "51c0373ff1adfec3a6152b19992d16ee": {
+    "title": "Content Organization",
+    "category": "UX-Flow",
+    "sites": [
+      "cal-online.co.il"
+    ]
+  },
+  "914158b8e6933da44ea1e4719cf99c3b": {
+    "title": "Anti-Phishing Measures",
+    "category": "Security",
+    "sites": [
+      "isracard.co.il"
+    ]
+  },
+  "345005853fe0a54d36f62b78f8322ac1": {
+    "title": "Text Alternatives for Images",
+    "category": "Accessibility",
+    "sites": [
+      "isracard.co.il"
+    ]
+  },
+  "e9e30d37977dd8fa5637cc42388e5396": {
+    "title": "Data Privacy Compliance",
+    "category": "Security",
+    "sites": [
+      "isracard.co.il"
+    ]
+  },
+  "4779a7df0cc4fc14e56ba101d01317fd": {
+    "title": "Consistent Design Elements",
+    "category": "UI-Design",
+    "sites": [
+      "isracard.co.il"
+    ]
+  },
+  "0fe5ce1c4befb9c6adac00146570f13f": {
+    "title": "Intuitive Site Navigation",
+    "category": "UX-Flow",
+    "sites": [
+      "isracard.co.il"
+    ]
+  },
+  "8ab27e4c8e81dbd7e0dc39fb29775d64": {
+    "title": "SSL/TLS Protocol",
+    "category": "Security",
+    "sites": [
+      "clalbi.co.il"
+    ]
+  },
+  "d101b63c6f95cadd38f15fb47c67cac7": {
+    "title": "Navigation Clarity",
+    "category": "UX-Flow",
+    "sites": [
+      "clalbi.co.il"
+    ]
+  },
+  "e680fbc464f113f4d261332b56f21968": {
+    "title": "Loading Spinners",
+    "category": "UI-Design",
+    "sites": [
+      "clalbi.co.il"
+    ]
+  },
+  "b0e4f1be996c59c5fdda231d8be87486": {
+    "title": "Contact Form Validation",
+    "category": "UI-Design",
+    "sites": [
+      "clalbi.co.il"
+    ]
+  },
+  "8b0984b02f273778b20790371bd609ec": {
+    "title": "PDF Accessibility",
+    "category": "Accessibility",
+    "sites": [
+      "clalbi.co.il"
+    ]
+  },
+  "9639a8a12260442c840966fd8a9cb432": {
+    "title": "Secure data transmission",
+    "category": "Security",
+    "sites": [
+      "harel-group.co.il"
+    ]
+  },
+  "170b650b8142dca43a14d086abb38da9": {
+    "title": "Alt tags for images",
+    "category": "Accessibility",
+    "sites": [
+      "harel-group.co.il"
+    ]
+  },
+  "8d51102d56ce530f13191804ae2e8027": {
+    "title": "Optimize images",
+    "category": "Performance",
+    "sites": [
+      "harel-group.co.il",
+      "ivory.co.il"
+    ]
+  },
+  "fb1deb66c8d3375e91ab24a10cc9000a": {
+    "title": "Intuitive navigation",
+    "category": "UX-Flow",
+    "sites": [
+      "harel-group.co.il",
+      "ivory.co.il",
+      "cellcom.co.il"
+    ]
+  },
+  "41109a8bace0024f9a1a71b32557e732": {
+    "title": "Loading speed",
+    "category": "Performance",
+    "sites": [
+      "harel-group.co.il"
+    ]
+  },
+  "2f52f2a8bf9deeb683d2d47064e9a8e4": {
+    "title": "Font size and readability",
+    "category": "UI-Design",
+    "sites": [
+      "harel-group.co.il"
+    ]
+  },
+  "d29d88db3513e847ac588ee4bbcc2d7c": {
+    "title": "Feedback mechanism",
+    "category": "UX-Flow",
+    "sites": [
+      "harel-group.co.il",
+      "linkedin.com"
+    ]
+  },
+  "e5cd1b71e1b353d9169ea8cefbdcff45": {
+    "title": "Ensuring data privacy",
+    "category": "Security",
+    "sites": [
+      "huji.ac.il"
+    ]
+  },
+  "ca286bd532c97f3efdf6dfe1b60d954d": {
+    "title": "Providing accessible content",
+    "category": "Accessibility",
+    "sites": [
+      "huji.ac.il"
+    ]
+  },
+  "485d39e318440b1961a8fe4c9e17140a": {
+    "title": "Optimizing page speed",
+    "category": "Performance",
+    "sites": [
+      "huji.ac.il"
+    ]
+  },
+  "0867b196bb7edf2d63e9daa7b8ddb1f6": {
+    "title": "Consistent UI design",
+    "category": "UI-Design",
+    "sites": [
+      "huji.ac.il"
+    ]
+  },
+  "9f60ebfae248a67f6020d94507cd24de": {
+    "title": "Intuitive UX flow",
+    "category": "UX-Flow",
+    "sites": [
+      "huji.ac.il"
+    ]
+  },
+  "8a06167818d97c2a968e3126bb53a29d": {
+    "title": "Securing sensitive data",
+    "category": "Security",
+    "sites": [
+      "huji.ac.il"
+    ]
+  },
+  "ecacc78d9da053b967667c28bca88f5c": {
+    "title": "Caching strategies",
+    "category": "Performance",
+    "sites": [
+      "huji.ac.il"
+    ]
+  },
+  "6f23e60f63fe7f7fe7cd73aee3258926": {
+    "title": "Streamlined checkout process",
+    "category": "UX-Flow",
+    "sites": [
+      "huji.ac.il"
+    ]
+  },
+  "3c8cc73f1b2747374fa38f58af9c8634": {
+    "title": "Regular security updates",
+    "category": "Security",
+    "sites": [
+      "huji.ac.il"
+    ]
+  },
+  "09aceb1047babe6417955e179ddec9a5": {
+    "title": "Consistent branding",
+    "category": "UI-Design",
+    "sites": [
+      "huji.ac.il"
+    ]
+  },
+  "944be84e0be6dd1049295f86fb5c157b": {
+    "title": "Alternative text for images",
+    "category": "Accessibility",
+    "sites": [
+      "technion.ac.il"
+    ]
+  },
+  "371e0ec453c4562dbb4e5a863d9969d0": {
+    "title": "Large image files",
+    "category": "Performance",
+    "sites": [
+      "technion.ac.il",
+      "alljobs.co.il",
+      "geektime.co.il"
+    ]
+  },
+  "2cf2c96e617515e5e252c3028e243c1e": {
+    "title": "Cross-site scripting prevention",
+    "category": "Security",
+    "sites": [
+      "technion.ac.il"
+    ]
+  },
+  "c84dfc52d32336628405b161247a1260": {
+    "title": "Content Security Policy",
+    "category": "Security",
+    "sites": [
+      "technion.ac.il",
+      "ivory.co.il",
+      "instagram.com"
+    ]
+  },
+  "b929c1c1891e45762110fe989d4963ec": {
+    "title": "Text alternative for non-text content",
+    "category": "Accessibility",
+    "sites": [
+      "technion.ac.il"
+    ]
+  },
+  "0fa1f02f0f520d15593794242b755629": {
+    "title": "Minification of assets",
+    "category": "Performance",
+    "sites": [
+      "technion.ac.il"
+    ]
+  },
+  "cb7ff528f894b4fc32b9a5c8c85d423a": {
+    "title": "Error feedback",
+    "category": "UI-Design",
+    "sites": [
+      "technion.ac.il"
+    ]
+  },
+  "b343cc70467fc704483d0e865f43d9a5": {
+    "title": "Clear calls-to-action",
+    "category": "UX-Flow",
+    "sites": [
+      "technion.ac.il"
+    ]
+  },
+  "a2853c4a6393933ba662683ae76f0a39": {
+    "title": "Data Protection Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "3f7edb9e8edc659058010ee45ca60162": {
+    "title": "Cookies Consent Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "f52276fe3f554a62ae47eba6970667ec": {
+    "title": "Accessibility Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "de11e23884ce26643a37f2880310a38c": {
+    "title": "Anti-Spam Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "7a661f424ccf436b535cc619bcf59006": {
+    "title": "Consumer Protection Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "880f4f3776aa7ca8b2be6a6e013b7c64": {
+    "title": "Copyright Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "b2e93507aa1470b15653e3f9a5dceafb": {
+    "title": "Electronic Signatures Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "d82474e3df4f301a9d11f9bcc279ff7e": {
+    "title": "Cybersecurity Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "7d87e86e867593fa943f4bb3f90b3592": {
+    "title": "Protection of Personal Data Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "289dc8c5058fe0e01a4b0e262cfbd927": {
+    "title": "E-Commerce Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "591c8018a7a7342b46ffe5609d47bb72": {
+    "title": "Data Retention Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "dcdc79c7c192775024d608f2100eb971": {
+    "title": "Online Privacy Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "38602da979412401f036678b249d9cb8": {
+    "title": "Digital Signatures Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "3998bc47eb759794bc0d5250d3023ed3": {
+    "title": "Telecommunications Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "50009881cbe4eef8616deb69c298c320": {
+    "title": "Advertising Law",
+    "category": "General",
+    "sites": [
+      "education.gov.il"
+    ]
+  },
+  "1718123bde2b7c2e88392b3a3c14b51c": {
+    "title": "Minify CSS and JavaScript",
+    "category": "Performance",
+    "sites": [
+      "ivory.co.il"
+    ]
+  },
+  "0ae6d5b7e660cd69520fb52a3d41a342": {
+    "title": "Content Delivery Network (CDN)",
+    "category": "Performance",
+    "sites": [
+      "ivory.co.il"
+    ]
+  },
+  "3e8fb4c014302b276f9e92411d429e8e": {
+    "title": "Missing alt attribute for image on homepage",
+    "category": "Accessibility",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "ed92cbf4ae9f7f770719292df005d405": {
+    "title": "HTTP used instead of HTTPS",
+    "category": "Security",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "c4b1a8f58cbaf3a595fe6eb1f604dd1d": {
+    "title": "Large image files slowing down webpage loading",
+    "category": "Performance",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "f238a178ff6dfaf0769521743336bb5d": {
+    "title": "Unclear call-to-action buttons color contrast",
+    "category": "UI-Design",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "bd72c4865dbf0f114c2e036831aa9818": {
+    "title": "Complex checkout process with redundant steps",
+    "category": "UX-Flow",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "a8d1611f8f1e11b1e1f111ee37f0ee8d": {
+    "title": "Missing meta descriptions for key pages",
+    "category": "SEO",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "9c1b9d1df9f6221d3c234cd2c207c8f5": {
+    "title": "Mobile responsiveness issues on product pages",
+    "category": "UI-Design",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "0ecaf7ad9785e75b86dc2b755cc32e9b": {
+    "title": "Missing feedback messages for form validation",
+    "category": "UX-Flow",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "f978ae0c4f3935e58c73658754f4c29d": {
+    "title": "Lack of two-factor authentication for user accounts",
+    "category": "Security",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "cf7ad9ae8421d3d4283fbf60b4bc21c6": {
+    "title": "Poor information architecture leading to navigation difficulties",
+    "category": "UX-Flow",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "5e0b668f73f19c04d2e391227970727e": {
+    "title": "Inconsistent typography styles across pages",
+    "category": "UI-Design",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "ec065bf0833ef5899b54d4de01d55d73": {
+    "title": "Non-descriptive link text on navigation menu",
+    "category": "Accessibility",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "836f7c4d36713b99543d98ba5121bf3e": {
+    "title": "Large amount of unused CSS and JS files",
+    "category": "Performance",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "7a77014830f0ac266aee576f80790c5c": {
+    "title": "No skip navigation option for keyboard users",
+    "category": "Accessibility",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "2e91bf72a57267622a43ad57032eecab": {
+    "title": "Missing favicon for website",
+    "category": "UI-Design",
+    "sites": [
+      "terminalx.com"
+    ]
+  },
+  "46557b38d29fa762d37569938646bbe5": {
+    "title": "Form Input Validation",
+    "category": "Security",
+    "sites": [
+      "wallashops.co.il"
+    ]
+  },
+  "2af36b776eef9e14b8217a706021ce60": {
+    "title": "Text Readability",
+    "category": "Accessibility",
+    "sites": [
+      "wallashops.co.il"
+    ]
+  },
+  "dfaa76e63873588ebad8d94b3996532b": {
+    "title": "Lazy Loading for Images",
+    "category": "Performance",
+    "sites": [
+      "wallashops.co.il"
+    ]
+  },
+  "c2eb6b85a874cbda3347d9d0850b6333": {
+    "title": "Skip to Main Content Link",
+    "category": "Accessibility",
+    "sites": [
+      "wallashops.co.il"
+    ]
+  },
+  "947faf2fda209ae12302cff3a7171412": {
+    "title": "Caching Policy",
+    "category": "Performance",
+    "sites": [
+      "wallashops.co.il"
+    ]
+  },
+  "f917fd49a886249dc6add5f236711934": {
+    "title": "Responsive Images",
+    "category": "UI-Design",
+    "sites": [
+      "wallashops.co.il"
+    ]
+  },
+  "9e871058fed2ab8a6f9c083093b9946a": {
+    "title": "Use of Cookies",
+    "category": "Security",
+    "sites": [
+      "cellcom.co.il",
+      "linkedin.com"
+    ]
+  },
+  "4eb807f794b24a762279b077ac4f6c7e": {
+    "title": "Secure Connection",
+    "category": "Security",
+    "sites": [
+      "cellcom.co.il",
+      "eged.co.il"
+    ]
+  },
+  "115d602cc907dc533795c31e45728289": {
+    "title": "Heading Structure",
+    "category": "Accessibility",
+    "sites": [
+      "cellcom.co.il"
+    ]
+  },
+  "3c83809ea4c2dfca0cbe37979f361cea": {
+    "title": "Multilingual Support",
+    "category": "Accessibility",
+    "sites": [
+      "cellcom.co.il"
+    ]
+  },
+  "351c1718b1141419cc7bf46ba8645b72": {
+    "title": "Data Privacy Policy",
+    "category": "Security",
+    "sites": [
+      "cellcom.co.il",
+      "linkedin.com"
+    ]
+  },
+  "b2cdc77d88df3487db13e61abf2e85b4": {
+    "title": "Visual Hierarchy",
+    "category": "UI-Design",
+    "sites": [
+      "cellcom.co.il"
+    ]
+  },
+  "d0d0c4fdca170f0cf9d3b5ddf10fbcab": {
+    "title": "Unknown Law",
+    "category": "General",
+    "sites": [
+      "postil.com"
+    ]
+  },
+  "9e871966b234f56c437317b42c6c0d87": {
+    "title": "Minification of Resources",
+    "category": "Performance",
+    "sites": [
+      "eged.co.il"
+    ]
+  },
+  "3be20455dfc088aa2b5b2fa125a5924d": {
+    "title": "Complex Navigation Structure",
+    "category": "UX-Flow",
+    "sites": [
+      "alljobs.co.il",
+      "netflix.com"
+    ]
+  },
+  "e79e59e744d22ffb339660274ae15f06": {
+    "title": "Non-responsive Design",
+    "category": "UI-Design",
+    "sites": [
+      "alljobs.co.il",
+      "geektime.co.il"
+    ]
+  },
+  "06ffdea70f47f7bc8d9bc2b501eb3aac": {
+    "title": "Autoplaying Media",
+    "category": "Accessibility",
+    "sites": [
+      "alljobs.co.il"
+    ]
+  },
+  "c26b74e88e700f5b9f2f7bf24fa0d5ea": {
+    "title": "Missing Privacy Policy",
+    "category": "Security",
+    "sites": [
+      "alljobs.co.il"
+    ]
+  },
+  "13878abda3d3525bcc8603900ed16620": {
+    "title": "Long Form Fields Without Validation",
+    "category": "Security",
+    "sites": [
+      "alljobs.co.il"
+    ]
+  },
+  "60375df7d8117c9818cc2e8a194a1f84": {
+    "title": "Low Contrast Text",
+    "category": "Accessibility",
+    "sites": [
+      "alljobs.co.il"
+    ]
+  },
+  "b5d79d8f689c92d2b3f17c042f6d691e": {
+    "title": "Unoptimized Meta Tags",
+    "category": "SEO",
+    "sites": [
+      "alljobs.co.il"
+    ]
+  },
+  "022931d918dd445b68e711d386e73974": {
+    "title": "Missing alt text on images",
+    "category": "Accessibility",
+    "sites": [
+      "geektime.co.il",
+      "netflix.com"
+    ]
+  },
+  "fabc10af1ec43c79d2b7aaa7cb8d38d6": {
+    "title": "Mixed content (HTTP and HTTPS)",
+    "category": "Security",
+    "sites": [
+      "geektime.co.il",
+      "netflix.com"
+    ]
+  },
+  "13988169580364b0133ce2c38ff946ac": {
+    "title": "Inconsistent color contrast",
+    "category": "UI-Design",
+    "sites": [
+      "geektime.co.il"
+    ]
+  },
+  "a0ec8c55d70bf49b42412cca3f7e1688": {
+    "title": "Missing meta descriptions",
+    "category": "SEO",
+    "sites": [
+      "geektime.co.il"
+    ]
+  },
+  "c794c90f85dca360ac1f25a10089494e": {
+    "title": "Unsecured forms",
+    "category": "Security",
+    "sites": [
+      "geektime.co.il"
+    ]
+  },
+  "5251ec890429afb5f79f87913e0b34ca": {
+    "title": "Lack of skip navigation option",
+    "category": "Accessibility",
+    "sites": [
+      "geektime.co.il"
+    ]
+  },
+  "ccb6a76a34fd97ae6a1e21556835b542": {
+    "title": "Slow server response time",
+    "category": "Performance",
+    "sites": [
+      "geektime.co.il",
+      "feeding.co.il"
+    ]
+  },
+  "6a87bbf00390f310bead80be651a084a": {
+    "title": "Poor form validation",
+    "category": "UX-Flow",
+    "sites": [
+      "geektime.co.il"
+    ]
+  },
+  "943870714dfc1aca2ba3fc7b12751877": {
+    "title": "Overuse of pop-ups",
+    "category": "UI-Design",
+    "sites": [
+      "geektime.co.il"
+    ]
+  },
+  "e23a7d1aff45994d18c0275b232f5633": {
+    "title": "Missing contact information",
+    "category": "UX-Flow",
+    "sites": [
+      "geektime.co.il",
+      "feeding.co.il"
+    ]
+  },
+  "028f7aac6d487e8578c73f1857104c6d": {
+    "title": "Auto-play videos with sound",
+    "category": "UI-Design",
+    "sites": [
+      "geektime.co.il"
+    ]
+  },
+  "7007b511923075ee599ff60b2ff51be8": {
+    "title": "Unintuitive navigation structure",
+    "category": "UX-Flow",
+    "sites": [
+      "geektime.co.il"
+    ]
+  },
+  "1e132d7edd269a23e7bae7c0767f8f4b": {
+    "title": "HTTPS encryption",
+    "category": "Security",
+    "sites": [
+      "feeding.co.il"
+    ]
+  },
+  "9b4718c8f0258995f5185b6585ba5c4f": {
+    "title": "Missing alt attributes on images",
+    "category": "Accessibility",
+    "sites": [
+      "feeding.co.il"
+    ]
+  },
+  "24a52235bc5de56cac1678805f2562ff": {
+    "title": "Large images impacting load time",
+    "category": "Performance",
+    "sites": [
+      "feeding.co.il"
+    ]
+  },
+  "d489182283deffd9666222a392c7dfe9": {
+    "title": "Lack of responsive design",
+    "category": "UI-Design",
+    "sites": [
+      "feeding.co.il"
+    ]
+  },
+  "36d61e6ae852cb78d4d02c08bfcdd36e": {
+    "title": "Complicated user registration process",
+    "category": "UX-Flow",
+    "sites": [
+      "feeding.co.il"
+    ]
+  },
+  "2a8a09bd2d45eb5bf46cf7b1179a74cc": {
+    "title": "No privacy policy",
+    "category": "Security",
+    "sites": [
+      "feeding.co.il"
+    ]
+  },
+  "11309e240a839e170845e4ec6aaa2a60": {
+    "title": "Large font size",
+    "category": "Accessibility",
+    "sites": [
+      "feeding.co.il"
+    ]
+  },
+  "a44aebb362645e5f2e7e432263fa9ebe": {
+    "title": "No automatic timeout for user inactivity",
+    "category": "Security",
+    "sites": [
+      "feeding.co.il"
+    ]
+  },
+  "308282a8f2e1029f9d0bb8dc010220e8": {
+    "title": "Inconsistent navigation menu",
+    "category": "UI-Design",
+    "sites": [
+      "feeding.co.il"
+    ]
+  },
+  "2253bb62f46999e9c6152bffec1f446e": {
+    "title": "Unintuitive search functionality",
+    "category": "UX-Flow",
+    "sites": [
+      "feeding.co.il"
+    ]
+  },
+  "6cac8d04ce530707c06b312bb64a8c22": {
+    "title": "Inaccessible forms",
+    "category": "Accessibility",
+    "sites": [
+      "feeding.co.il"
+    ]
+  },
+  "78b3da10c69496f92c16213b89872620": {
+    "title": "Secure Login Process",
+    "category": "Security",
+    "sites": [
+      "instagram.com"
+    ]
+  },
+  "5d1c5b78d2420fe54800f5c9fccdb7f6": {
+    "title": "Large CSS Files",
+    "category": "Performance",
+    "sites": [
+      "instagram.com"
+    ]
+  },
+  "b5491f8f103a3afdfe43eb4bf9b28a83": {
+    "title": "Encrypted Connections",
+    "category": "Security",
+    "sites": [
+      "instagram.com"
+    ]
+  },
+  "4680c8161f84a6b4f69b317141baba0c": {
+    "title": "Optimized Images",
+    "category": "Performance",
+    "sites": [
+      "instagram.com"
+    ]
+  },
+  "5a65f686def5a13ff5f324e1f2911a2e": {
+    "title": "Consistent Color Scheme",
+    "category": "UI-Design",
+    "sites": [
+      "instagram.com"
+    ]
+  },
+  "b841a6b9f11ab89d45de4ae5aeae2df2": {
+    "title": "Text Alternatives for Non-Text Content",
+    "category": "Accessibility",
+    "sites": [
+      "instagram.com"
+    ]
+  },
+  "2f09bd901dcd2c3812fcd903bbf4c45a": {
+    "title": "Responsive Design",
+    "category": "UI-Design",
+    "sites": [
+      "instagram.com"
+    ]
+  },
+  "cca1abee717900a9ddb57a8d7a00879a": {
+    "title": "Error Prevention",
+    "category": "UX-Flow",
+    "sites": [
+      "instagram.com"
+    ]
+  },
+  "20fab2c9683194212cc78c7f937412b5": {
+    "title": "SSL Encryption",
+    "category": "Security",
+    "sites": [
+      "linkedin.com"
+    ]
+  },
+  "901237c8e2f545ee4797e8a032db9e67": {
+    "title": "User-friendly Navigation",
+    "category": "UX-Flow",
+    "sites": [
+      "linkedin.com"
+    ]
+  },
+  "95527a3a6410ba986eba6aebf774246d": {
+    "title": "Intuitive Form Layout",
+    "category": "UX-Flow",
+    "sites": [
+      "linkedin.com"
+    ]
+  },
+  "6e484cc1bf3f929d683b93c94241fcc0": {
+    "title": "Multi-step Processes",
+    "category": "UX-Flow",
+    "sites": [
+      "linkedin.com"
+    ]
+  },
+  "6dfc2bcec65f91ae8da1345a51ad8c9a": {
+    "title": "Transparent Data Usage",
+    "category": "Security",
+    "sites": [
+      "linkedin.com"
+    ]
+  },
+  "053a2098ca0b2e1b5fc7e14f05f2ea02": {
+    "title": "Contrast issues",
+    "category": "Accessibility",
+    "sites": [
+      "netflix.com"
+    ]
+  },
+  "87cc3030ca59e41b02a3a853326acc76": {
+    "title": "Lack of focus indication",
+    "category": "Accessibility",
+    "sites": [
+      "netflix.com"
+    ]
+  },
+  "e2ff3af547b65a60a58750262a15164b": {
+    "title": "Missing descriptive labels for form fields",
+    "category": "Accessibility",
+    "sites": [
+      "netflix.com"
+    ]
+  },
+  "8b68c82f283947d5ab0a299ac338ae94": {
+    "title": "Unoptimized CSS and JS files",
+    "category": "Performance",
+    "sites": [
+      "netflix.com"
+    ]
+  },
+  "4cc84e70a8f94428f81728f2531a561b": {
+    "title": "Inconsistent typography",
+    "category": "UI-Design",
+    "sites": [
+      "netflix.com"
+    ]
+  },
+  "ba8ef7694db2d7d05ee8f9a6af79ab6b": {
+    "title": "Missing error handling in forms",
+    "category": "UX-Flow",
+    "sites": [
+      "netflix.com"
+    ]
+  },
+  "f27462fd0020df1310e5d4bb67f542c5": {
+    "title": "Embedded video autoplay",
+    "category": "UX-Flow",
+    "sites": [
+      "netflix.com"
+    ]
+  },
+  "d7552c3d721c2b51698a3dd80d90f645": {
+    "title": "Intrusive pop-ups",
+    "category": "UX-Flow",
+    "sites": [
+      "netflix.com"
+    ]
+  },
+  "f37b58278b2def625f9359819a305b0d": {
+    "title": "Unsecured third-party integrations",
+    "category": "Security",
+    "sites": [
+      "netflix.com"
+    ]
+  },
+  "8e041de61e0f5ca1aedd16e0054b7054": {
+    "title": "Inadequate password policy",
+    "category": "Security",
+    "sites": [
+      "netflix.com"
+    ]
+  },
+  "b54a9f77ac5f698e127b0e231dbd267b": {
+    "title": "Missing Alternative Text for Images",
+    "category": "Accessibility",
+    "sites": [
+      "aliexpress.com"
+    ]
+  },
+  "c88b03156123150954caf842e7fc2cdb": {
+    "title": "Use of HTTP instead of HTTPS",
+    "category": "Security",
+    "sites": [
+      "aliexpress.com"
+    ]
+  },
+  "0c3874eef5086432d3af0f90a81aecad": {
+    "title": "Complex Checkout Process",
+    "category": "UX-Flow",
+    "sites": [
+      "aliexpress.com"
+    ]
+  },
+  "80bcef71e920f8478a50b22a3bcf677b": {
+    "title": "Missing Meta Tags",
+    "category": "SEO",
+    "sites": [
+      "aliexpress.com"
+    ]
+  },
+  "bc34778b2c3f70b9a1a53c88955a2b19": {
+    "title": "Lack of Mobile Responsiveness",
+    "category": "UI-Design",
+    "sites": [
+      "aliexpress.com"
+    ]
+  },
+  "8499ecb1f4c62e8bc646325935781a2a": {
+    "title": "Unintuitive Navigation",
+    "category": "UX-Flow",
+    "sites": [
+      "aliexpress.com"
+    ]
+  },
+  "97a11ae11b739c00b9de7a0b400a1749": {
+    "title": "Missing Alt Attributes for Links",
+    "category": "Accessibility",
+    "sites": [
+      "aliexpress.com"
+    ]
+  },
+  "31719d5728d1aa163d2e711fb0b71986": {
+    "title": "Insecure Form Submission",
+    "category": "Security",
+    "sites": [
+      "aliexpress.com"
+    ]
+  },
+  "ad6940ae2670224f82866230528ddf3f": {
+    "title": "Inconsistent Branding",
+    "category": "UI-Design",
+    "sites": [
+      "aliexpress.com"
+    ]
+  },
+  "d2f5bd68bec8bca2d74d18f140c7b503": {
+    "title": "Slow Server Response Times",
+    "category": "Performance",
+    "sites": [
+      "aliexpress.com"
+    ]
+  },
+  "d4fdc8a05d89a32bd31033596e055fa6": {
+    "title": "Unintuitive Form Validation Messages",
+    "category": "UI-Design",
+    "sites": [
+      "aliexpress.com"
+    ]
+  },
+  "506178d96cd80f0f524b60ee1051d354": {
+    "title": "Missing Error Handling",
+    "category": "Security",
+    "sites": [
+      "aliexpress.com"
+    ]
+  },
+  "1b1e31cf37505065be08e041487a26a8": {
+    "title": "Unclear Privacy Policy",
+    "category": "Security",
+    "sites": [
+      "aliexpress.com"
     ]
   }
 }

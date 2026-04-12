@@ -1,0 +1,173 @@
+{
+  "education.gov.il": {
+    "CL-A2853C": {
+      "title": "Data Protection Law",
+      "status": "Compliant"
+    },
+    "CL-3F7EDB": {
+      "title": "Cookies Consent Law",
+      "status": "Issue"
+    },
+    "CL-F52276": {
+      "title": "Accessibility Law",
+      "status": "Compliant"
+    },
+    "CL-DE11E2": {
+      "title": "Anti-Spam Law",
+      "status": "Compliant"
+    },
+    "CL-7A661F": {
+      "title": "Consumer Protection Law",
+      "status": "Issue"
+    },
+    "CL-880F4F": {
+      "title": "Copyright Law",
+      "status": "Compliant"
+    },
+    "CL-B2E935": {
+      "title": "Electronic Signatures Law",
+      "status": "Compliant"
+    },
+    "CL-D82474": {
+      "title": "Cybersecurity Law",
+      "status": "Compliant"
+    },
+    "CL-7D87E8": {
+      "title": "Protection of Personal Data Law",
+      "status": "Issue"
+    },
+    "CL-289DC8": {
+      "title": "E-Commerce Law",
+      "status": "Compliant"
+    },
+    "CL-591C80": {
+      "title": "Data Retention Law",
+      "status": "Issue"
+    },
+    "CL-DCDC79": {
+      "title": "Online Privacy Law",
+      "status": "Compliant"
+    },
+    "CL-38602D": {
+      "title": "Digital Signatures Law",
+      "status": "Compliant"
+    },
+    "CL-3998BC": {
+      "title": "Telecommunications Law",
+      "status": "Compliant"
+    },
+    "CL-500098": {
+      "title": "Advertising Law",
+      "status": "Issue"
+    }
+  },
+  "postil.com": {
+    "CL-D0D0C4": {
+      "1": {
+        "title": "SSL Certificate",
+        "status": "Issue",
+        "category": "Security",
+        "description": "The website does not have a valid SSL certificate, making the connection insecure.",
+        "remediation": "Install and configure an SSL certificate on the server to enable secure HTTPS connection."
+      },
+      "2": {
+        "title": "Alt Attributes",
+        "status": "Issue",
+        "category": "Accessibility",
+        "description": "Images on the website are missing alt attributes, hindering accessibility for visually impaired users.",
+        "remediation": "Add descriptive alt attributes to all images to provide context for screen readers."
+      },
+      "3": {
+        "title": "Page Load Speed",
+        "status": "Issue",
+        "category": "Performance",
+        "description": "The website takes too long to load, impacting user experience and SEO rankings.",
+        "remediation": "Optimize images, reduce server response time, and minify CSS and JavaScript to improve page load speed."
+      },
+      "4": {
+        "title": "Mobile Responsiveness",
+        "status": "Issue",
+        "category": "UI-Design",
+        "description": "The website is not fully responsive on mobile devices, causing layout and usability issues.",
+        "remediation": "Implement a responsive design that adapts layout and content for different screen sizes."
+      },
+      "5": {
+        "title": "Clickable Elements",
+        "status": "Issue",
+        "category": "Accessibility",
+        "description": "Some interactive elements on the website are not easily clickable, affecting user accessibility.",
+        "remediation": "Increase the size of clickable elements and ensure there is enough spacing between them."
+      },
+      "6": {
+        "title": "Browser Compatibility",
+        "status": "Issue",
+        "category": "UI-Design",
+        "description": "The website does not render properly on certain web browsers, leading to a poor user experience.",
+        "remediation": "Test the website on different browsers and fix any compatibility issues by adjusting CSS and JavaScript."
+      },
+      "7": {
+        "title": "Form Validation",
+        "status": "Issue",
+        "category": "UX-Flow",
+        "description": "Form fields lack proper validation, resulting in errors and user frustration during input.",
+        "remediation": "Implement client-side and server-side form validation to provide real-time feedback to users."
+      },
+      "8": {
+        "title": "Privacy Policy",
+        "status": "Compliant",
+        "category": "Security",
+        "description": "The website has a clear and updated privacy policy that informs users about data collection and usage.",
+        "remediation": "Regularly review and update the privacy policy to ensure compliance with data protection laws."
+      },
+      "9": {
+        "title": "Keyboard Navigation",
+        "status": "Issue",
+        "category": "Accessibility",
+        "description": "Users cannot navigate the website using keyboard only, excluding individuals with mobility disabilities.",
+        "remediation": "Ensure all interactive elements are accessible and operable via keyboard navigation."
+      },
+      "10": {
+        "title": "404 Error Pages",
+        "status": "Issue",
+        "category": "UX-Flow",
+        "description": "404 error pages do not provide useful information or navigation options for lost users.",
+        "remediation": "Create custom 404 error pages with clear messages and links to help users find their way back."
+      },
+      "11": {
+        "title": "Cookie Consent",
+        "status": "Compliant",
+        "category": "Security",
+        "description": "The website displays a cookie consent banner that complies with privacy regulations.",
+        "remediation": "Ensure the cookie consent banner provides users with options to manage cookie preferences."
+      },
+      "12": {
+        "title": "Color Contrast",
+        "status": "Issue",
+        "category": "Accessibility",
+        "description": "Some text elements have insufficient color contrast, making them hard to read for visually impaired users.",
+        "remediation": "Increase color contrast for text elements to meet accessibility standards."
+      },
+      "13": {
+        "title": "404 Error Handling",
+        "status": "Issue",
+        "category": "UX-Flow",
+        "description": "The website lacks proper error handling for server-side errors, leaving users confused.",
+        "remediation": "Implement error handling mechanisms to inform users about server-side errors and provide alternative actions."
+      },
+      "14": {
+        "title": "Responsive Images",
+        "status": "Issue",
+        "category": "UI-Design",
+        "description": "Images do not scale properly on different devices, leading to distorted or cropped visuals.",
+        "remediation": "Use responsive image techniques, such as srcset and sizes attributes, to ensure images adapt to various screen sizes."
+      },
+      "15": {
+        "title": "Form Usability",
+        "status": "Issue",
+        "category": "UX-Flow",
+        "description": "Forms are too lengthy or complex, discouraging users from completing them.",
+        "remediation": "Simplify forms, use progressive disclosure, and provide clear instructions to enhance form usability."
+      }
+    }
+  }
+}

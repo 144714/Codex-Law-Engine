@@ -116,5 +116,612 @@
       "description": "Obtain user consent before setting any non-essential cookies.",
       "remediation": "Implement a cookie banner that allows users to accept or decline cookies."
     }
+  },
+  "haaretz.co.il": {
+    "CL-9A9EF6": {
+      "title": "404 Error Page",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "The website has a custom 404 error page that helps users navigate back to the main website easily.",
+      "remediation": "N/A"
+    },
+    "CL-931108": {
+      "title": "Page Titles",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Each page on the website has a clear and descriptive title that helps users understand the content of the page.",
+      "remediation": "N/A"
+    },
+    "CL-28C190": {
+      "title": "Search Functionality",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The search functionality on the website is slow and returns irrelevant results, leading to a poor user experience.",
+      "remediation": "Optimize the search functionality by improving indexing, query performance, and relevance ranking."
+    },
+    "CL-CEEC8D": {
+      "title": "Content Readability",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "The website content is organized in a clear and readable manner, enhancing user understanding and engagement.",
+      "remediation": "N/A"
+    }
+  },
+  "israelhayom.co.il": {
+    "CL-682325": {
+      "title": "Confusing Navigation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website has complex and confusing navigation menus, making it difficult for users to find relevant information.",
+      "remediation": "Simplify the navigation structure, use clear labels for menu items, and consider implementing a search functionality for better user experience."
+    },
+    "CL-34FA67": {
+      "title": "Form Errors Handling",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website does not provide clear and descriptive error messages when users submit forms incorrectly.",
+      "remediation": "Display specific error messages next to the relevant form fields and offer guidance on how to correct the errors."
+    },
+    "CL-0538FA": {
+      "title": "Clear Call-to-Action Buttons",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "The website has clear and prominent call-to-action buttons that guide users towards desired actions.",
+      "remediation": "Continue to monitor and optimize the placement and design of call-to-action buttons to maximize user engagement."
+    }
+  },
+  "ice.co.il": {
+    "CL-C5F7A9": {
+      "title": "Complex Navigation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website has a complex navigation structure, making it challenging for users to find information.",
+      "remediation": "Simplify the navigation menu and ensure logical categorization to improve the user experience and flow."
+    },
+    "CL-4D770E": {
+      "title": "Long Form Fields",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Some forms on the website have excessively long fields, which can be overwhelming for users.",
+      "remediation": "Break down long form fields into shorter sections or steps to improve the user experience and flow."
+    },
+    "CL-6BB178": {
+      "title": "Unclear Call-to-Action Buttons",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Some call-to-action buttons on the website are unclear or generic, reducing user engagement.",
+      "remediation": "Make call-to-action buttons more specific, descriptive, and visually prominent to enhance user interaction and flow."
+    }
+  },
+  "calcalist.co.il": {
+    "CL-DA29C2": {
+      "title": "Clear Call-to-Actions",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Ensure that website has clear and visible call-to-action buttons.",
+      "remediation": "Use contrasting colors, engaging text, and strategic placement to make call-to-actions stand out."
+    },
+    "CL-DB0B59": {
+      "title": "Error Handling",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Provide helpful error messages and guidance for users.",
+      "remediation": "Clearly communicate errors to users and offer solutions to help them resolve issues."
+    },
+    "CL-853B30": {
+      "title": "Form Validation",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Validate user input in forms to prevent submission errors.",
+      "remediation": "Implement real-time validation and provide clear instructions on correct input formats."
+    }
+  },
+  "kikar.co.il": {
+    "CL-DB0B59": {
+      "title": "Error Handling",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website lacks proper error handling feedback for form submissions, leaving users confused when errors occur.",
+      "remediation": "Provide clear and descriptive error messages when users encounter issues during form submissions to assist them in error recovery."
+    },
+    "CL-46A713": {
+      "title": "404 Page",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website's 404 error page is generic and unhelpful, providing little guidance for users who land on invalid URLs.",
+      "remediation": "Customize the 404 error page to offer useful links, a search bar, or suggestions to help users navigate back to valid content."
+    }
+  },
+  "leumi.co.il": {
+    "CL-DA29C2": {
+      "title": "Clear Call-to-Actions",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website lacks clear call-to-actions, making it difficult for users to navigate and take desired actions.",
+      "remediation": "Place prominent and descriptive call-to-action buttons on key pages to guide users towards desired actions."
+    },
+    "CL-DB0B59": {
+      "title": "Error Handling",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website lacks informative error messages when users encounter form submission errors.",
+      "remediation": "Provide clear and descriptive error messages that guide users on how to correct form submission errors."
+    },
+    "CL-DDE3FC": {
+      "title": "User Feedback Mechanism",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website does not have a visible mechanism for users to provide feedback or report issues.",
+      "remediation": "Implement a feedback form or button to encourage users to share their feedback, suggestions, or report any problems."
+    }
+  },
+  "mizrahi-tefahot.co.il": {
+    "CL-4AB95E": {
+      "title": "Clear Call-to-Action",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website lacks clear call-to-action buttons for guiding user interactions.",
+      "remediation": "Include prominent and intuitive call-to-action buttons to enhance user experience and navigation."
+    },
+    "CL-A43092": {
+      "title": "Cross-Browser Compatibility",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website may not display correctly on all web browsers.",
+      "remediation": "Test and optimize the website for cross-browser compatibility to ensure consistent user experience."
+    },
+    "CL-BAD48F": {
+      "title": "Broken Links",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "There are broken links on the website leading to pages that do not exist.",
+      "remediation": "Regularly check and fix broken links to provide a seamless browsing experience for users."
+    },
+    "CL-96BE88": {
+      "title": "Breadcrumb Navigation",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "The website includes breadcrumb navigation for easy user navigation.",
+      "remediation": "Monitor and maintain the breadcrumb navigation to ensure consistency in user experience."
+    }
+  },
+  "max.co.il": {
+    "CL-57D8B2": {
+      "title": "Inconsistent Navigation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The navigation menu structure is inconsistent across different pages, leading to confusion for users trying to find their way around the site.",
+      "remediation": "Ensure a consistent navigation scheme throughout the website, making it easy for users to explore different sections."
+    },
+    "CL-115A59": {
+      "title": "Form Validation Errors",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Some forms on the website lack validation errors, leading to user frustration and errors during submission.",
+      "remediation": "Implement real-time form validation to provide instant feedback to users on input errors."
+    }
+  },
+  "cal-online.co.il": {
+    "CL-600F8D": {
+      "title": "User-Friendly Forms",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website's forms are complex and difficult to fill out, resulting in user frustration and potentially abandoned form submissions.",
+      "remediation": "Simplify form fields, provide clear instructions, and use inline validation to enhance the user experience of filling out forms."
+    },
+    "CL-DB0B59": {
+      "title": "Error Handling",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website lacks proper error handling, leading to confusing error messages and preventing users from completing actions successfully.",
+      "remediation": "Implement clear and descriptive error messages that guide users on how to correct errors and complete their tasks."
+    },
+    "CL-D6986A": {
+      "title": "Form Error Validation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Form error messages lack specificity, making it challenging for users to identify and correct input errors.",
+      "remediation": "Provide descriptive and context-specific error messages next to the respective form fields to assist users in error correction."
+    },
+    "CL-51C037": {
+      "title": "Content Organization",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "The website's content is well-organized and structured logically, facilitating easy navigation and content consumption.",
+      "remediation": "Continue to maintain a clear content hierarchy and intuitive navigation to enhance user experience and engagement."
+    }
+  },
+  "isracard.co.il": {
+    "CL-0538FA": {
+      "title": "Clear Call-to-Action Buttons",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Ensure clear and noticeable call-to-action buttons for easy navigation.",
+      "remediation": "N/A"
+    },
+    "CL-DB0B59": {
+      "title": "Error Handling",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Provide clear and helpful error messages for users.",
+      "remediation": "Inform users of errors in a user-friendly way, offer solutions or suggestions."
+    },
+    "CL-0FE5CE": {
+      "title": "Intuitive Site Navigation",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Ensure intuitive navigation for effortless user interaction.",
+      "remediation": "N/A"
+    }
+  },
+  "clalbi.co.il": {
+    "CL-D101B6": {
+      "title": "Navigation Clarity",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The navigation menu on clalbi.co.il is confusing and lacks clear categorization.",
+      "remediation": "Simplify the navigation menu and categorize links logically for better user experience."
+    },
+    "CL-DB0B59": {
+      "title": "Error Handling",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Error messages on clalbi.co.il are vague and not user-friendly.",
+      "remediation": "Provide clear and specific error messages to guide users when errors occur."
+    },
+    "CL-46A713": {
+      "title": "404 Page",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The 404 error page on clalbi.co.il is generic and does not provide guidance on next steps.",
+      "remediation": "Enhance the 404 page by including helpful links and a search function to guide users back to the site."
+    }
+  },
+  "harel-group.co.il": {
+    "CL-FB1DEB": {
+      "title": "Intuitive navigation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Navigation menu is complex and difficult to use.",
+      "remediation": "Simplify navigation menu for better user experience."
+    },
+    "CL-DB0B59": {
+      "title": "Error handling",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Error messages are not informative or user-friendly.",
+      "remediation": "Provide clear and helpful error messages for better user experience."
+    },
+    "CL-853B30": {
+      "title": "Form validation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Form validation feedback is lacking or unclear.",
+      "remediation": "Implement clear form validation feedback for users."
+    },
+    "CL-D29D88": {
+      "title": "Feedback mechanism",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Website provides feedback to user actions or form submissions.",
+      "remediation": "N/A"
+    }
+  },
+  "huji.ac.il": {
+    "CL-9F60EB": {
+      "title": "Intuitive UX flow",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Ensure that users can easily navigate through the website to find information.",
+      "remediation": "Conduct user testing to identify pain points and optimize the user journey."
+    },
+    "CL-6F23E6": {
+      "title": "Streamlined checkout process",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Optimize the checkout process to reduce friction and improve conversion rates.",
+      "remediation": "Implement a guest checkout option, offer multiple payment methods, and simplify form fields."
+    },
+    "CL-DDE3FC": {
+      "title": "User feedback mechanism",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Provide users with a feedback mechanism to gather insights and improve user experience.",
+      "remediation": "Implement feedback forms, surveys, or interactive elements to encourage user feedback."
+    }
+  },
+  "technion.ac.il": {
+    "CL-48BD81": {
+      "title": "Mobile responsiveness",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website is not fully optimized for mobile devices, leading to a poor user experience on smaller screens.",
+      "remediation": "Implement responsive design techniques to ensure the website is user-friendly across all devices."
+    },
+    "CL-853B30": {
+      "title": "Form validation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Form fields on the website lack proper validation feedback, resulting in user confusion and errors.",
+      "remediation": "Implement real-time validation and provide clear feedback messages for user input in forms."
+    },
+    "CL-B343CC": {
+      "title": "Clear calls-to-action",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website lacks clear and prominent calls-to-action, leading to user confusion on how to proceed.",
+      "remediation": "Ensure all key actions are easily identifiable with clear calls-to-action that guide users through the website."
+    }
+  },
+  "ivory.co.il": {
+    "CL-FB1DEB": {
+      "title": "Intuitive Navigation",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "The website has intuitive navigation that helps users easily find the information they are looking for.",
+      "remediation": "No action needed, as the website already complies with this digital law."
+    },
+    "CL-853B30": {
+      "title": "Form Validation",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Forms on the website have proper validation to guide users in submitting correct information.",
+      "remediation": "No action needed, as the website already complies with this digital law."
+    },
+    "CL-DB0B59": {
+      "title": "Error Handling",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "The website provides clear error messages and guidance to users when errors occur.",
+      "remediation": "No action needed, as the website already complies with this digital law."
+    }
+  },
+  "terminalx.com": {
+    "CL-BD72C4": {
+      "title": "Complex checkout process with redundant steps",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The checkout process on the website is complex and contains redundant steps, leading to a poor user experience.",
+      "remediation": "Simplify the checkout process by removing unnecessary steps and optimizing the flow for a smoother user experience."
+    },
+    "CL-0ECAF7": {
+      "title": "Missing feedback messages for form validation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Forms on the website lack feedback messages for validation errors, leaving users confused when submitting information.",
+      "remediation": "Provide clear and descriptive feedback messages for form validation errors to guide users in correcting their input."
+    },
+    "CL-CF7AD9": {
+      "title": "Poor information architecture leading to navigation difficulties",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website has a poor information architecture that makes it difficult for users to navigate and find relevant content.",
+      "remediation": "Improve the information architecture by organizing content logically and implementing clear navigation menus."
+    }
+  },
+  "wallashops.co.il": {
+    "CL-DDE3FC": {
+      "title": "User Feedback Mechanism",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website lacks a clear mechanism for users to provide feedback or report issues encountered during their visit.",
+      "remediation": "Implement a user feedback form or survey to gather insights from visitors and improve the overall user experience."
+    }
+  },
+  "cellcom.co.il": {
+    "CL-FB1DEB": {
+      "title": "Intuitive Navigation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website navigation is complex and lacks intuitive design.",
+      "remediation": "Simplify the navigation menu, use descriptive labels, and ensure easy access to important sections for a better user experience."
+    },
+    "CL-853B30": {
+      "title": "Form Validation",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Forms on the website provide real-time validation feedback.",
+      "remediation": "N/A"
+    },
+    "CL-DB0B59": {
+      "title": "Error Handling",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Error messages on the website are not descriptive or helpful.",
+      "remediation": "Provide clear and specific error messages that guide users on how to correct mistakes in forms or interactions."
+    }
+  },
+  "eged.co.il": {
+    "CL-DA29C2": {
+      "title": "Clear Call-to-Actions",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Some pages on eged.co.il lack clear and prominent call-to-action buttons, leading to a confusing user journey.",
+      "remediation": "Enhance call-to-action buttons by making them more noticeable and strategically placed."
+    }
+  },
+  "alljobs.co.il": {
+    "CL-3BE204": {
+      "title": "Complex Navigation Structure",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website has a complex navigation structure, making it challenging for users to find the information they are looking for efficiently.",
+      "remediation": "Simplify the navigation menu and structure to improve user experience and streamline information accessibility."
+    },
+    "CL-6D2290": {
+      "title": "Lack of Contact Information",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "There is no prominent contact information provided on the website, hindering users' ability to get in touch for queries or assistance.",
+      "remediation": "Include a clearly visible 'Contact Us' section with relevant contact details for users to easily reach out."
+    },
+    "CL-BAD48F": {
+      "title": "Broken Links",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "There are broken links present on the website, leading to poor user experience and frustration for users trying to access relevant content.",
+      "remediation": "Regularly scan the website for broken links and fix or remove them to ensure a seamless user journey."
+    }
+  },
+  "geektime.co.il": {
+    "CL-6BB178": {
+      "title": "Unclear call-to-action buttons",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Some call-to-action buttons on the website are unclear or not easily distinguishable, leading to potential user confusion.",
+      "remediation": "Make call-to-action buttons more prominent and clearly labeled to guide users effectively."
+    },
+    "CL-6A87BB": {
+      "title": "Poor form validation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Form validation on the website is unclear or ineffective, leading to user errors and frustration.",
+      "remediation": "Improve form validation messages and visual cues to help users input data correctly."
+    },
+    "CL-E23A7D": {
+      "title": "Missing contact information",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website lacks clear contact information, making it difficult for users to reach out for support or inquiries.",
+      "remediation": "Ensure contact information is easily accessible on the website, preferably in the header or footer section."
+    },
+    "CL-7007B5": {
+      "title": "Unintuitive navigation structure",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website's navigation structure is confusing or unclear, making it challenging for users to find the information they need.",
+      "remediation": "Simplify and organize the navigation menu to improve user experience and help users navigate the website more effectively."
+    }
+  },
+  "feeding.co.il": {
+    "CL-36D61E": {
+      "title": "Complicated user registration process",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The user registration process on the website is too complicated and may discourage users from signing up.",
+      "remediation": "Simplify the user registration process by reducing the number of steps and required information."
+    },
+    "CL-2253BB": {
+      "title": "Unintuitive search functionality",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The search functionality on the website is unintuitive and may not return relevant results for users.",
+      "remediation": "Improve the search functionality by implementing filters, autocomplete suggestions, and refining search algorithms."
+    }
+  },
+  "strauss-group.co.il": {
+    "CL-DA779D": {
+      "title": "Consistent Navigation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website has inconsistent navigation elements across pages, causing confusion for users trying to find their way around.",
+      "remediation": "Establish a clear and consistent navigation structure throughout the website to enhance user experience and make it easy for users to navigate between pages."
+    }
+  },
+  "instagram.com": {
+    "CL-682325": {
+      "title": "Confusing Navigation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The navigation structure is complex and confusing, making it difficult for users to find information easily.",
+      "remediation": "Simplify the navigation menu and improve the information architecture for a more intuitive user experience."
+    },
+    "CL-DA29C2": {
+      "title": "Clear Call-to-Actions",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Call-to-action buttons are clear and prominent, guiding users towards desired actions.",
+      "remediation": "N/A"
+    },
+    "CL-CCA1AB": {
+      "title": "Error Prevention",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "Forms and user inputs are designed with error prevention mechanisms, reducing user frustration.",
+      "remediation": "N/A"
+    }
+  },
+  "linkedin.com": {
+    "CL-901237": {
+      "title": "User-friendly Navigation",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "LinkedIn provides easy navigation for users to access different features and sections.",
+      "remediation": "N/A"
+    },
+    "CL-95527A": {
+      "title": "Intuitive Form Layout",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "LinkedIn's forms are well-organized and easy to fill out.",
+      "remediation": "N/A"
+    },
+    "CL-DB0B59": {
+      "title": "Error Handling",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "LinkedIn effectively communicates errors to users and provides guidance on how to resolve them.",
+      "remediation": "N/A"
+    },
+    "CL-6E484C": {
+      "title": "Multi-step Processes",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "LinkedIn breaks down complex processes into manageable steps for users.",
+      "remediation": "N/A"
+    },
+    "CL-D29D88": {
+      "title": "Feedback Mechanism",
+      "status": "Compliant",
+      "category": "UX-Flow",
+      "description": "LinkedIn allows users to provide feedback easily, enhancing user experience.",
+      "remediation": "N/A"
+    }
+  },
+  "netflix.com": {
+    "CL-3BE204": {
+      "title": "Complex navigation structure",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website has a complex navigation structure with multiple levels and non-intuitive paths, making it difficult for users to find what they are looking for.",
+      "remediation": "Simplify the navigation structure by grouping related items and providing clear labels to improve user experience."
+    },
+    "CL-BA8EF7": {
+      "title": "Missing error handling in forms",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Forms on the website lack proper error handling feedback, leaving users confused if there are input errors.",
+      "remediation": "Provide clear error messages and indicators to guide users on how to correct form input mistakes."
+    },
+    "CL-F27462": {
+      "title": "Embedded video autoplay",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "Videos autoplay when visiting certain pages, disrupting user experience and potentially causing accessibility issues for users with sensory sensitivities.",
+      "remediation": "Disable autoplay for videos or provide user controls to allow users to start videos manually."
+    },
+    "CL-D7552C": {
+      "title": "Intrusive pop-ups",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website contains intrusive pop-ups that disrupt user experience and may lead to user frustration.",
+      "remediation": "Minimize the use of pop-ups and ensure they are not obtrusive to the user's browsing experience."
+    }
+  },
+  "aliexpress.com": {
+    "CL-0C3874": {
+      "title": "Complex Checkout Process",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The checkout process on the website is complex and confusing for users.",
+      "remediation": "Simplify the checkout process by reducing the number of steps and providing clear instructions at each stage."
+    },
+    "CL-8499EC": {
+      "title": "Unintuitive Navigation",
+      "status": "Issue",
+      "category": "UX-Flow",
+      "description": "The website has inconsistent navigation and menu structures, making it hard for users to find information.",
+      "remediation": "Streamline navigation by organizing menus logically and providing clear pathways for users to navigate the website."
+    }
   }
 }
