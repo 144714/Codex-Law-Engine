@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 14:34"
+    "date": "2026-04-12 15:28"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Minimization of choices to improve decision-making speed.",
-      "technical_spec": "Streamlined menus, focused content display.",
+      "title": "Jakob's Law",
+      "description": "Users expect a familiar experience with the design based on their experiences with similar products.",
+      "technical_spec": "Design elements echo industry standards for AI interfaces.",
       "severity_score": 12
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizing button size and placement for easier interaction.",
-      "technical_spec": "Clickable areas designed to reduce pointer movements.",
-      "severity_score": 14
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Use of visual grouping to enhance comprehension and visibility.",
-      "technical_spec": "Whitespace, alignment, and proximity in design.",
+      "title": "Hick’s Law",
+      "description": "The time taken to make a decision increases with the number and complexity of choices.",
+      "technical_spec": "Streamlined menu options to minimize decision paralysis.",
       "severity_score": 18
     },
     {
-      "title": "Miller's Law",
-      "description": "Simplifying content for better memory retention.",
-      "technical_spec": "Breaking information into chunks of 7±2 elements.",
-      "severity_score": 8
+      "title": "Fitts’s Law",
+      "description": "Predicts the time required to move to a target area, such as a button or control.",
+      "technical_spec": "Ensures interactive elements are adequately sized and spaced.",
+      "severity_score": 22
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "Create an aesthetically pleasing interface to enhance perceived usability.",
-      "technical_spec": "Consistent branding, color schemes, and typography.",
-      "severity_score": 10
+      "title": "Peak-End Rule",
+      "description": "Users judge an experience based on the peak moment and the end.",
+      "technical_spec": "Designs highlight key interactions and ensure a strong finish.",
+      "severity_score": 20
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Objects that are close together are perceived as related.",
+      "technical_spec": "Grouping related content logically through spacing.",
+      "severity_score": 15
     }
   ]
 }

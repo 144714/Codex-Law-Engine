@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 14:34"
+    "date": "2026-04-12 15:28"
   },
   "data": [
     {
-      "title": "Innovation Leadership",
-      "description": "Leading in AI research and development.",
-      "technical_spec": "Investment in research laboratories and partnerships.",
-      "severity_score": 5
-    },
-    {
-      "title": "Ethical AI Advocacy",
-      "description": "Promoting responsible AI usage and development.",
-      "technical_spec": "Ethics boards, transparent data usage policies.",
-      "severity_score": 12
-    },
-    {
-      "title": "User-Centric Solutions",
-      "description": "Focusing on creating solutions that enhance user experience.",
-      "technical_spec": "User feedback loops, design thinking methodologies.",
-      "severity_score": 8
-    },
-    {
-      "title": "Community Engagement",
-      "description": "Active involvement in developer and open-source communities.",
-      "technical_spec": "Organizing hackathons, contributing to open-source projects.",
+      "title": "Innovative Leadership",
+      "description": "OpenAI is positioned as a leader in cutting-edge AI research and development.",
+      "technical_spec": "Continuously pioneering in AI model architecture and applications.",
       "severity_score": 10
     },
     {
-      "title": "Global Outreach",
-      "description": "Expanding presence and influence globally through strategic partnerships.",
-      "technical_spec": "Localization efforts, partnerships with international firms.",
-      "severity_score": 7
+      "title": "Ethical AI",
+      "description": "Commitment to developing AI technologies responsibly and ethically.",
+      "technical_spec": "Publishes AI alignment and safety research regularly.",
+      "severity_score": 18
+    },
+    {
+      "title": "User-Centric Solutions",
+      "description": "Designs AI solutions that prioritize user needs and usability.",
+      "technical_spec": "Gathering user feedback to tailor AI interactions.",
+      "severity_score": 14
+    },
+    {
+      "title": "Collaborative Ecosystem",
+      "description": "Fosters partnerships and collaborations with leading tech entities.",
+      "technical_spec": "Participates in joint ventures and research with global tech firms.",
+      "severity_score": 12
+    },
+    {
+      "title": "Transparent Communication",
+      "description": "Maintains open lines of communication with users and stakeholders about AI capabilities and limitations.",
+      "technical_spec": "Regular updates and reports on AI developments and impacts.",
+      "severity_score": 16
     }
   ]
 }
