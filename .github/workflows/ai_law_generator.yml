@@ -1,44 +1,41 @@
-name: Autonomous Legislator
+name: Codex Law Engine Audit
+
 on:
-  issues:
-    types: [opened]
+  workflow_dispatch: # מאפשר לך להריץ ידנית בלחיצת כפתור
+    inputs:
+      sites:
+        description: 'Sites to audit (comma separated)'
+        required: true
+        default: 'google.com, stripe.com'
 
 jobs:
-  legislate:
-    if: github.event.issue.title == 'MASS_SCAN_REQUEST'
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      issues: write
+
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4 # עדכון לגרסה 4
+    - name: Checkout Repository
+      uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5 # התיקון כאן: הוספנו actions/
-        with:
-          python-version: '3.9'
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
 
-      - name: Install Dependencies
-        run: pip install openai
+    - name: Install Dependencies
+      run: |
+        pip install openai
 
-      - name: Run Legislative Engine
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          # שאיבת האתרים מתוך תוכן ה-Issue והפיכתם לרשימה מופרדת בפסיקים
-          SITES=$(echo "${{ github.event.issue.body }}" | tr '\n' ',')
-          python generator_engine.py "$SITES"
+    - name: Run Generator Engine
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      run: |
+        python generator_engine.py "${{ github.event.inputs.sites }}"
 
-      - name: Commit and Push changes
-        run: |
-         git config --global user.name "Codex-Bot"
-         git config --global user.email "bot@codex.analysis"
-         git add Market_Analysis/
-         git commit -m "Auto-update: Categorized Laws" || echo "No changes to commit"
-         git push
-
-         - name: Close Issue
-         run: gh issue close ${{ github.event.issue.number }} --comment "Laws have been successfully added to the Codex."
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit and Push Categorized Laws
+      run: |
+        git config --global user.name "Codex-Bot"
+        git config --global user.email "bot@codex.analysis"
+        git add Market_Analysis/
+        # אם אין שינויים, הפקודה לא תיכשל
+        git commit -m "Auto-update: Laws categorization" || echo "No changes to commit"
+        git push
