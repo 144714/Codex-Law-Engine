@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 19:33"
+    "date": "2026-04-12 20:25"
   },
   "data": [
     {
-      "title": "Innovative Leadership",
-      "description": "Pioneers in advancing artificial intelligence technology.",
-      "technical_spec": "Focus on cutting-edge research and development initiatives.",
-      "severity_score": 95
+      "title": "Innovation-Driven",
+      "description": "Commitment to cutting-edge AI research and development.",
+      "technical_spec": "Focuses on advancing AI capabilities with rigorous scientific methods.",
+      "severity_score": 10
     },
     {
-      "title": "Ethical AI Development",
-      "description": "Commitment to the responsible creation of AI systems.",
-      "technical_spec": "Adherence to guidelines for fair and unbiased AI models.",
-      "severity_score": 90
+      "title": "Ethical AI Practices",
+      "description": "Adheres to principles promoting fair, accountable AI usage.",
+      "technical_spec": "Develops ethical guidelines and frameworks for AI deployment.",
+      "severity_score": 15
     },
     {
-      "title": "Accessibility and Inclusion",
-      "description": "Strives to make AI accessible to a wide range of users.",
-      "technical_spec": "Provides comprehensive documentation and easy-to-use interfaces.",
-      "severity_score": 85
+      "title": "User-Centric Focus",
+      "description": "Prioritizes user needs and feedback in the design and deployment of AI solutions.",
+      "technical_spec": "Implements user feedback loops and beta testing phases.",
+      "severity_score": 18
     },
     {
-      "title": "Community Engagement",
-      "description": "Fosters an open dialogue with users and contributors.",
-      "technical_spec": "Engages through forums, workshops, and collaborative projects.",
-      "severity_score": 88
+      "title": "Global Collaboration",
+      "description": "Engages with diverse stakeholders across the globe.",
+      "technical_spec": "Partners with international research institutions and industry leaders.",
+      "severity_score": 12
     },
     {
-      "title": "Sustainability Initiatives",
-      "description": "Focused on minimizing the environmental impact of AI technologies.",
-      "technical_spec": "Investments in energy-efficient computing and carbon offset programs.",
-      "severity_score": 80
+      "title": "Transparent Communication",
+      "description": "Maintains openness about AI developments and progress.",
+      "technical_spec": "Regularly publishes research findings and development updates.",
+      "severity_score": 20
     }
   ]
 }

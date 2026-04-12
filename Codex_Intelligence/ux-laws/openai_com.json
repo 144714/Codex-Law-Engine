@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 19:33"
+    "date": "2026-04-12 20:25"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Simplifies decision-making by minimizing choices.",
-      "technical_spec": "Streamlined navigation with a focus on key actions.",
-      "severity_score": 78
+      "description": "Simplifies the user interface to improve decision-making speed.",
+      "technical_spec": "Limits choices per page to streamline the user journey.",
+      "severity_score": 5
     },
     {
-      "title": "Fitts's Law",
-      "description": "Design elements prioritize easy access to commonly used actions.",
-      "technical_spec": "Optimized layout for fast interaction with primary features.",
-      "severity_score": 75
+      "title": "Fitt’s Law",
+      "description": "Designs targets strategically to enhance user interaction efficiency.",
+      "technical_spec": "Increases clickable area for primary actions, reducing user error.",
+      "severity_score": 10
     },
     {
       "title": "Miller’s Law",
-      "description": "Information is presented in manageable chunks for better retention.",
-      "technical_spec": "Content structured into digestible sections and themes.",
-      "severity_score": 80
+      "description": "Design principle that emphasizes chunking information for better retention.",
+      "technical_spec": "Groups similar features together to improve information processing.",
+      "severity_score": 15
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Aesthetically pleasing designs considered more usable.",
-      "technical_spec": "Modern, clean design with cohesive color palette and typography.",
-      "severity_score": 85
+      "description": "Associates aesthetically pleasing designs with improved usability perceptions.",
+      "technical_spec": "Employs minimalist design elements with coherent color schemes.",
+      "severity_score": 8
     },
     {
       "title": "Law of Proximity",
-      "description": "Groups related items together to intuitively organize information.",
-      "technical_spec": "Strategically placed elements to enhance user understanding.",
-      "severity_score": 82
+      "description": "Ensures related elements are grouped together for intuitive understanding.",
+      "technical_spec": "Utilizes grid-based layouts to maintain logical grouping.",
+      "severity_score": 6
     }
   ]
 }
