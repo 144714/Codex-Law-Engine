@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 20:25"
+    "date": "2026-04-12 21:25"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Ensures communications and stored data are encrypted from end to end.",
-      "technical_spec": "Uses TLS 1.3 for secure communication and AES-256 for data at rest.",
-      "severity_score": 15
+      "title": "Secure Data Transmission",
+      "description": "Enforces secure connections through SSL/TLS.",
+      "technical_spec": "HTTPS with updated ciphers.",
+      "severity_score": 95
     },
     {
-      "title": "Continuous Monitoring",
-      "description": "24/7 active monitoring of infrastructure for potential security threats.",
-      "technical_spec": "Employs IDS/IPS systems and SIEM tools for real-time threat detection.",
-      "severity_score": 20
+      "title": "Robust Authentication",
+      "description": "Ensures user identity with strong authentication protocols.",
+      "technical_spec": "OAuth 2.0 and two-factor authentication.",
+      "severity_score": 90
     },
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Requires multiple forms of verification for user access to strengthen authentication.",
-      "technical_spec": "Integrates with systems like Duo or Authy for second-factor authentication.",
-      "severity_score": 10
+      "title": "Protection Against DDoS",
+      "description": "Safeguard measures against distributed denial-of-service attacks.",
+      "technical_spec": "Leverages rate limiting and Web Application Firewall (WAF).",
+      "severity_score": 85
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts frequent audits and penetration tests to identify vulnerabilities.",
-      "technical_spec": "Engages third-party cybersecurity firms for unbiased security assessments.",
-      "severity_score": 30
+      "description": "Frequent audits to identify and fix vulnerabilities.",
+      "technical_spec": "Third-party penetration testing and internal code reviews.",
+      "severity_score": 88
     },
     {
-      "title": "Data Anonymization Techniques",
-      "description": "Applies techniques to anonymize sensitive information in datasets.",
-      "technical_spec": "Uses k-anonymity and differential privacy models to mask data.",
-      "severity_score": 25
+      "title": "Data Privacy Measures",
+      "description": "Compliance with data protection regulations.",
+      "technical_spec": "Implementation of GDPR guidelines and privacy policies.",
+      "severity_score": 92
     }
   ]
 }

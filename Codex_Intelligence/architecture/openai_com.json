@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 20:25"
+    "date": "2026-04-12 21:25"
   },
   "data": [
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Leverages scalable cloud infrastructure to handle vast amounts of data and computations.",
-      "technical_spec": "Utilizes platforms like AWS or Azure for elasticity, ensuring rapid deployment and scaling.",
-      "severity_score": 5
+      "title": "Scalable Infrastructure",
+      "description": "OpenAI's site is built to scale for high traffic volumes.",
+      "technical_spec": "Microservices architecture hosted on cloud platforms.",
+      "severity_score": 90
     },
     {
-      "title": "Microservices Architecture",
-      "description": "Decentralized architecture enabling independent scaling and deployment of services.",
-      "technical_spec": "Contains loosely coupled services managed via containers and orchestrated through Kubernetes.",
-      "severity_score": 10
+      "title": "Responsive Design",
+      "description": "Ensures usability across all devices and screen sizes.",
+      "technical_spec": "Implemented with CSS Flexbox and Media Queries.",
+      "severity_score": 80
     },
     {
-      "title": "Serverless Computation",
-      "description": "Employs serverless technology for executing code without infrastructure management.",
-      "technical_spec": "Uses AWS Lambda or similar services for on-demand, event-driven computing.",
-      "severity_score": 15
+      "title": "Optimized Asset Delivery",
+      "description": "Efficient delivery of images, scripts, and styles.",
+      "technical_spec": "Uses CDN and lazy loading techniques.",
+      "severity_score": 85
     },
     {
-      "title": "APIs and Integrations",
-      "description": "Extensive API interfaces for external service integration and data interchange.",
-      "technical_spec": "RESTful APIs with JSON for lightweight interoperability and streaming data capabilities.",
-      "severity_score": 20
+      "title": "Progressive Enhancement",
+      "description": "Core functionality across diverse browser environments.",
+      "technical_spec": "Starts with basic HTML and enhances with JavaScript.",
+      "severity_score": 75
     },
     {
-      "title": "Data Security Layer",
-      "description": "Implements multiple layers of data protection for privacy preservation and compliance.",
-      "technical_spec": "Encryption and tokenization protocols integrated throughout data pipelines.",
-      "severity_score": 25
+      "title": "Single Page Application Elements",
+      "description": "Seamless transitions with minimal refresh.",
+      "technical_spec": "Utilizes frameworks like React or Vue.js.",
+      "severity_score": 88
     }
   ]
 }

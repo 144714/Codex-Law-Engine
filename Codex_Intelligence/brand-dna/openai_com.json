@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 20:25"
+    "date": "2026-04-12 21:25"
   },
   "data": [
     {
-      "title": "Innovation-Driven",
-      "description": "Commitment to cutting-edge AI research and development.",
-      "technical_spec": "Focuses on advancing AI capabilities with rigorous scientific methods.",
-      "severity_score": 10
+      "title": "Innovative Thought Leadership",
+      "description": "Positions as a pioneer in AI research and deployment.",
+      "technical_spec": "Continual research publications and product innovation.",
+      "severity_score": 95
     },
     {
-      "title": "Ethical AI Practices",
-      "description": "Adheres to principles promoting fair, accountable AI usage.",
-      "technical_spec": "Develops ethical guidelines and frameworks for AI deployment.",
-      "severity_score": 15
+      "title": "Ethical AI Development",
+      "description": "Commitment to responsible AI creation and usage.",
+      "technical_spec": "Transparency reports and ethical guidelines.",
+      "severity_score": 93
     },
     {
-      "title": "User-Centric Focus",
-      "description": "Prioritizes user needs and feedback in the design and deployment of AI solutions.",
-      "technical_spec": "Implements user feedback loops and beta testing phases.",
-      "severity_score": 18
+      "title": "User-Centric Communication",
+      "description": "Focus on clear, accessible information dissemination.",
+      "technical_spec": "Simplified language in product descriptions and FAQs.",
+      "severity_score": 90
     },
     {
-      "title": "Global Collaboration",
-      "description": "Engages with diverse stakeholders across the globe.",
-      "technical_spec": "Partners with international research institutions and industry leaders.",
-      "severity_score": 12
+      "title": "Collaborative Partnerships",
+      "description": "Engages with various industries to expand AI applications.",
+      "technical_spec": "Joint projects with educational and commercial entities.",
+      "severity_score": 88
     },
     {
-      "title": "Transparent Communication",
-      "description": "Maintains openness about AI developments and progress.",
-      "technical_spec": "Regularly publishes research findings and development updates.",
-      "severity_score": 20
+      "title": "Commitment to Open Research",
+      "description": "Contributes to the AI field with open studies and collaboration.",
+      "technical_spec": "Shared datasets and open source tools.",
+      "severity_score": 92
     }
   ]
 }
