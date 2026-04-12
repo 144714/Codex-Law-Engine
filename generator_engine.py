@@ -1,139 +1,76 @@
-import os, sys, json, openai, hashlib, urllib.request, time
+import os, json, openai, urllib.request, datetime, hashlib, time
 
-# הגדרות נתיבים (מוחלטות לעבודה בשרת)
-BASE_PATH = os.path.join(os.getcwd(), 'Market_Analysis')
-INDEX_FILE = os.path.join(BASE_PATH, 'master_index.json')
-STATE_FILE = os.path.join(os.getcwd(), 'last_scanned_rank.txt')
+# Billion-Dollar Configuration
+BASE_PATH = 'Codex_Intelligence'
+INDEX_FILE = os.path.join(BASE_PATH, 'global_registry.json')
+STATE_FILE = 'engine_state.log'
+TIMESTAMP = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
 
-def setup_env():
-    """הכנת הסביבה הפיזית לשמירת הדאטה"""
-    if not os.path.exists(BASE_PATH):
-        os.makedirs(BASE_PATH)
-        print(f"📁 Created base directory: {BASE_PATH}")
-
-def get_next_targets(count=10):
-    """משיכת דומיינים מרשימת ה-Top 1M העולמית עם טיפול בחסימות"""
-    start_rank = 0
+def get_prime_targets(count=30):
+    """משיכת מטרות איכות מרשימת המיליון עם Fail-Safe"""
+    rank = 0
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE, 'r') as f:
-            try: start_rank = int(f.read().strip())
-            except: start_rank = 0
-
-    targets = []
-    # רשימת חירום אם השרת החיצוני קורס
-    fallback = ["google.com", "youtube.com", "facebook.com", "amazon.com", "apple.com", "netflix.com"]
+            try: rank = int(f.read().strip())
+            except: rank = 0
     
-    url = "https://tranco-list.eu/download/daily/top-1m.csv"
-    print(f"📡 Accessing global registry. Starting from Rank: {start_rank + 1}")
-
+    targets = []
     try:
-        # התחזות לדפדפן כדי למנוע שגיאת 403/404 מהשרת
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        req = urllib.request.Request(url, headers=headers)
-        
-        with urllib.request.urlopen(req, timeout=15) as response:
-            line_count = 0
-            for line in response:
-                line_count += 1
-                if line_count <= start_rank: continue
-                
-                # עיבוד השורה (פורמט CSV: Rank,Domain)
-                decoded_line = line.decode('utf-8').strip()
-                if ',' in decoded_line:
-                    domain = decoded_line.split(',')[1]
-                    targets.append(domain)
-                
+        url = "https://tranco-list.eu/download/daily/top-1m.csv"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as resp:
+            for i, line in enumerate(resp):
+                if i < rank: continue
+                domain = line.decode('utf-8').strip().split(',')[1]
+                targets.append({"domain": domain, "rank": i + 1})
                 if len(targets) >= count: break
-                
-        # עדכון המונה רק אם הצלחנו למשוך אתרים
-        with open(STATE_FILE, 'w') as f:
-            f.write(str(start_rank + len(targets)))
-            
-    except Exception as e:
-        print(f"⚠️ External API Error: {e}. Switching to fallback mode.")
-        targets = fallback[:count]
-
+        with open(STATE_FILE, 'w') as f: f.write(str(rank + count))
+    except: targets = [{"domain": "openai.com", "rank": 999}]
     return targets
 
-def save_to_vault(site, audit_result):
-    """שמירה מקוטלגת של הממצאים למבנה ה-Database"""
-    for category, laws in audit_result.items():
-        if not isinstance(laws, list) or not laws: continue
-        
-        # ניקוי שם הקטגוריה ליצירת תיקייה תקנית
-        clean_cat = category.replace(" ", "_").replace("/", "-").strip()
-        cat_dir = os.path.join(BASE_PATH, clean_cat)
-        os.makedirs(cat_dir, exist_ok=True)
-        
-        # שמירת קובץ JSON ייחודי לאתר בתוך הקטגוריה
-        file_name = f"{site.replace('.', '_')}.json"
-        file_path = os.path.join(cat_dir, file_name)
-        
-        entry = {
-            "site": site,
-            "category": clean_cat,
-            "scanned_at": "2026-04-12", # תאריך סטטי לצורך הפרויקט
-            "laws": laws
-        }
-        
-        with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(entry, f, indent=2, ensure_ascii=False)
-        
-        update_master_index(site, clean_cat)
-
-def update_master_index(site, category):
-    """מעדכן את האינדקס המרכזי שמשמש את האתר להצגת התפריטים"""
-    index_data = {}
+def build_vault(site, audit):
+    """שמירת נתונים במבנה אטומי למניעת התנגשויות (High Scale)"""
+    master_index = {}
     if os.path.exists(INDEX_FILE):
-        try:
-            with open(INDEX_FILE, 'r', encoding='utf-8') as f:
-                index_data = json.load(f)
-        except: index_data = {}
-    
-    if category not in index_data:
-        index_data[category] = []
-    
-    if site not in index_data[category]:
-        index_data[category].append(site)
-    
-    with open(INDEX_FILE, 'w', encoding='utf-8') as f:
-        json.dump(index_data, f, indent=2, ensure_ascii=False)
+        with open(INDEX_FILE, 'r', encoding='utf-8') as f: master_index = json.load(f)
 
-def run_engine():
-    """המנוע הראשי שמפעיל את שרשרת הייצור"""
-    setup_env()
-    targets = get_next_targets(10) # 10 אתרים בכל הרצה
-    
-    if not targets:
-        print("❌ No targets found. Pipeline aborted.")
-        return
-
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        print("❌ Missing OpenAI API Key!")
-        return
+    for category, laws in audit.items():
+        if not isinstance(laws, list): continue
+        cat_id = category.lower().replace(" ", "_")
+        folder = os.path.join(BASE_PATH, cat_id)
+        os.makedirs(folder, exist_ok=True)
         
-    client = openai.OpenAI(api_key=api_key)
+        file_id = f"{site['domain'].replace('.', '_')}.json"
+        with open(os.path.join(folder, file_id), 'w', encoding='utf-8') as f:
+            json.dump({
+                "meta": {"rank": site['rank'], "site": site['domain'], "date": TIMESTAMP},
+                "data": laws
+            }, f, indent=2, ensure_ascii=False)
+        
+        if cat_id not in master_index: master_index[cat_id] = []
+        if site['domain'] not in master_index[cat_id]: master_index[cat_id].insert(0, site['domain'])
 
-    for site in targets:
-        print(f"🧬 Analyzing DNA: {site}...")
+    with open(INDEX_FILE, 'w', encoding='utf-8') as f:
+        json.dump(master_index, f, indent=2, ensure_ascii=False)
+
+def execute_vision():
+    targets = get_prime_targets(30)
+    client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    
+    for target in targets:
+        print(f"💎 Analyzing High-Value Target: {target['domain']}")
         try:
-            response = client.chat.completions.create(
+            # AI Engineering: Extraction of pure technical DNA
+            res = client.chat.completions.create(
                 model="gpt-4o",
                 messages=[
-                    {"role": "system", "content": "You are a Senior Web Auditor. Return ONLY a JSON object with 4 keys: UI-Design, Security, UX-Flow, Accessibility. Each key must be a list of 5 objects with: title, description, design_token, remediation."},
-                    {"role": "user", "content": f"Audit the site: {site}"}
+                    {"role": "system", "content": "You are the Codex Oracle. Audit the site and return ONLY a JSON. Keys: Architecture, Cyber-Defense, UX-Laws, Brand-DNA. Each must be a list of 5 objects: {title, description, technical_spec, severity_score(1-100)}."},
+                    {"role": "user", "content": f"Deconstruct DNA: {target['domain']}"}
                 ],
                 response_format={"type": "json_object"}
             )
-            
-            result = json.loads(response.choices[0].message.content)
-            save_to_vault(site, result)
-            print(f"✅ Data for {site} ingested and indexed.")
-            
-        except Exception as e:
-            print(f"⚠️ Failed to audit {site}: {e}")
-            continue
+            build_vault(target, json.loads(res.choices[0].message.content))
+        except Exception as e: print(f"⚠️ Bypass {target['domain']}: {e}")
 
 if __name__ == "__main__":
-    run_engine()
+    execute_vision()
