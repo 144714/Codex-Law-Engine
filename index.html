@@ -8,13 +8,18 @@
     <style>
         body { background-color: #0f172a; color: #f8fafc; font-family: 'Segoe UI', system-ui, sans-serif; padding-top: 50px; }
         .legislator-card { background: #1e293b; border: 1px solid #334155; border-radius: 15px; }
-        .law-card { background: #ffffff; color: #1e293b; border-radius: 12px; border-right: 5px solid #3b82f6; transition: 0.3s; }
-        .law-card:hover { transform: scale(1.01); }
+        .law-card { background: #ffffff; color: #1e293b; border-radius: 12px; border-right: 5px solid #3b82f6; transition: 0.3s; height: 100%; }
+        .law-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
         .badge-id { background: #334155; color: #3b82f6; font-weight: bold; }
         .site-header { border-bottom: 2px solid #3b82f6; padding-bottom: 10px; margin-top: 40px; color: #60a5fa; }
         textarea { background: #0f172a !important; color: #10b981 !important; border: 1px solid #334155 !important; font-family: monospace; }
-        .severity-High { border-right-color: #ef4444 !important; }
-        .severity-Medium { border-right-color: #f59e0b !important; }
+        
+        /* צבעים לפי סטטוס */
+        .status-Issue { border-right-color: #ef4444 !important; } /* אדום לתקלה */
+        .status-Compliant { border-right-color: #10b981 !important; } /* ירוק לחוק תקין */
+        
+        .nav-pills .nav-link { color: #f8fafc; border: 1px solid #334155; margin: 5px; }
+        .nav-pills .nav-link.active { background-color: #3b82f6; border-color: #3b82f6; }
     </style>
 </head>
 <body>
@@ -22,96 +27,94 @@
 <div class="container">
     <div class="text-center mb-5">
         <h1 class="display-4 fw-bold">⚖️ Codex Law Engine</h1>
-        <p class="lead text-secondary">מערכת חקיקה אוטונומית - הופכת פרצות אבטחה לחוקי קוד</p>
+        <p class="lead text-secondary">מערכת חקיקה אוטונומית - ניתוח קטגוריאלי בזמן אמת</p>
+    </div>
+
+    <div class="d-flex justify-content-center flex-wrap mb-4 nav nav-pills" id="categoryFilters">
+        <button class="nav-link active" onclick="loadData('scanned_laws.json', this)">הכל (All)</button>
+        <button class="nav-link" onclick="loadData('Security/security_laws.json', this)">אבטחה</button>
+        <button class="nav-link" onclick="loadData('UI-Design/ui-design_laws.json', this)">עיצוב (UI)</button>
+        <button class="nav-link" onclick="loadData('Accessibility/accessibility_laws.json', this)">נגישות</button>
+        <button class="nav-link" onclick="loadData('Performance/performance_laws.json', this)">ביצועים</button>
+        <button class="nav-link" onclick="loadData('UX-Flow/ux-flow_laws.json', this)">חווית משתמש (UX)</button>
     </div>
 
     <div class="legislator-card p-4 mb-5 shadow-lg">
         <h4 class="mb-3 text-info">🔨 מרכז חקיקה המוני</h4>
-        <textarea id="siteList" class="form-control mb-3" rows="4" placeholder="הכנס כתובות אתרים, אחת בכל שורה..."></textarea>
-        <button onclick="startMassLegislation()" class="btn btn-info w-100 fw-bold">הפעל סריקה המונית ושאיבת חוקים</button>
-        <div id="statusMsg" class="mt-2 small text-success text-center"></div>
+        <textarea id="siteList" class="form-control mb-3" rows="3" placeholder="הכנס כתובות אתרים, אחת בכל שורה..."></textarea>
+        <button onclick="startMassLegislation()" class="btn btn-info w-100 fw-bold">הפעל סריקת AI ושאיבת חוקים</button>
     </div>
 
     <div id="dashboard" class="row">
         <div class="text-center">
             <div class="spinner-border text-info" role="status"></div>
-            <p class="mt-2">טוען את ספר החוקים...</p>
+            <p class="mt-2">טוען את המידע...</p>
         </div>
     </div>
 </div>
 
 <script>
-    // פונקציה לטעינת הנתונים
-    async function loadData() {
-    try {
-        const response = await fetch('Market_Analysis/scanned_laws.json?t=' + Date.now());
-        if (!response.ok) return;
-        
-        const data = await response.json();
-        const dashboard = document.getElementById('dashboard');
-        dashboard.innerHTML = ''; 
-
-        for (const [site, info] of Object.entries(data)) {
-            if (!site || site === "" || !info) continue;
-
-            // יצירת כותרת אתר
-            const siteSection = document.createElement('div');
-            siteSection.className = 'col-12';
-            siteSection.innerHTML = `<h3 class="site-header mt-5">🌐 מקור החוק: ${site}</h3>`;
-            dashboard.appendChild(siteSection);
-
-            // חילוץ נתונים מכל פורמט אפשרי
-            let lawsArray = [];
-
-            if (Array.isArray(info)) { 
-                lawsArray = info; 
-            } else if (info.security_flaws) {
-                lawsArray = info.security_flaws;
-            } else if (info.vulnerabilities) {
-                lawsArray = info.vulnerabilities;
-            } else if (info.potential_technical_flaws) {
-                lawsArray = info.potential_technical_flaws;
-            } else if (info.laws) {
-                // טיפול במקרה של אובייקט חוקים (כמו ב-ynet) או מערך (כמו ב-n12)
-                lawsArray = Array.isArray(info.laws) ? info.laws : Object.entries(info.laws).map(([id, text]) => ({ law_id: id, description: text }));
-            } else {
-                // טיפול במקרה שהחוקים הם ישירות בתוך האובייקט (כמו ב-themarker)
-                lawsArray = Object.entries(info).filter(([k]) => k.startsWith('CL-')).map(([id, text]) => ({ law_id: id, description: text }));
-            }
-
-            lawsArray.forEach((f, index) => {
-                // נירמול הנתונים - מוודא שיש כותרת ותיאור לכל כרטיס
-                const id = f.law_id || f.id || `CL-${index + 100}`;
-                const title = f.flaw || f.title || (typeof f === 'string' ? f : "סעיף חקיקה");
-                
-                // חילוץ תיאור מכל מיני שדות אפשריים
-                let desc = "חובה ליישם תיקון זה לפי תקן Codex.";
-                if (typeof f === 'object') {
-                    desc = f.description || (f.fix ? f.fix.description || f.fix.problem : null) || Object.values(f)[0];
-                }
-                
-                const severity = f.severity || "Medium";
-
-                const lawCard = document.createElement('div');
-                lawCard.className = 'col-md-6 col-lg-4 mb-4';
-                lawCard.innerHTML = `
-                    <div class="card law-card h-100 shadow severity-${severity}">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center mb-2">
-                                <span class="badge badge-id">${id}</span>
-                                <span class="badge bg-secondary opacity-75 small">${severity}</span>
-                            </div>
-                            <h6 class="fw-bold mb-2">${title}</h6>
-                            <p class="small text-muted mb-0">${desc}</p>
-                        </div>
-                    </div>`;
-                dashboard.appendChild(lawCard);
-            });
+    async function loadData(fileName, btnElement = null) {
+        // עדכון כפתור פעיל
+        if (btnElement) {
+            document.querySelectorAll('#categoryFilters .nav-link').forEach(btn => btn.classList.remove('active'));
+            btnElement.classList.add('active');
         }
-    } catch (e) { console.error("Error parsing laws:", e); }
-}
 
-    // הפונקציה להפעלת הסריקה דרך GitHub Issues
+        try {
+            const response = await fetch(`Market_Analysis/${fileName}?t=${Date.now()}`);
+            if (!response.ok) {
+                document.getElementById('dashboard').innerHTML = '<div class="text-center text-muted">אין נתונים זמינים בקטגוריה זו כרגע.</div>';
+                return;
+            }
+            
+            const data = await response.json();
+            const dashboard = document.getElementById('dashboard');
+            dashboard.innerHTML = ''; 
+
+            for (const [site, info] of Object.entries(data)) {
+                if (!site || !info) continue;
+
+                // יצירת כותרת אתר
+                const siteSection = document.createElement('div');
+                siteSection.className = 'col-12';
+                siteSection.innerHTML = `<h3 class="site-header mt-5">🌐 מקור החוק: ${site}</h3>`;
+                dashboard.appendChild(siteSection);
+
+                // נירמול הנתונים למערך אחד
+                const laws = Object.entries(info);
+
+                laws.forEach(([id, details]) => {
+                    const status = details.status || "Issue";
+                    const statusIcon = status === "Compliant" ? "✅" : "⚠️";
+                    const statusText = status === "Compliant" ? "תקין" : "תקלה";
+                    
+                    const lawCard = document.createElement('div');
+                    lawCard.className = 'col-md-6 col-lg-4 mb-4';
+                    lawCard.innerHTML = `
+                        <div class="card law-card shadow status-${status}">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span class="badge badge-id">${id}</span>
+                                    <span class="badge ${status === 'Compliant' ? 'bg-success' : 'bg-danger'} small">
+                                        ${statusIcon} ${statusText}
+                                    </span>
+                                </div>
+                                <h6 class="fw-bold mb-2">${details.title || "חוק ללא כותרת"}</h6>
+                                <p class="small text-muted mb-2">${details.description || ""}</p>
+                                <hr class="opacity-25">
+                                <p class="small text-info mb-0"><strong>תיקון:</strong> ${details.remediation || "לא נדרש"}</p>
+                            </div>
+                        </div>`;
+                    dashboard.appendChild(lawCard);
+                });
+            }
+        } catch (e) { 
+            console.error("Error parsing laws:", e);
+            document.getElementById('dashboard').innerHTML = '<div class="text-center text-danger">שגיאה בטעינת הנתונים.</div>';
+        }
+    }
+
     function startMassLegislation() {
         const siteText = document.getElementById('siteList').value.trim();
         if (!siteText) {
@@ -121,20 +124,12 @@
 
         const GITHUB_USERNAME = "144714"; 
         const REPO_NAME = "Codex-Law-Engine";
-        
-        const title = encodeURIComponent("MASS_SCAN_REQUEST");
-        const body = encodeURIComponent(siteText);
-        
-        const url = `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/issues/new?title=${title}&body=${body}`;
-        
-        alert("כעת תיפתח חלונית בגיטהב. לחץ על 'Submit new issue' והמכונה תתחיל לעבוד!");
+        const url = `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/issues/new?title=MASS_SCAN_REQUEST&body=${encodeURIComponent(siteText)}`;
         window.open(url, '_blank');
     }
 
-    // הפעלה ראשונית
-    loadData();
-    // רענון אוטומטי
-    setInterval(loadData, 30000);
+    // טעינה ראשונית - הכל
+    loadData('scanned_laws.json');
 </script>
 
 </body>
