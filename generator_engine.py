@@ -1,67 +1,101 @@
 import os, sys, json, openai, re
 
-def run():
+# הגדרות נתיבים
+BASE_DIR = 'Market_Analysis'
+MAIN_FILE = os.path.join(BASE_DIR, 'scanned_laws.json')
+
+def ensure_directories():
+    """יוצר את תיקיית הבסיס אם היא לא קיימת"""
+    if not os.path.exists(BASE_DIR):
+        os.makedirs(BASE_DIR)
+        print(f"📁 Created base directory: {BASE_DIR}")
+
+def save_to_category(site_name, laws_data):
+    """מפצל את החוקים לקבצים נפרדים לפי הקטגוריה שלהם"""
+    for law_id, details in laws_data.items():
+        # חילוץ קטגוריה וניקוי תווים בעייתיים
+        category = details.get('category', 'General').strip().replace("/", "-")
+        category_path = os.path.join(BASE_DIR, category)
+        
+        if not os.path.exists(category_path):
+            os.makedirs(category_path)
+        
+        file_name = f"{category.lower().replace(' ', '_')}_laws.json"
+        full_path = os.path.join(category_path, file_name)
+        
+        # טעינת מידע קיים בקטגוריה כדי לא לדרוס
+        cat_db = {}
+        if os.path.exists(full_path):
+            with open(full_path, 'r', encoding='utf-8') as f:
+                try: cat_db = json.load(f)
+                except: cat_db = {}
+        
+        # עדכון המידע
+        if site_name not in cat_db: cat_db[site_name] = {}
+        cat_db[site_name][law_id] = details
+        
+        with open(full_path, 'w', encoding='utf-8') as f:
+            json.dump(cat_db, f, indent=2, ensure_ascii=False)
+
+def run_audit():
+    # קבלת אתרים מהמשתמש
     input_data = sys.argv[1] if len(sys.argv) > 1 else ""
     target_sites = [s.strip() for s in input_data.split(',') if s.strip()]
     
     if not target_sites:
-        print("No sites to process.")
+        print("❌ No sites provided. Usage: python script.py 'site1.com, site2.com'")
         return
 
-    file_path = 'Market_Analysis/scanned_laws.json'
+    ensure_directories()
     
-    # טעינת בסיס הנתונים הקיים
-    if os.path.exists(file_path):
-        with open(file_path, 'r', encoding='utf-8') as f:
-            db = json.load(f)
-    else:
-        db = {}
-
-    api_key = os.getenv("OPENAI_API_KEY")
-    client = openai.OpenAI(api_key=api_key)
+    # הגדרת הלקוח
+    client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
     for site in target_sites:
-        print(f"⚖️ Analyzing System: {site}")
+        print(f"\n⚖️  The Codex is analyzing: {site}...")
+        
         try:
             response = client.chat.completions.create(
-                model="gpt-3.5-turbo", # או gpt-4 אם אתה רוצה דיוק מקסימלי
+                model="gpt-3.5-turbo",
                 messages=[
                     {
-                        "role": "system", 
+                        "role": "system",
                         "content": (
-                            "You are the Chief Digital Auditor for 'The Codex Analysis'. "
-                            "Your task is to audit websites based on global standards (Security, Accessibility, Performance). "
-                            "For each site, you must provide a list of 'Laws'. "
-                            "CRITICAL: You must include BOTH 'Issues' (flaws) and 'Compliant' (what the site does well). "
-                            "Return ONLY a valid JSON object where keys are law IDs (CL-xxx)."
+                            "You are the 'Chief Digital Legislator'. Audit sites against 'The Codex'. "
+                            "Categories: Security, Accessibility, Performance, UI-Design, UX-Flow. "
+                            "Return ONLY a JSON object. Each law must have: "
+                            "'title', 'status' (Issue/Compliant), 'category', 'description', 'remediation'."
                         )
                     },
                     {
-                        "role": "user", 
-                        "content": (
-                            f"Analyze {site} in extreme detail. For each law identified, provide: "
-                            "1. 'title', 2. 'status' (either 'Issue' or 'Compliant'), "
-                            "3. 'category', 4. 'description', 5. 'impact_score' (1-10), "
-                            "6. 'remediation' (how to fix or maintain). "
-                            "Aim for at least 15-20 laws covering both positives and negatives."
-                        )
+                        "role": "user",
+                        "content": f"Perform a 2060-style audit on {site}. Be extremely detailed. Return 15-20 laws."
                     }
                 ],
-                response_format={ "type": "json_object" } # מבטיח שהפלט יהיה JSON תקין
+                response_format={"type": "json_object"}
             )
             
-            raw = response.choices[0].message.content
-            # פענוח ה-JSON ושמירתו תחת שם האתר
-            db[site] = json.loads(raw)
-            print(f"✅ Codified {site} with both positive and negative laws.")
+            # פענוח התוצאה
+            laws_found = json.loads(response.choices[0].message.content)
+            
+            # שמירה לפי קטגוריות
+            save_to_category(site, laws_found)
+            
+            # שמירה גם לקובץ הראשי המאוחד
+            all_data = {}
+            if os.path.exists(MAIN_FILE):
+                with open(MAIN_FILE, 'r', encoding='utf-8') as f:
+                    try: all_data = json.load(f)
+                    except: all_data = {}
+            
+            all_data[site] = laws_found
+            with open(MAIN_FILE, 'w', encoding='utf-8') as f:
+                json.dump(all_data, f, indent=2, ensure_ascii=False)
+                
+            print(f"✅ Finished {site}. Data categorized in folders.")
             
         except Exception as e:
-            print(f"❌ Error with {site}: {e}")
-
-    # שמירה חזרה לקובץ
-    with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(db, f, indent=2, ensure_ascii=False)
-    print(f"\n🚀 Analysis complete. Database updated at: {file_path}")
+            print(f"⚠️ Error analyzing {site}: {e}")
 
 if __name__ == "__main__":
-    run()
+    run_audit()
