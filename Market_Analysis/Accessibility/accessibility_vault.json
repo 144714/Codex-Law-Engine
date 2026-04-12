@@ -1,0 +1,12 @@
+{
+  "yad2.co.il": {
+    "DNA-D41D8C": {
+      "title": "Unknown",
+      "description": "",
+      "design_token": "text-color-dark: #333333;",
+      "remediation": "",
+      "category": "Accessibility",
+      "status": "Analyzed"
+    }
+  }
+}
