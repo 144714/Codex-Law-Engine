@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "rank": 999,
+    "site": "openai.com",
+    "date": "2026-04-12 12:53"
+  },
+  "data": [
+    {
+      "title": "Scalable Cloud Infrastructure",
+      "description": "Utilizes AWS for scalable and flexible cloud solutions to handle increasing data and user requests.",
+      "technical_spec": "AWS EC2, S3, Lambda, VPC, RDS",
+      "severity_score": 70
+    },
+    {
+      "title": "Microservices Framework",
+      "description": "Employs a microservices architecture to allow for independent deployment and scalability of different services.",
+      "technical_spec": "Docker, Kubernetes, REST API",
+      "severity_score": 85
+    },
+    {
+      "title": "Serverless Computing",
+      "description": "Implements serverless computing to manage backend processes without server management complexities.",
+      "technical_spec": "AWS Lambda, API Gateway, DynamoDB",
+      "severity_score": 78
+    },
+    {
+      "title": "CI/CD Pipeline",
+      "description": "Continuous integration and continuous deployment pipeline automates testing and deployment.",
+      "technical_spec": "Jenkins, GitHub Actions, AWS CodePipeline",
+      "severity_score": 75
+    },
+    {
+      "title": "Data Management and Storage",
+      "description": "Uses distributed databases to manage large-scale data and ensure high availability.",
+      "technical_spec": "Amazon RDS, S3, NoSQL Databases",
+      "severity_score": 80
+    }
+  ]
+}

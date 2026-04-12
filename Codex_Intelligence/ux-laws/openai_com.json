@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "rank": 999,
+    "site": "openai.com",
+    "date": "2026-04-12 12:53"
+  },
+  "data": [
+    {
+      "title": "Hick’s Law",
+      "description": "Implements streamlined decision-making by limiting the number of options presented to users.",
+      "technical_spec": "Minimalist design principles, user journey mapping",
+      "severity_score": 72
+    },
+    {
+      "title": "Fitts’s Law",
+      "description": "Designs user interfaces that allow for easy navigation and accessibility of elements.",
+      "technical_spec": "Responsive design, CTA buttons size optimization",
+      "severity_score": 80
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Applies grouping, alignment, and continuity to create a visually organized interface.",
+      "technical_spec": "Wireframing, prototype design, UI kits",
+      "severity_score": 76
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Limits cognitive load by presenting information in manageable chunks to improve user recall and retention.",
+      "technical_spec": "Information hierarchy, card sorting",
+      "severity_score": 78
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Designs based on user familiarity and common web patterns to reduce the learning curve.",
+      "technical_spec": "User-centric design, pattern libraries",
+      "severity_score": 85
+    }
+  ]
+}

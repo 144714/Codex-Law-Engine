@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "rank": 999,
+    "site": "openai.com",
+    "date": "2026-04-12 12:53"
+  },
+  "data": [
+    {
+      "title": "Data Encryption",
+      "description": "Encrypts data at rest and in transit to protect sensitive information from unauthorized access.",
+      "technical_spec": "AES-256, TLS/SSL",
+      "severity_score": 90
+    },
+    {
+      "title": "Security Incident and Event Management (SIEM)",
+      "description": "Monitors and analyzes security-related events in real-time to identify potential threats.",
+      "technical_spec": "Splunk, AWS CloudTrail, GuardDuty",
+      "severity_score": 85
+    },
+    {
+      "title": "Network Security",
+      "description": "Implements network security measures like firewalls and intrusion detection systems to safeguard data.",
+      "technical_spec": "AWS WAF, VPC Shield, Firewall Manager",
+      "severity_score": 88
+    },
+    {
+      "title": "Identity and Access Management (IAM)",
+      "description": "Manages access rights and user authentication to ensure that only authorized users can access resources.",
+      "technical_spec": "AWS IAM, OAuth 2.0, Multi-Factor Authentication (MFA)",
+      "severity_score": 92
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts periodic security audits and penetration testing to identify and fix vulnerabilities.",
+      "technical_spec": "OWASP, Nessus, Burp Suite",
+      "severity_score": 80
+    }
+  ]
+}
