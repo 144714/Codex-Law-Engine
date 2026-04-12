@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 12:53"
+    "date": "2026-04-12 12:56"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Implements streamlined decision-making by limiting the number of options presented to users.",
-      "technical_spec": "Minimalist design principles, user journey mapping",
-      "severity_score": 72
+      "description": "Simplified navigation to reduce the time and cognitive load for users to make decisions.",
+      "technical_spec": "Utilizes clear menus with limited and categorized choices.",
+      "severity_score": 85
     },
     {
       "title": "Fitts’s Law",
-      "description": "Designs user interfaces that allow for easy navigation and accessibility of elements.",
-      "technical_spec": "Responsive design, CTA buttons size optimization",
+      "description": "Ensures actionable items are easily clickable by maintaining size and positioning according to user interactions.",
+      "technical_spec": "Button sizes optimized for both desktop and mobile, ensuring minimum size for easy interaction.",
       "severity_score": 80
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Applies grouping, alignment, and continuity to create a visually organized interface.",
-      "technical_spec": "Wireframing, prototype design, UI kits",
-      "severity_score": 76
+      "title": "Affordance Principles",
+      "description": "Design elements indicate clear actions that users can take, promoting intuitive use.",
+      "technical_spec": "Interactive elements like buttons and links are visually distinct and consistent.",
+      "severity_score": 90
     },
     {
-      "title": "Miller’s Law",
-      "description": "Limits cognitive load by presenting information in manageable chunks to improve user recall and retention.",
-      "technical_spec": "Information hierarchy, card sorting",
-      "severity_score": 78
+      "title": "Consistency and Standards",
+      "description": "Consistent elements across pages for familiarity and ease of use.",
+      "technical_spec": "Adheres to a design system for consistent styles, components, and patterns.",
+      "severity_score": 88
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Designs based on user familiarity and common web patterns to reduce the learning curve.",
-      "technical_spec": "User-centric design, pattern libraries",
-      "severity_score": 85
+      "title": "Accessibility Design",
+      "description": "Ensures the platform is accessible to users with disabilities.",
+      "technical_spec": "Follows WCAG 2.1 guidelines, implementing features such as text alternatives and keyboard navigability.",
+      "severity_score": 92
     }
   ]
 }
