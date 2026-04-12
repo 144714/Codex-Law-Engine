@@ -3,120 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codex DNA Engine | מאגר חוקי העיצוב</title>
+    <title>Codex DNA Engine | המאגר המלא</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #020617; color: #e2e8f0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-top: 40px; }
-        .hero-section { border-bottom: 1px solid #1e293b; padding-bottom: 30px; margin-bottom: 40px; }
-        .nav-pills .nav-link { color: #94a3b8; border: 1px solid #1e293b; margin: 0 5px; transition: 0.3s; }
-        .nav-pills .nav-link.active { background-color: #3b82f6; color: white; border-color: #3b82f6; }
-        .nav-pills .nav-link:hover:not(.active) { background-color: #1e293b; }
+        body { background-color: #020617; color: #e2e8f0; font-family: 'Segoe UI', sans-serif; padding-top: 40px; }
+        .legislator-card { background: #0f172a; border: 1px solid #3b82f6; border-radius: 15px; padding: 20px; margin-bottom: 30px; }
+        textarea { background: #020617 !important; color: #10b981 !important; border: 1px solid #1e293b !important; font-family: monospace; }
         
-        .site-card { background: #0f172a; border: 1px solid #1e293b; border-radius: 16px; margin-bottom: 50px; padding: 25px; }
-        .site-title { color: #60a5fa; font-weight: 800; border-right: 4px solid #3b82f6; padding-right: 15px; margin-bottom: 25px; }
+        .nav-pills .nav-link { color: #94a3b8; border: 1px solid #1e293b; margin: 5px; }
+        .nav-pills .nav-link.active { background-color: #3b82f6; color: white; }
         
-        .law-card { background: #1e293b; border-radius: 12px; padding: 20px; height: 100%; border-top: 4px solid #334155; transition: 0.3s; }
-        .law-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .site-card { background: #0f172a; border: 1px solid #1e293b; border-radius: 16px; margin-bottom: 40px; padding: 20px; }
+        .site-title { color: #60a5fa; font-weight: 800; border-right: 4px solid #3b82f6; padding-right: 15px; margin-bottom: 20px; }
         
-        .token-badge { background: #020617; color: #10b981; font-family: 'Courier New', Courier, monospace; padding: 8px 12px; border-radius: 6px; display: block; margin-top: 15px; border: 1px border #059669; font-size: 0.9em; }
-        .category-tag { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; }
+        .law-card { background: #1e293b; border-radius: 12px; padding: 15px; height: 100%; border-right: 4px solid #334155; }
+        .token-code { background: #020617; color: #10b981; padding: 5px; border-radius: 4px; font-size: 0.85em; display: block; mt-2; }
         
-        #loading { display: none; text-align: center; padding: 50px; }
-        .empty-state { text-align: center; color: #64748b; padding: 100px; }
+        #loading { display: none; text-align: center; padding: 30px; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <header class="hero-section text-center">
-        <h1 class="display-3 fw-bold mb-2">⚖️ Codex DNA Vault</h1>
-        <p class="lead text-secondary">מערכת שאיבת חוקי עיצוב וביקורת איכות אוטונומית</p>
-        
-        <div class="d-flex justify-content-center flex-wrap mt-4 nav nav-pills">
-            <button class="nav-link active" onclick="loadVault('UI-Design/ui-design_vault.json', this)">🎨 עיצוב (UI)</button>
-            <button class="nav-link" onclick="loadVault('UX-Flow/ux-flow_vault.json', this)">🧠 חווית משתמש (UX)</button>
-            <button class="nav-link" onclick="loadVault('Security/security_vault.json', this)">🛡️ אבטחה</button>
-            <button class="nav-link" onclick="loadVault('Typography/typography_vault.json', this)">🔡 טיפוגרפיה</button>
-            <button class="nav-link" onclick="loadVault('Color-System/color-system_vault.json', this)">🌈 צבעים</button>
-        </div>
-    </header>
-
-    <div id="loading">
-        <div class="spinner-border text-primary" role="status"></div>
-        <p class="mt-3">מושך נתונים מהכספת...</p>
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">⚖️ Codex DNA Engine</h1>
+        <p class="lead text-secondary">ניהול חקיקה דיגיטלית וסריקת DNA של אתרים</p>
     </div>
 
-    <main id="vault-content">
-        </main>
+    <div class="legislator-card shadow-lg">
+        <h4 class="mb-3 text-info">🔨 מרכז חקיקה והרצת סקריפט</h4>
+        <textarea id="siteList" class="form-control mb-3" rows="3" placeholder="הכנס כתובות אתרים (מופרדות בפסיקים או שורות)..."></textarea>
+        <button onclick="startMassLegislation()" class="btn btn-info w-100 fw-bold">הפעל סריקת AI ושאיבת DNA</button>
+    </div>
+
+    <div class="d-flex justify-content-center flex-wrap mb-5 nav nav-pills">
+        <button class="nav-link active" onclick="loadData('scanned_laws.json', this)">📚 המאגר הישן (100 אתרים)</button>
+        <button class="nav-link" onclick="loadData('UI-Design/ui-design_vault.json', this)">🎨 עיצוב (DNA)</button>
+        <button class="nav-link" onclick="loadData('Security/security_vault.json', this)">🛡️ אבטחה</button>
+        <button class="nav-link" onclick="loadData('UX-Flow/ux-flow_vault.json', this)">🧠 חווית משתמש</button>
+    </div>
+
+    <div id="loading">
+        <div class="spinner-border text-info" role="status"></div>
+        <p class="mt-2">טוען נתונים מהשרת...</p>
+    </div>
+
+    <main id="dashboard"></main>
 </div>
 
 <script>
-    async function loadVault(filePath, btn) {
-        // ניהול עיצוב כפתורים
+    async function loadData(filePath, btn) {
         document.querySelectorAll('.nav-link').forEach(b => b.classList.remove('active'));
         if(btn) btn.classList.add('active');
 
-        const contentDiv = document.getElementById('vault-content');
+        const dashboard = document.getElementById('dashboard');
         const loader = document.getElementById('loading');
         
-        contentDiv.innerHTML = '';
+        dashboard.innerHTML = '';
         loader.style.display = 'block';
 
         try {
-            // תוספת של timestamp למניעת Cache של הדפדפן
-            const response = await fetch(`Market_Analysis/${filePath}?t=${new Date().getTime()}`);
-            
-            if (!response.ok) throw new Error('File not found');
+            // טעינה עם מנגנון מניעת Cache
+            const response = await fetch(`Market_Analysis/${filePath}?t=${Date.now()}`);
+            if (!response.ok) throw new Error("File not found");
             
             const data = await response.json();
             loader.style.display = 'none';
 
-            if (Object.keys(data).length === 0) {
-                contentDiv.innerHTML = '<div class="empty-state"><h3>הכספת ריקה</h3><p>עדיין לא נסרקו אתרים בקטגוריה זו.</p></div>';
-                return;
-            }
-
-            for (const [site, tokens] of Object.entries(data)) {
-                const siteSection = document.createElement('section');
-                siteSection.className = 'site-card';
+            for (const [site, info] of Object.entries(data)) {
+                const siteSection = document.createElement('div');
+                siteSection.className = 'site-card shadow';
                 
-                let tokensHtml = '';
-                Object.entries(tokens).forEach(([id, info]) => {
-                    tokensHtml += `
-                        <div class="col-md-6 col-lg-4 mb-4">
+                let cardsHtml = '';
+                // המנגנון יודע לטפל גם במבנה הישן וגם בחדש (Vault)
+                Object.entries(info).forEach(([id, details]) => {
+                    cardsHtml += `
+                        <div class="col-md-6 col-lg-4 mb-3">
                             <div class="law-card">
-                                <div class="category-tag mb-2">${info.category || 'General'} | ${id}</div>
-                                <h5 class="fw-bold text-white mb-3">${info.title}</h5>
-                                <p class="small text-secondary">${info.description}</p>
-                                <hr style="border-color: #334155">
-                                <p class="small text-info"><strong>ביקורת:</strong> ${info.remediation}</p>
-                                <div class="token-badge">
-                                    <code>${info.design_token || 'N/A'}</code>
-                                </div>
+                                <small class="text-muted">${id}</small>
+                                <h6 class="fw-bold text-white mt-1">${details.title || 'חוק ללא כותרת'}</h6>
+                                <p style="font-size: 0.85em;" class="text-secondary">${details.description || ''}</p>
+                                <p style="font-size: 0.85em;" class="text-info"><strong>תיקון:</strong> ${details.remediation || 'תקין'}</p>
+                                ${details.design_token ? `<code class="token-code">${details.design_token}</code>` : ''}
                             </div>
                         </div>
                     `;
                 });
 
-                siteSection.innerHTML = `
-                    <h2 class="site-title">${site}</h2>
-                    <div class="row">${tokensHtml}</div>
-                `;
-                contentDiv.appendChild(siteSection);
+                siteSection.innerHTML = `<h3 class="site-title">🌐 ${site}</h3><div class="row">${cardsHtml}</div>`;
+                dashboard.appendChild(siteSection);
             }
-
-        } catch (error) {
+        } catch (e) {
             loader.style.display = 'none';
-            contentDiv.innerHTML = `
-                <div class="empty-state">
-                    <h3>ממתין לסריקה ראשונה</h3>
-                    <p>הקובץ <code>${filePath}</code> טרם נוצר במערכת.</p>
-                </div>`;
+            dashboard.innerHTML = `<div class="text-center p-5 text-muted">לא נמצאו נתונים בקובץ <b>${filePath}</b>. הרץ סריקה קודם!</div>`;
         }
     }
 
-    // טעינה ראשונית - UI Design
-    window.onload = () => loadVault('UI-Design/ui-design_vault.json');
+    function startMassLegislation() {
+        const siteText = document.getElementById('siteList').value.trim();
+        if (!siteText) { alert("נא להזין כתובות"); return; }
+        
+        // החלף את הפרמטרים כאן לשם המשתמש והריפו שלך!
+        const GITHUB_USERNAME = "144714"; 
+        const REPO_NAME = "Codex-Law-Engine";
+        const url = `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/issues/new?title=MASS_SCAN_REQUEST&body=${encodeURIComponent(siteText)}`;
+        window.open(url, '_blank');
+    }
+
+    // טעינה ראשונית - המאגר הכללי
+    window.onload = () => loadData('scanned_laws.json');
 </script>
 
 </body>
