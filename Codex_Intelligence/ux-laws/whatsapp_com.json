@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 20,
+    "rank": 30,
     "site": "whatsapp.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "027acb6e2ef57daee549cee095a37243"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "cde3b41fe7e4a69b0cf7042de2468cd7"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Optimizes the size and distance of interactive elements to enhance usability.",
-      "technical_spec": "Strategic UI element placement to minimize interaction effort.",
+      "title": "Hick’s Law",
+      "description": "Simplified user interface by limiting choices to streamline decision-making.",
+      "technical_spec": "Navigation and options are reduced to enhance speed of use.",
+      "severity_score": 5
+    },
+    {
+      "title": "Fitts’s Law",
+      "description": "Optimizing the size and position of interactive elements to ensure efficiency.",
+      "technical_spec": "Frequently used actions are larger and strategically placed.",
       "severity_score": 10
     },
     {
-      "title": "Hick's Law",
-      "description": "Simplifies decision-making by reducing the number of choices available to the user.",
-      "technical_spec": "Minimalist design and streamlined menu options.",
-      "severity_score": 15
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Design matches user expectations to enhance familiarity and ease of use.",
-      "technical_spec": "Consistent interface patterns similar to common apps.",
+      "title": "Miller’s Law",
+      "description": "Information is chunked into groups to improve user memory retention.",
+      "technical_spec": "Messages and contacts grouped logically in the UI.",
       "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Breaks information into chunks to enhance user retention and recall.",
-      "technical_spec": "Divided content into bulleted points and sections.",
+      "title": "Jakob’s Law",
+      "description": "Adherence to familiar user interface design to meet user expectations.",
+      "technical_spec": "Layouts and icons follow standard app design practices.",
       "severity_score": 15
     },
     {
-      "title": "Tesler’s Law",
-      "description": "Limits complexity by only implementing necessary features.",
-      "technical_spec": "Feature analysis to remove unnecessary elements.",
-      "severity_score": 20
+      "title": "Law of Proximity",
+      "description": "Grouping related items to simplify cognitive load.",
+      "technical_spec": "Chat elements are spatially grouped to convey relevance.",
+      "severity_score": 10
     }
   ]
 }

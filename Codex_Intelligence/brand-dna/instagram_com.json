@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 19,
+    "rank": 29,
     "site": "instagram.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "de12703b8584187ea90e2312e8166523"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "32b4b749eb238151b2b245e957c4b10d"
   },
   "data": [
     {
-      "title": "Visual Storytelling",
-      "description": "Focuses on visual content for users to share their lives and stories.",
-      "technical_spec": "High-quality image and video rendering capabilities.",
-      "severity_score": 65
+      "title": "Visual Consistency",
+      "description": "Maintains a consistent aesthetic with the use of a specific color palette and typography.",
+      "technical_spec": "Utilizes color codes for brand identity consistency across platforms.",
+      "severity_score": 3
     },
     {
-      "title": "Social Connectivity",
-      "description": "Promotes social interaction and connection between users.",
-      "technical_spec": "Enhanced direct messaging and comment features.",
-      "severity_score": 50
-    },
-    {
-      "title": "Influencer Culture",
-      "description": "Supports the growth of influencer and brand collaborations.",
-      "technical_spec": "Tools for analytics, story enhancements, and shopping tags.",
-      "severity_score": 55
+      "title": "Community Engagement",
+      "description": "Encourages user interaction and community-driven content creation.",
+      "technical_spec": "Features like stories and reels to boost user-generated content.",
+      "severity_score": 7
     },
     {
       "title": "Innovative Features",
-      "description": "Consistently introduces innovative features that enhance engagement.",
-      "technical_spec": "Reels, stories, and live video features.",
-      "severity_score": 70
+      "description": "Constantly innovating with new features to enhance user interaction.",
+      "technical_spec": "Implements machine learning for personalized feed and experience.",
+      "severity_score": 10
     },
     {
-      "title": "Community and Empowerment",
-      "description": "Encourages user-generated content and community building.",
-      "technical_spec": "Hashtags, challenges, and event-driven content.",
-      "severity_score": 60
+      "title": "Mobile-First Approach",
+      "description": "Prioritizes mobile platform development to align with audience preferences.",
+      "technical_spec": "Swift and Kotlin development for native mobile app performance.",
+      "severity_score": 5
+    },
+    {
+      "title": "Collaborative Partnerships",
+      "description": "Forms strategic partnerships to expand brand influence and capabilities.",
+      "technical_spec": "APIs and SDKs for integration with external platforms and services.",
+      "severity_score": 12
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 16,
+    "rank": 26,
     "site": "netflix.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "f360aae32ed3447956e54322bd67d3b4"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "b9cf73b6cb738054c44d90b44beb4dbc"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Netflix's system is built on a microservices architecture to improve scalability and manageability.",
-      "technical_spec": "Decomposed services communicating over RESTful APIs, built with various languages like Java, Node.js, Python.",
-      "severity_score": 85
+      "description": "Netflix uses a cloud-based microservices architecture to ensure scalability and flexibility.",
+      "technical_spec": "Deployed on AWS, each service is independently scalable and deployable.",
+      "severity_score": 20
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Netflix employs a global network of CDNs to ensure efficient media content delivery.",
-      "technical_spec": "Leveraging Open Connect appliance located in ISP data centers for optimized streaming.",
-      "severity_score": 90
+      "description": "A global CDN ensures content is delivered quickly and efficiently to users worldwide.",
+      "technical_spec": "Strategically placed edge servers cache and deliver content.",
+      "severity_score": 15
     },
     {
-      "title": "Cloud Hosting on AWS",
-      "description": "Netflix is hosted on Amazon Web Services, utilizing its vast, scalable infrastructure.",
-      "technical_spec": "AWS services including EC2, S3, and Lambda for cloud operations and database management.",
-      "severity_score": 92
+      "title": "Data Pipeline",
+      "description": "Robust data pipeline for real-time analytics and personalized recommendations.",
+      "technical_spec": "Utilizes tools like Apache Kafka and Amazon Kinesis.",
+      "severity_score": 25
     },
     {
-      "title": "Data Management System",
-      "description": "Netflix uses complex data management systems for analytics and personalization.",
-      "technical_spec": "Utilizes Cassandra for high availability and resilience, alongside Elasticsearch for real-time applications.",
-      "severity_score": 88
+      "title": "Playback Architecture",
+      "description": "Resilient media player architecture for seamless content playback.",
+      "technical_spec": "Adaptive bitrate streaming ensures smooth playback under varying network conditions.",
+      "severity_score": 10
     },
     {
-      "title": "Server-Side APIs",
-      "description": "APIs are used extensively for handling user requests and delivering personalized recommendations.",
-      "technical_spec": "Server-side handlers in languages like Java and Node.js communicating with backend services.",
-      "severity_score": 82
+      "title": "Cloud Infrastructure",
+      "description": "Fully deployed on AWS, leveraging reliability and scalability of cloud services.",
+      "technical_spec": "Implements auto-scaling and load balancing.",
+      "severity_score": 30
     }
   ]
 }

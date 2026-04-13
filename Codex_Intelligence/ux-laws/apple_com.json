@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 13,
+    "rank": 23,
     "site": "apple.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "13e410259cc1db4c3e8aca0a6b969f63"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "bc11d4eb04d4db35857aebd51bb58ac6"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies decision-making by limiting choices available to users.",
-      "technical_spec": "Designed minimalistic and intuitive navigation menus.",
+      "title": "Fitts's Law",
+      "description": "Applied to design interfaces for efficient navigation and accessibility.",
+      "technical_spec": "Button sizing and spacing optimized for touch input.",
       "severity_score": 10
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizes interactive elements for ease of access and usability.",
-      "technical_spec": "Large clickable areas and strategic placement of CTAs.",
+      "title": "Hick's Law",
+      "description": "Simple decision-making pathways enhance user experience.",
+      "technical_spec": "Navigation decisions reduced using streamlined menus and search functions.",
       "severity_score": 15
     },
     {
-      "title": "Law of Common Region",
-      "description": "Groups related content together, enhancing user focus and comprehension.",
-      "technical_spec": "Utilizes visual boundaries and spacing effectively.",
-      "severity_score": 12
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Reduces cognitive load by keeping information clustered to seven or fewer items.",
-      "technical_spec": "Uses concise product descriptions and clear content sections.",
-      "severity_score": 8
-    },
-    {
       "title": "Jakob's Law",
-      "description": "Designs patterns that align with user expectations from similar websites.",
-      "technical_spec": "Consistent interface elements and layout similar to popular standards.",
+      "description": "Adapts familiar design conventions to enhance usability.",
+      "technical_spec": "UI elements follow industry standards to reduce user learning curves.",
+      "severity_score": 5
+    },
+    {
+      "title": "Consistency and Standards",
+      "description": "Maintains consistent UI elements across the site for improved usability.",
+      "technical_spec": "Adopts consistent iconography and typography.",
+      "severity_score": 10
+    },
+    {
+      "title": "Zeigarnik Effect",
+      "description": "Encourages task completion by creating memorable user interactions.",
+      "technical_spec": "Implemented through interactive tutorials and progressive disclosures.",
       "severity_score": 20
     }
   ]

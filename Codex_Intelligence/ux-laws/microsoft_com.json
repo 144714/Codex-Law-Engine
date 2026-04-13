@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 14,
+    "rank": 24,
     "site": "microsoft.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "46bab64502ba4db9069caaad64c6af41"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "049a0a8b479350887324b482f575ce59"
   },
   "data": [
     {
-      "title": "Consistency and Standards",
-      "description": "Follows a consistent layout and design standard across all pages.",
-      "technical_spec": "Responsive Design, Design System",
-      "severity_score": 90
+      "title": "Hick's Law",
+      "description": "Simplifies decision-making by reducing the number of choices presented at once.",
+      "technical_spec": "Streamlined navigation and restricted menu options.",
+      "severity_score": 25
     },
     {
-      "title": "User Control and Freedom",
-      "description": "Provides users with options to undo actions and navigate freely.",
-      "technical_spec": "Back Navigation, Account Recovery Options",
-      "severity_score": 85
+      "title": "Fitts' Law",
+      "description": "Designs cater to ease of mouse targeting by positioning key elements strategically.",
+      "technical_spec": "Placement of buttons and interactive objects in easily reachable areas.",
+      "severity_score": 20
     },
     {
-      "title": "Aesthetic and Minimalist Design",
-      "description": "Maintains a clean and focused design, avoiding unnecessary information.",
-      "technical_spec": "Minimal Design Elements, Focused Content",
-      "severity_score": 88
+      "title": "Aesthetic Usability Effect",
+      "description": "Visually appealing designs are employed to enhance perceived usability.",
+      "technical_spec": "Modern design paradigms with a tidy interface layout.",
+      "severity_score": 15
     },
     {
-      "title": "Error Prevention",
-      "description": "Design includes measures to prevent errors before they happen.",
-      "technical_spec": "Form Validation, Confirmation Dialogs",
-      "severity_score": 87
+      "title": "Jakob's Law",
+      "description": "Users are more familiar and comfortable with design paradigms from frequently used sites.",
+      "technical_spec": "Standardization of design patterns in line with popular web services.",
+      "severity_score": 30
     },
     {
-      "title": "Recognition Rather than Recall",
-      "description": "User interface design reduces cognitive load by making objects, actions, and options visible.",
-      "technical_spec": "Iconography, Predictive Text",
-      "severity_score": 80
+      "title": "Miller's Law",
+      "description": "Ensuring that information is presented in chunks for better comprehension.",
+      "technical_spec": "Text and information are structured into manageable sections.",
+      "severity_score": 25
     }
   ]
 }

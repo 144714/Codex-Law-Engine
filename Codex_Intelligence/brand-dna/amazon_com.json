@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 15,
+    "rank": 25,
     "site": "amazon.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "59009a39172f1e37676917516e8e3030"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "832cb8c3b6a35a94ece88c60a69f3b61"
   },
   "data": [
     {
       "title": "Customer Centricity",
-      "description": "Focusing on customer experience and satisfaction as the core of business operations.",
-      "technical_spec": "Personalized recommendations and responsive customer service systems.",
-      "severity_score": 95
+      "description": "Amazon prioritizes customer needs and satisfaction in all business practices.",
+      "technical_spec": "Features like customer reviews, fast shipping options.",
+      "severity_score": 5
+    },
+    {
+      "title": "Innovation Culture",
+      "description": "Continuous innovation aiming to improve shopping experience and convenience.",
+      "technical_spec": "Amazon Echo, AWS advancements.",
+      "severity_score": 15
     },
     {
       "title": "Operational Excellence",
-      "description": "Commitment to efficient operations and innovations that reduce waste and increase value.",
-      "technical_spec": "Continuous process improvement frameworks and metrics monitoring.",
-      "severity_score": 90
+      "description": "Focuses on operational efficiency and reliability in delivering services.",
+      "technical_spec": "Streamlined supply chains, effective logistics.",
+      "severity_score": 10
     },
     {
-      "title": "Innovation Leadership",
-      "description": "Drive for leadership in technology innovation and creative solutions.",
-      "technical_spec": "Investment in R&D and fostering a culture of experimentation.",
-      "severity_score": 88
+      "title": "Global Scalability",
+      "description": "Expansion and adaptability of services to suit global markets.",
+      "technical_spec": "Localized content and services across countries.",
+      "severity_score": 20
     },
     {
-      "title": "Global Reach",
-      "description": "Extensive supply chain and logistics network to support a global e-commerce presence.",
-      "technical_spec": "International logistics infrastructure with localized fulfillment capabilities.",
-      "severity_score": 85
-    },
-    {
-      "title": "Deep Data Insights",
-      "description": "Leveraging big data analytics to predict trends and personalize user experiences.",
-      "technical_spec": "Sophisticated algorithms and machine learning models for data-driven decisions.",
-      "severity_score": 92
+      "title": "Trusted Ecosystem",
+      "description": "Building a trusted environment for both customers and sellers.",
+      "technical_spec": "Secure transaction protocols, guaranteed purchases.",
+      "severity_score": 10
     }
   ]
 }

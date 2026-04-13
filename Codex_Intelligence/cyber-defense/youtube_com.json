@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 12,
+    "rank": 22,
     "site": "youtube.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "896aceba58d02759fd3a79ea5c6fc897"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "7d60810f6965344d00870b3cd829b568"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "End-to-end encryption protects user data both in transit and at rest.",
-      "technical_spec": "TLS for data in transit, AES encryption for stored data.",
-      "severity_score": 15
+      "title": "End-to-End Encryption",
+      "description": "Secure encryption of data in transit to protect user and content data.",
+      "technical_spec": "TLS encryption protocols.",
+      "severity_score": 5
     },
     {
-      "title": "DDoS Mitigation",
-      "description": "Sophisticated measures to mitigate Distributed Denial of Service attacks.",
-      "technical_spec": "Real-time monitoring and automated traffic filtering.",
-      "severity_score": 25
+      "title": "Data Loss Prevention",
+      "description": "Advanced DLP mechanisms to prevent unauthorized data access and leakage.",
+      "technical_spec": "Integrated within layer-specific security policies.",
+      "severity_score": 8
     },
     {
-      "title": "User Authentication Systems",
-      "description": "Robust authentication methods to prevent unauthorized access.",
-      "technical_spec": "Multi-factor authentication supported, OAuth 2.0 for third-party logins.",
-      "severity_score": 20
+      "title": "User Authentication",
+      "description": "Multi-factor authentication (MFA) for user access to accounts.",
+      "technical_spec": "OAuth 2.0 standards with optional physical security keys.",
+      "severity_score": 7
     },
     {
-      "title": "Security Audits and Penetration Testing",
-      "description": "Regular security audits and testing to identify vulnerabilities.",
-      "technical_spec": "Internal and third-party audits with automated and manual testing.",
-      "severity_score": 25
+      "title": "Intrusion Detection Systems",
+      "description": "Real-time monitoring systems to detect and mitigate potential security threats.",
+      "technical_spec": "Machine learning algorithms for anomaly detection.",
+      "severity_score": 6
     },
     {
-      "title": "AI-Powered Threat Detection",
-      "description": "Machine learning models are used to detect and respond to potential threats.",
-      "technical_spec": "Continuous learning algorithms with anomaly detection capabilities.",
-      "severity_score": 30
+      "title": "Content Moderation AI",
+      "description": "AI-driven content moderation to prevent misuse and harmful content spread.",
+      "technical_spec": "Neural networks trained on vast user behavior datasets.",
+      "severity_score": 9
     }
   ]
 }

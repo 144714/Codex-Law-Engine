@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 16,
+    "rank": 26,
     "site": "netflix.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "f7d22cba44deeff27d3029d4765c8192"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "69ffba7f096262821b900acc0968d90d"
   },
   "data": [
     {
-      "title": "Encryption Standard Adoption",
-      "description": "Ensuring all data in transit and at rest is securely encrypted.",
-      "technical_spec": "Usage of TLS 1.2+ and AES-256 encryption for securing data across networks.",
-      "severity_score": 95
+      "title": "Multi-factor Authentication",
+      "description": "Protects user accounts with an additional layer of security.",
+      "technical_spec": "Combines password and secondary verification method.",
+      "severity_score": 35
     },
     {
-      "title": "Continual Security Assessments",
-      "description": "Regular penetration testing and security assessments to identify vulnerabilities.",
-      "technical_spec": "Integration of automated testing tools and code review processes into CI/CD pipeline.",
-      "severity_score": 88
+      "title": "DDoS Mitigation",
+      "description": "Protective measures against Distributed Denial of Service attacks.",
+      "technical_spec": "Utilizes AWS Shield and other external DDoS protection services.",
+      "severity_score": 50
     },
     {
-      "title": "Incident Response Plan",
-      "description": "Robust incident response strategies to manage potential security breaches.",
-      "technical_spec": "SOAR platforms used for automating incident response and threat intelligence sharing.",
-      "severity_score": 90
+      "title": "Data Encryption",
+      "description": "Ensures data is encrypted both at rest and in transit.",
+      "technical_spec": "AES-256 bit encryption standard is used.",
+      "severity_score": 30
     },
     {
-      "title": "User Authentication Protocols",
-      "description": "Multi-factor authentication (MFA) and single sign-on (SSO) to protect user accounts.",
-      "technical_spec": "LDAP/Active Directory integrations and OAuth 2.0 protocol for secure credentials handling.",
-      "severity_score": 92
+      "title": "Vulnerability Management",
+      "description": "Regular scanning and patching of vulnerabilities in all systems.",
+      "technical_spec": "Automated scanning tools and manual penetration testing.",
+      "severity_score": 40
     },
     {
-      "title": "Identity Management",
-      "description": "Role-based access control to ensure data privacy and limit access to sensitive information.",
-      "technical_spec": "Integration with IAM solutions to manage user permissions centrally.",
-      "severity_score": 89
+      "title": "Access Control Policies",
+      "description": "Strict access control policies to limit and audit data access.",
+      "technical_spec": "Role-based access controls (RBAC) are enforced.",
+      "severity_score": 45
     }
   ]
 }

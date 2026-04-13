@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 15,
+    "rank": 25,
     "site": "amazon.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "43e6450225291ae00107fdc0d3663809"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "4543904d52bc145cd26504dfbff27e5e"
   },
   "data": [
     {
-      "title": "IAM Policies",
-      "description": "Uses Identity and Access Management to control user permissions and resources access.",
-      "technical_spec": "Detailed role-based access controls with compliance checks.",
-      "severity_score": 55
+      "title": "Encryption Protocols",
+      "description": "Amazon implements strong encryption protocols to protect data in transit and at rest.",
+      "technical_spec": "TLS, AES-256 encryption standards.",
+      "severity_score": 20
     },
     {
-      "title": "Data Encryption",
-      "description": "Ensures data protection with encryption both in transit and at rest.",
-      "technical_spec": "Utilizes SSL/TLS for data in transit and AES-256 for data at rest.",
-      "severity_score": 85
+      "title": "Access Management",
+      "description": "Strict access management and authentication protocols to secure operations.",
+      "technical_spec": "AWS IAM for role-based access control.",
+      "severity_score": 30
     },
     {
-      "title": "DDoS Mitigation",
-      "description": "Implements strategies to protect against Distributed Denial-of-Service attacks.",
-      "technical_spec": "Multi-layered defense system with automated traffic filtering.",
-      "severity_score": 90
+      "title": "Distributed Denial of Service (DDoS) Protection",
+      "description": "Advanced systems to detect and mitigate DDoS attacks.",
+      "technical_spec": "AWS Shield, AWS WAF.",
+      "severity_score": 25
     },
     {
-      "title": "Compliance and Auditing",
-      "description": "Regular compliance checks to adhere to relevant security standards.",
-      "technical_spec": "Adheres to ISO, PCI DSS, GDPR regulations, among others.",
-      "severity_score": 75
+      "title": "Continuous Security Monitoring",
+      "description": "Real-time monitoring and alerts for detecting and responding to threats.",
+      "technical_spec": "Amazon GuardDuty, AWS Security Hub.",
+      "severity_score": 15
     },
     {
-      "title": "Automated Threat Detection",
-      "description": "Employs AI and machine learning to detect and neutralize security threats.",
-      "technical_spec": "Real-time analytics and threat intelligence integration.",
-      "severity_score": 80
+      "title": "Data Loss Prevention (DLP)",
+      "description": "Mechanisms to prevent unauthorized data transfer.",
+      "technical_spec": "Amazon Macie for data protection and privacy.",
+      "severity_score": 25
     }
   ]
 }

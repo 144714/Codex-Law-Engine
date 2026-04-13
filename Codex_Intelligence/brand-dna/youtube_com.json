@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 12,
+    "rank": 22,
     "site": "youtube.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "dd273810ebfc49f5db2d6450ec4ac74d"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "481d65e47f25c5b2eaf61dbfa44a1945"
   },
   "data": [
     {
-      "title": "Global Accessibility",
-      "description": "Content accessibility across different languages and regions defines the brand's reach.",
-      "technical_spec": "Subtitles, translations, and regional content management.",
-      "severity_score": 25
+      "title": "Global Reach",
+      "description": "YouTube's brand emphasizes its reach and accessibility worldwide.",
+      "technical_spec": "Multi-language support and region-specific content algorithms.",
+      "severity_score": 2
     },
     {
-      "title": "User-Generated Content",
-      "description": "Empowers users to create and share content, forming the core of YouTube's identity.",
-      "technical_spec": "Easy upload processes, content management tools, and monetization options.",
-      "severity_score": 20
+      "title": "Creativity Platform",
+      "description": "Promotes a culture of creativity and user-generated content.",
+      "technical_spec": "Tools for content creation, including video editing and live streaming.",
+      "severity_score": 4
     },
     {
       "title": "Community Engagement",
-      "description": "Strong focus on fostering community interaction among content creators and viewers.",
-      "technical_spec": "Features like comments, likes, shares, and community posts.",
-      "severity_score": 20
+      "description": "Focus on building interactive community features (likes, comments, forums).",
+      "technical_spec": "Social features integrated with video content.",
+      "severity_score": 5
     },
     {
-      "title": "Cross-Platform Availability",
-      "description": "Seamless experience provided across various devices reinforces brand consistency.",
-      "technical_spec": "Responsive design and native apps for mobile, TV, and web platforms.",
-      "severity_score": 15
+      "title": "Educational Resource",
+      "description": "Strong presence as a platform for educational content and learning.",
+      "technical_spec": "Dedicated channels for educational content and partnerships with educational firms.",
+      "severity_score": 3
     },
     {
-      "title": "Innovative Advertising Solutions",
-      "description": "Offers innovative advertising options as part of its revenue model.",
-      "technical_spec": "AdSense, skippable and non-skippable ads, and targeted advertising.",
-      "severity_score": 30
+      "title": "Innovation Leader",
+      "description": "Continuous innovation in video technology and streaming quality.",
+      "technical_spec": "Latest codecs and streaming technologies for 4K and 3D content.",
+      "severity_score": 1
     }
   ]
 }

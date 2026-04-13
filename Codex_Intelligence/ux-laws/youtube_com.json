@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 12,
+    "rank": 22,
     "site": "youtube.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "affac79e6ce1328c5f9c4597a610af72"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "e40cdd2095b95a6ccf6365e273353ce3"
   },
   "data": [
     {
       "title": "Fitts’s Law",
-      "description": "Targets (like buttons) are sized appropriately and positioned to enhance usability.",
-      "technical_spec": "Ensures interactable elements are easily accessible with consideration of distance and size.",
-      "severity_score": 10
+      "description": "Interface elements that are easier to select improve usability.",
+      "technical_spec": "Optimization of clickable areas for essential interactive elements.",
+      "severity_score": 3
     },
     {
-      "title": "Hick’s Law",
-      "description": "Limits choices to reduce decision time and improve user experience.",
-      "technical_spec": "Focused and intuitive navigation menus with progressive disclosure.",
-      "severity_score": 15
+      "title": "Hick's Law",
+      "description": "Shorten user decision time by simplifying menu options and layouts.",
+      "technical_spec": "Simplified navigation menus and personalized suggestions.",
+      "severity_score": 5
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Limiting the amount of information displayed to prevent cognitive overload.",
+      "technical_spec": "Chunking content into digestible sections, like video playlists.",
+      "severity_score": 4
     },
     {
       "title": "Jakob’s Law",
-      "description": "Design aligns with user expectations based on their experience with other platforms.",
-      "technical_spec": "Familiar interface patterns and consistent design language.",
-      "severity_score": 20
+      "description": "Users prefer interfaces that work similarly to other commonly used systems.",
+      "technical_spec": "Aligning user interface patterns with widely adopted web standards.",
+      "severity_score": 2
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Key information is placed at the start or end of the view to maximize recall.",
-      "technical_spec": "Strategic placement of primary content in top and bottom sections.",
-      "severity_score": 15
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing design is perceived as easier to use, enhancing user satisfaction.",
-      "technical_spec": "Use of modern design trends, visual hierarchy, and consistent branding.",
-      "severity_score": 10
+      "title": "Tesler’s Law",
+      "description": "Complexity is kept within the system rather than being passed to the user.",
+      "technical_spec": "Advanced algorithms for seamless video recommendations without user input.",
+      "severity_score": 6
     }
   ]
 }

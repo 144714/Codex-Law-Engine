@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 13,
+    "rank": 23,
     "site": "apple.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "5f7591960bb5f2cb0a1ab18f92bbac71"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "a2f782b2f7ffe7f1a000468bf652ba7c"
   },
   "data": [
     {
-      "title": "SSL/TLS Encryption",
-      "description": "All data transmitted between users and the site is encrypted.",
-      "technical_spec": "Uses modern TLS protocols with strong ciphers.",
+      "title": "Strict Access Control",
+      "description": "Utilizes advanced IAM protocols to ensure only authorized personnel have access.",
+      "technical_spec": "Enforced using OAuth2.0 and multi-factor authentication.",
       "severity_score": 5
     },
     {
-      "title": "Web Application Firewall",
-      "description": "Filters out malicious traffic and protects against common web exploits.",
-      "technical_spec": "Integrated on the edge with providers like Cloudflare.",
-      "severity_score": 15
+      "title": "Data Encryption Methods",
+      "description": "All sensitive data is encrypted in transit and at rest.",
+      "technical_spec": "Implemented using TLS 1.3 for data transmission and AES-256 for storage encryption.",
+      "severity_score": 10
     },
     {
       "title": "Regular Security Audits",
-      "description": "Ongoing vulnerability assessments and patch management.",
-      "technical_spec": "Incorporates automated scanning tools and manual penetration testing.",
+      "description": "Undergoes frequent penetration testing and security compliance assessments.",
+      "technical_spec": "Conducted via third-party security firms and internal security teams.",
       "severity_score": 20
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Users have the option for an additional layer of login security.",
-      "technical_spec": "Supports OTP and device-based authentication systems.",
-      "severity_score": 25
+      "title": "Web Application Firewall",
+      "description": "A WAF is used to block malicious traffic and prevent web attacks.",
+      "technical_spec": "Deployed using F5 Networks for filtering and monitoring HTTP requests.",
+      "severity_score": 15
     },
     {
-      "title": "DDoS Protection",
-      "description": "Prevents and mitigates distributed denial-of-service attacks.",
-      "technical_spec": "Uses scalable traffic filtering solutions at the network edge.",
-      "severity_score": 30
+      "title": "Zero Trust Architecture",
+      "description": "Implemented a Zero Trust security model to continuously verify access requests.",
+      "technical_spec": "Orchestrated through Cisco Zero Trust solutions.",
+      "severity_score": 5
     }
   ]
 }

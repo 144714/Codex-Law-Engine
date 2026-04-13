@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 18,
+    "rank": 28,
     "site": "adobe.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "222de2a95df91fca5431482d5a66396a"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "9573b105ee27372388d7adef14187393"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Adobe simplifies decision-making processes by reducing options where possible.",
-      "technical_spec": "Streamlined user interfaces with clear hierarchical organization of features.",
-      "severity_score": 20
-    },
-    {
       "title": "Fitts' Law",
-      "description": "UI elements are sized and spaced for optimal speed and efficiency.",
-      "technical_spec": "Consistent layout with frequently-used actions positioned ergonomically.",
-      "severity_score": 18
+      "description": "Designs large clickable areas to improve interaction efficiency.",
+      "technical_spec": "Button sizes and interactive elements are optimized for tap targets.",
+      "severity_score": 91
     },
     {
-      "title": "Law of Prägnanz",
-      "description": "Designs are made to be as simple and memorable as possible, minimizing cognitive load.",
-      "technical_spec": "Coherent visual branding and common design patterns across products.",
-      "severity_score": 15
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Visual elements are arranged to reflect a cohesive and intuitive user journey.",
-      "technical_spec": "Groups related items together using proximity, similarity, and continuity.",
-      "severity_score": 25
+      "title": "Hick's Law",
+      "description": "Simplifies choices to enhance user decision-making.",
+      "technical_spec": "Interfaces present limited options to reduce cognitive load.",
+      "severity_score": 90
     },
     {
       "title": "Jakob's Law",
-      "description": "Adobe aligns its interface design with user expectations based on familiar applications.",
-      "technical_spec": "UI patterns are based on industry standards and widely adopted practices.",
-      "severity_score": 28
+      "description": "Adopts familiar design patterns to meet user expectations.",
+      "technical_spec": "Consistent navigation and interactions similar to other popular platforms.",
+      "severity_score": 94
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Maintains information chunks within the limit of human memory capacity.",
+      "technical_spec": "Information is grouped in chunks of 7±2 elements.",
+      "severity_score": 87
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Creates pleasing designs to enhance perceived usability.",
+      "technical_spec": "Visual aesthetics are prioritized to boost user satisfaction.",
+      "severity_score": 89
     }
   ]
 }

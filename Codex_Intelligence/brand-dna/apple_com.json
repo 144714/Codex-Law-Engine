@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 13,
+    "rank": 23,
     "site": "apple.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "a781cc2db9e540159b67b584d36e49fe"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "b2db275f7d3a7ce12d94ae5f2a247665"
   },
   "data": [
     {
-      "title": "Innovative Design",
-      "description": "Apple's commitment to sleek, modern, and groundbreaking design.",
-      "technical_spec": "Emphasis on minimalism and cutting-edge aesthetics.",
+      "title": "Innovative Aesthetic",
+      "description": "The design embodies Apple's commitment to innovation and elegance.",
+      "technical_spec": "Minimalist interfaces with high-resolution imagery and custom animations.",
       "severity_score": 5
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Focuses on creating valuable and intuitive experiences for end-users.",
-      "technical_spec": "Regular user testing and iterative design methodologies.",
+      "title": "Privacy and Trust",
+      "description": "Prioritizes user privacy, aligning marketing strategies with product security.",
+      "technical_spec": "Privacy disclosures are clear and placed prominently.",
+      "severity_score": 5
+    },
+    {
+      "title": "Inclusivity and Diversity",
+      "description": "Designs accommodate a wide range of user needs and experiences.",
+      "technical_spec": "Accessibility features include VoiceOver compatibility and adjustable interfaces.",
       "severity_score": 10
     },
     {
-      "title": "Privacy as a Priority",
-      "description": "Highlights the importance of user data protection and privacy.",
-      "technical_spec": "Implementation of robust encryption and privacy policies.",
-      "severity_score": 20
+      "title": "Sustainability Commitment",
+      "description": "Features emphasize Apple's sustainability efforts.",
+      "technical_spec": "Content highlights renewable energy use and recycling programs.",
+      "severity_score": 5
     },
     {
-      "title": "Ecosystem Integration",
-      "description": "Seamlessly integrates with Apple’s ecosystem of products and services.",
-      "technical_spec": "Cross-platform capabilities and synchronized services across devices.",
-      "severity_score": 15
-    },
-    {
-      "title": "Brand Consistency",
-      "description": "Maintains a consistent brand image across all digital platforms.",
-      "technical_spec": "Uniform visual elements and messaging that align with brand standards.",
-      "severity_score": 8
+      "title": "Human-Centric Design",
+      "description": "Focuses on creating meaningful connections with users through innovative design.",
+      "technical_spec": "Incorporates user feedback and iterative design processes.",
+      "severity_score": 10
     }
   ]
 }

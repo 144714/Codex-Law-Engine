@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 16,
+    "rank": 26,
     "site": "netflix.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "bbf42e4a20e34a415662cb5ea3786734"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "76fe78cfb2320c83cabb9674212bef71"
   },
   "data": [
     {
-      "title": "Innovation Leadership",
-      "description": "Netflix continually pioneers new streaming technologies and business models.",
-      "technical_spec": "Commitment to R&D for new encoding methods, and interactive content formats.",
-      "severity_score": 92
+      "title": "Innovative Storytelling",
+      "description": "Focuses on original content that pushes creative boundaries.",
+      "technical_spec": "Investments in production and partnerships with talented creators.",
+      "severity_score": 20
     },
     {
-      "title": "Global Content Strategy",
-      "description": "Offering a diverse range of local and global content tailored to audience preferences.",
-      "technical_spec": "Leveraging data analytics to curate and produce original content relevant to varied demographics.",
-      "severity_score": 90
+      "title": "Global Reach",
+      "description": "Accessible in over 190 countries with localized content.",
+      "technical_spec": "Multiple language support and local operations.",
+      "severity_score": 15
     },
     {
-      "title": "Subscriber-Centric Focus",
-      "description": "Providing engaging content recommendations and personalized viewing experiences.",
-      "technical_spec": "Advanced machine learning algorithms to analyze user behavior and preferences.",
-      "severity_score": 95
+      "title": "Data-Driven Decisions",
+      "description": "Uses analytics for personalized user experiences and content selection.",
+      "technical_spec": "Advanced data analytics tools and machine learning algorithms.",
+      "severity_score": 30
     },
     {
-      "title": "User Accessibility",
-      "description": "Ensuring the platform is accessible to users with disabilities.",
-      "technical_spec": "Implementation of audio descriptions, subtitles, and real-time voice controls.",
-      "severity_score": 89
+      "title": "User-Centric Design",
+      "description": "Commitment to providing an easy, enjoyable user experience.",
+      "technical_spec": "Regular user testing and feedback implementation.",
+      "severity_score": 10
     },
     {
-      "title": "Sustainability Efforts",
-      "description": "Commitment to reduce carbon footprint through energy-efficient data centers.",
-      "technical_spec": "Utilizing renewable energy sources and eco-friendly technology solutions.",
-      "severity_score": 87
+      "title": "Commitment to Diversity",
+      "description": "Promotes diversity in both content and workforce.",
+      "technical_spec": "Diversity-focused hiring practices and inclusive content strategy.",
+      "severity_score": 20
     }
   ]
 }

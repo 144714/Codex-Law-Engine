@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 16,
+    "rank": 26,
     "site": "netflix.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "4319e118c989acd643fd84ebb5cb1380"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "18a0f7a2d2ad77be5a74b8ec702d380c"
   },
   "data": [
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "An intuitive interface is visually appealing and enhances user satisfaction.",
-      "technical_spec": "Sleek design elements with a focus on ease of navigation and content discoverability.",
-      "severity_score": 85
+      "title": "Hick's Law",
+      "description": "Simplification to reduce decision-making time for users.",
+      "technical_spec": "Clear and concise categories for browsing.",
+      "severity_score": 20
     },
     {
-      "title": "Hick’s Law",
-      "description": "Simplifying decision-making processes to reduce cognitive load on users.",
-      "technical_spec": "Employing minimalism in UI design to streamline user’s choice path in browsing content.",
-      "severity_score": 82
+      "title": "Fitts's Law",
+      "description": "Optimizing button sizes and positioning on the interface.",
+      "technical_spec": "Primer buttons are larger and located centrally for easy access.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Designing interactive elements for easy access and efficient usability.",
-      "technical_spec": "Larger clickable areas and responsive layouts to facilitate quick navigation.",
-      "severity_score": 87
+      "title": "Miller's Law",
+      "description": "Reflecting the limited capacity of human memory.",
+      "technical_spec": "Structured content is grouped under logical categories.",
+      "severity_score": 20
     },
     {
-      "title": "Doherty Threshold",
-      "description": "Creating interactions that ensure system responses occur within 400 ms for seamless experience.",
-      "technical_spec": "Optimization techniques such as caching and prefetching to enhance interaction speed.",
-      "severity_score": 88
+      "title": "Jakob’s Law",
+      "description": "Users expect your site to work the same way as others they already know.",
+      "technical_spec": "Familiar navigation patterns are maintained.",
+      "severity_score": 25
     },
     {
       "title": "Zeigarnik Effect",
-      "description": "Encouraging continuous user engagement by leveraging incomplete tasks (e.g., recommended shows).",
-      "technical_spec": "Persistent recommendations and watchlist features to promote ongoing consumption.",
-      "severity_score": 84
+      "description": "People remember uncompleted or interrupted tasks better.",
+      "technical_spec": "Continue watching feature for resuming unfinished content with ease.",
+      "severity_score": 10
     }
   ]
 }

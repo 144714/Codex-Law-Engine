@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 19,
+    "rank": 29,
     "site": "instagram.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "6bf20a1e34d0882558dc649f1cdad3ba"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "b54aa9f03e467d20cfa29c43bddd3b5f"
   },
   "data": [
     {
-      "title": "OAuth 2.0 Authentication",
-      "description": "Employs OAuth 2.0 protocol for secure user authentication.",
-      "technical_spec": "OAuth 2.0 standard with HTTPS encryption.",
-      "severity_score": 30
+      "title": "User Data Encryption",
+      "description": "All user data is encrypted both at rest and in transit to protect user privacy.",
+      "technical_spec": "AES-256 for data at rest, TLS 1.2/1.3 for data in transit.",
+      "severity_score": 4
     },
     {
       "title": "Two-Factor Authentication (2FA)",
-      "description": "Offers 2FA to provide an additional layer of security for user accounts.",
-      "technical_spec": "SMS and authenticator app-based 2FA options.",
-      "severity_score": 25
+      "description": "Enhances account security by requiring an additional authentication step.",
+      "technical_spec": "Supports SMS, email, and app-based authentication methods.",
+      "severity_score": 6
     },
     {
-      "title": "Automated Threat Detection",
-      "description": "Uses automated systems to monitor and detect vulnerabilities and threats.",
-      "technical_spec": "Machine learning algorithms for real-time threat analysis.",
-      "severity_score": 40
+      "title": "Fraud Detection Algorithms",
+      "description": "AI-driven mechanisms to detect and prevent fraudulent activities.",
+      "technical_spec": "Machine learning models trained with behavioral analytics.",
+      "severity_score": 20
     },
     {
-      "title": "Data Encryption",
-      "description": "Implements encryption protocols to secure user data during transmission and at rest.",
-      "technical_spec": "Uses TLS 1.2/1.3 for transmission; AES-256 encryption for data storage.",
-      "severity_score": 35
+      "title": "Content Moderation",
+      "description": "Automatic and manual review systems to prevent harmful content dissemination.",
+      "technical_spec": "Combination of AI detection tools and human moderators.",
+      "severity_score": 15
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts regular security audits to identify and address potential vulnerabilities.",
-      "technical_spec": "Internal and third-party security assessments.",
-      "severity_score": 45
+      "description": "Frequent security assessments and penetration testing to identify vulnerabilities.",
+      "technical_spec": "Conducted by internal teams and third-party security experts.",
+      "severity_score": 25
     }
   ]
 }

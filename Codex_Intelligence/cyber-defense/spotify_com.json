@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 17,
+    "rank": 27,
     "site": "spotify.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "9d0a7a03f2847a25cf7ff06ed65bada8"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "f7c6b5588f332d6df98b13786bc24d0e"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Ensures user data and communications are encrypted to prevent unauthorized access.",
-      "technical_spec": "Uses advanced encryption standards (AES-256) for data at rest and in transit.",
-      "severity_score": 10
-    },
-    {
-      "title": "Identity and Access Management",
-      "description": "System to manage user identities and access to resources securely.",
-      "technical_spec": "Incorporates OAuth for authentication and access delegation.",
-      "severity_score": 20
-    },
-    {
-      "title": "Incident Response Plan",
-      "description": "Comprehensive strategy for handling security breaches and incidents.",
-      "technical_spec": "Contains predefined protocols and a dedicated team for incident management.",
-      "severity_score": 25
-    },
-    {
-      "title": "Security Audits",
-      "description": "Regular security audits to identify vulnerabilities and ensure compliance.",
-      "technical_spec": "Continuous monitoring and penetration testing conducted by third-party specialists.",
+      "title": "Multi-Factor Authentication (MFA)",
+      "description": "Implements MFA for enhanced account security and user verification.",
+      "technical_spec": "Supports OTP, SMS, and app-based authenticators for user login.",
       "severity_score": 30
     },
     {
-      "title": "Firewall and Intrusion Detection",
-      "description": "System defenses to detect and block unauthorized access attempts.",
-      "technical_spec": "Advanced firewalls and intrusion detection systems in place.",
+      "title": "End-to-End Encryption",
+      "description": "Protects data in transit through encryption protocols.",
+      "technical_spec": "Uses TLS/SSL protocols to secure user data being transmitted across the network.",
       "severity_score": 35
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts frequent security assessments to identify and mitigate potential threats.",
+      "technical_spec": "Involves both internal and third-party vulnerability assessments.",
+      "severity_score": 25
+    },
+    {
+      "title": "Anomaly Detection Systems",
+      "description": "Implements AI-driven algorithms to detect and respond to suspicious activities.",
+      "technical_spec": "Uses machine learning models for real-time threat identification.",
+      "severity_score": 40
+    },
+    {
+      "title": "Data Privacy Compliance",
+      "description": "Strict adherence to privacy laws and data protection regulations.",
+      "technical_spec": "Compliance with GDPR, CCPA, and other international data privacy standards.",
+      "severity_score": 50
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 18,
+    "rank": 28,
     "site": "adobe.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "f0eb6c5e941c336a985cf09564060948"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "763406edbeecfd770225265d0ce29fe3"
   },
   "data": [
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Adobe's platform leverages cloud computing to deliver scalable services and applications.",
-      "technical_spec": "Utilizes public cloud providers for elastic scaling and high availability.",
-      "severity_score": 15
+      "title": "Responsive Design",
+      "description": "Adapts the layout based on user screen size and orientation.",
+      "technical_spec": "Uses CSS media queries and flexible grid layouts.",
+      "severity_score": 98
     },
     {
-      "title": "Microservices Architecture",
-      "description": "Services are broken down into microservices to promote decoupling and ease of deployment.",
-      "technical_spec": "Employs containerization technologies like Docker and orchestration via Kubernetes.",
-      "severity_score": 25
-    },
-    {
-      "title": "API-Driven Approach",
-      "description": "APIs serve as the communication bridge between different Adobe services and third-party integrations.",
-      "technical_spec": "RESTful APIs with OAuth 2.0 for authentication and authorization.",
-      "severity_score": 20
+      "title": "Microservices",
+      "description": "Modular services communicate over a network to function as a cohesive application.",
+      "technical_spec": "Implemented using REST APIs and container orchestration.",
+      "severity_score": 85
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "A global CDN is used to deliver content with low latency and high availability.",
-      "technical_spec": "Edge servers positioned globally to cache Adobe content and reduce load times.",
-      "severity_score": 10
+      "description": "Distributes content geographically for faster access.",
+      "technical_spec": "Utilizes Akamai or another CDN service for asset delivery.",
+      "severity_score": 90
     },
     {
-      "title": "Database Management Systems",
-      "description": "Diverse DBMS solutions are used across Adobe's services, including SQL and NoSQL databases.",
-      "technical_spec": "Relational databases for transactional data, NoSQL databases for unstructured data.",
-      "severity_score": 30
+      "title": "Single Page Application",
+      "description": "Offers a seamless experience without full-page reloads.",
+      "technical_spec": "Built using frameworks like React or Angular.",
+      "severity_score": 92
+    },
+    {
+      "title": "Cloud Architecture",
+      "description": "Leverages cloud infrastructure for scalability and performance.",
+      "technical_spec": "Uses AWS or Azure for cloud services integration.",
+      "severity_score": 88
     }
   ]
 }

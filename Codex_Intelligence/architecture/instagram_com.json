@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 19,
+    "rank": 29,
     "site": "instagram.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "7693277bd8501fe2af05f7de4c5e073c"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "c3c96b11b724793a337345c30e9ab368"
   },
   "data": [
     {
-      "title": "Monolithic Application",
-      "description": "Instagram primarily runs on a monolithic architecture, which centralizes various services into one large codebase.",
-      "technical_spec": "Implemented in Django (Python framework) with a PostgreSQL backend.",
-      "severity_score": 70
+      "title": "Scalable Microservices",
+      "description": "Instagram's backend is built on a microservices architecture that allows for independent deployment and scaling of services.",
+      "technical_spec": "Deployed on AWS, utilizing Docker containers and Kubernetes for orchestration.",
+      "severity_score": 5
     },
     {
-      "title": "Microservices Transition",
-      "description": "Gradual transition from a monolithic to a microservices architecture to improve scalability.",
-      "technical_spec": "Docker containers and Kubernetes orchestration.",
-      "severity_score": 65
-    },
-    {
-      "title": "GraphQL API",
-      "description": "Provides a flexible API for data querying, optimizing for mobile clients.",
-      "technical_spec": "GraphQL API endpoints for data querying and mutations.",
-      "severity_score": 50
-    },
-    {
-      "title": "AWS Cloud Infrastructure",
-      "description": "Utilizes Amazon Web Services for scalable hosting and content delivery.",
-      "technical_spec": "Elastic Load Balancing, EC2, S3 buckets for storage.",
-      "severity_score": 40
+      "title": "Database Design",
+      "description": "Utilization of sharded MySQL and Redis for data storage, ensuring data redundancy and high availability.",
+      "technical_spec": "Horizontal partitioning with auto-failover mechanisms.",
+      "severity_score": 10
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Employs a CDN to deliver images and videos efficiently worldwide.",
-      "technical_spec": "Utilizes Akamai and Fastly for global CDN distribution.",
-      "severity_score": 55
+      "description": "Global CDN to deliver media content quickly to users around the world.",
+      "technical_spec": "CloudFront integration for caching static assets.",
+      "severity_score": 3
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Efficiently distributing incoming network traffic across multiple servers.",
+      "technical_spec": "Elastic Load Balancers (ELB) managing incoming user requests.",
+      "severity_score": 8
+    },
+    {
+      "title": "GraphQL API",
+      "description": "Leverages GraphQL for flexible and efficient client-server interactions.",
+      "technical_spec": "Node.js and Apollo Server for API gateways.",
+      "severity_score": 7
     }
   ]
 }

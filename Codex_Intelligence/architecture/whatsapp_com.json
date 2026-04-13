@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 20,
+    "rank": 30,
     "site": "whatsapp.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "946e43919027a1ff670216330ec0b59b"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "8701d985f0cf4b0e01916559180a8c54"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "WhatsApp uses a microservices architecture to enhance scalability and manageability by breaking down applications into smaller, independent services.",
-      "technical_spec": "Several self-contained services collaborating over APIs.",
-      "severity_score": 20
-    },
-    {
-      "title": "End-to-End Encryption Infrastructure",
-      "description": "The architecture supports robust end-to-end encryption ensuring privacy and security of messages.",
-      "technical_spec": "Uses Signal Protocol for encrypting messages peer-to-peer.",
-      "severity_score": 5
-    },
-    {
-      "title": "Distributed Database Systems",
-      "description": "The use of distributed databases supports massive data storage and retrieval to handle millions of concurrent users.",
-      "technical_spec": "Apache Cassandra or similar NoSQL databases.",
+      "description": "WhatsApp uses a microservices architecture to handle various functionalities separately, improving scalability and maintainability.",
+      "technical_spec": "Services are containerized and orchestrated using Docker and Kubernetes.",
       "severity_score": 15
     },
     {
-      "title": "Load Balancers",
-      "description": "Load balancers are implemented to distribute network or application traffic efficiently across multiple servers.",
-      "technical_spec": "Nginx or HAProxy for balancing incoming requests.",
+      "title": "End-to-End Encryption",
+      "description": "Messages are end-to-end encrypted, ensuring only communicating users can read them.",
+      "technical_spec": "Utilizes the Signal Protocol for encryption.",
       "severity_score": 10
     },
     {
-      "title": "Real-Time Messaging",
-      "description": "Supports real-time communication by instantly sending messages to users.",
-      "technical_spec": "Websockets or proprietary protocol for persistent connections.",
+      "title": "Real-Time Communication",
+      "description": "Utilizes WebRTC for real-time communication, enabling voice and video calls.",
+      "technical_spec": "Peer-to-peer connection with STUN and TURN servers support.",
+      "severity_score": 20
+    },
+    {
+      "title": "Data Replication",
+      "description": "Data is replicated across multiple data centers for redundancy and low latency.",
+      "technical_spec": "Cassandra is used for distributed data management.",
+      "severity_score": 20
+    },
+    {
+      "title": "Push Notification System",
+      "description": "WhatsApp relies on push notifications to alert users of new messages.",
+      "technical_spec": "Utilizes APNs for iOS and FCM for Android devices.",
       "severity_score": 10
     }
   ]

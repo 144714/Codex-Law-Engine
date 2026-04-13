@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 11,
+    "rank": 21,
     "site": "google.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "c133cd93fa0eb855aff667c146d78954"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "993e73cf2da9f5085a17bb27ab15a8db"
   },
   "data": [
     {
-      "title": "Zero Trust",
-      "description": "Security model ensuring all access requires identity verification.",
-      "technical_spec": "BeyondCorp framework implementing Zero Trust principles.",
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Adds an extra layer of security to user accounts.",
+      "technical_spec": "Offers SMS, app-based, or hardware key options for 2FA.",
+      "severity_score": 25
+    },
+    {
+      "title": "Advanced Encryption Standards",
+      "description": "Encrypts data both at rest and during transmission.",
+      "technical_spec": "Utilizes TLS for data in transit and AES-256 for data at rest.",
       "severity_score": 15
     },
     {
-      "title": "Encryption",
-      "description": "Data encryption at rest and in transit to ensure privacy.",
-      "technical_spec": "AES-256 for storage and TLS/SSL for data in transit.",
-      "severity_score": 10
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Defense systems against Distributed Denial of Service attacks.",
-      "technical_spec": "Google Cloud Armor and Cloud CDN.",
+      "title": "Threat Detection Systems",
+      "description": "Monitors for and mitigates security threats in real-time.",
+      "technical_spec": "AI and machine learning-based systems to detect anomalies and potential attacks.",
       "severity_score": 20
     },
     {
-      "title": "Threat Detection",
-      "description": "Continuous monitoring and alert mechanisms for threats.",
-      "technical_spec": "Security Command Center integrating threat intelligence.",
-      "severity_score": 30
+      "title": "Security Patches",
+      "description": "Regular updates are applied to fix known vulnerabilities.",
+      "technical_spec": "Automated patch management system to deploy updates globally.",
+      "severity_score": 10
     },
     {
-      "title": "Access Management",
-      "description": "Granular access control using advanced authentication methods.",
-      "technical_spec": "OAuth, SAML, and Multifactor Authentication (MFA).",
-      "severity_score": 25
+      "title": "Bug Bounty Program",
+      "description": "Encourages external security researchers to find and report vulnerabilities.",
+      "technical_spec": "Incentive program that pays for valid vulnerability reports.",
+      "severity_score": 30
     }
   ]
 }

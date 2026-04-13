@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 14,
+    "rank": 24,
     "site": "microsoft.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "89faf95a06d591d2c7553cffb8f78d07"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "ec0a8f154d5c8930d556a2afbb734044"
   },
   "data": [
     {
       "title": "Advanced Threat Protection",
-      "description": "Utilizes AI-powered tools for identifying and protecting against threats.",
-      "technical_spec": "Microsoft Defender, Sentinel",
-      "severity_score": 95
+      "description": "Implementation of threat detection and response systems.",
+      "technical_spec": "Microsoft Defender for Cloud and Threat Intelligence solutions.",
+      "severity_score": 40
+    },
+    {
+      "title": "Encryption and Data Protection",
+      "description": "Comprehensive data protection using encryption at rest and in transit.",
+      "technical_spec": "TLS 1.2+ for data in transit, AES-256 encryption for data at rest.",
+      "severity_score": 50
+    },
+    {
+      "title": "Identity and Access Management",
+      "description": "Integration of secure identity solutions for user authentication.",
+      "technical_spec": "Azure Active Directory (AD) for identity verification.",
+      "severity_score": 45
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Robust systems in place to mitigate Distributed Denial of Service attacks.",
+      "technical_spec": "Azure DDoS Protection with automatic detection and mitigation.",
+      "severity_score": 35
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts frequent security audits to identify vulnerabilities.",
-      "technical_spec": "Penetration Testing, SIEM Tools",
-      "severity_score": 85
-    },
-    {
-      "title": "Data Encryption Standards",
-      "description": "Implements strong encryption protocols to protect data in transit and at rest.",
-      "technical_spec": "SSL/TLS, AES-256",
-      "severity_score": 90
-    },
-    {
-      "title": "Zero Trust Architecture",
-      "description": "Applies a Zero Trust model to network security, where verification is required for all entities.",
-      "technical_spec": "Identity Access Management, Least Privilege Access",
-      "severity_score": 88
-    },
-    {
-      "title": "Security Awareness Training",
-      "description": "Conducts regular training to raise awareness about cyber threats.",
-      "technical_spec": "Online Training Platforms, Phishing Simulations",
-      "severity_score": 70
+      "description": "Frequent security audits and compliance reviews are conducted.",
+      "technical_spec": "Scheduled audits in compliance with ISO standards and other regulations.",
+      "severity_score": 30
     }
   ]
 }

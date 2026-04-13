@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 11,
+    "rank": 21,
     "site": "google.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "fef47189c9cc93d85348fb274727ad57"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "750114e03628836efedd3413053c96bd"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Pioneer in creating cutting-edge technology and solutions.",
-      "technical_spec": "Continuous integration of AI, machine learning, and cloud technologies.",
+      "title": "Simplicity",
+      "description": "Google's design philosophy emphasizes ease of use and clarity.",
+      "technical_spec": "Minimalistic design elements and straightforward interface.",
       "severity_score": 5
     },
     {
-      "title": "Simplicity",
-      "description": "Focus on simple, user-friendly products and interfaces.",
-      "technical_spec": "Simplified user interfaces and intuitive design.",
-      "severity_score": 10
+      "title": "Innovation",
+      "description": "Commitment to cutting-edge technology and constant improvement.",
+      "technical_spec": "Pioneering use of AI, machine learning, and quantum computing.",
+      "severity_score": 5
     },
     {
       "title": "Reliability",
-      "description": "Commitment to provide reliable and consistent services.",
-      "technical_spec": "Robust architecture with multiple redundancies.",
-      "severity_score": 15
+      "description": "Ensures consistent uptime and trustworthiness for users.",
+      "technical_spec": "Robust systems architecture with multiple redundancies.",
+      "severity_score": 3
     },
     {
-      "title": "Community",
-      "description": "Engages with communities for feedback and improvement.",
-      "technical_spec": "Open-source projects and collaborative platforms.",
-      "severity_score": 20
-    },
-    {
-      "title": "Security",
-      "description": "Prioritizing user security and data protection.",
-      "technical_spec": "Advanced security protocols and regular audits.",
+      "title": "User-centric Design",
+      "description": "Focuses on creating the best possible experience for users.",
+      "technical_spec": "Continuous user testing and feedback loop to refine products.",
       "severity_score": 5
+    },
+    {
+      "title": "Global Reach",
+      "description": "Serves a diverse user base with localized content and services.",
+      "technical_spec": "Supports multiple languages and regional adaptations.",
+      "severity_score": 2
     }
   ]
 }

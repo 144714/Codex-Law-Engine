@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 12,
+    "rank": 22,
     "site": "youtube.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "c3d8636b84d67641f9484601d12aa2f6"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "f23d8e19f928d34bf71d4ac069e0eae7"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "YouTube employs a microservices architecture to enhance scalability and maintainability.",
-      "technical_spec": "Decomposed services using REST APIs, managed with Kubernetes.",
-      "severity_score": 10
+      "title": "Microservices",
+      "description": "YouTube utilizes a microservices architecture, allowing independent deployment and scaling of individual components.",
+      "technical_spec": "Deployed across distributed servers using container orchestration, likely Kubernetes.",
+      "severity_score": 5
     },
     {
-      "title": "Content Delivery Network",
-      "description": "Utilizes CDN to efficiently deliver video content to a global audience.",
-      "technical_spec": "Global distributed network with edge caching.",
-      "severity_score": 15
+      "title": "CDN Integration",
+      "description": "Content Delivery Network (CDN) integration ensures fast and reliable access to video content globally.",
+      "technical_spec": "Utilizes Google's extensive global CDN network.",
+      "severity_score": 5
     },
     {
-      "title": "Redundant Distributed Databases",
-      "description": "Ensures data redundancy and high availability with distributed databases.",
-      "technical_spec": "Combination of SQL and NoSQL databases across data centers.",
-      "severity_score": 20
+      "title": "Data Storage Solutions",
+      "description": "Robust data storage systems for managing vast video content and user data.",
+      "technical_spec": "Combination of Bigtable for structured data and Colossus (Google's file system) for unstructured.",
+      "severity_score": 7
     },
     {
       "title": "Load Balancing",
-      "description": "Implements load balancing to manage traffic and ensure even distribution of requests.",
-      "technical_spec": "Advanced load balancing algorithms using Google Cloud's infrastructure.",
-      "severity_score": 15
+      "description": "Sophisticated load balancing to manage millions of concurrent connections.",
+      "technical_spec": "Google's proprietary load balancing technology.",
+      "severity_score": 3
     },
     {
-      "title": "Scalable Storage Systems",
-      "description": "Custom-built storage systems to handle large amounts of video data.",
-      "technical_spec": "Combination of distributed file systems and object storage solutions.",
-      "severity_score": 30
+      "title": "API Ecosystem",
+      "description": "Extensive API ecosystem allows external interactions with YouTube services.",
+      "technical_spec": "RESTful architecture, supporting OAuth2 for authentication.",
+      "severity_score": 6
     }
   ]
 }

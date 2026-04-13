@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 13,
+    "rank": 23,
     "site": "apple.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "10e4e1c8dc5a7ae56014e1d1a1530c28"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "77537449af82781787b256a4cf558d18"
   },
   "data": [
     {
-      "title": "Responsive Design",
-      "description": "Apple's website is built to be responsive, providing a seamless experience across various devices.",
-      "technical_spec": "Utilizes CSS media queries and flexible grid layouts.",
-      "severity_score": 5
-    },
-    {
-      "title": "Custom CMS",
-      "description": "A custom content management system powers the dynamic aspects of the site.",
-      "technical_spec": "Built with proprietary and open-source technologies to manage content efficiently.",
-      "severity_score": 15
-    },
-    {
-      "title": "Microservices Architecture",
-      "description": "Decoupled services architecture for independent component updating and scaling.",
-      "technical_spec": "Uses RESTful APIs for communication between services.",
-      "severity_score": 20
-    },
-    {
-      "title": "CDN Optimization",
-      "description": "Content is delivered via a content delivery network to ensure fast load times globally.",
-      "technical_spec": "Leverages global CDN providers like Akamai.",
+      "title": "Microservices Design",
+      "description": "The website is built on a microservices architecture to enhance scalability and agility.",
+      "technical_spec": "Deployed using containerized services, managed through Kubernetes.",
       "severity_score": 10
     },
     {
-      "title": "Serverless Functions",
-      "description": "Serverless computing is utilized for scalable and efficient request handling.",
-      "technical_spec": "Implemented using AWS Lambda or equivalent solutions.",
+      "title": "Responsive Framework",
+      "description": "Responsive design allows seamless functioning across devices.",
+      "technical_spec": "Implemented using CSS3 Media Queries and Bootstrap as the front-end framework.",
+      "severity_score": 20
+    },
+    {
+      "title": "Content Delivery Network",
+      "description": "Employs a global CDN to decrease page load times.",
+      "technical_spec": "Utilizes Akamai services for caching and distribution.",
+      "severity_score": 15
+    },
+    {
+      "title": "Distributed Database Architecture",
+      "description": "Utilizes distributed database systems to ensure reliability and performance.",
+      "technical_spec": "Incorporates NoSQL databases like Cassandra and SQL-based systems for structured data.",
       "severity_score": 25
+    },
+    {
+      "title": "Serverless Functions",
+      "description": "Leverages serverless computing for backend operations.",
+      "technical_spec": "Implemented using AWS Lambda and API Gateway for serverless architectures.",
+      "severity_score": 30
     }
   ]
 }

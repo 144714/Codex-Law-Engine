@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 18,
+    "rank": 28,
     "site": "adobe.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "70b5157a98de497604cb18b34b290909"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "05b5f10eda19f84d62fecdc1907d0155"
   },
   "data": [
     {
-      "title": "Creativity at Core",
-      "description": "Adobe embodies creativity and innovation in its product offerings.",
-      "technical_spec": "Target market includes designers, artists, and creators seeking professional tools.",
-      "severity_score": 10
+      "title": "Creative Empowerment",
+      "description": "Brands itself as a leader in empowering creativity globally.",
+      "technical_spec": "Marketing campaigns and product designs focus on user empowerment.",
+      "severity_score": 96
     },
     {
-      "title": "Customer-Centric Design",
-      "description": "Focused on delivering intuitive tools and enhancing user experience.",
-      "technical_spec": "Regular user feedback loops and UI/UX studies to optimize interfaces.",
-      "severity_score": 15
+      "title": "Innovative Leadership",
+      "description": "Showcases cutting-edge innovation in digital media.",
+      "technical_spec": "Continuous investment in R&D for new creative tools.",
+      "severity_score": 95
     },
     {
-      "title": "Rich Feature Set",
-      "description": "Offers a comprehensive range of features that cater to diverse creative needs.",
-      "technical_spec": "Continuous software updates and feature rollouts informed by market trends.",
-      "severity_score": 20
+      "title": "Diverse Ecosystem",
+      "description": "Supports a wide range of digital content creation.",
+      "technical_spec": "Offers integrated software from design to production.",
+      "severity_score": 92
     },
     {
-      "title": "Seamless Integration",
-      "description": "Ensures compatibility and connectivity with other Adobe products and services.",
-      "technical_spec": "Integrations across Creative Cloud suite and with third-party solutions.",
-      "severity_score": 18
+      "title": "Sustainability",
+      "description": "Commits to sustainable practices across operations.",
+      "technical_spec": "Adoption of eco-friendly policies and processes.",
+      "severity_score": 88
     },
     {
       "title": "Global Reach",
-      "description": "Operates with a global presence offering localized solutions for diverse markets.",
-      "technical_spec": "Multi-language support and regional customization in UI and services.",
-      "severity_score": 22
+      "description": "Has a significant presence and influence worldwide.",
+      "technical_spec": "Operates a robust international business network.",
+      "severity_score": 94
     }
   ]
 }

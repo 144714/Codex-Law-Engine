@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 19,
+    "rank": 29,
     "site": "instagram.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "d80e27b732d4eee3d5febd01a9de9503"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "14c5c68771acffaa3e51e0c9a2fe3958"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Design interface elements for ease of access, emphasizing target size and distance for interaction.",
-      "technical_spec": "Optimized button sizes and spacing for mobile usability.",
-      "severity_score": 50
+      "title": "Fitts's Law",
+      "description": "User interface elements are placed where they are easily accessible according to Fitts's Law.",
+      "technical_spec": "Design layout ensures frequently used items are large and center-aligned.",
+      "severity_score": 5
     },
     {
-      "title": "Hick’s Law",
-      "description": "Minimizes decision-making time by reducing the complexity of visible content and navigation.",
-      "technical_spec": "Streamlined navigation and quick access to primary features.",
-      "severity_score": 45
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Keeps information chunks manageable to avoid overwhelming users with too much information at once.",
-      "technical_spec": "Layout designs that focus on three to four key features per screen.",
-      "severity_score": 40
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Designs user experiences based on familiar interfaces that align with user expectations.",
-      "technical_spec": "Consistency in UI elements like stories, feed layout, and direct messages.",
-      "severity_score": 55
+      "title": "Hick's Law",
+      "description": "Limits the number of choices presented to users to streamline decision-making.",
+      "technical_spec": "Restricts actions per screen to optimize decision time.",
+      "severity_score": 7
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Ensures aesthetically pleasing designs to enhance perceived usability.",
-      "technical_spec": "High-resolution images, balanced color schemes, and modern typography.",
-      "severity_score": 60
+      "description": "Designs are made aesthetically pleasing to enhance perceived usability.",
+      "technical_spec": "Emphasizes visual hierarchy and crisp image resolutions.",
+      "severity_score": 6
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Adapts information chunks to optimize memory load on users.",
+      "technical_spec": "Breaks down content into digestible pieces with logical categorization.",
+      "severity_score": 9
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Follows established design paradigms to meet user expectations.",
+      "technical_spec": "Adoption of conventional navigation and interaction patterns.",
+      "severity_score": 8
     }
   ]
 }

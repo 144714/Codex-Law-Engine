@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 11,
+    "rank": 21,
     "site": "google.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "d585b458a76100e6d8ca65a3425e55a6"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "65bee2196aabfb1e9dbb5028210cf3ce"
   },
   "data": [
     {
-      "title": "Distributed Systems",
-      "description": "Google's infrastructure is built on distributed systems for scalability and reliability.",
-      "technical_spec": "Spanner, Bigtable, and Borg are core components.",
+      "title": "Microservices",
+      "description": "Google uses a microservices architecture to ensure scalability and maintainability.",
+      "technical_spec": "Hundreds of independent services communicate via APIs. Built with containers and orchestration tools like Kubernetes.",
       "severity_score": 10
     },
     {
-      "title": "Microservices",
-      "description": "Applications are structured as microservices, promoting modularity.",
-      "technical_spec": "Containers, GKE, and Pub/Sub for event-driven architecture.",
+      "title": "Load Balancing",
+      "description": "Distributes network traffic efficiently across multiple servers.",
+      "technical_spec": "Uses global load balancers to handle user requests and ensure availability.",
       "severity_score": 15
     },
     {
-      "title": "Load Balancing",
-      "description": "Efficient load balancing across multiple regions.",
-      "technical_spec": "Cloud Load Balancing and Anycast technology.",
-      "severity_score": 20
+      "title": "Data Centers",
+      "description": "Highly secure and optimized for performance, Google's data centers ensure global access.",
+      "technical_spec": "Custom-built infrastructure with proprietary hardware and open-source software.",
+      "severity_score": 5
     },
     {
-      "title": "Edge Computing",
-      "description": "Utilizing edge locations to reduce latency and enhance performance.",
-      "technical_spec": "Content delivery network (CDN) and edge caching mechanisms.",
-      "severity_score": 25
+      "title": "Redundancy",
+      "description": "Ensures data is stored in multiple locations to prevent loss and downtime.",
+      "technical_spec": "Geographically dispersed data centers with failover mechanisms.",
+      "severity_score": 5
     },
     {
-      "title": "Data Replication",
-      "description": "Data is replicated across data centers for fault tolerance.",
-      "technical_spec": "Global file system, and real-time replication strategies.",
-      "severity_score": 30
+      "title": "Content Delivery Network (CDN)",
+      "description": "Speeds up content delivery by distributing it closer to users.",
+      "technical_spec": "Edge network points around the world cache content to minimize latency.",
+      "severity_score": 10
     }
   ]
 }

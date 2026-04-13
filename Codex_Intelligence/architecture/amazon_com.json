@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 15,
+    "rank": 25,
     "site": "amazon.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "297c3bb3ccac1cdccf231e420718aeb1"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "ad4be90549e299ee01c91449d2164462"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Amazon uses a microservices architecture to enhance scalability and manageability of its vast e-commerce platform.",
-      "technical_spec": "Decoupled services that handle different functionalities, communicating through APIs.",
-      "severity_score": 85
+      "title": "Microservices Architecture",
+      "description": "Amazon uses a microservices architecture distributing services across numerous separate modules.",
+      "technical_spec": "Service Oriented Architecture (SOA) with APIs for communication.",
+      "severity_score": 10
     },
     {
-      "title": "AWS Infrastructure",
-      "description": "Utilizes Amazon Web Services for hosting and handling its massive data and computation needs.",
-      "technical_spec": "Cloud-based infrastructure with elastic scaling and global distribution.",
-      "severity_score": 90
+      "title": "Scalable Cloud Infrastructure",
+      "description": "Amazon's backend is built on AWS leveraging elastic scaling and redundant systems.",
+      "technical_spec": "AWS Elastic Load Balancing, Auto Scaling Groups.",
+      "severity_score": 5
     },
     {
-      "title": "NoSQL Databases",
-      "description": "Incorporation of NoSQL databases like DynamoDB for fast and flexible data retrieval.",
-      "technical_spec": "Distributed database system optimized for high throughput and low latency.",
-      "severity_score": 80
+      "title": "Distributed Databases",
+      "description": "Utilizes distributed database systems for handling transactions across diverse regions.",
+      "technical_spec": "Amazon DynamoDB, Aurora, and RDS.",
+      "severity_score": 15
     },
     {
-      "title": "Load Balancing",
-      "description": "Advanced load balancing approaches are used to evenly distribute incoming network traffic.",
-      "technical_spec": "Multi-tier load balancing with autoscaling support.",
-      "severity_score": 75
+      "title": "Edge Computing with CDNs",
+      "description": "Content Delivery Networks (CDNs) are used to reduce latency and increase content delivery speeds.",
+      "technical_spec": "Amazon CloudFront and AWS Edge Locations.",
+      "severity_score": 10
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Amazon CloudFront is used to deliver content with low latency and high transfer speeds.",
-      "technical_spec": "Global network of edge locations for caching and delivering content.",
-      "severity_score": 70
+      "title": "Robust Application Layer",
+      "description": "Utilizes robust application layer to manage business logic and API requests.",
+      "technical_spec": "Amazon API Gateway, AWS Lambda for serverless computing.",
+      "severity_score": 20
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 17,
+    "rank": 27,
     "site": "spotify.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "95d8ec54000d50e0628c3e32855d28f3"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "abcb6417c1c54403c13df0dacecc68b0"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Reduces the number of options to enhance user decision-making process.",
-      "technical_spec": "Simplified user interfaces with fewer, clearly defined options.",
-      "severity_score": 10
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Optimizes interaction elements based on size and distance for user ease.",
-      "technical_spec": "Design interfaces with easily tappable targets, especially on mobile.",
-      "severity_score": 15
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Limits information delivery to prevent cognitive overload.",
-      "technical_spec": "Breakdowns content into smaller, more manageable sections.",
+      "description": "Simplifies interface choices to reduce decision time for users.",
+      "technical_spec": "Uses design patterns that limit options and streamline navigation.",
       "severity_score": 20
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related items closely to suggest relationships.",
-      "technical_spec": "Designs UI elements in clusters for related tasks.",
+      "title": "Fitts's Law",
+      "description": "Design elements are optimized for ease of accessibility.",
+      "technical_spec": "Interactive elements are sized and spaced to reduce target acquisition time.",
       "severity_score": 15
     },
     {
-      "title": "Law of Prägnanz",
-      "description": "Designs interfaces with simplicity and clarity, avoiding unnecessary complexity.",
-      "technical_spec": "Ensures UI elements are simple and predictable for eased navigation.",
+      "title": "Pareto Principle",
+      "description": "Focuses on features that benefit the majority of users.",
+      "technical_spec": "80/20 rule applied to prioritize user-experienced features.",
       "severity_score": 25
+    },
+    {
+      "title": "Jakob's Law of Internet User Experience",
+      "description": "Design consistency across interfaces to meet user expectations.",
+      "technical_spec": "Conforms to common web design practices to minimize user confusion.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "An aesthetically pleasing interface is perceived as easier to use.",
+      "technical_spec": "Emphasizes visual design to enhance overall usability perception.",
+      "severity_score": 5
     }
   ]
 }

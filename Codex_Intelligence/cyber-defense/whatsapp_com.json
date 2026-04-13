@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 20,
+    "rank": 30,
     "site": "whatsapp.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "f3d366ffe0073ce70c97daadc0d14e6b"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "f1bf13e48578e166430f11cb5c51cab2"
   },
   "data": [
     {
-      "title": "Encryption Protocols",
-      "description": "Strong encryption protocols ensure user data is protected from unauthorized access.",
-      "technical_spec": "End-to-end encryption using Signal Protocol.",
-      "severity_score": 10
+      "title": "Two-Step Verification",
+      "description": "An added security layer requiring a PIN for account verification.",
+      "technical_spec": "User-configured PIN to protect account from unauthorized access.",
+      "severity_score": 30
     },
     {
-      "title": "Two-Factor Authentication (2FA)",
-      "description": "Provides an extra layer of security by requiring two forms of authentication.",
-      "technical_spec": "SMS or authenticator app-based verification codes.",
-      "severity_score": 15
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular security audits and tests to identify vulnerabilities.",
-      "technical_spec": "Periodic penetration tests and code reviews.",
-      "severity_score": 20
-    },
-    {
-      "title": "Data Anonymization",
-      "description": "User data is anonymized to protect privacy while analyzing user trends.",
-      "technical_spec": "Data is stripped of personally identifying information before analysis.",
+      "title": "Spam Detection",
+      "description": "Automatic detection and barring of spam and bulk messages.",
+      "technical_spec": "Machine learning algorithms analyze message patterns.",
       "severity_score": 25
     },
     {
-      "title": "Malware Detection Systems",
-      "description": "Advanced anti-malware systems ensure the integrity and security of the app's platform.",
-      "technical_spec": "Behavior-based threat analysis tools.",
-      "severity_score": 15
+      "title": "Fraud Prevention",
+      "description": "Mechanisms to prevent account takeovers and unauthorized access.",
+      "technical_spec": "Combination of behavioral analytics and user reporting.",
+      "severity_score": 40
+    },
+    {
+      "title": "Encryption at Rest",
+      "description": "Data is encrypted while on servers to prevent unauthorized access.",
+      "technical_spec": "AES-256 encryption used for storing data.",
+      "severity_score": 20
+    },
+    {
+      "title": "Cross-Site Scripting Prevention",
+      "description": "Prevention of XSS attacks by sanitizing inputs.",
+      "technical_spec": "Input validation and content security policy enforcement.",
+      "severity_score": 35
     }
   ]
 }

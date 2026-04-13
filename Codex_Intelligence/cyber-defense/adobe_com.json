@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 18,
+    "rank": 28,
     "site": "adobe.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "e212f1c4750b0cb8dd6e506c50618e47"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "1ade0b2c2e3650f2a4d61fe7706af78a"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Data is encrypted in transit and at rest to safeguard user information.",
-      "technical_spec": "Uses TLS for data in transit and AES-256 for data at rest.",
-      "severity_score": 20
+      "title": "SSL Encryption",
+      "description": "Secures data in transit with SSL/TLS encryption.",
+      "technical_spec": "Implements HTTPS with a valid certificate authority.",
+      "severity_score": 95
     },
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "MFA is implemented to enhance the security of user accounts.",
-      "technical_spec": "Options include SMS, authenticator apps, and hardware tokens.",
-      "severity_score": 15
+      "title": "Firewall Protection",
+      "description": "Prevents unauthorized access and malicious traffic.",
+      "technical_spec": "Utilizes web application firewalls (WAF) and network-level firewalls.",
+      "severity_score": 93
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Routine audits and penetration tests are conducted to identify and mitigate vulnerabilities.",
-      "technical_spec": "Compliance with international security standards including ISO 27001.",
-      "severity_score": 25
+      "title": "DDoS Mitigation",
+      "description": "Protects against Distributed Denial of Service attacks.",
+      "technical_spec": "Employs traffic filtering and load balancing strategies.",
+      "severity_score": 89
     },
     {
-      "title": "Advanced Threat Detection",
-      "description": "Uses AI and machine learning to detect and respond to threats in real-time.",
-      "technical_spec": "Integrations with SIEM systems to monitor for and respond to anomalies.",
-      "severity_score": 30
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Adds an extra layer of security via two-step verification.",
+      "technical_spec": "Integrates with authentication services like Auth0 or Google Authenticator.",
+      "severity_score": 90
     },
     {
-      "title": "Data Loss Prevention (DLP)",
-      "description": "Mechanisms to prevent unauthorized data access or leaks.",
-      "technical_spec": "Comprehensive DLP solutions track and manage data access and transfer across systems.",
-      "severity_score": 35
+      "title": "Vulnerability Scanning",
+      "description": "Regularly checks for security flaws in the system.",
+      "technical_spec": "Runs automated scans using tools like Nessus or Qualys.",
+      "severity_score": 88
     }
   ]
 }

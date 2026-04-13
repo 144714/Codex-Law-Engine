@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 14,
+    "rank": 24,
     "site": "microsoft.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "db7e29d6e4a8e23e5bd46a9b666f909b"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "a0aa568972650f617a8f1ec4b7693bd3"
   },
   "data": [
     {
-      "title": "Innovation Driven",
-      "description": "Consistently pushes the boundaries of technology, leading in innovation.",
-      "technical_spec": "R&D Investments, Emerging Tech Exploration",
-      "severity_score": 92
+      "title": "Innovation-driven",
+      "description": "Commitment to continuous innovation and embracing cutting-edge technologies.",
+      "technical_spec": "Products and services regularly updated with the latest features.",
+      "severity_score": 20
     },
     {
       "title": "Customer-centric Approach",
-      "description": "Focuses on understanding and meeting customer needs.",
-      "technical_spec": "Customer Feedback Loops, User Testing",
-      "severity_score": 85
+      "description": "Focus on enhancing user experience and satisfaction.",
+      "technical_spec": "User feedback loops and support channels actively monitored.",
+      "severity_score": 25
     },
     {
-      "title": "Global Impact",
-      "description": "Operates with a commitment to impact users worldwide positively.",
-      "technical_spec": "Global Initiatives, Diversity and Inclusion",
-      "severity_score": 90
+      "title": "Global Presence",
+      "description": "Strong international presence with localized content and services.",
+      "technical_spec": "Region-specific offerings and multi-language support provided.",
+      "severity_score": 30
     },
     {
       "title": "Trust and Security",
-      "description": "Emphasizes the importance of trust and security in all products and services.",
-      "technical_spec": "Compliance Standards, Privacy Regulations",
-      "severity_score": 95
+      "description": "Strong emphasis on data security and privacy protection.",
+      "technical_spec": "Compliance with global standards like GDPR, HIPAA, etc.",
+      "severity_score": 35
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Aims to drive future sustainability by reducing environmental impact.",
-      "technical_spec": "Carbon Neutral Initiatives, Energy-efficient Data Centers",
-      "severity_score": 88
+      "title": "Diversity and Inclusion",
+      "description": "Promotes diverse and inclusive culture within the organization.",
+      "technical_spec": "Policies and initiatives aimed at diverse workforce inclusion.",
+      "severity_score": 15
     }
   ]
 }

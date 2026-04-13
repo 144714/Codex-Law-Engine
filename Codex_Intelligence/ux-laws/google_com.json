@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 11,
+    "rank": 21,
     "site": "google.com",
-    "date": "2026-04-13 21:40",
-    "integrity_hash": "a51d59a40d486f549ba5b34d4a660f78"
+    "date": "2026-04-13 22:35",
+    "integrity_hash": "b95be9afcea1611fedc84c8e19f2f2ee"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifying options to improve decision-making speed.",
-      "technical_spec": "Minimalistic design reducing number of actions.",
-      "severity_score": 20
+      "title": "Hick’s Law",
+      "description": "Simplifies user choice by limiting available options.",
+      "technical_spec": "Google Search interface designed with minimal distractions to enhance focus.",
+      "severity_score": 5
     },
     {
-      "title": "Fitts' Law",
-      "description": "Design for ease of clicking targets and navigation.",
-      "technical_spec": "Larger click areas for common actions.",
-      "severity_score": 15
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Users expect functionality consistent with other major sites.",
-      "technical_spec": "Familiar patterns and components in UI design.",
+      "title": "Fitts’ Law",
+      "description": "Optimizes target size and distance for frequently used features.",
+      "technical_spec": "Key features like the search bar are prominently sized and centrally located for easy access.",
       "severity_score": 10
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "Visually appealing designs perceived as more functional.",
-      "technical_spec": "Modern, clean interfaces with visual hierarchy.",
-      "severity_score": 25
+      "title": "Miller’s Law",
+      "description": "Limits cognitive load by grouping information into digestible chunks.",
+      "technical_spec": "Use of well-structured categories and clean design to avoid overwhelming users.",
+      "severity_score": 5
     },
     {
-      "title": "Law of Proximity",
-      "description": "Elements close together are perceived as related.",
-      "technical_spec": "Visual grouping of related interface elements.",
-      "severity_score": 30
+      "title": "Jakob’s Law",
+      "description": "Designs interfaces that are consistent with user expectations built from other websites.",
+      "technical_spec": "Google retains a consistent design language recognizable across its services.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Enhances user perception of usability through visually appealing design.",
+      "technical_spec": "Clean, minimalistic interface that enhances user interaction experience.",
+      "severity_score": 5
     }
   ]
 }
