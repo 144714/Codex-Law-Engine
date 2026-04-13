@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 13:03"
+    "date": "2026-04-13 15:08"
   },
   "data": [
     {
+      "title": "Scalable Cloud Architecture",
+      "description": "The site architecture relies on cloud-based infrastructure for scalability and efficiency.",
+      "technical_spec": "Hosted on AWS cloud services with auto-scaling capabilities.",
+      "severity_score": 10
+    },
+    {
       "title": "Microservices Architecture",
-      "description": "OpenAI uses a microservices approach allowing independent deployment of services.",
-      "technical_spec": "Docker, Kubernetes, RESTful APIs",
+      "description": "Uses microservices to enhance modular development and deployment.",
+      "technical_spec": "Decomposed into several dockerized microservices communicating via REST APIs.",
       "severity_score": 20
     },
     {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "Built on scalable cloud platforms to handle extensive AI computation.",
-      "technical_spec": "AWS, Google Cloud Platform",
+      "title": "CDN Utilization",
+      "description": "Global content delivery network to ensure fast load times regardless of user location.",
+      "technical_spec": "Integrated with Cloudflare CDN.",
       "severity_score": 15
     },
     {
-      "title": "High Availability",
-      "description": "Ensures minimal downtime and robust data handling via redundant systems.",
-      "technical_spec": "Load balancers, failover clusters",
+      "title": "Responsive Web Design",
+      "description": "Ensures accessibility and usability across a range of devices and screen sizes.",
+      "technical_spec": "Utilizes responsive design frameworks such as Bootstrap.",
+      "severity_score": 10
+    },
+    {
+      "title": "HTTP/2 Protocol",
+      "description": "The site adopts HTTP/2 protocol for improved performance and speed.",
+      "technical_spec": "Enabled server-side support for HTTP/2.",
       "severity_score": 25
-    },
-    {
-      "title": "API-Driven Architecture",
-      "description": "Primary functionality is exposed via well-documented APIs.",
-      "technical_spec": "OpenAI API, JSON/REST",
-      "severity_score": 30
-    },
-    {
-      "title": "Data-Driven Design",
-      "description": "Architecture optimizes interaction based on user data and AI feedback loops.",
-      "technical_spec": "Analytics pipelines, real-time data processing",
-      "severity_score": 22
     }
   ]
 }

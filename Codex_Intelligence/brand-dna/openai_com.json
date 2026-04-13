@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 13:03"
+    "date": "2026-04-13 15:08"
   },
   "data": [
     {
-      "title": "Innovation-Driven",
-      "description": "Pioneer of cutting-edge AI technology and solutions.",
-      "technical_spec": "AI research, advanced machine learning",
-      "severity_score": 30
+      "title": "Innovation-Centric",
+      "description": "Commitment to cutting-edge AI technologies and solutions.",
+      "technical_spec": "Advanced machine learning models and APIs.",
+      "severity_score": 5
     },
     {
-      "title": "Ethical AI",
-      "description": "Commitment to responsible AI development and deployment.",
-      "technical_spec": "Bias monitoring, ethical guidelines",
-      "severity_score": 25
+      "title": "User-Education Focused",
+      "description": "Emphasizes learning resources and user support.",
+      "technical_spec": "Extensive documentation and tutorials.",
+      "severity_score": 10
     },
     {
-      "title": "Accessibility Focus",
-      "description": "Ensuring AI tools are usable by a diverse global audience.",
-      "technical_spec": "Language support, adaptive interfaces",
-      "severity_score": 20
+      "title": "Ethical AI Advocacy",
+      "description": "Promotes responsible and ethical use of AI technologies.",
+      "technical_spec": "Adherence to ethical guidelines and AI safety standards.",
+      "severity_score": 15
+    },
+    {
+      "title": "Global Reach",
+      "description": "Strives to make AI accessible to a worldwide audience.",
+      "technical_spec": "Multi-language support and worldwide distribution networks.",
+      "severity_score": 10
     },
     {
       "title": "Community Engagement",
-      "description": "Active involvement with the developer and user community.",
-      "technical_spec": "Open forums, online tutorials",
-      "severity_score": 22
-    },
-    {
-      "title": "Transparency and Trust",
-      "description": "Clear communication about AI capabilities and limitations.",
-      "technical_spec": "Public documentation, trust reports",
-      "severity_score": 28
+      "description": "Encourages active participation from AI developers and researchers.",
+      "technical_spec": "Open-source contributions and community forums.",
+      "severity_score": 20
     }
   ]
 }
