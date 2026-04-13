@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 09:28"
+    "date": "2026-04-13 11:10"
   },
   "data": [
     {
-      "title": "Jakob’s Law",
-      "description": "People spend most of their time on other sites, so designing interfaces consistent with popular ones enhances comfort.",
-      "technical_spec": "User interface consistency, familiarity-driven design",
-      "severity_score": 75
+      "title": "Hick's Law Implementation",
+      "description": "Simplify decisions for users by reducing the number of choices.",
+      "technical_spec": "Streamline UI elements to ease cognitive load and speed up decision-making.",
+      "severity_score": 78
     },
     {
-      "title": "Fitts’s Law",
-      "description": "The time to acquire a target is a function of the distance and size of the target.",
-      "technical_spec": "Clickable area optimization, proximity considerations",
-      "severity_score": 70
+      "title": "Fitts’s Law Optimization",
+      "description": "Design interfaces that facilitate easy target selection.",
+      "technical_spec": "Strategically place interactive elements for effortless user actions.",
+      "severity_score": 82
     },
     {
-      "title": "Hick’s Law",
-      "description": "The time it takes to make a decision increases as the number of options grows.",
-      "technical_spec": "Option reduction strategies, intuitive decision trees",
-      "severity_score": 65
+      "title": "Consistency Principle",
+      "description": "Maintain a consistent design language across different platforms for better user experience.",
+      "technical_spec": "Develop and adhere to a comprehensive style guide and component library.",
+      "severity_score": 85
     },
     {
-      "title": "Law of Proximity",
-      "description": "Objects close to each other are perceived as a group, aiding in organized interface designs.",
-      "technical_spec": "Layout design, spacing and grouping UI elements",
-      "severity_score": 60
+      "title": "Feedback Mechanism",
+      "description": "Provide immediate and clear feedback to user actions.",
+      "technical_spec": "Implement notifications, confirmations, and error messages as appropriate.",
+      "severity_score": 89
     },
     {
-      "title": "Miller’s Law",
-      "description": "The average person can keep 7 items in their working memory; structuring information in chunks improves cognition.",
-      "technical_spec": "Information chunking, cognitive load management",
-      "severity_score": 68
+      "title": "Aesthetic Usability Effect",
+      "description": "Enhance usability by making attractive and pleasant designs.",
+      "technical_spec": "Employ appealing visuals while ensuring functionality and accessibility.",
+      "severity_score": 80
     }
   ]
 }

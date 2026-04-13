@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 09:28"
+    "date": "2026-04-13 11:10"
   },
   "data": [
     {
-      "title": "Innovative Ethos",
-      "description": "Commitment to pioneering AI solutions with cutting-edge research and development.",
-      "technical_spec": "Research-driven innovation, cutting-edge AI models",
+      "title": "Innovative Technology Leadership",
+      "description": "Position the brand as a leader in cutting-edge AI technology.",
+      "technical_spec": "Showcase proprietary advancements through strategic channels.",
       "severity_score": 95
     },
     {
-      "title": "Ethical AI Commitment",
-      "description": "Dedication towards developing AI technologies responsibly and ethically.",
-      "technical_spec": "AI ethics frameworks, transparent guidelines",
-      "severity_score": 92
+      "title": "Ethical AI Standards",
+      "description": "Commit to ethical AI practices in development and deployment.",
+      "technical_spec": "Develop AI with transparency, fairness, and responsibility.",
+      "severity_score": 90
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focus on delivering seamless user experiences tailored to diverse user needs.",
-      "technical_spec": "UX research, human-centered design principles",
+      "title": "Customer-Centric Approach",
+      "description": "Focus on understanding and solving customer needs with AI solutions.",
+      "technical_spec": "Implement continuous feedback loops with users for tailored service delivery.",
+      "severity_score": 88
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Foster an active community surrounding AI by involving users and developers.",
+      "technical_spec": "Host events, discussions, and provide platforms for collaborative innovation.",
       "severity_score": 85
     },
     {
-      "title": "Collaborative Partnership",
-      "description": "Building strategic partnerships to enhance and expand AI capabilities globally.",
-      "technical_spec": "Strategic collaborations, partnership ecosystems",
+      "title": "Sustainable Practices",
+      "description": "Integrate sustainability into operational practices.",
+      "technical_spec": "Adopt energy-efficient technology and promote resource conservation initiatives.",
       "severity_score": 80
-    },
-    {
-      "title": "Global Impact Vision",
-      "description": "Aspiration to leverage AI for beneficial global outcomes and societal good.",
-      "technical_spec": "Global outreach initiatives, impact-focused projects",
-      "severity_score": 90
     }
   ]
 }
