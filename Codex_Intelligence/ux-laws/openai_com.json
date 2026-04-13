@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 16:54"
+    "date": "2026-04-13 17:53"
   },
   "data": [
     {
-      "title": "Minimalistic Design",
-      "description": "A clean, user-focused interface that highlights important content.",
-      "technical_spec": "Flat design, white space utilization, clear navigation.",
-      "severity_score": 87
+      "title": "Hick's Law",
+      "description": "Limit choices to improve user decision times by reducing complexity.",
+      "technical_spec": "Design interfaces with minimal necessary options to streamline user paths.",
+      "severity_score": 70
     },
     {
-      "title": "Consistency and Standards",
-      "description": "Ensuring consistent design and functionality across the platform.",
-      "technical_spec": "Uniform typography, standardized button styles.",
-      "severity_score": 84
+      "title": "Fitts' Law",
+      "description": "Design interfaces such that larger buttons and elements are easy to target.",
+      "technical_spec": "Ensure actionable items are sized and placed to reduce error and increase speed.",
+      "severity_score": 75
     },
     {
-      "title": "Responsive Design",
-      "description": "UI that adapts seamlessly to different screen sizes and devices.",
-      "technical_spec": "CSS media queries, flexible grid layouts.",
-      "severity_score": 80
+      "title": "Gestalt Principles",
+      "description": "Use visual grouping principles to create a predictable user experience.",
+      "technical_spec": "Apply proximity, similarity, and continuity to organize content logically.",
+      "severity_score": 72
     },
     {
-      "title": "Feedback and Interaction",
-      "description": "Providing immediate feedback for user actions to enhance interaction quality.",
-      "technical_spec": "Interactive animations, confirmation prompts.",
-      "severity_score": 85
+      "title": "Law of Proximity",
+      "description": "Group related items close together to imply relationships easily.",
+      "technical_spec": "Layout design should reflect logical grouping through strategic placement.",
+      "severity_score": 77
     },
     {
-      "title": "Accessibility Standards",
-      "description": "Compliance with accessibility standards to cater to users with disabilities.",
-      "technical_spec": "ARIA roles, keyboard navigability, screen reader support.",
-      "severity_score": 90
+      "title": "Occam's Razor",
+      "description": "Emphasize simplicity in design, removing unnecessary elements.",
+      "technical_spec": "Consistently review designs to ensure essentiality and eliminate clutter.",
+      "severity_score": 74
     }
   ]
 }

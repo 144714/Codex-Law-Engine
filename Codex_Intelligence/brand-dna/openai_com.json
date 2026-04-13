@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 16:54"
+    "date": "2026-04-13 17:53"
   },
   "data": [
     {
       "title": "Innovation-Driven",
-      "description": "Commitment to pushing the boundaries of AI technology.",
-      "technical_spec": "Research publications, cutting-edge AI models.",
-      "severity_score": 93
+      "description": "Embed innovation at the core of brand identity for continuous advancement.",
+      "technical_spec": "Foster a culture of creativity and experimentation.",
+      "severity_score": 80
     },
     {
-      "title": "Ethical AI Development",
-      "description": "Ensuring AI models are developed with ethical guidelines and transparency.",
-      "technical_spec": "Bias checks, model explainability.",
+      "title": "User-Centric Approach",
+      "description": "Prioritize user needs in product development to enhance satisfaction.",
+      "technical_spec": "Conduct user research and usability testing regularly.",
+      "severity_score": 85
+    },
+    {
+      "title": "Transparent Communication",
+      "description": "Maintain clear and honest communication with stakeholders and users.",
+      "technical_spec": "Regularly update blogs, social media, and product roadmaps.",
+      "severity_score": 82
+    },
+    {
+      "title": "Ethical AI Use",
+      "description": "Ensure ethical considerations in AI development and deployment.",
+      "technical_spec": "Follow AI ethics guidelines and industry standards.",
       "severity_score": 90
     },
     {
-      "title": "Customer-Centric Approach",
-      "description": "Focusing on solving real-world problems through customer feedback and iteration.",
-      "technical_spec": "User research, agile methodology.",
-      "severity_score": 88
-    },
-    {
-      "title": "Collaborative Ecosystem",
-      "description": "Fostering a community of developers, researchers, and partners to expand AI applications.",
-      "technical_spec": "Open-source contributions, partnership programs.",
-      "severity_score": 92
-    },
-    {
-      "title": "Global Connectivity",
-      "description": "Building technologies that connect diverse users across the globe.",
-      "technical_spec": "Internationalization, multilingual support.",
-      "severity_score": 89
+      "title": "Community Engagement",
+      "description": "Build a robust community to drive brand advocacy and feedback.",
+      "technical_spec": "Host webinars, forums, and discussions to keep users engaged.",
+      "severity_score": 78
     }
   ]
 }
