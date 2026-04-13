@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 07:10"
+    "date": "2026-04-13 09:28"
   },
   "data": [
     {
-      "title": "Innovative Technology",
-      "description": "Pushing the boundaries of AI research and application.",
-      "technical_spec": "Regularly updates models and includes state-of-the-art AI solutions.",
+      "title": "Innovative Ethos",
+      "description": "Commitment to pioneering AI solutions with cutting-edge research and development.",
+      "technical_spec": "Research-driven innovation, cutting-edge AI models",
       "severity_score": 95
     },
     {
       "title": "Ethical AI Commitment",
-      "description": "Strives to create AI systems that are fair, accountable, and transparent.",
-      "technical_spec": "Incorporates bias detection algorithms and ethical audits.",
-      "severity_score": 90
+      "description": "Dedication towards developing AI technologies responsibly and ethically.",
+      "technical_spec": "AI ethics frameworks, transparent guidelines",
+      "severity_score": 92
     },
     {
-      "title": "User Empowerment",
-      "description": "Designs products that enhance human capabilities and productivity.",
-      "technical_spec": "Feedback-driven development and user-centered design approach.",
+      "title": "User-Centric Design",
+      "description": "Focus on delivering seamless user experiences tailored to diverse user needs.",
+      "technical_spec": "UX research, human-centered design principles",
       "severity_score": 85
     },
     {
-      "title": "Global Accessibility",
-      "description": "Ensure AI solutions are accessible to a diverse user base worldwide.",
-      "technical_spec": "Multilanguage support and inclusive design standards.",
+      "title": "Collaborative Partnership",
+      "description": "Building strategic partnerships to enhance and expand AI capabilities globally.",
+      "technical_spec": "Strategic collaborations, partnership ecosystems",
       "severity_score": 80
     },
     {
-      "title": "Community Engagement",
-      "description": "Active involvement in research communities and knowledge sharing.",
-      "technical_spec": "Open research publications and collaborative projects.",
-      "severity_score": 85
+      "title": "Global Impact Vision",
+      "description": "Aspiration to leverage AI for beneficial global outcomes and societal good.",
+      "technical_spec": "Global outreach initiatives, impact-focused projects",
+      "severity_score": 90
     }
   ]
 }

@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 07:10"
+    "date": "2026-04-13 09:28"
   },
   "data": [
     {
-      "title": "Responsive Grid System",
-      "description": "Ensures cross-device compatibility and adjusts layout based on screen size.",
-      "technical_spec": "Uses CSS Flexbox and media queries.",
-      "severity_score": 85
-    },
-    {
       "title": "Microservices",
-      "description": "A suite of small services, each running in its own process, allowing for scalability and flexibility.",
-      "technical_spec": "Deployed with Docker, orchestrated on Kubernetes.",
-      "severity_score": 90
-    },
-    {
-      "title": "Serverless Architecture",
-      "description": "Executes logic without managing servers, enabling automatic scaling.",
-      "technical_spec": "Utilizes AWS Lambda functions.",
-      "severity_score": 80
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Distributes content globally to improve load times for users worldwide.",
-      "technical_spec": "Incorporates services like Cloudflare.",
+      "description": "Decentralized approach to application functionality, enhancing scalability and flexibility.",
+      "technical_spec": "REST APIs, Docker, Kubernetes",
       "severity_score": 70
     },
     {
+      "title": "Serverless Computing",
+      "description": "Cloud-based execution model where servers, infrastructure, and scaling are managed by a cloud provider.",
+      "technical_spec": "AWS Lambda, Azure Functions",
+      "severity_score": 65
+    },
+    {
+      "title": "Event-Driven Architecture",
+      "description": "Reacting to events or messages, often orchestrated via a message broker.",
+      "technical_spec": "Kafka, RabbitMQ",
+      "severity_score": 60
+    },
+    {
       "title": "API Gateway",
-      "description": "Manages API traffic and helps scale each service independently.",
-      "technical_spec": "Implemented with AWS API Gateway or similar.",
-      "severity_score": 85
+      "description": "An entry point for handling API calls and routing them appropriately.",
+      "technical_spec": "NGINX, AWS API Gateway",
+      "severity_score": 80
+    },
+    {
+      "title": "Containerization",
+      "description": "Packaging software into units for consistent, isolated environments across various stages.",
+      "technical_spec": "Docker, OpenShift",
+      "severity_score": 75
     }
   ]
 }

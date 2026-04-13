@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 07:10"
+    "date": "2026-04-13 09:28"
   },
   "data": [
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Encrypts the data transferred between user devices and servers.",
-      "technical_spec": "Implements up-to-date TLS version protocols.",
-      "severity_score": 95
-    },
-    {
-      "title": "Multi-Factor Authentication",
-      "description": "Adds a layer of security for user logins beyond just username and password.",
-      "technical_spec": "Supports time-based OTPs and U2F (hardware keys).",
+      "title": "Zero Trust Security",
+      "description": "Trust nothing by default, verify everything continuously to secure data and systems.",
+      "technical_spec": "Identity verification protocols, MFA",
       "severity_score": 90
     },
     {
-      "title": "Web Application Firewall (WAF)",
-      "description": "Protects web applications by filtering and monitoring HTTP traffic.",
-      "technical_spec": "Built with services like AWS WAF or Cloudflare.",
+      "title": "Data Encryption",
+      "description": "Ensuring that data is encrypted in transit and at rest to protect sensitive information.",
+      "technical_spec": "AES-256, TLS 1.3",
       "severity_score": 85
     },
     {
-      "title": "Intrusion Detection System (IDS)",
-      "description": "Monitors network for malicious activities or policy violations.",
-      "technical_spec": "Utilizes Snort or similar tools.",
+      "title": "Threat Intelligence",
+      "description": "Gathering and analyzing information about potential threats to preemptively address vulnerabilities.",
+      "technical_spec": "SIEM systems, threat detection algorithms",
+      "severity_score": 75
+    },
+    {
+      "title": "Secure Access Service Edge (SASE)",
+      "description": "Consolidating network security and WAN capabilities into a cloud-delivered service model.",
+      "technical_spec": "SD-WAN, CASB",
       "severity_score": 80
     },
     {
-      "title": "Data Encryption at Rest",
-      "description": "Ensures stored data is encrypted to protect information from unauthorized access.",
-      "technical_spec": "Rely on AES-256 encryption.",
-      "severity_score": 90
+      "title": "Security Incident Response",
+      "description": "A detailed plan for identifying, managing, and recovering from security breaches.",
+      "technical_spec": "Incident Response teams, protocols like NIST SP 800-61",
+      "severity_score": 88
     }
   ]
 }
