@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 19:02"
+    "date": "2026-04-13 20:43"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Commitment to advancing AI technology is embedded in the brand.",
-      "technical_spec": "Continuous investment in R&D and exploring new AI capabilities.",
-      "severity_score": 95
+      "title": "Innovation Leadership",
+      "description": "Continuously push boundaries in AI research and applications.",
+      "technical_spec": "Establish R&D departments and collaborate with academic institutions.",
+      "severity_score": 93
     },
     {
-      "title": "Ethical Responsibility",
-      "description": "Focus on ethical AI development and deployment.",
-      "technical_spec": "Adherence to ethical guidelines and participation in industry discussions.",
+      "title": "User-Centric Mission",
+      "description": "Focus on creating solutions that address real user needs.",
+      "technical_spec": "Conduct regular user testing and feedback sessions.",
       "severity_score": 90
     },
     {
-      "title": "Customer Centricity",
-      "description": "A user-first approach to delivering AI solutions.",
-      "technical_spec": "Regular feedback loops and user experience enhancements.",
+      "title": "Ethical AI Development",
+      "description": "Commit to ethical standards in developing and deploying AI.",
+      "technical_spec": "Develop a comprehensive AI ethics framework and compliance checklist.",
+      "severity_score": 97
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Foster a strong community around AI learning and collaboration.",
+      "technical_spec": "Host hackathons and maintain active discussion forums.",
+      "severity_score": 85
+    },
+    {
+      "title": "Transparency in AI",
+      "description": "Maintain open communication about AI technologies and their implications.",
+      "technical_spec": "Regularly publish white papers and hold press briefings.",
       "severity_score": 88
-    },
-    {
-      "title": "Transparency",
-      "description": "Open communication about AI technology limitations and capabilities.",
-      "technical_spec": "Public disclosures and transparency reports.",
-      "severity_score": 92
-    },
-    {
-      "title": "Collaboration",
-      "description": "Strength in partnerships and collaborations in the tech ecosystem.",
-      "technical_spec": "Strategic alliances with industry leaders and academic institutions.",
-      "severity_score": 90
     }
   ]
 }

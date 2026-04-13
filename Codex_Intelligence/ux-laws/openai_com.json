@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 19:02"
+    "date": "2026-04-13 20:43"
   },
   "data": [
     {
       "title": "Fitts’s Law",
-      "description": "Design elements are strategically positioned to enhance usability.",
-      "technical_spec": "Interactive elements are adequately sized and placed for ease of access.",
-      "severity_score": 85
+      "description": "Optimize interactive buttons and links for faster user interactions.",
+      "technical_spec": "Increase size and proximity of actionable items.",
+      "severity_score": 76
     },
     {
-      "title": "Hick’s Law",
-      "description": "Reduces choice overload for users by simplifying decision-making processes.",
-      "technical_spec": "Streamlined navigation and limited action buttons per screen.",
-      "severity_score": 88
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Graphs and lists are broken into digestible chunks.",
-      "technical_spec": "Limits information clusters on pages to 7±2 items.",
+      "title": "Hick's Law",
+      "description": "Minimize decision time by reducing choices displayed at once.",
+      "technical_spec": "Implement progressive disclosure to manage complexity.",
       "severity_score": 82
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Familiar UI patterns are used to leverage user expectations.",
-      "technical_spec": "Consistent use of standard icons and navigation paths.",
-      "severity_score": 90
+      "title": "Miller's Law",
+      "description": "Limit cognitive load by structuring information in chunks.",
+      "technical_spec": "Ensure information is grouped into 5 to 9 items.",
+      "severity_score": 70
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "Visual design enhances the overall usability perception.",
-      "technical_spec": "Use of a cohesive color palette and typography for aesthetic consistency.",
-      "severity_score": 87
+      "title": "Doherty Threshold",
+      "description": "Create system responses within 400ms to maintain user attention.",
+      "technical_spec": "Optimize server responses and frontend rendering times.",
+      "severity_score": 84
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Enhance perceived usability by improving visual design.",
+      "technical_spec": "Use a clean, modern aesthetic that aligns with brand identity.",
+      "severity_score": 75
     }
   ]
 }
