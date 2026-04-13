@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 17:53"
+    "date": "2026-04-13 19:02"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Ensure data security through encryption as data is sent or stored.",
-      "technical_spec": "Implement TLS for data in transit and AES for data at rest.",
+      "title": "Data Encryption",
+      "description": "All data transactions are encrypted using robust protocols.",
+      "technical_spec": "TLS 1.3 is employed for all data in transit.",
       "severity_score": 95
     },
     {
-      "title": "Zero Trust Architecture",
-      "description": "Adopt a zero trust model, assuming breaches will occur and validating every connection.",
-      "technical_spec": "Use identity-based network controls and continuous user verification.",
+      "title": "DDoS Protection",
+      "description": "The site is protected against DDoS attacks.",
+      "technical_spec": "Utilizes advanced firewall and DDoS prevention services from providers like Cloudflare.",
       "severity_score": 92
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conduct regular security assessments and penetration tests.",
-      "technical_spec": "Employ third-party security experts to audit systems bi-annually.",
-      "severity_score": 89
+      "description": "Conducts frequent security audits to identify vulnerabilities.",
+      "technical_spec": "Engages third-party cybersecurity firms for in-depth penetration testing.",
+      "severity_score": 85
     },
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Strengthen authentication mechanisms by using multiple verification methods.",
-      "technical_spec": "Implement MFA across all critical systems and platforms.",
+      "title": "Multifactor Authentication",
+      "description": "MFA is implemented for accessing sensitive parts of the platform.",
+      "technical_spec": "Supports 2FA through mobile apps and biometric authentication.",
+      "severity_score": 90
+    },
+    {
+      "title": "Secure Coding Practices",
+      "description": "Strict adherence to secure coding standards to mitigate common vulnerabilities.",
+      "technical_spec": "Incorporates OWASP recommended practices and code reviews.",
       "severity_score": 88
-    },
-    {
-      "title": "Incident Response Plan",
-      "description": "Develop a comprehensive plan to address and mitigate security breaches.",
-      "technical_spec": "Define clear protocols and a communication strategy for crisis scenarios.",
-      "severity_score": 91
     }
   ]
 }

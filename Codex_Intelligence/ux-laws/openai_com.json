@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 17:53"
+    "date": "2026-04-13 19:02"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Limit choices to improve user decision times by reducing complexity.",
-      "technical_spec": "Design interfaces with minimal necessary options to streamline user paths.",
-      "severity_score": 70
+      "title": "Fitts’s Law",
+      "description": "Design elements are strategically positioned to enhance usability.",
+      "technical_spec": "Interactive elements are adequately sized and placed for ease of access.",
+      "severity_score": 85
     },
     {
-      "title": "Fitts' Law",
-      "description": "Design interfaces such that larger buttons and elements are easy to target.",
-      "technical_spec": "Ensure actionable items are sized and placed to reduce error and increase speed.",
-      "severity_score": 75
+      "title": "Hick’s Law",
+      "description": "Reduces choice overload for users by simplifying decision-making processes.",
+      "technical_spec": "Streamlined navigation and limited action buttons per screen.",
+      "severity_score": 88
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Use visual grouping principles to create a predictable user experience.",
-      "technical_spec": "Apply proximity, similarity, and continuity to organize content logically.",
-      "severity_score": 72
+      "title": "Miller’s Law",
+      "description": "Graphs and lists are broken into digestible chunks.",
+      "technical_spec": "Limits information clusters on pages to 7±2 items.",
+      "severity_score": 82
     },
     {
-      "title": "Law of Proximity",
-      "description": "Group related items close together to imply relationships easily.",
-      "technical_spec": "Layout design should reflect logical grouping through strategic placement.",
-      "severity_score": 77
+      "title": "Jakob’s Law",
+      "description": "Familiar UI patterns are used to leverage user expectations.",
+      "technical_spec": "Consistent use of standard icons and navigation paths.",
+      "severity_score": 90
     },
     {
-      "title": "Occam's Razor",
-      "description": "Emphasize simplicity in design, removing unnecessary elements.",
-      "technical_spec": "Consistently review designs to ensure essentiality and eliminate clutter.",
-      "severity_score": 74
+      "title": "Aesthetic Usability Effect",
+      "description": "Visual design enhances the overall usability perception.",
+      "technical_spec": "Use of a cohesive color palette and typography for aesthetic consistency.",
+      "severity_score": 87
     }
   ]
 }
