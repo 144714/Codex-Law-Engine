@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 01:50"
+    "date": "2026-04-13 04:52"
   },
   "data": [
     {
-      "title": "Consistency",
-      "description": "Maintains consistent interface elements to streamline user interaction.",
-      "technical_spec": "Uniform design patterns and predictable UI components across the site.",
-      "severity_score": 82
+      "title": "Hick's Law",
+      "description": "The design simplifies user choices to minimize decision time.",
+      "technical_spec": "Utilizes progressive disclosure of information and choice filtering.",
+      "severity_score": 20
     },
     {
-      "title": "Feedback",
-      "description": "Provides users with immediate feedback for actions taken.",
-      "technical_spec": "Real-time notifications and confirmations for user actions.",
-      "severity_score": 85
+      "title": "Fitts' Law",
+      "description": "Interactive elements are sized and positioned to be easily accessible for user interaction.",
+      "technical_spec": "Primary controls are larger and positioned in intuitive hotspots.",
+      "severity_score": 15
     },
     {
-      "title": "Accessibility",
-      "description": "Ensures that all users have equal access to information and functionalities.",
-      "technical_spec": "Compliant with WCAG 2.1 AA standards, supporting screen readers and keyboard navigation.",
-      "severity_score": 88
+      "title": "Law of Simplicity",
+      "description": "The interface is designed to offer a simple, clean, and minimal aesthetic.",
+      "technical_spec": "Adopts whitespace and a minimalist approach to design.",
+      "severity_score": 10
     },
     {
-      "title": "Simplicity",
-      "description": "Focus on minimizing complexity and enhancing user understanding.",
-      "technical_spec": "Streamlined navigation with an uncluttered layout and intuitive controls.",
-      "severity_score": 80
+      "title": "Gestalt Principles",
+      "description": "Promotes visual grouping and hierarchy to guide the user's navigation experience.",
+      "technical_spec": "Usage of proximity, similarity, and continuity in visual design.",
+      "severity_score": 25
     },
     {
-      "title": "User Control",
-      "description": "Empowers users by giving them control over their interactions.",
-      "technical_spec": "Undo and redo options, and user settings that can be personalized.",
-      "severity_score": 84
+      "title": "Feedback Principle",
+      "description": "System feedback is clear and immediate to let users know their actions are registered.",
+      "technical_spec": "Real-time notifications and visual response for inputs.",
+      "severity_score": 20
     }
   ]
 }

@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 01:50"
+    "date": "2026-04-13 04:52"
   },
   "data": [
     {
-      "title": "Innovative Technology",
-      "description": "Commitment to pioneering AI solutions that push the boundaries of technology.",
-      "technical_spec": "Research and development focused on cutting-edge AI models.",
-      "severity_score": 95
+      "title": "Innovation Leadership",
+      "description": "Positioned as a leader in AI technology and innovation.",
+      "technical_spec": "Consistent communication of cutting-edge research and development achievements.",
+      "severity_score": 30
     },
     {
-      "title": "Transparent Practices",
-      "description": "Emphasizes openness in AI processes and decision-making.",
-      "technical_spec": "Publicly available API documentation and ethical AI guidelines.",
-      "severity_score": 90
+      "title": "Trust and Reliability",
+      "description": "Focus on building trust with users through transparent policies and reliable technology.",
+      "technical_spec": "Robust privacy policies and clear data handling practices emphasized.",
+      "severity_score": 35
     },
     {
-      "title": "Accessibility",
-      "description": "Creating AI technology that is accessible to a broad audience.",
-      "technical_spec": "User-friendly interfaces with multilingual support and pricing tiers.",
-      "severity_score": 88
+      "title": "User-centric Approach",
+      "description": "Design and communications emphasize user benefits and needs.",
+      "technical_spec": "User feedback loops and iterative design processes are in place.",
+      "severity_score": 25
     },
     {
-      "title": "Responsible AI",
-      "description": "Committed to developing AI responsibly with a focus on ethical considerations.",
-      "technical_spec": "Includes AI bias mitigation strategies and fairness assessment tools.",
-      "severity_score": 92
+      "title": "Educational Resource",
+      "description": "Functions as a key educational resource for AI knowledge dissemination.",
+      "technical_spec": "Regular content updates include tutorials, articles, and guideline publications.",
+      "severity_score": 20
     },
     {
-      "title": "Customer-Centric Approach",
-      "description": "Prioritizes user feedback and needs in product development.",
-      "technical_spec": "Uses customer insights to guide product iterations and innovation roadmaps.",
-      "severity_score": 85
+      "title": "Sustainability Commitment",
+      "description": "Demonstrates a commitment to sustainable practices and ethical AI development.",
+      "technical_spec": "Initiatives on energy-efficient data centers and responsible AI guidelines.",
+      "severity_score": 40
     }
   ]
 }
