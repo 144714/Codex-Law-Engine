@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 27,
+    "rank": 37,
     "site": "spotify.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "5106e5faca527b322029a82532e9a42a"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "f55ea9d8795bf06f820d6b60a46ecabc"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Spotify employs a microservices architecture for scalable and independent service deployments.",
-      "technical_spec": "Services are developed, deployed, and scaled independently, often using REST or gRPC APIs.",
-      "severity_score": 10
-    },
-    {
-      "title": "Event-Driven Design",
-      "description": "Utilizes an event-driven system to handle asynchronous communication across services.",
-      "technical_spec": "Employs message brokers like Kafka for event streaming.",
+      "description": "Spotify employs a microservices architecture to enable independent deployment and scaling of individual services.",
+      "technical_spec": "Each service is designed to perform a specific task, communicated via RESTful APIs.",
       "severity_score": 15
     },
     {
-      "title": "Cloud Integration",
-      "description": "Spotify heavily relies on cloud services for resource management and scaling.",
-      "technical_spec": "Primarily using Google Cloud Platform for hosting and data processing needs.",
-      "severity_score": 5
-    },
-    {
-      "title": "Data Infrastructure",
-      "description": "Robust data handling and processing capabilities to support millions of users.",
-      "technical_spec": "Incorporates technologies like Hadoop, Apache Beam, and Pub/Sub for data operations.",
+      "title": "Event-Driven Architecture",
+      "description": "The system leverages event-driven components for asynchronous communication between services.",
+      "technical_spec": "Uses message brokers like Kafka to handle streaming data and events.",
       "severity_score": 20
     },
     {
-      "title": "API First Approach",
-      "description": "Designed to enable third-party integrations and internal service communications.",
-      "technical_spec": "Extensive use of open APIs for both internal and external accessibility.",
-      "severity_score": 10
+      "title": "Content Delivery Network (CDN)",
+      "description": "A CDN is used to efficiently serve media content to users worldwide, reducing latency and bandwidth usage.",
+      "technical_spec": "Incorporates globally distributed servers to deliver audio streams and assets.",
+      "severity_score": 30
+    },
+    {
+      "title": "Hybrid Cloud Infrastructure",
+      "description": "Spotify operates a hybrid cloud model to balance costs, performance, and geographical reach.",
+      "technical_spec": "Utilizes both on-premises servers and cloud services from providers like Google Cloud.",
+      "severity_score": 25
+    },
+    {
+      "title": "Database Sharding",
+      "description": "To manage scale and performance, Spotify implements database sharding across its data storage systems.",
+      "technical_spec": "Divide databases into smaller, manageable pieces called shards, tailored for horizontal scaling.",
+      "severity_score": 40
     }
   ]
 }

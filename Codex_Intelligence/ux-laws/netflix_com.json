@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 26,
+    "rank": 36,
     "site": "netflix.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "18a0f7a2d2ad77be5a74b8ec702d380c"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "be44f819e659a96c43ce27fbb8cff96a"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplification to reduce decision-making time for users.",
-      "technical_spec": "Clear and concise categories for browsing.",
-      "severity_score": 20
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Optimizing button sizes and positioning on the interface.",
-      "technical_spec": "Primer buttons are larger and located centrally for easy access.",
+      "title": "Hick’s Law",
+      "description": "Simplifying choices to reduce decision time and enhance navigability.",
+      "technical_spec": "Measured UI options and minimalistic design for easy user decision-making.",
       "severity_score": 15
     },
     {
-      "title": "Miller's Law",
-      "description": "Reflecting the limited capacity of human memory.",
-      "technical_spec": "Structured content is grouped under logical categories.",
-      "severity_score": 20
+      "title": "Fitts’s Law",
+      "description": "Optimizing elements' size and position for effective navigation and interaction.",
+      "technical_spec": "Design places frequently used buttons within easy reach to improve functionality.",
+      "severity_score": 12
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Users expect your site to work the same way as others they already know.",
-      "technical_spec": "Familiar navigation patterns are maintained.",
-      "severity_score": 25
+      "title": "Pareto Principle",
+      "description": "Ensuring that 80% of content engagement comes from 20% of the features.",
+      "technical_spec": "Focus on optimizing core features that drive the most user interaction.",
+      "severity_score": 18
     },
     {
-      "title": "Zeigarnik Effect",
-      "description": "People remember uncompleted or interrupted tasks better.",
-      "technical_spec": "Continue watching feature for resuming unfinished content with ease.",
+      "title": "Aesthetic-Usability Effect",
+      "description": "Attractive design improves perceived usability and user satisfaction.",
+      "technical_spec": "Employing clean, visually appealing design principles across the platform.",
+      "severity_score": 14
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Grouping related elements together to enhance user comprehension.",
+      "technical_spec": "Strategic UI grouping to align related content for intuitive navigation.",
       "severity_score": 10
     }
   ]

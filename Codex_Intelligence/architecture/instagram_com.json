@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 29,
+    "rank": 39,
     "site": "instagram.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "c3c96b11b724793a337345c30e9ab368"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "c358781b22a78bd8d09f78edc41c8f29"
   },
   "data": [
     {
-      "title": "Scalable Microservices",
-      "description": "Instagram's backend is built on a microservices architecture that allows for independent deployment and scaling of services.",
-      "technical_spec": "Deployed on AWS, utilizing Docker containers and Kubernetes for orchestration.",
-      "severity_score": 5
+      "title": "Microservices Architecture",
+      "description": "Instagram utilizes a microservices architecture to manage its complex set of features and functionalities.",
+      "technical_spec": "Decoupled microservices managed via REST APIs and gRPC.",
+      "severity_score": 15
     },
     {
-      "title": "Database Design",
-      "description": "Utilization of sharded MySQL and Redis for data storage, ensuring data redundancy and high availability.",
-      "technical_spec": "Horizontal partitioning with auto-failover mechanisms.",
+      "title": "Horizontal Scaling",
+      "description": "Designed to handle millions of users simultaneously through distributed computing resources.",
+      "technical_spec": "Load balancers and distributed server clusters deployed globally.",
       "severity_score": 10
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Global CDN to deliver media content quickly to users around the world.",
-      "technical_spec": "CloudFront integration for caching static assets.",
-      "severity_score": 3
+      "title": "NoSQL Database",
+      "description": "Utilizes NoSQL databases for rapid access to large volumes of unstructured data, e.g., user-generated content.",
+      "technical_spec": "Systems like Cassandra and Redis for caching.",
+      "severity_score": 20
     },
     {
-      "title": "Load Balancing",
-      "description": "Efficiently distributing incoming network traffic across multiple servers.",
-      "technical_spec": "Elastic Load Balancers (ELB) managing incoming user requests.",
-      "severity_score": 8
+      "title": "CDN Integration",
+      "description": "Content Delivery Networks are used to deliver media content efficiently and reliably to a global audience.",
+      "technical_spec": "Partnership with CDN providers like Akamai.",
+      "severity_score": 12
     },
     {
-      "title": "GraphQL API",
-      "description": "Leverages GraphQL for flexible and efficient client-server interactions.",
-      "technical_spec": "Node.js and Apollo Server for API gateways.",
-      "severity_score": 7
+      "title": "Containerization",
+      "description": "Employs containerization for deploying applications consistently across different environments.",
+      "technical_spec": "Docker and Kubernetes orchestration used for managing containers.",
+      "severity_score": 18
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 24,
+    "rank": 34,
     "site": "microsoft.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "a0aa568972650f617a8f1ec4b7693bd3"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "a4db1fe223f1699e9be971d8a7e5ceca"
   },
   "data": [
     {
-      "title": "Innovation-driven",
-      "description": "Commitment to continuous innovation and embracing cutting-edge technologies.",
-      "technical_spec": "Products and services regularly updated with the latest features.",
-      "severity_score": 20
-    },
-    {
-      "title": "Customer-centric Approach",
-      "description": "Focus on enhancing user experience and satisfaction.",
-      "technical_spec": "User feedback loops and support channels actively monitored.",
-      "severity_score": 25
-    },
-    {
-      "title": "Global Presence",
-      "description": "Strong international presence with localized content and services.",
-      "technical_spec": "Region-specific offerings and multi-language support provided.",
+      "title": "Innovation",
+      "description": "Pioneers in technology development and cutting-edge solutions.",
+      "technical_spec": "Research and development programs, AI integration",
       "severity_score": 30
     },
     {
-      "title": "Trust and Security",
-      "description": "Strong emphasis on data security and privacy protection.",
-      "technical_spec": "Compliance with global standards like GDPR, HIPAA, etc.",
-      "severity_score": 35
+      "title": "Trust",
+      "description": "Focuses on transparency and security across all platforms.",
+      "technical_spec": "User data privacy initiatives, Ethical AI development",
+      "severity_score": 28
     },
     {
-      "title": "Diversity and Inclusion",
-      "description": "Promotes diverse and inclusive culture within the organization.",
-      "technical_spec": "Policies and initiatives aimed at diverse workforce inclusion.",
-      "severity_score": 15
+      "title": "Inclusivity",
+      "description": "Promotes diversity and accessibility in technology products.",
+      "technical_spec": "Accessibility tools, Multilingual support",
+      "severity_score": 24
+    },
+    {
+      "title": "Global Reach",
+      "description": "Serves a worldwide audience with localized content.",
+      "technical_spec": "Localized digital services, Multiregional data centers",
+      "severity_score": 26
+    },
+    {
+      "title": "Sustainability",
+      "description": "Commits to environmental responsibility and sustainable practices.",
+      "technical_spec": "Green data centers, Sustainability reporting",
+      "severity_score": 27
     }
   ]
 }

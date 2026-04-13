@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 23,
+    "rank": 33,
     "site": "apple.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "bc11d4eb04d4db35857aebd51bb58ac6"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "a81f1aa0f1e1067a95c16e8417b7addb"
   },
   "data": [
     {
       "title": "Fitts's Law",
-      "description": "Applied to design interfaces for efficient navigation and accessibility.",
-      "technical_spec": "Button sizing and spacing optimized for touch input.",
-      "severity_score": 10
+      "description": "Design considerations for interactive elements based on target size and distance.",
+      "technical_spec": "Consistent button sizes and spacing for improved usability.",
+      "severity_score": 25
     },
     {
       "title": "Hick's Law",
-      "description": "Simple decision-making pathways enhance user experience.",
-      "technical_spec": "Navigation decisions reduced using streamlined menus and search functions.",
-      "severity_score": 15
+      "description": "Simplifying choices to reduce user decision time.",
+      "technical_spec": "Streamlined navigation and clear information hierarchy.",
+      "severity_score": 30
     },
     {
       "title": "Jakob's Law",
-      "description": "Adapts familiar design conventions to enhance usability.",
-      "technical_spec": "UI elements follow industry standards to reduce user learning curves.",
-      "severity_score": 5
-    },
-    {
-      "title": "Consistency and Standards",
-      "description": "Maintains consistent UI elements across the site for improved usability.",
-      "technical_spec": "Adopts consistent iconography and typography.",
-      "severity_score": 10
-    },
-    {
-      "title": "Zeigarnik Effect",
-      "description": "Encourages task completion by creating memorable user interactions.",
-      "technical_spec": "Implemented through interactive tutorials and progressive disclosures.",
+      "description": "Design aligned with user expectations from similar interfaces.",
+      "technical_spec": "Familiar navigation patterns and UI components.",
       "severity_score": 20
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Limiting cognitive load with chunking information.",
+      "technical_spec": "Group related content and use bullet points for clarity.",
+      "severity_score": 35
+    },
+    {
+      "title": "Kohler's Law",
+      "description": "Enhancing recognition through visually distinct elements.",
+      "technical_spec": "Use of contrast and color to distinguish interface elements.",
+      "severity_score": 40
     }
   ]
 }

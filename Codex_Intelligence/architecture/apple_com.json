@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 23,
+    "rank": 33,
     "site": "apple.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "77537449af82781787b256a4cf558d18"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "e42a6fe74947405e8a7d9d71ace39fdf"
   },
   "data": [
     {
-      "title": "Microservices Design",
-      "description": "The website is built on a microservices architecture to enhance scalability and agility.",
-      "technical_spec": "Deployed using containerized services, managed through Kubernetes.",
-      "severity_score": 10
-    },
-    {
-      "title": "Responsive Framework",
-      "description": "Responsive design allows seamless functioning across devices.",
-      "technical_spec": "Implemented using CSS3 Media Queries and Bootstrap as the front-end framework.",
-      "severity_score": 20
-    },
-    {
-      "title": "Content Delivery Network",
-      "description": "Employs a global CDN to decrease page load times.",
-      "technical_spec": "Utilizes Akamai services for caching and distribution.",
+      "title": "Responsive Design",
+      "description": "The site uses a responsive web design to adapt across various devices.",
+      "technical_spec": "CSS media queries and fluid grid layouts.",
       "severity_score": 15
     },
     {
-      "title": "Distributed Database Architecture",
-      "description": "Utilizes distributed database systems to ensure reliability and performance.",
-      "technical_spec": "Incorporates NoSQL databases like Cassandra and SQL-based systems for structured data.",
+      "title": "Single Page Application",
+      "description": "Elements of a single-page application approach to improve performance and user experience.",
+      "technical_spec": "JavaScript frameworks like React or Vue.js.",
       "severity_score": 25
     },
     {
-      "title": "Serverless Functions",
-      "description": "Leverages serverless computing for backend operations.",
-      "technical_spec": "Implemented using AWS Lambda and API Gateway for serverless architectures.",
+      "title": "Global Content Delivery Network",
+      "description": "Use of a CDN to deliver content globally with reduced latency.",
+      "technical_spec": "Akamai or Cloudflare for distributing static assets.",
+      "severity_score": 5
+    },
+    {
+      "title": "Microservices Architecture",
+      "description": "Decoupled services for scalability and maintainability.",
+      "technical_spec": "RESTful APIs and Docker containers for services.",
       "severity_score": 30
+    },
+    {
+      "title": "Accessibility Features",
+      "description": "Enhanced accessibility features to ensure inclusive usage.",
+      "technical_spec": "ARIA standards and WCAG 2.1 compliance.",
+      "severity_score": 20
     }
   ]
 }

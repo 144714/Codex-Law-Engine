@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 24,
+    "rank": 34,
     "site": "microsoft.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "049a0a8b479350887324b482f575ce59"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "be6635bafc580f8ea0e7ca268a99a31e"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making by reducing the number of choices presented at once.",
-      "technical_spec": "Streamlined navigation and restricted menu options.",
-      "severity_score": 25
-    },
-    {
-      "title": "Fitts' Law",
-      "description": "Designs cater to ease of mouse targeting by positioning key elements strategically.",
-      "technical_spec": "Placement of buttons and interactive objects in easily reachable areas.",
+      "description": "Limits user decision-overload by simplifying choices on each page.",
+      "technical_spec": "Streamlined navigation, Minimalistic design",
       "severity_score": 20
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "Visually appealing designs are employed to enhance perceived usability.",
-      "technical_spec": "Modern design paradigms with a tidy interface layout.",
-      "severity_score": 15
+      "title": "Gestalt Principles",
+      "description": "Utilizes visual hierarchy and grouping to enhance readability.",
+      "technical_spec": "Consistent iconography, Whitespace management",
+      "severity_score": 18
     },
     {
-      "title": "Jakob's Law",
-      "description": "Users are more familiar and comfortable with design paradigms from frequently used sites.",
-      "technical_spec": "Standardization of design patterns in line with popular web services.",
-      "severity_score": 30
+      "title": "Fitts' Law",
+      "description": "Designs with target acquisition speed in mind, ensuring clickable elements are accessible.",
+      "technical_spec": "Large target buttons, Edge placement",
+      "severity_score": 22
     },
     {
       "title": "Miller's Law",
-      "description": "Ensuring that information is presented in chunks for better comprehension.",
-      "technical_spec": "Text and information are structured into manageable sections.",
+      "description": "Breaks complex information into chunks to aid user memory retention.",
+      "technical_spec": "Accordion menus, Step-by-step guides",
       "severity_score": 25
+    },
+    {
+      "title": "Law of Common Region",
+      "description": "Groups related items using bounding boxes and visual containers.",
+      "technical_spec": "Card layouts, Section dividers",
+      "severity_score": 19
     }
   ]
 }

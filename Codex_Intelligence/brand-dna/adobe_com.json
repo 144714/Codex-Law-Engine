@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 28,
+    "rank": 38,
     "site": "adobe.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "05b5f10eda19f84d62fecdc1907d0155"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "c3fa5365af182068c6db7204055bcc3c"
   },
   "data": [
     {
       "title": "Creative Empowerment",
-      "description": "Brands itself as a leader in empowering creativity globally.",
-      "technical_spec": "Marketing campaigns and product designs focus on user empowerment.",
-      "severity_score": 96
+      "description": "Adobe's core mission is to empower creativity through its tools and platforms.",
+      "technical_spec": "Creative Cloud, user-centric updates, extensive tutorials",
+      "severity_score": 10
     },
     {
-      "title": "Innovative Leadership",
-      "description": "Showcases cutting-edge innovation in digital media.",
-      "technical_spec": "Continuous investment in R&D for new creative tools.",
-      "severity_score": 95
+      "title": "Innovative Technology",
+      "description": "Continuous development of cutting-edge technology for creative professionals.",
+      "technical_spec": "AI integrations, Adobe Sensei, real-time collaboration tools",
+      "severity_score": 15
     },
     {
-      "title": "Diverse Ecosystem",
-      "description": "Supports a wide range of digital content creation.",
-      "technical_spec": "Offers integrated software from design to production.",
-      "severity_score": 92
+      "title": "Customer Focus",
+      "description": "Deep understanding of customer needs to tailor solutions.",
+      "technical_spec": "User feedback integration, personalized user experiences, community forums",
+      "severity_score": 12
     },
     {
-      "title": "Sustainability",
-      "description": "Commits to sustainable practices across operations.",
-      "technical_spec": "Adoption of eco-friendly policies and processes.",
-      "severity_score": 88
+      "title": "Design Excellence",
+      "description": "Commitment to the highest standards of quality in design and functionality.",
+      "technical_spec": "Industry-leading UX/UI, award-winning design teams, thorough testing",
+      "severity_score": 8
     },
     {
-      "title": "Global Reach",
-      "description": "Has a significant presence and influence worldwide.",
-      "technical_spec": "Operates a robust international business network.",
-      "severity_score": 94
+      "title": "Digital Transformation Leadership",
+      "description": "Leading role in guiding industries through digital transformations.",
+      "technical_spec": "Comprehensive suites for digital media, marketing, and document management.",
+      "severity_score": 20
     }
   ]
 }

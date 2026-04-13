@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 30,
+    "rank": 40,
     "site": "whatsapp.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "f1bf13e48578e166430f11cb5c51cab2"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "197dd6e141c0fab5842a35626042fedc"
   },
   "data": [
     {
-      "title": "Two-Step Verification",
-      "description": "An added security layer requiring a PIN for account verification.",
-      "technical_spec": "User-configured PIN to protect account from unauthorized access.",
-      "severity_score": 30
-    },
-    {
-      "title": "Spam Detection",
-      "description": "Automatic detection and barring of spam and bulk messages.",
-      "technical_spec": "Machine learning algorithms analyze message patterns.",
+      "title": "Two-Factor Authentication",
+      "description": "Provides an extra layer of security by requiring verification via a second device.",
+      "technical_spec": "Optional feature, uses SMS or authenticator apps for 2FA.",
       "severity_score": 25
     },
     {
-      "title": "Fraud Prevention",
-      "description": "Mechanisms to prevent account takeovers and unauthorized access.",
-      "technical_spec": "Combination of behavioral analytics and user reporting.",
-      "severity_score": 40
+      "title": "Encryption Key Management",
+      "description": "Manages cryptographic keys securely to prevent unauthorized decryption.",
+      "technical_spec": "Keys are stored on devices; only users have access to their own encryption keys.",
+      "severity_score": 30
     },
     {
-      "title": "Encryption at Rest",
-      "description": "Data is encrypted while on servers to prevent unauthorized access.",
-      "technical_spec": "AES-256 encryption used for storing data.",
-      "severity_score": 20
-    },
-    {
-      "title": "Cross-Site Scripting Prevention",
-      "description": "Prevention of XSS attacks by sanitizing inputs.",
-      "technical_spec": "Input validation and content security policy enforcement.",
+      "title": "Message Integrity Protections",
+      "description": "Ensures that messages are not tampered with during transit.",
+      "technical_spec": "Employs hash functions and digital signatures to validate messages.",
       "severity_score": 35
+    },
+    {
+      "title": "Threat Detection Systems",
+      "description": "Continuously monitors for suspicious activities and potential threats.",
+      "technical_spec": "AI and machine learning algorithms to detect anomalies in message patterns.",
+      "severity_score": 45
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts regular penetration testing and security audits to identify vulnerabilities.",
+      "technical_spec": "Third-party security firms employed for comprehensive system audits.",
+      "severity_score": 20
     }
   ]
 }

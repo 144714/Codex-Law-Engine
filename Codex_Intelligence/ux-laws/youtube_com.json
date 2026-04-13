@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 22,
+    "rank": 32,
     "site": "youtube.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "e40cdd2095b95a6ccf6365e273353ce3"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "2f9094cf416ab7e00019930d35c44c34"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Interface elements that are easier to select improve usability.",
-      "technical_spec": "Optimization of clickable areas for essential interactive elements.",
-      "severity_score": 3
-    },
-    {
       "title": "Hick's Law",
-      "description": "Shorten user decision time by simplifying menu options and layouts.",
-      "technical_spec": "Simplified navigation menus and personalized suggestions.",
-      "severity_score": 5
+      "description": "Keeps user choices simple to enhance decision-making speed.",
+      "technical_spec": "Minimalistic design, Intuitive navigation, Focused content.",
+      "severity_score": 85
     },
     {
-      "title": "Miller’s Law",
-      "description": "Limiting the amount of information displayed to prevent cognitive overload.",
-      "technical_spec": "Chunking content into digestible sections, like video playlists.",
-      "severity_score": 4
+      "title": "Fitts's Law",
+      "description": "Design elements ensuring ease of interactibility.",
+      "technical_spec": "Button size optimization, Responsive click areas, Industrial placements.",
+      "severity_score": 84
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Users prefer interfaces that work similarly to other commonly used systems.",
-      "technical_spec": "Aligning user interface patterns with widely adopted web standards.",
-      "severity_score": 2
+      "title": "Law of Proximity",
+      "description": "Aligns related items together for better visual grouping.",
+      "technical_spec": "Grid layouts, Spatial proximity, White spaces.",
+      "severity_score": 82
     },
     {
-      "title": "Tesler’s Law",
-      "description": "Complexity is kept within the system rather than being passed to the user.",
-      "technical_spec": "Advanced algorithms for seamless video recommendations without user input.",
-      "severity_score": 6
+      "title": "Miller's Law",
+      "description": "Chunks information to prevent overwhelming users.",
+      "technical_spec": "Segmented content, Content hierarchy, Chunked data presentation.",
+      "severity_score": 81
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Utilizes familiar design patterns by users.",
+      "technical_spec": "Consistent UI elements, Familiar user journeys, Common design standards.",
+      "severity_score": 88
     }
   ]
 }

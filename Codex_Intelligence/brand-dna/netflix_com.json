@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 26,
+    "rank": 36,
     "site": "netflix.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "76fe78cfb2320c83cabb9674212bef71"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "1c2cd08629085330039112eb9cbe019c"
   },
   "data": [
     {
-      "title": "Innovative Storytelling",
-      "description": "Focuses on original content that pushes creative boundaries.",
-      "technical_spec": "Investments in production and partnerships with talented creators.",
+      "title": "Global Reach",
+      "description": "Netflix maintains a strong international presence, tailoring services for global audiences.",
+      "technical_spec": "Availability in 190 countries, offering diverse language options and localized content.",
+      "severity_score": 8
+    },
+    {
+      "title": "Original Content Production",
+      "description": "Investing heavily in creating original films and series to define brand uniqueness.",
+      "technical_spec": "In-house production of content under Netflix Originals banner.",
       "severity_score": 20
     },
     {
-      "title": "Global Reach",
-      "description": "Accessible in over 190 countries with localized content.",
-      "technical_spec": "Multiple language support and local operations.",
+      "title": "User-Centric Innovation",
+      "description": "Continuous innovation focusing on enhancing user experience.",
+      "technical_spec": "Investment in AI-driven personalization and seamless user interface developments.",
       "severity_score": 15
     },
     {
-      "title": "Data-Driven Decisions",
-      "description": "Uses analytics for personalized user experiences and content selection.",
-      "technical_spec": "Advanced data analytics tools and machine learning algorithms.",
-      "severity_score": 30
-    },
-    {
-      "title": "User-Centric Design",
-      "description": "Commitment to providing an easy, enjoyable user experience.",
-      "technical_spec": "Regular user testing and feedback implementation.",
+      "title": "Binge-Watching Format",
+      "description": "Full-season releases cater to users who prefer binge-watching.",
+      "technical_spec": "Releasing all episodes of a season simultaneously instead of weekly.",
       "severity_score": 10
     },
     {
-      "title": "Commitment to Diversity",
-      "description": "Promotes diversity in both content and workforce.",
-      "technical_spec": "Diversity-focused hiring practices and inclusive content strategy.",
-      "severity_score": 20
+      "title": "Data-Driven Decisions",
+      "description": "Utilizing big data analytics to guide content strategy and customization.",
+      "technical_spec": "Advanced data analytics and machine learning algorithms for user preference insights.",
+      "severity_score": 22
     }
   ]
 }

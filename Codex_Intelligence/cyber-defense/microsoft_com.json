@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 24,
+    "rank": 34,
     "site": "microsoft.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "ec0a8f154d5c8930d556a2afbb734044"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "7618307420c799b644ab15fa32fa0fa0"
   },
   "data": [
     {
       "title": "Advanced Threat Protection",
-      "description": "Implementation of threat detection and response systems.",
-      "technical_spec": "Microsoft Defender for Cloud and Threat Intelligence solutions.",
-      "severity_score": 40
+      "description": "Protects against sophisticated threats and malware.",
+      "technical_spec": "Microsoft Defender for Endpoint, Threat Intelligence",
+      "severity_score": 5
     },
     {
-      "title": "Encryption and Data Protection",
-      "description": "Comprehensive data protection using encryption at rest and in transit.",
-      "technical_spec": "TLS 1.2+ for data in transit, AES-256 encryption for data at rest.",
-      "severity_score": 50
+      "title": "Identity Management",
+      "description": "Secures digital identities through multi-factor authentication.",
+      "technical_spec": "Azure Active Directory, OAuth 2.0, SAML",
+      "severity_score": 8
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Integration of secure identity solutions for user authentication.",
-      "technical_spec": "Azure Active Directory (AD) for identity verification.",
-      "severity_score": 45
+      "title": "Data Encryption",
+      "description": "Encrypts data both at rest and in transit for enhanced security.",
+      "technical_spec": "TLS 1.3, AES-256 Encryption",
+      "severity_score": 3
     },
     {
-      "title": "DDoS Protection",
-      "description": "Robust systems in place to mitigate Distributed Denial of Service attacks.",
-      "technical_spec": "Azure DDoS Protection with automatic detection and mitigation.",
-      "severity_score": 35
+      "title": "Intrusion Detection and Prevention",
+      "description": "Monitors, detects, and prevents unauthorized access.",
+      "technical_spec": "Azure Security Center",
+      "severity_score": 7
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Frequent security audits and compliance reviews are conducted.",
-      "technical_spec": "Scheduled audits in compliance with ISO standards and other regulations.",
-      "severity_score": 30
+      "title": "Security Information and Event Management",
+      "description": "Centralizes logging and event monitoring for swift threat response.",
+      "technical_spec": "Azure Sentinel",
+      "severity_score": 9
     }
   ]
 }

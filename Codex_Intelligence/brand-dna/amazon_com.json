@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 25,
+    "rank": 35,
     "site": "amazon.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "832cb8c3b6a35a94ece88c60a69f3b61"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "0a53a67ab4628a4a18ac96c76737df3f"
   },
   "data": [
     {
-      "title": "Customer Centricity",
-      "description": "Amazon prioritizes customer needs and satisfaction in all business practices.",
-      "technical_spec": "Features like customer reviews, fast shipping options.",
-      "severity_score": 5
+      "title": "Customer Obsession",
+      "description": "Focusing on customer satisfaction as a top priority in all business decisions.",
+      "technical_spec": "24/7 customer service and liberal return policies.",
+      "severity_score": 99
     },
     {
-      "title": "Innovation Culture",
-      "description": "Continuous innovation aiming to improve shopping experience and convenience.",
-      "technical_spec": "Amazon Echo, AWS advancements.",
-      "severity_score": 15
+      "title": "Innovation",
+      "description": "Continuous innovation to enhance product and service offerings.",
+      "technical_spec": "Regular launches of new services like Amazon Prime and Alexa.",
+      "severity_score": 95
     },
     {
       "title": "Operational Excellence",
-      "description": "Focuses on operational efficiency and reliability in delivering services.",
-      "technical_spec": "Streamlined supply chains, effective logistics.",
-      "severity_score": 10
+      "description": "Striving for efficiency in operations to deliver faster and better services.",
+      "technical_spec": "Supply chain optimization using automated processes.",
+      "severity_score": 97
     },
     {
-      "title": "Global Scalability",
-      "description": "Expansion and adaptability of services to suit global markets.",
-      "technical_spec": "Localized content and services across countries.",
-      "severity_score": 20
+      "title": "Leadership Principles",
+      "description": "Embedding leadership principles into company culture and operations.",
+      "technical_spec": "Principles like 'Think Big' and 'Invent and Simplify' guide decision making.",
+      "severity_score": 98
     },
     {
-      "title": "Trusted Ecosystem",
-      "description": "Building a trusted environment for both customers and sellers.",
-      "technical_spec": "Secure transaction protocols, guaranteed purchases.",
-      "severity_score": 10
+      "title": "Long-Term Thinking",
+      "description": "Focusing on sustainable growth and investments for future expansion.",
+      "technical_spec": "Investments in technology infrastructure and global market expansion.",
+      "severity_score": 96
     }
   ]
 }

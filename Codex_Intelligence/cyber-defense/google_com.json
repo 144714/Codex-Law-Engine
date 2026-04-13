@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 21,
+    "rank": 31,
     "site": "google.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "993e73cf2da9f5085a17bb27ab15a8db"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "1a98b3bcb4bebf5f25692385c5189074"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication (2FA)",
-      "description": "Adds an extra layer of security to user accounts.",
-      "technical_spec": "Offers SMS, app-based, or hardware key options for 2FA.",
-      "severity_score": 25
+      "title": "TLS Encryption",
+      "description": "All data transmitted between users and Google servers is encrypted.",
+      "technical_spec": "Uses TLS 1.3 with forward secrecy.",
+      "severity_score": 3
     },
     {
-      "title": "Advanced Encryption Standards",
-      "description": "Encrypts data both at rest and during transmission.",
-      "technical_spec": "Utilizes TLS for data in transit and AES-256 for data at rest.",
+      "title": "BeyondCorp",
+      "description": "Zero-trust security model that safeguards internal Google networks.",
+      "technical_spec": "Verifies identity and device context for access.",
       "severity_score": 15
     },
     {
-      "title": "Threat Detection Systems",
-      "description": "Monitors for and mitigates security threats in real-time.",
-      "technical_spec": "AI and machine learning-based systems to detect anomalies and potential attacks.",
-      "severity_score": 20
-    },
-    {
-      "title": "Security Patches",
-      "description": "Regular updates are applied to fix known vulnerabilities.",
-      "technical_spec": "Automated patch management system to deploy updates globally.",
+      "title": "Data Encryption at Rest",
+      "description": "User data is encrypted when stored on Google's servers.",
+      "technical_spec": "AES encryption standards applied to stored data.",
       "severity_score": 10
     },
     {
-      "title": "Bug Bounty Program",
-      "description": "Encourages external security researchers to find and report vulnerabilities.",
-      "technical_spec": "Incentive program that pays for valid vulnerability reports.",
-      "severity_score": 30
+      "title": "DDoS Protection",
+      "description": "Robust systems in place to prevent Distributed Denial of Service attacks.",
+      "technical_spec": "Integrated DDoS prevention on the cloud infrastructure.",
+      "severity_score": 20
+    },
+    {
+      "title": "Phishing Protection",
+      "description": "Advanced threat detection systems identify and mitigate phishing attempts.",
+      "technical_spec": "Real-time threat assessment and user intervention alerts.",
+      "severity_score": 15
     }
   ]
 }

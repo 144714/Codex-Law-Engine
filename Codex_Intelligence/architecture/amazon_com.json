@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 25,
+    "rank": 35,
     "site": "amazon.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "ad4be90549e299ee01c91449d2164462"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "17ecb322d25af41fbb68e78497dcfc34"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Amazon uses a microservices architecture distributing services across numerous separate modules.",
-      "technical_spec": "Service Oriented Architecture (SOA) with APIs for communication.",
-      "severity_score": 10
+      "description": "Amazon uses a microservices architecture to decouple services for scalability and flexibility.",
+      "technical_spec": "Individual services with specific functionalities that communicate over HTTP and message queues.",
+      "severity_score": 90
     },
     {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "Amazon's backend is built on AWS leveraging elastic scaling and redundant systems.",
-      "technical_spec": "AWS Elastic Load Balancing, Auto Scaling Groups.",
-      "severity_score": 5
+      "title": "AWS Integration",
+      "description": "Extensive use of AWS infrastructure to ensure high availability and redundancy.",
+      "technical_spec": "Services like EC2, S3, and DynamoDB are used.",
+      "severity_score": 95
     },
     {
-      "title": "Distributed Databases",
-      "description": "Utilizes distributed database systems for handling transactions across diverse regions.",
-      "technical_spec": "Amazon DynamoDB, Aurora, and RDS.",
-      "severity_score": 15
+      "title": "Monolithic Legacy Support",
+      "description": "Support for legacy systems through monolithic components.",
+      "technical_spec": "Older parts of the system may still require synchronous communication.",
+      "severity_score": 70
     },
     {
-      "title": "Edge Computing with CDNs",
-      "description": "Content Delivery Networks (CDNs) are used to reduce latency and increase content delivery speeds.",
-      "technical_spec": "Amazon CloudFront and AWS Edge Locations.",
-      "severity_score": 10
+      "title": "Serverless Computing",
+      "description": "Use of AWS Lambda for certain functions to provide scalability without managing infrastructure.",
+      "technical_spec": "Event-driven execution and runs on AWS's shared infrastructure.",
+      "severity_score": 80
     },
     {
-      "title": "Robust Application Layer",
-      "description": "Utilizes robust application layer to manage business logic and API requests.",
-      "technical_spec": "Amazon API Gateway, AWS Lambda for serverless computing.",
-      "severity_score": 20
+      "title": "Data-Driven Architecture",
+      "description": "Incorporation of big data and real-time analytics into various services.",
+      "technical_spec": "Tools like Amazon Redshift and Amazon Kinesis are used.",
+      "severity_score": 85
     }
   ]
 }

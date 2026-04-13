@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 22,
+    "rank": 32,
     "site": "youtube.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "481d65e47f25c5b2eaf61dbfa44a1945"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "ac173695612712ce059ded6fdc503d90"
   },
   "data": [
     {
       "title": "Global Reach",
-      "description": "YouTube's brand emphasizes its reach and accessibility worldwide.",
-      "technical_spec": "Multi-language support and region-specific content algorithms.",
-      "severity_score": 2
+      "description": "Provides content accessibility across most global regions.",
+      "technical_spec": "Localized servers, Multilingual support, Global partnerships.",
+      "severity_score": 92
     },
     {
-      "title": "Creativity Platform",
-      "description": "Promotes a culture of creativity and user-generated content.",
-      "technical_spec": "Tools for content creation, including video editing and live streaming.",
-      "severity_score": 4
+      "title": "Content Diversity",
+      "description": "Hosts a wide range of content categories and genres.",
+      "technical_spec": "User-generated content, Professional channels, Diverse content libraries.",
+      "severity_score": 90
     },
     {
-      "title": "Community Engagement",
-      "description": "Focus on building interactive community features (likes, comments, forums).",
-      "technical_spec": "Social features integrated with video content.",
-      "severity_score": 5
+      "title": "User Community Engagement",
+      "description": "Encourages active participation and content sharing.",
+      "technical_spec": "Comment sections, Likes and shares, Community posts.",
+      "severity_score": 89
     },
     {
-      "title": "Educational Resource",
-      "description": "Strong presence as a platform for educational content and learning.",
-      "technical_spec": "Dedicated channels for educational content and partnerships with educational firms.",
-      "severity_score": 3
+      "title": "Personalized Recommendations",
+      "description": "Uses algorithms to tailor content suggestions to users.",
+      "technical_spec": "Machine Learning Models, User Watch History, Collaborative Filtering.",
+      "severity_score": 88
     },
     {
-      "title": "Innovation Leader",
-      "description": "Continuous innovation in video technology and streaming quality.",
-      "technical_spec": "Latest codecs and streaming technologies for 4K and 3D content.",
-      "severity_score": 1
+      "title": "Brand Trust and Recognition",
+      "description": "Maintains a strong presence as a trusted video platform.",
+      "technical_spec": "Security protocols, Transparent policies, User privacy settings.",
+      "severity_score": 94
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 21,
+    "rank": 31,
     "site": "google.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "750114e03628836efedd3413053c96bd"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "e4df0b3fd0e62651ffb9d027a5330a98"
   },
   "data": [
     {
-      "title": "Simplicity",
-      "description": "Google's design philosophy emphasizes ease of use and clarity.",
-      "technical_spec": "Minimalistic design elements and straightforward interface.",
-      "severity_score": 5
-    },
-    {
       "title": "Innovation",
-      "description": "Commitment to cutting-edge technology and constant improvement.",
-      "technical_spec": "Pioneering use of AI, machine learning, and quantum computing.",
+      "description": "Commitment to leading-edge technology and continuous improvement.",
+      "technical_spec": "R&D investment in AI, quantum computing, and new technologies.",
       "severity_score": 5
     },
     {
-      "title": "Reliability",
-      "description": "Ensures consistent uptime and trustworthiness for users.",
-      "technical_spec": "Robust systems architecture with multiple redundancies.",
-      "severity_score": 3
-    },
-    {
-      "title": "User-centric Design",
-      "description": "Focuses on creating the best possible experience for users.",
-      "technical_spec": "Continuous user testing and feedback loop to refine products.",
-      "severity_score": 5
+      "title": "User-Centric Design",
+      "description": "Focus on simplifying technology for end-users.",
+      "technical_spec": "Frequent user feedback loops and iterative design processes.",
+      "severity_score": 7
     },
     {
       "title": "Global Reach",
-      "description": "Serves a diverse user base with localized content and services.",
-      "technical_spec": "Supports multiple languages and regional adaptations.",
-      "severity_score": 2
+      "description": "Accessible services and products for a worldwide audience.",
+      "technical_spec": "Support for multiple languages and international privacy standards.",
+      "severity_score": 8
+    },
+    {
+      "title": "Sustainability",
+      "description": "Environmental responsibility integrated into operational practices.",
+      "technical_spec": "Data centers powered by renewable energy sources.",
+      "severity_score": 6
+    },
+    {
+      "title": "Trust and Security",
+      "description": "Prioritizes user data protection and transparent policies.",
+      "technical_spec": "Regular updates to privacy policies and unparalleled security measures.",
+      "severity_score": 10
     }
   ]
 }

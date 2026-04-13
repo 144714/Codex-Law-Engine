@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 23,
+    "rank": 33,
     "site": "apple.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "b2db275f7d3a7ce12d94ae5f2a247665"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "48c738b3851b3fca5eea660209955993"
   },
   "data": [
     {
-      "title": "Innovative Aesthetic",
-      "description": "The design embodies Apple's commitment to innovation and elegance.",
-      "technical_spec": "Minimalist interfaces with high-resolution imagery and custom animations.",
-      "severity_score": 5
-    },
-    {
-      "title": "Privacy and Trust",
-      "description": "Prioritizes user privacy, aligning marketing strategies with product security.",
-      "technical_spec": "Privacy disclosures are clear and placed prominently.",
-      "severity_score": 5
-    },
-    {
-      "title": "Inclusivity and Diversity",
-      "description": "Designs accommodate a wide range of user needs and experiences.",
-      "technical_spec": "Accessibility features include VoiceOver compatibility and adjustable interfaces.",
+      "title": "Minimalist Aesthetic",
+      "description": "A clean and minimalist design reflecting modernity and sophistication.",
+      "technical_spec": "White space, simple color palette, and minimal text.",
       "severity_score": 10
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Features emphasize Apple's sustainability efforts.",
-      "technical_spec": "Content highlights renewable energy use and recycling programs.",
-      "severity_score": 5
+      "title": "Innovative Technology",
+      "description": "Emphasis on cutting-edge technology and pioneering products.",
+      "technical_spec": "References to M1 chip, AR features, and AI integrations.",
+      "severity_score": 20
     },
     {
-      "title": "Human-Centric Design",
-      "description": "Focuses on creating meaningful connections with users through innovative design.",
-      "technical_spec": "Incorporates user feedback and iterative design processes.",
-      "severity_score": 10
+      "title": "Eco-Friendly Initiatives",
+      "description": "Commitment to sustainability and environmental responsibility.",
+      "technical_spec": "Recycled materials and energy efficiency in product descriptions.",
+      "severity_score": 15
+    },
+    {
+      "title": "Customer-Centric Approach",
+      "description": "Focus on enhancing user experience and customer satisfaction.",
+      "technical_spec": "User testimonials, support center, and feedback loops.",
+      "severity_score": 30
+    },
+    {
+      "title": "Seamless Ecosystem",
+      "description": "Interconnectedness across Apple devices and services.",
+      "technical_spec": "iCloud, Continuity, and Handoff features.",
+      "severity_score": 25
     }
   ]
 }

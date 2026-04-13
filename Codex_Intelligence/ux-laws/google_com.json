@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 21,
+    "rank": 31,
     "site": "google.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "b95be9afcea1611fedc84c8e19f2f2ee"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "e8fd3b7ec1828198b710f9962e60330e"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies user choice by limiting available options.",
-      "technical_spec": "Google Search interface designed with minimal distractions to enhance focus.",
-      "severity_score": 5
-    },
-    {
-      "title": "Fitts’ Law",
-      "description": "Optimizes target size and distance for frequently used features.",
-      "technical_spec": "Key features like the search bar are prominently sized and centrally located for easy access.",
+      "title": "Hick's Law",
+      "description": "Simplified, minimalistic design that reduces decision-making time for users.",
+      "technical_spec": "Straightforward design with essential elements prominently displayed.",
       "severity_score": 10
     },
     {
-      "title": "Miller’s Law",
-      "description": "Limits cognitive load by grouping information into digestible chunks.",
-      "technical_spec": "Use of well-structured categories and clean design to avoid overwhelming users.",
-      "severity_score": 5
+      "title": "Fitts's Law",
+      "description": "Interface elements are sized and spaced to ensure easy access.",
+      "technical_spec": "Responsive design elements that adapt to user input.",
+      "severity_score": 8
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Content chunking helps users process information more effectively.",
+      "technical_spec": "Breakdown of information into six or seven manageable pieces.",
+      "severity_score": 12
     },
     {
       "title": "Jakob’s Law",
-      "description": "Designs interfaces that are consistent with user expectations built from other websites.",
-      "technical_spec": "Google retains a consistent design language recognizable across its services.",
-      "severity_score": 10
+      "description": "Users expect certain functionalities and design patterns based on experience with other apps.",
+      "technical_spec": "Adopts common patterns users are familiar with for easy adoption.",
+      "severity_score": 5
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Enhances user perception of usability through visually appealing design.",
-      "technical_spec": "Clean, minimalistic interface that enhances user interaction experience.",
-      "severity_score": 5
+      "description": "Visually appealing interfaces that enhance perceived usability.",
+      "technical_spec": "Careful balance of visual design to avoid overwhelming users.",
+      "severity_score": 7
     }
   ]
 }

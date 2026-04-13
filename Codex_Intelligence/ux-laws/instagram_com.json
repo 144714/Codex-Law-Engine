@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 29,
+    "rank": 39,
     "site": "instagram.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "14c5c68771acffaa3e51e0c9a2fe3958"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "089ce82ab5906dec1df1b227748dfef3"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "User interface elements are placed where they are easily accessible according to Fitts's Law.",
-      "technical_spec": "Design layout ensures frequently used items are large and center-aligned.",
-      "severity_score": 5
+      "title": "Jakob's Law",
+      "description": "Users spend most of their time on other sites, so design interfaces like the ones they're accustomed to using.",
+      "technical_spec": "Consistent layout, common UI elements, and navigation patterns.",
+      "severity_score": 40
     },
     {
       "title": "Hick's Law",
-      "description": "Limits the number of choices presented to users to streamline decision-making.",
-      "technical_spec": "Restricts actions per screen to optimize decision time.",
-      "severity_score": 7
+      "description": "Time taken to make a decision increases with the number and complexity of choices.",
+      "technical_spec": "Streamlining actions to reduce decision-making times.",
+      "severity_score": 35
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Designs are made aesthetically pleasing to enhance perceived usability.",
-      "technical_spec": "Emphasizes visual hierarchy and crisp image resolutions.",
-      "severity_score": 6
+      "title": "Aesthetic Usability Effect",
+      "description": "Users tend to perceive aesthetically pleasing designs as more usable.",
+      "technical_spec": "Focus on clean design, appealing color schemes, and minimalistic interfaces.",
+      "severity_score": 45
     },
     {
-      "title": "Miller's Law",
-      "description": "Adapts information chunks to optimize memory load on users.",
-      "technical_spec": "Breaks down content into digestible pieces with logical categorization.",
-      "severity_score": 9
+      "title": "Law of Proximity",
+      "description": "Objects that are close to each other appear to be more related than objects that are spaced farther apart.",
+      "technical_spec": "Group related icons and information close together.",
+      "severity_score": 38
     },
     {
-      "title": "Jakob's Law",
-      "description": "Follows established design paradigms to meet user expectations.",
-      "technical_spec": "Adoption of conventional navigation and interaction patterns.",
-      "severity_score": 8
+      "title": "Fitt's Law",
+      "description": "The time to acquire a target is a function of the distance to and size of the target.",
+      "technical_spec": "Design with larger click targets for touch interfaces.",
+      "severity_score": 42
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 28,
+    "rank": 38,
     "site": "adobe.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "763406edbeecfd770225265d0ce29fe3"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "e804846972e8aa5540f0b4ff823d29a7"
   },
   "data": [
     {
-      "title": "Responsive Design",
-      "description": "Adapts the layout based on user screen size and orientation.",
-      "technical_spec": "Uses CSS media queries and flexible grid layouts.",
-      "severity_score": 98
-    },
-    {
       "title": "Microservices",
-      "description": "Modular services communicate over a network to function as a cohesive application.",
-      "technical_spec": "Implemented using REST APIs and container orchestration.",
-      "severity_score": 85
+      "description": "Adobe employs a microservices architecture for its suite of cloud products, enabling segmented functionality and scalable development.",
+      "technical_spec": "Kubernetes, Docker containers, RESTful APIs",
+      "severity_score": 20
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Distributes content geographically for faster access.",
-      "technical_spec": "Utilizes Akamai or another CDN service for asset delivery.",
-      "severity_score": 90
+      "title": "Cloud Infrastructure",
+      "description": "The site is hosted on a scalable cloud platform to manage traffic and ensure reliability.",
+      "technical_spec": "AWS, Azure integration, load balancing",
+      "severity_score": 15
     },
     {
-      "title": "Single Page Application",
-      "description": "Offers a seamless experience without full-page reloads.",
-      "technical_spec": "Built using frameworks like React or Angular.",
-      "severity_score": 92
+      "title": "CDN Usage",
+      "description": "Content Delivery Network is used to improve load times globally.",
+      "technical_spec": "Akamai CDN, global edge nodes, HTTP/2",
+      "severity_score": 10
     },
     {
-      "title": "Cloud Architecture",
-      "description": "Leverages cloud infrastructure for scalability and performance.",
-      "technical_spec": "Uses AWS or Azure for cloud services integration.",
-      "severity_score": 88
+      "title": "Database Management",
+      "description": "Relational and NoSQL databases are utilized for data storage and management.",
+      "technical_spec": "Amazon RDS, MongoDB, data sharding",
+      "severity_score": 25
+    },
+    {
+      "title": "Service Oriented Architecture",
+      "description": "An SOA model is followed to provide discrete services that communicate over a network.",
+      "technical_spec": "SOAP/REST protocols, message queuing, API gateways",
+      "severity_score": 30
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 27,
+    "rank": 37,
     "site": "spotify.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "f7c6b5588f332d6df98b13786bc24d0e"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "ca384a6d6ac669af548dafb678b0fc09"
   },
   "data": [
     {
       "title": "Multi-Factor Authentication (MFA)",
-      "description": "Implements MFA for enhanced account security and user verification.",
-      "technical_spec": "Supports OTP, SMS, and app-based authenticators for user login.",
-      "severity_score": 30
+      "description": "Enhanced account security for users and employees via MFA techniques including OTP and authenticator apps.",
+      "technical_spec": "Requires verification through two or more authentication factors.",
+      "severity_score": 50
     },
     {
       "title": "End-to-End Encryption",
-      "description": "Protects data in transit through encryption protocols.",
-      "technical_spec": "Uses TLS/SSL protocols to secure user data being transmitted across the network.",
-      "severity_score": 35
+      "description": "Ensures user data and streaming content are encrypted during transmission and storage.",
+      "technical_spec": "Utilizes TLS protocols for data in transit and AES encryption for data at rest.",
+      "severity_score": 65
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts frequent security assessments to identify and mitigate potential threats.",
-      "technical_spec": "Involves both internal and third-party vulnerability assessments.",
-      "severity_score": 25
+      "title": "Security Incident and Event Management (SIEM)",
+      "description": "Centralized platform to monitor, detect, and respond to security threats in real-time.",
+      "technical_spec": "Incorporates real-time analytics and alerts to preemptively address vulnerabilities.",
+      "severity_score": 60
     },
     {
-      "title": "Anomaly Detection Systems",
-      "description": "Implements AI-driven algorithms to detect and respond to suspicious activities.",
-      "technical_spec": "Uses machine learning models for real-time threat identification.",
-      "severity_score": 40
+      "title": "Vulnerability Scanning & Patching",
+      "description": "Regular scanning for vulnerabilities and deploying patches to protect against exploits.",
+      "technical_spec": "Automated tools and manual reviews to ensure up-to-date security patches.",
+      "severity_score": 55
     },
     {
-      "title": "Data Privacy Compliance",
-      "description": "Strict adherence to privacy laws and data protection regulations.",
-      "technical_spec": "Compliance with GDPR, CCPA, and other international data privacy standards.",
-      "severity_score": 50
+      "title": "DDoS Mitigation Strategies",
+      "description": "Measures to safeguard against distributed denial-of-service attacks, keeping service operational.",
+      "technical_spec": "Employ technologies such as traffic filtering and rate limiting to mitigate attacks.",
+      "severity_score": 70
     }
   ]
 }

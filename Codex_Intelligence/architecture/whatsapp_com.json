@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 30,
+    "rank": 40,
     "site": "whatsapp.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "8701d985f0cf4b0e01916559180a8c54"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "8cbbc073c97a5ec1c67c3df46d4bb893"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "WhatsApp uses a microservices architecture to handle various functionalities separately, improving scalability and maintainability.",
-      "technical_spec": "Services are containerized and orchestrated using Docker and Kubernetes.",
+      "title": "Scalable Backend Infrastructure",
+      "description": "The backend is designed to handle millions of users simultaneously with minimal latency.",
+      "technical_spec": "Utilizes Erlang for concurrent requests, MySQL for data storage, and custom memory storage techniques.",
+      "severity_score": 10
+    },
+    {
+      "title": "End-to-End Encryption Framework",
+      "description": "WhatsApp employs end-to-end encryption to ensure message confidentiality.",
+      "technical_spec": "Based on Signal Protocol, uses Curve25519, AES-256, and HMAC-SHA256.",
       "severity_score": 15
     },
     {
-      "title": "End-to-End Encryption",
-      "description": "Messages are end-to-end encrypted, ensuring only communicating users can read them.",
-      "technical_spec": "Utilizes the Signal Protocol for encryption.",
-      "severity_score": 10
-    },
-    {
-      "title": "Real-Time Communication",
-      "description": "Utilizes WebRTC for real-time communication, enabling voice and video calls.",
-      "technical_spec": "Peer-to-peer connection with STUN and TURN servers support.",
+      "title": "Cross-Platform Compatibility",
+      "description": "The architecture supports multiple mobile and desktop platforms seamlessly.",
+      "technical_spec": "Native iOS and Android apps with Electron wrapper for desktop applications.",
       "severity_score": 20
     },
     {
-      "title": "Data Replication",
-      "description": "Data is replicated across multiple data centers for redundancy and low latency.",
-      "technical_spec": "Cassandra is used for distributed data management.",
-      "severity_score": 20
+      "title": "Real-time Communication Protocols",
+      "description": "Designed for real-time messaging with minimal delays.",
+      "technical_spec": "Uses MQTT protocol optimized for mobile networks.",
+      "severity_score": 12
     },
     {
-      "title": "Push Notification System",
-      "description": "WhatsApp relies on push notifications to alert users of new messages.",
-      "technical_spec": "Utilizes APNs for iOS and FCM for Android devices.",
-      "severity_score": 10
+      "title": "Efficient Multimedia Sharing",
+      "description": "Architected to allow fast multimedia messaging with minimal data usage.",
+      "technical_spec": "Media is compressed and optimized, stored in a distributed server network.",
+      "severity_score": 13
     }
   ]
 }

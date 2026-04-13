@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 28,
+    "rank": 38,
     "site": "adobe.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "9573b105ee27372388d7adef14187393"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "d1aabe9292d8e3adb9c4e338a14fa46c"
   },
   "data": [
     {
-      "title": "Fitts' Law",
-      "description": "Designs large clickable areas to improve interaction efficiency.",
-      "technical_spec": "Button sizes and interactive elements are optimized for tap targets.",
-      "severity_score": 91
+      "title": "Fitt's Law",
+      "description": "Adobe's interfaces are designed so that frequent and desired actions are larger and easier to reach.",
+      "technical_spec": "Clickable buttons, responsive design, touch-friendly elements",
+      "severity_score": 30
     },
     {
       "title": "Hick's Law",
-      "description": "Simplifies choices to enhance user decision-making.",
-      "technical_spec": "Interfaces present limited options to reduce cognitive load.",
-      "severity_score": 90
+      "description": "The complexity of menus and choices is minimized to speed up decision-making.",
+      "technical_spec": "Simplified navigation, categorized options, dropdown menus",
+      "severity_score": 25
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "The site uses visual hierarchy and grouping to assist user perception.",
+      "technical_spec": "Consistency in design patterns, alignment, use of whitespace",
+      "severity_score": 20
     },
     {
       "title": "Jakob's Law",
-      "description": "Adopts familiar design patterns to meet user expectations.",
-      "technical_spec": "Consistent navigation and interactions similar to other popular platforms.",
-      "severity_score": 94
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Maintains information chunks within the limit of human memory capacity.",
-      "technical_spec": "Information is grouped in chunks of 7±2 elements.",
-      "severity_score": 87
+      "description": "Conformity to established user expectations in design and navigation flows.",
+      "technical_spec": "Conventional layouts, familiar icons, consistent user interface",
+      "severity_score": 15
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Creates pleasing designs to enhance perceived usability.",
-      "technical_spec": "Visual aesthetics are prioritized to boost user satisfaction.",
-      "severity_score": 89
+      "description": "An aesthetically pleasing design enhances perceived usability.",
+      "technical_spec": "Clean design, high-quality graphics, brand-aligned color palette",
+      "severity_score": 18
     }
   ]
 }

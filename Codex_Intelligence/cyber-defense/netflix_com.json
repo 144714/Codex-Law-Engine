@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 26,
+    "rank": 36,
     "site": "netflix.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "69ffba7f096262821b900acc0968d90d"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "40f23642ca9744be676f6449e9423398"
   },
   "data": [
     {
-      "title": "Multi-factor Authentication",
-      "description": "Protects user accounts with an additional layer of security.",
-      "technical_spec": "Combines password and secondary verification method.",
-      "severity_score": 35
-    },
-    {
-      "title": "DDoS Mitigation",
-      "description": "Protective measures against Distributed Denial of Service attacks.",
-      "technical_spec": "Utilizes AWS Shield and other external DDoS protection services.",
-      "severity_score": 50
-    },
-    {
-      "title": "Data Encryption",
-      "description": "Ensures data is encrypted both at rest and in transit.",
-      "technical_spec": "AES-256 bit encryption standard is used.",
+      "title": "TLS Encryption",
+      "description": "Netflix uses TLS to encrypt data in transit between users and the platform.",
+      "technical_spec": "Implementation of Transport Layer Security (TLS) protocols to secure user sessions.",
       "severity_score": 30
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular scanning and patching of vulnerabilities in all systems.",
-      "technical_spec": "Automated scanning tools and manual penetration testing.",
-      "severity_score": 40
+      "title": "DDoS Protection",
+      "description": "Robust defenses against distributed denial-of-service attacks ensure availability.",
+      "technical_spec": "Employing AWS Shield and other anti-DDoS strategies to mitigate attack impact.",
+      "severity_score": 25
     },
     {
-      "title": "Access Control Policies",
-      "description": "Strict access control policies to limit and audit data access.",
-      "technical_spec": "Role-based access controls (RBAC) are enforced.",
-      "severity_score": 45
+      "title": "Visibility and Monitoring",
+      "description": "Comprehensive monitoring and logging to detect and respond to security incidents.",
+      "technical_spec": "Use of real-time analytics tools and logging services to track anomalies.",
+      "severity_score": 22
+    },
+    {
+      "title": "Access Control",
+      "description": "Strict access management policies protect sensitive data and internal systems.",
+      "technical_spec": "Implementation of role-based access control and multi-factor authentication.",
+      "severity_score": 20
+    },
+    {
+      "title": "Vulnerability Assessment",
+      "description": "Routine vulnerability scans and penetration testing identify potential security gaps.",
+      "technical_spec": "Use of automated tools and ethical hacking services to assess system security.",
+      "severity_score": 28
     }
   ]
 }

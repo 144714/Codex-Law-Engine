@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 29,
+    "rank": 39,
     "site": "instagram.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "b54aa9f03e467d20cfa29c43bddd3b5f"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "10ccf3879909985078433e694afc92d4"
   },
   "data": [
     {
-      "title": "User Data Encryption",
-      "description": "All user data is encrypted both at rest and in transit to protect user privacy.",
-      "technical_spec": "AES-256 for data at rest, TLS 1.2/1.3 for data in transit.",
-      "severity_score": 4
+      "title": "End-to-End Encryption",
+      "description": "Messages are encrypted during transmission to prevent unauthorized access.",
+      "technical_spec": "Advanced cryptographic protocols such as TLS/SSL.",
+      "severity_score": 25
     },
     {
-      "title": "Two-Factor Authentication (2FA)",
-      "description": "Enhances account security by requiring an additional authentication step.",
-      "technical_spec": "Supports SMS, email, and app-based authentication methods.",
-      "severity_score": 6
-    },
-    {
-      "title": "Fraud Detection Algorithms",
-      "description": "AI-driven mechanisms to detect and prevent fraudulent activities.",
-      "technical_spec": "Machine learning models trained with behavioral analytics.",
-      "severity_score": 20
-    },
-    {
-      "title": "Content Moderation",
-      "description": "Automatic and manual review systems to prevent harmful content dissemination.",
-      "technical_spec": "Combination of AI detection tools and human moderators.",
-      "severity_score": 15
+      "title": "Two-Factor Authentication",
+      "description": "Users are required to verify their identity with a secondary authentication method.",
+      "technical_spec": "Supports SMS codes and authentication apps.",
+      "severity_score": 30
     },
     {
       "title": "Regular Security Audits",
-      "description": "Frequent security assessments and penetration testing to identify vulnerabilities.",
-      "technical_spec": "Conducted by internal teams and third-party security experts.",
-      "severity_score": 25
+      "description": "Conducts frequent reviews and audits to identify potential vulnerabilities.",
+      "technical_spec": "Utilizes internal and third-party auditing tools.",
+      "severity_score": 20
+    },
+    {
+      "title": "AI-Driven Threat Detection",
+      "description": "Automatic detection of fraudulent accounts and harmful activities using AI.",
+      "technical_spec": "Machine learning algorithms that analyze user behavior patterns.",
+      "severity_score": 28
+    },
+    {
+      "title": "Incident Response Plan",
+      "description": "A detailed plan outlining steps to respond to security breaches swiftly and effectively.",
+      "technical_spec": "Comprehensive documentation and team training.",
+      "severity_score": 22
     }
   ]
 }

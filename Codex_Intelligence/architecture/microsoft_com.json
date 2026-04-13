@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 24,
+    "rank": 34,
     "site": "microsoft.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "26cbb58209531b87e6753ec8fe248bfa"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "97f8c7cf28cfcec5d9598aac79bc8638"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Microsoft employs a microservices architecture to ensure robust scalability and flexibility across their cloud services.",
-      "technical_spec": "Implementation using Azure Kubernetes Service for container orchestration.",
-      "severity_score": 20
-    },
-    {
-      "title": "Global Content Delivery Network (CDN)",
-      "description": "Microsoft uses a global CDN to enhance performance and availability of its services worldwide.",
-      "technical_spec": "Microsoft Azure CDN integrates with services for efficient content routing.",
-      "severity_score": 15
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Dynamic load balancing is used to distribute network traffic efficiently.",
-      "technical_spec": "Azure Load Balancer and Azure Traffic Manager for routing and failover support.",
+      "title": "Cloud Integration",
+      "description": "Utilizes Azure cloud services for hosting and global content distribution.",
+      "technical_spec": "Azure Content Delivery Network, VM instances, Load Balancers",
       "severity_score": 10
     },
     {
-      "title": "Distributed Database System",
-      "description": "Utilization of distributed databases to ensure data reliability and accessibility.",
-      "technical_spec": "Use of Azure Cosmos DB for global distribution.",
-      "severity_score": 25
+      "title": "Microservices Architecture",
+      "description": "Employs microservices to allow independent scaling and deployment of services.",
+      "technical_spec": "Docker, Kubernetes, Service Mesh",
+      "severity_score": 15
     },
     {
-      "title": "Serverless Architecture",
-      "description": "Adoption of serverless computing to achieve auto-scaling and reduced infrastructure management.",
-      "technical_spec": "Azure Functions and Logic Apps for automatic scaling operations.",
-      "severity_score": 30
+      "title": "API Gateway",
+      "description": "Manages traffic and acts as a facade for microservices with added security.",
+      "technical_spec": "Azure API Management",
+      "severity_score": 12
+    },
+    {
+      "title": "Responsive Web Design",
+      "description": "Ensures compatibility and usability across all device types and screen sizes.",
+      "technical_spec": "CSS Flexbox, CSS Grid, Media Queries",
+      "severity_score": 8
+    },
+    {
+      "title": "Server-Side Rendering",
+      "description": "Renders pages on the server to improve load times and SEO.",
+      "technical_spec": "Next.js, React.js",
+      "severity_score": 10
     }
   ]
 }

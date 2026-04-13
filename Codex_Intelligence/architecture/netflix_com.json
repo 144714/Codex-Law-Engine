@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 26,
+    "rank": 36,
     "site": "netflix.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "b9cf73b6cb738054c44d90b44beb4dbc"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "7965e926c8d9eb8c76b348fbd67ff2e2"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Netflix uses a cloud-based microservices architecture to ensure scalability and flexibility.",
-      "technical_spec": "Deployed on AWS, each service is independently scalable and deployable.",
-      "severity_score": 20
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "A global CDN ensures content is delivered quickly and efficiently to users worldwide.",
-      "technical_spec": "Strategically placed edge servers cache and deliver content.",
+      "title": "Microservices",
+      "description": "Netflix employs a microservices architecture, which allows for scalability and independent deployment of services.",
+      "technical_spec": "Decomposed system where each service runs a unique process and communicates through APIs.",
       "severity_score": 15
     },
     {
-      "title": "Data Pipeline",
-      "description": "Robust data pipeline for real-time analytics and personalized recommendations.",
-      "technical_spec": "Utilizes tools like Apache Kafka and Amazon Kinesis.",
-      "severity_score": 25
-    },
-    {
-      "title": "Playback Architecture",
-      "description": "Resilient media player architecture for seamless content playback.",
-      "technical_spec": "Adaptive bitrate streaming ensures smooth playback under varying network conditions.",
+      "title": "Cloud-based Infrastructure",
+      "description": "The platform utilizes AWS for scalable and reliable cloud hosting.",
+      "technical_spec": "Utilization of Amazon Web Services for elastic compute, storage, and database services.",
       "severity_score": 10
     },
     {
-      "title": "Cloud Infrastructure",
-      "description": "Fully deployed on AWS, leveraging reliability and scalability of cloud services.",
-      "technical_spec": "Implements auto-scaling and load balancing.",
-      "severity_score": 30
+      "title": "CDN Integration",
+      "description": "Netflix uses content delivery networks to efficiently stream content globally.",
+      "technical_spec": "Partnership with multiple CDN providers to cache and deliver content closer to users.",
+      "severity_score": 12
+    },
+    {
+      "title": "Database Management",
+      "description": "Netflix uses a combination of SQL and NoSQL databases to manage user data and media content.",
+      "technical_spec": "Mix of Cassandra, MySQL, and other database technologies for different data needs.",
+      "severity_score": 20
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Smart load balancing mechanisms are in place to manage traffic and ensure availability.",
+      "technical_spec": "Use of custom and AWS Elastic Load Balancing for distributing network loads.",
+      "severity_score": 18
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 22,
+    "rank": 32,
     "site": "youtube.com",
-    "date": "2026-04-13 22:35",
-    "integrity_hash": "7d60810f6965344d00870b3cd829b568"
+    "date": "2026-04-13 23:35",
+    "integrity_hash": "7d517e1fdcd1c827bcd6aaffff891d54"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Secure encryption of data in transit to protect user and content data.",
-      "technical_spec": "TLS encryption protocols.",
-      "severity_score": 5
+      "title": "DDoS Protection",
+      "description": "Mitigation strategies for Distributed Denial of Service attacks.",
+      "technical_spec": "Traffic scrubbing, Autoscaling defenses, Capacity Overflow Handling.",
+      "severity_score": 95
     },
     {
-      "title": "Data Loss Prevention",
-      "description": "Advanced DLP mechanisms to prevent unauthorized data access and leakage.",
-      "technical_spec": "Integrated within layer-specific security policies.",
-      "severity_score": 8
+      "title": "User Authentication Mechanisms",
+      "description": "Security protocols to verify user identities.",
+      "technical_spec": "OAuth2, Two-factor authentication, Biometrics.",
+      "severity_score": 89
     },
     {
-      "title": "User Authentication",
-      "description": "Multi-factor authentication (MFA) for user access to accounts.",
-      "technical_spec": "OAuth 2.0 standards with optional physical security keys.",
-      "severity_score": 7
+      "title": "Content Verification and Anti-Piracy",
+      "description": "Prevention of illegal uploads and sharing of content.",
+      "technical_spec": "AI-driven content match, Digital Rights Management (DRM).",
+      "severity_score": 87
     },
     {
-      "title": "Intrusion Detection Systems",
-      "description": "Real-time monitoring systems to detect and mitigate potential security threats.",
-      "technical_spec": "Machine learning algorithms for anomaly detection.",
-      "severity_score": 6
+      "title": "Data Encryption",
+      "description": "Encrypts user and transaction data for security.",
+      "technical_spec": "TLS 1.3, AES-256 Encryption, Secure Data Tunnels.",
+      "severity_score": 92
     },
     {
-      "title": "Content Moderation AI",
-      "description": "AI-driven content moderation to prevent misuse and harmful content spread.",
-      "technical_spec": "Neural networks trained on vast user behavior datasets.",
-      "severity_score": 9
+      "title": "Vulnerability Management",
+      "description": "Regular assessments and patching of security vulnerabilities.",
+      "technical_spec": "Automated Scanning, Continuous Monitoring, Threat Intelligence.",
+      "severity_score": 90
     }
   ]
 }
