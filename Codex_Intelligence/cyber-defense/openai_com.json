@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 11:10"
+    "date": "2026-04-13 13:03"
   },
   "data": [
     {
       "title": "End-to-End Encryption",
-      "description": "Protect data in transit and at rest using robust encryption protocols.",
-      "technical_spec": "Implement TLS for data transit and AES-256 for stored data encryption.",
-      "severity_score": 95
+      "description": "Data is encrypted at rest and in transit to maintain confidentiality.",
+      "technical_spec": "TLS 1.2+, AES-256",
+      "severity_score": 10
     },
     {
-      "title": "Intrusion Detection Systems",
-      "description": "Deploy solutions to detect and prevent unauthorized access.",
-      "technical_spec": "Use anomaly detection models based on user behavioral analytics.",
-      "severity_score": 92
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conduct periodic reviews of security protocols and infrastructure.",
-      "technical_spec": "Implement automated vulnerability scanning and penetration testing.",
-      "severity_score": 88
+      "title": "Continuous Monitoring",
+      "description": "Real-time threat detection and response systems in place.",
+      "technical_spec": "SIEM tools, anomaly detection",
+      "severity_score": 18
     },
     {
       "title": "Access Control Management",
-      "description": "Ensure only authorized personnel can access sensitive information.",
-      "technical_spec": "Use role-based access controls (RBAC) and multi-factor authentication (MFA).",
-      "severity_score": 93
+      "description": "Strict access policies protecting sensitive user and system data.",
+      "technical_spec": "IAM, RBAC",
+      "severity_score": 25
     },
     {
-      "title": "Data Breach Response Plan",
-      "description": "Prepare a comprehensive plan to respond to potential data breaches swiftly.",
-      "technical_spec": "Establish a communication protocol and conduct drills to test the response plan.",
-      "severity_score": 90
+      "title": "Regular Penetration Testing",
+      "description": "Frequent security tests to identify and rectify vulnerabilities.",
+      "technical_spec": "Pentesting frameworks, vulnerability scanners",
+      "severity_score": 30
+    },
+    {
+      "title": "Patch Management",
+      "description": "Automated patching and updates to address security vulnerabilities.",
+      "technical_spec": "Patch management systems",
+      "severity_score": 20
     }
   ]
 }

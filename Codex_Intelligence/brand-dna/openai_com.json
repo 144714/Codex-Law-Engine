@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 11:10"
+    "date": "2026-04-13 13:03"
   },
   "data": [
     {
-      "title": "Innovative Technology Leadership",
-      "description": "Position the brand as a leader in cutting-edge AI technology.",
-      "technical_spec": "Showcase proprietary advancements through strategic channels.",
-      "severity_score": 95
+      "title": "Innovation-Driven",
+      "description": "Pioneer of cutting-edge AI technology and solutions.",
+      "technical_spec": "AI research, advanced machine learning",
+      "severity_score": 30
     },
     {
-      "title": "Ethical AI Standards",
-      "description": "Commit to ethical AI practices in development and deployment.",
-      "technical_spec": "Develop AI with transparency, fairness, and responsibility.",
-      "severity_score": 90
+      "title": "Ethical AI",
+      "description": "Commitment to responsible AI development and deployment.",
+      "technical_spec": "Bias monitoring, ethical guidelines",
+      "severity_score": 25
     },
     {
-      "title": "Customer-Centric Approach",
-      "description": "Focus on understanding and solving customer needs with AI solutions.",
-      "technical_spec": "Implement continuous feedback loops with users for tailored service delivery.",
-      "severity_score": 88
+      "title": "Accessibility Focus",
+      "description": "Ensuring AI tools are usable by a diverse global audience.",
+      "technical_spec": "Language support, adaptive interfaces",
+      "severity_score": 20
     },
     {
       "title": "Community Engagement",
-      "description": "Foster an active community surrounding AI by involving users and developers.",
-      "technical_spec": "Host events, discussions, and provide platforms for collaborative innovation.",
-      "severity_score": 85
+      "description": "Active involvement with the developer and user community.",
+      "technical_spec": "Open forums, online tutorials",
+      "severity_score": 22
     },
     {
-      "title": "Sustainable Practices",
-      "description": "Integrate sustainability into operational practices.",
-      "technical_spec": "Adopt energy-efficient technology and promote resource conservation initiatives.",
-      "severity_score": 80
+      "title": "Transparency and Trust",
+      "description": "Clear communication about AI capabilities and limitations.",
+      "technical_spec": "Public documentation, trust reports",
+      "severity_score": 28
     }
   ]
 }

@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 11:10"
+    "date": "2026-04-13 13:03"
   },
   "data": [
     {
-      "title": "Hick's Law Implementation",
-      "description": "Simplify decisions for users by reducing the number of choices.",
-      "technical_spec": "Streamline UI elements to ease cognitive load and speed up decision-making.",
-      "severity_score": 78
+      "title": "Hick’s Law",
+      "description": "Minimize decision time by limiting choices for users.",
+      "technical_spec": "Simple UI, prioritized content",
+      "severity_score": 12
     },
     {
-      "title": "Fitts’s Law Optimization",
-      "description": "Design interfaces that facilitate easy target selection.",
-      "technical_spec": "Strategically place interactive elements for effortless user actions.",
-      "severity_score": 82
+      "title": "Fitt’s Law",
+      "description": "Design efficient paths to frequently used elements.",
+      "technical_spec": "Accessible buttons, clear navigation paths",
+      "severity_score": 15
     },
     {
-      "title": "Consistency Principle",
-      "description": "Maintain a consistent design language across different platforms for better user experience.",
-      "technical_spec": "Develop and adhere to a comprehensive style guide and component library.",
-      "severity_score": 85
+      "title": "Miller’s Law",
+      "description": "Present information in chunks to enhance recall.",
+      "technical_spec": "Chunked menus, grouped content",
+      "severity_score": 18
     },
     {
-      "title": "Feedback Mechanism",
-      "description": "Provide immediate and clear feedback to user actions.",
-      "technical_spec": "Implement notifications, confirmations, and error messages as appropriate.",
-      "severity_score": 89
+      "title": "Gestalt Principles",
+      "description": "Utilize visual cues to guide user perceptions and actions.",
+      "technical_spec": "Whitespace, proximity, similarity",
+      "severity_score": 20
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "Enhance usability by making attractive and pleasant designs.",
-      "technical_spec": "Employ appealing visuals while ensuring functionality and accessibility.",
-      "severity_score": 80
+      "title": "Aesthetic-Usability Effect",
+      "description": "Optimize for beauty to create perceived ease-of-use.",
+      "technical_spec": "Consistent color schemes, pleasing layouts",
+      "severity_score": 16
     }
   ]
 }
