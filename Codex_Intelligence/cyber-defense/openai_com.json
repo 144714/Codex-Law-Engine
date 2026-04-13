@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 23:26"
+    "date": "2026-04-13 01:50"
   },
   "data": [
     {
-      "title": "Continuous Penetration Testing",
-      "description": "Regular simulated attacks to identify and address vulnerabilities.",
-      "technical_spec": "Automated via tools such as Metasploit and Burp Suite.",
-      "severity_score": 92
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "Data encrypted throughout the entire transmission process.",
-      "technical_spec": "TLS 1.3 protocol with 256-bit encryption.",
-      "severity_score": 94
-    },
-    {
-      "title": "Anomaly Detection Systems",
-      "description": "Monitors and detects unusual patterns that suggest potential breaches.",
-      "technical_spec": "Uses machine learning algorithms for real-time monitoring.",
-      "severity_score": 88
-    },
-    {
-      "title": "Identity and Access Management",
-      "description": "Policies and technologies to ensure that the right individuals access the correct resources.",
-      "technical_spec": "Multi-factor authentication enabled.",
+      "title": "Multi-Layer Security",
+      "description": "Implementing defense-in-depth strategies to protect against varied threats.",
+      "technical_spec": "Combines firewall, intrusion detection systems (IDS), and encryption.",
       "severity_score": 90
     },
     {
-      "title": "Data Loss Prevention",
-      "description": "Prevents sensitive data from being leaked outside the organization.",
-      "technical_spec": "Implemented through network security protocols and regular audits.",
-      "severity_score": 89
+      "title": "Regular Security Audits",
+      "description": "Conducts regular security assessments and vulnerability testing.",
+      "technical_spec": "Quarterly penetration testing and continuous monitoring protocols.",
+      "severity_score": 88
+    },
+    {
+      "title": "TLS Encryption",
+      "description": "All data exchanges are secured using advanced encryption methods.",
+      "technical_spec": "TLS 1.3 is used to encrypt data in transit, ensuring privacy and integrity.",
+      "severity_score": 95
+    },
+    {
+      "title": "Zero Trust Architecture",
+      "description": "Adopts a zero-trust model to enhance security for remote access.",
+      "technical_spec": "All access decisions consider verified identity and device health.",
+      "severity_score": 92
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Deploys strategies to mitigate the impact of Distributed Denial of Service attacks.",
+      "technical_spec": "Uses a combination of edge services and rate limiting to handle large volumetric attacks.",
+      "severity_score": 87
     }
   ]
 }

@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 23:26"
+    "date": "2026-04-13 01:50"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplified navigation reducing the number of choices at any given point.",
-      "technical_spec": "Limits primary navigation to under 5 choices per menu.",
-      "severity_score": 80
-    },
-    {
-      "title": "Fitts' Law",
-      "description": "Focuses on minimizing the distance between interactive elements for efficiency.",
-      "technical_spec": "Consistent button sizes with accessibility in mind.",
-      "severity_score": 85
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Manages cognitive load by chunking information into digestible groups.",
-      "technical_spec": "Designed with a 7±2 information chunking approach.",
-      "severity_score": 78
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Focused on perception and how users visually segment layout and content.",
-      "technical_spec": "Utilizes proximity and similarity for cohesive UI design.",
+      "title": "Consistency",
+      "description": "Maintains consistent interface elements to streamline user interaction.",
+      "technical_spec": "Uniform design patterns and predictable UI components across the site.",
       "severity_score": 82
     },
     {
-      "title": "Jakob's Law",
-      "description": "Users expect websites to work similarly to others they are familiar with.",
-      "technical_spec": "Design language aligns with common web standards.",
-      "severity_score": 87
+      "title": "Feedback",
+      "description": "Provides users with immediate feedback for actions taken.",
+      "technical_spec": "Real-time notifications and confirmations for user actions.",
+      "severity_score": 85
+    },
+    {
+      "title": "Accessibility",
+      "description": "Ensures that all users have equal access to information and functionalities.",
+      "technical_spec": "Compliant with WCAG 2.1 AA standards, supporting screen readers and keyboard navigation.",
+      "severity_score": 88
+    },
+    {
+      "title": "Simplicity",
+      "description": "Focus on minimizing complexity and enhancing user understanding.",
+      "technical_spec": "Streamlined navigation with an uncluttered layout and intuitive controls.",
+      "severity_score": 80
+    },
+    {
+      "title": "User Control",
+      "description": "Empowers users by giving them control over their interactions.",
+      "technical_spec": "Undo and redo options, and user settings that can be personalized.",
+      "severity_score": 84
     }
   ]
 }

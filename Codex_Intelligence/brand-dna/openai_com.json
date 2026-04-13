@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-12 23:26"
+    "date": "2026-04-13 01:50"
   },
   "data": [
     {
-      "title": "Innovative Leadership",
-      "description": "Pioneering advancements in AI and machine learning technology.",
-      "technical_spec": "Regular publishing of whitepapers and research findings.",
+      "title": "Innovative Technology",
+      "description": "Commitment to pioneering AI solutions that push the boundaries of technology.",
+      "technical_spec": "Research and development focused on cutting-edge AI models.",
       "severity_score": 95
     },
     {
-      "title": "Ethical AI Deployment",
-      "description": "Commitment to developing AI models that adhere to ethical guidelines.",
-      "technical_spec": "Deployment of fairness metrics and bias detection tools.",
-      "severity_score": 93
+      "title": "Transparent Practices",
+      "description": "Emphasizes openness in AI processes and decision-making.",
+      "technical_spec": "Publicly available API documentation and ethical AI guidelines.",
+      "severity_score": 90
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focus on crafting experiences that prioritize user needs and feedback.",
-      "technical_spec": "Integrated user feedback loops in the development cycle.",
+      "title": "Accessibility",
+      "description": "Creating AI technology that is accessible to a broad audience.",
+      "technical_spec": "User-friendly interfaces with multilingual support and pricing tiers.",
       "severity_score": 88
     },
     {
-      "title": "Collaborative Ecosystem",
-      "description": "Fostering partnerships with academia, industry, and developers.",
-      "technical_spec": "OpenAI API for external integrations and collaborations.",
-      "severity_score": 91
+      "title": "Responsible AI",
+      "description": "Committed to developing AI responsibly with a focus on ethical considerations.",
+      "technical_spec": "Includes AI bias mitigation strategies and fairness assessment tools.",
+      "severity_score": 92
     },
     {
-      "title": "Cutting-Edge Research",
-      "description": "Leading the forefront of AI technology through continuous research.",
-      "technical_spec": "Investments in AI labs and talent acquisition.",
-      "severity_score": 96
+      "title": "Customer-Centric Approach",
+      "description": "Prioritizes user feedback and needs in product development.",
+      "technical_spec": "Uses customer insights to guide product iterations and innovation roadmaps.",
+      "severity_score": 85
     }
   ]
 }
