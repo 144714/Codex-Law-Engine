@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 3,
+    "rank": 13,
     "site": "apple.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "f420adb76b66883fe1941e1b9311ccdb"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "5f7591960bb5f2cb0a1ab18f92bbac71"
   },
   "data": [
     {
       "title": "SSL/TLS Encryption",
-      "description": "Ensures all data transmitted between users and the website is encrypted.",
-      "technical_spec": "HTTP/2 support, 2048-bit SSL/TLS encryption keys.",
+      "description": "All data transmitted between users and the site is encrypted.",
+      "technical_spec": "Uses modern TLS protocols with strong ciphers.",
       "severity_score": 5
     },
     {
-      "title": "Content Security Policy",
-      "description": "Reduces the risk of cross-site scripting attacks by controlling resource loading.",
-      "technical_spec": "CSP headers configuration.",
+      "title": "Web Application Firewall",
+      "description": "Filters out malicious traffic and protects against common web exploits.",
+      "technical_spec": "Integrated on the edge with providers like Cloudflare.",
+      "severity_score": 15
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Ongoing vulnerability assessments and patch management.",
+      "technical_spec": "Incorporates automated scanning tools and manual penetration testing.",
       "severity_score": 20
     },
     {
-      "title": "Regular Vulnerability Scanning",
-      "description": "Frequent checking for vulnerabilities to protect against new threats.",
-      "technical_spec": "Automated scanning tools, penetration testing.",
+      "title": "Two-Factor Authentication",
+      "description": "Users have the option for an additional layer of login security.",
+      "technical_spec": "Supports OTP and device-based authentication systems.",
       "severity_score": 25
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Adds an extra layer of security for user account protection.",
-      "technical_spec": "2FA configured via SMS or dedicated authentication apps.",
-      "severity_score": 10
-    },
-    {
-      "title": "Web Application Firewall",
-      "description": "Defends against common web threats and some zero-day vulnerabilities.",
-      "technical_spec": "WAF rules configuration.",
+      "title": "DDoS Protection",
+      "description": "Prevents and mitigates distributed denial-of-service attacks.",
+      "technical_spec": "Uses scalable traffic filtering solutions at the network edge.",
       "severity_score": 30
     }
   ]

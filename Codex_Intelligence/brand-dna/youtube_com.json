@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 2,
+    "rank": 12,
     "site": "youtube.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "a91767d0eae935309c0c31938fcfcde7"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "dd273810ebfc49f5db2d6450ec4ac74d"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Consistent focus on introducing new features and technologies.",
-      "technical_spec": "AI-powered features such as recommendation algorithms, live streaming capabilities.",
-      "severity_score": 90
+      "title": "Global Accessibility",
+      "description": "Content accessibility across different languages and regions defines the brand's reach.",
+      "technical_spec": "Subtitles, translations, and regional content management.",
+      "severity_score": 25
     },
     {
-      "title": "Community",
-      "description": "Fostering a diverse global community of content creators and viewers.",
-      "technical_spec": "Support for creators through tools like analytics, monetization options, and community guidelines.",
-      "severity_score": 93
+      "title": "User-Generated Content",
+      "description": "Empowers users to create and share content, forming the core of YouTube's identity.",
+      "technical_spec": "Easy upload processes, content management tools, and monetization options.",
+      "severity_score": 20
     },
     {
-      "title": "Accessibility",
-      "description": "Ensuring content is accessible to all audiences through features like captions and language options.",
-      "technical_spec": "Automatic subtitle generation, multiple language support.",
-      "severity_score": 88
+      "title": "Community Engagement",
+      "description": "Strong focus on fostering community interaction among content creators and viewers.",
+      "technical_spec": "Features like comments, likes, shares, and community posts.",
+      "severity_score": 20
     },
     {
-      "title": "Entertainment",
-      "description": "Providing a vast array of content for educational and entertainment purposes.",
-      "technical_spec": "Robust video library sorted by genres, interests, and trending topics.",
-      "severity_score": 92
+      "title": "Cross-Platform Availability",
+      "description": "Seamless experience provided across various devices reinforces brand consistency.",
+      "technical_spec": "Responsive design and native apps for mobile, TV, and web platforms.",
+      "severity_score": 15
     },
     {
-      "title": "Trustworthiness",
-      "description": "Maintaining user trust through transparent policies and user privacy initiatives.",
-      "technical_spec": "Comprehensive privacy policy, regular transparency reports, and community standards enforcement.",
-      "severity_score": 94
+      "title": "Innovative Advertising Solutions",
+      "description": "Offers innovative advertising options as part of its revenue model.",
+      "technical_spec": "AdSense, skippable and non-skippable ads, and targeted advertising.",
+      "severity_score": 30
     }
   ]
 }

@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 3,
+    "rank": 13,
     "site": "apple.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "a3f662f5556c07a2dcfcaf960f6cf958"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "10e4e1c8dc5a7ae56014e1d1a1530c28"
   },
   "data": [
     {
       "title": "Responsive Design",
-      "description": "The website automatically adjusts layout and content display across various devices, ensuring a seamless user experience.",
-      "technical_spec": "Fluid grids, flexible images, and CSS media queries.",
-      "severity_score": 10
+      "description": "Apple's website is built to be responsive, providing a seamless experience across various devices.",
+      "technical_spec": "Utilizes CSS media queries and flexible grid layouts.",
+      "severity_score": 5
     },
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Uses cloud services for scalability and reliability of content delivery.",
-      "technical_spec": "Content Delivery Network (CDN) and cloud hosting platforms.",
+      "title": "Custom CMS",
+      "description": "A custom content management system powers the dynamic aspects of the site.",
+      "technical_spec": "Built with proprietary and open-source technologies to manage content efficiently.",
       "severity_score": 15
     },
     {
       "title": "Microservices Architecture",
-      "description": "The backend is likely composed of loosely coupled services that handle different functionalities.",
-      "technical_spec": "RESTful APIs, containerization with Docker.",
-      "severity_score": 30
-    },
-    {
-      "title": "High Availability",
-      "description": "Design ensures minimal downtime through redundancy and load balancing.",
-      "technical_spec": "Load balancers, failover systems.",
+      "description": "Decoupled services architecture for independent component updating and scaling.",
+      "technical_spec": "Uses RESTful APIs for communication between services.",
       "severity_score": 20
     },
     {
-      "title": "Single Page Application (SPA)",
-      "description": "Some sections may use SPA design for smooth navigation without full-page reloads.",
-      "technical_spec": "JavaScript frameworks like React or Angular.",
+      "title": "CDN Optimization",
+      "description": "Content is delivered via a content delivery network to ensure fast load times globally.",
+      "technical_spec": "Leverages global CDN providers like Akamai.",
+      "severity_score": 10
+    },
+    {
+      "title": "Serverless Functions",
+      "description": "Serverless computing is utilized for scalable and efficient request handling.",
+      "technical_spec": "Implemented using AWS Lambda or equivalent solutions.",
       "severity_score": 25
     }
   ]

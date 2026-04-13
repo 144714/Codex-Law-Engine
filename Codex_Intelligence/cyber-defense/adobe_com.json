@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 8,
+    "rank": 18,
     "site": "adobe.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "4fa130490a6a8ac47976847a9978eb2e"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "e212f1c4750b0cb8dd6e506c50618e47"
   },
   "data": [
     {
-      "title": "Advanced Threat Detection",
-      "description": "Implements AI-driven threat detection systems to identify potential threats.",
-      "technical_spec": "Intrusion Detection Systems, Machine Learning analytics.",
-      "severity_score": 25
-    },
-    {
       "title": "End-to-End Encryption",
-      "description": "Data is encrypted in transit and at rest to secure sensitive information.",
-      "technical_spec": "TLS, AES-256 encryption protocols.",
-      "severity_score": 30
-    },
-    {
-      "title": "Identity and Access Management",
-      "description": "Robust authentication systems ensure that only authorized users can access resources.",
-      "technical_spec": "OAuth 2.0, Multi-Factor Authentication.",
+      "description": "Data is encrypted in transit and at rest to safeguard user information.",
+      "technical_spec": "Uses TLS for data in transit and AES-256 for data at rest.",
       "severity_score": 20
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular scans and testing to identify and mitigate vulnerabilities.",
-      "technical_spec": "Penetration Testing, Automated Security Scans.",
-      "severity_score": 40
+      "title": "Multi-Factor Authentication (MFA)",
+      "description": "MFA is implemented to enhance the security of user accounts.",
+      "technical_spec": "Options include SMS, authenticator apps, and hardware tokens.",
+      "severity_score": 15
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Routine audits and penetration tests are conducted to identify and mitigate vulnerabilities.",
+      "technical_spec": "Compliance with international security standards including ISO 27001.",
+      "severity_score": 25
+    },
+    {
+      "title": "Advanced Threat Detection",
+      "description": "Uses AI and machine learning to detect and respond to threats in real-time.",
+      "technical_spec": "Integrations with SIEM systems to monitor for and respond to anomalies.",
+      "severity_score": 30
     },
     {
       "title": "Data Loss Prevention (DLP)",
-      "description": "Measures to prevent unauthorized data access and leaks.",
-      "technical_spec": "Network DLP, Endpoint DLP solutions.",
-      "severity_score": 50
+      "description": "Mechanisms to prevent unauthorized data access or leaks.",
+      "technical_spec": "Comprehensive DLP solutions track and manage data access and transfer across systems.",
+      "severity_score": 35
     }
   ]
 }

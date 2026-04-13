@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 5,
+    "rank": 15,
     "site": "amazon.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "3db2f2383bd57a00431c1a0ae37d8df3"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "59009a39172f1e37676917516e8e3030"
   },
   "data": [
     {
-      "title": "Customer Obsession",
-      "description": "Relentless focus on maintaining customer satisfaction and trust.",
-      "technical_spec": "Implementation of feedback loops and customer service excellence.",
+      "title": "Customer Centricity",
+      "description": "Focusing on customer experience and satisfaction as the core of business operations.",
+      "technical_spec": "Personalized recommendations and responsive customer service systems.",
       "severity_score": 95
     },
     {
       "title": "Operational Excellence",
-      "description": "Strives for continuous improvement in operational processes.",
-      "technical_spec": "Use of Six Sigma and lean methodologies for process optimization.",
+      "description": "Commitment to efficient operations and innovations that reduce waste and increase value.",
+      "technical_spec": "Continuous process improvement frameworks and metrics monitoring.",
       "severity_score": 90
     },
     {
-      "title": "Innovation",
-      "description": "Commitment to technological and business innovation.",
-      "technical_spec": "Investment in R&D and adoption of emerging technologies.",
-      "severity_score": 92
-    },
-    {
-      "title": "Long-Term Thinking",
-      "description": "Focus on sustainable growth and investments for the future.",
-      "technical_spec": "Strategic long-term investments in technologies and markets.",
+      "title": "Innovation Leadership",
+      "description": "Drive for leadership in technology innovation and creative solutions.",
+      "technical_spec": "Investment in R&D and fostering a culture of experimentation.",
       "severity_score": 88
     },
     {
-      "title": "Leadership Principle",
-      "description": "Guided by a set of core leadership principles in decision-making.",
-      "technical_spec": "Principles embedded in company culture and daily operations.",
-      "severity_score": 93
+      "title": "Global Reach",
+      "description": "Extensive supply chain and logistics network to support a global e-commerce presence.",
+      "technical_spec": "International logistics infrastructure with localized fulfillment capabilities.",
+      "severity_score": 85
+    },
+    {
+      "title": "Deep Data Insights",
+      "description": "Leveraging big data analytics to predict trends and personalize user experiences.",
+      "technical_spec": "Sophisticated algorithms and machine learning models for data-driven decisions.",
+      "severity_score": 92
     }
   ]
 }

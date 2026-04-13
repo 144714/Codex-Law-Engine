@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 4,
+    "rank": 14,
     "site": "microsoft.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "8ad446276f84a2253a0a463d0326c01a"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "46bab64502ba4db9069caaad64c6af41"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies choices for users to improve their decision-making process.",
-      "technical_spec": "Simplified Navigation, Dropdown Menus",
-      "severity_score": 7
+      "title": "Consistency and Standards",
+      "description": "Follows a consistent layout and design standard across all pages.",
+      "technical_spec": "Responsive Design, Design System",
+      "severity_score": 90
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizes the size and position of clickable objects to enhance usability.",
-      "technical_spec": "Large Clickable Buttons, Optimized Touch Targets",
-      "severity_score": 9
+      "title": "User Control and Freedom",
+      "description": "Provides users with options to undo actions and navigate freely.",
+      "technical_spec": "Back Navigation, Account Recovery Options",
+      "severity_score": 85
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Leverages user familiarity by keeping consistent UI patterns.",
-      "technical_spec": "Persistent Navigation Bars, Standardized Layouts",
-      "severity_score": 6
+      "title": "Aesthetic and Minimalist Design",
+      "description": "Maintains a clean and focused design, avoiding unnecessary information.",
+      "technical_spec": "Minimal Design Elements, Focused Content",
+      "severity_score": 88
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related items together to help users easily understand and find information.",
-      "technical_spec": "Whitespace, Grouped Content",
-      "severity_score": 5
+      "title": "Error Prevention",
+      "description": "Design includes measures to prevent errors before they happen.",
+      "technical_spec": "Form Validation, Confirmation Dialogs",
+      "severity_score": 87
     },
     {
-      "title": "Pareto Principle",
-      "description": "Focuses on key features that drive the majority of user engagement.",
-      "technical_spec": "Prioritized Content, Highlighted Key Features",
-      "severity_score": 10
+      "title": "Recognition Rather than Recall",
+      "description": "User interface design reduces cognitive load by making objects, actions, and options visible.",
+      "technical_spec": "Iconography, Predictive Text",
+      "severity_score": 80
     }
   ]
 }

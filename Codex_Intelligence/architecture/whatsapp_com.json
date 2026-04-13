@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 10,
+    "rank": 20,
     "site": "whatsapp.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "65dca2a10ff5988f1acf459c45fcdcaf"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "946e43919027a1ff670216330ec0b59b"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "WhatsApp uses a microservices architecture to improve scalability and maintainability.",
-      "technical_spec": "Each component of the application is an independent service that communicates over HTTP/REST or gRPC.",
-      "severity_score": 40
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "WhatsApp messages are secured with end-to-end encryption in the architecture.",
-      "technical_spec": "Uses Signal Protocol for encryption, ensuring only communicating users can read messages.",
+      "description": "WhatsApp uses a microservices architecture to enhance scalability and manageability by breaking down applications into smaller, independent services.",
+      "technical_spec": "Several self-contained services collaborating over APIs.",
       "severity_score": 20
     },
     {
-      "title": "Distributed Systems",
-      "description": "Reliance on distributed computing to ensure high availability and reliability across multiple regions.",
-      "technical_spec": "Utilizes data replication and partitioning across server clusters.",
-      "severity_score": 35
+      "title": "End-to-End Encryption Infrastructure",
+      "description": "The architecture supports robust end-to-end encryption ensuring privacy and security of messages.",
+      "technical_spec": "Uses Signal Protocol for encrypting messages peer-to-peer.",
+      "severity_score": 5
     },
     {
-      "title": "Database Sharding",
-      "description": "Database sharding is used to manage massive user data loads.",
-      "technical_spec": "Employs automatic sharding to distribute data efficiently across servers.",
-      "severity_score": 50
+      "title": "Distributed Database Systems",
+      "description": "The use of distributed databases supports massive data storage and retrieval to handle millions of concurrent users.",
+      "technical_spec": "Apache Cassandra or similar NoSQL databases.",
+      "severity_score": 15
     },
     {
-      "title": "Global Load Balancing",
-      "description": "Load balancing is implemented to manage traffic between servers and optimize resource use.",
-      "technical_spec": "Uses DNS-based and appliance-based load balancing techniques.",
-      "severity_score": 30
+      "title": "Load Balancers",
+      "description": "Load balancers are implemented to distribute network or application traffic efficiently across multiple servers.",
+      "technical_spec": "Nginx or HAProxy for balancing incoming requests.",
+      "severity_score": 10
+    },
+    {
+      "title": "Real-Time Messaging",
+      "description": "Supports real-time communication by instantly sending messages to users.",
+      "technical_spec": "Websockets or proprietary protocol for persistent connections.",
+      "severity_score": 10
     }
   ]
 }

@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 10,
+    "rank": 20,
     "site": "whatsapp.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "d125463873520404a88c0e76b27028d6"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "027acb6e2ef57daee549cee095a37243"
   },
   "data": [
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Users perceive more aesthetically pleasing design as easier to use.",
-      "technical_spec": "WhatsApp's minimalist design contributes to user satisfaction and ease of use.",
-      "severity_score": 20
-    },
-    {
       "title": "Fitts's Law",
-      "description": "The time required to move to a target area, such as a button on the screen, is a function of the distance to the target and its size.",
-      "technical_spec": "Large buttons and touch targets make it easier for users to interact with the app.",
-      "severity_score": 15
+      "description": "Optimizes the size and distance of interactive elements to enhance usability.",
+      "technical_spec": "Strategic UI element placement to minimize interaction effort.",
+      "severity_score": 10
     },
     {
       "title": "Hick's Law",
-      "description": "Time to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Limit on-screen choices to simplify interactions and reduce cognitive load.",
-      "severity_score": 25
+      "description": "Simplifies decision-making by reducing the number of choices available to the user.",
+      "technical_spec": "Minimalist design and streamlined menu options.",
+      "severity_score": 15
     },
     {
       "title": "Jakob's Law",
-      "description": "Users spend most of their time using other apps, so they prefer WhatsApp to work similarly for familiar experiences.",
-      "technical_spec": "Consistent user interface elements that align with general smartphone app usage patterns.",
-      "severity_score": 30
+      "description": "Design matches user expectations to enhance familiarity and ease of use.",
+      "technical_spec": "Consistent interface patterns similar to common apps.",
+      "severity_score": 10
     },
     {
-      "title": "Law of Prägnanz",
-      "description": "People are innately predisposed to perceive complex images in their simplest form.",
-      "technical_spec": "Icons and messaging interface are designed for clarity and simplicity.",
+      "title": "Miller's Law",
+      "description": "Breaks information into chunks to enhance user retention and recall.",
+      "technical_spec": "Divided content into bulleted points and sections.",
+      "severity_score": 15
+    },
+    {
+      "title": "Tesler’s Law",
+      "description": "Limits complexity by only implementing necessary features.",
+      "technical_spec": "Feature analysis to remove unnecessary elements.",
       "severity_score": 20
     }
   ]

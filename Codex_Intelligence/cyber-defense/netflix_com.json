@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 6,
+    "rank": 16,
     "site": "netflix.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "84148b610f8dc3c0f1232e45663231ba"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "f7d22cba44deeff27d3029d4765c8192"
   },
   "data": [
     {
-      "title": "Security Chaos Engineering",
-      "description": "Simulates cyber-attacks to identify vulnerabilities and improve system resilience.",
-      "technical_spec": "Uses internal tools like Chaos Monkey to randomly terminate servers, testing system stability and retention of secure states.",
-      "severity_score": 80
+      "title": "Encryption Standard Adoption",
+      "description": "Ensuring all data in transit and at rest is securely encrypted.",
+      "technical_spec": "Usage of TLS 1.2+ and AES-256 encryption for securing data across networks.",
+      "severity_score": 95
     },
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "Ensures secure access to sensitive systems and data by requiring multiple forms of verification.",
-      "technical_spec": "Implemented using standards such as TOTP and OAuth 2.0 for secure user identity management.",
-      "severity_score": 85
+      "title": "Continual Security Assessments",
+      "description": "Regular penetration testing and security assessments to identify vulnerabilities.",
+      "technical_spec": "Integration of automated testing tools and code review processes into CI/CD pipeline.",
+      "severity_score": 88
     },
     {
-      "title": "Data Encryption",
-      "description": "Protects user data and content through encryption both at rest and in transit.",
-      "technical_spec": "TLS/SSL protocols for data in transit, with AES-256 encryption for stored data.",
+      "title": "Incident Response Plan",
+      "description": "Robust incident response strategies to manage potential security breaches.",
+      "technical_spec": "SOAR platforms used for automating incident response and threat intelligence sharing.",
       "severity_score": 90
     },
     {
-      "title": "Security Information and Event Management (SIEM)",
-      "description": "Aggregates and analyzes security data for real-time threat detection.",
-      "technical_spec": "Utilizes Splunk for centralized monitoring of security alerts and incident response.",
-      "severity_score": 75
+      "title": "User Authentication Protocols",
+      "description": "Multi-factor authentication (MFA) and single sign-on (SSO) to protect user accounts.",
+      "technical_spec": "LDAP/Active Directory integrations and OAuth 2.0 protocol for secure credentials handling.",
+      "severity_score": 92
     },
     {
-      "title": "Zero Trust Architecture",
-      "description": "All requests, whether external or internal, must be verified before granting access.",
-      "technical_spec": "Implementation of identity verification and network micro-segmentation to restrict unauthorized access.",
-      "severity_score": 95
+      "title": "Identity Management",
+      "description": "Role-based access control to ensure data privacy and limit access to sensitive information.",
+      "technical_spec": "Integration with IAM solutions to manage user permissions centrally.",
+      "severity_score": 89
     }
   ]
 }

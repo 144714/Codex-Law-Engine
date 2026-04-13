@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 10,
+    "rank": 20,
     "site": "whatsapp.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "96486ee795dd935398aac6ce48db9b77"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "f3d366ffe0073ce70c97daadc0d14e6b"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "An additional security measure to protect user accounts against unauthorized access.",
-      "technical_spec": "Option to set up a six-digit PIN as a secondary security feature.",
-      "severity_score": 25
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "Protects messages, calls, photos, and videos sent on WhatsApp.",
-      "technical_spec": "Employs the Signal Protocol for encryption, ensuring data confidentiality.",
+      "title": "Encryption Protocols",
+      "description": "Strong encryption protocols ensure user data is protected from unauthorized access.",
+      "technical_spec": "End-to-end encryption using Signal Protocol.",
       "severity_score": 10
     },
     {
-      "title": "Fraudulent Activity Detection",
-      "description": "Detects and blocks accounts engaging in spamming or phishing activities.",
-      "technical_spec": "Utilizes machine learning algorithms to analyze messaging patterns and user behavior.",
-      "severity_score": 35
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Provides an extra layer of security by requiring two forms of authentication.",
+      "technical_spec": "SMS or authenticator app-based verification codes.",
+      "severity_score": 15
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular security audits and updates to identify and fix vulnerabilities.",
-      "technical_spec": "Involves regular penetration testing and code reviews.",
-      "severity_score": 40
+      "title": "Regular Security Audits",
+      "description": "Conducts regular security audits and tests to identify vulnerabilities.",
+      "technical_spec": "Periodic penetration tests and code reviews.",
+      "severity_score": 20
     },
     {
-      "title": "Data Privacy Policies",
-      "description": "Comprehensive data protection policies to ensure user privacy.",
-      "technical_spec": "Implemented according to GDPR and other international regulations.",
+      "title": "Data Anonymization",
+      "description": "User data is anonymized to protect privacy while analyzing user trends.",
+      "technical_spec": "Data is stripped of personally identifying information before analysis.",
+      "severity_score": 25
+    },
+    {
+      "title": "Malware Detection Systems",
+      "description": "Advanced anti-malware systems ensure the integrity and security of the app's platform.",
+      "technical_spec": "Behavior-based threat analysis tools.",
       "severity_score": 15
     }
   ]

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 5,
+    "rank": 15,
     "site": "amazon.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "8a3d280aaef98686620362341c0b426f"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "43e6450225291ae00107fdc0d3663809"
   },
   "data": [
     {
-      "title": "DDoS Protection",
-      "description": "Protection against distributed denial-of-service attacks to maintain high uptime.",
-      "technical_spec": "AWS Shield and AWS WAF for DDoS mitigation.",
-      "severity_score": 92
+      "title": "IAM Policies",
+      "description": "Uses Identity and Access Management to control user permissions and resources access.",
+      "technical_spec": "Detailed role-based access controls with compliance checks.",
+      "severity_score": 55
     },
     {
       "title": "Data Encryption",
-      "description": "Encryption in transit and at rest for all customer data.",
-      "technical_spec": "Use of TLS and AES-256 encryption standards.",
-      "severity_score": 95
+      "description": "Ensures data protection with encryption both in transit and at rest.",
+      "technical_spec": "Utilizes SSL/TLS for data in transit and AES-256 for data at rest.",
+      "severity_score": 85
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Comprehensive identity orchestration for managing user access.",
-      "technical_spec": "AWS Identity and Access Management (IAM) policies and roles.",
-      "severity_score": 88
-    },
-    {
-      "title": "Security Monitoring",
-      "description": "Continuous monitoring for suspicious activity and potential threats.",
-      "technical_spec": "AWS CloudTrail and Amazon GuardDuty for threat detection.",
+      "title": "DDoS Mitigation",
+      "description": "Implements strategies to protect against Distributed Denial-of-Service attacks.",
+      "technical_spec": "Multi-layered defense system with automated traffic filtering.",
       "severity_score": 90
     },
     {
-      "title": "Secure Software Development Lifecycle",
-      "description": "Incorporation of security in every phase of software development.",
-      "technical_spec": "Adoption of CI/CD pipelines with security testing and audits.",
-      "severity_score": 85
+      "title": "Compliance and Auditing",
+      "description": "Regular compliance checks to adhere to relevant security standards.",
+      "technical_spec": "Adheres to ISO, PCI DSS, GDPR regulations, among others.",
+      "severity_score": 75
+    },
+    {
+      "title": "Automated Threat Detection",
+      "description": "Employs AI and machine learning to detect and neutralize security threats.",
+      "technical_spec": "Real-time analytics and threat intelligence integration.",
+      "severity_score": 80
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 2,
+    "rank": 12,
     "site": "youtube.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "ebf1823a6c80bb69d3e6aaff93cd1059"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "affac79e6ce1328c5f9c4597a610af72"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplified navigation and recommendations reduce decision time for users.",
-      "technical_spec": "UI maintains consistent design with intuitive iconography and easy access menus.",
-      "severity_score": 80
-    },
-    {
       "title": "Fitts’s Law",
-      "description": "Interactive elements sized proportionally and located strategically to improve accessibility.",
-      "technical_spec": "Responsive design with touch-friendly elements.",
-      "severity_score": 88
+      "description": "Targets (like buttons) are sized appropriately and positioned to enhance usability.",
+      "technical_spec": "Ensures interactable elements are easily accessible with consideration of distance and size.",
+      "severity_score": 10
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Intuitive design patterns using principles like proximity and similarity.",
-      "technical_spec": "Visual hierarchy adheres to content grouping and emphasis on critical actions.",
-      "severity_score": 85
+      "title": "Hick’s Law",
+      "description": "Limits choices to reduce decision time and improve user experience.",
+      "technical_spec": "Focused and intuitive navigation menus with progressive disclosure.",
+      "severity_score": 15
     },
     {
       "title": "Jakob’s Law",
-      "description": "Familiar user patterns based on widespread web standards improve user experience.",
-      "technical_spec": "Adheres to platform conventions and user expectations to reduce learning curve.",
-      "severity_score": 82
+      "description": "Design aligns with user expectations based on their experience with other platforms.",
+      "technical_spec": "Familiar interface patterns and consistent design language.",
+      "severity_score": 20
     },
     {
-      "title": "Miller’s Law",
-      "description": "Content segmentation into manageable chunks enhances understanding and retention.",
-      "technical_spec": "Uses playlists, chapters, and sections to organize content effectively.",
-      "severity_score": 86
+      "title": "Serial Position Effect",
+      "description": "Key information is placed at the start or end of the view to maximize recall.",
+      "technical_spec": "Strategic placement of primary content in top and bottom sections.",
+      "severity_score": 15
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing design is perceived as easier to use, enhancing user satisfaction.",
+      "technical_spec": "Use of modern design trends, visual hierarchy, and consistent branding.",
+      "severity_score": 10
     }
   ]
 }

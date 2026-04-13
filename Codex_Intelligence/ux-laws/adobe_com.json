@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 8,
+    "rank": 18,
     "site": "adobe.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "107b6747c0de6e5dd136a8b92039008d"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "222de2a95df91fca5431482d5a66396a"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Options are minimized to reduce decision-making time for the user.",
-      "technical_spec": "Streamlined navigation, concise menus.",
-      "severity_score": 10
+      "description": "Adobe simplifies decision-making processes by reducing options where possible.",
+      "technical_spec": "Streamlined user interfaces with clear hierarchical organization of features.",
+      "severity_score": 20
     },
     {
       "title": "Fitts' Law",
-      "description": "UI elements are optimized for quicker access and navigation.",
-      "technical_spec": "Larger clickable areas, spaced elements.",
-      "severity_score": 15
-    },
-    {
-      "title": "Consistency Principle",
-      "description": "Uniform design elements across the platform for better user comprehension.",
-      "technical_spec": "Consistent typography, color scheme.",
-      "severity_score": 12
-    },
-    {
-      "title": "Feedback Principle",
-      "description": "Users receive immediate feedback on interactions to confirm actions.",
-      "technical_spec": "Loading animations, confirmation dialogs.",
+      "description": "UI elements are sized and spaced for optimal speed and efficiency.",
+      "technical_spec": "Consistent layout with frequently-used actions positioned ergonomically.",
       "severity_score": 18
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing interfaces perceived as easier to use.",
-      "technical_spec": "High-quality graphics, balanced layouts.",
-      "severity_score": 14
+      "title": "Law of Prägnanz",
+      "description": "Designs are made to be as simple and memorable as possible, minimizing cognitive load.",
+      "technical_spec": "Coherent visual branding and common design patterns across products.",
+      "severity_score": 15
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Visual elements are arranged to reflect a cohesive and intuitive user journey.",
+      "technical_spec": "Groups related items together using proximity, similarity, and continuity.",
+      "severity_score": 25
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Adobe aligns its interface design with user expectations based on familiar applications.",
+      "technical_spec": "UI patterns are based on industry standards and widely adopted practices.",
+      "severity_score": 28
     }
   ]
 }

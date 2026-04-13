@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 1,
+    "rank": 11,
     "site": "google.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "99e85b684d0b70271dd2eb6d17d32d77"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "c133cd93fa0eb855aff667c146d78954"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Google enforces two-factor authentication to enhance user account security.",
-      "technical_spec": "Supports hardware security keys and mobile authentication methods.",
-      "severity_score": 10
-    },
-    {
-      "title": "Data Encryption",
-      "description": "Data at rest and in transit is encrypted to protect user privacy and integrity.",
-      "technical_spec": "Utilizes AES-256 encryption for data storage and TLS 1.3 for data transmission.",
-      "severity_score": 5
-    },
-    {
-      "title": "Threat Detection",
-      "description": "Advanced threat detection systems are in place to identify and neutralize potential risks.",
-      "technical_spec": "Employs Google Cloud's Security Command Center and machine learning algorithms.",
+      "title": "Zero Trust",
+      "description": "Security model ensuring all access requires identity verification.",
+      "technical_spec": "BeyondCorp framework implementing Zero Trust principles.",
       "severity_score": 15
     },
     {
-      "title": "Automated Patch Management",
-      "description": "Patches are automatically applied to mitigate zero-day vulnerabilities promptly.",
-      "technical_spec": "Uses continuous delivery techniques to ensure systems are up-to-date.",
-      "severity_score": 8
+      "title": "Encryption",
+      "description": "Data encryption at rest and in transit to ensure privacy.",
+      "technical_spec": "AES-256 for storage and TLS/SSL for data in transit.",
+      "severity_score": 10
     },
     {
-      "title": "Firewalls",
-      "description": "Multiple layers of firewalls safeguard Google’s infrastructure from intrusion.",
-      "technical_spec": "Google Cloud Armor and VPC firewalls secure network perimeters.",
-      "severity_score": 7
+      "title": "DDoS Protection",
+      "description": "Defense systems against Distributed Denial of Service attacks.",
+      "technical_spec": "Google Cloud Armor and Cloud CDN.",
+      "severity_score": 20
+    },
+    {
+      "title": "Threat Detection",
+      "description": "Continuous monitoring and alert mechanisms for threats.",
+      "technical_spec": "Security Command Center integrating threat intelligence.",
+      "severity_score": 30
+    },
+    {
+      "title": "Access Management",
+      "description": "Granular access control using advanced authentication methods.",
+      "technical_spec": "OAuth, SAML, and Multifactor Authentication (MFA).",
+      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 7,
+    "rank": 17,
     "site": "spotify.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "fed9fa7ed72de87d43d9f4686b17503d"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "5ee0f164b5bcfb533cd6762012791883"
   },
   "data": [
     {
-      "title": "Personalization",
-      "description": "A commitment to delivering personalized music experiences tailored to individual users.",
-      "technical_spec": "Advanced recommendation algorithms leveraging machine learning and user data analysis.",
-      "severity_score": 30
-    },
-    {
-      "title": "Innovation",
-      "description": "Continual innovation with the integration of features like podcasts and live audio experiences.",
-      "technical_spec": "Adoption of emerging technologies and innovative user engagement strategies.",
+      "title": "Innovative Streaming",
+      "description": "Leader in music streaming with emphasis on innovation and user experience.",
+      "technical_spec": "Provides a seamless and personalized music streaming experience.",
       "severity_score": 40
     },
     {
-      "title": "Community and Connectivity",
-      "description": "Building communities around artists and user playlists to foster connection and music sharing.",
-      "technical_spec": "Social features such as collaborative playlists and artist-following capabilities.",
+      "title": "Global Reach",
+      "description": "Operates in numerous countries, offering music in multiple languages.",
+      "technical_spec": "Localized content and partnerships enhance global appeal.",
       "severity_score": 35
     },
     {
-      "title": "Global Reach",
-      "description": "Expanding presence and accessibility across diverse markets worldwide.",
-      "technical_spec": "Multi-language support and region-specific content offerings.",
-      "severity_score": 25
+      "title": "Collaborative Playlists",
+      "description": "Allows users to create and share collaborative playlists, enhancing community interaction.",
+      "technical_spec": "Enables real-time collaboration features through the platform.",
+      "severity_score": 30
     },
     {
-      "title": "Seamless Experience",
-      "description": "Ensuring a seamless cross-platform experience for users on mobile, desktop, and connected devices.",
-      "technical_spec": "Cross-platform compatibility and an intuitive user interface with responsive design.",
-      "severity_score": 20
+      "title": "Music Discovery",
+      "description": "Enhances user experience by aiding music discovery through algorithms.",
+      "technical_spec": "Advanced algorithms power features like Discover Weekly and Daily Mix.",
+      "severity_score": 50
+    },
+    {
+      "title": "Cross-Platform Accessibility",
+      "description": "Accessible across a multitude of devices ensuring a consistent user experience.",
+      "technical_spec": "Supports various platforms including iOS, Android, Windows, and more.",
+      "severity_score": 45
     }
   ]
 }

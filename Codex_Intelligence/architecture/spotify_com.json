@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 7,
+    "rank": 17,
     "site": "spotify.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "f579797b09be2ffe4110b6fcc018c8d6"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "c8f77123161bae3a921c2ab3f0deaed4"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Spotify's infrastructure is based on a microservices architecture, enabling independent deployment and scaling of different functionalities such as recommendation engines and music streaming.",
-      "technical_spec": "RESTful APIs, gRPC communication protocols, and containerized services using Docker.",
-      "severity_score": 20
-    },
-    {
-      "title": "Distributed Databases",
-      "description": "Utilization of distributed database systems to store user data, playlists, and music tracks for high availability and fault tolerance.",
-      "technical_spec": "Apache Cassandra, PostgreSQL, and in-memory databases like Redis.",
-      "severity_score": 30
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "A CDN is employed to efficiently deliver music content and minimize latency for users worldwide.",
-      "technical_spec": "Akamai CDN for global content distribution.",
+      "description": "Spotify employs a microservices architecture to manage different features and services independently.",
+      "technical_spec": "Decomposed applications for independent scalability, developed using various programming languages and frameworks.",
       "severity_score": 15
     },
     {
-      "title": "Load Balancing",
-      "description": "Sophisticated load balancing strategies ensuring even distribution of server requests, reducing downtime and improving service reliability.",
-      "technical_spec": "Nginx and HAProxy for load balancing.",
+      "title": "Scalable Infrastructure",
+      "description": "Designed to handle millions of concurrent users streaming music globally.",
+      "technical_spec": "Hosted on cloud platforms like Google Cloud for scalability and reliability.",
+      "severity_score": 20
+    },
+    {
+      "title": "Event-Driven Architecture",
+      "description": "Utilizes an event-driven architecture for real-time data streaming and processing.",
+      "technical_spec": "Employs tools like Kafka for seamless data flow and processing.",
       "severity_score": 25
     },
     {
-      "title": "Real-Time Data Processing",
-      "description": "Architecture supports real-time data processing for features like user activity feeds and personalized music recommendations.",
-      "technical_spec": "Apache Kafka, Spark Streaming for handling real-time data flows.",
+      "title": "API Gateway",
+      "description": "Mediates API traffic to manage requests effectively and securely.",
+      "technical_spec": "Using API gateway solutions for rate limiting and access control.",
+      "severity_score": 30
+    },
+    {
+      "title": "Data Pipeline",
+      "description": "Handles vast amounts of data through robust data pipelines.",
+      "technical_spec": "Combines batch and stream processing using tools like Hadoop and Spark.",
       "severity_score": 35
     }
   ]

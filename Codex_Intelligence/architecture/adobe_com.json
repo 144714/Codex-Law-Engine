@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 8,
+    "rank": 18,
     "site": "adobe.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "a16b58b4e340b339e1aa9d9d2e34441b"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "f0eb6c5e941c336a985cf09564060948"
   },
   "data": [
     {
-      "title": "Cloud-Native Architecture",
-      "description": "Adobe's architecture leverages cloud-native technologies for scalability and flexibility.",
-      "technical_spec": "Kubernetes, Docker, AWS, and Azure services.",
-      "severity_score": 10
+      "title": "Cloud-Based Infrastructure",
+      "description": "Adobe's platform leverages cloud computing to deliver scalable services and applications.",
+      "technical_spec": "Utilizes public cloud providers for elastic scaling and high availability.",
+      "severity_score": 15
     },
     {
       "title": "Microservices Architecture",
-      "description": "Adobe employs a microservices approach to enhance modularity and development speed.",
-      "technical_spec": "API Gateway, Service Mesh implementations.",
-      "severity_score": 15
+      "description": "Services are broken down into microservices to promote decoupling and ease of deployment.",
+      "technical_spec": "Employs containerization technologies like Docker and orchestration via Kubernetes.",
+      "severity_score": 25
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Uses event processing for real-time analytics and workflow automation.",
-      "technical_spec": "Apache Kafka, AWS Kinesis.",
+      "title": "API-Driven Approach",
+      "description": "APIs serve as the communication bridge between different Adobe services and third-party integrations.",
+      "technical_spec": "RESTful APIs with OAuth 2.0 for authentication and authorization.",
       "severity_score": 20
     },
     {
-      "title": "Single Page Application (SPA) Framework",
-      "description": "Frontend is highly fluid and efficient using SPAs for user interactivity.",
-      "technical_spec": "React, AngularJS.",
-      "severity_score": 35
+      "title": "Content Delivery Network (CDN)",
+      "description": "A global CDN is used to deliver content with low latency and high availability.",
+      "technical_spec": "Edge servers positioned globally to cache Adobe content and reduce load times.",
+      "severity_score": 10
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Ensures rapid delivery of Adobe's content across the globe.",
-      "technical_spec": "Akamai CDN, Fastly.",
-      "severity_score": 15
+      "title": "Database Management Systems",
+      "description": "Diverse DBMS solutions are used across Adobe's services, including SQL and NoSQL databases.",
+      "technical_spec": "Relational databases for transactional data, NoSQL databases for unstructured data.",
+      "severity_score": 30
     }
   ]
 }

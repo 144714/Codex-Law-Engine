@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 7,
+    "rank": 17,
     "site": "spotify.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "668b43980a2514706c3eb6b525ea5caf"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "95d8ec54000d50e0628c3e32855d28f3"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "The principle that decision time increases with the number and complexity of choices.",
-      "technical_spec": "Simplified interface with curated playlists and search functionalities to reduce cognitive load.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "The time to acquire a target is a function of the distance to and size of the target.",
-      "technical_spec": "Large, easy-to-click buttons for essential controls like play, pause, and skip.",
+      "description": "Reduces the number of options to enhance user decision-making process.",
+      "technical_spec": "Simplified user interfaces with fewer, clearly defined options.",
       "severity_score": 10
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Users perceive more aesthetic designs as easier to use.",
-      "technical_spec": "A visually appealing design with a cohesive color palette and smooth animations.",
+      "title": "Fitts's Law",
+      "description": "Optimizes interaction elements based on size and distance for user ease.",
+      "technical_spec": "Design interfaces with easily tappable targets, especially on mobile.",
+      "severity_score": 15
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Limits information delivery to prevent cognitive overload.",
+      "technical_spec": "Breakdowns content into smaller, more manageable sections.",
       "severity_score": 20
     },
     {
-      "title": "Miller's Law",
-      "description": "The average user can only keep 7 (plus or minus 2) items in their working memory.",
-      "technical_spec": "Streamlined content arrangement with categorization features like 'Your Library' and 'Browse'.",
-      "severity_score": 18
+      "title": "Law of Proximity",
+      "description": "Groups related items closely to suggest relationships.",
+      "technical_spec": "Designs UI elements in clusters for related tasks.",
+      "severity_score": 15
     },
     {
-      "title": "Law of Proximity",
-      "description": "Objects that are near each other appear to be grouped together.",
-      "technical_spec": "Grouping related content like similar playlists and albums to enhance user navigation.",
-      "severity_score": 12
+      "title": "Law of Prägnanz",
+      "description": "Designs interfaces with simplicity and clarity, avoiding unnecessary complexity.",
+      "technical_spec": "Ensures UI elements are simple and predictable for eased navigation.",
+      "severity_score": 25
     }
   ]
 }

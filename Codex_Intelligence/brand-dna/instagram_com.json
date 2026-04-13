@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 9,
+    "rank": 19,
     "site": "instagram.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "ab68285f28a91616d8a33828409119f8"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "de12703b8584187ea90e2312e8166523"
   },
   "data": [
     {
-      "title": "Visual Connectivity",
-      "description": "Focus on visual storytelling through images and videos.",
-      "technical_spec": "Feature-rich media handling capabilities, including filters and effects.",
-      "severity_score": 10
+      "title": "Visual Storytelling",
+      "description": "Focuses on visual content for users to share their lives and stories.",
+      "technical_spec": "High-quality image and video rendering capabilities.",
+      "severity_score": 65
     },
     {
-      "title": "Community Engagement",
-      "description": "Encourages interaction and community building among users.",
-      "technical_spec": "Features like stories, IGTV, and direct messaging for diverse engagements.",
-      "severity_score": 15
+      "title": "Social Connectivity",
+      "description": "Promotes social interaction and connection between users.",
+      "technical_spec": "Enhanced direct messaging and comment features.",
+      "severity_score": 50
     },
     {
-      "title": "Innovation in Digital Expression",
-      "description": "Continuously evolving tools and features for creative content creation.",
-      "technical_spec": "Regular updates incorporating AR filters and extended reality features.",
-      "severity_score": 8
+      "title": "Influencer Culture",
+      "description": "Supports the growth of influencer and brand collaborations.",
+      "technical_spec": "Tools for analytics, story enhancements, and shopping tags.",
+      "severity_score": 55
     },
     {
-      "title": "Simplicity and Accessibility",
-      "description": "User-friendly interface that is easily accessible to a broad audience.",
-      "technical_spec": "Respects design accessibility standards to ensure usability for all.",
-      "severity_score": 12
+      "title": "Innovative Features",
+      "description": "Consistently introduces innovative features that enhance engagement.",
+      "technical_spec": "Reels, stories, and live video features.",
+      "severity_score": 70
     },
     {
-      "title": "Brand Consistency",
-      "description": "Maintains a consistent look and feel across all platforms and devices.",
-      "technical_spec": "Guidelines for brand colors, typography, and iconography.",
-      "severity_score": 5
+      "title": "Community and Empowerment",
+      "description": "Encourages user-generated content and community building.",
+      "technical_spec": "Hashtags, challenges, and event-driven content.",
+      "severity_score": 60
     }
   ]
 }

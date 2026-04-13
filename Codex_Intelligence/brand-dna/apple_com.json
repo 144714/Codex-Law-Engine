@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 3,
+    "rank": 13,
     "site": "apple.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "96e9e15696f789dc8089ee28942c7160"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "a781cc2db9e540159b67b584d36e49fe"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Emphasizes forward-thinking design and cutting-edge features.",
-      "technical_spec": "Regular updates and integration of the latest technologies.",
+      "title": "Innovative Design",
+      "description": "Apple's commitment to sleek, modern, and groundbreaking design.",
+      "technical_spec": "Emphasis on minimalism and cutting-edge aesthetics.",
       "severity_score": 5
     },
     {
-      "title": "Simplicity",
-      "description": "Focuses on creating straightforward and user-friendly interfaces.",
-      "technical_spec": "Minimalist design principles and clutter-free layouts.",
+      "title": "User-Centric Approach",
+      "description": "Focuses on creating valuable and intuitive experiences for end-users.",
+      "technical_spec": "Regular user testing and iterative design methodologies.",
       "severity_score": 10
     },
     {
-      "title": "Elegance",
-      "description": "Showcases a refined and stylish aesthetic.",
-      "technical_spec": "Use of high-quality visuals and seamless animations.",
-      "severity_score": 10
-    },
-    {
-      "title": "Security",
-      "description": "Prioritizes user privacy and data protection across all services.",
-      "technical_spec": "Robust encryption and advanced security protocols.",
-      "severity_score": 5
-    },
-    {
-      "title": "Environmental Responsibility",
-      "description": "Commits to sustainability and eco-friendly practices in operations.",
-      "technical_spec": "Usage of renewable energy and recyclable materials.",
+      "title": "Privacy as a Priority",
+      "description": "Highlights the importance of user data protection and privacy.",
+      "technical_spec": "Implementation of robust encryption and privacy policies.",
       "severity_score": 20
+    },
+    {
+      "title": "Ecosystem Integration",
+      "description": "Seamlessly integrates with Apple’s ecosystem of products and services.",
+      "technical_spec": "Cross-platform capabilities and synchronized services across devices.",
+      "severity_score": 15
+    },
+    {
+      "title": "Brand Consistency",
+      "description": "Maintains a consistent brand image across all digital platforms.",
+      "technical_spec": "Uniform visual elements and messaging that align with brand standards.",
+      "severity_score": 8
     }
   ]
 }

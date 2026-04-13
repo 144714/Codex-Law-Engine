@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 6,
+    "rank": 16,
     "site": "netflix.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "31334892d35d6ec4bb8f89a0bbf994a1"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "f360aae32ed3447956e54322bd67d3b4"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Netflix utilizes a microservices architecture to enable independent development, deployment, and scaling of different services.",
-      "technical_spec": "Microservices communicate over REST APIs; use of Spring Boot, Hystrix, and Zuul for service management and routing.",
+      "description": "Netflix's system is built on a microservices architecture to improve scalability and manageability.",
+      "technical_spec": "Decomposed services communicating over RESTful APIs, built with various languages like Java, Node.js, Python.",
       "severity_score": 85
     },
     {
-      "title": "Serverless Computing",
-      "description": "Parts of Netflix's infrastructure run on serverless platforms to handle asynchronous workloads efficiently.",
-      "technical_spec": "Utilizes AWS Lambda for serverless execution to manage compute resources dynamically.",
-      "severity_score": 70
-    },
-    {
       "title": "Content Delivery Network (CDN)",
-      "description": "Netflix uses CDNs to cache and deliver content efficiently to a global audience.",
-      "technical_spec": "Deployment on Open Connect enables localized streaming through a network of caching servers.",
+      "description": "Netflix employs a global network of CDNs to ensure efficient media content delivery.",
+      "technical_spec": "Leveraging Open Connect appliance located in ISP data centers for optimized streaming.",
       "severity_score": 90
     },
     {
-      "title": "Data Pipeline",
-      "description": "Netflix's data pipeline manages large volumes of data processing through real-time analytics and batch processing.",
-      "technical_spec": "Apache Kafka and Flink are used for stream processing, while Parquet and Presto are used for data storage and querying.",
-      "severity_score": 80
+      "title": "Cloud Hosting on AWS",
+      "description": "Netflix is hosted on Amazon Web Services, utilizing its vast, scalable infrastructure.",
+      "technical_spec": "AWS services including EC2, S3, and Lambda for cloud operations and database management.",
+      "severity_score": 92
     },
     {
-      "title": "Automated Deployment System",
-      "description": "A continuous deployment system ensures rapid and reliable delivery of software updates.",
-      "technical_spec": "Spinnaker is utilized for multi-cloud deployment management to improve release speed and reduce errors.",
-      "severity_score": 75
+      "title": "Data Management System",
+      "description": "Netflix uses complex data management systems for analytics and personalization.",
+      "technical_spec": "Utilizes Cassandra for high availability and resilience, alongside Elasticsearch for real-time applications.",
+      "severity_score": 88
+    },
+    {
+      "title": "Server-Side APIs",
+      "description": "APIs are used extensively for handling user requests and delivering personalized recommendations.",
+      "technical_spec": "Server-side handlers in languages like Java and Node.js communicating with backend services.",
+      "severity_score": 82
     }
   ]
 }

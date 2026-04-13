@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 4,
+    "rank": 14,
     "site": "microsoft.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "552745b39444ffccaf5f5aa1ec3f6db8"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "db7e29d6e4a8e23e5bd46a9b666f909b"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Pioneers in technology with a strong focus on continuous innovation.",
-      "technical_spec": "AI-Powered Solutions, Cloud Advancements",
-      "severity_score": 10
+      "title": "Innovation Driven",
+      "description": "Consistently pushes the boundaries of technology, leading in innovation.",
+      "technical_spec": "R&D Investments, Emerging Tech Exploration",
+      "severity_score": 92
     },
     {
-      "title": "Trust",
-      "description": "Builds confidence through reliable and secure products and services.",
-      "technical_spec": "Comprehensive Security Protocols, Customer Support",
-      "severity_score": 7
+      "title": "Customer-centric Approach",
+      "description": "Focuses on understanding and meeting customer needs.",
+      "technical_spec": "Customer Feedback Loops, User Testing",
+      "severity_score": 85
     },
     {
-      "title": "Accessibility",
-      "description": "Emphasizes inclusivity to make technology accessible to everyone.",
-      "technical_spec": "Screen Reader Support, High Contrast Mode",
-      "severity_score": 5
+      "title": "Global Impact",
+      "description": "Operates with a commitment to impact users worldwide positively.",
+      "technical_spec": "Global Initiatives, Diversity and Inclusion",
+      "severity_score": 90
     },
     {
-      "title": "Enterprise Solutions",
-      "description": "Catering to business needs with scalable software solutions.",
-      "technical_spec": "Microsoft Office, Dynamics 365",
-      "severity_score": 8
+      "title": "Trust and Security",
+      "description": "Emphasizes the importance of trust and security in all products and services.",
+      "technical_spec": "Compliance Standards, Privacy Regulations",
+      "severity_score": 95
     },
     {
-      "title": "Environmental Sustainability",
-      "description": "Commitment to reducing carbon footprint and enhancing sustainability.",
-      "technical_spec": "Renewable Energy Sources, Carbon Emission Reduction Initiatives",
-      "severity_score": 12
+      "title": "Sustainability Commitment",
+      "description": "Aims to drive future sustainability by reducing environmental impact.",
+      "technical_spec": "Carbon Neutral Initiatives, Energy-efficient Data Centers",
+      "severity_score": 88
     }
   ]
 }

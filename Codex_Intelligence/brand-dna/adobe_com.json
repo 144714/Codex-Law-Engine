@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 8,
+    "rank": 18,
     "site": "adobe.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "f6fc5b6327c36a1913f758e52147a90a"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "70b5157a98de497604cb18b34b290909"
   },
   "data": [
     {
-      "title": "Creative Empowerment",
-      "description": "Adobe's brand emphasizes enabling creativity and innovation for individuals and businesses.",
-      "technical_spec": "Creative Cloud suite, Adobe Sensei AI.",
-      "severity_score": 5
-    },
-    {
-      "title": "Customer-Centric",
-      "description": "Focus on user needs and evolving the platform based on feedback.",
-      "technical_spec": "User feedback systems, analytics-driven enhancements.",
+      "title": "Creativity at Core",
+      "description": "Adobe embodies creativity and innovation in its product offerings.",
+      "technical_spec": "Target market includes designers, artists, and creators seeking professional tools.",
       "severity_score": 10
     },
     {
-      "title": "Innovation Leadership",
-      "description": "Leading edge in technology to set industry standards.",
-      "technical_spec": "Patent portfolio, research & development investment.",
-      "severity_score": 8
+      "title": "Customer-Centric Design",
+      "description": "Focused on delivering intuitive tools and enhancing user experience.",
+      "technical_spec": "Regular user feedback loops and UI/UX studies to optimize interfaces.",
+      "severity_score": 15
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Commitment to sustainable practices and reducing environmental footprint.",
-      "technical_spec": "Digital documents, cloud storage solutions.",
-      "severity_score": 7
+      "title": "Rich Feature Set",
+      "description": "Offers a comprehensive range of features that cater to diverse creative needs.",
+      "technical_spec": "Continuous software updates and feature rollouts informed by market trends.",
+      "severity_score": 20
     },
     {
-      "title": "Community Engagement",
-      "description": "Building and supporting a diverse creative community.",
-      "technical_spec": "Support forums, community events.",
-      "severity_score": 12
+      "title": "Seamless Integration",
+      "description": "Ensures compatibility and connectivity with other Adobe products and services.",
+      "technical_spec": "Integrations across Creative Cloud suite and with third-party solutions.",
+      "severity_score": 18
+    },
+    {
+      "title": "Global Reach",
+      "description": "Operates with a global presence offering localized solutions for diverse markets.",
+      "technical_spec": "Multi-language support and regional customization in UI and services.",
+      "severity_score": 22
     }
   ]
 }

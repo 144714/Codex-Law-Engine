@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 6,
+    "rank": 16,
     "site": "netflix.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "c3d47007837cb9ad15e53edd27a5a493"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "4319e118c989acd643fd84ebb5cb1380"
   },
   "data": [
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "The design of Netflix's interface is visually appealing, enhancing perceived usability despite occasional complexity.",
-      "technical_spec": "Rich visuals, intuitive navigation, and a focus on user engagement through personalized recommendations.",
+      "title": "Aesthetic Usability Effect",
+      "description": "An intuitive interface is visually appealing and enhances user satisfaction.",
+      "technical_spec": "Sleek design elements with a focus on ease of navigation and content discoverability.",
       "severity_score": 85
     },
     {
-      "title": "Hick's Law",
-      "description": "Limits decision time by simplifying choices; key for content discovery.",
-      "technical_spec": "Dynamic rendering of content categories based on user preferences reduces cognitive load.",
-      "severity_score": 80
+      "title": "Hick’s Law",
+      "description": "Simplifying decision-making processes to reduce cognitive load on users.",
+      "technical_spec": "Employing minimalism in UI design to streamline user’s choice path in browsing content.",
+      "severity_score": 82
     },
     {
-      "title": "Fitts's Law",
-      "description": "Interactive elements are designed for easier and faster access to improve user experience.",
-      "technical_spec": "Primary actions, like 'Play' and 'Add to List,' are large and centrally located to enhance accessibility.",
-      "severity_score": 70
+      "title": "Fitts’s Law",
+      "description": "Designing interactive elements for easy access and efficient usability.",
+      "technical_spec": "Larger clickable areas and responsive layouts to facilitate quick navigation.",
+      "severity_score": 87
     },
     {
-      "title": "Social Proof",
-      "description": "User behaviors are influenced by community ratings and popular lists.",
-      "technical_spec": "Incorporates ratings, reviews, and social features to guide content selection.",
-      "severity_score": 75
+      "title": "Doherty Threshold",
+      "description": "Creating interactions that ensure system responses occur within 400 ms for seamless experience.",
+      "technical_spec": "Optimization techniques such as caching and prefetching to enhance interaction speed.",
+      "severity_score": 88
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Content placement is optimized to leverage primacy and recency effects.",
-      "technical_spec": "Frequent updates to the content carousel ensure fresh and engaging start pages.",
-      "severity_score": 80
+      "title": "Zeigarnik Effect",
+      "description": "Encouraging continuous user engagement by leveraging incomplete tasks (e.g., recommended shows).",
+      "technical_spec": "Persistent recommendations and watchlist features to promote ongoing consumption.",
+      "severity_score": 84
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 2,
+    "rank": 12,
     "site": "youtube.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "86989fd4dfe68e6b06bcaf68f081e078"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "c3d8636b84d67641f9484601d12aa2f6"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "YouTube's architecture uses a microservices model to improve scalability and manage services independently.",
-      "technical_spec": "Deployed with Docker containers managed by Kubernetes. Services communicate over HTTP/REST and Apache Kafka.",
-      "severity_score": 75
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Global load balancing ensures that traffic is efficiently distributed across servers.",
-      "technical_spec": "Implemented with global CDN infrastructure and Anycast DNS.",
-      "severity_score": 80
-    },
-    {
-      "title": "Database Sharding",
-      "description": "Databases are sharded to handle large volumes of data efficiently.",
-      "technical_spec": "Uses Google Cloud Spanner and Bigtable for horizontal scaling.",
-      "severity_score": 85
+      "title": "Microservices Architecture",
+      "description": "YouTube employs a microservices architecture to enhance scalability and maintainability.",
+      "technical_spec": "Decomposed services using REST APIs, managed with Kubernetes.",
+      "severity_score": 10
     },
     {
       "title": "Content Delivery Network",
-      "description": "A global CDN is used to reduce latency for video streams worldwide.",
-      "technical_spec": "Backed by Google's extensive data center network and Cloud CDN.",
-      "severity_score": 90
+      "description": "Utilizes CDN to efficiently deliver video content to a global audience.",
+      "technical_spec": "Global distributed network with edge caching.",
+      "severity_score": 15
     },
     {
-      "title": "Failover Systems",
-      "description": "High availability is maintained through automated failover systems.",
-      "technical_spec": "Includes backup data centers and real-time data replication.",
-      "severity_score": 70
+      "title": "Redundant Distributed Databases",
+      "description": "Ensures data redundancy and high availability with distributed databases.",
+      "technical_spec": "Combination of SQL and NoSQL databases across data centers.",
+      "severity_score": 20
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Implements load balancing to manage traffic and ensure even distribution of requests.",
+      "technical_spec": "Advanced load balancing algorithms using Google Cloud's infrastructure.",
+      "severity_score": 15
+    },
+    {
+      "title": "Scalable Storage Systems",
+      "description": "Custom-built storage systems to handle large amounts of video data.",
+      "technical_spec": "Combination of distributed file systems and object storage solutions.",
+      "severity_score": 30
     }
   ]
 }

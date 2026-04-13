@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 3,
+    "rank": 13,
     "site": "apple.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "662c89bfdaefcf036fa9ae9225db26fd"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "13e410259cc1db4c3e8aca0a6b969f63"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "The website is designed to minimize the time it takes for a user to make a decision by limiting the number of choices.",
-      "technical_spec": "Simplified navigation menus and concise call-to-action elements.",
-      "severity_score": 15
+      "description": "Simplifies decision-making by limiting choices available to users.",
+      "technical_spec": "Designed minimalistic and intuitive navigation menus.",
+      "severity_score": 10
     },
     {
       "title": "Fitts's Law",
-      "description": "Interactive elements are sized and placed to reduce the cursor movement required for user action.",
-      "technical_spec": "Proper button spacing and size adjustments for touch screens.",
-      "severity_score": 10
+      "description": "Optimizes interactive elements for ease of access and usability.",
+      "technical_spec": "Large clickable areas and strategic placement of CTAs.",
+      "severity_score": 15
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Design prioritizes a visually pleasing interface, creating a perception of ease-of-use.",
-      "technical_spec": "Consistent color schemes and modern typography.",
-      "severity_score": 5
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Design reflects common conventions to meet user expectations based on experiences from other platforms.",
-      "technical_spec": "Familiar navigation layout and interface patterns.",
-      "severity_score": 10
+      "title": "Law of Common Region",
+      "description": "Groups related content together, enhancing user focus and comprehension.",
+      "technical_spec": "Utilizes visual boundaries and spacing effectively.",
+      "severity_score": 12
     },
     {
       "title": "Miller's Law",
-      "description": "Information chunks are strategically grouped to enhance user comprehension and retention.",
-      "technical_spec": "Segmented content blocks with intuitive headings.",
+      "description": "Reduces cognitive load by keeping information clustered to seven or fewer items.",
+      "technical_spec": "Uses concise product descriptions and clear content sections.",
+      "severity_score": 8
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Designs patterns that align with user expectations from similar websites.",
+      "technical_spec": "Consistent interface elements and layout similar to popular standards.",
       "severity_score": 20
     }
   ]

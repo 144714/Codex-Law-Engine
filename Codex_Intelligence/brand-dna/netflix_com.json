@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 6,
+    "rank": 16,
     "site": "netflix.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "7fb8272b5b6ecc01ec2c1e9c5f6766e8"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "bbf42e4a20e34a415662cb5ea3786734"
   },
   "data": [
     {
-      "title": "Innovative Content Delivery",
-      "description": "Pioneering in streaming technology and original content production.",
-      "technical_spec": "Production and exclusive release of high-definition streaming series and movies.",
-      "severity_score": 95
+      "title": "Innovation Leadership",
+      "description": "Netflix continually pioneers new streaming technologies and business models.",
+      "technical_spec": "Commitment to R&D for new encoding methods, and interactive content formats.",
+      "severity_score": 92
     },
     {
-      "title": "User Personalization",
-      "description": "Tailored user experiences through algorithmic recommendations and user data analysis.",
-      "technical_spec": "Machine learning algorithms analyze viewing habits to suggest relevant content.",
+      "title": "Global Content Strategy",
+      "description": "Offering a diverse range of local and global content tailored to audience preferences.",
+      "technical_spec": "Leveraging data analytics to curate and produce original content relevant to varied demographics.",
       "severity_score": 90
     },
     {
-      "title": "Global Reach",
-      "description": "Accessible in over 190 countries, adapting to local languages and preferences.",
-      "technical_spec": "Infrastructure supports multi-language interfaces and region-specific content catalogs.",
-      "severity_score": 85
+      "title": "Subscriber-Centric Focus",
+      "description": "Providing engaging content recommendations and personalized viewing experiences.",
+      "technical_spec": "Advanced machine learning algorithms to analyze user behavior and preferences.",
+      "severity_score": 95
     },
     {
-      "title": "Strong Brand Identity",
-      "description": "Consistent branding creates a recognizable and trustworthy global brand.",
-      "technical_spec": "Minimalist design, distinct logo, and signature red and black color scheme.",
-      "severity_score": 80
+      "title": "User Accessibility",
+      "description": "Ensuring the platform is accessible to users with disabilities.",
+      "technical_spec": "Implementation of audio descriptions, subtitles, and real-time voice controls.",
+      "severity_score": 89
     },
     {
-      "title": "Customer-Centric Approach",
-      "description": "Focus on user satisfaction and service reliability.",
-      "technical_spec": "Responsive customer service and a user-friendly policy on account management.",
-      "severity_score": 88
+      "title": "Sustainability Efforts",
+      "description": "Commitment to reduce carbon footprint through energy-efficient data centers.",
+      "technical_spec": "Utilizing renewable energy sources and eco-friendly technology solutions.",
+      "severity_score": 87
     }
   ]
 }

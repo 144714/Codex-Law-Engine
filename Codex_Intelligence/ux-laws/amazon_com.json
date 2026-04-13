@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 5,
+    "rank": 15,
     "site": "amazon.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "d6086e04137c4668e1519db052b4a124"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "50cc69f20142522a5eb841bd4043b44b"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies navigation by reducing choices to enhance user decision speed.",
-      "technical_spec": "Streamlined menus with categorized sections.",
-      "severity_score": 80
+      "description": "Limits product options to streamline decision-making and reduce customer friction.",
+      "technical_spec": "Simplified navigation and fewer clicks to reach key actions.",
+      "severity_score": 70
     },
     {
       "title": "Fitts's Law",
-      "description": "Interaction design supports easy clickable targets proportional to their size and proximity.",
-      "technical_spec": "Larger buttons for frequently used actions.",
-      "severity_score": 85
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing designs enhance perceived usability.",
-      "technical_spec": "Consistent design language and high-quality images.",
-      "severity_score": 82
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Organizes product categories to help users process information effectively.",
-      "technical_spec": "Grouping similar items into intuitive categories.",
-      "severity_score": 78
+      "description": "Design ensures easily accessible navigation and actions for enhanced usability.",
+      "technical_spec": "Large clickable buttons and elements positioned for quick access.",
+      "severity_score": 65
     },
     {
       "title": "Jakob's Law",
-      "description": "Adopts familiar design patterns to meet user expectations.",
-      "technical_spec": "Consistent site navigation similar to known interfaces.",
-      "severity_score": 88
+      "description": "Maintains familiar interactions to meet user expectations based on web norms.",
+      "technical_spec": "Consistent UI pattern as seen across similar e-commerce platforms.",
+      "severity_score": 60
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Utilizes grouping techniques to assist in visual hierarchy and content organization.",
+      "technical_spec": "Emphasis on proximity, similarity, and closure in layout design.",
+      "severity_score": 75
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "An attractive design is provided to enhance perceived usability even with complex systems.",
+      "technical_spec": "Use of appealing color schemes, typography, and visual elements.",
+      "severity_score": 80
     }
   ]
 }

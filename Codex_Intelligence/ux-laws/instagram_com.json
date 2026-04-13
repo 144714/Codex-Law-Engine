@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 9,
+    "rank": 19,
     "site": "instagram.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "affe3a17a9f490c5883c153b7040c97b"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "d80e27b732d4eee3d5febd01a9de9503"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplified user interfaces to reduce the time required to make decisions.",
-      "technical_spec": "Clear and intuitive navigation, minimalistic design to limit choices.",
-      "severity_score": 10
+      "title": "Fitts’s Law",
+      "description": "Design interface elements for ease of access, emphasizing target size and distance for interaction.",
+      "technical_spec": "Optimized button sizes and spacing for mobile usability.",
+      "severity_score": 50
     },
     {
-      "title": "Fitts's Law",
-      "description": "Buttons and interactive elements designed for ease of clicking and accessibility.",
-      "technical_spec": "Size and positioning of UI elements are optimized for touchscreens.",
-      "severity_score": 8
+      "title": "Hick’s Law",
+      "description": "Minimizes decision-making time by reducing the complexity of visible content and navigation.",
+      "technical_spec": "Streamlined navigation and quick access to primary features.",
+      "severity_score": 45
     },
     {
-      "title": "Law of Proximity",
-      "description": "UI components are grouped for easier perception and interaction.",
-      "technical_spec": "Layout design that clusters related elements to guide user flow.",
-      "severity_score": 5
+      "title": "Miller’s Law",
+      "description": "Keeps information chunks manageable to avoid overwhelming users with too much information at once.",
+      "technical_spec": "Layout designs that focus on three to four key features per screen.",
+      "severity_score": 40
     },
     {
-      "title": "Jakob's Law",
-      "description": "Users prefer design that follows conventional patterns from other familiar apps.",
-      "technical_spec": "Instagram’s interface design is consistent with social media paradigms.",
-      "severity_score": 8
+      "title": "Jakob’s Law",
+      "description": "Designs user experiences based on familiar interfaces that align with user expectations.",
+      "technical_spec": "Consistency in UI elements like stories, feed layout, and direct messages.",
+      "severity_score": 55
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Beautiful interfaces are perceived as easier to use by users.",
-      "technical_spec": "Attention to visual design elements such as colors, typography, and layout.",
-      "severity_score": 7
+      "description": "Ensures aesthetically pleasing designs to enhance perceived usability.",
+      "technical_spec": "High-resolution images, balanced color schemes, and modern typography.",
+      "severity_score": 60
     }
   ]
 }

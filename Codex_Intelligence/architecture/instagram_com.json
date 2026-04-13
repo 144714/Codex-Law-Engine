@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 9,
+    "rank": 19,
     "site": "instagram.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "8ebad0fcb0801b4258168acf2a53cc60"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "7693277bd8501fe2af05f7de4c5e073c"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Instagram employs a microservices architecture to ensure scalability and flexibility.",
-      "technical_spec": "Multiple independent services communicating over HTTP APIs, typically using RESTful standards.",
-      "severity_score": 10
+      "title": "Monolithic Application",
+      "description": "Instagram primarily runs on a monolithic architecture, which centralizes various services into one large codebase.",
+      "technical_spec": "Implemented in Django (Python framework) with a PostgreSQL backend.",
+      "severity_score": 70
     },
     {
-      "title": "NoSQL Database Integration",
-      "description": "Utilizes NoSQL databases for handling large volumes of user-generated content.",
-      "technical_spec": "Primarily uses databases like Apache Cassandra for distributed, scalable storage.",
-      "severity_score": 20
+      "title": "Microservices Transition",
+      "description": "Gradual transition from a monolithic to a microservices architecture to improve scalability.",
+      "technical_spec": "Docker containers and Kubernetes orchestration.",
+      "severity_score": 65
     },
     {
       "title": "GraphQL API",
-      "description": "Provides a flexible API interface that allows clients to request exactly what they need.",
-      "technical_spec": "GraphQL implemented over HTTP, allows for dynamic queries and efficient data retrieval.",
-      "severity_score": 15
+      "description": "Provides a flexible API for data querying, optimizing for mobile clients.",
+      "technical_spec": "GraphQL API endpoints for data querying and mutations.",
+      "severity_score": 50
     },
     {
-      "title": "Content Delivery Network (CDN) Utilization",
-      "description": "CDNs are used to ensure fast, reliable content delivery globally.",
-      "technical_spec": "Partnership with global CDN providers like Akamai and Cloudflare.",
-      "severity_score": 5
+      "title": "AWS Cloud Infrastructure",
+      "description": "Utilizes Amazon Web Services for scalable hosting and content delivery.",
+      "technical_spec": "Elastic Load Balancing, EC2, S3 buckets for storage.",
+      "severity_score": 40
     },
     {
-      "title": "Service-Oriented On-prem and Cloud Integration",
-      "description": "Integration of on-premises services with cloud-based resources for optimal performance.",
-      "technical_spec": "Hybrid solutions, leveraging AWS and in-house data centers.",
-      "severity_score": 25
+      "title": "Content Delivery Network (CDN)",
+      "description": "Employs a CDN to deliver images and videos efficiently worldwide.",
+      "technical_spec": "Utilizes Akamai and Fastly for global CDN distribution.",
+      "severity_score": 55
     }
   ]
 }

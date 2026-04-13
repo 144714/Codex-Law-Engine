@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 4,
+    "rank": 14,
     "site": "microsoft.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "f977646a6db83dacc01606acd3de3c25"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "93429e8ee894c42004f5ff5f1a573b2a"
   },
   "data": [
     {
-      "title": "Cloud-first Infrastructure",
-      "description": "Microsoft utilizes Azure for its cloud services, providing scalable and flexible architecture.",
-      "technical_spec": "Azure Kubernetes Service, Azure Functions, Load Balancers",
-      "severity_score": 10
+      "title": "Microservices Infrastructure",
+      "description": "Utilizes a microservices architecture to break down the application into smaller, independent services.",
+      "technical_spec": "Docker, Kubernetes, API Gateway",
+      "severity_score": 90
     },
     {
-      "title": "Microservices Architecture",
-      "description": "The site relies on a microservices architecture to improve modularity and scalability.",
-      "technical_spec": "Docker, Kubernetes, RESTful APIs",
-      "severity_score": 15
+      "title": "Scalable Cloud Solutions",
+      "description": "Extensive use of cloud resources to ensure scalability and redundancy.",
+      "technical_spec": "Azure Cloud Services, Load Balancers",
+      "severity_score": 85
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Uses a global CDN to deliver content efficiently to users worldwide.",
-      "technical_spec": "Azure CDN, Edge Servers",
-      "severity_score": 5
+      "description": "Employs a global CDN for fast content delivery.",
+      "technical_spec": "Azure CDN, CDN Caching",
+      "severity_score": 80
     },
     {
-      "title": "Responsive Web Design",
-      "description": "Ensures that the website is accessible and visually appealing on all devices.",
-      "technical_spec": "CSS3, HTML5, Media Queries",
-      "severity_score": 20
+      "title": "Distributed Databases",
+      "description": "Uses distributed databases to ensure data availability and consistency.",
+      "technical_spec": "Azure SQL Database, Cosmos DB",
+      "severity_score": 88
     },
     {
-      "title": "Service-Oriented Architecture (SOA)",
-      "description": "Promotes loose coupling between the site’s services for flexibility and efficiency.",
-      "technical_spec": "SOAP, WSDL, Enterprise Service Bus",
-      "severity_score": 12
+      "title": "Serverless Architecture",
+      "description": "Incorporates serverless computing to efficiently handle various tasks.",
+      "technical_spec": "Azure Functions, Event Grid",
+      "severity_score": 75
     }
   ]
 }

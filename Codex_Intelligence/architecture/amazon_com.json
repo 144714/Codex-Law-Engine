@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 5,
+    "rank": 15,
     "site": "amazon.com",
-    "date": "2026-04-13 20:55",
-    "integrity_hash": "bde268f8c9b196afddb0ae441ffe08ef"
+    "date": "2026-04-13 21:40",
+    "integrity_hash": "297c3bb3ccac1cdccf231e420718aeb1"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Amazon uses a microservices architecture with each service focused on a particular business capability.",
-      "technical_spec": "Service-oriented architecture with RESTful APIs.",
+      "title": "Microservices",
+      "description": "Amazon uses a microservices architecture to enhance scalability and manageability of its vast e-commerce platform.",
+      "technical_spec": "Decoupled services that handle different functionalities, communicating through APIs.",
       "severity_score": 85
     },
     {
-      "title": "AWS Cloud Infrastructure",
-      "description": "Amazon runs its services on AWS infrastructure, ensuring flexibility, scalability, and reliability.",
-      "technical_spec": "Utilization of AWS cloud services such as EC2, S3, and RDS.",
+      "title": "AWS Infrastructure",
+      "description": "Utilizes Amazon Web Services for hosting and handling its massive data and computation needs.",
+      "technical_spec": "Cloud-based infrastructure with elastic scaling and global distribution.",
       "severity_score": 90
     },
     {
-      "title": "Load Balancing and Auto-Scaling",
-      "description": "Load balancers distribute incoming application traffic across multiple targets to ensure high availability.",
-      "technical_spec": "Elastic Load Balancing (ELB) with Auto-Scaling Groups.",
-      "severity_score": 88
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Amazon uses a global CDN to deliver content with low latency.",
-      "technical_spec": "Amazon CloudFront integration for dynamic and static content delivery.",
+      "title": "NoSQL Databases",
+      "description": "Incorporation of NoSQL databases like DynamoDB for fast and flexible data retrieval.",
+      "technical_spec": "Distributed database system optimized for high throughput and low latency.",
       "severity_score": 80
     },
     {
-      "title": "Database Management",
-      "description": "Combination of NoSQL and SQL databases for handling different data types.",
-      "technical_spec": "Amazon DynamoDB and Amazon RDS for diverse data requirements.",
-      "severity_score": 87
+      "title": "Load Balancing",
+      "description": "Advanced load balancing approaches are used to evenly distribute incoming network traffic.",
+      "technical_spec": "Multi-tier load balancing with autoscaling support.",
+      "severity_score": 75
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Amazon CloudFront is used to deliver content with low latency and high transfer speeds.",
+      "technical_spec": "Global network of edge locations for caching and delivering content.",
+      "severity_score": 70
     }
   ]
 }
