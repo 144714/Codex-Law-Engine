@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 15:08"
+    "date": "2026-04-13 16:54"
   },
   "data": [
     {
-      "title": "Innovation-Centric",
-      "description": "Commitment to cutting-edge AI technologies and solutions.",
-      "technical_spec": "Advanced machine learning models and APIs.",
-      "severity_score": 5
+      "title": "Innovation-Driven",
+      "description": "Commitment to pushing the boundaries of AI technology.",
+      "technical_spec": "Research publications, cutting-edge AI models.",
+      "severity_score": 93
     },
     {
-      "title": "User-Education Focused",
-      "description": "Emphasizes learning resources and user support.",
-      "technical_spec": "Extensive documentation and tutorials.",
-      "severity_score": 10
+      "title": "Ethical AI Development",
+      "description": "Ensuring AI models are developed with ethical guidelines and transparency.",
+      "technical_spec": "Bias checks, model explainability.",
+      "severity_score": 90
     },
     {
-      "title": "Ethical AI Advocacy",
-      "description": "Promotes responsible and ethical use of AI technologies.",
-      "technical_spec": "Adherence to ethical guidelines and AI safety standards.",
-      "severity_score": 15
+      "title": "Customer-Centric Approach",
+      "description": "Focusing on solving real-world problems through customer feedback and iteration.",
+      "technical_spec": "User research, agile methodology.",
+      "severity_score": 88
     },
     {
-      "title": "Global Reach",
-      "description": "Strives to make AI accessible to a worldwide audience.",
-      "technical_spec": "Multi-language support and worldwide distribution networks.",
-      "severity_score": 10
+      "title": "Collaborative Ecosystem",
+      "description": "Fostering a community of developers, researchers, and partners to expand AI applications.",
+      "technical_spec": "Open-source contributions, partnership programs.",
+      "severity_score": 92
     },
     {
-      "title": "Community Engagement",
-      "description": "Encourages active participation from AI developers and researchers.",
-      "technical_spec": "Open-source contributions and community forums.",
-      "severity_score": 20
+      "title": "Global Connectivity",
+      "description": "Building technologies that connect diverse users across the globe.",
+      "technical_spec": "Internationalization, multilingual support.",
+      "severity_score": 89
     }
   ]
 }
