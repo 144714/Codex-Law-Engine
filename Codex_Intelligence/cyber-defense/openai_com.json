@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 04:52"
+    "date": "2026-04-13 07:10"
   },
   "data": [
     {
-      "title": "Secure Data Encryption",
-      "description": "All sensitive data is encrypted both at rest and in transit to ensure data protection.",
-      "technical_spec": "AES-256 encryption and TLS 1.3 for data communication.",
-      "severity_score": 50
+      "title": "SSL/TLS Encryption",
+      "description": "Encrypts the data transferred between user devices and servers.",
+      "technical_spec": "Implements up-to-date TLS version protocols.",
+      "severity_score": 95
     },
     {
-      "title": "Multi-factor Authentication",
-      "description": "User accounts are protected using multi-factor authentication to prevent unauthorized access.",
-      "technical_spec": "Supports TOTP and SMS-based verification protocols.",
-      "severity_score": 40
+      "title": "Multi-Factor Authentication",
+      "description": "Adds a layer of security for user logins beyond just username and password.",
+      "technical_spec": "Supports time-based OTPs and U2F (hardware keys).",
+      "severity_score": 90
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Frequent security audits and penetration testing are conducted to identify vulnerabilities.",
-      "technical_spec": "Utilizes tools like Nessus and Burp Suite for security testing.",
-      "severity_score": 30
+      "title": "Web Application Firewall (WAF)",
+      "description": "Protects web applications by filtering and monitoring HTTP traffic.",
+      "technical_spec": "Built with services like AWS WAF or Cloudflare.",
+      "severity_score": 85
     },
     {
-      "title": "Firewall and Intrusion Detection",
-      "description": "Advanced firewall policies and an intrusion detection system monitor and mitigate potential threats.",
-      "technical_spec": "Employs AWS WAF and Snort for intrusion detection.",
-      "severity_score": 45
+      "title": "Intrusion Detection System (IDS)",
+      "description": "Monitors network for malicious activities or policy violations.",
+      "technical_spec": "Utilizes Snort or similar tools.",
+      "severity_score": 80
     },
     {
-      "title": "Role-based Access Control",
-      "description": "Enforces strict role-based access permissions to limit access to sensitive resources.",
-      "technical_spec": "Implemented via IAM roles and policy development.",
-      "severity_score": 35
+      "title": "Data Encryption at Rest",
+      "description": "Ensures stored data is encrypted to protect information from unauthorized access.",
+      "technical_spec": "Rely on AES-256 encryption.",
+      "severity_score": 90
     }
   ]
 }

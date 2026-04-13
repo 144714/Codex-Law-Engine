@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 04:52"
+    "date": "2026-04-13 07:10"
   },
   "data": [
     {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "The site is built on a scalable cloud platform designed to handle high traffic volume efficiently.",
-      "technical_spec": "Utilizes AWS and Kubernetes for auto-scaling and load balancing.",
-      "severity_score": 20
+      "title": "Responsive Grid System",
+      "description": "Ensures cross-device compatibility and adjusts layout based on screen size.",
+      "technical_spec": "Uses CSS Flexbox and media queries.",
+      "severity_score": 85
     },
     {
-      "title": "Microservices Architecture",
-      "description": "A microservices framework allows independent services to streamline functionality and updates.",
-      "technical_spec": "Docker containers facilitate service independence and microservice communication.",
-      "severity_score": 15
+      "title": "Microservices",
+      "description": "A suite of small services, each running in its own process, allowing for scalability and flexibility.",
+      "technical_spec": "Deployed with Docker, orchestrated on Kubernetes.",
+      "severity_score": 90
     },
     {
-      "title": "Responsive Frontend Design",
-      "description": "The frontend architecture is created to be responsive across a wide range of devices and screen sizes.",
-      "technical_spec": "Implemented using React.js and CSS3 media queries.",
-      "severity_score": 10
+      "title": "Serverless Architecture",
+      "description": "Executes logic without managing servers, enabling automatic scaling.",
+      "technical_spec": "Utilizes AWS Lambda functions.",
+      "severity_score": 80
     },
     {
-      "title": "API-driven Backend",
-      "description": "Backend processes are structured via RESTful API endpoints to provide data handling and business logic.",
-      "technical_spec": "Node.js with Express framework for API implementation.",
-      "severity_score": 25
+      "title": "Content Delivery Network (CDN)",
+      "description": "Distributes content globally to improve load times for users worldwide.",
+      "technical_spec": "Incorporates services like Cloudflare.",
+      "severity_score": 70
     },
     {
-      "title": "Database Normalization",
-      "description": "Database designs follow a normalized structure for optimal performance and reduced redundancy.",
-      "technical_spec": "Databases are managed using PostgreSQL with appropriate indexing.",
-      "severity_score": 30
+      "title": "API Gateway",
+      "description": "Manages API traffic and helps scale each service independently.",
+      "technical_spec": "Implemented with AWS API Gateway or similar.",
+      "severity_score": 85
     }
   ]
 }

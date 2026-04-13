@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 04:52"
+    "date": "2026-04-13 07:10"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "The design simplifies user choices to minimize decision time.",
-      "technical_spec": "Utilizes progressive disclosure of information and choice filtering.",
-      "severity_score": 20
+      "description": "Time to make a decision increases with the number of choices.",
+      "technical_spec": "Cluster similar actions and simplify choices per screen.",
+      "severity_score": 75
     },
     {
-      "title": "Fitts' Law",
-      "description": "Interactive elements are sized and positioned to be easily accessible for user interaction.",
-      "technical_spec": "Primary controls are larger and positioned in intuitive hotspots.",
-      "severity_score": 15
-    },
-    {
-      "title": "Law of Simplicity",
-      "description": "The interface is designed to offer a simple, clean, and minimal aesthetic.",
-      "technical_spec": "Adopts whitespace and a minimalist approach to design.",
-      "severity_score": 10
+      "title": "Fitts's Law",
+      "description": "Time to acquire a target is a function of distance and size.",
+      "technical_spec": "Design interactive elements to be large enough and close enough for easy access.",
+      "severity_score": 85
     },
     {
       "title": "Gestalt Principles",
-      "description": "Promotes visual grouping and hierarchy to guide the user's navigation experience.",
-      "technical_spec": "Usage of proximity, similarity, and continuity in visual design.",
-      "severity_score": 25
+      "description": "Users perceive graphical elements as wholes.",
+      "technical_spec": "Incorporate proximity, similarity, and continuity in design.",
+      "severity_score": 80
     },
     {
-      "title": "Feedback Principle",
-      "description": "System feedback is clear and immediate to let users know their actions are registered.",
-      "technical_spec": "Real-time notifications and visual response for inputs.",
-      "severity_score": 20
+      "title": "Jakob’s Law",
+      "description": "Users prefer your site to work the same way as all the other sites they already know.",
+      "technical_spec": "Follow conventional design patterns and user interface behaviors.",
+      "severity_score": 90
+    },
+    {
+      "title": "Law of Similarity",
+      "description": "Similar elements are perceived as part of the same group.",
+      "technical_spec": "Use consistent visual elements to cue users.",
+      "severity_score": 70
     }
   ]
 }

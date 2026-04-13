@@ -2,38 +2,38 @@
   "meta": {
     "rank": 999,
     "site": "openai.com",
-    "date": "2026-04-13 04:52"
+    "date": "2026-04-13 07:10"
   },
   "data": [
     {
-      "title": "Innovation Leadership",
-      "description": "Positioned as a leader in AI technology and innovation.",
-      "technical_spec": "Consistent communication of cutting-edge research and development achievements.",
-      "severity_score": 30
+      "title": "Innovative Technology",
+      "description": "Pushing the boundaries of AI research and application.",
+      "technical_spec": "Regularly updates models and includes state-of-the-art AI solutions.",
+      "severity_score": 95
     },
     {
-      "title": "Trust and Reliability",
-      "description": "Focus on building trust with users through transparent policies and reliable technology.",
-      "technical_spec": "Robust privacy policies and clear data handling practices emphasized.",
-      "severity_score": 35
+      "title": "Ethical AI Commitment",
+      "description": "Strives to create AI systems that are fair, accountable, and transparent.",
+      "technical_spec": "Incorporates bias detection algorithms and ethical audits.",
+      "severity_score": 90
     },
     {
-      "title": "User-centric Approach",
-      "description": "Design and communications emphasize user benefits and needs.",
-      "technical_spec": "User feedback loops and iterative design processes are in place.",
-      "severity_score": 25
+      "title": "User Empowerment",
+      "description": "Designs products that enhance human capabilities and productivity.",
+      "technical_spec": "Feedback-driven development and user-centered design approach.",
+      "severity_score": 85
     },
     {
-      "title": "Educational Resource",
-      "description": "Functions as a key educational resource for AI knowledge dissemination.",
-      "technical_spec": "Regular content updates include tutorials, articles, and guideline publications.",
-      "severity_score": 20
+      "title": "Global Accessibility",
+      "description": "Ensure AI solutions are accessible to a diverse user base worldwide.",
+      "technical_spec": "Multilanguage support and inclusive design standards.",
+      "severity_score": 80
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Demonstrates a commitment to sustainable practices and ethical AI development.",
-      "technical_spec": "Initiatives on energy-efficient data centers and responsible AI guidelines.",
-      "severity_score": 40
+      "title": "Community Engagement",
+      "description": "Active involvement in research communities and knowledge sharing.",
+      "technical_spec": "Open research publications and collaborative projects.",
+      "severity_score": 85
     }
   ]
 }
