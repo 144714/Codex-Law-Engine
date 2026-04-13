@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 5,
+    "site": "amazon.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "bde268f8c9b196afddb0ae441ffe08ef"
+  },
+  "data": [
+    {
+      "title": "Microservices Architecture",
+      "description": "Amazon uses a microservices architecture with each service focused on a particular business capability.",
+      "technical_spec": "Service-oriented architecture with RESTful APIs.",
+      "severity_score": 85
+    },
+    {
+      "title": "AWS Cloud Infrastructure",
+      "description": "Amazon runs its services on AWS infrastructure, ensuring flexibility, scalability, and reliability.",
+      "technical_spec": "Utilization of AWS cloud services such as EC2, S3, and RDS.",
+      "severity_score": 90
+    },
+    {
+      "title": "Load Balancing and Auto-Scaling",
+      "description": "Load balancers distribute incoming application traffic across multiple targets to ensure high availability.",
+      "technical_spec": "Elastic Load Balancing (ELB) with Auto-Scaling Groups.",
+      "severity_score": 88
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Amazon uses a global CDN to deliver content with low latency.",
+      "technical_spec": "Amazon CloudFront integration for dynamic and static content delivery.",
+      "severity_score": 80
+    },
+    {
+      "title": "Database Management",
+      "description": "Combination of NoSQL and SQL databases for handling different data types.",
+      "technical_spec": "Amazon DynamoDB and Amazon RDS for diverse data requirements.",
+      "severity_score": 87
+    }
+  ]
+}

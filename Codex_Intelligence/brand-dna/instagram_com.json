@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 9,
+    "site": "instagram.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "ab68285f28a91616d8a33828409119f8"
+  },
+  "data": [
+    {
+      "title": "Visual Connectivity",
+      "description": "Focus on visual storytelling through images and videos.",
+      "technical_spec": "Feature-rich media handling capabilities, including filters and effects.",
+      "severity_score": 10
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Encourages interaction and community building among users.",
+      "technical_spec": "Features like stories, IGTV, and direct messaging for diverse engagements.",
+      "severity_score": 15
+    },
+    {
+      "title": "Innovation in Digital Expression",
+      "description": "Continuously evolving tools and features for creative content creation.",
+      "technical_spec": "Regular updates incorporating AR filters and extended reality features.",
+      "severity_score": 8
+    },
+    {
+      "title": "Simplicity and Accessibility",
+      "description": "User-friendly interface that is easily accessible to a broad audience.",
+      "technical_spec": "Respects design accessibility standards to ensure usability for all.",
+      "severity_score": 12
+    },
+    {
+      "title": "Brand Consistency",
+      "description": "Maintains a consistent look and feel across all platforms and devices.",
+      "technical_spec": "Guidelines for brand colors, typography, and iconography.",
+      "severity_score": 5
+    }
+  ]
+}

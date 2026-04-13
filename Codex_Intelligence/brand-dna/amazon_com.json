@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 5,
+    "site": "amazon.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "3db2f2383bd57a00431c1a0ae37d8df3"
+  },
+  "data": [
+    {
+      "title": "Customer Obsession",
+      "description": "Relentless focus on maintaining customer satisfaction and trust.",
+      "technical_spec": "Implementation of feedback loops and customer service excellence.",
+      "severity_score": 95
+    },
+    {
+      "title": "Operational Excellence",
+      "description": "Strives for continuous improvement in operational processes.",
+      "technical_spec": "Use of Six Sigma and lean methodologies for process optimization.",
+      "severity_score": 90
+    },
+    {
+      "title": "Innovation",
+      "description": "Commitment to technological and business innovation.",
+      "technical_spec": "Investment in R&D and adoption of emerging technologies.",
+      "severity_score": 92
+    },
+    {
+      "title": "Long-Term Thinking",
+      "description": "Focus on sustainable growth and investments for the future.",
+      "technical_spec": "Strategic long-term investments in technologies and markets.",
+      "severity_score": 88
+    },
+    {
+      "title": "Leadership Principle",
+      "description": "Guided by a set of core leadership principles in decision-making.",
+      "technical_spec": "Principles embedded in company culture and daily operations.",
+      "severity_score": 93
+    }
+  ]
+}

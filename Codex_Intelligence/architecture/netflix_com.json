@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 6,
+    "site": "netflix.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "31334892d35d6ec4bb8f89a0bbf994a1"
+  },
+  "data": [
+    {
+      "title": "Microservices Architecture",
+      "description": "Netflix utilizes a microservices architecture to enable independent development, deployment, and scaling of different services.",
+      "technical_spec": "Microservices communicate over REST APIs; use of Spring Boot, Hystrix, and Zuul for service management and routing.",
+      "severity_score": 85
+    },
+    {
+      "title": "Serverless Computing",
+      "description": "Parts of Netflix's infrastructure run on serverless platforms to handle asynchronous workloads efficiently.",
+      "technical_spec": "Utilizes AWS Lambda for serverless execution to manage compute resources dynamically.",
+      "severity_score": 70
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Netflix uses CDNs to cache and deliver content efficiently to a global audience.",
+      "technical_spec": "Deployment on Open Connect enables localized streaming through a network of caching servers.",
+      "severity_score": 90
+    },
+    {
+      "title": "Data Pipeline",
+      "description": "Netflix's data pipeline manages large volumes of data processing through real-time analytics and batch processing.",
+      "technical_spec": "Apache Kafka and Flink are used for stream processing, while Parquet and Presto are used for data storage and querying.",
+      "severity_score": 80
+    },
+    {
+      "title": "Automated Deployment System",
+      "description": "A continuous deployment system ensures rapid and reliable delivery of software updates.",
+      "technical_spec": "Spinnaker is utilized for multi-cloud deployment management to improve release speed and reduce errors.",
+      "severity_score": 75
+    }
+  ]
+}

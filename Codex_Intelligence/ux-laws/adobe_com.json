@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 8,
+    "site": "adobe.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "107b6747c0de6e5dd136a8b92039008d"
+  },
+  "data": [
+    {
+      "title": "Hick's Law",
+      "description": "Options are minimized to reduce decision-making time for the user.",
+      "technical_spec": "Streamlined navigation, concise menus.",
+      "severity_score": 10
+    },
+    {
+      "title": "Fitts' Law",
+      "description": "UI elements are optimized for quicker access and navigation.",
+      "technical_spec": "Larger clickable areas, spaced elements.",
+      "severity_score": 15
+    },
+    {
+      "title": "Consistency Principle",
+      "description": "Uniform design elements across the platform for better user comprehension.",
+      "technical_spec": "Consistent typography, color scheme.",
+      "severity_score": 12
+    },
+    {
+      "title": "Feedback Principle",
+      "description": "Users receive immediate feedback on interactions to confirm actions.",
+      "technical_spec": "Loading animations, confirmation dialogs.",
+      "severity_score": 18
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing interfaces perceived as easier to use.",
+      "technical_spec": "High-quality graphics, balanced layouts.",
+      "severity_score": 14
+    }
+  ]
+}

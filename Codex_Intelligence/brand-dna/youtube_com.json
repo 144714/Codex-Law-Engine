@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 2,
+    "site": "youtube.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "a91767d0eae935309c0c31938fcfcde7"
+  },
+  "data": [
+    {
+      "title": "Innovation",
+      "description": "Consistent focus on introducing new features and technologies.",
+      "technical_spec": "AI-powered features such as recommendation algorithms, live streaming capabilities.",
+      "severity_score": 90
+    },
+    {
+      "title": "Community",
+      "description": "Fostering a diverse global community of content creators and viewers.",
+      "technical_spec": "Support for creators through tools like analytics, monetization options, and community guidelines.",
+      "severity_score": 93
+    },
+    {
+      "title": "Accessibility",
+      "description": "Ensuring content is accessible to all audiences through features like captions and language options.",
+      "technical_spec": "Automatic subtitle generation, multiple language support.",
+      "severity_score": 88
+    },
+    {
+      "title": "Entertainment",
+      "description": "Providing a vast array of content for educational and entertainment purposes.",
+      "technical_spec": "Robust video library sorted by genres, interests, and trending topics.",
+      "severity_score": 92
+    },
+    {
+      "title": "Trustworthiness",
+      "description": "Maintaining user trust through transparent policies and user privacy initiatives.",
+      "technical_spec": "Comprehensive privacy policy, regular transparency reports, and community standards enforcement.",
+      "severity_score": 94
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 5,
+    "site": "amazon.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "d6086e04137c4668e1519db052b4a124"
+  },
+  "data": [
+    {
+      "title": "Hick's Law",
+      "description": "Simplifies navigation by reducing choices to enhance user decision speed.",
+      "technical_spec": "Streamlined menus with categorized sections.",
+      "severity_score": 80
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "Interaction design supports easy clickable targets proportional to their size and proximity.",
+      "technical_spec": "Larger buttons for frequently used actions.",
+      "severity_score": 85
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing designs enhance perceived usability.",
+      "technical_spec": "Consistent design language and high-quality images.",
+      "severity_score": 82
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Organizes product categories to help users process information effectively.",
+      "technical_spec": "Grouping similar items into intuitive categories.",
+      "severity_score": 78
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Adopts familiar design patterns to meet user expectations.",
+      "technical_spec": "Consistent site navigation similar to known interfaces.",
+      "severity_score": 88
+    }
+  ]
+}

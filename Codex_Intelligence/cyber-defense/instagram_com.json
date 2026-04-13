@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 9,
+    "site": "instagram.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "3465ef33961cad4c126c292363712afd"
+  },
+  "data": [
+    {
+      "title": "Data Encryption",
+      "description": "User data is encrypted both in transit and at rest to protect privacy.",
+      "technical_spec": "TLS/SSL for data in transit, AES-256 for data at rest.",
+      "severity_score": 5
+    },
+    {
+      "title": "Zero Trust Security Model",
+      "description": "Implements a 'never trust, always verify' approach to network security.",
+      "technical_spec": "Requires authentication, authorization, and continuous validation of security configurations.",
+      "severity_score": 20
+    },
+    {
+      "title": "Machine Learning-based Threat Detection",
+      "description": "Utilizes AI algorithms to detect unusual patterns that may indicate security threats.",
+      "technical_spec": "Advanced anomaly detection and automated alerts through machine learning models.",
+      "severity_score": 15
+    },
+    {
+      "title": "Multi-Factor Authentication (MFA)",
+      "description": "Enhances account security by requiring multiple forms of verification.",
+      "technical_spec": "Supports authentication factors such as SMS, app-generated tokens, and biometric data.",
+      "severity_score": 10
+    },
+    {
+      "title": "Regular Security Audits and Penetration Testing",
+      "description": "Conducts frequent security reviews to identify and mitigate risks.",
+      "technical_spec": "Engagement with third-party security firms and internal red teams for comprehensive testing.",
+      "severity_score": 25
+    }
+  ]
+}

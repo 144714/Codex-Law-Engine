@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 4,
+    "site": "microsoft.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "552745b39444ffccaf5f5aa1ec3f6db8"
+  },
+  "data": [
+    {
+      "title": "Innovation",
+      "description": "Pioneers in technology with a strong focus on continuous innovation.",
+      "technical_spec": "AI-Powered Solutions, Cloud Advancements",
+      "severity_score": 10
+    },
+    {
+      "title": "Trust",
+      "description": "Builds confidence through reliable and secure products and services.",
+      "technical_spec": "Comprehensive Security Protocols, Customer Support",
+      "severity_score": 7
+    },
+    {
+      "title": "Accessibility",
+      "description": "Emphasizes inclusivity to make technology accessible to everyone.",
+      "technical_spec": "Screen Reader Support, High Contrast Mode",
+      "severity_score": 5
+    },
+    {
+      "title": "Enterprise Solutions",
+      "description": "Catering to business needs with scalable software solutions.",
+      "technical_spec": "Microsoft Office, Dynamics 365",
+      "severity_score": 8
+    },
+    {
+      "title": "Environmental Sustainability",
+      "description": "Commitment to reducing carbon footprint and enhancing sustainability.",
+      "technical_spec": "Renewable Energy Sources, Carbon Emission Reduction Initiatives",
+      "severity_score": 12
+    }
+  ]
+}

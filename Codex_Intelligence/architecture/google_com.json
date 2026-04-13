@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 1,
+    "site": "google.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "cbd80d019ce8a8b30c5b00cb2eba011c"
+  },
+  "data": [
+    {
+      "title": "Microservices Architecture",
+      "description": "Google.com employs a microservices architecture to handle different functionalities independently.",
+      "technical_spec": "Services are designed as independent components that communicate over HTTP/2 and gRPC.",
+      "severity_score": 5
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Advanced load balancing techniques are used to distribute incoming traffic efficiently.",
+      "technical_spec": "Uses Google Cloud Load Balancing to manage traffic and ensure high availability.",
+      "severity_score": 10
+    },
+    {
+      "title": "Serverless Computing",
+      "description": "Parts of Google's architecture utilize serverless computing to handle dynamically scaling events.",
+      "technical_spec": "Uses Google Cloud Functions and Cloud Run for event-driven workloads.",
+      "severity_score": 15
+    },
+    {
+      "title": "Content Delivery Network",
+      "description": "A global CDN is employed to quickly deliver content to users worldwide.",
+      "technical_spec": "Google Cloud CDN is used to cache content at edge locations globally.",
+      "severity_score": 5
+    },
+    {
+      "title": "Database Management",
+      "description": "Robust database management ensures the handling of massive data efficiently.",
+      "technical_spec": "Cloud Spanner and Bigtable are utilized for scalable and consistent database solutions.",
+      "severity_score": 10
+    }
+  ]
+}

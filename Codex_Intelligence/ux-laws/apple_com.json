@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 3,
+    "site": "apple.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "662c89bfdaefcf036fa9ae9225db26fd"
+  },
+  "data": [
+    {
+      "title": "Hick's Law",
+      "description": "The website is designed to minimize the time it takes for a user to make a decision by limiting the number of choices.",
+      "technical_spec": "Simplified navigation menus and concise call-to-action elements.",
+      "severity_score": 15
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "Interactive elements are sized and placed to reduce the cursor movement required for user action.",
+      "technical_spec": "Proper button spacing and size adjustments for touch screens.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Design prioritizes a visually pleasing interface, creating a perception of ease-of-use.",
+      "technical_spec": "Consistent color schemes and modern typography.",
+      "severity_score": 5
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Design reflects common conventions to meet user expectations based on experiences from other platforms.",
+      "technical_spec": "Familiar navigation layout and interface patterns.",
+      "severity_score": 10
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Information chunks are strategically grouped to enhance user comprehension and retention.",
+      "technical_spec": "Segmented content blocks with intuitive headings.",
+      "severity_score": 20
+    }
+  ]
+}

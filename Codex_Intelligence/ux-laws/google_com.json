@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 1,
+    "site": "google.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "06d8446c97df4bee94d10cdd0a6f998c"
+  },
+  "data": [
+    {
+      "title": "Hick's Law",
+      "description": "Google minimizes choices to reduce decision time, optimizing user experience.",
+      "technical_spec": "Uses simple, clean designs with essential features prominently displayed.",
+      "severity_score": 3
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "UI elements are positioned to enhance usability according to their expected frequency.",
+      "technical_spec": "Quick access to the search bar and common features through strategic placement.",
+      "severity_score": 4
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Related items are grouped together for easier user navigation and understanding.",
+      "technical_spec": "Search results and related suggestions appear in logically clustered units.",
+      "severity_score": 5
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Information is chunked into digestible amounts to improve user comprehension.",
+      "technical_spec": "Search features and options are segmented into intuitive, manageable sections.",
+      "severity_score": 3
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Google leverages familiar design patterns to meet user expectations.",
+      "technical_spec": "Incorporates widely-used design elements, ensuring user familiarity.",
+      "severity_score": 2
+    }
+  ]
+}

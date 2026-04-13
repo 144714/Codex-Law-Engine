@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 7,
+    "site": "spotify.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "668b43980a2514706c3eb6b525ea5caf"
+  },
+  "data": [
+    {
+      "title": "Hick's Law",
+      "description": "The principle that decision time increases with the number and complexity of choices.",
+      "technical_spec": "Simplified interface with curated playlists and search functionalities to reduce cognitive load.",
+      "severity_score": 15
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "The time to acquire a target is a function of the distance to and size of the target.",
+      "technical_spec": "Large, easy-to-click buttons for essential controls like play, pause, and skip.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Users perceive more aesthetic designs as easier to use.",
+      "technical_spec": "A visually appealing design with a cohesive color palette and smooth animations.",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller's Law",
+      "description": "The average user can only keep 7 (plus or minus 2) items in their working memory.",
+      "technical_spec": "Streamlined content arrangement with categorization features like 'Your Library' and 'Browse'.",
+      "severity_score": 18
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Objects that are near each other appear to be grouped together.",
+      "technical_spec": "Grouping related content like similar playlists and albums to enhance user navigation.",
+      "severity_score": 12
+    }
+  ]
+}

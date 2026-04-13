@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 2,
+    "site": "youtube.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "4f4c927b741174818cb38afc6152d169"
+  },
+  "data": [
+    {
+      "title": "Data Encryption",
+      "description": "All data is encrypted at rest and in transit to protect user information.",
+      "technical_spec": "TLS for data in transit and AES-256 for data at rest.",
+      "severity_score": 95
+    },
+    {
+      "title": "Access Controls",
+      "description": "Strict access controls to limit data access to authorized personnel only.",
+      "technical_spec": "Role-based access control integrated with Google Identity services.",
+      "severity_score": 90
+    },
+    {
+      "title": "Security Monitoring",
+      "description": "Real-time monitoring to identify and respond to threats promptly.",
+      "technical_spec": "Utilizes Google’s Threat Intelligence and Security Command Center.",
+      "severity_score": 92
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Robust defenses against Distributed Denial of Service attacks.",
+      "technical_spec": "Google Cloud Armor and advanced traffic filtering mechanisms.",
+      "severity_score": 88
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regular vulnerability assessments and patch management processes.",
+      "technical_spec": "Continuous scanning with Google’s security tools and manual code reviews.",
+      "severity_score": 85
+    }
+  ]
+}

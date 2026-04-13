@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 3,
+    "site": "apple.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "f420adb76b66883fe1941e1b9311ccdb"
+  },
+  "data": [
+    {
+      "title": "SSL/TLS Encryption",
+      "description": "Ensures all data transmitted between users and the website is encrypted.",
+      "technical_spec": "HTTP/2 support, 2048-bit SSL/TLS encryption keys.",
+      "severity_score": 5
+    },
+    {
+      "title": "Content Security Policy",
+      "description": "Reduces the risk of cross-site scripting attacks by controlling resource loading.",
+      "technical_spec": "CSP headers configuration.",
+      "severity_score": 20
+    },
+    {
+      "title": "Regular Vulnerability Scanning",
+      "description": "Frequent checking for vulnerabilities to protect against new threats.",
+      "technical_spec": "Automated scanning tools, penetration testing.",
+      "severity_score": 25
+    },
+    {
+      "title": "Two-Factor Authentication",
+      "description": "Adds an extra layer of security for user account protection.",
+      "technical_spec": "2FA configured via SMS or dedicated authentication apps.",
+      "severity_score": 10
+    },
+    {
+      "title": "Web Application Firewall",
+      "description": "Defends against common web threats and some zero-day vulnerabilities.",
+      "technical_spec": "WAF rules configuration.",
+      "severity_score": 30
+    }
+  ]
+}

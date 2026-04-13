@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 5,
+    "site": "amazon.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "8a3d280aaef98686620362341c0b426f"
+  },
+  "data": [
+    {
+      "title": "DDoS Protection",
+      "description": "Protection against distributed denial-of-service attacks to maintain high uptime.",
+      "technical_spec": "AWS Shield and AWS WAF for DDoS mitigation.",
+      "severity_score": 92
+    },
+    {
+      "title": "Data Encryption",
+      "description": "Encryption in transit and at rest for all customer data.",
+      "technical_spec": "Use of TLS and AES-256 encryption standards.",
+      "severity_score": 95
+    },
+    {
+      "title": "Identity and Access Management",
+      "description": "Comprehensive identity orchestration for managing user access.",
+      "technical_spec": "AWS Identity and Access Management (IAM) policies and roles.",
+      "severity_score": 88
+    },
+    {
+      "title": "Security Monitoring",
+      "description": "Continuous monitoring for suspicious activity and potential threats.",
+      "technical_spec": "AWS CloudTrail and Amazon GuardDuty for threat detection.",
+      "severity_score": 90
+    },
+    {
+      "title": "Secure Software Development Lifecycle",
+      "description": "Incorporation of security in every phase of software development.",
+      "technical_spec": "Adoption of CI/CD pipelines with security testing and audits.",
+      "severity_score": 85
+    }
+  ]
+}

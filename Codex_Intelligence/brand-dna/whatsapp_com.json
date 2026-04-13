@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 10,
+    "site": "whatsapp.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "29b44776444ddf3212c364934ac990d3"
+  },
+  "data": [
+    {
+      "title": "Instant Messaging",
+      "description": "At its core, WhatsApp is recognized for facilitating instant communication worldwide.",
+      "technical_spec": "Offers text, voice, and video messaging functions.",
+      "severity_score": 10
+    },
+    {
+      "title": "Privacy-Focused",
+      "description": "Privacy is central to WhatsApp's brand identity, with strong encryption measures.",
+      "technical_spec": "End-to-end encryption is a standard for all communications.",
+      "severity_score": 5
+    },
+    {
+      "title": "User Accessibility",
+      "description": "Ease of access and global reach are pivotal to WhatsApp's success across diverse populations.",
+      "technical_spec": "Supports multiple languages and lightweight app for various devices.",
+      "severity_score": 15
+    },
+    {
+      "title": "Community Connection",
+      "description": "Strengthening interpersonal communications and community building.",
+      "technical_spec": "Features like group chats and status updates enhance community interaction.",
+      "severity_score": 20
+    },
+    {
+      "title": "Ad-Free Experience",
+      "description": "Maintains a clear focus by providing an ad-free environment to enhance user trust.",
+      "technical_spec": "No third-party ads, aligning with brand trust and user focus.",
+      "severity_score": 10
+    }
+  ]
+}

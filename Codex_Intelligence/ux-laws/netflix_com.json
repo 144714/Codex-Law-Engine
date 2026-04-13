@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 6,
+    "site": "netflix.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "c3d47007837cb9ad15e53edd27a5a493"
+  },
+  "data": [
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "The design of Netflix's interface is visually appealing, enhancing perceived usability despite occasional complexity.",
+      "technical_spec": "Rich visuals, intuitive navigation, and a focus on user engagement through personalized recommendations.",
+      "severity_score": 85
+    },
+    {
+      "title": "Hick's Law",
+      "description": "Limits decision time by simplifying choices; key for content discovery.",
+      "technical_spec": "Dynamic rendering of content categories based on user preferences reduces cognitive load.",
+      "severity_score": 80
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "Interactive elements are designed for easier and faster access to improve user experience.",
+      "technical_spec": "Primary actions, like 'Play' and 'Add to List,' are large and centrally located to enhance accessibility.",
+      "severity_score": 70
+    },
+    {
+      "title": "Social Proof",
+      "description": "User behaviors are influenced by community ratings and popular lists.",
+      "technical_spec": "Incorporates ratings, reviews, and social features to guide content selection.",
+      "severity_score": 75
+    },
+    {
+      "title": "Serial Position Effect",
+      "description": "Content placement is optimized to leverage primacy and recency effects.",
+      "technical_spec": "Frequent updates to the content carousel ensure fresh and engaging start pages.",
+      "severity_score": 80
+    }
+  ]
+}

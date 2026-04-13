@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 9,
+    "site": "instagram.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "affe3a17a9f490c5883c153b7040c97b"
+  },
+  "data": [
+    {
+      "title": "Hick's Law",
+      "description": "Simplified user interfaces to reduce the time required to make decisions.",
+      "technical_spec": "Clear and intuitive navigation, minimalistic design to limit choices.",
+      "severity_score": 10
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "Buttons and interactive elements designed for ease of clicking and accessibility.",
+      "technical_spec": "Size and positioning of UI elements are optimized for touchscreens.",
+      "severity_score": 8
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "UI components are grouped for easier perception and interaction.",
+      "technical_spec": "Layout design that clusters related elements to guide user flow.",
+      "severity_score": 5
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Users prefer design that follows conventional patterns from other familiar apps.",
+      "technical_spec": "Instagram’s interface design is consistent with social media paradigms.",
+      "severity_score": 8
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Beautiful interfaces are perceived as easier to use by users.",
+      "technical_spec": "Attention to visual design elements such as colors, typography, and layout.",
+      "severity_score": 7
+    }
+  ]
+}

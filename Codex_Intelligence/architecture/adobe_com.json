@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 8,
+    "site": "adobe.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "a16b58b4e340b339e1aa9d9d2e34441b"
+  },
+  "data": [
+    {
+      "title": "Cloud-Native Architecture",
+      "description": "Adobe's architecture leverages cloud-native technologies for scalability and flexibility.",
+      "technical_spec": "Kubernetes, Docker, AWS, and Azure services.",
+      "severity_score": 10
+    },
+    {
+      "title": "Microservices Architecture",
+      "description": "Adobe employs a microservices approach to enhance modularity and development speed.",
+      "technical_spec": "API Gateway, Service Mesh implementations.",
+      "severity_score": 15
+    },
+    {
+      "title": "Event-Driven Architecture",
+      "description": "Uses event processing for real-time analytics and workflow automation.",
+      "technical_spec": "Apache Kafka, AWS Kinesis.",
+      "severity_score": 20
+    },
+    {
+      "title": "Single Page Application (SPA) Framework",
+      "description": "Frontend is highly fluid and efficient using SPAs for user interactivity.",
+      "technical_spec": "React, AngularJS.",
+      "severity_score": 35
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Ensures rapid delivery of Adobe's content across the globe.",
+      "technical_spec": "Akamai CDN, Fastly.",
+      "severity_score": 15
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 10,
+    "site": "whatsapp.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "96486ee795dd935398aac6ce48db9b77"
+  },
+  "data": [
+    {
+      "title": "Two-Factor Authentication",
+      "description": "An additional security measure to protect user accounts against unauthorized access.",
+      "technical_spec": "Option to set up a six-digit PIN as a secondary security feature.",
+      "severity_score": 25
+    },
+    {
+      "title": "End-to-End Encryption",
+      "description": "Protects messages, calls, photos, and videos sent on WhatsApp.",
+      "technical_spec": "Employs the Signal Protocol for encryption, ensuring data confidentiality.",
+      "severity_score": 10
+    },
+    {
+      "title": "Fraudulent Activity Detection",
+      "description": "Detects and blocks accounts engaging in spamming or phishing activities.",
+      "technical_spec": "Utilizes machine learning algorithms to analyze messaging patterns and user behavior.",
+      "severity_score": 35
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regular security audits and updates to identify and fix vulnerabilities.",
+      "technical_spec": "Involves regular penetration testing and code reviews.",
+      "severity_score": 40
+    },
+    {
+      "title": "Data Privacy Policies",
+      "description": "Comprehensive data protection policies to ensure user privacy.",
+      "technical_spec": "Implemented according to GDPR and other international regulations.",
+      "severity_score": 15
+    }
+  ]
+}

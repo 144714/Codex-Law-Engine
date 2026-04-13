@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 3,
+    "site": "apple.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "a3f662f5556c07a2dcfcaf960f6cf958"
+  },
+  "data": [
+    {
+      "title": "Responsive Design",
+      "description": "The website automatically adjusts layout and content display across various devices, ensuring a seamless user experience.",
+      "technical_spec": "Fluid grids, flexible images, and CSS media queries.",
+      "severity_score": 10
+    },
+    {
+      "title": "Cloud-Based Infrastructure",
+      "description": "Uses cloud services for scalability and reliability of content delivery.",
+      "technical_spec": "Content Delivery Network (CDN) and cloud hosting platforms.",
+      "severity_score": 15
+    },
+    {
+      "title": "Microservices Architecture",
+      "description": "The backend is likely composed of loosely coupled services that handle different functionalities.",
+      "technical_spec": "RESTful APIs, containerization with Docker.",
+      "severity_score": 30
+    },
+    {
+      "title": "High Availability",
+      "description": "Design ensures minimal downtime through redundancy and load balancing.",
+      "technical_spec": "Load balancers, failover systems.",
+      "severity_score": 20
+    },
+    {
+      "title": "Single Page Application (SPA)",
+      "description": "Some sections may use SPA design for smooth navigation without full-page reloads.",
+      "technical_spec": "JavaScript frameworks like React or Angular.",
+      "severity_score": 25
+    }
+  ]
+}

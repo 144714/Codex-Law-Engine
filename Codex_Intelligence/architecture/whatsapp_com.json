@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 10,
+    "site": "whatsapp.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "65dca2a10ff5988f1acf459c45fcdcaf"
+  },
+  "data": [
+    {
+      "title": "Microservices Architecture",
+      "description": "WhatsApp uses a microservices architecture to improve scalability and maintainability.",
+      "technical_spec": "Each component of the application is an independent service that communicates over HTTP/REST or gRPC.",
+      "severity_score": 40
+    },
+    {
+      "title": "End-to-End Encryption",
+      "description": "WhatsApp messages are secured with end-to-end encryption in the architecture.",
+      "technical_spec": "Uses Signal Protocol for encryption, ensuring only communicating users can read messages.",
+      "severity_score": 20
+    },
+    {
+      "title": "Distributed Systems",
+      "description": "Reliance on distributed computing to ensure high availability and reliability across multiple regions.",
+      "technical_spec": "Utilizes data replication and partitioning across server clusters.",
+      "severity_score": 35
+    },
+    {
+      "title": "Database Sharding",
+      "description": "Database sharding is used to manage massive user data loads.",
+      "technical_spec": "Employs automatic sharding to distribute data efficiently across servers.",
+      "severity_score": 50
+    },
+    {
+      "title": "Global Load Balancing",
+      "description": "Load balancing is implemented to manage traffic between servers and optimize resource use.",
+      "technical_spec": "Uses DNS-based and appliance-based load balancing techniques.",
+      "severity_score": 30
+    }
+  ]
+}

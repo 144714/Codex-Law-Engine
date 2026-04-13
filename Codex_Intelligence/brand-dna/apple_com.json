@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 3,
+    "site": "apple.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "96e9e15696f789dc8089ee28942c7160"
+  },
+  "data": [
+    {
+      "title": "Innovation",
+      "description": "Emphasizes forward-thinking design and cutting-edge features.",
+      "technical_spec": "Regular updates and integration of the latest technologies.",
+      "severity_score": 5
+    },
+    {
+      "title": "Simplicity",
+      "description": "Focuses on creating straightforward and user-friendly interfaces.",
+      "technical_spec": "Minimalist design principles and clutter-free layouts.",
+      "severity_score": 10
+    },
+    {
+      "title": "Elegance",
+      "description": "Showcases a refined and stylish aesthetic.",
+      "technical_spec": "Use of high-quality visuals and seamless animations.",
+      "severity_score": 10
+    },
+    {
+      "title": "Security",
+      "description": "Prioritizes user privacy and data protection across all services.",
+      "technical_spec": "Robust encryption and advanced security protocols.",
+      "severity_score": 5
+    },
+    {
+      "title": "Environmental Responsibility",
+      "description": "Commits to sustainability and eco-friendly practices in operations.",
+      "technical_spec": "Usage of renewable energy and recyclable materials.",
+      "severity_score": 20
+    }
+  ]
+}

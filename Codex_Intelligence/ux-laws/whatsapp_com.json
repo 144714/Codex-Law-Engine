@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 10,
+    "site": "whatsapp.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "d125463873520404a88c0e76b27028d6"
+  },
+  "data": [
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Users perceive more aesthetically pleasing design as easier to use.",
+      "technical_spec": "WhatsApp's minimalist design contributes to user satisfaction and ease of use.",
+      "severity_score": 20
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "The time required to move to a target area, such as a button on the screen, is a function of the distance to the target and its size.",
+      "technical_spec": "Large buttons and touch targets make it easier for users to interact with the app.",
+      "severity_score": 15
+    },
+    {
+      "title": "Hick's Law",
+      "description": "Time to make a decision increases with the number and complexity of choices.",
+      "technical_spec": "Limit on-screen choices to simplify interactions and reduce cognitive load.",
+      "severity_score": 25
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Users spend most of their time using other apps, so they prefer WhatsApp to work similarly for familiar experiences.",
+      "technical_spec": "Consistent user interface elements that align with general smartphone app usage patterns.",
+      "severity_score": 30
+    },
+    {
+      "title": "Law of Prägnanz",
+      "description": "People are innately predisposed to perceive complex images in their simplest form.",
+      "technical_spec": "Icons and messaging interface are designed for clarity and simplicity.",
+      "severity_score": 20
+    }
+  ]
+}

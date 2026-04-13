@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 1,
+    "site": "google.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "ae8d7329f08ac0a34bfa54c408bbd1ad"
+  },
+  "data": [
+    {
+      "title": "Simplicity",
+      "description": "Google's interface prioritizes simplicity for enhanced usability.",
+      "technical_spec": "Minimalist design reduces cognitive load for users.",
+      "severity_score": 5
+    },
+    {
+      "title": "Speed",
+      "description": "Fast response times are a core principle of the Google brand.",
+      "technical_spec": "Utilizes robust infrastructure to ensure rapid search results.",
+      "severity_score": 2
+    },
+    {
+      "title": "Innovation",
+      "description": "Continuous innovation is embedded in Google’s products and services.",
+      "technical_spec": "Regular updates and new features driven by cutting-edge technology.",
+      "severity_score": 8
+    },
+    {
+      "title": "Accessibility",
+      "description": "Commitment to making technology accessible to all users.",
+      "technical_spec": "Accessible design standards are implemented across all services.",
+      "severity_score": 5
+    },
+    {
+      "title": "Trust",
+      "description": "Building user trust through comprehensive security and privacy measures.",
+      "technical_spec": "Strong emphasis on user data protection and transparent policies.",
+      "severity_score": 7
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 8,
+    "site": "adobe.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "f6fc5b6327c36a1913f758e52147a90a"
+  },
+  "data": [
+    {
+      "title": "Creative Empowerment",
+      "description": "Adobe's brand emphasizes enabling creativity and innovation for individuals and businesses.",
+      "technical_spec": "Creative Cloud suite, Adobe Sensei AI.",
+      "severity_score": 5
+    },
+    {
+      "title": "Customer-Centric",
+      "description": "Focus on user needs and evolving the platform based on feedback.",
+      "technical_spec": "User feedback systems, analytics-driven enhancements.",
+      "severity_score": 10
+    },
+    {
+      "title": "Innovation Leadership",
+      "description": "Leading edge in technology to set industry standards.",
+      "technical_spec": "Patent portfolio, research & development investment.",
+      "severity_score": 8
+    },
+    {
+      "title": "Sustainability Commitment",
+      "description": "Commitment to sustainable practices and reducing environmental footprint.",
+      "technical_spec": "Digital documents, cloud storage solutions.",
+      "severity_score": 7
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Building and supporting a diverse creative community.",
+      "technical_spec": "Support forums, community events.",
+      "severity_score": 12
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 4,
+    "site": "microsoft.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "f977646a6db83dacc01606acd3de3c25"
+  },
+  "data": [
+    {
+      "title": "Cloud-first Infrastructure",
+      "description": "Microsoft utilizes Azure for its cloud services, providing scalable and flexible architecture.",
+      "technical_spec": "Azure Kubernetes Service, Azure Functions, Load Balancers",
+      "severity_score": 10
+    },
+    {
+      "title": "Microservices Architecture",
+      "description": "The site relies on a microservices architecture to improve modularity and scalability.",
+      "technical_spec": "Docker, Kubernetes, RESTful APIs",
+      "severity_score": 15
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Uses a global CDN to deliver content efficiently to users worldwide.",
+      "technical_spec": "Azure CDN, Edge Servers",
+      "severity_score": 5
+    },
+    {
+      "title": "Responsive Web Design",
+      "description": "Ensures that the website is accessible and visually appealing on all devices.",
+      "technical_spec": "CSS3, HTML5, Media Queries",
+      "severity_score": 20
+    },
+    {
+      "title": "Service-Oriented Architecture (SOA)",
+      "description": "Promotes loose coupling between the site’s services for flexibility and efficiency.",
+      "technical_spec": "SOAP, WSDL, Enterprise Service Bus",
+      "severity_score": 12
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "rank": 7,
+    "site": "spotify.com",
+    "date": "2026-04-13 20:55",
+    "integrity_hash": "fed9fa7ed72de87d43d9f4686b17503d"
+  },
+  "data": [
+    {
+      "title": "Personalization",
+      "description": "A commitment to delivering personalized music experiences tailored to individual users.",
+      "technical_spec": "Advanced recommendation algorithms leveraging machine learning and user data analysis.",
+      "severity_score": 30
+    },
+    {
+      "title": "Innovation",
+      "description": "Continual innovation with the integration of features like podcasts and live audio experiences.",
+      "technical_spec": "Adoption of emerging technologies and innovative user engagement strategies.",
+      "severity_score": 40
+    },
+    {
+      "title": "Community and Connectivity",
+      "description": "Building communities around artists and user playlists to foster connection and music sharing.",
+      "technical_spec": "Social features such as collaborative playlists and artist-following capabilities.",
+      "severity_score": 35
+    },
+    {
+      "title": "Global Reach",
+      "description": "Expanding presence and accessibility across diverse markets worldwide.",
+      "technical_spec": "Multi-language support and region-specific content offerings.",
+      "severity_score": 25
+    },
+    {
+      "title": "Seamless Experience",
+      "description": "Ensuring a seamless cross-platform experience for users on mobile, desktop, and connected devices.",
+      "technical_spec": "Cross-platform compatibility and an intuitive user interface with responsive design.",
+      "severity_score": 20
+    }
+  ]
+}
