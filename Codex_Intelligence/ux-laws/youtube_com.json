@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 32,
+    "rank": 42,
     "site": "youtube.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "2f9094cf416ab7e00019930d35c44c34"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "2fad452d27cf627f127977e20270b99b"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Keeps user choices simple to enhance decision-making speed.",
-      "technical_spec": "Minimalistic design, Intuitive navigation, Focused content.",
-      "severity_score": 85
+      "title": "Fitts’s Law",
+      "description": "Navigation elements are designed for ease of use, being larger and in predictable locations.",
+      "technical_spec": "High-click targets, consistent UI design.",
+      "severity_score": 5
     },
     {
-      "title": "Fitts's Law",
-      "description": "Design elements ensuring ease of interactibility.",
-      "technical_spec": "Button size optimization, Responsive click areas, Industrial placements.",
-      "severity_score": 84
+      "title": "Hick’s Law",
+      "description": "Simplified decision making by reducing choice overload in interfaces.",
+      "technical_spec": "Categorized menus, quick access features.",
+      "severity_score": 6
     },
     {
-      "title": "Law of Proximity",
-      "description": "Aligns related items together for better visual grouping.",
-      "technical_spec": "Grid layouts, Spatial proximity, White spaces.",
-      "severity_score": 82
+      "title": "Jakob’s Law",
+      "description": "Familiarity from maintaining consistent experiences aligning with user habits.",
+      "technical_spec": "UI resembling common design patterns from frequent web use.",
+      "severity_score": 4
     },
     {
-      "title": "Miller's Law",
-      "description": "Chunks information to prevent overwhelming users.",
-      "technical_spec": "Segmented content, Content hierarchy, Chunked data presentation.",
-      "severity_score": 81
+      "title": "Miller’s Law",
+      "description": "Chunking content to help users process information more effectively.",
+      "technical_spec": "Content organization into categories and playlists.",
+      "severity_score": 6
     },
     {
-      "title": "Jakob's Law",
-      "description": "Utilizes familiar design patterns by users.",
-      "technical_spec": "Consistent UI elements, Familiar user journeys, Common design standards.",
-      "severity_score": 88
+      "title": "Peak-End Rule",
+      "description": "Users remember peak moments and the end, enhancing satisfaction with key highlights.",
+      "technical_spec": "Highlight reels, remembered playback positions.",
+      "severity_score": 7
     }
   ]
 }

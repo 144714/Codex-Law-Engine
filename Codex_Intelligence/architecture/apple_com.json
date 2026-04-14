@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 33,
+    "rank": 43,
     "site": "apple.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "e42a6fe74947405e8a7d9d71ace39fdf"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "b1273a328b06dc1f89a75bf48eb46257"
   },
   "data": [
     {
-      "title": "Responsive Design",
-      "description": "The site uses a responsive web design to adapt across various devices.",
-      "technical_spec": "CSS media queries and fluid grid layouts.",
-      "severity_score": 15
-    },
-    {
-      "title": "Single Page Application",
-      "description": "Elements of a single-page application approach to improve performance and user experience.",
-      "technical_spec": "JavaScript frameworks like React or Vue.js.",
-      "severity_score": 25
-    },
-    {
-      "title": "Global Content Delivery Network",
-      "description": "Use of a CDN to deliver content globally with reduced latency.",
-      "technical_spec": "Akamai or Cloudflare for distributing static assets.",
-      "severity_score": 5
-    },
-    {
       "title": "Microservices Architecture",
-      "description": "Decoupled services for scalability and maintainability.",
-      "technical_spec": "RESTful APIs and Docker containers for services.",
+      "description": "Apple.com uses a microservices architecture to efficiently manage different application functions.",
+      "technical_spec": "Services are decoupled, allowing independent scaling and deployment.",
+      "severity_score": 20
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Implements load balancing to distribute traffic evenly across servers.",
+      "technical_spec": "Utilizes algorithms like Round Robin and Least Connections.",
       "severity_score": 30
     },
     {
-      "title": "Accessibility Features",
-      "description": "Enhanced accessibility features to ensure inclusive usage.",
-      "technical_spec": "ARIA standards and WCAG 2.1 compliance.",
-      "severity_score": 20
+      "title": "Content Delivery Network",
+      "description": "CDN is used to reduce latency by serving content from geographically distributed servers.",
+      "technical_spec": "Partnership with major CDN providers like Akamai.",
+      "severity_score": 15
+    },
+    {
+      "title": "Redundancy and Failover",
+      "description": "Designed with redundancy strategies to ensure high availability.",
+      "technical_spec": "Uses failover clusters and backup systems.",
+      "severity_score": 10
+    },
+    {
+      "title": "API Gateway",
+      "description": "Centralized API gateway to manage service requests and responses.",
+      "technical_spec": "Handles cross-cutting concerns such as security and routing.",
+      "severity_score": 25
     }
   ]
 }

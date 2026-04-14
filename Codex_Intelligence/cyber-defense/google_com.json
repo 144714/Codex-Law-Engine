@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 31,
+    "rank": 41,
     "site": "google.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "1a98b3bcb4bebf5f25692385c5189074"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "017d678f1adbc8723e4ab5e61a548069"
   },
   "data": [
     {
-      "title": "TLS Encryption",
-      "description": "All data transmitted between users and Google servers is encrypted.",
-      "technical_spec": "Uses TLS 1.3 with forward secrecy.",
-      "severity_score": 3
-    },
-    {
-      "title": "BeyondCorp",
-      "description": "Zero-trust security model that safeguards internal Google networks.",
-      "technical_spec": "Verifies identity and device context for access.",
-      "severity_score": 15
-    },
-    {
-      "title": "Data Encryption at Rest",
-      "description": "User data is encrypted when stored on Google's servers.",
-      "technical_spec": "AES encryption standards applied to stored data.",
-      "severity_score": 10
-    },
-    {
       "title": "DDoS Protection",
-      "description": "Robust systems in place to prevent Distributed Denial of Service attacks.",
-      "technical_spec": "Integrated DDoS prevention on the cloud infrastructure.",
+      "description": "Robust defense mechanisms against Distributed Denial-of-Service attacks.",
+      "technical_spec": "Global infrastructure limits the impact of large-scale attacks.",
       "severity_score": 20
     },
     {
-      "title": "Phishing Protection",
-      "description": "Advanced threat detection systems identify and mitigate phishing attempts.",
-      "technical_spec": "Real-time threat assessment and user intervention alerts.",
+      "title": "End-to-End Encryption",
+      "description": "Data is encrypted in transit and at rest to prevent unauthorized access.",
+      "technical_spec": "TLS for data in transit and 256-bit AES encryption for data at rest.",
+      "severity_score": 5
+    },
+    {
+      "title": "Authentication Protocols",
+      "description": "Advanced authentication protocols to enhance user security.",
+      "technical_spec": "Two-step verification and OAuth2.0 for secure access.",
       "severity_score": 15
+    },
+    {
+      "title": "Intrusion Detection",
+      "description": "Mechanisms to detect and respond to unauthorized system intrusions.",
+      "technical_spec": "Machine-learning-based anomaly detection systems.",
+      "severity_score": 25
+    },
+    {
+      "title": "Security Patching",
+      "description": "Regular update cycles to patch known vulnerabilities.",
+      "technical_spec": "Automated patch management systems with zero-day exploit handling.",
+      "severity_score": 10
     }
   ]
 }

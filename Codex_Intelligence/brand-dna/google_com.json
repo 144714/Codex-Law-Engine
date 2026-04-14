@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 31,
+    "rank": 41,
     "site": "google.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "e4df0b3fd0e62651ffb9d027a5330a98"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "9e8eb36c8b3d5ba2a712e203f5385b00"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "Commitment to leading-edge technology and continuous improvement.",
-      "technical_spec": "R&D investment in AI, quantum computing, and new technologies.",
-      "severity_score": 5
+      "description": "Commitment to continuous technological advancement and pioneering research.",
+      "technical_spec": "Investment in AI, quantum computing, and next-gen technologies.",
+      "severity_score": 20
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focus on simplifying technology for end-users.",
-      "technical_spec": "Frequent user feedback loops and iterative design processes.",
-      "severity_score": 7
+      "title": "Trust",
+      "description": "Building user trust through consistent, reliable services and privacy measures.",
+      "technical_spec": "Transparency reports and GDPR compliance efforts.",
+      "severity_score": 15
     },
     {
-      "title": "Global Reach",
-      "description": "Accessible services and products for a worldwide audience.",
-      "technical_spec": "Support for multiple languages and international privacy standards.",
-      "severity_score": 8
+      "title": "Simplicity",
+      "description": "Focus on intuitive and efficient user experiences.",
+      "technical_spec": "Unified ecosystem with seamless integration across products.",
+      "severity_score": 10
     },
     {
       "title": "Sustainability",
-      "description": "Environmental responsibility integrated into operational practices.",
-      "technical_spec": "Data centers powered by renewable energy sources.",
-      "severity_score": 6
+      "description": "Commitment to environmental responsibility in operations.",
+      "technical_spec": "Carbon-neutral operations and investment in renewable energy.",
+      "severity_score": 18
     },
     {
-      "title": "Trust and Security",
-      "description": "Prioritizes user data protection and transparent policies.",
-      "technical_spec": "Regular updates to privacy policies and unparalleled security measures.",
-      "severity_score": 10
+      "title": "Global Impact",
+      "description": "Influence and presence across numerous international markets.",
+      "technical_spec": "Localized services and regional data centers to support global users.",
+      "severity_score": 25
     }
   ]
 }

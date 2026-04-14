@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 40,
+    "rank": 50,
     "site": "whatsapp.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "43f8cda781bd698cee6a9853c82f56f8"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "e5f7e85c45c831ad1cc7b4e534f54458"
   },
   "data": [
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Design ensures that interfaces are visually appealing and easy to navigate.",
-      "technical_spec": "Consistent color schemes, simple icons, and clear typography.",
-      "severity_score": 12
-    },
-    {
       "title": "Hick’s Law",
-      "description": "Minimized decision complexity where users can easily choose options.",
-      "technical_spec": "Streamlined menus, quick-access buttons, and predictive text.",
-      "severity_score": 18
+      "description": "Simplifies choices for quick decision-making.",
+      "technical_spec": "User interface designed to minimize decision time with an intuitive experience.",
+      "severity_score": 30
     },
     {
-      "title": "Law of Progressive Disclosure",
-      "description": "Information is provided when necessary to reduce cognitive load.",
-      "technical_spec": "Expandable options and settings menus that reveal further details upon selection.",
-      "severity_score": 14
+      "title": "Fitts's Law",
+      "description": "Optimizes touch target sizes on mobile devices.",
+      "technical_spec": "Large and easy-to-click buttons to enhance accessibility.",
+      "severity_score": 40
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Design elements are positioned for easy interaction and reach.",
-      "technical_spec": "Large, tappable areas for touch screens and easily clickable links.",
-      "severity_score": 10
+      "title": "Miller’s Law",
+      "description": "Facilitates recall with chunking mechanism.",
+      "technical_spec": "Messages and notifications are grouped for better cognitive processing.",
+      "severity_score": 20
     },
     {
       "title": "Jakob’s Law",
-      "description": "Users' expectations are met because WhatsApp behaves like similar platforms in its ecosystem.",
-      "technical_spec": "Conventional interface layout, gesture support identical to OS standards.",
-      "severity_score": 15
+      "description": "Aligns with familiar user experiences.",
+      "technical_spec": "UI design mirrors widely-adopted patterns for faster user adaptation.",
+      "severity_score": 35
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Design perceived as more usable if it’s aesthetically pleasing.",
+      "technical_spec": "WhatsApp employs a clean, user-friendly interface with a focus on simplicity.",
+      "severity_score": 25
     }
   ]
 }

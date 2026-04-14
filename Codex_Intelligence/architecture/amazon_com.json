@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 35,
+    "rank": 45,
     "site": "amazon.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "17ecb322d25af41fbb68e78497dcfc34"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "8bb03cb10fc9619267cab2cfc8c032d6"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Amazon uses a microservices architecture to decouple services for scalability and flexibility.",
-      "technical_spec": "Individual services with specific functionalities that communicate over HTTP and message queues.",
-      "severity_score": 90
+      "title": "Microservices-based Architecture",
+      "description": "Amazon utilizes a microservices architecture which allows developers to deploy services independently.",
+      "technical_spec": "Service-oriented architecture, with APIs facilitating communication between distributed services.",
+      "severity_score": 10
     },
     {
-      "title": "AWS Integration",
-      "description": "Extensive use of AWS infrastructure to ensure high availability and redundancy.",
-      "technical_spec": "Services like EC2, S3, and DynamoDB are used.",
-      "severity_score": 95
+      "title": "Scalable Infrastructure",
+      "description": "Amazon's infrastructure is designed to scale horizontally to accommodate varying workloads.",
+      "technical_spec": "Auto-scaling groups, load balancers, and distributed databases.",
+      "severity_score": 15
     },
     {
-      "title": "Monolithic Legacy Support",
-      "description": "Support for legacy systems through monolithic components.",
-      "technical_spec": "Older parts of the system may still require synchronous communication.",
-      "severity_score": 70
+      "title": "Cloud Deployment",
+      "description": "Leveraging AWS cloud infrastructure to ensure availability and reliability.",
+      "technical_spec": "Elastic Compute Cloud (EC2), Simple Storage Service (S3), and Route 53 for DNS.",
+      "severity_score": 5
     },
     {
-      "title": "Serverless Computing",
-      "description": "Use of AWS Lambda for certain functions to provide scalability without managing infrastructure.",
-      "technical_spec": "Event-driven execution and runs on AWS's shared infrastructure.",
-      "severity_score": 80
+      "title": "Content Delivery Network",
+      "description": "Amazon uses its CDN, CloudFront, to deliver content efficiently.",
+      "technical_spec": "Edge locations distributed globally for faster content delivery.",
+      "severity_score": 20
     },
     {
-      "title": "Data-Driven Architecture",
-      "description": "Incorporation of big data and real-time analytics into various services.",
-      "technical_spec": "Tools like Amazon Redshift and Amazon Kinesis are used.",
-      "severity_score": 85
+      "title": "Database Management",
+      "description": "Usage of NoSQL and SQL databases to handle different types of data workloads.",
+      "technical_spec": "Amazon Aurora, DynamoDB for NoSQL data stores.",
+      "severity_score": 12
     }
   ]
 }

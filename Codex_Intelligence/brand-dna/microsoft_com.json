@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 34,
+    "rank": 44,
     "site": "microsoft.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "a4db1fe223f1699e9be971d8a7e5ceca"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "e3378263426e767e68eff57acd9b497b"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "Pioneers in technology development and cutting-edge solutions.",
-      "technical_spec": "Research and development programs, AI integration",
-      "severity_score": 30
+      "description": "Prioritizing cutting-edge technology and solutions.",
+      "technical_spec": "Continuous R&D in AI, cloud, and productivity tech.",
+      "severity_score": 50
     },
     {
-      "title": "Trust",
-      "description": "Focuses on transparency and security across all platforms.",
-      "technical_spec": "User data privacy initiatives, Ethical AI development",
-      "severity_score": 28
+      "title": "Customer-Centricity",
+      "description": "Solutions tailored specifically for customer needs.",
+      "technical_spec": "Feedback loops integrated into product development.",
+      "severity_score": 40
     },
     {
-      "title": "Inclusivity",
-      "description": "Promotes diversity and accessibility in technology products.",
-      "technical_spec": "Accessibility tools, Multilingual support",
-      "severity_score": 24
+      "title": "Global Accessibility",
+      "description": "Focus on providing inclusive and accessible technology.",
+      "technical_spec": "WCAG compliance and language localization.",
+      "severity_score": 45
     },
     {
-      "title": "Global Reach",
-      "description": "Serves a worldwide audience with localized content.",
-      "technical_spec": "Localized digital services, Multiregional data centers",
-      "severity_score": 26
+      "title": "Reliability",
+      "description": "Delivering robust and trustworthy solutions.",
+      "technical_spec": "Regular updates and patch management.",
+      "severity_score": 35
     },
     {
-      "title": "Sustainability",
-      "description": "Commits to environmental responsibility and sustainable practices.",
-      "technical_spec": "Green data centers, Sustainability reporting",
-      "severity_score": 27
+      "title": "Security",
+      "description": "Commitment to safeguarding user data and privacy.",
+      "technical_spec": "End-to-end encryption and strict privacy policies.",
+      "severity_score": 55
     }
   ]
 }

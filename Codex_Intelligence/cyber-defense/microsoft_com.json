@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 34,
+    "rank": 44,
     "site": "microsoft.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "7618307420c799b644ab15fa32fa0fa0"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "2761c3e156acbb8de23613b5ef21acca"
   },
   "data": [
     {
-      "title": "Advanced Threat Protection",
-      "description": "Protects against sophisticated threats and malware.",
-      "technical_spec": "Microsoft Defender for Endpoint, Threat Intelligence",
-      "severity_score": 5
-    },
-    {
-      "title": "Identity Management",
-      "description": "Secures digital identities through multi-factor authentication.",
-      "technical_spec": "Azure Active Directory, OAuth 2.0, SAML",
-      "severity_score": 8
+      "title": "Threat Protection",
+      "description": "Advanced threat protection to combat cybersecurity threats.",
+      "technical_spec": "Integration with Azure Security Center.",
+      "severity_score": 25
     },
     {
       "title": "Data Encryption",
-      "description": "Encrypts data both at rest and in transit for enhanced security.",
-      "technical_spec": "TLS 1.3, AES-256 Encryption",
-      "severity_score": 3
+      "description": "Encryption of data both in transit and at rest.",
+      "technical_spec": "Uses TLS 1.2+ and AES-256 encryption.",
+      "severity_score": 30
     },
     {
-      "title": "Intrusion Detection and Prevention",
-      "description": "Monitors, detects, and prevents unauthorized access.",
-      "technical_spec": "Azure Security Center",
-      "severity_score": 7
+      "title": "Identity Management",
+      "description": "Robust identity and access management protocols.",
+      "technical_spec": "Multi-factor authentication (MFA).",
+      "severity_score": 20
     },
     {
-      "title": "Security Information and Event Management",
-      "description": "Centralizes logging and event monitoring for swift threat response.",
-      "technical_spec": "Azure Sentinel",
-      "severity_score": 9
+      "title": "Security Monitoring",
+      "description": "24/7 monitoring for detection and response to incidents.",
+      "technical_spec": "Utilizes Azure Sentinel for SIEM.",
+      "severity_score": 35
+    },
+    {
+      "title": "Compliance Standards",
+      "description": "Adherence to global compliance and regulatory standards.",
+      "technical_spec": "GDPR, ISO 27001, and more.",
+      "severity_score": 15
     }
   ]
 }

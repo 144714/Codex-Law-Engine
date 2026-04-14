@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 31,
+    "rank": 41,
     "site": "google.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "e8fd3b7ec1828198b710f9962e60330e"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "107e3b5991aaa19d84dfb0480b819764"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplified, minimalistic design that reduces decision-making time for users.",
-      "technical_spec": "Straightforward design with essential elements prominently displayed.",
+      "description": "Simplified user interface to reduce cognitive load and decision time.",
+      "technical_spec": "Minimalist design with essential options prominently displayed.",
+      "severity_score": 12
+    },
+    {
+      "title": "Fitts’s Law",
+      "description": "UI elements designed for easy accessibility and interaction.",
+      "technical_spec": "Key navigation elements are large and accessible within easy reach.",
       "severity_score": 10
     },
     {
-      "title": "Fitts's Law",
-      "description": "Interface elements are sized and spaced to ensure easy access.",
-      "technical_spec": "Responsive design elements that adapt to user input.",
+      "title": "Aesthetic-Usability Effect",
+      "description": "Focus on aesthetics to enhance perceived usability and facilitate trust.",
+      "technical_spec": "Consistent visual design and use of Google's Material Design principles.",
       "severity_score": 8
     },
     {
       "title": "Miller's Law",
-      "description": "Content chunking helps users process information more effectively.",
-      "technical_spec": "Breakdown of information into six or seven manageable pieces.",
-      "severity_score": 12
+      "description": "Adherence to the simplicity principle by limiting choices to prevent user overload.",
+      "technical_spec": "Average of 5-9 options visible at a time, clearly categorized.",
+      "severity_score": 10
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Users expect certain functionalities and design patterns based on experience with other apps.",
-      "technical_spec": "Adopts common patterns users are familiar with for easy adoption.",
+      "title": "Jakob's Law",
+      "description": "Interfaces are designed to meet user expectations based on common usage patterns.",
+      "technical_spec": "Adoption of interfaces similar to common web expectations to reduce learning curve.",
       "severity_score": 5
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing interfaces that enhance perceived usability.",
-      "technical_spec": "Careful balance of visual design to avoid overwhelming users.",
-      "severity_score": 7
     }
   ]
 }

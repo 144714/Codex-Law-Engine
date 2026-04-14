@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 32,
+    "rank": 42,
     "site": "youtube.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "ebd56310da4160e029aafdafc773c879"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "760b421870e5bb5d40c9f19f5b3e488a"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Use of microservices for modular and scalable design.",
-      "technical_spec": "Service-Oriented Architecture, API Gateway, Decoupled services.",
-      "severity_score": 90
+      "description": "YouTube uses a microservices architecture to handle various functionalities like user management, video uploads, and recommendations.",
+      "technical_spec": "Service-oriented architecture with independent services communicating over RESTful APIs.",
+      "severity_score": 5
     },
     {
-      "title": "Content Delivery Networks (CDN)",
-      "description": "CDN utilized to deliver low-latency video streaming globally.",
-      "technical_spec": "HTTP/2, Edge Servers, Geo-Distributed Caches.",
-      "severity_score": 85
+      "title": "Content Delivery Network (CDN)",
+      "description": "To efficiently deliver video content globally, YouTube employs a CDN that caches content closer to users.",
+      "technical_spec": "Global cache servers, edge computing for latency reduction.",
+      "severity_score": 7
     },
     {
-      "title": "Scalable Storage Solutions",
-      "description": "Efficient storage management for vast amounts of video data.",
-      "technical_spec": "Cloud-based Storage, Replication, Sharding.",
-      "severity_score": 92
+      "title": "Data Infrastructure",
+      "description": "Scalable data storage solutions for handling large volumes of video data and metadata.",
+      "technical_spec": "Petabyte-scale distributed storage, databases like Bigtable.",
+      "severity_score": 8
     },
     {
       "title": "Load Balancing",
-      "description": "Evenly distributes user traffic across servers.",
-      "technical_spec": "Elastic Load Balancer (ELB), Round Robin, Least Connections.",
-      "severity_score": 88
+      "description": "Load balancers distribute incoming requests to different server clusters to maintain high availability.",
+      "technical_spec": "Global load balancing with automatic failover.",
+      "severity_score": 6
     },
     {
-      "title": "Data Pipelines",
-      "description": "Real-time and batch data processing for analytics.",
-      "technical_spec": "Apache Kafka, Google Dataflow, ETL processes.",
-      "severity_score": 87
+      "title": "Video Processing",
+      "description": "Processes like transcoding are crucial for rendering videos in various resolutions and formats.",
+      "technical_spec": "FFmpeg-based video processing pipeline.",
+      "severity_score": 9
     }
   ]
 }

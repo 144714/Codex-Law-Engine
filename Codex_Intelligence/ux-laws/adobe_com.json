@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 38,
+    "rank": 48,
     "site": "adobe.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "d1aabe9292d8e3adb9c4e338a14fa46c"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "33942e168987afc9c930f6ad6e688948"
   },
   "data": [
     {
-      "title": "Fitt's Law",
-      "description": "Adobe's interfaces are designed so that frequent and desired actions are larger and easier to reach.",
-      "technical_spec": "Clickable buttons, responsive design, touch-friendly elements",
-      "severity_score": 30
-    },
-    {
       "title": "Hick's Law",
-      "description": "The complexity of menus and choices is minimized to speed up decision-making.",
-      "technical_spec": "Simplified navigation, categorized options, dropdown menus",
-      "severity_score": 25
+      "description": "Adobe employs simplified choice design to reduce decision time.",
+      "technical_spec": "User Interface Design Principles",
+      "severity_score": 10
     },
     {
-      "title": "Gestalt Principles",
-      "description": "The site uses visual hierarchy and grouping to assist user perception.",
-      "technical_spec": "Consistency in design patterns, alignment, use of whitespace",
-      "severity_score": 20
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Conformity to established user expectations in design and navigation flows.",
-      "technical_spec": "Conventional layouts, familiar icons, consistent user interface",
+      "title": "Fitts's Law",
+      "description": "Positioning interactive elements to be easily accessible.",
+      "technical_spec": "Interface Responsiveness",
       "severity_score": 15
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "An aesthetically pleasing design enhances perceived usability.",
-      "technical_spec": "Clean design, high-quality graphics, brand-aligned color palette",
-      "severity_score": 18
+      "title": "Miller's Law",
+      "description": "Displays information in chunks to optimize user memory load.",
+      "technical_spec": "Information Architecture",
+      "severity_score": 20
+    },
+    {
+      "title": "Peak-End Rule",
+      "description": "Focuses on creating memorable peak experiences in user journey.",
+      "technical_spec": "Experience Design Strategies",
+      "severity_score": 25
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Designs products to align with user familiarity for ease of use.",
+      "technical_spec": "Usability Heuristics",
+      "severity_score": 5
     }
   ]
 }

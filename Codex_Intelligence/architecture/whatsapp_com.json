@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 40,
+    "rank": 50,
     "site": "whatsapp.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "8cbbc073c97a5ec1c67c3df46d4bb893"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "12dd56889a797ca3f3286eed2084111a"
   },
   "data": [
     {
-      "title": "Scalable Backend Infrastructure",
-      "description": "The backend is designed to handle millions of users simultaneously with minimal latency.",
-      "technical_spec": "Utilizes Erlang for concurrent requests, MySQL for data storage, and custom memory storage techniques.",
-      "severity_score": 10
-    },
-    {
-      "title": "End-to-End Encryption Framework",
-      "description": "WhatsApp employs end-to-end encryption to ensure message confidentiality.",
-      "technical_spec": "Based on Signal Protocol, uses Curve25519, AES-256, and HMAC-SHA256.",
-      "severity_score": 15
-    },
-    {
-      "title": "Cross-Platform Compatibility",
-      "description": "The architecture supports multiple mobile and desktop platforms seamlessly.",
-      "technical_spec": "Native iOS and Android apps with Electron wrapper for desktop applications.",
+      "title": "Client-Server Model",
+      "description": "WhatsApp uses a client-server architecture to manage message transmission between users.",
+      "technical_spec": "Messages are sent from the client app to WhatsApp servers which route them to the intended recipient.",
       "severity_score": 20
     },
     {
-      "title": "Real-time Communication Protocols",
-      "description": "Designed for real-time messaging with minimal delays.",
-      "technical_spec": "Uses MQTT protocol optimized for mobile networks.",
-      "severity_score": 12
+      "title": "End-to-End Encryption",
+      "description": "Messages are encrypted client-to-client, ensuring only the communicating users can read them.",
+      "technical_spec": "Uses the Signal Protocol to encrypt messages with keys stored only on user devices.",
+      "severity_score": 70
     },
     {
-      "title": "Efficient Multimedia Sharing",
-      "description": "Architected to allow fast multimedia messaging with minimal data usage.",
-      "technical_spec": "Media is compressed and optimized, stored in a distributed server network.",
-      "severity_score": 13
+      "title": "Multi-Device Support",
+      "description": "Allows users to access messages and services from multiple devices simultaneously.",
+      "technical_spec": "Synchronizes messages across devices without requiring the primary device to be online.",
+      "severity_score": 50
+    },
+    {
+      "title": "Media Transfer",
+      "description": "Supports the transmission of multimedia messages, including images, videos, and voice notes.",
+      "technical_spec": "Media is compressed, stored temporarily on servers, and downloaded onto devices when received.",
+      "severity_score": 30
+    },
+    {
+      "title": "Peer-to-Peer Connections",
+      "description": "Facilitates direct connections between devices for certain types of communication.",
+      "technical_spec": "Uses peer-to-peer connection strategies to optimize call quality.",
+      "severity_score": 40
     }
   ]
 }

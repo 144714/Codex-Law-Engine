@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 36,
+    "rank": 46,
     "site": "netflix.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "7965e926c8d9eb8c76b348fbd67ff2e2"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "8bd9f40d86ddde1a869393d85624d3c8"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Netflix employs a microservices architecture, which allows for scalability and independent deployment of services.",
-      "technical_spec": "Decomposed system where each service runs a unique process and communicates through APIs.",
-      "severity_score": 15
-    },
-    {
-      "title": "Cloud-based Infrastructure",
-      "description": "The platform utilizes AWS for scalable and reliable cloud hosting.",
-      "technical_spec": "Utilization of Amazon Web Services for elastic compute, storage, and database services.",
+      "title": "Microservices Architecture",
+      "description": "Decoupled systems allowing for independent deployment and scaling.",
+      "technical_spec": "RESTful APIs, gRPC communication, service orchestration with Kubernetes.",
       "severity_score": 10
     },
     {
-      "title": "CDN Integration",
-      "description": "Netflix uses content delivery networks to efficiently stream content globally.",
-      "technical_spec": "Partnership with multiple CDN providers to cache and deliver content closer to users.",
-      "severity_score": 12
-    },
-    {
-      "title": "Database Management",
-      "description": "Netflix uses a combination of SQL and NoSQL databases to manage user data and media content.",
-      "technical_spec": "Mix of Cassandra, MySQL, and other database technologies for different data needs.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "A global network of servers to efficiently distribute content.",
+      "technical_spec": "Utilizes Akamai, AWS CloudFront, and custom-built Open Connect.",
       "severity_score": 20
     },
     {
-      "title": "Load Balancing",
-      "description": "Smart load balancing mechanisms are in place to manage traffic and ensure availability.",
-      "technical_spec": "Use of custom and AWS Elastic Load Balancing for distributing network loads.",
-      "severity_score": 18
+      "title": "Serverless Computing",
+      "description": "Use of serverless technology to handle peak loads.",
+      "technical_spec": "AWS Lambda and FaaS (Function as a Service) components.",
+      "severity_score": 15
+    },
+    {
+      "title": "Data Pipeline",
+      "description": "Handling and processing large amounts of data for recommendations and personalization.",
+      "technical_spec": "Apache Kafka, Apache Flink, and Netflix's Keystone platform.",
+      "severity_score": 25
+    },
+    {
+      "title": "Hybrid Cloud Infrastructure",
+      "description": "Combination of on-premises and cloud solutions to optimize performance and cost.",
+      "technical_spec": "Multi-cloud strategy including AWS, GCP, and proprietary data centers.",
+      "severity_score": 30
     }
   ]
 }

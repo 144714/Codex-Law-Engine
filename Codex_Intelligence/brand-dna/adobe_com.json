@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 38,
+    "rank": 48,
     "site": "adobe.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "c3fa5365af182068c6db7204055bcc3c"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "c0205e1d834c21f0e18ead4ec8b4bb4c"
   },
   "data": [
     {
-      "title": "Creative Empowerment",
-      "description": "Adobe's core mission is to empower creativity through its tools and platforms.",
-      "technical_spec": "Creative Cloud, user-centric updates, extensive tutorials",
+      "title": "Creative Cloud Ecosystem",
+      "description": "Integrated suite of applications for creative professionals.",
+      "technical_spec": "Photoshop, Illustrator, InDesign",
+      "severity_score": 5
+    },
+    {
+      "title": "Innovative Design Tools",
+      "description": "Continuous development of cutting-edge design technologies.",
+      "technical_spec": "AI-powered features, Mobile Apps",
       "severity_score": 10
     },
     {
-      "title": "Innovative Technology",
-      "description": "Continuous development of cutting-edge technology for creative professionals.",
-      "technical_spec": "AI integrations, Adobe Sensei, real-time collaboration tools",
+      "title": "Community Engagement",
+      "description": "Strong focus on building and nurturing a creative community.",
+      "technical_spec": "Behance, Adobe Live",
+      "severity_score": 20
+    },
+    {
+      "title": "Commitment to Education",
+      "description": "Offers educational programs and resources.",
+      "technical_spec": "Adobe Education Exchange, Tutorials",
       "severity_score": 15
     },
     {
-      "title": "Customer Focus",
-      "description": "Deep understanding of customer needs to tailor solutions.",
-      "technical_spec": "User feedback integration, personalized user experiences, community forums",
-      "severity_score": 12
-    },
-    {
-      "title": "Design Excellence",
-      "description": "Commitment to the highest standards of quality in design and functionality.",
-      "technical_spec": "Industry-leading UX/UI, award-winning design teams, thorough testing",
-      "severity_score": 8
-    },
-    {
-      "title": "Digital Transformation Leadership",
-      "description": "Leading role in guiding industries through digital transformations.",
-      "technical_spec": "Comprehensive suites for digital media, marketing, and document management.",
-      "severity_score": 20
+      "title": "Sustainability Initiatives",
+      "description": "Efforts to promote environmentally friendly practices.",
+      "technical_spec": "Adobe Sustainability, Green Technologies",
+      "severity_score": 30
     }
   ]
 }

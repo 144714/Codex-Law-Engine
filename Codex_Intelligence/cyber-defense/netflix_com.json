@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 36,
+    "rank": 46,
     "site": "netflix.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "40f23642ca9744be676f6449e9423398"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "a003971871153c0a70a05bb035ebbbff"
   },
   "data": [
     {
-      "title": "TLS Encryption",
-      "description": "Netflix uses TLS to encrypt data in transit between users and the platform.",
-      "technical_spec": "Implementation of Transport Layer Security (TLS) protocols to secure user sessions.",
-      "severity_score": 30
+      "title": "End-to-End Encryption",
+      "description": "Secure transmission of data from client to server.",
+      "technical_spec": "TLS 1.3 with forward secrecy and DDoS protection.",
+      "severity_score": 50
     },
     {
-      "title": "DDoS Protection",
-      "description": "Robust defenses against distributed denial-of-service attacks ensure availability.",
-      "technical_spec": "Employing AWS Shield and other anti-DDoS strategies to mitigate attack impact.",
-      "severity_score": 25
+      "title": "Identity and Access Management",
+      "description": "Secure user verification and access control.",
+      "technical_spec": "OAuth 2.0, OpenID Connect, and two-step verification.",
+      "severity_score": 40
     },
     {
-      "title": "Visibility and Monitoring",
-      "description": "Comprehensive monitoring and logging to detect and respond to security incidents.",
-      "technical_spec": "Use of real-time analytics tools and logging services to track anomalies.",
-      "severity_score": 22
+      "title": "Continuous Security Monitoring",
+      "description": "24/7 monitoring for potential security threats.",
+      "technical_spec": "SIEM integrations, anomaly detection with machine learning.",
+      "severity_score": 35
     },
     {
-      "title": "Access Control",
-      "description": "Strict access management policies protect sensitive data and internal systems.",
-      "technical_spec": "Implementation of role-based access control and multi-factor authentication.",
-      "severity_score": 20
+      "title": "Vulnerability Management Program",
+      "description": "Regular scanning and patching of systems against vulnerabilities.",
+      "technical_spec": "Nessus and in-house security tools for scanning and remediation.",
+      "severity_score": 45
     },
     {
-      "title": "Vulnerability Assessment",
-      "description": "Routine vulnerability scans and penetration testing identify potential security gaps.",
-      "technical_spec": "Use of automated tools and ethical hacking services to assess system security.",
-      "severity_score": 28
+      "title": "Data Protection Compliance",
+      "description": "Adherence to international privacy standards and regulations.",
+      "technical_spec": "GDPR, CCPA compliance tools, and internal privacy controls.",
+      "severity_score": 55
     }
   ]
 }

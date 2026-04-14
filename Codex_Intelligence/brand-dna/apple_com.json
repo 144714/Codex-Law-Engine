@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 33,
+    "rank": 43,
     "site": "apple.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "48c738b3851b3fca5eea660209955993"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "319e8471e420748956e6119ec0baab18"
   },
   "data": [
     {
-      "title": "Minimalist Aesthetic",
-      "description": "A clean and minimalist design reflecting modernity and sophistication.",
-      "technical_spec": "White space, simple color palette, and minimal text.",
+      "title": "Simplicity and Elegance",
+      "description": "Apple's brand emphasizes a simple, elegant design aesthetic.",
+      "technical_spec": "Minimalist layouts with focus on product display.",
+      "severity_score": 5
+    },
+    {
+      "title": "Innovation and Quality",
+      "description": "Focuses on cutting-edge technology and superior user experience.",
+      "technical_spec": "Use of advanced web technologies and high-standard quality checks.",
       "severity_score": 10
     },
     {
-      "title": "Innovative Technology",
-      "description": "Emphasis on cutting-edge technology and pioneering products.",
-      "technical_spec": "References to M1 chip, AR features, and AI integrations.",
-      "severity_score": 20
-    },
-    {
-      "title": "Eco-Friendly Initiatives",
-      "description": "Commitment to sustainability and environmental responsibility.",
-      "technical_spec": "Recycled materials and energy efficiency in product descriptions.",
+      "title": "Customer-Centric Approach",
+      "description": "Significant emphasis on user satisfaction and support.",
+      "technical_spec": "Provides comprehensive support services and feedback systems.",
       "severity_score": 15
     },
     {
-      "title": "Customer-Centric Approach",
-      "description": "Focus on enhancing user experience and customer satisfaction.",
-      "technical_spec": "User testimonials, support center, and feedback loops.",
-      "severity_score": 30
+      "title": "Consistency",
+      "description": "Maintains a consistent brand image across all platforms and communications.",
+      "technical_spec": "Uniform brand elements such as typography and color palettes.",
+      "severity_score": 10
     },
     {
-      "title": "Seamless Ecosystem",
-      "description": "Interconnectedness across Apple devices and services.",
-      "technical_spec": "iCloud, Continuity, and Handoff features.",
-      "severity_score": 25
+      "title": "Eco-Friendly Initiatives",
+      "description": "Promotes sustainability and environmentally friendly practices.",
+      "technical_spec": "Incorporates green technologies and practices in site operations.",
+      "severity_score": 20
     }
   ]
 }

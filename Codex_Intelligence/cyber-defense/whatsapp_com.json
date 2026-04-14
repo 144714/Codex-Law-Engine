@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 40,
+    "rank": 50,
     "site": "whatsapp.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "197dd6e141c0fab5842a35626042fedc"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "c955481f7195082e4be6c23fc841edd4"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Provides an extra layer of security by requiring verification via a second device.",
-      "technical_spec": "Optional feature, uses SMS or authenticator apps for 2FA.",
-      "severity_score": 25
+      "title": "Data Encryption",
+      "description": "All messages between users are encrypted.",
+      "technical_spec": "Implements end-to-end encryption using the Signal Protocol.",
+      "severity_score": 90
     },
     {
-      "title": "Encryption Key Management",
-      "description": "Manages cryptographic keys securely to prevent unauthorized decryption.",
-      "technical_spec": "Keys are stored on devices; only users have access to their own encryption keys.",
-      "severity_score": 30
+      "title": "Two-Step Verification",
+      "description": "Provides an additional layer of security by requiring a PIN during registration.",
+      "technical_spec": "Optional security feature activated by the user to prevent unauthorized access.",
+      "severity_score": 60
     },
     {
-      "title": "Message Integrity Protections",
-      "description": "Ensures that messages are not tampered with during transit.",
-      "technical_spec": "Employs hash functions and digital signatures to validate messages.",
-      "severity_score": 35
+      "title": "Spam Detection",
+      "description": "Prevents the spread of spam and malware through automated systems.",
+      "technical_spec": "Uses machine learning algorithms to identify and block spam messages.",
+      "severity_score": 55
     },
     {
-      "title": "Threat Detection Systems",
-      "description": "Continuously monitors for suspicious activities and potential threats.",
-      "technical_spec": "AI and machine learning algorithms to detect anomalies in message patterns.",
-      "severity_score": 45
+      "title": "Account Locking",
+      "description": "Accounts can be temporarily locked if suspicious activity is detected.",
+      "technical_spec": "Monitors unusual login patterns and restricts access until verified.",
+      "severity_score": 65
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular penetration testing and security audits to identify vulnerabilities.",
-      "technical_spec": "Third-party security firms employed for comprehensive system audits.",
-      "severity_score": 20
+      "title": "Vulnerability Testing",
+      "description": "Regular security audits and penetration testing to detect potential vulnerabilities.",
+      "technical_spec": "Engages third-party security firms to assess the robustness of the platform.",
+      "severity_score": 75
     }
   ]
 }

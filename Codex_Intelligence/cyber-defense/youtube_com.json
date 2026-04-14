@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 32,
+    "rank": 42,
     "site": "youtube.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "7d517e1fdcd1c827bcd6aaffff891d54"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "429b6267d92474318df238e1e55dc228"
   },
   "data": [
     {
+      "title": "Content Moderation AI",
+      "description": "AI-driven systems detect and filter inappropriate content.",
+      "technical_spec": "Machine learning algorithms, real-time analysis.",
+      "severity_score": 12
+    },
+    {
+      "title": "Secure User Authentication",
+      "description": "Two-factor authentication (2FA) is available for enhanced account security.",
+      "technical_spec": "OAuth 2.0, TOTP authentication apps.",
+      "severity_score": 10
+    },
+    {
+      "title": "HTTPS Encryption",
+      "description": "Encrypted connections protect data in transit.",
+      "technical_spec": "TLS 1.3 with forward secrecy protocols.",
+      "severity_score": 8
+    },
+    {
       "title": "DDoS Protection",
-      "description": "Mitigation strategies for Distributed Denial of Service attacks.",
-      "technical_spec": "Traffic scrubbing, Autoscaling defenses, Capacity Overflow Handling.",
-      "severity_score": 95
+      "description": "Infrastructure to mitigate distributed denial-of-service attacks.",
+      "technical_spec": "Traffic scrubbing and rate-limiting technologies.",
+      "severity_score": 15
     },
     {
-      "title": "User Authentication Mechanisms",
-      "description": "Security protocols to verify user identities.",
-      "technical_spec": "OAuth2, Two-factor authentication, Biometrics.",
-      "severity_score": 89
-    },
-    {
-      "title": "Content Verification and Anti-Piracy",
-      "description": "Prevention of illegal uploads and sharing of content.",
-      "technical_spec": "AI-driven content match, Digital Rights Management (DRM).",
-      "severity_score": 87
-    },
-    {
-      "title": "Data Encryption",
-      "description": "Encrypts user and transaction data for security.",
-      "technical_spec": "TLS 1.3, AES-256 Encryption, Secure Data Tunnels.",
-      "severity_score": 92
-    },
-    {
-      "title": "Vulnerability Management",
-      "description": "Regular assessments and patching of security vulnerabilities.",
-      "technical_spec": "Automated Scanning, Continuous Monitoring, Threat Intelligence.",
-      "severity_score": 90
+      "title": "Bug Bounty Program",
+      "description": "Incentivizes external security research to find vulnerabilities.",
+      "technical_spec": "Program hosted on platforms like HackerOne.",
+      "severity_score": 20
     }
   ]
 }

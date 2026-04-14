@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 34,
+    "rank": 44,
     "site": "microsoft.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "be6635bafc580f8ea0e7ca268a99a31e"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "bc4865e0d56fd4d2f4b510ebdf3f3441"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Limits user decision-overload by simplifying choices on each page.",
-      "technical_spec": "Streamlined navigation, Minimalistic design",
-      "severity_score": 20
+      "description": "Simplified navigation to reduce decision time.",
+      "technical_spec": "Minimalistic menu design to facilitate faster choices.",
+      "severity_score": 10
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Utilizes visual hierarchy and grouping to enhance readability.",
-      "technical_spec": "Consistent iconography, Whitespace management",
-      "severity_score": 18
+      "title": "Fitts's Law",
+      "description": "Accessible clickable elements to enhance user interaction.",
+      "technical_spec": "Optimized button sizes and spacing.",
+      "severity_score": 10
     },
     {
-      "title": "Fitts' Law",
-      "description": "Designs with target acquisition speed in mind, ensuring clickable elements are accessible.",
-      "technical_spec": "Large target buttons, Edge placement",
-      "severity_score": 22
+      "title": "Jakob's Law",
+      "description": "Consistent user experience leveraging familiar web patterns.",
+      "technical_spec": "UI components consistent with industry standards.",
+      "severity_score": 5
     },
     {
       "title": "Miller's Law",
-      "description": "Breaks complex information into chunks to aid user memory retention.",
-      "technical_spec": "Accordion menus, Step-by-step guides",
-      "severity_score": 25
+      "description": "Limiting information loads to enhance cognitive processing.",
+      "technical_spec": "Grouped relevant information in digestible units.",
+      "severity_score": 15
     },
     {
-      "title": "Law of Common Region",
-      "description": "Groups related items using bounding boxes and visual containers.",
-      "technical_spec": "Card layouts, Section dividers",
-      "severity_score": 19
+      "title": "Law of Proximity",
+      "description": "Objects positioned close are perceived as a group.",
+      "technical_spec": "Logical grouping of related content.",
+      "severity_score": 5
     }
   ]
 }

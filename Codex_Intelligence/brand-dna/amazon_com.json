@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 35,
+    "rank": 45,
     "site": "amazon.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "0a53a67ab4628a4a18ac96c76737df3f"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "7824bf9ded31418e737d76777834c4d5"
   },
   "data": [
     {
       "title": "Customer Obsession",
-      "description": "Focusing on customer satisfaction as a top priority in all business decisions.",
-      "technical_spec": "24/7 customer service and liberal return policies.",
-      "severity_score": 99
+      "description": "Amazon's emphasis on providing the best customer experience.",
+      "technical_spec": "24/7 customer support, personalized recommendations.",
+      "severity_score": 5
     },
     {
-      "title": "Innovation",
-      "description": "Continuous innovation to enhance product and service offerings.",
-      "technical_spec": "Regular launches of new services like Amazon Prime and Alexa.",
-      "severity_score": 95
+      "title": "Innovation Culture",
+      "description": "Commitment to continual innovation across services and products.",
+      "technical_spec": "Investment in R&D, adoption of new technologies.",
+      "severity_score": 10
     },
     {
-      "title": "Operational Excellence",
-      "description": "Striving for efficiency in operations to deliver faster and better services.",
-      "technical_spec": "Supply chain optimization using automated processes.",
-      "severity_score": 97
+      "title": "Operational Efficiency",
+      "description": "Streamlining operations to improve service delivery and cost-effectiveness.",
+      "technical_spec": "Warehousing and logistics optimization, lean practices.",
+      "severity_score": 15
+    },
+    {
+      "title": "Broad Selection",
+      "description": "Offering the widest possible variety of products to customers.",
+      "technical_spec": "Expansive product catalog, partnerships with numerous vendors.",
+      "severity_score": 8
     },
     {
       "title": "Leadership Principles",
-      "description": "Embedding leadership principles into company culture and operations.",
-      "technical_spec": "Principles like 'Think Big' and 'Invent and Simplify' guide decision making.",
-      "severity_score": 98
-    },
-    {
-      "title": "Long-Term Thinking",
-      "description": "Focusing on sustainable growth and investments for future expansion.",
-      "technical_spec": "Investments in technology infrastructure and global market expansion.",
-      "severity_score": 96
+      "description": "Guiding principles that shape Amazon's corporate culture and decision-making.",
+      "technical_spec": "Guidelines such as 'Think Big', 'Invent and Simplify'.",
+      "severity_score": 12
     }
   ]
 }

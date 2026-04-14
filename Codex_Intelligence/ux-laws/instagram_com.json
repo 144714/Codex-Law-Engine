@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 39,
+    "rank": 49,
     "site": "instagram.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "089ce82ab5906dec1df1b227748dfef3"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "6b5c188b0c98710292963082b8525e06"
   },
   "data": [
     {
-      "title": "Jakob's Law",
-      "description": "Users spend most of their time on other sites, so design interfaces like the ones they're accustomed to using.",
-      "technical_spec": "Consistent layout, common UI elements, and navigation patterns.",
-      "severity_score": 40
-    },
-    {
       "title": "Hick's Law",
-      "description": "Time taken to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Streamlining actions to reduce decision-making times.",
-      "severity_score": 35
-    },
-    {
-      "title": "Aesthetic Usability Effect",
-      "description": "Users tend to perceive aesthetically pleasing designs as more usable.",
-      "technical_spec": "Focus on clean design, appealing color schemes, and minimalistic interfaces.",
+      "description": "Minimizes user decision time by simplifying choices.",
+      "technical_spec": "Streamlined UI design for faster interaction and decision-making.",
       "severity_score": 45
     },
     {
-      "title": "Law of Proximity",
-      "description": "Objects that are close to each other appear to be more related than objects that are spaced farther apart.",
-      "technical_spec": "Group related icons and information close together.",
-      "severity_score": 38
+      "title": "Fitts' Law",
+      "description": "Optimizes the placement of icons and buttons for ease of access.",
+      "technical_spec": "Ensures target size and position facilitate quick user actions.",
+      "severity_score": 50
     },
     {
-      "title": "Fitt's Law",
-      "description": "The time to acquire a target is a function of the distance to and size of the target.",
-      "technical_spec": "Design with larger click targets for touch interfaces.",
-      "severity_score": 42
+      "title": "Aesthetic-Usability Effect",
+      "description": "Focuses on visual appeal to enhance perceived usability.",
+      "technical_spec": "Utilizes clean, modern design aesthetics to improve user experience.",
+      "severity_score": 40
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Designs for user expectation by aligning with familiar interfaces.",
+      "technical_spec": "Incorporates known patterns and navigation methods from popular apps.",
+      "severity_score": 60
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Groups related elements together to create meaningful associations.",
+      "technical_spec": "Applies spacing and alignment for logical grouping of UI components.",
+      "severity_score": 55
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 31,
+    "rank": 41,
     "site": "google.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "675d020c862463e5cdf31c2eb1deb22b"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "db5e43c6eaabd701cc7876308ca66b55"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Google's architecture leverages a microservices approach that allows for scalability across its various services.",
-      "technical_spec": "Uses containers managed by Kubernetes for deploying individual microservices.",
+      "title": "Microservices",
+      "description": "Google uses a microservices architecture to enhance scalability and isolate services for better management.",
+      "technical_spec": "Services are independently deployable and scalable, communicating via well-defined APIs.",
       "severity_score": 10
     },
     {
       "title": "Load Balancing",
-      "description": "Efficient load balancing across thousands of servers ensures high availability.",
-      "technical_spec": "Globally distributed load balancers handle traffic distribution.",
+      "description": "Advanced load balancing to manage traffic efficiently across data centers.",
+      "technical_spec": "Global load balancing techniques with Anycast routing and Maglev components.",
       "severity_score": 5
     },
     {
-      "title": "Global CDN",
-      "description": "Content Delivery Networks are used to deliver content through edge locations.",
-      "technical_spec": "Employs extensive use of CDNs for latency reduction.",
+      "title": "Distributed Systems",
+      "description": "Highly distributed system architecture to ensure availability and resilience.",
+      "technical_spec": "Capable of handling vast data with Bigtable, Spanner, and Colossus.",
+      "severity_score": 8
+    },
+    {
+      "title": "Data Replication",
+      "description": "Ensures data is replicated across multiple geographical locations.",
+      "technical_spec": "Cross-region replication with Paxos algorithms for consistency.",
       "severity_score": 15
     },
     {
-      "title": "Data Center Efficiency",
-      "description": "Optimized data centers with custom hardware to increase energy efficiency.",
-      "technical_spec": "Uses TPUs and custom server designs.",
-      "severity_score": 5
-    },
-    {
-      "title": "Distributed File System",
-      "description": "GFS (Google File System) stores and manages large amounts of data efficiently.",
-      "technical_spec": "Highly scalable file storage for handling vast amounts of data.",
-      "severity_score": 8
+      "title": "Containerization",
+      "description": "Utilization of containers for deploying applications efficiently.",
+      "technical_spec": "Kubernetes orchestrated environments for isolation and resource management.",
+      "severity_score": 12
     }
   ]
 }

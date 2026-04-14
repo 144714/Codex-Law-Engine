@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 39,
+    "rank": 49,
     "site": "instagram.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "10ccf3879909985078433e694afc92d4"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "7a0307153f72faaeaaec33228060251c"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Messages are encrypted during transmission to prevent unauthorized access.",
-      "technical_spec": "Advanced cryptographic protocols such as TLS/SSL.",
-      "severity_score": 25
+      "title": "Two-Factor Authentication",
+      "description": "Provides an additional layer of security for user accounts.",
+      "technical_spec": "Supports 2FA through mobile SMS and authenticator apps.",
+      "severity_score": 60
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Users are required to verify their identity with a secondary authentication method.",
-      "technical_spec": "Supports SMS codes and authentication apps.",
-      "severity_score": 30
+      "title": "End-to-End Encryption",
+      "description": "Encrypts user communications from end-to-end to safeguard data.",
+      "technical_spec": "Utilizes TLS v1.2 for data in transit and encryption algorithms like AES and RSA.",
+      "severity_score": 70
+    },
+    {
+      "title": "Advanced Threat Detection",
+      "description": "Uses machine learning to identify and mitigate potential threats.",
+      "technical_spec": "Integrates AI algorithms for anomaly detection and behavioral analysis.",
+      "severity_score": 75
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts frequent reviews and audits to identify potential vulnerabilities.",
-      "technical_spec": "Utilizes internal and third-party auditing tools.",
-      "severity_score": 20
+      "description": "Conducts regular audits to patch vulnerabilities and enhance security.",
+      "technical_spec": "Implements automated scanning tools and manual penetration testing.",
+      "severity_score": 65
     },
     {
-      "title": "AI-Driven Threat Detection",
-      "description": "Automatic detection of fraudulent accounts and harmful activities using AI.",
-      "technical_spec": "Machine learning algorithms that analyze user behavior patterns.",
-      "severity_score": 28
-    },
-    {
-      "title": "Incident Response Plan",
-      "description": "A detailed plan outlining steps to respond to security breaches swiftly and effectively.",
-      "technical_spec": "Comprehensive documentation and team training.",
-      "severity_score": 22
+      "title": "Bug Bounty Program",
+      "description": "Invites hackers to report vulnerabilities in exchange for rewards.",
+      "technical_spec": "Manages through platforms like HackerOne for community-driven security.",
+      "severity_score": 55
     }
   ]
 }

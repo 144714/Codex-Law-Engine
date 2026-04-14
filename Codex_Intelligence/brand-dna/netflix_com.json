@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 36,
+    "rank": 46,
     "site": "netflix.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "1c2cd08629085330039112eb9cbe019c"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "476b8e7446357464940fa897e13e211d"
   },
   "data": [
     {
-      "title": "Global Reach",
-      "description": "Netflix maintains a strong international presence, tailoring services for global audiences.",
-      "technical_spec": "Availability in 190 countries, offering diverse language options and localized content.",
-      "severity_score": 8
+      "title": "Innovative Content Delivery",
+      "description": "Pioneering streaming technology for on-demand viewing experience.",
+      "technical_spec": "Adaptive streaming protocol and custom codec optimization.",
+      "severity_score": 60
+    },
+    {
+      "title": "Global Reach and Localization",
+      "description": "Providing tailored content and interfaces for international audiences.",
+      "technical_spec": "Subtitles, dubbing services, local content offerings.",
+      "severity_score": 50
     },
     {
       "title": "Original Content Production",
-      "description": "Investing heavily in creating original films and series to define brand uniqueness.",
-      "technical_spec": "In-house production of content under Netflix Originals banner.",
-      "severity_score": 20
+      "description": "Investing in original series and films to draw in subscribers.",
+      "technical_spec": "Partnerships with studios and proprietary content analysis software.",
+      "severity_score": 40
     },
     {
-      "title": "User-Centric Innovation",
-      "description": "Continuous innovation focusing on enhancing user experience.",
-      "technical_spec": "Investment in AI-driven personalization and seamless user interface developments.",
-      "severity_score": 15
+      "title": "User-Centric Design",
+      "description": "Prioritizing user experience in all aspects of the platform.",
+      "technical_spec": "End-user feedback loops and constant iterative design improvements.",
+      "severity_score": 30
     },
     {
-      "title": "Binge-Watching Format",
-      "description": "Full-season releases cater to users who prefer binge-watching.",
-      "technical_spec": "Releasing all episodes of a season simultaneously instead of weekly.",
-      "severity_score": 10
-    },
-    {
-      "title": "Data-Driven Decisions",
-      "description": "Utilizing big data analytics to guide content strategy and customization.",
-      "technical_spec": "Advanced data analytics and machine learning algorithms for user preference insights.",
-      "severity_score": 22
+      "title": "Data-Driven Decision Making",
+      "description": "Leveraging analytics to guide business and content strategies.",
+      "technical_spec": "Big data tools and predictive analytics for decision processes.",
+      "severity_score": 70
     }
   ]
 }

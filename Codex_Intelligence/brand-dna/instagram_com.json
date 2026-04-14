@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 39,
+    "rank": 49,
     "site": "instagram.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "ca8c5614bcd20c79ac36c0babb2c0bd7"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "f41fff129c3dd4a1189f885b3a13b2f7"
   },
   "data": [
     {
-      "title": "Visual Storytelling",
-      "description": "Instagram is centered around showcasing visual content, allowing users to share images and videos.",
-      "technical_spec": "Image and video sharing functionality with advanced editing tools.",
+      "title": "Community Building",
+      "description": "Fosters community growth and interaction at the core of its mission.",
+      "technical_spec": "Features like hashtags and Stories to amplify user engagement.",
+      "severity_score": 35
+    },
+    {
+      "title": "Visual Content Sharing",
+      "description": "Focused on enabling users to share and discover visual content.",
+      "technical_spec": "High-quality image and video hosting infrastructure.",
+      "severity_score": 25
+    },
+    {
+      "title": "Influencer Ecosystem",
+      "description": "Supports creator economy through tools and features for influencers.",
+      "technical_spec": "Monetization features like brand collaborations and ads.",
+      "severity_score": 45
+    },
+    {
+      "title": "Innovation in Features",
+      "description": "Continuous innovation to stay relevant in the social media space.",
+      "technical_spec": "Regular updates with new features like Reels and Shop.",
       "severity_score": 50
     },
     {
-      "title": "Community Building",
-      "description": "Fosters engagements and relationships through a community-driven platform.",
-      "technical_spec": "Hashtags, comments, likes, and follow systems.",
-      "severity_score": 55
-    },
-    {
-      "title": "Influencer Culture",
-      "description": "Empowers users to establish and grow their personal brand or business through influencer partnerships.",
-      "technical_spec": "Business profiles and analytics tools for marketing.",
-      "severity_score": 60
-    },
-    {
-      "title": "Instant Connectivity",
-      "description": "Facilitates real-time interaction through direct messaging and broadcasting options.",
-      "technical_spec": "Video calling, live streaming, and DMs.",
-      "severity_score": 58
-    },
-    {
-      "title": "Seamless Integration",
-      "description": "Provides smooth integration with other social media platforms and online services.",
-      "technical_spec": "API connectivity for cross-platform posting and sharing.",
-      "severity_score": 53
+      "title": "Privacy Focus",
+      "description": "Prioritizes user privacy and data protection.",
+      "technical_spec": "Customizable privacy settings and data management options.",
+      "severity_score": 40
     }
   ]
 }

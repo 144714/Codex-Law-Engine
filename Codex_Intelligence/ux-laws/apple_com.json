@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 33,
+    "rank": 43,
     "site": "apple.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "a81f1aa0f1e1067a95c16e8417b7addb"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "36c878652579df2947989de2927ebdfb"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Design considerations for interactive elements based on target size and distance.",
-      "technical_spec": "Consistent button sizes and spacing for improved usability.",
-      "severity_score": 25
+      "title": "Hick’s Law",
+      "description": "Minimizes decision-making time by reducing the number of choices per page.",
+      "technical_spec": "Simple, clean interfaces with prominent call-to-action elements.",
+      "severity_score": 10
     },
     {
-      "title": "Hick's Law",
-      "description": "Simplifying choices to reduce user decision time.",
-      "technical_spec": "Streamlined navigation and clear information hierarchy.",
-      "severity_score": 30
+      "title": "Fitts’s Law",
+      "description": "Designs are optimized such that interactive elements are easily clickable.",
+      "technical_spec": "Consistent use of larger, easily accessible buttons.",
+      "severity_score": 15
     },
     {
-      "title": "Jakob's Law",
-      "description": "Design aligned with user expectations from similar interfaces.",
-      "technical_spec": "Familiar navigation patterns and UI components.",
+      "title": "The Aesthetic-Usability Effect",
+      "description": "Apple.com focuses on visually pleasing design to improve perceived usability.",
+      "technical_spec": "High-quality imagery and balanced color schemes.",
+      "severity_score": 5
+    },
+    {
+      "title": "Serial Position Effect",
+      "description": "Arranges key information at the beginning and end of navigation flows.",
+      "technical_spec": "Sequentially structured product pages for effective information delivery.",
       "severity_score": 20
     },
     {
-      "title": "Miller's Law",
-      "description": "Limiting cognitive load with chunking information.",
-      "technical_spec": "Group related content and use bullet points for clarity.",
-      "severity_score": 35
-    },
-    {
-      "title": "Kohler's Law",
-      "description": "Enhancing recognition through visually distinct elements.",
-      "technical_spec": "Use of contrast and color to distinguish interface elements.",
-      "severity_score": 40
+      "title": "Jakob's Law",
+      "description": "Leverages user familiarity by maintaining interface consistency.",
+      "technical_spec": "Consistent navigation and interface elements across products.",
+      "severity_score": 10
     }
   ]
 }

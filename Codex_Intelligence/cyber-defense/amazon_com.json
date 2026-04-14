@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 35,
+    "rank": 45,
     "site": "amazon.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "895ee69a072ea9c208e88b5af8a63be0"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "688355574e6e6a52c2159125e2c569b3"
   },
   "data": [
     {
-      "title": "DDoS Mitigation",
-      "description": "Protection against Distributed Denial of Service attacks.",
-      "technical_spec": "AWS Shield and AWS WAF provide multi-layered defense mechanisms.",
-      "severity_score": 95
+      "title": "Encryption at Rest and in Transit",
+      "description": "Ensuring data privacy and protection using encryption techniques.",
+      "technical_spec": "AES-256 encryption for data storage; TLS for data in transit.",
+      "severity_score": 20
     },
     {
-      "title": "Data Encryption",
-      "description": "Encryption of data at rest and in transit using standardized protocols.",
-      "technical_spec": "TLS for data in transit and server-side encryption for data at rest.",
-      "severity_score": 92
+      "title": "Advanced Threat Detection",
+      "description": "Utilizing AI and machine learning to identify and mitigate potential threats.",
+      "technical_spec": "AWS GuardDuty, AWS Macie for monitoring and anomaly detection.",
+      "severity_score": 25
     },
     {
-      "title": "IAM Policies",
-      "description": "Strict Identity and Access Management policies to restrict unauthorized access.",
-      "technical_spec": "Role-based access control with granular permissions.",
-      "severity_score": 90
+      "title": "Identity and Access Management",
+      "description": "Strict IAM policies to control access to resources.",
+      "technical_spec": "AWS IAM roles and permissions policies.",
+      "severity_score": 15
     },
     {
-      "title": "Security Incident Monitoring",
-      "description": "Real-time monitoring and incident response for security threats.",
-      "technical_spec": "Amazon GuardDuty and CloudWatch provide continuous threat detection.",
-      "severity_score": 93
+      "title": "DDoS Resilience",
+      "description": "Protection against distributed denial-of-service attacks.",
+      "technical_spec": "AWS Shield, CDN services for traffic absorption.",
+      "severity_score": 30
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Routine security assessments to identify and mitigate vulnerabilities.",
-      "technical_spec": "Performed using AWS Inspector and third-party penetration testing services.",
-      "severity_score": 88
+      "title": "Patch Management",
+      "description": "Regularly updating and patching systems to protect against vulnerabilities.",
+      "technical_spec": "Automated patching systems, dependency checking.",
+      "severity_score": 18
     }
   ]
 }

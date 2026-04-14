@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 32,
+    "rank": 42,
     "site": "youtube.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "ac173695612712ce059ded6fdc503d90"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "0904344574283607ab77f3821dde6f2e"
   },
   "data": [
     {
-      "title": "Global Reach",
-      "description": "Provides content accessibility across most global regions.",
-      "technical_spec": "Localized servers, Multilingual support, Global partnerships.",
-      "severity_score": 92
+      "title": "User-Generated Content",
+      "description": "Empowers users to create and share their own content.",
+      "technical_spec": "Upload functions, personalization tools.",
+      "severity_score": 2
     },
     {
-      "title": "Content Diversity",
-      "description": "Hosts a wide range of content categories and genres.",
-      "technical_spec": "User-generated content, Professional channels, Diverse content libraries.",
-      "severity_score": 90
+      "title": "Scalable Platform",
+      "description": "Designed to handle an extensive number of users and high traffic.",
+      "technical_spec": "Cloud infrastructure, elasticity features.",
+      "severity_score": 8
     },
     {
-      "title": "User Community Engagement",
-      "description": "Encourages active participation and content sharing.",
-      "technical_spec": "Comment sections, Likes and shares, Community posts.",
-      "severity_score": 89
+      "title": "Monetization Options",
+      "description": "Various revenue streams for creators through ads and memberships.",
+      "technical_spec": "AdSense integration, channel membership features.",
+      "severity_score": 5
     },
     {
-      "title": "Personalized Recommendations",
-      "description": "Uses algorithms to tailor content suggestions to users.",
-      "technical_spec": "Machine Learning Models, User Watch History, Collaborative Filtering.",
-      "severity_score": 88
+      "title": "Community Building",
+      "description": "Encourages interaction among users through comments and live chat.",
+      "technical_spec": "Comment sections, live streaming capabilities.",
+      "severity_score": 4
     },
     {
-      "title": "Brand Trust and Recognition",
-      "description": "Maintains a strong presence as a trusted video platform.",
-      "technical_spec": "Security protocols, Transparent policies, User privacy settings.",
-      "severity_score": 94
+      "title": "Accessible Platform",
+      "description": "Accessible to a wider audience with features like captions and translations.",
+      "technical_spec": "Subtitles, multi-language support, accessibility settings.",
+      "severity_score": 3
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 37,
+    "rank": 47,
     "site": "spotify.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "ca384a6d6ac669af548dafb678b0fc09"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "f436813fa096199aa8240da2ba2d793e"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "Enhanced account security for users and employees via MFA techniques including OTP and authenticator apps.",
-      "technical_spec": "Requires verification through two or more authentication factors.",
+      "title": "Encryption",
+      "description": "Data in transit and at rest is encrypted using industry-standard practices.",
+      "technical_spec": "TLS 1.3 for network transactions and AES-256 for data storage.",
+      "severity_score": 10
+    },
+    {
+      "title": "Authentication Mechanisms",
+      "description": "Multi-factor authentication and OAuth 2.0 for user session security.",
+      "technical_spec": "Integration with social logins and proprietary mechanisms for user authorization.",
+      "severity_score": 20
+    },
+    {
+      "title": "Intrusion Detection",
+      "description": "Monitors for unusual patterns indicating potential security breaches.",
+      "technical_spec": "Utilizes a combination of anomaly detection algorithms and custom threat models.",
       "severity_score": 50
     },
     {
-      "title": "End-to-End Encryption",
-      "description": "Ensures user data and streaming content are encrypted during transmission and storage.",
-      "technical_spec": "Utilizes TLS protocols for data in transit and AES encryption for data at rest.",
-      "severity_score": 65
+      "title": "Access Controls",
+      "description": "Strict access policies for managing internal resources.",
+      "technical_spec": "RBAC (Role-Based Access Control) and policy enforcement across the platform.",
+      "severity_score": 40
     },
     {
-      "title": "Security Incident and Event Management (SIEM)",
-      "description": "Centralized platform to monitor, detect, and respond to security threats in real-time.",
-      "technical_spec": "Incorporates real-time analytics and alerts to preemptively address vulnerabilities.",
-      "severity_score": 60
-    },
-    {
-      "title": "Vulnerability Scanning & Patching",
-      "description": "Regular scanning for vulnerabilities and deploying patches to protect against exploits.",
-      "technical_spec": "Automated tools and manual reviews to ensure up-to-date security patches.",
-      "severity_score": 55
-    },
-    {
-      "title": "DDoS Mitigation Strategies",
-      "description": "Measures to safeguard against distributed denial-of-service attacks, keeping service operational.",
-      "technical_spec": "Employ technologies such as traffic filtering and rate limiting to mitigate attacks.",
-      "severity_score": 70
+      "title": "Security Audits",
+      "description": "Regular security audits and compliance checks ensure system integrity.",
+      "technical_spec": "Conducted using both automated tools and human reviews to identify vulnerabilities.",
+      "severity_score": 45
     }
   ]
 }

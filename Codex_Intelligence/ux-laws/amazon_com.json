@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 35,
+    "rank": 45,
     "site": "amazon.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "5079b35a6815050dd7c4b28d105bf16f"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "08311088eea17d1b3645a5b5df9141dd"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifying decision-making to enhance the user experience.",
-      "technical_spec": "Minimalist design for navigation menus and checkout processes.",
-      "severity_score": 85
+      "title": "Fitts's Law",
+      "description": "Design considers the size and distance of clickable elements to ensure ease of access.",
+      "technical_spec": "Large, easy-to-click buttons and intuitive navigation.",
+      "severity_score": 10
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizing the size and distance of interactive elements for ease of use.",
-      "technical_spec": "Large clickable areas for 'Add to Cart' and 'Buy Now' buttons.",
-      "severity_score": 90
+      "title": "Hick's Law",
+      "description": "Minimizing decision-making times by simplifying choices.",
+      "technical_spec": "Simple, uncluttered UI with clear, essential options.",
+      "severity_score": 18
+    },
+    {
+      "title": "Aesthetic Usability Effect",
+      "description": "The attractive design is perceived as easier to use.",
+      "technical_spec": "Clean design, consistent color palette, modern aesthetics.",
+      "severity_score": 12
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Grouping related items to enhance the website's accessibility and usability.",
+      "technical_spec": "Strategic use of white space and consistent alignment.",
+      "severity_score": 20
     },
     {
       "title": "Jakob's Law",
-      "description": "Leveraging users' familiarity with design patterns seen on other sites.",
-      "technical_spec": "Consistent use of breadcrumb navigation and familiar web page layouts.",
-      "severity_score": 87
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Organizing information in manageable chunks to improve cognitive load handling.",
-      "technical_spec": "Product details grouped into tabbed interfaces and bullet points.",
-      "severity_score": 88
-    },
-    {
-      "title": "Serial Position Effect",
-      "description": "Strategically placing key information at the beginning and end of user journeys.",
-      "technical_spec": "Prominent display of discounts at the top and primary call-to-action at the end of pages.",
-      "severity_score": 86
+      "description": "Design leveraging user familiarity with common e-commerce interfaces.",
+      "technical_spec": "Standard e-commerce conventions for product browsing and checkout.",
+      "severity_score": 8
     }
   ]
 }

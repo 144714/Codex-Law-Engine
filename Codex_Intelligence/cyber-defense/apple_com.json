@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 33,
+    "rank": 43,
     "site": "apple.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "b286e4be2d6e7ac7467245853a408193"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "be0df1380fdd9d0488766241587aa6be"
   },
   "data": [
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Secure data transmission with encryption over HTTPS.",
-      "technical_spec": "TLS 1.3 with robust cipher suites.",
+      "title": "Secure Sockets Layer",
+      "description": "SSL encrypts data exchanged between the website and users.",
+      "technical_spec": "SSL/TLS certificates are regularly updated.",
       "severity_score": 10
     },
     {
-      "title": "Multi-factor Authentication",
-      "description": "Enhanced authentication with MFA for secure user account access.",
-      "technical_spec": "Time-based one-time password (TOTP) apps or SMS.",
-      "severity_score": 40
+      "title": "Web Application Firewall",
+      "description": "WAFs protect against common web threats such as SQL injection and XSS.",
+      "technical_spec": "Uses rule-based and AI-driven detection.",
+      "severity_score": 20
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Mitigates Distributed Denial of Service attacks to maintain uptime.",
+      "technical_spec": "Employs network layer filtering and real-time traffic analysis.",
+      "severity_score": 30
     },
     {
       "title": "Regular Security Audits",
-      "description": "Frequent security audits to identify and fix vulnerabilities.",
-      "technical_spec": "Vulnerability scanning tools and penetration testing.",
-      "severity_score": 35
+      "description": "Routine audits are conducted to identify and fix vulnerabilities.",
+      "technical_spec": "Both automated vulnerability scanners and manual penetration testing are used.",
+      "severity_score": 25
     },
     {
-      "title": "Data Loss Prevention",
-      "description": "Mechanisms to prevent unauthorized data exfiltration.",
-      "technical_spec": "Data encryption at rest and DLP policies.",
-      "severity_score": 45
-    },
-    {
-      "title": "Infrastructure Hardening",
-      "description": "Security measures to protect the site's infrastructure.",
-      "technical_spec": "Firewalls, intrusion detection systems, and OS hardening.",
-      "severity_score": 50
+      "title": "Multi-Factor Authentication",
+      "description": "Enhances security by requiring multiple forms of verification.",
+      "technical_spec": "Supports biometric, token-based, and SMS-based verification.",
+      "severity_score": 15
     }
   ]
 }

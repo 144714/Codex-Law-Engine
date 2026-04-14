@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 39,
+    "rank": 49,
     "site": "instagram.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "c358781b22a78bd8d09f78edc41c8f29"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "9c2df27e7151cb56b3be73767ae2c84b"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Instagram utilizes a microservices architecture to manage its complex set of features and functionalities.",
-      "technical_spec": "Decoupled microservices managed via REST APIs and gRPC.",
-      "severity_score": 15
-    },
-    {
-      "title": "Horizontal Scaling",
-      "description": "Designed to handle millions of users simultaneously through distributed computing resources.",
-      "technical_spec": "Load balancers and distributed server clusters deployed globally.",
-      "severity_score": 10
-    },
-    {
-      "title": "NoSQL Database",
-      "description": "Utilizes NoSQL databases for rapid access to large volumes of unstructured data, e.g., user-generated content.",
-      "technical_spec": "Systems like Cassandra and Redis for caching.",
+      "description": "Instagram uses a microservices architecture to compartmentalize functionalities and improve scalability.",
+      "technical_spec": "Utilizes containerization (Docker) and orchestration tools (Kubernetes) to manage microservices.",
       "severity_score": 20
     },
     {
-      "title": "CDN Integration",
-      "description": "Content Delivery Networks are used to deliver media content efficiently and reliably to a global audience.",
-      "technical_spec": "Partnership with CDN providers like Akamai.",
-      "severity_score": 12
+      "title": "Distributed Databases",
+      "description": "Stores data across distributed databases for redundancy and fast access.",
+      "technical_spec": "Employs NoSQL databases like Cassandra for high availability and SQL databases for relational data.",
+      "severity_score": 30
     },
     {
-      "title": "Containerization",
-      "description": "Employs containerization for deploying applications consistently across different environments.",
-      "technical_spec": "Docker and Kubernetes orchestration used for managing containers.",
-      "severity_score": 18
+      "title": "CDN Integration",
+      "description": "Content Delivery Network integration for faster multimedia content delivery.",
+      "technical_spec": "Utilizes global CDN services such as Akamai for reducing latency.",
+      "severity_score": 15
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Efficient load balancing to manage high traffic and ensure server reliability.",
+      "technical_spec": "Implements Layer 7 load balancers that handle HTTP traffic.",
+      "severity_score": 25
+    },
+    {
+      "title": "API Gateway",
+      "description": "Centralized API gateway to handle routing, authentication, and monitoring of API requests.",
+      "technical_spec": "Uses GraphQL for flexible data queries and client interactions.",
+      "severity_score": 40
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 37,
+    "rank": 47,
     "site": "spotify.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "610df4820003dc66adcdaf485d41046d"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "3020014936e1daa6ddef6dcdcbcc8707"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Minimizing choices for users to streamline decision-making and improve navigation experience.",
-      "technical_spec": "Interface structuring to reduce cognitive load and enhance user flow.",
-      "severity_score": 35
+      "title": "Gestalt Principles",
+      "description": "Uses Gestalt principles to enhance user interface design.",
+      "technical_spec": "Emphasis on similarity, proximity, and continuity in layout arrangements.",
+      "severity_score": 12
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizing button sizes and positions to streamline user interactions and accessibility.",
-      "technical_spec": "Critical actions are placed within easy reach and visible to enhance usability.",
-      "severity_score": 40
+      "title": "Hick's Law",
+      "description": "Simplifies decision-making by limiting the number of choices presented to users.",
+      "technical_spec": "Streamlined navigation and minimalistic design focus to aid quicker user choices.",
+      "severity_score": 18
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "Optimizes touch targets based on use frequency and required accuracy.",
+      "technical_spec": "Placement and size of interactive elements according to anticipated usage patterns.",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Respects cognitive load limits by grouping information into smaller, digestible clusters.",
+      "technical_spec": "Information architecture designed to support chunking for improved comprehension.",
+      "severity_score": 15
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Leverage appealing design to create perceived simplicity and function in user interactions.",
-      "technical_spec": "Design elements balanced to ensure visual appeal alongside practical usability.",
-      "severity_score": 30
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Adapting content presentation to align with limitations of short-term memory capacities.",
-      "technical_spec": "Breaking information into chunks to ease cognitive processing and retention.",
-      "severity_score": 45
-    },
-    {
-      "title": "Serial Position Effect",
-      "description": "Enhancing content recall by prioritizing crucial information at the start and end of sessions.",
-      "technical_spec": "Key actions and features positioned to maximize user recall at influential points.",
-      "severity_score": 50
+      "description": "Creates a visually pleasing interface to enhance perceived usability.",
+      "technical_spec": "High-quality graphics and a consistent color palette ensure cohesive visual design.",
+      "severity_score": 10
     }
   ]
 }

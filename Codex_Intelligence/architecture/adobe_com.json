@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 38,
+    "rank": 48,
     "site": "adobe.com",
-    "date": "2026-04-13 23:35",
-    "integrity_hash": "e804846972e8aa5540f0b4ff823d29a7"
+    "date": "2026-04-14 01:45",
+    "integrity_hash": "f7c76dc3b69123a2044bffadeb7e49c3"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Adobe employs a microservices architecture for its suite of cloud products, enabling segmented functionality and scalable development.",
-      "technical_spec": "Kubernetes, Docker containers, RESTful APIs",
-      "severity_score": 20
-    },
-    {
-      "title": "Cloud Infrastructure",
-      "description": "The site is hosted on a scalable cloud platform to manage traffic and ensure reliability.",
-      "technical_spec": "AWS, Azure integration, load balancing",
+      "title": "Cloud-Based Infrastructure",
+      "description": "Adobe uses a cloud-based infrastructure to enable scalability and resource optimization.",
+      "technical_spec": "AWS, Azure, and Adobe's proprietary cloud services",
       "severity_score": 15
     },
     {
-      "title": "CDN Usage",
-      "description": "Content Delivery Network is used to improve load times globally.",
-      "technical_spec": "Akamai CDN, global edge nodes, HTTP/2",
+      "title": "Microservices Architecture",
+      "description": "Decomposed services for better performance and maintenance.",
+      "technical_spec": "Docker, Kubernetes, RESTful APIs",
       "severity_score": 10
     },
     {
-      "title": "Database Management",
-      "description": "Relational and NoSQL databases are utilized for data storage and management.",
-      "technical_spec": "Amazon RDS, MongoDB, data sharding",
-      "severity_score": 25
+      "title": "Content Delivery Network (CDN)",
+      "description": "Utilization of CDNs to ensure fast content delivery worldwide.",
+      "technical_spec": "Akamai, CloudFront",
+      "severity_score": 20
     },
     {
-      "title": "Service Oriented Architecture",
-      "description": "An SOA model is followed to provide discrete services that communicate over a network.",
-      "technical_spec": "SOAP/REST protocols, message queuing, API gateways",
-      "severity_score": 30
+      "title": "Scalable Data Storage",
+      "description": "Robust data storage solutions to handle large volumes of creative content.",
+      "technical_spec": "Amazon S3, Azure Blob Storage",
+      "severity_score": 15
+    },
+    {
+      "title": "High Availability",
+      "description": "Infrastructure designed for 99.9% uptime and redundancy.",
+      "technical_spec": "Load Balancers, Auto-scaling groups",
+      "severity_score": 5
     }
   ]
 }
