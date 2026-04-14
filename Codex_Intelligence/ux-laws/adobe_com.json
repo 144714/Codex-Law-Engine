@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 128,
+    "rank": 138,
     "site": "adobe.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "1fda13bc8f818ec3579decf87bcd88c0"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "a44c78dd8aff74e57760e075050e7b63"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "UI elements are designed to be easily accessible to reduce interaction time.",
-      "technical_spec": "Larger clickable areas for buttons placed within easy reach.",
-      "severity_score": 10
-    },
-    {
-      "title": "Hick’s Law",
-      "description": "Limiting choices presented to users to speed up decision-making.",
-      "technical_spec": "Organized navigation and minimalistic approach in software design.",
-      "severity_score": 15
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "The design accommodates user's ability to process information in chunks.",
-      "technical_spec": "Information is grouped in small, digestible parts.",
+      "title": "Hick's Law",
+      "description": "Adobe's interfaces are designed to reduce decision fatigue by minimizing complexity.",
+      "technical_spec": "Consistent use of minimalistic UI components.",
       "severity_score": 20
     },
     {
-      "title": "Jakob’s Law",
-      "description": "User experiences are made consistent across different Adobe applications.",
-      "technical_spec": "Unified interface design language across product suites.",
+      "title": "Fitts's Law",
+      "description": "Interactive elements are optimally sized and positioned to facilitate quick access.",
+      "technical_spec": "Larger buttons in Adobe interfaces for increased accessibility.",
+      "severity_score": 15
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Grouping of features into manageable chunks to prevent cognitive overload.",
+      "technical_spec": "UI design leveraging card-based layout systems.",
       "severity_score": 25
     },
     {
-      "title": "Tesler’s Law",
-      "description": "Complexity is kept under control to maintain user efficiency.",
-      "technical_spec": "Automation of repetitive tasks and simplifying advanced features.",
-      "severity_score": 30
+      "title": "Law of Proximity",
+      "description": "Elements that are related are placed close to each other to enhance user comprehension.",
+      "technical_spec": "Grid systems used for precise alignment of UI elements.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Highly aesthetic interfaces enhance perception of usability.",
+      "technical_spec": "Use of Adobe's creative cloud suite for design consistency.",
+      "severity_score": 15
     }
   ]
 }

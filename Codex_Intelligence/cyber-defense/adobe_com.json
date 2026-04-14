@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 128,
+    "rank": 138,
     "site": "adobe.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "38cf701bda49c4caf7f268b7f245a83c"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "2b96985b68b500f0182c6792bcd0ae2f"
   },
   "data": [
     {
       "title": "Data Encryption",
-      "description": "Sensitive data is encrypted both in-transit and at rest.",
-      "technical_spec": "AES-256 for data at rest and TLS 1.3 for data in transit.",
-      "severity_score": 10
+      "description": "End-to-end encryption to protect data both at rest and in transit.",
+      "technical_spec": "AES-256 encryption standard.",
+      "severity_score": 5
     },
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Enhanced user authentication to prevent unauthorized access.",
-      "technical_spec": "Two-factor authentication using SMS and authenticator apps.",
-      "severity_score": 20
-    },
-    {
-      "title": "Threat Intelligence",
-      "description": "Continuous threat monitoring to identify and mitigate risks.",
-      "technical_spec": "Integration with security information and event management (SIEM) systems.",
-      "severity_score": 30
+      "title": "Identity and Access Management (IAM)",
+      "description": "Advanced IAM protocols safeguard user identities across Adobe's network.",
+      "technical_spec": "Use of OAuth 2.0 and SAML 2.0 for secure user authentication.",
+      "severity_score": 15
     },
     {
       "title": "Regular Security Audits",
-      "description": "Frequent security checks to identify potential vulnerabilities.",
-      "technical_spec": "Use of automated vulnerability scanning tools and penetration testing.",
-      "severity_score": 40
+      "description": "Frequent security audits and penetration testing to identify potential vulnerabilities.",
+      "technical_spec": "Dynamic application security testing (DAST) tools employed.",
+      "severity_score": 20
     },
     {
-      "title": "Incident Response Plan",
-      "description": "A structured approach to respond to and manage cybersecurity incidents.",
-      "technical_spec": "Detailed incident response processes and regular drills.",
-      "severity_score": 35
+      "title": "DDoS Protection",
+      "description": "Robust DDoS prevention mechanisms to mitigate potential distributed denial-of-service attacks.",
+      "technical_spec": "Partnered with Cloudflare for DDoS protection services.",
+      "severity_score": 10
+    },
+    {
+      "title": "Zero Trust Security Model",
+      "description": "Implementation of a zero trust architecture to protect internal networks against breaches.",
+      "technical_spec": "Continuous verification of user identity and device posture.",
+      "severity_score": 10
     }
   ]
 }

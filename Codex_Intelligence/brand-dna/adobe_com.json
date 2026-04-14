@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 128,
+    "rank": 138,
     "site": "adobe.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "3e50ca9a8bcc124e27abcbaaab23f75a"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "2cb3cdb7149c329f2f2f9d3692940050"
   },
   "data": [
     {
-      "title": "Creativity",
-      "description": "Adobe is synonymous with empowering creativity through its software products.",
-      "technical_spec": "Flagship products like Photoshop and Illustrator.",
+      "title": "Creativity and Innovation",
+      "description": "Adobe is synonymous with fostering creativity through cutting-edge digital tools.",
+      "technical_spec": "Active development of creative software like Photoshop and Illustrator.",
+      "severity_score": 5
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Strong emphasis on engaging and supporting a global creative community.",
+      "technical_spec": "Platforms like Behance for artist showcase and collaboration.",
       "severity_score": 10
     },
     {
-      "title": "Innovation",
-      "description": "Continuous innovation in digital experiences and design.",
-      "technical_spec": "AI-driven features like Adobe Sensei.",
+      "title": "Sustainability Commitment",
+      "description": "Adobe integrates sustainable practices within its operations and products.",
+      "technical_spec": "Development of eco-friendly digital document solutions.",
       "severity_score": 15
     },
     {
-      "title": "Reliability",
-      "description": "Known for stable and reliable software used by professionals worldwide.",
-      "technical_spec": "Robust software quality assurance processes.",
+      "title": "User-Centric Design",
+      "description": "Design philosophies prioritize user experience in product development.",
+      "technical_spec": "Incorporation of user feedback loops in the design process.",
       "severity_score": 20
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focused on providing intuitive and user-friendly software interfaces.",
-      "technical_spec": "Extensive user testing and feedback loops.",
-      "severity_score": 25
-    },
-    {
-      "title": "Global Reach",
-      "description": "Influence in creative and business spaces globally.",
-      "technical_spec": "Multilingual support and localization efforts.",
-      "severity_score": 30
+      "title": "Brand Consistency",
+      "description": "Adobe maintains a consistent brand identity across all touchpoints.",
+      "technical_spec": "Uniform visual branding elements and messaging.",
+      "severity_score": 5
     }
   ]
 }

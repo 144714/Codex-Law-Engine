@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 125,
+    "rank": 135,
     "site": "amazon.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "3585639c1866f5ff35e9e7ca3144ae67"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "7c2f9418e858da2286bb82eca991a74d"
   },
   "data": [
     {
+      "title": "Encryption Protocols",
+      "description": "Applies encryption protocols to secure user data and transactions.",
+      "technical_spec": "TLS/SSL, AES-256 encryption.",
+      "severity_score": 20
+    },
+    {
       "title": "DDoS Protection",
-      "description": "Amazon has measures in place to protect against Distributed Denial of Service attacks.",
-      "technical_spec": "Incorporates AWS Shield and Advanced Network Security solutions.",
-      "severity_score": 95
+      "description": "Implements robust DDoS protection to safeguard against cyber attacks.",
+      "technical_spec": "AWS Shield, AWS WAF.",
+      "severity_score": 30
     },
     {
-      "title": "Data Encryption",
-      "description": "Sensitive data is encrypted both in transit and at rest.",
-      "technical_spec": "Utilizes TLS/SSL for data in transit and AES-256 for data at rest.",
-      "severity_score": 100
+      "title": "Access Control",
+      "description": "Strict access control policies to limit data access to authorized users only.",
+      "technical_spec": "IAM roles and policies.",
+      "severity_score": 25
     },
     {
-      "title": "Identity and Access Management (IAM)",
-      "description": "Amazon uses robust IAM policies to control access to resources.",
-      "technical_spec": "Empowers administrators to manage AWS services and resources securely.",
-      "severity_score": 90
+      "title": "Security Audits",
+      "description": "Regular security audits and vulnerability assessments to identify and mitigate risks.",
+      "technical_spec": "AWS Inspector, third-party services.",
+      "severity_score": 35
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Amazon conducts regular security audits to ensure compliance and detect vulnerabilities.",
-      "technical_spec": "Employs both internal and third-party audits to maintain high security standards.",
-      "severity_score": 85
-    },
-    {
-      "title": "Automated Threat Detection",
-      "description": "Uses advanced machine learning to detect and respond to potential threats in real-time.",
-      "technical_spec": "Incorporates AWS GuardDuty for continuous monitoring and threat detection.",
-      "severity_score": 92
+      "title": "Data Loss Prevention",
+      "description": "Implements data loss prevention strategies to prevent unauthorized data transfer.",
+      "technical_spec": "AWS Macie, encryption tools.",
+      "severity_score": 40
     }
   ]
 }

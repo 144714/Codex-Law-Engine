@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 124,
+    "rank": 134,
     "site": "microsoft.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "ce56cc32dd858c0b9000289c87d9357f"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "84d6e873aa200fce4d78a613d5739026"
   },
   "data": [
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Microsoft's website is built on their Azure cloud platform, offering scalability and resilience.",
-      "technical_spec": "Utilizes Azure services like Virtual Machines, Blob Storage, and Azure CDN.",
+      "title": "Cloud Infrastructure",
+      "description": "Microsoft's platform leverages a global network of data centers and cloud services for scalability.",
+      "technical_spec": "Azure cloud services, IaaS/PaaS, global data centers.",
       "severity_score": 10
     },
     {
       "title": "Microservices Architecture",
-      "description": "Employs microservices to enhance modularity and manageability of services.",
-      "technical_spec": "Deployed with Azure Kubernetes Service for container orchestration.",
+      "description": "Divides applications into smaller, independent services to enhance deployment and development speed.",
+      "technical_spec": "Containers, Kubernetes orchestration, API gateways.",
       "severity_score": 15
     },
     {
-      "title": "Responsive Design",
-      "description": "Website implements responsive design to ensure compatibility with various devices.",
-      "technical_spec": "Uses CSS Grid and Flexbox with media queries for adaptive layouts.",
-      "severity_score": 5
+      "title": "CDN Utilization",
+      "description": "Uses Content Delivery Networks to improve response times and handle traffic efficiently.",
+      "technical_spec": "Edge servers, caching strategies, global presence.",
+      "severity_score": 20
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Globally distributed CDN to improve load times and content delivery.",
-      "technical_spec": "Azure CDN integrated with caching strategies.",
-      "severity_score": 10
+      "title": "Event-Driven Design",
+      "description": "Employs event-driven architecture for real-time data processing and applications.",
+      "technical_spec": "Event brokers, stream processing, messaging queues.",
+      "severity_score": 25
     },
     {
-      "title": "API-Driven Content",
-      "description": "Content is delivered via RESTful APIs for dynamic interactions.",
-      "technical_spec": "Built with .NET Core and API management in Azure.",
-      "severity_score": 15
+      "title": "Service-Oriented Architecture",
+      "description": "Emphasizes service interfaces that loosely couple services in a networked environment.",
+      "technical_spec": "SOAP/RESTful APIs, SOA governance, XML standards.",
+      "severity_score": 30
     }
   ]
 }

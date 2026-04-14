@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 127,
+    "rank": 137,
     "site": "spotify.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "61b39f19dc7f3d14893a426fb589e646"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "b427d0b44719a32adce41ccb2c4e9f65"
   },
   "data": [
     {
-      "title": "Personalization",
-      "description": "Central to Spotify's brand is its personalized experience, tailored playlists, and recommendations.",
-      "technical_spec": "Utilizes machine learning algorithms for music recommendations.",
-      "severity_score": 10
+      "title": "Target Audience",
+      "description": "Caters to a diverse audience with personalized music recommendations.",
+      "technical_spec": "Algorithms for tailored playlists and music suggestions.",
+      "severity_score": 5
     },
     {
-      "title": "Ubiquity",
-      "description": "Available on various devices and platforms, reinforcing its presence and user accessibility.",
-      "technical_spec": "Cross-platform availability including web, mobile, and desktop apps.",
-      "severity_score": 15
+      "title": "Cultural Influence",
+      "description": "Strong presence in global music culture, bridging genres and communities.",
+      "technical_spec": "Collaborations with artists and social media integrations.",
+      "severity_score": 8
     },
     {
-      "title": "Social Integration",
-      "description": "Spotify encourages interaction and sharing of music among its users.",
-      "technical_spec": "Features like collaborative playlists and sharing via social media platforms.",
-      "severity_score": 20
+      "title": "Accessibility",
+      "description": "Ensures music is accessible to users with varying abilities worldwide.",
+      "technical_spec": "Inclusive design standards and support for various languages.",
+      "severity_score": 12
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focus on intuitive and enjoyable user experiences.",
-      "technical_spec": "User feedback loops and iterative design processes.",
-      "severity_score": 25
+      "title": "Innovative Features",
+      "description": "Constantly innovating with new features such as podcasting and car view.",
+      "technical_spec": "Development sprints for rapid feature deployment.",
+      "severity_score": 18
     },
     {
-      "title": "Innovative Partnerships",
-      "description": "Strategic alliances and acquisitions to enhance its service and expand its reach.",
-      "technical_spec": "Partnerships with hardware providers, record labels, and artists.",
-      "severity_score": 25
+      "title": "Sustainability Initiatives",
+      "description": "Efforts toward reducing carbon footprint and promoting sustainable practices.",
+      "technical_spec": "Investment in renewable energy for data center operations.",
+      "severity_score": 22
     }
   ]
 }

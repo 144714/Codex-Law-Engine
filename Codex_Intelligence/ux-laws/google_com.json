@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 121,
+    "rank": 131,
     "site": "google.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "88ef349fe38e54f6676df27e35033d0f"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "632dfd7d8e3013ad7e3ce7b1f52e89ce"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Minimizes decision-making time by reducing choices.",
-      "technical_spec": "Streamlined navigation with predictive search features.",
-      "severity_score": 8
+      "description": "Simplifies user experience by reducing decision time.",
+      "technical_spec": "Minimization of choices presented to users on the main interface.",
+      "severity_score": 65
     },
     {
       "title": "Fitts’s Law",
-      "description": "Optimizes interactive elements for faster accessibility.",
-      "technical_spec": "Large, clickable buttons within reachable area.",
-      "severity_score": 7
+      "description": "Highlights importance of design efficiency in target acquisition.",
+      "technical_spec": "Designs larger buttons and clickable areas for essential tasks.",
+      "severity_score": 75
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Enhances visual perception by organizing elements harmoniously.",
-      "technical_spec": "Consistent layout and spacing to improve focus.",
-      "severity_score": 5
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Improves information retention by chunking data.",
-      "technical_spec": "Organized content into short, digestible sections.",
-      "severity_score": 6
+      "title": "Jakob's Law",
+      "description": "Focuses on aligning the site experience with user expectations.",
+      "technical_spec": "Consistent interface design based on common user interaction patterns.",
+      "severity_score": 80
     },
     {
       "title": "Law of Proximity",
-      "description": "Groups related items together to enhance user understanding.",
-      "technical_spec": "Proximity cues in design to indicate relatedness.",
-      "severity_score": 9
+      "description": "Elements close to each other are perceived as related.",
+      "technical_spec": "Grouper content and features that naturally belong together.",
+      "severity_score": 70
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Chunking information to capitalize on user's working memory capacity.",
+      "technical_spec": "Breakdown of information into smaller, digestible parts.",
+      "severity_score": 85
     }
   ]
 }

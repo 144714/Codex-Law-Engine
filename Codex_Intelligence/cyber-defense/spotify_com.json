@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 127,
+    "rank": 137,
     "site": "spotify.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "a5543a880a53ab4bc23285cf68b5c423"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "b9da84cd4935d16ae420672916711985"
   },
   "data": [
     {
-      "title": "User Data Encryption",
-      "description": "Sensitive user data is encrypted both in transit and at rest to protect against unauthorized access.",
-      "technical_spec": "AES-256 encryption for data at rest, TLS 1.2+ for data in transit.",
-      "severity_score": 5
-    },
-    {
-      "title": "Secure Authentication",
-      "description": "Spotify implements robust authentication mechanisms to ensure user account safety.",
-      "technical_spec": "OAuth 2.0 and 2FA for user authentication.",
-      "severity_score": 15
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Employs strategies to detect and mitigate Distributed Denial-of-Service attacks.",
-      "technical_spec": "AWS Shield for proactive DDoS defense.",
+      "title": "User Authentication",
+      "description": "Utilizes OAuth 2.0 and two-factor authentication for secure user access.",
+      "technical_spec": "Secure token-based authentication system.",
       "severity_score": 20
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular security audits and a bug bounty program to identify vulnerabilities.",
-      "technical_spec": "Automated scanning and manual security testing.",
+      "title": "Encryption Protocols",
+      "description": "Data in transit is encrypted using TLS 1.2 or higher to prevent interception.",
+      "technical_spec": "TLS/SSL encryption handling for network security.",
       "severity_score": 30
     },
     {
-      "title": "Application Security",
-      "description": "Secure coding practices are enforced to prevent common web vulnerabilities such as XSS, CSRF, and SQL injection.",
-      "technical_spec": "Integration of security tools in CI/CD pipelines.",
-      "severity_score": 25
+      "title": "Firewall Configuration",
+      "description": "Strong perimeter defenses with customizable firewall rules.",
+      "technical_spec": "Next-gen firewalls from vendors like Palo Alto Networks.",
+      "severity_score": 40
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Continuous scanning and patching of potential vulnerabilities.",
+      "technical_spec": "Usage of tools like Nessus and Qualys.",
+      "severity_score": 50
+    },
+    {
+      "title": "Incident Response Plan",
+      "description": "Comprehensive strategy for incident detection and remediation.",
+      "technical_spec": "24/7 monitoring team with predefined response protocols.",
+      "severity_score": 35
     }
   ]
 }

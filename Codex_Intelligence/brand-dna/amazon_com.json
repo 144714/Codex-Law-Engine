@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 125,
+    "rank": 135,
     "site": "amazon.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "69a8dd95317abc4037bae81473964261"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "0b760c91bbcedd4d3a6ae4bd6159ac19"
   },
   "data": [
     {
-      "title": "Customer-Centric Approach",
-      "description": "Amazon's operations are centered around enhancing customer experience.",
-      "technical_spec": "Implements AI and machine learning to personalize shopping experiences.",
-      "severity_score": 100
+      "title": "Customer Centricity",
+      "description": "Focuses on providing the best possible customer service and user experience.",
+      "technical_spec": "24/7 support, easy returns, and refunds.",
+      "severity_score": 5
     },
     {
-      "title": "Innovation and Technology",
-      "description": "Amazon leverages technology for innovation and solutions development.",
-      "technical_spec": "Utilizes cutting-edge technology to enhance services like Prime and Alexa.",
-      "severity_score": 95
-    },
-    {
-      "title": "Logistics Excellence",
-      "description": "A robust logistics network to ensure fast and reliable delivery.",
-      "technical_spec": "Optimizes supply chain operations with sophisticated software and algorithms.",
-      "severity_score": 98
+      "title": "Innovation",
+      "description": "Continual innovation to improve services and delivery mechanisms.",
+      "technical_spec": "AI recommendations, drone delivery (future scope).",
+      "severity_score": 15
     },
     {
       "title": "Diverse Product Range",
-      "description": "Offers a vast array of products across multiple categories.",
-      "technical_spec": "Integrates diverse inventory systems for comprehensive catalog management.",
-      "severity_score": 95
+      "description": "Offers an extensive range of products across multiple categories.",
+      "technical_spec": "Huge e-commerce platform with advanced filtering.",
+      "severity_score": 10
     },
     {
-      "title": "Global Market Presence",
-      "description": "Amazon operates in numerous international markets, adapting to local needs.",
-      "technical_spec": "Tailors website content and offerings to meet regional consumer preferences.",
-      "severity_score": 92
+      "title": "Global Reach",
+      "description": "Operates globally with localized services in different regions.",
+      "technical_spec": "Multi-language support, region-specific hubs.",
+      "severity_score": 20
+    },
+    {
+      "title": "Sustainability Initiatives",
+      "description": "Invests in sustainable practices and environmentally friendly operations.",
+      "technical_spec": "Eco-friendly packaging, carbon footprint reduction.",
+      "severity_score": 8
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 122,
+    "rank": 132,
     "site": "youtube.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "f8883b63941dd4e4a0553aa8b9222a21"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "7bb134b02ad5da2d7e5f5e9812b1afbe"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Utilizes a microservices architecture to handle different functionalities such as video streaming, recommendations, and ads separately.",
-      "technical_spec": "Services are developed, deployed, and scaled independently.",
-      "severity_score": 5
+      "description": "YouTube uses a microservices architecture to ensure scalability and manageability for its various services.",
+      "technical_spec": "Built with microservices, using gRPC for service communication and Kubernetes for orchestration.",
+      "severity_score": 80
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Leverages a global CDN to distribute video content efficiently across different regions.",
-      "technical_spec": "Uses edge servers to cache video content closer to end-users.",
-      "severity_score": 10
+      "description": "YouTube utilizes a global CDN to efficiently deliver video content to users worldwide.",
+      "technical_spec": "Incorporates edge caching and load balancing to optimize video streaming.",
+      "severity_score": 90
     },
     {
-      "title": "Scalable Storage System",
-      "description": "Employs a distributed storage system to manage vast amounts of video data and user-generated content.",
-      "technical_spec": "Supports horizontal scaling and high availability.",
-      "severity_score": 8
+      "title": "Cloud-Based Infrastructure",
+      "description": "Leverages Google Cloud Platform to handle storage, processing, and delivery of content.",
+      "technical_spec": "Utilizes a combination of Google Compute Engine and Google Kubernetes Engine.",
+      "severity_score": 85
     },
     {
-      "title": "Data Processing Pipeline",
-      "description": "Utilizes streaming and batch data processing for analytics and recommendation systems.",
-      "technical_spec": "Integrates tools like Apache Kafka and Hadoop for data handling.",
-      "severity_score": 7
+      "title": "Monolithic Legacy Components",
+      "description": "Some legacy components of YouTube still operate in a monolithic fashion.",
+      "technical_spec": "Gradual refactoring of monolithic structures to microservices is ongoing.",
+      "severity_score": 60
     },
     {
-      "title": "Load Balancing",
-      "description": "Implements load balancing strategies to efficiently distribute incoming traffic across servers.",
-      "technical_spec": "Uses both hardware and software-based load balancers.",
-      "severity_score": 9
+      "title": "API Gateway",
+      "description": "An API Gateway manages API requests and responses for various YouTube services.",
+      "technical_spec": "Implements RESTful services with OAuth 2.0 for authentication.",
+      "severity_score": 75
     }
   ]
 }

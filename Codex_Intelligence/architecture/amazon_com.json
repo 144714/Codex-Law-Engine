@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 125,
+    "rank": 135,
     "site": "amazon.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "81390cfd3fc2b3d29a82fd86c69d3abf"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "e32ea8f707a347cf06f74077a0e55d36"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Amazon uses a microservices architecture to allow for independent deployment and scaling.",
-      "technical_spec": "Decomposes applications into smaller, independent services that communicate over APIs.",
-      "severity_score": 95
+      "description": "Utilizes a microservices architecture which allows for independent deployment and scaling of services.",
+      "technical_spec": "Microservices using AWS Lambda, Kubernetes, Docker.",
+      "severity_score": 15
     },
     {
-      "title": "AWS Cloud Infrastructure",
-      "description": "Amazon.com runs on Amazon Web Services, utilizing a vast cloud infrastructure.",
-      "technical_spec": "Leverages AWS products such as EC2, S3, and RDS for scalability and reliability.",
-      "severity_score": 100
+      "title": "Scalable Databases",
+      "description": "Employs scalable databases to handle large volumes of transactions and data efficiently.",
+      "technical_spec": "Amazon Aurora, DynamoDB.",
+      "severity_score": 10
     },
     {
-      "title": "Multi-tier Architecture",
-      "description": "The site uses a multi-tier architecture involving front-end, application logic, and data storage layers.",
-      "technical_spec": "Separates concerns into presentation, application, and data storage layers.",
-      "severity_score": 90
+      "title": "Content Delivery Network (CDN)",
+      "description": "Leverages a global CDN for faster content delivery and reduced latency.",
+      "technical_spec": "Amazon CloudFront.",
+      "severity_score": 5
     },
     {
-      "title": "Service-Oriented Architecture",
-      "description": "Supports integration and communication between services across Amazon’s platforms.",
-      "technical_spec": "Uses SOA principles to enhance reusability and manageability.",
-      "severity_score": 90
+      "title": "Event-Driven Architecture",
+      "description": "Incorporates event-driven architecture for real-time processing and system responsiveness.",
+      "technical_spec": "AWS Lambda, SNS, SQS.",
+      "severity_score": 20
     },
     {
-      "title": "Load Balancing",
-      "description": "Amazon employs load balancing to ensure efficient distribution of incoming requests.",
-      "technical_spec": "Uses load balancers to direct traffic across multiple servers to maintain performance.",
-      "severity_score": 85
+      "title": "Load Balancers",
+      "description": "Utilizes load balancers to distribute incoming application traffic across multiple targets.",
+      "technical_spec": "Elastic Load Balancing (ELB).",
+      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 126,
+    "rank": 136,
     "site": "netflix.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "10629f154ffba3aba1a3895442639de3"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "12d79669fca8981cefb7414ed576f373"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Netflix uses a microservices architecture to facilitate continuous deployment and scaling.",
-      "technical_spec": "Decomposed services with RESTful APIs, utilizing Spring Boot and Java.",
+      "title": "Microservices Architecture",
+      "description": "Netflix operates on a decentralized microservices architecture, allowing for independent development and deployment.",
+      "technical_spec": "Docker containers, AWS for cloud infrastructure, API gateways",
       "severity_score": 15
     },
     {
-      "title": "AWS Cloud Integration",
-      "description": "Leveraging Amazon Web Services for cloud infrastructure to ensure high availability and scalability.",
-      "technical_spec": "EC2, S3, RDS, and Elastic Load Balancing.",
+      "title": "Global Content Delivery Network (CDN)",
+      "description": "Utilizes a worldwide CDN for rapid content delivery to users regardless of location.",
+      "technical_spec": "Open Connect, edge locations distributed globally",
       "severity_score": 10
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Netflix employs a global CDN strategy to improve content delivery speed and reliability.",
-      "technical_spec": "Open Connect, custom-built CDN, with various PoPs worldwide.",
+      "title": "Scalability",
+      "description": "Architecture designed to handle millions of concurrent users with elastic scaling.",
+      "technical_spec": "Auto-scaling groups, Kubernetes orchestration",
       "severity_score": 20
     },
     {
-      "title": "Data Pipelines",
-      "description": "Handling real-time and batch data processing for insights and recommendations.",
-      "technical_spec": "Apache Kafka, Hadoop, and Spark for data streaming and processing.",
-      "severity_score": 18
+      "title": "Resilience and Fault Tolerance",
+      "description": "Built to sustain server failures without affecting user experience.",
+      "technical_spec": "Circuit breaker patterns, chaos engineering",
+      "severity_score": 25
     },
     {
-      "title": "Chaos Engineering",
-      "description": "Netflix uses Chaos Monkey to test the resiliency of its services.",
-      "technical_spec": "Simulating failures to identify weaknesses in the system.",
-      "severity_score": 25
+      "title": "Data Storage and Management",
+      "description": "Efficient data handling to store user profiles, watch history, and preferences.",
+      "technical_spec": "NoSQL databases, Amazon S3, Cassandra",
+      "severity_score": 20
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 127,
+    "rank": 137,
     "site": "spotify.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "fc238440fdb734230e5cce8db16d03c7"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "d7fe929073b128a3beed12e0bd7f5e32"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Spotify uses microservices to provide scalability and maintainability, allowing different components to be updated without affecting the whole system.",
-      "technical_spec": "Service-oriented architecture with RESTful services.",
+      "title": "Microservices",
+      "description": "Spotify uses a microservices architecture allowing independent deployment of services.",
+      "technical_spec": "Distributed system with APIs for communication between services.",
       "severity_score": 15
     },
     {
-      "title": "Event-Driven Systems",
-      "description": "Spotify utilizes event-driven architectures to handle data changes across its platform efficiently.",
-      "technical_spec": "Apache Kafka for stream processing and messaging.",
-      "severity_score": 20
-    },
-    {
-      "title": "Data Storage Solutions",
-      "description": "Spotify employs a mix of SQL and NoSQL databases to manage diverse data types.",
-      "technical_spec": "PostgreSQL, Cassandra, and Hadoop ecosystem.",
-      "severity_score": 25
-    },
-    {
-      "title": "Content Delivery Network",
-      "description": "Spotify uses CDNs to deliver media content efficiently to users around the globe.",
-      "technical_spec": "Akamai technologies for global cache distribution.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "To ensure fast and reliable music streaming services, Spotify utilizes CDNs globally.",
+      "technical_spec": "Utilization of CDNs like Akamai for caching content.",
       "severity_score": 10
     },
     {
-      "title": "Mobile and Web Front-End",
-      "description": "Adopts responsive design principles and native mobile solutions for a seamless user experience.",
-      "technical_spec": "React for web, native iOS and Android development.",
+      "title": "Data Streaming",
+      "description": "Real-time data streaming capabilities to handle music playback and analytics.",
+      "technical_spec": "Apache Kafka for real-time data feed management.",
       "severity_score": 30
+    },
+    {
+      "title": "Cloud Infrastructure",
+      "description": "Spotify operates mainly in the cloud for scalability and reliability.",
+      "technical_spec": "Deployment on Google Cloud Platform.",
+      "severity_score": 25
+    },
+    {
+      "title": "Database Management",
+      "description": "Combination of SQL and NoSQL databases for storing user data and metadata.",
+      "technical_spec": "Utilizes PostgreSQL and Cassandra.",
+      "severity_score": 40
     }
   ]
 }

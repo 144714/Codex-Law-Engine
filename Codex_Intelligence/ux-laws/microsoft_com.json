@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 124,
+    "rank": 134,
     "site": "microsoft.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "00d69a1fe44a3f5ec0a56ad82424aa07"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "ec7ed13924a3ee8b472a6df7bca5207c"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Optimizes decision-making time by minimizing choices, enhancing user flow.",
-      "technical_spec": "Streamlined navigation with categorized menus.",
+      "title": "Hick's Law",
+      "description": "Minimizes decision time by reducing the number of options presented to users.",
+      "technical_spec": "Concise menus, fast navigation, intuitive UI.",
       "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Designs for user interactions that require minimal movement and higher accuracy.",
-      "technical_spec": "Large clickable areas for frequently used buttons and links.",
-      "severity_score": 10
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Organizes content into chunks to improve short-term memory retention.",
-      "technical_spec": "Grouped information architecture with clear headings.",
+      "title": "Fitts's Law",
+      "description": "Designs interfaces so that users can interact more quickly and easily.",
+      "technical_spec": "Optimized button size, proximate actionable elements, minimal click travel.",
       "severity_score": 15
     },
     {
       "title": "Gestalt Principles",
-      "description": "Applies visual hierarchy and grouping principles for effective layout.",
-      "technical_spec": "Consistent use of alignment, spacing, and color to guide the eye.",
-      "severity_score": 15
+      "description": "Employs principles of proximity, similarity, and closure to create cohesive designs.",
+      "technical_spec": "Visual hierarchy, grouped elements, continuous flow.",
+      "severity_score": 20
     },
     {
-      "title": "Law of Proximity",
-      "description": "Elements close to one another are perceived as related, aiding quick comprehension.",
-      "technical_spec": "Proximity used in form design and navigation bar elements.",
-      "severity_score": 15
+      "title": "Jakob's Law",
+      "description": "Aligns the user experience with familiar online patterns for ease of use.",
+      "technical_spec": "Consistent layouts, standard navigation models, familiar design components.",
+      "severity_score": 10
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Designs systems to accommodate the user's working memory limits.",
+      "technical_spec": "Chunking information, consistent affordances, manageable cognitive load.",
+      "severity_score": 5
     }
   ]
 }

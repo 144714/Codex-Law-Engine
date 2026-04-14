@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 123,
+    "rank": 133,
     "site": "apple.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "c5383a9aa80875b1b0efad4ae3143ca3"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "25b37d58393c7c46ab53a850157f1645"
   },
   "data": [
     {
-      "title": "Component-Based Interface",
-      "description": "The website uses a component-based architecture for reusability and scalability.",
-      "technical_spec": "React.js, Webpack",
+      "title": "Modular System",
+      "description": "Apple's website design is organized into modular sections that allow for easy updates and scalability.",
+      "technical_spec": "Built using a combination of HTML5, CSS3, and JavaScript frameworks.",
       "severity_score": 10
     },
     {
       "title": "Responsive Design",
-      "description": "Design adapts across various devices and screen sizes for optimal user experience.",
-      "technical_spec": "CSS Media Queries, Flexbox",
+      "description": "The site's architecture ensures compatibility with a variety of devices and screen sizes.",
+      "technical_spec": "Utilizes media queries and fluid grid layouts.",
+      "severity_score": 5
+    },
+    {
+      "title": "Cloud Integration",
+      "description": "Seamless integration with Apple's cloud services enhances performance and data accessibility.",
+      "technical_spec": "Leverages iCloud APIs and cloud-based content delivery networks.",
       "severity_score": 15
     },
     {
-      "title": "Server-Side Rendering",
-      "description": "Server-side rendering is utilized to improve load times and SEO.",
-      "technical_spec": "Next.js",
+      "title": "Global Infrastructure",
+      "description": "The website maintains localized versions and supports multiple regions and languages.",
+      "technical_spec": "GeoDNS and server localization for optimal performance across regions.",
       "severity_score": 20
     },
     {
-      "title": "Multi-Layered Architecture",
-      "description": "The architecture includes multiple layers: presentation, business logic, and data access.",
-      "technical_spec": "Microservices",
+      "title": "Security-first Approach",
+      "description": "Designed with robust security protocols, emphasizing user data protection.",
+      "technical_spec": "Incorporates SSL/TLS encryption and secure authentication mechanisms.",
       "severity_score": 25
-    },
-    {
-      "title": "Content Delivery Network",
-      "description": "A CDN is used to distribute content closer to users for enhanced load times.",
-      "technical_spec": "Akamai, Cloudflare",
-      "severity_score": 10
     }
   ]
 }

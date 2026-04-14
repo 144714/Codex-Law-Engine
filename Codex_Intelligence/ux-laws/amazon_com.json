@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 125,
+    "rank": 135,
     "site": "amazon.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "121c7a22d74a7cb709d2da4f93c1b787"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "b4af4885ada14d4f4f19390a3b026e63"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Amazon's design reduces decision-making time by simplifying choices.",
-      "technical_spec": "Clean interface with categorized products and search functionality.",
-      "severity_score": 80
+      "description": "Simplifies decision-making by reducing the number of choices available at one time.",
+      "technical_spec": "Minimalistic UI/UX design.",
+      "severity_score": 10
     },
     {
       "title": "Fitts's Law",
-      "description": "Design of clickable areas are optimized for ease of access and interaction.",
-      "technical_spec": "Large buttons and intuitive navigation paths to facilitate user interaction.",
-      "severity_score": 85
+      "description": "Designs interactive elements for easier and faster access.",
+      "technical_spec": "Large, clickable buttons, intuitive layouts.",
+      "severity_score": 15
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Applies Gestalt principles to create a coherent and visually appealing interface.",
+      "technical_spec": "Visual grouping, proximity, similarity.",
+      "severity_score": 20
     },
     {
       "title": "Jakob's Law",
-      "description": "Adopts familiar design patterns to meet user expectations.",
-      "technical_spec": "Conforms to standard e-commerce UX conventions for consistent user experiences.",
-      "severity_score": 90
+      "description": "Enhances user experience by maintaining consistency with user experiences of other sites.",
+      "technical_spec": "Consistent navigation, interface elements.",
+      "severity_score": 12
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "A visually appealing design that enhances perceived usability.",
-      "technical_spec": "Aesthetic choices contribute to increased user satisfaction and engagement.",
-      "severity_score": 75
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Items placed close together are perceived as related, aiding navigation.",
-      "technical_spec": "Grouped content helps users locate related products and information efficiently.",
-      "severity_score": 85
+      "title": "Miller's Law",
+      "description": "Limits information presentation to enhance user comprehension and retention.",
+      "technical_spec": "Chunking information into smaller bits.",
+      "severity_score": 18
     }
   ]
 }

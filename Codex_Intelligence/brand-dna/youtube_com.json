@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 122,
+    "rank": 132,
     "site": "youtube.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "cc6be9fbc4aed9f30ac73a793e8b8575"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "415a6a6d06efffb1c3050098dfe81e6c"
   },
   "data": [
     {
       "title": "User-Generated Content",
-      "description": "Encourages a community-driven platform where users create and share content.",
-      "technical_spec": "Provides easy-to-use tools for video uploading and editing.",
-      "severity_score": 60
-    },
-    {
-      "title": "Personalization",
-      "description": "Offers personalized content recommendations to enhance user engagement.",
-      "technical_spec": "Utilizes AI algorithms to analyze viewing habits.",
-      "severity_score": 70
-    },
-    {
-      "title": "Global Accessibility",
-      "description": "Aims to make content accessible to users worldwide with diverse languages and cultures.",
-      "technical_spec": "Supports multiple languages and subtitles.",
-      "severity_score": 55
-    },
-    {
-      "title": "Monetization Opportunities",
-      "description": "Provides creators with avenues for monetization through ads and subscriptions.",
-      "technical_spec": "Implements AdSense and Membership features.",
-      "severity_score": 65
+      "description": "Encourages a wide range of creators to contribute content, fostering a diverse media ecosystem.",
+      "technical_spec": "Supports HD and 4K uploads, with user-friendly uploading tools.",
+      "severity_score": 90
     },
     {
       "title": "Community Engagement",
-      "description": "Fosters robust community interaction through comments, live chats, and shared playlists.",
-      "technical_spec": "Enables interactive features and community guidelines.",
-      "severity_score": 50
+      "description": "Facilitates community interaction through likes, comments, and subscriber notifications.",
+      "technical_spec": "Interactive features integrated into the platform for creator-audience engagement.",
+      "severity_score": 85
+    },
+    {
+      "title": "Personalization and Recommendations",
+      "description": "Delivers personalized content recommendations based on user behavior and preferences.",
+      "technical_spec": "AI-driven recommendation engine using collaborative filtering and content-based filtering.",
+      "severity_score": 95
+    },
+    {
+      "title": "Ad Support and Monetization",
+      "description": "Provides creators with monetization opportunities through ad revenue sharing.",
+      "technical_spec": "Google AdSense integration with comprehensive analytics for revenue tracking.",
+      "severity_score": 88
+    },
+    {
+      "title": "Global Reach and Accessibility",
+      "description": "Expanding its global footprint while ensuring accessibility across languages and devices.",
+      "technical_spec": "Multilingual support and adaptive streaming technologies for varied internet conditions.",
+      "severity_score": 92
     }
   ]
 }

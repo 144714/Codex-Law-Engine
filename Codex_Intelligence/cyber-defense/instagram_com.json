@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 129,
+    "rank": 139,
     "site": "instagram.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "28b76d764438560b29640ce3623f44b8"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "3bd7f4c65420520831fba3d3e72e4338"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Instagram offers two-factor authentication to add an extra layer of security for user accounts.",
-      "technical_spec": "Supports authentication apps and SMS-based verification for user login.",
-      "severity_score": 15
+      "title": "Authentication Security",
+      "description": "Mechanisms to secure user accounts and authentication processes.",
+      "technical_spec": "Two-Factor Authentication, OAuth 2.0",
+      "severity_score": 30
     },
     {
-      "title": "Content Moderation",
-      "description": "A robust system to detect and manage inappropriate content, enhancing user safety.",
-      "technical_spec": "Uses AI-driven algorithms and manual reviews for content flagging.",
-      "severity_score": 25
-    },
-    {
-      "title": "Encryption",
-      "description": "Data in transit is encrypted to protect user information from unauthorized access.",
-      "technical_spec": "TLS (Transport Layer Security) is implemented for data encryption.",
-      "severity_score": 20
+      "title": "Encryption Practices",
+      "description": "Data encryption both at rest and in transit for user privacy.",
+      "technical_spec": "TLS/SSL for data in transit, AES-256 encryption for data at rest",
+      "severity_score": 40
     },
     {
       "title": "Anomaly Detection",
-      "description": "Implementation of systems to detect unusual activities, preventing unauthorized access.",
-      "technical_spec": "Machine learning models analyze patterns and flag suspicious activities.",
+      "description": "Monitoring unusual activity to prevent security breaches.",
+      "technical_spec": "Machine Learning algorithms for anomaly detection",
       "severity_score": 35
     },
     {
-      "title": "Bug Bounty Program",
-      "description": "Encourages external security researchers to identify and report vulnerabilities.",
-      "technical_spec": "Offers rewards for validated vulnerabilities that align with outlined terms.",
-      "severity_score": 30
+      "title": "Data Leakage Prevention",
+      "description": "Strategies to prevent unauthorized access to sensitive information.",
+      "technical_spec": "Access control lists, segmentation, and logging",
+      "severity_score": 45
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regular scanning and patching to mitigate security vulnerabilities.",
+      "technical_spec": "Automated testing and patch management systems",
+      "severity_score": 50
     }
   ]
 }

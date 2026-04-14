@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 123,
+    "rank": 133,
     "site": "apple.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "b2083f8400896b59e1bc9dcba02dd3f9"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "438a95ed58f91950b3173a242c9de6fc"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Minimized choices enhance decision-making speed for users navigating the site.",
-      "technical_spec": "Clear Navigation Menus",
-      "severity_score": 10
-    },
-    {
-      "title": "Fitt's Law",
-      "description": "Optimized button size and positioning for ease of use across devices.",
-      "technical_spec": "Adaptive UI Design",
+      "description": "Simple and direct navigation to minimize user decision time.",
+      "technical_spec": "Well-organized menus and intuitive layouts.",
       "severity_score": 15
     },
     {
-      "title": "Jakob's Law",
-      "description": "Design elements follow familiar patterns to align with user expectations.",
-      "technical_spec": "Intuitive Interface",
-      "severity_score": 5
+      "title": "Fitts’s Law",
+      "description": "Interactive elements are sized and positioned for easy user accessibility.",
+      "technical_spec": "Large, easily clickable buttons tailored for both mouse and touch interaction.",
+      "severity_score": 20
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing design fosters user satisfaction and perceived usability.",
+      "technical_spec": "High-quality imagery and consistent color schemes.",
+      "severity_score": 25
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Consistency in design to align with user expectations based on common internet standards.",
+      "technical_spec": "Standardized UI paradigms and common design patterns.",
+      "severity_score": 25
     },
     {
       "title": "Law of Proximity",
-      "description": "Related items are grouped together to improve visual hierarchy.",
-      "technical_spec": "CSS Flexbox",
+      "description": "Related content grouped together to improve comprehension.",
+      "technical_spec": "Use of white space and grouping techniques.",
       "severity_score": 10
-    },
-    {
-      "title": "Law of Prägnanz",
-      "description": "Design reduces visual complexity, presenting information in a direct manner.",
-      "technical_spec": "Minimalistic Aesthetics",
-      "severity_score": 20
     }
   ]
 }

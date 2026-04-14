@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 122,
+    "rank": 132,
     "site": "youtube.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "67fdf538205b0652d3401709074d3cbd"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "9407552969cae9d751aa66a4a86e7ca0"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Limits the number of choices presented to users to simplify decision-making.",
-      "technical_spec": "Groups options into categories to reduce cognitive load.",
-      "severity_score": 20
+      "description": "Simplifying navigation by limiting the number of choices per decision point.",
+      "technical_spec": "Utilizes user journey mapping to streamline interactions.",
+      "severity_score": 80
     },
     {
-      "title": "Fitts' Law",
-      "description": "Designs interfaces that increase the ease and accuracy of selecting interactive elements.",
-      "technical_spec": "Places frequently used buttons and links in easily reachable areas.",
-      "severity_score": 22
+      "title": "Fitt's Law",
+      "description": "Optimizing interface design to ensure quick and easy access to important controls.",
+      "technical_spec": "User interface designed with accessible touchpoints and shortcuts.",
+      "severity_score": 85
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Creates visually appealing and intuitive interfaces to enhance user satisfaction.",
-      "technical_spec": "Adopts consistent design guidelines and color schemes.",
-      "severity_score": 18
+      "description": "Creating an appealing user interface to improve user satisfaction and usability.",
+      "technical_spec": "Incorporates appealing color schemes and clean design layouts.",
+      "severity_score": 70
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Presents crucial information at the beginning and end of navigational sequences.",
-      "technical_spec": "Organizes content hierarchically to enhance recall.",
-      "severity_score": 17
+      "title": "Miller's Law",
+      "description": "Limiting cognitive load by presenting information in manageable chunks.",
+      "technical_spec": "Utilizes content segmentation and modular layout designs.",
+      "severity_score": 75
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Applies Gestalt principles for better visual organization and user comprehension.",
-      "technical_spec": "Uses proximity, similarity, and continuity cues.",
-      "severity_score": 19
+      "title": "Jakob's Law",
+      "description": "Designing consistent user experiences aligned with user expectations from other platforms.",
+      "technical_spec": "Cross-platform design standards to align with user familiarity.",
+      "severity_score": 82
     }
   ]
 }

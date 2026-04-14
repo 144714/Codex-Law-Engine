@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 123,
+    "rank": 133,
     "site": "apple.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "9a147f526062634564cea83e8a2a8405"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "43f00d87008c547a02eee6956e0467cc"
   },
   "data": [
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Ensures secure data transmission between users and the server.",
-      "technical_spec": "TLS v1.3",
-      "severity_score": 5
-    },
-    {
-      "title": "Web Application Firewall",
-      "description": "Monitors and protects against common web exploits like SQL injection.",
-      "technical_spec": "AWS WAF",
-      "severity_score": 20
-    },
-    {
-      "title": "Content Security Policy",
-      "description": "Prevents cross-site scripting and other code injection attacks.",
-      "technical_spec": "CSP Headers",
-      "severity_score": 15
-    },
-    {
-      "title": "Two-Factor Authentication",
-      "description": "Adds an extra layer of security to user accounts with multiple verification steps.",
-      "technical_spec": "Apple ID 2FA",
-      "severity_score": 10
+      "title": "Encryption",
+      "description": "End-to-end encryption implemented to protect user data throughout their interaction.",
+      "technical_spec": "Uses TLS 1.3 across all pages and services.",
+      "severity_score": 30
     },
     {
       "title": "Regular Security Audits",
-      "description": "Periodic assessments to identify and patch vulnerabilities.",
-      "technical_spec": "Internal Security Teams",
-      "severity_score": 25
+      "description": "Frequent audits and penetration testing to identify and mitigate vulnerabilities.",
+      "technical_spec": "Third-party assessments and in-house security teams.",
+      "severity_score": 35
+    },
+    {
+      "title": "Multi-factor Authentication",
+      "description": "Enhanced user login security through multi-factor authentication.",
+      "technical_spec": "Support for two-factor authentication via Apple ID.",
+      "severity_score": 45
+    },
+    {
+      "title": "Firewall Protection",
+      "description": "Robust firewall systems to prevent unauthorized access and attacks.",
+      "technical_spec": "Advanced firewall configurations and intrusion detection systems.",
+      "severity_score": 40
+    },
+    {
+      "title": "Data Breach Protocol",
+      "description": "Comprehensive strategy for quickly addressing potential data breaches.",
+      "technical_spec": "Automated alerts and incident response teams.",
+      "severity_score": 50
     }
   ]
 }

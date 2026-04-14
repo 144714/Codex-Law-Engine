@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 122,
+    "rank": 132,
     "site": "youtube.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "9ea1bd0d8557c8efd655ea5ab5ac7366"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "1fa8749bf5870294c1c064e1db69a0e7"
   },
   "data": [
     {
-      "title": "Secure Authentication",
-      "description": "Employs OAuth 2.0 and multi-factor authentication to secure user accounts.",
-      "technical_spec": "Integrates with Google Account security features.",
-      "severity_score": 15
+      "title": "Data Encryption",
+      "description": "YouTube encrypts data both in transit and at rest to protect user data and content.",
+      "technical_spec": "Utilizes TLS for data in transit and AES-256 for data at rest.",
+      "severity_score": 95
     },
     {
-      "title": "Encrypted Data Transmission",
-      "description": "Ensures all data transmitted between users and servers is encrypted using HTTPS.",
-      "technical_spec": "Uses TLS protocols for secure connections.",
-      "severity_score": 12
+      "title": "Authentication Mechanisms",
+      "description": "Robust authentication mechanisms to prevent unauthorized access to user accounts.",
+      "technical_spec": "Employs multi-factor authentication and OAuth 2.0.",
+      "severity_score": 90
     },
     {
-      "title": "Content Moderation",
-      "description": "Employs machine learning algorithms to detect and remove inappropriate content.",
-      "technical_spec": "Combines automated systems with human reviewers.",
-      "severity_score": 25
+      "title": "Threat Detection Systems",
+      "description": "Advanced threat detection systems to monitor and mitigate potential attacks.",
+      "technical_spec": "Machine learning algorithms for anomaly detection and automated response.",
+      "severity_score": 85
     },
     {
       "title": "DDoS Protection",
-      "description": "Implements protection measures against Distributed Denial of Service attacks.",
-      "technical_spec": "Utilizes Google's global network to absorb and mitigate attacks.",
-      "severity_score": 18
+      "description": "Protection against distributed denial-of-service attacks to maintain service availability.",
+      "technical_spec": "Scaling of resources and traffic filtering measures.",
+      "severity_score": 92
     },
     {
-      "title": "Advanced Threat Detection",
-      "description": "Monitors, detects, and responds to security threats using anomaly detection algorithms.",
-      "technical_spec": "Leverages AI-based threat detection methodologies.",
-      "severity_score": 14
+      "title": "Content Moderation AI",
+      "description": "AI-powered systems for detecting and removing harmful or inappropriate content.",
+      "technical_spec": "Deep learning models trained on vast datasets for content recognition.",
+      "severity_score": 88
     }
   ]
 }

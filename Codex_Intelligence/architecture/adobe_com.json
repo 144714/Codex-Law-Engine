@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 128,
+    "rank": 138,
     "site": "adobe.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "006d7ed8c30776e7270799fa363dbccf"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "e8ed06f69c386e2a16c7b24cf619104f"
   },
   "data": [
     {
-      "title": "Cloud-Based Services",
-      "description": "Adobe's architecture heavily relies on cloud services to deliver its software products.",
-      "technical_spec": "Distributed cloud architecture using AWS and Azure.",
-      "severity_score": 10
-    },
-    {
-      "title": "Microservices Architecture",
-      "description": "Adobe employs a microservices approach to enable scalability and flexibility.",
-      "technical_spec": "Containerization with Kubernetes for orchestration.",
-      "severity_score": 20
-    },
-    {
-      "title": "API-First Design",
-      "description": "APIs are extensively used for internal and external integrations.",
-      "technical_spec": "RESTful and GraphQL APIs.",
+      "title": "Cloud-based Infrastructure",
+      "description": "Adobe's cloud infrastructure supports its SaaS offerings, enabling seamless access and scalability for users.",
+      "technical_spec": "Uses AWS and Microsoft Azure for hosting cloud services.",
       "severity_score": 15
     },
     {
-      "title": "Serverless Applications",
-      "description": "Some functionalities are managed through serverless computing to optimize resources.",
-      "technical_spec": "Functions-as-a-Service (FaaS) on AWS Lambda.",
-      "severity_score": 25
+      "title": "Microservices Architecture",
+      "description": "Adobe utilizes a microservices architecture to ensure modular development and scalability for its applications.",
+      "technical_spec": "Docker and Kubernetes for container orchestration.",
+      "severity_score": 20
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Adobe uses CDNs to efficiently deliver content globally.",
-      "technical_spec": "Akamai and Cloudflare as CDN providers.",
-      "severity_score": 5
+      "description": "A distributed CDN is used to deliver content with low latency to worldwide users.",
+      "technical_spec": "Implemented using Akamai CDN.",
+      "severity_score": 10
+    },
+    {
+      "title": "Multi-Tenancy Support",
+      "description": "Architecture supports multiple clients on a shared infrastructure with isolated application instances.",
+      "technical_spec": "Virtualization and containerization technologies.",
+      "severity_score": 25
+    },
+    {
+      "title": "API-First Design",
+      "description": "Emphasis on API-first design ensures integration with third-party services and internal components.",
+      "technical_spec": "RESTful and GraphQL APIs.",
+      "severity_score": 30
     }
   ]
 }

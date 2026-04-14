@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 126,
+    "rank": 136,
     "site": "netflix.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "b7ec2970ad47e01266283af2a917c5c3"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "f36406fd58102c8207e8454dc467a71d"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Enhancing account security by requiring two-step verification for user access.",
-      "technical_spec": "Uses SMS and email verification processes.",
+      "title": "Security Response Automation",
+      "description": "Automated detection and response systems in place to rapidly mitigate threats.",
+      "technical_spec": "SIEM tools, automated threat detection scripts",
       "severity_score": 30
     },
     {
-      "title": "Encryption at Rest and Transit",
-      "description": "Protecting user data with encryption methods both at rest and during transit.",
-      "technical_spec": "AES-256 encryption and TLS for data security.",
+      "title": "Data Encryption",
+      "description": "All data transmitted and stored is encrypted to protect user privacy.",
+      "technical_spec": "TLS for data in transit, AES-256 for data at rest",
+      "severity_score": 20
+    },
+    {
+      "title": "Access Control",
+      "description": "Strict access protocols for employee and system interaction with sensitive data.",
+      "technical_spec": "Role-based access control, multi-factor authentication",
       "severity_score": 25
     },
     {
-      "title": "Threat Monitoring",
-      "description": "Continuous monitoring for potential threats and unauthorized activities.",
-      "technical_spec": "Utilizing AI-powered tools for anomaly detection.",
-      "severity_score": 35
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Defending against Distributed Denial of Service attacks to maintain service availability.",
-      "technical_spec": "AWS Shield Advanced and proprietary filtering algorithms.",
+      "title": "DDoS Mitigation Strategies",
+      "description": "Infrastructure designed to detect and neutralize denial-of-service attacks.",
+      "technical_spec": "Traffic monitoring, rate limiting, edge security",
       "severity_score": 40
     },
     {
-      "title": "Bug Bounty Program",
-      "description": "Incentivizing external developers to identify and report security vulnerabilities.",
-      "technical_spec": "Managed through platforms like HackerOne and Bugcrowd.",
-      "severity_score": 20
+      "title": "Continuous Security Audits",
+      "description": "Regularly scheduled security audits and compliance checks.",
+      "technical_spec": "Vulnerability scanning, penetration testing",
+      "severity_score": 35
     }
   ]
 }

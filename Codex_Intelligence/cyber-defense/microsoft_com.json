@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 124,
+    "rank": 134,
     "site": "microsoft.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "b13ea87f149ba01c574a100d8e80fe7e"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "0bd7d915e25e3b577256d6895c8b3453"
   },
   "data": [
     {
       "title": "Advanced Threat Protection",
-      "description": "Incorporates cutting-edge threat protection mechanisms to safeguard site data.",
-      "technical_spec": "Microsoft Defender tools for threat intelligence.",
+      "description": "Utilizes AI and machine learning to detect and respond to threats.",
+      "technical_spec": "AI algorithms, anomaly detection, real-time threat intelligence.",
       "severity_score": 5
     },
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Secures data transmission using the latest encryption standards.",
-      "technical_spec": "TLS 1.3 implementation across all communications.",
-      "severity_score": 5
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Built-in DDoS protection to mitigate attacks and ensure uptime.",
-      "technical_spec": "Azure DDoS Protection service implemented.",
+      "title": "Zero Trust Model",
+      "description": "Implements a security model that verifies every request as though it originates from an open network.",
+      "technical_spec": "Identity verification, inter-device trust, continuous authorization.",
       "severity_score": 10
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts frequent security audits and vulnerability assessments.",
-      "technical_spec": "Compliance with ISO/IEC 27001 and regular pen tests.",
-      "severity_score": 10
+      "title": "Multi-Factor Authentication",
+      "description": "Enhances security with multiple layers of user verification processes.",
+      "technical_spec": "Biometric verification, OTP, authentication apps.",
+      "severity_score": 20
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Robust IAM systems to control user permissions and authentication.",
-      "technical_spec": "Azure Active Directory for SSO and MFA capabilities.",
-      "severity_score": 5
+      "title": "Data Encryption Protocols",
+      "description": "Employs end-to-end encryption to protect data at rest and in transit.",
+      "technical_spec": "AES, TLS, end-to-end encryption solutions.",
+      "severity_score": 15
+    },
+    {
+      "title": "Network Firewalls and Intrusion Detection",
+      "description": "Defends against unauthorized access and threats to the internal network.",
+      "technical_spec": "Firewalls, IDS/IPS, network segmentation.",
+      "severity_score": 30
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 130,
+    "rank": 140,
     "site": "whatsapp.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "d6587b11b2136efb30d05b026e085a78"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "f71c1db35cd963e9c25051ad4469b39a"
   },
   "data": [
     {
-      "title": "Law of Simplicity",
-      "description": "Design is minimalistic to ensure ease of use for all demographics.",
-      "technical_spec": "Intuitive interface with minimal navigation steps.",
-      "severity_score": 80
+      "title": "User-Centric Design",
+      "description": "Interface prioritizes user needs and accessibility for a wider audience.",
+      "technical_spec": "Responsive design principles and accessibility standards compliance.",
+      "severity_score": 10
     },
     {
-      "title": "Fitts's Law",
-      "description": "Interface is designed for quick access to frequently used features.",
-      "technical_spec": "Placement of buttons and menus for easy reachability.",
-      "severity_score": 85
-    },
-    {
-      "title": "Hick’s Law",
-      "description": "Reduces choice complexity, ensuring faster decision-making by users.",
-      "technical_spec": "Default settings taking precedence; additional options only when needed.",
-      "severity_score": 88
-    },
-    {
-      "title": "Feedback and Response Time",
-      "description": "Immediate feedback on user actions to indicate successful operations.",
-      "technical_spec": "Loading indicators and haptic feedback where applicable.",
-      "severity_score": 90
+      "title": "Hick's Law",
+      "description": "Simplified options and interfaces to reduce user decision time.",
+      "technical_spec": "Minimalistic design with clear call-to-action elements.",
+      "severity_score": 20
     },
     {
       "title": "Consistency and Standards",
-      "description": "Uniform design language across platforms for consistent user experience.",
-      "technical_spec": "Use of shared resources and guidelines like Material Design or Apple's Human Interface Guidelines.",
-      "severity_score": 92
+      "description": "Maintains consistency in design elements for a coherent experience.",
+      "technical_spec": "Standardized icons, typography, and functionality across platforms.",
+      "severity_score": 15
+    },
+    {
+      "title": "Feedback Loops",
+      "description": "Immediate feedback on user interactions to enhance usability.",
+      "technical_spec": "Interactive animations and error message prompts.",
+      "severity_score": 20
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing interfaces are perceived as more usable.",
+      "technical_spec": "Enhanced visuals and intuitive navigation paths.",
+      "severity_score": 25
     }
   ]
 }

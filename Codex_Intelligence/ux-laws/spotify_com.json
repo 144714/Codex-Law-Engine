@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 127,
+    "rank": 137,
     "site": "spotify.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "03cc0f7ae6b4a19bdcb9eb597200684a"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "c9595bd13b42a30765c2e88b11158005"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Simplify choices to improve user decision-making and interface speed.",
-      "technical_spec": "Streamlined navigation and menu design.",
-      "severity_score": 35
+      "description": "Design that minimizes decision-making time for users by simplifying choices.",
+      "technical_spec": "Simplified navigation and search features.",
+      "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Design click targets that are easy to interact with, especially on mobile devices.",
-      "technical_spec": "Larger buttons for improved tap areas on mobile.",
+      "title": "Fitts’ Law",
+      "description": "Strategically places UI elements to reduce interaction time.",
+      "technical_spec": "Large clickable areas for essential controls.",
       "severity_score": 20
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "A visually appealing design is perceived as easier to use.",
-      "technical_spec": "Consistent branding and layout styles.",
+      "title": "Gestalt Principles",
+      "description": "Designs that group elements logically for better user perception.",
+      "technical_spec": "Consistent visual patterns and alignments.",
+      "severity_score": 15
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Limits information presented at once to enhance retention.",
+      "technical_spec": "Chunked information and modular content delivery.",
       "severity_score": 25
     },
     {
-      "title": "Tesler’s Law",
-      "description": "Complexity cannot be reduced beyond a certain point, so focus on increasing system efficiency.",
-      "technical_spec": "Smart playlists and search functionalities.",
-      "severity_score": 40
-    },
-    {
       "title": "Jakob’s Law",
-      "description": "Users prefer interfaces similar to those they already know.",
-      "technical_spec": "Adheres to common design patterns found in major streaming services.",
-      "severity_score": 30
+      "description": "Users prefer website functions default to common design standards.",
+      "technical_spec": "Familiar design patterns and symbol usage.",
+      "severity_score": 12
     }
   ]
 }

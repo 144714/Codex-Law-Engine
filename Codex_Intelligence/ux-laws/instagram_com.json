@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 129,
+    "rank": 139,
     "site": "instagram.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "99646180408a4b52c877484549cc12b9"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "9155900d3e99cf9e6e254851c30a210c"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Instagram minimizes decision-making time by offering streamlined and simplified navigation.",
-      "technical_spec": "Optimizes the number of options presented to users to ensure faster decision-making.",
-      "severity_score": 20
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Interactive elements are sized and positioned based on ease of use and accessibility.",
-      "technical_spec": "Ensures interactive targets like buttons are easily clickable on various devices.",
+      "description": "Minimizing decision time by reducing the number of choices presented.",
+      "technical_spec": "Simple and intuitive navigation",
       "severity_score": 15
     },
     {
+      "title": "Fitts's Law",
+      "description": "Design elements placed strategically for easy interaction.",
+      "technical_spec": "Large, easily clickable buttons and icons",
+      "severity_score": 20
+    },
+    {
       "title": "Aesthetic-Usability Effect",
-      "description": "Instagram's visually appealing interface enhances user satisfaction and engagement.",
-      "technical_spec": "Consistent use of colors, typography, and imagery aligned with visual design principles.",
+      "description": "Aesthetically pleasing designs that enhance user satisfaction.",
+      "technical_spec": "Visually appealing interfaces with consistent themes",
       "severity_score": 10
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Critical features like Stories are positioned for immediate visibility and interaction.",
-      "technical_spec": "Leverages primacy and recency effects by placing important elements at the screen's forefront.",
-      "severity_score": 30
+      "title": "Jakob’s Law",
+      "description": "Designs aligned with user expectations based on their past experiences.",
+      "technical_spec": "Familiar layout patterns and UI elements",
+      "severity_score": 25
     },
     {
-      "title": "Law of Proximity",
-      "description": "Interface elements are grouped together to indicate they are related, simplifying navigation.",
-      "technical_spec": "Ensures logical layouts through the careful arrangement of UI components.",
-      "severity_score": 25
+      "title": "Miller’s Law",
+      "description": "Complex information presented in chunks to improve comprehension.",
+      "technical_spec": "Clear segmentation of content and information hierarchy",
+      "severity_score": 18
     }
   ]
 }

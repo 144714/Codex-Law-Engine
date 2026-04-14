@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 126,
+    "rank": 136,
     "site": "netflix.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "b4c1d073845f3f3860a1e0257db6ee27"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "87f89ba64568848dda9be3de3d4fa679"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Interactive elements are strategically sized and positioned for efficient accessibility.",
-      "technical_spec": "Dynamic buttons adjusted for device interfaces.",
+      "title": "Hick’s Law Application",
+      "description": "Simplifying user interface to reduce decision-making time, ensuring fast navigation.",
+      "technical_spec": "Minimalist design, intuitive menus",
       "severity_score": 10
     },
     {
-      "title": "Hick's Law",
-      "description": "Simplified navigation process by reducing user choices at each interaction step.",
-      "technical_spec": "Hierarchal interface design minimizing decision fatigue.",
-      "severity_score": 12
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Content chunking to facilitate processing of information and decision-making.",
-      "technical_spec": "User interface groups related content into manageable sections.",
+      "title": "Consistency Principle",
+      "description": "Maintaining a consistent interface to create a predictable and reassuring user experience.",
+      "technical_spec": "Uniform theming, consistent iconography",
       "severity_score": 15
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Aligning expectations by maintaining consistency with common web navigation standards.",
-      "technical_spec": "Consistent visual language and interactive feedback across platforms.",
-      "severity_score": 8
+      "title": "Fitts’ Law",
+      "description": "Design optimized for quick clicks and actions through appropriately sized buttons and interactive elements.",
+      "technical_spec": "Large buttons, strategic placement",
+      "severity_score": 12
     },
     {
-      "title": "Law of Proximity",
-      "description": "Closely related items are placed near each other to visually associate similar content.",
-      "technical_spec": "Use of whitespace and grouping in interface layout.",
-      "severity_score": 14
+      "title": "Responsive Design",
+      "description": "Ensuring the platform is effectively usable on various devices and screen sizes.",
+      "technical_spec": "Media queries, fluid grids",
+      "severity_score": 18
+    },
+    {
+      "title": "Feedback Loop",
+      "description": "Immediate feedback is provided after user interactions to enhance engagement and user satisfaction.",
+      "technical_spec": "Loading spinners, error messages",
+      "severity_score": 15
     }
   ]
 }

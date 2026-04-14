@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 121,
+    "rank": 131,
     "site": "google.com",
-    "date": "2026-04-14 16:56",
-    "integrity_hash": "5f26e0949752686fc687c9e90b335bd5"
+    "date": "2026-04-14 18:00",
+    "integrity_hash": "6fa2a87e67fe83d9a092b90cc74db2a9"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Decoupled components that allow Google to deploy and scale services independently.",
-      "technical_spec": "Service-oriented architecture with API gateways.",
-      "severity_score": 5
+      "title": "Microservices Architecture",
+      "description": "Google employs a microservices architecture to enhance scalability and maintainability.",
+      "technical_spec": "Use of discrete services for different functionalities, communicating via APIs.",
+      "severity_score": 75
     },
     {
       "title": "Load Balancing",
-      "description": "Optimizes application responsiveness through effective traffic distribution.",
-      "technical_spec": "Global load balancers with Anycast IP.",
-      "severity_score": 10
+      "description": "Ensures high availability and reliability of services.",
+      "technical_spec": "Google's global load balancing distributes traffic across multiple regions.",
+      "severity_score": 85
     },
     {
-      "title": "CDN Integration",
-      "description": "Enhances content delivery speed with a global cache system.",
-      "technical_spec": "Integration with edge servers worldwide.",
-      "severity_score": 15
+      "title": "Serverless Computing",
+      "description": "Run applications in a cloud environment without managing server infrastructure.",
+      "technical_spec": "Utilization of Google Cloud Functions for event-driven processes.",
+      "severity_score": 70
     },
     {
-      "title": "High Availability Zones",
-      "description": "Ensures the site remains operational even during outages.",
-      "technical_spec": "Multiple data centers with failover support.",
-      "severity_score": 18
+      "title": "Kubernetes for Container Orchestration",
+      "description": "Uses Kubernetes to manage containerized applications automatically.",
+      "technical_spec": "Provision of deployment and scaling of application containers.",
+      "severity_score": 80
     },
     {
-      "title": "Data Redundancy",
-      "description": "Provides data backup and recovery options to prevent loss.",
-      "technical_spec": "Distributed database architecture with redundancy features.",
-      "severity_score": 20
+      "title": "Database Management",
+      "description": "Manages data with cloud-based databases for efficiency and performance.",
+      "technical_spec": "Uses Google Cloud Spanner and BigQuery for data storage and analytics.",
+      "severity_score": 90
     }
   ]
 }
