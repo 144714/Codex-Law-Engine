@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 173,
+    "rank": 183,
     "site": "apple.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "fb14f695aa03c02a46ce6644f0a242a8"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "48b5fc5e0f983884b0ff8ae23c7b819a"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Strong focus on groundbreaking and novel design approaches across the website.",
-      "technical_spec": "Implementation of cutting-edge web technologies and intuitive user interfaces.",
+      "title": "Minimalistic Design",
+      "description": "Focus on simplicity and clarity in design, eliminating unnecessary elements.",
+      "technical_spec": "Use of clean lines, simple color palettes, and ample white space.",
       "severity_score": 95
     },
     {
-      "title": "Simplicity",
-      "description": "Promotes ease of use and accessibility by removing unnecessary complexity in navigation.",
-      "technical_spec": "Clear and straightforward visual language, aligning with Apple's brand ethos.",
-      "severity_score": 92
+      "title": "Innovation",
+      "description": "Commitment to leading-edge technology and innovative design in products and services.",
+      "technical_spec": "Continuous investment in R&D, patent acquisitions.",
+      "severity_score": 90
     },
     {
-      "title": "Quality",
-      "description": "High quality standards are maintained in terms of content, imagery, and interaction.",
-      "technical_spec": "Regular updates and optimizations to keep the site performance in top condition.",
+      "title": "User-Centric Approach",
+      "description": "Design and development processes centered around the end-user experience and needs.",
+      "technical_spec": "User experience testing, iterative design based on feedback.",
       "severity_score": 93
     },
     {
-      "title": "Privacy",
-      "description": "Commitment to user data protection and transparency in data usage policies.",
-      "technical_spec": "Comprehensive privacy policies are clearly communicated and designed into services.",
-      "severity_score": 94
+      "title": "Privacy and Security",
+      "description": "Strong emphasis on user privacy protection and secure technology solutions.",
+      "technical_spec": "End-to-end encryption, stringent data privacy policies.",
+      "severity_score": 92
     },
     {
-      "title": "Exclusivity",
-      "description": "Designs and content that reflect premium positioning, creating a sense of exclusiveness.",
-      "technical_spec": "Unique branding elements and proprietary design styled throughout.",
-      "severity_score": 90
+      "title": "Eco-Friendly Practices",
+      "description": "Sustainability and environmentally friendly practices embedded in the product lifecycle.",
+      "technical_spec": "Use of recycled materials, carbon neutrality initiatives.",
+      "severity_score": 88
     }
   ]
 }

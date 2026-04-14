@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 180,
+    "rank": 190,
     "site": "whatsapp.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "95f079991f4d85e50bf4ed63a3309c35"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "16ed7213d909ba070c5a9a553b9c0445"
   },
   "data": [
     {
-      "title": "Secure Messaging",
-      "description": "Commitment to providing privacy-focused communication for users.",
-      "technical_spec": "Using top-tier encryption standards to protect user data.",
+      "title": "Simplicity",
+      "description": "Transparency in communication with straightforward functionality defines the brand ethos.",
+      "technical_spec": "Minimalistic design with a focus on core messaging capabilities.",
+      "severity_score": 15
+    },
+    {
+      "title": "Privacy Protection",
+      "description": "Strong emphasis on user privacy and data security through encryption and privacy policies.",
+      "technical_spec": "End-to-end encryption and user-controlled privacy settings.",
       "severity_score": 5
     },
     {
-      "title": "Reliability",
-      "description": "Ensuring that the platform remains consistently dependable.",
-      "technical_spec": "Robust backend systems designed to minimize downtime.",
+      "title": "Global Reach",
+      "description": "WhatsApp's design is tailored to accommodate diverse languages and cultures.",
+      "technical_spec": "Supports multiple languages and localization features.",
+      "severity_score": 20
+    },
+    {
+      "title": "User Empowerment",
+      "description": "Empowering users with features like muting alerts and customizing notifications.",
+      "technical_spec": "Custom settings for notifications, chat backgrounds, and privacy.",
       "severity_score": 10
     },
     {
-      "title": "Global Reach",
-      "description": "Available worldwide with multilingual support and diverse features.",
-      "technical_spec": "Infrastructure capable of supporting diverse language packs.",
-      "severity_score": 8
-    },
-    {
-      "title": "Simplicity",
-      "description": "A straightforward user interface that appeals to a wide audience.",
-      "technical_spec": "Effortless installation and straightforward settings menu.",
-      "severity_score": 12
-    },
-    {
-      "title": "Innovation",
-      "description": "Consistently pushing the envelope with new features and improvements.",
-      "technical_spec": "Investment in R&D and collaboration with forward-thinking partners.",
-      "severity_score": 15
+      "title": "Reliability",
+      "description": "Commitment to consistent performance in messaging and media sharing under varying network conditions.",
+      "technical_spec": "Implementations include adaptive bitrate streaming for media files.",
+      "severity_score": 10
     }
   ]
 }

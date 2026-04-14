@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 174,
+    "rank": 184,
     "site": "microsoft.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "77c1fd22e6e3de4871f76558caa425bf"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "492b656c30677bd796c3da63daf25747"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Minimizes decision time for users by reducing the number of choices presented at once.",
-      "technical_spec": "Intuitive layout and navigation, progressive disclosure techniques.",
-      "severity_score": 20
-    },
-    {
       "title": "Fitts's Law",
-      "description": "Interfaces are designed for efficiency, placing frequently used elements within easy reach.",
-      "technical_spec": "Button size proportionality and element placement optimization.",
-      "severity_score": 25
+      "description": "Design elements are sized and positioned to enhance target acquisition speed.",
+      "technical_spec": "Button sizes and spacing based on user interaction data.",
+      "severity_score": 5
     },
     {
-      "title": "Consistency Principle",
-      "description": "Maintains uniformity in design and behavior across platforms enhancing familiar user experiences.",
-      "technical_spec": "Standardized design frameworks like Fluent Design System.",
+      "title": "Hick's Law",
+      "description": "Minimizes the number of choices to reduce decision times.",
+      "technical_spec": "Simplified navigation menu with drop-down options.",
+      "severity_score": 10
+    },
+    {
+      "title": "Pareto Principle",
+      "description": "Focuses on the 20% of functionalities used by 80% of users.",
+      "technical_spec": "User journey analytics to prioritize key features.",
       "severity_score": 15
     },
     {
-      "title": "Feedback Principle",
-      "description": "Provides immediate feedback for user actions to keep experiences engaging and informative.",
-      "technical_spec": "Interactive elements with hover states, loading indicators for delayed actions.",
-      "severity_score": 30
+      "title": "Miller's Law",
+      "description": "Presentation of information is limited to the user's capacity to process chunks at a time.",
+      "technical_spec": "Content structured into bite-sized pieces with progressive disclosure.",
+      "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Accommodates user's cognitive load by keeping information processing in manageable chunks.",
-      "technical_spec": "Uses bullet points, headings, and visual hierarchies.",
-      "severity_score": 25
+      "title": "Jakob's Law",
+      "description": "Design aligns with user expectations based on prevalent digital interfaces.",
+      "technical_spec": "Industry-standard UI elements such as icons and gestures.",
+      "severity_score": 5
     }
   ]
 }

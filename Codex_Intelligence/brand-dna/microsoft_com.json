@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 174,
+    "rank": 184,
     "site": "microsoft.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "507253dabc6c679e6517794dc0d256f1"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "e982c2707e4a91a459cafc16d6e512c6"
   },
   "data": [
     {
-      "title": "Integration with Microsoft Ecosystem",
-      "description": "The site seamlessly integrates with existing Microsoft products and services, reinforcing ecosystem synergy.",
-      "technical_spec": "Single Sign-On (SSO) capabilities and cross-service data interoperability.",
-      "severity_score": 20
+      "title": "Innovative Technology",
+      "description": "Commitment to cutting-edge technology and continuous innovation.",
+      "technical_spec": "Utilizes AI and machine learning in service offerings.",
+      "severity_score": 5
     },
     {
-      "title": "Accessibility Commitment",
-      "description": "Devotes significant resources to making content accessible to all users, including those with disabilities.",
-      "technical_spec": "Adheres to WCAG 2.1 standards and offers a range of accessibility tools.",
+      "title": "User-Centric Design",
+      "description": "Focuses on creating a seamless and intuitive user experience.",
+      "technical_spec": "Human-centered design processes and usability studies.",
+      "severity_score": 5
+    },
+    {
+      "title": "Global Reach",
+      "description": "Presence and accessibility across global markets.",
+      "technical_spec": "Localized content and multilingual support.",
       "severity_score": 10
     },
     {
-      "title": "Innovation Leadership",
-      "description": "The brand DNA emphasizes continuous innovation with cutting-edge technology solutions.",
-      "technical_spec": "Incorporates AI and machine learning to enhance user engagement and solutions.",
-      "severity_score": 25
+      "title": "Sustainability Commitment",
+      "description": "Dedicated to environmental sustainability in operations and services.",
+      "technical_spec": "Plans to be carbon negative by 2030.",
+      "severity_score": 5
     },
     {
-      "title": "Security-Centric Philosophy",
-      "description": "Reinforces a security-first approach to all services and user interactions.",
-      "technical_spec": "Implemented through encryption and advanced compliance frameworks.",
-      "severity_score": 30
-    },
-    {
-      "title": "Sustainability Practices",
-      "description": "Focuses on environmentally sustainable practices throughout its operations.",
-      "technical_spec": "Pledges and progress towards carbon negative, water positive, and zero waste goals.",
-      "severity_score": 15
+      "title": "Security and Privacy",
+      "description": "Prioritizes security and user privacy in digital services.",
+      "technical_spec": "Adheres to GDPR and CCPA for data protection.",
+      "severity_score": 5
     }
   ]
 }

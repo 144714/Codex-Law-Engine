@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 177,
+    "rank": 187,
     "site": "spotify.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "ec1e37b247c4779d87748667fca464e5"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "c166ab39f9425e87d0f7164068806176"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "Spotify's architecture is built on microservices, where each service is responsible for specific functionality, allowing for greater scalability and agility.",
-      "technical_spec": "Service-oriented architecture using RESTful APIs and gRPC for communication.",
-      "severity_score": 10
-    },
-    {
-      "title": "Data Infrastructure",
-      "description": "Utilizes a robust data infrastructure to process and analyze real-time data, supporting features like Discover Weekly and Wrapped.",
-      "technical_spec": "Uses Hadoop, Cassandra, and Google Cloud Platform for data storage and processing.",
-      "severity_score": 15
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Employs CDNs to distribute content efficiently across global data centers, ensuring low latency and high availability.",
-      "technical_spec": "Uses providers like Fastly or Akamai to cache content closer to users.",
+      "title": "Microservices Architecture",
+      "description": "Spotify employs a microservices architecture allowing independent deployment and scaling of services.",
+      "technical_spec": "Each service runs its own process and communicates with lightweight mechanisms, often an HTTP resource API.",
       "severity_score": 20
     },
     {
-      "title": "Cloud-native Deployment",
-      "description": "Leverages containerization and orchestration tools for efficient deployment and scaling.",
-      "technical_spec": "Kubernetes and Docker are essential components for deployment automation.",
+      "title": "Event-Driven Systems",
+      "description": "Spotify uses event-driven systems to handle asynchronous communications and updates across different services.",
+      "technical_spec": "Kafka and Pub/Sub are integral for streaming logs and events.",
+      "severity_score": 30
+    },
+    {
+      "title": "Client-Server Model",
+      "description": "A robust client-server model that enables seamless music streaming and user interactions.",
+      "technical_spec": "RESTful APIs serve as the backbone for data interaction between client and backend services.",
       "severity_score": 25
     },
     {
-      "title": "APIs for Integration",
-      "description": "Provides a set of comprehensive APIs for developers to integrate Spotify's music streaming capabilities into third-party applications.",
-      "technical_spec": "Publicly available RESTful APIs with robust documentation.",
+      "title": "Cloud Native Architecture",
+      "description": "Spotify is mostly hosted on cloud platforms enabling flexible scaling and high availability.",
+      "technical_spec": "Utilization of container orchestration platforms like Kubernetes for deployment.",
       "severity_score": 15
+    },
+    {
+      "title": "Data-Partitioning",
+      "description": "Ensures efficient management and retrieval of user and song data across distributed databases.",
+      "technical_spec": "Sharding techniques are used to partition data across global servers.",
+      "severity_score": 40
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 180,
+    "rank": 190,
     "site": "whatsapp.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "7ebe78340df5a2a30a7d79e4f3fcf3c2"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "7d48ec116c6faef0f88c4cb415bd7aac"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Optional two-step verification process for additional security.",
-      "technical_spec": "Passwords and OTPs as additional layers beyond standard login.",
-      "severity_score": 70
+      "title": "Two-Step Verification",
+      "description": "An optional feature providing an additional layer of security during account setup.",
+      "technical_spec": "Combines password and a 6-digit PIN for user verification.",
+      "severity_score": 45
     },
     {
-      "title": "End-to-End Encryption by Default",
-      "description": "Encryption safeguards privacy by making messages readable only to sender and receiver.",
-      "technical_spec": "Signal Protocol for state-of-the-art cryptographic security.",
-      "severity_score": 15
+      "title": "App Sandbox",
+      "description": "Use of a sandbox to isolate app processes, preventing malicious code execution.",
+      "technical_spec": "Sandboxing involves running the application in a controlled environment.",
+      "severity_score": 20
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Ongoing assessments to identify vulnerabilities and patch them.",
-      "technical_spec": "Bug bounty programs and penetration testing implemented.",
+      "title": "Automatic Updates",
+      "description": "Security patches and updates are automatically rolled out to users to address vulnerabilities.",
+      "technical_spec": "Automated update system ensures users are protected against known exploits.",
+      "severity_score": 25
+    },
+    {
+      "title": "Security Audits",
+      "description": "Regular security audits are conducted to identify and mitigate vulnerabilities.",
+      "technical_spec": "Involves both automated and manual testing to find security loopholes.",
       "severity_score": 30
     },
     {
-      "title": "Suspicious Activity Monitoring",
-      "description": "Automated systems to flag and restrict suspicious interactions.",
-      "technical_spec": "Algorithms and pattern recognition to detect unusual logins.",
-      "severity_score": 50
-    },
-    {
-      "title": "Secure Media Transfer",
-      "description": "Encrypted file transfers to protect media shared between users.",
-      "technical_spec": "Transport Layer Security (TLS) for upload/download processes.",
-      "severity_score": 25
+      "title": "Network-level Defense",
+      "description": "Advanced measures to protect against network intrusions and DDoS attacks.",
+      "technical_spec": "Implementation of firewalls and intrusion detection systems.",
+      "severity_score": 35
     }
   ]
 }

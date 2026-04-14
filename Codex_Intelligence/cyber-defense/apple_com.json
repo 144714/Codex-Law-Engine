@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 173,
+    "rank": 183,
     "site": "apple.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "bb146770e0e17330c7cddd15ee5047d7"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "83af01865cb5f9572507a82f5ae4b70d"
   },
   "data": [
     {
-      "title": "SSL/TLS Encryption",
-      "description": "All data transmissions are secured using up-to-date SSL/TLS encryption standards.",
-      "technical_spec": "TLS 1.3 is enabled across all domains to encrypt data in transit.",
+      "title": "Multi-Factor Authentication (MFA)",
+      "description": "Extra security layer requiring more than one form of verification to log in to accounts.",
+      "technical_spec": "Uses OTP, biometrics, or authentication apps.",
       "severity_score": 95
     },
     {
-      "title": "DDoS Protection",
-      "description": "Implements multiple layers of protection to mitigate Distributed Denial-of-Service attacks.",
-      "technical_spec": "Employing advanced traffic filtering, rate limiting, and real-time monitoring.",
-      "severity_score": 92
-    },
-    {
-      "title": "Firewall Systems",
-      "description": "Robust firewalls are in place to prevent unauthorized access to the backend systems.",
-      "technical_spec": "Advanced firewall rules and intrusion detection systems are configured.",
-      "severity_score": 93
-    },
-    {
-      "title": "User Authentication",
-      "description": "Multi-factor authentication is used to enhance user login security.",
-      "technical_spec": "Combination of biometrics, OTPs, and password policies.",
-      "severity_score": 88
+      "title": "SSL/TLS Encryption",
+      "description": "Encryption protocol to ensure secure data transmission over the internet.",
+      "technical_spec": "Implements TLS 1.2 and 1.3, certificates issued by trusted CAs.",
+      "severity_score": 85
     },
     {
       "title": "Regular Security Audits",
-      "description": "Continuous security auditing and vulnerability assessment processes are in place.",
-      "technical_spec": "Automated scanning combined with manual penetration testing.",
-      "severity_score": 90
+      "description": "Routine audits to identify and resolve potential vulnerabilities in the system.",
+      "technical_spec": "Involves penetration testing and code reviews.",
+      "severity_score": 88
+    },
+    {
+      "title": "Intrusion Detection Systems (IDS)",
+      "description": "Monitors network traffic for suspicious activities and potential threats.",
+      "technical_spec": "Combination of host-based and network-based IDS solutions.",
+      "severity_score": 82
+    },
+    {
+      "title": "Data Loss Prevention (DLP)",
+      "description": "Strategies and tools to prevent data breaches and unauthorized access to sensitive information.",
+      "technical_spec": "Involves endpoint scanning and data encryption policies.",
+      "severity_score": 80
     }
   ]
 }

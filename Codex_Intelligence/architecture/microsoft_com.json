@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 174,
+    "rank": 184,
     "site": "microsoft.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "89dc3c8c5afaca7fc4b76865e12f6ac1"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "721bfb897d2b6ba02e880774762b8d42"
   },
   "data": [
     {
-      "title": "Modular Design",
-      "description": "Microsoft.com uses a modular architecture to deliver content dynamically across its various services and platforms.",
-      "technical_spec": "Utilizes microservices and containerization for scalability and elasticity.",
-      "severity_score": 30
+      "title": "Cloud Infrastructure",
+      "description": "Microsoft's website is backed by Azure cloud services to ensure scalability and reliability.",
+      "technical_spec": "Leverages Azure CDN for global content distribution.",
+      "severity_score": 10
     },
     {
-      "title": "Global Content Delivery Network (CDN)",
-      "description": "The site employs a robust CDN strategy to ensure fast content delivery across the globe.",
-      "technical_spec": "In partnership with Azure CDN, leveraging edge servers strategically located worldwide.",
+      "title": "Microservices Architecture",
+      "description": "The website employs a microservices architecture, allowing different services to scale independently.",
+      "technical_spec": "Deployed using Azure Kubernetes Service for container orchestration.",
+      "severity_score": 15
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Ensures optimal viewing and interaction experience across a wide range of devices.",
+      "technical_spec": "Implemented using CSS3 media queries and flexible grid layouts.",
+      "severity_score": 5
+    },
+    {
+      "title": "API Integration",
+      "description": "Extensive API integrations are used to fetch dynamic content and services.",
+      "technical_spec": "Utilizes REST and GraphQL APIs for data operations.",
       "severity_score": 20
     },
     {
-      "title": "Server-side Rendering with Progressive Enhancement",
-      "description": "Optimizes first load speed and maintains an enhanced experience using progressive enhancement techniques.",
-      "technical_spec": "Combines server-side rendering with client-side React components.",
+      "title": "Progressive Web App",
+      "description": "PWA features for improved performance and offline capabilities.",
+      "technical_spec": "Service Workers and Web App Manifest for PWA functionality.",
       "severity_score": 25
-    },
-    {
-      "title": "API-Centric Architecture",
-      "description": "Depends heavily on APIs to integrate and interact with varied Microsoft services ensuring cohesive user experiences.",
-      "technical_spec": "RESTful and GraphQL API implementations for robust service interactivity.",
-      "severity_score": 35
-    },
-    {
-      "title": "Secure Communication Channels",
-      "description": "Emphasizes security through encrypted communication and data protection.",
-      "technical_spec": "TLS 1.2/1.3 for all HTTP operations, OAuth 2.0 for user authentication.",
-      "severity_score": 30
     }
   ]
 }

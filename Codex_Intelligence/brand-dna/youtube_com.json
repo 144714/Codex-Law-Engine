@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 172,
+    "rank": 182,
     "site": "youtube.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "5b7dd5cb4fc70fe14acea952f9cf19ab"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "9a0e8a690762b383d9bbec6137808ca1"
   },
   "data": [
     {
-      "title": "User-Centric Advertising",
-      "description": "Focuses on personalized ad offerings to enhance relevance and engagement.",
-      "technical_spec": "AdSense and machine learning personalization.",
-      "severity_score": 50
+      "title": "User-Centric Innovation",
+      "description": "YouTube continually evolves with features that enhance user experience and engagement.",
+      "technical_spec": "Feedback-driven development with beta testing communities.",
+      "severity_score": 90
     },
     {
-      "title": "Community-Driven Content",
-      "description": "Strong emphasis on community and user-generated content.",
-      "technical_spec": "YouTube Partner Program and community guidelines.",
-      "severity_score": 40
+      "title": "Global Connectivity",
+      "description": "Fosters inclusivity by enabling content sharing across different cultures and languages.",
+      "technical_spec": "Supports multiple languages and subtitles for content accessibility.",
+      "severity_score": 88
     },
     {
-      "title": "Global Accessibility",
-      "description": "Ensures content is accessible to a global audience with localization features.",
-      "technical_spec": "Subtitle capabilities, language translations, and accessibility tools.",
-      "severity_score": 30
+      "title": "Content Diversity",
+      "description": "Hosts a wide range of content types, appealing to varied user interests and niches.",
+      "technical_spec": "Categorization and tagging system that facilitates content discovery.",
+      "severity_score": 85
     },
     {
-      "title": "Innovation in Content Creation",
-      "description": "Continuous development of tools and features for creators to expand their engagement with audiences.",
-      "technical_spec": "YouTube Shorts, Live Streaming, and analytic tools.",
-      "severity_score": 35
+      "title": "Community Engagement",
+      "description": "Promotes interactive community building through comments, live chats, and community posts.",
+      "technical_spec": "Real-time communication features with moderation tools for user safety.",
+      "severity_score": 87
     },
     {
-      "title": "Content Entrepreneurship",
-      "description": "Provides tools and pathways for content creators to monetize their work.",
-      "technical_spec": "SuperChats, membership, and Merchandise integration.",
-      "severity_score": 45
+      "title": "Monetization and Career Opportunities",
+      "description": "Provides pathways for content creators to monetize their channels and grow professionally.",
+      "technical_spec": "AdSense integration and channel membership options for revenue generation.",
+      "severity_score": 86
     }
   ]
 }

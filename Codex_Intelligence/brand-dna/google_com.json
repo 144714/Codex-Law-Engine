@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 171,
+    "rank": 181,
     "site": "google.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "8b5feda74d6fc8ed283e7cb7438f653c"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "fc0c254306216bcf80076e06c7e4b3bc"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "Relentlessly innovating to create market-leading technology.",
-      "technical_spec": "Commitment to research and development with tech advancement.",
-      "severity_score": 8
-    },
-    {
-      "title": "Accessibility",
-      "description": "Designing products usable by as many people as possible.",
-      "technical_spec": "Features like voice search and screen readers compatibility.",
-      "severity_score": 10
+      "description": "Commitment to being at the forefront of technological advancements.",
+      "technical_spec": "R&D investments, patent portfolio",
+      "severity_score": 5
     },
     {
       "title": "User-Centric Design",
-      "description": "Focused on user needs to drive product development.",
-      "technical_spec": "Extensive user research and testing to inform UX decisions.",
-      "severity_score": 7
+      "description": "Focus on creating products that prioritize user needs and experiences.",
+      "technical_spec": "A/B testing, user feedback loops",
+      "severity_score": 10
     },
     {
       "title": "Global Reach",
-      "description": "Services and products available worldwide.",
-      "technical_spec": "Localization in over 100 languages and 200 regions.",
-      "severity_score": 12
+      "description": "A brand that connects with users in diverse locales around the globe.",
+      "technical_spec": "Multi-language support, region-specific services",
+      "severity_score": 10
     },
     {
-      "title": "Security & Trust",
-      "description": "Protecting user's data and ensuring privacy.",
-      "technical_spec": "Robust security protocols and privacy-first initiatives.",
+      "title": "Sustainability",
+      "description": "Striving for eco-friendly operations and reducing environmental impact.",
+      "technical_spec": "Carbon-neutral initiatives, renewable energy usage",
+      "severity_score": 15
+    },
+    {
+      "title": "Security",
+      "description": "Maintaining high levels of trust by prioritizing security across all products.",
+      "technical_spec": "Zero-Trust architecture, frequent patching",
       "severity_score": 15
     }
   ]

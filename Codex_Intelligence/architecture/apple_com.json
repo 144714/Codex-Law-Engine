@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 173,
+    "rank": 183,
     "site": "apple.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "7b904533c7bef6336ad7a1dfa5e00192"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "609dc9f1d2e8302fbf03a6eba70e137b"
   },
   "data": [
     {
-      "title": "Microservice Design",
-      "description": "Apple.com uses microservices architecture to handle various services like store, support, and media content.",
-      "technical_spec": "Services are designed to be independent and scalable, using containerization and orchestration technologies.",
+      "title": "Microservices Architecture",
+      "description": "Apple utilizes a microservices architecture to ensure independent services can be scaled and developed separately.",
+      "technical_spec": "Multiple lightweight services with distinct capabilities, communicating over HTTP/HTTPS with data usually serialized in JSON.",
+      "severity_score": 90
+    },
+    {
+      "title": "Cloud-Native Infrastructure",
+      "description": "Infrastructure based on cloud technologies that can dynamically scale based on user demand.",
+      "technical_spec": "Integration with public/private cloud providers, Kubernetes for orchestration.",
       "severity_score": 85
     },
     {
-      "title": "Cloud Integration",
-      "description": "Website backend is heavily integrated with cloud services for efficient load balancing and data distribution.",
-      "technical_spec": "Utilizes cloud providers for CDN and redundant server systems to ensure high availability.",
-      "severity_score": 90
+      "title": "Server-Side Rendering",
+      "description": "Content is dynamically generated on the server to improve loading times and SEO performance.",
+      "technical_spec": "Utilizes frameworks like Next.js for server-side rendering capabilities.",
+      "severity_score": 75
     },
     {
-      "title": "API-led Connectivity",
-      "description": "APIs are extensively used to provide seamless interaction between different parts of the site and other external Apple services.",
-      "technical_spec": "RESTful and GraphQL APIs employed for inter-service communication.",
+      "title": "Load Balancing",
+      "description": "Distributes incoming web traffic across multiple servers to ensure stability and performance.",
+      "technical_spec": "Implemented using hardware or software-based solutions like Nginx or AWS ELB.",
       "severity_score": 80
     },
     {
-      "title": "Database Management",
-      "description": "Uses multiple databases for managing user data, product information and transactional services.",
-      "technical_spec": "Combination of SQL and NoSQL databases to optimize for read and write operations.",
-      "severity_score": 88
-    },
-    {
-      "title": "Responsive Design",
-      "description": "Ensures compatibility and optimal usability across a wide range of devices and screen sizes.",
-      "technical_spec": "Uses frameworks like Bootstrap to implement flexible grids and media queries.",
-      "severity_score": 90
+      "title": "Continuous Integration/Continuous Deployment (CI/CD)",
+      "description": "Automated pipeline for testing and deploying code changes promptly and efficiently.",
+      "technical_spec": "Tools like Jenkins or CircleCI used for CI/CD pipelines.",
+      "severity_score": 78
     }
   ]
 }

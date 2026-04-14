@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 175,
+    "rank": 185,
     "site": "amazon.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "7f1231cf633addbe3fa5a1948da0b825"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "71974790142d5c1cf60f1bb659e9d1d7"
   },
   "data": [
     {
-      "title": "Customer Obsession",
-      "description": "Prioritizes customers in every aspect of the business, focusing on creating value and usability.",
-      "technical_spec": "Customer reviews, feedback loops",
+      "title": "Customer Centricity",
+      "description": "Focused on delivering a superior customer experience.",
+      "technical_spec": "Customer feedback loops, personalization features",
       "severity_score": 5
     },
     {
-      "title": "Innovation",
-      "description": "Continuously experiments and improves technology to enhance shopping experience and operational efficiency.",
-      "technical_spec": "R&D investment, Agile methodologies",
+      "title": "Innovation at Scale",
+      "description": "Constantly innovating to improve global logistics and service.",
+      "technical_spec": "Amazon Prime, AWS technology integration",
       "severity_score": 10
     },
     {
       "title": "Operational Excellence",
-      "description": "Focused on process optimization to deliver seamless and efficient customer service.",
-      "technical_spec": "Lean strategies, Six Sigma",
-      "severity_score": 8
+      "description": "Efficiency in operations to reduce costs and pass savings to customers.",
+      "technical_spec": "Supply chain optimization, data-driven decision-making",
+      "severity_score": 15
     },
     {
-      "title": "Long-term Thinking",
-      "description": "Emphasizes long-term growth strategies over short-term profits to maintain brand resilience.",
-      "technical_spec": "Strategic planning, Market analysis",
-      "severity_score": 5
+      "title": "Trust and Security",
+      "description": "Maintaining customer trust is paramount through secure transactions.",
+      "technical_spec": "Robust security policies, transparent operations",
+      "severity_score": 20
     },
     {
-      "title": "Diverse Product Range",
-      "description": "Offers a vast range of products to cater to a wide array of customer needs and preferences.",
-      "technical_spec": "Marketplace platform, Vendor partnerships",
+      "title": "Global Reach",
+      "description": "Expanding presence to offer services worldwide.",
+      "technical_spec": "International shipping options, localized interfaces",
       "severity_score": 12
     }
   ]

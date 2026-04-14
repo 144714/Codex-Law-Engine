@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 173,
+    "rank": 183,
     "site": "apple.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "5d08bba973f07ba7151786c3715e6110"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "31f4653610a0db096ac838ac908b0e41"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "User interfaces are simplified to limit the number of choices presented at any given time.",
-      "technical_spec": "Strategic use of minimalistic design elements to enhance decision-making.",
-      "severity_score": 85
+      "title": "Fitts's Law",
+      "description": "Design principle that predicts the time required to move to a target area, emphasizing clickable items’ size and distance.",
+      "technical_spec": "Optimization of interactive elements to be large enough and appropriately spaced.",
+      "severity_score": 70
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Interactive UI components are designed for easy and quick access, minimizing user effort.",
-      "technical_spec": "Design practices ensure larger, reachable buttons and links for critical actions.",
-      "severity_score": 90
+      "title": "Hick's Law",
+      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
+      "technical_spec": "Simplified navigation structure and reduced options on interfaces.",
+      "severity_score": 65
     },
     {
-      "title": "Miller’s Law",
-      "description": "Content is broken down into smaller chunks to help users better process and remember information.",
-      "technical_spec": "Use of concise text blocks and visual hierarchy throughout the site.",
-      "severity_score": 88
+      "title": "Law of Common Region",
+      "description": "Elements tend to be perceived as grouped if they are located within the same closed region.",
+      "technical_spec": "Use of color, borders, or background to logically group related items.",
+      "severity_score": 68
     },
     {
-      "title": "Jakob’s Law",
-      "description": "The site is designed with familiar navigation patterns and interactions to meet user expectations.",
-      "technical_spec": "Consistency in interface design, leveraging common web standards.",
-      "severity_score": 92
+      "title": "Law of Proximity",
+      "description": "Users perceive objects that are close to each other as related more than objects that are further apart.",
+      "technical_spec": "Strategic use of whitespace and proximity to relate UI components.",
+      "severity_score": 75
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "UI is designed to be visually appealing, increasing perceived usability and acceptance.",
-      "technical_spec": "Application of Apple's design philosophy with high-quality imagery and clean layouts.",
-      "severity_score": 87
+      "title": "Jakob's Law",
+      "description": "Users spend most of their time on other sites; they prefer your site to work the same way.",
+      "technical_spec": "Adherence to standard web practices that meet user expectations.",
+      "severity_score": 80
     }
   ]
 }

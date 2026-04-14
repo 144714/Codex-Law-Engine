@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 179,
+    "rank": 189,
     "site": "instagram.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "c92f503f29847adae624689f5be1fa2d"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "aefab35d75cfac15dc4d2a599bdd9b32"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Minimizes user decision time by reducing options on the interface.",
-      "technical_spec": "Focus on simplicity and hiding complex features until needed.",
-      "severity_score": 10
+      "description": "Simplifies decision-making in-app by limiting the number of choices presented to users.",
+      "technical_spec": "Fewer navigation options, streamlined interfaces.",
+      "severity_score": 30
     },
     {
       "title": "Fitts's Law",
-      "description": "Optimizes interface design to require minimal movement for user actions.",
-      "technical_spec": "Placement of interactive elements within easy reach for frequent actions.",
-      "severity_score": 20
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Emphasizes appealing visual design to improve perceived usability.",
-      "technical_spec": "Consistent color scheme and typography across the app.",
-      "severity_score": 15
+      "description": "Optimizes button and element sizes for faster interactions based on Fitts’s law.",
+      "technical_spec": "Accessible sizing and spacing for touch interfaces.",
+      "severity_score": 40
     },
     {
       "title": "Jakob's Law",
-      "description": "Maintains behavioral consistency with common app designs to reduce learning curve.",
-      "technical_spec": "Adopts UI patterns familiar to social media users.",
-      "severity_score": 10
+      "description": "Designs interface to match user expectations from other platforms (e.g., Facebook).",
+      "technical_spec": "Utilizes familiar UI patterns and navigation structures.",
+      "severity_score": 25
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related items together on the interface for better cognitive understanding.",
-      "technical_spec": "Utilizes spacing and layout to enhance content relationships.",
-      "severity_score": 10
+      "title": "Miller's Law",
+      "description": "Segments content into chunks to help users better process and remember information.",
+      "technical_spec": "Use of stories and carousel features.",
+      "severity_score": 20
+    },
+    {
+      "title": "Aesthetic Usability Effect",
+      "description": "Maintains a visually appealing design to enhance perceived usability.",
+      "technical_spec": "High-quality imagery, consistent color palettes.",
+      "severity_score": 35
     }
   ]
 }

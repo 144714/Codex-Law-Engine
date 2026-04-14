@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 180,
+    "rank": 190,
     "site": "whatsapp.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "217fd7543909f64f6743e0b8bd692a52"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "aca9dd9cc4b2517039013b899296e7fe"
   },
   "data": [
     {
-      "title": "User-Centric Design",
-      "description": "Interface designed to prioritize user experience and ease of use.",
-      "technical_spec": "Efforts focused on minimalism and intuitive navigation.",
-      "severity_score": 10
-    },
-    {
-      "title": "Accessibility Features",
-      "description": "Design incorporates accessibility features for inclusivity.",
-      "technical_spec": "Support for screen readers and text adjustment options.",
-      "severity_score": 20
-    },
-    {
-      "title": "Consistent Updates",
-      "description": "Regularly updated features and security patches for optimal UX.",
-      "technical_spec": "Utilizes user feedback and analytics for improvements.",
-      "severity_score": 30
-    },
-    {
-      "title": "Multi-Platform Support",
-      "description": "User experience optimized for mobile and desktop platforms.",
-      "technical_spec": "Responsive design principles implemented across devices.",
+      "title": "Fitts's Law",
+      "description": "The design is optimized such that frequently used buttons are larger and easier to click.",
+      "technical_spec": "Interface components are designed with ample size and intuitive positioning.",
       "severity_score": 15
     },
     {
-      "title": "Notification Management",
-      "description": "Controls for personalized notification settings to avoid annoyance.",
-      "technical_spec": "Customizable settings for sound, vibration, and visual alerts.",
-      "severity_score": 25
+      "title": "Hick’s Law",
+      "description": "Limiting choices and making each action as straightforward as possible to reduce decision time.",
+      "technical_spec": "Streamlined menu design with concise options for quick decision-making.",
+      "severity_score": 10
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Users spend most of their time on other sites; thus, WhatsApp follows interface conventions for familiarity.",
+      "technical_spec": "Adopts common interface elements and interaction patterns familiar to users.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "A visually appealing interface enhances the perceived usability of the app.",
+      "technical_spec": "Incorporates high-resolution images, smooth transitions, and a cohesive color palette.",
+      "severity_score": 20
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Elements that are related are placed close together to reduce cognitive load.",
+      "technical_spec": "Content grouping and alignment strategies used in chat layouts and menus.",
+      "severity_score": 15
     }
   ]
 }

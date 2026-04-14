@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 174,
+    "rank": 184,
     "site": "microsoft.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "6095ddbaa13752b5990bcf71c41a5ae8"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "900c69cb03e4628548ddfaedcccb2235"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Strengthens user authentication processes across platforms to mitigate unauthorized access.",
-      "technical_spec": "Supports authentication apps, SMS, and biometric options.",
+      "title": "DDOS Protection",
+      "description": "Mitigation strategies in place to prevent Distributed Denial of Service attacks.",
+      "technical_spec": "Azure DDoS Protection Standard Service.",
       "severity_score": 15
     },
     {
-      "title": "Real-time Threat Monitoring",
-      "description": "Constantly monitors for potential security threats or breaches to swiftly respond.",
-      "technical_spec": "Incorporates AI-driven security analytics using Microsoft Sentinel.",
-      "severity_score": 40
+      "title": "Data Encryption",
+      "description": "Data transmission is secured using TLS encryption standards.",
+      "technical_spec": "TLS 1.2/1.3 for data in transit.",
+      "severity_score": 10
     },
     {
-      "title": "Data Encapsulation and Encryption",
-      "description": "Ensures that user and service data are encrypted both at rest and in transit.",
-      "technical_spec": "Advanced Encryption Standard (AES) for data at rest, TLS for data in transit.",
+      "title": "Identity Management",
+      "description": "Ensures secure access through robust identity management services.",
+      "technical_spec": "Azure Active Directory for Single Sign-On and MFA.",
+      "severity_score": 20
+    },
+    {
+      "title": "Security Incident Response",
+      "description": "Automated and manual systems in place for detecting and responding to security incidents.",
+      "technical_spec": "Azure Security Center and Microsoft Sentinel for threat detection.",
       "severity_score": 30
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts systematic reviews to identify vulnerabilities within its systems.",
-      "technical_spec": "Third-party vulnerability assessments and penetration testing.",
-      "severity_score": 50
-    },
-    {
-      "title": "Advanced Firewall Configurations",
-      "description": "Prevents unauthorized intrusions and ensures safe and secure access.",
-      "technical_spec": "Combines hardware and software firewalls with intrusion prevention systems (IPS).",
-      "severity_score": 35
+      "description": "Routine security evaluations to discover and resolve vulnerabilities.",
+      "technical_spec": "Conducted using Azure Security Benchmark and third-party penetration testing.",
+      "severity_score": 25
     }
   ]
 }

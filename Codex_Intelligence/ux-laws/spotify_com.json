@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 177,
+    "rank": 187,
     "site": "spotify.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "b48c680cb2d57a0bbb611b764186393f"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "4dc7cbbe73b65b800afc2083e77cf89a"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Spotify minimizes the number of choices to streamline user decision-making.",
-      "technical_spec": "Simplified menus and streamlined navigation to enhance usability.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts’ Law",
-      "description": "Design ensures that frequently used controls are easily accessible and targetable.",
-      "technical_spec": "Optimized button and control sizes for touch interfaces.",
-      "severity_score": 15
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "The visually appealing design enhances perceived usability.",
-      "technical_spec": "Consistent design language and high-quality visual assets.",
-      "severity_score": 12
-    },
-    {
-      "title": "Pareto Principle",
-      "description": "Focuses on optimizing primary user paths and common features.",
-      "technical_spec": "Feature analysis to identify and enhance key user interactions.",
+      "title": "Hick's Law",
+      "description": "Minimizes choice overload by categorizing and limiting options offered to the user.",
+      "technical_spec": "Implementation of concise navigation menus and personalized recommendations.",
       "severity_score": 25
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Places important controls and content at the beginning and end of user journeys.",
-      "technical_spec": "Prioritization of content based on usage patterns.",
-      "severity_score": 18
+      "title": "Fitts's Law",
+      "description": "Design prioritizes easily accessible navigational buttons and controls within the interface.",
+      "technical_spec": "Button sizes and spacing are optimized for quick reach and interaction.",
+      "severity_score": 30
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Spotify balances aesthetic appeal with functionality to enhance perceived usability.",
+      "technical_spec": "Use of an engaging design system with consistent color palettes and typography.",
+      "severity_score": 20
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Spotify aims to mirror user interface standards users are already familiar with.",
+      "technical_spec": "Intuitive gestures and navigation patterns akin to other popular applications.",
+      "severity_score": 15
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Groups similar content and controls close together to improve user comprehension.",
+      "technical_spec": "Effective use of grid layouts and spacing within playlists and album views.",
+      "severity_score": 30
     }
   ]
 }

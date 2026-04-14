@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 178,
+    "rank": 188,
     "site": "adobe.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "08855253b7026ca800a2c7f26cc7064c"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "1f81759b23fc3e51e208f397ec64f52e"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "The design limits choices to reduce user decision time, facilitating faster navigation.",
-      "technical_spec": "Simplified Menu Structures, Action Hierarchies",
+      "title": "Hick’s Law Implementation",
+      "description": "Minimizes decision complexity through clear navigation and content categorization.",
+      "technical_spec": "Simplified user paths, dropdown menus",
+      "severity_score": 25
+    },
+    {
+      "title": "Fitts’s Law Optimization",
+      "description": "Interface elements are strategically placed for rapid accessibility and usability.",
+      "technical_spec": "Button size and position optimization",
+      "severity_score": 30
+    },
+    {
+      "title": "Aesthetic Usability Effect",
+      "description": "Aesthetically pleasing design improves user perception of ease of use.",
+      "technical_spec": "Consistent branding, high-quality graphics",
+      "severity_score": 15
+    },
+    {
+      "title": "Gestalt Principles for Layout",
+      "description": "The use of proximity, similarity, and continuity to create an intuitive layout.",
+      "technical_spec": "Grid systems, balanced whitespace",
       "severity_score": 20
     },
     {
-      "title": "Fitts’s Law",
-      "description": "UI elements are designed larger and closer to expected user focus areas for improved interaction speed.",
-      "technical_spec": "Button Sizes, Clickable Areas",
-      "severity_score": 15
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Content is broken down into manageable pieces, aiding memory retention and processing.",
-      "technical_spec": "Chunking of Information, Bullet Points",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Users are offered familiar navigation patterns to enhance intuitive interaction.",
-      "technical_spec": "Standard Navigation Bars, Conventional Layouts",
-      "severity_score": 15
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visual appeal is leveraged to enhance perceived usability and user satisfaction.",
-      "technical_spec": "High-Quality Images, Color Theming",
-      "severity_score": 10
+      "title": "Feedback for User Actions",
+      "description": "Responsive feedback is provided for user interactions to enhance usability.",
+      "technical_spec": "Loading indicators, confirmation messages",
+      "severity_score": 20
     }
   ]
 }

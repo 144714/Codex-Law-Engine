@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 179,
+    "rank": 189,
     "site": "instagram.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "654272be167536e7a5ba633db5a41d9f"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "18b18d65e06bbaebb05e6551bded10fe"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Encrypts data in transit and at rest to protect user information.",
-      "technical_spec": "Uses TLS for data in transit and AES-256 for data at rest.",
-      "severity_score": 5
-    },
-    {
-      "title": "Account Security",
-      "description": "Offers two-factor authentication to enhance user account security.",
-      "technical_spec": "Supports authentication via mobile apps and text messages.",
+      "title": "End-to-End Encryption",
+      "description": "Instagram incorporates encryption to secure user data during transit and storage.",
+      "technical_spec": "TLS/SSL for data encryption, HTTPS for secure communications.",
       "severity_score": 15
     },
     {
-      "title": "Access Controls",
-      "description": "Implements strict role-based access control within its infrastructure.",
-      "technical_spec": "Granular permissions for different service access levels.",
+      "title": "Two-Factor Authentication",
+      "description": "Offers 2FA to add a layer of security preventing unauthorized access to user accounts.",
+      "technical_spec": "SMS and authenticator apps for verification.",
+      "severity_score": 25
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts ongoing security audits and penetration testing to identify vulnerabilities.",
+      "technical_spec": "Automated testing and ethical hacking protocols.",
       "severity_score": 20
     },
     {
-      "title": "Threat Monitoring",
-      "description": "Continuously monitors for suspicious activities and threats.",
-      "technical_spec": "Employs machine learning algorithms to detect anomalies.",
-      "severity_score": 30
+      "title": "Phishing and Scam Detection",
+      "description": "Monitors and prevents attempts to conduct phishing and scams using automated tools.",
+      "technical_spec": "AI-based detection tools and manual verification processes.",
+      "severity_score": 20
     },
     {
-      "title": "Bug Bounty Program",
-      "description": "Encourages security researchers to report vulnerabilities.",
-      "technical_spec": "Offers rewards for verified security issues reported by external contributors.",
-      "severity_score": 25
+      "title": "SOC2 Compliance",
+      "description": "Compliance with the SOC2 standard to ensure appropriate controls over data security and privacy.",
+      "technical_spec": "Adherence to strict access control and security measures.",
+      "severity_score": 30
     }
   ]
 }

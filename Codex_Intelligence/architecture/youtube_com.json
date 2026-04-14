@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 172,
+    "rank": 182,
     "site": "youtube.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "12a6df0845e58c7150615808759a532c"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "e70d0af43401639ffe92f0e580e6c255"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "YouTube uses a microservices architecture to manage various functionalities like video serving, recommendations, and user accounts.",
-      "technical_spec": "Polyglot frameworks with RESTful APIs for inter-service communication.",
-      "severity_score": 10
+      "title": "Microservices Infrastructure",
+      "description": "YouTube operates on a scalable microservices architecture that enables independent deployment, robust scaling, and fault isolation.",
+      "technical_spec": "Built on top of Google's Cloud Infrastructure utilizing containers for distributed service management.",
+      "severity_score": 85
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Utilizes CDNs to efficiently deliver video content across the globe.",
-      "technical_spec": "Akamai and Edge computing principles for latency reduction.",
-      "severity_score": 5
+      "description": "YouTube leverages a global network of CDNs to provide fast and reliable video streaming worldwide.",
+      "technical_spec": "CDNs are strategically placed to minimize latency and optimize content delivery.",
+      "severity_score": 90
     },
     {
-      "title": "Data Processing Pipelines",
-      "description": "Real-time and batch processing for video processing, analytics, and recommendation systems.",
-      "technical_spec": "Utilizes BigQuery, Hadoop, and Dataflow.",
-      "severity_score": 20
+      "title": "Data Replication and Storage",
+      "description": "Utilizes extensive data replication to ensure data durability and high availability across multiple data centers.",
+      "technical_spec": "Replica sets and distributed databases like Bigtable and Spanner.",
+      "severity_score": 88
     },
     {
-      "title": "Scalable Storage Solutions",
-      "description": "Massive storage systems to handle a vast amount of video data uploaded daily.",
-      "technical_spec": "Distributed storage systems with redundancy and auto-scaling capabilities.",
-      "severity_score": 15
+      "title": "User Personalization Service",
+      "description": "Advanced algorithms for content recommendations based on user behavior and preferences.",
+      "technical_spec": "Uses machine learning models to predict user interests.",
+      "severity_score": 80
     },
     {
-      "title": "Machine Learning Models",
-      "description": "Used extensively for content recommendation and ad targeting.",
-      "technical_spec": "TensorFlow models optimized for large-scale deployment.",
-      "severity_score": 25
+      "title": "Load Balancing and Traffic Management",
+      "description": "Sophisticated load balancing techniques ensure efficient distribution of incoming traffic among servers.",
+      "technical_spec": "Google's own global load balancers manage large volumes with minimal delay.",
+      "severity_score": 83
     }
   ]
 }

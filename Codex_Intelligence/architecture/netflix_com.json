@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 176,
+    "rank": 186,
     "site": "netflix.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "356216df2ef02b7142c5ed092f70e7f0"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "bda4468126271cf90cb73f4efcdfe1b7"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Netflix utilizes a microservices architecture to enable rapid deployment and scaling.",
-      "technical_spec": "Leveraging AWS for scalable infrastructure, each service is independent.",
+      "title": "Microservices",
+      "description": "Netflix utilizes a microservices architecture to enhance scalability and flexibility.",
+      "technical_spec": "Deployed via AWS, with services like Eureka for service discovery.",
       "severity_score": 10
     },
     {
-      "title": "Content Delivery Network",
-      "description": "The use of CDNs optimizes content delivery globally.",
-      "technical_spec": "Utilizes Open Connect, a proprietary CDN, for efficient bandwidth usage.",
-      "severity_score": 20
-    },
-    {
-      "title": "Distributed Database",
-      "description": "Netflix uses distributed databases for reliability and high availability.",
-      "technical_spec": "Employs Cassandra for its distributed nature and resilience.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "Netflix employs a CDN to deliver content efficiently across the globe.",
+      "technical_spec": "Open Connect, a custom CDN solution developed and optimized by Netflix.",
       "severity_score": 15
     },
     {
-      "title": "Cloud-based Infrastructure",
-      "description": "Entirely cloud-based to handle the massive data load and flexibility",
-      "technical_spec": "Primary adoption of AWS services for infrastructure needs.",
+      "title": "Data-Driven Infrastructure",
+      "description": "System architecture is heavily influenced by user data analytics for improved service.",
+      "technical_spec": "Includes real-time data processing and Apache Kafka for streaming data pipelines.",
+      "severity_score": 20
+    },
+    {
+      "title": "Resilient and Redundant Systems",
+      "description": "Infrastructure is built with redundancy to ensure high availability.",
+      "technical_spec": "Utilizes Chaos Monkey and other tools for testing system resilience.",
       "severity_score": 5
     },
     {
-      "title": "Resilience Engineering",
-      "description": "Ensures system resilience and fault tolerance.",
-      "technical_spec": "Utilizes chaos engineering practices to test and ensure robustness.",
-      "severity_score": 30
+      "title": "Cloud-Based Infrastructure",
+      "description": "Primarily operates on a cloud infrastructure for scalability and flexibility.",
+      "technical_spec": "Predominantly uses AWS for cloud services and deployment.",
+      "severity_score": 15
     }
   ]
 }

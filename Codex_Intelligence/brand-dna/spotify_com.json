@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 177,
+    "rank": 187,
     "site": "spotify.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "bc854e10e2ca0ded949cc476b8f21073"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "80ae31101a6b43c350e8f7ad8abc9a29"
   },
   "data": [
     {
-      "title": "Personalization",
-      "description": "Focuses on delivering a personalized user experience with features like recommendations and curated playlists.",
-      "technical_spec": "Machine learning algorithms for personalized content recommendations.",
+      "title": "Music-Centric Identity",
+      "description": "Spotify identifies as a music streaming leader, providing broad access to various artists and genres.",
+      "technical_spec": "Rich and diverse global music cataloging.",
+      "severity_score": 10
+    },
+    {
+      "title": "Personalized Experience",
+      "description": "Tailors the user experience with personalized playlists and song recommendations.",
+      "technical_spec": "Leverages machine learning algorithms and user data analytics.",
+      "severity_score": 35
+    },
+    {
+      "title": "Innovative Discovery Tools",
+      "description": "Continuously develops new features like Discover Weekly and Release Radar for music discovery.",
+      "technical_spec": "Algorithmic curations updated weekly based on listening habits.",
+      "severity_score": 30
+    },
+    {
+      "title": "Cross-Platform Accessibility",
+      "description": "Access Spotify on multiple platforms including mobile, desktop, and smart devices.",
+      "technical_spec": "Compatibility with iOS, Android, Windows, macOS, and various smart speakers.",
       "severity_score": 20
     },
     {
-      "title": "Global Reach",
-      "description": "Positioned as a globally accessible music streaming service with localized content.",
-      "technical_spec": "Multilingual support and partnerships with local artists.",
+      "title": "Cultural Inclusion",
+      "description": "Promotes cultural diversity and inclusion through curated playlists and campaigns.",
+      "technical_spec": "Dedicated playlists and content highlighting diverse cultures and languages.",
       "severity_score": 15
-    },
-    {
-      "title": "Cultural Engagement",
-      "description": "Engages with diverse cultures through music exploration and artist collaborations.",
-      "technical_spec": "Involvement in global music events and exclusive content releases.",
-      "severity_score": 18
-    },
-    {
-      "title": "Innovation in Music Discovery",
-      "description": "Pioneers features that enhance music discovery and user engagement.",
-      "technical_spec": "AI-driven discovery tools like Discover Weekly and Daily Mix.",
-      "severity_score": 22
-    },
-    {
-      "title": "User Empowerment",
-      "description": "Empowers users to share and create unique music experiences.",
-      "technical_spec": "Social sharing features and playlist collaboration tools.",
-      "severity_score": 20
     }
   ]
 }

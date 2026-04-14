@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 178,
+    "rank": 188,
     "site": "adobe.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "34170f98a3011894d8d0742341becea1"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "ffb7995487b7d2311c1293ef8de90138"
   },
   "data": [
     {
       "title": "SSL/TLS Encryption",
-      "description": "Communication with the site is secured using SSL/TLS encryption protocols.",
-      "technical_spec": "TLS 1.2, SSL Certificates",
-      "severity_score": 5
-    },
-    {
-      "title": "Web Application Firewall",
-      "description": "A web application firewall is in place to monitor and block malicious traffic.",
-      "technical_spec": "ModSecurity, Cloudflare WAF",
+      "description": "All data transferred between users and the site is encrypted with SSL/TLS protocols.",
+      "technical_spec": "HTTPS with TLS 1.2/1.3",
       "severity_score": 20
     },
     {
-      "title": "Security Patch Management",
-      "description": "Regular updates and patches are applied to manage vulnerabilities.",
-      "technical_spec": "Automated Patch Deployment Tools",
-      "severity_score": 15
+      "title": "Advanced Threat Protection",
+      "description": "Adobe partners with cybersecurity firms to detect and mitigate advanced threats.",
+      "technical_spec": "AI-driven threat analysis, firewall protections",
+      "severity_score": 60
     },
     {
-      "title": "User Authentication and Authorization",
-      "description": "Robust authentication systems to ensure user data protection.",
-      "technical_spec": "OAuth 2.0, Multi-Factor Authentication (MFA)",
-      "severity_score": 25
+      "title": "User Authentication and Access Control",
+      "description": "Multi-factor authentication is employed to ensure secure user access to accounts.",
+      "technical_spec": "MFA via TOTP/Push notifications",
+      "severity_score": 35
     },
     {
-      "title": "Intrusion Detection and Prevention Systems",
-      "description": "Systems in place to detect and prevent unauthorized access.",
-      "technical_spec": "Snort, IDS/IPS Systems",
-      "severity_score": 30
+      "title": "Regular Security Audits",
+      "description": "Regular audits and penetration testing are conducted to uncover potential vulnerabilities.",
+      "technical_spec": "Vulnerability scanning, ethical hacking tests",
+      "severity_score": 50
+    },
+    {
+      "title": "Data Leak Prevention",
+      "description": "Technology to prevent unauthorized data access is implemented across the platform.",
+      "technical_spec": "DLP software solutions, end-to-end encryption",
+      "severity_score": 55
     }
   ]
 }

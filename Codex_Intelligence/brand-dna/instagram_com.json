@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 179,
+    "rank": 189,
     "site": "instagram.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "7133b9096de7b3c1c02dc1fec10dc93d"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "e78fd928126be17c35d8ac920c4b350e"
   },
   "data": [
     {
       "title": "Visual Storytelling",
-      "description": "Core focus on visual content sharing through images and videos.",
-      "technical_spec": "Prioritizes photo filters, stories, and reels as main content types.",
-      "severity_score": 10
-    },
-    {
-      "title": "Community Engagement",
-      "description": "Encourages user interaction and connection through features like comments and DMs.",
-      "technical_spec": "Algorithms prioritize content from known connections in the feed.",
-      "severity_score": 20
-    },
-    {
-      "title": "Innovation",
-      "description": "Continual introduction of new features to enhance user experience.",
-      "technical_spec": "Regular updates and rollouts of features like Reels and Shop.",
+      "description": "Focuses on image and video-sharing capabilities to promote visual storytelling.",
+      "technical_spec": "Supports various media formats, including images, short videos, and reels.",
       "severity_score": 15
     },
     {
-      "title": "Influencer Culture",
-      "description": "Stronghold in influencer marketing and brand collaborations.",
-      "technical_spec": "Supports brand partnerships with tools for sponsored content and shopping features.",
-      "severity_score": 25
+      "title": "Community Building",
+      "description": "Facilitates connection and community through interactive features.",
+      "technical_spec": "Comments, direct messages, and following systems.",
+      "severity_score": 10
     },
     {
-      "title": "Privacy Focus",
-      "description": "Emphasizes user data privacy and control over shared content.",
-      "technical_spec": "Clear privacy settings and user data management options.",
-      "severity_score": 5
+      "title": "Influencer Culture",
+      "description": "Promotes influencer culture as a key component of its social media platform.",
+      "technical_spec": "Analytics for engagement, partnership tools.",
+      "severity_score": 20
+    },
+    {
+      "title": "Innovative Features",
+      "description": "Regularly updates with innovative features to keep users engaged.",
+      "technical_spec": "Introduction of features like stories, IGTV, and shopping experiences.",
+      "severity_score": 15
+    },
+    {
+      "title": "Global Accessibility",
+      "description": "Strives for global reach with language support and content policies sensitive to a diverse audience.",
+      "technical_spec": "Multi-language support, region-specific content adjustments.",
+      "severity_score": 10
     }
   ]
 }

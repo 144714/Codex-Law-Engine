@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 177,
+    "rank": 187,
     "site": "spotify.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "b3e41582303bb4fc59dbd7cf1dfe4302"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "1c9c4fa556dfddf1aa13ecc1b54eb2cb"
   },
   "data": [
     {
-      "title": "Encryption",
-      "description": "Spotify employs encryption in transit and at rest to protect user data.",
-      "technical_spec": "TLS for data in transit and AES-256 for data at rest.",
-      "severity_score": 10
-    },
-    {
-      "title": "Authentication and Authorization",
-      "description": "Uses OAuth 2.0 for secure authorization and to protect API endpoints.",
-      "technical_spec": "OAuth 2.0 framework with multi-factor authentication (MFA) for sensitive access.",
-      "severity_score": 20
-    },
-    {
-      "title": "Threat Detection and Response",
-      "description": "Implements comprehensive monitoring systems to detect and respond to suspicious activities.",
-      "technical_spec": "SIEM solutions and intrusion detection systems (IDS) to ensure proactive threat management.",
-      "severity_score": 30
-    },
-    {
-      "title": "Vulnerability Management",
-      "description": "Conducts regular security assessments and patching schedules to mitigate vulnerabilities.",
-      "technical_spec": "Routine penetration testing and automated scanning tools for vulnerability management.",
+      "title": "End-to-End Encryption",
+      "description": "Protects user data and communications between clients and servers.",
+      "technical_spec": "TLS is used to encrypt data in transit.",
       "severity_score": 35
     },
     {
-      "title": "Privacy Compliance",
-      "description": "Spotify adheres to global privacy laws to ensure user data protection and compliance.",
-      "technical_spec": "GDPR and CCPA compliance frameworks integrated into data management practices.",
-      "severity_score": 25
+      "title": "OAuth for Authentication",
+      "description": "Utilizes OAuth 2.0 for secure user authentication and authorization.",
+      "technical_spec": "API requests require an access token received upon OAuth flow completion.",
+      "severity_score": 20
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Routine security audits to identify and mitigate potential vulnerabilities.",
+      "technical_spec": "Includes both automated scans and manual penetration testing.",
+      "severity_score": 50
+    },
+    {
+      "title": "Bot Detection Mechanisms",
+      "description": "Systems in place to detect and prevent automated bot abuse of the platform.",
+      "technical_spec": "Behavioral analytics and CAPTCHA integrations.",
+      "severity_score": 60
+    },
+    {
+      "title": "User Account Protection",
+      "description": "Enhanced security measures for account protection and anomaly detection.",
+      "technical_spec": "Multi-factor authentication and anomaly detection algorithms.",
+      "severity_score": 45
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 176,
+    "rank": 186,
     "site": "netflix.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "41959e608f6c8495f3ebbee3e9f62cb8"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "b18b8ea62091e64bb9c475e12e162a75"
   },
   "data": [
     {
-      "title": "Innovation and Creativity",
-      "description": "Focusing on innovative approaches to entertainment.",
-      "technical_spec": "Original content production and technological advancements.",
-      "severity_score": 5
-    },
-    {
-      "title": "Global Accessibility",
-      "description": "Reaching a global audience through diverse content.",
-      "technical_spec": "Localization support for multiple languages and cultures.",
+      "title": "Innovative Storytelling",
+      "description": "Cuts through the clutter with a wide range of original and compelling content.",
+      "technical_spec": "Utilizes predictive analytics for content acquisition and production decisions.",
       "severity_score": 10
     },
     {
-      "title": "User-First Experience",
-      "description": "Prioritizing a seamless and enjoyable user experience.",
-      "technical_spec": "Data-driven personalization and user-friendly interfaces.",
+      "title": "User-Centric Personalization",
+      "description": "Delivers a personalized experience to improve viewer satisfaction.",
+      "technical_spec": "Machine learning algorithms curate content recommendations.",
+      "severity_score": 10
+    },
+    {
+      "title": "Global Reach and Local Appeal",
+      "description": "Caters to a global audience while offering culturally relevant local content.",
+      "technical_spec": "Dubbing and subtitles in multiple languages; focus on local productions.",
       "severity_score": 15
     },
     {
       "title": "Data-Driven Decisions",
-      "description": "Utilizing big data to inform strategic decisions.",
-      "technical_spec": "Advanced data analytics infrastructure for content and user insights.",
-      "severity_score": 10
+      "description": "Business strategy is highly reliant on data analytics to drive growth.",
+      "technical_spec": "Comprehensive data collection and analysis for user behavior insights.",
+      "severity_score": 20
     },
     {
-      "title": "Commitment to Quality",
-      "description": "Providing high-quality content and streaming capabilities.",
-      "technical_spec": "Investment in high-definition content and adaptive streaming technology.",
-      "severity_score": 5
+      "title": "Technological Pioneer",
+      "description": "Pioneers in streaming technology and content delivery innovation.",
+      "technical_spec": "Maintains cutting-edge infrastructure and develops proprietary technology.",
+      "severity_score": 10
     }
   ]
 }

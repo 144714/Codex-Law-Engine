@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 172,
+    "rank": 182,
     "site": "youtube.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "328d5e12e27310a9255a1842565b95d4"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "b147761441387978bf9031c5588f546e"
   },
   "data": [
     {
-      "title": "User Account Protection",
-      "description": "Implements multiple layers of security to safeguard user accounts.",
-      "technical_spec": "Two-factor authentication (2FA), password recovery mechanisms.",
-      "severity_score": 30
+      "title": "End-to-End Encryption",
+      "description": "Ensures the privacy and security of user data during transmission between devices and servers.",
+      "technical_spec": "TLS/SSL protocols implemented across all communication channels.",
+      "severity_score": 92
     },
     {
-      "title": "Content Moderation Algorithms",
-      "description": "Uses automated and manual measures to manage user-generated content.",
-      "technical_spec": "Deep learning algorithms and community guidelines enforcement.",
-      "severity_score": 35
+      "title": "Advanced Threat Detection",
+      "description": "YouTube employs a suite of AI-driven tools to detect and mitigate security threats in real-time.",
+      "technical_spec": "Behavioral analysis and anomaly detection systems.",
+      "severity_score": 89
     },
     {
-      "title": "Data Encryption",
-      "description": "Ensures all data in transit and at rest is encrypted.",
-      "technical_spec": "TLS protocols for data in transit, AES-256 encryption for data at rest.",
-      "severity_score": 10
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "An extra layer of security to prevent unauthorized access to user accounts.",
+      "technical_spec": "Supports various methods of authentication, including authenticator apps and SMS.",
+      "severity_score": 87
     },
     {
-      "title": "DDoS Protection",
-      "description": "Protection against Distributed Denial of Service attacks to maintain uptime.",
-      "technical_spec": "Traffic analysis and content filtering systems.",
-      "severity_score": 40
+      "title": "Abuse and Spam Prevention",
+      "description": "Machine learning algorithms are used to identify and mitigate spam content and abuse.",
+      "technical_spec": "NLP and pattern recognition models constantly updated with new threat intelligence.",
+      "severity_score": 85
     },
     {
-      "title": "Fraud Detection Systems",
-      "description": "Monitors for unusual patterns indicating potential fraud.",
-      "technical_spec": "Behavioral analytics and anomaly detection algorithms.",
-      "severity_score": 45
+      "title": "Regular Security Audits",
+      "description": "Regular internal and external audits to ensure compliance with security best practices and standards.",
+      "technical_spec": "Industry-standard techniques and tools employed for vulnerability assessments.",
+      "severity_score": 88
     }
   ]
 }

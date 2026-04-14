@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 175,
+    "rank": 185,
     "site": "amazon.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "2c332921fc6e66f2e2c720929e2ab70b"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "6d5615437cbc94a52817b9b5f5088c7f"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Ensures end-to-end encryption for data at rest and in transit to protect customer data.",
-      "technical_spec": "TLS 1.2/1.3, AES-256",
-      "severity_score": 30
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Implements measures to protect against distributed denial-of-service attacks.",
-      "technical_spec": "AWS Shield, AWS WAF",
-      "severity_score": 35
-    },
-    {
       "title": "Identity and Access Management",
-      "description": "Employs strict identity and access management controls to manage user permissions.",
-      "technical_spec": "AWS IAM, MFA",
-      "severity_score": 25
+      "description": "Comprehensive IAM policies to control permissions and user access.",
+      "technical_spec": "AWS IAM, MFA, Role-based access control",
+      "severity_score": 20
     },
     {
-      "title": "Security Monitoring and Threat Detection",
-      "description": "Proactively monitors systems for unusual activity and potential threats.",
-      "technical_spec": "Amazon GuardDuty, AWS CloudTrail",
-      "severity_score": 40
+      "title": "Data Encryption Standards",
+      "description": "Encryption to protect data at rest and in transit.",
+      "technical_spec": "AWS KMS, TLS/SSL certificates",
+      "severity_score": 18
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts regular security audits and assessments to identify and mitigate vulnerabilities.",
-      "technical_spec": "AWS Security Hub, Penetration testing",
-      "severity_score": 50
+      "description": "Conducts regular security audits to identify vulnerabilities.",
+      "technical_spec": "AWS CloudTrail, Inspector, GuardDuty",
+      "severity_score": 22
+    },
+    {
+      "title": "Firewalls and Network Security",
+      "description": "Uses firewalls and network security measures to protect against attacks.",
+      "technical_spec": "AWS WAF, Shield, Security Groups",
+      "severity_score": 25
+    },
+    {
+      "title": "Incident Response Plan",
+      "description": "Preparedness plan to respond to security incidents effectively.",
+      "technical_spec": "AWS Security Hub, Incident Manager",
+      "severity_score": 30
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 171,
+    "rank": 181,
     "site": "google.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "6272f82f89efda53acae4987bd84fd07"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "4a8aee2133976b8c00377fc475383d3f"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "An additional layer of security for account protection.",
-      "technical_spec": "Integration of physical security keys and authentication apps.",
+      "title": "Advanced Threat Detection",
+      "description": "Integrated systems for detecting and responding to cyber threats in real-time.",
+      "technical_spec": "Machine learning, AI-based threat intelligence",
       "severity_score": 20
     },
     {
-      "title": "TLS Encryption",
-      "description": "Ensures a secure connection between users and services.",
-      "technical_spec": "Advanced TLS protocols ensuring encrypted connections.",
+      "title": "Encrypted Communications",
+      "description": "All communication channels are encrypted to protect user data and privacy.",
+      "technical_spec": "TLS/SSL protocols, end-to-end encryption",
+      "severity_score": 15
+    },
+    {
+      "title": "Two-Factor Authentication",
+      "description": "Enhanced login security with multi-factor authentication options.",
+      "technical_spec": "OAuth 2.0, FIDO security keys",
+      "severity_score": 10
+    },
+    {
+      "title": "Bot and DDoS Protection",
+      "description": "Defense mechanisms to manage and mitigate bot and DDoS attacks.",
+      "technical_spec": "Edge protection, CAPTCHA systems",
       "severity_score": 25
     },
     {
-      "title": "DDoS Protection",
-      "description": "Global defenses against Distributed Denial of Service attacks.",
-      "technical_spec": "Google Shield and transaction filtering technologies.",
-      "severity_score": 30
-    },
-    {
-      "title": "Data Loss Prevention (DLP)",
-      "description": "Prevents accidental or intentional data leaks.",
-      "technical_spec": "Machine learning models for sensitive data detection.",
-      "severity_score": 22
-    },
-    {
-      "title": "Intrusion Detection System (IDS)",
-      "description": "Continuous monitoring to detect suspicious activities.",
-      "technical_spec": "Real-time analysis with AI-driven threat detection.",
-      "severity_score": 28
+      "title": "Regular Security Audits",
+      "description": "Frequent audits and vulnerability assessments to reinforce security posture.",
+      "technical_spec": "External audits, internal red team exercises",
+      "severity_score": 15
     }
   ]
 }

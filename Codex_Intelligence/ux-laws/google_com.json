@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 171,
+    "rank": 181,
     "site": "google.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "1b56ebe0d302f48fe5d353af77de7566"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "088410865fda90068c777d2589a45183"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifying choices to enhance user experience.",
-      "technical_spec": "Minimal design with quick-navigation menus and autocomplete.",
-      "severity_score": 18
+      "title": "Simplicity",
+      "description": "The interface is designed to be minimalistic and easy to understand.",
+      "technical_spec": "Clean UI, flat design principles",
+      "severity_score": 5
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Designing interface elements for easy interaction.",
-      "technical_spec": "Large, clickable buttons on commonly used functions.",
+      "title": "Accessibility",
+      "description": "The site prioritizes accessibility by employing a range of assistive technologies.",
+      "technical_spec": "ARIA roles, keyboard navigation support",
       "severity_score": 20
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "People are more tolerant of usability issues when designs are aesthetically pleasing.",
-      "technical_spec": "Clean interfaces, ample whitespace, and visual harmony.",
-      "severity_score": 12
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Users spend most of their time on other sites and prefer your site to work the same way as other sites they already know.",
-      "technical_spec": "Consistent design elements and familiar navigation patterns.",
-      "severity_score": 15
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Group related items together to establish relationships.",
-      "technical_spec": "Logical grouping of related search results and ads.",
+      "title": "Performance",
+      "description": "Fast loading times are crucial for enhanced user experience.",
+      "technical_spec": "Lazy loading, resource optimization",
       "severity_score": 10
+    },
+    {
+      "title": "Consistency",
+      "description": "UI elements are consistently designed to meet user expectations.",
+      "technical_spec": "Material Design guidelines",
+      "severity_score": 10
+    },
+    {
+      "title": "Feedback",
+      "description": "Timely feedback mechanisms to guide and inform users.",
+      "technical_spec": "Loading indicators, error messages",
+      "severity_score": 15
     }
   ]
 }

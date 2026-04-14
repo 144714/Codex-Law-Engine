@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 176,
+    "rank": 186,
     "site": "netflix.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "caac61a5f5c229e0df49d64719db3138"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "2434e1134b10b27eb97c1edf639410e0"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies user choices to reduce decision-making time.",
-      "technical_spec": "Optimized on-screen options for quick navigation.",
+      "title": "Aesthetic-Usability Effect",
+      "description": "The visually appealing interface encourages usage and engagement.",
+      "technical_spec": "Consistent design language with smooth animations across platforms.",
       "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Design of interactive elements for easy access.",
-      "technical_spec": "Larger buttons and actionable elements for TV remote use.",
+      "title": "Hick’s Law",
+      "description": "The design minimizes decision time by simplifying layout and navigation.",
+      "technical_spec": "Intuitive UI with personalized content recommendations reduces cognitive load.",
       "severity_score": 15
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Emphasizing aesthetics to improve perceived usability.",
-      "technical_spec": "Visually appealing interfaces with modern design principles.",
-      "severity_score": 5
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Groups related items visually to enhance comprehension.",
-      "technical_spec": "Category-based content grouping for intuitive browsing.",
+      "title": "Fitts’s Law",
+      "description": "Elements are placed strategically for ease of use, enhancing navigation efficiency.",
+      "technical_spec": "Focus on position and size of interactive elements to reduce user effort.",
       "severity_score": 10
     },
     {
       "title": "Jakob’s Law",
-      "description": "Leveraging familiar design patterns to meet user expectations.",
-      "technical_spec": "Consistent use of navigation patterns familiar to users of similar platforms.",
+      "description": "Adheres to web standards to meet user expectations and ease navigation.",
+      "technical_spec": "UI consistency across devices with familiar control patterns.",
+      "severity_score": 5
+    },
+    {
+      "title": "Pareto Principle",
+      "description": "Focus on key features that drive the most user engagement.",
+      "technical_spec": "Prioritization of discovery and playback functionalities.",
       "severity_score": 20
     }
   ]

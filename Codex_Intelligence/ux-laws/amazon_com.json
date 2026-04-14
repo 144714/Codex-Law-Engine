@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 175,
+    "rank": 185,
     "site": "amazon.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "9e0a388d849b2057f31c37392f6a786a"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "00a30554b852d8d3d9af4203e8ecd23d"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Improves navigation by placing important buttons and links in accessible locations on the page.",
-      "technical_spec": "UI components proximity",
-      "severity_score": 20
-    },
-    {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making by reducing the number of choices presented to the user at any one time.",
-      "technical_spec": "Progressive disclosure",
-      "severity_score": 30
+      "description": "Simplifies decision making by reducing choices presented at once.",
+      "technical_spec": "Simplified UI, easy navigation",
+      "severity_score": 12
     },
     {
-      "title": "Jakob's Law",
-      "description": "Designs interfaces familiar to users based on their previous experiences with similar platforms.",
-      "technical_spec": "Consistent layout patterns",
+      "title": "Fitts's Law",
+      "description": "Optimizes button sizes to enhance usability on various devices.",
+      "technical_spec": "Responsive design, touch-friendly interfaces",
       "severity_score": 15
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related elements together to create a logical structure that enhances navigation.",
-      "technical_spec": "Visual hierarchy",
-      "severity_score": 25
+      "title": "Jakob's Law",
+      "description": "Ensures familiar design patterns that users have encountered before.",
+      "technical_spec": "Consistent layout, familiar icons",
+      "severity_score": 10
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Prioritizes key products and offers by placing them in positions of attention on the webpage.",
-      "technical_spec": "Top and bottom page position",
-      "severity_score": 10
+      "title": "Law of User Control",
+      "description": "Allows users to feel in control with easy undo and redo options.",
+      "technical_spec": "Clear navigation, customer account control",
+      "severity_score": 13
+    },
+    {
+      "title": "Law of Feedback",
+      "description": "Provides users with timely feedback about their interactions.",
+      "technical_spec": "Loading indicators, confirmation messages",
+      "severity_score": 18
     }
   ]
 }

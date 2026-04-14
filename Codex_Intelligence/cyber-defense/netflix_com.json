@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 176,
+    "rank": 186,
     "site": "netflix.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "e9e0fa51ef955020089d9c43b2f58fe9"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "b37f450704693a26a076e9a058609653"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Secures data across the network.",
-      "technical_spec": "Utilizes HTTPS and TLS protocols for data in transit.",
+      "title": "Security Information and Event Management (SIEM)",
+      "description": "SIEM solutions are integrated for real-time analysis of security alerts.",
+      "technical_spec": "Incorporates Splunk for log management and event monitoring.",
+      "severity_score": 30
+    },
+    {
+      "title": "Multi-layer Authentication",
+      "description": "Ensures user accounts are secure with multiple authentication factors.",
+      "technical_spec": "Two-factor authentication is supported for enhanced security.",
       "severity_score": 25
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Ensures proper authentication and access control.",
-      "technical_spec": "Incorporates OAuth 2.0 for secure user authentication.",
+      "title": "Data Encryption",
+      "description": "Uses encryption protocols to protect user data at rest and in transit.",
+      "technical_spec": "Employs TLS and AES-256 for data protection.",
+      "severity_score": 20
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regular vulnerability scans and assessments to mitigate security risks.",
+      "technical_spec": "Utilizes tools like Nessus and Burp Suite for vulnerability scanning.",
       "severity_score": 35
     },
     {
-      "title": "DDoS Protection",
-      "description": "Protects against Distributed Denial of Service attacks.",
-      "technical_spec": "Uses scalable cloud-based defenses to absorb attack traffic.",
+      "title": "Threat Intelligence",
+      "description": "Incorporates threat intelligence feeds to anticipate potential threats.",
+      "technical_spec": "Employs solutions that aggregate and analyze threat data from multiple sources.",
       "severity_score": 40
-    },
-    {
-      "title": "Vulnerability Testing",
-      "description": "Regular vulnerability assessments to detect and mitigate risks.",
-      "technical_spec": "Performs automated and manual security audits.",
-      "severity_score": 45
-    },
-    {
-      "title": "Security Operations Center",
-      "description": "Monitors and responds to threats continuously.",
-      "technical_spec": "Operates a 24/7 SOC for real-time threat analysis and incident response.",
-      "severity_score": 50
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 178,
+    "rank": 188,
     "site": "adobe.com",
-    "date": "2026-04-14 22:37",
-    "integrity_hash": "5c50dd34dc3e6eb330cbbce460b3d6b7"
+    "date": "2026-04-14 23:35",
+    "integrity_hash": "b362aa2acd518779a5ff346139532dc5"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Adobe utilizes a microservices architecture to enhance scalability and maintainability of its platform.",
-      "technical_spec": "Docker, Kubernetes, REST APIs",
-      "severity_score": 10
+      "title": "Content Delivery Network (CDN) Utilization",
+      "description": "Adobe.com employs CDNs to efficiently deliver content on its site globally.",
+      "technical_spec": "Cloud-based CDN services, multi-region edge servers",
+      "severity_score": 25
     },
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "The site is hosted on cloud-based services to ensure high availability and performance.",
-      "technical_spec": "AWS, Microsoft Azure",
-      "severity_score": 15
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Adobe employs a CDN to deliver content efficiently across global regions.",
-      "technical_spec": "Akamai, Cloudflare",
+      "title": "Scalable Microservices",
+      "description": "Adobe leverages a microservices architecture to ensure scalable and independent application deployment.",
+      "technical_spec": "Docker containers, Kubernetes orchestration",
       "severity_score": 20
     },
     {
-      "title": "Load Balancing",
-      "description": "A load balancing mechanism is in place to distribute incoming traffic and prevent server overload.",
-      "technical_spec": "Nginx, HAProxy",
+      "title": "Load Balancing Capabilities",
+      "description": "The site utilizes load balancing to distribute traffic evenly across servers, enhancing performance under load.",
+      "technical_spec": "Nginx or HAProxy with automatic failover",
       "severity_score": 30
     },
     {
-      "title": "Data Redundancy and Backup",
-      "description": "Data redundancy strategies are implemented to ensure data preservation and integrity.",
-      "technical_spec": "Replication, Cloud Backup Solutions",
-      "severity_score": 25
+      "title": "Responsive Web Design",
+      "description": "Ensures that adobe.com is accessible and aesthetically pleasing across all device types and sizes.",
+      "technical_spec": "CSS Flexbox/Grid, media queries",
+      "severity_score": 15
+    },
+    {
+      "title": "APIs and Integration Points",
+      "description": "Adobe offers public APIs for developers to integrate Adobe services into other applications and services.",
+      "technical_spec": "RESTful API endpoints, OAuth 2.0 authentication",
+      "severity_score": 40
     }
   ]
 }
