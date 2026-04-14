@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 107,
+    "rank": 117,
     "site": "spotify.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "eda654a0fe43da4b19767e1f5c657bb0"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "c8cb64357eec0495a92bec7fe62da04e"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Enhances account security with the requirement of a second authentication factor.",
-      "technical_spec": "Supports OTPs via SMS and authenticator apps.",
-      "severity_score": 75
+      "title": "User Data Encryption",
+      "description": "Ensures that user data is encrypted both at rest and in transit.",
+      "technical_spec": "Utilizes AES-256 encryption for data at rest and TLS 1.2+ for data in transit.",
+      "severity_score": 95
     },
     {
-      "title": "Data Encryption",
-      "description": "Encrypts data in transit and at rest to protect user information.",
-      "technical_spec": "Uses TLS for data in transit and AES-256 for data at rest.",
-      "severity_score": 85
+      "title": "Access Control Policies",
+      "description": "Implements strict access control measures to protect user and system data.",
+      "technical_spec": "Employs role-based access control (RBAC) and multi-factor authentication (MFA).",
+      "severity_score": 92
     },
     {
-      "title": "Network Security",
-      "description": "Deploys firewalls and intrusion detection systems to monitor and protect against threats.",
-      "technical_spec": "Uses AWS security tools and custom monitoring solutions.",
+      "title": "Threat Monitoring Systems",
+      "description": "Proactively monitors for unusual activities or potential threats.",
+      "technical_spec": "Uses advanced SIEM (Security Information and Event Management) systems with real-time alerts.",
+      "severity_score": 88
+    },
+    {
+      "title": "Periodic Security Audits",
+      "description": "Conducts regular security assessments to identify vulnerabilities.",
+      "technical_spec": "Engages external cybersecurity firms for penetration testing and compliance checks.",
+      "severity_score": 86
+    },
+    {
+      "title": "Incident Response Protocol",
+      "description": "Established procedures for quickly addressing security incidents.",
+      "technical_spec": "Includes automated logging, analysis, and a 24/7 incident response team.",
       "severity_score": 90
-    },
-    {
-      "title": "Vulnerability Management",
-      "description": "Regularly scans for vulnerabilities and applies patches promptly.",
-      "technical_spec": "Utilizes automated scanning tools and manual testing.",
-      "severity_score": 83
-    },
-    {
-      "title": "Access Control",
-      "description": "Implements strong access control measures to restrict internal and external access.",
-      "technical_spec": "Role-based access control and single sign-on integration.",
-      "severity_score": 80
     }
   ]
 }

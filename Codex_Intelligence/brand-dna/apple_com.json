@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 103,
+    "rank": 113,
     "site": "apple.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "90a07b9366f211b6fd6c15ebd3aeb69f"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "6f5e1c24f330226f031c9bc675818804"
   },
   "data": [
     {
-      "title": "Minimalism",
-      "description": "Simple, clean, and aesthetically pleasing design characteristic of Apple's branding.",
-      "technical_spec": "Whitespace utilization, Flat Design Elements",
-      "severity_score": 10
-    },
-    {
       "title": "Innovation",
-      "description": "Brand ethos emphasizing cutting-edge technology and forward-thinking design.",
-      "technical_spec": "AR/VR Experiences, Interactive Product Demos",
-      "severity_score": 12
+      "description": "Commits to pushing the boundaries of technology and design.",
+      "technical_spec": "Cutting-edge R&D, pioneering new products, continuously evolving.",
+      "severity_score": 95
     },
     {
-      "title": "User-Centric Focus",
-      "description": "Design approach centered on user experience and satisfaction.",
-      "technical_spec": "Intuitive Navigation, Accessible Design Standards",
-      "severity_score": 8
+      "title": "User-Centric Design",
+      "description": "Places user experience at the forefront of product development.",
+      "technical_spec": "Human-centered design processes, feedback loops, prototyping.",
+      "severity_score": 90
     },
     {
-      "title": "Premium Aesthetic",
-      "description": "Visual and interactive elements conveying a high-end, luxurious feel.",
-      "technical_spec": "High-Quality Visuals, Elegant Typography",
-      "severity_score": 14
+      "title": "Seamless Integration",
+      "description": "Offers an ecosystem where devices and services work harmoniously.",
+      "technical_spec": "iCloud, Continuity, ecosystem-friendly software architecture.",
+      "severity_score": 92
     },
     {
-      "title": "Consistency",
-      "description": "Maintaining a uniform brand representation across all platforms.",
-      "technical_spec": "Cross-Platform Design Standards, Brand Guidelines",
-      "severity_score": 9
+      "title": "Sustainability",
+      "description": "Focuses on reducing environmental impact in production and packaging.",
+      "technical_spec": "Recyclable materials, clean energy initiatives, carbon-neutral goals.",
+      "severity_score": 88
+    },
+    {
+      "title": "Privacy First",
+      "description": "Prioritizes user privacy with robust security measures and transparent policies.",
+      "technical_spec": "Data encryption, privacy controls, no data sharing without consent.",
+      "severity_score": 92
     }
   ]
 }

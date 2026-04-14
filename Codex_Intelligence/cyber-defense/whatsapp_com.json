@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 110,
+    "rank": 120,
     "site": "whatsapp.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "73938d1ac3a11046579eda619009ddf1"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "6d2ff7da914b667722491c3bf79f20fb"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Encrypts data in transit and at rest to protect user privacy.",
-      "technical_spec": "AES-256 encryption for storage, TLS 1.3 for data transmission.",
+      "title": "Two-Step Verification",
+      "description": "An extra layer of security that requires users to provide a PIN in addition to SMS-based authentication.",
+      "technical_spec": "Users can set up a six-digit PIN that is required when registering a phone number with WhatsApp again.",
+      "severity_score": 15
+    },
+    {
+      "title": "Encrypted Backups",
+      "description": "WhatsApp offers encrypted backups to make stored messages secure from unauthorized access.",
+      "technical_spec": "Users can encrypt their backups with a password or a 64-digit encryption key.",
+      "severity_score": 10
+    },
+    {
+      "title": "Security Notifications",
+      "description": "WhatsApp alerts users when the security code of a contact changes for improved transparency.",
+      "technical_spec": "This feature helps users ensure that conversations remain encrypted and contact identity is verified.",
       "severity_score": 20
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Provides an extra layer of security for user accounts.",
-      "technical_spec": "Optional pin-based 2FA via SMS or authenticator apps.",
-      "severity_score": 40
+      "title": "Automatic Security Updates",
+      "description": "WhatsApp automatically deploys security patches to protect users against emerging threats.",
+      "technical_spec": "This is achieved through server updates and application upgrades across platforms.",
+      "severity_score": 5
     },
     {
-      "title": "Anomaly Detection Systems",
-      "description": "Monitors and detects unusual activity patterns to prevent breaches.",
-      "technical_spec": "Machine learning algorithms to track and analyze user behavior.",
-      "severity_score": 30
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts frequent audits to identify and rectify vulnerabilities.",
-      "technical_spec": "Internal and third-party security assessments using automated tools.",
+      "title": "Report Spam and Block",
+      "description": "Users can report and block contacts or messages suspected to be spam or malicious.",
+      "technical_spec": "When a number is reported, WhatsApp collects a user's recent interaction metadata to analyze.",
       "severity_score": 25
-    },
-    {
-      "title": "Zero Day Threat Response",
-      "description": "Prepares and rapidly responds to zero-day threats to mitigate risks.",
-      "technical_spec": "Dedicated security team and automated patch deployment system.",
-      "severity_score": 45
     }
   ]
 }

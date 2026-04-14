@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 109,
+    "rank": 119,
     "site": "instagram.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "30a38a5a94a8e311fe112c2e72277fdb"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "09c717dad8cf6d3bb1e2e22b0772a8f5"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Streamlines the user decision-making process by minimizing menu options.",
-      "technical_spec": "Design patterns focusing on simplicity and primary features upfront.",
-      "severity_score": 80
+      "title": "Hick’s Law",
+      "description": "Simplifies user decision-making by limiting choices and providing a streamlined UI.",
+      "technical_spec": "Design principles that reduce cognitive load via simplified navigation and layout.",
+      "severity_score": 10
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizes actionable elements for easier interaction and accessibility.",
-      "technical_spec": "Big buttons and touch-targets for mobile-friendliness.",
-      "severity_score": 85
+      "title": "Fitts’s Law",
+      "description": "Optimizes touch targets for easier user interaction.",
+      "technical_spec": "Ensures buttons and interactive elements are adequately sized and spaced.",
+      "severity_score": 15
     },
     {
-      "title": "Miller's Law",
-      "description": "Groups information in chunks for easier cognitive processing.",
-      "technical_spec": "Segmented feeds and stories to enhance content digestibility.",
-      "severity_score": 82
+      "title": "Aesthetic-Usability Effect",
+      "description": "Enhances user experience by combining aesthetic appeal with usability.",
+      "technical_spec": "Clean visual design that balances color schemes and typography.",
+      "severity_score": 5
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Enhances user experience by focusing on memorable interaction peaks.",
-      "technical_spec": "Designing interactive stories and posts that highlight user-crafted content.",
-      "severity_score": 84
+      "title": "Jakob’s Law",
+      "description": "Utilizes familiar design patterns to meet user expectations.",
+      "technical_spec": "Consistency with commonly recognized UI practices found on other platforms.",
+      "severity_score": 20
     },
     {
-      "title": "Jakob's Law",
-      "description": "Ensures users' experience is familiar across different platforms.",
-      "technical_spec": "UI consistency with design elements on Facebook and other apps.",
-      "severity_score": 83
+      "title": "Law of Proximity",
+      "description": "Improves content organization by grouping related items together.",
+      "technical_spec": "Logical grouping of content sections and features to enhance clarity.",
+      "severity_score": 10
     }
   ]
 }

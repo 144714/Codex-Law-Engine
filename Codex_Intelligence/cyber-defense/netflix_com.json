@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 106,
+    "rank": 116,
     "site": "netflix.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "391ae7533c8542b191061fc0abe04c3b"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "6ef4d6bc8e92a4118efabb1758c72c1d"
   },
   "data": [
     {
-      "title": "Content Protection",
-      "description": "Ensures licensed content is protected against unauthorized access and distribution.",
-      "technical_spec": "Deploys multi-DRM services including Google Widevine and Microsoft PlayReady.",
-      "severity_score": 25
+      "title": "Advanced Encryption Techniques",
+      "description": "Encryption of data at rest and in transit to secure user data and content.",
+      "technical_spec": "TLS for data in transit, AES-256 encryption for data at rest.",
+      "severity_score": 80
     },
     {
-      "title": "User Data Encryption",
-      "description": "Encrypts all user data to prevent unauthorized access.",
-      "technical_spec": "Utilizes TLS for data in transit and AES-256 for data at rest.",
-      "severity_score": 15
+      "title": "Multi-Factor Authentication (MFA)",
+      "description": "MFA adds an extra layer of security to user accounts by requiring multiple verification steps.",
+      "technical_spec": "Supports SMS and application-based authentication methods.",
+      "severity_score": 70
     },
     {
-      "title": "Access Management",
-      "description": "Implements stringent access controls and monitoring to protect resources.",
-      "technical_spec": "Role-based access controls combined with multi-factor authentication.",
-      "severity_score": 30
+      "title": "Threat Detection Systems",
+      "description": "Real-time monitoring systems that detect and respond to potential threats and unauthorized access attempts.",
+      "technical_spec": "Utilizes AI and machine learning to identify anomalies.",
+      "severity_score": 85
     },
     {
-      "title": "Fraud Detection",
-      "description": "Detects and prevents credential stuffing and account takeover attempts.",
-      "technical_spec": "Machine learning models analyze login behavior patterns for anomalies.",
-      "severity_score": 35
+      "title": "Data Privacy Protocols",
+      "description": "Strict protocols in place to ensure user data privacy and compliance with data protection regulations.",
+      "technical_spec": "GDPR compliance for EMEA, CCPA for California regions.",
+      "severity_score": 75
     },
     {
-      "title": "Security Audits",
-      "description": "Regular assessments to identify vulnerabilities in the system.",
-      "technical_spec": "Involves bug bounty programs and static/dynamic application security testing.",
-      "severity_score": 20
+      "title": "Bug Bounty Program",
+      "description": "Encourages ethical hackers to find vulnerabilities by offering rewards for valid security findings.",
+      "technical_spec": "Managed via third-party platforms like HackerOne.",
+      "severity_score": 65
     }
   ]
 }

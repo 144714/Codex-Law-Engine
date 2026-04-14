@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 109,
+    "rank": 119,
     "site": "instagram.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "100c5631498e97ccdf76b18a22d7402b"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "c7bafdbb20ac1f0c67835c1b66e4e23e"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Instagram employs a microservices architecture to manage different functionalities independently.",
-      "technical_spec": "Containerization using Docker and orchestration through Kubernetes.",
-      "severity_score": 85
+      "title": "Microservices Architecture",
+      "description": "Instagram uses a microservices architecture to enhance scalability and maintainability.",
+      "technical_spec": "Containers managed with Kubernetes and Docker, multiple APIs handling different services.",
+      "severity_score": 15
     },
     {
       "title": "GraphQL API",
-      "description": "Utilizes GraphQL for data querying across web and mobile platforms.",
-      "technical_spec": "Runs on Node.js with a backend written in Python and Java.",
-      "severity_score": 90
+      "description": "GraphQL used for efficient data retrieval and to reduce network requests.",
+      "technical_spec": "A single endpoint for handling complex queries, running on Node.js and Apollo Server.",
+      "severity_score": 20
     },
     {
-      "title": "CDN Usage",
-      "description": "Content Delivery Networks are used to ensure fast content delivery across the globe.",
-      "technical_spec": "Integration with Akamai or Cloudflare for global edge delivery.",
-      "severity_score": 80
+      "title": "CDN Utilization",
+      "description": "Content Delivery Network used for optimizing content delivery.",
+      "technical_spec": "Integration with services like Akamai or Cloudflare to cache static and dynamic content.",
+      "severity_score": 10
     },
     {
-      "title": "Data Storage",
-      "description": "Hybrid approach using on-premise databases and cloud storage for flexibility and scale.",
-      "technical_spec": "Primary data storage in PostgreSQL with S3 buckets for media storage.",
-      "severity_score": 88
+      "title": "Distributed Databases",
+      "description": "High availability maintained through distributed databases.",
+      "technical_spec": "Sharded databases like Cassandra, along with Postgres for data storage.",
+      "severity_score": 25
     },
     {
-      "title": "Load Balancing",
-      "description": "Employs load balancing to manage high traffic efficiently.",
-      "technical_spec": "Nginx/HAProxy used as load balancers to distribute traffic evenly.",
-      "severity_score": 85
+      "title": "Real-Time Data Processing",
+      "description": "Real-time data processing for features like live feeds and updates.",
+      "technical_spec": "Streams and message queues processed through Apache Kafka.",
+      "severity_score": 30
     }
   ]
 }

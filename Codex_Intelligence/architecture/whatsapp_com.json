@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 110,
+    "rank": 120,
     "site": "whatsapp.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "04cd11f95ea794e1ad81af294eeae60e"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "829ac859442d4357edb14b7b74e22adf"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "WhatsApp employs a microservices architecture to enhance scalability and maintainability.",
-      "technical_spec": "Distributed services using Docker containers and Kubernetes for orchestration.",
-      "severity_score": 20
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "All messages are end-to-end encrypted to ensure privacy and security.",
-      "technical_spec": "Utilizes the Signal Protocol for encryption.",
+      "title": "Client-Server Model",
+      "description": "WhatsApp employs a client-server model to facilitate messaging services between users.",
+      "technical_spec": "The architecture utilizes a centralized server that manages message routing, delivery, and storage.",
       "severity_score": 10
     },
     {
-      "title": "Cross-Platform Synchronization",
-      "description": "Ensures consistent user experience across mobile and web platforms.",
-      "technical_spec": "Uses client-server model with JSON and WebSockets for real-time updates.",
+      "title": "End-to-End Encryption",
+      "description": "Messages are encrypted on the sender's device and decrypted on the receiver's device to ensure privacy.",
+      "technical_spec": "WhatsApp uses the Signal Protocol for encryption, which is known for its strong security features.",
+      "severity_score": 5
+    },
+    {
+      "title": "XMPP Protocol",
+      "description": "WhatsApp originally used the Extensible Messaging and Presence Protocol (XMPP) for message transmission.",
+      "technical_spec": "XMPP is an open-standard communications protocol primarily for instant messaging.",
+      "severity_score": 20
+    },
+    {
+      "title": "Erlang Backend",
+      "description": "The server backend is built using Erlang, a language designed for scalable and highly available systems.",
+      "technical_spec": "Erlang provides benefits like low latency, high throughput, and distributed computing capabilities.",
       "severity_score": 15
     },
     {
-      "title": "Global Content Delivery Network",
-      "description": "Improves accessibility and speed by using a global CDN.",
-      "technical_spec": "AWS CloudFront and other regional CDNs to cache data close to users.",
-      "severity_score": 15
-    },
-    {
-      "title": "Event-Driven Architecture",
-      "description": "Enables WhatsApp to handle billions of messages daily with high reliability.",
-      "technical_spec": "Kafka and Cassandra for messaging and storage.",
-      "severity_score": 30
+      "title": "Distributed Database Management",
+      "description": "WhatsApp employs distributed databases to handle the large volumes of user and message data.",
+      "technical_spec": "These databases are optimized for speed and reliability, crucial for real-time communications.",
+      "severity_score": 25
     }
   ]
 }

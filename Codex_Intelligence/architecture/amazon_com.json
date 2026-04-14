@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 105,
+    "rank": 115,
     "site": "amazon.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "289896a30625379caa86b5e043798e8a"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "6d1d4039e09c64c74d13857fcaa30a40"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "A system design that uses independent, deployable services to enhance scalability and maintainability.",
-      "technical_spec": "Service-Oriented Architecture, REST API, Containers",
-      "severity_score": 5
+      "description": "Amazon uses a microservices architecture to improve scalability and isolate services for individual teams.",
+      "technical_spec": "Distributed system composed of independently deployable services.",
+      "severity_score": 95
     },
     {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "Amazon's use of its own AWS products to ensure the website can handle millions of concurrent users.",
-      "technical_spec": "AWS EC2, Load Balancers, Auto-scaling",
-      "severity_score": 4
+      "title": "AWS Cloud Infrastructure",
+      "description": "The platform runs on Amazon’s own AWS infrastructure, providing cloud-based service resilience.",
+      "technical_spec": "Utilizes AWS EC2, S3, and other cloud services to host applications.",
+      "severity_score": 90
     },
     {
-      "title": "High Availability Design",
-      "description": "Designed to provide continuous operations without interruptions.",
-      "technical_spec": "Redundancy, Multi-AZ Deployments, Failover Mechanisms",
-      "severity_score": 3
-    },
-    {
-      "title": "Database Sharding",
-      "description": "Splitting data into shards across multiple databases to reduce query load.",
-      "technical_spec": "NoSQL, Amazon DynamoDB, Partition Keys",
-      "severity_score": 7
+      "title": "Data Storage",
+      "description": "Various storage solutions are used for different purposes, including Amazon RDS and DynamoDB.",
+      "technical_spec": "Relational and NoSQL databases to manage transactional and big data needs.",
+      "severity_score": 85
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "A network to distribute content globally for lower latency.",
-      "technical_spec": "Amazon CloudFront, Edge Locations",
-      "severity_score": 10
+      "description": "Amazon uses CloudFront to deliver content rapidly to global users.",
+      "technical_spec": "Edge locations for low-latency data delivery.",
+      "severity_score": 80
+    },
+    {
+      "title": "Event-Driven Architecture",
+      "description": "To process and respond to events quickly, leveraging services like AWS Lambda.",
+      "technical_spec": "Serverless computing to handle real-time data feeds and processing.",
+      "severity_score": 75
     }
   ]
 }

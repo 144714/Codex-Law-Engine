@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 109,
+    "rank": 119,
     "site": "instagram.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "991224646503e7b9c32bf182e9bbe135"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "513fc34022a8824eda6f52a09e2e2ddf"
   },
   "data": [
     {
-      "title": "TLS Encryption",
-      "description": "End-to-end TLS encryption ensures data security during transmission.",
-      "technical_spec": "TLS 1.3 implementation for encrypted connections.",
-      "severity_score": 95
+      "title": "End-to-End Encryption",
+      "description": "Ensures secure communications between users and the platform.",
+      "technical_spec": "Encryption protocols such as TLS/SSL for data in transit.",
+      "severity_score": 35
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Enhances account security by requiring a second factor for authentication.",
-      "technical_spec": "Integration with authentication apps and SMS for 2FA.",
-      "severity_score": 90
+      "title": "Two-factor Authentication",
+      "description": "Adds an extra layer of security for user accounts.",
+      "technical_spec": "Support for both SMS-based and authenticator app-based verification.",
+      "severity_score": 40
     },
     {
-      "title": "Bot Detection",
-      "description": "Mitigates automated threats and spam through advanced bot detection algorithms.",
-      "technical_spec": "Machine learning models for behavioral analysis and CAPTCHA challenges.",
-      "severity_score": 88
+      "title": "Regular Pentesting",
+      "description": "Frequent penetration testing to identify and mitigate vulnerabilities.",
+      "technical_spec": "Red Team assessments and bounty programs to incentivize vulnerability reporting.",
+      "severity_score": 45
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular vulnerability assessments and patch management to address security flaws.",
-      "technical_spec": "Use of automated scanning tools like Nessus and manual penetration testing.",
-      "severity_score": 85
+      "title": "AI-based Threat Detection",
+      "description": "Machine learning algorithms to detect and respond to threats in real-time.",
+      "technical_spec": "Anomaly detection systems analyzing logs and user activity patterns.",
+      "severity_score": 50
     },
     {
-      "title": "Intrusion Detection Systems",
-      "description": "Monitors and analyzes system activity to prevent unauthorized access.",
-      "technical_spec": "Use of systems like Snort for real-time intrusion detection.",
-      "severity_score": 87
+      "title": "Data Anonymization",
+      "description": "Techniques implemented to anonymize sensitive user data.",
+      "technical_spec": "Data masking, pseudonymization methods to protect user privacy.",
+      "severity_score": 30
     }
   ]
 }

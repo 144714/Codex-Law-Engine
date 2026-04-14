@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 105,
+    "rank": 115,
     "site": "amazon.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "2bc526b04161ee1fe48d1d79e8781e85"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "e76cbc6851c2f707691055cab3f2d312"
   },
   "data": [
     {
-      "title": "Encryption in Transit and at Rest",
-      "description": "Using encryption to protect user data both when stored and during transmission.",
-      "technical_spec": "TLS/SSL, AES-256 Encryption",
-      "severity_score": 20
+      "title": "TLS Encryption",
+      "description": "Amazon uses Transport Layer Security (TLS) to encrypt data in transit.",
+      "technical_spec": "TLS 1.2/1.3 to secure customer data from interception.",
+      "severity_score": 99
     },
     {
-      "title": "Advanced Threat Detection",
-      "description": "Systems and AI to detect and mitigate potential cybersecurity threats in real-time.",
-      "technical_spec": "Amazon GuardDuty, Machine Learning Algorithms",
-      "severity_score": 15
+      "title": "WAF & Shield",
+      "description": "Web Application Firewall and AWS Shield protect against DDoS attacks.",
+      "technical_spec": "Layered defenses with monitoring and mitigation strategies.",
+      "severity_score": 95
     },
     {
-      "title": "Secure User Authentication",
-      "description": "Strong authentication mechanisms to ensure user identity verification.",
-      "technical_spec": "MFA, Token-based Authentication, OAuth",
-      "severity_score": 25
+      "title": "Data Protection",
+      "description": "Strong encryption protocols for data at rest using AWS KMS.",
+      "technical_spec": "AES-256 encryption for sensitive customer data.",
+      "severity_score": 90
     },
     {
-      "title": "Firewall and DDOS Protection",
-      "description": "Advanced firewalls and protection systems to prevent denial of service attacks.",
-      "technical_spec": "AWS WAF, Shield, Traffic Monitoring",
-      "severity_score": 18
+      "title": "IAM Practices",
+      "description": "Robust Identity and Access Management to control service and user access.",
+      "technical_spec": "Fine-grained permissions and two-factor authentication.",
+      "severity_score": 85
     },
     {
-      "title": "Continuous Security Monitoring",
-      "description": "Ongoing monitoring to identify and protect against security breaches.",
-      "technical_spec": "SIEM, Amazon CloudWatch, Security Incident Protocols",
-      "severity_score": 22
+      "title": "SOC and Penetration Testing",
+      "description": "Regular security audits and 24/7 monitored Security Operations Centers (SOCs).",
+      "technical_spec": "Third-party audits and compliance with security standards.",
+      "severity_score": 80
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 103,
+    "rank": 113,
     "site": "apple.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "6b58e7748bc3189e58ead882a61e5bb2"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "75f362d041bbc9aaeccb835b2a4930d7"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Design principle focusing on making interactive elements easy to reach and use.",
-      "technical_spec": "Button Size, Clickable Areas",
-      "severity_score": 15
+      "title": "Hick’s Law",
+      "description": "Simplifies choices to reduce decision time, enhancing user experience.",
+      "technical_spec": "Simplified navigation, clear call-to-action, intuitive design.",
+      "severity_score": 85
     },
     {
-      "title": "Hick's Law",
-      "description": "Minimizing decision-making complexity by simplifying choices for users.",
-      "technical_spec": "Progressive Disclosure, Simplified Menus",
-      "severity_score": 20
+      "title": "Fitts’s Law",
+      "description": "Optimizes interface design to improve user target acquisition.",
+      "technical_spec": "Reachable buttons, responsive design, adaptable interface.",
+      "severity_score": 90
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Balances aesthetics and usability to build user trust.",
+      "technical_spec": "Minimalist design, high-quality imagery, consistent branding.",
+      "severity_score": 88
     },
     {
       "title": "Gestalt Principles",
-      "description": "Design elements following Gestalt principles for better user perception.",
-      "technical_spec": "Proximity, Similarity, Closure in Design",
-      "severity_score": 10
+      "description": "Applies principles of perception to organize elements on the website.",
+      "technical_spec": "Proximity grouping, similarity, and continuity in layouts.",
+      "severity_score": 85
     },
     {
-      "title": "Miller’s Law",
-      "description": "Design approach accounting for the limited span of attention.",
-      "technical_spec": "Information Chunking, Focused Content Delivery",
-      "severity_score": 25
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Leveraging users’ familiarity with common design patterns from other websites.",
-      "technical_spec": "Consistency with Established Web Patterns, Familiar Interfaces",
-      "severity_score": 18
+      "title": "Law of Common Region",
+      "description": "Uses defined boundaries to guide user interactions.",
+      "technical_spec": "Contained sections, groupings with visual boundaries, clear demarcation.",
+      "severity_score": 87
     }
   ]
 }

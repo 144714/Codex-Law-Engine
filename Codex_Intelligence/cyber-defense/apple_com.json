@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 103,
+    "rank": 113,
     "site": "apple.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "5506234cb115048ea43e2bf7ae4da226"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "57d3708571664ce773b76dbee8c88cc6"
   },
   "data": [
     {
-      "title": "Encryption",
-      "description": "All data transactions are encrypted to protect user data from unauthorized access.",
-      "technical_spec": "TLS 1.3, AES-256 Encryption",
-      "severity_score": 50
-    },
-    {
-      "title": "Firewall Protection",
-      "description": "Robust firewall systems in place to shield from external threats.",
-      "technical_spec": "Next-Gen Firewall, Intrusion Prevention System",
-      "severity_score": 45
-    },
-    {
       "title": "Two-Factor Authentication",
-      "description": "Enhanced security layer requiring two different forms of identification.",
-      "technical_spec": "SMS-based and App-based Verification",
-      "severity_score": 40
+      "description": "Adds a layer of security through multi-factor authentication.",
+      "technical_spec": "SMS, authentication apps, biometrics.",
+      "severity_score": 80
     },
     {
-      "title": "Security Audits and Monitoring",
-      "description": "Regular audits and real-time monitoring for potential vulnerabilities.",
-      "technical_spec": "SIEM Tools, Automated Vulnerability Scans",
-      "severity_score": 35
+      "title": "End-to-End Encryption",
+      "description": "Encrypts data at all stages from user to server.",
+      "technical_spec": "TLS, AES-256 encryption, data masking.",
+      "severity_score": 95
     },
     {
-      "title": "DDoS Protection",
-      "description": "Configured to deflect Distributed Denial-of-Service attacks.",
-      "technical_spec": "Traffic Analysis, Abnormal Traffic Detection, Mitigation Strategies",
-      "severity_score": 55
+      "title": "Regular Security Audits",
+      "description": "Conducts routine security assessments to identify vulnerabilities.",
+      "technical_spec": "Penetration testing, bug bounties, security certifications.",
+      "severity_score": 92
+    },
+    {
+      "title": "Threat Detection Systems",
+      "description": "Implements real-time detection of malicious activities.",
+      "technical_spec": "AI-based threat monitoring, intrusion detection systems.",
+      "severity_score": 90
+    },
+    {
+      "title": "Access Control Management",
+      "description": "Restricts access based on user roles and needs.",
+      "technical_spec": "Role-based access control, LDAP integration, secure access policies.",
+      "severity_score": 88
     }
   ]
 }

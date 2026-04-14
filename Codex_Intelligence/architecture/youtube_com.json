@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 102,
+    "rank": 112,
     "site": "youtube.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "26e20c702ee76d6c168ea81c3cdb747c"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "9677a61fdc27f0b219f600fa4bc706df"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "YouTube employs a microservices architecture ensuring scalability and resilience.",
-      "technical_spec": "Each service handles a specific functionality and communicates over REST or gRPC.",
-      "severity_score": 15
+      "title": "Microservices Adoption",
+      "description": "YouTube uses a microservices architecture to handle different functionalities such as video processing, search, and recommendations.",
+      "technical_spec": "Distributed system with RESTful APIs and gRPC communication.",
+      "severity_score": 10
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "YouTube utilizes global CDNs to deliver video content efficiently close to user locations.",
-      "technical_spec": "CDNs such as Google's own network and other partners are used.",
-      "severity_score": 10
+      "description": "CDNs are used to distribute video content efficiently across the globe, reducing load times and buffering.",
+      "technical_spec": "Multiple CDNs including Google's proprietary infrastructure, supporting HTTP/2 and QUIC protocols.",
+      "severity_score": 5
     },
     {
-      "title": "Database Sharding",
-      "description": "Horizontal scaling across various database shards for handling large user data.",
-      "technical_spec": "Relational databases are partitioned based on user data distribution.",
-      "severity_score": 20
+      "title": "Scalability",
+      "description": "The architecture supports large-scale user interaction and video uploads through autoscaling technologies.",
+      "technical_spec": "Utilizes containerization technologies and Kubernetes for orchestration.",
+      "severity_score": 12
+    },
+    {
+      "title": "Data Storage Systems",
+      "description": "Handles large volumes of data through distributed databases and object storage for video files.",
+      "technical_spec": "Bigtable, Spanner, Colossus file system.",
+      "severity_score": 15
     },
     {
       "title": "Load Balancing",
-      "description": "Efficient traffic distribution across servers for optimal performance.",
-      "technical_spec": "Software and hardware load balancers are used to manage incoming requests.",
+      "description": "Ensures high availability and balanced load across servers and services.",
+      "technical_spec": "Global Load Balancer, with Anycast capabilities.",
       "severity_score": 10
-    },
-    {
-      "title": "Cloud-Based Infrastructure",
-      "description": "YouTube operates over a cloud-based infrastructure to ensure high availability.",
-      "technical_spec": "Google Cloud Platform powers various backend systems.",
-      "severity_score": 15
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 105,
+    "rank": 115,
     "site": "amazon.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "50601153119fdf87c99bd45be1194476"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "b258045c2a9e5efa0cb18e3230e15720"
   },
   "data": [
     {
-      "title": "Customer Centricity",
-      "description": "Putting customer experience and satisfaction at the forefront of business decisions.",
-      "technical_spec": "User Feedback Loops, Personalization Algorithms",
-      "severity_score": 8
-    },
-    {
-      "title": "Innovation and Adaptability",
-      "description": "Quick adaptation to market changes and innovation in service delivery.",
-      "technical_spec": "AI Research, Experimentation, AWS Integration",
-      "severity_score": 10
+      "title": "Customer Obsession",
+      "description": "Central focus on enhancing the customer experience and loyalty.",
+      "technical_spec": "24/7 customer service and comprehensive FAQs for support.",
+      "severity_score": 98
     },
     {
       "title": "Operational Excellence",
-      "description": "Efficient and reliable operations embodying high standards.",
-      "technical_spec": "Supply Chain Optimization, Data-Driven Decisions",
-      "severity_score": 9
+      "description": "Commitment to streamlined and efficient operations.",
+      "technical_spec": "Automated logistics and supply chain management.",
+      "severity_score": 95
     },
     {
-      "title": "Global Reach and Accessibility",
-      "description": "Wide availability and accessibility across different regions and devices.",
-      "technical_spec": "Localization, Mobile Optimization, Accessibility Compliance",
-      "severity_score": 12
+      "title": "Innovation",
+      "description": "Continuous introduction of new services and technology.",
+      "technical_spec": "AI-powered recommendations and Alexa platform development.",
+      "severity_score": 90
     },
     {
-      "title": "Brand Trust",
-      "description": "Building trust through reliability, quality assurance, and robust data protection.",
-      "technical_spec": "Secure Transactions, Brand Transparency",
-      "severity_score": 7
+      "title": "Leadership Principles",
+      "description": "Guiding principles that influence decision-making and culture.",
+      "technical_spec": "Defined set of behaviors and standards for employees.",
+      "severity_score": 85
+    },
+    {
+      "title": "Value for Product",
+      "description": "Commitment to offering value through competitive pricing.",
+      "technical_spec": "Dynamic pricing algorithms and Prime membership benefits.",
+      "severity_score": 88
     }
   ]
 }

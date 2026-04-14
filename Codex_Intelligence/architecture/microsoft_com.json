@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 104,
+    "rank": 114,
     "site": "microsoft.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "90637e8369c7ca9b1a3c49cb1d099173"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "7f3671139a0aa96d4e02021c0429f94f"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Microsoft.com employs a microservices architecture, allowing for scalable and independent service deployment across its platform.",
-      "technical_spec": "A suite of loosely coupled services each running a distinct process and communicating through HTTP APIs.",
+      "description": "Microsoft employs a microservices architecture to ensure scalability and flexibility across its platforms.",
+      "technical_spec": "Services are decoupled and independently deployable components.",
       "severity_score": 10
     },
     {
       "title": "Cloud-Native Infrastructure",
-      "description": "The website is hosted on Microsoft Azure cloud services, leveraging cloud-native components for resilience and scalability.",
-      "technical_spec": "Uses Azure Kubernetes Service (AKS) and Azure Functions for scaling and serverless operations.",
+      "description": "Leverages Azure cloud computing services to support high traffic and storage needs.",
+      "technical_spec": "Built on Azure, utilizing cloud-native principles such as scalability, elasticity, and message-driven services.",
       "severity_score": 5
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Utilizes a global CDN to ensure fast content delivery by caching web elements on servers closer to the user location.",
-      "technical_spec": "Powered by Azure CDN with URL-based routing and caching policies.",
-      "severity_score": 15
+      "title": "API-Driven Development",
+      "description": "APIs are central to Microsoft's web service design enabling integration and interaction across ecosystems.",
+      "technical_spec": "RESTful API standards with OAuth2 for authentication.",
+      "severity_score": 8
     },
     {
-      "title": "Data Layer",
-      "description": "Data-centric services are built on Microsoft SQL Server and Cosmos DB for structured and unstructured datasets.",
-      "technical_spec": "Microsoft SQL Server for relational data, Cosmos DB for NoSQL and multi-model database services.",
-      "severity_score": 20
+      "title": "Event-Driven Architecture",
+      "description": "Supports real-time processing and response capabilities across platforms.",
+      "technical_spec": "Based on Azure Event Grid and Azure Functions for event handling.",
+      "severity_score": 7
     },
     {
-      "title": "Progressive Web App (PWA) Capabilities",
-      "description": "The site functions with PWA features like offline capabilities and push notifications to enhance mobile and desktop user experiences.",
-      "technical_spec": "Utilizes service workers and Web App Manifest for PWA functionalities.",
-      "severity_score": 25
+      "title": "Containerization",
+      "description": "Use of containers to streamline deployment and development environments.",
+      "technical_spec": "Utilizes Kubernetes and Docker for efficient container orchestration.",
+      "severity_score": 6
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 104,
+    "rank": 114,
     "site": "microsoft.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "d0547b52f94b94960bc62a98847e15ff"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "c593714902405eb32f1fcf6e10577afb"
   },
   "data": [
     {
-      "title": "Innovation and Technological Leadership",
-      "description": "Positions as a leader in tech innovations, offering cutting-edge solutions across cloud, AI, and OS platforms.",
-      "technical_spec": "Pioneering developments in Azure cloud computing and AI-driven applications.",
+      "title": "Innovation-Driven",
+      "description": "Commitment to continuous innovation and delivering cutting-edge technology solutions.",
+      "technical_spec": "Focus on AI, cloud computing, and quantum computing as innovation pillars.",
       "severity_score": 5
     },
     {
-      "title": "User-centric Design Philosophy",
-      "description": "Focus on creating seamless digital experiences tailored to user needs and preferences.",
-      "technical_spec": "Emphasizes research-driven UX and constant interface improvements.",
-      "severity_score": 10
+      "title": "Customer-Centric Approach",
+      "description": "Products and services are tailored to meet evolving customer needs and preferences.",
+      "technical_spec": "Feedback loops and customer insight integration in design and development.",
+      "severity_score": 3
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Committed to sustainable business practices with initiatives aimed at reducing carbon emissions.",
-      "technical_spec": "Investments in renewable energy and carbon-negative cloud services by 2030.",
-      "severity_score": 15
+      "title": "Global Impact",
+      "description": "Dedicated to making technology accessible and valuable worldwide.",
+      "technical_spec": "Products localized to various markets with global distribution capabilities.",
+      "severity_score": 7
     },
     {
-      "title": "Global Accessibility",
-      "description": "Dedicated to making technology accessible to all, including compliance with various international accessibility standards.",
-      "technical_spec": "Implementation of WCAG 2.1 guidelines for web accessibility.",
-      "severity_score": 20
+      "title": "Commitment to Security",
+      "description": "Fundamental approach to integrate robust security in all products.",
+      "technical_spec": "Comprehensive security measures inherent across product lifecycles.",
+      "severity_score": 4
     },
     {
-      "title": "Security as a Core Value",
-      "description": "Security is embedded in the DNA of all Microsoft products and services, ensuring customer trust and protection.",
-      "technical_spec": "Utilizes secure development lifecycle (SDL) across all product lines.",
-      "severity_score": 10
+      "title": "Sustainability Efforts",
+      "description": "Efforts directed towards sustainability and reducing environmental impact.",
+      "technical_spec": "Investment in sustainable operations and carbon negative goals.",
+      "severity_score": 6
     }
   ]
 }

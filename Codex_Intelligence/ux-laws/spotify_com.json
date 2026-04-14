@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 107,
+    "rank": 117,
     "site": "spotify.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "448205842e83e960c5abbc54facb8b29"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "14199c9df1d11b4fd8292ea8d57dc55e"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Minimizes choices to streamline decision-making in navigating the application.",
-      "technical_spec": "Design focuses on simplifying user interactions and quick access to content.",
-      "severity_score": 70
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Creates an appealing design to enhance user satisfaction and perceived usability.",
-      "technical_spec": "Focuses on a clean, visually pleasing interface with intuitive controls.",
-      "severity_score": 85
-    },
-    {
       "title": "Fitts's Law",
-      "description": "Applies sizing and positioning that allows users to easily interact with buttons and controls.",
-      "technical_spec": "Larger clickable areas for frequently used controls, improved navigation efficiency.",
-      "severity_score": 88
+      "description": "Designs focus on minimizing the time to acquire digital targets for users.",
+      "technical_spec": "Utilizes well-sized buttons and intuitive navigation paths.",
+      "severity_score": 75
+    },
+    {
+      "title": "Hick's Law",
+      "description": "Reduces cognitive load by limiting available options at any given step.",
+      "technical_spec": "Streamlined interface with prioritized content areas and progressive disclosure.",
+      "severity_score": 80
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Considers the limits of short-term memory in its user interface design.",
+      "technical_spec": "Groups information logically and uses chunking to improve retention and recall.",
+      "severity_score": 72
     },
     {
       "title": "Jakob's Law",
-      "description": "Ensures familiarity by using patterns common to similar services.",
-      "technical_spec": "Aligns design choices with user expectations derived from similar platforms.",
-      "severity_score": 92
+      "description": "Adopts familiar design patterns that users expect from similar interfaces.",
+      "technical_spec": "Consistent use of design patterns found in other popular apps to speed up user adaptation.",
+      "severity_score": 78
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related items together to improve user understanding and navigation.",
-      "technical_spec": "Logical grouping of playlist options and controls for intuitive accessibility.",
-      "severity_score": 80
+      "title": "Tesler's Law",
+      "description": "Balances simplicity with functionality to avoid unnecessary complexity.",
+      "technical_spec": "Integrates automated workflows and defaults to minimize user decision points.",
+      "severity_score": 82
     }
   ]
 }

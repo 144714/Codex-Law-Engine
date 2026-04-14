@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 102,
+    "rank": 112,
     "site": "youtube.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "4f4a91d821c046d11d994723305674af"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "9a8ff29e2b3b2a51304f2c85daa7e15b"
   },
   "data": [
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "A visually attractive design that promotes usability.",
-      "technical_spec": "Intuitive design language with a minimalist approach.",
-      "severity_score": 15
-    },
-    {
       "title": "Hick's Law",
-      "description": "Reducing decision time by simplifying choices.",
-      "technical_spec": "Clear categorization and minimal clutter on UI.",
-      "severity_score": 10
+      "description": "Simplifies choices to improve user experience by reducing decision time.",
+      "technical_spec": "Minimalistic design, intuitive navigation menus.",
+      "severity_score": 15
     },
     {
       "title": "Fitts's Law",
-      "description": "Easier interaction with interactive elements.",
-      "technical_spec": "Larger clickable elements for faster access.",
+      "description": "Designs with easily clickable targets to enhance accessibility.",
+      "technical_spec": "Larger icons and touch-friendly elements.",
       "severity_score": 10
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Visual hierarchy that aids in quick perception.",
-      "technical_spec": "Grouping related elements to enhance UI comprehension.",
-      "severity_score": 15
+      "title": "Jakob's Law",
+      "description": "Consistent interface design aligned with user expectations from similar platforms.",
+      "technical_spec": "Aligns design patterns with other Google services.",
+      "severity_score": 20
     },
     {
-      "title": "Law of Proximity",
-      "description": "Elements placed close together perceived as related.",
-      "technical_spec": "Logical grouping of UI components for better UX.",
+      "title": "Aesthetic-Usability Effect",
+      "description": "Prioritizes visually pleasing design which users perceive as more usable.",
+      "technical_spec": "Consistent color schemes, responsive layouts.",
       "severity_score": 10
+    },
+    {
+      "title": "Pareto Principle",
+      "description": "Focuses on the key features that deliver the most value to the user.",
+      "technical_spec": "Emphasis on search, recommendations, and video playback.",
+      "severity_score": 5
     }
   ]
 }

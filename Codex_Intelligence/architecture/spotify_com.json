@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 107,
+    "rank": 117,
     "site": "spotify.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "922c9ff8b97b698e9435ed06c6918471"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "fe3a8f2df4d47e473061e3adfff5d795"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Spotify's system is built on a microservices architecture, allowing independent deployment and scaling.",
-      "technical_spec": "Each component of the application is a separate service, communicating over REST and gRPC.",
+      "title": "Microservices Framework",
+      "description": "Spotify's backend is built with a microservices architecture to allow independent deployment and scaling.",
+      "technical_spec": "Utilizes services written in languages like Java, Python, and Node.js, orchestrated using Kubernetes.",
       "severity_score": 85
     },
     {
-      "title": "Load Balancing",
-      "description": "Spotify utilizes load balancing to distribute incoming traffic across multiple servers.",
-      "technical_spec": "Employs AWS Elastic Load Balancer and custom load balancing strategies.",
-      "severity_score": 90
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "A CDN is used to improve media streaming speeds by caching content closer to users.",
-      "technical_spec": "Uses providers like CloudFront to handle content distribution globally.",
+      "title": "Distributed Systems",
+      "description": "Spotify leverages distributed systems to efficiently handle over 356 million active users worldwide.",
+      "technical_spec": "Implements Cassandra for wide-column data storage, and Apache Kafka for message streaming.",
       "severity_score": 80
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Incorporates event-driven processes to handle asynchronous tasks and scale operations.",
-      "technical_spec": "Implements Apache Kafka to manage message queues and event streams.",
-      "severity_score": 78
+      "title": "Load Balancing Infrastructure",
+      "description": "Servers are strategically placed and managed across the globe to maintain high availability and low latency.",
+      "technical_spec": "Incorporates AWS Elastic Load Balancing (ELB) and CloudFront as a CDN.",
+      "severity_score": 75
     },
     {
-      "title": "Database Management",
-      "description": "Uses various databases for different data requirements, including NoSQL and SQL solutions.",
-      "technical_spec": "Employs Cassandra, PostgreSQL, and other database systems.",
-      "severity_score": 88
+      "title": "RESTful API Design",
+      "description": "Exposes a robust RESTful API for playback control, user management, and data handling.",
+      "technical_spec": "Primarily developed with OpenAPI standards and OAuth 2.0 for authentication.",
+      "severity_score": 70
+    },
+    {
+      "title": "Search and Recommendation Engine",
+      "description": "A custom-built engine for content recommendation based on user data and behavior.",
+      "technical_spec": "Powered by Elasticsearch for full-text search and Bigtable for storing user heuristics.",
+      "severity_score": 90
     }
   ]
 }

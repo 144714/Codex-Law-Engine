@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 103,
+    "rank": 113,
     "site": "apple.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "c6827fa0412c5ba6bb15559740dd8f6a"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "205bf1a4e26df440321a56f10b0e2389"
   },
   "data": [
     {
-      "title": "Responsive Design",
-      "description": "The website is built to respond to various screen sizes and orientations, ensuring a seamless user experience.",
-      "technical_spec": "CSS Media Queries, Flexbox, Grid Layout",
-      "severity_score": 10
+      "title": "Distributed System Design",
+      "description": "Apple employs a highly distributed system architecture to manage global traffic.",
+      "technical_spec": "Microservices, load balancers, globally distributed data centers.",
+      "severity_score": 95
     },
     {
-      "title": "Microservices",
-      "description": "The site utilizes a microservices architecture for scalable and efficient service management.",
-      "technical_spec": "Docker, Kubernetes, API Gateway",
-      "severity_score": 20
+      "title": "High Availability and Redundancy",
+      "description": "Ensures minimal downtime through redundancy and failover systems.",
+      "technical_spec": "Multiple data centers, automated failover, redundancy protocols.",
+      "severity_score": 90
+    },
+    {
+      "title": "Scalable Cloud Infrastructure",
+      "description": "Supports peak demand fluctuations with scalable cloud solutions.",
+      "technical_spec": "AWS, Azure integration, elastic load balancing.",
+      "severity_score": 92
+    },
+    {
+      "title": "API Gateway Management",
+      "description": "Centralized management of APIs for consistency and scalability.",
+      "technical_spec": "API Gateway, RESTful APIs, GraphQL.",
+      "severity_score": 88
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Global CDN deployed to enhance content delivery speed and reduce latency.",
-      "technical_spec": "Akamai CDN, Edge locations, Caching",
-      "severity_score": 15
-    },
-    {
-      "title": "Redundancy and Failover",
-      "description": "Architectural features that ensure availability and reliability in case of system failures.",
-      "technical_spec": "Load Balancers, Backup Servers, Active-Passive Failover",
-      "severity_score": 25
-    },
-    {
-      "title": "Database Sharding",
-      "description": "Data is partitioned using sharding to enhance performance and manageability.",
-      "technical_spec": "SQL/NOSQL Partitioning, Index Strategies",
-      "severity_score": 30
+      "description": "Uses CDNs to improve site load times globally.",
+      "technical_spec": "Akamai, Cloudflare, regional edge servers.",
+      "severity_score": 85
     }
   ]
 }

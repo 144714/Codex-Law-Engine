@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 108,
+    "rank": 118,
     "site": "adobe.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "a5d98b8c8e768c93fc2ce81be931d17c"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "f968de63714a861b5663ba67bda93bb6"
   },
   "data": [
     {
-      "title": "Creativity and Design",
-      "description": "Strong emphasis on creativity, design, and innovation.",
-      "technical_spec": "Use of high-quality media assets and design elements.",
+      "title": "Creative Empowerment",
+      "description": "Adobe's commitment to enabling creativity through powerful tools.",
+      "technical_spec": "Integration with Creative Cloud applications for seamless user experience.",
       "severity_score": 5
     },
     {
-      "title": "User Community",
-      "description": "Promotion of user community for creative exchange and inspiration.",
-      "technical_spec": "Forums, tutorials, and community showcases.",
-      "severity_score": 8
-    },
-    {
-      "title": "Cross-Platform Integration",
-      "description": "Seamless integration of services across various platforms.",
-      "technical_spec": "APIs and SDKs to connect with third-party applications.",
-      "severity_score": 12
-    },
-    {
-      "title": "Professional Asset",
-      "description": "Position as a professional suite for creatives and businesses.",
-      "technical_spec": "Advanced tools and enterprise solutions included.",
-      "severity_score": 7
-    },
-    {
       "title": "Innovation Leadership",
-      "description": "Leading the market with constant product innovations.",
-      "technical_spec": "Continuous R&D and integration of new tech.",
+      "description": "Adobe's role as a leader in digital innovation and design technology.",
+      "technical_spec": "Regular updates and AI-driven features introduced to Creative Suite.",
       "severity_score": 10
+    },
+    {
+      "title": "Design-Driven Strategy",
+      "description": "Focus on design thinking to guide product development and user interactions.",
+      "technical_spec": "User-centered design principles embedded across all products.",
+      "severity_score": 15
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Active engagement with creative communities to foster collaboration.",
+      "technical_spec": "Adobe forums and annual events like Adobe MAX.",
+      "severity_score": 20
+    },
+    {
+      "title": "Sustainability Commitment",
+      "description": "Adobe's dedication to sustainable business practices.",
+      "technical_spec": "Initiatives for reducing carbon footprint and sustainable product lifecycles.",
+      "severity_score": 25
     }
   ]
 }

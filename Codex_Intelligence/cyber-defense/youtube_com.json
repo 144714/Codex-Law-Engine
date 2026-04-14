@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 102,
+    "rank": 112,
     "site": "youtube.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "91772844e1be7c2a6054e14d340ecbd3"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "bf9cedb8731a5feee7ef4d8e3ee28441"
   },
   "data": [
     {
-      "title": "DDoS Mitigation",
-      "description": "Systems to protect against distributed denial of service attacks.",
-      "technical_spec": "Automatic detection and rerouting of malicious traffic.",
+      "title": "DDoS Protection",
+      "description": "Protection against Distributed Denial of Service attacks to ensure availability.",
+      "technical_spec": "Edge network protection and Cloud Armor systems.",
       "severity_score": 25
     },
     {
-      "title": "Video Content Encryption",
-      "description": "Encrypted streaming to prevent unauthorized access.",
-      "technical_spec": "Utilizes TLS and DASH for secure content delivery.",
-      "severity_score": 35
+      "title": "Authentication and Identity Management",
+      "description": "Manages user identities and secures authentication processes.",
+      "technical_spec": "OAuth 2.0, Google Identity Platform.",
+      "severity_score": 20
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Enhanced user account protection with 2FA.",
-      "technical_spec": "Google Authenticator or SMS for secondary verification.",
+      "title": "Data Encryption",
+      "description": "Ensures data in transit and at rest are encrypted to protect user privacy.",
+      "technical_spec": "TLS/SSL for data in transit, AES-256 for data at rest.",
       "severity_score": 30
     },
     {
-      "title": "Automated Threat Detection",
-      "description": "Proactively detecting suspicious activities on the platform.",
-      "technical_spec": "Uses Google's AI to monitor and flag potential threats.",
+      "title": "Content Monitoring",
+      "description": "Monitors video content for violations of policies using automated systems and human reviewers.",
+      "technical_spec": "Machine learning algorithms and analytics.",
       "severity_score": 40
     },
     {
-      "title": "Secure API Deployment",
-      "description": "APIs are securely managed to prevent data leaks.",
-      "technical_spec": "OAuth 2.0 and API gateways for secure calls.",
-      "severity_score": 20
+      "title": "User Data Protection",
+      "description": "Protects user data against unauthorized access and breaches.",
+      "technical_spec": "Data Loss Prevention APIs, GDPR compliance features.",
+      "severity_score": 35
     }
   ]
 }

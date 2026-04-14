@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 104,
+    "rank": 114,
     "site": "microsoft.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "42350f74550c24b3d3cb5297c4a756f3"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "4addb8182e087d9504f50d6d9795d40e"
   },
   "data": [
     {
-      "title": "Identity and Access Management (IAM)",
-      "description": "Uses multi-factor authentication and single sign-on to secure user credentials and access.",
-      "technical_spec": "Enabled via Azure Active Directory.",
+      "title": "Multi-Factor Authentication (MFA)",
+      "description": "Ensures user account security by requiring multiple forms of verification.",
+      "technical_spec": "Integrated with Azure Active Directory for identity validation.",
       "severity_score": 15
     },
     {
-      "title": "Web Application Firewall (WAF)",
-      "description": "A protective WAF filters and monitors HTTP requests to safeguard the site from well-known web exploits.",
-      "technical_spec": "Deployed using Azure WAF with OWASP core rule set.",
-      "severity_score": 10
+      "title": "Advanced Threat Protection",
+      "description": "Protects against sophisticated cyber threats and breaches.",
+      "technical_spec": "Utilizes Microsoft Defender and Azure Security Center.",
+      "severity_score": 12
     },
     {
-      "title": "Secure Socket Layer (SSL)/Transport Layer Security (TLS)",
-      "description": "Ensures encrypted data transmission between user browsers and servers to protect data integrity.",
-      "technical_spec": "Uses Azure Key Vault for managing SSL/TLS certificates.",
-      "severity_score": 5
+      "title": "Data Encryption",
+      "description": "Ensures all sensitive data is encrypted in transit and at rest.",
+      "technical_spec": "AES-256 encryption across data services and TLS 1.2 for data in transit.",
+      "severity_score": 9
     },
     {
-      "title": "Advanced Threat Protection (ATP)",
-      "description": "Monitors and defends against advanced threats using machine learning and behavior analysis.",
-      "technical_spec": "Integrated with Microsoft Defender Advanced Threat Protection.",
+      "title": "Regular Security Audits",
+      "description": "Conducts consistent security audits to identify and mitigate vulnerabilities.",
+      "technical_spec": "Automated and manual penetration testing protocols in place.",
       "severity_score": 20
     },
     {
-      "title": "Regular Security Audits and Penetration Testing",
-      "description": "Conducts regular audits and tests to identify and resolve security vulnerabilities.",
-      "technical_spec": "Performed using a combination of automated tools and in-house security teams.",
-      "severity_score": 25
+      "title": "Zero Trust Architecture",
+      "description": "Adopts a zero-trust model for verifying devices and users comprehensively.",
+      "technical_spec": "No implicit trust, comprehensive verification required at each access attempt.",
+      "severity_score": 10
     }
   ]
 }

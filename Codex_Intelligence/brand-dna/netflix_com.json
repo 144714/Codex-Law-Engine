@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 106,
+    "rank": 116,
     "site": "netflix.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "6738b4cf93c18db4b36634f5ce4e49e0"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "9722f91daeef9d4e1f223a9203f0976a"
   },
   "data": [
     {
-      "title": "Innovative Content Production",
-      "description": "Produces original content that is both diverse and innovative.",
-      "technical_spec": "Leverages big data for content creation decisions.",
-      "severity_score": 20
+      "title": "Innovative Content Delivery",
+      "description": "Pioneer in streaming technology, continuously pushing boundaries in content accessibility.",
+      "technical_spec": "Constant updates and adoption of new streaming protocols and high-efficiency codecs.",
+      "severity_score": 95
+    },
+    {
+      "title": "Personalization",
+      "description": "Tailored user experiences with personalized recommendations and content curation.",
+      "technical_spec": "Advanced algorithms analyzing user behavior and preferences for customization.",
+      "severity_score": 90
     },
     {
       "title": "Global Reach",
-      "description": "Serves a diverse audience with international shows and films.",
-      "technical_spec": "Multiple language support and localized content interfaces.",
-      "severity_score": 30
+      "description": "Extensive global presence with content offered in multiple languages and localized for various regions.",
+      "technical_spec": "Multi-language support and regional pricing models.",
+      "severity_score": 88
+    },
+    {
+      "title": "Original Content Production",
+      "description": "Creating a large library of original series, movies, and documentaries exclusive to the platform.",
+      "technical_spec": "In-house production teams and partnerships with content creators.",
+      "severity_score": 92
     },
     {
       "title": "User-Centric Design",
-      "description": "Focuses on providing a personalized and user-friendly experience.",
-      "technical_spec": "Smart recommendations and adaptive streaming qualities for various devices.",
-      "severity_score": 25
-    },
-    {
-      "title": "Technology Leadership",
-      "description": "Pioneers in adopting cutting-edge technology for streaming.",
-      "technical_spec": "High-performance adaptive streaming and 4K video support.",
-      "severity_score": 25
-    },
-    {
-      "title": "Cultural Impact",
-      "description": "Known for shaping viewing habits and pop culture influence.",
-      "technical_spec": "Global cultural phenomena through strategic content releases.",
-      "severity_score": 15
+      "description": "Consistently prioritizing user experience with seamless navigation and intuitive interfaces.",
+      "technical_spec": "Regular updates focused on user feedback and technological advancements.",
+      "severity_score": 85
     }
   ]
 }

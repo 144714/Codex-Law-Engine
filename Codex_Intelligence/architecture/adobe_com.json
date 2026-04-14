@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 108,
+    "rank": 118,
     "site": "adobe.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "23aae9ae054642c06d17372d65e464e4"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "8f57de22ad567ade681ad18e60e0f770"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Adobe.com likely utilizes a microservices architecture to handle its vast array of services and functionalities efficiently.",
-      "technical_spec": "Deployed using Docker and Kubernetes for scalability and management.",
-      "severity_score": 15
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Use of a CDN to deliver content quickly to users around the globe.",
-      "technical_spec": "Integrated with Akamai or similar CDN for fast content delivery.",
+      "title": "microservice-based architecture",
+      "description": "Adobe.com utilizes a microservice-based architecture to ensure scalability and manageability of services.",
+      "technical_spec": "Microservices deployed using Kubernetes and Docker for container orchestration.",
       "severity_score": 10
     },
     {
-      "title": "Scalable Database System",
-      "description": "High-performance databases to manage and store user data and content efficiently.",
-      "technical_spec": "Likely uses a combination of SQL and NoSQL databases like MySQL and MongoDB.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "The site employs a CDN to deliver content quickly and reliably to users around the globe.",
+      "technical_spec": "Uses Akamai for distributing content efficiently.",
+      "severity_score": 5
+    },
+    {
+      "title": "API Gateway",
+      "description": "Centralized API gateway manages request routing for different services.",
+      "technical_spec": "Nginx is used for routing and managing API traffic.",
+      "severity_score": 15
+    },
+    {
+      "title": "Cloud-based infrastructure",
+      "description": "Leveraging cloud platforms for better resource management and uptime.",
+      "technical_spec": "Primarily hosted on Amazon Web Services (AWS).",
       "severity_score": 20
     },
     {
-      "title": "Redundant Server Architecture",
-      "description": "Redundant server systems to ensure high availability of services.",
-      "technical_spec": "Servers are likely located in multiple regions for failover and disaster recovery.",
+      "title": "Database Management System",
+      "description": "Robust database management system to handle large volumes of data.",
+      "technical_spec": "Uses a combination of SQL and NoSQL databases, including MySQL and MongoDB.",
       "severity_score": 25
-    },
-    {
-      "title": "Edge Computing",
-      "description": "Implemented edge computing to process data closer to the user source.",
-      "technical_spec": "Utilizes edge nodes for processing to enhance performance.",
-      "severity_score": 18
     }
   ]
 }

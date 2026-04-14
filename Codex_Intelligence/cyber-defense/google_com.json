@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 101,
+    "rank": 111,
     "site": "google.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "61af5a22b7bb43e7e983f00c83a706b7"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "a1a36da6d0f733fdde035eab3888fb13"
   },
   "data": [
     {
-      "title": "DDoS Protection",
-      "description": "Defense mechanisms against Distributed Denial of Service attacks.",
-      "technical_spec": "Includes rate limiting and traffic analysis.",
-      "severity_score": 30
+      "title": "Two-Factor Authentication",
+      "description": "Enhanced account security requiring user identification through a second factor beyond passwords.",
+      "technical_spec": "SMS codes, authenticator apps, hardware security keys.",
+      "severity_score": 5
     },
     {
-      "title": "Data Encryption",
-      "description": "Encrypts data at rest and in transit.",
-      "technical_spec": "Uses TLS for data in transit and AES-256 encryption for data at rest.",
+      "title": "Encryption",
+      "description": "Data encryption in transit and at rest prevents unauthorized access and ensures privacy.",
+      "technical_spec": "TLS 1.3, AES-256, HTTPS.",
+      "severity_score": 10
+    },
+    {
+      "title": "Security Keys",
+      "description": "Physical security keys to prevent phishing and account takeovers.",
+      "technical_spec": "FIDO U2F keys, Titan Security Keys.",
+      "severity_score": 8
+    },
+    {
+      "title": "Automated Threat Detection",
+      "description": "AI-powered systems to automatically detect and mitigate potential cybersecurity threats.",
+      "technical_spec": "Google Safe Browsing, AI pattern recognition.",
+      "severity_score": 12
+    },
+    {
+      "title": "Bug Bounty Program",
+      "description": "A program incentivizing external security researchers to report vulnerabilities.",
+      "technical_spec": "Vulnerability disclosure policies, rewards scaling with severity.",
       "severity_score": 15
-    },
-    {
-      "title": "Zero Trust Security Model",
-      "description": "Assumes no implicit trust and verifies every interaction.",
-      "technical_spec": "Implementations focus on authentication and continuous monitoring.",
-      "severity_score": 25
-    },
-    {
-      "title": "User Account Protection",
-      "description": "Mechanisms to protect user accounts from unauthorized access.",
-      "technical_spec": "Includes two-factor authentication and alerting mechanisms.",
-      "severity_score": 20
-    },
-    {
-      "title": "Threat Intelligence",
-      "description": "Analyzes and monitors for cyber threats in real-time.",
-      "technical_spec": "Utilizes machine learning to predict and mitigate threats.",
-      "severity_score": 35
     }
   ]
 }

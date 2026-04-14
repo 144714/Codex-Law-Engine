@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 108,
+    "rank": 118,
     "site": "adobe.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "cf87d834c15f2b43a4be9b471a0e4f5d"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "012a8b07a7e7c8f85f071b835eaee6e8"
   },
   "data": [
     {
-      "title": "Intrusion Detection Systems",
-      "description": "Systems in place to detect unauthorized access and malwares.",
-      "technical_spec": "Network-based IDS with AI capabilities for real-time analysis.",
-      "severity_score": 30
+      "title": "SSL/TLS Encryption",
+      "description": "Encrypts user data in transit to protect against eavesdropping.",
+      "technical_spec": "TLS 1.3 implemented site-wide.",
+      "severity_score": 5
     },
     {
-      "title": "End-to-end Encryption",
-      "description": "Encryption for data security during transmission.",
-      "technical_spec": "TLS 1.3 for all user data exchanges.",
-      "severity_score": 25
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Scheduled audits to identify and address vulnerabilities.",
-      "technical_spec": "Use of both manual and automated security assessment tools.",
+      "title": "Web Application Firewall (WAF)",
+      "description": "Protects the site from common web threats and exploits.",
+      "technical_spec": "AWS WAF offers SQL injection and cross-site scripting (XSS) protection.",
       "severity_score": 20
     },
     {
-      "title": "Advanced Threat Protection",
-      "description": "Proactive measures against sophisticated cybersecurity threats.",
-      "technical_spec": "Integration of AI-driven threat intelligence platforms.",
-      "severity_score": 40
+      "title": "DDoS Protection",
+      "description": "Mitigates Distributed Denial of Service attacks to maintain uptime.",
+      "technical_spec": "Implemented through AWS Shield Advanced.",
+      "severity_score": 15
     },
     {
-      "title": "Multi-factor Authentication",
-      "description": "Strengthening user authentication processes.",
-      "technical_spec": "SMS, email, and authenticator app-based MFA for user accounts.",
-      "severity_score": 35
+      "title": "Regular Security Audits",
+      "description": "Conducts regular security assessments to identify and fix vulnerabilities.",
+      "technical_spec": "Automated and manual penetration testing procedures.",
+      "severity_score": 30
+    },
+    {
+      "title": "Data Privacy and Compliance",
+      "description": "Compliance with international data protection standards like GDPR.",
+      "technical_spec": "Data encryption, anonymization, and user consent processes in place.",
+      "severity_score": 10
     }
   ]
 }

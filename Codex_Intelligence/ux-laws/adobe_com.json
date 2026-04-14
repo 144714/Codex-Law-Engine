@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 108,
+    "rank": 118,
     "site": "adobe.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "ef9817ed457c347eeff0d949ae53c178"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "6e7d42ac15182f2642fe4ef4a2990e74"
   },
   "data": [
     {
+      "title": "Miller's Law",
+      "description": "Implementation of efficient content chunks aligns with cognitive processing limits.",
+      "technical_spec": "Maximum of 7±2 elements per content section to facilitate better information digestion.",
+      "severity_score": 5
+    },
+    {
       "title": "Fitts's Law",
-      "description": "Design elements positioned for quick access based on user intent.",
-      "technical_spec": "Buttons and links are sized appropriately for touch interfaces.",
+      "description": "Clickable targets are large and strategically positioned for ease of access.",
+      "technical_spec": "Button sizes and spacing optimized for touchscreen usability.",
       "severity_score": 10
     },
     {
       "title": "Hick's Law",
-      "description": "Minimized decision time by reducing choices in navigation.",
-      "technical_spec": "Implemented in menus and action selections.",
-      "severity_score": 12
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Consistent experience aligned with other popular sites to reduce learning curve.",
-      "technical_spec": "Standard navigation bars and user interface patterns.",
+      "description": "Minimizes cognitive load by reducing the complexity of user choices.",
+      "technical_spec": "Simple navigation structures with no more than 3 primary options at first glance.",
       "severity_score": 15
     },
     {
-      "title": "Law of Proximity",
-      "description": "Group related items to streamline user interaction.",
-      "technical_spec": "Use of whitespace to logically separate sections.",
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing design enhances perceived usability.",
+      "technical_spec": "Consistent theme with Adobe's signature color palette and use of high-quality visuals.",
       "severity_score": 10
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing design to enhance user perception of usability.",
-      "technical_spec": "High fidelity graphics and smooth transition animations.",
-      "severity_score": 8
+      "title": "Jakob's Law",
+      "description": "Design reflects user expectations based on similar platforms for intuitive interaction.",
+      "technical_spec": "Integrates familiar navigation patterns from popular design software.",
+      "severity_score": 20
     }
   ]
 }

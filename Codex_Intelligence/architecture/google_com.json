@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 101,
+    "rank": 111,
     "site": "google.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "e63ba397a04744fc4b89e97376995cd9"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "8de0fa4c0b41aa78263927888e059522"
   },
   "data": [
     {
+      "title": "Distributed Systems",
+      "description": "Google's architecture is based on distributed computing, utilizing clusters of computers to handle vast amounts of data.",
+      "technical_spec": "Microservices, containerization, Google Cloud Platform, Kubernetes.",
+      "severity_score": 5
+    },
+    {
       "title": "Load Balancing",
-      "description": "Distributes incoming network traffic across multiple servers.",
-      "technical_spec": "Uses global load balancing with geo-distribution.",
+      "description": "Google uses advanced load balancing to distribute incoming traffic across multiple servers efficiently.",
+      "technical_spec": "Google Cloud Load Balancer, Global Load Balancing.",
       "severity_score": 10
     },
     {
-      "title": "Microservices Architecture",
-      "description": "System design approach that structures an application as a collection of loosely coupled services.",
-      "technical_spec": "Developed using RESTful APIs and container orchestration.",
+      "title": "Data Centers",
+      "description": "Google owns and operates data centers globally to ensure low latency and high availability.",
+      "technical_spec": "Tier 4 data centers, custom hardware, green energy usage.",
+      "severity_score": 5
+    },
+    {
+      "title": "Search Algorithm",
+      "description": "The core of Google's architecture, continuously evolving with AI and Machine Learning.",
+      "technical_spec": "PageRank, BERT, RankBrain, Transformer models.",
       "severity_score": 20
     },
     {
-      "title": "Scalable Storage Solutions",
-      "description": "Supports massive data storage by scaling automatically.",
-      "technical_spec": "Uses technologies like Spanner and BigTable.",
+      "title": "Caching Layers",
+      "description": "Utilizes extensive caching mechanisms to improve performance and reduce load times.",
+      "technical_spec": "Edge caching, Google Cache, CDN networks.",
       "severity_score": 15
-    },
-    {
-      "title": "Serverless Computing",
-      "description": "Runs services dynamically without maintaining physical servers.",
-      "technical_spec": "Implemented via Google Cloud Functions.",
-      "severity_score": 25
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Enhances performance by distributing content globally.",
-      "technical_spec": "Implemented using Edge Network technology.",
-      "severity_score": 5
     }
   ]
 }

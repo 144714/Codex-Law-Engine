@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 104,
+    "rank": 114,
     "site": "microsoft.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "e78afb5486feb875b5f0fb6d4a709e05"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "70828f6f3907b5e6ba7d472cde7602c9"
   },
   "data": [
     {
-      "title": "Jakob's Law",
-      "description": "The site design aligns user expectations by mirroring common design patterns used by most major websites.",
-      "technical_spec": "Follows standard UI/UX conventions for navigation, layout, and interaction.",
-      "severity_score": 20
-    },
-    {
-      "title": "Hick's Law",
-      "description": "Limits the number of choices and decisions that users need to make to enhance quick navigation.",
-      "technical_spec": "Simplified menu structures and predictive search functions to reduce cognitive load.",
+      "title": "Fitts's Law",
+      "description": "The design prioritizes speed and accessibility, optimizing for average user efficiency.",
+      "technical_spec": "Interface elements sized and placed for quick and easy use.",
       "severity_score": 15
     },
     {
-      "title": "Fitts's Law",
-      "description": "Ensures that interactive elements are easily clickable and accessible on all devices.",
-      "technical_spec": "Button size and spacing adhere to Fitts's criteria to improve usability.",
+      "title": "Hick's Law",
+      "description": "Simplifies menu choices to reduce decision-making time.",
+      "technical_spec": "Minimized menu item options and categorized navigation flows.",
       "severity_score": 10
     },
     {
-      "title": "Law of Simplicity",
-      "description": "Uses a minimalist design to improve focus on core navigational elements and essential content.",
-      "technical_spec": "Clean layout with ample white space and straightforward navigation.",
-      "severity_score": 10
+      "title": "Jakob's Law",
+      "description": "Aligns with user expectations from other Microsoft suite products for smooth transitions.",
+      "technical_spec": "Consistent design language with a familiar user interface and layout.",
+      "severity_score": 12
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Employs pleasing visual designs that positively influence user perceptions of functionality.",
-      "technical_spec": "High-quality visuals, themed color palettes, and typography.",
-      "severity_score": 25
+      "title": "Law of Proximity",
+      "description": "Related items are grouped to facilitate easy interpretation and flow.",
+      "technical_spec": "Logical structuring of information and grouping of related content.",
+      "severity_score": 8
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Aims to streamline information to enhance user cognitive load handling.",
+      "technical_spec": "Presenting information in digestible chunks with supportive hierarchies.",
+      "severity_score": 13
     }
   ]
 }

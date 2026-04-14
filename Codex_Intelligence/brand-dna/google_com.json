@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 101,
+    "rank": 111,
     "site": "google.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "23c705376e606061b0223b508356e1ba"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "bb8946717e80111980ed8ab6b2b5b85e"
   },
   "data": [
     {
-      "title": "Search Engine Dominance",
-      "description": "Leader in online search services worldwide.",
-      "technical_spec": "Advanced algorithms for delivering precise search results.",
-      "severity_score": 5
+      "title": "Innovation",
+      "description": "Google consistently pushes the boundaries of technology and innovation.",
+      "technical_spec": "Research and development initiatives, alpha and beta testing phases.",
+      "severity_score": 8
     },
     {
-      "title": "Innovation Culture",
-      "description": "Strong focus on innovating diverse technological solutions.",
-      "technical_spec": "Continuous research and development investments.",
-      "severity_score": 10
-    },
-    {
-      "title": "User-Centric Design",
-      "description": "Focusing on improving user experience and satisfaction.",
-      "technical_spec": "Empirical user data guides iterative design processes.",
+      "title": "User-Focused Approach",
+      "description": "Designs products and services with a primary focus on user experience.",
+      "technical_spec": "UX research, user feedback integration, iterative design processes.",
       "severity_score": 7
     },
     {
-      "title": "Global Reach",
-      "description": "Operates in virtually all countries and supports diverse languages.",
-      "technical_spec": "Localized services and interfaces for different demographics.",
-      "severity_score": 5
+      "title": "Scalability",
+      "description": "All products are built with scalability in mind to accommodate global demand.",
+      "technical_spec": "Cloud-based solutions, distributed infrastructure.",
+      "severity_score": 10
     },
     {
-      "title": "Data-Driven Decisions",
-      "description": "Utilizes data analytics to drive strategic business choices.",
-      "technical_spec": "Robust data collection and analysis frameworks.",
-      "severity_score": 8
+      "title": "Sustainability",
+      "description": "Strong commitment to environmental responsibility and sustainability initiatives.",
+      "technical_spec": "Carbon-neutral data centers, renewable energy investments.",
+      "severity_score": 6
+    },
+    {
+      "title": "Open Source",
+      "description": "A significant contributor to open-source projects, fostering community and collaboration.",
+      "technical_spec": "Projects like TensorFlow, Kubernetes, Chromium.",
+      "severity_score": 5
     }
   ]
 }

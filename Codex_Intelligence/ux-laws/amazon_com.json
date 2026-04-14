@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 105,
+    "rank": 115,
     "site": "amazon.com",
-    "date": "2026-04-14 13:04",
-    "integrity_hash": "4591e7150f2883f17be1e8ef9aa2e590"
+    "date": "2026-04-14 15:07",
+    "integrity_hash": "9e4a9e2c88a87cabac5131c98e68a2cf"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Reduce complexity and decision time by limiting the number of choices.",
-      "technical_spec": "Simplified Navigation, Filter Systems",
-      "severity_score": 12
+      "description": "Simplistic navigation for quick user decision-making.",
+      "technical_spec": "Intuitive categorization and search function for product discovery.",
+      "severity_score": 85
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizing user interaction by focusing on larger control areas.",
-      "technical_spec": "Clickable Product Images, Large Call to Action Buttons",
-      "severity_score": 18
+      "title": "Jakob's Law",
+      "description": "Consistent design reflecting user familiarity with other e-commerce platforms.",
+      "technical_spec": "User interface consistency with standard e-commerce patterns.",
+      "severity_score": 90
     },
     {
-      "title": "Miller’s Law",
-      "description": "Ensuring users can comprehend information presented by breaking it into chunks.",
-      "technical_spec": "Card Layouts, Information Structuring",
-      "severity_score": 22
+      "title": "Fitts's Law",
+      "description": "Efficient call-to-action placements reducing time to target selection.",
+      "technical_spec": "Prominent 'Add to Cart' and 'Buy Now' buttons.",
+      "severity_score": 80
     },
     {
-      "title": "Pareto Principle",
-      "description": "Focusing on core tasks that deliver the majority of results.",
-      "technical_spec": "Prioritization of Bestsellers, Fast Checkout Process",
-      "severity_score": 15
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing layout that enhances perceived usability.",
+      "technical_spec": "Clean design with whitespace and color contrast.",
+      "severity_score": 75
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Creating memorable user interactions by prioritizing 'peak' moments.",
-      "technical_spec": "Customer Reviews, Highlighting Deals",
-      "severity_score": 20
+      "title": "Zeigarnik Effect",
+      "description": "Highlighted incomplete actions to improve user follow-through.",
+      "technical_spec": "Shopping carts and wishlists encourage return interactions.",
+      "severity_score": 78
     }
   ]
 }
