@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 68,
+    "rank": 78,
     "site": "adobe.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "57233c339bcc596e7a940f29535b5326"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "7763aeeebb453bccde97f6d27fb87ce5"
   },
   "data": [
     {
-      "title": "Innovation Leadership",
-      "description": "Adobe's reputation for leading design and innovation.",
-      "technical_spec": "Creative software solutions, pioneering digital transformations",
-      "severity_score": 93
-    },
-    {
-      "title": "Customer Focus",
-      "description": "Dedicated to understanding and addressing customer needs efficiently.",
-      "technical_spec": "Feedback loops, customer engagement tools, personalized experiences",
-      "severity_score": 89
-    },
-    {
       "title": "Creative Empowerment",
-      "description": "Centering products on empowering creativity across various domains.",
-      "technical_spec": "Cross-platform creative applications, accessibility features",
-      "severity_score": 92
+      "description": "Adobe aims to foster creativity and innovation across its user base.",
+      "technical_spec": "Extensive suite of creative software like Photoshop, Illustrator, and Premiere Pro.",
+      "severity_score": 5
+    },
+    {
+      "title": "Customer-Centric Product Design",
+      "description": "Products designed with user feedback and industry trends in mind.",
+      "technical_spec": "Use of feedback loops and continuous user interviews in product lifecycle.",
+      "severity_score": 7
+    },
+    {
+      "title": "Innovation Leadership",
+      "description": "Leading innovation in design software and tools.",
+      "technical_spec": "Continual investment in R&D and acquisition of cutting-edge technologies.",
+      "severity_score": 8
+    },
+    {
+      "title": "Global Reach",
+      "description": "Adobe products are used globally, with extensive localization efforts.",
+      "technical_spec": "Multi-language support and global customer service infrastructure.",
+      "severity_score": 6
     },
     {
       "title": "Sustainability Commitment",
-      "description": "Efforts to promote sustainable practices within and outside the organization.",
-      "technical_spec": "Carbon-neutral initiatives, sustainable product development",
-      "severity_score": 85
-    },
-    {
-      "title": "Collaborative Ecosystem",
-      "description": "Building an ecosystem that fosters collaboration among users and developers.",
-      "technical_spec": "API integrations, cloud collaboration tools, resource sharing",
-      "severity_score": 88
+      "description": "Focused on sustainable operations and minimizing environmental impact.",
+      "technical_spec": "Carbon-neutral cloud operations and eco-friendly office practices.",
+      "severity_score": 4
     }
   ]
 }

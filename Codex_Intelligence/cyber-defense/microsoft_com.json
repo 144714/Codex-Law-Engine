@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 64,
+    "rank": 74,
     "site": "microsoft.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "ee4309032ec1f1d961d6d3d8c2dfb5ab"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "a6bfc268f487aad36c5aa7399ed551ac"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "Enhancing security by requiring multiple forms of verification.",
-      "technical_spec": "Integration of Azure AD MFA for account protection.",
-      "severity_score": 95
+      "title": "SSL/TLS Encryption",
+      "description": "Ensures secure transmission of data between the server and users.",
+      "technical_spec": "Implemented with up-to-date TLS protocols and certificates.",
+      "severity_score": 5
     },
     {
-      "title": "Advanced Threat Protection",
-      "description": "Real-time threat detection and automated responses.",
-      "technical_spec": "Powered by Microsoft Defender for endpoint security.",
-      "severity_score": 93
+      "title": "DDoS Protection",
+      "description": "Protects the site from Distributed Denial of Service attacks.",
+      "technical_spec": "Utilizes Azure DDoS protection services for security.",
+      "severity_score": 15
     },
     {
-      "title": "Data Encryption",
-      "description": "Protects user data through encryption measures.",
-      "technical_spec": "AES-256 encryption standard for data at rest and in transit.",
-      "severity_score": 92
+      "title": "Web Application Firewall",
+      "description": "Provides a firewall to block malicious traffic.",
+      "technical_spec": "Powered by Azure Web Application Firewall rules.",
+      "severity_score": 18
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Frequent vulnerability assessments and penetration testing.",
-      "technical_spec": "Participation in bug bounty programs for identifying weaknesses.",
-      "severity_score": 90
+      "title": "Periodic Security Audits",
+      "description": "Conducts regular security audits to identify vulnerabilities.",
+      "technical_spec": "Employs Microsoft Security Assessment and Testing tools.",
+      "severity_score": 20
     },
     {
-      "title": "Firewall and Network Security",
-      "description": "Strong perimeter defenses against unauthorized access.",
-      "technical_spec": "Implementation of web application firewalls and DDoS protection.",
-      "severity_score": 89
+      "title": "Identity and Access Management",
+      "description": "Controls access using secure identity management practices.",
+      "technical_spec": "Integrated with Azure Active Directory for secure sign-ins.",
+      "severity_score": 10
     }
   ]
 }

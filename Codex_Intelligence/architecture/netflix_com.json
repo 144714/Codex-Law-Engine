@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 66,
+    "rank": 76,
     "site": "netflix.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "059522075484b84a35aefcac449d8976"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "e1dde26eb0af09fbe98ceee0ab7f740a"
   },
   "data": [
     {
-      "title": "Microservice Architecture",
-      "description": "Netflix employs a microservice architecture that allows independent development and deployment of services.",
-      "technical_spec": "Decomposed services using REST APIs, microservice orchestration with Kubernetes.",
-      "severity_score": 15
+      "title": "Microservices Architecture",
+      "description": "Netflix uses a microservices architecture to handle scaling millions of users and various functionality.",
+      "technical_spec": "Decoupled services with RESTful APIs for inter-service communication.",
+      "severity_score": 5
     },
     {
-      "title": "Global CDN Distribution",
-      "description": "Utilizes a globally distributed content delivery network to ensure low latency and high availability for users across different regions.",
-      "technical_spec": "Edge servers strategically placed worldwide, content caching mechanisms.",
-      "severity_score": 20
-    },
-    {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "Leverages cloud platforms for scalable storage and computing power to handle large traffic volumes.",
-      "technical_spec": "Amazon Web Services (AWS) with auto-scaling groups and load balancers.",
+      "title": "Reactive Systems",
+      "description": "System built to be responsive, resilient, elastic, and message-driven to handle dynamic loads.",
+      "technical_spec": "Utilizes asynchronous event-driven mechanisms.",
       "severity_score": 10
     },
     {
-      "title": "Data-Driven Architecture",
-      "description": "Relies on extensive data analytics and machine learning models for personalized content recommendation.",
-      "technical_spec": "Apache Kafka for streaming data, Hadoop for big data processing.",
-      "severity_score": 12
+      "title": "Global CDN Deployment",
+      "description": "Content Delivery Network to cache and deliver content to users globally for fast streaming.",
+      "technical_spec": "Implementation with Open Connect, a custom CDN solution.",
+      "severity_score": 8
     },
     {
-      "title": "Resilient System Design",
-      "description": "Incorporates fault-tolerant designs to enhance uptime and robustness.",
-      "technical_spec": "Circuit breaker patterns and chaos engineering via Simian Army.",
-      "severity_score": 8
+      "title": "NoSQL Databases",
+      "description": "Use of highly scalable databases to store diverse and large datasets.",
+      "technical_spec": "Primarily uses Cassandra for horizontal scalability.",
+      "severity_score": 15
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Distributing network or application traffic across multiple servers to ensure reliability.",
+      "technical_spec": "Features Elastic Load Balancing and own mechanisms for traffic management.",
+      "severity_score": 12
     }
   ]
 }

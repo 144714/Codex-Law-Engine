@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 64,
+    "rank": 74,
     "site": "microsoft.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "4f0ca4ae2aa27fc28aa9471177f198be"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "d76f2ca22fc8d88ee75673b8e6766064"
   },
   "data": [
     {
-      "title": "Cloud Integration",
-      "description": "Extensive use of Microsoft Azure for hosting and services.",
-      "technical_spec": "Leverages Azure's global infrastructure for scalability and reliability.",
-      "severity_score": 90
-    },
-    {
       "title": "Microservices Architecture",
-      "description": "Modular service design allowing frequent updates and independent scaling.",
-      "technical_spec": "Decomposed services using containers and orchestration via Kubernetes.",
-      "severity_score": 85
+      "description": "Microsoft.com utilizes a microservices architecture to allow scalability and maintainability.",
+      "technical_spec": "Decomposed into small, independent services that communicate via APIs.",
+      "severity_score": 10
     },
     {
-      "title": "Single Page Applications (SPA)",
-      "description": "Enhancing user experience with responsive and fast interactions.",
-      "technical_spec": "Built with Angular for dynamic content rendering, minimizing page reloads.",
-      "severity_score": 75
+      "title": "Cloud-Based Infrastructure",
+      "description": "The site is hosted on Azure, benefiting from high availability and robustness.",
+      "technical_spec": "Utilizes Azure App Services and Azure CDN for content delivery.",
+      "severity_score": 15
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Fast content delivery to global users.",
-      "technical_spec": "Azure CDN integration speeds up data access times.",
-      "severity_score": 88
+      "title": "Content Delivery Network",
+      "description": "A global CDN is used to deliver content quickly and efficiently to users worldwide.",
+      "technical_spec": "Leverages Azure CDN for optimized latency and performance.",
+      "severity_score": 12
     },
     {
-      "title": "RESTful APIs",
-      "description": "APIs for seamless third-party integrations and data interactions.",
-      "technical_spec": "Use of OpenAPI for defining API contracts and facilitating developer access.",
-      "severity_score": 82
+      "title": "Responsive Design",
+      "description": "The website is designed to provide seamless browsing across devices.",
+      "technical_spec": "Employs CSS3 media queries and flexible layouts.",
+      "severity_score": 20
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Implements load balancing to distribute traffic evenly across servers.",
+      "technical_spec": "Uses Azure Load Balancer to ensure reliability and uptime.",
+      "severity_score": 18
     }
   ]
 }

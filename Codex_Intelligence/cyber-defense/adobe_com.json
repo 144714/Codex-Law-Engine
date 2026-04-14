@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 68,
+    "rank": 78,
     "site": "adobe.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "515ad40c89718ac4468ec3ae09d915ee"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "b4b12da909cac101569c7df9fa75bfe4"
   },
   "data": [
     {
-      "title": "WAF Protection",
-      "description": "Deployment of Web Application Firewalls to block harmful traffic.",
-      "technical_spec": "AWS WAF, Azure Security Center",
-      "severity_score": 88
+      "title": "Data Encryption",
+      "description": "Encryption of data at rest and in transit to prevent unauthorized access.",
+      "technical_spec": "AES-256 encryption standard utilized for data protection.",
+      "severity_score": 2
     },
     {
-      "title": "DDoS Mitigation",
-      "description": "Strategies to handle Distributed Denial of Service attacks.",
-      "technical_spec": "Traffic analysis, rate limiting, Cloudflare protection",
-      "severity_score": 92
+      "title": "Regular Security Audits",
+      "description": "Conducts frequent audits and vulnerability assessments to maintain security posture.",
+      "technical_spec": "Quarterly penetration testing and use of automated security tools such as Nessus.",
+      "severity_score": 10
     },
     {
-      "title": "Secure Data Encryption",
-      "description": "Implementation of industry-standard encryption for data security.",
-      "technical_spec": "TLS/SSL encryption for data in transit, AES-256 for data at rest",
-      "severity_score": 95
+      "title": "Multi-Factor Authentication",
+      "description": "Implements MFA to enhance security for user accounts.",
+      "technical_spec": "Integration with services like Duo Security for an additional authentication layer.",
+      "severity_score": 3
     },
     {
-      "title": "Identity Management",
-      "description": "Strong identity and access management to control user permissions.",
-      "technical_spec": "OAuth 2.0, SAML, IAM roles",
-      "severity_score": 86
+      "title": "Threat Intelligence",
+      "description": "Utilizes threat intelligence to preemptively counter cyber threats.",
+      "technical_spec": "Collaboration with industry threat intelligence platforms for real-time threat data.",
+      "severity_score": 7
     },
     {
-      "title": "Incident Response",
-      "description": "Comprehensive incident response strategies for cybersecurity threats.",
-      "technical_spec": "SIEM systems, automated alerts, incident management protocols",
-      "severity_score": 90
+      "title": "Security Incident Response",
+      "description": "Robust mechanisms to detect, respond to security incidents efficiently.",
+      "technical_spec": "Incident response handled using tools like Splunk and ServiceNow.",
+      "severity_score": 5
     }
   ]
 }

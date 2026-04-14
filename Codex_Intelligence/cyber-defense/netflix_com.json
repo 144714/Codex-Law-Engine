@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 66,
+    "rank": 76,
     "site": "netflix.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "d648746a79907a572eae27201f3413b0"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "092f48ce219f4646b923179d89494690"
   },
   "data": [
     {
       "title": "Data Encryption",
-      "description": "Ensures user data is encrypted both during transmission and at rest.",
-      "technical_spec": "TLS encryption for data in transit, AES-256 encryption for stored data.",
+      "description": "Encryption protocols to secure user data during transmission and at rest.",
+      "technical_spec": "AES-256 and Transport Layer Security (TLS).",
       "severity_score": 20
     },
     {
-      "title": "Access Control",
-      "description": "Strict access control policies to protect sensitive data and systems from unauthorized access.",
-      "technical_spec": "Role-based access control using OAuth 2.0.",
-      "severity_score": 18
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular security assessments and vulnerability scans to identify and remediate potential threats.",
-      "technical_spec": "Automated security scanners and third-party security audits.",
+      "title": "Identity and Access Management",
+      "description": "Controls to ensure only authorized access to systems and data.",
+      "technical_spec": "Utilizes OAuth and 2FA for user authentication.",
       "severity_score": 25
     },
     {
-      "title": "DDoS Protection",
-      "description": "Implements robust defenses to mitigate Distributed Denial of Service attacks.",
-      "technical_spec": "Cloud-based DDoS protection services & traffic analysis tools.",
-      "severity_score": 30
+      "title": "Security Audits and Penetration Testing",
+      "description": "Regular security testing to identify and patch vulnerabilities.",
+      "technical_spec": "Internal and third-party audits and white-hat engagements.",
+      "severity_score": 18
     },
     {
-      "title": "Incident Response Plan",
-      "description": "Comprehensive incident response strategies to rapidly address and contain security breaches.",
-      "technical_spec": "Defined breach response protocols with a dedicated incident response team.",
+      "title": "Threat Intelligence and Monitoring",
+      "description": "Continuous monitoring to detect and respond to security threats in real-time.",
+      "technical_spec": "Advanced SIEM systems and custom-built threat intelligence tools.",
       "severity_score": 22
+    },
+    {
+      "title": "Automated Security Response",
+      "description": "Automation tools to promptly mitigate potential threats once detected.",
+      "technical_spec": "Use of machine learning algorithms for quick incident response.",
+      "severity_score": 30
     }
   ]
 }

@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 69,
+    "rank": 79,
     "site": "instagram.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "ad31cfd72558f2a0620f4ddc31dd6ad0"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "93d636148014ff5379539de25b7f0b90"
   },
   "data": [
     {
       "title": "Data Encryption",
       "description": "Encrypts data in transit and at rest to protect user information.",
-      "technical_spec": "Uses protocols like TLS for data during transmission.",
-      "severity_score": 15
+      "technical_spec": "TLS/SSL for data in motion, AES-256 for data at rest.",
+      "severity_score": 70
     },
     {
-      "title": "Authentication Safeguards",
-      "description": "Implements multi-factor authentication and login alerts.",
-      "technical_spec": "Utilizes phone-based verification and app-based authentication steps.",
+      "title": "Multi-Factor Authentication",
+      "description": "Offers two-factor authentication to enhance account security.",
+      "technical_spec": "Supports TOTP and SMS-based verification for users.",
       "severity_score": 50
     },
     {
-      "title": "Threat Detection Systems",
-      "description": "Active monitoring solutions to detect and mitigate potential threats.",
-      "technical_spec": "Incorporates machine learning algorithms to identify patterns.",
-      "severity_score": 45
+      "title": "Intrusion Detection Systems",
+      "description": "Monitors for suspicious activities within network traffic.",
+      "technical_spec": "Uses heuristic and signature-based approaches to detect intrusions.",
+      "severity_score": 60
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts periodic security reviews to strengthen defenses.",
-      "technical_spec": "Engages third-party security firms for comprehensive assessments.",
+      "description": "Conducts periodic evaluations to identify and fix vulnerabilities.",
+      "technical_spec": "Employment of third-party security experts for unbiased analysis.",
       "severity_score": 40
     },
     {
       "title": "User Privacy Controls",
-      "description": "Provides custom privacy settings ensuring users control their data exposure.",
-      "technical_spec": "Granular sharing settings and content visibility controls.",
+      "description": "Provides users options to control their data visibility and sharing.",
+      "technical_spec": "Includes settings for profile privacy and data sharing permissions.",
       "severity_score": 30
     }
   ]

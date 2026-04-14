@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 64,
+    "rank": 74,
     "site": "microsoft.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "59ebf7f301748df7e2eae4574205e934"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "7f471e33999ebe8e7ad8df6682f3f3a6"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifying decision-making by reducing choices at a given time.",
-      "technical_spec": "Streamlined navigation and categorized content to prevent user overload.",
-      "severity_score": 80
+      "title": "Hick’s Law",
+      "description": "Simplifies user decision-making by limiting options.",
+      "technical_spec": "Uses clear navigation paths and minimized choice overload.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizing target selection speed and accuracy.",
-      "technical_spec": "Well-sized buttons and consistent cursor movement paths.",
-      "severity_score": 78
+      "title": "Fitts’s Law",
+      "description": "Designs interactive elements that are easy to reach.",
+      "technical_spec": "Prioritizes clickable areas for navigational efficiency.",
+      "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Presenting information in chunks to improve user memory retention.",
-      "technical_spec": "Content broken into digestible parts like cards or sections.",
-      "severity_score": 77
+      "title": "Gestalt Principles",
+      "description": "Organizes UI elements for perceived visual unity.",
+      "technical_spec": "Groups similar items and ensures proximity and alignment.",
+      "severity_score": 12
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Enhancing usability with aesthetically pleasing design.",
-      "technical_spec": "Modern design elements and intuitive interfaces to build trust.",
-      "severity_score": 85
+      "title": "Miller’s Law",
+      "description": "Breaks down complex information into digestible chunks.",
+      "technical_spec": "Uses concise text and structured information hierarchy.",
+      "severity_score": 11
     },
     {
       "title": "Jakob's Law",
-      "description": "Providing users with familiar design patterns.",
-      "technical_spec": "Consistency with common web standards to enhance user comfort.",
-      "severity_score": 86
+      "description": "Utilizes familiar designs to leverage existing user experience.",
+      "technical_spec": "Adheres to web usability conventions for a familiar user experience.",
+      "severity_score": 8
     }
   ]
 }

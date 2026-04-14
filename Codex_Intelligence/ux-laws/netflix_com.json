@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 66,
+    "rank": 76,
     "site": "netflix.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "a9db24a3808ac036f56e78caee433e95"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "4b9869c74fa3491c0f354337803cdeb6"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplified interface to minimize decision time and enhance user experience.",
-      "technical_spec": "Intuitive navigation menus, minimalistic design.",
-      "severity_score": 12
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Button sizes and distances are optimized for swift and easy interactions.",
-      "technical_spec": "Responsive design elements, dynamic adjustability for devices.",
-      "severity_score": 10
-    },
-    {
-      "title": "Pareto Principle",
-      "description": "Focus on key features which provide the most value and engagement to users.",
-      "technical_spec": "User-centered design with a prioritization of popular content.",
+      "title": "Hick’s Law",
+      "description": "Simplifying choices improves user decision-making process.",
+      "technical_spec": "Interfaces are streamlined to allow easy content browsing and selection.",
       "severity_score": 8
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Employs principles of visual perception to improve interface organization and coherence.",
-      "technical_spec": "Grouping similar content and clear visual hierarchies.",
-      "severity_score": 15
+      "title": "Fitts’s Law",
+      "description": "The time to acquire a target is a function of the distance to and size of the target.",
+      "technical_spec": "Content can be readily selected using intuitive UI components like large thumbnails and arrows.",
+      "severity_score": 10
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Aesthetically pleasing interface which enhances perceived usability.",
-      "technical_spec": "Modern and visually appealing design consistent with branding.",
-      "severity_score": 14
+      "title": "Consistency and Standards",
+      "description": "Consistency in design and interactions to meet user expectations.",
+      "technical_spec": "Aligns interface changes with standard user practices globally.",
+      "severity_score": 12
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Users can hold about 7 (plus or minus 2) pieces of information in their working memory.",
+      "technical_spec": "Home screen limits content categories visible at one time to ease cognitive load.",
+      "severity_score": 5
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Users spend most of their time on other sites, so they prefer similar interfaces.",
+      "technical_spec": "Adopts familiar UI elements from similar streaming platforms for ease of use.",
+      "severity_score": 15
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 62,
+    "rank": 72,
     "site": "youtube.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "3a713f8005bb94c3d338fcda4ebe86c2"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "eaf663e9172eefbd141609be3efd1db5"
   },
   "data": [
     {
-      "title": "Global Reach",
-      "description": "YouTube's brand emphasizes a worldwide user base with diverse content.",
-      "technical_spec": "Available in 100+ countries and 80+ languages.",
-      "severity_score": 98
+      "title": "Community and Sharing",
+      "description": "Promotes community engagement and content sharing.",
+      "technical_spec": "Like, Share, Subscribe Features",
+      "severity_score": 82
     },
     {
       "title": "User-Generated Content",
-      "description": "Empowers users to create and share content freely.",
-      "technical_spec": "Tools for content creation, editing, and direct upload.",
-      "severity_score": 95
+      "description": "Encourages users to create and upload video content.",
+      "technical_spec": "Video Upload Tools, Creator Studio",
+      "severity_score": 88
     },
     {
-      "title": "Community and Engagement",
-      "description": "Promotes interaction through comments, likes, and live streams.",
-      "technical_spec": "Features include a comment moderation system and live chat during streams.",
+      "title": "Personalization",
+      "description": "Offers personalized content recommendations.",
+      "technical_spec": "AI-Driven Algorithms",
+      "severity_score": 86
+    },
+    {
+      "title": "Accessibility",
+      "description": "Ensures content accessibility for all users.",
+      "technical_spec": "Captioning, Screen Reader Compatibility",
+      "severity_score": 80
+    },
+    {
+      "title": "Advertising and Monetization",
+      "description": "Enables content monetization through ads.",
+      "technical_spec": "AdSense Integration, Partner Program",
       "severity_score": 85
-    },
-    {
-      "title": "Monetization Opportunities",
-      "description": "Offers various ways for creators to earn from their content.",
-      "technical_spec": "Ad revenue sharing, channel memberships, and Super Chat features.",
-      "severity_score": 90
-    },
-    {
-      "title": "Innovative Features",
-      "description": "Continuously evolving platform with new features like Shorts and VR content.",
-      "technical_spec": "Regular updates with beta features and technology partnerships.",
-      "severity_score": 93
     }
   ]
 }

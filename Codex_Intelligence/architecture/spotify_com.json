@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 67,
+    "rank": 77,
     "site": "spotify.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "6d3300ae7688dfa95fcba9d531ff631d"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "817391d7ee906fc7dd6b86f50cd1194f"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Spotify employs a microservices architecture to allow independent deployment and scaling of features.",
-      "technical_spec": "Services communicated via HTTP/REST and event streaming with Kafka.",
-      "severity_score": 25
+      "title": "Microservices Architecture",
+      "description": "Spotify uses a microservices architecture to manage different functionalities across its platform.",
+      "technical_spec": "Each service is encapsulated, provides a specific function, and communicates via RESTful APIs or messaging queues.",
+      "severity_score": 10
     },
     {
       "title": "Cloud Infrastructure",
-      "description": "The backend is hosted on cloud platforms for scalability and resilience.",
-      "technical_spec": "Primarily on Google Cloud Platform (GCP) with Kubernetes for container orchestration.",
+      "description": "Deployed on a scalable cloud infrastructure to handle global user demand.",
+      "technical_spec": "Leverages services from cloud providers like Google Cloud for compute, storage, and networking solutions.",
+      "severity_score": 15
+    },
+    {
+      "title": "Data Driven System",
+      "description": "Heavy reliance on data-driven decision-making to optimize user experience.",
+      "technical_spec": "Integrates tools like Apache Kafka and Google BigQuery for data streaming and analysis.",
       "severity_score": 20
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "CDN is used for efficient media file delivery to ensure low latency streaming.",
-      "technical_spec": "Leveraging global CDN networks like Cloudflare or Akamai.",
+      "description": "Uses CDNs to ensure consistent music streaming quality and fast loading times around the world.",
+      "technical_spec": "Partners with third-party CDN providers such as Akamai to cache content close to users.",
       "severity_score": 15
     },
     {
-      "title": "APIs and SDKs",
-      "description": "APIs support third-party integrations and a wide ecosystem of apps and services.",
-      "technical_spec": "RESTful API with OAuth 2.0 for authentication.",
-      "severity_score": 30
-    },
-    {
-      "title": "Data Analytics",
-      "description": "Advanced analytics and big data frameworks for personalized user experience.",
-      "technical_spec": "Utilizes Apache Hadoop, Dataflow, and BigQuery.",
-      "severity_score": 35
+      "title": "Resilient and Redundant Systems",
+      "description": "Focus on resilience with multiple redundancy layers to ensure high availability.",
+      "technical_spec": "Implements failover mechanisms and disaster recovery plans.",
+      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 70,
+    "rank": 80,
     "site": "whatsapp.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "57d9eadba8cf28e7cc120dad7474db90"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "a8d36d2b3502e221829d3ff9ad4e8827"
   },
   "data": [
     {
-      "title": "Global Connectivity",
-      "description": "WhatsApp is synonymous with global communication, connecting users across continents.",
-      "technical_spec": "Cross-platform availability with multi-language support.",
-      "severity_score": 30
+      "title": "Reliability",
+      "description": "Focus on consistent performance and uptime.",
+      "technical_spec": "Robust Infrastructure, Continuous Monitoring",
+      "severity_score": 95
     },
     {
-      "title": "Privacy-First Approach",
-      "description": "A strong commitment to user privacy with encrypted communication.",
-      "technical_spec": "End-to-end encryption is standard for all forms of communication.",
+      "title": "Privacy",
+      "description": "Commitment to user data privacy and security.",
+      "technical_spec": "End-to-End Encryption, Privacy Policy",
+      "severity_score": 100
+    },
+    {
+      "title": "Simplicity",
+      "description": "Intuitive and easy to use interface.",
+      "technical_spec": "User-Centric Design, Minimalist Approach",
+      "severity_score": 80
+    },
+    {
+      "title": "Global Reach",
+      "description": "Accessibility and usage across the worldwide audience.",
+      "technical_spec": "Localized Content, Multi-Language Support",
+      "severity_score": 90
+    },
+    {
+      "title": "Innovation",
+      "description": "Continual improvement and new feature introduction.",
+      "technical_spec": "Agile Development, User Feedback Integration",
       "severity_score": 85
-    },
-    {
-      "title": "User-Centric Design",
-      "description": "Focus on creating an intuitive experience tailored to user needs.",
-      "technical_spec": "Constant user feedback loops inform design iterations.",
-      "severity_score": 40
-    },
-    {
-      "title": "Reliability and Efficiency",
-      "description": "Prioritizes consistent uptime and performance under varying network conditions.",
-      "technical_spec": "Lightweight app with efficient battery and data usage.",
-      "severity_score": 50
-    },
-    {
-      "title": "Ubiquity and Identity",
-      "description": "WhatsApp is often a part of users’ digital identity due to its pervasive global use.",
-      "technical_spec": "Widely adopted in over 180 countries, with over 2 billion users.",
-      "severity_score": 45
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 68,
+    "rank": 78,
     "site": "adobe.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "2d0604a9538ad60af8b5a994f3413e3b"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "1cd02dbf152843522c7f8cd6e40757d8"
   },
   "data": [
     {
-      "title": "Microservices Framework",
-      "description": "Adobe.com utilizes a microservices architecture allowing modular and independent deployment.",
-      "technical_spec": "Kubernetes, Docker containers, REST APIs",
-      "severity_score": 78
+      "title": "Modular Design",
+      "description": "Adobe uses a modular architecture to ensure scalability and easy maintenance.",
+      "technical_spec": "Microservices architecture built on containers and orchestrated via Kubernetes.",
+      "severity_score": 5
     },
     {
       "title": "Cloud Infrastructure",
-      "description": "Extensive use of cloud services to manage workloads and scalability.",
-      "technical_spec": "AWS/Azure cloud instances, load balancing, CDN",
-      "severity_score": 82
+      "description": "Uses AWS and Azure for hosting and infrastructure requirements with a focus on high availability.",
+      "technical_spec": "Multi-cloud strategy utilizing AWS EC2, Azure VMs, and related services.",
+      "severity_score": 8
     },
     {
-      "title": "Scalable Databases",
-      "description": "Utilization of scalable databases for handling extensive user data.",
-      "technical_spec": "NoSQL databases, SQL databases with sharding",
-      "severity_score": 70
+      "title": "CI/CD Pipelines",
+      "description": "Continuous integration and deployment practices to streamline software updates.",
+      "technical_spec": "Implemented via Jenkins, Git, and Docker containers for automated testing and deployment.",
+      "severity_score": 4
     },
     {
-      "title": "Content Delivery Network",
-      "description": "Global CDNs to optimize content delivery and reduce latency for users.",
-      "technical_spec": "Akamai, Cloudflare CDN services",
-      "severity_score": 85
+      "title": "Global CDN",
+      "description": "Ensuring fast content delivery and improved user experience worldwide.",
+      "technical_spec": "Akamai CDN integration for global content delivery optimization.",
+      "severity_score": 3
     },
     {
-      "title": "Redundancy & Failover Systems",
-      "description": "Systems in place to manage failover and redundancy ensuring uptime.",
-      "technical_spec": "Multi-zone failover, automatic switchover, backup systems",
-      "severity_score": 90
+      "title": "API-first Approach",
+      "description": "Provides robust APIs for third-party integration, enhancing extensibility.",
+      "technical_spec": "RESTful APIs supporting JSON and XML, secured through OAuth 2.0.",
+      "severity_score": 6
     }
   ]
 }

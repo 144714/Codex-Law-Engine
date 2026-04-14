@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 69,
+    "rank": 79,
     "site": "instagram.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "b8304d8ad2bb1f1ee2c2a6b8516f1ee0"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "711ff17ad35435e7d0de6d1f781fc4da"
   },
   "data": [
     {
-      "title": "Fitts's Law Application",
-      "description": "UI elements are designed with size and distance considerations for ease of access.",
-      "technical_spec": "Interactive elements are adequately sized and positioned.",
+      "title": "Hick’s Law",
+      "description": "Simplifies navigation to reduce decision time.",
+      "technical_spec": "Limits choices in menus and filters for user ease.",
+      "severity_score": 25
+    },
+    {
+      "title": "Fitts’ Law",
+      "description": "Optimizes button sizes for interaction efficiency.",
+      "technical_spec": "Large tappable areas for actions like liking and sharing.",
       "severity_score": 20
     },
     {
-      "title": "Hick’s Law for Simplification",
-      "description": "Reduces cognitive load by minimizing decision points per interface.",
-      "technical_spec": "Operates with clear pathways and streamlined user choices.",
-      "severity_score": 10
+      "title": "Aesthetic-Usability Effect",
+      "description": "Enhances user perception of functionality through design.",
+      "technical_spec": "Adopts a minimalist design with a focus on photography.",
+      "severity_score": 30
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Combines an attractive design with user-friendly functionality to increase usability perception.",
-      "technical_spec": "Incorporates visual hierarchy and color psychology.",
+      "title": "Jakob’s Law",
+      "description": "Ensures consistency with widely used patterns.",
+      "technical_spec": "Utilizes standard social media interactions like scrolling feed.",
       "severity_score": 15
     },
     {
-      "title": "Consistency and Standards",
-      "description": "Maintains uniform design language across different sections of the app.",
-      "technical_spec": "Adheres to visual and interaction standards for a coherent experience.",
-      "severity_score": 25
-    },
-    {
-      "title": "Feedback Mechanisms",
-      "description": "Provides users immediate response or guidance after actions.",
-      "technical_spec": "Responsive animations and message prompts post-interaction.",
-      "severity_score": 25
+      "title": "Feedback Principle",
+      "description": "Provides visual or haptic responses for interactions.",
+      "technical_spec": "Uses vibration for likes and visual animation for notifications.",
+      "severity_score": 35
     }
   ]
 }

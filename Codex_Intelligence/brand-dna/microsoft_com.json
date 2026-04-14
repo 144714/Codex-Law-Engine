@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 64,
+    "rank": 74,
     "site": "microsoft.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "bc974ca5bc21edc196c39a61ae0e5f40"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "43b7332f00ed9be89837eafb684461bd"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Constantly pushing the boundaries of technology.",
-      "technical_spec": "R&D investment and AI advancements ensuring cutting-edge products.",
-      "severity_score": 94
+      "title": "Innovation Driven",
+      "description": "Emphasizes cutting-edge technology and innovation.",
+      "technical_spec": "Focuses on integrating AI and modern cloud solutions.",
+      "severity_score": 9
     },
     {
-      "title": "Enterprise Solutions",
-      "description": "Catering to business needs with scalable, reliable solutions.",
-      "technical_spec": "Comprehensive suite of enterprise applications and systems.",
-      "severity_score": 92
+      "title": "User-Centric Approach",
+      "description": "Prioritizes user needs and simplifies interfaces.",
+      "technical_spec": "Implements customer feedback loops and iterative design.",
+      "severity_score": 7
     },
     {
-      "title": "Sustainability",
-      "description": "Commitment to environmental causes and sustainable practices.",
-      "technical_spec": "Initiatives towards carbon neutral and renewable energy projects.",
-      "severity_score": 90
+      "title": "Global Accessibility",
+      "description": "Ensures accessibility to a global audience.",
+      "technical_spec": "Supports multiple languages and accessibility standards.",
+      "severity_score": 8
     },
     {
-      "title": "Global Reach",
-      "description": "Presence and influence across various international markets.",
-      "technical_spec": "Localized services and compliance with regional standards.",
-      "severity_score": 93
+      "title": "Enterprise Focus",
+      "description": "Aligns digital presence with enterprise solutions.",
+      "technical_spec": "Showcases Microsoft’s suite of enterprise software and services.",
+      "severity_score": 7
     },
     {
-      "title": "Trust and Security",
-      "description": "Building trust through robust security measures and data privacy.",
-      "technical_spec": "Comprehensive security frameworks and transparent data policies.",
-      "severity_score": 95
+      "title": "Commitment to Security",
+      "description": "Stresses the importance of security across all services.",
+      "technical_spec": "Promotes Azure security features and best practices.",
+      "severity_score": 6
     }
   ]
 }

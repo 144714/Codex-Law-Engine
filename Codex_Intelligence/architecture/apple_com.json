@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 63,
+    "rank": 73,
     "site": "apple.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "379251f3f67591e6f6865a8d43d25c17"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "27eefd036b05541d611553ae1035fb05"
   },
   "data": [
     {
-      "title": "Responsive Design",
-      "description": "Ensures the website adapts to a variety of devices and screen sizes, providing an optimal viewing experience.",
-      "technical_spec": "Uses flexible grids, layouts, and CSS media queries.",
-      "severity_score": 5
-    },
-    {
-      "title": "CDN Utilization",
-      "description": "Content Delivery Network is used to enhance load time and performance by distributing content geographically closer to users.",
-      "technical_spec": "Leveraged with services like Akamai or Cloudflare.",
+      "title": "Scalable Infrastructure",
+      "description": "Apple's website is powered by a robust, multi-layered infrastructure that allows it to handle high traffic volumes efficiently.",
+      "technical_spec": "Cloud-based architecture using AWS services with autoscaling capabilities.",
       "severity_score": 10
     },
     {
-      "title": "Single Page Application",
-      "description": "Features parts of the site as SPAs to dynamically update pages without full reloads, enhancing user experience.",
-      "technical_spec": "Implemented using JavaScript frameworks like React or Angular.",
+      "title": "Content Delivery Network",
+      "description": "The website employs a global CDN to deliver content quickly to users around the world.",
+      "technical_spec": "Uses Akamai CDN for efficient content delivery and reduced latency.",
       "severity_score": 15
     },
     {
       "title": "Microservices Architecture",
-      "description": "Divides services into smaller, self-contained units, which can be developed and scaled independently.",
-      "technical_spec": "Uses RESTful APIs or GraphQL for service communication.",
+      "description": "Apple.com uses a microservices architecture to decouple services for better manageability and scalability.",
+      "technical_spec": "Containerized services orchestrated through Kubernetes clusters.",
       "severity_score": 20
     },
     {
-      "title": "Headless CMS",
-      "description": "Decouples the backend content repository from front-end presentation layer, enhancing flexibility.",
-      "technical_spec": "Systems like Contentful or Strapi are used.",
+      "title": "API-driven Design",
+      "description": "The site heavily relies on APIs for data interchange between various components and services.",
+      "technical_spec": "RESTful API endpoints secured with OAuth 2.0.",
       "severity_score": 25
+    },
+    {
+      "title": "Edge Computing",
+      "description": "Leverages edge computing for processing data closer to users to ensure faster response times.",
+      "technical_spec": "Edge nodes powered by edge cloud providers for compute-intensive tasks.",
+      "severity_score": 30
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 67,
+    "rank": 77,
     "site": "spotify.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "ef82a2e023222ee87b2062d6a7396baf"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "c45c144597996f7ffedb743e58e6aaa2"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifying choices improves user decision-making speed.",
-      "technical_spec": "Streamlined playlist and content navigation UI.",
-      "severity_score": 35
+      "title": "Aesthetic-Usability Effect",
+      "description": "Enhances user satisfaction through a visually pleasing interface.",
+      "technical_spec": "User interfaces are streamlined, with consistent color schemes and intuitive navigation.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizing target size and positioning for ease of use.",
-      "technical_spec": "Large, easy-to-tap buttons on mobile platforms.",
-      "severity_score": 40
+      "title": "Fitts’s Law",
+      "description": "Design considerations that make interactive elements easy to select.",
+      "technical_spec": "Interactive buttons are appropriately sized and spaced for efficiency.",
+      "severity_score": 20
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "Users perceive aesthetically pleasing designs as easier to use.",
-      "technical_spec": "Consistent color schemes and typography.",
-      "severity_score": 30
+      "title": "Hick’s Law",
+      "description": "Reduces decision time by limiting choices per screen.",
+      "technical_spec": "Simplified menu structures to quickly guide users to their desired destination.",
+      "severity_score": 20
     },
     {
-      "title": "Jakob's Law",
-      "description": "Users prefer your site to work the same way as other sites they know.",
-      "technical_spec": "Standard controls and navigation patterns.",
-      "severity_score": 25
+      "title": "Jakob’s Law",
+      "description": "Design familiar environments that align with user expectations from related applications.",
+      "technical_spec": "Interface consistency aligns with common streaming apps to leverage familiarity.",
+      "severity_score": 10
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Experience judgment is governed by peaks and endings.",
-      "technical_spec": "Highlight moments like Discover Weekly releases.",
-      "severity_score": 50
+      "title": "Miller’s Law",
+      "description": "Limits information load on each page to prevent cognitive overload.",
+      "technical_spec": "Content is organized to present up to seven items per screen.",
+      "severity_score": 20
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 62,
+    "rank": 72,
     "site": "youtube.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "2d60e5a77b4ed3fe672b21ef9849bf00"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "7836dfc38123ff65f948f6b273e2308d"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "YouTube uses a microservices architecture to handle various functions like video streaming, user management, and recommendation algorithms.",
-      "technical_spec": "Decomposed services running in Docker containers managed by Kubernetes.",
+      "title": "Microservices",
+      "description": "YouTube leverages a microservices architecture allowing independent deployment and scaling of components.",
+      "technical_spec": "Kubernetes, Docker, REST APIs",
       "severity_score": 85
     },
     {
-      "title": "Monolithic Reduced Design",
-      "description": "Legacy components exist which are built using a monolithic architecture, particularly in backend components.",
-      "technical_spec": "Legacy Java and Python services with RESTful API interfaces.",
-      "severity_score": 65
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Utilizes global CDNs for efficient video streaming and data replication.",
-      "technical_spec": "Leverages Google Cloud CDN and other third-party CDNs for edge server locations.",
+      "title": "Global Content Delivery Networks",
+      "description": "CDNs ensure rapid video delivery across different geographies.",
+      "technical_spec": "CloudFront, Google Cloud CDN",
       "severity_score": 90
     },
     {
-      "title": "Load Balancing",
-      "description": "Load balancing is applied globally across services to ensure uptime and balanced resource utilization.",
-      "technical_spec": "Utilizes Google Cloud Load Balancer with BGP (Border Gateway Protocol) for traffic management.",
-      "severity_score": 88
+      "title": "Data Storage Optimization",
+      "description": "Efficient use of data storage systems for massive video content.",
+      "technical_spec": "Bigtable, Spanner",
+      "severity_score": 80
     },
     {
-      "title": "Data Storage Systems",
-      "description": "Utilizes distributed databases for handling data relations and storing large volumes of video data.",
-      "technical_spec": "Uses Bigtable for data storage and Spanner for transactional consistency.",
-      "severity_score": 92
+      "title": "Load Balancing Techniques",
+      "description": "Distributes incoming network traffic across multiple servers.",
+      "technical_spec": "HTTP Load Balancer, Autoscaling",
+      "severity_score": 87
+    },
+    {
+      "title": "Real-Time Analytics",
+      "description": "Tracks user engagement and video performance in real-time.",
+      "technical_spec": "BigQuery, Dataflow",
+      "severity_score": 78
     }
   ]
 }

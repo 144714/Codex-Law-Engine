@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 65,
+    "rank": 75,
     "site": "amazon.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "eb5cd29de69dcd1499d0af459c21b4c5"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "f38005851722e53f15457935e4b4b9b4"
   },
   "data": [
     {
-      "title": "Advanced Threat Detection",
-      "description": "Implementation of automated monitoring to identify and mitigate risks.",
-      "technical_spec": "AWS Security Hub, GuardDuty for threat detection and response.",
-      "severity_score": 30
+      "title": "End-to-End Encryption",
+      "description": "Data is encrypted during transfer and at rest.",
+      "technical_spec": "TLS/SSL, AES-256",
+      "severity_score": 95
     },
     {
       "title": "DDoS Protection",
-      "description": "Protection against distributed denial-of-service attacks with cloud front and AWS Shield.",
-      "technical_spec": "AWS Shield Advanced for comprehensive DDoS protection.",
-      "severity_score": 40
+      "description": "Deploys shielding against large-scale traffic attacks.",
+      "technical_spec": "AWS Shield, WAF",
+      "severity_score": 92
     },
     {
-      "title": "Data Encryption",
-      "description": "Ensures data integrity with robust encryption algorithms for data at rest and transit.",
-      "technical_spec": "AWS Key Management Service (KMS), SSL/TLS encryption.",
-      "severity_score": 35
-    },
-    {
-      "title": "IAM Policies",
-      "description": "Strict identity and access management policies to control permissions.",
-      "technical_spec": "AWS IAM for managing access to AWS services and resources securely.",
-      "severity_score": 25
+      "title": "Multi-Factor Authentication",
+      "description": "Requires two-step verification to enhance security.",
+      "technical_spec": "OTP, App-based Authentication",
+      "severity_score": 88
     },
     {
       "title": "Regular Security Audits",
-      "description": "Frequent audits to detect and address security vulnerabilities.",
-      "technical_spec": "AWS Inspector for automated security assessments.",
-      "severity_score": 45
+      "description": "Conducts frequent assessments to identify vulnerabilities.",
+      "technical_spec": "Penetration Testing, Vulnerability Scanning",
+      "severity_score": 86
+    },
+    {
+      "title": "Incident Response Plan",
+      "description": "Maintains a documented protocol to respond to breaches.",
+      "technical_spec": "IRP Procedures, Threat Intelligence",
+      "severity_score": 89
     }
   ]
 }

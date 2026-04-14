@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 63,
+    "rank": 73,
     "site": "apple.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "e74c1de14352d59b38d1bff62ebf1a10"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "8b52c1238699913be775c2d825aac601"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "A core focus on bringing cutting-edge technology and features to consumers.",
-      "technical_spec": "PR and product releases emphasize technological breakthroughs.",
+      "description": "Apple's online presence reflects its commitment to innovative technology and design.",
+      "technical_spec": "Regularly integrating cutting-edge web technologies.",
       "severity_score": 5
     },
     {
-      "title": "Design Aesthetics",
-      "description": "Emphasizes elegance, simplicity, and consistent brand identity across all products and communications.",
-      "technical_spec": "Apple’s design language maintained through strict guidelines.",
+      "title": "Minimalism",
+      "description": "The brand emphasizes minimalistic design, focusing on functionality and aesthetics.",
+      "technical_spec": "Clean, clutter-free interfaces with intuitive navigation.",
       "severity_score": 10
     },
     {
-      "title": "User-Centered Approach",
-      "description": "Develops products with a strong emphasis on user experience and accessibility.",
-      "technical_spec": "Usability testing and user feedback are integral to design process.",
+      "title": "User-centric Design",
+      "description": "Prioritizes user needs and experiences by providing seamless interactions.",
+      "technical_spec": "Responsive design across all platforms ensuring accessibility standards.",
       "severity_score": 15
     },
     {
-      "title": "Eco-Friendly Initiatives",
-      "description": "Strives towards environmental responsibility with a commitment to reducing carbon footprint.",
-      "technical_spec": "Sourcing and production standards prioritize sustainability.",
+      "title": "Privacy and Security",
+      "description": "Known for its strong stance on user privacy and data security.",
+      "technical_spec": "Strict data protection policies and transparent privacy practices.",
       "severity_score": 20
     },
     {
-      "title": "Privacy and Security",
-      "description": "Positions consumer privacy and data security as paramount, embedding it deeply within their ecosystem.",
-      "technical_spec": "Robust privacy features marketed and integrated in product design.",
+      "title": "Ecosystem Coherence",
+      "description": "Promotes a seamless experience across its diverse ecosystem of products and services.",
+      "technical_spec": "Tightly integrated APIs and services for enhanced cross-platform functionality.",
       "severity_score": 25
     }
   ]

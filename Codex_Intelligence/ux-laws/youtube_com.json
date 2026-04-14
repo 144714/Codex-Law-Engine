@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 62,
+    "rank": 72,
     "site": "youtube.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "b458d00c5c84ae6e85cf13bc96bb3d14"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "451f65a7ee1b393551ab4ef45b44f2e9"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "The size and distance of interactive elements are optimized for faster user interactions.",
-      "technical_spec": "Larger click targets for video controls, recommendations, and menu navigation.",
-      "severity_score": 90
+      "title": "Hick’s Law",
+      "description": "Minimizes decision time by simplifying choices in the interface.",
+      "technical_spec": "User Interface Design",
+      "severity_score": 70
     },
     {
-      "title": "Hick's Law",
-      "description": "Minimized choices in menus to reduce decision time and improve user experience.",
-      "technical_spec": "Streamlined navigation with concise categories and content filters.",
-      "severity_score": 85
+      "title": "Fitts’s Law",
+      "description": "Optimizes click targets to enhance user interaction.",
+      "technical_spec": "Layout and Element Sizing",
+      "severity_score": 76
     },
     {
       "title": "Miller’s Law",
-      "description": "Chunks of recommended video content ease cognitive load for users.",
-      "technical_spec": "Curated playlists and suggestions based on user history and preferences.",
-      "severity_score": 88
+      "description": "Designs to accommodate the user's short-term memory capacity.",
+      "technical_spec": "Information Architecture",
+      "severity_score": 74
     },
     {
-      "title": "Jakob's Law",
-      "description": "Design patterns align with user expectations for familiarity.",
-      "technical_spec": "UI follows established patterns in video controls and channel page layouts.",
-      "severity_score": 92
+      "title": "Jakob’s Law",
+      "description": "Designs experiences to reflect familiar user patterns.",
+      "technical_spec": "UI Consistency and Standards",
+      "severity_score": 81
     },
     {
-      "title": "Law of Proximity",
-      "description": "Related items are grouped together to aid user comprehension.",
-      "technical_spec": "Grouping related videos and channel suggestions on homepage and sidebars.",
-      "severity_score": 87
+      "title": "Aesthetic-Usability Effect",
+      "description": "Creates visually appealing interfaces to enhance perceived usability.",
+      "technical_spec": "Visual Design, UI Aesthetics",
+      "severity_score": 77
     }
   ]
 }

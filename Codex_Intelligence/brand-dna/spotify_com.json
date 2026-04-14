@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 67,
+    "rank": 77,
     "site": "spotify.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "8a9f118cc7e51a90807b480ee571c4f9"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "f386c1160be6bf540a8c92156d7cb936"
   },
   "data": [
     {
-      "title": "Personalization",
-      "description": "Delivering a uniquely tailored music experience.",
-      "technical_spec": "Machine learning algorithms for personalized playlists.",
-      "severity_score": 20
-    },
-    {
-      "title": "Music Discovery",
-      "description": "Facilitating user exploration of new music.",
-      "technical_spec": "Recommendation engines and curated playlists.",
-      "severity_score": 15
-    },
-    {
-      "title": "Cross-Platform Access",
-      "description": "Accessibility on various devices.",
-      "technical_spec": "Dedicated apps for iOS, Android, desktops, and smart devices.",
-      "severity_score": 35
-    },
-    {
-      "title": "Artist Empowerment",
-      "description": "Supporting artists with tools to reach listeners.",
-      "technical_spec": "Analytics dashboard and direct-to-artist features.",
+      "title": "Personalized Experience",
+      "description": "Focus on delivering a tailored music experience to individual users.",
+      "technical_spec": "Advanced algorithms analyze listening habits to suggest content.",
       "severity_score": 30
     },
     {
-      "title": "Social Connection",
-      "description": "Connecting users through music experiences.",
-      "technical_spec": "Social sharing features and collaborative playlists.",
-      "severity_score": 25
+      "title": "Global Music Library",
+      "description": "Provides a vast repository of songs and podcasts from around the world.",
+      "technical_spec": "Licensing deals with major and indie labels expand the music catalog.",
+      "severity_score": 40
+    },
+    {
+      "title": "Cross-Platform Integration",
+      "description": "Streamlines seamless listening experience across devices.",
+      "technical_spec": "Available on desktop, mobile, web, and smart devices.",
+      "severity_score": 20
+    },
+    {
+      "title": "Community Driven Features",
+      "description": "Engages users with collaborative playlists and social sharing features.",
+      "technical_spec": "Integrates social media sharing and collaborative playlist creation.",
+      "severity_score": 35
+    },
+    {
+      "title": "Innovative Discovery Tools",
+      "description": "Empowers users to discover new music effortlessly.",
+      "technical_spec": "Leverages playlists like 'Discover Weekly' and 'Release Radar' to curate new music.",
+      "severity_score": 30
     }
   ]
 }

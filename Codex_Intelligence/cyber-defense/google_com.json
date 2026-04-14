@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 61,
+    "rank": 71,
     "site": "google.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "9bc04aed1a006059cc50e970e34b0ecb"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "6c2418e03055b8e68c71871dd963087f"
   },
   "data": [
     {
-      "title": "Encryption Everywhere",
-      "description": "End-to-end data encryption across services and communications.",
-      "technical_spec": "Transport Layer Security (TLS), Perfect Forward Secrecy (PFS).",
+      "title": "SSL/TLS Encryption",
+      "description": "Security protocols are implemented to encrypt data in transit between users and Google servers.",
+      "technical_spec": "Enforced HTTPS by default to safeguard data integrity and privacy.",
       "severity_score": 5
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Multi-tier authentication to secure user accounts from unauthorized access.",
-      "technical_spec": "Physical security keys, SMS verification codes.",
-      "severity_score": 15
-    },
-    {
-      "title": "AI-Driven Threat Detection",
-      "description": "Use of artificial intelligence to identify and respond to potential threats in real time.",
-      "technical_spec": "Machine learning models, anomaly detection algorithms.",
+      "title": "Advanced Threat Detection",
+      "description": "Continuously monitors potential security threats using AI and machine learning.",
+      "technical_spec": "Applies anomaly detection and user behavior analytics.",
       "severity_score": 10
     },
     {
-      "title": "Bug Bounty Program",
-      "description": "Encourages third-party researchers to find vulnerabilities with rewards.",
-      "technical_spec": "Publicly listed bug bounty initiatives, tiered reward systems.",
-      "severity_score": 20
+      "title": "DDoS Mitigation Strategies",
+      "description": "Infrastructure designed to withstand massive distributed denial-of-service attacks.",
+      "technical_spec": "Leverages Google Cloud's global network for scalable DDoS protection.",
+      "severity_score": 8
     },
     {
-      "title": "Secure Boot Process",
-      "description": "Firmware authentication and verification at boot time to prevent unauthorized code execution.",
-      "technical_spec": "Trusted Platform Module (TPM), secure boot chain.",
+      "title": "User Authentication Security",
+      "description": "Includes two-step verification and other security protocols to protect user accounts.",
+      "technical_spec": "Supports two-factor authentication and OAuth 2.0.",
+      "severity_score": 12
+    },
+    {
+      "title": "Data Privacy Compliance",
+      "description": "Measures in place to comply with global data privacy standards, protecting user data.",
+      "technical_spec": "Adheres to GDPR, CCPA, and other regional data protection laws.",
       "severity_score": 10
     }
   ]

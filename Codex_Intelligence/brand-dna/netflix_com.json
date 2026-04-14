@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 66,
+    "rank": 76,
     "site": "netflix.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "6773d908f2fed8d1234bfe160d345d65"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "f78133719dd90473f4bfd1bf54b3e6b2"
   },
   "data": [
     {
-      "title": "Innovative Storytelling",
-      "description": "Renowned for pioneering original content and new storytelling formats.",
-      "technical_spec": "Original series, movies, and interactive content.",
-      "severity_score": 5
+      "title": "Original Content Production",
+      "description": "Investing heavily in exclusive shows and movies to differentiate from competitors.",
+      "technical_spec": "Portfolio includes award-winning hits, extensive range of genres.",
+      "severity_score": 20
     },
     {
-      "title": "Global Reach",
-      "description": "Accessible in over 190 countries, offering diverse content to a worldwide audience.",
-      "technical_spec": "Multilingual content and subtitles, regional content strategies.",
-      "severity_score": 5
+      "title": "Global Accessibility",
+      "description": "Providing localized content worldwide with subtitles and dubbing options.",
+      "technical_spec": "Versioning specific to regions; supports over 20 languages.",
+      "severity_score": 18
     },
     {
-      "title": "Customer Centricity",
-      "description": "Focuses on user experience and satisfaction through constant product innovation.",
-      "technical_spec": "User personalization and recommendation algorithms.",
-      "severity_score": 8
+      "title": "Data-Driven Recommendations",
+      "description": "Using analytics to tailor recommendations based on viewing patterns.",
+      "technical_spec": "Algorithms analyze user data for predictive personalization.",
+      "severity_score": 25
     },
     {
-      "title": "Value Proposition",
-      "description": "Promises a wide variety of accessible and high-quality entertainment at a competitive price.",
-      "technical_spec": "Subscription-based model with different tiers, offering ad-free viewing.",
-      "severity_score": 7
+      "title": "User-Centric Experience",
+      "description": "Continuous improvements focus on user experience and satisfaction.",
+      "technical_spec": "Customer feedback loops and A/B testing influence changes.",
+      "severity_score": 15
     },
     {
-      "title": "Technological Leadership",
-      "description": "Emphasizes cutting-edge technology to enhance viewing experiences (e.g., 4K, HDR).",
-      "technical_spec": "Utilization of advanced streaming protocols, adaptive bitrate streaming.",
-      "severity_score": 6
+      "title": "Strong Brand Identity",
+      "description": "Maintaining brand consistency through distinctive visual and interactive design.",
+      "technical_spec": "Signature red and black theme, uniform branding across platforms.",
+      "severity_score": 10
     }
   ]
 }

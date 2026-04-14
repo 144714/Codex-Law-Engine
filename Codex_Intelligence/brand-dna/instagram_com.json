@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 69,
+    "rank": 79,
     "site": "instagram.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "027eb2764923e89390b3d9c124aebdb9"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "912bef7f67cf3592253ac3943d20c827"
   },
   "data": [
     {
       "title": "Visual Storytelling",
-      "description": "Core brand value revolves around sharing visual media and personal stories.",
-      "technical_spec": "Focused on image and video sharing features.",
+      "description": "Focuses heavily on image and video sharing as core elements.",
+      "technical_spec": "High-resolution media format support and editing tools.",
+      "severity_score": 10
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Encourages user interaction and engagement through features.",
+      "technical_spec": "Integrated comments, likes, and direct messaging functionality.",
       "severity_score": 20
     },
     {
-      "title": "Influencer Culture Integration",
-      "description": "Embraces collaborative features for influencer and brand partnerships.",
-      "technical_spec": "Enables and encourages collaborations through platform tools.",
+      "title": "Influencer Facilitation",
+      "description": "Provides features catering to influencers and brand partnerships.",
+      "technical_spec": "Includes analytics and branding tools for business accounts.",
       "severity_score": 30
     },
     {
-      "title": "User-Generated Content Focus",
-      "description": "Encourages content creation and sharing by a diverse user base.",
-      "technical_spec": "Provides tools for easy creation and posting.",
-      "severity_score": 20
+      "title": "Mobile-Centric Experience",
+      "description": "Optimizes for mobile usage with app-first design.",
+      "technical_spec": "Dedicated mobile application leading user interactions.",
+      "severity_score": 5
     },
     {
-      "title": "Innovation in Story Features",
-      "description": "Regularly updates story functionalities to keep user engagement high.",
-      "technical_spec": "Includes interactive elements like polls and Q&A.",
-      "severity_score": 25
-    },
-    {
-      "title": "Community and Connection",
-      "description": "Aims to foster a sense of community and connectivity globally.",
-      "technical_spec": "Incorporates messaging, live broadcasting, and collaborative features.",
+      "title": "Niche Focus",
+      "description": "Tailors content and marketing to specific interest groups.",
+      "technical_spec": "Utilizes algorithms for personalized content curation.",
       "severity_score": 15
     }
   ]

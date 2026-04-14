@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 70,
+    "rank": 80,
     "site": "whatsapp.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "69473bd50b20383261e64dbe92a7b561"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "07d33d1e496ea0185fa6e232cfbc212f"
   },
   "data": [
     {
-      "title": "Two-Step Verification",
-      "description": "An optional extra layer of security enabling users to prevent unauthorized access.",
-      "technical_spec": "A six-digit PIN is required to authenticate new device logins.",
-      "severity_score": 75
+      "title": "Zero-Day Exploit Mitigation",
+      "description": "Continuous monitoring and quick patching of vulnerabilities.",
+      "technical_spec": "Automated Security Updates, Bug Bounty Programs",
+      "severity_score": 90
     },
     {
-      "title": "Suspicious Login Alerts",
-      "description": "Alerts users to potentially unauthorized logins or access to their account.",
-      "technical_spec": "Monitors login patterns and flags unusual access.",
-      "severity_score": 60
-    },
-    {
-      "title": "Security Vulnerability Program",
-      "description": "Offers rewards for identifying and reporting security vulnerabilities.",
-      "technical_spec": "Managed through Facebook's Bug Bounty Program.",
+      "title": "Spam and Abuse Protection",
+      "description": "Preventive measures to identify and block malicious activities.",
+      "technical_spec": "Machine Learning, User Behavior Analytics",
       "severity_score": 50
     },
     {
-      "title": "Automatic Security Upgrades",
-      "description": "Provides regular security updates and patches for known vulnerabilities.",
-      "technical_spec": "Distributed via app stores with mandatory upgrade prompts.",
-      "severity_score": 80
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Additional layer of security for user authentication.",
+      "technical_spec": "SMS, Authenticator Apps",
+      "severity_score": 30
     },
     {
-      "title": "Message Forwarding Limits",
-      "description": "Restricts the ability to forward messages to prevent spam and misinformation spread.",
-      "technical_spec": "Algorithmic limits on the number of forwards allowed per message.",
-      "severity_score": 55
+      "title": "Server Security",
+      "description": "Ensuring server integrity and data protection against unauthorized access.",
+      "technical_spec": "Firewalls, Intrusion Detection Systems",
+      "severity_score": 60
+    },
+    {
+      "title": "Data Breach Response Plan",
+      "description": "Preparedness plan for handling data breaches to minimize impact.",
+      "technical_spec": "Incident Response Teams, Data Backup Procedures",
+      "severity_score": 70
     }
   ]
 }

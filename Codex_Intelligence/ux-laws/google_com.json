@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 61,
+    "rank": 71,
     "site": "google.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "df3ee80a063d5cd65c3063d3ae78d2b3"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "0f2a009727b903616c26da49c56e5d63"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Reducing the number of choices to improve decision time for users.",
-      "technical_spec": "Simplified user interfaces, minimalistic design principles.",
+      "title": "Hick’s Law",
+      "description": "Predicts the time it takes for users to make decisions based on the number of choices available.",
+      "technical_spec": "Google minimizes search decision time by providing relevant results and anticipated suggestions.",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Limits the number of objects an average person can hold in working memory.",
+      "technical_spec": "Search snippet summaries are typically concise, aiding user retention.",
+      "severity_score": 10
+    },
+    {
+      "title": "Fitt’s Law",
+      "description": "Time required to rapidly move to a target area is a function of distance to and size of the target.",
+      "technical_spec": "Interactive elements like buttons are designed with optimal size for faster interactions.",
       "severity_score": 15
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizing button sizes and positions for efficient user interaction.",
-      "technical_spec": "Responsive design, large tap targets on mobile interfaces.",
+      "title": "Jakob’s Law",
+      "description": "Users spend most time on other sites, so they prefer your site to work similarly to all other sites.",
+      "technical_spec": "Google search interface follows familiar web conventions for seamless user experience.",
+      "severity_score": 12
+    },
+    {
+      "title": "Aesthetic Usability Effect",
+      "description": "Users often perceive aesthetically pleasing design as more usable.",
+      "technical_spec": "Minimalist, visually appealing design contributes to user perception of efficiency.",
       "severity_score": 10
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Design consistency across platforms to match user expectations.",
-      "technical_spec": "Uniform design language, consistent iconography and navigation.",
-      "severity_score": 5
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "A visually pleasing design improves user perception of functionality.",
-      "technical_spec": "High-quality imagery, color harmony, typography.",
-      "severity_score": 10
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Grouping related items closely together to enhance readability and comprehension.",
-      "technical_spec": "Grid layout systems, spatial grouping strategies.",
-      "severity_score": 5
     }
   ]
 }

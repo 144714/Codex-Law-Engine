@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 70,
+    "rank": 80,
     "site": "whatsapp.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "23d10fb46c16321a4fdb6e91d0a3130d"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "2606906c019e5670b008fc37a2556049"
   },
   "data": [
     {
-      "title": "Jakob’s Law of Internet User Experience",
-      "description": "Users spend most of their time on other apps, so they prefer your app to work similar to others they already use.",
-      "technical_spec": "Intuitive touch gestures and simplified navigation resemble other popular applications.",
-      "severity_score": 50
-    },
-    {
       "title": "Hick’s Law",
-      "description": "Simplifying choices reduces user decision time and boosts app usability.",
-      "technical_spec": "Streamlined interface reducing complex tasks into simple actions.",
-      "severity_score": 65
+      "description": "Simplified user choices reduce decision-making time and improve experience.",
+      "technical_spec": "Minimalist Design, Intuitive Navigation",
+      "severity_score": 10
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Aesthetic designs are perceived as easier to use but require simplicity to achieve true usability.",
-      "technical_spec": "Minimalistic UI with an emphasis on functional aesthetics.",
-      "severity_score": 45
+      "title": "Fitts’s Law",
+      "description": "Ensures easy click targets and efficient touch zones for mobile users.",
+      "technical_spec": "Responsive Design, Larger Buttons",
+      "severity_score": 15
     },
     {
-      "title": "Pareto Principle (80/20 Rule)",
-      "description": "80% of users use only 20% of the features, so prioritize what’s important.",
-      "technical_spec": "Focus on optimizing critical features like messaging and calls.",
-      "severity_score": 55
+      "title": "Tesler’s Law",
+      "description": "Complexity is handled at the system level to simplify the user experience.",
+      "technical_spec": "Backend Complexity Management, User-Friendly Interfaces",
+      "severity_score": 20
     },
     {
-      "title": "Law of Proximity",
-      "description": "Elements close to each other are perceived to be more related than those spaced farther apart.",
-      "technical_spec": "Organized chat lists and grouped notifications for clarity.",
-      "severity_score": 60
+      "title": "Jakob’s Law",
+      "description": "Users expect interfaces to function similarly to familiar applications.",
+      "technical_spec": "Standard UI Patterns, Consistent User Interaction",
+      "severity_score": 25
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Aligning content presentation to human capabilities for processing information.",
+      "technical_spec": "Chunking Information, Simplified Messaging",
+      "severity_score": 12
     }
   ]
 }

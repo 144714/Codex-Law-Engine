@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 65,
+    "rank": 75,
     "site": "amazon.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "223b61b772ce1b060526d9103b0b85a6"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "7221675fef5ed26978ead6bcf39a9f64"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies choices to reduce decision time, facilitating a smoother user experience.",
-      "technical_spec": "Streamlined checkout process with minimized steps and options.",
-      "severity_score": 20
+      "description": "Simplifies decision processes by reducing choices.",
+      "technical_spec": "Minimal UI Decisions",
+      "severity_score": 78
     },
     {
       "title": "Fitts's Law",
-      "description": "Ensures interactive elements are large and easily clickable, enhancing navigability.",
-      "technical_spec": "Responsive design with thumb-friendly touch targets.",
-      "severity_score": 15
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Groups related items to improve user understanding and navigation.",
-      "technical_spec": "Organized layouts with relevant product suggestions and groupings.",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Incorporates familiar elements to meet user expectations.",
-      "technical_spec": "Consistent interface design and functionality matching common user behaviors.",
-      "severity_score": 10
+      "description": "Design layout enhances ease of navigation.",
+      "technical_spec": "Optimized Button Size and Placement",
+      "severity_score": 80
     },
     {
       "title": "Miller's Law",
-      "description": "Limiting the amount of information presented to avoid overwhelming users.",
-      "technical_spec": "Clean interfaces with progressive disclosure of information.",
-      "severity_score": 30
+      "description": "Limits information chunks for better user comprehension.",
+      "technical_spec": "Grouping of Product Attributes",
+      "severity_score": 76
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Implements familiar design patterns to improve usability.",
+      "technical_spec": "Conventional Navigation Menus",
+      "severity_score": 81
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "An appealing interface facilitates a better user experience.",
+      "technical_spec": "Visual Design Consistency",
+      "severity_score": 83
     }
   ]
 }

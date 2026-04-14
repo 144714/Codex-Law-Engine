@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 62,
+    "rank": 72,
     "site": "youtube.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "df8c7dd0bf5368183b889ada2353161b"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "6e7a3bc015f633a3a34ae49d3fba5590"
   },
   "data": [
     {
-      "title": "Web Application Firewall",
-      "description": "A WAF is implemented to block malicious web traffic and protect against common web vulnerabilities.",
-      "technical_spec": "Uses Google Cloud Armor for WAF capabilities.",
-      "severity_score": 75
-    },
-    {
       "title": "DDoS Protection",
-      "description": "Robust DDoS mitigation strategies to combat distributed denial of service attacks.",
-      "technical_spec": "Integrates Cloud Armor Threat Intelligence for recognizing abnormal traffic patterns.",
-      "severity_score": 80
+      "description": "Prevents disruptions from DDoS attacks.",
+      "technical_spec": "Google Cloud Armor",
+      "severity_score": 92
     },
     {
-      "title": "Data Encryption",
-      "description": "Implements both in-transit and at-rest encryption for user and video data.",
-      "technical_spec": "TLS 1.3 for data in transit and AES-256 for data at rest.",
-      "severity_score": 95
+      "title": "Content Moderation Algorithms",
+      "description": "Detects and removes harmful content automatically.",
+      "technical_spec": "Machine Learning Models",
+      "severity_score": 88
     },
     {
-      "title": "Access Management",
-      "description": "Highly secure authentication and access management systems for users and employees.",
-      "technical_spec": "OAuth2.0 for user authentication and IAM roles for employee account management.",
+      "title": "Account Security",
+      "description": "Secures user accounts from unauthorized access.",
+      "technical_spec": "Two-Factor Authentication, OAuth 2.0",
       "severity_score": 85
     },
     {
-      "title": "Threat Detection System",
-      "description": "AI-driven threat detection for ongoing monitoring and incident response.",
-      "technical_spec": "Utilizes Google Cloud SCC (Security Command Center) with machine learning capabilities.",
+      "title": "Secure Video Streaming",
+      "description": "Protects streamed content from unauthorized access.",
+      "technical_spec": "HTTPS, Digital Rights Management",
+      "severity_score": 83
+    },
+    {
+      "title": "Phishing Detection",
+      "description": "Detects and mitigates phishing attempts targeting users.",
+      "technical_spec": "AI-Driven Phishing Detection Tools",
       "severity_score": 79
     }
   ]

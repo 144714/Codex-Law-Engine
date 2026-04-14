@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 63,
+    "rank": 73,
     "site": "apple.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "cc12740d217795d5cf9db5a6d812bbb5"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "617737144d3037141acc89b213a84c4a"
   },
   "data": [
     {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Apple's website champions clean, minimal design which enhances perceived usability.",
+      "technical_spec": "Strategic use of white space, high-quality images, and concise text.",
+      "severity_score": 5
+    },
+    {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making by limiting choices presented to users for quicker interactions.",
-      "technical_spec": "User navigation and decision points are streamlined to require minimal effort.",
+      "description": "The site is designed to minimize cognitive load, ensuring users make decisions quickly and easily.",
+      "technical_spec": "Simple navigation menus with limited options to reduce decision time.",
       "severity_score": 10
     },
     {
-      "title": "Fitts' Law",
-      "description": "Designs elements that are easy to target and interact with, using prominent buttons and links.",
-      "technical_spec": "Interactive elements have adequate size and are positioned within user's reach.",
+      "title": "Fitts's Law",
+      "description": "Interactive elements are strategically placed to ensure ease of access and interaction.",
+      "technical_spec": "Large clickable buttons and links aim for maximum target size proximity.",
       "severity_score": 15
     },
     {
       "title": "Law of Prägnanz",
-      "description": "Uses simplicity and clarity to present content in a way that users can easily perceive and process.",
-      "technical_spec": "Apple focuses on clean layouts with ample white space.",
+      "description": "The design layout is simple and clear, encouraging users to perceive comprehensible patterns.",
+      "technical_spec": "Use of grid systems and modular design to guide user focus effectively.",
       "severity_score": 20
     },
     {
-      "title": "Von Restorff Effect",
-      "description": "Features unique elements that capture user interest and ensure high recall.",
-      "technical_spec": "Key products or promotions are highlighted visually.",
+      "title": "Zeigarnik Effect",
+      "description": "Engages users with visually interruptive content to increase memory retention and interaction.",
+      "technical_spec": "Interactive calls-to-action and animation cues promote user engagement.",
       "severity_score": 25
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Cognition is aided by limiting content chunks to enhance memory and information processing.",
-      "technical_spec": "Information is grouped into chunks of 7 ± 2 items.",
-      "severity_score": 30
     }
   ]
 }

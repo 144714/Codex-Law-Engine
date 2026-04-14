@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 67,
+    "rank": 77,
     "site": "spotify.com",
-    "date": "2026-04-14 06:26",
-    "integrity_hash": "21ba8d8e311906fa31bf8f8db410ac34"
+    "date": "2026-04-14 08:21",
+    "integrity_hash": "cdadfd6ea70af9f3b9e20f554d15bf69"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Secure data transmission using encryption.",
-      "technical_spec": "TLS/SSL protocols for data in transit.",
-      "severity_score": 45
-    },
-    {
-      "title": "Security Monitoring",
-      "description": "Continuous monitoring for threats and anomalies.",
-      "technical_spec": "Utilization of AI-driven security tools.",
-      "severity_score": 55
-    },
-    {
-      "title": "User Authentication",
-      "description": "Robust authentication mechanisms to prevent unauthorized access.",
-      "technical_spec": "Multi-factor authentication (MFA).",
-      "severity_score": 40
-    },
-    {
-      "title": "Privacy Controls",
-      "description": "Users can manage their privacy and data sharing settings.",
-      "technical_spec": "User interfaces and backend support for GDPR compliance.",
+      "title": "User Data Encryption",
+      "description": "Encrypts user data both in transit and at rest to protect against unauthorized access.",
+      "technical_spec": "Uses standardized encryption protocols like TLS and AES-256.",
       "severity_score": 20
     },
     {
-      "title": "Incident Response Plan",
-      "description": "Defined protocols for responding to security breaches.",
-      "technical_spec": "Integrated with automated alerting and response systems.",
-      "severity_score": 65
+      "title": "Authentication and Access Control",
+      "description": "Implements robust authentication mechanisms to safeguard user accounts.",
+      "technical_spec": "Supports OAuth and two-factor authentication.",
+      "severity_score": 25
+    },
+    {
+      "title": "Security Incident Response",
+      "description": "Maintains a proactive incident response plan for quick mitigation of threats.",
+      "technical_spec": "Uses intrusion detection systems and conducts regular threat assessments.",
+      "severity_score": 30
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Ongoing vulnerability management and penetration testing to identify and address security flaws.",
+      "technical_spec": "With a focus on automated scanning tools and external audits.",
+      "severity_score": 35
+    },
+    {
+      "title": "User Privacy Governance",
+      "description": "Strong privacy policy in place to comply with regulations like GDPR.",
+      "technical_spec": "Regularly reviews data handling and storage practices for compliance.",
+      "severity_score": 25
     }
   ]
 }
