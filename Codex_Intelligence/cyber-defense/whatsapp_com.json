@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 140,
+    "rank": 150,
     "site": "whatsapp.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "35834915f9ba5fd1eb30676e94f3b60d"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "8f2f75b31f3b43f49f717515aea61d2f"
   },
   "data": [
     {
-      "title": "Advanced Encryption Standards",
-      "description": "Utilizes strong encryption standards to protect user data.",
-      "technical_spec": "AES-256 for data encryption.",
-      "severity_score": 15
+      "title": "Robust Encryption",
+      "description": "Messages, calls, and media are end-to-end encrypted, ensuring privacy and security.",
+      "technical_spec": "Signal Protocol implemented for encrypting all user communications.",
+      "severity_score": 5
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Provides an additional layer of security during user authentication.",
-      "technical_spec": "OTP-based 2FA and hardware token support.",
+      "title": "Spam Detection",
+      "description": "Advanced algorithms and machine learning models identify and mitigate spam and phishing threats.",
+      "technical_spec": "Real-time monitoring systems with AI-based patterns recognition.",
       "severity_score": 30
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic audits to identify vulnerabilities.",
-      "technical_spec": "Third-party penetration testing and internal code review processes.",
-      "severity_score": 20
+      "title": "Account Security Measures",
+      "description": "Multiple layers of account security, including two-step verification and biometric authentication.",
+      "technical_spec": "Optional two-step verification; face/fingerprint recognition for secure access.",
+      "severity_score": 40
     },
     {
-      "title": "Abuse Detection Algorithms",
-      "description": "Detects and prevents spamming, fake news, and account hijacking.",
-      "technical_spec": "AI and machine learning tools.",
+      "title": "Regular Security Audits",
+      "description": "Frequent security reviews and penetration testing to identify and address vulnerabilities.",
+      "technical_spec": "Annual penetration testing by third-party security firms.",
       "severity_score": 35
     },
     {
-      "title": "Data Backup and Disaster Recovery",
-      "description": "Ensures data integrity and availability during unexpected events.",
-      "technical_spec": "Incremental backups and redundant data storage solutions.",
-      "severity_score": 25
+      "title": "Real-time Threat Intelligence",
+      "description": "Updated threat intelligence feeds to adapt to emerging security threats.",
+      "technical_spec": "Integration with global threat intelligence services.",
+      "severity_score": 20
     }
   ]
 }

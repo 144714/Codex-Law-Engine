@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 140,
+    "rank": 150,
     "site": "whatsapp.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "f71c1db35cd963e9c25051ad4469b39a"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "2ec57203943c3cc0fab214d8b4be2b2f"
   },
   "data": [
     {
-      "title": "User-Centric Design",
-      "description": "Interface prioritizes user needs and accessibility for a wider audience.",
-      "technical_spec": "Responsive design principles and accessibility standards compliance.",
+      "title": "Law of Simplicity",
+      "description": "Focuses on a clean, intuitive interface that ensures ease of use.",
+      "technical_spec": "Minimalist design with clear iconography and straightforward navigation.",
       "severity_score": 10
     },
     {
       "title": "Hick's Law",
-      "description": "Simplified options and interfaces to reduce user decision time.",
-      "technical_spec": "Minimalistic design with clear call-to-action elements.",
-      "severity_score": 20
-    },
-    {
-      "title": "Consistency and Standards",
-      "description": "Maintains consistency in design elements for a coherent experience.",
-      "technical_spec": "Standardized icons, typography, and functionality across platforms.",
+      "description": "Simplifies decision-making by reducing the number of choices presented to users.",
+      "technical_spec": "Quick-access menus and shortcut gestures expedite user interactions.",
       "severity_score": 15
     },
     {
-      "title": "Feedback Loops",
-      "description": "Immediate feedback on user interactions to enhance usability.",
-      "technical_spec": "Interactive animations and error message prompts.",
+      "title": "Fitts's Law",
+      "description": "Larger, easily tappable touch targets enhance usability, especially on mobile devices.",
+      "technical_spec": "Adaptive touch target sizing for various device form factors.",
       "severity_score": 20
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing interfaces are perceived as more usable.",
-      "technical_spec": "Enhanced visuals and intuitive navigation paths.",
+      "description": "A visually appealing design is perceived as more usable, fostering a positive user experience.",
+      "technical_spec": "Consistent and harmonious color schemes and typography.",
       "severity_score": 25
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Users prefer your website to work the same way as all the other sites they already know.",
+      "technical_spec": "Leverages familiar UI patterns for navigation and messaging.",
+      "severity_score": 15
     }
   ]
 }

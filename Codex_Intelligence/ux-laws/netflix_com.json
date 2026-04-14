@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 136,
+    "rank": 146,
     "site": "netflix.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "87f89ba64568848dda9be3de3d4fa679"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "2c934985dc857a524c8b8f765c0bc64a"
   },
   "data": [
     {
-      "title": "Hick’s Law Application",
-      "description": "Simplifying user interface to reduce decision-making time, ensuring fast navigation.",
-      "technical_spec": "Minimalist design, intuitive menus",
-      "severity_score": 10
+      "title": "Hick’s Law",
+      "description": "Minimizing the number of choices to help users make decisions faster.",
+      "technical_spec": "Streamlined navigation menus and content categorization to reduce decision time.",
+      "severity_score": 5
     },
     {
-      "title": "Consistency Principle",
-      "description": "Maintaining a consistent interface to create a predictable and reassuring user experience.",
-      "technical_spec": "Uniform theming, consistent iconography",
-      "severity_score": 15
+      "title": "Fitts’s Law",
+      "description": "Designing UI components proportional to their usage to facilitate interaction.",
+      "technical_spec": "Larger click areas for more frequently used buttons like Play and Pause.",
+      "severity_score": 3
     },
     {
-      "title": "Fitts’ Law",
-      "description": "Design optimized for quick clicks and actions through appropriately sized buttons and interactive elements.",
-      "technical_spec": "Large buttons, strategic placement",
+      "title": "Gestalt Principles",
+      "description": "Leveraging visual perception principles to enhance content grouping and hierarchy.",
+      "technical_spec": "Clear visual separations between different shows and sections.",
+      "severity_score": 6
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Blending aesthetics and usability to improve satisfaction and engagement.",
+      "technical_spec": "High-quality visuals and animations, combined with button feedback.",
+      "severity_score": 7
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Aligning designs with user expectations based on experiences from other platforms.",
+      "technical_spec": "Consistent interface patterns with other popular streaming services.",
       "severity_score": 12
-    },
-    {
-      "title": "Responsive Design",
-      "description": "Ensuring the platform is effectively usable on various devices and screen sizes.",
-      "technical_spec": "Media queries, fluid grids",
-      "severity_score": 18
-    },
-    {
-      "title": "Feedback Loop",
-      "description": "Immediate feedback is provided after user interactions to enhance engagement and user satisfaction.",
-      "technical_spec": "Loading spinners, error messages",
-      "severity_score": 15
     }
   ]
 }

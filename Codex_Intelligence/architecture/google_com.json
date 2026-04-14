@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 131,
+    "rank": 141,
     "site": "google.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "6fa2a87e67fe83d9a092b90cc74db2a9"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "7adb86ea0e08b482028560e95b1f6698"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Google employs a microservices architecture to enhance scalability and maintainability.",
-      "technical_spec": "Use of discrete services for different functionalities, communicating via APIs.",
-      "severity_score": 75
+      "description": "Google.com employs a microservices architecture, allowing for modular, scalable, and independent service deployment.",
+      "technical_spec": "Microservices, Docker, Kubernetes",
+      "severity_score": 20
     },
     {
       "title": "Load Balancing",
-      "description": "Ensures high availability and reliability of services.",
-      "technical_spec": "Google's global load balancing distributes traffic across multiple regions.",
-      "severity_score": 85
+      "description": "Utilizes global load balancing to manage traffic efficiently across multiple servers.",
+      "technical_spec": "Global load balancers, Anycast IP, BGP routing",
+      "severity_score": 15
     },
     {
-      "title": "Serverless Computing",
-      "description": "Run applications in a cloud environment without managing server infrastructure.",
-      "technical_spec": "Utilization of Google Cloud Functions for event-driven processes.",
-      "severity_score": 70
+      "title": "Content Delivery Network (CDN)",
+      "description": "Leverages a wide-reaching CDN to deliver content quickly to users worldwide.",
+      "technical_spec": "Edge servers, HTTP/2, Brotli compression",
+      "severity_score": 10
     },
     {
-      "title": "Kubernetes for Container Orchestration",
-      "description": "Uses Kubernetes to manage containerized applications automatically.",
-      "technical_spec": "Provision of deployment and scaling of application containers.",
-      "severity_score": 80
+      "title": "Multi-Region Deployment",
+      "description": "Data centers deployed in multiple regions ensure high availability and disaster recovery.",
+      "technical_spec": "Geo-redundancy, Data center routes, Failover systems",
+      "severity_score": 10
     },
     {
-      "title": "Database Management",
-      "description": "Manages data with cloud-based databases for efficiency and performance.",
-      "technical_spec": "Uses Google Cloud Spanner and BigQuery for data storage and analytics.",
-      "severity_score": 90
+      "title": "RESTful APIs",
+      "description": "APIs designed using REST principles enable seamless integration and communication between services.",
+      "technical_spec": "REST API standards, HTTP Methods, JSON",
+      "severity_score": 25
     }
   ]
 }

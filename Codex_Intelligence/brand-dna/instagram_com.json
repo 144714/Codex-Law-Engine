@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 139,
+    "rank": 149,
     "site": "instagram.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "f9393b6078153dd1fab1ac09d1a47e1c"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "f00de37fe58b355437160ae485ba9160"
   },
   "data": [
     {
-      "title": "Visual Identity",
-      "description": "Strong visual branding ensuring easy recognition by users.",
-      "technical_spec": "Specific color palettes, logo placement, font usage",
-      "severity_score": 5
-    },
-    {
-      "title": "Community Engagement",
-      "description": "Focus on fostering a strong user community through features and interactions.",
-      "technical_spec": "Integration of engaging tools like stories, reels, and comments",
-      "severity_score": 12
-    },
-    {
-      "title": "Innovation",
-      "description": "Constant evolution by adding new features and improving existing ones.",
-      "technical_spec": "Regular releases and updates integrating user feedback",
+      "title": "Visual Storytelling",
+      "description": "Emphasis on visual content as a core aspect of user interaction and engagement.",
+      "technical_spec": "Photo and video sharing, Stories feature",
       "severity_score": 20
     },
     {
-      "title": "User-Centric Design",
-      "description": "Design philosophy centered around user needs and experiences.",
-      "technical_spec": "User research and UX testing as part of the design process",
-      "severity_score": 15
+      "title": "Community Driven",
+      "description": "Focus on community interaction and user-generated content.",
+      "technical_spec": "Commenting, Direct Messaging, Social algorithms",
+      "severity_score": 30
     },
     {
-      "title": "Market Adaptation",
-      "description": "Ability to adapt and cater to diverse market needs.",
-      "technical_spec": "Localized content and features, diverse advertising methods",
-      "severity_score": 22
+      "title": "Cutting-edge Innovation",
+      "description": "Constant updates and additions of new features to enhance user capabilities.",
+      "technical_spec": "Reels, AR filters",
+      "severity_score": 40
+    },
+    {
+      "title": "Influencer Culture",
+      "description": "Platform leveraged by influencers for brand and personal promotion.",
+      "technical_spec": "Business accounts, Insights analytics",
+      "severity_score": 50
+    },
+    {
+      "title": "Seamless Integration",
+      "description": "Integration with other platforms for cohesive user experience.",
+      "technical_spec": "Cross-platform sharing, Facebook integration",
+      "severity_score": 35
     }
   ]
 }

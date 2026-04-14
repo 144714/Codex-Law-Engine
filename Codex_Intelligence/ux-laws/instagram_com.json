@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 139,
+    "rank": 149,
     "site": "instagram.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "9155900d3e99cf9e6e254851c30a210c"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "044b3420250a2ff627a03d209a650a17"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Minimizing decision time by reducing the number of choices presented.",
-      "technical_spec": "Simple and intuitive navigation",
-      "severity_score": 15
+      "description": "Simplified user interface design to reduce decision-making time.",
+      "technical_spec": "Streamlined menu options, Intuitive UI",
+      "severity_score": 35
     },
     {
       "title": "Fitts's Law",
-      "description": "Design elements placed strategically for easy interaction.",
-      "technical_spec": "Large, easily clickable buttons and icons",
-      "severity_score": 20
+      "description": "Optimal touch targets for mobile interaction to facilitate user engagement.",
+      "technical_spec": "Responsive design, Touch target sizes",
+      "severity_score": 45
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Aesthetically pleasing designs that enhance user satisfaction.",
-      "technical_spec": "Visually appealing interfaces with consistent themes",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Designs aligned with user expectations based on their past experiences.",
-      "technical_spec": "Familiar layout patterns and UI elements",
+      "description": "Visually appealing interface to enhance usability perception.",
+      "technical_spec": "Consistent aesthetic elements, High-resolution media",
       "severity_score": 25
     },
     {
-      "title": "Miller’s Law",
-      "description": "Complex information presented in chunks to improve comprehension.",
-      "technical_spec": "Clear segmentation of content and information hierarchy",
-      "severity_score": 18
+      "title": "Law of Proximity",
+      "description": "Grouping related interface elements to aid user navigation.",
+      "technical_spec": "Grid layout, Alignment of UI components",
+      "severity_score": 30
+    },
+    {
+      "title": "Doherty Threshold",
+      "description": "Maintaining interaction speed to keep user attention and engagement.",
+      "technical_spec": "Asynchronous loading, Progressive content rendering",
+      "severity_score": 50
     }
   ]
 }

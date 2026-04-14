@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 137,
+    "rank": 147,
     "site": "spotify.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "d7fe929073b128a3beed12e0bd7f5e32"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "439428cf47c22c441052943ec944a10e"
   },
   "data": [
     {
       "title": "Microservices",
-      "description": "Spotify uses a microservices architecture allowing independent deployment of services.",
-      "technical_spec": "Distributed system with APIs for communication between services.",
-      "severity_score": 15
+      "description": "Spotify's backend is built on a microservices architecture, allowing different services to be developed and deployed independently.",
+      "technical_spec": "Utilizes RESTful APIs, containers, and orchestration tools like Kubernetes.",
+      "severity_score": 20
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "To ensure fast and reliable music streaming services, Spotify utilizes CDNs globally.",
-      "technical_spec": "Utilization of CDNs like Akamai for caching content.",
-      "severity_score": 10
-    },
-    {
-      "title": "Data Streaming",
-      "description": "Real-time data streaming capabilities to handle music playback and analytics.",
-      "technical_spec": "Apache Kafka for real-time data feed management.",
-      "severity_score": 30
-    },
-    {
-      "title": "Cloud Infrastructure",
-      "description": "Spotify operates mainly in the cloud for scalability and reliability.",
-      "technical_spec": "Deployment on Google Cloud Platform.",
+      "title": "Distributed Systems",
+      "description": "Spotify uses distributed systems to manage its large user base and vast library of songs.",
+      "technical_spec": "Employs technologies like Cassandra, Kafka, and AWS for scalability.",
       "severity_score": 25
     },
     {
-      "title": "Database Management",
-      "description": "Combination of SQL and NoSQL databases for storing user data and metadata.",
-      "technical_spec": "Utilizes PostgreSQL and Cassandra.",
-      "severity_score": 40
+      "title": "Data Processing Pipelines",
+      "description": "Comprehensive data processing pipelines are in place to manage user data and personalize experiences.",
+      "technical_spec": "Apache Beam along with Google Cloud Dataflow for batch and stream processing.",
+      "severity_score": 30
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "A global network of servers improves load times and streaming quality for users worldwide.",
+      "technical_spec": "Utilizes edge caching and regional optimizations through partnerships with CDN providers.",
+      "severity_score": 50
+    },
+    {
+      "title": "Cross-Platform Compatibility",
+      "description": "Spotify maintains a seamless experience across desktop, mobile, and web applications.",
+      "technical_spec": "Uses frontend frameworks like React Native, and backend protocols that support both iOS and Android platforms.",
+      "severity_score": 10
     }
   ]
 }

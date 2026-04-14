@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 137,
+    "rank": 147,
     "site": "spotify.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "c9595bd13b42a30765c2e88b11158005"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "1009ad7b2742bcd1c14875c5fed0c23a"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Design that minimizes decision-making time for users by simplifying choices.",
-      "technical_spec": "Simplified navigation and search features.",
-      "severity_score": 10
-    },
-    {
-      "title": "Fitts’ Law",
-      "description": "Strategically places UI elements to reduce interaction time.",
-      "technical_spec": "Large clickable areas for essential controls.",
+      "title": "Law of Simplicity",
+      "description": "Spotify's user interface is designed to be simple and intuitive to navigate.",
+      "technical_spec": "Minimum steps to achieve tasks, clear labeling, and logical content organization.",
       "severity_score": 20
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Designs that group elements logically for better user perception.",
-      "technical_spec": "Consistent visual patterns and alignments.",
+      "title": "Fitts's Law",
+      "description": "Optimized touch targets and navigation elements based on their distance and size for ease of use.",
+      "technical_spec": "Responsive design elements and appropriately sized buttons for better accessibility.",
       "severity_score": 15
     },
     {
-      "title": "Miller’s Law",
-      "description": "Limits information presented at once to enhance retention.",
-      "technical_spec": "Chunked information and modular content delivery.",
+      "title": "Doherty Threshold",
+      "description": "Spotify ensures systems respond in under 400ms to keep users engaged.",
+      "technical_spec": "Performance optimizations and asynchronous loading techniques.",
       "severity_score": 25
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Users prefer website functions default to common design standards.",
-      "technical_spec": "Familiar design patterns and symbol usage.",
-      "severity_score": 12
+      "title": "Hick's Law",
+      "description": "Reduces decision-making time by limiting choices on each screen or menu.",
+      "technical_spec": "Prioritizes features most frequently used by analyzing user behavior data.",
+      "severity_score": 30
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "A visually attractive interface that enhances perceived usability.",
+      "technical_spec": "Utilization of whitespace, color harmony, and consistent typography.",
+      "severity_score": 10
     }
   ]
 }

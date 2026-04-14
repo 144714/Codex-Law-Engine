@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 137,
+    "rank": 147,
     "site": "spotify.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "b427d0b44719a32adce41ccb2c4e9f65"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "23981725730aaf3448322df419a2f223"
   },
   "data": [
     {
-      "title": "Target Audience",
-      "description": "Caters to a diverse audience with personalized music recommendations.",
-      "technical_spec": "Algorithms for tailored playlists and music suggestions.",
-      "severity_score": 5
+      "title": "User-Centric Design",
+      "description": "Focuses on enhancing user experience through personalized content and intuitive navigation.",
+      "technical_spec": "Algorithms for playlist suggestions, AI for music recommendations.",
+      "severity_score": 10
     },
     {
-      "title": "Cultural Influence",
-      "description": "Strong presence in global music culture, bridging genres and communities.",
-      "technical_spec": "Collaborations with artists and social media integrations.",
-      "severity_score": 8
+      "title": "Innovation",
+      "description": "Constantly invested in new technologies and features to improve user engagement.",
+      "technical_spec": "Extensive use of machine learning and AI-driven features.",
+      "severity_score": 15
     },
     {
-      "title": "Accessibility",
-      "description": "Ensures music is accessible to users with varying abilities worldwide.",
-      "technical_spec": "Inclusive design standards and support for various languages.",
-      "severity_score": 12
+      "title": "Global Reach",
+      "description": "Aims to be accessible and relevant across diverse cultural contexts.",
+      "technical_spec": "Multilingual support and region-specific content policies.",
+      "severity_score": 20
     },
     {
-      "title": "Innovative Features",
-      "description": "Constantly innovating with new features such as podcasting and car view.",
-      "technical_spec": "Development sprints for rapid feature deployment.",
-      "severity_score": 18
+      "title": "Music Discovery",
+      "description": "Champions new and emerging artists, providing them a platform alongside mainstream hits.",
+      "technical_spec": "Curated playlists and algorithmic recommendations for diverse tastes.",
+      "severity_score": 15
     },
     {
-      "title": "Sustainability Initiatives",
-      "description": "Efforts toward reducing carbon footprint and promoting sustainable practices.",
-      "technical_spec": "Investment in renewable energy for data center operations.",
-      "severity_score": 22
+      "title": "Community Engagement",
+      "description": "Encourages user interaction and feedback across various platforms to build a loyal community.",
+      "technical_spec": "Integration with social media, user-generated content features like playlists.",
+      "severity_score": 30
     }
   ]
 }

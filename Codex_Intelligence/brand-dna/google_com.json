@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 131,
+    "rank": 141,
     "site": "google.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "e77c117dd4f3512479be6fc0713beec0"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "836dd4c7c644186874e904af84e23375"
   },
   "data": [
     {
+      "title": "Simplicity",
+      "description": "Core philosophy to maintain simplicity in interface and user interaction.",
+      "technical_spec": "Minimalist design, Clean typography, Intuitive UX",
+      "severity_score": 20
+    },
+    {
+      "title": "Speed",
+      "description": "Commitment to fast loading times and quick user responses.",
+      "technical_spec": "PageSpeed Insights, Performance optimization",
+      "severity_score": 25
+    },
+    {
       "title": "Innovation",
-      "description": "Encourages continuous improvement and breakthrough technology.",
-      "technical_spec": "Consistent reinvestment in R&D and product development.",
-      "severity_score": 93
+      "description": "Continuous innovation in user experience and feature offerings.",
+      "technical_spec": "AI integration, Feature testing, UX Research",
+      "severity_score": 15
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focuses on creating a seamless and intuitive user experience.",
-      "technical_spec": "Regular user testing and feedback loops to refine UI/UX.",
-      "severity_score": 88
+      "title": "Accessibility",
+      "description": "Ensures the platform is accessible to all users, including those with disabilities.",
+      "technical_spec": "ARIA standards, Keyboard navigation, Alt text",
+      "severity_score": 10
     },
     {
-      "title": "Global Reach",
-      "description": "Seeks to impact the global market with highly scalable solutions.",
-      "technical_spec": "Infrastructure supporting multi-region functionality and adaptation.",
-      "severity_score": 90
-    },
-    {
-      "title": "Data-Driven Decision Making",
-      "description": "Relies on data analysis for strategic planning and resource allocation.",
-      "technical_spec": "Implementation of advanced data analytics tools and dashboards.",
-      "severity_score": 92
-    },
-    {
-      "title": "Sustainability",
-      "description": "Committment to reducing environmental impact through sustainable practices.",
-      "technical_spec": "Adoption of energy-efficient data centers and renewable energy sources.",
-      "severity_score": 85
+      "title": "Reliability",
+      "description": "Commitment to providing a reliable and consistent service.",
+      "technical_spec": "Uptime monitoring, Backup systems",
+      "severity_score": 14
     }
   ]
 }

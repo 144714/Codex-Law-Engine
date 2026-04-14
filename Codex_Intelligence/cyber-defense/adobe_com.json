@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 138,
+    "rank": 148,
     "site": "adobe.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "2b96985b68b500f0182c6792bcd0ae2f"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "5a9b3cfb85f714c77a51ef9c507cdf62"
   },
   "data": [
     {
       "title": "Data Encryption",
-      "description": "End-to-end encryption to protect data both at rest and in transit.",
-      "technical_spec": "AES-256 encryption standard.",
-      "severity_score": 5
+      "description": "Data is encrypted both at rest and in transit to protect against unauthorized access.",
+      "technical_spec": "Advanced Encryption Standard (AES) 256-bit is used.",
+      "severity_score": 10
     },
     {
-      "title": "Identity and Access Management (IAM)",
-      "description": "Advanced IAM protocols safeguard user identities across Adobe's network.",
-      "technical_spec": "Use of OAuth 2.0 and SAML 2.0 for secure user authentication.",
+      "title": "Identity Management",
+      "description": "Robust identity management to ensure secure access to resources.",
+      "technical_spec": "Single Sign-On and Multi-Factor Authentication are implemented.",
       "severity_score": 15
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Frequent security audits and penetration testing to identify potential vulnerabilities.",
-      "technical_spec": "Dynamic application security testing (DAST) tools employed.",
+      "title": "Threat Detection",
+      "description": "Advanced systems for detecting and responding to potential threats.",
+      "technical_spec": "Integration with SIEM platforms for real-time threat analysis.",
+      "severity_score": 25
+    },
+    {
+      "title": "Incident Response",
+      "description": "Comprehensive incident response plan to address security breaches quickly.",
+      "technical_spec": "Dedicated SOC with incident response tools.",
       "severity_score": 20
     },
     {
-      "title": "DDoS Protection",
-      "description": "Robust DDoS prevention mechanisms to mitigate potential distributed denial-of-service attacks.",
-      "technical_spec": "Partnered with Cloudflare for DDoS protection services.",
-      "severity_score": 10
-    },
-    {
-      "title": "Zero Trust Security Model",
-      "description": "Implementation of a zero trust architecture to protect internal networks against breaches.",
-      "technical_spec": "Continuous verification of user identity and device posture.",
-      "severity_score": 10
+      "title": "Network Security",
+      "description": "Multiple layers of security to protect against network intrusions.",
+      "technical_spec": "Firewalls, Intrusion Detection and Prevention Systems.",
+      "severity_score": 30
     }
   ]
 }

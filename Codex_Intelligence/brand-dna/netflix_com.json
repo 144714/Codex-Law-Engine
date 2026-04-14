@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 136,
+    "rank": 146,
     "site": "netflix.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "f0ce8d000d1605678ce185712ae8a038"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "df722c9c443906c2049beacb10a5073d"
   },
   "data": [
     {
-      "title": "Personalization",
-      "description": "Customized content recommendations based on viewing history and user preferences.",
-      "technical_spec": "Machine learning algorithms, collaborative filtering",
-      "severity_score": 20
+      "title": "Innovation",
+      "description": "Consistent pioneering of new technologies and content delivery methods.",
+      "technical_spec": "Early adoption of AI for content recommendations and original content production.",
+      "severity_score": 10
     },
     {
       "title": "Global Reach",
-      "description": "Catering to an international audience with diverse content and multi-language support.",
-      "technical_spec": "Subtitling, dubbing, regional catalog adjustments",
-      "severity_score": 18
+      "description": "Catering to a diverse global audience with localized content and subtitles.",
+      "technical_spec": "Support for multiple languages and region-specific content libraries.",
+      "severity_score": 8
     },
     {
-      "title": "Original Content Production",
-      "description": "Investing in distinctive and high-quality original programming to strengthen brand identity.",
-      "technical_spec": "High-budget productions, exclusive deals",
-      "severity_score": 25
+      "title": "User-Centric Design",
+      "description": "Placing user preferences at the forefront of the content curation strategy.",
+      "technical_spec": "Algorithm-driven personalization for homepage content and recommendations.",
+      "severity_score": 12
     },
     {
-      "title": "User-Centricity",
-      "description": "Designing all services and interactions with a focus on optimal user experience.",
-      "technical_spec": "User testing, iterative design processes",
-      "severity_score": 15
+      "title": "Content Quality",
+      "description": "Focus on producing high-quality, original content to maintain viewer interest.",
+      "technical_spec": "Investment in high-production-value series and films.",
+      "severity_score": 5
     },
     {
-      "title": "Innovation and Adaptability",
-      "description": "Constantly embracing cutting-edge technology and content strategies to stay ahead of competition.",
-      "technical_spec": "AR/VR integration, content streaming technologies",
-      "severity_score": 30
+      "title": "Cross-Platform Accessibility",
+      "description": "Ensuring consistent user experience across devices and platforms.",
+      "technical_spec": "Available on web, mobile apps, smart TVs, and gaming consoles.",
+      "severity_score": 7
     }
   ]
 }

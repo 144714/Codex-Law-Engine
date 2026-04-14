@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 131,
+    "rank": 141,
     "site": "google.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "632dfd7d8e3013ad7e3ce7b1f52e89ce"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "2e29e4953907827683da367b63a6bad1"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies user experience by reducing decision time.",
-      "technical_spec": "Minimization of choices presented to users on the main interface.",
-      "severity_score": 65
+      "description": "Minimizes decision time by creating a simple, streamlined interface.",
+      "technical_spec": "Interface design, Cognitive load reduction",
+      "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Highlights importance of design efficiency in target acquisition.",
-      "technical_spec": "Designs larger buttons and clickable areas for essential tasks.",
-      "severity_score": 75
+      "title": "Fitts's Law",
+      "description": "Optimizes target sizes and distances to enhance user interaction speed.",
+      "technical_spec": "Clickable areas, Interface layout",
+      "severity_score": 15
+    },
+    {
+      "title": "Pareto Principle (80/20 rule)",
+      "description": "Focuses on the most impactful features that users often interact with.",
+      "technical_spec": "Usage analytics, Feature prioritization",
+      "severity_score": 12
     },
     {
       "title": "Jakob's Law",
-      "description": "Focuses on aligning the site experience with user expectations.",
-      "technical_spec": "Consistent interface design based on common user interaction patterns.",
-      "severity_score": 80
+      "description": "Designs consistent with user expectations based on common experiences.",
+      "technical_spec": "UI consistency, Familiarity patterns",
+      "severity_score": 8
     },
     {
-      "title": "Law of Proximity",
-      "description": "Elements close to each other are perceived as related.",
-      "technical_spec": "Grouper content and features that naturally belong together.",
-      "severity_score": 70
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Chunking information to capitalize on user's working memory capacity.",
-      "technical_spec": "Breakdown of information into smaller, digestible parts.",
-      "severity_score": 85
+      "title": "Law of Prägnanz",
+      "description": "Presents information as simply as possible for effortless perception.",
+      "technical_spec": "Simplified visuals, Intuitive navigation",
+      "severity_score": 18
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 134,
+    "rank": 144,
     "site": "microsoft.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "84d6e873aa200fce4d78a613d5739026"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "ba0c535adf3809b3d1b8a18e531d01aa"
   },
   "data": [
     {
-      "title": "Cloud Infrastructure",
-      "description": "Microsoft's platform leverages a global network of data centers and cloud services for scalability.",
-      "technical_spec": "Azure cloud services, IaaS/PaaS, global data centers.",
+      "title": "Cloud Integration",
+      "description": "Microsoft.com uses Azure to seamlessly integrate cloud services, ensuring scalability and reliability.",
+      "technical_spec": "Azure App Services, Azure ICS",
       "severity_score": 10
     },
     {
-      "title": "Microservices Architecture",
-      "description": "Divides applications into smaller, independent services to enhance deployment and development speed.",
-      "technical_spec": "Containers, Kubernetes orchestration, API gateways.",
-      "severity_score": 15
-    },
-    {
-      "title": "CDN Utilization",
-      "description": "Uses Content Delivery Networks to improve response times and handle traffic efficiently.",
-      "technical_spec": "Edge servers, caching strategies, global presence.",
+      "title": "Microservices",
+      "description": "The site employs a microservices architecture to allow independent deployment and scalability of components.",
+      "technical_spec": "Docker, Kubernetes on Azure",
       "severity_score": 20
     },
     {
-      "title": "Event-Driven Design",
-      "description": "Employs event-driven architecture for real-time data processing and applications.",
-      "technical_spec": "Event brokers, stream processing, messaging queues.",
-      "severity_score": 25
+      "title": "Content Delivery Network",
+      "description": "Utilizes a CDN to distribute content globally, enhancing load times and availability.",
+      "technical_spec": "Azure CDN",
+      "severity_score": 15
     },
     {
-      "title": "Service-Oriented Architecture",
-      "description": "Emphasizes service interfaces that loosely couple services in a networked environment.",
-      "technical_spec": "SOAP/RESTful APIs, SOA governance, XML standards.",
+      "title": "Database Management",
+      "description": "Relies on distributed databases for managing large datasets efficiently.",
+      "technical_spec": "Azure SQL, Cosmos DB",
       "severity_score": 30
+    },
+    {
+      "title": "Legacy System Integration",
+      "description": "Supports integration with legacy systems to ensure continuity and data flow.",
+      "technical_spec": "Azure Logic Apps, Service Bus",
+      "severity_score": 35
     }
   ]
 }

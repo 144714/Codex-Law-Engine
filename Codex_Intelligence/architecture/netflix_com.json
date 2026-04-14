@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 136,
+    "rank": 146,
     "site": "netflix.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "12d79669fca8981cefb7414ed576f373"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "0d78cbc139d8a0e0309aad160e9a3c26"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Netflix operates on a decentralized microservices architecture, allowing for independent development and deployment.",
-      "technical_spec": "Docker containers, AWS for cloud infrastructure, API gateways",
-      "severity_score": 15
+      "description": "Decoupled microservices managing various functionalities such as recommendation engine and payment processing.",
+      "technical_spec": "Each service can be deployed independently using containerization technologies like Docker and managed using Kubernetes.",
+      "severity_score": 5
     },
     {
-      "title": "Global Content Delivery Network (CDN)",
-      "description": "Utilizes a worldwide CDN for rapid content delivery to users regardless of location.",
-      "technical_spec": "Open Connect, edge locations distributed globally",
+      "title": "Cloud-Native Platform",
+      "description": "Built and operated on cloud infrastructure to ensure scalability and availability.",
+      "technical_spec": "Utilizes cloud services such as Amazon Web Services (AWS) for infrastructure needs.",
       "severity_score": 10
     },
     {
-      "title": "Scalability",
-      "description": "Architecture designed to handle millions of concurrent users with elastic scaling.",
-      "technical_spec": "Auto-scaling groups, Kubernetes orchestration",
+      "title": "CDN Utilization",
+      "description": "Content is delivered via a global Content Delivery Network to ensure speed and performance.",
+      "technical_spec": "Netflix Open Connect, a purpose-built content delivery network.",
+      "severity_score": 15
+    },
+    {
+      "title": "Event-Driven Architecture",
+      "description": "Utilizes event streams for data-driven decisions and system integrations.",
+      "technical_spec": "Apache Kafka is used for handling real-time data streams.",
       "severity_score": 20
     },
     {
-      "title": "Resilience and Fault Tolerance",
-      "description": "Built to sustain server failures without affecting user experience.",
-      "technical_spec": "Circuit breaker patterns, chaos engineering",
-      "severity_score": 25
-    },
-    {
-      "title": "Data Storage and Management",
-      "description": "Efficient data handling to store user profiles, watch history, and preferences.",
-      "technical_spec": "NoSQL databases, Amazon S3, Cassandra",
-      "severity_score": 20
+      "title": "Resilience Design",
+      "description": "System designed to handle failures gracefully without affecting user experience.",
+      "technical_spec": "Hystrix and other resiliency patterns are used to manage failover mechanisms.",
+      "severity_score": 8
     }
   ]
 }

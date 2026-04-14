@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 138,
+    "rank": 148,
     "site": "adobe.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "2cb3cdb7149c329f2f2f9d3692940050"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "9bdddb740ffc1f5e57cd6b31e2f1a2fd"
   },
   "data": [
     {
       "title": "Creativity and Innovation",
-      "description": "Adobe is synonymous with fostering creativity through cutting-edge digital tools.",
-      "technical_spec": "Active development of creative software like Photoshop and Illustrator.",
-      "severity_score": 5
-    },
-    {
-      "title": "Community Engagement",
-      "description": "Strong emphasis on engaging and supporting a global creative community.",
-      "technical_spec": "Platforms like Behance for artist showcase and collaboration.",
+      "description": "Adobe emphasizes creativity and innovation across all its products.",
+      "technical_spec": "Developing cutting-edge tools like Adobe Sensei to enhance creative workflows.",
       "severity_score": 10
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Adobe integrates sustainable practices within its operations and products.",
-      "technical_spec": "Development of eco-friendly digital document solutions.",
+      "title": "User-Centric Design",
+      "description": "Products and services are designed with a focus on user needs and experience.",
+      "technical_spec": "Human-centered design principles and customer feedback loops.",
       "severity_score": 15
     },
     {
-      "title": "User-Centric Design",
-      "description": "Design philosophies prioritize user experience in product development.",
-      "technical_spec": "Incorporation of user feedback loops in the design process.",
-      "severity_score": 20
+      "title": "Collaboration",
+      "description": "Fostering collaboration through integrated tools and services.",
+      "technical_spec": "Cloud-based collaboration features across Adobe Creative Cloud.",
+      "severity_score": 10
     },
     {
-      "title": "Brand Consistency",
-      "description": "Adobe maintains a consistent brand identity across all touchpoints.",
-      "technical_spec": "Uniform visual branding elements and messaging.",
+      "title": "Reliability",
+      "description": "Reliable services and products that professionals can depend on.",
+      "technical_spec": "Continuous integration and deployment to ensure high availability.",
       "severity_score": 5
+    },
+    {
+      "title": "Diversity and Inclusion",
+      "description": "Emphasizing diversity and inclusion internally and in product experiences.",
+      "technical_spec": "Inclusive design practices and diverse user persona consideration.",
+      "severity_score": 15
     }
   ]
 }

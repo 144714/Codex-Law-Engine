@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 132,
+    "rank": 142,
     "site": "youtube.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "9407552969cae9d751aa66a4a86e7ca0"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "d3c8f7e20784e743c27f9ed40476ab31"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifying navigation by limiting the number of choices per decision point.",
-      "technical_spec": "Utilizes user journey mapping to streamline interactions.",
-      "severity_score": 80
+      "title": "Hick’s Law",
+      "description": "Simplifies decision-making processes for the users.",
+      "technical_spec": "Streamlined interface design to reduce complexity and choice overload.",
+      "severity_score": 12
     },
     {
-      "title": "Fitt's Law",
-      "description": "Optimizing interface design to ensure quick and easy access to important controls.",
-      "technical_spec": "User interface designed with accessible touchpoints and shortcuts.",
-      "severity_score": 85
+      "title": "Fitts’s Law",
+      "description": "Improves accessibility and usability of interactive elements.",
+      "technical_spec": "Optimized button sizes and placement to minimize interaction time.",
+      "severity_score": 15
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Creating an appealing user interface to improve user satisfaction and usability.",
-      "technical_spec": "Incorporates appealing color schemes and clean design layouts.",
-      "severity_score": 70
+      "description": "Balances visual appeal with functionality to enhance perceived usability.",
+      "technical_spec": "Adopts YouTube's signature clean and minimalist design.",
+      "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Limiting cognitive load by presenting information in manageable chunks.",
-      "technical_spec": "Utilizes content segmentation and modular layout designs.",
-      "severity_score": 75
+      "title": "Serial Position Effect",
+      "description": "Leverages cognitive bias by placing critical content at list beginnings or ends.",
+      "technical_spec": "Recommendation and playlist algorithms prioritize key content positions.",
+      "severity_score": 20
     },
     {
-      "title": "Jakob's Law",
-      "description": "Designing consistent user experiences aligned with user expectations from other platforms.",
-      "technical_spec": "Cross-platform design standards to align with user familiarity.",
-      "severity_score": 82
+      "title": "Law of Common Region",
+      "description": "Groups related content to improve cognitive comprehension and navigation.",
+      "technical_spec": "Utilizes borders and colors to create coherent areas for related content.",
+      "severity_score": 18
     }
   ]
 }

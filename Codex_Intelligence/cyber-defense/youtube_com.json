@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 132,
+    "rank": 142,
     "site": "youtube.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "1fa8749bf5870294c1c064e1db69a0e7"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "3c5977595abcd9461e5b4f31a968ebdc"
   },
   "data": [
     {
+      "title": "Two-Factor Authentication",
+      "description": "Enhances user account security with two-factor authentication.",
+      "technical_spec": "Supports mobile devices and hardware tokens for two-factor verification.",
+      "severity_score": 18
+    },
+    {
+      "title": "Video and Comment Moderation",
+      "description": "AI-driven systems to detect and filter inappropriate content and comments.",
+      "technical_spec": "Machine learning algorithms analyze video content and associated metadata.",
+      "severity_score": 25
+    },
+    {
       "title": "Data Encryption",
-      "description": "YouTube encrypts data both in transit and at rest to protect user data and content.",
-      "technical_spec": "Utilizes TLS for data in transit and AES-256 for data at rest.",
-      "severity_score": 95
-    },
-    {
-      "title": "Authentication Mechanisms",
-      "description": "Robust authentication mechanisms to prevent unauthorized access to user accounts.",
-      "technical_spec": "Employs multi-factor authentication and OAuth 2.0.",
-      "severity_score": 90
-    },
-    {
-      "title": "Threat Detection Systems",
-      "description": "Advanced threat detection systems to monitor and mitigate potential attacks.",
-      "technical_spec": "Machine learning algorithms for anomaly detection and automated response.",
-      "severity_score": 85
+      "description": "Secures data transfer and storage with encryption.",
+      "technical_spec": "Utilizes HTTPS for data in transit and Google-managed keys for data at rest.",
+      "severity_score": 15
     },
     {
       "title": "DDoS Protection",
-      "description": "Protection against distributed denial-of-service attacks to maintain service availability.",
-      "technical_spec": "Scaling of resources and traffic filtering measures.",
-      "severity_score": 92
+      "description": "Mitigates distributed denial-of-service attacks with advanced defenses.",
+      "technical_spec": "Layered protection through on-premise and cloud-based solutions.",
+      "severity_score": 30
     },
     {
-      "title": "Content Moderation AI",
-      "description": "AI-powered systems for detecting and removing harmful or inappropriate content.",
-      "technical_spec": "Deep learning models trained on vast datasets for content recognition.",
-      "severity_score": 88
+      "title": "Account Recovery Mechanisms",
+      "description": "Provides robust solutions for account recovery post-compromise.",
+      "technical_spec": "Automated systems to verify user identity and recover access.",
+      "severity_score": 20
     }
   ]
 }

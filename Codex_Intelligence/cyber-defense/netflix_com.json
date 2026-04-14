@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 136,
+    "rank": 146,
     "site": "netflix.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "f36406fd58102c8207e8454dc467a71d"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "a8ec84bdb8097de12ca881a33ee6a652"
   },
   "data": [
     {
-      "title": "Security Response Automation",
-      "description": "Automated detection and response systems in place to rapidly mitigate threats.",
-      "technical_spec": "SIEM tools, automated threat detection scripts",
-      "severity_score": 30
-    },
-    {
       "title": "Data Encryption",
-      "description": "All data transmitted and stored is encrypted to protect user privacy.",
-      "technical_spec": "TLS for data in transit, AES-256 for data at rest",
-      "severity_score": 20
+      "description": "User data is encrypted using advanced algorithms to ensure privacy and security.",
+      "technical_spec": "AES-256 encryption is applied to sensitive user data both in transit and at rest.",
+      "severity_score": 15
     },
     {
-      "title": "Access Control",
-      "description": "Strict access protocols for employee and system interaction with sensitive data.",
-      "technical_spec": "Role-based access control, multi-factor authentication",
+      "title": "DDOS Mitigation",
+      "description": "Robust systems are in place to mitigate Distributed Denial of Service attacks.",
+      "technical_spec": "Use of AWS Shield and custom traffic filtering mechanisms.",
       "severity_score": 25
     },
     {
-      "title": "DDoS Mitigation Strategies",
-      "description": "Infrastructure designed to detect and neutralize denial-of-service attacks.",
-      "technical_spec": "Traffic monitoring, rate limiting, edge security",
-      "severity_score": 40
+      "title": "Access Controls",
+      "description": "Strict access management policies to restrict unauthorized data access.",
+      "technical_spec": "Role-based access control (RBAC) and Two-factor authentication (2FA) for administration.",
+      "severity_score": 20
     },
     {
-      "title": "Continuous Security Audits",
-      "description": "Regularly scheduled security audits and compliance checks.",
-      "technical_spec": "Vulnerability scanning, penetration testing",
-      "severity_score": 35
+      "title": "Security Audits",
+      "description": "Regular security audits and penetration testing to identify and mitigate vulnerabilities.",
+      "technical_spec": "Automated security tests integrated into CI/CD pipeline.",
+      "severity_score": 10
+    },
+    {
+      "title": "User Anomaly Detection",
+      "description": "Systems in place to detect unusual user activities and respond accordingly.",
+      "technical_spec": "Machine learning algorithms monitor user patterns to flag anomalies.",
+      "severity_score": 18
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 132,
+    "rank": 142,
     "site": "youtube.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "7bb134b02ad5da2d7e5f5e9812b1afbe"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "9ea2469e00b1fbd0b612273011310f7a"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "YouTube uses a microservices architecture to ensure scalability and manageability for its various services.",
-      "technical_spec": "Built with microservices, using gRPC for service communication and Kubernetes for orchestration.",
-      "severity_score": 80
+      "description": "YouTube employs a microservices architecture to manage the vast amount of video content and user interactions.",
+      "technical_spec": "Containers like Kubernetes orchestrate different services that handle video processing, recommendation algorithms, and user management.",
+      "severity_score": 10
+    },
+    {
+      "title": "Scalable Storage Systems",
+      "description": "Utilizes custom-designed storage solutions to manage exabytes of video data.",
+      "technical_spec": "Google's Colossus distributed file system underlies the storage infrastructure.",
+      "severity_score": 8
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "YouTube utilizes a global CDN to efficiently deliver video content to users worldwide.",
-      "technical_spec": "Incorporates edge caching and load balancing to optimize video streaming.",
-      "severity_score": 90
+      "description": "Leverages a global CDN to ensure fast video delivery.",
+      "technical_spec": "Servers are distributed globally to cache video content closer to the end-users.",
+      "severity_score": 12
     },
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Leverages Google Cloud Platform to handle storage, processing, and delivery of content.",
-      "technical_spec": "Utilizes a combination of Google Compute Engine and Google Kubernetes Engine.",
-      "severity_score": 85
+      "title": "Data Center Efficiency",
+      "description": "Operates energy-efficient data centers for better resource utilization.",
+      "technical_spec": "Custom hardware designed to optimize performance per watt.",
+      "severity_score": 15
     },
     {
-      "title": "Monolithic Legacy Components",
-      "description": "Some legacy components of YouTube still operate in a monolithic fashion.",
-      "technical_spec": "Gradual refactoring of monolithic structures to microservices is ongoing.",
-      "severity_score": 60
-    },
-    {
-      "title": "API Gateway",
-      "description": "An API Gateway manages API requests and responses for various YouTube services.",
-      "technical_spec": "Implements RESTful services with OAuth 2.0 for authentication.",
-      "severity_score": 75
+      "title": "Load Balancing and Traffic Management",
+      "description": "Effective load balancing ensures an even distribution of network traffic.",
+      "technical_spec": "Google Front End (GFE) manages HTTP(S) requests and distributes them to available backends.",
+      "severity_score": 20
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 135,
+    "rank": 145,
     "site": "amazon.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "b4af4885ada14d4f4f19390a3b026e63"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "05509c5b4e0fe968de38f2de4b05f0fb"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies decision-making by reducing the number of choices available at one time.",
-      "technical_spec": "Minimalistic UI/UX design.",
-      "severity_score": 10
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Designs interactive elements for easier and faster access.",
-      "technical_spec": "Large, clickable buttons, intuitive layouts.",
-      "severity_score": 15
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Applies Gestalt principles to create a coherent and visually appealing interface.",
-      "technical_spec": "Visual grouping, proximity, similarity.",
+      "title": "Hick’s Law",
+      "description": "Simplifies choices on the user interface to reduce decision time.",
+      "technical_spec": "Streamlined product and checkout pages.",
       "severity_score": 20
     },
     {
-      "title": "Jakob's Law",
-      "description": "Enhances user experience by maintaining consistency with user experiences of other sites.",
-      "technical_spec": "Consistent navigation, interface elements.",
-      "severity_score": 12
+      "title": "Miller’s Law",
+      "description": "Breaking information into chunks to enhance understanding.",
+      "technical_spec": "Categorization of products by department.",
+      "severity_score": 15
     },
     {
-      "title": "Miller's Law",
-      "description": "Limits information presentation to enhance user comprehension and retention.",
-      "technical_spec": "Chunking information into smaller bits.",
-      "severity_score": 18
+      "title": "Aesthetic-Usability Effect",
+      "description": "Users perceive more aesthetically pleasing designs to be easier to use.",
+      "technical_spec": "Consistent and visually appealing interface design.",
+      "severity_score": 30
+    },
+    {
+      "title": "Fitts’s Law",
+      "description": "Designs interactive elements to be easily clickable.",
+      "technical_spec": "Large buttons for key actions like 'Add to Cart'.",
+      "severity_score": 25
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Aligns with user expectations by conforming to standard web conventions.",
+      "technical_spec": "Intuitive navigation similar to other e-commerce sites.",
+      "severity_score": 10
     }
   ]
 }

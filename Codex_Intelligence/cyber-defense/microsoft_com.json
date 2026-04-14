@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 134,
+    "rank": 144,
     "site": "microsoft.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "0bd7d915e25e3b577256d6895c8b3453"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "1e319a50eb34603cefc37e313d94b244"
   },
   "data": [
     {
       "title": "Advanced Threat Protection",
-      "description": "Utilizes AI and machine learning to detect and respond to threats.",
-      "technical_spec": "AI algorithms, anomaly detection, real-time threat intelligence.",
-      "severity_score": 5
+      "description": "Employs ATP to detect and respond to threats in real-time.",
+      "technical_spec": "Microsoft Defender for Endpoint",
+      "severity_score": 25
     },
     {
-      "title": "Zero Trust Model",
-      "description": "Implements a security model that verifies every request as though it originates from an open network.",
-      "technical_spec": "Identity verification, inter-device trust, continuous authorization.",
-      "severity_score": 10
-    },
-    {
-      "title": "Multi-Factor Authentication",
-      "description": "Enhances security with multiple layers of user verification processes.",
-      "technical_spec": "Biometric verification, OTP, authentication apps.",
+      "title": "Identity and Access Management",
+      "description": "Uses multi-factor authentication and secure access measures to protect user identity.",
+      "technical_spec": "Azure Active Directory",
       "severity_score": 20
     },
     {
-      "title": "Data Encryption Protocols",
-      "description": "Employs end-to-end encryption to protect data at rest and in transit.",
-      "technical_spec": "AES, TLS, end-to-end encryption solutions.",
+      "title": "Data Encryption",
+      "description": "Deploys robust encryption protocols to protect sensitive data at rest and in transit.",
+      "technical_spec": "SSL/TLS, AES-256",
       "severity_score": 15
     },
     {
-      "title": "Network Firewalls and Intrusion Detection",
-      "description": "Defends against unauthorized access and threats to the internal network.",
-      "technical_spec": "Firewalls, IDS/IPS, network segmentation.",
+      "title": "Network Security",
+      "description": "Implementing firewalls and intrusion detection systems to safeguard network integrity.",
+      "technical_spec": "Azure Firewall, IDS/IPS",
       "severity_score": 30
+    },
+    {
+      "title": "Security Monitoring and Management",
+      "description": "Continuous monitoring and management of security incidents to prevent breaches.",
+      "technical_spec": "Azure Security Center",
+      "severity_score": 40
     }
   ]
 }

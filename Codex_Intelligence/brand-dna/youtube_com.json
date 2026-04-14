@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 132,
+    "rank": 142,
     "site": "youtube.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "415a6a6d06efffb1c3050098dfe81e6c"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "245ae6d35dc1c1b0b0f3211ddfe63aef"
   },
   "data": [
     {
-      "title": "User-Generated Content",
-      "description": "Encourages a wide range of creators to contribute content, fostering a diverse media ecosystem.",
-      "technical_spec": "Supports HD and 4K uploads, with user-friendly uploading tools.",
-      "severity_score": 90
+      "title": "User-Centric Approach",
+      "description": "Commitment to providing an engaging, intuitive platform for video consumption.",
+      "technical_spec": "Regular updates based on user feedback and behavior analysis.",
+      "severity_score": 10
     },
     {
-      "title": "Community Engagement",
-      "description": "Facilitates community interaction through likes, comments, and subscriber notifications.",
-      "technical_spec": "Interactive features integrated into the platform for creator-audience engagement.",
-      "severity_score": 85
-    },
-    {
-      "title": "Personalization and Recommendations",
-      "description": "Delivers personalized content recommendations based on user behavior and preferences.",
-      "technical_spec": "AI-driven recommendation engine using collaborative filtering and content-based filtering.",
-      "severity_score": 95
-    },
-    {
-      "title": "Ad Support and Monetization",
-      "description": "Provides creators with monetization opportunities through ad revenue sharing.",
-      "technical_spec": "Google AdSense integration with comprehensive analytics for revenue tracking.",
-      "severity_score": 88
+      "title": "Content Creator Empowerment",
+      "description": "Supports creators with monetization tools and community building features.",
+      "technical_spec": "YouTube Partner Program and advanced analytics for content insights.",
+      "severity_score": 12
     },
     {
       "title": "Global Reach and Accessibility",
-      "description": "Expanding its global footprint while ensuring accessibility across languages and devices.",
-      "technical_spec": "Multilingual support and adaptive streaming technologies for varied internet conditions.",
-      "severity_score": 92
+      "description": "Focus on global availability and accessibility for all users.",
+      "technical_spec": "Localization features and support for multiple languages.",
+      "severity_score": 15
+    },
+    {
+      "title": "Innovation in Video Technology",
+      "description": "Pioneering advancements in video formats and delivery methods.",
+      "technical_spec": "Support for 4K, 8K, HDR, and VR video technologies.",
+      "severity_score": 18
+    },
+    {
+      "title": "Community and Connectivity",
+      "description": "Fosters an online culture of interaction and community engagement.",
+      "technical_spec": "Comment sections, live streaming capabilities, and community posts.",
+      "severity_score": 20
     }
   ]
 }

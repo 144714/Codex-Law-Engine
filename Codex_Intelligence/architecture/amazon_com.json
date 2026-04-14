@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 135,
+    "rank": 145,
     "site": "amazon.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "e32ea8f707a347cf06f74077a0e55d36"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "4fd4e34c451f420d246093f341a22680"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Utilizes a microservices architecture which allows for independent deployment and scaling of services.",
-      "technical_spec": "Microservices using AWS Lambda, Kubernetes, Docker.",
-      "severity_score": 15
-    },
-    {
-      "title": "Scalable Databases",
-      "description": "Employs scalable databases to handle large volumes of transactions and data efficiently.",
-      "technical_spec": "Amazon Aurora, DynamoDB.",
+      "title": "Microservices",
+      "description": "Amazon utilizes a microservices architecture to enable scalability and flexibility in its operations.",
+      "technical_spec": "Decoupled components communicating via APIs.",
       "severity_score": 10
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Leverages a global CDN for faster content delivery and reduced latency.",
-      "technical_spec": "Amazon CloudFront.",
-      "severity_score": 5
+      "title": "Fault-Tolerant Systems",
+      "description": "The architecture is designed to withstand faults without major disruption to service.",
+      "technical_spec": "Redundant systems and failover protocols.",
+      "severity_score": 15
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Incorporates event-driven architecture for real-time processing and system responsiveness.",
-      "technical_spec": "AWS Lambda, SNS, SQS.",
-      "severity_score": 20
-    },
-    {
-      "title": "Load Balancers",
-      "description": "Utilizes load balancers to distribute incoming application traffic across multiple targets.",
-      "technical_spec": "Elastic Load Balancing (ELB).",
+      "title": "Load Balancing",
+      "description": "Distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed.",
+      "technical_spec": "Elastic Load Balancing (ELB)",
       "severity_score": 25
+    },
+    {
+      "title": "Data Sharding",
+      "description": "Horizontal partitioning of databases to enhance performance and scalability.",
+      "technical_spec": "Sharding of customer and order databases.",
+      "severity_score": 30
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Uses CDN to deliver content faster to users globally.",
+      "technical_spec": "Amazon CloudFront",
+      "severity_score": 20
     }
   ]
 }

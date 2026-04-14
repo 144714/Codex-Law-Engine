@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 133,
+    "rank": 143,
     "site": "apple.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "25b37d58393c7c46ab53a850157f1645"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "2ad961bd72d6607d8eab786424990e54"
   },
   "data": [
     {
-      "title": "Modular System",
-      "description": "Apple's website design is organized into modular sections that allow for easy updates and scalability.",
-      "technical_spec": "Built using a combination of HTML5, CSS3, and JavaScript frameworks.",
-      "severity_score": 10
-    },
-    {
-      "title": "Responsive Design",
-      "description": "The site's architecture ensures compatibility with a variety of devices and screen sizes.",
-      "technical_spec": "Utilizes media queries and fluid grid layouts.",
-      "severity_score": 5
-    },
-    {
-      "title": "Cloud Integration",
-      "description": "Seamless integration with Apple's cloud services enhances performance and data accessibility.",
-      "technical_spec": "Leverages iCloud APIs and cloud-based content delivery networks.",
+      "title": "Scalable Infrastructure",
+      "description": "Apple.com is built on a scalable infrastructure to handle millions of users concurrently.",
+      "technical_spec": "Utilizes distributed server architecture with CDN support.",
       "severity_score": 15
     },
     {
-      "title": "Global Infrastructure",
-      "description": "The website maintains localized versions and supports multiple regions and languages.",
-      "technical_spec": "GeoDNS and server localization for optimal performance across regions.",
+      "title": "High Availability Systems",
+      "description": "Designed to provide high uptime with minimal disruptions.",
+      "technical_spec": "Implemented with redundancy and failover mechanisms.",
+      "severity_score": 10
+    },
+    {
+      "title": "Microservices Architecture",
+      "description": "Decomposed systems promoting independent deployment and scaling.",
+      "technical_spec": "Employs containerized services managed via orchestration platforms.",
       "severity_score": 20
     },
     {
-      "title": "Security-first Approach",
-      "description": "Designed with robust security protocols, emphasizing user data protection.",
-      "technical_spec": "Incorporates SSL/TLS encryption and secure authentication mechanisms.",
+      "title": "Efficient Data Management",
+      "description": "Employs data management strategies to optimize speed and reliability.",
+      "technical_spec": "Uses distributed databases and advanced caching mechanisms.",
       "severity_score": 25
+    },
+    {
+      "title": "Advanced Load Balancing",
+      "description": "Optimizes resource utilization and increases throughput.",
+      "technical_spec": "Incorporates software and hardware load balancers across global data centers.",
+      "severity_score": 30
     }
   ]
 }

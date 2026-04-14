@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 135,
+    "rank": 145,
     "site": "amazon.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "7c2f9418e858da2286bb82eca991a74d"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "e6c56e234d09e5e17427e049fbf59654"
   },
   "data": [
     {
-      "title": "Encryption Protocols",
-      "description": "Applies encryption protocols to secure user data and transactions.",
-      "technical_spec": "TLS/SSL, AES-256 encryption.",
-      "severity_score": 20
-    },
-    {
       "title": "DDoS Protection",
-      "description": "Implements robust DDoS protection to safeguard against cyber attacks.",
-      "technical_spec": "AWS Shield, AWS WAF.",
-      "severity_score": 30
-    },
-    {
-      "title": "Access Control",
-      "description": "Strict access control policies to limit data access to authorized users only.",
-      "technical_spec": "IAM roles and policies.",
-      "severity_score": 25
-    },
-    {
-      "title": "Security Audits",
-      "description": "Regular security audits and vulnerability assessments to identify and mitigate risks.",
-      "technical_spec": "AWS Inspector, third-party services.",
-      "severity_score": 35
-    },
-    {
-      "title": "Data Loss Prevention",
-      "description": "Implements data loss prevention strategies to prevent unauthorized data transfer.",
-      "technical_spec": "AWS Macie, encryption tools.",
+      "description": "Protection against DDoS attacks to maintain uptime and performance.",
+      "technical_spec": "AWS Shield and AWS WAF",
       "severity_score": 40
+    },
+    {
+      "title": "Data Encryption",
+      "description": "Encrypts sensitive data to prevent unauthorized access.",
+      "technical_spec": "AES-256 encryption for data at rest.",
+      "severity_score": 45
+    },
+    {
+      "title": "Authentication & Authorization",
+      "description": "Robust authentication mechanisms to prevent unauthorized access.",
+      "technical_spec": "AWS IAM roles and policies.",
+      "severity_score": 50
+    },
+    {
+      "title": "Security Incident & Event Management (SIEM)",
+      "description": "Monitors and manages potential security threats in real-time.",
+      "technical_spec": "Amazon GuardDuty and AWS CloudTrail.",
+      "severity_score": 55
+    },
+    {
+      "title": "Patch Management",
+      "description": "Regular updates and patches to address vulnerabilities.",
+      "technical_spec": "AWS Systems Manager for patch compliance.",
+      "severity_score": 30
     }
   ]
 }

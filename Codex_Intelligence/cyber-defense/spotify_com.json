@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 137,
+    "rank": 147,
     "site": "spotify.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "b9da84cd4935d16ae420672916711985"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "3c58a466dde4b7ed7e38dde2589f8862"
   },
   "data": [
     {
-      "title": "User Authentication",
-      "description": "Utilizes OAuth 2.0 and two-factor authentication for secure user access.",
-      "technical_spec": "Secure token-based authentication system.",
-      "severity_score": 20
+      "title": "End-to-End Encryption",
+      "description": "Spotify encrypts data in transit to protect user privacy and data integrity.",
+      "technical_spec": "TLS 1.2 with strong cipher suites ensures secure communications.",
+      "severity_score": 80
     },
     {
-      "title": "Encryption Protocols",
-      "description": "Data in transit is encrypted using TLS 1.2 or higher to prevent interception.",
-      "technical_spec": "TLS/SSL encryption handling for network security.",
-      "severity_score": 30
+      "title": "Authentication Protocols",
+      "description": "Two-factor authentication and OAuth 2.0 methods are used to secure user logins.",
+      "technical_spec": "JWT tokens for validation and authentication sessions.",
+      "severity_score": 70
     },
     {
-      "title": "Firewall Configuration",
-      "description": "Strong perimeter defenses with customizable firewall rules.",
-      "technical_spec": "Next-gen firewalls from vendors like Palo Alto Networks.",
-      "severity_score": 40
-    },
-    {
-      "title": "Vulnerability Management",
-      "description": "Continuous scanning and patching of potential vulnerabilities.",
-      "technical_spec": "Usage of tools like Nessus and Qualys.",
-      "severity_score": 50
+      "title": "Regular Security Audits",
+      "description": "Regular security audits are conducted to identify and fix vulnerabilities.",
+      "technical_spec": "Employs both in-house and third-party security tools for testing.",
+      "severity_score": 60
     },
     {
       "title": "Incident Response Plan",
-      "description": "Comprehensive strategy for incident detection and remediation.",
-      "technical_spec": "24/7 monitoring team with predefined response protocols.",
-      "severity_score": 35
+      "description": "Spotify has a structured incident response strategy to tackle potential breaches.",
+      "technical_spec": "Real-time monitoring and dedicated incident response teams.",
+      "severity_score": 50
+    },
+    {
+      "title": "Data Privacy Compliance",
+      "description": "Spotify complies with global data privacy laws including GDPR and CCPA.",
+      "technical_spec": "User consent management and data protection controls.",
+      "severity_score": 90
     }
   ]
 }

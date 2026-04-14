@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 133,
+    "rank": 143,
     "site": "apple.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "f137e7fcf32aedf4ad5def4fb003a0a5"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "64ed185568ed0e8cf3076d36cb983587"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "Commitment to innovation reflected in cutting-edge product showcases.",
-      "technical_spec": "Dynamic media content and AR/VR presentations.",
-      "severity_score": 50
+      "description": "Consistently pushing technological and design boundaries.",
+      "technical_spec": "Investment in R&D and product design excellence.",
+      "severity_score": 5
     },
     {
-      "title": "Simplicity",
-      "description": "Design ethos focusing on simplicity to aid in effective communication.",
-      "technical_spec": "Minimalist visual style with concise text.",
-      "severity_score": 30
+      "title": "Quality",
+      "description": "Commitment to delivering high-quality and reliable products.",
+      "technical_spec": "Rigorous testing and high material standards.",
+      "severity_score": 10
     },
     {
-      "title": "User-Centric",
-      "description": "Focus on delivering an exceptional user experience by putting users first.",
-      "technical_spec": "User testing and feedback loops.",
-      "severity_score": 40
-    },
-    {
-      "title": "Security",
-      "description": "A strong emphasis on privacy and security as a core brand promise.",
-      "technical_spec": "Privacy-first design and continuous security updates.",
-      "severity_score": 60
+      "title": "Ecosystem",
+      "description": "Integration across devices enhancing the user experience.",
+      "technical_spec": "Coherent software-hardware synergy.",
+      "severity_score": 15
     },
     {
       "title": "Sustainability",
-      "description": "Environmental responsibility showcased through eco-friendly product initiatives.",
-      "technical_spec": "Content highlighting sustainable practices and eco-focused products.",
-      "severity_score": 45
+      "description": "Focus on reducing environmental impact throughout the product lifecycle.",
+      "technical_spec": "Use of recycled materials and renewable energy sources.",
+      "severity_score": 10
+    },
+    {
+      "title": "Privacy",
+      "description": "Prioritizes user privacy with built-in safeguards for data protection.",
+      "technical_spec": "Transparent privacy policies and data management practices.",
+      "severity_score": 20
     }
   ]
 }

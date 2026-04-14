@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 133,
+    "rank": 143,
     "site": "apple.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "438a95ed58f91950b3173a242c9de6fc"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "9d4454e81bd1c1222db3ab04f1d2b473"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simple and direct navigation to minimize user decision time.",
-      "technical_spec": "Well-organized menus and intuitive layouts.",
-      "severity_score": 15
+      "title": "Consistency",
+      "description": "Provides a uniform experience across various Apple devices and platforms.",
+      "technical_spec": "Unified design language and interaction patterns.",
+      "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Interactive elements are sized and positioned for easy user accessibility.",
-      "technical_spec": "Large, easily clickable buttons tailored for both mouse and touch interaction.",
+      "title": "Feedback",
+      "description": "Immediate feedback for user actions improves engagement and satisfaction.",
+      "technical_spec": "Utilizes tactile, visual, and auditory feedback systems.",
       "severity_score": 20
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing design fosters user satisfaction and perceived usability.",
-      "technical_spec": "High-quality imagery and consistent color schemes.",
-      "severity_score": 25
+      "title": "Simplicity",
+      "description": "Coherent and minimalistic design aids user comprehension and navigation.",
+      "technical_spec": "Employs a clear typographic hierarchy and ample white space.",
+      "severity_score": 5
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Consistency in design to align with user expectations based on common internet standards.",
-      "technical_spec": "Standardized UI paradigms and common design patterns.",
-      "severity_score": 25
+      "title": "Accessibility",
+      "description": "Ensures inclusive design accommodating users of all abilities.",
+      "technical_spec": "Supports alternative input methods and screen reader capabilities.",
+      "severity_score": 15
     },
     {
-      "title": "Law of Proximity",
-      "description": "Related content grouped together to improve comprehension.",
-      "technical_spec": "Use of white space and grouping techniques.",
-      "severity_score": 10
+      "title": "Affordance",
+      "description": "Design elements intuitively indicate their functionalities and operations.",
+      "technical_spec": "Utilizes icons and controls that encourage interaction.",
+      "severity_score": 25
     }
   ]
 }

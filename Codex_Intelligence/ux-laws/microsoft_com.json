@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 134,
+    "rank": 144,
     "site": "microsoft.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "ec7ed13924a3ee8b472a6df7bca5207c"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "61f15f4c0d71a5c6147e02c9c4d41336"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Minimizes decision time by reducing the number of options presented to users.",
-      "technical_spec": "Concise menus, fast navigation, intuitive UI.",
+      "title": "Fitts's Law",
+      "description": "Ensures that UI elements are sized and positioned for easy targeting.",
+      "technical_spec": "Responsive button sizing, intuitive placement",
       "severity_score": 10
     },
     {
-      "title": "Fitts's Law",
-      "description": "Designs interfaces so that users can interact more quickly and easily.",
-      "technical_spec": "Optimized button size, proximate actionable elements, minimal click travel.",
+      "title": "Hick's Law",
+      "description": "Simplifies decision-making processes by limiting options and presenting well-organized information.",
+      "technical_spec": "Clear navigation, minimalistic design",
       "severity_score": 15
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Employs principles of proximity, similarity, and closure to create cohesive designs.",
-      "technical_spec": "Visual hierarchy, grouped elements, continuous flow.",
-      "severity_score": 20
-    },
-    {
       "title": "Jakob's Law",
-      "description": "Aligns the user experience with familiar online patterns for ease of use.",
-      "technical_spec": "Consistent layouts, standard navigation models, familiar design components.",
+      "description": "Designs follow patterns familiar to users from other websites, improving usability.",
+      "technical_spec": "Consistent UI patterns, standard layouts",
       "severity_score": 10
     },
     {
       "title": "Miller's Law",
-      "description": "Designs systems to accommodate the user's working memory limits.",
-      "technical_spec": "Chunking information, consistent affordances, manageable cognitive load.",
+      "description": "Chunks content into digestible sections to align with cognitive limitations.",
+      "technical_spec": "Modular content blocks",
+      "severity_score": 20
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Groups related items together to indicate their relationship and improve intuitiveness.",
+      "technical_spec": "Strategic spacing and layout design",
       "severity_score": 5
     }
   ]

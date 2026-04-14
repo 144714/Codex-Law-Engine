@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 134,
+    "rank": 144,
     "site": "microsoft.com",
-    "date": "2026-04-14 18:00",
-    "integrity_hash": "bbfa46c2ad8de5ce6424943853a5f6f6"
+    "date": "2026-04-14 19:23",
+    "integrity_hash": "b0a8e23835014dcf8f4c01186f890093"
   },
   "data": [
     {
-      "title": "Innovation Leadership",
-      "description": "Positions itself at the forefront of technological advancements and industry transformation.",
-      "technical_spec": "Cutting-edge research, patented technologies, industry partnerships.",
+      "title": "Innovation",
+      "description": "Commitment to technological advancement and cutting-edge solutions.",
+      "technical_spec": "Continuous R&D investments",
       "severity_score": 5
     },
     {
-      "title": "Corporate Responsibility",
-      "description": "Focuses on sustainable practices and impactful social responsibility initiatives worldwide.",
-      "technical_spec": "Sustainability programs, community outreach, diversity and inclusion efforts.",
-      "severity_score": 15
-    },
-    {
-      "title": "Customer-Centric Approach",
-      "description": "Places emphasis on understanding and serving the needs of its diverse user base.",
-      "technical_spec": "User feedback systems, personalized experiences, customer support.",
+      "title": "User-Centric Design",
+      "description": "Focuses on designing products and services that meet user needs and enhance experience.",
+      "technical_spec": "User feedback loops, iterative UX testing",
       "severity_score": 10
     },
     {
-      "title": "Global Connectivity",
-      "description": "Has a worldwide presence fostering global collaboration and digital transformation.",
-      "technical_spec": "International offices, multi-language support, cross-functional teams.",
-      "severity_score": 5
+      "title": "Reliability",
+      "description": "Ensures all offerings are dependable and robust, reflected in uptime and customer trust.",
+      "technical_spec": "SLA commitments, extensive testing",
+      "severity_score": 20
     },
     {
-      "title": "Security and Trust",
-      "description": "Builds trust with users through robust security measures and transparent practices.",
-      "technical_spec": "Data protection policies, transparency reports, compliance with international standards.",
-      "severity_score": 5
+      "title": "Global Reach",
+      "description": "Provides localized experiences and support to customers worldwide.",
+      "technical_spec": "Multiple data centers, multilingual support",
+      "severity_score": 15
+    },
+    {
+      "title": "Inclusivity",
+      "description": "Promotes diversity and accessibility in products and workplace culture.",
+      "technical_spec": "Accessibility standards compliance, inclusive hiring practices",
+      "severity_score": 25
     }
   ]
 }
