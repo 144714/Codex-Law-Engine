@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 80,
+    "rank": 90,
     "site": "whatsapp.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "642410357745ca94ef739e73157a7f8d"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "a84edfa9fd098694f3447b829d4e2d10"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "WhatsApp employs a microservices architecture to ensure scalability and maintainability.",
-      "technical_spec": "Docker containers, Kubernetes, RESTful APIs",
-      "severity_score": 10
-    },
-    {
-      "title": "Real-Time Messaging Protocol",
-      "description": "Supports real-time communication with low latency using XMPP protocol.",
-      "technical_spec": "XMPP, Long-Polling",
+      "description": "WhatsApp employs a microservices architecture to enhance scalability and maintainability.",
+      "technical_spec": "Utilizes lightweight, independently deployable services, connected via APIs.",
       "severity_score": 20
     },
     {
       "title": "End-to-End Encryption",
-      "description": "All messages are encrypted between the sender and receiver to ensure privacy.",
-      "technical_spec": "Signal Protocol, AES-256 encryption",
-      "severity_score": 5
+      "description": "Implements end-to-end encryption to secure messages.",
+      "technical_spec": "Uses the Signal Protocol for encryption, making communication private.",
+      "severity_score": 10
     },
     {
-      "title": "Cross-Platform Compatibility",
-      "description": "Available across multiple platforms, ensuring a consistent user experience.",
-      "technical_spec": "iOS, Android, Windows, macOS, Web",
+      "title": "Cross-Platform Messaging",
+      "description": "Supports messaging across multiple platforms seamlessly.",
+      "technical_spec": "Built using Electron for desktop and native tech stacks for mobile.",
+      "severity_score": 30
+    },
+    {
+      "title": "Scale-out Architecture",
+      "description": "Designed to handle a massive scale of concurrent users seamlessly.",
+      "technical_spec": "Employs load balancers and distributed databases.",
       "severity_score": 15
     },
     {
-      "title": "High Availability Infrastructure",
-      "description": "Designed to be highly available and resilient to failures.",
-      "technical_spec": "Load Balancers, Fault-Tolerant Design",
-      "severity_score": 8
+      "title": "Real-time Communication",
+      "description": "Supports real-time messaging and calling.",
+      "technical_spec": "UDP-based protocols for voice calls; WebRTC for video calls.",
+      "severity_score": 25
     }
   ]
 }

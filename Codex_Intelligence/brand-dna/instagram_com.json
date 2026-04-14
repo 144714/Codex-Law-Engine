@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 79,
+    "rank": 89,
     "site": "instagram.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "912bef7f67cf3592253ac3943d20c827"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "5a7f5013751629a331beec86f264367e"
   },
   "data": [
     {
       "title": "Visual Storytelling",
-      "description": "Focuses heavily on image and video sharing as core elements.",
-      "technical_spec": "High-resolution media format support and editing tools.",
-      "severity_score": 10
+      "description": "Emphasizes high-quality, visually driven content sharing to connect users globally.",
+      "technical_spec": "High-resolution image support, varied content formats",
+      "severity_score": 95
     },
     {
       "title": "Community Engagement",
-      "description": "Encourages user interaction and engagement through features.",
-      "technical_spec": "Integrated comments, likes, and direct messaging functionality.",
-      "severity_score": 20
+      "description": "Fosters active community interaction and user-driven content promotion.",
+      "technical_spec": "Interactive features, comment and like systems",
+      "severity_score": 90
     },
     {
-      "title": "Influencer Facilitation",
-      "description": "Provides features catering to influencers and brand partnerships.",
-      "technical_spec": "Includes analytics and branding tools for business accounts.",
-      "severity_score": 30
+      "title": "Innovation in Social Media",
+      "description": "Pioneering new formats and methods for content sharing and engagement.",
+      "technical_spec": "Reels, Stories, Collaborative Posts",
+      "severity_score": 92
     },
     {
-      "title": "Mobile-Centric Experience",
-      "description": "Optimizes for mobile usage with app-first design.",
-      "technical_spec": "Dedicated mobile application leading user interactions.",
-      "severity_score": 5
+      "title": "Mobile-First Approach",
+      "description": "Prioritizes mobile experience and accessibility, catering to smartphone users.",
+      "technical_spec": "Responsive design, mobile app optimization",
+      "severity_score": 85
     },
     {
-      "title": "Niche Focus",
-      "description": "Tailors content and marketing to specific interest groups.",
-      "technical_spec": "Utilizes algorithms for personalized content curation.",
-      "severity_score": 15
+      "title": "Secure User Experience",
+      "description": "Combines security with ease of use to ensure a trustworthy platform.",
+      "technical_spec": "Privacy controls, straightforward security settings",
+      "severity_score": 88
     }
   ]
 }

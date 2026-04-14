@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 74,
+    "rank": 84,
     "site": "microsoft.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "43b7332f00ed9be89837eafb684461bd"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "83d31998daad8da26683aae2bc43c363"
   },
   "data": [
     {
-      "title": "Innovation Driven",
-      "description": "Emphasizes cutting-edge technology and innovation.",
-      "technical_spec": "Focuses on integrating AI and modern cloud solutions.",
-      "severity_score": 9
+      "title": "Innovation",
+      "description": "A core element of Microsoft's brand, driving the development of cutting-edge technology solutions.",
+      "technical_spec": "Investment in R&D, Patented technologies",
+      "severity_score": 5
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Prioritizes user needs and simplifies interfaces.",
-      "technical_spec": "Implements customer feedback loops and iterative design.",
-      "severity_score": 7
-    },
-    {
-      "title": "Global Accessibility",
-      "description": "Ensures accessibility to a global audience.",
-      "technical_spec": "Supports multiple languages and accessibility standards.",
+      "title": "Trust",
+      "description": "Focused on building and maintaining user trust through privacy and security practices.",
+      "technical_spec": "GDPR compliance, Transparency reports",
       "severity_score": 8
     },
     {
-      "title": "Enterprise Focus",
-      "description": "Aligns digital presence with enterprise solutions.",
-      "technical_spec": "Showcases Microsoft’s suite of enterprise software and services.",
-      "severity_score": 7
+      "title": "Global Reach",
+      "description": "Microsoft services are accessible worldwide, highlighting its commitment to diversity and global engagement.",
+      "technical_spec": "Multiple language support, Global datacenters",
+      "severity_score": 12
     },
     {
-      "title": "Commitment to Security",
-      "description": "Stresses the importance of security across all services.",
-      "technical_spec": "Promotes Azure security features and best practices.",
+      "title": "Sustainability",
+      "description": "Dedication to environmental sustainability through eco-friendly practices and technologies.",
+      "technical_spec": "Carbon-neutral operations, Renewable energy sourcing",
+      "severity_score": 10
+    },
+    {
+      "title": "Partnership",
+      "description": "Strong alliances with other corporations and technology providers to enhance service offerings.",
+      "technical_spec": "Partner ecosystems, Collaborative platforms",
       "severity_score": 6
     }
   ]

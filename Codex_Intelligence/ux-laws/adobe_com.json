@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 78,
+    "rank": 88,
     "site": "adobe.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "29480b2534b7fd4b6f0d398018a84400"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "98d9842d509e22230c9ec425553c0a5b"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Minimizes user choices to reduce decision time, enhancing overall usability.",
-      "technical_spec": "Simplified navigation bar limiting the number of options at top levels.",
+      "title": "Hick's Law",
+      "description": "Adobe applies Hick's Law by simplifying user choices to enhance decision-making speed.",
+      "technical_spec": "User Interface Design, Navigation Simplification",
+      "severity_score": 25
+    },
+    {
+      "title": "Fitts' Law",
+      "description": "Interface elements are designed to be easily selectable to streamline user interactions.",
+      "technical_spec": "Button Size Optimization, Cursor Placement",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Design principles accommodate the limitation of 7±2 items in human memory.",
+      "technical_spec": "Information Chunking, Simplified Menus",
+      "severity_score": 30
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Consistency with user expectations is maintained to improve usability.",
+      "technical_spec": "Design Consistency, Familiar Interfaces",
+      "severity_score": 15
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "The interface design balances aesthetics with usability to enhance user attraction and satisfaction.",
+      "technical_spec": "Visual Hierarchy, Color Theory",
       "severity_score": 10
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Design large targets for buttons to improve click accuracy.",
-      "technical_spec": "Increased button size in critical navigation areas for ease of access.",
-      "severity_score": 8
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Group related items together to provide better user understanding.",
-      "technical_spec": "Use of white space and grouping strategies in dashboard interfaces.",
-      "severity_score": 7
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Aligns experience with user expectations by borrowing familiar interactions.",
-      "technical_spec": "Adheres to common web standards and patterns in interface design.",
-      "severity_score": 6
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Limits content to what a user can process at once to avoid overload.",
-      "technical_spec": "Dropdown menus and content collapsibles to manage on-screen data density.",
-      "severity_score": 9
     }
   ]
 }

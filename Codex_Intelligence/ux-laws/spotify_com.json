@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 77,
+    "rank": 87,
     "site": "spotify.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "c45c144597996f7ffedb743e58e6aaa2"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "59a7e52f86871c5013ab82a5b14d42e0"
   },
   "data": [
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Enhances user satisfaction through a visually pleasing interface.",
-      "technical_spec": "User interfaces are streamlined, with consistent color schemes and intuitive navigation.",
+      "title": "Hick's Law",
+      "description": "Simplifies user choices to prevent decision fatigue by limiting options.",
+      "technical_spec": "Utilizes clear, concise navigation and minimalistic designs.",
       "severity_score": 15
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Design considerations that make interactive elements easy to select.",
-      "technical_spec": "Interactive buttons are appropriately sized and spaced for efficiency.",
-      "severity_score": 20
-    },
-    {
-      "title": "Hick’s Law",
-      "description": "Reduces decision time by limiting choices per screen.",
-      "technical_spec": "Simplified menu structures to quickly guide users to their desired destination.",
-      "severity_score": 20
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Design familiar environments that align with user expectations from related applications.",
-      "technical_spec": "Interface consistency aligns with common streaming apps to leverage familiarity.",
+      "title": "Fitts's Law",
+      "description": "Design elements are optimized for speed and ease of interaction.",
+      "technical_spec": "Ensures interactive elements are large enough and positioned intuitively.",
       "severity_score": 10
     },
     {
-      "title": "Miller’s Law",
-      "description": "Limits information load on each page to prevent cognitive overload.",
-      "technical_spec": "Content is organized to present up to seven items per screen.",
+      "title": "Jakob's Law",
+      "description": "Designs align with user expectations based on their past experiences.",
+      "technical_spec": "Adopts industry-standard design patterns for usability.",
+      "severity_score": 5
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Aesthetic designs are perceived as easier to use.",
+      "technical_spec": "Employs visually appealing interfaces with intuitive layouts.",
       "severity_score": 20
+    },
+    {
+      "title": "Zeigarnik Effect",
+      "description": "Encourages users to complete tasks by interrupting their process.",
+      "technical_spec": "Uses progress indicators and notifications for incomplete actions.",
+      "severity_score": 25
     }
   ]
 }

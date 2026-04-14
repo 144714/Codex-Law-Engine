@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 79,
+    "rank": 89,
     "site": "instagram.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "711ff17ad35435e7d0de6d1f781fc4da"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "b70dde911a1c6d4b50e6e90f70d19f9e"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies navigation to reduce decision time.",
-      "technical_spec": "Limits choices in menus and filters for user ease.",
-      "severity_score": 25
+      "title": "Hick's Law",
+      "description": "User decision time is minimized by reducing the number of choices on interfaces.",
+      "technical_spec": "Streamlined UI, minimal design",
+      "severity_score": 70
     },
     {
-      "title": "Fitts’ Law",
-      "description": "Optimizes button sizes for interaction efficiency.",
-      "technical_spec": "Large tappable areas for actions like liking and sharing.",
-      "severity_score": 20
+      "title": "Fitts's Law",
+      "description": "Design influences cursor movement efficiency, optimizing target size and distance.",
+      "technical_spec": "Button size proportionality, accessible targets",
+      "severity_score": 65
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Interfaces are designed based on users’ familiar patterns from other applications.",
+      "technical_spec": "Intuitive layout, consistent design paradigms",
+      "severity_score": 75
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Enhances user perception of functionality through design.",
-      "technical_spec": "Adopts a minimalist design with a focus on photography.",
-      "severity_score": 30
+      "description": "Aesthetic design promoting usability perceptions and user confidence.",
+      "technical_spec": "Pleasing color scheme, consistent theme",
+      "severity_score": 85
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Ensures consistency with widely used patterns.",
-      "technical_spec": "Utilizes standard social media interactions like scrolling feed.",
-      "severity_score": 15
-    },
-    {
-      "title": "Feedback Principle",
-      "description": "Provides visual or haptic responses for interactions.",
-      "technical_spec": "Uses vibration for likes and visual animation for notifications.",
-      "severity_score": 35
+      "title": "Law of Proximity",
+      "description": "Elements that are close to each other are perceived as more related than those spaced apart.",
+      "technical_spec": "Logical grouping of icons and menu items",
+      "severity_score": 80
     }
   ]
 }

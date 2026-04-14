@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 76,
+    "rank": 86,
     "site": "netflix.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "092f48ce219f4646b923179d89494690"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "49876a0a98fecff0cac6428ce9d33190"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Encryption protocols to secure user data during transmission and at rest.",
-      "technical_spec": "AES-256 and Transport Layer Security (TLS).",
+      "title": "Strong Authentication Methods",
+      "description": "Implements multi-factor authentication for user accounts.",
+      "technical_spec": "Integration of OTP and biometric verification for enhanced security.",
       "severity_score": 20
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Controls to ensure only authorized access to systems and data.",
-      "technical_spec": "Utilizes OAuth and 2FA for user authentication.",
+      "title": "Encryption in Transit",
+      "description": "Encrypts data as it moves between client devices and servers.",
+      "technical_spec": "Uses TLS/SSL protocols to secure communication channels.",
+      "severity_score": 15
+    },
+    {
+      "title": "Advanced Threat Detection",
+      "description": "Employs machine learning algorithms for anomaly detection.",
+      "technical_spec": "Behavior analytics to identify and mitigate security threats.",
       "severity_score": 25
     },
     {
-      "title": "Security Audits and Penetration Testing",
-      "description": "Regular security testing to identify and patch vulnerabilities.",
-      "technical_spec": "Internal and third-party audits and white-hat engagements.",
+      "title": "Regular Security Audits",
+      "description": "Conducts frequent security audits to identify and address vulnerabilities.",
+      "technical_spec": "Penetration testing and code reviews are standard practices.",
       "severity_score": 18
     },
     {
-      "title": "Threat Intelligence and Monitoring",
-      "description": "Continuous monitoring to detect and respond to security threats in real-time.",
-      "technical_spec": "Advanced SIEM systems and custom-built threat intelligence tools.",
-      "severity_score": 22
-    },
-    {
-      "title": "Automated Security Response",
-      "description": "Automation tools to promptly mitigate potential threats once detected.",
-      "technical_spec": "Use of machine learning algorithms for quick incident response.",
-      "severity_score": 30
+      "title": "Data Privacy Compliance",
+      "description": "Adheres to data privacy regulations like GDPR and CCPA.",
+      "technical_spec": "Data handling protocols ensure user data is protected.",
+      "severity_score": 10
     }
   ]
 }

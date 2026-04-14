@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 73,
+    "rank": 83,
     "site": "apple.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "27eefd036b05541d611553ae1035fb05"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "d5487642a4c82f86dd4c9f8d6089a148"
   },
   "data": [
     {
-      "title": "Scalable Infrastructure",
-      "description": "Apple's website is powered by a robust, multi-layered infrastructure that allows it to handle high traffic volumes efficiently.",
-      "technical_spec": "Cloud-based architecture using AWS services with autoscaling capabilities.",
+      "title": "Microservices Architecture",
+      "description": "Apple uses microservices for modular deployments and scalable application management.",
+      "technical_spec": "Distributed systems, API gateways, containerization.",
       "severity_score": 10
     },
     {
-      "title": "Content Delivery Network",
-      "description": "The website employs a global CDN to deliver content quickly to users around the world.",
-      "technical_spec": "Uses Akamai CDN for efficient content delivery and reduced latency.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "Apple employs a global CDN to ensure fast content delivery and reduce latency.",
+      "technical_spec": "Edge servers, caching strategies, DNS routing.",
       "severity_score": 15
     },
     {
-      "title": "Microservices Architecture",
-      "description": "Apple.com uses a microservices architecture to decouple services for better manageability and scalability.",
-      "technical_spec": "Containerized services orchestrated through Kubernetes clusters.",
+      "title": "Redundant Server Infrastructure",
+      "description": "The website is backed by a redundant server infrastructure to ensure high availability.",
+      "technical_spec": "Load balancing, failover systems, distributed storage.",
+      "severity_score": 5
+    },
+    {
+      "title": "Cloud-Native Integration",
+      "description": "Integration with cloud services for scalability and flexibility.",
+      "technical_spec": "Cloud platforms, serverless functions, orchestration tools.",
       "severity_score": 20
     },
     {
-      "title": "API-driven Design",
-      "description": "The site heavily relies on APIs for data interchange between various components and services.",
-      "technical_spec": "RESTful API endpoints secured with OAuth 2.0.",
-      "severity_score": 25
-    },
-    {
-      "title": "Edge Computing",
-      "description": "Leverages edge computing for processing data closer to users to ensure faster response times.",
-      "technical_spec": "Edge nodes powered by edge cloud providers for compute-intensive tasks.",
-      "severity_score": 30
+      "title": "Responsive Web Design",
+      "description": "The architecture supports dynamic resizing for various screen sizes and devices.",
+      "technical_spec": "CSS media queries, fluid grids, flexible images.",
+      "severity_score": 10
     }
   ]
 }

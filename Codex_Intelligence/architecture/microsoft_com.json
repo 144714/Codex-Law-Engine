@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 74,
+    "rank": 84,
     "site": "microsoft.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "d76f2ca22fc8d88ee75673b8e6766064"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "578a80f614c13045a57d1c3bb9470bba"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Microsoft.com utilizes a microservices architecture to allow scalability and maintainability.",
-      "technical_spec": "Decomposed into small, independent services that communicate via APIs.",
+      "title": "Cloud Integration",
+      "description": "Microsoft's infrastructure is heavily integrated with its Azure cloud services, allowing seamless data and application operations across its platforms.",
+      "technical_spec": "Azure backbone, SaaS/PaaS/IaaS interoperability",
       "severity_score": 10
     },
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "The site is hosted on Azure, benefiting from high availability and robustness.",
-      "technical_spec": "Utilizes Azure App Services and Azure CDN for content delivery.",
+      "title": "Scalable Web Architecture",
+      "description": "The website employs scalable web technologies to handle large volumes of traffic efficiently through load balancers and distributed servers.",
+      "technical_spec": "Load balancers, CDN (Content Delivery Network)",
       "severity_score": 15
     },
     {
-      "title": "Content Delivery Network",
-      "description": "A global CDN is used to deliver content quickly and efficiently to users worldwide.",
-      "technical_spec": "Leverages Azure CDN for optimized latency and performance.",
-      "severity_score": 12
-    },
-    {
-      "title": "Responsive Design",
-      "description": "The website is designed to provide seamless browsing across devices.",
-      "technical_spec": "Employs CSS3 media queries and flexible layouts.",
+      "title": "Microservices",
+      "description": "Microservices architecture allows Microsoft.com to introduce new features and services independently without affecting the entire system.",
+      "technical_spec": "Docker containers, Kubernetes orchestration",
       "severity_score": 20
     },
     {
-      "title": "Load Balancing",
-      "description": "Implements load balancing to distribute traffic evenly across servers.",
-      "technical_spec": "Uses Azure Load Balancer to ensure reliability and uptime.",
-      "severity_score": 18
+      "title": "API Management",
+      "description": "Robust API management systems ensure smooth communication between client-side and server-side applications.",
+      "technical_spec": "RESTful APIs, OAuth 2.0",
+      "severity_score": 25
+    },
+    {
+      "title": "Responsive Design",
+      "description": "The site is designed responsively to adapt its layout across a variety of devices and screen sizes.",
+      "technical_spec": "CSS Flexbox/Grid, Media Queries",
+      "severity_score": 5
     }
   ]
 }

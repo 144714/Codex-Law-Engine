@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 76,
+    "rank": 86,
     "site": "netflix.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "4b9869c74fa3491c0f354337803cdeb6"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "bb7c18b4f1fe4a89df06fce23f7c0e91"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifying choices improves user decision-making process.",
-      "technical_spec": "Interfaces are streamlined to allow easy content browsing and selection.",
-      "severity_score": 8
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "The time to acquire a target is a function of the distance to and size of the target.",
-      "technical_spec": "Content can be readily selected using intuitive UI components like large thumbnails and arrows.",
-      "severity_score": 10
-    },
-    {
-      "title": "Consistency and Standards",
-      "description": "Consistency in design and interactions to meet user expectations.",
-      "technical_spec": "Aligns interface changes with standard user practices globally.",
+      "title": "Hick's Law",
+      "description": "Simplifies user interactions by minimizing choice complexity.",
+      "technical_spec": "Design focuses on clear, concise options to enhance decision-making.",
       "severity_score": 12
     },
     {
-      "title": "Miller’s Law",
-      "description": "Users can hold about 7 (plus or minus 2) pieces of information in their working memory.",
-      "technical_spec": "Home screen limits content categories visible at one time to ease cognitive load.",
-      "severity_score": 5
+      "title": "Miller's Law",
+      "description": "Conforms to the concept of chunking information to prevent cognitive overload.",
+      "technical_spec": "Content is broken down into manageable pieces to enhance comprehension.",
+      "severity_score": 14
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Users spend most of their time on other sites, so they prefer similar interfaces.",
-      "technical_spec": "Adopts familiar UI elements from similar streaming platforms for ease of use.",
-      "severity_score": 15
+      "title": "Fitts's Law",
+      "description": "Optimizes the size and placement of UI elements for easier accessibility.",
+      "technical_spec": "Efficient UI designs reduce the time to interact with functional elements.",
+      "severity_score": 16
+    },
+    {
+      "title": "Tesler’s Law of Conservation of Complexity",
+      "description": "Attempts to simplify the user experience without compromising functionality.",
+      "technical_spec": "Essential complexities are managed behind the scenes via efficient processes.",
+      "severity_score": 20
+    },
+    {
+      "title": "Zeigarnik Effect",
+      "description": "Encourages user engagement via interrupted tasks that prompt completion.",
+      "technical_spec": "Subtly reminds users of partially completed actions or series.",
+      "severity_score": 18
     }
   ]
 }

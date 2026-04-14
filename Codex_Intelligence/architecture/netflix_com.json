@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 76,
+    "rank": 86,
     "site": "netflix.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "e1dde26eb0af09fbe98ceee0ab7f740a"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "6ecdccc091c8fb5240450132026d4790"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Netflix uses a microservices architecture to handle scaling millions of users and various functionality.",
-      "technical_spec": "Decoupled services with RESTful APIs for inter-service communication.",
-      "severity_score": 5
-    },
-    {
-      "title": "Reactive Systems",
-      "description": "System built to be responsive, resilient, elastic, and message-driven to handle dynamic loads.",
-      "technical_spec": "Utilizes asynchronous event-driven mechanisms.",
+      "title": "Microservices Design",
+      "description": "Netflix employs a microservices architecture, allowing independent deployment and scalability of services.",
+      "technical_spec": "Breaks down the application into small, independently deployable services.",
       "severity_score": 10
     },
     {
-      "title": "Global CDN Deployment",
-      "description": "Content Delivery Network to cache and deliver content to users globally for fast streaming.",
-      "technical_spec": "Implementation with Open Connect, a custom CDN solution.",
-      "severity_score": 8
-    },
-    {
-      "title": "NoSQL Databases",
-      "description": "Use of highly scalable databases to store diverse and large datasets.",
-      "technical_spec": "Primarily uses Cassandra for horizontal scalability.",
+      "title": "Global CDN Network",
+      "description": "Utilizes a globally distributed content delivery network to serve content efficiently.",
+      "technical_spec": "Edge servers and caching techniques improve latency and performance.",
       "severity_score": 15
     },
     {
-      "title": "Load Balancing",
-      "description": "Distributing network or application traffic across multiple servers to ensure reliability.",
-      "technical_spec": "Features Elastic Load Balancing and own mechanisms for traffic management.",
+      "title": "High-Availability Architecture",
+      "description": "Ensures service availability through redundancy and failover mechanisms.",
+      "technical_spec": "Uses AWS and other cloud providers for load balancing and auto-scaling.",
+      "severity_score": 8
+    },
+    {
+      "title": "Cross-Region Replication",
+      "description": "Data is replicated across regions for disaster recovery and data resilience.",
+      "technical_spec": "Employs cloud-based replication techniques for data management.",
       "severity_score": 12
+    },
+    {
+      "title": "Centralized API Gateway",
+      "description": "A centralized API gateway manages requests from client devices.",
+      "technical_spec": "Utilizes a single entry point for routing API requests to microservices.",
+      "severity_score": 18
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 75,
+    "rank": 85,
     "site": "amazon.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "f38005851722e53f15457935e4b4b9b4"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "5ee211135c3989cc75041d46068ff423"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Data is encrypted during transfer and at rest.",
-      "technical_spec": "TLS/SSL, AES-256",
-      "severity_score": 95
+      "title": "Encryption at Rest and in Transit",
+      "description": "Data is protected using encryption while stored and during transmission.",
+      "technical_spec": "TLS 1.2 for data in transit and AES-256 for data at rest.",
+      "severity_score": 20
+    },
+    {
+      "title": "Threat Detection",
+      "description": "Continual monitoring for unusual behaviors and potential threats.",
+      "technical_spec": "AWS GuardDuty for intelligent threat detection and monitoring.",
+      "severity_score": 30
     },
     {
       "title": "DDoS Protection",
-      "description": "Deploys shielding against large-scale traffic attacks.",
-      "technical_spec": "AWS Shield, WAF",
-      "severity_score": 92
+      "description": "Robust protection against distributed denial of service attacks.",
+      "technical_spec": "AWS Shield Advanced for real-time monitoring and automatic attack mitigation.",
+      "severity_score": 40
     },
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Requires two-step verification to enhance security.",
-      "technical_spec": "OTP, App-based Authentication",
-      "severity_score": 88
+      "title": "Identity and Access Management",
+      "description": "Strict user access control policies to ensure secure resource access.",
+      "technical_spec": "AWS IAM for creating and managing users and access controls.",
+      "severity_score": 25
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts frequent assessments to identify vulnerabilities.",
-      "technical_spec": "Penetration Testing, Vulnerability Scanning",
-      "severity_score": 86
-    },
-    {
-      "title": "Incident Response Plan",
-      "description": "Maintains a documented protocol to respond to breaches.",
-      "technical_spec": "IRP Procedures, Threat Intelligence",
-      "severity_score": 89
+      "title": "Security Compliance",
+      "description": "Adheres to industry security standards and benchmarks.",
+      "technical_spec": "Compliance with ISO 27001, SOC 2, GDPR, CCPA.",
+      "severity_score": 35
     }
   ]
 }

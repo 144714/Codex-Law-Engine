@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 73,
+    "rank": 83,
     "site": "apple.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "617737144d3037141acc89b213a84c4a"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "339704f6ec92ed1590d8ea3a70a513e4"
   },
   "data": [
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Apple's website champions clean, minimal design which enhances perceived usability.",
-      "technical_spec": "Strategic use of white space, high-quality images, and concise text.",
-      "severity_score": 5
-    },
-    {
-      "title": "Hick's Law",
-      "description": "The site is designed to minimize cognitive load, ensuring users make decisions quickly and easily.",
-      "technical_spec": "Simple navigation menus with limited options to reduce decision time.",
+      "title": "Hicks Law",
+      "description": "Simplified navigation through reduced choices, improving decision-making speed.",
+      "technical_spec": "Streamlined menus, focused content, quick action paths.",
       "severity_score": 10
     },
     {
-      "title": "Fitts's Law",
-      "description": "Interactive elements are strategically placed to ensure ease of access and interaction.",
-      "technical_spec": "Large clickable buttons and links aim for maximum target size proximity.",
+      "title": "Fitts’s Law",
+      "description": "Designed interactive elements that are sized and positioned for easy access.",
+      "technical_spec": "Button size optimization, proximity distribution, hover effects.",
       "severity_score": 15
     },
     {
-      "title": "Law of Prägnanz",
-      "description": "The design layout is simple and clear, encouraging users to perceive comprehensible patterns.",
-      "technical_spec": "Use of grid systems and modular design to guide user focus effectively.",
-      "severity_score": 20
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing design increases perceived usability of the Apple website.",
+      "technical_spec": "Visual hierarchy, brand-consistent styling, whitespace utilization.",
+      "severity_score": 10
     },
     {
-      "title": "Zeigarnik Effect",
-      "description": "Engages users with visually interruptive content to increase memory retention and interaction.",
-      "technical_spec": "Interactive calls-to-action and animation cues promote user engagement.",
-      "severity_score": 25
+      "title": "Jakob’s Law",
+      "description": "Consistency with user expectations derived from other sites for intuitive use.",
+      "technical_spec": "Standard navigation layout, common UI patterns, expected workflows.",
+      "severity_score": 12
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Content is chunked into smaller units to aid user comprehension.",
+      "technical_spec": "Content grouping, section headers, list formatting.",
+      "severity_score": 15
     }
   ]
 }

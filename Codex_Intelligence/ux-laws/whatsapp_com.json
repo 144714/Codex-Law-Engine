@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 80,
+    "rank": 90,
     "site": "whatsapp.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "2606906c019e5670b008fc37a2556049"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "b5f6f10f271831743ebf2c808aaa8f06"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplified user choices reduce decision-making time and improve experience.",
-      "technical_spec": "Minimalist Design, Intuitive Navigation",
+      "title": "Fitts’s Law",
+      "description": "Streamlines interactions by placing frequently used buttons within easy reach.",
+      "technical_spec": "Consistent button placement and size across devices.",
       "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Ensures easy click targets and efficient touch zones for mobile users.",
-      "technical_spec": "Responsive Design, Larger Buttons",
+      "title": "Hick’s Law",
+      "description": "Simplifies decision-making by reducing choice complexity.",
+      "technical_spec": "Minimalistic UI design to enhance decision-making processes.",
       "severity_score": 15
     },
     {
-      "title": "Tesler’s Law",
-      "description": "Complexity is handled at the system level to simplify the user experience.",
-      "technical_spec": "Backend Complexity Management, User-Friendly Interfaces",
+      "title": "Miller’s Law",
+      "description": "Design accommodates the average user’s memory capacity.",
+      "technical_spec": "Chunking of information to enhance memorability and accessibility.",
       "severity_score": 20
     },
     {
       "title": "Jakob’s Law",
-      "description": "Users expect interfaces to function similarly to familiar applications.",
-      "technical_spec": "Standard UI Patterns, Consistent User Interaction",
-      "severity_score": 25
+      "description": "Leverages familiar design patterns to enhance user adaptability.",
+      "technical_spec": "Consistent UI paradigms across similar apps to reduce learning curves.",
+      "severity_score": 18
     },
     {
-      "title": "Miller’s Law",
-      "description": "Aligning content presentation to human capabilities for processing information.",
-      "technical_spec": "Chunking Information, Simplified Messaging",
+      "title": "Aesthetic-Usability Effect",
+      "description": "Elevates perceived ease of use through visually pleasing interfaces.",
+      "technical_spec": "Adaptable design systems with aesthetically pleasing color palettes.",
       "severity_score": 12
     }
   ]

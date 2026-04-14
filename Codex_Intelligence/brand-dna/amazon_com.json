@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 75,
+    "rank": 85,
     "site": "amazon.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "d538b9c2aeab5702579147e289d243dc"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "2bc0156e6a415741ccb0c0b9a08cccf8"
   },
   "data": [
     {
       "title": "Customer Obsession",
-      "description": "Puts customer needs at the center of all workflows.",
-      "technical_spec": "24/7 Customer Service, Personalized Experiences",
-      "severity_score": 97
+      "description": "Amazon prioritizes customer satisfaction, seeking to constantly improve service.",
+      "technical_spec": "24/7 customer support, liberal return policies, and regular feedback loops.",
+      "severity_score": 40
     },
     {
       "title": "Operational Excellence",
-      "description": "Focuses on improving efficiency across all operations.",
-      "technical_spec": "Supply Chain Optimization, Lean Processes",
-      "severity_score": 94
+      "description": "Excellence in operations and logistics to ensure fast and reliable deliveries.",
+      "technical_spec": "State-of-the-art fulfillment centers and AI-driven supply chain management.",
+      "severity_score": 45
     },
     {
       "title": "Innovation",
-      "description": "Constant pursuit of novel technological solutions.",
-      "technical_spec": "R&D Investments, New Product Launches",
-      "severity_score": 91
+      "description": "Stays at the forefront with technology and services diversification.",
+      "technical_spec": "Integration of ML and AI in product offerings and business processes.",
+      "severity_score": 35
     },
     {
-      "title": "Long-Term Thinking",
-      "description": "Strategic decisions made with a future-oriented perspective.",
-      "technical_spec": "Sustainable Practices, Infrastructure Investments",
-      "severity_score": 92
+      "title": "Long-term Thinking",
+      "description": "Focuses on sustainable growth and investment in future technologies.",
+      "technical_spec": "Investment in renewable energy and research and development centers.",
+      "severity_score": 50
     },
     {
-      "title": "Diverse Product Ecosystem",
-      "description": "A wide range of products to cater to varied customer needs.",
-      "technical_spec": "Marketplace Expansion, Private Labels",
-      "severity_score": 95
+      "title": "Global Reach",
+      "description": "Aims for a ubiquitous market presence with an extensive global footprint.",
+      "technical_spec": "Localized services and logistics for regional market adaptation.",
+      "severity_score": 30
     }
   ]
 }

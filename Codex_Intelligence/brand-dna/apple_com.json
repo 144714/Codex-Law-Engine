@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 73,
+    "rank": 83,
     "site": "apple.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "8b52c1238699913be775c2d825aac601"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "3be0ef9bc6732a9a6dca92b2e955aab8"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "Apple's online presence reflects its commitment to innovative technology and design.",
-      "technical_spec": "Regularly integrating cutting-edge web technologies.",
-      "severity_score": 5
-    },
-    {
-      "title": "Minimalism",
-      "description": "The brand emphasizes minimalistic design, focusing on functionality and aesthetics.",
-      "technical_spec": "Clean, clutter-free interfaces with intuitive navigation.",
-      "severity_score": 10
-    },
-    {
-      "title": "User-centric Design",
-      "description": "Prioritizes user needs and experiences by providing seamless interactions.",
-      "technical_spec": "Responsive design across all platforms ensuring accessibility standards.",
-      "severity_score": 15
-    },
-    {
-      "title": "Privacy and Security",
-      "description": "Known for its strong stance on user privacy and data security.",
-      "technical_spec": "Strict data protection policies and transparent privacy practices.",
+      "description": "Continually pushing technological boundaries.",
+      "technical_spec": "Cutting-edge technology, research and development focus, forward-thinking design.",
       "severity_score": 20
     },
     {
-      "title": "Ecosystem Coherence",
-      "description": "Promotes a seamless experience across its diverse ecosystem of products and services.",
-      "technical_spec": "Tightly integrated APIs and services for enhanced cross-platform functionality.",
-      "severity_score": 25
+      "title": "Quality",
+      "description": "High standards in product development and user experience.",
+      "technical_spec": "Rigorous testing, premium materials, attention to detail.",
+      "severity_score": 15
+    },
+    {
+      "title": "Simplicity",
+      "description": "Focus on making products that are easy to use and understand.",
+      "technical_spec": "Minimalist design, intuitive interfaces, streamlined features.",
+      "severity_score": 10
+    },
+    {
+      "title": "Customer-Focused",
+      "description": "Prioritizing user satisfaction and support.",
+      "technical_spec": "Comprehensive user support, community engagement, user feedback loops.",
+      "severity_score": 12
+    },
+    {
+      "title": "Sustainability",
+      "description": "Commitment to environmental responsibility and sustainable practices.",
+      "technical_spec": "Recyclable materials, renewable energy use, carbon footprint reduction.",
+      "severity_score": 15
     }
   ]
 }

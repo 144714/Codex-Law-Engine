@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 73,
+    "rank": 83,
     "site": "apple.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "56066186164bb74468ad847d877250ea"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "ff236ebe3d481be9591c090e6c9ced38"
   },
   "data": [
     {
-      "title": "Strong Encryption Practices",
-      "description": "The website uses strong encryption techniques to ensure that user data is secure in transit.",
-      "technical_spec": "TLS 1.3 with AES 256-bit encryption deployed site-wide.",
+      "title": "SSL/TLS Encryption",
+      "description": "Ensures data transmission security between clients and servers.",
+      "technical_spec": "TLS 1.3, modern ciphers, HTTPS",
       "severity_score": 5
     },
     {
-      "title": "Web Application Firewall",
-      "description": "Employs a web application firewall to protect against common web exploits.",
-      "technical_spec": "WAF rules integrated to filter and monitor HTTP requests in real-time.",
-      "severity_score": 10
-    },
-    {
-      "title": "DDoS Mitigation",
-      "description": "Incorporates DDoS mitigation strategies to protect against distributed denial of service attacks.",
-      "technical_spec": "Layer 7 and Layer 4 DDoS protection using cloud-based security services.",
+      "title": "Web Application Firewall (WAF)",
+      "description": "Protects the website from common web threats and vulnerabilities.",
+      "technical_spec": "OWASP Top 10 protection, custom rulesets, real-time monitoring.",
       "severity_score": 15
     },
     {
+      "title": "DDoS Mitigation",
+      "description": "Infrastructure in place to detect and mitigate Distributed Denial of Service attacks.",
+      "technical_spec": "Traffic analysis, rate limiting, attack draining.",
+      "severity_score": 10
+    },
+    {
       "title": "Regular Security Audits",
-      "description": "Conducts regular security audits to identify and patch vulnerabilities in its web ecosystem.",
-      "technical_spec": "Quarterly audits conducted using automated tools and manual penetration testing.",
+      "description": "Routine assessments to identify and resolve potential security issues.",
+      "technical_spec": "Penetration testing, vulnerability scanning, compliance checks.",
       "severity_score": 20
     },
     {
-      "title": "Secure Authentication Mechanisms",
-      "description": "Implements robust authentication mechanisms to prevent unauthorized access.",
-      "technical_spec": "Multi-factor authentication (MFA) enforced for sensitive areas of the site.",
+      "title": "User Authentication",
+      "description": "Secure user authentication processes to protect user data.",
+      "technical_spec": "Two-factor authentication, biometric verification, OAuth.",
       "severity_score": 25
     }
   ]

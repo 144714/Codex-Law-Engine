@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 74,
+    "rank": 84,
     "site": "microsoft.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "7f471e33999ebe8e7ad8df6682f3f3a6"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "2e3096123be837257e8f97b0170c08b2"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies user decision-making by limiting options.",
-      "technical_spec": "Uses clear navigation paths and minimized choice overload.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Designs interactive elements that are easy to reach.",
-      "technical_spec": "Prioritizes clickable areas for navigational efficiency.",
+      "title": "Hick's Law",
+      "description": "The website simplifies decision-making by minimizing choices on each page, achieving a faster response from users.",
+      "technical_spec": "Simplified navigation menus, Decision-tree optimization",
       "severity_score": 10
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Organizes UI elements for perceived visual unity.",
-      "technical_spec": "Groups similar items and ensures proximity and alignment.",
+      "title": "Fitts's Law",
+      "description": "Interactive elements are placed thoughtfully to reduce the distance for users, enhancing usability on touch and click interfaces.",
+      "technical_spec": "Optimized click/touch target sizes, Intuitive proximity positioning",
+      "severity_score": 8
+    },
+    {
+      "title": "Aesthetic Usability Effect",
+      "description": "A visually appealing interface is used to create a perception of easier use and positive experience.",
+      "technical_spec": "Consistent color schemes, Clean typography",
       "severity_score": 12
     },
     {
-      "title": "Miller’s Law",
-      "description": "Breaks down complex information into digestible chunks.",
-      "technical_spec": "Uses concise text and structured information hierarchy.",
-      "severity_score": 11
+      "title": "Jakob’s Law",
+      "description": "The site leverages familiar design patterns to reduce the learning curve for users visiting from other sites.",
+      "technical_spec": "Consistent UI patterns, Familiar navigation layouts",
+      "severity_score": 15
     },
     {
-      "title": "Jakob's Law",
-      "description": "Utilizes familiar designs to leverage existing user experience.",
-      "technical_spec": "Adheres to web usability conventions for a familiar user experience.",
-      "severity_score": 8
+      "title": "Law of Proximity",
+      "description": "Elements are grouped together based on relation to make the interface more organized and intuitive.",
+      "technical_spec": "Grid layouts, Clear separation of content areas",
+      "severity_score": 9
     }
   ]
 }

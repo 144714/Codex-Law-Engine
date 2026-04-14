@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 79,
+    "rank": 89,
     "site": "instagram.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "93d636148014ff5379539de25b7f0b90"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "e5f0d2f8b74d77e1bc2671553e60d020"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Encrypts data in transit and at rest to protect user information.",
-      "technical_spec": "TLS/SSL for data in motion, AES-256 for data at rest.",
-      "severity_score": 70
+      "title": "Two-Factor Authentication",
+      "description": "Enhanced login security through two-factor authentication systems.",
+      "technical_spec": "TOTP, SMS-based verification",
+      "severity_score": 85
     },
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Offers two-factor authentication to enhance account security.",
-      "technical_spec": "Supports TOTP and SMS-based verification for users.",
-      "severity_score": 50
+      "title": "Encryption Protocols",
+      "description": "Strong encryption protects user data and communications.",
+      "technical_spec": "TLS/SSL, End-to-End Encryption",
+      "severity_score": 90
     },
     {
-      "title": "Intrusion Detection Systems",
-      "description": "Monitors for suspicious activities within network traffic.",
-      "technical_spec": "Uses heuristic and signature-based approaches to detect intrusions.",
-      "severity_score": 60
+      "title": "Account Recovery Protocols",
+      "description": "Processes in place for securing and recovering compromised accounts.",
+      "technical_spec": "Account recovery via email/SMS",
+      "severity_score": 80
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic evaluations to identify and fix vulnerabilities.",
-      "technical_spec": "Employment of third-party security experts for unbiased analysis.",
-      "severity_score": 40
+      "title": "Bot Detection and Mitigation",
+      "description": "Tools and protocols to identify and restrict bot activity on the platform.",
+      "technical_spec": "Machine learning algorithms",
+      "severity_score": 75
     },
     {
-      "title": "User Privacy Controls",
-      "description": "Provides users options to control their data visibility and sharing.",
-      "technical_spec": "Includes settings for profile privacy and data sharing permissions.",
-      "severity_score": 30
+      "title": "Vulnerability Scanning and Patching",
+      "description": "Regular scanning and patching of security vulnerabilities.",
+      "technical_spec": "Nessus, Rapid7",
+      "severity_score": 95
     }
   ]
 }

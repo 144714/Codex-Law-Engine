@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 76,
+    "rank": 86,
     "site": "netflix.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "f78133719dd90473f4bfd1bf54b3e6b2"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "4d9074bf0d860db262486ce9254a5553"
   },
   "data": [
     {
-      "title": "Original Content Production",
-      "description": "Investing heavily in exclusive shows and movies to differentiate from competitors.",
-      "technical_spec": "Portfolio includes award-winning hits, extensive range of genres.",
-      "severity_score": 20
-    },
-    {
-      "title": "Global Accessibility",
-      "description": "Providing localized content worldwide with subtitles and dubbing options.",
-      "technical_spec": "Versioning specific to regions; supports over 20 languages.",
-      "severity_score": 18
-    },
-    {
-      "title": "Data-Driven Recommendations",
-      "description": "Using analytics to tailor recommendations based on viewing patterns.",
-      "technical_spec": "Algorithms analyze user data for predictive personalization.",
-      "severity_score": 25
-    },
-    {
-      "title": "User-Centric Experience",
-      "description": "Continuous improvements focus on user experience and satisfaction.",
-      "technical_spec": "Customer feedback loops and A/B testing influence changes.",
-      "severity_score": 15
-    },
-    {
-      "title": "Strong Brand Identity",
-      "description": "Maintaining brand consistency through distinctive visual and interactive design.",
-      "technical_spec": "Signature red and black theme, uniform branding across platforms.",
+      "title": "Original Content Strategy",
+      "description": "Investment in producing original content to enhance brand uniqueness.",
+      "technical_spec": "In-house production studios and strategic partnerships drive content creation.",
       "severity_score": 10
+    },
+    {
+      "title": "Global Expansion Focus",
+      "description": "Commitment to expanding availability and accessibility worldwide.",
+      "technical_spec": "Localized interfaces and content cater to diverse regional audiences.",
+      "severity_score": 8
+    },
+    {
+      "title": "Premium User Experience",
+      "description": "Prioritization of seamless streaming and intuitive interfaces.",
+      "technical_spec": "Continuous performance optimizations and UX improvements.",
+      "severity_score": 12
+    },
+    {
+      "title": "Consumer-Centric Innovation",
+      "description": "Designing services and features based on user feedback and needs.",
+      "technical_spec": "Research and development centered around consumer behavior studies.",
+      "severity_score": 14
+    },
+    {
+      "title": "Influential Digital Marketing",
+      "description": "Utilizes data-driven marketing strategies to engage with audiences.",
+      "technical_spec": "Employment of analytics to optimize campaign efficiency and reach.",
+      "severity_score": 16
     }
   ]
 }

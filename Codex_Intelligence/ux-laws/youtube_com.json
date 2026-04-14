@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 72,
+    "rank": 82,
     "site": "youtube.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "451f65a7ee1b393551ab4ef45b44f2e9"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "c7457c11fa58f7d5f123432b7d6f5b94"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Minimizes decision time by simplifying choices in the interface.",
-      "technical_spec": "User Interface Design",
-      "severity_score": 70
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Optimizes click targets to enhance user interaction.",
-      "technical_spec": "Layout and Element Sizing",
+      "description": "Simplify decision-making processes within the interface to reduce the time taken for user actions.",
+      "technical_spec": "Design intuitive navigation paths and limit choices on any given screen.",
       "severity_score": 76
     },
     {
-      "title": "Miller’s Law",
-      "description": "Designs to accommodate the user's short-term memory capacity.",
-      "technical_spec": "Information Architecture",
-      "severity_score": 74
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Designs experiences to reflect familiar user patterns.",
-      "technical_spec": "UI Consistency and Standards",
+      "title": "Fitts's Law",
+      "description": "Optimize the size and placement of clickable elements for quick accessibility.",
+      "technical_spec": "Ensure important buttons and links are large and positioned where users naturally focus.",
       "severity_score": 81
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Creates visually appealing interfaces to enhance perceived usability.",
-      "technical_spec": "Visual Design, UI Aesthetics",
-      "severity_score": 77
+      "title": "Peak-End Rule",
+      "description": "Enhance user experiences by focusing on providing memorable peak experiences and leaving positive end impressions.",
+      "technical_spec": "Prioritize smooth video playback and engaging content conclusions.",
+      "severity_score": 78
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Adopt familiar user interface patterns to meet expectations set by other popular platforms.",
+      "technical_spec": "Conduct usability tests to identify familiar patterns preferred by the users.",
+      "severity_score": 84
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Keep content and functionality within the user's optimal cognitive load.",
+      "technical_spec": "Break down complex information into smaller, easily digestible chunks.",
+      "severity_score": 82
     }
   ]
 }

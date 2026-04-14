@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 75,
+    "rank": 85,
     "site": "amazon.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "7221675fef5ed26978ead6bcf39a9f64"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "69301e001690152a1eb31dcdae547f66"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies decision processes by reducing choices.",
-      "technical_spec": "Minimal UI Decisions",
-      "severity_score": 78
+      "title": "Hick’s Law",
+      "description": "Simplified user decision-making by reducing the number of choices at checkout.",
+      "technical_spec": "Streamlined checkout process with prominently featured options.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts's Law",
-      "description": "Design layout enhances ease of navigation.",
-      "technical_spec": "Optimized Button Size and Placement",
-      "severity_score": 80
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Limits information chunks for better user comprehension.",
-      "technical_spec": "Grouping of Product Attributes",
-      "severity_score": 76
+      "title": "Fitts’s Law",
+      "description": "Optimizes the placement of action buttons to enhance usability and accessibility.",
+      "technical_spec": "Prominent positioning and sizing of purchase and navigation buttons.",
+      "severity_score": 20
     },
     {
       "title": "Jakob’s Law",
-      "description": "Implements familiar design patterns to improve usability.",
-      "technical_spec": "Conventional Navigation Menus",
-      "severity_score": 81
+      "description": "Consistent user experiences across devices and platforms.",
+      "technical_spec": "Unified design language and responsive design for multi-platform support.",
+      "severity_score": 25
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "An appealing interface facilitates a better user experience.",
-      "technical_spec": "Visual Design Consistency",
-      "severity_score": 83
+      "title": "Miller’s Law",
+      "description": "Breaks information into chunks to avoid cognitive overload.",
+      "technical_spec": "Categorical product listings with grouping of similar items.",
+      "severity_score": 30
+    },
+    {
+      "title": "Tesler’s Law",
+      "description": "Complex processes are abstracted for ease of use.",
+      "technical_spec": "Automated suggestions and personalization algorithms.",
+      "severity_score": 35
     }
   ]
 }

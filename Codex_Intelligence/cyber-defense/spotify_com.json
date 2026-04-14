@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 77,
+    "rank": 87,
     "site": "spotify.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "cdadfd6ea70af9f3b9e20f554d15bf69"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "0a478ab1c11c19bd2ef00e04ff0d3880"
   },
   "data": [
     {
-      "title": "User Data Encryption",
-      "description": "Encrypts user data both in transit and at rest to protect against unauthorized access.",
-      "technical_spec": "Uses standardized encryption protocols like TLS and AES-256.",
+      "title": "OAuth 2.0 Authentication",
+      "description": "Secure user authentication and authorization using OAuth 2.0 protocol.",
+      "technical_spec": "Token-based access control with scopes for resource access.",
+      "severity_score": 5
+    },
+    {
+      "title": "TLS Encryption",
+      "description": "Ensures data privacy and security during transmission with TLS encryption.",
+      "technical_spec": "Supports HTTPS with TLS 1.2 and 1.3 protocols.",
+      "severity_score": 10
+    },
+    {
+      "title": "DDoS Mitigation",
+      "description": "Protection measures in place to defend against Distributed Denial of Service attacks.",
+      "technical_spec": "Traffic filtering and rate limiting strategies.",
       "severity_score": 20
     },
     {
-      "title": "Authentication and Access Control",
-      "description": "Implements robust authentication mechanisms to safeguard user accounts.",
-      "technical_spec": "Supports OAuth and two-factor authentication.",
-      "severity_score": 25
-    },
-    {
-      "title": "Security Incident Response",
-      "description": "Maintains a proactive incident response plan for quick mitigation of threats.",
-      "technical_spec": "Uses intrusion detection systems and conducts regular threat assessments.",
+      "title": "Regular Security Audits",
+      "description": "Conducts regular security audits to identify and rectify vulnerabilities.",
+      "technical_spec": "Engages third-party cybersecurity firms for comprehensive assessments.",
       "severity_score": 30
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Ongoing vulnerability management and penetration testing to identify and address security flaws.",
-      "technical_spec": "With a focus on automated scanning tools and external audits.",
-      "severity_score": 35
-    },
-    {
-      "title": "User Privacy Governance",
-      "description": "Strong privacy policy in place to comply with regulations like GDPR.",
-      "technical_spec": "Regularly reviews data handling and storage practices for compliance.",
+      "title": "Bug Bounty Program",
+      "description": "Incentivizes ethical hacking to discover and report security vulnerabilities.",
+      "technical_spec": "Provides monetary rewards for reported vulnerabilities.",
       "severity_score": 25
     }
   ]

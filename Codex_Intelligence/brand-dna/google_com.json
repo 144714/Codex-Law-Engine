@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 71,
+    "rank": 81,
     "site": "google.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "6c5900c4d68f8fd08483ee9be10e3744"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "6e13a74d7d3d3b17d62189a997143357"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "Continuous evolution of products and services to lead in technology advancements.",
-      "technical_spec": "Investments in R&D and embracing novel technologies to stay ahead.",
-      "severity_score": 5
+      "description": "Commitment to pioneering new technologies and solutions.",
+      "technical_spec": "Continual research and development spanning multiple tech domains.",
+      "severity_score": 95
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Focus on delivering highly usable and accessible products.",
-      "technical_spec": "Incorporates user feedback cycles and robust A/B testing.",
-      "severity_score": 10
+      "title": "User-Centric Design",
+      "description": "Focus on intuitive and accessible design tailored to user needs.",
+      "technical_spec": "Design processes grounded in extensive user research and testing.",
+      "severity_score": 93
     },
     {
-      "title": "Trust and Security",
-      "description": "Commitment to user data protection and privacy through stringent security measures.",
-      "technical_spec": "Adherence to global data protection laws and proactive security updates.",
-      "severity_score": 8
+      "title": "Reliability",
+      "description": "Services that maintain high availability and uptime.",
+      "technical_spec": "Redundant systems and continuous monitoring ensure 99.999% uptime.",
+      "severity_score": 97
     },
     {
-      "title": "Global Reach and Impact",
-      "description": "Providing universally accessible technology and connectivity solutions.",
-      "technical_spec": "Localization of products and services to fit diverse global markets.",
-      "severity_score": 12
+      "title": "Privacy Focus",
+      "description": "Integrating privacy into core operations and services.",
+      "technical_spec": "Strict data governance policies and user privacy controls.",
+      "severity_score": 94
     },
     {
-      "title": "Sustainability",
-      "description": "Dedication to reducing carbon footprint and promoting eco-friendly practices.",
-      "technical_spec": "Implementing energy-efficient data centers and promoting digital sustainability.",
-      "severity_score": 6
+      "title": "Scalability",
+      "description": "Infrastructure and solutions designed to grow with demand.",
+      "technical_spec": "Cloud architecture that supports seamless horizontal and vertical scaling.",
+      "severity_score": 96
     }
   ]
 }

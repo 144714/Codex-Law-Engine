@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 72,
+    "rank": 82,
     "site": "youtube.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "eaf663e9172eefbd141609be3efd1db5"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "8732b2ade75422cb3ea7496e3a58c297"
   },
   "data": [
     {
-      "title": "Community and Sharing",
-      "description": "Promotes community engagement and content sharing.",
-      "technical_spec": "Like, Share, Subscribe Features",
-      "severity_score": 82
-    },
-    {
-      "title": "User-Generated Content",
-      "description": "Encourages users to create and upload video content.",
-      "technical_spec": "Video Upload Tools, Creator Studio",
-      "severity_score": 88
-    },
-    {
-      "title": "Personalization",
-      "description": "Offers personalized content recommendations.",
-      "technical_spec": "AI-Driven Algorithms",
+      "title": "User-Generated Content Empowerment",
+      "description": "Promote a platform where users feel empowered to create and share content.",
+      "technical_spec": "Develop tools that aid in easy content creation and sharing, such as enhanced editing features and collaboration options.",
       "severity_score": 86
     },
     {
-      "title": "Accessibility",
-      "description": "Ensures content accessibility for all users.",
-      "technical_spec": "Captioning, Screen Reader Compatibility",
-      "severity_score": 80
+      "title": "Global Audience Engagement",
+      "description": "Engage a diverse audience from around the world with localized content and features.",
+      "technical_spec": "Provide multi-language support and local content algorithms tailored to regional interests.",
+      "severity_score": 89
     },
     {
-      "title": "Advertising and Monetization",
-      "description": "Enables content monetization through ads.",
-      "technical_spec": "AdSense Integration, Partner Program",
-      "severity_score": 85
+      "title": "Creator Monetization Infrastructure",
+      "description": "Enhance monetization options for creators to keep them motivated and financially rewarded.",
+      "technical_spec": "Expand ad revenue models and introduce new monetization features, such as tipping or subscriptions.",
+      "severity_score": 88
+    },
+    {
+      "title": "Personalized Experience",
+      "description": "Offer a seamless personalized user experience based on individual interests and history.",
+      "technical_spec": "Utilize machine learning algorithms to recommend personalized content playlists and notifications.",
+      "severity_score": 90
+    },
+    {
+      "title": "Community Guidelines Transparency",
+      "description": "Ensure that platform policies and guidelines are transparent and understandable to all users.",
+      "technical_spec": "Create clear documentation and utilize AI to explain decisions affecting content or account standing.",
+      "severity_score": 83
     }
   ]
 }

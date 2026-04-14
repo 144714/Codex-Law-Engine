@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 78,
+    "rank": 88,
     "site": "adobe.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "7763aeeebb453bccde97f6d27fb87ce5"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "718ab9e9744c4a6ab74b912e0bc86bed"
   },
   "data": [
     {
       "title": "Creative Empowerment",
-      "description": "Adobe aims to foster creativity and innovation across its user base.",
-      "technical_spec": "Extensive suite of creative software like Photoshop, Illustrator, and Premiere Pro.",
-      "severity_score": 5
+      "description": "Adobe's brand is centered around empowering creativity and innovation.",
+      "technical_spec": "Creative Cloud Suite, Engagement Tools",
+      "severity_score": 10
     },
     {
-      "title": "Customer-Centric Product Design",
-      "description": "Products designed with user feedback and industry trends in mind.",
-      "technical_spec": "Use of feedback loops and continuous user interviews in product lifecycle.",
-      "severity_score": 7
+      "title": "Customer-Centric Innovation",
+      "description": "Focus on developing solutions that address customer needs through innovative technology.",
+      "technical_spec": "AI-Powered Features, User Feedback Integration",
+      "severity_score": 20
     },
     {
-      "title": "Innovation Leadership",
-      "description": "Leading innovation in design software and tools.",
-      "technical_spec": "Continual investment in R&D and acquisition of cutting-edge technologies.",
-      "severity_score": 8
+      "title": "Sustainable Practices",
+      "description": "Adobe is committed to sustainability and reducing its environmental footprint.",
+      "technical_spec": "Green Data Centers, Digital Initiatives",
+      "severity_score": 15
     },
     {
-      "title": "Global Reach",
-      "description": "Adobe products are used globally, with extensive localization efforts.",
-      "technical_spec": "Multi-language support and global customer service infrastructure.",
-      "severity_score": 6
+      "title": "Global Accessibility",
+      "description": "Ensure that Adobe products are accessible and inclusive for a global audience.",
+      "technical_spec": "WCAG 2.1 Compliance, Localization",
+      "severity_score": 25
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Focused on sustainable operations and minimizing environmental impact.",
-      "technical_spec": "Carbon-neutral cloud operations and eco-friendly office practices.",
-      "severity_score": 4
+      "title": "Digital Transformation Leadership",
+      "description": "Adobe positions itself as a leader in digital transformation through continual advancements in digital solutions.",
+      "technical_spec": "Digital Experience Platform, Cloud Services",
+      "severity_score": 30
     }
   ]
 }

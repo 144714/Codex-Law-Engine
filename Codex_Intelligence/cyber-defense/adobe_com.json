@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 78,
+    "rank": 88,
     "site": "adobe.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "b4b12da909cac101569c7df9fa75bfe4"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "a913aead37726cb0d31accc27c8223f4"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Encryption of data at rest and in transit to prevent unauthorized access.",
-      "technical_spec": "AES-256 encryption standard utilized for data protection.",
-      "severity_score": 2
+      "title": "Data Encryption Standards",
+      "description": "Adobe implements strong data encryption methodologies for data at rest and in transit.",
+      "technical_spec": "AES-256, RSA",
+      "severity_score": 30
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts frequent audits and vulnerability assessments to maintain security posture.",
-      "technical_spec": "Quarterly penetration testing and use of automated security tools such as Nessus.",
-      "severity_score": 10
+      "description": "Frequent security audits help identify vulnerabilities and areas for improvement.",
+      "technical_spec": "Penetration Testing, OWASP Top 10",
+      "severity_score": 40
     },
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Implements MFA to enhance security for user accounts.",
-      "technical_spec": "Integration with services like Duo Security for an additional authentication layer.",
-      "severity_score": 3
+      "title": "User Authentication Protocols",
+      "description": "Multi-factor authentication is enforced to prevent unauthorized access.",
+      "technical_spec": "2FA, OAuth 2.0",
+      "severity_score": 35
     },
     {
-      "title": "Threat Intelligence",
-      "description": "Utilizes threat intelligence to preemptively counter cyber threats.",
-      "technical_spec": "Collaboration with industry threat intelligence platforms for real-time threat data.",
-      "severity_score": 7
+      "title": "DDoS Mitigation Strategies",
+      "description": "Adobe has implemented strategies to mitigate Distributed Denial of Service attacks.",
+      "technical_spec": "Traffic Scrubbing, Rate Limiting",
+      "severity_score": 45
     },
     {
-      "title": "Security Incident Response",
-      "description": "Robust mechanisms to detect, respond to security incidents efficiently.",
-      "technical_spec": "Incident response handled using tools like Splunk and ServiceNow.",
-      "severity_score": 5
+      "title": "Incident Response Plan",
+      "description": "A structured incident response plan ensures quick resolution and minimal impact.",
+      "technical_spec": "SIEM, Automated Incident Response",
+      "severity_score": 50
     }
   ]
 }

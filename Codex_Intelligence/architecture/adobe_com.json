@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 78,
+    "rank": 88,
     "site": "adobe.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "1cd02dbf152843522c7f8cd6e40757d8"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "690340020000590a88a093a848e95a70"
   },
   "data": [
     {
-      "title": "Modular Design",
-      "description": "Adobe uses a modular architecture to ensure scalability and easy maintenance.",
-      "technical_spec": "Microservices architecture built on containers and orchestrated via Kubernetes.",
-      "severity_score": 5
+      "title": "Microservices Architecture",
+      "description": "Adobe utilizes a microservices architecture to manage its complex suite of applications, allowing for modular and scalable design.",
+      "technical_spec": "Docker, Kubernetes, API Gateway",
+      "severity_score": 20
     },
     {
-      "title": "Cloud Infrastructure",
-      "description": "Uses AWS and Azure for hosting and infrastructure requirements with a focus on high availability.",
-      "technical_spec": "Multi-cloud strategy utilizing AWS EC2, Azure VMs, and related services.",
-      "severity_score": 8
+      "title": "Cloud-Based Infrastructure",
+      "description": "Adobe's infrastructure is heavily reliant on cloud services, providing flexibility and redundancy.",
+      "technical_spec": "AWS, Azure, Adobe Cloud Platform",
+      "severity_score": 15
     },
     {
-      "title": "CI/CD Pipelines",
-      "description": "Continuous integration and deployment practices to streamline software updates.",
-      "technical_spec": "Implemented via Jenkins, Git, and Docker containers for automated testing and deployment.",
-      "severity_score": 4
+      "title": "Content Delivery Network (CDN)",
+      "description": "To efficiently deliver content globally, Adobe uses a robust CDN.",
+      "technical_spec": "Akamai, Cloudflare",
+      "severity_score": 10
     },
     {
-      "title": "Global CDN",
-      "description": "Ensuring fast content delivery and improved user experience worldwide.",
-      "technical_spec": "Akamai CDN integration for global content delivery optimization.",
-      "severity_score": 3
+      "title": "Multi-Tier Security Architecture",
+      "description": "The architecture involves layers of defense including firewalls, intrusion detection systems, and data encryption.",
+      "technical_spec": "Palo Alto Networks, SSL/TLS",
+      "severity_score": 30
     },
     {
-      "title": "API-first Approach",
-      "description": "Provides robust APIs for third-party integration, enhancing extensibility.",
-      "technical_spec": "RESTful APIs supporting JSON and XML, secured through OAuth 2.0.",
-      "severity_score": 6
+      "title": "API-First Design",
+      "description": "Adobe services are designed with an API-first approach to ensure seamless integration and interoperability.",
+      "technical_spec": "REST, GraphQL",
+      "severity_score": 25
     }
   ]
 }

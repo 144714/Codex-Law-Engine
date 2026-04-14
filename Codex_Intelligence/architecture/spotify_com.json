@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 77,
+    "rank": 87,
     "site": "spotify.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "817391d7ee906fc7dd6b86f50cd1194f"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "208ad3b46189a0180def6beff6d91821"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Spotify uses a microservices architecture to manage different functionalities across its platform.",
-      "technical_spec": "Each service is encapsulated, provides a specific function, and communicates via RESTful APIs or messaging queues.",
+      "description": "Spotify employs a microservices architecture to manage its services independently.",
+      "technical_spec": "Services are deployed independently and communicate through APIs.",
       "severity_score": 10
     },
     {
-      "title": "Cloud Infrastructure",
-      "description": "Deployed on a scalable cloud infrastructure to handle global user demand.",
-      "technical_spec": "Leverages services from cloud providers like Google Cloud for compute, storage, and networking solutions.",
-      "severity_score": 15
-    },
-    {
-      "title": "Data Driven System",
-      "description": "Heavy reliance on data-driven decision-making to optimize user experience.",
-      "technical_spec": "Integrates tools like Apache Kafka and Google BigQuery for data streaming and analysis.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "Spotify uses CDN to stream music efficiently to users globally.",
+      "technical_spec": "Caches music content at edge locations to reduce latency.",
       "severity_score": 20
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Uses CDNs to ensure consistent music streaming quality and fast loading times around the world.",
-      "technical_spec": "Partners with third-party CDN providers such as Akamai to cache content close to users.",
+      "title": "Load Balancing",
+      "description": "Distributes user requests across multiple servers to ensure high availability.",
+      "technical_spec": "Utilizes round-robin and least-connections algorithms.",
       "severity_score": 15
     },
     {
-      "title": "Resilient and Redundant Systems",
-      "description": "Focus on resilience with multiple redundancy layers to ensure high availability.",
-      "technical_spec": "Implements failover mechanisms and disaster recovery plans.",
+      "title": "Database Sharding",
+      "description": "Database is partitioned to handle massive volumes of data efficiently.",
+      "technical_spec": "Data is divided into shards based on user IDs.",
       "severity_score": 25
+    },
+    {
+      "title": "Containerization",
+      "description": "Uses Docker containers to deploy and manage applications.",
+      "technical_spec": "Standardizes development environments and deployment processes.",
+      "severity_score": 30
     }
   ]
 }

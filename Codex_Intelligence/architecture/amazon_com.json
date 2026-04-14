@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 75,
+    "rank": 85,
     "site": "amazon.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "921d6283b99cf1ec5ae3bf3671ffb2c9"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "217e07d0ae9b8e398b581e70e3b309f1"
   },
   "data": [
     {
-      "title": "Serverless Microservices",
-      "description": "Uses AWS Lambda to handle business logic in isolated units.",
-      "technical_spec": "AWS Lambda, API Gateway, DynamoDB",
-      "severity_score": 90
+      "title": "Microservices Design",
+      "description": "Amazon's architecture is built on a microservices design, enhancing scalability and reliability.",
+      "technical_spec": "Loosely coupled services communicating over RESTful APIs.",
+      "severity_score": 15
     },
     {
-      "title": "Global Content Delivery Network",
-      "description": "Content is delivered using a distributed network of edge locations.",
-      "technical_spec": "Amazon CloudFront",
-      "severity_score": 88
+      "title": "Cloud Storage",
+      "description": "Utilizes cloud-based storage solutions to manage data across distributed systems.",
+      "technical_spec": "AWS S3 for scalable data storage and retrieval.",
+      "severity_score": 10
     },
     {
-      "title": "Relational Database Management",
-      "description": "Utilizes distributed databases for scalable data storage.",
-      "technical_spec": "Amazon RDS, Aurora",
-      "severity_score": 85
+      "title": "Load Balancing",
+      "description": "Implements advanced load balancing to process millions of transactions per second.",
+      "technical_spec": "Utilizes AWS Application Load Balancers and Elastic Load Balancing services.",
+      "severity_score": 20
     },
     {
-      "title": "Service-Oriented Architecture",
-      "description": "Integrates various services to perform distinct functions.",
-      "technical_spec": "Microservices",
-      "severity_score": 83
+      "title": "Content Delivery Network",
+      "description": "Amazon CloudFront is used to deliver content with low latency.",
+      "technical_spec": "Global edge locations for caching and accelerating static and dynamic content.",
+      "severity_score": 35
     },
     {
-      "title": "Redundant Data Backup",
-      "description": "Implements failover systems to prevent data loss.",
-      "technical_spec": "S3, Glacier",
-      "severity_score": 87
+      "title": "Database Solutions",
+      "description": "Relies on both SQL and NoSQL databases for diverse data needs.",
+      "technical_spec": "Amazon RDS for relational data; DynamoDB for key-value storage.",
+      "severity_score": 25
     }
   ]
 }

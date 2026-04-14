@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 71,
+    "rank": 81,
     "site": "google.com",
-    "date": "2026-04-14 08:21",
-    "integrity_hash": "0f2a009727b903616c26da49c56e5d63"
+    "date": "2026-04-14 10:07",
+    "integrity_hash": "58f1afdbfbcb00e4c45dcc7664a813b8"
   },
   "data": [
     {
+      "title": "Fitts’s Law",
+      "description": "UI design ensures quicker target selection.",
+      "technical_spec": "Buttons and interactive elements are sized appropriately and placed conveniently.",
+      "severity_score": 89
+    },
+    {
       "title": "Hick’s Law",
-      "description": "Predicts the time it takes for users to make decisions based on the number of choices available.",
-      "technical_spec": "Google minimizes search decision time by providing relevant results and anticipated suggestions.",
-      "severity_score": 20
+      "description": "Streamlined decision-making process through simplified navigation.",
+      "technical_spec": "Minimalistic design reduces the cognitive load for users making decisions.",
+      "severity_score": 92
     },
     {
       "title": "Miller’s Law",
-      "description": "Limits the number of objects an average person can hold in working memory.",
-      "technical_spec": "Search snippet summaries are typically concise, aiding user retention.",
-      "severity_score": 10
-    },
-    {
-      "title": "Fitt’s Law",
-      "description": "Time required to rapidly move to a target area is a function of distance to and size of the target.",
-      "technical_spec": "Interactive elements like buttons are designed with optimal size for faster interactions.",
-      "severity_score": 15
+      "description": "Limits the number of choices presented to maintain user focus.",
+      "technical_spec": "UI adheres to presenting an optimal number of options (7±2) to users.",
+      "severity_score": 84
     },
     {
       "title": "Jakob’s Law",
-      "description": "Users spend most time on other sites, so they prefer your site to work similarly to all other sites.",
-      "technical_spec": "Google search interface follows familiar web conventions for seamless user experience.",
-      "severity_score": 12
+      "description": "Consistent design aligns with user expectations from similar popular sites.",
+      "technical_spec": "Adopts design patterns that users are already familiar with to enhance usability.",
+      "severity_score": 91
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "Users often perceive aesthetically pleasing design as more usable.",
-      "technical_spec": "Minimalist, visually appealing design contributes to user perception of efficiency.",
-      "severity_score": 10
+      "title": "Peak-End Rule",
+      "description": "User experience is gauged not just by usability but by memorable moments.",
+      "technical_spec": "Focus on delivering stand-out experiences during key interactions.",
+      "severity_score": 87
     }
   ]
 }
