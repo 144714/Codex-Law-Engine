@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 162,
+    "rank": 172,
     "site": "youtube.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "8483a460805cf6a4736ab683f9fbc5ff"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "5b7dd5cb4fc70fe14acea952f9cf19ab"
   },
   "data": [
     {
-      "title": "User-Centricity",
-      "description": "Focuses on providing a personalized experience to each user based on their preferences and interactions.",
-      "technical_spec": "AI-based recommendation algorithms.",
-      "severity_score": 90
+      "title": "User-Centric Advertising",
+      "description": "Focuses on personalized ad offerings to enhance relevance and engagement.",
+      "technical_spec": "AdSense and machine learning personalization.",
+      "severity_score": 50
     },
     {
-      "title": "Innovation",
-      "description": "Continually introduces new features and functionalities to maintain leadership in the video-sharing domain.",
-      "technical_spec": "Rapid prototyping and deployment strategies.",
-      "severity_score": 92
+      "title": "Community-Driven Content",
+      "description": "Strong emphasis on community and user-generated content.",
+      "technical_spec": "YouTube Partner Program and community guidelines.",
+      "severity_score": 40
     },
     {
       "title": "Global Accessibility",
-      "description": "Provides services in multiple languages and caters to diverse user needs around the world.",
-      "technical_spec": "Localization practices, automatic translation, and subtitle generation.",
-      "severity_score": 94
+      "description": "Ensures content is accessible to a global audience with localization features.",
+      "technical_spec": "Subtitle capabilities, language translations, and accessibility tools.",
+      "severity_score": 30
     },
     {
-      "title": "Community Engagement",
-      "description": "Fosters a vibrant community by allowing user interactions via likes, comments, and shares.",
-      "technical_spec": "Real-time message and notification systems.",
-      "severity_score": 88
+      "title": "Innovation in Content Creation",
+      "description": "Continuous development of tools and features for creators to expand their engagement with audiences.",
+      "technical_spec": "YouTube Shorts, Live Streaming, and analytic tools.",
+      "severity_score": 35
     },
     {
-      "title": "Brand Consistency",
-      "description": "Maintains a consistent brand image and experience across all platforms and touchpoints.",
-      "technical_spec": "Unified design language and brand guidelines.",
-      "severity_score": 89
+      "title": "Content Entrepreneurship",
+      "description": "Provides tools and pathways for content creators to monetize their work.",
+      "technical_spec": "SuperChats, membership, and Merchandise integration.",
+      "severity_score": 45
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 169,
+    "rank": 179,
     "site": "instagram.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "de86cf24b75ad65571d513a512961b11"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "654272be167536e7a5ba633db5a41d9f"
   },
   "data": [
     {
       "title": "Data Encryption",
-      "description": "Encryption in transit and at rest protects user data from unauthorized access.",
+      "description": "Encrypts data in transit and at rest to protect user information.",
       "technical_spec": "Uses TLS for data in transit and AES-256 for data at rest.",
+      "severity_score": 5
+    },
+    {
+      "title": "Account Security",
+      "description": "Offers two-factor authentication to enhance user account security.",
+      "technical_spec": "Supports authentication via mobile apps and text messages.",
+      "severity_score": 15
+    },
+    {
+      "title": "Access Controls",
+      "description": "Implements strict role-based access control within its infrastructure.",
+      "technical_spec": "Granular permissions for different service access levels.",
       "severity_score": 20
     },
     {
-      "title": "Access Control",
-      "description": "Strict access control measures are in place to limit data exposure to unauthorized users.",
-      "technical_spec": "Role-based access control (RBAC) is enforced across systems.",
-      "severity_score": 25
-    },
-    {
-      "title": "Threat Detection Systems",
-      "description": "Intrusion detection systems (IDS) monitor and analyze network traffic to identify suspicious activities.",
-      "technical_spec": "Employs IDS services like Snort in conjunction with machine learning algorithms.",
-      "severity_score": 35
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Continuous security audits and penetration tests identify potential vulnerabilities.",
-      "technical_spec": "Vulnerability assessments with platforms like Nessus and engagement with third-party security firms.",
+      "title": "Threat Monitoring",
+      "description": "Continuously monitors for suspicious activities and threats.",
+      "technical_spec": "Employs machine learning algorithms to detect anomalies.",
       "severity_score": 30
     },
     {
-      "title": "Account Authentication",
-      "description": "Multi-factor authentication (MFA) enhances user account security.",
-      "technical_spec": "Integration with authentication platforms like Auth0 for MFA options.",
-      "severity_score": 15
+      "title": "Bug Bounty Program",
+      "description": "Encourages security researchers to report vulnerabilities.",
+      "technical_spec": "Offers rewards for verified security issues reported by external contributors.",
+      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 162,
+    "rank": 172,
     "site": "youtube.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "916f26aadd3ae0723c7f167f06b9e22e"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "328d5e12e27310a9255a1842565b95d4"
   },
   "data": [
     {
-      "title": "DDoS Protection",
-      "description": "Deploys measures to detect and mitigate distributed denial-of-service attacks that could disrupt service availability.",
-      "technical_spec": "Google Shield, TCP/UDP filtering, and regular expression blacklisting.",
-      "severity_score": 95
+      "title": "User Account Protection",
+      "description": "Implements multiple layers of security to safeguard user accounts.",
+      "technical_spec": "Two-factor authentication (2FA), password recovery mechanisms.",
+      "severity_score": 30
+    },
+    {
+      "title": "Content Moderation Algorithms",
+      "description": "Uses automated and manual measures to manage user-generated content.",
+      "technical_spec": "Deep learning algorithms and community guidelines enforcement.",
+      "severity_score": 35
     },
     {
       "title": "Data Encryption",
-      "description": "Ensures that data in transit and at rest is encrypted to protect against unauthorized access.",
-      "technical_spec": "TLS for data in transit; AES-256 for data at rest.",
-      "severity_score": 92
+      "description": "Ensures all data in transit and at rest is encrypted.",
+      "technical_spec": "TLS protocols for data in transit, AES-256 encryption for data at rest.",
+      "severity_score": 10
     },
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Increases account security by requiring additional verification steps during login.",
-      "technical_spec": "Integration with Google Authenticator and third-party services for 2FA.",
-      "severity_score": 88
+      "title": "DDoS Protection",
+      "description": "Protection against Distributed Denial of Service attacks to maintain uptime.",
+      "technical_spec": "Traffic analysis and content filtering systems.",
+      "severity_score": 40
     },
     {
-      "title": "Intrusion Detection Systems",
-      "description": "Implements IDS to monitor and analyze network traffic for signs of attempts to compromise the system.",
-      "technical_spec": "Pattern recognition algorithms and anomaly detection software.",
-      "severity_score": 89
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular penetration tests and code reviews to identify and mitigate vulnerabilities.",
-      "technical_spec": "Red team exercises, static and dynamic code analysis tools.",
-      "severity_score": 91
+      "title": "Fraud Detection Systems",
+      "description": "Monitors for unusual patterns indicating potential fraud.",
+      "technical_spec": "Behavioral analytics and anomaly detection algorithms.",
+      "severity_score": 45
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 170,
+    "rank": 180,
     "site": "whatsapp.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "81c4b700ca09a8532092ef84c8c96088"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "7ebe78340df5a2a30a7d79e4f3fcf3c2"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "WhatsApp encrypts all user data to protect it from unauthorized access.",
-      "technical_spec": "AES-256 encryption for data at rest, TLS 1.3 for data in transit.",
-      "severity_score": 5
+      "title": "Two-Factor Authentication",
+      "description": "Optional two-step verification process for additional security.",
+      "technical_spec": "Passwords and OTPs as additional layers beyond standard login.",
+      "severity_score": 70
     },
     {
-      "title": "Two-Factor Authentication (2FA)",
-      "description": "Added security layer that requires users to verify their identity using a secondary method.",
-      "technical_spec": "Optional 6-digit code setup for account verification.",
-      "severity_score": 25
+      "title": "End-to-End Encryption by Default",
+      "description": "Encryption safeguards privacy by making messages readable only to sender and receiver.",
+      "technical_spec": "Signal Protocol for state-of-the-art cryptographic security.",
+      "severity_score": 15
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts regular security assessments to identify and mitigate vulnerabilities.",
-      "technical_spec": "Internal and external security audits followed by third-party penetration testing.",
+      "description": "Ongoing assessments to identify vulnerabilities and patch them.",
+      "technical_spec": "Bug bounty programs and penetration testing implemented.",
       "severity_score": 30
     },
     {
-      "title": "Threat Detection Systems",
-      "description": "Implements systems to constantly monitor and detect potential security threats.",
-      "technical_spec": "Use of AI and machine learning algorithms for advanced threat detection.",
-      "severity_score": 20
+      "title": "Suspicious Activity Monitoring",
+      "description": "Automated systems to flag and restrict suspicious interactions.",
+      "technical_spec": "Algorithms and pattern recognition to detect unusual logins.",
+      "severity_score": 50
     },
     {
-      "title": "User Privacy Controls",
-      "description": "Provides users with control over their privacy settings including last seen, profile picture visibility, etc.",
-      "technical_spec": "Granular privacy settings accessible via the app’s settings menu.",
-      "severity_score": 15
+      "title": "Secure Media Transfer",
+      "description": "Encrypted file transfers to protect media shared between users.",
+      "technical_spec": "Transport Layer Security (TLS) for upload/download processes.",
+      "severity_score": 25
     }
   ]
 }

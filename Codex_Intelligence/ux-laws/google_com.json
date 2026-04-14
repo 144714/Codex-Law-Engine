@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 161,
+    "rank": 171,
     "site": "google.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "1f5870e122119858ff3a66b92b1ad043"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "1b56ebe0d302f48fe5d353af77de7566"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Minimizes user decision-making time by simplifying choices.",
-      "technical_spec": "Streamlined UI with prioritized navigation to enhance decision speed.",
-      "severity_score": 10
+      "title": "Hick’s Law",
+      "description": "Simplifying choices to enhance user experience.",
+      "technical_spec": "Minimal design with quick-navigation menus and autocomplete.",
+      "severity_score": 18
     },
     {
-      "title": "Fitts's Law",
-      "description": "Designs interactive elements for quick access and ease of use.",
-      "technical_spec": "Large, clickable targets and minimal cursor movement.",
-      "severity_score": 15
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Aligns with user expectations for familiar interface elements.",
-      "technical_spec": "Consistent use of design patterns found in major web applications.",
+      "title": "Fitts’s Law",
+      "description": "Designing interface elements for easy interaction.",
+      "technical_spec": "Large, clickable buttons on commonly used functions.",
       "severity_score": 20
     },
     {
-      "title": "Miller's Law",
-      "description": "Limits cognitive load by managing information presented at one time.",
-      "technical_spec": "Chunking information and reducing clutter for cognitive ease.",
-      "severity_score": 5
+      "title": "Aesthetic-Usability Effect",
+      "description": "People are more tolerant of usability issues when designs are aesthetically pleasing.",
+      "technical_spec": "Clean interfaces, ample whitespace, and visual harmony.",
+      "severity_score": 12
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Increases usability perception through attractive design.",
-      "technical_spec": "Visually appealing and engaging layouts to improve user satisfaction.",
-      "severity_score": 25
+      "title": "Jakob’s Law",
+      "description": "Users spend most of their time on other sites and prefer your site to work the same way as other sites they already know.",
+      "technical_spec": "Consistent design elements and familiar navigation patterns.",
+      "severity_score": 15
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Group related items together to establish relationships.",
+      "technical_spec": "Logical grouping of related search results and ads.",
+      "severity_score": 10
     }
   ]
 }

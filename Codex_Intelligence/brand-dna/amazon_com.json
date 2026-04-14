@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 165,
+    "rank": 175,
     "site": "amazon.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "57984a5408dacbabf84e2db132bd2e75"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "7f1231cf633addbe3fa5a1948da0b825"
   },
   "data": [
     {
       "title": "Customer Obsession",
-      "description": "Dedicated focus on customer experience and satisfaction.",
-      "technical_spec": "24/7 customer service, real-time feedback loops, and personalized recommendations.",
-      "severity_score": 20
+      "description": "Prioritizes customers in every aspect of the business, focusing on creating value and usability.",
+      "technical_spec": "Customer reviews, feedback loops",
+      "severity_score": 5
     },
     {
       "title": "Innovation",
-      "description": "Continuous innovation in retail, technology, and customer service.",
-      "technical_spec": "Investment in R&D and integration of cutting-edge AI and machine learning technologies.",
-      "severity_score": 18
+      "description": "Continuously experiments and improves technology to enhance shopping experience and operational efficiency.",
+      "technical_spec": "R&D investment, Agile methodologies",
+      "severity_score": 10
     },
     {
       "title": "Operational Excellence",
-      "description": "Commitment to efficient and scalable operations.",
-      "technical_spec": "Automated warehouses, advanced logistics technology, and efficient supply chain management.",
-      "severity_score": 22
+      "description": "Focused on process optimization to deliver seamless and efficient customer service.",
+      "technical_spec": "Lean strategies, Six Sigma",
+      "severity_score": 8
     },
     {
-      "title": "Long-Term Thinking",
-      "description": "Strategic initiatives aimed at long-term growth and market impact.",
-      "technical_spec": "Focus on sustainability, global market expansion strategies, and product diversification.",
-      "severity_score": 15
+      "title": "Long-term Thinking",
+      "description": "Emphasizes long-term growth strategies over short-term profits to maintain brand resilience.",
+      "technical_spec": "Strategic planning, Market analysis",
+      "severity_score": 5
     },
     {
-      "title": "Data-Driven Decisions",
-      "description": "Use of data analytics to drive business strategy and improve customer engagement.",
-      "technical_spec": "Machine learning algorithms for customer insights and business intelligence tools.",
-      "severity_score": 17
+      "title": "Diverse Product Range",
+      "description": "Offers a vast range of products to cater to a wide array of customer needs and preferences.",
+      "technical_spec": "Marketplace platform, Vendor partnerships",
+      "severity_score": 12
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 167,
+    "rank": 177,
     "site": "spotify.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "d1471fea2042002118df9dcd88b8650f"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "ec1e37b247c4779d87748667fca464e5"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Spotify uses a microservices architecture to enhance scalability and maintainability. These small, independent services allow for rapid development and deployment.",
-      "technical_spec": "Designed using container technologies such as Docker and orchestrated with Kubernetes.",
-      "severity_score": 20
+      "title": "Microservices Infrastructure",
+      "description": "Spotify's architecture is built on microservices, where each service is responsible for specific functionality, allowing for greater scalability and agility.",
+      "technical_spec": "Service-oriented architecture using RESTful APIs and gRPC for communication.",
+      "severity_score": 10
     },
     {
-      "title": "Event-Driven",
-      "description": "Spotify's architecture is event-driven, ensuring that updates and changes propagate efficiently across the system while reducing load times.",
-      "technical_spec": "Implemented with tools like Kafka for event streaming.",
+      "title": "Data Infrastructure",
+      "description": "Utilizes a robust data infrastructure to process and analyze real-time data, supporting features like Discover Weekly and Wrapped.",
+      "technical_spec": "Uses Hadoop, Cassandra, and Google Cloud Platform for data storage and processing.",
       "severity_score": 15
     },
     {
-      "title": "Service-Oriented Architecture",
-      "description": "Each service in Spotify's architecture is dedicated to a specific business function, optimizing performance and reducing interdependence.",
-      "technical_spec": "Utilizes RESTful APIs for communication between services.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "Employs CDNs to distribute content efficiently across global data centers, ensuring low latency and high availability.",
+      "technical_spec": "Uses providers like Fastly or Akamai to cache content closer to users.",
+      "severity_score": 20
+    },
+    {
+      "title": "Cloud-native Deployment",
+      "description": "Leverages containerization and orchestration tools for efficient deployment and scaling.",
+      "technical_spec": "Kubernetes and Docker are essential components for deployment automation.",
       "severity_score": 25
     },
     {
-      "title": "Resilient Cloud Infrastructure",
-      "description": "Spotify operates on a cloud-based infrastructure, allowing for flexible scaling and robust disaster recovery mechanisms.",
-      "technical_spec": "Hosted on AWS with multi-region redundancy.",
-      "severity_score": 30
-    },
-    {
-      "title": "Data Pipeline",
-      "description": "A sophisticated data pipeline processes and analyzes user data to generate insights and recommendations.",
-      "technical_spec": "Built on Hadoop and Apache Spark for big data processing.",
-      "severity_score": 35
+      "title": "APIs for Integration",
+      "description": "Provides a set of comprehensive APIs for developers to integrate Spotify's music streaming capabilities into third-party applications.",
+      "technical_spec": "Publicly available RESTful APIs with robust documentation.",
+      "severity_score": 15
     }
   ]
 }

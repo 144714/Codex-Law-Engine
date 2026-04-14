@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 161,
+    "rank": 171,
     "site": "google.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "2077f336871615db7e9e47aec97c30a9"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "6272f82f89efda53acae4987bd84fd07"
   },
   "data": [
     {
-      "title": "Encryption in Transit and At Rest",
-      "description": "Data is encrypted during transmission and storage to prevent unauthorized access.",
-      "technical_spec": "TLS/SSL for data in transit; AES-256 encryption for data at rest.",
-      "severity_score": 5
-    },
-    {
-      "title": "Multi-Factor Authentication",
-      "description": "Mandatory two-step verification for enhanced security.",
-      "technical_spec": "Authentication via password and secondary method like SMS or app-based token.",
-      "severity_score": 10
-    },
-    {
-      "title": "Advanced Threat Detection",
-      "description": "Employs machine learning models to detect and mitigate threats in real-time.",
-      "technical_spec": "AI-based anomaly detection and intrusion prevention systems.",
-      "severity_score": 15
-    },
-    {
-      "title": "Bug Bounty Program",
-      "description": "Incentivizes external researchers to find and report security vulnerabilities.",
-      "technical_spec": "Reward-based program with public disclosure policy.",
+      "title": "Multi-Factor Authentication (MFA)",
+      "description": "An additional layer of security for account protection.",
+      "technical_spec": "Integration of physical security keys and authentication apps.",
       "severity_score": 20
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts continuous security assessments to identify potential vulnerabilities.",
-      "technical_spec": "Internal and third-party security audits and penetration testing.",
-      "severity_score": 10
+      "title": "TLS Encryption",
+      "description": "Ensures a secure connection between users and services.",
+      "technical_spec": "Advanced TLS protocols ensuring encrypted connections.",
+      "severity_score": 25
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Global defenses against Distributed Denial of Service attacks.",
+      "technical_spec": "Google Shield and transaction filtering technologies.",
+      "severity_score": 30
+    },
+    {
+      "title": "Data Loss Prevention (DLP)",
+      "description": "Prevents accidental or intentional data leaks.",
+      "technical_spec": "Machine learning models for sensitive data detection.",
+      "severity_score": 22
+    },
+    {
+      "title": "Intrusion Detection System (IDS)",
+      "description": "Continuous monitoring to detect suspicious activities.",
+      "technical_spec": "Real-time analysis with AI-driven threat detection.",
+      "severity_score": 28
     }
   ]
 }

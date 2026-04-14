@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 163,
+    "rank": 173,
     "site": "apple.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "976c0565b1eef7d37150449a127e857d"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "5d08bba973f07ba7151786c3715e6110"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Minimizes choices to reduce the decision time for users.",
-      "technical_spec": "Simple Navigation, Streamlined Content",
-      "severity_score": 80
+      "title": "Hick’s Law",
+      "description": "User interfaces are simplified to limit the number of choices presented at any given time.",
+      "technical_spec": "Strategic use of minimalistic design elements to enhance decision-making.",
+      "severity_score": 85
     },
     {
-      "title": "Fitts's Law",
-      "description": "Design is optimized for ease of use by making interactive elements easily selectable.",
-      "technical_spec": "Large Buttons, Accessible Menus",
+      "title": "Fitts’s Law",
+      "description": "Interactive UI components are designed for easy and quick access, minimizing user effort.",
+      "technical_spec": "Design practices ensure larger, reachable buttons and links for critical actions.",
+      "severity_score": 90
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Content is broken down into smaller chunks to help users better process and remember information.",
+      "technical_spec": "Use of concise text blocks and visual hierarchy throughout the site.",
+      "severity_score": 88
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "The site is designed with familiar navigation patterns and interactions to meet user expectations.",
+      "technical_spec": "Consistency in interface design, leveraging common web standards.",
       "severity_score": 92
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "An aesthetically pleasing design is perceived to be easier to use.",
-      "technical_spec": "Minimalistic Aesthetic, High-Quality Imagery",
-      "severity_score": 93
-    },
-    {
-      "title": "Law of Common Region",
-      "description": "Groups related elements together to create logical associations.",
-      "technical_spec": "Card Layout, Consistent Spacing",
-      "severity_score": 89
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Users prefer websites to work the same way as other sites they frequently visit.",
-      "technical_spec": "Familiar Interface Patterns, Standard Web Conventions",
-      "severity_score": 88
+      "description": "UI is designed to be visually appealing, increasing perceived usability and acceptance.",
+      "technical_spec": "Application of Apple's design philosophy with high-quality imagery and clean layouts.",
+      "severity_score": 87
     }
   ]
 }

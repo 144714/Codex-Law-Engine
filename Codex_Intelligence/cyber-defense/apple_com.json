@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 163,
+    "rank": 173,
     "site": "apple.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "b322162a32b8f53751b6ca1d21e7772f"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "bb146770e0e17330c7cddd15ee5047d7"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Uses advanced encryption standards to protect user data during transit and storage.",
-      "technical_spec": "TLS 1.3, AES-256",
+      "title": "SSL/TLS Encryption",
+      "description": "All data transmissions are secured using up-to-date SSL/TLS encryption standards.",
+      "technical_spec": "TLS 1.3 is enabled across all domains to encrypt data in transit.",
       "severity_score": 95
     },
     {
-      "title": "Secure Authentication",
-      "description": "Multi-factor authentication mechanisms to ensure secure user access.",
-      "technical_spec": "2FA, OAuth 2.0",
-      "severity_score": 85
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic security audits and vulnerability scans to maintain site integrity.",
-      "technical_spec": "Penetration Testing, Automated Vulnerability Scanners",
-      "severity_score": 90
-    },
-    {
       "title": "DDoS Protection",
-      "description": "Implements measures to guard against distributed denial-of-service attacks.",
-      "technical_spec": "Traffic Filtering, Rate Limiting",
+      "description": "Implements multiple layers of protection to mitigate Distributed Denial-of-Service attacks.",
+      "technical_spec": "Employing advanced traffic filtering, rate limiting, and real-time monitoring.",
+      "severity_score": 92
+    },
+    {
+      "title": "Firewall Systems",
+      "description": "Robust firewalls are in place to prevent unauthorized access to the backend systems.",
+      "technical_spec": "Advanced firewall rules and intrusion detection systems are configured.",
+      "severity_score": 93
+    },
+    {
+      "title": "User Authentication",
+      "description": "Multi-factor authentication is used to enhance user login security.",
+      "technical_spec": "Combination of biometrics, OTPs, and password policies.",
       "severity_score": 88
     },
     {
-      "title": "Intrusion Detection Systems",
-      "description": "Deploys systems to detect and respond to suspicious network activities promptly.",
-      "technical_spec": "Network Monitoring Tools, Anomaly Detection Algorithms",
-      "severity_score": 87
+      "title": "Regular Security Audits",
+      "description": "Continuous security auditing and vulnerability assessment processes are in place.",
+      "technical_spec": "Automated scanning combined with manual penetration testing.",
+      "severity_score": 90
     }
   ]
 }

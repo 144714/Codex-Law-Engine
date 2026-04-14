@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 161,
+    "rank": 171,
     "site": "google.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "65e39ceff760b1a03b59198319211751"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "8b5feda74d6fc8ed283e7cb7438f653c"
   },
   "data": [
     {
-      "title": "Innovation Leader",
-      "description": "Consistently pioneers breakthroughs in technology.",
-      "technical_spec": "Commitment to extensive R&D and fostering a culture of innovation.",
-      "severity_score": 30
+      "title": "Innovation",
+      "description": "Relentlessly innovating to create market-leading technology.",
+      "technical_spec": "Commitment to research and development with tech advancement.",
+      "severity_score": 8
     },
     {
-      "title": "Global Accessibility",
-      "description": "Focuses on providing access to information globally.",
-      "technical_spec": "Localization and adaptation of services to fit various regions.",
-      "severity_score": 25
-    },
-    {
-      "title": "User-Centric Design",
-      "description": "Prioritizes user experience in all products and services.",
-      "technical_spec": "Iterative design process with continuous user feedback.",
-      "severity_score": 20
-    },
-    {
-      "title": "Trust and Transparency",
-      "description": "Ensures user trust through clear policies and secure practices.",
-      "technical_spec": "Open privacy policies and transparent data handling.",
+      "title": "Accessibility",
+      "description": "Designing products usable by as many people as possible.",
+      "technical_spec": "Features like voice search and screen readers compatibility.",
       "severity_score": 10
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Dedicated to environmental sustainability and carbon neutrality.",
-      "technical_spec": "Implementing green energy solutions in data centers and operations.",
+      "title": "User-Centric Design",
+      "description": "Focused on user needs to drive product development.",
+      "technical_spec": "Extensive user research and testing to inform UX decisions.",
+      "severity_score": 7
+    },
+    {
+      "title": "Global Reach",
+      "description": "Services and products available worldwide.",
+      "technical_spec": "Localization in over 100 languages and 200 regions.",
+      "severity_score": 12
+    },
+    {
+      "title": "Security & Trust",
+      "description": "Protecting user's data and ensuring privacy.",
+      "technical_spec": "Robust security protocols and privacy-first initiatives.",
       "severity_score": 15
     }
   ]

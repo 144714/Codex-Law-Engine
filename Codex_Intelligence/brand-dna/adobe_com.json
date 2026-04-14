@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 168,
+    "rank": 178,
     "site": "adobe.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "356f05061af6afcc4a4d97fbfc24b953"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "8a8734e0e238eb2a14428b6e7466180f"
   },
   "data": [
     {
-      "title": "Creative Excellence",
-      "description": "Commitment to providing best-in-class creative tools and resources.",
-      "technical_spec": "Integration with Adobe Creative Cloud for a seamless creative ecosystem.",
+      "title": "Creative Freedom",
+      "description": "Adobe's brand promises provide tools that offer unparalleled creative freedom to users.",
+      "technical_spec": "Creative Cloud, Ecosystem Integration",
       "severity_score": 5
     },
     {
-      "title": "Innovation",
-      "description": "Continual investment in cutting-edge technology and features.",
-      "technical_spec": "Leverages AI technologies like Adobe Sensei for enhanced capabilities.",
+      "title": "Innovation Leadership",
+      "description": "Positioned as a leader in digital media innovation, driving new possibilities for users.",
+      "technical_spec": "AI-Powered Features, Adobe Sensei",
       "severity_score": 10
     },
     {
-      "title": "Customer-Centric Approach",
-      "description": "Focused on delivering solutions tailored to customer needs.",
-      "technical_spec": "Utilizes user data insights to tailor personalized experiences.",
+      "title": "Community and Collaboration",
+      "description": "Encourages user collaboration through community-driven content sharing and feedback.",
+      "technical_spec": "Adobe Behance, Forums, Collaborative Tools",
       "severity_score": 20
     },
     {
-      "title": "Design Simplicity",
-      "description": "Maintains an intuitive and clean design to enhance usability.",
-      "technical_spec": "Emphasis on smooth navigation and user-friendly interfaces.",
-      "severity_score": 15
+      "title": "Accessibility Commitment",
+      "description": "Dedicated to making content accessible for all users regardless of their abilities.",
+      "technical_spec": "Alt Text, Screen Reader Compatibility",
+      "severity_score": 10
     },
     {
-      "title": "Global Reach",
-      "description": "Products and services are offered worldwide, supporting diverse languages and cultures.",
-      "technical_spec": "Backend and frontend systems support multiple locales and currencies.",
-      "severity_score": 25
+      "title": "Consistent Experience",
+      "description": "Ensures a consistent user experience across all platforms and touchpoints.",
+      "technical_spec": "Cross-Platform Synchronization, Unified UX Design",
+      "severity_score": 15
     }
   ]
 }

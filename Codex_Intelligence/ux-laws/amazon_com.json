@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 165,
+    "rank": 175,
     "site": "amazon.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "b1713e9b4af2318b600ef8e26f448737"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "9e0a388d849b2057f31c37392f6a786a"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifying choices enhances decision-making speed for users on the platform.",
-      "technical_spec": "Utilizes structured navigation menus to minimize user effort in finding products.",
-      "severity_score": 40
-    },
-    {
       "title": "Fitts's Law",
-      "description": "Design elements are optimized for ease of access and interaction.",
-      "technical_spec": "Larger clickable areas and strategic positioning of call-to-action buttons.",
-      "severity_score": 35
+      "description": "Improves navigation by placing important buttons and links in accessible locations on the page.",
+      "technical_spec": "UI components proximity",
+      "severity_score": 20
     },
     {
-      "title": "Jakob's Law",
-      "description": "Leveraging users' existing mental models by maintaining familiar browsing experiences.",
-      "technical_spec": "Consistent user interface that aligns with standard e-commerce site practices.",
+      "title": "Hick's Law",
+      "description": "Simplifies decision-making by reducing the number of choices presented to the user at any one time.",
+      "technical_spec": "Progressive disclosure",
       "severity_score": 30
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "An aesthetically pleasing design is perceived to be easier to use.",
-      "technical_spec": "Employs modern, clean design elements that enhance visual engagement.",
-      "severity_score": 25
+      "title": "Jakob's Law",
+      "description": "Designs interfaces familiar to users based on their previous experiences with similar platforms.",
+      "technical_spec": "Consistent layout patterns",
+      "severity_score": 15
     },
     {
       "title": "Law of Proximity",
-      "description": "Grouped related elements together to streamline user flow and comprehension.",
-      "technical_spec": "Effective use of spacing and grouping in product listings and site navigation.",
-      "severity_score": 36
+      "description": "Groups related elements together to create a logical structure that enhances navigation.",
+      "technical_spec": "Visual hierarchy",
+      "severity_score": 25
+    },
+    {
+      "title": "Serial Position Effect",
+      "description": "Prioritizes key products and offers by placing them in positions of attention on the webpage.",
+      "technical_spec": "Top and bottom page position",
+      "severity_score": 10
     }
   ]
 }

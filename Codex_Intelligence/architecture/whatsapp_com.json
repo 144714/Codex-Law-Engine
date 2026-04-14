@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 170,
+    "rank": 180,
     "site": "whatsapp.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "da661fbb2b3576a0015cfb6c90d824db"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "21b87e092d235922dabc75beb96d94ab"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "WhatsApp uses a microservices architecture to ensure scalability and independent deployment of services.",
-      "technical_spec": "Each service runs in its own container within a Kubernetes cluster.",
-      "severity_score": 15
-    },
-    {
-      "title": "End-to-End Encryption Framework",
-      "description": "The architecture supports end-to-end encryption for messages and calls to ensure data privacy and security.",
-      "technical_spec": "Uses the Signal Protocol for encrypting messages.",
-      "severity_score": 5
-    },
-    {
-      "title": "Database Sharding",
-      "description": "The application uses database sharding to efficiently manage and scale data storage.",
-      "technical_spec": "Data is partitioned across multiple database instances using sharding keys.",
+      "description": "WhatsApp employs microservices to manage different functionalities independently.",
+      "technical_spec": "Use of containerized services and APIs for communication.",
       "severity_score": 20
     },
     {
-      "title": "Load Balancing",
-      "description": "Load balancers are used to distribute incoming traffic across multiple servers.",
-      "technical_spec": "Employs both hardware and software load balancers.",
+      "title": "Scalable Server Infrastructure",
+      "description": "Architecture optimized for handling billions of messages per day.",
+      "technical_spec": "Utilizes Erlang-based servers for concurrency and scalability.",
       "severity_score": 10
     },
     {
-      "title": "Distributed Architecture",
-      "description": "Services are distributed across multiple data centers to ensure global availability and low latency.",
-      "technical_spec": "Depends on a combination of edge servers and global data centers.",
-      "severity_score": 8
+      "title": "End-to-End Encryption Integration",
+      "description": "Implements Signal Protocol to provide secure messaging between users.",
+      "technical_spec": "Encryption keys stored only on user devices.",
+      "severity_score": 5
+    },
+    {
+      "title": "Data Storage Optimization",
+      "description": "Efficient data storage techniques to manage chat histories and media.",
+      "technical_spec": "Backed by databases like MySQL and cloud storage solutions.",
+      "severity_score": 15
+    },
+    {
+      "title": "Global Data Centers",
+      "description": "Distributed data centers to ensure high availability and reduced latency.",
+      "technical_spec": "Strategically located servers globally to minimize data travel.",
+      "severity_score": 12
     }
   ]
 }

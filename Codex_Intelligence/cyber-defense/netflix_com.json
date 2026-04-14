@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 166,
+    "rank": 176,
     "site": "netflix.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "b44fc8c0e178b5267f9ba93ba5a999c4"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "e9e0fa51ef955020089d9c43b2f58fe9"
   },
   "data": [
     {
-      "title": "Global Threat Monitoring",
-      "description": "Netflix implements extensive global monitoring for potential threats.",
-      "technical_spec": "Advanced telemetry and monitoring solutions for threat intelligence.",
-      "severity_score": 8
-    },
-    {
-      "title": "Encryption Standards",
-      "description": "Strong encryption protocols are used to protect data at rest and in transit.",
-      "technical_spec": "TLS 1.2 and AES-256 encryption standards for secure communication.",
-      "severity_score": 9
+      "title": "End-to-End Encryption",
+      "description": "Secures data across the network.",
+      "technical_spec": "Utilizes HTTPS and TLS protocols for data in transit.",
+      "severity_score": 25
     },
     {
       "title": "Identity and Access Management",
-      "description": "Robust IAM systems ensure that access is controlled and audited effectively.",
-      "technical_spec": "Use of AWS IAM for defining roles and permissions management.",
-      "severity_score": 7
+      "description": "Ensures proper authentication and access control.",
+      "technical_spec": "Incorporates OAuth 2.0 for secure user authentication.",
+      "severity_score": 35
     },
     {
-      "title": "API Security",
-      "description": "Security of APIs is a priority to protect against vulnerability exploitation.",
-      "technical_spec": "Implementation of OAuth and continuous scanning for API security issues.",
-      "severity_score": 8
+      "title": "DDoS Protection",
+      "description": "Protects against Distributed Denial of Service attacks.",
+      "technical_spec": "Uses scalable cloud-based defenses to absorb attack traffic.",
+      "severity_score": 40
     },
     {
-      "title": "Data Privacy Regulations",
-      "description": "Compliance with global data privacy laws to protect user data.",
-      "technical_spec": "Enforcement of GDPR, CCPA, and other relevant privacy frameworks.",
-      "severity_score": 10
+      "title": "Vulnerability Testing",
+      "description": "Regular vulnerability assessments to detect and mitigate risks.",
+      "technical_spec": "Performs automated and manual security audits.",
+      "severity_score": 45
+    },
+    {
+      "title": "Security Operations Center",
+      "description": "Monitors and responds to threats continuously.",
+      "technical_spec": "Operates a 24/7 SOC for real-time threat analysis and incident response.",
+      "severity_score": 50
     }
   ]
 }

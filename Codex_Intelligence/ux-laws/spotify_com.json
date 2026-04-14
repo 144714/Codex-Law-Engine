@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 167,
+    "rank": 177,
     "site": "spotify.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "14ad34472f7711ecf61c2a6cb14f5818"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "b48c680cb2d57a0bbb611b764186393f"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Spotify's interface minimizes choice overload by presenting users with categorized music options.",
-      "technical_spec": "Intuitive navigation structure aids in quick decision-making.",
-      "severity_score": 10
+      "title": "Hick’s Law",
+      "description": "Spotify minimizes the number of choices to streamline user decision-making.",
+      "technical_spec": "Simplified menus and streamlined navigation to enhance usability.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts's Law",
-      "description": "Interactive elements are sized and positioned to ensure quick and easy access for users.",
-      "technical_spec": "Responsive design adapts touch targets for various devices.",
-      "severity_score": 20
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Grouping related items together enhances the user's ability to understand and interact with the content.",
-      "technical_spec": "Semantic grouping in UI/UX design.",
+      "title": "Fitts’ Law",
+      "description": "Design ensures that frequently used controls are easily accessible and targetable.",
+      "technical_spec": "Optimized button and control sizes for touch interfaces.",
       "severity_score": 15
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Aesthetic enhancements increase user trust and satisfaction, improving perception of ease of use.",
-      "technical_spec": "High-resolution graphics and consistent branding.",
-      "severity_score": 15
+      "description": "The visually appealing design enhances perceived usability.",
+      "technical_spec": "Consistent design language and high-quality visual assets.",
+      "severity_score": 12
     },
     {
-      "title": "Jakob's Law",
-      "description": "Users expect consistent navigation patterns similar to other applications they use, improving learnability.",
-      "technical_spec": "Cross-application consistency in interface design.",
-      "severity_score": 20
+      "title": "Pareto Principle",
+      "description": "Focuses on optimizing primary user paths and common features.",
+      "technical_spec": "Feature analysis to identify and enhance key user interactions.",
+      "severity_score": 25
+    },
+    {
+      "title": "Serial Position Effect",
+      "description": "Places important controls and content at the beginning and end of user journeys.",
+      "technical_spec": "Prioritization of content based on usage patterns.",
+      "severity_score": 18
     }
   ]
 }

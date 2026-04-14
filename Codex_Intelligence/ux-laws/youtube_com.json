@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 162,
+    "rank": 172,
     "site": "youtube.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "dddc331331deb3611c86c378b7bf5559"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "f42d94216fbb486b45e4e58d13cac2d6"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Reduces decision fatigue by limiting the number of options presented to users upon directly entering the platform.",
-      "technical_spec": "Optimized landing page with recommended content based on user history.",
-      "severity_score": 85
+      "title": "Hick’s Law",
+      "description": "Minimizes decision-making time by optimizing options available at a given point.",
+      "technical_spec": "Streamlined interfaces with context-aware settings.",
+      "severity_score": 20
     },
     {
-      "title": "Fitts's Law",
-      "description": "Ensures buttons and clickable areas are optimally sized and placed for easy access by users.",
-      "technical_spec": "Proximity-based placements; minimum size standards for clickable elements.",
-      "severity_score": 80
+      "title": "Fitts’s Law",
+      "description": "Predicts the time required to move to a target area on the screen, enhancing usability for touch and click targets.",
+      "technical_spec": "Responsive design with well-spaced interactive elements.",
+      "severity_score": 15
     },
     {
-      "title": "Jakob's Law",
-      "description": "Leverages familiar UI patterns from other Google services to reduce learning curves for new users.",
-      "technical_spec": "Consistent navigation and layout borrowed from broader Google ecosystem.",
-      "severity_score": 78
+      "title": "Miller’s Law",
+      "description": "Design takes into consideration the average human's capacity to hold about 7 ± 2 items in working memory.",
+      "technical_spec": "Condensed information architecture and chunking.",
+      "severity_score": 10
     },
     {
       "title": "Gestalt Principles",
-      "description": "Uses principles of visual perception such as similarity and proximity to enhance content organization.",
-      "technical_spec": "Thumbnail design and categorization, UI grouping elements.",
-      "severity_score": 82
+      "description": "Applies principles of similarity, proximity, and alignment for visual coherence.",
+      "technical_spec": "Consistent spatial organization and aesthetic design.",
+      "severity_score": 15
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Creates an appealing interface that users perceive as easier to use.",
-      "technical_spec": "Design philosophy focuses on aesthetics via color theory, typography, and layout standards.",
-      "severity_score": 84
+      "description": "Aesthetic designs are perceived as easier to use, improving user experience.",
+      "technical_spec": "High-contrast colors, intuitive icons, and consistent branding.",
+      "severity_score": 25
     }
   ]
 }

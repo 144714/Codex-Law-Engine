@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 168,
+    "rank": 178,
     "site": "adobe.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "ce1228ff200f4a42a417bdd11cde28af"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "5c50dd34dc3e6eb330cbbce460b3d6b7"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "The website utilizes microservices architecture to enhance scalability and maintainability.",
-      "technical_spec": "Services are containerized using Docker and orchestrated with Kubernetes.",
+      "title": "Microservices Architecture",
+      "description": "Adobe utilizes a microservices architecture to enhance scalability and maintainability of its platform.",
+      "technical_spec": "Docker, Kubernetes, REST APIs",
+      "severity_score": 10
+    },
+    {
+      "title": "Cloud-Based Infrastructure",
+      "description": "The site is hosted on cloud-based services to ensure high availability and performance.",
+      "technical_spec": "AWS, Microsoft Azure",
       "severity_score": 15
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "A CDN is used to distribute content and improve load times globally.",
-      "technical_spec": "Leveraging Akamai for content delivery and caching strategies.",
-      "severity_score": 10
-    },
-    {
-      "title": "Single Page Application (SPA)",
-      "description": "Parts of the site are built as SPAs for dynamic content loading.",
-      "technical_spec": "Utilizes React.js framework for fast navigational experience.",
-      "severity_score": 30
-    },
-    {
-      "title": "RESTful API",
-      "description": "APIs follow REST principles to provide a standardized interface for web services.",
-      "technical_spec": "Implemented with JSON data interchange format.",
+      "description": "Adobe employs a CDN to deliver content efficiently across global regions.",
+      "technical_spec": "Akamai, Cloudflare",
       "severity_score": 20
     },
     {
-      "title": "Edge Computing",
-      "description": "Leverages edge computing to process data closer to the user.",
-      "technical_spec": "Utilization of AWS Wavelength for low-latency computations.",
+      "title": "Load Balancing",
+      "description": "A load balancing mechanism is in place to distribute incoming traffic and prevent server overload.",
+      "technical_spec": "Nginx, HAProxy",
+      "severity_score": 30
+    },
+    {
+      "title": "Data Redundancy and Backup",
+      "description": "Data redundancy strategies are implemented to ensure data preservation and integrity.",
+      "technical_spec": "Replication, Cloud Backup Solutions",
       "severity_score": 25
     }
   ]

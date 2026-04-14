@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 161,
+    "rank": 171,
     "site": "google.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "72d830ea3e6478f8f3befb331342d719"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "092b93d90365fbd59545c40ef797ab6c"
   },
   "data": [
     {
-      "title": "Server Distribution",
-      "description": "Google deploys a vast network of servers distributed globally to handle requests efficiently.",
-      "technical_spec": "Load balancing across multiple data centers for scalability and redundancy.",
-      "severity_score": 20
-    },
-    {
-      "title": "Monolithic and Microservices Hybrid",
-      "description": "Utilizes both monolithic architecture and microservices to optimize performance.",
-      "technical_spec": "Front-end monolith integrated with scalable back-end microservices.",
-      "severity_score": 30
-    },
-    {
-      "title": "High Availability",
-      "description": "Ensures maximum uptime through redundant systems and failover protocols.",
-      "technical_spec": "95%+ uptime SLA with automatic failover and disaster recovery systems.",
+      "title": "Distributed Systems",
+      "description": "Google uses a global network of distributed systems to ensure high availability and scalability.",
+      "technical_spec": "Edge computing with data centers across 200+ countries.",
       "severity_score": 10
     },
     {
-      "title": "Content Delivery Network",
-      "description": "Employs a CDN for faster content delivery worldwide.",
-      "technical_spec": "Geo-distributed CDN using edge caches to minimize latency.",
+      "title": "Load Balancing",
+      "description": "Dynamic load balancing to optimize resource use and ensure quick user response times.",
+      "technical_spec": "Automatic traffic distribution with failover mechanisms.",
+      "severity_score": 12
+    },
+    {
+      "title": "Decoupled Services",
+      "description": "Microservices architecture to allow individual components to update independently.",
+      "technical_spec": "Service-Oriented Architecture (SOA) with Kubernetes.",
       "severity_score": 15
     },
     {
-      "title": "Scalable Databases",
-      "description": "Uses distributed databases to handle massive amounts of data.",
-      "technical_spec": "Google Spanner and Bigtable for real-time data scalability.",
-      "severity_score": 25
+      "title": "Bigtable and Spanner",
+      "description": "Data storage solutions for handling massive amounts of structured data.",
+      "technical_spec": "Highly scalable NoSQL and NewSQL databases.",
+      "severity_score": 18
+    },
+    {
+      "title": "Cloud Computing",
+      "description": "Utilization of Google's own cloud infrastructure for moisture resource management.",
+      "technical_spec": "Google Cloud Platform with VMs, Kubernetes and App Engine.",
+      "severity_score": 13
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 169,
+    "rank": 179,
     "site": "instagram.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "d075a248468b91cf74d13044f13bdb90"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "2a5f4df03b99db736c466d809b0ec756"
   },
   "data": [
     {
-      "title": "Service-Oriented Architecture",
-      "description": "Instagram uses a microservices-based architecture to handle its vast number of users and features efficiently.",
-      "technical_spec": "Microservices communicate via RESTful APIs, leveraging containerization and orchestration tools like Kubernetes.",
-      "severity_score": 15
-    },
-    {
-      "title": "Scalable Data Storage",
-      "description": "Utilizes distributed databases to manage user data effectively and scale out with user growth.",
-      "technical_spec": "Employs storage solutions such as Cassandra and Elasticsearch for reliable and efficient data retrieval.",
-      "severity_score": 20
-    },
-    {
-      "title": "CDN for Content Delivery",
-      "description": "Content Delivery Networks are used to minimize latency and improve load times for images and videos.",
-      "technical_spec": "Global CDN providers cache content in strategically located data centers worldwide.",
+      "title": "Microservices",
+      "description": "Instagram uses a microservices architecture to scale and manage different features independently.",
+      "technical_spec": "Each feature such as messaging or image processing is a separate service.",
       "severity_score": 10
     },
     {
-      "title": "High Availability Systems",
-      "description": "Redundant systems and failover mechanisms ensure Instagram remains accessible despite server failures.",
-      "technical_spec": "Load balancers and automatic failover systems distribute traffic and manage server health.",
-      "severity_score": 30
+      "title": "Load Balancing",
+      "description": "Utilizes load balancers to ensure efficient traffic distribution across servers.",
+      "technical_spec": "Employs hardware and software load balancers to manage incoming user requests.",
+      "severity_score": 20
     },
     {
-      "title": "Asynchronous Processing",
-      "description": "Background job processing helps manage high-load tasks without affecting user interaction performance.",
-      "technical_spec": "Technologies like Celery or Amazon SQS handle asynchronous task queues.",
+      "title": "CDN Use",
+      "description": "Uses a Content Delivery Network to improve content delivery speeds worldwide.",
+      "technical_spec": "Caches static content close to end-users to reduce latency.",
+      "severity_score": 15
+    },
+    {
+      "title": "Sharded Database",
+      "description": "Employs sharded databases to manage and scale user data efficiently.",
+      "technical_spec": "Splits databases by user or feature to distribute load.",
       "severity_score": 25
+    },
+    {
+      "title": "RESTful API",
+      "description": "Exposes services through RESTful APIs for internal and external access.",
+      "technical_spec": "Stateless interactions with standard HTTP methods for CRUD operations.",
+      "severity_score": 10
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 168,
+    "rank": 178,
     "site": "adobe.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "b847ea029baa10848a3c9b0839b37d33"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "08855253b7026ca800a2c7f26cc7064c"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "The site is designed to minimize decision time by limiting choices on main pages.",
-      "technical_spec": "Simplified navigation bars and call-to-actions to reduce cognitive load.",
-      "severity_score": 40
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Interactive elements are optimized for target size and distance.",
-      "technical_spec": "Button sizes and spacing are adjusted for touch and cursor-based interaction.",
-      "severity_score": 25
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Content is structured in chunks to enhance comprehension.",
-      "technical_spec": "Content broken into sections with headings and subheadings.",
+      "title": "Hick’s Law",
+      "description": "The design limits choices to reduce user decision time, facilitating faster navigation.",
+      "technical_spec": "Simplified Menu Structures, Action Hierarchies",
       "severity_score": 20
     },
     {
-      "title": "Pareto Principle",
-      "description": "Focus on key features that bring the majority of user benefits.",
-      "technical_spec": "Prioritization of tools and features used most frequently.",
-      "severity_score": 35
+      "title": "Fitts’s Law",
+      "description": "UI elements are designed larger and closer to expected user focus areas for improved interaction speed.",
+      "technical_spec": "Button Sizes, Clickable Areas",
+      "severity_score": 15
     },
     {
-      "title": "Jakob's Law",
-      "description": "Design consistency across the platform for enhanced user familiarity.",
-      "technical_spec": "Adhering to common web conventions and navigation patterns.",
-      "severity_score": 30
+      "title": "Miller’s Law",
+      "description": "Content is broken down into manageable pieces, aiding memory retention and processing.",
+      "technical_spec": "Chunking of Information, Bullet Points",
+      "severity_score": 10
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Users are offered familiar navigation patterns to enhance intuitive interaction.",
+      "technical_spec": "Standard Navigation Bars, Conventional Layouts",
+      "severity_score": 15
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visual appeal is leveraged to enhance perceived usability and user satisfaction.",
+      "technical_spec": "High-Quality Images, Color Theming",
+      "severity_score": 10
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 169,
+    "rank": 179,
     "site": "instagram.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "cc179938a0a2545277152598b491e11f"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "7133b9096de7b3c1c02dc1fec10dc93d"
   },
   "data": [
     {
       "title": "Visual Storytelling",
-      "description": "Focus on visual content to connect users and foster community interaction.",
-      "technical_spec": "Features like Stories and Reels facilitate dynamic content sharing.",
-      "severity_score": 18
+      "description": "Core focus on visual content sharing through images and videos.",
+      "technical_spec": "Prioritizes photo filters, stories, and reels as main content types.",
+      "severity_score": 10
     },
     {
-      "title": "User-Centric Design",
-      "description": "Design driven by user needs to enhance engagement and satisfaction.",
-      "technical_spec": "Continuous user feedback and A/B testing inform UI/UX updates.",
+      "title": "Community Engagement",
+      "description": "Encourages user interaction and connection through features like comments and DMs.",
+      "technical_spec": "Algorithms prioritize content from known connections in the feed.",
       "severity_score": 20
     },
     {
-      "title": "Community-Focused Features",
-      "description": "Tools and features encourage user interaction and community building.",
-      "technical_spec": "Hashtags, groups, and live interactions boost community engagement.",
+      "title": "Innovation",
+      "description": "Continual introduction of new features to enhance user experience.",
+      "technical_spec": "Regular updates and rollouts of features like Reels and Shop.",
+      "severity_score": 15
+    },
+    {
+      "title": "Influencer Culture",
+      "description": "Stronghold in influencer marketing and brand collaborations.",
+      "technical_spec": "Supports brand partnerships with tools for sponsored content and shopping features.",
       "severity_score": 25
     },
     {
-      "title": "Brand Partnerships",
-      "description": "Integration with brands for marketing and promotional activities.",
-      "technical_spec": "Ad services enable influencers and companies to reach a broad audience.",
-      "severity_score": 30
-    },
-    {
-      "title": "Cultural Relevance",
-      "description": "Adapts to cultural trends and influences to maintain marketplace relevance.",
-      "technical_spec": "Localized content strategies and algorithm adjustments cater to diverse audiences.",
-      "severity_score": 22
+      "title": "Privacy Focus",
+      "description": "Emphasizes user data privacy and control over shared content.",
+      "technical_spec": "Clear privacy settings and user data management options.",
+      "severity_score": 5
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 164,
+    "rank": 174,
     "site": "microsoft.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "8b8fb66d9ac1ec940b4387ce7e0636af"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "507253dabc6c679e6517794dc0d256f1"
   },
   "data": [
     {
-      "title": "Innovative Solutions",
-      "description": "Emphasizes Microsoft’s commitment to pioneering technological advancements.",
-      "technical_spec": "Positioning around AI, cloud computing, and edge technologies.",
-      "severity_score": 5
+      "title": "Integration with Microsoft Ecosystem",
+      "description": "The site seamlessly integrates with existing Microsoft products and services, reinforcing ecosystem synergy.",
+      "technical_spec": "Single Sign-On (SSO) capabilities and cross-service data interoperability.",
+      "severity_score": 20
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focuses on creating user-first digital interactions.",
-      "technical_spec": "User testing and feedback loops ingrained in the design process.",
-      "severity_score": 15
-    },
-    {
-      "title": "Scalable Collaborations",
-      "description": "Highlights partnerships that extend Microsoft's ecosystem.",
-      "technical_spec": "Utilization of APIs and developer tools for integration.",
+      "title": "Accessibility Commitment",
+      "description": "Devotes significant resources to making content accessible to all users, including those with disabilities.",
+      "technical_spec": "Adheres to WCAG 2.1 standards and offers a range of accessibility tools.",
       "severity_score": 10
     },
     {
-      "title": "Commitment to Security",
-      "description": "Presents Microsoft’s robust cybersecurity initiatives.",
-      "technical_spec": "Communications around Azure Security and compliance offerings.",
-      "severity_score": 5
+      "title": "Innovation Leadership",
+      "description": "The brand DNA emphasizes continuous innovation with cutting-edge technology solutions.",
+      "technical_spec": "Incorporates AI and machine learning to enhance user engagement and solutions.",
+      "severity_score": 25
     },
     {
-      "title": "Sustainability Initiatives",
-      "description": "Showcases efforts towards reducing environmental impact.",
-      "technical_spec": "Marketing around Microsoft's carbon-negative pledge by 2030.",
-      "severity_score": 5
+      "title": "Security-Centric Philosophy",
+      "description": "Reinforces a security-first approach to all services and user interactions.",
+      "technical_spec": "Implemented through encryption and advanced compliance frameworks.",
+      "severity_score": 30
+    },
+    {
+      "title": "Sustainability Practices",
+      "description": "Focuses on environmentally sustainable practices throughout its operations.",
+      "technical_spec": "Pledges and progress towards carbon negative, water positive, and zero waste goals.",
+      "severity_score": 15
     }
   ]
 }

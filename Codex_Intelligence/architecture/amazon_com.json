@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 165,
+    "rank": 175,
     "site": "amazon.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "5b090c997fd51c8724b0fb2351f76521"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "741ac18dec24822d9233f3f14d63f0f8"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Amazon uses a microservices architecture that enables independent service deployment and scaling.",
-      "technical_spec": "Decoupled services designed using REST APIs, often with support for GraphQL for data retrieval.",
-      "severity_score": 5
-    },
-    {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Amazon's infrastructure is heavily reliant on AWS cloud services, providing scalability and flexibility.",
-      "technical_spec": "Utilizes AWS services like EC2, S3, Lambda, and RDS for computing, storage, and serverless operations.",
+      "title": "Microservices",
+      "description": "Amazon leverages a microservices architecture for scalability and flexibility, enabling independent deployment and development of services.",
+      "technical_spec": "Containers, AWS Lambda, API Gateway",
       "severity_score": 10
     },
     {
-      "title": "Highly Distributed Systems",
-      "description": "Amazon's backend is a highly distributed system to ensure resilience and high availability.",
-      "technical_spec": "Load balancers, caching layers with Amazon ElastiCache and CDN with CloudFront for distribution.",
+      "title": "Scalable Databases",
+      "description": "Uses a combination of databases to optimize for different use cases, including relational and NoSQL databases.",
+      "technical_spec": "Amazon RDS, DynamoDB",
       "severity_score": 15
     },
     {
-      "title": "Service Oriented Architecture (SOA)",
-      "description": "Adopts SOA to form a complex network of services that communicate over a network.",
-      "technical_spec": "Services communicate via RPC and messaging protocols such as Amazon SQS and SNS.",
-      "severity_score": 8
+      "title": "Content Delivery Network",
+      "description": "Utilizes a CDN to accelerate website content delivery and improve user experience.",
+      "technical_spec": "Amazon CloudFront",
+      "severity_score": 20
     },
     {
-      "title": "Real-Time Data Processing",
-      "description": "Processes vast amounts of data in real-time to provide recommendations and pricing updates.",
-      "technical_spec": "Leverages AWS Kinesis and Apache Kafka for data streaming and processing.",
-      "severity_score": 20
+      "title": "Edge Computing",
+      "description": "Amazon incorporates edge computing to process data closer to the user for improved application performance.",
+      "technical_spec": "AWS Greengrass, AWS IoT",
+      "severity_score": 25
+    },
+    {
+      "title": "Redundancy and Backup",
+      "description": "Employs redundancy across multiple availability zones to ensure high availability and data integrity.",
+      "technical_spec": "Multi-AZ deployments, AWS Backup",
+      "severity_score": 5
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 166,
+    "rank": 176,
     "site": "netflix.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "28fb9fbecba172e14edd4a75df20c90c"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "41959e608f6c8495f3ebbee3e9f62cb8"
   },
   "data": [
     {
-      "title": "Innovative Content",
-      "description": "Continuous investment in original and diverse content production.",
-      "technical_spec": "Production of exclusive series, films, and documentaries across genres and cultures.",
+      "title": "Innovation and Creativity",
+      "description": "Focusing on innovative approaches to entertainment.",
+      "technical_spec": "Original content production and technological advancements.",
       "severity_score": 5
     },
     {
-      "title": "User Personalization",
-      "description": "Highly personalized user experiences based on viewing habits and preferences.",
-      "technical_spec": "Advanced recommendation algorithms powered by machine learning models.",
-      "severity_score": 6
+      "title": "Global Accessibility",
+      "description": "Reaching a global audience through diverse content.",
+      "technical_spec": "Localization support for multiple languages and cultures.",
+      "severity_score": 10
     },
     {
-      "title": "Global Reach",
-      "description": "Available in multiple languages and countries to engage a broad audience.",
-      "technical_spec": "Localization and adaptation of content interfaces for regional audiences.",
+      "title": "User-First Experience",
+      "description": "Prioritizing a seamless and enjoyable user experience.",
+      "technical_spec": "Data-driven personalization and user-friendly interfaces.",
+      "severity_score": 15
+    },
+    {
+      "title": "Data-Driven Decisions",
+      "description": "Utilizing big data to inform strategic decisions.",
+      "technical_spec": "Advanced data analytics infrastructure for content and user insights.",
+      "severity_score": 10
+    },
+    {
+      "title": "Commitment to Quality",
+      "description": "Providing high-quality content and streaming capabilities.",
+      "technical_spec": "Investment in high-definition content and adaptive streaming technology.",
       "severity_score": 5
-    },
-    {
-      "title": "Brand Recognition",
-      "description": "Strong, recognizable brand identity maintained through consistent messaging and visuals.",
-      "technical_spec": "Global marketing campaigns and strategic partnerships to enhance brand visibility.",
-      "severity_score": 7
-    },
-    {
-      "title": "Cutting-Edge Technology",
-      "description": "Commitment to using the latest in technology and innovation to enhance the streaming experience.",
-      "technical_spec": "Investment in R&D for streaming quality improvements, adaptive streaming, and more.",
-      "severity_score": 6
     }
   ]
 }

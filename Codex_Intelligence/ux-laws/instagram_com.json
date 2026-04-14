@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 169,
+    "rank": 179,
     "site": "instagram.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "da5fa2bab4a2b5c6e65b3a77d964df3c"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "c92f503f29847adae624689f5be1fa2d"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Design elements are optimized for ease of access and interaction speed.",
-      "technical_spec": "Interactive elements like buttons are positioned to reduce cursor travel time.",
+      "title": "Hick's Law",
+      "description": "Minimizes user decision time by reducing options on the interface.",
+      "technical_spec": "Focus on simplicity and hiding complex features until needed.",
       "severity_score": 10
     },
     {
-      "title": "Hick’s Law",
-      "description": "Streamlined interface design helps minimize user decision time by limiting choices.",
-      "technical_spec": "User feeds are personalized to show the most relevant content using AI-driven algorithms.",
+      "title": "Fitts's Law",
+      "description": "Optimizes interface design to require minimal movement for user actions.",
+      "technical_spec": "Placement of interactive elements within easy reach for frequent actions.",
       "severity_score": 20
     },
     {
-      "title": "Miller’s Law",
-      "description": "Content is organized to enhance cognitive processing by limiting visible information.",
-      "technical_spec": "Cap on visible notifications and post previews to prevent information overload.",
-      "severity_score": 15
-    },
-    {
-      "title": "Zeigarnik Effect",
-      "description": "Encourages users to complete incomplete tasks within the application.",
-      "technical_spec": "UI prompts and notifications draw attention to unfinished activities or messages.",
-      "severity_score": 25
-    },
-    {
       "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing designs are perceived as easier to use.",
-      "technical_spec": "High-resolution images and intuitive icons improve the visual appeal and usability.",
+      "description": "Emphasizes appealing visual design to improve perceived usability.",
+      "technical_spec": "Consistent color scheme and typography across the app.",
       "severity_score": 15
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Maintains behavioral consistency with common app designs to reduce learning curve.",
+      "technical_spec": "Adopts UI patterns familiar to social media users.",
+      "severity_score": 10
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Groups related items together on the interface for better cognitive understanding.",
+      "technical_spec": "Utilizes spacing and layout to enhance content relationships.",
+      "severity_score": 10
     }
   ]
 }

@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 163,
+    "rank": 173,
     "site": "apple.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "ce9a7303576370313ef40ed187c938de"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "7b904533c7bef6336ad7a1dfa5e00192"
   },
   "data": [
     {
-      "title": "Scalable Infrastructure",
-      "description": "Apple's website uses a globally distributed infrastructure to ensure high availability and performance.",
-      "technical_spec": "Content Delivery Network (CDN), Load Balancing, Cloud-based Servers",
+      "title": "Microservice Design",
+      "description": "Apple.com uses microservices architecture to handle various services like store, support, and media content.",
+      "technical_spec": "Services are designed to be independent and scalable, using containerization and orchestration technologies.",
       "severity_score": 85
     },
     {
-      "title": "Responsive Design",
-      "description": "The site is optimized to ensure compatibility and usability across various devices and screen sizes.",
-      "technical_spec": "HTML5, CSS3, Media Queries",
+      "title": "Cloud Integration",
+      "description": "Website backend is heavily integrated with cloud services for efficient load balancing and data distribution.",
+      "technical_spec": "Utilizes cloud providers for CDN and redundant server systems to ensure high availability.",
       "severity_score": 90
     },
     {
-      "title": "Progressive Web Applications (PWA)",
-      "description": "Utilizes PWA features to enhance the web experience akin to native apps.",
-      "technical_spec": "Service Workers, Responsive, App Shell Model",
-      "severity_score": 75
-    },
-    {
-      "title": "API-Driven Content Management",
-      "description": "Leverages APIs for dynamic content delivery and seamless integration across platforms.",
-      "technical_spec": "RESTful API, GraphQL",
+      "title": "API-led Connectivity",
+      "description": "APIs are extensively used to provide seamless interaction between different parts of the site and other external Apple services.",
+      "technical_spec": "RESTful and GraphQL APIs employed for inter-service communication.",
       "severity_score": 80
     },
     {
-      "title": "High-Performance Web Standards",
-      "description": "Employs modern web standards to optimize loading times and site performance.",
-      "technical_spec": "HTTP/2, JavaScript optimization, Image compression",
+      "title": "Database Management",
+      "description": "Uses multiple databases for managing user data, product information and transactional services.",
+      "technical_spec": "Combination of SQL and NoSQL databases to optimize for read and write operations.",
+      "severity_score": 88
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Ensures compatibility and optimal usability across a wide range of devices and screen sizes.",
+      "technical_spec": "Uses frameworks like Bootstrap to implement flexible grids and media queries.",
       "severity_score": 90
     }
   ]

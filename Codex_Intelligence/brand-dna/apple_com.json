@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 163,
+    "rank": 173,
     "site": "apple.com",
-    "date": "2026-04-14 21:43",
-    "integrity_hash": "c8e15598af465fd2d083a601e34c945b"
+    "date": "2026-04-14 22:37",
+    "integrity_hash": "fb14f695aa03c02a46ce6644f0a242a8"
   },
   "data": [
     {
-      "title": "Premium Experience",
-      "description": "Reinforces the Apple brand as a provider of high-quality, premium devices and services.",
-      "technical_spec": "Sleek Design, Seamless Functionality",
+      "title": "Innovation",
+      "description": "Strong focus on groundbreaking and novel design approaches across the website.",
+      "technical_spec": "Implementation of cutting-edge web technologies and intuitive user interfaces.",
       "severity_score": 95
     },
     {
-      "title": "Innovative Edge",
-      "description": "Focuses on innovation and cutting-edge technology in product offerings.",
-      "technical_spec": "Interactive Features, State-of-the-Art Animation",
-      "severity_score": 90
+      "title": "Simplicity",
+      "description": "Promotes ease of use and accessibility by removing unnecessary complexity in navigation.",
+      "technical_spec": "Clear and straightforward visual language, aligning with Apple's brand ethos.",
+      "severity_score": 92
     },
     {
-      "title": "User-Centric Design",
-      "description": "Committed to intuitive and user-friendly design across all platforms.",
-      "technical_spec": "Usability Testing, User Feedback Loops",
-      "severity_score": 89
-    },
-    {
-      "title": "Consistency Across Ecosystem",
-      "description": "Ensures a cohesive experience across all Apple devices and services.",
-      "technical_spec": "Unified Design Language, Ecosystem Integration",
+      "title": "Quality",
+      "description": "High quality standards are maintained in terms of content, imagery, and interaction.",
+      "technical_spec": "Regular updates and optimizations to keep the site performance in top condition.",
       "severity_score": 93
     },
     {
-      "title": "Privacy First",
-      "description": "Builds trust through transparent privacy policies and robust security measures.",
-      "technical_spec": "User Data Policies, Privacy-by-Design Principles",
-      "severity_score": 88
+      "title": "Privacy",
+      "description": "Commitment to user data protection and transparency in data usage policies.",
+      "technical_spec": "Comprehensive privacy policies are clearly communicated and designed into services.",
+      "severity_score": 94
+    },
+    {
+      "title": "Exclusivity",
+      "description": "Designs and content that reflect premium positioning, creating a sense of exclusiveness.",
+      "technical_spec": "Unique branding elements and proprietary design styled throughout.",
+      "severity_score": 90
     }
   ]
 }
