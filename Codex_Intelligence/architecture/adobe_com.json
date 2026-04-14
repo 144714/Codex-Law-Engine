@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 88,
+    "rank": 98,
     "site": "adobe.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "690340020000590a88a093a848e95a70"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "f770275d761207493c11cd7ed3e308bf"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Adobe utilizes a microservices architecture to manage its complex suite of applications, allowing for modular and scalable design.",
-      "technical_spec": "Docker, Kubernetes, API Gateway",
-      "severity_score": 20
+      "description": "The website uses a microservices architecture to deploy independent services.",
+      "technical_spec": "Docker, Kubernetes, RESTful APIs",
+      "severity_score": 10
     },
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Adobe's infrastructure is heavily reliant on cloud services, providing flexibility and redundancy.",
-      "technical_spec": "AWS, Azure, Adobe Cloud Platform",
+      "title": "Load Balancing",
+      "description": "Implementation of load balancers to handle incoming traffic efficiently.",
+      "technical_spec": "AWS Elastic Load Balancer, Nginx",
       "severity_score": 15
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "To efficiently deliver content globally, Adobe uses a robust CDN.",
+      "description": "Global CDN employed to reduce latency and ensure fast content delivery.",
       "technical_spec": "Akamai, Cloudflare",
-      "severity_score": 10
+      "severity_score": 5
     },
     {
-      "title": "Multi-Tier Security Architecture",
-      "description": "The architecture involves layers of defense including firewalls, intrusion detection systems, and data encryption.",
-      "technical_spec": "Palo Alto Networks, SSL/TLS",
-      "severity_score": 30
+      "title": "Server-Side Rendering (SSR)",
+      "description": "Adoption of SSR for improved performance and SEO.",
+      "technical_spec": "Next.js, Node.js",
+      "severity_score": 20
     },
     {
-      "title": "API-First Design",
-      "description": "Adobe services are designed with an API-first approach to ensure seamless integration and interoperability.",
-      "technical_spec": "REST, GraphQL",
+      "title": "Scalable Databases",
+      "description": "Deployment of scalable databases to manage vast amounts of data.",
+      "technical_spec": "Amazon RDS, MongoDB",
       "severity_score": 25
     }
   ]

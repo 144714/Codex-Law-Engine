@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 86,
+    "rank": 96,
     "site": "netflix.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "4d9074bf0d860db262486ce9254a5553"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "7428dc9af49b93e33d77aabfb23ebb54"
   },
   "data": [
     {
-      "title": "Original Content Strategy",
-      "description": "Investment in producing original content to enhance brand uniqueness.",
-      "technical_spec": "In-house production studios and strategic partnerships drive content creation.",
-      "severity_score": 10
+      "title": "Original Content Production",
+      "description": "A leading force in producing original shows and movies that define brand appeal.",
+      "technical_spec": "Large-scale production facilities and partnerships with renowned creators.",
+      "severity_score": 50
     },
     {
-      "title": "Global Expansion Focus",
-      "description": "Commitment to expanding availability and accessibility worldwide.",
-      "technical_spec": "Localized interfaces and content cater to diverse regional audiences.",
-      "severity_score": 8
+      "title": "Global Reach and Localization",
+      "description": "Adaptation of user experience and content to suit different regions and languages.",
+      "technical_spec": "Localized subtitles, dubbing, and region-specific content libraries.",
+      "severity_score": 40
     },
     {
-      "title": "Premium User Experience",
-      "description": "Prioritization of seamless streaming and intuitive interfaces.",
-      "technical_spec": "Continuous performance optimizations and UX improvements.",
-      "severity_score": 12
+      "title": "User-Centric Innovation",
+      "description": "Develops features that enhance user convenience and engagement.",
+      "technical_spec": "Constantly updated UI/UX driven by A/B testing and user feedback.",
+      "severity_score": 35
     },
     {
-      "title": "Consumer-Centric Innovation",
-      "description": "Designing services and features based on user feedback and needs.",
-      "technical_spec": "Research and development centered around consumer behavior studies.",
-      "severity_score": 14
+      "title": "Data-Driven Personalization",
+      "description": "Customized viewing experience through advanced recommendation algorithms.",
+      "technical_spec": "Leveraging complex analytics to match content with user preferences.",
+      "severity_score": 45
     },
     {
-      "title": "Influential Digital Marketing",
-      "description": "Utilizes data-driven marketing strategies to engage with audiences.",
-      "technical_spec": "Employment of analytics to optimize campaign efficiency and reach.",
-      "severity_score": 16
+      "title": "Streaming Technology Leadership",
+      "description": "Pioneering technology that sets industry standards for online video streaming.",
+      "technical_spec": "Innovations in adaptive streaming and video codec optimizations.",
+      "severity_score": 55
     }
   ]
 }

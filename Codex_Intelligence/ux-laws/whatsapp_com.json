@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 90,
+    "rank": 100,
     "site": "whatsapp.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "b5f6f10f271831743ebf2c808aaa8f06"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "d7ed587d5dbe3ecf30debe3448b93a98"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Streamlines interactions by placing frequently used buttons within easy reach.",
-      "technical_spec": "Consistent button placement and size across devices.",
-      "severity_score": 10
+      "title": "Hick's Law",
+      "description": "Simplified decision-making process reduces user reaction time.",
+      "technical_spec": "Intuitive and minimalistic interface design.",
+      "severity_score": 2
     },
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies decision-making by reducing choice complexity.",
-      "technical_spec": "Minimalistic UI design to enhance decision-making processes.",
-      "severity_score": 15
+      "title": "Fitts's Law",
+      "description": "Button size and spacing optimized for touch devices.",
+      "technical_spec": "Larger tappable areas for frequent actions.",
+      "severity_score": 3
     },
     {
-      "title": "Miller’s Law",
-      "description": "Design accommodates the average user’s memory capacity.",
-      "technical_spec": "Chunking of information to enhance memorability and accessibility.",
-      "severity_score": 20
+      "title": "Law of Proximity",
+      "description": "Grouping related items to aid user experience.",
+      "technical_spec": "Logical grouping within chat lists and settings.",
+      "severity_score": 4
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Leverages familiar design patterns to enhance user adaptability.",
-      "technical_spec": "Consistent UI paradigms across similar apps to reduce learning curves.",
-      "severity_score": 18
+      "title": "Miller's Law",
+      "description": "Limits on-screen information to user memory capacity.",
+      "technical_spec": "Simple menus with quick access to critical features.",
+      "severity_score": 2
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Elevates perceived ease of use through visually pleasing interfaces.",
-      "technical_spec": "Adaptable design systems with aesthetically pleasing color palettes.",
-      "severity_score": 12
+      "title": "Law of Similarity",
+      "description": "Consistent design elements for better user recognition.",
+      "technical_spec": "Use of familiar icons and consistent color schemes.",
+      "severity_score": 5
     }
   ]
 }

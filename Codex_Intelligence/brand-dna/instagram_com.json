@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 89,
+    "rank": 99,
     "site": "instagram.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "5a7f5013751629a331beec86f264367e"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "1b89d70689128ff5549e3deb69393c6f"
   },
   "data": [
     {
       "title": "Visual Storytelling",
-      "description": "Emphasizes high-quality, visually driven content sharing to connect users globally.",
-      "technical_spec": "High-resolution image support, varied content formats",
-      "severity_score": 95
+      "description": "Central focus on image and video sharing platforms to tell personal and brand stories.",
+      "technical_spec": "Features like Stories, Reels, and IGTV focus on visual content.",
+      "severity_score": 5
     },
     {
       "title": "Community Engagement",
-      "description": "Fosters active community interaction and user-driven content promotion.",
-      "technical_spec": "Interactive features, comment and like systems",
-      "severity_score": 90
+      "description": "Built to foster connectivity and interaction among individual users and communities.",
+      "technical_spec": "Tools for comments, direct messages, hashtags, and live interactions.",
+      "severity_score": 10
     },
     {
-      "title": "Innovation in Social Media",
-      "description": "Pioneering new formats and methods for content sharing and engagement.",
-      "technical_spec": "Reels, Stories, Collaborative Posts",
-      "severity_score": 92
+      "title": "Influencer and Brand Collaboration",
+      "description": "Hub for influencer marketing and brand partnerships to reach larger audiences.",
+      "technical_spec": "Supports features for branded content, shopping, and partnerships.",
+      "severity_score": 8
     },
     {
-      "title": "Mobile-First Approach",
-      "description": "Prioritizes mobile experience and accessibility, catering to smartphone users.",
-      "technical_spec": "Responsive design, mobile app optimization",
-      "severity_score": 85
+      "title": "Youth-Centric Design",
+      "description": "Marketing and design strategies focus on engaging the younger demographic.",
+      "technical_spec": "Trendy features, emphasis on visual aesthetics, and real-time engagement tools.",
+      "severity_score": 12
     },
     {
-      "title": "Secure User Experience",
-      "description": "Combines security with ease of use to ensure a trustworthy platform.",
-      "technical_spec": "Privacy controls, straightforward security settings",
-      "severity_score": 88
+      "title": "Constant Evolution",
+      "description": "Regular updates and feature additions to keep the user experience fresh and innovative.",
+      "technical_spec": "Frequent app updates and beta testing of new features like AR filters or AI-driven curation.",
+      "severity_score": 15
     }
   ]
 }

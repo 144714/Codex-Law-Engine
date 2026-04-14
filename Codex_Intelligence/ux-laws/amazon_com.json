@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 85,
+    "rank": 95,
     "site": "amazon.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "69301e001690152a1eb31dcdae547f66"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "5dbca22e715ca8dec5b7c3ab7822a7a9"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplified user decision-making by reducing the number of choices at checkout.",
-      "technical_spec": "Streamlined checkout process with prominently featured options.",
+      "title": "Hick's Law",
+      "description": "Simplifies user choice by limiting options to enhance decision-making speed.",
+      "technical_spec": "Design Simplicity, Categorization, Search Filters",
+      "severity_score": 10
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "Ensures that clickable areas are large and easy to access, enhancing usability.",
+      "technical_spec": "Button Size, Interactive Elements Placement",
+      "severity_score": 5
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Applies principles such as proximity and similarity to create a cohesive interaction pattern.",
+      "technical_spec": "Responsive Design, Grouped Elements",
       "severity_score": 15
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizes the placement of action buttons to enhance usability and accessibility.",
-      "technical_spec": "Prominent positioning and sizing of purchase and navigation buttons.",
+      "title": "Miller's Law",
+      "description": "Limits the amount of information displayed at once to prevent cognitive overload.",
+      "technical_spec": "Progressive Disclosure, Information Hierarchy",
       "severity_score": 20
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Consistent user experiences across devices and platforms.",
-      "technical_spec": "Unified design language and responsive design for multi-platform support.",
-      "severity_score": 25
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Breaks information into chunks to avoid cognitive overload.",
-      "technical_spec": "Categorical product listings with grouping of similar items.",
-      "severity_score": 30
-    },
-    {
-      "title": "Tesler’s Law",
-      "description": "Complex processes are abstracted for ease of use.",
-      "technical_spec": "Automated suggestions and personalization algorithms.",
-      "severity_score": 35
+      "title": "Jakob's Law",
+      "description": "Aligns user experience with familiar paths to enhance user expectations and ease of use.",
+      "technical_spec": "Consistent Navigation, Familiar UI Patterns",
+      "severity_score": 10
     }
   ]
 }

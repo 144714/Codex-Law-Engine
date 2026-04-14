@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 89,
+    "rank": 99,
     "site": "instagram.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "e5f0d2f8b74d77e1bc2671553e60d020"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "a73f3f8fc339b544d72c2a3253732a41"
   },
   "data": [
     {
       "title": "Two-Factor Authentication",
-      "description": "Enhanced login security through two-factor authentication systems.",
-      "technical_spec": "TOTP, SMS-based verification",
-      "severity_score": 85
+      "description": "Provides additional security layer to prevent unauthorized account access.",
+      "technical_spec": "Offers SMS-based or app-based two-factor authentication options.",
+      "severity_score": 60
     },
     {
-      "title": "Encryption Protocols",
-      "description": "Strong encryption protects user data and communications.",
-      "technical_spec": "TLS/SSL, End-to-End Encryption",
-      "severity_score": 90
-    },
-    {
-      "title": "Account Recovery Protocols",
-      "description": "Processes in place for securing and recovering compromised accounts.",
-      "technical_spec": "Account recovery via email/SMS",
-      "severity_score": 80
-    },
-    {
-      "title": "Bot Detection and Mitigation",
-      "description": "Tools and protocols to identify and restrict bot activity on the platform.",
-      "technical_spec": "Machine learning algorithms",
+      "title": "End-to-End Encryption",
+      "description": "Encryption protocols are used to protect data and communications on the platform.",
+      "technical_spec": "Implements encryption both in REST and transit for sensitive data.",
       "severity_score": 75
     },
     {
-      "title": "Vulnerability Scanning and Patching",
-      "description": "Regular scanning and patching of security vulnerabilities.",
-      "technical_spec": "Nessus, Rapid7",
-      "severity_score": 95
+      "title": "Account Recovery Features",
+      "description": "Various mechanisms are in place for recovering lost or compromised accounts.",
+      "technical_spec": "Includes identity verification and multiple account recovery channels.",
+      "severity_score": 50
+    },
+    {
+      "title": "Bug Bounty Program",
+      "description": "Incentivizes security researchers to report vulnerabilities and improve platform security.",
+      "technical_spec": "Rewards program active for ethical hackers to find and report security flaws.",
+      "severity_score": 40
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts periodic audits to assess security posture and mitigate risks.",
+      "technical_spec": "Internal and third-party security audits, including penetration testing.",
+      "severity_score": 55
     }
   ]
 }

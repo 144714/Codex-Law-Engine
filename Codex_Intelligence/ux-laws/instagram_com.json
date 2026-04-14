@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 89,
+    "rank": 99,
     "site": "instagram.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "b70dde911a1c6d4b50e6e90f70d19f9e"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "fa0231b9e2a828557e18fe8985aeedcd"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "User decision time is minimized by reducing the number of choices on interfaces.",
-      "technical_spec": "Streamlined UI, minimal design",
-      "severity_score": 70
+      "title": "Hick’s Law",
+      "description": "Simplifies user choices to reduce decision time and enhance navigation.",
+      "technical_spec": "Limits the number of visible choices in navigation and settings.",
+      "severity_score": 10
     },
     {
-      "title": "Fitts's Law",
-      "description": "Design influences cursor movement efficiency, optimizing target size and distance.",
-      "technical_spec": "Button size proportionality, accessible targets",
-      "severity_score": 65
+      "title": "Fitts’ Law",
+      "description": "Strategically optimizes button size and placement for ease of access and interaction.",
+      "technical_spec": "Prominent, easily accessible buttons for main actions (like, comment, post).",
+      "severity_score": 5
     },
     {
-      "title": "Jakob's Law",
-      "description": "Interfaces are designed based on users’ familiar patterns from other applications.",
-      "technical_spec": "Intuitive layout, consistent design paradigms",
-      "severity_score": 75
+      "title": "Miller’s Law",
+      "description": "Adheres to cognitive chunking to improve information processing.",
+      "technical_spec": "Groups related content chunks to enhance user comprehension and retention.",
+      "severity_score": 8
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Aesthetic design promoting usability perceptions and user confidence.",
-      "technical_spec": "Pleasing color scheme, consistent theme",
-      "severity_score": 85
+      "description": "Design focuses on aesthetic appeal which fosters a perception of ease-of-use.",
+      "technical_spec": "High-quality images, smooth transitions, and rich content presentation.",
+      "severity_score": 12
     },
     {
-      "title": "Law of Proximity",
-      "description": "Elements that are close to each other are perceived as more related than those spaced apart.",
-      "technical_spec": "Logical grouping of icons and menu items",
-      "severity_score": 80
+      "title": "Serial Position Effect",
+      "description": "Designs prioritize important elements in strategic screen positions to improve recall.",
+      "technical_spec": "Critical features and calls-to-action placed at the beginning or end of lists.",
+      "severity_score": 10
     }
   ]
 }

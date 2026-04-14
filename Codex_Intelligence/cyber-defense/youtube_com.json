@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 82,
+    "rank": 92,
     "site": "youtube.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "4ba0c9a6e88afff325506f4ae27f7f03"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "b2c81f73cf3dd7bd689c6f275629ddd8"
   },
   "data": [
     {
-      "title": "DDoS Mitigation Strategies",
-      "description": "Implement robust DDoS mitigation strategies to protect against traffic flooding attacks.",
-      "technical_spec": "Utilize redundant network architectures and specialized DDoS protection services like Cloudflare or AWS Shield.",
-      "severity_score": 92
+      "title": "Data Encryption",
+      "description": "Implements encryption for data in transit and at rest to protect user data.",
+      "technical_spec": "Uses TLS for data in transit; AES for encrypted storage.",
+      "severity_score": 5
     },
     {
-      "title": "Data Encryption and Integrity",
-      "description": "Ensure all data, both in transit and at rest, is encrypted to maintain user privacy and data integrity.",
-      "technical_spec": "Implement TLS for data in transit and use AES-256 for data at rest encryption.",
-      "severity_score": 88
+      "title": "Secure Access Protocols",
+      "description": "Employs secure protocols to ensure that data access remains confidential and authenticated.",
+      "technical_spec": "OAuth 2.0 for third-party application access.",
+      "severity_score": 8
     },
     {
-      "title": "User Authentication and Authorization",
-      "description": "Strengthen user identity verification to prevent unauthorized access.",
-      "technical_spec": "Integrate OAuth2 and multi-factor authentication (MFA) mechanisms.",
-      "severity_score": 85
+      "title": "DDoS Protection",
+      "description": "Deploys infrastructure capable of mitigating Distributed Denial of Service attacks.",
+      "technical_spec": "Integrates Google Cloud's DDoS mitigation systems.",
+      "severity_score": 12
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conduct regular security audits and penetration testing to identify and patch vulnerabilities.",
-      "technical_spec": "Engage third-party security agencies for comprehensive penetration tests and audits.",
-      "severity_score": 87
+      "title": "User Privacy Controls",
+      "description": "Provides users with tools to manage privacy settings and content visibility.",
+      "technical_spec": "Continually updated privacy dashboard for user control.",
+      "severity_score": 7
     },
     {
-      "title": "Content Moderation Systems",
-      "description": "Enhance content moderation to prevent harmful and illegal content dissemination.",
-      "technical_spec": "Leverage machine learning algorithms for automated moderation with human oversight.",
-      "severity_score": 80
+      "title": "Malware and Content Filtering",
+      "description": "Utilizes filters to detect and block harmful content and malware.",
+      "technical_spec": "Automated systems with machine learning algorithms for content filtering.",
+      "severity_score": 10
     }
   ]
 }

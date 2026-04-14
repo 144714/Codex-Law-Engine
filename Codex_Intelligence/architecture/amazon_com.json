@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 85,
+    "rank": 95,
     "site": "amazon.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "217e07d0ae9b8e398b581e70e3b309f1"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "56d84f160296abe6f67fb04f3da4530c"
   },
   "data": [
     {
-      "title": "Microservices Design",
-      "description": "Amazon's architecture is built on a microservices design, enhancing scalability and reliability.",
-      "technical_spec": "Loosely coupled services communicating over RESTful APIs.",
-      "severity_score": 15
-    },
-    {
-      "title": "Cloud Storage",
-      "description": "Utilizes cloud-based storage solutions to manage data across distributed systems.",
-      "technical_spec": "AWS S3 for scalable data storage and retrieval.",
+      "title": "Microservices Architecture",
+      "description": "Amazon operates on a microservices architecture enabling scalability and independent service deployment.",
+      "technical_spec": "Docker, Kubernetes, API Gateway, Service Mesh",
       "severity_score": 10
     },
     {
-      "title": "Load Balancing",
-      "description": "Implements advanced load balancing to process millions of transactions per second.",
-      "technical_spec": "Utilizes AWS Application Load Balancers and Elastic Load Balancing services.",
+      "title": "Federated Data System",
+      "description": "Data is distributed across various services to ensure high availability and fault tolerance.",
+      "technical_spec": "NoSQL Databases, Data Sharding, S3 Storage",
+      "severity_score": 15
+    },
+    {
+      "title": "Scalable Cloud Infrastructure",
+      "description": "Built on AWS infrastructure for elastic scaling and avoiding downtime.",
+      "technical_spec": "EC2, Auto Scaling Groups, Elastic Load Balancers",
+      "severity_score": 5
+    },
+    {
+      "title": "Continuous Deployment",
+      "description": "Utilizes CI/CD pipelines for seamless deployment of services.",
+      "technical_spec": "Jenkins, CodePipeline, CodeDeploy",
+      "severity_score": 10
+    },
+    {
+      "title": "Event-Driven Architecture",
+      "description": "Events trigger specific actions across the architecture to ensure real-time data processing.",
+      "technical_spec": "Kafka, AWS Lambda, EventBridge",
       "severity_score": 20
-    },
-    {
-      "title": "Content Delivery Network",
-      "description": "Amazon CloudFront is used to deliver content with low latency.",
-      "technical_spec": "Global edge locations for caching and accelerating static and dynamic content.",
-      "severity_score": 35
-    },
-    {
-      "title": "Database Solutions",
-      "description": "Relies on both SQL and NoSQL databases for diverse data needs.",
-      "technical_spec": "Amazon RDS for relational data; DynamoDB for key-value storage.",
-      "severity_score": 25
     }
   ]
 }

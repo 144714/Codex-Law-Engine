@@ -1,40 +1,60 @@
 {
   "meta": {
-    "rank": 83,
+    "rank": 93,
     "site": "apple.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "3be0ef9bc6732a9a6dca92b2e955aab8"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "7f00c21186bba70fa61469c6089debd6"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Continually pushing technological boundaries.",
-      "technical_spec": "Cutting-edge technology, research and development focus, forward-thinking design.",
-      "severity_score": 20
+      "title": "Elegance and Simplicity",
+      "description": "Focus on creating elegant and simple designs for hardware and software.",
+      "technical_spec": [
+        "Minimalistic design",
+        "Intuitive interfaces",
+        "Clean lines"
+      ],
+      "severity_score": 95
     },
     {
-      "title": "Quality",
-      "description": "High standards in product development and user experience.",
-      "technical_spec": "Rigorous testing, premium materials, attention to detail.",
-      "severity_score": 15
+      "title": "Seamless Ecosystem",
+      "description": "Provides a seamlessly interconnected ecosystem between its software and hardware products.",
+      "technical_spec": [
+        "Inter-device connectivity",
+        "iCloud integration",
+        "Handoff features"
+      ],
+      "severity_score": 90
     },
     {
-      "title": "Simplicity",
-      "description": "Focus on making products that are easy to use and understand.",
-      "technical_spec": "Minimalist design, intuitive interfaces, streamlined features.",
-      "severity_score": 10
+      "title": "Privacy and Security",
+      "description": "Upholds strong privacy policies and security standards to protect user data.",
+      "technical_spec": [
+        "End-to-end encryption",
+        "Transparency reports",
+        "User data anonymization"
+      ],
+      "severity_score": 92
     },
     {
-      "title": "Customer-Focused",
-      "description": "Prioritizing user satisfaction and support.",
-      "technical_spec": "Comprehensive user support, community engagement, user feedback loops.",
-      "severity_score": 12
+      "title": "Innovative Technology",
+      "description": "Commitment to pioneering new technologies and setting industry standards.",
+      "technical_spec": [
+        "R&D investment",
+        "Patented technologies",
+        "Cutting-edge hardware"
+      ],
+      "severity_score": 88
     },
     {
-      "title": "Sustainability",
-      "description": "Commitment to environmental responsibility and sustainable practices.",
-      "technical_spec": "Recyclable materials, renewable energy use, carbon footprint reduction.",
-      "severity_score": 15
+      "title": "User-Centric Design",
+      "description": "Designs products and services with a strong emphasis on user experience.",
+      "technical_spec": [
+        "Usability testing",
+        "User feedback loops",
+        "Human-centered design"
+      ],
+      "severity_score": 85
     }
   ]
 }

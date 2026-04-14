@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 90,
+    "rank": 100,
     "site": "whatsapp.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "7cd7710ece66cba6f6d28052b1a577c0"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "16314fea1ae66e7ed4e04607a91b9a20"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Protects user data using advanced encryption.",
-      "technical_spec": "AES-256, SHA-256 for hashing, and Diffie-Hellman for key exchange.",
+      "title": "Two-Factor Authentication",
+      "description": "Additional layer of security for user accounts.",
+      "technical_spec": "OTP via SMS or authenticator apps.",
+      "severity_score": 5
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Frequent assessments to identify vulnerabilities.",
+      "technical_spec": "Periodic penetration testing and code reviews.",
       "severity_score": 15
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Enhances user account security via an additional factor of authentication.",
-      "technical_spec": "Option for SMS or authentication apps.",
-      "severity_score": 25
+      "title": "Data Encryption at Rest and in Transit",
+      "description": "Protection of user data both at rest and during transmission.",
+      "technical_spec": "AES-256 and TLS encryption standards.",
+      "severity_score": 10
     },
     {
-      "title": "Continuous Vulnerability Assessment",
-      "description": "Maintains rigorous security by assessing potential vulnerabilities.",
-      "technical_spec": "Automated scanning tools and regular security audits.",
-      "severity_score": 30
+      "title": "Automatic Updates",
+      "description": "Automatic security updates to patch vulnerabilities.",
+      "technical_spec": "Seamless user-side updates without manual intervention.",
+      "severity_score": 8
     },
     {
-      "title": "Conditional Access Policies",
-      "description": "Evaluates risks and enforces access controls based on conditions.",
-      "technical_spec": "Machine learning algorithms for real-time threat analytics.",
-      "severity_score": 20
-    },
-    {
-      "title": "Bug Bounty Program",
-      "description": "Engages a global community to identify and remediate vulnerabilities.",
-      "technical_spec": "Managed through reputable platforms like HackerOne.",
-      "severity_score": 35
+      "title": "Account Security Alerts",
+      "description": "Alerts for suspicious account activities.",
+      "technical_spec": "Tracking of login locations and new device sign-ins.",
+      "severity_score": 12
     }
   ]
 }

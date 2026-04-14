@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 82,
+    "rank": 92,
     "site": "youtube.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "c7457c11fa58f7d5f123432b7d6f5b94"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "a5a3d90396631d6bb119f60c91e2a1fe"
   },
   "data": [
     {
+      "title": "Fitts’s Law",
+      "description": "Design focuses on minimizing the distance for interactive elements to optimize user engagement.",
+      "technical_spec": "Predictive search and related content features.",
+      "severity_score": 15
+    },
+    {
       "title": "Hick’s Law",
-      "description": "Simplify decision-making processes within the interface to reduce the time taken for user actions.",
-      "technical_spec": "Design intuitive navigation paths and limit choices on any given screen.",
-      "severity_score": 76
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Optimize the size and placement of clickable elements for quick accessibility.",
-      "technical_spec": "Ensure important buttons and links are large and positioned where users naturally focus.",
-      "severity_score": 81
-    },
-    {
-      "title": "Peak-End Rule",
-      "description": "Enhance user experiences by focusing on providing memorable peak experiences and leaving positive end impressions.",
-      "technical_spec": "Prioritize smooth video playback and engaging content conclusions.",
-      "severity_score": 78
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Adopt familiar user interface patterns to meet expectations set by other popular platforms.",
-      "technical_spec": "Conduct usability tests to identify familiar patterns preferred by the users.",
-      "severity_score": 84
+      "description": "Limits the menu options displayed at one time to reduce information overload.",
+      "technical_spec": "Simplified navigation menu with categories and recommendations.",
+      "severity_score": 12
     },
     {
       "title": "Miller’s Law",
-      "description": "Keep content and functionality within the user's optimal cognitive load.",
-      "technical_spec": "Break down complex information into smaller, easily digestible chunks.",
-      "severity_score": 82
+      "description": "Limits content chunks to seven or fewer on screens to enhance memory retention.",
+      "technical_spec": "Video playlist and thumbnail grouping.",
+      "severity_score": 10
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Design consistency with other platforms enhances user familiarity and comfort.",
+      "technical_spec": "Standardized UI components across Google platforms.",
+      "severity_score": 18
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Emphasizes visually appealing design to enhance perceived usability.",
+      "technical_spec": "Consistent color schemes and thematic designs.",
+      "severity_score": 20
     }
   ]
 }

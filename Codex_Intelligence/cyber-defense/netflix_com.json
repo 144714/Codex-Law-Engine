@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 86,
+    "rank": 96,
     "site": "netflix.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "49876a0a98fecff0cac6428ce9d33190"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "ec3f7c64f4b17b624f10ef51534147d8"
   },
   "data": [
     {
-      "title": "Strong Authentication Methods",
-      "description": "Implements multi-factor authentication for user accounts.",
-      "technical_spec": "Integration of OTP and biometric verification for enhanced security.",
-      "severity_score": 20
+      "title": "Encryption at Rest and Transit",
+      "description": "Ensures data security and integrity by encrypting both stored data and data in transit.",
+      "technical_spec": "TLS for data in transit, AES for data at rest.",
+      "severity_score": 30
     },
     {
-      "title": "Encryption in Transit",
-      "description": "Encrypts data as it moves between client devices and servers.",
-      "technical_spec": "Uses TLS/SSL protocols to secure communication channels.",
-      "severity_score": 15
+      "title": "Authentication and Authorization",
+      "description": "Multiple layers of user verification processes to protect user accounts.",
+      "technical_spec": "Uses OAuth 2.0 and SAML for secure access controls.",
+      "severity_score": 40
     },
     {
-      "title": "Advanced Threat Detection",
-      "description": "Employs machine learning algorithms for anomaly detection.",
-      "technical_spec": "Behavior analytics to identify and mitigate security threats.",
-      "severity_score": 25
+      "title": "Continuous Threat Detection",
+      "description": "Monitors and responds to security threats in real-time across all services.",
+      "technical_spec": "Combines machine learning with manual review for anomaly detection.",
+      "severity_score": 45
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts frequent security audits to identify and address vulnerabilities.",
-      "technical_spec": "Penetration testing and code reviews are standard practices.",
-      "severity_score": 18
+      "title": "Incident Response Team",
+      "description": "A dedicated team to quickly respond to and mitigate security breaches.",
+      "technical_spec": "Follows a structured incident response plan with defined protocols.",
+      "severity_score": 35
     },
     {
-      "title": "Data Privacy Compliance",
-      "description": "Adheres to data privacy regulations like GDPR and CCPA.",
-      "technical_spec": "Data handling protocols ensure user data is protected.",
-      "severity_score": 10
+      "title": "Penetration Testing and Security Audits",
+      "description": "Regularly conducted to identify and address vulnerabilities proactively.",
+      "technical_spec": "Third-party and internal testing cycles using tools like Metasploit.",
+      "severity_score": 50
     }
   ]
 }

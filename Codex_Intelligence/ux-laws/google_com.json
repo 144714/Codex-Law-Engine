@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 81,
+    "rank": 91,
     "site": "google.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "58f1afdbfbcb00e4c45dcc7664a813b8"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "1163d2984aad1e1ff51700cd9cadbdb4"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "UI design ensures quicker target selection.",
-      "technical_spec": "Buttons and interactive elements are sized appropriately and placed conveniently.",
+      "title": "Hick's Law",
+      "description": "Simplifying the decision process for users leads to faster choices.",
+      "technical_spec": "Minimalism in search interface.",
+      "severity_score": 85
+    },
+    {
+      "title": "Fitt's Law",
+      "description": "Ensures that clickable targets are appropriately sized and spaced.",
+      "technical_spec": "Large, easy-to-click buttons for primary actions.",
+      "severity_score": 83
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Utilizes familiar designs and interactions to reduce cognitive load.",
+      "technical_spec": "Consistent design across Google services.",
       "severity_score": 89
     },
     {
-      "title": "Hick’s Law",
-      "description": "Streamlined decision-making process through simplified navigation.",
-      "technical_spec": "Minimalistic design reduces the cognitive load for users making decisions.",
-      "severity_score": 92
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Limits the number of choices presented to maintain user focus.",
-      "technical_spec": "UI adheres to presenting an optimal number of options (7±2) to users.",
-      "severity_score": 84
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Consistent design aligns with user expectations from similar popular sites.",
-      "technical_spec": "Adopts design patterns that users are already familiar with to enhance usability.",
-      "severity_score": 91
+      "title": "Miller's Law",
+      "description": "Short-term memory load is minimized by presenting information in chunks.",
+      "technical_spec": "Well-organized content with clear hierarchies.",
+      "severity_score": 87
     },
     {
       "title": "Peak-End Rule",
-      "description": "User experience is gauged not just by usability but by memorable moments.",
-      "technical_spec": "Focus on delivering stand-out experiences during key interactions.",
-      "severity_score": 87
+      "description": "Optimizes key moments to ensure a memorable user experience.",
+      "technical_spec": "Fast load times and responsiveness.",
+      "severity_score": 90
     }
   ]
 }

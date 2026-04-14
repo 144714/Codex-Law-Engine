@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 85,
+    "rank": 95,
     "site": "amazon.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "2bc0156e6a415741ccb0c0b9a08cccf8"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "8d7a18b21ea45d66d331e32eb22661b5"
   },
   "data": [
     {
-      "title": "Customer Obsession",
-      "description": "Amazon prioritizes customer satisfaction, seeking to constantly improve service.",
-      "technical_spec": "24/7 customer support, liberal return policies, and regular feedback loops.",
-      "severity_score": 40
+      "title": "Customer-Centric Approach",
+      "description": "Prioritizes customer experience across all interactions and services.",
+      "technical_spec": "Customer Feedback Systems, NPS, UX Research",
+      "severity_score": 5
+    },
+    {
+      "title": "Innovation Leadership",
+      "description": "Leads in adopting new technologies and processes to enhance service delivery.",
+      "technical_spec": "R&D Investment, AI Utilization, Automation",
+      "severity_score": 10
     },
     {
       "title": "Operational Excellence",
-      "description": "Excellence in operations and logistics to ensure fast and reliable deliveries.",
-      "technical_spec": "State-of-the-art fulfillment centers and AI-driven supply chain management.",
-      "severity_score": 45
+      "description": "Focuses on efficient internal processes to improve service reliability and delivery speed.",
+      "technical_spec": "Lean Management, Six Sigma, Process Optimization",
+      "severity_score": 10
     },
     {
-      "title": "Innovation",
-      "description": "Stays at the forefront with technology and services diversification.",
-      "technical_spec": "Integration of ML and AI in product offerings and business processes.",
-      "severity_score": 35
+      "title": "Sustainable Practices",
+      "description": "Commits to reducing environmental impact through sustainable practices.",
+      "technical_spec": "Carbon Footprint Reduction, Renewable Energy Usage",
+      "severity_score": 20
     },
     {
-      "title": "Long-term Thinking",
-      "description": "Focuses on sustainable growth and investment in future technologies.",
-      "technical_spec": "Investment in renewable energy and research and development centers.",
-      "severity_score": 50
-    },
-    {
-      "title": "Global Reach",
-      "description": "Aims for a ubiquitous market presence with an extensive global footprint.",
-      "technical_spec": "Localized services and logistics for regional market adaptation.",
-      "severity_score": 30
+      "title": "Diverse Product Range",
+      "description": "Offers a wide variety of products catering to diverse customer needs.",
+      "technical_spec": "Product Inventory Management, Marketplace Operations",
+      "severity_score": 5
     }
   ]
 }

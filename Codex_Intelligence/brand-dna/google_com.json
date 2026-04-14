@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 81,
+    "rank": 91,
     "site": "google.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "6e13a74d7d3d3b17d62189a997143357"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "a871df10115c965046079e18d3fa783f"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "Commitment to pioneering new technologies and solutions.",
-      "technical_spec": "Continual research and development spanning multiple tech domains.",
-      "severity_score": 95
+      "description": "Pioneering technological advancements and constantly evolving.",
+      "technical_spec": "Investment in research and development.",
+      "severity_score": 100
     },
     {
       "title": "User-Centric Design",
-      "description": "Focus on intuitive and accessible design tailored to user needs.",
-      "technical_spec": "Design processes grounded in extensive user research and testing.",
-      "severity_score": 93
+      "description": "Focus on creating intuitive and accessible user experiences.",
+      "technical_spec": "Incorporating user feedback in iterative design cycles.",
+      "severity_score": 98
     },
     {
       "title": "Reliability",
-      "description": "Services that maintain high availability and uptime.",
-      "technical_spec": "Redundant systems and continuous monitoring ensure 99.999% uptime.",
+      "description": "Consistent performance ensuring trust and dependability.",
+      "technical_spec": "24/7 operational uptime and robust security measures.",
+      "severity_score": 99
+    },
+    {
+      "title": "Global Impact",
+      "description": "Presence and influence that reach worldwide audiences.",
+      "technical_spec": "Availability in multiple languages and regions.",
       "severity_score": 97
     },
     {
-      "title": "Privacy Focus",
-      "description": "Integrating privacy into core operations and services.",
-      "technical_spec": "Strict data governance policies and user privacy controls.",
-      "severity_score": 94
-    },
-    {
-      "title": "Scalability",
-      "description": "Infrastructure and solutions designed to grow with demand.",
-      "technical_spec": "Cloud architecture that supports seamless horizontal and vertical scaling.",
+      "title": "Sustainability",
+      "description": "Commitment to environmental sustainability and carbon neutrality.",
+      "technical_spec": "Utilization of renewable energy sources for data centers.",
       "severity_score": 96
     }
   ]

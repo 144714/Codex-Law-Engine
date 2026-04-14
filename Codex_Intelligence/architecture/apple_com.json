@@ -1,40 +1,60 @@
 {
   "meta": {
-    "rank": 83,
+    "rank": 93,
     "site": "apple.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "d5487642a4c82f86dd4c9f8d6089a148"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "05fbea838dcc9b710e63a7356f23c962"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Apple uses microservices for modular deployments and scalable application management.",
-      "technical_spec": "Distributed systems, API gateways, containerization.",
-      "severity_score": 10
+      "title": "Microservices Framework",
+      "description": "Apple employs a microservices architecture to enhance modularity and scalability across its platforms.",
+      "technical_spec": [
+        "Decomposed applications",
+        "API gateways",
+        "Service discovery"
+      ],
+      "severity_score": 70
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Apple employs a global CDN to ensure fast content delivery and reduce latency.",
-      "technical_spec": "Edge servers, caching strategies, DNS routing.",
-      "severity_score": 15
+      "description": "CDN is used to accelerate content delivery through geographical distribution of servers.",
+      "technical_spec": [
+        "Geo-located caching",
+        "Latency optimization",
+        "DDoS protection"
+      ],
+      "severity_score": 85
     },
     {
-      "title": "Redundant Server Infrastructure",
-      "description": "The website is backed by a redundant server infrastructure to ensure high availability.",
-      "technical_spec": "Load balancing, failover systems, distributed storage.",
-      "severity_score": 5
+      "title": "Cloud Integration",
+      "description": "Seamless integration with cloud services for enhanced storage and processing capabilities.",
+      "technical_spec": [
+        "Serverless architecture",
+        "Elastic compute",
+        "High availability"
+      ],
+      "severity_score": 75
     },
     {
-      "title": "Cloud-Native Integration",
-      "description": "Integration with cloud services for scalability and flexibility.",
-      "technical_spec": "Cloud platforms, serverless functions, orchestration tools.",
-      "severity_score": 20
+      "title": "Single Page Application (SPA)",
+      "description": "Utilizing SPA for a more dynamic user interaction and improved load times.",
+      "technical_spec": [
+        "React.js",
+        "Client-side rendering",
+        "Asynchronous data loading"
+      ],
+      "severity_score": 80
     },
     {
-      "title": "Responsive Web Design",
-      "description": "The architecture supports dynamic resizing for various screen sizes and devices.",
-      "technical_spec": "CSS media queries, fluid grids, flexible images.",
-      "severity_score": 10
+      "title": "Progressive Web Apps (PWA)",
+      "description": "PWAs enable a native-like experience on the web with offline capabilities.",
+      "technical_spec": [
+        "Service workers",
+        "IndexedDB",
+        "Manifest files"
+      ],
+      "severity_score": 60
     }
   ]
 }

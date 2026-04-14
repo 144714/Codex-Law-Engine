@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 84,
+    "rank": 94,
     "site": "microsoft.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "83d31998daad8da26683aae2bc43c363"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "e5a2b88b2b882f70b39730deced4bcd3"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "A core element of Microsoft's brand, driving the development of cutting-edge technology solutions.",
-      "technical_spec": "Investment in R&D, Patented technologies",
-      "severity_score": 5
+      "description": "Presents itself as a leader in technological advancements and innovation.",
+      "technical_spec": "Focus on AI, cloud technology, and sustainable solutions.",
+      "severity_score": 96
     },
     {
-      "title": "Trust",
-      "description": "Focused on building and maintaining user trust through privacy and security practices.",
-      "technical_spec": "GDPR compliance, Transparency reports",
-      "severity_score": 8
+      "title": "User-Centric Design",
+      "description": "Centers its design approach around the needs and expectations of users.",
+      "technical_spec": "Emphasis on accessibility and user feedback loops.",
+      "severity_score": 94
     },
     {
-      "title": "Global Reach",
-      "description": "Microsoft services are accessible worldwide, highlighting its commitment to diversity and global engagement.",
-      "technical_spec": "Multiple language support, Global datacenters",
-      "severity_score": 12
+      "title": "Global Accessibility",
+      "description": "Commits to providing accessible solutions to a diverse global audience.",
+      "technical_spec": "Multi-language support and WCAG compliance.",
+      "severity_score": 92
     },
     {
-      "title": "Sustainability",
-      "description": "Dedication to environmental sustainability through eco-friendly practices and technologies.",
-      "technical_spec": "Carbon-neutral operations, Renewable energy sourcing",
-      "severity_score": 10
+      "title": "Security Assurance",
+      "description": "Strong focus on security and trust in all their digital services.",
+      "technical_spec": "Robust privacy policies and security certifications.",
+      "severity_score": 95
     },
     {
-      "title": "Partnership",
-      "description": "Strong alliances with other corporations and technology providers to enhance service offerings.",
-      "technical_spec": "Partner ecosystems, Collaborative platforms",
-      "severity_score": 6
+      "title": "Sustainability Efforts",
+      "description": "Actively promotes sustainability in technology and operations.",
+      "technical_spec": "Green tech initiatives and eco-friendly practices.",
+      "severity_score": 90
     }
   ]
 }

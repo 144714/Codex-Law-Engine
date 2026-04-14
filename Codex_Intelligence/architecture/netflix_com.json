@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 86,
+    "rank": 96,
     "site": "netflix.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "6ecdccc091c8fb5240450132026d4790"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "795883737007ff05c2f53ac7a306e373"
   },
   "data": [
     {
-      "title": "Microservices Design",
-      "description": "Netflix employs a microservices architecture, allowing independent deployment and scalability of services.",
-      "technical_spec": "Breaks down the application into small, independently deployable services.",
-      "severity_score": 10
+      "title": "Microservices Architecture",
+      "description": "A distributed architecture where Netflix services are divided into small, independent units, each handling a specific function.",
+      "technical_spec": "Deployed on AWS, uses Kubernetes for container orchestration.",
+      "severity_score": 20
     },
     {
-      "title": "Global CDN Network",
-      "description": "Utilizes a globally distributed content delivery network to serve content efficiently.",
-      "technical_spec": "Edge servers and caching techniques improve latency and performance.",
-      "severity_score": 15
+      "title": "Content Delivery Network (CDN)",
+      "description": "A large-scale CDN setup to deliver streaming content efficiently across the globe.",
+      "technical_spec": "Uses Open Connect, Netflix's custom CDN optimized for video streaming.",
+      "severity_score": 25
     },
     {
-      "title": "High-Availability Architecture",
-      "description": "Ensures service availability through redundancy and failover mechanisms.",
-      "technical_spec": "Uses AWS and other cloud providers for load balancing and auto-scaling.",
-      "severity_score": 8
+      "title": "Cloud-Native Infrastructure",
+      "description": "The complete infrastructure is hosted on the cloud for scalability and resilience.",
+      "technical_spec": "Primarily relies on AWS services including EC2, S3, and Lambda.",
+      "severity_score": 30
     },
     {
-      "title": "Cross-Region Replication",
-      "description": "Data is replicated across regions for disaster recovery and data resilience.",
-      "technical_spec": "Employs cloud-based replication techniques for data management.",
-      "severity_score": 12
+      "title": "Data-Driven Framework",
+      "description": "Utilizes big data and analytics for decision-making in content recommendation.",
+      "technical_spec": "Emploiys technologies like Apache Spark and Kafka.",
+      "severity_score": 40
     },
     {
-      "title": "Centralized API Gateway",
-      "description": "A centralized API gateway manages requests from client devices.",
-      "technical_spec": "Utilizes a single entry point for routing API requests to microservices.",
-      "severity_score": 18
+      "title": "Global DNS Traffic Management",
+      "description": "Manages user requests globally to route them to the best performing datacenter.",
+      "technical_spec": "Uses proprietary and third-party DNS services for traffic latency optimization.",
+      "severity_score": 35
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 87,
+    "rank": 97,
     "site": "spotify.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "208ad3b46189a0180def6beff6d91821"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "893408af3a86c4fe75db999e33cc73fe"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Spotify employs a microservices architecture to manage its services independently.",
-      "technical_spec": "Services are deployed independently and communicate through APIs.",
-      "severity_score": 10
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Spotify uses CDN to stream music efficiently to users globally.",
-      "technical_spec": "Caches music content at edge locations to reduce latency.",
-      "severity_score": 20
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Distributes user requests across multiple servers to ensure high availability.",
-      "technical_spec": "Utilizes round-robin and least-connections algorithms.",
+      "description": "Spotify uses a microservices architecture to manage its vast array of features and services independently.",
+      "technical_spec": "Each service is maintained independently, with APIs for communication.",
       "severity_score": 15
     },
     {
-      "title": "Database Sharding",
-      "description": "Database is partitioned to handle massive volumes of data efficiently.",
-      "technical_spec": "Data is divided into shards based on user IDs.",
-      "severity_score": 25
+      "title": "APIs and SDKs",
+      "description": "APIs and SDKs enable developers to integrate Spotify's functionalities into their applications.",
+      "technical_spec": "RESTful APIs, Web APIs, and mobile SDKs available for integration.",
+      "severity_score": 10
     },
     {
-      "title": "Containerization",
-      "description": "Uses Docker containers to deploy and manage applications.",
-      "technical_spec": "Standardizes development environments and deployment processes.",
-      "severity_score": 30
+      "title": "Cloud Infrastructure",
+      "description": "Spotify leverages cloud infrastructure for scalability and resilience.",
+      "technical_spec": "Uses Google Cloud Platform to handle storage, processing, and distribution.",
+      "severity_score": 20
+    },
+    {
+      "title": "Data Management",
+      "description": "Data from users and streams is managed and analyzed in real-time.",
+      "technical_spec": "BigQuery and Hadoop used for data processing and analytics.",
+      "severity_score": 18
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "CDNs are employed to ensure fast and efficient delivery of media content globally.",
+      "technical_spec": "CDN providers like Akamai and Cloudflare are used to cache and distribute content.",
+      "severity_score": 12
     }
   ]
 }

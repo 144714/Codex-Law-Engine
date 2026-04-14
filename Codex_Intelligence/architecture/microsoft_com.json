@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 84,
+    "rank": 94,
     "site": "microsoft.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "578a80f614c13045a57d1c3bb9470bba"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "0041aaf3630542da79661276466cf498"
   },
   "data": [
     {
-      "title": "Cloud Integration",
-      "description": "Microsoft's infrastructure is heavily integrated with its Azure cloud services, allowing seamless data and application operations across its platforms.",
-      "technical_spec": "Azure backbone, SaaS/PaaS/IaaS interoperability",
-      "severity_score": 10
+      "title": "Microservices Architecture",
+      "description": "Microsoft.com utilizes a microservices architecture to enhance scalability and maintainability.",
+      "technical_spec": "Distributed set of services that are independently deployable and scalable.",
+      "severity_score": 92
     },
     {
-      "title": "Scalable Web Architecture",
-      "description": "The website employs scalable web technologies to handle large volumes of traffic efficiently through load balancers and distributed servers.",
-      "technical_spec": "Load balancers, CDN (Content Delivery Network)",
-      "severity_score": 15
+      "title": "Load Balancing",
+      "description": "Employs load balancing to distribute incoming traffic evenly across servers.",
+      "technical_spec": "Elastic Load Balancers (ELB) with auto scaling features.",
+      "severity_score": 85
     },
     {
-      "title": "Microservices",
-      "description": "Microservices architecture allows Microsoft.com to introduce new features and services independently without affecting the entire system.",
-      "technical_spec": "Docker containers, Kubernetes orchestration",
-      "severity_score": 20
+      "title": "Serverless Computing",
+      "description": "Integration of serverless technologies for some backend processes.",
+      "technical_spec": "Azure Functions and other serverless offerings.",
+      "severity_score": 78
     },
     {
-      "title": "API Management",
-      "description": "Robust API management systems ensure smooth communication between client-side and server-side applications.",
-      "technical_spec": "RESTful APIs, OAuth 2.0",
-      "severity_score": 25
+      "title": "Content Delivery Network (CDN)",
+      "description": "Leverages CDN to decrease latency and increase load times for users worldwide.",
+      "technical_spec": "Azure CDN for global content delivery.",
+      "severity_score": 88
     },
     {
-      "title": "Responsive Design",
-      "description": "The site is designed responsively to adapt its layout across a variety of devices and screen sizes.",
-      "technical_spec": "CSS Flexbox/Grid, Media Queries",
-      "severity_score": 5
+      "title": "Containerization",
+      "description": "Adopts containerization for component isolation and efficient resource usage.",
+      "technical_spec": "Docker and Kubernetes for container management.",
+      "severity_score": 80
     }
   ]
 }

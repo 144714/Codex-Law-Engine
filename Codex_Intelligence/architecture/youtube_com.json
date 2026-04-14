@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 82,
+    "rank": 92,
     "site": "youtube.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "e1fab93769afb30dbf3f696109b8684e"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "d295b1df46283bb31e1b434838e5a8d2"
   },
   "data": [
     {
-      "title": "Monolithic to Microservices",
-      "description": "Transition from a monolithic architecture to a microservices-based architecture for improved scalability and development agility.",
-      "technical_spec": "Implement distributed services with APIs using containers and orchestration tools like Kubernetes.",
-      "severity_score": 85
+      "title": "Microservices Architecture",
+      "description": "YouTube employs a microservices architecture, allowing for scalable and independent deployment of service components.",
+      "technical_spec": "Each service component handles a specific function like video playback, user data, comments section, etc.",
+      "severity_score": 10
     },
     {
-      "title": "Content Delivery Network (CDN) Optimization",
-      "description": "Optimize the use of CDNs to ensure efficient video delivery across global regions.",
-      "technical_spec": "Employ multiple CDN nodes with load balancing mechanisms and adaptive bitrate streaming.",
-      "severity_score": 90
+      "title": "Content Delivery Network (CDN)",
+      "description": "Utilizes CDNs to deliver media content efficiently and reduce latency worldwide.",
+      "technical_spec": "High-speed delivery through caching nodes spread across global data centers.",
+      "severity_score": 15
     },
     {
-      "title": "Database Sharding and Caching",
-      "description": "Utilize database sharding and caching to efficiently handle large data volumes and high query loads.",
-      "technical_spec": "Implement NoSQL databases with Redis for caching and partitioning user data across different database nodes.",
-      "severity_score": 80
+      "title": "Data Redundancy and Replication",
+      "description": "Ensures data availability through redundant storage and replication strategies.",
+      "technical_spec": "Uses distributed storage systems for video and metadata.",
+      "severity_score": 20
     },
     {
-      "title": "Service-oriented Architecture (SOA)",
-      "description": "Adopt a service-oriented architecture to improve modularity and service management.",
-      "technical_spec": "Implement independent services that communicate over the network through RESTful APIs or SOAP.",
-      "severity_score": 75
+      "title": "API-Driven Infrastructure",
+      "description": "Facilitates third-party integrations and internal operations with a robust API infrastructure.",
+      "technical_spec": "RESTful and gRPC APIs for various YouTube services.",
+      "severity_score": 18
     },
     {
-      "title": "Automated Deployment Pipelines",
-      "description": "Set up automated pipelines for rapid deployments and testing to improve software delivery performance.",
-      "technical_spec": "Use CI/CD tools like Jenkins or GitLab CI integrated with version control systems and testing suites.",
-      "severity_score": 78
+      "title": "Load Balancing",
+      "description": "Distributes user requests evenly across multiple servers to ensure efficient processing and availability.",
+      "technical_spec": "Employs hardware and software load balancers like Google Front End (GFE).",
+      "severity_score": 12
     }
   ]
 }

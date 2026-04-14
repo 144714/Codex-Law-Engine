@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 90,
+    "rank": 100,
     "site": "whatsapp.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "a84edfa9fd098694f3447b829d4e2d10"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "370d469445a359faf179caa4c84b55ce"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "WhatsApp employs a microservices architecture to enhance scalability and maintainability.",
-      "technical_spec": "Utilizes lightweight, independently deployable services, connected via APIs.",
+      "title": "Microservices",
+      "description": "Decentralized components for efficient deployments.",
+      "technical_spec": "Services are broken down into smaller, modular units.",
       "severity_score": 20
     },
     {
       "title": "End-to-End Encryption",
-      "description": "Implements end-to-end encryption to secure messages.",
-      "technical_spec": "Uses the Signal Protocol for encryption, making communication private.",
-      "severity_score": 10
+      "description": "Ensures message privacy between users.",
+      "technical_spec": "Encryption protocols such as Signal Protocol.",
+      "severity_score": 5
     },
     {
-      "title": "Cross-Platform Messaging",
-      "description": "Supports messaging across multiple platforms seamlessly.",
-      "technical_spec": "Built using Electron for desktop and native tech stacks for mobile.",
+      "title": "Distributed Systems",
+      "description": "System distributed across global servers for scalability.",
+      "technical_spec": "Multiple data centers for load balancing.",
       "severity_score": 30
     },
     {
-      "title": "Scale-out Architecture",
-      "description": "Designed to handle a massive scale of concurrent users seamlessly.",
-      "technical_spec": "Employs load balancers and distributed databases.",
+      "title": "Data Integrity",
+      "description": "Ensures that all messaging data remains consistent and unaltered.",
+      "technical_spec": "Use of checksums and data validation protocols.",
       "severity_score": 15
     },
     {
-      "title": "Real-time Communication",
-      "description": "Supports real-time messaging and calling.",
-      "technical_spec": "UDP-based protocols for voice calls; WebRTC for video calls.",
-      "severity_score": 25
+      "title": "Real-Time Messaging",
+      "description": "Instant message delivery with low latency.",
+      "technical_spec": "Uses a custom protocol optimized for chat applications.",
+      "severity_score": 10
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 82,
+    "rank": 92,
     "site": "youtube.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "8732b2ade75422cb3ea7496e3a58c297"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "35e6684367e0b639523f0199acb9fed7"
   },
   "data": [
     {
-      "title": "User-Generated Content Empowerment",
-      "description": "Promote a platform where users feel empowered to create and share content.",
-      "technical_spec": "Develop tools that aid in easy content creation and sharing, such as enhanced editing features and collaboration options.",
-      "severity_score": 86
+      "title": "Global Reach",
+      "description": "YouTube's brand identity revolves around being an accessible platform for a global audience.",
+      "technical_spec": "Supports numerous languages and regional content.",
+      "severity_score": 5
     },
     {
-      "title": "Global Audience Engagement",
-      "description": "Engage a diverse audience from around the world with localized content and features.",
-      "technical_spec": "Provide multi-language support and local content algorithms tailored to regional interests.",
-      "severity_score": 89
+      "title": "Community Engagement",
+      "description": "Fosters community through user interaction features like comments, likes, and subscription options.",
+      "technical_spec": "Interactive features and community tab for creators.",
+      "severity_score": 8
     },
     {
-      "title": "Creator Monetization Infrastructure",
-      "description": "Enhance monetization options for creators to keep them motivated and financially rewarded.",
-      "technical_spec": "Expand ad revenue models and introduce new monetization features, such as tipping or subscriptions.",
-      "severity_score": 88
+      "title": "Content Diversity",
+      "description": "Encourages a diverse array of content ranging from educational to entertainment.",
+      "technical_spec": "Monetization and recommendation algorithms favor diverse content.",
+      "severity_score": 12
     },
     {
-      "title": "Personalized Experience",
-      "description": "Offer a seamless personalized user experience based on individual interests and history.",
-      "technical_spec": "Utilize machine learning algorithms to recommend personalized content playlists and notifications.",
-      "severity_score": 90
+      "title": "Accessibility",
+      "description": "Strives to make content accessible to all users, including those with disabilities.",
+      "technical_spec": "Closed captions, transcriptions, and screen reader support.",
+      "severity_score": 10
     },
     {
-      "title": "Community Guidelines Transparency",
-      "description": "Ensure that platform policies and guidelines are transparent and understandable to all users.",
-      "technical_spec": "Create clear documentation and utilize AI to explain decisions affecting content or account standing.",
-      "severity_score": 83
+      "title": "Innovation",
+      "description": "YouTube constantly innovates with new features and services to enhance user experience.",
+      "technical_spec": "Introduction of YouTube Shorts and live streaming options.",
+      "severity_score": 18
     }
   ]
 }

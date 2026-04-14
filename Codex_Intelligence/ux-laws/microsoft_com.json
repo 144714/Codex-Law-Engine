@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 84,
+    "rank": 94,
     "site": "microsoft.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "2e3096123be837257e8f97b0170c08b2"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "67ec53ee4a0ab6e35372dd32a0d2693f"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "The website simplifies decision-making by minimizing choices on each page, achieving a faster response from users.",
-      "technical_spec": "Simplified navigation menus, Decision-tree optimization",
-      "severity_score": 10
-    },
-    {
       "title": "Fitts's Law",
-      "description": "Interactive elements are placed thoughtfully to reduce the distance for users, enhancing usability on touch and click interfaces.",
-      "technical_spec": "Optimized click/touch target sizes, Intuitive proximity positioning",
-      "severity_score": 8
+      "description": "Design follows Fitts's Law by ensuring clickable elements are easy to access.",
+      "technical_spec": "Consistent spacing and size for interactive elements.",
+      "severity_score": 86
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "A visually appealing interface is used to create a perception of easier use and positive experience.",
-      "technical_spec": "Consistent color schemes, Clean typography",
-      "severity_score": 12
+      "title": "Hick's Law",
+      "description": "Minimizes choice overload by categorizing and ordering information effectively.",
+      "technical_spec": "Use of dropdown menus and tabbed navigation.",
+      "severity_score": 84
     },
     {
-      "title": "Jakob’s Law",
-      "description": "The site leverages familiar design patterns to reduce the learning curve for users visiting from other sites.",
-      "technical_spec": "Consistent UI patterns, Familiar navigation layouts",
-      "severity_score": 15
+      "title": "Golden Ratio",
+      "description": "Utilizes the Golden Ratio in layout design to create pleasing aesthetics.",
+      "technical_spec": "Proportional layouts maintaining an 1.618:1 aspect ratio.",
+      "severity_score": 81
     },
     {
-      "title": "Law of Proximity",
-      "description": "Elements are grouped together based on relation to make the interface more organized and intuitive.",
-      "technical_spec": "Grid layouts, Clear separation of content areas",
-      "severity_score": 9
+      "title": "Zeigarnik Effect",
+      "description": "Design prompts users to complete tasks, using the principle that incomplete tasks are remembered better.",
+      "technical_spec": "Progressive wizards and action reminders.",
+      "severity_score": 87
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Limits information to be processed to around 7 items at once.",
+      "technical_spec": "Organizes content into digestible chunks.",
+      "severity_score": 82
     }
   ]
 }

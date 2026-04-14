@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 86,
+    "rank": 96,
     "site": "netflix.com",
-    "date": "2026-04-14 10:07",
-    "integrity_hash": "bb7c18b4f1fe4a89df06fce23f7c0e91"
+    "date": "2026-04-14 11:52",
+    "integrity_hash": "252697aab14b53c878e96a5470b65ca6"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies user interactions by minimizing choice complexity.",
-      "technical_spec": "Design focuses on clear, concise options to enhance decision-making.",
-      "severity_score": 12
+      "description": "Simplification of user choices to enhance engagement and decision-making.",
+      "technical_spec": "Employs intuitive navigation and minimalistic design for content discovery.",
+      "severity_score": 25
     },
     {
-      "title": "Miller's Law",
-      "description": "Conforms to the concept of chunking information to prevent cognitive overload.",
-      "technical_spec": "Content is broken down into manageable pieces to enhance comprehension.",
-      "severity_score": 14
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Optimizes the size and placement of UI elements for easier accessibility.",
-      "technical_spec": "Efficient UI designs reduce the time to interact with functional elements.",
-      "severity_score": 16
-    },
-    {
-      "title": "Tesler’s Law of Conservation of Complexity",
-      "description": "Attempts to simplify the user experience without compromising functionality.",
-      "technical_spec": "Essential complexities are managed behind the scenes via efficient processes.",
+      "title": "Aesthetic-Usability Effect",
+      "description": "A modern, visually appealing user interface that enhances perceived usability.",
+      "technical_spec": "Consistent branding elements and adaptive design across devices.",
       "severity_score": 20
     },
     {
-      "title": "Zeigarnik Effect",
-      "description": "Encourages user engagement via interrupted tasks that prompt completion.",
-      "technical_spec": "Subtly reminds users of partially completed actions or series.",
-      "severity_score": 18
+      "title": "Fitts's Law",
+      "description": "Optimized screen layout to facilitate easier navigation and control access.",
+      "technical_spec": "Quick access icons positioned for ergonomical reach on various devices.",
+      "severity_score": 15
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Aligns interface elements with user expectations based on familiar web experiences.",
+      "technical_spec": "Standardized menu placements and iconography conforming to industry norms.",
+      "severity_score": 10
+    },
+    {
+      "title": "Pareto Principle",
+      "description": "Focus on high-impact features that deliver most user value and satisfaction.",
+      "technical_spec": "Feature preferences informed by heavy data analysis of viewing habits.",
+      "severity_score": 30
     }
   ]
 }
