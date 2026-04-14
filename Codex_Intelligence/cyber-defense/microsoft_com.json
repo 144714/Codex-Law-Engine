@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 44,
+    "rank": 54,
     "site": "microsoft.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "2761c3e156acbb8de23613b5ef21acca"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "f90a91ae1db602d56a75ba49622f2346"
   },
   "data": [
     {
-      "title": "Threat Protection",
-      "description": "Advanced threat protection to combat cybersecurity threats.",
-      "technical_spec": "Integration with Azure Security Center.",
-      "severity_score": 25
+      "title": "Advanced Threat Protection",
+      "description": "Employs real-time threat detection and mitigation tools to safeguard against cyber threats.",
+      "technical_spec": "Azure Security Center, Microsoft Defender",
+      "severity_score": 97
     },
     {
-      "title": "Data Encryption",
-      "description": "Encryption of data both in transit and at rest.",
-      "technical_spec": "Uses TLS 1.2+ and AES-256 encryption.",
-      "severity_score": 30
+      "title": "Data Encryption Standards",
+      "description": "Implements robust encryption protocols to protect user data in transit and at rest.",
+      "technical_spec": "TLS 1.3, AES-256 Encryption",
+      "severity_score": 94
     },
     {
-      "title": "Identity Management",
-      "description": "Robust identity and access management protocols.",
-      "technical_spec": "Multi-factor authentication (MFA).",
-      "severity_score": 20
+      "title": "Multi-Factor Authentication",
+      "description": "Enhanced security through multi-factor authentication for user account protection.",
+      "technical_spec": "Azure AD Identity Protection",
+      "severity_score": 92
     },
     {
-      "title": "Security Monitoring",
-      "description": "24/7 monitoring for detection and response to incidents.",
-      "technical_spec": "Utilizes Azure Sentinel for SIEM.",
-      "severity_score": 35
+      "title": "DDoS Protection",
+      "description": "Dedicated solutions to prevent Distributed Denial of Service attacks and maintain uptime.",
+      "technical_spec": "Azure DDoS Protection Standard",
+      "severity_score": 95
     },
     {
-      "title": "Compliance Standards",
-      "description": "Adherence to global compliance and regulatory standards.",
-      "technical_spec": "GDPR, ISO 27001, and more.",
-      "severity_score": 15
+      "title": "Vulnerability Management",
+      "description": "Regular vulnerability scans and patch management to address potential security risks.",
+      "technical_spec": "Azure Security Benchmark, Patch Management",
+      "severity_score": 96
     }
   ]
 }

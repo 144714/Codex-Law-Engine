@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 41,
+    "rank": 51,
     "site": "google.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "9e8eb36c8b3d5ba2a712e203f5385b00"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "1c9401f7de72a2d3e81f0722e1dcd98f"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "Commitment to continuous technological advancement and pioneering research.",
-      "technical_spec": "Investment in AI, quantum computing, and next-gen technologies.",
-      "severity_score": 20
-    },
-    {
-      "title": "Trust",
-      "description": "Building user trust through consistent, reliable services and privacy measures.",
-      "technical_spec": "Transparency reports and GDPR compliance efforts.",
-      "severity_score": 15
+      "description": "Continuously develops cutting-edge technologies and solutions.",
+      "technical_spec": "Heavily invests in Research and Development.",
+      "severity_score": 5
     },
     {
       "title": "Simplicity",
-      "description": "Focus on intuitive and efficient user experiences.",
-      "technical_spec": "Unified ecosystem with seamless integration across products.",
+      "description": "Simplifies access to information and services for users worldwide.",
+      "technical_spec": "User interfaces are designed to be intuitive and straightforward.",
+      "severity_score": 5
+    },
+    {
+      "title": "Trustworthiness",
+      "description": "Maintains user trust through transparency and data security.",
+      "technical_spec": "Regular transparency reports and robust data protection measures.",
       "severity_score": 10
     },
     {
-      "title": "Sustainability",
-      "description": "Commitment to environmental responsibility in operations.",
-      "technical_spec": "Carbon-neutral operations and investment in renewable energy.",
-      "severity_score": 18
+      "title": "Connectivity",
+      "description": "Aims to connect users with information and contacts globally.",
+      "technical_spec": "Supports cross-platform services and integrations.",
+      "severity_score": 5
     },
     {
-      "title": "Global Impact",
-      "description": "Influence and presence across numerous international markets.",
-      "technical_spec": "Localized services and regional data centers to support global users.",
-      "severity_score": 25
+      "title": "Community Impact",
+      "description": "Supports global community initiatives and sustainability.",
+      "technical_spec": "Programs and partnerships focused on education, environment, and entrepreneurship.",
+      "severity_score": 15
     }
   ]
 }

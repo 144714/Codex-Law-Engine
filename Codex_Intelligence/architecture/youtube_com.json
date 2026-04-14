@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 42,
+    "rank": 52,
     "site": "youtube.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "760b421870e5bb5d40c9f19f5b3e488a"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "91dcac5ccd736322122000e5e79e50c9"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "YouTube uses a microservices architecture to handle various functionalities like user management, video uploads, and recommendations.",
-      "technical_spec": "Service-oriented architecture with independent services communicating over RESTful APIs.",
-      "severity_score": 5
+      "description": "YouTube utilizes a microservices architecture to enable scalability and facilitate independent deployments.",
+      "technical_spec": "Built using Google Cloud infrastructure, employing various containerization technologies like Kubernetes.",
+      "severity_score": 10
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "To efficiently deliver video content globally, YouTube employs a CDN that caches content closer to users.",
-      "technical_spec": "Global cache servers, edge computing for latency reduction.",
-      "severity_score": 7
+      "description": "Utilizes Google’s expansive CDN to efficiently deliver content globally and minimize latency.",
+      "technical_spec": "Deployment involves advanced caching strategies and edge network delivery.",
+      "severity_score": 15
     },
     {
-      "title": "Data Infrastructure",
-      "description": "Scalable data storage solutions for handling large volumes of video data and metadata.",
-      "technical_spec": "Petabyte-scale distributed storage, databases like Bigtable.",
-      "severity_score": 8
+      "title": "Fault-Tolerant Systems",
+      "description": "Designed to handle failures gracefully with automated failover processes and redundancy.",
+      "technical_spec": "Relies on distributed databases and replication strategies.",
+      "severity_score": 20
     },
     {
-      "title": "Load Balancing",
-      "description": "Load balancers distribute incoming requests to different server clusters to maintain high availability.",
-      "technical_spec": "Global load balancing with automatic failover.",
-      "severity_score": 6
+      "title": "Data Handling and Processing",
+      "description": "Processes vast amounts of data using BigQuery and Dataflow for analytics and personalization.",
+      "technical_spec": "Utilizes MapReduce parallel processing.",
+      "severity_score": 25
     },
     {
-      "title": "Video Processing",
-      "description": "Processes like transcoding are crucial for rendering videos in various resolutions and formats.",
-      "technical_spec": "FFmpeg-based video processing pipeline.",
-      "severity_score": 9
+      "title": "APIs for Developers",
+      "description": "Exposes various APIs for developers to integrate functionalities.",
+      "technical_spec": "RESTful APIs and gRPC technologies are employed.",
+      "severity_score": 30
     }
   ]
 }

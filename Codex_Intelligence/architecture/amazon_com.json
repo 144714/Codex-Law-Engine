@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 45,
+    "rank": 55,
     "site": "amazon.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "8bb03cb10fc9619267cab2cfc8c032d6"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "08513732b2e66448da5c433eef79ef11"
   },
   "data": [
     {
-      "title": "Microservices-based Architecture",
-      "description": "Amazon utilizes a microservices architecture which allows developers to deploy services independently.",
-      "technical_spec": "Service-oriented architecture, with APIs facilitating communication between distributed services.",
-      "severity_score": 10
+      "title": "Microservices",
+      "description": "Amazon uses a microservices architecture, which breaks down applications into smaller, independent services.",
+      "technical_spec": "Use of APIs and service-oriented architecture for deploying individual services.",
+      "severity_score": 95
     },
     {
       "title": "Scalable Infrastructure",
-      "description": "Amazon's infrastructure is designed to scale horizontally to accommodate varying workloads.",
-      "technical_spec": "Auto-scaling groups, load balancers, and distributed databases.",
-      "severity_score": 15
+      "description": "The architecture is designed to scale in response to varying customer demands.",
+      "technical_spec": "Elastic Load Balancing, auto-scaling groups, and distributed databases.",
+      "severity_score": 90
     },
     {
-      "title": "Cloud Deployment",
-      "description": "Leveraging AWS cloud infrastructure to ensure availability and reliability.",
-      "technical_spec": "Elastic Compute Cloud (EC2), Simple Storage Service (S3), and Route 53 for DNS.",
-      "severity_score": 5
+      "title": "High Availability",
+      "description": "Ensures services are available and resilient to failures across multiple regions and zones.",
+      "technical_spec": "Multi-AZ deployments and cross-region replication.",
+      "severity_score": 92
     },
     {
-      "title": "Content Delivery Network",
-      "description": "Amazon uses its CDN, CloudFront, to deliver content efficiently.",
-      "technical_spec": "Edge locations distributed globally for faster content delivery.",
-      "severity_score": 20
+      "title": "Serverless Computing",
+      "description": "Adoption of serverless paradigms to reduce resource allocation complexity.",
+      "technical_spec": "Use of AWS Lambda and API Gateway for serverless functions.",
+      "severity_score": 88
     },
     {
-      "title": "Database Management",
-      "description": "Usage of NoSQL and SQL databases to handle different types of data workloads.",
-      "technical_spec": "Amazon Aurora, DynamoDB for NoSQL data stores.",
-      "severity_score": 12
+      "title": "Containerized Deployment",
+      "description": "Efficient deployment and management of applications using container orchestration.",
+      "technical_spec": "Use of Docker containers and Kubernetes.",
+      "severity_score": 85
     }
   ]
 }

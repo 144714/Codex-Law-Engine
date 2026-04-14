@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 43,
+    "rank": 53,
     "site": "apple.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "319e8471e420748956e6119ec0baab18"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "95d3f4ad2d6713c7daae550367ed1d8f"
   },
   "data": [
     {
-      "title": "Simplicity and Elegance",
-      "description": "Apple's brand emphasizes a simple, elegant design aesthetic.",
-      "technical_spec": "Minimalist layouts with focus on product display.",
+      "title": "Minimalism",
+      "description": "Emphasizes a clean, minimalistic design aesthetic reflecting brand simplicity and clarity.",
+      "technical_spec": "Minimalist homepage with ample white space and clear product imagery.",
       "severity_score": 5
     },
     {
-      "title": "Innovation and Quality",
-      "description": "Focuses on cutting-edge technology and superior user experience.",
-      "technical_spec": "Use of advanced web technologies and high-standard quality checks.",
+      "title": "High-Quality Visuals",
+      "description": "Uses high-resolution imagery and videos in line with their focus on aesthetics and design quality.",
+      "technical_spec": "Retina display optimized images and adaptive quality streaming.",
       "severity_score": 10
     },
     {
-      "title": "Customer-Centric Approach",
-      "description": "Significant emphasis on user satisfaction and support.",
-      "technical_spec": "Provides comprehensive support services and feedback systems.",
+      "title": "Innovation",
+      "description": "Displays cutting-edge features, reflecting the brand's commitment to innovation.",
+      "technical_spec": "Latest web technologies and interactive elements showcasing product prowess.",
+      "severity_score": 20
+    },
+    {
+      "title": "User-Centric Design",
+      "description": "Positions user experience at the forefront of all design and functional decisions.",
+      "technical_spec": "User research and testing guide iterative design processes.",
       "severity_score": 15
     },
     {
-      "title": "Consistency",
-      "description": "Maintains a consistent brand image across all platforms and communications.",
-      "technical_spec": "Uniform brand elements such as typography and color palettes.",
-      "severity_score": 10
-    },
-    {
-      "title": "Eco-Friendly Initiatives",
-      "description": "Promotes sustainability and environmentally friendly practices.",
-      "technical_spec": "Incorporates green technologies and practices in site operations.",
-      "severity_score": 20
+      "title": "Sustainability Commitment",
+      "description": "Highlighting Apple's efforts in environmental sustainability through product and operational transparency.",
+      "technical_spec": "Dedicated sustainability pages and product lifecycle assessments.",
+      "severity_score": 12
     }
   ]
 }

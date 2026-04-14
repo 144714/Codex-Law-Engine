@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 42,
+    "rank": 52,
     "site": "youtube.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "429b6267d92474318df238e1e55dc228"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "c9c3787b6d7ad924f92cd8acc835f7ab"
   },
   "data": [
     {
-      "title": "Content Moderation AI",
-      "description": "AI-driven systems detect and filter inappropriate content.",
-      "technical_spec": "Machine learning algorithms, real-time analysis.",
-      "severity_score": 12
+      "title": "End-to-End Encryption",
+      "description": "Ensures that data between users and YouTube servers is encrypted.",
+      "technical_spec": "TLS/SSL protocols employed for data transmission security.",
+      "severity_score": 5
     },
     {
-      "title": "Secure User Authentication",
-      "description": "Two-factor authentication (2FA) is available for enhanced account security.",
-      "technical_spec": "OAuth 2.0, TOTP authentication apps.",
-      "severity_score": 10
-    },
-    {
-      "title": "HTTPS Encryption",
-      "description": "Encrypted connections protect data in transit.",
-      "technical_spec": "TLS 1.3 with forward secrecy protocols.",
-      "severity_score": 8
+      "title": "Anti-Phishing Mechanisms",
+      "description": "Protects users from phishing attempts by verifying user actions and identities.",
+      "technical_spec": "OAuth 2.0 authentication protocols.",
+      "severity_score": 35
     },
     {
       "title": "DDoS Protection",
-      "description": "Infrastructure to mitigate distributed denial-of-service attacks.",
-      "technical_spec": "Traffic scrubbing and rate-limiting technologies.",
-      "severity_score": 15
+      "description": "Protects against Distributed Denial of Service attacks to ensure service availability.",
+      "technical_spec": "Advanced network filtering and Google Cloud Armor implementations.",
+      "severity_score": 20
     },
     {
-      "title": "Bug Bounty Program",
-      "description": "Incentivizes external security research to find vulnerabilities.",
-      "technical_spec": "Program hosted on platforms like HackerOne.",
-      "severity_score": 20
+      "title": "Spam Detection Algorithms",
+      "description": "Proactively identifies and mitigates spam interactions and content.",
+      "technical_spec": "Machine learning models trained on large datasets.",
+      "severity_score": 45
+    },
+    {
+      "title": "Account Security Alerts",
+      "description": "Notifies users of suspicious activities and security breaches.",
+      "technical_spec": "Integration with Google account security features.",
+      "severity_score": 40
     }
   ]
 }

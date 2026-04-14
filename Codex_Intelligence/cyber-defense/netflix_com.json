@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 46,
+    "rank": 56,
     "site": "netflix.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "a003971871153c0a70a05bb035ebbbff"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "2d4c07fbe42efcd64cb5bc1ff0b5ac4c"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Secure transmission of data from client to server.",
-      "technical_spec": "TLS 1.3 with forward secrecy and DDoS protection.",
-      "severity_score": 50
+      "title": "Encryption Protocols",
+      "description": "Netflix secures user data and video streams with advanced encryption protocols.",
+      "technical_spec": "Utilizes TLS 1.3 for data in transit and AES-256 for data at rest.",
+      "severity_score": 25
     },
     {
       "title": "Identity and Access Management",
-      "description": "Secure user verification and access control.",
-      "technical_spec": "OAuth 2.0, OpenID Connect, and two-step verification.",
+      "description": "Strict access controls and authentication processes to protect user accounts.",
+      "technical_spec": "Multi-factor authentication (MFA) and OAuth 2.0 standards for APIs.",
+      "severity_score": 30
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Comprehensive strategies to prevent Distributed Denial-of-Service attacks.",
+      "technical_spec": "Implementation of AWS Shield Advanced and custom filtering rules.",
+      "severity_score": 20
+    },
+    {
+      "title": "Security Information and Event Management (SIEM)",
+      "description": "Continuous monitoring and analysis of security threats.",
+      "technical_spec": "Leveraging Splunk and AWS CloudTrail to aggregate and analyze logs.",
       "severity_score": 40
     },
     {
-      "title": "Continuous Security Monitoring",
-      "description": "24/7 monitoring for potential security threats.",
-      "technical_spec": "SIEM integrations, anomaly detection with machine learning.",
+      "title": "Data Breach Response",
+      "description": "A robust incident response plan to handle potential security breaches.",
+      "technical_spec": "Regular drills and a dedicated incident response team using playbooks.",
       "severity_score": 35
-    },
-    {
-      "title": "Vulnerability Management Program",
-      "description": "Regular scanning and patching of systems against vulnerabilities.",
-      "technical_spec": "Nessus and in-house security tools for scanning and remediation.",
-      "severity_score": 45
-    },
-    {
-      "title": "Data Protection Compliance",
-      "description": "Adherence to international privacy standards and regulations.",
-      "technical_spec": "GDPR, CCPA compliance tools, and internal privacy controls.",
-      "severity_score": 55
     }
   ]
 }

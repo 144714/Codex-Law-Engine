@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 42,
+    "rank": 52,
     "site": "youtube.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "2fad452d27cf627f127977e20270b99b"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "013bae0d55f50958f80cdf04773a1917"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Navigation elements are designed for ease of use, being larger and in predictable locations.",
-      "technical_spec": "High-click targets, consistent UI design.",
-      "severity_score": 5
+      "title": "Hick's Law Application",
+      "description": "Minimizes the time to make decisions by reducing options without overwhelming the user.",
+      "technical_spec": "Simplified UI with focused content recommendations.",
+      "severity_score": 25
     },
     {
-      "title": "Hick’s Law",
-      "description": "Simplified decision making by reducing choice overload in interfaces.",
-      "technical_spec": "Categorized menus, quick access features.",
-      "severity_score": 6
+      "title": "Fitts's Law Design",
+      "description": "Optimizes the placement of interactive elements for easy access and enhanced usability.",
+      "technical_spec": "Thumb-friendly button placement in mobile interfaces.",
+      "severity_score": 15
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Familiarity from maintaining consistent experiences aligning with user habits.",
-      "technical_spec": "UI resembling common design patterns from frequent web use.",
-      "severity_score": 4
+      "title": "Miller’s Law Usage",
+      "description": "Keeps information chunks within the user’s cognitive limits.",
+      "technical_spec": "Guides and tutorials segmented into concise parts.",
+      "severity_score": 30
     },
     {
-      "title": "Miller’s Law",
-      "description": "Chunking content to help users process information more effectively.",
-      "technical_spec": "Content organization into categories and playlists.",
-      "severity_score": 6
+      "title": "Jakob's Law of Internet Users Expectation",
+      "description": "Aligns the interface to user expectations based on popular web conventions.",
+      "technical_spec": "Standardized navigation and video controls.",
+      "severity_score": 10
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Users remember peak moments and the end, enhancing satisfaction with key highlights.",
-      "technical_spec": "Highlight reels, remembered playback positions.",
-      "severity_score": 7
+      "title": "Law of Prägnanz Focus",
+      "description": "Designs for simplicity and memorability by utilizing clear and unmistakable visuals.",
+      "technical_spec": "Consistent iconography and branding.",
+      "severity_score": 20
     }
   ]
 }

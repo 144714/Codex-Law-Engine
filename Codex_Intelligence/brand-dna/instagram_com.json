@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 49,
+    "rank": 59,
     "site": "instagram.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "f41fff129c3dd4a1189f885b3a13b2f7"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "90150353094b657fe7ed042c1f182ff7"
   },
   "data": [
     {
+      "title": "Visual Storytelling",
+      "description": "Focuses on user-generated content that emphasizes visual engagement.",
+      "technical_spec": "Support for photos, videos, and time-limited stories.",
+      "severity_score": 95
+    },
+    {
       "title": "Community Building",
-      "description": "Fosters community growth and interaction at the core of its mission.",
-      "technical_spec": "Features like hashtags and Stories to amplify user engagement.",
-      "severity_score": 35
+      "description": "Facilitates interactions through likes, comments, and shared content.",
+      "technical_spec": "Algorithm-driven feed prioritizing user engagement.",
+      "severity_score": 90
     },
     {
-      "title": "Visual Content Sharing",
-      "description": "Focused on enabling users to share and discover visual content.",
-      "technical_spec": "High-quality image and video hosting infrastructure.",
-      "severity_score": 25
+      "title": "Authenticity",
+      "description": "Encourages users to share genuine and relatable content.",
+      "technical_spec": "Features like reels and stories for unfiltered expression.",
+      "severity_score": 85
     },
     {
-      "title": "Influencer Ecosystem",
-      "description": "Supports creator economy through tools and features for influencers.",
-      "technical_spec": "Monetization features like brand collaborations and ads.",
-      "severity_score": 45
+      "title": "Trendsetting",
+      "description": "Drives cultural trends and influences fashion, art, and social discourse.",
+      "technical_spec": "Partnerships with influencers and branded hashtags.",
+      "severity_score": 92
     },
     {
-      "title": "Innovation in Features",
-      "description": "Continuous innovation to stay relevant in the social media space.",
-      "technical_spec": "Regular updates with new features like Reels and Shop.",
-      "severity_score": 50
-    },
-    {
-      "title": "Privacy Focus",
-      "description": "Prioritizes user privacy and data protection.",
-      "technical_spec": "Customizable privacy settings and data management options.",
-      "severity_score": 40
+      "title": "Innovation",
+      "description": "Continuous innovation in features, tools, and services available to users.",
+      "technical_spec": "Regular updates incorporating AI and AR technologies.",
+      "severity_score": 88
     }
   ]
 }

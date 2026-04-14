@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 45,
+    "rank": 55,
     "site": "amazon.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "08311088eea17d1b3645a5b5df9141dd"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "46fe5ed4f5a131b5c63137e032aeaf2f"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Design considers the size and distance of clickable elements to ensure ease of access.",
-      "technical_spec": "Large, easy-to-click buttons and intuitive navigation.",
-      "severity_score": 10
+      "title": "Hick’s Law",
+      "description": "Limits cognitive load by simplifying choices for users.",
+      "technical_spec": "Streamlined navigation and focused product displays.",
+      "severity_score": 85
     },
     {
-      "title": "Hick's Law",
-      "description": "Minimizing decision-making times by simplifying choices.",
-      "technical_spec": "Simple, uncluttered UI with clear, essential options.",
-      "severity_score": 18
+      "title": "Fitts’s Law",
+      "description": "Design that facilitates easy accessibility of commonly used actions.",
+      "technical_spec": "Prominently placed 'Buy Now' and 'Add to Cart' buttons.",
+      "severity_score": 90
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "The attractive design is perceived as easier to use.",
-      "technical_spec": "Clean design, consistent color palette, modern aesthetics.",
-      "severity_score": 12
+      "title": "Aesthetic-Usability Effect",
+      "description": "User interfaces are designed to be aesthetically pleasing to improve perceived usability.",
+      "technical_spec": "Consistent font, color schemes, and whitespace usage.",
+      "severity_score": 80
     },
     {
-      "title": "Law of Proximity",
-      "description": "Grouping related items to enhance the website's accessibility and usability.",
-      "technical_spec": "Strategic use of white space and consistent alignment.",
-      "severity_score": 20
+      "title": "Jakob’s Law",
+      "description": "Design aligns with user expectations based on other familiar platforms.",
+      "technical_spec": "Standardized UI patterns known from industry leaders.",
+      "severity_score": 88
     },
     {
-      "title": "Jakob's Law",
-      "description": "Design leveraging user familiarity with common e-commerce interfaces.",
-      "technical_spec": "Standard e-commerce conventions for product browsing and checkout.",
-      "severity_score": 8
+      "title": "Visibility of System Status",
+      "description": "The system keeps users informed about what is happening.",
+      "technical_spec": "Real-time order updates and notifications.",
+      "severity_score": 92
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 41,
+    "rank": 51,
     "site": "google.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "db5e43c6eaabd701cc7876308ca66b55"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "7c5ba9d17f04f20c9a8b03b3ac05e91b"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Google uses a microservices architecture to enhance scalability and isolate services for better management.",
-      "technical_spec": "Services are independently deployable and scalable, communicating via well-defined APIs.",
+      "title": "Load Balancing",
+      "description": "Distributes user requests across multiple servers to ensure availability and reliability.",
+      "technical_spec": "Uses regional load balancers to optimize for low latency.",
       "severity_score": 10
     },
     {
-      "title": "Load Balancing",
-      "description": "Advanced load balancing to manage traffic efficiently across data centers.",
-      "technical_spec": "Global load balancing techniques with Anycast routing and Maglev components.",
-      "severity_score": 5
+      "title": "Microservices",
+      "description": "Google’s backend services are divided into microservices to enhance modularity.",
+      "technical_spec": "Each service is independently deployable using Kubernetes.",
+      "severity_score": 20
     },
     {
-      "title": "Distributed Systems",
-      "description": "Highly distributed system architecture to ensure availability and resilience.",
-      "technical_spec": "Capable of handling vast data with Bigtable, Spanner, and Colossus.",
-      "severity_score": 8
-    },
-    {
-      "title": "Data Replication",
-      "description": "Ensures data is replicated across multiple geographical locations.",
-      "technical_spec": "Cross-region replication with Paxos algorithms for consistency.",
+      "title": "Scalable Datastore",
+      "description": "Google uses a distributed database that scales horizontally.",
+      "technical_spec": "Bigtable and Spanner for different data workloads.",
       "severity_score": 15
     },
     {
-      "title": "Containerization",
-      "description": "Utilization of containers for deploying applications efficiently.",
-      "technical_spec": "Kubernetes orchestrated environments for isolation and resource management.",
-      "severity_score": 12
+      "title": "Global CDN",
+      "description": "Utilizes a global content delivery network to minimize latency.",
+      "technical_spec": "Edge servers around the world cache static content.",
+      "severity_score": 5
+    },
+    {
+      "title": "High Availability",
+      "description": "Designed to be operational 24/7 without downtime.",
+      "technical_spec": "Redundancy and failover mechanisms in place.",
+      "severity_score": 5
     }
   ]
 }

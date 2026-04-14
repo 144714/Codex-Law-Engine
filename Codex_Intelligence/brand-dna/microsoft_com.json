@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 44,
+    "rank": 54,
     "site": "microsoft.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "e3378263426e767e68eff57acd9b497b"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "c413de7751a7ddf4147ddb1b814caf22"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Prioritizing cutting-edge technology and solutions.",
-      "technical_spec": "Continuous R&D in AI, cloud, and productivity tech.",
-      "severity_score": 50
+      "title": "Innovative Technological Leadership",
+      "description": "Brand is synonymous with cutting-edge innovation and leadership in the tech space.",
+      "technical_spec": "Product Development, Industry Research",
+      "severity_score": 98
     },
     {
-      "title": "Customer-Centricity",
-      "description": "Solutions tailored specifically for customer needs.",
-      "technical_spec": "Feedback loops integrated into product development.",
-      "severity_score": 40
+      "title": "Customer-Centric Approach",
+      "description": "Focused on enhancing customer satisfaction and value through tailored solutions.",
+      "technical_spec": "Customer Support Frameworks, User Feedback Mechanisms",
+      "severity_score": 94
     },
     {
-      "title": "Global Accessibility",
-      "description": "Focus on providing inclusive and accessible technology.",
-      "technical_spec": "WCAG compliance and language localization.",
-      "severity_score": 45
+      "title": "Commitment to Sustainability",
+      "description": "Engaged in initiatives to promote sustainability and reduce environmental impact.",
+      "technical_spec": "Carbon Footprint Reduction, Eco-Friendly Policies",
+      "severity_score": 92
     },
     {
-      "title": "Reliability",
-      "description": "Delivering robust and trustworthy solutions.",
-      "technical_spec": "Regular updates and patch management.",
-      "severity_score": 35
+      "title": "Emphasis on Security and Privacy",
+      "description": "Prioritizes security and privacy in all its products and services.",
+      "technical_spec": "GDPR Compliance, Security Features",
+      "severity_score": 96
     },
     {
-      "title": "Security",
-      "description": "Commitment to safeguarding user data and privacy.",
-      "technical_spec": "End-to-end encryption and strict privacy policies.",
-      "severity_score": 55
+      "title": "Inclusive Design Philosophy",
+      "description": "Advocates for inclusivity in its design processes, ensuring accessibility for all.",
+      "technical_spec": "Accessibility Standards, Inclusive UX Practices",
+      "severity_score": 93
     }
   ]
 }

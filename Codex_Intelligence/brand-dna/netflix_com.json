@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 46,
+    "rank": 56,
     "site": "netflix.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "476b8e7446357464940fa897e13e211d"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "9fb0375906df21f983cdf79d48d88294"
   },
   "data": [
     {
-      "title": "Innovative Content Delivery",
-      "description": "Pioneering streaming technology for on-demand viewing experience.",
-      "technical_spec": "Adaptive streaming protocol and custom codec optimization.",
-      "severity_score": 60
-    },
-    {
-      "title": "Global Reach and Localization",
-      "description": "Providing tailored content and interfaces for international audiences.",
-      "technical_spec": "Subtitles, dubbing services, local content offerings.",
-      "severity_score": 50
-    },
-    {
-      "title": "Original Content Production",
-      "description": "Investing in original series and films to draw in subscribers.",
-      "technical_spec": "Partnerships with studios and proprietary content analysis software.",
+      "title": "Innovation in Streaming",
+      "description": "Pioneer in introducing and popularizing video streaming services worldwide.",
+      "technical_spec": "Cutting-edge technological investments and in-house content delivery network.",
       "severity_score": 40
     },
     {
-      "title": "User-Centric Design",
-      "description": "Prioritizing user experience in all aspects of the platform.",
-      "technical_spec": "End-user feedback loops and constant iterative design improvements.",
+      "title": "Global Reach",
+      "description": "Known for a vast international content library catering to diverse languages and cultures.",
+      "technical_spec": "Licensing agreements and original content production across several continents.",
       "severity_score": 30
     },
     {
-      "title": "Data-Driven Decision Making",
-      "description": "Leveraging analytics to guide business and content strategies.",
-      "technical_spec": "Big data tools and predictive analytics for decision processes.",
-      "severity_score": 70
+      "title": "Data-Driven Personalization",
+      "description": "Highly customized content recommendations based on data analysis.",
+      "technical_spec": "Advanced machine learning algorithms analyzing viewing habits and trends.",
+      "severity_score": 35
+    },
+    {
+      "title": "Original Content Production",
+      "description": "Renowned for investing in and producing critically acclaimed original series and movies.",
+      "technical_spec": "Budget allocation in billions for original productions and acquisitions.",
+      "severity_score": 35
+    },
+    {
+      "title": "Customer-Centric Approach",
+      "description": "Dedicated to enhancing viewer experience through a user-friendly interface and customer support.",
+      "technical_spec": "QA processes, feedback loops, and continuous user interface improvements.",
+      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 46,
+    "rank": 56,
     "site": "netflix.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "2c1f94f11ffa1afcf87282b31c8410a0"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "4a56113134370accbc6031594d8cbf8c"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Design for speed and accuracy by placing important buttons within easy reach.",
-      "technical_spec": "Interface design with predictive algorithms for ease of use.",
-      "severity_score": 15
+      "title": "Hick's Law",
+      "description": "Focused on minimizing choices to enhance the speed of decision-making when users select content.",
+      "technical_spec": "Recommendation engine limits the number of top suggestions displayed.",
+      "severity_score": 3
     },
     {
-      "title": "Hick’s Law",
-      "description": "Simplification of options to reduce decision time during navigation.",
-      "technical_spec": "Contextual menus and dynamic content filtering.",
-      "severity_score": 20
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Design accommodates the average person’s span of memory with limited information chunks.",
-      "technical_spec": "Chunking content and progressive disclosure techniques.",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Using familiar design patterns to maintain user's mental models.",
-      "technical_spec": "Consistent UI/UX design across different platforms and devices.",
-      "severity_score": 25
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Creating a visually appealing interface to enhance user perception of functionality.",
-      "technical_spec": "High-fidelity prototypes and A/B testing for design elements.",
+      "title": "Fitts's Law",
+      "description": "Interface designs that minimize the distance and size of interactive elements, ensuring efficient navigation.",
+      "technical_spec": "Optimized UI for consistent button placement and size across devices.",
       "severity_score": 5
+    },
+    {
+      "title": "Doherty Threshold",
+      "description": "Netflix ensures high-speed interactions so that users remain engaged and wait times are reduced.",
+      "technical_spec": "Utilization of asynchronous loading of content and predictive streaming.",
+      "severity_score": 4
+    },
+    {
+      "title": "Serial Position Effect",
+      "description": "User menus leverage the principle that items at the beginning and end of a list are most memorable.",
+      "technical_spec": "Algorithmic curation of content displays to maximize user engagement.",
+      "severity_score": 5
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Design adhering to users' expectations based on patterns learned from similar platforms.",
+      "technical_spec": "Interface consistency across Netflix experiences in mobile, web, and smart TVs.",
+      "severity_score": 2
     }
   ]
 }

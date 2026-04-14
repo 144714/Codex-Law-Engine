@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 45,
+    "rank": 55,
     "site": "amazon.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "688355574e6e6a52c2159125e2c569b3"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "de70c74f27b4319873803bc819589321"
   },
   "data": [
     {
-      "title": "Encryption at Rest and in Transit",
-      "description": "Ensuring data privacy and protection using encryption techniques.",
-      "technical_spec": "AES-256 encryption for data storage; TLS for data in transit.",
-      "severity_score": 20
+      "title": "End-to-End Encryption",
+      "description": "Enables secure transactions by encrypting data throughout transmission.",
+      "technical_spec": "Use of HTTPS, TLS 1.2/1.3 for all communications.",
+      "severity_score": 95
     },
     {
-      "title": "Advanced Threat Detection",
-      "description": "Utilizing AI and machine learning to identify and mitigate potential threats.",
-      "technical_spec": "AWS GuardDuty, AWS Macie for monitoring and anomaly detection.",
-      "severity_score": 25
+      "title": "DDoS Protection",
+      "description": "Protection against Distributed Denial of Service attacks.",
+      "technical_spec": "AWS Shield Advanced and custom traffic filtering rules.",
+      "severity_score": 90
+    },
+    {
+      "title": "Intrusion Detection Systems",
+      "description": "Monitor traffic and detect potential threats in real-time.",
+      "technical_spec": "AWS GuardDuty and network monitoring tools.",
+      "severity_score": 88
     },
     {
       "title": "Identity and Access Management",
-      "description": "Strict IAM policies to control access to resources.",
-      "technical_spec": "AWS IAM roles and permissions policies.",
-      "severity_score": 15
+      "description": "Control over who can access specific resources and data.",
+      "technical_spec": "AWS IAM with multi-factor authentication.",
+      "severity_score": 93
     },
     {
-      "title": "DDoS Resilience",
-      "description": "Protection against distributed denial-of-service attacks.",
-      "technical_spec": "AWS Shield, CDN services for traffic absorption.",
-      "severity_score": 30
-    },
-    {
-      "title": "Patch Management",
-      "description": "Regularly updating and patching systems to protect against vulnerabilities.",
-      "technical_spec": "Automated patching systems, dependency checking.",
-      "severity_score": 18
+      "title": "Data Loss Prevention",
+      "description": "Prevents unauthorized data transfers and potential information breaches.",
+      "technical_spec": "Data encryption at rest and in transit, and regular security audits.",
+      "severity_score": 92
     }
   ]
 }

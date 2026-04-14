@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 49,
+    "rank": 59,
     "site": "instagram.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "6b5c188b0c98710292963082b8525e06"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "1583472972d39adc36c0f854ed9ff6a5"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Minimizes user decision time by simplifying choices.",
-      "technical_spec": "Streamlined UI design for faster interaction and decision-making.",
-      "severity_score": 45
+      "description": "Simplifying choices to streamline user decisions and engagement.",
+      "technical_spec": "Interfaces designed to minimize decision time.",
+      "severity_score": 78
     },
     {
-      "title": "Fitts' Law",
-      "description": "Optimizes the placement of icons and buttons for ease of access.",
-      "technical_spec": "Ensures target size and position facilitate quick user actions.",
-      "severity_score": 50
+      "title": "Fitts's Law",
+      "description": "Optimizing the size, distance, and positioning of interactive elements.",
+      "technical_spec": "Responsive touch targets and gesture controls in UI design.",
+      "severity_score": 85
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Presenting information in chunks to avoid overwhelming the users.",
+      "technical_spec": "UI organizes feeds, stories, and direct messaging into manageable segments.",
+      "severity_score": 80
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Focuses on visual appeal to enhance perceived usability.",
-      "technical_spec": "Utilizes clean, modern design aesthetics to improve user experience.",
-      "severity_score": 40
+      "description": "Creating aesthetically pleasing interfaces perceived as more usable.",
+      "technical_spec": "Employs modern design patterns and visual coherence.",
+      "severity_score": 90
     },
     {
       "title": "Jakob's Law",
-      "description": "Designs for user expectation by aligning with familiar interfaces.",
-      "technical_spec": "Incorporates known patterns and navigation methods from popular apps.",
-      "severity_score": 60
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Groups related elements together to create meaningful associations.",
-      "technical_spec": "Applies spacing and alignment for logical grouping of UI components.",
-      "severity_score": 55
+      "description": "Utilizing familiar design patterns to meet user expectations.",
+      "technical_spec": "Consistency with mobile and web design standards for user familiarity.",
+      "severity_score": 88
     }
   ]
 }

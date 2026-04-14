@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 42,
+    "rank": 52,
     "site": "youtube.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "0904344574283607ab77f3821dde6f2e"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "8dfab8d21ceea39caa98ae2f50a04abc"
   },
   "data": [
     {
-      "title": "User-Generated Content",
-      "description": "Empowers users to create and share their own content.",
-      "technical_spec": "Upload functions, personalization tools.",
-      "severity_score": 2
-    },
-    {
-      "title": "Scalable Platform",
-      "description": "Designed to handle an extensive number of users and high traffic.",
-      "technical_spec": "Cloud infrastructure, elasticity features.",
-      "severity_score": 8
-    },
-    {
-      "title": "Monetization Options",
-      "description": "Various revenue streams for creators through ads and memberships.",
-      "technical_spec": "AdSense integration, channel membership features.",
+      "title": "Diverse Content Availability",
+      "description": "Provides a wide array of content types and formats to cater to different audiences.",
+      "technical_spec": "Supports high-definition video streaming and different codecs.",
       "severity_score": 5
     },
     {
-      "title": "Community Building",
-      "description": "Encourages interaction among users through comments and live chat.",
-      "technical_spec": "Comment sections, live streaming capabilities.",
-      "severity_score": 4
+      "title": "Community Engagement",
+      "description": "Facilitates community building through features such as comments, likes, and subscriptions.",
+      "technical_spec": "Asynchronous social features and notification systems.",
+      "severity_score": 15
     },
     {
-      "title": "Accessible Platform",
-      "description": "Accessible to a wider audience with features like captions and translations.",
-      "technical_spec": "Subtitles, multi-language support, accessibility settings.",
-      "severity_score": 3
+      "title": "Creator Support Initiatives",
+      "description": "Empowers content creators with monetization options and analytical tools.",
+      "technical_spec": "YouTube Studio with analytics dashboards and revenue management tools.",
+      "severity_score": 20
+    },
+    {
+      "title": "High-Quality Streaming Experience",
+      "description": "Focuses on delivering smooth and high-quality video streaming.",
+      "technical_spec": "Adaptive bitrate streaming and dynamic resolution adjustment.",
+      "severity_score": 10
+    },
+    {
+      "title": "Innovative Advertising Platforms",
+      "description": "Encourages innovative ad formats balancing user experience and monetization.",
+      "technical_spec": "Integration of AdSense and machine learning for ad targeting.",
+      "severity_score": 30
     }
   ]
 }

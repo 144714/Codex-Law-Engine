@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 44,
+    "rank": 54,
     "site": "microsoft.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "bc4865e0d56fd4d2f4b510ebdf3f3441"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "2f0006e3bd6d2e63f27d534913f4ec42"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplified navigation to reduce decision time.",
-      "technical_spec": "Minimalistic menu design to facilitate faster choices.",
-      "severity_score": 10
+      "title": "Fitts's Law",
+      "description": "UI elements are large enough and positioned to reduce the time to interact with them effectively.",
+      "technical_spec": "Button Sizes, Click Targets",
+      "severity_score": 88
     },
     {
-      "title": "Fitts's Law",
-      "description": "Accessible clickable elements to enhance user interaction.",
-      "technical_spec": "Optimized button sizes and spacing.",
-      "severity_score": 10
+      "title": "Hick's Law",
+      "description": "Simplifies navigation and decision-making by minimizing options presented at any given time.",
+      "technical_spec": "Menu Structures, Breadcrumbs",
+      "severity_score": 91
     },
     {
       "title": "Jakob's Law",
-      "description": "Consistent user experience leveraging familiar web patterns.",
-      "technical_spec": "UI components consistent with industry standards.",
-      "severity_score": 5
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Limiting information loads to enhance cognitive processing.",
-      "technical_spec": "Grouped relevant information in digestible units.",
-      "severity_score": 15
+      "description": "Designs align with user expectations by utilizing familiar patterns users encounter regularly.",
+      "technical_spec": "Standardized Icons, Consistent Layouts",
+      "severity_score": 93
     },
     {
       "title": "Law of Proximity",
-      "description": "Objects positioned close are perceived as a group.",
-      "technical_spec": "Logical grouping of related content.",
-      "severity_score": 5
+      "description": "Group related elements closely together to make relationships clear.",
+      "technical_spec": "Whitespace Usage, Alignment Practices",
+      "severity_score": 90
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing interfaces that improve perceived usability and user satisfaction.",
+      "technical_spec": "Modern Design Aesthetics, Color Schemes",
+      "severity_score": 89
     }
   ]
 }

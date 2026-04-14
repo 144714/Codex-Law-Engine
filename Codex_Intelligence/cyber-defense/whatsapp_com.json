@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 50,
+    "rank": 60,
     "site": "whatsapp.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "c955481f7195082e4be6c23fc841edd4"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "2cc2b048f0d2a1926794ad2999afb345"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "All messages between users are encrypted.",
-      "technical_spec": "Implements end-to-end encryption using the Signal Protocol.",
-      "severity_score": 90
+      "title": "Two-Factor Authentication",
+      "description": "Additional security layer to protect user accounts.",
+      "technical_spec": "Implements time-based OTP and backup PIN for account access.",
+      "severity_score": 30
     },
     {
-      "title": "Two-Step Verification",
-      "description": "Provides an additional layer of security by requiring a PIN during registration.",
-      "technical_spec": "Optional security feature activated by the user to prevent unauthorized access.",
-      "severity_score": 60
+      "title": "Suspicious Login Alerts",
+      "description": "Automated alerts for suspicious login attempts to users.",
+      "technical_spec": "Machine learning algorithms to identify anomalous login patterns.",
+      "severity_score": 40
     },
     {
-      "title": "Spam Detection",
-      "description": "Prevents the spread of spam and malware through automated systems.",
-      "technical_spec": "Uses machine learning algorithms to identify and block spam messages.",
-      "severity_score": 55
+      "title": "End-to-End Encryption",
+      "description": "Ensures only the communicating users have access to the message content.",
+      "technical_spec": "Signal Protocol Encryption employing a double-ratchet algorithm.",
+      "severity_score": 10
     },
     {
-      "title": "Account Locking",
-      "description": "Accounts can be temporarily locked if suspicious activity is detected.",
-      "technical_spec": "Monitors unusual login patterns and restricts access until verified.",
-      "severity_score": 65
+      "title": "Spam Detection and Filtering",
+      "description": "Automated systems to identify and block spam messages.",
+      "technical_spec": "Behavioral analysis with heuristic methods for spam identification.",
+      "severity_score": 45
     },
     {
-      "title": "Vulnerability Testing",
-      "description": "Regular security audits and penetration testing to detect potential vulnerabilities.",
-      "technical_spec": "Engages third-party security firms to assess the robustness of the platform.",
-      "severity_score": 75
+      "title": "Application Hardening",
+      "description": "Techniques used to protect the application from reverse engineering and exploit attempts.",
+      "technical_spec": "Obfuscation, stack protection, and integrity checks.",
+      "severity_score": 35
     }
   ]
 }

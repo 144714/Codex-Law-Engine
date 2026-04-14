@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 47,
+    "rank": 57,
     "site": "spotify.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "3020014936e1daa6ddef6dcdcbcc8707"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "20a8aeed180e61bdcf0dd44ed7f30a65"
   },
   "data": [
     {
-      "title": "Gestalt Principles",
-      "description": "Uses Gestalt principles to enhance user interface design.",
-      "technical_spec": "Emphasis on similarity, proximity, and continuity in layout arrangements.",
-      "severity_score": 12
-    },
-    {
-      "title": "Hick's Law",
-      "description": "Simplifies decision-making by limiting the number of choices presented to users.",
-      "technical_spec": "Streamlined navigation and minimalistic design focus to aid quicker user choices.",
-      "severity_score": 18
-    },
-    {
       "title": "Fitts's Law",
-      "description": "Optimizes touch targets based on use frequency and required accuracy.",
-      "technical_spec": "Placement and size of interactive elements according to anticipated usage patterns.",
-      "severity_score": 20
+      "description": "Design prioritizes easy access to frequently used features to enhance user experience.",
+      "technical_spec": "Main controls and playlists are placed for quick and intuitive reach.",
+      "severity_score": 80
     },
     {
-      "title": "Miller's Law",
-      "description": "Respects cognitive load limits by grouping information into smaller, digestible clusters.",
-      "technical_spec": "Information architecture designed to support chunking for improved comprehension.",
-      "severity_score": 15
+      "title": "Hick’s Law",
+      "description": "Designed to minimize decision-making time by offering a manageable number of options.",
+      "technical_spec": "Simplified menus and options to facilitate faster user selection processes.",
+      "severity_score": 75
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Creates a visually pleasing interface to enhance perceived usability.",
-      "technical_spec": "High-quality graphics and a consistent color palette ensure cohesive visual design.",
-      "severity_score": 10
+      "description": "Focus on visually pleasing designs that users perceive as easier to use.",
+      "technical_spec": "Consistent use of branding colors, modern typography, and uncluttered layouts.",
+      "severity_score": 82
+    },
+    {
+      "title": "Weber’s Law of Just Noticeable Differences",
+      "description": "Subtle changes in the interface are designed to be intuitive and noticeable.",
+      "technical_spec": "Incremental adjustments in volume slider and progress bar for precise control.",
+      "severity_score": 78
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Groups related elements to imply a relationship, aiding user comprehend of the interface.",
+      "technical_spec": "Proximity is used for grouping tracks, playlists, and controls.",
+      "severity_score": 77
     }
   ]
 }

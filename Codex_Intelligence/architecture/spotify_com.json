@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 47,
+    "rank": 57,
     "site": "spotify.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "8cb3a47185c0eb48612eba27cbd894a0"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "917a05f1d7b41330b0fcd1fda357a39d"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Spotify employs a microservices architecture where each service focuses on a specific functionality.",
-      "technical_spec": "Services communicate over HTTP/REST and utilize data stores like Kafka and Cassandra.",
-      "severity_score": 15
+      "description": "Spotify uses a microservices architecture, enabling independent development, deployment, and scaling of different platform features.",
+      "technical_spec": "Utilizes Kubernetes for container orchestration and Docker for containerization.",
+      "severity_score": 85
     },
     {
-      "title": "Service Discovery",
-      "description": "Dynamically discovers services using a custom-built service registry.",
-      "technical_spec": "Built using Java and Scala, integrating with DNS for service resolution.",
-      "severity_score": 20
+      "title": "Data Pipeline",
+      "description": "A robust data pipeline architecture that processes billions of events per day for user insights and recommendations.",
+      "technical_spec": "Built on Apache Kafka and Apache Storm for real-time processing.",
+      "severity_score": 90
     },
     {
-      "title": "Event-Driven Processing",
-      "description": "Real-time data processing using an event-driven model.",
-      "technical_spec": "Integrates Apache Kafka to enable processing and streaming at scale.",
-      "severity_score": 25
-    },
-    {
-      "title": "Cloud Infrastructure",
-      "description": "Heavily reliant on cloud services for scalable infrastructure.",
-      "technical_spec": "Utilizes Google Cloud Platform for operational scalability and fault tolerance.",
-      "severity_score": 30
+      "title": "Content Delivery Network",
+      "description": "CDN setup ensures fast delivery of music content globally.",
+      "technical_spec": "Integrates with Akamai to distribute music files efficiently.",
+      "severity_score": 75
     },
     {
       "title": "API Gateway",
-      "description": "Centralized API gateway for managing traffic and enforcing security policies.",
-      "technical_spec": "Golang-based implementation with features for throttling, authentication, and routing.",
-      "severity_score": 35
+      "description": "Centralized entry point for managing and exposing APIs, enhancing security and usability.",
+      "technical_spec": "Implemented using Kong API Gateway to handle requests and authentication.",
+      "severity_score": 80
+    },
+    {
+      "title": "High Availability and Load Balancing",
+      "description": "Designed to handle large volumes of simultaneous connections across geographies.",
+      "technical_spec": "Utilizes AWS Elastic Load Balancing and auto-scaling groups.",
+      "severity_score": 88
     }
   ]
 }

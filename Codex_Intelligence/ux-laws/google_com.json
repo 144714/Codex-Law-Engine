@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 41,
+    "rank": 51,
     "site": "google.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "107e3b5991aaa19d84dfb0480b819764"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "6ad22d58422ee05fcaaf3450e45de333"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplified user interface to reduce cognitive load and decision time.",
-      "technical_spec": "Minimalist design with essential options prominently displayed.",
-      "severity_score": 12
+      "title": "Aesthetic-Usability Effect",
+      "description": "Aesthetically pleasing designs are perceived as easier to use.",
+      "technical_spec": "Minimalistic design with ample white space and intuitive layout.",
+      "severity_score": 10
+    },
+    {
+      "title": "Hick’s Law",
+      "description": "Increased number of choices will increase the decision time.",
+      "technical_spec": "Simplified search and task options.",
+      "severity_score": 5
     },
     {
       "title": "Fitts’s Law",
-      "description": "UI elements designed for easy accessibility and interaction.",
-      "technical_spec": "Key navigation elements are large and accessible within easy reach.",
+      "description": "The time to acquire a target is a function of the distance to and size of the target.",
+      "technical_spec": "Important buttons and links are large and placed strategically.",
       "severity_score": 10
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Focus on aesthetics to enhance perceived usability and facilitate trust.",
-      "technical_spec": "Consistent visual design and use of Google's Material Design principles.",
-      "severity_score": 8
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Adherence to the simplicity principle by limiting choices to prevent user overload.",
-      "technical_spec": "Average of 5-9 options visible at a time, clearly categorized.",
+      "title": "Jakob’s Law",
+      "description": "Users spend most of their time on other sites, preferring familiarity.",
+      "technical_spec": "Follows commonly accepted UI/UX patterns.",
       "severity_score": 10
     },
     {
-      "title": "Jakob's Law",
-      "description": "Interfaces are designed to meet user expectations based on common usage patterns.",
-      "technical_spec": "Adoption of interfaces similar to common web expectations to reduce learning curve.",
+      "title": "Miller’s Law",
+      "description": "Average person can only keep 7 (plus or minus 2) items in working memory.",
+      "technical_spec": "Simplified navigation and concise information displays.",
       "severity_score": 5
     }
   ]

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 45,
+    "rank": 55,
     "site": "amazon.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "7824bf9ded31418e737d76777834c4d5"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "0b4ac4d49f0714d6c9fed58fe36ed726"
   },
   "data": [
     {
-      "title": "Customer Obsession",
-      "description": "Amazon's emphasis on providing the best customer experience.",
-      "technical_spec": "24/7 customer support, personalized recommendations.",
-      "severity_score": 5
+      "title": "Customer-Centric",
+      "description": "Focus on providing exceptional customer experiences and satisfaction.",
+      "technical_spec": "24/7 customer support and hassle-free returns.",
+      "severity_score": 97
     },
     {
-      "title": "Innovation Culture",
-      "description": "Commitment to continual innovation across services and products.",
-      "technical_spec": "Investment in R&D, adoption of new technologies.",
-      "severity_score": 10
+      "title": "Innovative Culture",
+      "description": "Pioneering new technologies and services for efficiency and engagement.",
+      "technical_spec": "Integration of AI and machine learning for personalization.",
+      "severity_score": 95
     },
     {
-      "title": "Operational Efficiency",
-      "description": "Streamlining operations to improve service delivery and cost-effectiveness.",
-      "technical_spec": "Warehousing and logistics optimization, lean practices.",
-      "severity_score": 15
+      "title": "Operational Excellence",
+      "description": "Maintaining high standards in all operations and supply chain processes.",
+      "technical_spec": "Advanced logistics and distribution systems.",
+      "severity_score": 90
     },
     {
-      "title": "Broad Selection",
-      "description": "Offering the widest possible variety of products to customers.",
-      "technical_spec": "Expansive product catalog, partnerships with numerous vendors.",
-      "severity_score": 8
+      "title": "Data-Driven Decision Making",
+      "description": "Leverages data analytics to inform strategies and improve offerings.",
+      "technical_spec": "Big data technologies and business intelligence tools.",
+      "severity_score": 93
     },
     {
-      "title": "Leadership Principles",
-      "description": "Guiding principles that shape Amazon's corporate culture and decision-making.",
-      "technical_spec": "Guidelines such as 'Think Big', 'Invent and Simplify'.",
-      "severity_score": 12
+      "title": "Global Reach",
+      "description": "Extensive international presence and market penetration.",
+      "technical_spec": "Local language support and regional product offerings.",
+      "severity_score": 89
     }
   ]
 }

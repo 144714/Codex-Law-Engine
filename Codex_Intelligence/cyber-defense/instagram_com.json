@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 49,
+    "rank": 59,
     "site": "instagram.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "7a0307153f72faaeaaec33228060251c"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "2f904cf657fac049efe3bad8b37fef95"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Provides an additional layer of security for user accounts.",
-      "technical_spec": "Supports 2FA through mobile SMS and authenticator apps.",
-      "severity_score": 60
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "Encrypts user communications from end-to-end to safeguard data.",
-      "technical_spec": "Utilizes TLS v1.2 for data in transit and encryption algorithms like AES and RSA.",
+      "title": "Rate Limiting",
+      "description": "Prevents abuse of the platform by limiting the number of requests a user can make in a given time.",
+      "technical_spec": "Implemented via API management services with custom rate limiting rules.",
       "severity_score": 70
     },
     {
-      "title": "Advanced Threat Detection",
-      "description": "Uses machine learning to identify and mitigate potential threats.",
-      "technical_spec": "Integrates AI algorithms for anomaly detection and behavioral analysis.",
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Enhances account security by requiring a second verification step during login.",
+      "technical_spec": "Supports SMS and authentication apps for second-factor authentication.",
+      "severity_score": 85
+    },
+    {
+      "title": "End-to-End Encryption",
+      "description": "Protects user communications by encrypting messages across the Instagram platform.",
+      "technical_spec": "Utilizes advanced encryption standards (AES) for message and data privacy.",
+      "severity_score": 90
+    },
+    {
+      "title": "Web Application Firewall (WAF)",
+      "description": "Monitors and filters HTTP requests to defend against common web exploits.",
+      "technical_spec": "Integrated with existing infrastructure to filter malicious traffic.",
       "severity_score": 75
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular audits to patch vulnerabilities and enhance security.",
-      "technical_spec": "Implements automated scanning tools and manual penetration testing.",
-      "severity_score": 65
-    },
-    {
-      "title": "Bug Bounty Program",
-      "description": "Invites hackers to report vulnerabilities in exchange for rewards.",
-      "technical_spec": "Manages through platforms like HackerOne for community-driven security.",
-      "severity_score": 55
+      "title": "User Data Anonymization",
+      "description": "Anonymizes personal user data to enhance privacy protection.",
+      "technical_spec": "Uses techniques like hashing and tokenization for personal data.",
+      "severity_score": 80
     }
   ]
 }

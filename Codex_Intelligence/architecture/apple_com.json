@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 43,
+    "rank": 53,
     "site": "apple.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "b1273a328b06dc1f89a75bf48eb46257"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "654f35615434618db38031c9611201bd"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Apple.com uses a microservices architecture to efficiently manage different application functions.",
-      "technical_spec": "Services are decoupled, allowing independent scaling and deployment.",
-      "severity_score": 20
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Implements load balancing to distribute traffic evenly across servers.",
-      "technical_spec": "Utilizes algorithms like Round Robin and Least Connections.",
-      "severity_score": 30
-    },
-    {
-      "title": "Content Delivery Network",
-      "description": "CDN is used to reduce latency by serving content from geographically distributed servers.",
-      "technical_spec": "Partnership with major CDN providers like Akamai.",
-      "severity_score": 15
-    },
-    {
-      "title": "Redundancy and Failover",
-      "description": "Designed with redundancy strategies to ensure high availability.",
-      "technical_spec": "Uses failover clusters and backup systems.",
+      "title": "Responsive Design",
+      "description": "Apple.com implements a responsive design that adapts to different screen sizes and devices.",
+      "technical_spec": "Uses a mobile-first approach with CSS media queries and fluid grids.",
       "severity_score": 10
     },
     {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Utilizes a CDN to distribute web content globally for better load times and availability.",
+      "technical_spec": "Employs Akamai and Apple's own CDN for caching and geo-distribution.",
+      "severity_score": 15
+    },
+    {
+      "title": "Microservices Architecture",
+      "description": "Adopts a microservices architecture for modular development and scalability.",
+      "technical_spec": "Decomposed into independent services managed via container orchestration.",
+      "severity_score": 20
+    },
+    {
+      "title": "Progressive Enhancement",
+      "description": "Enhances the user experience based on browser capabilities without excluding older ones.",
+      "technical_spec": "Uses feature detection scripts and polyfills for legacy support.",
+      "severity_score": 5
+    },
+    {
       "title": "API Gateway",
-      "description": "Centralized API gateway to manage service requests and responses.",
-      "technical_spec": "Handles cross-cutting concerns such as security and routing.",
+      "description": "Centralized entry point for managing API traffic and integration.",
+      "technical_spec": "Built with heavily cached layers using Fastly and Apple's homegrown API gateway solutions.",
       "severity_score": 25
     }
   ]

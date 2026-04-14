@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 44,
+    "rank": 54,
     "site": "microsoft.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "937e7fe8a1c79fc36013940161fa5202"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "076cfe0db28fa2209b308edbfc9c1458"
   },
   "data": [
     {
-      "title": "Cloud Infrastructure",
-      "description": "Microsoft leverages Azure for scalable cloud services.",
-      "technical_spec": "Built on Azure with microservices architecture.",
-      "severity_score": 15
+      "title": "Scalable Cloud Infrastructure",
+      "description": "The site leverages Microsoft's Azure cloud services to dynamically scale resources according to demand.",
+      "technical_spec": "Azure Kubernetes Service (AKS), Azure VNets",
+      "severity_score": 95
     },
     {
-      "title": "Global CDN",
-      "description": "Content delivery network to enhance global site performance.",
-      "technical_spec": "Utilizes Azure CDN for content caching and delivery.",
-      "severity_score": 10
+      "title": "Content Delivery Network",
+      "description": "Usage of a global CDN to ensure fast content delivery and reduced latency for users worldwide.",
+      "technical_spec": "Azure CDN, Geo-DNS routing",
+      "severity_score": 90
     },
     {
-      "title": "Responsive Design",
-      "description": "Adaptive web design ensuring compatibility across devices.",
-      "technical_spec": "CSS media queries and flexible grid systems.",
-      "severity_score": 5
+      "title": "Microservices Architecture",
+      "description": "The site is built using a microservices architecture to enhance modularity and ease of deployment.",
+      "technical_spec": "Azure Service Fabric, Docker Containers",
+      "severity_score": 85
     },
     {
-      "title": "High Availability",
-      "description": "Ensures uptime through redundant systems and failover strategies.",
-      "technical_spec": "Load balancing and automatic failover in place.",
-      "severity_score": 10
+      "title": "High-Availability Setup",
+      "description": "Microsoft.com is designed with redundancy and failover clusters for high availability.",
+      "technical_spec": "Azure Load Balancers, SQL Always On",
+      "severity_score": 92
     },
     {
-      "title": "Integrated Services",
-      "description": "Synergy between Microsoft's services like Office 365 and Azure.",
-      "technical_spec": "Inter-service API connections and single sign-on.",
-      "severity_score": 20
+      "title": "Responsive Web Design",
+      "description": "Adopts responsive web design techniques to ensure compatibility across a range of devices.",
+      "technical_spec": "CSS3 Flexbox, Media Queries",
+      "severity_score": 88
     }
   ]
 }

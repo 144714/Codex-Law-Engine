@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 43,
+    "rank": 53,
     "site": "apple.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "36c878652579df2947989de2927ebdfb"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "061aef30530fca07d6fdf09ce1d87b5f"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Minimizes decision-making time by reducing the number of choices per page.",
-      "technical_spec": "Simple, clean interfaces with prominent call-to-action elements.",
-      "severity_score": 10
-    },
-    {
       "title": "Fitts’s Law",
-      "description": "Designs are optimized such that interactive elements are easily clickable.",
-      "technical_spec": "Consistent use of larger, easily accessible buttons.",
-      "severity_score": 15
+      "description": "Interface elements are sized and positioned based on their expected interaction frequency.",
+      "technical_spec": "Larger click targets for common actions, aligned with user flow analysis.",
+      "severity_score": 8
     },
     {
-      "title": "The Aesthetic-Usability Effect",
-      "description": "Apple.com focuses on visually pleasing design to improve perceived usability.",
-      "technical_spec": "High-quality imagery and balanced color schemes.",
+      "title": "Hick’s Law",
+      "description": "Minimizes decision time by reducing the number of choices presented to users.",
+      "technical_spec": "Simplified navigation menus and product offerings.",
+      "severity_score": 7
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Group related items together to create logical and intuitive navigation paths.",
+      "technical_spec": "Consistent layout with clearly delineated sections.",
       "severity_score": 5
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Arranges key information at the beginning and end of navigation flows.",
-      "technical_spec": "Sequentially structured product pages for effective information delivery.",
-      "severity_score": 20
+      "title": "Miller’s Law",
+      "description": "Limits the amount of information presented at once to avoid cognitive overload.",
+      "technical_spec": "Information chunking and progressive disclosure techniques.",
+      "severity_score": 9
     },
     {
       "title": "Jakob's Law",
-      "description": "Leverages user familiarity by maintaining interface consistency.",
-      "technical_spec": "Consistent navigation and interface elements across products.",
-      "severity_score": 10
+      "description": "Users spend more time on other sites, so Apple.com offers familiar navigation patterns.",
+      "technical_spec": "Adopts well-established UX paradigms, design patterns recognizable to users.",
+      "severity_score": 6
     }
   ]
 }

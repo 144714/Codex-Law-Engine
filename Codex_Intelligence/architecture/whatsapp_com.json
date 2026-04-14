@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 50,
+    "rank": 60,
     "site": "whatsapp.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "12dd56889a797ca3f3286eed2084111a"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "55b33464d6bc506b54794aedc91e8733"
   },
   "data": [
     {
-      "title": "Client-Server Model",
-      "description": "WhatsApp uses a client-server architecture to manage message transmission between users.",
-      "technical_spec": "Messages are sent from the client app to WhatsApp servers which route them to the intended recipient.",
+      "title": "Microservices Architecture",
+      "description": "WhatsApp uses a microservices architecture to enable modular development and easy scaling.",
+      "technical_spec": "Services are split into individual units that handle specific tasks and communicate over APIs.",
       "severity_score": 20
     },
     {
       "title": "End-to-End Encryption",
-      "description": "Messages are encrypted client-to-client, ensuring only the communicating users can read them.",
-      "technical_spec": "Uses the Signal Protocol to encrypt messages with keys stored only on user devices.",
-      "severity_score": 70
+      "description": "Messages are encrypted end-to-end to ensure user privacy.",
+      "technical_spec": "Utilizes Signal Protocol for secure messaging.",
+      "severity_score": 10
     },
     {
-      "title": "Multi-Device Support",
-      "description": "Allows users to access messages and services from multiple devices simultaneously.",
-      "technical_spec": "Synchronizes messages across devices without requiring the primary device to be online.",
-      "severity_score": 50
+      "title": "Real-Time Communication",
+      "description": "System is optimized for real-time communication, especially for voice and video calls.",
+      "technical_spec": "Leverages WebRTC and reliable UDP protocols.",
+      "severity_score": 15
     },
     {
-      "title": "Media Transfer",
-      "description": "Supports the transmission of multimedia messages, including images, videos, and voice notes.",
-      "technical_spec": "Media is compressed, stored temporarily on servers, and downloaded onto devices when received.",
-      "severity_score": 30
+      "title": "Data Synchronization",
+      "description": "Ensures messages are synchronized across all user devices seamlessly.",
+      "technical_spec": "Uses a combination of cloud-based storage and device-specific caching.",
+      "severity_score": 25
     },
     {
-      "title": "Peer-to-Peer Connections",
-      "description": "Facilitates direct connections between devices for certain types of communication.",
-      "technical_spec": "Uses peer-to-peer connection strategies to optimize call quality.",
-      "severity_score": 40
+      "title": "Scalability Framework",
+      "description": "Designed to support millions of concurrent users globally.",
+      "technical_spec": "Distributed systems architecture along with load balancing and horizontal scaling.",
+      "severity_score": 15
     }
   ]
 }

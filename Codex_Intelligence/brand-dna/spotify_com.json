@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 47,
+    "rank": 57,
     "site": "spotify.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "23a0d7cb5b40ed9648ee41ba5829342a"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "8ff18f13d26da20d91322d0bbaed1b9a"
   },
   "data": [
     {
-      "title": "Personalized Experience",
-      "description": "Delivers unique content recommendations based on user listening patterns.",
-      "technical_spec": "Utilizes machine learning algorithms for dynamic content curation.",
-      "severity_score": 14
+      "title": "Curated Content Experience",
+      "description": "Provides highly personalized music recommendations tailored to user preferences.",
+      "technical_spec": "Machine learning algorithms for analyzing listening behavior.",
+      "severity_score": 95
     },
     {
-      "title": "Seamless Cross-Platform Use",
-      "description": "Allows users to access their content across multiple devices without disruption.",
-      "technical_spec": "Implementation of device-sync technologies and state-preservation mechanisms.",
-      "severity_score": 17
+      "title": "Ubiquity Across Devices",
+      "description": "Ensures availability of the service on various platforms and devices.",
+      "technical_spec": "Cross-platform support including iOS, Android, Windows, and macOS.",
+      "severity_score": 93
     },
     {
-      "title": "Social Integration",
-      "description": "Encourages the sharing and exploration of music through social features.",
-      "technical_spec": "Features include collaborative playlists and integration with social networks.",
-      "severity_score": 24
+      "title": "Community and Social Integration",
+      "description": "Facilitates connection and sharing among users through social features.",
+      "technical_spec": "Integration with Facebook, Instagram, and Spotify’s in-app social playlists.",
+      "severity_score": 88
     },
     {
-      "title": "High-Quality Streaming",
-      "description": "Offers high-definition audio streaming options with minimal buffering.",
-      "technical_spec": "Adaptive bitrate streaming technology ensures optimal playback quality.",
-      "severity_score": 22
+      "title": "Innovative Audio Formats",
+      "description": "Offers superior audio quality via different streaming bitrates and formats.",
+      "technical_spec": "Support for formats like Ogg Vorbis and AAC for different streaming qualities.",
+      "severity_score": 90
     },
     {
-      "title": "Innovative Advertising Models",
-      "description": "Utilizes creative formats to engage users within free-tier models.",
-      "technical_spec": "Customizable ad experiences powered by machine learning for targeted delivery.",
-      "severity_score": 28
+      "title": "Consistent Branding",
+      "description": "Maintains cohesive brand identity through consistent use of visuals and tone.",
+      "technical_spec": "Use of Spotify’s distinctive green and black color palette across all platforms.",
+      "severity_score": 86
     }
   ]
 }

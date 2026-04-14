@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 48,
+    "rank": 58,
     "site": "adobe.com",
-    "date": "2026-04-14 01:45",
-    "integrity_hash": "33942e168987afc9c930f6ad6e688948"
+    "date": "2026-04-14 04:39",
+    "integrity_hash": "752847dc9cbcbfb91c7bd0edc62f163d"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Adobe employs simplified choice design to reduce decision time.",
-      "technical_spec": "User Interface Design Principles",
-      "severity_score": 10
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Positioning interactive elements to be easily accessible.",
-      "technical_spec": "Interface Responsiveness",
-      "severity_score": 15
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Displays information in chunks to optimize user memory load.",
-      "technical_spec": "Information Architecture",
-      "severity_score": 20
-    },
-    {
-      "title": "Peak-End Rule",
-      "description": "Focuses on creating memorable peak experiences in user journey.",
-      "technical_spec": "Experience Design Strategies",
+      "description": "Simplifies user decisions by minimizing choices presented.",
+      "technical_spec": "Streamlined UI with dropdown menus and categorized navigation.",
       "severity_score": 25
     },
     {
-      "title": "Jakob's Law",
-      "description": "Designs products to align with user familiarity for ease of use.",
-      "technical_spec": "Usability Heuristics",
-      "severity_score": 5
+      "title": "Fitts's Law",
+      "description": "Designs with efficiency by considering the size and distance of clickable items.",
+      "technical_spec": "Uses large, easily clickable buttons especially on touch interfaces.",
+      "severity_score": 30
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Ensures manageable chunks of information for memory processing.",
+      "technical_spec": "Breaks down content into smaller sections using tabs and accordions.",
+      "severity_score": 20
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Groups related elements to improve user context understanding.",
+      "technical_spec": "Aligns related icons and labels in close proximity to each other.",
+      "severity_score": 15
+    },
+    {
+      "title": "Pareto Principle",
+      "description": "Focuses efforts on the 20% of actions that drive 80% of outcomes.",
+      "technical_spec": "Prioritizes high-impact features within the user interface.",
+      "severity_score": 35
     }
   ]
 }
