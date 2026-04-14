@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 156,
+    "rank": 166,
     "site": "netflix.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "9a25196b98076ea0eda4e63d4a4ddc6a"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "28fb9fbecba172e14edd4a75df20c90c"
   },
   "data": [
     {
+      "title": "Innovative Content",
+      "description": "Continuous investment in original and diverse content production.",
+      "technical_spec": "Production of exclusive series, films, and documentaries across genres and cultures.",
+      "severity_score": 5
+    },
+    {
+      "title": "User Personalization",
+      "description": "Highly personalized user experiences based on viewing habits and preferences.",
+      "technical_spec": "Advanced recommendation algorithms powered by machine learning models.",
+      "severity_score": 6
+    },
+    {
       "title": "Global Reach",
-      "description": "Available in multiple languages and regions, reflecting a universal appeal and adaptability.",
-      "technical_spec": "Localization services, multi-language support",
-      "severity_score": 25
+      "description": "Available in multiple languages and countries to engage a broad audience.",
+      "technical_spec": "Localization and adaptation of content interfaces for regional audiences.",
+      "severity_score": 5
     },
     {
-      "title": "Original Content Production",
-      "description": "Invests significantly in producing exclusive series and films, enhancing brand loyalty.",
-      "technical_spec": "Content curation, partnerships with filmmakers",
-      "severity_score": 30
+      "title": "Brand Recognition",
+      "description": "Strong, recognizable brand identity maintained through consistent messaging and visuals.",
+      "technical_spec": "Global marketing campaigns and strategic partnerships to enhance brand visibility.",
+      "severity_score": 7
     },
     {
-      "title": "User-Centric Innovation",
-      "description": "Continuously integrates user feedback to innovate and improve user engagement on the platform.",
-      "technical_spec": "Feedback loops, A/B testing, agile methodologies",
-      "severity_score": 20
-    },
-    {
-      "title": "Technological Leadership",
-      "description": "Leverages pioneering technology to set industry standards for streaming.",
-      "technical_spec": "State-of-the-art streaming infrastructure, adaptive bitrate streaming",
-      "severity_score": 28
-    },
-    {
-      "title": "Ecosystem Integration",
-      "description": "Streams across multiple devices, ensuring a consistent user experience everywhere.",
-      "technical_spec": "Mobile, Smart TVs, connected devices support",
-      "severity_score": 22
+      "title": "Cutting-Edge Technology",
+      "description": "Commitment to using the latest in technology and innovation to enhance the streaming experience.",
+      "technical_spec": "Investment in R&D for streaming quality improvements, adaptive streaming, and more.",
+      "severity_score": 6
     }
   ]
 }

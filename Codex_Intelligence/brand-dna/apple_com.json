@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 153,
+    "rank": 163,
     "site": "apple.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "04063d8f5ad18ce384f2c9f7c83f96cb"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "c8e15598af465fd2d083a601e34c945b"
   },
   "data": [
     {
-      "title": "Minimalism",
-      "description": "Adopts a clean, minimalist design that reflects Apple's brand ethos focused on simplicity and elegance.",
-      "technical_spec": "Whitespaces, simple typography",
-      "severity_score": 5
+      "title": "Premium Experience",
+      "description": "Reinforces the Apple brand as a provider of high-quality, premium devices and services.",
+      "technical_spec": "Sleek Design, Seamless Functionality",
+      "severity_score": 95
     },
     {
-      "title": "Innovation",
-      "description": "Continuously pushes the boundary by integrating new technologies and cutting-edge design principles.",
-      "technical_spec": "AR features, advanced UIs",
-      "severity_score": 10
+      "title": "Innovative Edge",
+      "description": "Focuses on innovation and cutting-edge technology in product offerings.",
+      "technical_spec": "Interactive Features, State-of-the-Art Animation",
+      "severity_score": 90
     },
     {
       "title": "User-Centric Design",
-      "description": "Design and functionality center around user experience and accessibility.",
-      "technical_spec": "WCAG 2.1 compliance, user feedback loops",
-      "severity_score": 8
+      "description": "Committed to intuitive and user-friendly design across all platforms.",
+      "technical_spec": "Usability Testing, User Feedback Loops",
+      "severity_score": 89
     },
     {
-      "title": "Premium Aesthetic",
-      "description": "The overall visual and functional aspects communicate quality and sophistication.",
-      "technical_spec": "High-quality imagery, retina display optimization",
-      "severity_score": 15
+      "title": "Consistency Across Ecosystem",
+      "description": "Ensures a cohesive experience across all Apple devices and services.",
+      "technical_spec": "Unified Design Language, Ecosystem Integration",
+      "severity_score": 93
     },
     {
-      "title": "Cohesive Ecosystem",
-      "description": "Ensures seamless integration of products and services within the Apple ecosystem.",
-      "technical_spec": "Inter-device communication, continuity features",
-      "severity_score": 12
+      "title": "Privacy First",
+      "description": "Builds trust through transparent privacy policies and robust security measures.",
+      "technical_spec": "User Data Policies, Privacy-by-Design Principles",
+      "severity_score": 88
     }
   ]
 }

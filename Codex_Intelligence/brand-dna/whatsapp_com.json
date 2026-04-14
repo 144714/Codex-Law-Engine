@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 160,
+    "rank": 170,
     "site": "whatsapp.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "4593cc9eb83e0386b8c377e1b118f5c9"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "fc7810e8d7145861f63feeec18114753"
   },
   "data": [
     {
-      "title": "Global Connectivity",
-      "description": "Committed to connecting people worldwide, enabling them to communicate without boundaries.",
-      "technical_spec": "Infrastructure supports international messaging and calls ubiquitously.",
-      "severity_score": 15
-    },
-    {
       "title": "Privacy First",
-      "description": "Brand emphasizes user privacy and security, ingraining trust in the user base.",
-      "technical_spec": "Implements stringent encryption and data protection policies.",
-      "severity_score": 85
+      "description": "Emphasizes user privacy as a core part of the brand identity.",
+      "technical_spec": "End-to-end encryption by default for all communications.",
+      "severity_score": 5
     },
     {
-      "title": "User Accessibility",
-      "description": "Focused on making communication accessible to all demographics globally.",
-      "technical_spec": "Offers lightweight app versions like WhatsApp Web and Business APIs.",
-      "severity_score": 20
+      "title": "Simplicity and Ease of Use",
+      "description": "Maintains a simple and intuitive user interface that caters to a broad audience.",
+      "technical_spec": "Minimalist design with focus on essential features and usability.",
+      "severity_score": 10
     },
     {
-      "title": "Reliability",
-      "description": "Known for delivering a reliable service with minimal downtime.",
-      "technical_spec": "Robust infrastructure and proactive maintenance procedures.",
-      "severity_score": 25
+      "title": "Global Connectivity",
+      "description": "Fosters global communication by being accessible to users worldwide regardless of language or location.",
+      "technical_spec": "Localized app versions and support for over 60 languages.",
+      "severity_score": 7
     },
     {
-      "title": "Innovation-Driven",
-      "description": "Continuously evolves, integrating new technologies to improve user engagement.",
-      "technical_spec": "Fosters innovation such as introducing Status, Payments, etc.",
-      "severity_score": 55
+      "title": "Reliability and Consistency",
+      "description": "Focuses on providing a reliable and consistent messaging experience across all devices.",
+      "technical_spec": "Regular updates and robust back-end infrastructure.",
+      "severity_score": 12
+    },
+    {
+      "title": "Community and Inclusion",
+      "description": "Aims to build a community by creating features that enhance social connections.",
+      "technical_spec": "Group chat features, broadcast lists, and status updates.",
+      "severity_score": 9
     }
   ]
 }

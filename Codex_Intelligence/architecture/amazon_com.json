@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 155,
+    "rank": 165,
     "site": "amazon.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "a75b04a43ebd9fb6167e505f4635676f"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "5b090c997fd51c8724b0fb2351f76521"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Amazon employs a microservices architecture, allowing individual services to operate independently.",
-      "technical_spec": "Decomposition by business capability, RESTful APIs, service mesh utilization.",
+      "description": "Amazon uses a microservices architecture that enables independent service deployment and scaling.",
+      "technical_spec": "Decoupled services designed using REST APIs, often with support for GraphQL for data retrieval.",
       "severity_score": 5
     },
     {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "The architecture supports massive scalability to handle global traffic and operations.",
-      "technical_spec": "AWS Cloud services, auto-scaling groups, load balancing.",
+      "title": "Cloud-Based Infrastructure",
+      "description": "Amazon's infrastructure is heavily reliant on AWS cloud services, providing scalability and flexibility.",
+      "technical_spec": "Utilizes AWS services like EC2, S3, Lambda, and RDS for computing, storage, and serverless operations.",
       "severity_score": 10
     },
     {
-      "title": "High Availability Setup",
-      "description": "Ensures the system is reliable and available even during failures.",
-      "technical_spec": "Multi-region deployment, redundancy, failover mechanisms.",
-      "severity_score": 8
-    },
-    {
-      "title": "Continuous Deployment Pipeline",
-      "description": "Automated processes for deploying code changes quickly and safely.",
-      "technical_spec": "CI/CD with Jenkins, automated testing suites, canary deployment strategy.",
+      "title": "Highly Distributed Systems",
+      "description": "Amazon's backend is a highly distributed system to ensure resilience and high availability.",
+      "technical_spec": "Load balancers, caching layers with Amazon ElastiCache and CDN with CloudFront for distribution.",
       "severity_score": 15
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Utilizes events to decouple software components and improve response times.",
-      "technical_spec": "AWS Lambda, Kinesis, SNS/SQS integration.",
-      "severity_score": 12
+      "title": "Service Oriented Architecture (SOA)",
+      "description": "Adopts SOA to form a complex network of services that communicate over a network.",
+      "technical_spec": "Services communicate via RPC and messaging protocols such as Amazon SQS and SNS.",
+      "severity_score": 8
+    },
+    {
+      "title": "Real-Time Data Processing",
+      "description": "Processes vast amounts of data in real-time to provide recommendations and pricing updates.",
+      "technical_spec": "Leverages AWS Kinesis and Apache Kafka for data streaming and processing.",
+      "severity_score": 20
     }
   ]
 }

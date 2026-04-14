@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 151,
+    "rank": 161,
     "site": "google.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "9c8c9dde1e93e93c9b3a8f252451b2fb"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "72d830ea3e6478f8f3befb331342d719"
   },
   "data": [
     {
-      "title": "Scalable Microservices",
-      "description": "Google uses a microservice architecture to scale its services independently.",
-      "technical_spec": "Kubernetes & Borg for container orchestration; API gateways for inter-service communication",
+      "title": "Server Distribution",
+      "description": "Google deploys a vast network of servers distributed globally to handle requests efficiently.",
+      "technical_spec": "Load balancing across multiple data centers for scalability and redundancy.",
       "severity_score": 20
     },
     {
-      "title": "Global Load Balancing",
-      "description": "Efficiently distributes incoming traffic across multiple servers.",
-      "technical_spec": "Google's proprietary load balancing algorithms; Anycast for DNS",
+      "title": "Monolithic and Microservices Hybrid",
+      "description": "Utilizes both monolithic architecture and microservices to optimize performance.",
+      "technical_spec": "Front-end monolith integrated with scalable back-end microservices.",
+      "severity_score": 30
+    },
+    {
+      "title": "High Availability",
+      "description": "Ensures maximum uptime through redundant systems and failover protocols.",
+      "technical_spec": "95%+ uptime SLA with automatic failover and disaster recovery systems.",
       "severity_score": 10
     },
     {
-      "title": "Distributed Data Storage",
-      "description": "Data is stored across multiple data centers with redundancy for high availability.",
-      "technical_spec": "Colossus (next-gen GFS); Bigtable; Spanner",
+      "title": "Content Delivery Network",
+      "description": "Employs a CDN for faster content delivery worldwide.",
+      "technical_spec": "Geo-distributed CDN using edge caches to minimize latency.",
       "severity_score": 15
     },
     {
-      "title": "Edge Caching",
-      "description": "Content delivery networks for faster load times.",
-      "technical_spec": "Google Cloud CDN; multi-region edge locations",
-      "severity_score": 10
-    },
-    {
-      "title": "Elastic Compute",
-      "description": "Automatic scaling based on demand.",
-      "technical_spec": "Google Cloud VMs; Compute Engine with autoscaler",
-      "severity_score": 15
+      "title": "Scalable Databases",
+      "description": "Uses distributed databases to handle massive amounts of data.",
+      "technical_spec": "Google Spanner and Bigtable for real-time data scalability.",
+      "severity_score": 25
     }
   ]
 }

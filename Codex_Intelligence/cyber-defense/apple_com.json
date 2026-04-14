@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 153,
+    "rank": 163,
     "site": "apple.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "98c0a9b9dc56e060aede4269ef3c5b4f"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "b322162a32b8f53751b6ca1d21e7772f"
   },
   "data": [
     {
-      "title": "HTTPS Everywhere",
-      "description": "Ensures secure communication by enforcing HTTPS across all transactions and user interactions.",
-      "technical_spec": "SSL/TLS certificates",
-      "severity_score": 5
+      "title": "Data Encryption",
+      "description": "Uses advanced encryption standards to protect user data during transit and storage.",
+      "technical_spec": "TLS 1.3, AES-256",
+      "severity_score": 95
     },
     {
-      "title": "Advanced Web Application Firewall",
-      "description": "Deploys a web application firewall to protect against common threats like XSS and SQL injection.",
-      "technical_spec": "ModSecurity, Imperva",
-      "severity_score": 15
-    },
-    {
-      "title": "DDoS Mitigation",
-      "description": "Infrastructure is designed to absorb and mitigate Distributed Denial of Service attacks.",
-      "technical_spec": "Proactive traffic analytics, scrubbing centers",
-      "severity_score": 10
+      "title": "Secure Authentication",
+      "description": "Multi-factor authentication mechanisms to ensure secure user access.",
+      "technical_spec": "2FA, OAuth 2.0",
+      "severity_score": 85
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts periodic security audits and penetration testing to identify and fix vulnerabilities.",
-      "technical_spec": "OWASP Top Ten compliance",
-      "severity_score": 25
+      "description": "Conducts periodic security audits and vulnerability scans to maintain site integrity.",
+      "technical_spec": "Penetration Testing, Automated Vulnerability Scanners",
+      "severity_score": 90
     },
     {
-      "title": "Data Encryption",
-      "description": "Sensitive data is encrypted both in transit and at rest to ensure privacy and data integrity.",
-      "technical_spec": "AES-256, RSA",
-      "severity_score": 5
+      "title": "DDoS Protection",
+      "description": "Implements measures to guard against distributed denial-of-service attacks.",
+      "technical_spec": "Traffic Filtering, Rate Limiting",
+      "severity_score": 88
+    },
+    {
+      "title": "Intrusion Detection Systems",
+      "description": "Deploys systems to detect and respond to suspicious network activities promptly.",
+      "technical_spec": "Network Monitoring Tools, Anomaly Detection Algorithms",
+      "severity_score": 87
     }
   ]
 }

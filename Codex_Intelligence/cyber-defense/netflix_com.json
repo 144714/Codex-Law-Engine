@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 156,
+    "rank": 166,
     "site": "netflix.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "1161da2d2078cef9822878487128925b"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "b44fc8c0e178b5267f9ba93ba5a999c4"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Ensures secure transmission of user data and streaming content via encryption protocols.",
-      "technical_spec": "TLS, AES-256 encryption, DRM technology",
-      "severity_score": 25
+      "title": "Global Threat Monitoring",
+      "description": "Netflix implements extensive global monitoring for potential threats.",
+      "technical_spec": "Advanced telemetry and monitoring solutions for threat intelligence.",
+      "severity_score": 8
+    },
+    {
+      "title": "Encryption Standards",
+      "description": "Strong encryption protocols are used to protect data at rest and in transit.",
+      "technical_spec": "TLS 1.2 and AES-256 encryption standards for secure communication.",
+      "severity_score": 9
     },
     {
       "title": "Identity and Access Management",
-      "description": "Manages user identities and access permissions across services.",
-      "technical_spec": "OAuth2, session management, SSO",
-      "severity_score": 30
+      "description": "Robust IAM systems ensure that access is controlled and audited effectively.",
+      "technical_spec": "Use of AWS IAM for defining roles and permissions management.",
+      "severity_score": 7
     },
     {
-      "title": "Persistent Threat Monitoring",
-      "description": "Identification and mitigation of threats through continuous monitoring.",
-      "technical_spec": "SIEM systems, anomaly detection, honeypots",
-      "severity_score": 35
+      "title": "API Security",
+      "description": "Security of APIs is a priority to protect against vulnerability exploitation.",
+      "technical_spec": "Implementation of OAuth and continuous scanning for API security issues.",
+      "severity_score": 8
     },
     {
-      "title": "Security Testing",
-      "description": "Regular security tests like penetration testing and security audits to minimize vulnerabilities.",
-      "technical_spec": "Automated vulnerability scanners, OWASP Top Ten assessments",
-      "severity_score": 20
-    },
-    {
-      "title": "Data Privacy Compliance",
-      "description": "Compliance with data privacy laws including GDPR and CCPA.",
-      "technical_spec": "User consent management, data encryption, privacy policies",
-      "severity_score": 28
+      "title": "Data Privacy Regulations",
+      "description": "Compliance with global data privacy laws to protect user data.",
+      "technical_spec": "Enforcement of GDPR, CCPA, and other relevant privacy frameworks.",
+      "severity_score": 10
     }
   ]
 }

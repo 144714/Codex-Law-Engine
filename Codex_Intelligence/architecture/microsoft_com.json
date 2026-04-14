@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 154,
+    "rank": 164,
     "site": "microsoft.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "c646c9e32e33936d95ce7e693708375d"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "5b9764e67b09526f9d90ee1423e71c8f"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Microsoft employs a microservices architecture to enhance scalability and maintainability of its services.",
-      "technical_spec": "Independently deployable services communicating via APIs.",
-      "severity_score": 92
-    },
-    {
-      "title": "Cloud-Native Design",
-      "description": "The site leverages Azure cloud infrastructure for robust performance and reliability.",
-      "technical_spec": "Utilizes containers, serverless functions, and managed databases.",
-      "severity_score": 95
+      "title": "Modular Web Components",
+      "description": "Implementation of modular components to enhance flexibility and scalability.",
+      "technical_spec": "Utilizes web components and shadow DOM to isolate component styles and functionality.",
+      "severity_score": 10
     },
     {
       "title": "Responsive Design",
-      "description": "The layout of microsoft.com adjusts seamlessly across various device sizes.",
-      "technical_spec": "CSS media queries, flexible grids, and responsive images.",
-      "severity_score": 88
+      "description": "Ensures optimal presentation on various devices through flexible grids and layouts.",
+      "technical_spec": "CSS media queries and grid/flexbox layout techniques.",
+      "severity_score": 20
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "A CDN is used to distribute static and dynamic content efficiently across global users.",
-      "technical_spec": "Utilizes Azure CDN for caching and reducing latency.",
-      "severity_score": 90
+      "title": "Content Delivery Network",
+      "description": "Global CDN to efficiently deliver web content to users based on their geographic location.",
+      "technical_spec": "Leverages Azure CDN for low-latency content distribution.",
+      "severity_score": 15
     },
     {
-      "title": "Progressive Web Application (PWA)",
-      "description": "Enhances user experience with PWA capabilities for offline usability.",
-      "technical_spec": "Service workers and web application manifest are implemented.",
-      "severity_score": 85
+      "title": "Microservices Architecture",
+      "description": "Decomposition of services into small, independent components to enhance deployability and scaling.",
+      "technical_spec": "Utilizes Kubernetes and Docker for container orchestration.",
+      "severity_score": 25
+    },
+    {
+      "title": "API-Driven Interactions",
+      "description": "Utilizes RESTful and GraphQL APIs to power dynamically fetched content.",
+      "technical_spec": "APIs are versioned and documented, enabling third-party integrations.",
+      "severity_score": 30
     }
   ]
 }

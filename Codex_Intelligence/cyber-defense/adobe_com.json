@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 158,
+    "rank": 168,
     "site": "adobe.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "f50f27991ac786331718dfe806bed45c"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "39a089d89567ce206473683c0ab35130"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Data protection through encryption protocols to ensure privacy and security across communications.",
-      "technical_spec": "SSL/TLS encryption, 256-bit encryption standards.",
-      "severity_score": 25
+      "title": "SSL/TLS Encryption",
+      "description": "Data is encrypted in transit using industry-standard SSL/TLS protocols.",
+      "technical_spec": "TLS 1.2 and 1.3 are supported to ensure secure connections.",
+      "severity_score": 5
     },
     {
-      "title": "Authentication and Authorization",
-      "description": "Robust identity verification processes to protect user accounts.",
-      "technical_spec": "OAuth 2.0, Single Sign-On (SSO), Multi-factor authentication (MFA).",
-      "severity_score": 30
+      "title": "Identity and Access Management (IAM)",
+      "description": "Strong authentication measures are enforced for user login.",
+      "technical_spec": "Incorporation of OAuth 2.0 for secure API authentication and authorization.",
+      "severity_score": 15
     },
     {
-      "title": "Network Security Architecture",
-      "description": "Layered security protocols designed to protect against unauthorized access and attacks.",
-      "technical_spec": "Firewalls, intrusion detection systems (IDS), VPNs.",
-      "severity_score": 40
+      "title": "Web Application Firewall (WAF)",
+      "description": "WAF protects the site from various web-based attacks.",
+      "technical_spec": "AWS WAF is configured with custom rules for threat mitigation.",
+      "severity_score": 20
     },
     {
-      "title": "Data Loss Prevention (DLP)",
-      "description": "Technologies and processes deployed to prevent data breaches and unauthorized data transfers.",
-      "technical_spec": "Endpoint protection, data encryption, monitoring tools.",
+      "title": "Security Incident and Event Management (SIEM)",
+      "description": "Systems are monitored for suspicious activities with a centralized SIEM.",
+      "technical_spec": "Deployed using Splunk for real-time security insights.",
       "severity_score": 35
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Ongoing security assessments to identify vulnerabilities and improve defenses.",
-      "technical_spec": "Penetration testing, vulnerability scanning, audit trails.",
-      "severity_score": 45
+      "title": "Vulnerability Management",
+      "description": "Regular vulnerability assessments and patching are conducted.",
+      "technical_spec": "Common Vulnerability Scoring System (CVSS) is employed.",
+      "severity_score": 30
     }
   ]
 }

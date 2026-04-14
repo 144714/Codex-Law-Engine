@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 151,
+    "rank": 161,
     "site": "google.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "1304449bd11e5e01ac1f5941130873dc"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "2077f336871615db7e9e47aec97c30a9"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Encrypts data from user endpoints to Google's servers.",
-      "technical_spec": "TLS 1.3 with stronger encryption algorithms",
-      "severity_score": 25
+      "title": "Encryption in Transit and At Rest",
+      "description": "Data is encrypted during transmission and storage to prevent unauthorized access.",
+      "technical_spec": "TLS/SSL for data in transit; AES-256 encryption for data at rest.",
+      "severity_score": 5
+    },
+    {
+      "title": "Multi-Factor Authentication",
+      "description": "Mandatory two-step verification for enhanced security.",
+      "technical_spec": "Authentication via password and secondary method like SMS or app-based token.",
+      "severity_score": 10
     },
     {
       "title": "Advanced Threat Detection",
-      "description": "Utilizes machine learning to identify and mitigate threats.",
-      "technical_spec": "Google Threat Analysis Group (TAG); Event threat detection",
-      "severity_score": 50
+      "description": "Employs machine learning models to detect and mitigate threats in real-time.",
+      "technical_spec": "AI-based anomaly detection and intrusion prevention systems.",
+      "severity_score": 15
     },
     {
-      "title": "Zero Trust Networking",
-      "description": "Default-deny policy applied at network level.",
-      "technical_spec": "BeyondCorp architecture; context-aware access control",
-      "severity_score": 30
+      "title": "Bug Bounty Program",
+      "description": "Incentivizes external researchers to find and report security vulnerabilities.",
+      "technical_spec": "Reward-based program with public disclosure policy.",
+      "severity_score": 20
     },
     {
-      "title": "Patch Management",
-      "description": "Regular updates and patches to address vulnerabilities.",
-      "technical_spec": "Automated patching through Google Workspace",
-      "severity_score": 40
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Protections against distributed denial-of-service attacks.",
-      "technical_spec": "Google Cloud Armor; global load balancing",
-      "severity_score": 60
+      "title": "Regular Security Audits",
+      "description": "Conducts continuous security assessments to identify potential vulnerabilities.",
+      "technical_spec": "Internal and third-party security audits and penetration testing.",
+      "severity_score": 10
     }
   ]
 }

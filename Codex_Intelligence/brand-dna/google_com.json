@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 151,
+    "rank": 161,
     "site": "google.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "9f063ff4016ead563693aab84614cc7a"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "65e39ceff760b1a03b59198319211751"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Continuous evolution in technological advancements and service offerings.",
-      "technical_spec": "Regular updates on AI, cloud services, and search algorithms.",
-      "severity_score": 10
+      "title": "Innovation Leader",
+      "description": "Consistently pioneers breakthroughs in technology.",
+      "technical_spec": "Commitment to extensive R&D and fostering a culture of innovation.",
+      "severity_score": 30
     },
     {
-      "title": "Reliability",
-      "description": "Consistent service uptime and accurate search results.",
-      "technical_spec": "Multiple redundant data centers; mature failover strategies.",
-      "severity_score": 5
+      "title": "Global Accessibility",
+      "description": "Focuses on providing access to information globally.",
+      "technical_spec": "Localization and adaptation of services to fit various regions.",
+      "severity_score": 25
     },
     {
       "title": "User-Centric Design",
-      "description": "Designs focused on enhancing user experience.",
-      "technical_spec": "Intuitive and simple UI; personalized experiences based on user data.",
-      "severity_score": 8
-    },
-    {
-      "title": "Global Reach",
-      "description": "Accessible and localized services for users worldwide.",
-      "technical_spec": "Support for multiple languages and regional data compliance.",
-      "severity_score": 12
-    },
-    {
-      "title": "Security and Privacy",
-      "description": "Commitment to protecting user data.",
-      "technical_spec": "End-to-end data encryption; user data anonymization techniques.",
+      "description": "Prioritizes user experience in all products and services.",
+      "technical_spec": "Iterative design process with continuous user feedback.",
       "severity_score": 20
+    },
+    {
+      "title": "Trust and Transparency",
+      "description": "Ensures user trust through clear policies and secure practices.",
+      "technical_spec": "Open privacy policies and transparent data handling.",
+      "severity_score": 10
+    },
+    {
+      "title": "Sustainability Commitment",
+      "description": "Dedicated to environmental sustainability and carbon neutrality.",
+      "technical_spec": "Implementing green energy solutions in data centers and operations.",
+      "severity_score": 15
     }
   ]
 }

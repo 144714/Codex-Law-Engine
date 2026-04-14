@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 152,
+    "rank": 162,
     "site": "youtube.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "7eb0187d25b6b4b6cf6da68291a2c942"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "dddc331331deb3611c86c378b7bf5559"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Design principle used to increase usability by optimizing click targets.",
-      "technical_spec": "Interactive elements are strategically placed and sized for easier targeting and click accuracy.",
-      "severity_score": 10
+      "title": "Hick's Law",
+      "description": "Reduces decision fatigue by limiting the number of options presented to users upon directly entering the platform.",
+      "technical_spec": "Optimized landing page with recommended content based on user history.",
+      "severity_score": 85
     },
     {
-      "title": "Hick's Law",
-      "description": "Streamlines decision-making by reducing choice overload in user interfaces.",
-      "technical_spec": "Simplifies the user journey by presenting only necessary options to avoid decision paralysis.",
-      "severity_score": 15
+      "title": "Fitts's Law",
+      "description": "Ensures buttons and clickable areas are optimally sized and placed for easy access by users.",
+      "technical_spec": "Proximity-based placements; minimum size standards for clickable elements.",
+      "severity_score": 80
     },
     {
       "title": "Jakob's Law",
-      "description": "Design consistency across platforms increases user familiarity and trust.",
-      "technical_spec": "Maintains uniform design patterns for consistent user experiences across all devices.",
-      "severity_score": 5
+      "description": "Leverages familiar UI patterns from other Google services to reduce learning curves for new users.",
+      "technical_spec": "Consistent navigation and layout borrowed from broader Google ecosystem.",
+      "severity_score": 78
     },
     {
-      "title": "Miller's Law",
-      "description": "Ensures user memory capacity is not overwhelmed by limiting data chunking.",
-      "technical_spec": "Divides information into manageable chunks to enhance content comprehension and retention.",
-      "severity_score": 10
+      "title": "Gestalt Principles",
+      "description": "Uses principles of visual perception such as similarity and proximity to enhance content organization.",
+      "technical_spec": "Thumbnail design and categorization, UI grouping elements.",
+      "severity_score": 82
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "Users perceive aesthetically pleasing design as more usable.",
-      "technical_spec": "Prioritizes visual design elements to enhance aesthetics while maintaining functional usability.",
-      "severity_score": 5
+      "title": "Aesthetic-Usability Effect",
+      "description": "Creates an appealing interface that users perceive as easier to use.",
+      "technical_spec": "Design philosophy focuses on aesthetics via color theory, typography, and layout standards.",
+      "severity_score": 84
     }
   ]
 }

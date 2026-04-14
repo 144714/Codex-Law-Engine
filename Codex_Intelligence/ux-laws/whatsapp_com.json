@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 160,
+    "rank": 170,
     "site": "whatsapp.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "2e0d1cbf98abc3982216d75aef41c513"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "a3e929b89523fcddcd5e0d5cb9a03ed9"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "WhatsApp simplifies choices to make decisions faster, like in message interactions.",
-      "technical_spec": "Minimalistic design with clear options to prevent choice overload.",
-      "severity_score": 25
+      "description": "WhatsApp’s streamlined UI reduces user decision time by minimizing options.",
+      "technical_spec": "Simple navigation with clear, concise menu options.",
+      "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "The app design facilitates quick selection of commonly used features through larger touch targets.",
-      "technical_spec": "Strategically placed buttons and icons to accommodate finger size.",
-      "severity_score": 15
+      "title": "Fitt’s Law",
+      "description": "Optimizes user experience by placing frequent actions within easy reach on the interface.",
+      "technical_spec": "Larger touch targets and thumb-friendly zones.",
+      "severity_score": 12
     },
     {
-      "title": "Miller’s Law",
-      "description": "Keeps interface clean, aligning with users’ ability to process 7±2 items.",
-      "technical_spec": "Uses grouping and minimal layers in the UI for navigation efficiency.",
-      "severity_score": 40
+      "title": "Jakob's Law",
+      "description": "Users expect your site to work the same way as all the other sites they already know.",
+      "technical_spec": "Consistent design patterns and interaction models used across the app.",
+      "severity_score": 18
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Adopts familiar design patterns to leverage users’ prior knowledge.",
-      "technical_spec": "Conventional chat app layout and interaction models.",
-      "severity_score": 35
+      "title": "Miller's Law",
+      "description": "Limits the amount of information presented at once to prevent cognitive overload.",
+      "technical_spec": "Chunking of information and clear segmentation in chats.",
+      "severity_score": 14
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "Focuses on creating an aesthetically pleasing interface that users find intuitive.",
-      "technical_spec": "Utilizes modern design elements and consistent color schemes.",
-      "severity_score": 20
+      "title": "Aesthetic-Usability Effect",
+      "description": "Aesthetic design gives a better first impression and slower manifestation of usability issues.",
+      "technical_spec": "Modern design with focus on minimalism and visual balance.",
+      "severity_score": 8
     }
   ]
 }

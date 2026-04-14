@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 156,
+    "rank": 166,
     "site": "netflix.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "da1d91cd06174861541a5f6a096db65b"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "849ce5991faf993f4ddb17e7c0249842"
   },
   "data": [
     {
+      "title": "Hick’s Law",
+      "description": "The service experience is designed for simplicity with minimal choice overload.",
+      "technical_spec": "Streamlined UI with intuitive navigation paths and decision-making flow.",
+      "severity_score": 4
+    },
+    {
       "title": "Fitts's Law",
-      "description": "Interactive elements are large and easy to click upon to reduce the cognitive load and time to interact.",
-      "technical_spec": "Button sizes, spaced navigation elements",
-      "severity_score": 12
+      "description": "Interactive elements are placed and sized to be easily accessible and clickable.",
+      "technical_spec": "Large, distinguishable buttons and elements within the user interface.",
+      "severity_score": 3
     },
     {
-      "title": "Hick's Law",
-      "description": "Simplified choices to speed up decision making and enhance user experience.",
-      "technical_spec": "Minimalist design, straightforward navigation, content preview feature",
-      "severity_score": 16
+      "title": "Aesthetic-Usability Effect",
+      "description": "Attractive design is leveraged to enhance perceived usability and user satisfaction.",
+      "technical_spec": "Use of high-quality visual design, fonts, and animations.",
+      "severity_score": 5
     },
     {
-      "title": "Miller’s Law",
-      "description": "The information is grouped into categories to improve user understanding and memory retention.",
-      "technical_spec": "Content categorization, recommendational clustering",
-      "severity_score": 20
+      "title": "Law of Proximity",
+      "description": "Elements that relate to each other are placed in close proximity for quick association.",
+      "technical_spec": "Logical grouping of categories, recommendations, and action buttons.",
+      "severity_score": 4
     },
     {
-      "title": "Jakob's Law",
-      "description": "Adapts familiar design patterns users are accustomed to, reducing user friction.",
-      "technical_spec": "Platform consistency, standardized interface elements",
-      "severity_score": 18
-    },
-    {
-      "title": "Aesthetic Usability Effect",
-      "description": "Employs a visually appealing design that also enhances perceived usability.",
-      "technical_spec": "High-quality visuals, animations, seamless transitions",
-      "severity_score": 14
+      "title": "Jakob’s Law",
+      "description": "Design aligns with user expectations and existing habits for content consumption.",
+      "technical_spec": "Interface follows conventional streaming service features and navigation styles.",
+      "severity_score": 3
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 157,
+    "rank": 167,
     "site": "spotify.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "ef87858722c5e3541c4bdc17697c4422"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "45c50c41875292884ead7c75b5d17fe1"
   },
   "data": [
     {
-      "title": "User Data Encryption",
-      "description": "Ensures user data is encrypted both in transit and at rest to prevent unauthorized access.",
-      "technical_spec": "TLS, AES-256 encryption",
-      "severity_score": 80
+      "title": "Encryption",
+      "description": "Spotify employs advanced encryption techniques to protect user data both at rest and in transit.",
+      "technical_spec": "AES-256 encryption for data at rest, TLS 1.2 for data in transit.",
+      "severity_score": 15
     },
     {
-      "title": "Multi-Factor Authentication",
-      "description": "MFA is required for administrative access to sensitive data or systems.",
-      "technical_spec": "OTP apps, SMS verification",
-      "severity_score": 70
+      "title": "Access Controls",
+      "description": "Strict access controls safeguard Spotify's infrastructure from unauthorized access.",
+      "technical_spec": "Role-based access control (RBAC) combined with multi-factor authentication.",
+      "severity_score": 20
     },
     {
-      "title": "Threat Detection Systems",
-      "description": "Implements proactive threat detection to identify and neutralize security threats.",
-      "technical_spec": "SIEM, anomaly detection algorithms",
-      "severity_score": 85
+      "title": "Continuous Monitoring",
+      "description": "24/7 security monitoring to detect and respond to potential threats in real-time.",
+      "technical_spec": "Uses SIEM systems for anomaly detection and threat intelligence.",
+      "severity_score": 25
     },
     {
-      "title": "Advanced Firewalls",
-      "description": "Deploys advanced firewall systems to protect against unauthorized access.",
-      "technical_spec": "Web application firewall, intrusion detection systems",
-      "severity_score": 75
+      "title": "Incident Response",
+      "description": "A well-defined incident response plan ensures quick mitigation of security threats.",
+      "technical_spec": "Incident response team operates using playbooks and post-mortem analyses.",
+      "severity_score": 30
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Periodically conducts security audits to ensure compliance and identify vulnerabilities.",
-      "technical_spec": "Penetration testing, vulnerability scanning",
-      "severity_score": 65
+      "title": "Vulnerability Management",
+      "description": "Regular vulnerability assessments and penetration testing help identify and mitigate potential security flaws.",
+      "technical_spec": "Automated vulnerability scanning tools complemented by manual pen tests.",
+      "severity_score": 35
     }
   ]
 }

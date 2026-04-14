@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 158,
+    "rank": 168,
     "site": "adobe.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "30db420477e5ac130cf54cd590fb4625"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "356f05061af6afcc4a4d97fbfc24b953"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Continuous focus on creativity and innovation in digital media products.",
-      "technical_spec": "R&D investments, cutting-edge technology adoption.",
-      "severity_score": 65
+      "title": "Creative Excellence",
+      "description": "Commitment to providing best-in-class creative tools and resources.",
+      "technical_spec": "Integration with Adobe Creative Cloud for a seamless creative ecosystem.",
+      "severity_score": 5
     },
     {
-      "title": "User-Centric Design",
-      "description": "Commitment to designing products and services around user needs and experiences.",
-      "technical_spec": "User feedback loops, iterative design processes.",
-      "severity_score": 55
+      "title": "Innovation",
+      "description": "Continual investment in cutting-edge technology and features.",
+      "technical_spec": "Leverages AI technologies like Adobe Sensei for enhanced capabilities.",
+      "severity_score": 10
+    },
+    {
+      "title": "Customer-Centric Approach",
+      "description": "Focused on delivering solutions tailored to customer needs.",
+      "technical_spec": "Utilizes user data insights to tailor personalized experiences.",
+      "severity_score": 20
+    },
+    {
+      "title": "Design Simplicity",
+      "description": "Maintains an intuitive and clean design to enhance usability.",
+      "technical_spec": "Emphasis on smooth navigation and user-friendly interfaces.",
+      "severity_score": 15
     },
     {
       "title": "Global Reach",
-      "description": "Expansive presence ensuring Adobe products are accessible worldwide.",
-      "technical_spec": "Localization, international partnerships.",
-      "severity_score": 50
-    },
-    {
-      "title": "Sustainability",
-      "description": "Efforts towards sustainability and reducing environmental impact.",
-      "technical_spec": "Eco-friendly initiatives, digital and cloud-based solutions.",
-      "severity_score": 30
-    },
-    {
-      "title": "Community Engagement",
-      "description": "Active participation and support for creative communities and creators.",
-      "technical_spec": "Workshops, forums, and events.",
-      "severity_score": 45
+      "description": "Products and services are offered worldwide, supporting diverse languages and cultures.",
+      "technical_spec": "Backend and frontend systems support multiple locales and currencies.",
+      "severity_score": 25
     }
   ]
 }

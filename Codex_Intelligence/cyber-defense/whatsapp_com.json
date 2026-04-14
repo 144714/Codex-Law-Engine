@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 160,
+    "rank": 170,
     "site": "whatsapp.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "6c25ac06220fef0174684a79fbe1e689"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "81c4b700ca09a8532092ef84c8c96088"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Messages on WhatsApp are secured using end-to-end encryption.",
-      "technical_spec": "Encryption protocols ensuring only communicating users can read messages.",
-      "severity_score": 90
+      "title": "Data Encryption",
+      "description": "WhatsApp encrypts all user data to protect it from unauthorized access.",
+      "technical_spec": "AES-256 encryption for data at rest, TLS 1.3 for data in transit.",
+      "severity_score": 5
     },
     {
-      "title": "Two-Step Verification",
-      "description": "WhatsApp offers two-step verification for enhanced account security.",
-      "technical_spec": "User-enabled feature requiring a PIN for account verification.",
-      "severity_score": 70
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Added security layer that requires users to verify their identity using a secondary method.",
+      "technical_spec": "Optional 6-digit code setup for account verification.",
+      "severity_score": 25
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts frequent security audits to identify and resolve potential vulnerabilities.",
-      "technical_spec": "Engages in both internal and external audits in coordination with cybersecurity experts.",
-      "severity_score": 65
+      "description": "Conducts regular security assessments to identify and mitigate vulnerabilities.",
+      "technical_spec": "Internal and external security audits followed by third-party penetration testing.",
+      "severity_score": 30
     },
     {
-      "title": "Automatic Security Updates",
-      "description": "WhatsApp regularly updates its application to protect against emerging threats.",
-      "technical_spec": "Pushes security patches without user intervention.",
-      "severity_score": 75
+      "title": "Threat Detection Systems",
+      "description": "Implements systems to constantly monitor and detect potential security threats.",
+      "technical_spec": "Use of AI and machine learning algorithms for advanced threat detection.",
+      "severity_score": 20
     },
     {
-      "title": "Spam Detection",
-      "description": "Uses algorithms to detect and prevent spam across its platform.",
-      "technical_spec": "Automated systems monitoring message patterns and frequency.",
-      "severity_score": 60
+      "title": "User Privacy Controls",
+      "description": "Provides users with control over their privacy settings including last seen, profile picture visibility, etc.",
+      "technical_spec": "Granular privacy settings accessible via the app’s settings menu.",
+      "severity_score": 15
     }
   ]
 }

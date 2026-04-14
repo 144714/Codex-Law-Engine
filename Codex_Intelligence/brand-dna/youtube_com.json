@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 152,
+    "rank": 162,
     "site": "youtube.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "ec14093d55e3026028c28f4292d288b5"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "8483a460805cf6a4736ab683f9fbc5ff"
   },
   "data": [
     {
-      "title": "User-Centric Content Platform",
-      "description": "Focuses on empowering creators and providing engaging content for users.",
-      "technical_spec": "Prioritizes personalized recommendations and community engagement tools.",
-      "severity_score": 5
+      "title": "User-Centricity",
+      "description": "Focuses on providing a personalized experience to each user based on their preferences and interactions.",
+      "technical_spec": "AI-based recommendation algorithms.",
+      "severity_score": 90
+    },
+    {
+      "title": "Innovation",
+      "description": "Continually introduces new features and functionalities to maintain leadership in the video-sharing domain.",
+      "technical_spec": "Rapid prototyping and deployment strategies.",
+      "severity_score": 92
     },
     {
       "title": "Global Accessibility",
-      "description": "Ensures platform and content reach a diverse, global audience.",
-      "technical_spec": "Supports multiple languages, closed captions, and various accessibility features.",
-      "severity_score": 10
+      "description": "Provides services in multiple languages and caters to diverse user needs around the world.",
+      "technical_spec": "Localization practices, automatic translation, and subtitle generation.",
+      "severity_score": 94
     },
     {
-      "title": "Innovation in Video Streaming",
-      "description": "Lead innovator in video streaming technology and multimedia experiences.",
-      "technical_spec": "Develops new codecs and streaming technologies for enhanced video quality and efficiency.",
-      "severity_score": 5
+      "title": "Community Engagement",
+      "description": "Fosters a vibrant community by allowing user interactions via likes, comments, and shares.",
+      "technical_spec": "Real-time message and notification systems.",
+      "severity_score": 88
     },
     {
-      "title": "Monetization Model",
-      "description": "Provides monetization opportunities for content creators through advertising and subscriptions.",
-      "technical_spec": "Leverage AdSense integration and subscription services for diversified revenue streams.",
-      "severity_score": 20
-    },
-    {
-      "title": "Community Building",
-      "description": "Facilitates social interaction and community building around video content.",
-      "technical_spec": "Offers commenting, sharing, and social media integration features to encourage user interaction.",
-      "severity_score": 10
+      "title": "Brand Consistency",
+      "description": "Maintains a consistent brand image and experience across all platforms and touchpoints.",
+      "technical_spec": "Unified design language and brand guidelines.",
+      "severity_score": 89
     }
   ]
 }

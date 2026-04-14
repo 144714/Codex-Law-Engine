@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 155,
+    "rank": 165,
     "site": "amazon.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "f98c20188475e5c800e036859e863686"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "e51d808c0051bd669fac22332caac591"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Encrypts data both at rest and in transit to protect sensitive information.",
-      "technical_spec": "AES-256 encryption for data at rest, TLS/SSL for data in-transit.",
-      "severity_score": 20
+      "title": "Encryption",
+      "description": "Data encryption both at rest and in transit to ensure confidentiality.",
+      "technical_spec": "Employs AES-256 encryption standards and TLS 1.2 for data protection.",
+      "severity_score": 75
     },
     {
-      "title": "Intrusion Detection Systems",
-      "description": "Detects unauthorized access or anomalies in the network.",
-      "technical_spec": "AWS GuardDuty, VPC Flow Logs, anomaly detection algorithms.",
-      "severity_score": 25
+      "title": "Identity and Access Management",
+      "description": "Robust IAM policies to manage user permissions securely.",
+      "technical_spec": "AWS IAM service for fine-grained access permissions and two-factor authentication.",
+      "severity_score": 60
     },
     {
       "title": "DDoS Protection",
-      "description": "Designed to mitigate distributed denial-of-service attacks.",
-      "technical_spec": "AWS Shield, rate limiting, Web Application Firewall (WAF).",
-      "severity_score": 28
+      "description": "Comprehensive protection against distributed denial-of-service attacks.",
+      "technical_spec": "AWS Shield and AWS WAF integrated to mitigate DDoS threats.",
+      "severity_score": 70
     },
     {
-      "title": "Access Control",
-      "description": "Strict access control policies to prevent unauthorized access.",
-      "technical_spec": "IAM roles and policies, multi-factor authentication (MFA).",
-      "severity_score": 18
+      "title": "Regular Security Audits",
+      "description": "Conducts regular audits and penetration testing to identify vulnerabilities.",
+      "technical_spec": "Utilizes third-party audits and internal testing using AWS Inspector.",
+      "severity_score": 50
     },
     {
-      "title": "Security Audits and Compliance",
-      "description": "Regular security audits to ensure compliance with industry standards.",
-      "technical_spec": "ISO 27001 certification, SOC 1/2/3 compliance checks.",
-      "severity_score": 22
+      "title": "Incident Response Teams",
+      "description": "Dedicated teams for rapid response to security incidents and breaches.",
+      "technical_spec": "Trained to handle incidents following AWS Security Incident Response procedures.",
+      "severity_score": 65
     }
   ]
 }

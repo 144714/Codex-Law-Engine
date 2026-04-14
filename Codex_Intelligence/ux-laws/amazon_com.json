@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 155,
+    "rank": 165,
     "site": "amazon.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "270aa23b93f19c2db0ee0b16b13ca836"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "b1713e9b4af2318b600ef8e26f448737"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies decision-making process by minimizing choices.",
-      "technical_spec": "Streamlined checkout process, intuitive navigation.",
-      "severity_score": 12
+      "title": "Hick's Law",
+      "description": "Simplifying choices enhances decision-making speed for users on the platform.",
+      "technical_spec": "Utilizes structured navigation menus to minimize user effort in finding products.",
+      "severity_score": 40
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizes the size and placement of clickable elements.",
-      "technical_spec": "Easily accessible 'Add to Cart' buttons, enlarged touch targets.",
-      "severity_score": 10
+      "title": "Fitts's Law",
+      "description": "Design elements are optimized for ease of access and interaction.",
+      "technical_spec": "Larger clickable areas and strategic positioning of call-to-action buttons.",
+      "severity_score": 35
     },
     {
-      "title": "Miller’s Law",
-      "description": "Maintains cognitive load by grouping information into chunks.",
-      "technical_spec": "Product categories, filter options, selection assistant guides.",
-      "severity_score": 14
+      "title": "Jakob's Law",
+      "description": "Leveraging users' existing mental models by maintaining familiar browsing experiences.",
+      "technical_spec": "Consistent user interface that aligns with standard e-commerce site practices.",
+      "severity_score": 30
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Design is consistent with user expectations based on their previous experiences.",
-      "technical_spec": "Standardized design patterns, consistent UI elements across services.",
-      "severity_score": 9
+      "title": "Aesthetic-Usability Effect",
+      "description": "An aesthetically pleasing design is perceived to be easier to use.",
+      "technical_spec": "Employs modern, clean design elements that enhance visual engagement.",
+      "severity_score": 25
     },
     {
-      "title": "Tesler’s Law",
-      "description": "Manages complexity by hiding sophisticated functionalities behind simple interfaces.",
-      "technical_spec": "Advanced search options, recommendation engines, customizable user settings.",
-      "severity_score": 15
+      "title": "Law of Proximity",
+      "description": "Grouped related elements together to streamline user flow and comprehension.",
+      "technical_spec": "Effective use of spacing and grouping in product listings and site navigation.",
+      "severity_score": 36
     }
   ]
 }

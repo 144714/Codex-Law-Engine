@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 159,
+    "rank": 169,
     "site": "instagram.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "806a63fd838c11783c98d008bd6a8024"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "de86cf24b75ad65571d513a512961b11"
   },
   "data": [
     {
-      "title": "Account Security",
-      "description": "Implementations such as two-factor authentication and suspicious login detection protect user accounts.",
-      "technical_spec": "2FA, CAPTCHA, IP monitoring.",
-      "severity_score": 90
-    },
-    {
       "title": "Data Encryption",
-      "description": "User data is encrypted both in transit and at rest to protect user privacy and confidentiality.",
-      "technical_spec": "TLS 1.3, AES-256 encryption standards.",
-      "severity_score": 92
+      "description": "Encryption in transit and at rest protects user data from unauthorized access.",
+      "technical_spec": "Uses TLS for data in transit and AES-256 for data at rest.",
+      "severity_score": 20
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular security audits and a bug bounty program help identify and mitigate vulnerabilities.",
-      "technical_spec": "Regular penetration testing, HackerOne partnership.",
-      "severity_score": 85
+      "title": "Access Control",
+      "description": "Strict access control measures are in place to limit data exposure to unauthorized users.",
+      "technical_spec": "Role-based access control (RBAC) is enforced across systems.",
+      "severity_score": 25
     },
     {
-      "title": "Privacy Controls",
-      "description": "Multiple layers of permissions and privacy settings allow users to control their data visibility.",
-      "technical_spec": "OAuth 2.0 authentication, privacy dashboards.",
-      "severity_score": 88
+      "title": "Threat Detection Systems",
+      "description": "Intrusion detection systems (IDS) monitor and analyze network traffic to identify suspicious activities.",
+      "technical_spec": "Employs IDS services like Snort in conjunction with machine learning algorithms.",
+      "severity_score": 35
     },
     {
-      "title": "Fraud Detection Algorithms",
-      "description": "Smart algorithms to detect and prevent fake accounts and spam activities.",
-      "technical_spec": "Machine learning models for anomaly detection.",
-      "severity_score": 89
+      "title": "Regular Security Audits",
+      "description": "Continuous security audits and penetration tests identify potential vulnerabilities.",
+      "technical_spec": "Vulnerability assessments with platforms like Nessus and engagement with third-party security firms.",
+      "severity_score": 30
+    },
+    {
+      "title": "Account Authentication",
+      "description": "Multi-factor authentication (MFA) enhances user account security.",
+      "technical_spec": "Integration with authentication platforms like Auth0 for MFA options.",
+      "severity_score": 15
     }
   ]
 }

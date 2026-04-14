@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 159,
+    "rank": 169,
     "site": "instagram.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "9d1d708d2fd5ee97df97c477b826e425"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "da5fa2bab4a2b5c6e65b3a77d964df3c"
   },
   "data": [
     {
-      "title": "Consistency Principle",
-      "description": "Instagram's UI maintains consistency across devices, fostering usability and predictability.",
-      "technical_spec": "Cross-platform UI frameworks, Material Design guidelines.",
-      "severity_score": 80
+      "title": "Fitts’s Law",
+      "description": "Design elements are optimized for ease of access and interaction speed.",
+      "technical_spec": "Interactive elements like buttons are positioned to reduce cursor travel time.",
+      "severity_score": 10
+    },
+    {
+      "title": "Hick’s Law",
+      "description": "Streamlined interface design helps minimize user decision time by limiting choices.",
+      "technical_spec": "User feeds are personalized to show the most relevant content using AI-driven algorithms.",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Content is organized to enhance cognitive processing by limiting visible information.",
+      "technical_spec": "Cap on visible notifications and post previews to prevent information overload.",
+      "severity_score": 15
+    },
+    {
+      "title": "Zeigarnik Effect",
+      "description": "Encourages users to complete incomplete tasks within the application.",
+      "technical_spec": "UI prompts and notifications draw attention to unfinished activities or messages.",
+      "severity_score": 25
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Visual appeal enhances the perceived usability of the app, encouraging usage and engagement.",
-      "technical_spec": "Minimalistic design, responsive design principles.",
-      "severity_score": 85
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Optimizes the size and positioning of interactive elements for faster accessibility.",
-      "technical_spec": "Touch optimization, accessibility features.",
-      "severity_score": 82
-    },
-    {
-      "title": "Hick's Law",
-      "description": "Reduces decision-making time by minimizing menu options to essential features.",
-      "technical_spec": "Streamlined navigation, prioritized content.",
-      "severity_score": 83
-    },
-    {
-      "title": "Doherty Threshold",
-      "description": "Achieves high-speed interactions with immediate responses to user inputs.",
-      "technical_spec": "Asynchronous operations, preloading images.",
-      "severity_score": 86
+      "description": "Visually appealing designs are perceived as easier to use.",
+      "technical_spec": "High-resolution images and intuitive icons improve the visual appeal and usability.",
+      "severity_score": 15
     }
   ]
 }

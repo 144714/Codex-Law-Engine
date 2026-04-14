@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 153,
+    "rank": 163,
     "site": "apple.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "607d58e2e525ac50294875c19d13ce63"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "976c0565b1eef7d37150449a127e857d"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "The design layout prioritizes easily clickable buttons and interfaces to minimize user effort.",
-      "technical_spec": "Large CTA buttons, interactive zones",
-      "severity_score": 10
-    },
-    {
       "title": "Hick's Law",
-      "description": "Balances choice and simplicity by limiting the number of user options to improve decision-making.",
-      "technical_spec": "Streamlined navigation, simple menu structures",
-      "severity_score": 15
+      "description": "Minimizes choices to reduce the decision time for users.",
+      "technical_spec": "Simple Navigation, Streamlined Content",
+      "severity_score": 80
     },
     {
-      "title": "Miller's Law",
-      "description": "Limits the information presented at any one time to avoid cognitive overload.",
-      "technical_spec": "Chunking of information, minimalistic page design",
-      "severity_score": 12
+      "title": "Fitts's Law",
+      "description": "Design is optimized for ease of use by making interactive elements easily selectable.",
+      "technical_spec": "Large Buttons, Accessible Menus",
+      "severity_score": 92
     },
     {
-      "title": "Law of Proximity",
-      "description": "Organizes related items together to create a gestalt effect in listing and product displays.",
-      "technical_spec": "CSS flexbox and grid, visual grouping",
-      "severity_score": 8
+      "title": "Aesthetic-Usability Effect",
+      "description": "An aesthetically pleasing design is perceived to be easier to use.",
+      "technical_spec": "Minimalistic Aesthetic, High-Quality Imagery",
+      "severity_score": 93
     },
     {
-      "title": "Zeigarnik Effect",
-      "description": "Encourages task completion by highlighting unfinished actions or incomplete user inputs.",
-      "technical_spec": "Progress bars, stateful interfaces",
-      "severity_score": 20
+      "title": "Law of Common Region",
+      "description": "Groups related elements together to create logical associations.",
+      "technical_spec": "Card Layout, Consistent Spacing",
+      "severity_score": 89
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Users prefer websites to work the same way as other sites they frequently visit.",
+      "technical_spec": "Familiar Interface Patterns, Standard Web Conventions",
+      "severity_score": 88
     }
   ]
 }

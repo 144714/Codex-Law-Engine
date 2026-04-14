@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 156,
+    "rank": 166,
     "site": "netflix.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "a4d0689edb357be3805bab1c31f9d6a2"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "a4264d2d26c7d147fb16a03f9b27fc99"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "The site is built on a distributed set of services that handle different functions within the platform.",
-      "technical_spec": "APIs, cloud-native deployments, service discovery, orchestration",
-      "severity_score": 20
+      "title": "Microservices",
+      "description": "Netflix utilizes a microservices architecture to handle its vast operations, allowing independent deployment and scaling of different services.",
+      "technical_spec": "Deploy hundreds of independent microservices, each handling a distinct aspect of functionality.",
+      "severity_score": 5
     },
     {
-      "title": "CDN Usage",
-      "description": "Utilizes Content Delivery Networks to ensure fast streaming and low latency across different regions.",
-      "technical_spec": "AWS CloudFront, Akamai, Fastly",
-      "severity_score": 15
+      "title": "Cloud-based Infrastructure",
+      "description": "The service runs on AWS, leveraging cloud computing for scalability and redundancy.",
+      "technical_spec": "Amazon Web Services support for dynamic scaling and high availability.",
+      "severity_score": 3
     },
     {
-      "title": "Scalable Data Architecture",
-      "description": "Supports large-scale data processing to cater recommendations and personalized experiences.",
-      "technical_spec": "Apache Kafka, Hadoop, BigData solutions",
-      "severity_score": 18
+      "title": "CDN Integration",
+      "description": "Netflix employs a content delivery network (CDN) to distribute video content efficiently.",
+      "technical_spec": "Use of Open Connect to cache content closer to users for reduced latency.",
+      "severity_score": 4
     },
     {
-      "title": "Dynamic Rendering",
-      "description": "Adapts content rendering based on device capabilities and user region.",
-      "technical_spec": "NodeJS, React, server-side rendering",
-      "severity_score": 22
+      "title": "Event-Driven Architecture",
+      "description": "This approach allows Netflix to react to events in real time, improving responsiveness.",
+      "technical_spec": "Implementation of Kafka for managing streaming data and message queues.",
+      "severity_score": 7
     },
     {
-      "title": "Resiliency and Fault Tolerance",
-      "description": "Ensures service continuity with redundancy and automated failovers.",
-      "technical_spec": "Circuit breakers, bulkheads, Chaos Monkey",
-      "severity_score": 10
+      "title": "Resilience Patterns",
+      "description": "Netflix designs systems with high fault tolerance to maintain service amidst failures.",
+      "technical_spec": "Hystrix and other circuits for real-time fault tolerance and isolation.",
+      "severity_score": 6
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 154,
+    "rank": 164,
     "site": "microsoft.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "746c634e33426c093bff2b30b5c9dacd"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "e13f3a3b17ace19bc0568f28e7eb8243"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Reduces the time it takes for users to make decisions by simplifying navigation.",
-      "technical_spec": "Streamlined menu options and guided user paths.",
-      "severity_score": 89
+      "title": "Hick’s Law",
+      "description": "Simplifies user decision-making by limiting options on a given page.",
+      "technical_spec": "Minimalist design approach with focused CTAs.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizes target sizes and positions to improve user interactions.",
-      "technical_spec": "Large, easily clickable buttons and links.",
-      "severity_score": 85
+      "title": "Fitts’s Law",
+      "description": "Designs interactive elements big enough to be easily selectable.",
+      "technical_spec": "Large, touch-friendly buttons and intuitive spacing.",
+      "severity_score": 10
     },
     {
       "title": "Law of Proximity",
-      "description": "Items close to each other are perceived as related, aiding cognitive processing.",
-      "technical_spec": "Consistent use of whitespace and grouping strategies.",
-      "severity_score": 87
+      "description": "Groups related elements together to improve content organization.",
+      "technical_spec": "Consistent spacing and alignment to create logical groups.",
+      "severity_score": 10
     },
     {
-      "title": "Miller’s Law",
-      "description": "Attempts to lessen cognitive load by organizing content in chunks easy for users to process.",
-      "technical_spec": "Logical segmentation of information across the site.",
-      "severity_score": 86
+      "title": "Law of Uniform Connectedness",
+      "description": "Creates visual connections using uniform colors and lines.",
+      "technical_spec": "Consistent color schemes and iconography throughout the site.",
+      "severity_score": 5
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Users prefer your site to work the same way as all other sites they already know.",
-      "technical_spec": "Leverages common web conventions and familiar design patterns.",
-      "severity_score": 84
+      "title": "Aesthetic-Usability Effect",
+      "description": "Ensures that aesthetically pleasing designs are perceived as easier to use.",
+      "technical_spec": "High-fidelity graphics and smooth animations to guide user interaction.",
+      "severity_score": 5
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 152,
+    "rank": 162,
     "site": "youtube.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "191b1728b9a647719659ab96bdc3bc1b"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "916f26aadd3ae0723c7f167f06b9e22e"
   },
   "data": [
     {
       "title": "DDoS Protection",
-      "description": "Safeguards the platform against distributed denial of service attacks.",
-      "technical_spec": "Uses network layer defenses and rate limiting to mitigate DDoS threats.",
-      "severity_score": 30
+      "description": "Deploys measures to detect and mitigate distributed denial-of-service attacks that could disrupt service availability.",
+      "technical_spec": "Google Shield, TCP/UDP filtering, and regular expression blacklisting.",
+      "severity_score": 95
     },
     {
-      "title": "TLS Encryption",
-      "description": "Encrypts data in transit between users and the YouTube servers.",
-      "technical_spec": "Utilizes TLS 1.3 for secure communication channels and enhanced privacy.",
-      "severity_score": 10
+      "title": "Data Encryption",
+      "description": "Ensures that data in transit and at rest is encrypted to protect against unauthorized access.",
+      "technical_spec": "TLS for data in transit; AES-256 for data at rest.",
+      "severity_score": 92
     },
     {
-      "title": "User Authentication",
-      "description": "Protects user accounts from unauthorized access.",
-      "technical_spec": "Implements OAuth 2.0, two-factor authentication (2FA), and reCAPTCHA.",
-      "severity_score": 20
+      "title": "Multi-Factor Authentication",
+      "description": "Increases account security by requiring additional verification steps during login.",
+      "technical_spec": "Integration with Google Authenticator and third-party services for 2FA.",
+      "severity_score": 88
     },
     {
-      "title": "Security Patching",
-      "description": "Regular security updates prevent vulnerabilities in the system.",
-      "technical_spec": "Automated patch management tools are used for timely updates and vulnerability management.",
-      "severity_score": 15
+      "title": "Intrusion Detection Systems",
+      "description": "Implements IDS to monitor and analyze network traffic for signs of attempts to compromise the system.",
+      "technical_spec": "Pattern recognition algorithms and anomaly detection software.",
+      "severity_score": 89
     },
     {
-      "title": "Content Monitoring",
-      "description": "Automated systems and algorithms monitor content for policy violations.",
-      "technical_spec": "Artificial Intelligence and machine learning are employed to identify and flag inappropriate content.",
-      "severity_score": 25
+      "title": "Regular Security Audits",
+      "description": "Conducts regular penetration tests and code reviews to identify and mitigate vulnerabilities.",
+      "technical_spec": "Red team exercises, static and dynamic code analysis tools.",
+      "severity_score": 91
     }
   ]
 }

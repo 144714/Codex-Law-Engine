@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 157,
+    "rank": 167,
     "site": "spotify.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "2c52d713b498f174b81496afb7013b63"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "14ad34472f7711ecf61c2a6cb14f5818"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Design principle focusing on the size and placement of interactive elements for ease of use.",
-      "technical_spec": "Large buttons, closer interactive elements",
-      "severity_score": 30
-    },
-    {
       "title": "Hick's Law",
-      "description": "Simplifies user choices by reducing the number of options presented at one time.",
-      "technical_spec": "Progressive disclosure, simplified menus",
-      "severity_score": 25
+      "description": "Spotify's interface minimizes choice overload by presenting users with categorized music options.",
+      "technical_spec": "Intuitive navigation structure aids in quick decision-making.",
+      "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Design approach that limits information chunks to enhance user memory retention.",
-      "technical_spec": "Information chunking, focused content display",
-      "severity_score": 40
+      "title": "Fitts's Law",
+      "description": "Interactive elements are sized and positioned to ensure quick and easy access for users.",
+      "technical_spec": "Responsive design adapts touch targets for various devices.",
+      "severity_score": 20
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Grouping related items together enhances the user's ability to understand and interact with the content.",
+      "technical_spec": "Semantic grouping in UI/UX design.",
+      "severity_score": 15
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Aesthetic designs are perceived as more usable, even if they are not necessarily more efficient.",
-      "technical_spec": "Visually pleasing interfaces, engaging color schemes",
-      "severity_score": 35
+      "description": "Aesthetic enhancements increase user trust and satisfaction, improving perception of ease of use.",
+      "technical_spec": "High-resolution graphics and consistent branding.",
+      "severity_score": 15
     },
     {
       "title": "Jakob's Law",
-      "description": "Expectations are based on other sites; the site should align with user expectations built elsewhere.",
-      "technical_spec": "Standard navigation patterns, consistent design",
-      "severity_score": 50
+      "description": "Users expect consistent navigation patterns similar to other applications they use, improving learnability.",
+      "technical_spec": "Cross-application consistency in interface design.",
+      "severity_score": 20
     }
   ]
 }

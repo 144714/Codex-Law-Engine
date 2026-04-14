@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 155,
+    "rank": 165,
     "site": "amazon.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "eac07c7a8403ad84710ae013b2c1d0fb"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "57984a5408dacbabf84e2db132bd2e75"
   },
   "data": [
     {
       "title": "Customer Obsession",
-      "description": "Prioritizes customer satisfaction across all operations.",
-      "technical_spec": "Customer feedback loops, 24/7 customer support, personalized recommendations.",
+      "description": "Dedicated focus on customer experience and satisfaction.",
+      "technical_spec": "24/7 customer service, real-time feedback loops, and personalized recommendations.",
+      "severity_score": 20
+    },
+    {
+      "title": "Innovation",
+      "description": "Continuous innovation in retail, technology, and customer service.",
+      "technical_spec": "Investment in R&D and integration of cutting-edge AI and machine learning technologies.",
       "severity_score": 18
     },
     {
       "title": "Operational Excellence",
-      "description": "Focuses on improvement of operational processes.",
-      "technical_spec": "Lean management principles, continuous improvement cycles, Six Sigma methods.",
-      "severity_score": 20
-    },
-    {
-      "title": "Long-term Thinking",
-      "description": "Decisions are made with a focus on sustainable growth over time.",
-      "technical_spec": "Investment in R&D, energy-efficient data centers, community economic initiatives.",
-      "severity_score": 15
-    },
-    {
-      "title": "Innovation as a Core Value",
-      "description": "Constantly seeks to introduce new technologies and solutions.",
-      "technical_spec": "Research labs, patent portfolios, startup incubator programs.",
+      "description": "Commitment to efficient and scalable operations.",
+      "technical_spec": "Automated warehouses, advanced logistics technology, and efficient supply chain management.",
       "severity_score": 22
     },
     {
-      "title": "Global Scalability",
-      "description": "Designed to maximize outreach and operations on a global scale.",
-      "technical_spec": "Localization strategies, global fulfillment network, diverse product offerings.",
-      "severity_score": 25
+      "title": "Long-Term Thinking",
+      "description": "Strategic initiatives aimed at long-term growth and market impact.",
+      "technical_spec": "Focus on sustainability, global market expansion strategies, and product diversification.",
+      "severity_score": 15
+    },
+    {
+      "title": "Data-Driven Decisions",
+      "description": "Use of data analytics to drive business strategy and improve customer engagement.",
+      "technical_spec": "Machine learning algorithms for customer insights and business intelligence tools.",
+      "severity_score": 17
     }
   ]
 }

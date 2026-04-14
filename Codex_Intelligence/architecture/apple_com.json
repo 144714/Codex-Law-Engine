@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 153,
+    "rank": 163,
     "site": "apple.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "8f6061cf0b2523fdb36023cd4c113ae7"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "ce9a7303576370313ef40ed187c938de"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Apple uses a microservices architecture to ensure scalability and robust performance across its platforms.",
-      "technical_spec": "Docker, Kubernetes, REST APIs",
-      "severity_score": 20
-    },
-    {
-      "title": "Cloud Infrastructure",
-      "description": "The site infrastructure is supported by a combination of in-house servers and cloud services.",
-      "technical_spec": "AWS, Azure integration",
-      "severity_score": 30
-    },
-    {
-      "title": "Content Delivery Network",
-      "description": "Utilizes a global CDN to provide faster load times and reliability no matter where users access from.",
-      "technical_spec": "Akamai, Cloudflare",
-      "severity_score": 10
+      "title": "Scalable Infrastructure",
+      "description": "Apple's website uses a globally distributed infrastructure to ensure high availability and performance.",
+      "technical_spec": "Content Delivery Network (CDN), Load Balancing, Cloud-based Servers",
+      "severity_score": 85
     },
     {
       "title": "Responsive Design",
-      "description": "Employs responsive design techniques to ensure compatibility with various devices and screen sizes.",
-      "technical_spec": "Bootstrap, CSS3 media queries",
-      "severity_score": 25
+      "description": "The site is optimized to ensure compatibility and usability across various devices and screen sizes.",
+      "technical_spec": "HTML5, CSS3, Media Queries",
+      "severity_score": 90
     },
     {
-      "title": "Monolithic Legacy Systems",
-      "description": "Some parts of the system still rely on monolithic structures for core operations.",
-      "technical_spec": "Legacy codebase, mainframe interfaces",
-      "severity_score": 50
+      "title": "Progressive Web Applications (PWA)",
+      "description": "Utilizes PWA features to enhance the web experience akin to native apps.",
+      "technical_spec": "Service Workers, Responsive, App Shell Model",
+      "severity_score": 75
+    },
+    {
+      "title": "API-Driven Content Management",
+      "description": "Leverages APIs for dynamic content delivery and seamless integration across platforms.",
+      "technical_spec": "RESTful API, GraphQL",
+      "severity_score": 80
+    },
+    {
+      "title": "High-Performance Web Standards",
+      "description": "Employs modern web standards to optimize loading times and site performance.",
+      "technical_spec": "HTTP/2, JavaScript optimization, Image compression",
+      "severity_score": 90
     }
   ]
 }

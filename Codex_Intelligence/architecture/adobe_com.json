@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 158,
+    "rank": 168,
     "site": "adobe.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "ff693f537bfaa1ccb02b447672203119"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "ce1228ff200f4a42a417bdd11cde28af"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Adobe's platform utilizes a microservices architecture to enable scalability and flexibility.",
-      "technical_spec": "Decomposed services, each independently deployable and scalable.",
-      "severity_score": 5
-    },
-    {
-      "title": "RESTful APIs",
-      "description": "Use of RESTful APIs to facilitate communication between services and client applications.",
-      "technical_spec": "HTTP methods (GET, POST, PUT, DELETE) with JSON payloads.",
+      "title": "Microservices",
+      "description": "The website utilizes microservices architecture to enhance scalability and maintainability.",
+      "technical_spec": "Services are containerized using Docker and orchestrated with Kubernetes.",
       "severity_score": 15
-    },
-    {
-      "title": "Cloud-Native Infrastructure",
-      "description": "Adobe leverages cloud-native technologies for infrastructure and platform agility.",
-      "technical_spec": "Kubernetes clusters, containerized applications, auto-scaling environments.",
-      "severity_score": 10
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Globally distributed CDN for fast content delivery and improved user experience.",
-      "technical_spec": "Edge caching, optimized content routing, and tier-one network partners.",
+      "description": "A CDN is used to distribute content and improve load times globally.",
+      "technical_spec": "Leveraging Akamai for content delivery and caching strategies.",
+      "severity_score": 10
+    },
+    {
+      "title": "Single Page Application (SPA)",
+      "description": "Parts of the site are built as SPAs for dynamic content loading.",
+      "technical_spec": "Utilizes React.js framework for fast navigational experience.",
+      "severity_score": 30
+    },
+    {
+      "title": "RESTful API",
+      "description": "APIs follow REST principles to provide a standardized interface for web services.",
+      "technical_spec": "Implemented with JSON data interchange format.",
       "severity_score": 20
     },
     {
-      "title": "Database Management",
-      "description": "Use of distributed and scalable databases to manage large volumes of data efficiently.",
-      "technical_spec": "NoSQL databases, relational databases, distributed data models.",
-      "severity_score": 15
+      "title": "Edge Computing",
+      "description": "Leverages edge computing to process data closer to the user.",
+      "technical_spec": "Utilization of AWS Wavelength for low-latency computations.",
+      "severity_score": 25
     }
   ]
 }

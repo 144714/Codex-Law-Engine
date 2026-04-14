@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 151,
+    "rank": 161,
     "site": "google.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "39458cbb193d802afbccdc98280bc0e2"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "1f5870e122119858ff3a66b92b1ad043"
   },
   "data": [
     {
-      "title": "Fitt's Law",
-      "description": "Predicts the thinking and movement time involved in making an action.",
-      "technical_spec": "Clickable elements are large and easy to click even on small devices.",
+      "title": "Hick's Law",
+      "description": "Minimizes user decision-making time by simplifying choices.",
+      "technical_spec": "Streamlined UI with prioritized navigation to enhance decision speed.",
       "severity_score": 10
     },
     {
-      "title": "Hick's Law",
-      "description": "More options increase the decision time.",
-      "technical_spec": "Simple and intuitive UI with prioritized search results.",
+      "title": "Fitts's Law",
+      "description": "Designs interactive elements for quick access and ease of use.",
+      "technical_spec": "Large, clickable targets and minimal cursor movement.",
       "severity_score": 15
     },
     {
-      "title": "Doherty Threshold",
-      "description": "Productivity soars when a computer and its users interact at a pace (<400 ms) that ensures neither has to wait on the other.",
-      "technical_spec": "Sub-400ms response time for user actions and page loads.",
-      "severity_score": 5
-    },
-    {
-      "title": "Peak-End Rule",
-      "description": "Judgments of past experiences are based on a combination of their peaks and how they ended.",
-      "technical_spec": "Consistent positive experience; fast-loading SERPs with relevant results.",
-      "severity_score": 5
-    },
-    {
-      "title": "Tesler's Law",
-      "description": "A system’s ease-of-use is often inversely related to its complexity or functionality.",
-      "technical_spec": "Minimalistic design while preserving advanced functionalities like voice search.",
+      "title": "Jakob's Law",
+      "description": "Aligns with user expectations for familiar interface elements.",
+      "technical_spec": "Consistent use of design patterns found in major web applications.",
       "severity_score": 20
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Limits cognitive load by managing information presented at one time.",
+      "technical_spec": "Chunking information and reducing clutter for cognitive ease.",
+      "severity_score": 5
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Increases usability perception through attractive design.",
+      "technical_spec": "Visually appealing and engaging layouts to improve user satisfaction.",
+      "severity_score": 25
     }
   ]
 }

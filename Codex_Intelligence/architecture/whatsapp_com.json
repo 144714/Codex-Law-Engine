@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 160,
+    "rank": 170,
     "site": "whatsapp.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "03ff901bab382a2497a1b3e8ca4235af"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "da661fbb2b3576a0015cfb6c90d824db"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "The site likely utilizes a microservices architecture to handle various functionalities separately such as messaging, user authentication, and media sharing.",
-      "technical_spec": "Services independently managed and communicate via APIs or messaging queues.",
-      "severity_score": 20
-    },
-    {
-      "title": "Scalable Infrastructure",
-      "description": "WhatsApp employs cloud-based infrastructure to handle immense traffic and user load efficiently.",
-      "technical_spec": "Utilizes load balancers, containerization, and horizontal scaling techniques.",
+      "description": "WhatsApp uses a microservices architecture to ensure scalability and independent deployment of services.",
+      "technical_spec": "Each service runs in its own container within a Kubernetes cluster.",
       "severity_score": 15
     },
     {
+      "title": "End-to-End Encryption Framework",
+      "description": "The architecture supports end-to-end encryption for messages and calls to ensure data privacy and security.",
+      "technical_spec": "Uses the Signal Protocol for encrypting messages.",
+      "severity_score": 5
+    },
+    {
       "title": "Database Sharding",
-      "description": "WhatsApp employs sharding to distribute its databases across multiple servers for improved performance.",
-      "technical_spec": "MySQL databases with sharding based on user accounts or geolocations.",
-      "severity_score": 30
+      "description": "The application uses database sharding to efficiently manage and scale data storage.",
+      "technical_spec": "Data is partitioned across multiple database instances using sharding keys.",
+      "severity_score": 20
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "The site uses an event-driven architecture to manage real-time messaging and updates.",
-      "technical_spec": "Incorporates message brokers to manage event distribution.",
-      "severity_score": 25
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Uses CDN for faster content delivery to users across the globe.",
-      "technical_spec": "Global caching and fast data retrieval through distributed servers.",
+      "title": "Load Balancing",
+      "description": "Load balancers are used to distribute incoming traffic across multiple servers.",
+      "technical_spec": "Employs both hardware and software load balancers.",
       "severity_score": 10
+    },
+    {
+      "title": "Distributed Architecture",
+      "description": "Services are distributed across multiple data centers to ensure global availability and low latency.",
+      "technical_spec": "Depends on a combination of edge servers and global data centers.",
+      "severity_score": 8
     }
   ]
 }

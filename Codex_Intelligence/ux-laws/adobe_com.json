@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 158,
+    "rank": 168,
     "site": "adobe.com",
-    "date": "2026-04-14 20:43",
-    "integrity_hash": "dda79283472dc249082632dee2f10432"
+    "date": "2026-04-14 21:43",
+    "integrity_hash": "b847ea029baa10848a3c9b0839b37d33"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Minimizing decision-making time by reducing complexity for the user.",
-      "technical_spec": "Simplified navigation, clear call-to-actions (CTAs).",
-      "severity_score": 50
+      "description": "The site is designed to minimize decision time by limiting choices on main pages.",
+      "technical_spec": "Simplified navigation bars and call-to-actions to reduce cognitive load.",
+      "severity_score": 40
     },
     {
       "title": "Fitts's Law",
-      "description": "Designing interfaces that consider the size and distance of interface elements.",
-      "technical_spec": "Large clickable buttons, proper spacing.",
-      "severity_score": 45
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Users spend most of their time on other sites; make your site similar to common experiences.",
-      "technical_spec": "Consistent patterns, familiar design elements.",
-      "severity_score": 60
+      "description": "Interactive elements are optimized for target size and distance.",
+      "technical_spec": "Button sizes and spacing are adjusted for touch and cursor-based interaction.",
+      "severity_score": 25
     },
     {
       "title": "Miller's Law",
-      "description": "Limiting the amount of information processed at a time to enhance user comprehension.",
-      "technical_spec": "Chunking information, concise content presentation.",
-      "severity_score": 55
+      "description": "Content is structured in chunks to enhance comprehension.",
+      "technical_spec": "Content broken into sections with headings and subheadings.",
+      "severity_score": 20
     },
     {
-      "title": "The Law of Prägnanz",
-      "description": "Users prefer simple and organized layouts that require minimal cognitive load.",
-      "technical_spec": "Clear visual hierarchy, uncluttered design.",
+      "title": "Pareto Principle",
+      "description": "Focus on key features that bring the majority of user benefits.",
+      "technical_spec": "Prioritization of tools and features used most frequently.",
       "severity_score": 35
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Design consistency across the platform for enhanced user familiarity.",
+      "technical_spec": "Adhering to common web conventions and navigation patterns.",
+      "severity_score": 30
     }
   ]
 }
