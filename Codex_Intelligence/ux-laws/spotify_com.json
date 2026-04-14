@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 97,
+    "rank": 107,
     "site": "spotify.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "46733c9258b11109fd1e5718179d1d38"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "448205842e83e960c5abbc54facb8b29"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Streamlined user experience to reduce decision time with clear navigation options.",
-      "technical_spec": "Menu options and playlist categories are limited and clearly defined.",
-      "severity_score": 18
-    },
-    {
-      "title": "Fitt's Law",
-      "description": "Design elements like play buttons are sized and positioned for ease of access.",
-      "technical_spec": "Interactive elements are strategically placed for quick access.",
-      "severity_score": 15
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Maintains consistency with familiar music streaming interfaces to meet user expectations.",
-      "technical_spec": "UI components similar to industry standards like play, pause, and skip icons.",
-      "severity_score": 14
+      "description": "Minimizes choices to streamline decision-making in navigating the application.",
+      "technical_spec": "Design focuses on simplifying user interactions and quick access to content.",
+      "severity_score": 70
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing design enhances perceived usability and satisfaction.",
-      "technical_spec": "Use of modern, minimalist design with high-quality imagery and animation.",
-      "severity_score": 22
+      "description": "Creates an appealing design to enhance user satisfaction and perceived usability.",
+      "technical_spec": "Focuses on a clean, visually pleasing interface with intuitive controls.",
+      "severity_score": 85
     },
     {
-      "title": "Law of Common Region",
-      "description": "Groups related items together in the interface to create a coherent visual experience.",
-      "technical_spec": "Playlists and album tracks are grouped visually with borders and background colors.",
-      "severity_score": 16
+      "title": "Fitts's Law",
+      "description": "Applies sizing and positioning that allows users to easily interact with buttons and controls.",
+      "technical_spec": "Larger clickable areas for frequently used controls, improved navigation efficiency.",
+      "severity_score": 88
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Ensures familiarity by using patterns common to similar services.",
+      "technical_spec": "Aligns design choices with user expectations derived from similar platforms.",
+      "severity_score": 92
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Groups related items together to improve user understanding and navigation.",
+      "technical_spec": "Logical grouping of playlist options and controls for intuitive accessibility.",
+      "severity_score": 80
     }
   ]
 }

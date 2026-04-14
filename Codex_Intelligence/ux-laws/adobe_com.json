@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 98,
+    "rank": 108,
     "site": "adobe.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "bec3e9f73d587d92184b8fc9b2afe17c"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "ef9817ed457c347eeff0d949ae53c178"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Limiting choices on each page to reduce decision-making time.",
-      "technical_spec": "Simplified navigation, Contextual pop-ups",
-      "severity_score": 15
-    },
-    {
       "title": "Fitts's Law",
-      "description": "Designing buttons and links for easy accessibility and clicking.",
-      "technical_spec": "Large clickable areas, Minimal distractions",
+      "description": "Design elements positioned for quick access based on user intent.",
+      "technical_spec": "Buttons and links are sized appropriately for touch interfaces.",
       "severity_score": 10
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Important items placed at the start and end of lists.",
-      "technical_spec": "Optimized CTA positions, Priority content",
-      "severity_score": 20
+      "title": "Hick's Law",
+      "description": "Minimized decision time by reducing choices in navigation.",
+      "technical_spec": "Implemented in menus and action selections.",
+      "severity_score": 12
     },
     {
       "title": "Jakob's Law",
-      "description": "Consistent UI patterns that are familiar to users.",
-      "technical_spec": "Consistent button styles, Familiar navigation headers",
-      "severity_score": 5
+      "description": "Consistent experience aligned with other popular sites to reduce learning curve.",
+      "technical_spec": "Standard navigation bars and user interface patterns.",
+      "severity_score": 15
     },
     {
-      "title": "Miller’s Law",
-      "description": "Grouping information to improve cognitive load efficiency.",
-      "technical_spec": "Accordion menus, Bullet points",
-      "severity_score": 25
+      "title": "Law of Proximity",
+      "description": "Group related items to streamline user interaction.",
+      "technical_spec": "Use of whitespace to logically separate sections.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing design to enhance user perception of usability.",
+      "technical_spec": "High fidelity graphics and smooth transition animations.",
+      "severity_score": 8
     }
   ]
 }

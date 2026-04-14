@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 94,
+    "rank": 104,
     "site": "microsoft.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "0041aaf3630542da79661276466cf498"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "90637e8369c7ca9b1a3c49cb1d099173"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Microsoft.com utilizes a microservices architecture to enhance scalability and maintainability.",
-      "technical_spec": "Distributed set of services that are independently deployable and scalable.",
-      "severity_score": 92
+      "description": "Microsoft.com employs a microservices architecture, allowing for scalable and independent service deployment across its platform.",
+      "technical_spec": "A suite of loosely coupled services each running a distinct process and communicating through HTTP APIs.",
+      "severity_score": 10
     },
     {
-      "title": "Load Balancing",
-      "description": "Employs load balancing to distribute incoming traffic evenly across servers.",
-      "technical_spec": "Elastic Load Balancers (ELB) with auto scaling features.",
-      "severity_score": 85
-    },
-    {
-      "title": "Serverless Computing",
-      "description": "Integration of serverless technologies for some backend processes.",
-      "technical_spec": "Azure Functions and other serverless offerings.",
-      "severity_score": 78
+      "title": "Cloud-Native Infrastructure",
+      "description": "The website is hosted on Microsoft Azure cloud services, leveraging cloud-native components for resilience and scalability.",
+      "technical_spec": "Uses Azure Kubernetes Service (AKS) and Azure Functions for scaling and serverless operations.",
+      "severity_score": 5
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Leverages CDN to decrease latency and increase load times for users worldwide.",
-      "technical_spec": "Azure CDN for global content delivery.",
-      "severity_score": 88
+      "description": "Utilizes a global CDN to ensure fast content delivery by caching web elements on servers closer to the user location.",
+      "technical_spec": "Powered by Azure CDN with URL-based routing and caching policies.",
+      "severity_score": 15
     },
     {
-      "title": "Containerization",
-      "description": "Adopts containerization for component isolation and efficient resource usage.",
-      "technical_spec": "Docker and Kubernetes for container management.",
-      "severity_score": 80
+      "title": "Data Layer",
+      "description": "Data-centric services are built on Microsoft SQL Server and Cosmos DB for structured and unstructured datasets.",
+      "technical_spec": "Microsoft SQL Server for relational data, Cosmos DB for NoSQL and multi-model database services.",
+      "severity_score": 20
+    },
+    {
+      "title": "Progressive Web App (PWA) Capabilities",
+      "description": "The site functions with PWA features like offline capabilities and push notifications to enhance mobile and desktop user experiences.",
+      "technical_spec": "Utilizes service workers and Web App Manifest for PWA functionalities.",
+      "severity_score": 25
     }
   ]
 }

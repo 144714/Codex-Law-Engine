@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 92,
+    "rank": 102,
     "site": "youtube.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "35e6684367e0b639523f0199acb9fed7"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "55a933d42d96439943e92c8b45de55d2"
   },
   "data": [
     {
-      "title": "Global Reach",
-      "description": "YouTube's brand identity revolves around being an accessible platform for a global audience.",
-      "technical_spec": "Supports numerous languages and regional content.",
+      "title": "Global Accessibility",
+      "description": "A platform designed to be accessible from anywhere in the world.",
+      "technical_spec": "Localized interfaces and multilingual support.",
+      "severity_score": 10
+    },
+    {
+      "title": "Open Video Platform",
+      "description": "A space for user-generated content and diverse video profiles.",
+      "technical_spec": "Supports wide range of video file formats.",
       "severity_score": 5
     },
     {
       "title": "Community Engagement",
-      "description": "Fosters community through user interaction features like comments, likes, and subscription options.",
-      "technical_spec": "Interactive features and community tab for creators.",
-      "severity_score": 8
+      "description": "Tools and features to foster interaction between creators and viewers.",
+      "technical_spec": "Comment sections, live chats, and community posts.",
+      "severity_score": 15
     },
     {
-      "title": "Content Diversity",
-      "description": "Encourages a diverse array of content ranging from educational to entertainment.",
-      "technical_spec": "Monetization and recommendation algorithms favor diverse content.",
-      "severity_score": 12
+      "title": "Innovative Advertising Models",
+      "description": "Diversified monetization channels for content creators.",
+      "technical_spec": "Adsense integration, Super Chat, Channel Memberships.",
+      "severity_score": 20
     },
     {
-      "title": "Accessibility",
-      "description": "Strives to make content accessible to all users, including those with disabilities.",
-      "technical_spec": "Closed captions, transcriptions, and screen reader support.",
-      "severity_score": 10
-    },
-    {
-      "title": "Innovation",
-      "description": "YouTube constantly innovates with new features and services to enhance user experience.",
-      "technical_spec": "Introduction of YouTube Shorts and live streaming options.",
-      "severity_score": 18
+      "title": "Content Recommendation Engine",
+      "description": "Personalized video suggestions powered by complex algorithms.",
+      "technical_spec": "AI-driven recommendation for enhanced viewer experience.",
+      "severity_score": 25
     }
   ]
 }

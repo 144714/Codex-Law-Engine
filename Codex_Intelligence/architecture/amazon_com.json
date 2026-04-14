@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 95,
+    "rank": 105,
     "site": "amazon.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "56d84f160296abe6f67fb04f3da4530c"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "289896a30625379caa86b5e043798e8a"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Amazon operates on a microservices architecture enabling scalability and independent service deployment.",
-      "technical_spec": "Docker, Kubernetes, API Gateway, Service Mesh",
-      "severity_score": 10
-    },
-    {
-      "title": "Federated Data System",
-      "description": "Data is distributed across various services to ensure high availability and fault tolerance.",
-      "technical_spec": "NoSQL Databases, Data Sharding, S3 Storage",
-      "severity_score": 15
-    },
-    {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "Built on AWS infrastructure for elastic scaling and avoiding downtime.",
-      "technical_spec": "EC2, Auto Scaling Groups, Elastic Load Balancers",
+      "description": "A system design that uses independent, deployable services to enhance scalability and maintainability.",
+      "technical_spec": "Service-Oriented Architecture, REST API, Containers",
       "severity_score": 5
     },
     {
-      "title": "Continuous Deployment",
-      "description": "Utilizes CI/CD pipelines for seamless deployment of services.",
-      "technical_spec": "Jenkins, CodePipeline, CodeDeploy",
-      "severity_score": 10
+      "title": "Scalable Cloud Infrastructure",
+      "description": "Amazon's use of its own AWS products to ensure the website can handle millions of concurrent users.",
+      "technical_spec": "AWS EC2, Load Balancers, Auto-scaling",
+      "severity_score": 4
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Events trigger specific actions across the architecture to ensure real-time data processing.",
-      "technical_spec": "Kafka, AWS Lambda, EventBridge",
-      "severity_score": 20
+      "title": "High Availability Design",
+      "description": "Designed to provide continuous operations without interruptions.",
+      "technical_spec": "Redundancy, Multi-AZ Deployments, Failover Mechanisms",
+      "severity_score": 3
+    },
+    {
+      "title": "Database Sharding",
+      "description": "Splitting data into shards across multiple databases to reduce query load.",
+      "technical_spec": "NoSQL, Amazon DynamoDB, Partition Keys",
+      "severity_score": 7
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "A network to distribute content globally for lower latency.",
+      "technical_spec": "Amazon CloudFront, Edge Locations",
+      "severity_score": 10
     }
   ]
 }

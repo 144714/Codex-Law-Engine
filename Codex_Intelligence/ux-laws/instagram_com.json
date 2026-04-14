@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 99,
+    "rank": 109,
     "site": "instagram.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "fa0231b9e2a828557e18fe8985aeedcd"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "30a38a5a94a8e311fe112c2e72277fdb"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies user choices to reduce decision time and enhance navigation.",
-      "technical_spec": "Limits the number of visible choices in navigation and settings.",
-      "severity_score": 10
+      "title": "Hick's Law",
+      "description": "Streamlines the user decision-making process by minimizing menu options.",
+      "technical_spec": "Design patterns focusing on simplicity and primary features upfront.",
+      "severity_score": 80
     },
     {
-      "title": "Fitts’ Law",
-      "description": "Strategically optimizes button size and placement for ease of access and interaction.",
-      "technical_spec": "Prominent, easily accessible buttons for main actions (like, comment, post).",
-      "severity_score": 5
+      "title": "Fitts's Law",
+      "description": "Optimizes actionable elements for easier interaction and accessibility.",
+      "technical_spec": "Big buttons and touch-targets for mobile-friendliness.",
+      "severity_score": 85
     },
     {
-      "title": "Miller’s Law",
-      "description": "Adheres to cognitive chunking to improve information processing.",
-      "technical_spec": "Groups related content chunks to enhance user comprehension and retention.",
-      "severity_score": 8
+      "title": "Miller's Law",
+      "description": "Groups information in chunks for easier cognitive processing.",
+      "technical_spec": "Segmented feeds and stories to enhance content digestibility.",
+      "severity_score": 82
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Design focuses on aesthetic appeal which fosters a perception of ease-of-use.",
-      "technical_spec": "High-quality images, smooth transitions, and rich content presentation.",
-      "severity_score": 12
+      "title": "Peak-End Rule",
+      "description": "Enhances user experience by focusing on memorable interaction peaks.",
+      "technical_spec": "Designing interactive stories and posts that highlight user-crafted content.",
+      "severity_score": 84
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Designs prioritize important elements in strategic screen positions to improve recall.",
-      "technical_spec": "Critical features and calls-to-action placed at the beginning or end of lists.",
-      "severity_score": 10
+      "title": "Jakob's Law",
+      "description": "Ensures users' experience is familiar across different platforms.",
+      "technical_spec": "UI consistency with design elements on Facebook and other apps.",
+      "severity_score": 83
     }
   ]
 }

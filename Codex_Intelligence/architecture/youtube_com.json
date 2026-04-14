@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 92,
+    "rank": 102,
     "site": "youtube.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "d295b1df46283bb31e1b434838e5a8d2"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "26e20c702ee76d6c168ea81c3cdb747c"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "YouTube employs a microservices architecture, allowing for scalable and independent deployment of service components.",
-      "technical_spec": "Each service component handles a specific function like video playback, user data, comments section, etc.",
-      "severity_score": 10
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Utilizes CDNs to deliver media content efficiently and reduce latency worldwide.",
-      "technical_spec": "High-speed delivery through caching nodes spread across global data centers.",
+      "description": "YouTube employs a microservices architecture ensuring scalability and resilience.",
+      "technical_spec": "Each service handles a specific functionality and communicates over REST or gRPC.",
       "severity_score": 15
     },
     {
-      "title": "Data Redundancy and Replication",
-      "description": "Ensures data availability through redundant storage and replication strategies.",
-      "technical_spec": "Uses distributed storage systems for video and metadata.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "YouTube utilizes global CDNs to deliver video content efficiently close to user locations.",
+      "technical_spec": "CDNs such as Google's own network and other partners are used.",
+      "severity_score": 10
+    },
+    {
+      "title": "Database Sharding",
+      "description": "Horizontal scaling across various database shards for handling large user data.",
+      "technical_spec": "Relational databases are partitioned based on user data distribution.",
       "severity_score": 20
     },
     {
-      "title": "API-Driven Infrastructure",
-      "description": "Facilitates third-party integrations and internal operations with a robust API infrastructure.",
-      "technical_spec": "RESTful and gRPC APIs for various YouTube services.",
-      "severity_score": 18
+      "title": "Load Balancing",
+      "description": "Efficient traffic distribution across servers for optimal performance.",
+      "technical_spec": "Software and hardware load balancers are used to manage incoming requests.",
+      "severity_score": 10
     },
     {
-      "title": "Load Balancing",
-      "description": "Distributes user requests evenly across multiple servers to ensure efficient processing and availability.",
-      "technical_spec": "Employs hardware and software load balancers like Google Front End (GFE).",
-      "severity_score": 12
+      "title": "Cloud-Based Infrastructure",
+      "description": "YouTube operates over a cloud-based infrastructure to ensure high availability.",
+      "technical_spec": "Google Cloud Platform powers various backend systems.",
+      "severity_score": 15
     }
   ]
 }

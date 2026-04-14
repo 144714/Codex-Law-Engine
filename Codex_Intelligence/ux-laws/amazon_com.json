@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 95,
+    "rank": 105,
     "site": "amazon.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "5dbca22e715ca8dec5b7c3ab7822a7a9"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "4591e7150f2883f17be1e8ef9aa2e590"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies user choice by limiting options to enhance decision-making speed.",
-      "technical_spec": "Design Simplicity, Categorization, Search Filters",
-      "severity_score": 10
+      "description": "Reduce complexity and decision time by limiting the number of choices.",
+      "technical_spec": "Simplified Navigation, Filter Systems",
+      "severity_score": 12
     },
     {
-      "title": "Fitts's Law",
-      "description": "Ensures that clickable areas are large and easy to access, enhancing usability.",
-      "technical_spec": "Button Size, Interactive Elements Placement",
-      "severity_score": 5
+      "title": "Fitts’s Law",
+      "description": "Optimizing user interaction by focusing on larger control areas.",
+      "technical_spec": "Clickable Product Images, Large Call to Action Buttons",
+      "severity_score": 18
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Applies principles such as proximity and similarity to create a cohesive interaction pattern.",
-      "technical_spec": "Responsive Design, Grouped Elements",
+      "title": "Miller’s Law",
+      "description": "Ensuring users can comprehend information presented by breaking it into chunks.",
+      "technical_spec": "Card Layouts, Information Structuring",
+      "severity_score": 22
+    },
+    {
+      "title": "Pareto Principle",
+      "description": "Focusing on core tasks that deliver the majority of results.",
+      "technical_spec": "Prioritization of Bestsellers, Fast Checkout Process",
       "severity_score": 15
     },
     {
-      "title": "Miller's Law",
-      "description": "Limits the amount of information displayed at once to prevent cognitive overload.",
-      "technical_spec": "Progressive Disclosure, Information Hierarchy",
+      "title": "Peak-End Rule",
+      "description": "Creating memorable user interactions by prioritizing 'peak' moments.",
+      "technical_spec": "Customer Reviews, Highlighting Deals",
       "severity_score": 20
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Aligns user experience with familiar paths to enhance user expectations and ease of use.",
-      "technical_spec": "Consistent Navigation, Familiar UI Patterns",
-      "severity_score": 10
     }
   ]
 }

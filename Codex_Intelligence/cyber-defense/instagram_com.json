@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 99,
+    "rank": 109,
     "site": "instagram.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "a73f3f8fc339b544d72c2a3253732a41"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "991224646503e7b9c32bf182e9bbe135"
   },
   "data": [
     {
+      "title": "TLS Encryption",
+      "description": "End-to-end TLS encryption ensures data security during transmission.",
+      "technical_spec": "TLS 1.3 implementation for encrypted connections.",
+      "severity_score": 95
+    },
+    {
       "title": "Two-Factor Authentication",
-      "description": "Provides additional security layer to prevent unauthorized account access.",
-      "technical_spec": "Offers SMS-based or app-based two-factor authentication options.",
-      "severity_score": 60
+      "description": "Enhances account security by requiring a second factor for authentication.",
+      "technical_spec": "Integration with authentication apps and SMS for 2FA.",
+      "severity_score": 90
     },
     {
-      "title": "End-to-End Encryption",
-      "description": "Encryption protocols are used to protect data and communications on the platform.",
-      "technical_spec": "Implements encryption both in REST and transit for sensitive data.",
-      "severity_score": 75
+      "title": "Bot Detection",
+      "description": "Mitigates automated threats and spam through advanced bot detection algorithms.",
+      "technical_spec": "Machine learning models for behavioral analysis and CAPTCHA challenges.",
+      "severity_score": 88
     },
     {
-      "title": "Account Recovery Features",
-      "description": "Various mechanisms are in place for recovering lost or compromised accounts.",
-      "technical_spec": "Includes identity verification and multiple account recovery channels.",
-      "severity_score": 50
+      "title": "Vulnerability Management",
+      "description": "Regular vulnerability assessments and patch management to address security flaws.",
+      "technical_spec": "Use of automated scanning tools like Nessus and manual penetration testing.",
+      "severity_score": 85
     },
     {
-      "title": "Bug Bounty Program",
-      "description": "Incentivizes security researchers to report vulnerabilities and improve platform security.",
-      "technical_spec": "Rewards program active for ethical hackers to find and report security flaws.",
-      "severity_score": 40
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic audits to assess security posture and mitigate risks.",
-      "technical_spec": "Internal and third-party security audits, including penetration testing.",
-      "severity_score": 55
+      "title": "Intrusion Detection Systems",
+      "description": "Monitors and analyzes system activity to prevent unauthorized access.",
+      "technical_spec": "Use of systems like Snort for real-time intrusion detection.",
+      "severity_score": 87
     }
   ]
 }

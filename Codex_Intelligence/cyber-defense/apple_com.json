@@ -1,60 +1,40 @@
 {
   "meta": {
-    "rank": 93,
+    "rank": 103,
     "site": "apple.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "fdfe8ef50ad7aaf01d7927f345903df5"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "5506234cb115048ea43e2bf7ae4da226"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Comprehensive data encryption is enforced both at rest and in transit.",
-      "technical_spec": [
-        "TLS 1.3",
-        "AES-256",
-        "RSA encryption"
-      ],
-      "severity_score": 90
+      "title": "Encryption",
+      "description": "All data transactions are encrypted to protect user data from unauthorized access.",
+      "technical_spec": "TLS 1.3, AES-256 Encryption",
+      "severity_score": 50
     },
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "Provides an additional layer of security by requiring more than one form of verification.",
-      "technical_spec": [
-        "Biometrics",
-        "Authenticator apps",
-        "SMS verification"
-      ],
-      "severity_score": 85
+      "title": "Firewall Protection",
+      "description": "Robust firewall systems in place to shield from external threats.",
+      "technical_spec": "Next-Gen Firewall, Intrusion Prevention System",
+      "severity_score": 45
     },
     {
-      "title": "Intrusion Detection System (IDS)",
-      "description": "Monitors network traffic for suspicious activities and responds to potential threats.",
-      "technical_spec": [
-        "Signature-based detection",
-        "Anomaly detection",
-        "Traffic analysis"
-      ],
-      "severity_score": 80
+      "title": "Two-Factor Authentication",
+      "description": "Enhanced security layer requiring two different forms of identification.",
+      "technical_spec": "SMS-based and App-based Verification",
+      "severity_score": 40
     },
     {
-      "title": "Zero Trust Architecture",
-      "description": "Requires verification of every device and user trying to access resources in the network.",
-      "technical_spec": [
-        "Network segmentation",
-        "Identity and access management",
-        "Continuous monitoring"
-      ],
-      "severity_score": 88
+      "title": "Security Audits and Monitoring",
+      "description": "Regular audits and real-time monitoring for potential vulnerabilities.",
+      "technical_spec": "SIEM Tools, Automated Vulnerability Scans",
+      "severity_score": 35
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Continuous security audits to identify vulnerabilities and patch potential risks.",
-      "technical_spec": [
-        "Penetration testing",
-        "Vulnerability scanning",
-        "Security compliance"
-      ],
-      "severity_score": 75
+      "title": "DDoS Protection",
+      "description": "Configured to deflect Distributed Denial-of-Service attacks.",
+      "technical_spec": "Traffic Analysis, Abnormal Traffic Detection, Mitigation Strategies",
+      "severity_score": 55
     }
   ]
 }

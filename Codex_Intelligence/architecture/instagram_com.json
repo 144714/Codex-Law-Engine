@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 99,
+    "rank": 109,
     "site": "instagram.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "bcf03df30041c4cd696b5f5298be2ff3"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "100c5631498e97ccdf76b18a22d7402b"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Instagram utilizes a microservices architecture to efficiently scale and manage its platform.",
-      "technical_spec": "Services are independently deployable, loosely coupled, and organized around business capabilities.",
-      "severity_score": 20
+      "title": "Microservices",
+      "description": "Instagram employs a microservices architecture to manage different functionalities independently.",
+      "technical_spec": "Containerization using Docker and orchestration through Kubernetes.",
+      "severity_score": 85
     },
     {
-      "title": "Cloud Infrastructure",
-      "description": "Leverages cloud hosting and scalable storage solutions to handle large volumes of data and user requests.",
-      "technical_spec": "Primary use of AWS and other cloud platforms for scalable and high-availability architecture.",
-      "severity_score": 25
+      "title": "GraphQL API",
+      "description": "Utilizes GraphQL for data querying across web and mobile platforms.",
+      "technical_spec": "Runs on Node.js with a backend written in Python and Java.",
+      "severity_score": 90
     },
     {
-      "title": "Real-time Data Processing",
-      "description": "Facilitates real-time updates and interactions within the app, essential for social media engagement.",
-      "technical_spec": "Uses streaming platforms like Apache Kafka for real-time data processing.",
-      "severity_score": 15
+      "title": "CDN Usage",
+      "description": "Content Delivery Networks are used to ensure fast content delivery across the globe.",
+      "technical_spec": "Integration with Akamai or Cloudflare for global edge delivery.",
+      "severity_score": 80
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Utilizes a CDN for faster load times and efficient content delivery globally.",
-      "technical_spec": "Employs multiple CDN providers to optimize user access across different regions.",
-      "severity_score": 15
+      "title": "Data Storage",
+      "description": "Hybrid approach using on-premise databases and cloud storage for flexibility and scale.",
+      "technical_spec": "Primary data storage in PostgreSQL with S3 buckets for media storage.",
+      "severity_score": 88
     },
     {
-      "title": "Database Management",
-      "description": "Employs a combination of SQL and NoSQL databases for various data needs.",
-      "technical_spec": "Uses solutions like PostgreSQL and Cassandra for data storage and retrieval.",
-      "severity_score": 30
+      "title": "Load Balancing",
+      "description": "Employs load balancing to manage high traffic efficiently.",
+      "technical_spec": "Nginx/HAProxy used as load balancers to distribute traffic evenly.",
+      "severity_score": 85
     }
   ]
 }

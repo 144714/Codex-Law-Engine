@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 97,
+    "rank": 107,
     "site": "spotify.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "893408af3a86c4fe75db999e33cc73fe"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "922c9ff8b97b698e9435ed06c6918471"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Spotify uses a microservices architecture to manage its vast array of features and services independently.",
-      "technical_spec": "Each service is maintained independently, with APIs for communication.",
-      "severity_score": 15
+      "description": "Spotify's system is built on a microservices architecture, allowing independent deployment and scaling.",
+      "technical_spec": "Each component of the application is a separate service, communicating over REST and gRPC.",
+      "severity_score": 85
     },
     {
-      "title": "APIs and SDKs",
-      "description": "APIs and SDKs enable developers to integrate Spotify's functionalities into their applications.",
-      "technical_spec": "RESTful APIs, Web APIs, and mobile SDKs available for integration.",
-      "severity_score": 10
-    },
-    {
-      "title": "Cloud Infrastructure",
-      "description": "Spotify leverages cloud infrastructure for scalability and resilience.",
-      "technical_spec": "Uses Google Cloud Platform to handle storage, processing, and distribution.",
-      "severity_score": 20
-    },
-    {
-      "title": "Data Management",
-      "description": "Data from users and streams is managed and analyzed in real-time.",
-      "technical_spec": "BigQuery and Hadoop used for data processing and analytics.",
-      "severity_score": 18
+      "title": "Load Balancing",
+      "description": "Spotify utilizes load balancing to distribute incoming traffic across multiple servers.",
+      "technical_spec": "Employs AWS Elastic Load Balancer and custom load balancing strategies.",
+      "severity_score": 90
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "CDNs are employed to ensure fast and efficient delivery of media content globally.",
-      "technical_spec": "CDN providers like Akamai and Cloudflare are used to cache and distribute content.",
-      "severity_score": 12
+      "description": "A CDN is used to improve media streaming speeds by caching content closer to users.",
+      "technical_spec": "Uses providers like CloudFront to handle content distribution globally.",
+      "severity_score": 80
+    },
+    {
+      "title": "Event-Driven Architecture",
+      "description": "Incorporates event-driven processes to handle asynchronous tasks and scale operations.",
+      "technical_spec": "Implements Apache Kafka to manage message queues and event streams.",
+      "severity_score": 78
+    },
+    {
+      "title": "Database Management",
+      "description": "Uses various databases for different data requirements, including NoSQL and SQL solutions.",
+      "technical_spec": "Employs Cassandra, PostgreSQL, and other database systems.",
+      "severity_score": 88
     }
   ]
 }

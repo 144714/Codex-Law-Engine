@@ -1,60 +1,40 @@
 {
   "meta": {
-    "rank": 93,
+    "rank": 103,
     "site": "apple.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "7f00c21186bba70fa61469c6089debd6"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "90a07b9366f211b6fd6c15ebd3aeb69f"
   },
   "data": [
     {
-      "title": "Elegance and Simplicity",
-      "description": "Focus on creating elegant and simple designs for hardware and software.",
-      "technical_spec": [
-        "Minimalistic design",
-        "Intuitive interfaces",
-        "Clean lines"
-      ],
-      "severity_score": 95
+      "title": "Minimalism",
+      "description": "Simple, clean, and aesthetically pleasing design characteristic of Apple's branding.",
+      "technical_spec": "Whitespace utilization, Flat Design Elements",
+      "severity_score": 10
     },
     {
-      "title": "Seamless Ecosystem",
-      "description": "Provides a seamlessly interconnected ecosystem between its software and hardware products.",
-      "technical_spec": [
-        "Inter-device connectivity",
-        "iCloud integration",
-        "Handoff features"
-      ],
-      "severity_score": 90
+      "title": "Innovation",
+      "description": "Brand ethos emphasizing cutting-edge technology and forward-thinking design.",
+      "technical_spec": "AR/VR Experiences, Interactive Product Demos",
+      "severity_score": 12
     },
     {
-      "title": "Privacy and Security",
-      "description": "Upholds strong privacy policies and security standards to protect user data.",
-      "technical_spec": [
-        "End-to-end encryption",
-        "Transparency reports",
-        "User data anonymization"
-      ],
-      "severity_score": 92
+      "title": "User-Centric Focus",
+      "description": "Design approach centered on user experience and satisfaction.",
+      "technical_spec": "Intuitive Navigation, Accessible Design Standards",
+      "severity_score": 8
     },
     {
-      "title": "Innovative Technology",
-      "description": "Commitment to pioneering new technologies and setting industry standards.",
-      "technical_spec": [
-        "R&D investment",
-        "Patented technologies",
-        "Cutting-edge hardware"
-      ],
-      "severity_score": 88
+      "title": "Premium Aesthetic",
+      "description": "Visual and interactive elements conveying a high-end, luxurious feel.",
+      "technical_spec": "High-Quality Visuals, Elegant Typography",
+      "severity_score": 14
     },
     {
-      "title": "User-Centric Design",
-      "description": "Designs products and services with a strong emphasis on user experience.",
-      "technical_spec": [
-        "Usability testing",
-        "User feedback loops",
-        "Human-centered design"
-      ],
-      "severity_score": 85
+      "title": "Consistency",
+      "description": "Maintaining a uniform brand representation across all platforms.",
+      "technical_spec": "Cross-Platform Design Standards, Brand Guidelines",
+      "severity_score": 9
     }
   ]
 }

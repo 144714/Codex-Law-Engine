@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 91,
+    "rank": 101,
     "site": "google.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "1b07e1e366e28f4d58b33afdb91aab7d"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "e63ba397a04744fc4b89e97376995cd9"
   },
   "data": [
     {
-      "title": "Global CDNs",
-      "description": "Google employs a globally distributed content delivery network (CDN) to ensure minimal latency and high availability.",
-      "technical_spec": "Use of edge servers and data caching for faster content delivery.",
-      "severity_score": 95
+      "title": "Load Balancing",
+      "description": "Distributes incoming network traffic across multiple servers.",
+      "technical_spec": "Uses global load balancing with geo-distribution.",
+      "severity_score": 10
     },
     {
       "title": "Microservices Architecture",
-      "description": "Google's architecture is based on a microservices model, facilitating scalability and maintenance.",
-      "technical_spec": "Services communicate via well-defined APIs.",
-      "severity_score": 90
+      "description": "System design approach that structures an application as a collection of loosely coupled services.",
+      "technical_spec": "Developed using RESTful APIs and container orchestration.",
+      "severity_score": 20
     },
     {
-      "title": "Cloud Infrastructure",
-      "description": "Google Cloud provides the backbone for scalable and reliable operations.",
-      "technical_spec": "Integrates with Kubernetes for container orchestration.",
-      "severity_score": 98
+      "title": "Scalable Storage Solutions",
+      "description": "Supports massive data storage by scaling automatically.",
+      "technical_spec": "Uses technologies like Spanner and BigTable.",
+      "severity_score": 15
     },
     {
-      "title": "Load Balancing",
-      "description": "Sophisticated load balancing algorithms ensure equitable distribution of user requests.",
-      "technical_spec": "HTTP/2 and IP-level load balancing.",
-      "severity_score": 92
+      "title": "Serverless Computing",
+      "description": "Runs services dynamically without maintaining physical servers.",
+      "technical_spec": "Implemented via Google Cloud Functions.",
+      "severity_score": 25
     },
     {
-      "title": "Redundancy and Failover",
-      "description": "Redundancy in network and services ensures failover in case of any disruptions.",
-      "technical_spec": "Multiple data centers and failover mechanisms.",
-      "severity_score": 96
+      "title": "Content Delivery Network (CDN)",
+      "description": "Enhances performance by distributing content globally.",
+      "technical_spec": "Implemented using Edge Network technology.",
+      "severity_score": 5
     }
   ]
 }

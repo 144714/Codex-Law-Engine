@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 100,
+    "rank": 110,
     "site": "whatsapp.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "370d469445a359faf179caa4c84b55ce"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "04cd11f95ea794e1ad81af294eeae60e"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Decentralized components for efficient deployments.",
-      "technical_spec": "Services are broken down into smaller, modular units.",
+      "title": "Microservices Architecture",
+      "description": "WhatsApp employs a microservices architecture to enhance scalability and maintainability.",
+      "technical_spec": "Distributed services using Docker containers and Kubernetes for orchestration.",
       "severity_score": 20
     },
     {
       "title": "End-to-End Encryption",
-      "description": "Ensures message privacy between users.",
-      "technical_spec": "Encryption protocols such as Signal Protocol.",
-      "severity_score": 5
+      "description": "All messages are end-to-end encrypted to ensure privacy and security.",
+      "technical_spec": "Utilizes the Signal Protocol for encryption.",
+      "severity_score": 10
     },
     {
-      "title": "Distributed Systems",
-      "description": "System distributed across global servers for scalability.",
-      "technical_spec": "Multiple data centers for load balancing.",
-      "severity_score": 30
-    },
-    {
-      "title": "Data Integrity",
-      "description": "Ensures that all messaging data remains consistent and unaltered.",
-      "technical_spec": "Use of checksums and data validation protocols.",
+      "title": "Cross-Platform Synchronization",
+      "description": "Ensures consistent user experience across mobile and web platforms.",
+      "technical_spec": "Uses client-server model with JSON and WebSockets for real-time updates.",
       "severity_score": 15
     },
     {
-      "title": "Real-Time Messaging",
-      "description": "Instant message delivery with low latency.",
-      "technical_spec": "Uses a custom protocol optimized for chat applications.",
-      "severity_score": 10
+      "title": "Global Content Delivery Network",
+      "description": "Improves accessibility and speed by using a global CDN.",
+      "technical_spec": "AWS CloudFront and other regional CDNs to cache data close to users.",
+      "severity_score": 15
+    },
+    {
+      "title": "Event-Driven Architecture",
+      "description": "Enables WhatsApp to handle billions of messages daily with high reliability.",
+      "technical_spec": "Kafka and Cassandra for messaging and storage.",
+      "severity_score": 30
     }
   ]
 }

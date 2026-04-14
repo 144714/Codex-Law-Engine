@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 99,
+    "rank": 109,
     "site": "instagram.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "1b89d70689128ff5549e3deb69393c6f"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "5d0597c25b89cfa76258bb72a887782f"
   },
   "data": [
     {
       "title": "Visual Storytelling",
-      "description": "Central focus on image and video sharing platforms to tell personal and brand stories.",
-      "technical_spec": "Features like Stories, Reels, and IGTV focus on visual content.",
-      "severity_score": 5
+      "description": "Focuses on sharing experiences visually rather than textually.",
+      "technical_spec": "Emphasis on photo and video content creation tools.",
+      "severity_score": 95
     },
     {
       "title": "Community Engagement",
-      "description": "Built to foster connectivity and interaction among individual users and communities.",
-      "technical_spec": "Tools for comments, direct messages, hashtags, and live interactions.",
-      "severity_score": 10
+      "description": "Facilitates social interactions through likes, comments, and sharing.",
+      "technical_spec": "Algorithms that prioritize engagement-driven content in feeds.",
+      "severity_score": 92
     },
     {
-      "title": "Influencer and Brand Collaboration",
-      "description": "Hub for influencer marketing and brand partnerships to reach larger audiences.",
-      "technical_spec": "Supports features for branded content, shopping, and partnerships.",
-      "severity_score": 8
+      "title": "Innovation in Features",
+      "description": "Constantly evolving with new tools like Reels and Filters to enhance creativity.",
+      "technical_spec": "Integration of AR and AI for dynamic content features.",
+      "severity_score": 94
     },
     {
-      "title": "Youth-Centric Design",
-      "description": "Marketing and design strategies focus on engaging the younger demographic.",
-      "technical_spec": "Trendy features, emphasis on visual aesthetics, and real-time engagement tools.",
-      "severity_score": 12
+      "title": "Influencer-centric",
+      "description": "Caters to content creators and influencers as key user segments.",
+      "technical_spec": "Features and metrics that cater to content reach and audience insights.",
+      "severity_score": 90
     },
     {
-      "title": "Constant Evolution",
-      "description": "Regular updates and feature additions to keep the user experience fresh and innovative.",
-      "technical_spec": "Frequent app updates and beta testing of new features like AR filters or AI-driven curation.",
-      "severity_score": 15
+      "title": "Seamless Integration",
+      "description": "Provides a smooth experience with other Facebook-owned applications.",
+      "technical_spec": "Cross-platform integration via unified messaging and notifications.",
+      "severity_score": 91
     }
   ]
 }

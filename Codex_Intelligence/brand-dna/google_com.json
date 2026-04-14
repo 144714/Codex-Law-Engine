@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 91,
+    "rank": 101,
     "site": "google.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "a871df10115c965046079e18d3fa783f"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "23c705376e606061b0223b508356e1ba"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Pioneering technological advancements and constantly evolving.",
-      "technical_spec": "Investment in research and development.",
-      "severity_score": 100
+      "title": "Search Engine Dominance",
+      "description": "Leader in online search services worldwide.",
+      "technical_spec": "Advanced algorithms for delivering precise search results.",
+      "severity_score": 5
+    },
+    {
+      "title": "Innovation Culture",
+      "description": "Strong focus on innovating diverse technological solutions.",
+      "technical_spec": "Continuous research and development investments.",
+      "severity_score": 10
     },
     {
       "title": "User-Centric Design",
-      "description": "Focus on creating intuitive and accessible user experiences.",
-      "technical_spec": "Incorporating user feedback in iterative design cycles.",
-      "severity_score": 98
+      "description": "Focusing on improving user experience and satisfaction.",
+      "technical_spec": "Empirical user data guides iterative design processes.",
+      "severity_score": 7
     },
     {
-      "title": "Reliability",
-      "description": "Consistent performance ensuring trust and dependability.",
-      "technical_spec": "24/7 operational uptime and robust security measures.",
-      "severity_score": 99
+      "title": "Global Reach",
+      "description": "Operates in virtually all countries and supports diverse languages.",
+      "technical_spec": "Localized services and interfaces for different demographics.",
+      "severity_score": 5
     },
     {
-      "title": "Global Impact",
-      "description": "Presence and influence that reach worldwide audiences.",
-      "technical_spec": "Availability in multiple languages and regions.",
-      "severity_score": 97
-    },
-    {
-      "title": "Sustainability",
-      "description": "Commitment to environmental sustainability and carbon neutrality.",
-      "technical_spec": "Utilization of renewable energy sources for data centers.",
-      "severity_score": 96
+      "title": "Data-Driven Decisions",
+      "description": "Utilizes data analytics to drive strategic business choices.",
+      "technical_spec": "Robust data collection and analysis frameworks.",
+      "severity_score": 8
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 92,
+    "rank": 102,
     "site": "youtube.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "a5a3d90396631d6bb119f60c91e2a1fe"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "4f4a91d821c046d11d994723305674af"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Design focuses on minimizing the distance for interactive elements to optimize user engagement.",
-      "technical_spec": "Predictive search and related content features.",
+      "title": "Aesthetic-Usability Effect",
+      "description": "A visually attractive design that promotes usability.",
+      "technical_spec": "Intuitive design language with a minimalist approach.",
       "severity_score": 15
     },
     {
-      "title": "Hick’s Law",
-      "description": "Limits the menu options displayed at one time to reduce information overload.",
-      "technical_spec": "Simplified navigation menu with categories and recommendations.",
-      "severity_score": 12
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Limits content chunks to seven or fewer on screens to enhance memory retention.",
-      "technical_spec": "Video playlist and thumbnail grouping.",
+      "title": "Hick's Law",
+      "description": "Reducing decision time by simplifying choices.",
+      "technical_spec": "Clear categorization and minimal clutter on UI.",
       "severity_score": 10
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Design consistency with other platforms enhances user familiarity and comfort.",
-      "technical_spec": "Standardized UI components across Google platforms.",
-      "severity_score": 18
+      "title": "Fitts's Law",
+      "description": "Easier interaction with interactive elements.",
+      "technical_spec": "Larger clickable elements for faster access.",
+      "severity_score": 10
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Emphasizes visually appealing design to enhance perceived usability.",
-      "technical_spec": "Consistent color schemes and thematic designs.",
-      "severity_score": 20
+      "title": "Gestalt Principles",
+      "description": "Visual hierarchy that aids in quick perception.",
+      "technical_spec": "Grouping related elements to enhance UI comprehension.",
+      "severity_score": 15
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Elements placed close together perceived as related.",
+      "technical_spec": "Logical grouping of UI components for better UX.",
+      "severity_score": 10
     }
   ]
 }

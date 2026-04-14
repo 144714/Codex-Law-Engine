@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 96,
+    "rank": 106,
     "site": "netflix.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "ec3f7c64f4b17b624f10ef51534147d8"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "391ae7533c8542b191061fc0abe04c3b"
   },
   "data": [
     {
-      "title": "Encryption at Rest and Transit",
-      "description": "Ensures data security and integrity by encrypting both stored data and data in transit.",
-      "technical_spec": "TLS for data in transit, AES for data at rest.",
+      "title": "Content Protection",
+      "description": "Ensures licensed content is protected against unauthorized access and distribution.",
+      "technical_spec": "Deploys multi-DRM services including Google Widevine and Microsoft PlayReady.",
+      "severity_score": 25
+    },
+    {
+      "title": "User Data Encryption",
+      "description": "Encrypts all user data to prevent unauthorized access.",
+      "technical_spec": "Utilizes TLS for data in transit and AES-256 for data at rest.",
+      "severity_score": 15
+    },
+    {
+      "title": "Access Management",
+      "description": "Implements stringent access controls and monitoring to protect resources.",
+      "technical_spec": "Role-based access controls combined with multi-factor authentication.",
       "severity_score": 30
     },
     {
-      "title": "Authentication and Authorization",
-      "description": "Multiple layers of user verification processes to protect user accounts.",
-      "technical_spec": "Uses OAuth 2.0 and SAML for secure access controls.",
-      "severity_score": 40
-    },
-    {
-      "title": "Continuous Threat Detection",
-      "description": "Monitors and responds to security threats in real-time across all services.",
-      "technical_spec": "Combines machine learning with manual review for anomaly detection.",
-      "severity_score": 45
-    },
-    {
-      "title": "Incident Response Team",
-      "description": "A dedicated team to quickly respond to and mitigate security breaches.",
-      "technical_spec": "Follows a structured incident response plan with defined protocols.",
+      "title": "Fraud Detection",
+      "description": "Detects and prevents credential stuffing and account takeover attempts.",
+      "technical_spec": "Machine learning models analyze login behavior patterns for anomalies.",
       "severity_score": 35
     },
     {
-      "title": "Penetration Testing and Security Audits",
-      "description": "Regularly conducted to identify and address vulnerabilities proactively.",
-      "technical_spec": "Third-party and internal testing cycles using tools like Metasploit.",
-      "severity_score": 50
+      "title": "Security Audits",
+      "description": "Regular assessments to identify vulnerabilities in the system.",
+      "technical_spec": "Involves bug bounty programs and static/dynamic application security testing.",
+      "severity_score": 20
     }
   ]
 }

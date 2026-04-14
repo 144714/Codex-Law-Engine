@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 94,
+    "rank": 104,
     "site": "microsoft.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "67ec53ee4a0ab6e35372dd32a0d2693f"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "e78afb5486feb875b5f0fb6d4a709e05"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Design follows Fitts's Law by ensuring clickable elements are easy to access.",
-      "technical_spec": "Consistent spacing and size for interactive elements.",
-      "severity_score": 86
+      "title": "Jakob's Law",
+      "description": "The site design aligns user expectations by mirroring common design patterns used by most major websites.",
+      "technical_spec": "Follows standard UI/UX conventions for navigation, layout, and interaction.",
+      "severity_score": 20
     },
     {
       "title": "Hick's Law",
-      "description": "Minimizes choice overload by categorizing and ordering information effectively.",
-      "technical_spec": "Use of dropdown menus and tabbed navigation.",
-      "severity_score": 84
+      "description": "Limits the number of choices and decisions that users need to make to enhance quick navigation.",
+      "technical_spec": "Simplified menu structures and predictive search functions to reduce cognitive load.",
+      "severity_score": 15
     },
     {
-      "title": "Golden Ratio",
-      "description": "Utilizes the Golden Ratio in layout design to create pleasing aesthetics.",
-      "technical_spec": "Proportional layouts maintaining an 1.618:1 aspect ratio.",
-      "severity_score": 81
+      "title": "Fitts's Law",
+      "description": "Ensures that interactive elements are easily clickable and accessible on all devices.",
+      "technical_spec": "Button size and spacing adhere to Fitts's criteria to improve usability.",
+      "severity_score": 10
     },
     {
-      "title": "Zeigarnik Effect",
-      "description": "Design prompts users to complete tasks, using the principle that incomplete tasks are remembered better.",
-      "technical_spec": "Progressive wizards and action reminders.",
-      "severity_score": 87
+      "title": "Law of Simplicity",
+      "description": "Uses a minimalist design to improve focus on core navigational elements and essential content.",
+      "technical_spec": "Clean layout with ample white space and straightforward navigation.",
+      "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Limits information to be processed to around 7 items at once.",
-      "technical_spec": "Organizes content into digestible chunks.",
-      "severity_score": 82
+      "title": "Aesthetic-Usability Effect",
+      "description": "Employs pleasing visual designs that positively influence user perceptions of functionality.",
+      "technical_spec": "High-quality visuals, themed color palettes, and typography.",
+      "severity_score": 25
     }
   ]
 }

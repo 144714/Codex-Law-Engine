@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 91,
+    "rank": 101,
     "site": "google.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "43553250653f3cac0c05d6f2f82c9349"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "61af5a22b7bb43e7e983f00c83a706b7"
   },
   "data": [
     {
-      "title": "Advanced Threat Detection",
-      "description": "Google employs machine learning algorithms to proactively detect and mitigate threats.",
-      "technical_spec": "Behavioral analysis to identify potential threats.",
-      "severity_score": 97
-    },
-    {
-      "title": "Zero Trust Security Model",
-      "description": "Adopts a zero trust approach ensuring verification at every level.",
-      "technical_spec": "Mandatory multi-factor authentication (MFA).",
-      "severity_score": 95
+      "title": "DDoS Protection",
+      "description": "Defense mechanisms against Distributed Denial of Service attacks.",
+      "technical_spec": "Includes rate limiting and traffic analysis.",
+      "severity_score": 30
     },
     {
       "title": "Data Encryption",
-      "description": "All user data is encrypted both in transit and at rest.",
-      "technical_spec": "256-bit encryption standards.",
-      "severity_score": 99
+      "description": "Encrypts data at rest and in transit.",
+      "technical_spec": "Uses TLS for data in transit and AES-256 encryption for data at rest.",
+      "severity_score": 15
     },
     {
-      "title": "DDOS Protection",
-      "description": "Capabilities to absorb and deflect distributed denial of service attacks.",
-      "technical_spec": "Use of internal and external filtering layers.",
-      "severity_score": 94
+      "title": "Zero Trust Security Model",
+      "description": "Assumes no implicit trust and verifies every interaction.",
+      "technical_spec": "Implementations focus on authentication and continuous monitoring.",
+      "severity_score": 25
     },
     {
-      "title": "Continuous Security Monitoring",
-      "description": "Real-time monitoring of all activities across Google services.",
-      "technical_spec": "Integration with security information and event management (SIEM) systems.",
-      "severity_score": 96
+      "title": "User Account Protection",
+      "description": "Mechanisms to protect user accounts from unauthorized access.",
+      "technical_spec": "Includes two-factor authentication and alerting mechanisms.",
+      "severity_score": 20
+    },
+    {
+      "title": "Threat Intelligence",
+      "description": "Analyzes and monitors for cyber threats in real-time.",
+      "technical_spec": "Utilizes machine learning to predict and mitigate threats.",
+      "severity_score": 35
     }
   ]
 }

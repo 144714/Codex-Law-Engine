@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 100,
+    "rank": 110,
     "site": "whatsapp.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "d7ed587d5dbe3ecf30debe3448b93a98"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "ce54766ebfc83cbd32297f32deb9f78f"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplified decision-making process reduces user reaction time.",
-      "technical_spec": "Intuitive and minimalistic interface design.",
-      "severity_score": 2
+      "title": "Hick’s Law",
+      "description": "Simplified user interface to reduce decision time for users.",
+      "technical_spec": "Focused layout with essential features like chat and status prominently displayed.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts's Law",
-      "description": "Button size and spacing optimized for touch devices.",
-      "technical_spec": "Larger tappable areas for frequent actions.",
-      "severity_score": 3
+      "title": "Fitts’s Law",
+      "description": "Optimizes interaction elements for fast navigation.",
+      "technical_spec": "Large, tappable areas for message reply and sending buttons.",
+      "severity_score": 10
     },
     {
       "title": "Law of Proximity",
-      "description": "Grouping related items to aid user experience.",
-      "technical_spec": "Logical grouping within chat lists and settings.",
-      "severity_score": 4
+      "description": "Groups related information and controls for intuitive access.",
+      "technical_spec": "Chats and related media content are visually grouped together.",
+      "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Limits on-screen information to user memory capacity.",
-      "technical_spec": "Simple menus with quick access to critical features.",
-      "severity_score": 2
+      "title": "Miller’s Law",
+      "description": "Simplifies information to prevent cognitive overload in messaging.",
+      "technical_spec": "Uses concise labels and icons to streamline user interaction.",
+      "severity_score": 12
     },
     {
-      "title": "Law of Similarity",
-      "description": "Consistent design elements for better user recognition.",
-      "technical_spec": "Use of familiar icons and consistent color schemes.",
-      "severity_score": 5
+      "title": "Pareto Principle (80/20 Rule)",
+      "description": "Focus on major user functions for high efficiency.",
+      "technical_spec": "Emphasizes messaging and media sharing, the app's core functionalities.",
+      "severity_score": 20
     }
   ]
 }

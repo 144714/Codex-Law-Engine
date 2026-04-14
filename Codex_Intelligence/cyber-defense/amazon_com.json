@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 95,
+    "rank": 105,
     "site": "amazon.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "eaa3a59c154926d2159f8957c8704e9b"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "2bc526b04161ee1fe48d1d79e8781e85"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Requires additional authentication beyond passwords to secure user accounts.",
-      "technical_spec": "MFA Solutions, OTP, SMS Verification",
-      "severity_score": 5
+      "title": "Encryption in Transit and at Rest",
+      "description": "Using encryption to protect user data both when stored and during transmission.",
+      "technical_spec": "TLS/SSL, AES-256 Encryption",
+      "severity_score": 20
     },
     {
-      "title": "Data Encryption",
-      "description": "Encrypts sensitive user data both in transit and at rest.",
-      "technical_spec": "TLS/SSL, AES-256, KMS",
-      "severity_score": 5
-    },
-    {
-      "title": "Threat Detection Systems",
-      "description": "Utilizes machine learning models to detect and mitigate potential threats.",
-      "technical_spec": "Amazon GuardDuty, IDS/IPS, SIEM",
-      "severity_score": 10
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Preventative measures against distributed denial-of-service attacks.",
-      "technical_spec": "AWS Shield, WAF, Global Accelerator",
+      "title": "Advanced Threat Detection",
+      "description": "Systems and AI to detect and mitigate potential cybersecurity threats in real-time.",
+      "technical_spec": "Amazon GuardDuty, Machine Learning Algorithms",
       "severity_score": 15
     },
     {
-      "title": "Vulnerability Assessments",
-      "description": "Regular vulnerability scanning and penetration testing to identify security gaps.",
-      "technical_spec": "Nessus, Qualys, CyberArk",
-      "severity_score": 15
+      "title": "Secure User Authentication",
+      "description": "Strong authentication mechanisms to ensure user identity verification.",
+      "technical_spec": "MFA, Token-based Authentication, OAuth",
+      "severity_score": 25
+    },
+    {
+      "title": "Firewall and DDOS Protection",
+      "description": "Advanced firewalls and protection systems to prevent denial of service attacks.",
+      "technical_spec": "AWS WAF, Shield, Traffic Monitoring",
+      "severity_score": 18
+    },
+    {
+      "title": "Continuous Security Monitoring",
+      "description": "Ongoing monitoring to identify and protect against security breaches.",
+      "technical_spec": "SIEM, Amazon CloudWatch, Security Incident Protocols",
+      "severity_score": 22
     }
   ]
 }

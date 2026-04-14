@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 94,
+    "rank": 104,
     "site": "microsoft.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "5872ed58144c00b3e314378ff8f0f5cc"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "42350f74550c24b3d3cb5297c4a756f3"
   },
   "data": [
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Ensures encryption of data in transit with SSL/TLS protocols.",
-      "technical_spec": "TLS 1.2 and above.",
-      "severity_score": 95
-    },
-    {
-      "title": "Multi-Factor Authentication",
-      "description": "Implements MFA to verify user identities and prevent unauthorized access.",
-      "technical_spec": "Supports multiple MFA methods including OTP and biometric.",
-      "severity_score": 90
+      "title": "Identity and Access Management (IAM)",
+      "description": "Uses multi-factor authentication and single sign-on to secure user credentials and access.",
+      "technical_spec": "Enabled via Azure Active Directory.",
+      "severity_score": 15
     },
     {
       "title": "Web Application Firewall (WAF)",
-      "description": "Protects against web-based attacks using WAF solutions.",
-      "technical_spec": "Integrated WAF with configurable security policies.",
-      "severity_score": 88
+      "description": "A protective WAF filters and monitors HTTP requests to safeguard the site from well-known web exploits.",
+      "technical_spec": "Deployed using Azure WAF with OWASP core rule set.",
+      "severity_score": 10
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular audits to identify and mitigate vulnerabilities.",
-      "technical_spec": "Automated and manual security testing.",
-      "severity_score": 93
+      "title": "Secure Socket Layer (SSL)/Transport Layer Security (TLS)",
+      "description": "Ensures encrypted data transmission between user browsers and servers to protect data integrity.",
+      "technical_spec": "Uses Azure Key Vault for managing SSL/TLS certificates.",
+      "severity_score": 5
     },
     {
-      "title": "Data Loss Prevention (DLP)",
-      "description": "Implements DLP strategies to safeguard sensitive information.",
-      "technical_spec": "Custom policies to prevent data breaches.",
-      "severity_score": 89
+      "title": "Advanced Threat Protection (ATP)",
+      "description": "Monitors and defends against advanced threats using machine learning and behavior analysis.",
+      "technical_spec": "Integrated with Microsoft Defender Advanced Threat Protection.",
+      "severity_score": 20
+    },
+    {
+      "title": "Regular Security Audits and Penetration Testing",
+      "description": "Conducts regular audits and tests to identify and resolve security vulnerabilities.",
+      "technical_spec": "Performed using a combination of automated tools and in-house security teams.",
+      "severity_score": 25
     }
   ]
 }

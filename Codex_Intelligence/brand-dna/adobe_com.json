@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 98,
+    "rank": 108,
     "site": "adobe.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "d2828bdf51dbaa0944f37d9503272c61"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "a5d98b8c8e768c93fc2ce81be931d17c"
   },
   "data": [
     {
-      "title": "Creative Design",
-      "description": "Focus on visually appealing and innovative design.",
-      "technical_spec": "Adobe XD, Photoshop",
+      "title": "Creativity and Design",
+      "description": "Strong emphasis on creativity, design, and innovation.",
+      "technical_spec": "Use of high-quality media assets and design elements.",
       "severity_score": 5
     },
     {
-      "title": "User-Centric Experience",
-      "description": "Designing with a strong emphasis on the user experience.",
-      "technical_spec": "User journey mapping, Usability tests",
-      "severity_score": 20
+      "title": "User Community",
+      "description": "Promotion of user community for creative exchange and inspiration.",
+      "technical_spec": "Forums, tutorials, and community showcases.",
+      "severity_score": 8
     },
     {
-      "title": "Innovation and Technology",
-      "description": "Staying at the forefront of digital design and technology.",
-      "technical_spec": "AI integrations, Machine Learning APIs",
-      "severity_score": 15
+      "title": "Cross-Platform Integration",
+      "description": "Seamless integration of services across various platforms.",
+      "technical_spec": "APIs and SDKs to connect with third-party applications.",
+      "severity_score": 12
     },
     {
-      "title": "Global Outreach",
-      "description": "Maintaining a global presence with localized content.",
-      "technical_spec": "Multi-language support, Geo-targeting",
+      "title": "Professional Asset",
+      "description": "Position as a professional suite for creatives and businesses.",
+      "technical_spec": "Advanced tools and enterprise solutions included.",
+      "severity_score": 7
+    },
+    {
+      "title": "Innovation Leadership",
+      "description": "Leading the market with constant product innovations.",
+      "technical_spec": "Continuous R&D and integration of new tech.",
       "severity_score": 10
-    },
-    {
-      "title": "Sustainability and Responsibility",
-      "description": "Commitment to sustainable practices and corporate responsibility.",
-      "technical_spec": "Eco-friendly hosting, Inclusive design practices",
-      "severity_score": 30
     }
   ]
 }

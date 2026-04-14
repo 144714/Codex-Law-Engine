@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 97,
+    "rank": 107,
     "site": "spotify.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "51a438a365c16fab788b9f1207a91028"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "693d5dd88a7b32e37c0a5b360703cc07"
   },
   "data": [
     {
-      "title": "Music Personalization",
-      "description": "Tailors music recommendations based on user preferences and listening history.",
-      "technical_spec": "Advanced algorithms and machine learning models analyze user data.",
-      "severity_score": 25
+      "title": "Global Accessibility",
+      "description": "Ensures the platform is accessible to a diverse global audience.",
+      "technical_spec": "Supports multiple languages and optimized global server networks.",
+      "severity_score": 90
     },
     {
-      "title": "Cultural Impact",
-      "description": "Promotes global music culture through curated playlists and exclusive content.",
-      "technical_spec": "Playlist editorial teams and partnerships with artists worldwide.",
-      "severity_score": 30
+      "title": "Community Engagement",
+      "description": "Encourages user engagement through social features and community playlists.",
+      "technical_spec": "Integration with social media platforms and collaborative playlist options.",
+      "severity_score": 85
     },
     {
-      "title": "Seamless Accessibility",
-      "description": "Consistent experience across various devices including mobile, desktop, and smart systems.",
-      "technical_spec": "Cross-platform applications with synced accounts and offline playback.",
-      "severity_score": 20
+      "title": "Innovative Feature Set",
+      "description": "Continually evolves offerings with features like Spotify Wrapped and personalized playlists.",
+      "technical_spec": "Data-driven approach using machine learning for personalization.",
+      "severity_score": 95
     },
     {
-      "title": "Brand Consistency",
-      "description": "Maintains consistent branding across all media and communications.",
-      "technical_spec": "Unified design language and tone in marketing materials and application UI.",
-      "severity_score": 15
+      "title": "Quality Audio Experience",
+      "description": "Focuses on delivering high-quality audio streaming experience consistently.",
+      "technical_spec": "Supports various audio quality settings and uses Ogg Vorbis format.",
+      "severity_score": 88
     },
     {
-      "title": "User Community Engagement",
-      "description": "Active engagement and interaction with users through social media and feedback channels.",
-      "technical_spec": "Community events, social media campaigns, and regular user feedback surveys.",
-      "severity_score": 22
+      "title": "Premium and Freemium Models",
+      "description": "Offers both ad-supported free access and premium subscriptions.",
+      "technical_spec": "Tiered service offerings with varying levels of access and features.",
+      "severity_score": 87
     }
   ]
 }

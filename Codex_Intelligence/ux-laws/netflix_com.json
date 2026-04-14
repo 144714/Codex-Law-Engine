@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 96,
+    "rank": 106,
     "site": "netflix.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "252697aab14b53c878e96a5470b65ca6"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "35b45667341721feaa9d54e138344c8c"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplification of user choices to enhance engagement and decision-making.",
-      "technical_spec": "Employs intuitive navigation and minimalistic design for content discovery.",
-      "severity_score": 25
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "A modern, visually appealing user interface that enhances perceived usability.",
-      "technical_spec": "Consistent branding elements and adaptive design across devices.",
-      "severity_score": 20
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Optimized screen layout to facilitate easier navigation and control access.",
-      "technical_spec": "Quick access icons positioned for ergonomical reach on various devices.",
-      "severity_score": 15
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Aligns interface elements with user expectations based on familiar web experiences.",
-      "technical_spec": "Standardized menu placements and iconography conforming to industry norms.",
+      "title": "Hick’s Law",
+      "description": "Facilitates quick decision making by limiting options and providing intuitive categories.",
+      "technical_spec": "Shows personalized content recommendations on the home screen.",
       "severity_score": 10
     },
     {
-      "title": "Pareto Principle",
-      "description": "Focus on high-impact features that deliver most user value and satisfaction.",
-      "technical_spec": "Feature preferences informed by heavy data analysis of viewing habits.",
-      "severity_score": 30
+      "title": "Fitts’s Law",
+      "description": "Ensures ease of navigation with easily clickable controls.",
+      "technical_spec": "Incorporates large thumbnails and responsive design for easy selection.",
+      "severity_score": 10
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Aligns with user expectations through familiar web conventions.",
+      "technical_spec": "Maintains consistency in user interface and streaming controls.",
+      "severity_score": 5
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Groups related content closely to improve comprehension and ease of use.",
+      "technical_spec": "Clusters similar genres and recommends based on viewer behavior.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic Usability Effect",
+      "description": "Balances visual appeal with functionality to build user trust.",
+      "technical_spec": "Utilizes clean design, animations, and seamless transitions.",
+      "severity_score": 5
     }
   ]
 }

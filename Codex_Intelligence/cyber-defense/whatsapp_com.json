@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 100,
+    "rank": 110,
     "site": "whatsapp.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "16314fea1ae66e7ed4e04607a91b9a20"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "73938d1ac3a11046579eda619009ddf1"
   },
   "data": [
     {
+      "title": "Data Encryption",
+      "description": "Encrypts data in transit and at rest to protect user privacy.",
+      "technical_spec": "AES-256 encryption for storage, TLS 1.3 for data transmission.",
+      "severity_score": 20
+    },
+    {
       "title": "Two-Factor Authentication",
-      "description": "Additional layer of security for user accounts.",
-      "technical_spec": "OTP via SMS or authenticator apps.",
-      "severity_score": 5
+      "description": "Provides an extra layer of security for user accounts.",
+      "technical_spec": "Optional pin-based 2FA via SMS or authenticator apps.",
+      "severity_score": 40
+    },
+    {
+      "title": "Anomaly Detection Systems",
+      "description": "Monitors and detects unusual activity patterns to prevent breaches.",
+      "technical_spec": "Machine learning algorithms to track and analyze user behavior.",
+      "severity_score": 30
     },
     {
       "title": "Regular Security Audits",
-      "description": "Frequent assessments to identify vulnerabilities.",
-      "technical_spec": "Periodic penetration testing and code reviews.",
-      "severity_score": 15
+      "description": "Conducts frequent audits to identify and rectify vulnerabilities.",
+      "technical_spec": "Internal and third-party security assessments using automated tools.",
+      "severity_score": 25
     },
     {
-      "title": "Data Encryption at Rest and in Transit",
-      "description": "Protection of user data both at rest and during transmission.",
-      "technical_spec": "AES-256 and TLS encryption standards.",
-      "severity_score": 10
-    },
-    {
-      "title": "Automatic Updates",
-      "description": "Automatic security updates to patch vulnerabilities.",
-      "technical_spec": "Seamless user-side updates without manual intervention.",
-      "severity_score": 8
-    },
-    {
-      "title": "Account Security Alerts",
-      "description": "Alerts for suspicious account activities.",
-      "technical_spec": "Tracking of login locations and new device sign-ins.",
-      "severity_score": 12
+      "title": "Zero Day Threat Response",
+      "description": "Prepares and rapidly responds to zero-day threats to mitigate risks.",
+      "technical_spec": "Dedicated security team and automated patch deployment system.",
+      "severity_score": 45
     }
   ]
 }

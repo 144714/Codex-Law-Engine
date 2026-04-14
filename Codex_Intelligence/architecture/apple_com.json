@@ -1,60 +1,40 @@
 {
   "meta": {
-    "rank": 93,
+    "rank": 103,
     "site": "apple.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "05fbea838dcc9b710e63a7356f23c962"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "c6827fa0412c5ba6bb15559740dd8f6a"
   },
   "data": [
     {
-      "title": "Microservices Framework",
-      "description": "Apple employs a microservices architecture to enhance modularity and scalability across its platforms.",
-      "technical_spec": [
-        "Decomposed applications",
-        "API gateways",
-        "Service discovery"
-      ],
-      "severity_score": 70
+      "title": "Responsive Design",
+      "description": "The website is built to respond to various screen sizes and orientations, ensuring a seamless user experience.",
+      "technical_spec": "CSS Media Queries, Flexbox, Grid Layout",
+      "severity_score": 10
+    },
+    {
+      "title": "Microservices",
+      "description": "The site utilizes a microservices architecture for scalable and efficient service management.",
+      "technical_spec": "Docker, Kubernetes, API Gateway",
+      "severity_score": 20
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "CDN is used to accelerate content delivery through geographical distribution of servers.",
-      "technical_spec": [
-        "Geo-located caching",
-        "Latency optimization",
-        "DDoS protection"
-      ],
-      "severity_score": 85
+      "description": "Global CDN deployed to enhance content delivery speed and reduce latency.",
+      "technical_spec": "Akamai CDN, Edge locations, Caching",
+      "severity_score": 15
     },
     {
-      "title": "Cloud Integration",
-      "description": "Seamless integration with cloud services for enhanced storage and processing capabilities.",
-      "technical_spec": [
-        "Serverless architecture",
-        "Elastic compute",
-        "High availability"
-      ],
-      "severity_score": 75
+      "title": "Redundancy and Failover",
+      "description": "Architectural features that ensure availability and reliability in case of system failures.",
+      "technical_spec": "Load Balancers, Backup Servers, Active-Passive Failover",
+      "severity_score": 25
     },
     {
-      "title": "Single Page Application (SPA)",
-      "description": "Utilizing SPA for a more dynamic user interaction and improved load times.",
-      "technical_spec": [
-        "React.js",
-        "Client-side rendering",
-        "Asynchronous data loading"
-      ],
-      "severity_score": 80
-    },
-    {
-      "title": "Progressive Web Apps (PWA)",
-      "description": "PWAs enable a native-like experience on the web with offline capabilities.",
-      "technical_spec": [
-        "Service workers",
-        "IndexedDB",
-        "Manifest files"
-      ],
-      "severity_score": 60
+      "title": "Database Sharding",
+      "description": "Data is partitioned using sharding to enhance performance and manageability.",
+      "technical_spec": "SQL/NOSQL Partitioning, Index Strategies",
+      "severity_score": 30
     }
   ]
 }

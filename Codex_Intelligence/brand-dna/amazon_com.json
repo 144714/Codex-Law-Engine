@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 95,
+    "rank": 105,
     "site": "amazon.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "8d7a18b21ea45d66d331e32eb22661b5"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "50601153119fdf87c99bd45be1194476"
   },
   "data": [
     {
-      "title": "Customer-Centric Approach",
-      "description": "Prioritizes customer experience across all interactions and services.",
-      "technical_spec": "Customer Feedback Systems, NPS, UX Research",
-      "severity_score": 5
+      "title": "Customer Centricity",
+      "description": "Putting customer experience and satisfaction at the forefront of business decisions.",
+      "technical_spec": "User Feedback Loops, Personalization Algorithms",
+      "severity_score": 8
     },
     {
-      "title": "Innovation Leadership",
-      "description": "Leads in adopting new technologies and processes to enhance service delivery.",
-      "technical_spec": "R&D Investment, AI Utilization, Automation",
+      "title": "Innovation and Adaptability",
+      "description": "Quick adaptation to market changes and innovation in service delivery.",
+      "technical_spec": "AI Research, Experimentation, AWS Integration",
       "severity_score": 10
     },
     {
       "title": "Operational Excellence",
-      "description": "Focuses on efficient internal processes to improve service reliability and delivery speed.",
-      "technical_spec": "Lean Management, Six Sigma, Process Optimization",
-      "severity_score": 10
+      "description": "Efficient and reliable operations embodying high standards.",
+      "technical_spec": "Supply Chain Optimization, Data-Driven Decisions",
+      "severity_score": 9
     },
     {
-      "title": "Sustainable Practices",
-      "description": "Commits to reducing environmental impact through sustainable practices.",
-      "technical_spec": "Carbon Footprint Reduction, Renewable Energy Usage",
-      "severity_score": 20
+      "title": "Global Reach and Accessibility",
+      "description": "Wide availability and accessibility across different regions and devices.",
+      "technical_spec": "Localization, Mobile Optimization, Accessibility Compliance",
+      "severity_score": 12
     },
     {
-      "title": "Diverse Product Range",
-      "description": "Offers a wide variety of products catering to diverse customer needs.",
-      "technical_spec": "Product Inventory Management, Marketplace Operations",
-      "severity_score": 5
+      "title": "Brand Trust",
+      "description": "Building trust through reliability, quality assurance, and robust data protection.",
+      "technical_spec": "Secure Transactions, Brand Transparency",
+      "severity_score": 7
     }
   ]
 }

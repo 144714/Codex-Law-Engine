@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 96,
+    "rank": 106,
     "site": "netflix.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "795883737007ff05c2f53ac7a306e373"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "e249438c21e02148d1afd6e4f71e3ce8"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "A distributed architecture where Netflix services are divided into small, independent units, each handling a specific function.",
-      "technical_spec": "Deployed on AWS, uses Kubernetes for container orchestration.",
-      "severity_score": 20
+      "description": "Netflix follows a microservices architecture allowing for modular scaling and continuous delivery.",
+      "technical_spec": "Services are isolated and deployed independently using Docker and Kubernetes.",
+      "severity_score": 10
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "A large-scale CDN setup to deliver streaming content efficiently across the globe.",
-      "technical_spec": "Uses Open Connect, Netflix's custom CDN optimized for video streaming.",
-      "severity_score": 25
+      "description": "Utilizes CDNs to cache and distribute content geographically closer to users.",
+      "technical_spec": "Employs Open Connect Appliance (OCA) servers to efficiently deliver streams.",
+      "severity_score": 20
     },
     {
-      "title": "Cloud-Native Infrastructure",
-      "description": "The complete infrastructure is hosted on the cloud for scalability and resilience.",
-      "technical_spec": "Primarily relies on AWS services including EC2, S3, and Lambda.",
-      "severity_score": 30
+      "title": "Data Pipeline",
+      "description": "Handles massive amounts of data for streaming analytics and recommendations.",
+      "technical_spec": "Built on Apache Kafka, Hadoop, and Spark to process real-time data streams.",
+      "severity_score": 15
     },
     {
-      "title": "Data-Driven Framework",
-      "description": "Utilizes big data and analytics for decision-making in content recommendation.",
-      "technical_spec": "Emploiys technologies like Apache Spark and Kafka.",
-      "severity_score": 40
+      "title": "Global Infrastructure",
+      "description": "Data centers are deployed globally to ensure low latency and high availability.",
+      "technical_spec": "AWS cloud infrastructure is leveraged for scalability and resiliency.",
+      "severity_score": 10
     },
     {
-      "title": "Global DNS Traffic Management",
-      "description": "Manages user requests globally to route them to the best performing datacenter.",
-      "technical_spec": "Uses proprietary and third-party DNS services for traffic latency optimization.",
-      "severity_score": 35
+      "title": "Backend Resilience",
+      "description": "Emphasizes on failover strategies to reduce downtime in case of server failures.",
+      "technical_spec": "Utilizes Hystrix for circuit breaker patterns and resilience4j for fault tolerance.",
+      "severity_score": 20
     }
   ]
 }

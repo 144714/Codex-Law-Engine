@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 97,
+    "rank": 107,
     "site": "spotify.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "691d1b491b6e4db7287ee44fd6f50ed8"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "eda654a0fe43da4b19767e1f5c657bb0"
   },
   "data": [
     {
-      "title": "User Authentication",
-      "description": "Secure user authentication system with options for single sign-on.",
-      "technical_spec": "OAuth 2.0 and two-factor authentication are available.",
-      "severity_score": 20
+      "title": "Two-Factor Authentication",
+      "description": "Enhances account security with the requirement of a second authentication factor.",
+      "technical_spec": "Supports OTPs via SMS and authenticator apps.",
+      "severity_score": 75
     },
     {
       "title": "Data Encryption",
-      "description": "Encryption is utilized for data protection both at rest and in transit.",
-      "technical_spec": "Uses TLS for data in transit and encryption at rest with AES-256.",
-      "severity_score": 25
+      "description": "Encrypts data in transit and at rest to protect user information.",
+      "technical_spec": "Uses TLS for data in transit and AES-256 for data at rest.",
+      "severity_score": 85
     },
     {
-      "title": "Intrusion Detection Systems (IDS)",
-      "description": "Monitors network traffic for potential threats or anomalies.",
-      "technical_spec": "Custom IDS solutions integrated with cloud services.",
-      "severity_score": 27
+      "title": "Network Security",
+      "description": "Deploys firewalls and intrusion detection systems to monitor and protect against threats.",
+      "technical_spec": "Uses AWS security tools and custom monitoring solutions.",
+      "severity_score": 90
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Routine audits to identify vulnerabilities and improve security posture.",
-      "technical_spec": "Internal and third-party audits performed on a regular basis.",
-      "severity_score": 30
+      "title": "Vulnerability Management",
+      "description": "Regularly scans for vulnerabilities and applies patches promptly.",
+      "technical_spec": "Utilizes automated scanning tools and manual testing.",
+      "severity_score": 83
     },
     {
-      "title": "Incident Response Plan",
-      "description": "Comprehensive strategy in place for managing and mitigating security incidents.",
-      "technical_spec": "Defines roles, communication plans, and recovery steps.",
-      "severity_score": 22
+      "title": "Access Control",
+      "description": "Implements strong access control measures to restrict internal and external access.",
+      "technical_spec": "Role-based access control and single sign-on integration.",
+      "severity_score": 80
     }
   ]
 }

@@ -1,60 +1,40 @@
 {
   "meta": {
-    "rank": 93,
+    "rank": 103,
     "site": "apple.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "b1e416cb459d2520093bd087c260f2c7"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "6b58e7748bc3189e58ead882a61e5bb2"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Streamlining decision-making processes by reducing the number of choices displayed at once.",
-      "technical_spec": [
-        "Simplicity",
-        "Clear navigation",
-        "Categorization"
-      ],
-      "severity_score": 50
+      "title": "Fitts's Law",
+      "description": "Design principle focusing on making interactive elements easy to reach and use.",
+      "technical_spec": "Button Size, Clickable Areas",
+      "severity_score": 15
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Design is optimized for easier accessibility of interactive elements for improved user efficiency.",
-      "technical_spec": [
-        "Button size optimization",
-        "Proximity",
-        "Responsive design"
-      ],
-      "severity_score": 65
+      "title": "Hick's Law",
+      "description": "Minimizing decision-making complexity by simplifying choices for users.",
+      "technical_spec": "Progressive Disclosure, Simplified Menus",
+      "severity_score": 20
     },
     {
       "title": "Gestalt Principles",
-      "description": "Application of Gestalt principles to improve user perception and organization of content.",
-      "technical_spec": [
-        "Visual hierarchy",
-        "Groupings",
-        "Symmetrical layouts"
-      ],
-      "severity_score": 55
+      "description": "Design elements following Gestalt principles for better user perception.",
+      "technical_spec": "Proximity, Similarity, Closure in Design",
+      "severity_score": 10
     },
     {
-      "title": "Aesthetic–Usability Effect",
-      "description": "Enhances user satisfaction and perceived usability through aesthetically pleasing design.",
-      "technical_spec": [
-        "Minimalistic design",
-        "Color theory",
-        "Typography"
-      ],
-      "severity_score": 60
+      "title": "Miller’s Law",
+      "description": "Design approach accounting for the limited span of attention.",
+      "technical_spec": "Information Chunking, Focused Content Delivery",
+      "severity_score": 25
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Utilizes existing conventions to create familiar user experiences across different devices.",
-      "technical_spec": [
-        "Consistency",
-        "Standard UI patterns",
-        "Cross-platform compatibility"
-      ],
-      "severity_score": 70
+      "title": "Jakob's Law",
+      "description": "Leveraging users’ familiarity with common design patterns from other websites.",
+      "technical_spec": "Consistency with Established Web Patterns, Familiar Interfaces",
+      "severity_score": 18
     }
   ]
 }

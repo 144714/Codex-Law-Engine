@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 94,
+    "rank": 104,
     "site": "microsoft.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "e5a2b88b2b882f70b39730deced4bcd3"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "d0547b52f94b94960bc62a98847e15ff"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Presents itself as a leader in technological advancements and innovation.",
-      "technical_spec": "Focus on AI, cloud technology, and sustainable solutions.",
-      "severity_score": 96
+      "title": "Innovation and Technological Leadership",
+      "description": "Positions as a leader in tech innovations, offering cutting-edge solutions across cloud, AI, and OS platforms.",
+      "technical_spec": "Pioneering developments in Azure cloud computing and AI-driven applications.",
+      "severity_score": 5
     },
     {
-      "title": "User-Centric Design",
-      "description": "Centers its design approach around the needs and expectations of users.",
-      "technical_spec": "Emphasis on accessibility and user feedback loops.",
-      "severity_score": 94
+      "title": "User-centric Design Philosophy",
+      "description": "Focus on creating seamless digital experiences tailored to user needs and preferences.",
+      "technical_spec": "Emphasizes research-driven UX and constant interface improvements.",
+      "severity_score": 10
+    },
+    {
+      "title": "Sustainability Commitment",
+      "description": "Committed to sustainable business practices with initiatives aimed at reducing carbon emissions.",
+      "technical_spec": "Investments in renewable energy and carbon-negative cloud services by 2030.",
+      "severity_score": 15
     },
     {
       "title": "Global Accessibility",
-      "description": "Commits to providing accessible solutions to a diverse global audience.",
-      "technical_spec": "Multi-language support and WCAG compliance.",
-      "severity_score": 92
+      "description": "Dedicated to making technology accessible to all, including compliance with various international accessibility standards.",
+      "technical_spec": "Implementation of WCAG 2.1 guidelines for web accessibility.",
+      "severity_score": 20
     },
     {
-      "title": "Security Assurance",
-      "description": "Strong focus on security and trust in all their digital services.",
-      "technical_spec": "Robust privacy policies and security certifications.",
-      "severity_score": 95
-    },
-    {
-      "title": "Sustainability Efforts",
-      "description": "Actively promotes sustainability in technology and operations.",
-      "technical_spec": "Green tech initiatives and eco-friendly practices.",
-      "severity_score": 90
+      "title": "Security as a Core Value",
+      "description": "Security is embedded in the DNA of all Microsoft products and services, ensuring customer trust and protection.",
+      "technical_spec": "Utilizes secure development lifecycle (SDL) across all product lines.",
+      "severity_score": 10
     }
   ]
 }

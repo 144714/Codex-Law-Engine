@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 96,
+    "rank": 106,
     "site": "netflix.com",
-    "date": "2026-04-14 11:52",
-    "integrity_hash": "7428dc9af49b93e33d77aabfb23ebb54"
+    "date": "2026-04-14 13:04",
+    "integrity_hash": "6738b4cf93c18db4b36634f5ce4e49e0"
   },
   "data": [
     {
-      "title": "Original Content Production",
-      "description": "A leading force in producing original shows and movies that define brand appeal.",
-      "technical_spec": "Large-scale production facilities and partnerships with renowned creators.",
-      "severity_score": 50
+      "title": "Innovative Content Production",
+      "description": "Produces original content that is both diverse and innovative.",
+      "technical_spec": "Leverages big data for content creation decisions.",
+      "severity_score": 20
     },
     {
-      "title": "Global Reach and Localization",
-      "description": "Adaptation of user experience and content to suit different regions and languages.",
-      "technical_spec": "Localized subtitles, dubbing, and region-specific content libraries.",
-      "severity_score": 40
+      "title": "Global Reach",
+      "description": "Serves a diverse audience with international shows and films.",
+      "technical_spec": "Multiple language support and localized content interfaces.",
+      "severity_score": 30
     },
     {
-      "title": "User-Centric Innovation",
-      "description": "Develops features that enhance user convenience and engagement.",
-      "technical_spec": "Constantly updated UI/UX driven by A/B testing and user feedback.",
-      "severity_score": 35
+      "title": "User-Centric Design",
+      "description": "Focuses on providing a personalized and user-friendly experience.",
+      "technical_spec": "Smart recommendations and adaptive streaming qualities for various devices.",
+      "severity_score": 25
     },
     {
-      "title": "Data-Driven Personalization",
-      "description": "Customized viewing experience through advanced recommendation algorithms.",
-      "technical_spec": "Leveraging complex analytics to match content with user preferences.",
-      "severity_score": 45
+      "title": "Technology Leadership",
+      "description": "Pioneers in adopting cutting-edge technology for streaming.",
+      "technical_spec": "High-performance adaptive streaming and 4K video support.",
+      "severity_score": 25
     },
     {
-      "title": "Streaming Technology Leadership",
-      "description": "Pioneering technology that sets industry standards for online video streaming.",
-      "technical_spec": "Innovations in adaptive streaming and video codec optimizations.",
-      "severity_score": 55
+      "title": "Cultural Impact",
+      "description": "Known for shaping viewing habits and pop culture influence.",
+      "technical_spec": "Global cultural phenomena through strategic content releases.",
+      "severity_score": 15
     }
   ]
 }
