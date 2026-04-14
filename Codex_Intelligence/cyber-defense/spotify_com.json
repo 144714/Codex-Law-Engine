@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 117,
+    "rank": 127,
     "site": "spotify.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "c8cb64357eec0495a92bec7fe62da04e"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "a5543a880a53ab4bc23285cf68b5c423"
   },
   "data": [
     {
       "title": "User Data Encryption",
-      "description": "Ensures that user data is encrypted both at rest and in transit.",
-      "technical_spec": "Utilizes AES-256 encryption for data at rest and TLS 1.2+ for data in transit.",
-      "severity_score": 95
+      "description": "Sensitive user data is encrypted both in transit and at rest to protect against unauthorized access.",
+      "technical_spec": "AES-256 encryption for data at rest, TLS 1.2+ for data in transit.",
+      "severity_score": 5
     },
     {
-      "title": "Access Control Policies",
-      "description": "Implements strict access control measures to protect user and system data.",
-      "technical_spec": "Employs role-based access control (RBAC) and multi-factor authentication (MFA).",
-      "severity_score": 92
+      "title": "Secure Authentication",
+      "description": "Spotify implements robust authentication mechanisms to ensure user account safety.",
+      "technical_spec": "OAuth 2.0 and 2FA for user authentication.",
+      "severity_score": 15
     },
     {
-      "title": "Threat Monitoring Systems",
-      "description": "Proactively monitors for unusual activities or potential threats.",
-      "technical_spec": "Uses advanced SIEM (Security Information and Event Management) systems with real-time alerts.",
-      "severity_score": 88
+      "title": "DDoS Protection",
+      "description": "Employs strategies to detect and mitigate Distributed Denial-of-Service attacks.",
+      "technical_spec": "AWS Shield for proactive DDoS defense.",
+      "severity_score": 20
     },
     {
-      "title": "Periodic Security Audits",
-      "description": "Conducts regular security assessments to identify vulnerabilities.",
-      "technical_spec": "Engages external cybersecurity firms for penetration testing and compliance checks.",
-      "severity_score": 86
+      "title": "Vulnerability Management",
+      "description": "Regular security audits and a bug bounty program to identify vulnerabilities.",
+      "technical_spec": "Automated scanning and manual security testing.",
+      "severity_score": 30
     },
     {
-      "title": "Incident Response Protocol",
-      "description": "Established procedures for quickly addressing security incidents.",
-      "technical_spec": "Includes automated logging, analysis, and a 24/7 incident response team.",
-      "severity_score": 90
+      "title": "Application Security",
+      "description": "Secure coding practices are enforced to prevent common web vulnerabilities such as XSS, CSRF, and SQL injection.",
+      "technical_spec": "Integration of security tools in CI/CD pipelines.",
+      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 115,
+    "rank": 125,
     "site": "amazon.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "9e4a9e2c88a87cabac5131c98e68a2cf"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "121c7a22d74a7cb709d2da4f93c1b787"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplistic navigation for quick user decision-making.",
-      "technical_spec": "Intuitive categorization and search function for product discovery.",
+      "description": "Amazon's design reduces decision-making time by simplifying choices.",
+      "technical_spec": "Clean interface with categorized products and search functionality.",
+      "severity_score": 80
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "Design of clickable areas are optimized for ease of access and interaction.",
+      "technical_spec": "Large buttons and intuitive navigation paths to facilitate user interaction.",
       "severity_score": 85
     },
     {
       "title": "Jakob's Law",
-      "description": "Consistent design reflecting user familiarity with other e-commerce platforms.",
-      "technical_spec": "User interface consistency with standard e-commerce patterns.",
+      "description": "Adopts familiar design patterns to meet user expectations.",
+      "technical_spec": "Conforms to standard e-commerce UX conventions for consistent user experiences.",
       "severity_score": 90
     },
     {
-      "title": "Fitts's Law",
-      "description": "Efficient call-to-action placements reducing time to target selection.",
-      "technical_spec": "Prominent 'Add to Cart' and 'Buy Now' buttons.",
-      "severity_score": 80
-    },
-    {
       "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing layout that enhances perceived usability.",
-      "technical_spec": "Clean design with whitespace and color contrast.",
+      "description": "A visually appealing design that enhances perceived usability.",
+      "technical_spec": "Aesthetic choices contribute to increased user satisfaction and engagement.",
       "severity_score": 75
     },
     {
-      "title": "Zeigarnik Effect",
-      "description": "Highlighted incomplete actions to improve user follow-through.",
-      "technical_spec": "Shopping carts and wishlists encourage return interactions.",
-      "severity_score": 78
+      "title": "Law of Proximity",
+      "description": "Items placed close together are perceived as related, aiding navigation.",
+      "technical_spec": "Grouped content helps users locate related products and information efficiently.",
+      "severity_score": 85
     }
   ]
 }

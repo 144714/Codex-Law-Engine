@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 116,
+    "rank": 126,
     "site": "netflix.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "9039ee0c588ef77dd113baa2e3dacc6c"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "b4c1d073845f3f3860a1e0257db6ee27"
   },
   "data": [
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "Visually appealing design influences perceived usability and enhances user satisfaction.",
-      "technical_spec": "Use of modern and minimalistic design elements with intuitive navigation.",
-      "severity_score": 78
+      "title": "Fitts's Law",
+      "description": "Interactive elements are strategically sized and positioned for efficient accessibility.",
+      "technical_spec": "Dynamic buttons adjusted for device interfaces.",
+      "severity_score": 10
     },
     {
       "title": "Hick's Law",
-      "description": "Limits on-screen choices to reduce decision time and potential confusion for users.",
-      "technical_spec": "Simplified menus and personalized recommendations based on user habits.",
-      "severity_score": 82
+      "description": "Simplified navigation process by reducing user choices at each interaction step.",
+      "technical_spec": "Hierarchal interface design minimizing decision fatigue.",
+      "severity_score": 12
     },
     {
-      "title": "Fitts's Law",
-      "description": "Design elements are designed for efficient selection and interaction, more accessible on varying devices.",
-      "technical_spec": "Use of large clickable areas for key actions, optimized for touch interfaces.",
-      "severity_score": 88
+      "title": "Miller’s Law",
+      "description": "Content chunking to facilitate processing of information and decision-making.",
+      "technical_spec": "User interface groups related content into manageable sections.",
+      "severity_score": 15
     },
     {
-      "title": "Cognitive Load Reduction",
-      "description": "Reduces cognitive load with clear, straightforward design and easy-to-use navigation.",
-      "technical_spec": "Progressive disclosure and well-organized content categories.",
-      "severity_score": 80
+      "title": "Jakob’s Law",
+      "description": "Aligning expectations by maintaining consistency with common web navigation standards.",
+      "technical_spec": "Consistent visual language and interactive feedback across platforms.",
+      "severity_score": 8
     },
     {
-      "title": "Loading Perception",
-      "description": "Minimizes perceived loading times with smart loading indicators and asynchronous loading.",
-      "technical_spec": "Use of preloading and caching to provide instant feedback and content transition.",
-      "severity_score": 84
+      "title": "Law of Proximity",
+      "description": "Closely related items are placed near each other to visually associate similar content.",
+      "technical_spec": "Use of whitespace and grouping in interface layout.",
+      "severity_score": 14
     }
   ]
 }

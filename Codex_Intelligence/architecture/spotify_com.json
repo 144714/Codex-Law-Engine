@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 117,
+    "rank": 127,
     "site": "spotify.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "fe3a8f2df4d47e473061e3adfff5d795"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "fc238440fdb734230e5cce8db16d03c7"
   },
   "data": [
     {
-      "title": "Microservices Framework",
-      "description": "Spotify's backend is built with a microservices architecture to allow independent deployment and scaling.",
-      "technical_spec": "Utilizes services written in languages like Java, Python, and Node.js, orchestrated using Kubernetes.",
-      "severity_score": 85
+      "title": "Microservices Architecture",
+      "description": "Spotify uses microservices to provide scalability and maintainability, allowing different components to be updated without affecting the whole system.",
+      "technical_spec": "Service-oriented architecture with RESTful services.",
+      "severity_score": 15
     },
     {
-      "title": "Distributed Systems",
-      "description": "Spotify leverages distributed systems to efficiently handle over 356 million active users worldwide.",
-      "technical_spec": "Implements Cassandra for wide-column data storage, and Apache Kafka for message streaming.",
-      "severity_score": 80
+      "title": "Event-Driven Systems",
+      "description": "Spotify utilizes event-driven architectures to handle data changes across its platform efficiently.",
+      "technical_spec": "Apache Kafka for stream processing and messaging.",
+      "severity_score": 20
     },
     {
-      "title": "Load Balancing Infrastructure",
-      "description": "Servers are strategically placed and managed across the globe to maintain high availability and low latency.",
-      "technical_spec": "Incorporates AWS Elastic Load Balancing (ELB) and CloudFront as a CDN.",
-      "severity_score": 75
+      "title": "Data Storage Solutions",
+      "description": "Spotify employs a mix of SQL and NoSQL databases to manage diverse data types.",
+      "technical_spec": "PostgreSQL, Cassandra, and Hadoop ecosystem.",
+      "severity_score": 25
     },
     {
-      "title": "RESTful API Design",
-      "description": "Exposes a robust RESTful API for playback control, user management, and data handling.",
-      "technical_spec": "Primarily developed with OpenAPI standards and OAuth 2.0 for authentication.",
-      "severity_score": 70
+      "title": "Content Delivery Network",
+      "description": "Spotify uses CDNs to deliver media content efficiently to users around the globe.",
+      "technical_spec": "Akamai technologies for global cache distribution.",
+      "severity_score": 10
     },
     {
-      "title": "Search and Recommendation Engine",
-      "description": "A custom-built engine for content recommendation based on user data and behavior.",
-      "technical_spec": "Powered by Elasticsearch for full-text search and Bigtable for storing user heuristics.",
-      "severity_score": 90
+      "title": "Mobile and Web Front-End",
+      "description": "Adopts responsive design principles and native mobile solutions for a seamless user experience.",
+      "technical_spec": "React for web, native iOS and Android development.",
+      "severity_score": 30
     }
   ]
 }

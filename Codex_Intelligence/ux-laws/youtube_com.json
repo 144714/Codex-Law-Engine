@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 112,
+    "rank": 122,
     "site": "youtube.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "9a8ff29e2b3b2a51304f2c85daa7e15b"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "67fdf538205b0652d3401709074d3cbd"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies choices to improve user experience by reducing decision time.",
-      "technical_spec": "Minimalistic design, intuitive navigation menus.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Designs with easily clickable targets to enhance accessibility.",
-      "technical_spec": "Larger icons and touch-friendly elements.",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Consistent interface design aligned with user expectations from similar platforms.",
-      "technical_spec": "Aligns design patterns with other Google services.",
+      "description": "Limits the number of choices presented to users to simplify decision-making.",
+      "technical_spec": "Groups options into categories to reduce cognitive load.",
       "severity_score": 20
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Prioritizes visually pleasing design which users perceive as more usable.",
-      "technical_spec": "Consistent color schemes, responsive layouts.",
-      "severity_score": 10
+      "title": "Fitts' Law",
+      "description": "Designs interfaces that increase the ease and accuracy of selecting interactive elements.",
+      "technical_spec": "Places frequently used buttons and links in easily reachable areas.",
+      "severity_score": 22
     },
     {
-      "title": "Pareto Principle",
-      "description": "Focuses on the key features that deliver the most value to the user.",
-      "technical_spec": "Emphasis on search, recommendations, and video playback.",
-      "severity_score": 5
+      "title": "Aesthetic-Usability Effect",
+      "description": "Creates visually appealing and intuitive interfaces to enhance user satisfaction.",
+      "technical_spec": "Adopts consistent design guidelines and color schemes.",
+      "severity_score": 18
+    },
+    {
+      "title": "Serial Position Effect",
+      "description": "Presents crucial information at the beginning and end of navigational sequences.",
+      "technical_spec": "Organizes content hierarchically to enhance recall.",
+      "severity_score": 17
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Applies Gestalt principles for better visual organization and user comprehension.",
+      "technical_spec": "Uses proximity, similarity, and continuity cues.",
+      "severity_score": 19
     }
   ]
 }

@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 119,
+    "rank": 129,
     "site": "instagram.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "513fc34022a8824eda6f52a09e2e2ddf"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "28b76d764438560b29640ce3623f44b8"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Ensures secure communications between users and the platform.",
-      "technical_spec": "Encryption protocols such as TLS/SSL for data in transit.",
+      "title": "Two-Factor Authentication",
+      "description": "Instagram offers two-factor authentication to add an extra layer of security for user accounts.",
+      "technical_spec": "Supports authentication apps and SMS-based verification for user login.",
+      "severity_score": 15
+    },
+    {
+      "title": "Content Moderation",
+      "description": "A robust system to detect and manage inappropriate content, enhancing user safety.",
+      "technical_spec": "Uses AI-driven algorithms and manual reviews for content flagging.",
+      "severity_score": 25
+    },
+    {
+      "title": "Encryption",
+      "description": "Data in transit is encrypted to protect user information from unauthorized access.",
+      "technical_spec": "TLS (Transport Layer Security) is implemented for data encryption.",
+      "severity_score": 20
+    },
+    {
+      "title": "Anomaly Detection",
+      "description": "Implementation of systems to detect unusual activities, preventing unauthorized access.",
+      "technical_spec": "Machine learning models analyze patterns and flag suspicious activities.",
       "severity_score": 35
     },
     {
-      "title": "Two-factor Authentication",
-      "description": "Adds an extra layer of security for user accounts.",
-      "technical_spec": "Support for both SMS-based and authenticator app-based verification.",
-      "severity_score": 40
-    },
-    {
-      "title": "Regular Pentesting",
-      "description": "Frequent penetration testing to identify and mitigate vulnerabilities.",
-      "technical_spec": "Red Team assessments and bounty programs to incentivize vulnerability reporting.",
-      "severity_score": 45
-    },
-    {
-      "title": "AI-based Threat Detection",
-      "description": "Machine learning algorithms to detect and respond to threats in real-time.",
-      "technical_spec": "Anomaly detection systems analyzing logs and user activity patterns.",
-      "severity_score": 50
-    },
-    {
-      "title": "Data Anonymization",
-      "description": "Techniques implemented to anonymize sensitive user data.",
-      "technical_spec": "Data masking, pseudonymization methods to protect user privacy.",
+      "title": "Bug Bounty Program",
+      "description": "Encourages external security researchers to identify and report vulnerabilities.",
+      "technical_spec": "Offers rewards for validated vulnerabilities that align with outlined terms.",
       "severity_score": 30
     }
   ]

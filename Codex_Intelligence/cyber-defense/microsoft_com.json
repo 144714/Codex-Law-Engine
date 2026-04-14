@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 114,
+    "rank": 124,
     "site": "microsoft.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "4addb8182e087d9504f50d6d9795d40e"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "b13ea87f149ba01c574a100d8e80fe7e"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "Ensures user account security by requiring multiple forms of verification.",
-      "technical_spec": "Integrated with Azure Active Directory for identity validation.",
-      "severity_score": 15
-    },
-    {
       "title": "Advanced Threat Protection",
-      "description": "Protects against sophisticated cyber threats and breaches.",
-      "technical_spec": "Utilizes Microsoft Defender and Azure Security Center.",
-      "severity_score": 12
+      "description": "Incorporates cutting-edge threat protection mechanisms to safeguard site data.",
+      "technical_spec": "Microsoft Defender tools for threat intelligence.",
+      "severity_score": 5
     },
     {
-      "title": "Data Encryption",
-      "description": "Ensures all sensitive data is encrypted in transit and at rest.",
-      "technical_spec": "AES-256 encryption across data services and TLS 1.2 for data in transit.",
-      "severity_score": 9
+      "title": "SSL/TLS Encryption",
+      "description": "Secures data transmission using the latest encryption standards.",
+      "technical_spec": "TLS 1.3 implementation across all communications.",
+      "severity_score": 5
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Built-in DDoS protection to mitigate attacks and ensure uptime.",
+      "technical_spec": "Azure DDoS Protection service implemented.",
+      "severity_score": 10
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts consistent security audits to identify and mitigate vulnerabilities.",
-      "technical_spec": "Automated and manual penetration testing protocols in place.",
-      "severity_score": 20
+      "description": "Conducts frequent security audits and vulnerability assessments.",
+      "technical_spec": "Compliance with ISO/IEC 27001 and regular pen tests.",
+      "severity_score": 10
     },
     {
-      "title": "Zero Trust Architecture",
-      "description": "Adopts a zero-trust model for verifying devices and users comprehensively.",
-      "technical_spec": "No implicit trust, comprehensive verification required at each access attempt.",
-      "severity_score": 10
+      "title": "Identity and Access Management",
+      "description": "Robust IAM systems to control user permissions and authentication.",
+      "technical_spec": "Azure Active Directory for SSO and MFA capabilities.",
+      "severity_score": 5
     }
   ]
 }

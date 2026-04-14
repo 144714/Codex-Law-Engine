@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 115,
+    "rank": 125,
     "site": "amazon.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "b258045c2a9e5efa0cb18e3230e15720"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "69a8dd95317abc4037bae81473964261"
   },
   "data": [
     {
-      "title": "Customer Obsession",
-      "description": "Central focus on enhancing the customer experience and loyalty.",
-      "technical_spec": "24/7 customer service and comprehensive FAQs for support.",
-      "severity_score": 98
+      "title": "Customer-Centric Approach",
+      "description": "Amazon's operations are centered around enhancing customer experience.",
+      "technical_spec": "Implements AI and machine learning to personalize shopping experiences.",
+      "severity_score": 100
     },
     {
-      "title": "Operational Excellence",
-      "description": "Commitment to streamlined and efficient operations.",
-      "technical_spec": "Automated logistics and supply chain management.",
+      "title": "Innovation and Technology",
+      "description": "Amazon leverages technology for innovation and solutions development.",
+      "technical_spec": "Utilizes cutting-edge technology to enhance services like Prime and Alexa.",
       "severity_score": 95
     },
     {
-      "title": "Innovation",
-      "description": "Continuous introduction of new services and technology.",
-      "technical_spec": "AI-powered recommendations and Alexa platform development.",
-      "severity_score": 90
+      "title": "Logistics Excellence",
+      "description": "A robust logistics network to ensure fast and reliable delivery.",
+      "technical_spec": "Optimizes supply chain operations with sophisticated software and algorithms.",
+      "severity_score": 98
     },
     {
-      "title": "Leadership Principles",
-      "description": "Guiding principles that influence decision-making and culture.",
-      "technical_spec": "Defined set of behaviors and standards for employees.",
-      "severity_score": 85
+      "title": "Diverse Product Range",
+      "description": "Offers a vast array of products across multiple categories.",
+      "technical_spec": "Integrates diverse inventory systems for comprehensive catalog management.",
+      "severity_score": 95
     },
     {
-      "title": "Value for Product",
-      "description": "Commitment to offering value through competitive pricing.",
-      "technical_spec": "Dynamic pricing algorithms and Prime membership benefits.",
-      "severity_score": 88
+      "title": "Global Market Presence",
+      "description": "Amazon operates in numerous international markets, adapting to local needs.",
+      "technical_spec": "Tailors website content and offerings to meet regional consumer preferences.",
+      "severity_score": 92
     }
   ]
 }

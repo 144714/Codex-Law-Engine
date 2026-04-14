@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 119,
+    "rank": 129,
     "site": "instagram.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "09c717dad8cf6d3bb1e2e22b0772a8f5"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "99646180408a4b52c877484549cc12b9"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies user decision-making by limiting choices and providing a streamlined UI.",
-      "technical_spec": "Design principles that reduce cognitive load via simplified navigation and layout.",
-      "severity_score": 10
+      "title": "Hick's Law",
+      "description": "Instagram minimizes decision-making time by offering streamlined and simplified navigation.",
+      "technical_spec": "Optimizes the number of options presented to users to ensure faster decision-making.",
+      "severity_score": 20
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizes touch targets for easier user interaction.",
-      "technical_spec": "Ensures buttons and interactive elements are adequately sized and spaced.",
+      "title": "Fitts's Law",
+      "description": "Interactive elements are sized and positioned based on ease of use and accessibility.",
+      "technical_spec": "Ensures interactive targets like buttons are easily clickable on various devices.",
       "severity_score": 15
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Enhances user experience by combining aesthetic appeal with usability.",
-      "technical_spec": "Clean visual design that balances color schemes and typography.",
-      "severity_score": 5
+      "description": "Instagram's visually appealing interface enhances user satisfaction and engagement.",
+      "technical_spec": "Consistent use of colors, typography, and imagery aligned with visual design principles.",
+      "severity_score": 10
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Utilizes familiar design patterns to meet user expectations.",
-      "technical_spec": "Consistency with commonly recognized UI practices found on other platforms.",
-      "severity_score": 20
+      "title": "Serial Position Effect",
+      "description": "Critical features like Stories are positioned for immediate visibility and interaction.",
+      "technical_spec": "Leverages primacy and recency effects by placing important elements at the screen's forefront.",
+      "severity_score": 30
     },
     {
       "title": "Law of Proximity",
-      "description": "Improves content organization by grouping related items together.",
-      "technical_spec": "Logical grouping of content sections and features to enhance clarity.",
-      "severity_score": 10
+      "description": "Interface elements are grouped together to indicate they are related, simplifying navigation.",
+      "technical_spec": "Ensures logical layouts through the careful arrangement of UI components.",
+      "severity_score": 25
     }
   ]
 }

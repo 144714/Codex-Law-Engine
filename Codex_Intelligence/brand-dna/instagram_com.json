@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 119,
+    "rank": 129,
     "site": "instagram.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "dd69b2d30d9140e0d8f532bd90acb0a8"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "5cc16710630d9d352413e0ff114303c5"
   },
   "data": [
     {
-      "title": "Community-Centric",
-      "description": "Focuses on building strong community engagement and connections.",
-      "technical_spec": "Features like Stories, Reels, and Direct Messages to foster interaction.",
-      "severity_score": 20
-    },
-    {
-      "title": "Creative Expression",
-      "description": "Prioritizes creativity and self-expression through diverse content creation tools.",
-      "technical_spec": "A suite of editing tools and effects within the app for content creation.",
+      "title": "Visual Storytelling",
+      "description": "Instagram emphasizes visual narratives allowing users to communicate through photos and videos.",
+      "technical_spec": "Supports a variety of multimedia formats optimized for seamless viewing.",
       "severity_score": 10
     },
     {
-      "title": "Visual First",
-      "description": "Emphasizes visual storytelling and imagery.",
-      "technical_spec": "High-resolution image support and a predominance of visual content in feeds.",
+      "title": "Community Building",
+      "description": "Fosters interconnectedness and engagement among users with social networking features.",
+      "technical_spec": "Features like tags, mentions, and hashtags facilitate interaction and discovery.",
       "severity_score": 15
     },
     {
-      "title": "Innovation Driver",
-      "description": "Continuously introduces innovative features and formats.",
-      "technical_spec": "Regular updates and iterations of app features to leverage the latest technology.",
+      "title": "Innovation Driven",
+      "description": "Continual feature advancements like Stories and Reels keep the platform evolving.",
+      "technical_spec": "Aggressive iteration cycles and testing paths before feature rollouts.",
+      "severity_score": 20
+    },
+    {
+      "title": "Influencer Culture",
+      "description": "Serves as a platform for influencers and content creators to showcase and monetize content.",
+      "technical_spec": "Offers tools for analytics and collaboration with brands, impacting content engagement.",
       "severity_score": 25
     },
     {
-      "title": "User Privacy Commitment",
-      "description": "Strong emphasis on user data protection and privacy.",
-      "technical_spec": "Comprehensive privacy settings allowing users significant control over data sharing.",
+      "title": "Global Reach",
+      "description": "Caters to an international audience with localized content and language support.",
+      "technical_spec": "Utilizes adaptive algorithms to curate content for diverse user preferences.",
       "severity_score": 30
     }
   ]

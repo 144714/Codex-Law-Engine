@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 112,
+    "rank": 122,
     "site": "youtube.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "9677a61fdc27f0b219f600fa4bc706df"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "f8883b63941dd4e4a0553aa8b9222a21"
   },
   "data": [
     {
-      "title": "Microservices Adoption",
-      "description": "YouTube uses a microservices architecture to handle different functionalities such as video processing, search, and recommendations.",
-      "technical_spec": "Distributed system with RESTful APIs and gRPC communication.",
-      "severity_score": 10
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "CDNs are used to distribute video content efficiently across the globe, reducing load times and buffering.",
-      "technical_spec": "Multiple CDNs including Google's proprietary infrastructure, supporting HTTP/2 and QUIC protocols.",
+      "title": "Microservices Architecture",
+      "description": "Utilizes a microservices architecture to handle different functionalities such as video streaming, recommendations, and ads separately.",
+      "technical_spec": "Services are developed, deployed, and scaled independently.",
       "severity_score": 5
     },
     {
-      "title": "Scalability",
-      "description": "The architecture supports large-scale user interaction and video uploads through autoscaling technologies.",
-      "technical_spec": "Utilizes containerization technologies and Kubernetes for orchestration.",
-      "severity_score": 12
+      "title": "Content Delivery Network (CDN)",
+      "description": "Leverages a global CDN to distribute video content efficiently across different regions.",
+      "technical_spec": "Uses edge servers to cache video content closer to end-users.",
+      "severity_score": 10
     },
     {
-      "title": "Data Storage Systems",
-      "description": "Handles large volumes of data through distributed databases and object storage for video files.",
-      "technical_spec": "Bigtable, Spanner, Colossus file system.",
-      "severity_score": 15
+      "title": "Scalable Storage System",
+      "description": "Employs a distributed storage system to manage vast amounts of video data and user-generated content.",
+      "technical_spec": "Supports horizontal scaling and high availability.",
+      "severity_score": 8
+    },
+    {
+      "title": "Data Processing Pipeline",
+      "description": "Utilizes streaming and batch data processing for analytics and recommendation systems.",
+      "technical_spec": "Integrates tools like Apache Kafka and Hadoop for data handling.",
+      "severity_score": 7
     },
     {
       "title": "Load Balancing",
-      "description": "Ensures high availability and balanced load across servers and services.",
-      "technical_spec": "Global Load Balancer, with Anycast capabilities.",
-      "severity_score": 10
+      "description": "Implements load balancing strategies to efficiently distribute incoming traffic across servers.",
+      "technical_spec": "Uses both hardware and software-based load balancers.",
+      "severity_score": 9
     }
   ]
 }

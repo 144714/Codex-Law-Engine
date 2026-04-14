@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 118,
+    "rank": 128,
     "site": "adobe.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "f968de63714a861b5663ba67bda93bb6"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "3e50ca9a8bcc124e27abcbaaab23f75a"
   },
   "data": [
     {
-      "title": "Creative Empowerment",
-      "description": "Adobe's commitment to enabling creativity through powerful tools.",
-      "technical_spec": "Integration with Creative Cloud applications for seamless user experience.",
-      "severity_score": 5
-    },
-    {
-      "title": "Innovation Leadership",
-      "description": "Adobe's role as a leader in digital innovation and design technology.",
-      "technical_spec": "Regular updates and AI-driven features introduced to Creative Suite.",
+      "title": "Creativity",
+      "description": "Adobe is synonymous with empowering creativity through its software products.",
+      "technical_spec": "Flagship products like Photoshop and Illustrator.",
       "severity_score": 10
     },
     {
-      "title": "Design-Driven Strategy",
-      "description": "Focus on design thinking to guide product development and user interactions.",
-      "technical_spec": "User-centered design principles embedded across all products.",
+      "title": "Innovation",
+      "description": "Continuous innovation in digital experiences and design.",
+      "technical_spec": "AI-driven features like Adobe Sensei.",
       "severity_score": 15
     },
     {
-      "title": "Community Engagement",
-      "description": "Active engagement with creative communities to foster collaboration.",
-      "technical_spec": "Adobe forums and annual events like Adobe MAX.",
+      "title": "Reliability",
+      "description": "Known for stable and reliable software used by professionals worldwide.",
+      "technical_spec": "Robust software quality assurance processes.",
       "severity_score": 20
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Adobe's dedication to sustainable business practices.",
-      "technical_spec": "Initiatives for reducing carbon footprint and sustainable product lifecycles.",
+      "title": "User-Centric Design",
+      "description": "Focused on providing intuitive and user-friendly software interfaces.",
+      "technical_spec": "Extensive user testing and feedback loops.",
       "severity_score": 25
+    },
+    {
+      "title": "Global Reach",
+      "description": "Influence in creative and business spaces globally.",
+      "technical_spec": "Multilingual support and localization efforts.",
+      "severity_score": 30
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 118,
+    "rank": 128,
     "site": "adobe.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "012a8b07a7e7c8f85f071b835eaee6e8"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "38cf701bda49c4caf7f268b7f245a83c"
   },
   "data": [
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Encrypts user data in transit to protect against eavesdropping.",
-      "technical_spec": "TLS 1.3 implemented site-wide.",
-      "severity_score": 5
+      "title": "Data Encryption",
+      "description": "Sensitive data is encrypted both in-transit and at rest.",
+      "technical_spec": "AES-256 for data at rest and TLS 1.3 for data in transit.",
+      "severity_score": 10
     },
     {
-      "title": "Web Application Firewall (WAF)",
-      "description": "Protects the site from common web threats and exploits.",
-      "technical_spec": "AWS WAF offers SQL injection and cross-site scripting (XSS) protection.",
+      "title": "Multi-Factor Authentication",
+      "description": "Enhanced user authentication to prevent unauthorized access.",
+      "technical_spec": "Two-factor authentication using SMS and authenticator apps.",
       "severity_score": 20
     },
     {
-      "title": "DDoS Protection",
-      "description": "Mitigates Distributed Denial of Service attacks to maintain uptime.",
-      "technical_spec": "Implemented through AWS Shield Advanced.",
-      "severity_score": 15
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular security assessments to identify and fix vulnerabilities.",
-      "technical_spec": "Automated and manual penetration testing procedures.",
+      "title": "Threat Intelligence",
+      "description": "Continuous threat monitoring to identify and mitigate risks.",
+      "technical_spec": "Integration with security information and event management (SIEM) systems.",
       "severity_score": 30
     },
     {
-      "title": "Data Privacy and Compliance",
-      "description": "Compliance with international data protection standards like GDPR.",
-      "technical_spec": "Data encryption, anonymization, and user consent processes in place.",
-      "severity_score": 10
+      "title": "Regular Security Audits",
+      "description": "Frequent security checks to identify potential vulnerabilities.",
+      "technical_spec": "Use of automated vulnerability scanning tools and penetration testing.",
+      "severity_score": 40
+    },
+    {
+      "title": "Incident Response Plan",
+      "description": "A structured approach to respond to and manage cybersecurity incidents.",
+      "technical_spec": "Detailed incident response processes and regular drills.",
+      "severity_score": 35
     }
   ]
 }

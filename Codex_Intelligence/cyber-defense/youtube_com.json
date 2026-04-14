@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 112,
+    "rank": 122,
     "site": "youtube.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "bf9cedb8731a5feee7ef4d8e3ee28441"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "9ea1bd0d8557c8efd655ea5ab5ac7366"
   },
   "data": [
     {
-      "title": "DDoS Protection",
-      "description": "Protection against Distributed Denial of Service attacks to ensure availability.",
-      "technical_spec": "Edge network protection and Cloud Armor systems.",
+      "title": "Secure Authentication",
+      "description": "Employs OAuth 2.0 and multi-factor authentication to secure user accounts.",
+      "technical_spec": "Integrates with Google Account security features.",
+      "severity_score": 15
+    },
+    {
+      "title": "Encrypted Data Transmission",
+      "description": "Ensures all data transmitted between users and servers is encrypted using HTTPS.",
+      "technical_spec": "Uses TLS protocols for secure connections.",
+      "severity_score": 12
+    },
+    {
+      "title": "Content Moderation",
+      "description": "Employs machine learning algorithms to detect and remove inappropriate content.",
+      "technical_spec": "Combines automated systems with human reviewers.",
       "severity_score": 25
     },
     {
-      "title": "Authentication and Identity Management",
-      "description": "Manages user identities and secures authentication processes.",
-      "technical_spec": "OAuth 2.0, Google Identity Platform.",
-      "severity_score": 20
+      "title": "DDoS Protection",
+      "description": "Implements protection measures against Distributed Denial of Service attacks.",
+      "technical_spec": "Utilizes Google's global network to absorb and mitigate attacks.",
+      "severity_score": 18
     },
     {
-      "title": "Data Encryption",
-      "description": "Ensures data in transit and at rest are encrypted to protect user privacy.",
-      "technical_spec": "TLS/SSL for data in transit, AES-256 for data at rest.",
-      "severity_score": 30
-    },
-    {
-      "title": "Content Monitoring",
-      "description": "Monitors video content for violations of policies using automated systems and human reviewers.",
-      "technical_spec": "Machine learning algorithms and analytics.",
-      "severity_score": 40
-    },
-    {
-      "title": "User Data Protection",
-      "description": "Protects user data against unauthorized access and breaches.",
-      "technical_spec": "Data Loss Prevention APIs, GDPR compliance features.",
-      "severity_score": 35
+      "title": "Advanced Threat Detection",
+      "description": "Monitors, detects, and responds to security threats using anomaly detection algorithms.",
+      "technical_spec": "Leverages AI-based threat detection methodologies.",
+      "severity_score": 14
     }
   ]
 }

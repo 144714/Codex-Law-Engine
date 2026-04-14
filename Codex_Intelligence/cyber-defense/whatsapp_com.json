@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 120,
+    "rank": 130,
     "site": "whatsapp.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "6d2ff7da914b667722491c3bf79f20fb"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "515fa943f822a3ca000b0867911ba797"
   },
   "data": [
     {
       "title": "Two-Step Verification",
-      "description": "An extra layer of security that requires users to provide a PIN in addition to SMS-based authentication.",
-      "technical_spec": "Users can set up a six-digit PIN that is required when registering a phone number with WhatsApp again.",
-      "severity_score": 15
+      "description": "Additional layer of security requiring a PIN for verification.",
+      "technical_spec": "User-configurable security option with email recovery.",
+      "severity_score": 70
     },
     {
-      "title": "Encrypted Backups",
-      "description": "WhatsApp offers encrypted backups to make stored messages secure from unauthorized access.",
-      "technical_spec": "Users can encrypt their backups with a password or a 64-digit encryption key.",
-      "severity_score": 10
+      "title": "Advanced Threat Detection",
+      "description": "Monitors patterns to detect and mitigate threats in real-time.",
+      "technical_spec": "Machine learning algorithms for anomaly detection.",
+      "severity_score": 85
     },
     {
-      "title": "Security Notifications",
-      "description": "WhatsApp alerts users when the security code of a contact changes for improved transparency.",
-      "technical_spec": "This feature helps users ensure that conversations remain encrypted and contact identity is verified.",
-      "severity_score": 20
+      "title": "Server-Side Encryption",
+      "description": "All data and messages are encrypted at rest on WhatsApp servers.",
+      "technical_spec": "AES and other strong encryption standards for data protection.",
+      "severity_score": 92
     },
     {
-      "title": "Automatic Security Updates",
-      "description": "WhatsApp automatically deploys security patches to protect users against emerging threats.",
-      "technical_spec": "This is achieved through server updates and application upgrades across platforms.",
-      "severity_score": 5
+      "title": "Spam Detection and Blocking",
+      "description": "Identifies and prevents spam messages and accounts.",
+      "technical_spec": "Data analytics and user reporting systems.",
+      "severity_score": 75
     },
     {
-      "title": "Report Spam and Block",
-      "description": "Users can report and block contacts or messages suspected to be spam or malicious.",
-      "technical_spec": "When a number is reported, WhatsApp collects a user's recent interaction metadata to analyze.",
-      "severity_score": 25
+      "title": "Authentication Token Management",
+      "description": "Manages session tokens to ensure secure user identities.",
+      "technical_spec": "OAuth or JWT implementation for session management.",
+      "severity_score": 88
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 114,
+    "rank": 124,
     "site": "microsoft.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "7f3671139a0aa96d4e02021c0429f94f"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "ce56cc32dd858c0b9000289c87d9357f"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Microsoft employs a microservices architecture to ensure scalability and flexibility across its platforms.",
-      "technical_spec": "Services are decoupled and independently deployable components.",
+      "title": "Cloud-Based Infrastructure",
+      "description": "Microsoft's website is built on their Azure cloud platform, offering scalability and resilience.",
+      "technical_spec": "Utilizes Azure services like Virtual Machines, Blob Storage, and Azure CDN.",
       "severity_score": 10
     },
     {
-      "title": "Cloud-Native Infrastructure",
-      "description": "Leverages Azure cloud computing services to support high traffic and storage needs.",
-      "technical_spec": "Built on Azure, utilizing cloud-native principles such as scalability, elasticity, and message-driven services.",
+      "title": "Microservices Architecture",
+      "description": "Employs microservices to enhance modularity and manageability of services.",
+      "technical_spec": "Deployed with Azure Kubernetes Service for container orchestration.",
+      "severity_score": 15
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Website implements responsive design to ensure compatibility with various devices.",
+      "technical_spec": "Uses CSS Grid and Flexbox with media queries for adaptive layouts.",
       "severity_score": 5
     },
     {
-      "title": "API-Driven Development",
-      "description": "APIs are central to Microsoft's web service design enabling integration and interaction across ecosystems.",
-      "technical_spec": "RESTful API standards with OAuth2 for authentication.",
-      "severity_score": 8
+      "title": "Content Delivery Network (CDN)",
+      "description": "Globally distributed CDN to improve load times and content delivery.",
+      "technical_spec": "Azure CDN integrated with caching strategies.",
+      "severity_score": 10
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Supports real-time processing and response capabilities across platforms.",
-      "technical_spec": "Based on Azure Event Grid and Azure Functions for event handling.",
-      "severity_score": 7
-    },
-    {
-      "title": "Containerization",
-      "description": "Use of containers to streamline deployment and development environments.",
-      "technical_spec": "Utilizes Kubernetes and Docker for efficient container orchestration.",
-      "severity_score": 6
+      "title": "API-Driven Content",
+      "description": "Content is delivered via RESTful APIs for dynamic interactions.",
+      "technical_spec": "Built with .NET Core and API management in Azure.",
+      "severity_score": 15
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 111,
+    "rank": 121,
     "site": "google.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "a1a36da6d0f733fdde035eab3888fb13"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "cf4b94852fd9bbdc5e2ddbfdc1b6f443"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Enhanced account security requiring user identification through a second factor beyond passwords.",
-      "technical_spec": "SMS codes, authenticator apps, hardware security keys.",
-      "severity_score": 5
-    },
-    {
-      "title": "Encryption",
-      "description": "Data encryption in transit and at rest prevents unauthorized access and ensures privacy.",
-      "technical_spec": "TLS 1.3, AES-256, HTTPS.",
+      "title": "TLS Encryption",
+      "description": "Secures data transmission with encryption protocols.",
+      "technical_spec": "TLS 1.3 with Elliptic Curve Cryptography.",
       "severity_score": 10
     },
     {
-      "title": "Security Keys",
-      "description": "Physical security keys to prevent phishing and account takeovers.",
-      "technical_spec": "FIDO U2F keys, Titan Security Keys.",
-      "severity_score": 8
+      "title": "DDoS Protection",
+      "description": "Safeguards against Distributed Denial of Service attacks.",
+      "technical_spec": "Cloud-based DDoS mitigation services.",
+      "severity_score": 15
     },
     {
-      "title": "Automated Threat Detection",
-      "description": "AI-powered systems to automatically detect and mitigate potential cybersecurity threats.",
-      "technical_spec": "Google Safe Browsing, AI pattern recognition.",
+      "title": "XSS Prevention",
+      "description": "Defends against cross-site scripting vulnerabilities.",
+      "technical_spec": "Content Security Policy with strict directives.",
       "severity_score": 12
     },
     {
-      "title": "Bug Bounty Program",
-      "description": "A program incentivizing external security researchers to report vulnerabilities.",
-      "technical_spec": "Vulnerability disclosure policies, rewards scaling with severity.",
-      "severity_score": 15
+      "title": "Account Security",
+      "description": "Protects user accounts with multi-factor authentication.",
+      "technical_spec": "OAuth 2.0 with mobile verification.",
+      "severity_score": 20
+    },
+    {
+      "title": "Threat Detection",
+      "description": "Monitors and analyzes potential risks continuously.",
+      "technical_spec": "AI-driven threat intelligence platforms.",
+      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 113,
+    "rank": 123,
     "site": "apple.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "57d3708571664ce773b76dbee8c88cc6"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "9a147f526062634564cea83e8a2a8405"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Adds a layer of security through multi-factor authentication.",
-      "technical_spec": "SMS, authentication apps, biometrics.",
-      "severity_score": 80
+      "title": "SSL/TLS Encryption",
+      "description": "Ensures secure data transmission between users and the server.",
+      "technical_spec": "TLS v1.3",
+      "severity_score": 5
     },
     {
-      "title": "End-to-End Encryption",
-      "description": "Encrypts data at all stages from user to server.",
-      "technical_spec": "TLS, AES-256 encryption, data masking.",
-      "severity_score": 95
+      "title": "Web Application Firewall",
+      "description": "Monitors and protects against common web exploits like SQL injection.",
+      "technical_spec": "AWS WAF",
+      "severity_score": 20
+    },
+    {
+      "title": "Content Security Policy",
+      "description": "Prevents cross-site scripting and other code injection attacks.",
+      "technical_spec": "CSP Headers",
+      "severity_score": 15
+    },
+    {
+      "title": "Two-Factor Authentication",
+      "description": "Adds an extra layer of security to user accounts with multiple verification steps.",
+      "technical_spec": "Apple ID 2FA",
+      "severity_score": 10
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts routine security assessments to identify vulnerabilities.",
-      "technical_spec": "Penetration testing, bug bounties, security certifications.",
-      "severity_score": 92
-    },
-    {
-      "title": "Threat Detection Systems",
-      "description": "Implements real-time detection of malicious activities.",
-      "technical_spec": "AI-based threat monitoring, intrusion detection systems.",
-      "severity_score": 90
-    },
-    {
-      "title": "Access Control Management",
-      "description": "Restricts access based on user roles and needs.",
-      "technical_spec": "Role-based access control, LDAP integration, secure access policies.",
-      "severity_score": 88
+      "description": "Periodic assessments to identify and patch vulnerabilities.",
+      "technical_spec": "Internal Security Teams",
+      "severity_score": 25
     }
   ]
 }

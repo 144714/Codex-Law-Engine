@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 117,
+    "rank": 127,
     "site": "spotify.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "14199c9df1d11b4fd8292ea8d57dc55e"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "03cc0f7ae6b4a19bdcb9eb597200684a"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Designs focus on minimizing the time to acquire digital targets for users.",
-      "technical_spec": "Utilizes well-sized buttons and intuitive navigation paths.",
-      "severity_score": 75
+      "title": "Hick’s Law",
+      "description": "Simplify choices to improve user decision-making and interface speed.",
+      "technical_spec": "Streamlined navigation and menu design.",
+      "severity_score": 35
     },
     {
-      "title": "Hick's Law",
-      "description": "Reduces cognitive load by limiting available options at any given step.",
-      "technical_spec": "Streamlined interface with prioritized content areas and progressive disclosure.",
-      "severity_score": 80
+      "title": "Fitts’s Law",
+      "description": "Design click targets that are easy to interact with, especially on mobile devices.",
+      "technical_spec": "Larger buttons for improved tap areas on mobile.",
+      "severity_score": 20
     },
     {
-      "title": "Miller’s Law",
-      "description": "Considers the limits of short-term memory in its user interface design.",
-      "technical_spec": "Groups information logically and uses chunking to improve retention and recall.",
-      "severity_score": 72
+      "title": "Aesthetic-Usability Effect",
+      "description": "A visually appealing design is perceived as easier to use.",
+      "technical_spec": "Consistent branding and layout styles.",
+      "severity_score": 25
     },
     {
-      "title": "Jakob's Law",
-      "description": "Adopts familiar design patterns that users expect from similar interfaces.",
-      "technical_spec": "Consistent use of design patterns found in other popular apps to speed up user adaptation.",
-      "severity_score": 78
+      "title": "Tesler’s Law",
+      "description": "Complexity cannot be reduced beyond a certain point, so focus on increasing system efficiency.",
+      "technical_spec": "Smart playlists and search functionalities.",
+      "severity_score": 40
     },
     {
-      "title": "Tesler's Law",
-      "description": "Balances simplicity with functionality to avoid unnecessary complexity.",
-      "technical_spec": "Integrates automated workflows and defaults to minimize user decision points.",
-      "severity_score": 82
+      "title": "Jakob’s Law",
+      "description": "Users prefer interfaces similar to those they already know.",
+      "technical_spec": "Adheres to common design patterns found in major streaming services.",
+      "severity_score": 30
     }
   ]
 }

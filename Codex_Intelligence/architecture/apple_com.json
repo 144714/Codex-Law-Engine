@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 113,
+    "rank": 123,
     "site": "apple.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "205bf1a4e26df440321a56f10b0e2389"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "c5383a9aa80875b1b0efad4ae3143ca3"
   },
   "data": [
     {
-      "title": "Distributed System Design",
-      "description": "Apple employs a highly distributed system architecture to manage global traffic.",
-      "technical_spec": "Microservices, load balancers, globally distributed data centers.",
-      "severity_score": 95
+      "title": "Component-Based Interface",
+      "description": "The website uses a component-based architecture for reusability and scalability.",
+      "technical_spec": "React.js, Webpack",
+      "severity_score": 10
     },
     {
-      "title": "High Availability and Redundancy",
-      "description": "Ensures minimal downtime through redundancy and failover systems.",
-      "technical_spec": "Multiple data centers, automated failover, redundancy protocols.",
-      "severity_score": 90
+      "title": "Responsive Design",
+      "description": "Design adapts across various devices and screen sizes for optimal user experience.",
+      "technical_spec": "CSS Media Queries, Flexbox",
+      "severity_score": 15
     },
     {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "Supports peak demand fluctuations with scalable cloud solutions.",
-      "technical_spec": "AWS, Azure integration, elastic load balancing.",
-      "severity_score": 92
+      "title": "Server-Side Rendering",
+      "description": "Server-side rendering is utilized to improve load times and SEO.",
+      "technical_spec": "Next.js",
+      "severity_score": 20
     },
     {
-      "title": "API Gateway Management",
-      "description": "Centralized management of APIs for consistency and scalability.",
-      "technical_spec": "API Gateway, RESTful APIs, GraphQL.",
-      "severity_score": 88
+      "title": "Multi-Layered Architecture",
+      "description": "The architecture includes multiple layers: presentation, business logic, and data access.",
+      "technical_spec": "Microservices",
+      "severity_score": 25
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Uses CDNs to improve site load times globally.",
-      "technical_spec": "Akamai, Cloudflare, regional edge servers.",
-      "severity_score": 85
+      "title": "Content Delivery Network",
+      "description": "A CDN is used to distribute content closer to users for enhanced load times.",
+      "technical_spec": "Akamai, Cloudflare",
+      "severity_score": 10
     }
   ]
 }

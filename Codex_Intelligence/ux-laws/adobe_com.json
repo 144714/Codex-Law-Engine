@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 118,
+    "rank": 128,
     "site": "adobe.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "6e7d42ac15182f2642fe4ef4a2990e74"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "1fda13bc8f818ec3579decf87bcd88c0"
   },
   "data": [
     {
-      "title": "Miller's Law",
-      "description": "Implementation of efficient content chunks aligns with cognitive processing limits.",
-      "technical_spec": "Maximum of 7±2 elements per content section to facilitate better information digestion.",
-      "severity_score": 5
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Clickable targets are large and strategically positioned for ease of access.",
-      "technical_spec": "Button sizes and spacing optimized for touchscreen usability.",
+      "title": "Fitts’s Law",
+      "description": "UI elements are designed to be easily accessible to reduce interaction time.",
+      "technical_spec": "Larger clickable areas for buttons placed within easy reach.",
       "severity_score": 10
     },
     {
-      "title": "Hick's Law",
-      "description": "Minimizes cognitive load by reducing the complexity of user choices.",
-      "technical_spec": "Simple navigation structures with no more than 3 primary options at first glance.",
+      "title": "Hick’s Law",
+      "description": "Limiting choices presented to users to speed up decision-making.",
+      "technical_spec": "Organized navigation and minimalistic approach in software design.",
       "severity_score": 15
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing design enhances perceived usability.",
-      "technical_spec": "Consistent theme with Adobe's signature color palette and use of high-quality visuals.",
-      "severity_score": 10
+      "title": "Miller’s Law",
+      "description": "The design accommodates user's ability to process information in chunks.",
+      "technical_spec": "Information is grouped in small, digestible parts.",
+      "severity_score": 20
     },
     {
-      "title": "Jakob's Law",
-      "description": "Design reflects user expectations based on similar platforms for intuitive interaction.",
-      "technical_spec": "Integrates familiar navigation patterns from popular design software.",
-      "severity_score": 20
+      "title": "Jakob’s Law",
+      "description": "User experiences are made consistent across different Adobe applications.",
+      "technical_spec": "Unified interface design language across product suites.",
+      "severity_score": 25
+    },
+    {
+      "title": "Tesler’s Law",
+      "description": "Complexity is kept under control to maintain user efficiency.",
+      "technical_spec": "Automation of repetitive tasks and simplifying advanced features.",
+      "severity_score": 30
     }
   ]
 }

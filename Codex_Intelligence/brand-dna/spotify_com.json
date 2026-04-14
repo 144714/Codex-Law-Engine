@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 117,
+    "rank": 127,
     "site": "spotify.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "aeb50468926724382b721d37e1d21193"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "61b39f19dc7f3d14893a426fb589e646"
   },
   "data": [
     {
       "title": "Personalization",
-      "description": "Transforms the user experience by personalizing playlists and recommendations.",
-      "technical_spec": "Utilizes machine learning algorithms and user data analytics.",
-      "severity_score": 90
+      "description": "Central to Spotify's brand is its personalized experience, tailored playlists, and recommendations.",
+      "technical_spec": "Utilizes machine learning algorithms for music recommendations.",
+      "severity_score": 10
     },
     {
-      "title": "Global Reach",
-      "description": "Provides a platform capable of serving diverse music content worldwide.",
-      "technical_spec": "Supports multiple languages and regional playlists.",
-      "severity_score": 85
+      "title": "Ubiquity",
+      "description": "Available on various devices and platforms, reinforcing its presence and user accessibility.",
+      "technical_spec": "Cross-platform availability including web, mobile, and desktop apps.",
+      "severity_score": 15
     },
     {
-      "title": "Innovation",
-      "description": "Constantly innovates with features like offline mode and collaborative playlists.",
-      "technical_spec": "New features are developed using agile methodologies and continuous feedback loops.",
-      "severity_score": 88
+      "title": "Social Integration",
+      "description": "Spotify encourages interaction and sharing of music among its users.",
+      "technical_spec": "Features like collaborative playlists and sharing via social media platforms.",
+      "severity_score": 20
     },
     {
-      "title": "Music Discovery",
-      "description": "Empowers users by enhancing the music discovery experience.",
-      "technical_spec": "Implements Discover Weekly and Release Radar playlists based on listening habits.",
-      "severity_score": 87
+      "title": "User-Centric Design",
+      "description": "Focus on intuitive and enjoyable user experiences.",
+      "technical_spec": "User feedback loops and iterative design processes.",
+      "severity_score": 25
     },
     {
-      "title": "Cross-Platform Integration",
-      "description": "Ensures seamless user experience across various devices and platforms.",
-      "technical_spec": "Supports integration with smart devices, cars, and gaming consoles through APIs.",
-      "severity_score": 83
+      "title": "Innovative Partnerships",
+      "description": "Strategic alliances and acquisitions to enhance its service and expand its reach.",
+      "technical_spec": "Partnerships with hardware providers, record labels, and artists.",
+      "severity_score": 25
     }
   ]
 }

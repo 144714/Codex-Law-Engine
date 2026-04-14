@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 114,
+    "rank": 124,
     "site": "microsoft.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "c593714902405eb32f1fcf6e10577afb"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "5957392a95ca9a7d9693f42b5b3085d9"
   },
   "data": [
     {
-      "title": "Innovation-Driven",
-      "description": "Commitment to continuous innovation and delivering cutting-edge technology solutions.",
-      "technical_spec": "Focus on AI, cloud computing, and quantum computing as innovation pillars.",
+      "title": "Innovative Technology",
+      "description": "Aligns brand with cutting-edge technology and solutions.",
+      "technical_spec": "Showcases AI, Cloud, and Hybrid technologies prominently.",
       "severity_score": 5
     },
     {
       "title": "Customer-Centric Approach",
-      "description": "Products and services are tailored to meet evolving customer needs and preferences.",
-      "technical_spec": "Feedback loops and customer insight integration in design and development.",
-      "severity_score": 3
+      "description": "Design and content focused on user needs and experiences.",
+      "technical_spec": "User-centered design practices and customer feedback loops.",
+      "severity_score": 5
     },
     {
-      "title": "Global Impact",
-      "description": "Dedicated to making technology accessible and valuable worldwide.",
-      "technical_spec": "Products localized to various markets with global distribution capabilities.",
-      "severity_score": 7
+      "title": "Global Accessibility",
+      "description": "Ensures site accessibility for a diverse global audience.",
+      "technical_spec": "WCAG 2.1 compliance and multi-language support.",
+      "severity_score": 10
     },
     {
-      "title": "Commitment to Security",
-      "description": "Fundamental approach to integrate robust security in all products.",
-      "technical_spec": "Comprehensive security measures inherent across product lifecycles.",
-      "severity_score": 4
+      "title": "Trust and Security",
+      "description": "Emphasizes reliability and security as core brand values.",
+      "technical_spec": "Highlighting secure products and data protection commitments.",
+      "severity_score": 10
     },
     {
-      "title": "Sustainability Efforts",
-      "description": "Efforts directed towards sustainability and reducing environmental impact.",
-      "technical_spec": "Investment in sustainable operations and carbon negative goals.",
-      "severity_score": 6
+      "title": "Sustainability Commitment",
+      "description": "Frames sustainable practices within its corporate ethos.",
+      "technical_spec": "Information on reducing carbon footprint and energy-efficient Azure data centers.",
+      "severity_score": 10
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 114,
+    "rank": 124,
     "site": "microsoft.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "70828f6f3907b5e6ba7d472cde7602c9"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "00d69a1fe44a3f5ec0a56ad82424aa07"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "The design prioritizes speed and accessibility, optimizing for average user efficiency.",
-      "technical_spec": "Interface elements sized and placed for quick and easy use.",
-      "severity_score": 15
-    },
-    {
-      "title": "Hick's Law",
-      "description": "Simplifies menu choices to reduce decision-making time.",
-      "technical_spec": "Minimized menu item options and categorized navigation flows.",
+      "title": "Hick’s Law",
+      "description": "Optimizes decision-making time by minimizing choices, enhancing user flow.",
+      "technical_spec": "Streamlined navigation with categorized menus.",
       "severity_score": 10
     },
     {
-      "title": "Jakob's Law",
-      "description": "Aligns with user expectations from other Microsoft suite products for smooth transitions.",
-      "technical_spec": "Consistent design language with a familiar user interface and layout.",
-      "severity_score": 12
+      "title": "Fitts’s Law",
+      "description": "Designs for user interactions that require minimal movement and higher accuracy.",
+      "technical_spec": "Large clickable areas for frequently used buttons and links.",
+      "severity_score": 10
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Organizes content into chunks to improve short-term memory retention.",
+      "technical_spec": "Grouped information architecture with clear headings.",
+      "severity_score": 15
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Applies visual hierarchy and grouping principles for effective layout.",
+      "technical_spec": "Consistent use of alignment, spacing, and color to guide the eye.",
+      "severity_score": 15
     },
     {
       "title": "Law of Proximity",
-      "description": "Related items are grouped to facilitate easy interpretation and flow.",
-      "technical_spec": "Logical structuring of information and grouping of related content.",
-      "severity_score": 8
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Aims to streamline information to enhance user cognitive load handling.",
-      "technical_spec": "Presenting information in digestible chunks with supportive hierarchies.",
-      "severity_score": 13
+      "description": "Elements close to one another are perceived as related, aiding quick comprehension.",
+      "technical_spec": "Proximity used in form design and navigation bar elements.",
+      "severity_score": 15
     }
   ]
 }

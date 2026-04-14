@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 116,
+    "rank": 126,
     "site": "netflix.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "9722f91daeef9d4e1f223a9203f0976a"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "8e3e53250a2999d7159aad6c83ea09f1"
   },
   "data": [
     {
-      "title": "Innovative Content Delivery",
-      "description": "Pioneer in streaming technology, continuously pushing boundaries in content accessibility.",
-      "technical_spec": "Constant updates and adoption of new streaming protocols and high-efficiency codecs.",
-      "severity_score": 95
-    },
-    {
-      "title": "Personalization",
-      "description": "Tailored user experiences with personalized recommendations and content curation.",
-      "technical_spec": "Advanced algorithms analyzing user behavior and preferences for customization.",
-      "severity_score": 90
-    },
-    {
-      "title": "Global Reach",
-      "description": "Extensive global presence with content offered in multiple languages and localized for various regions.",
-      "technical_spec": "Multi-language support and regional pricing models.",
-      "severity_score": 88
+      "title": "Binge-Watching Culture",
+      "description": "Netflix promotes a binge-watching model by releasing entire seasons simultaneously.",
+      "technical_spec": "On-demand streaming platform with personalized recommendations.",
+      "severity_score": 20
     },
     {
       "title": "Original Content Production",
-      "description": "Creating a large library of original series, movies, and documentaries exclusive to the platform.",
-      "technical_spec": "In-house production teams and partnerships with content creators.",
-      "severity_score": 92
+      "description": "Commitment to producing exclusive content to differentiate its offerings.",
+      "technical_spec": "Investment in original series, documentaries, and films.",
+      "severity_score": 15
     },
     {
-      "title": "User-Centric Design",
-      "description": "Consistently prioritizing user experience with seamless navigation and intuitive interfaces.",
-      "technical_spec": "Regular updates focused on user feedback and technological advancements.",
-      "severity_score": 85
+      "title": "Global Reach",
+      "description": "Availability of content in multiple countries with localized options and subtitles.",
+      "technical_spec": "Diverse language support and regional licensing agreements.",
+      "severity_score": 18
+    },
+    {
+      "title": "Personalized User Experience",
+      "description": "Leveraging data analytics to tailor content recommendations to users.",
+      "technical_spec": "Machine learning algorithms analyzing viewing habits.",
+      "severity_score": 22
+    },
+    {
+      "title": "Streaming Technology",
+      "description": "Advanced streaming technology for seamless playback with minimal buffering.",
+      "technical_spec": "Adaptive bitrate streaming in various resolutions including 4K HDR.",
+      "severity_score": 25
     }
   ]
 }

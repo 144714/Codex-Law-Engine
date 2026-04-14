@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 116,
+    "rank": 126,
     "site": "netflix.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "6ef4d6bc8e92a4118efabb1758c72c1d"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "b7ec2970ad47e01266283af2a917c5c3"
   },
   "data": [
     {
-      "title": "Advanced Encryption Techniques",
-      "description": "Encryption of data at rest and in transit to secure user data and content.",
-      "technical_spec": "TLS for data in transit, AES-256 encryption for data at rest.",
-      "severity_score": 80
+      "title": "Multi-Factor Authentication",
+      "description": "Enhancing account security by requiring two-step verification for user access.",
+      "technical_spec": "Uses SMS and email verification processes.",
+      "severity_score": 30
     },
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "MFA adds an extra layer of security to user accounts by requiring multiple verification steps.",
-      "technical_spec": "Supports SMS and application-based authentication methods.",
-      "severity_score": 70
+      "title": "Encryption at Rest and Transit",
+      "description": "Protecting user data with encryption methods both at rest and during transit.",
+      "technical_spec": "AES-256 encryption and TLS for data security.",
+      "severity_score": 25
     },
     {
-      "title": "Threat Detection Systems",
-      "description": "Real-time monitoring systems that detect and respond to potential threats and unauthorized access attempts.",
-      "technical_spec": "Utilizes AI and machine learning to identify anomalies.",
-      "severity_score": 85
+      "title": "Threat Monitoring",
+      "description": "Continuous monitoring for potential threats and unauthorized activities.",
+      "technical_spec": "Utilizing AI-powered tools for anomaly detection.",
+      "severity_score": 35
     },
     {
-      "title": "Data Privacy Protocols",
-      "description": "Strict protocols in place to ensure user data privacy and compliance with data protection regulations.",
-      "technical_spec": "GDPR compliance for EMEA, CCPA for California regions.",
-      "severity_score": 75
+      "title": "DDoS Protection",
+      "description": "Defending against Distributed Denial of Service attacks to maintain service availability.",
+      "technical_spec": "AWS Shield Advanced and proprietary filtering algorithms.",
+      "severity_score": 40
     },
     {
       "title": "Bug Bounty Program",
-      "description": "Encourages ethical hackers to find vulnerabilities by offering rewards for valid security findings.",
-      "technical_spec": "Managed via third-party platforms like HackerOne.",
-      "severity_score": 65
+      "description": "Incentivizing external developers to identify and report security vulnerabilities.",
+      "technical_spec": "Managed through platforms like HackerOne and Bugcrowd.",
+      "severity_score": 20
     }
   ]
 }

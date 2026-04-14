@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 113,
+    "rank": 123,
     "site": "apple.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "6f5e1c24f330226f031c9bc675818804"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "83e0f4564f3257129197442b1b3756fd"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Commits to pushing the boundaries of technology and design.",
-      "technical_spec": "Cutting-edge R&D, pioneering new products, continuously evolving.",
-      "severity_score": 95
+      "title": "Innovative Aesthetics",
+      "description": "Design language reflects cutting-edge innovation and minimalism.",
+      "technical_spec": "Sleek Visual Aspects",
+      "severity_score": 5
     },
     {
-      "title": "User-Centric Design",
-      "description": "Places user experience at the forefront of product development.",
-      "technical_spec": "Human-centered design processes, feedback loops, prototyping.",
-      "severity_score": 90
+      "title": "User-Centric Experience",
+      "description": "Prioritizing user satisfaction and intuitive interactions.",
+      "technical_spec": "Empathy Maps, User Personas",
+      "severity_score": 10
     },
     {
-      "title": "Seamless Integration",
-      "description": "Offers an ecosystem where devices and services work harmoniously.",
-      "technical_spec": "iCloud, Continuity, ecosystem-friendly software architecture.",
-      "severity_score": 92
+      "title": "Global Accessibility",
+      "description": "Focus on inclusivity and accessibility across international markets.",
+      "technical_spec": "WCAG 2.1 Compliance",
+      "severity_score": 25
     },
     {
-      "title": "Sustainability",
-      "description": "Focuses on reducing environmental impact in production and packaging.",
-      "technical_spec": "Recyclable materials, clean energy initiatives, carbon-neutral goals.",
-      "severity_score": 88
+      "title": "Sustainability Message",
+      "description": "Communicating commitment to environmental responsibility.",
+      "technical_spec": "Eco-Friendly Design",
+      "severity_score": 15
     },
     {
-      "title": "Privacy First",
-      "description": "Prioritizes user privacy with robust security measures and transparent policies.",
-      "technical_spec": "Data encryption, privacy controls, no data sharing without consent.",
-      "severity_score": 92
+      "title": "Secure Ecosystems",
+      "description": "Emphasizing privacy and security as core brand values.",
+      "technical_spec": "Privacy-Focused Design",
+      "severity_score": 20
     }
   ]
 }

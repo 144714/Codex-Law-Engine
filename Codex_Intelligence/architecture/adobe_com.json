@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 118,
+    "rank": 128,
     "site": "adobe.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "8f57de22ad567ade681ad18e60e0f770"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "006d7ed8c30776e7270799fa363dbccf"
   },
   "data": [
     {
-      "title": "microservice-based architecture",
-      "description": "Adobe.com utilizes a microservice-based architecture to ensure scalability and manageability of services.",
-      "technical_spec": "Microservices deployed using Kubernetes and Docker for container orchestration.",
+      "title": "Cloud-Based Services",
+      "description": "Adobe's architecture heavily relies on cloud services to deliver its software products.",
+      "technical_spec": "Distributed cloud architecture using AWS and Azure.",
       "severity_score": 10
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "The site employs a CDN to deliver content quickly and reliably to users around the globe.",
-      "technical_spec": "Uses Akamai for distributing content efficiently.",
-      "severity_score": 5
-    },
-    {
-      "title": "API Gateway",
-      "description": "Centralized API gateway manages request routing for different services.",
-      "technical_spec": "Nginx is used for routing and managing API traffic.",
-      "severity_score": 15
-    },
-    {
-      "title": "Cloud-based infrastructure",
-      "description": "Leveraging cloud platforms for better resource management and uptime.",
-      "technical_spec": "Primarily hosted on Amazon Web Services (AWS).",
+      "title": "Microservices Architecture",
+      "description": "Adobe employs a microservices approach to enable scalability and flexibility.",
+      "technical_spec": "Containerization with Kubernetes for orchestration.",
       "severity_score": 20
     },
     {
-      "title": "Database Management System",
-      "description": "Robust database management system to handle large volumes of data.",
-      "technical_spec": "Uses a combination of SQL and NoSQL databases, including MySQL and MongoDB.",
+      "title": "API-First Design",
+      "description": "APIs are extensively used for internal and external integrations.",
+      "technical_spec": "RESTful and GraphQL APIs.",
+      "severity_score": 15
+    },
+    {
+      "title": "Serverless Applications",
+      "description": "Some functionalities are managed through serverless computing to optimize resources.",
+      "technical_spec": "Functions-as-a-Service (FaaS) on AWS Lambda.",
       "severity_score": 25
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Adobe uses CDNs to efficiently deliver content globally.",
+      "technical_spec": "Akamai and Cloudflare as CDN providers.",
+      "severity_score": 5
     }
   ]
 }

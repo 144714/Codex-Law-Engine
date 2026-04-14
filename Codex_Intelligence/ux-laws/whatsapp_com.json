@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 120,
+    "rank": 130,
     "site": "whatsapp.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "23ff9fc79a9ac557b02a1aa6d35224bc"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "d6587b11b2136efb30d05b026e085a78"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Predicts how quickly a user can interact with target areas, influencing WhatsApp interface design.",
-      "technical_spec": "Buttons for frequent actions like send, attach, and record are easily accessible for quicker interactions.",
-      "severity_score": 10
+      "title": "Law of Simplicity",
+      "description": "Design is minimalistic to ensure ease of use for all demographics.",
+      "technical_spec": "Intuitive interface with minimal navigation steps.",
+      "severity_score": 80
     },
     {
-      "title": "Hick's Law",
-      "description": "Suggests reducing choice delays to minimize cognitive load, here applied by maintaining a clean interface.",
-      "technical_spec": "WhatsApp prioritizes essential functions on the chat screen to prevent user overload.",
-      "severity_score": 5
+      "title": "Fitts's Law",
+      "description": "Interface is designed for quick access to frequently used features.",
+      "technical_spec": "Placement of buttons and menus for easy reachability.",
+      "severity_score": 85
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Design consistency with other platforms to meet user expectations, seen in WhatsApp's interface.",
-      "technical_spec": "Familiar UI elements across popular messaging applications help reduce the learning curve.",
-      "severity_score": 8
+      "title": "Hick’s Law",
+      "description": "Reduces choice complexity, ensuring faster decision-making by users.",
+      "technical_spec": "Default settings taking precedence; additional options only when needed.",
+      "severity_score": 88
     },
     {
-      "title": "Miller's Law",
-      "description": "The UI is designed to handle segment information into chunks to enhance user comprehension.",
-      "technical_spec": "Use of visual grouping in chat selection, notification settings, and media browsing.",
-      "severity_score": 12
+      "title": "Feedback and Response Time",
+      "description": "Immediate feedback on user actions to indicate successful operations.",
+      "technical_spec": "Loading indicators and haptic feedback where applicable.",
+      "severity_score": 90
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Designs experiences to ensure positive user impressions, affecting message delivery and read receipt features.",
-      "technical_spec": "Optimized delivery ticks and read receipts provide a clear end to the conversation flow.",
-      "severity_score": 7
+      "title": "Consistency and Standards",
+      "description": "Uniform design language across platforms for consistent user experience.",
+      "technical_spec": "Use of shared resources and guidelines like Material Design or Apple's Human Interface Guidelines.",
+      "severity_score": 92
     }
   ]
 }

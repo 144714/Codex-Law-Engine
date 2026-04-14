@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 111,
+    "rank": 121,
     "site": "google.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "8de0fa4c0b41aa78263927888e059522"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "5f26e0949752686fc687c9e90b335bd5"
   },
   "data": [
     {
-      "title": "Distributed Systems",
-      "description": "Google's architecture is based on distributed computing, utilizing clusters of computers to handle vast amounts of data.",
-      "technical_spec": "Microservices, containerization, Google Cloud Platform, Kubernetes.",
+      "title": "Microservices",
+      "description": "Decoupled components that allow Google to deploy and scale services independently.",
+      "technical_spec": "Service-oriented architecture with API gateways.",
       "severity_score": 5
     },
     {
       "title": "Load Balancing",
-      "description": "Google uses advanced load balancing to distribute incoming traffic across multiple servers efficiently.",
-      "technical_spec": "Google Cloud Load Balancer, Global Load Balancing.",
+      "description": "Optimizes application responsiveness through effective traffic distribution.",
+      "technical_spec": "Global load balancers with Anycast IP.",
       "severity_score": 10
     },
     {
-      "title": "Data Centers",
-      "description": "Google owns and operates data centers globally to ensure low latency and high availability.",
-      "technical_spec": "Tier 4 data centers, custom hardware, green energy usage.",
-      "severity_score": 5
-    },
-    {
-      "title": "Search Algorithm",
-      "description": "The core of Google's architecture, continuously evolving with AI and Machine Learning.",
-      "technical_spec": "PageRank, BERT, RankBrain, Transformer models.",
-      "severity_score": 20
-    },
-    {
-      "title": "Caching Layers",
-      "description": "Utilizes extensive caching mechanisms to improve performance and reduce load times.",
-      "technical_spec": "Edge caching, Google Cache, CDN networks.",
+      "title": "CDN Integration",
+      "description": "Enhances content delivery speed with a global cache system.",
+      "technical_spec": "Integration with edge servers worldwide.",
       "severity_score": 15
+    },
+    {
+      "title": "High Availability Zones",
+      "description": "Ensures the site remains operational even during outages.",
+      "technical_spec": "Multiple data centers with failover support.",
+      "severity_score": 18
+    },
+    {
+      "title": "Data Redundancy",
+      "description": "Provides data backup and recovery options to prevent loss.",
+      "technical_spec": "Distributed database architecture with redundancy features.",
+      "severity_score": 20
     }
   ]
 }

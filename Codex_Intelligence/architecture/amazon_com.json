@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 115,
+    "rank": 125,
     "site": "amazon.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "6d1d4039e09c64c74d13857fcaa30a40"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "81390cfd3fc2b3d29a82fd86c69d3abf"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Amazon uses a microservices architecture to improve scalability and isolate services for individual teams.",
-      "technical_spec": "Distributed system composed of independently deployable services.",
+      "description": "Amazon uses a microservices architecture to allow for independent deployment and scaling.",
+      "technical_spec": "Decomposes applications into smaller, independent services that communicate over APIs.",
       "severity_score": 95
     },
     {
       "title": "AWS Cloud Infrastructure",
-      "description": "The platform runs on Amazon’s own AWS infrastructure, providing cloud-based service resilience.",
-      "technical_spec": "Utilizes AWS EC2, S3, and other cloud services to host applications.",
+      "description": "Amazon.com runs on Amazon Web Services, utilizing a vast cloud infrastructure.",
+      "technical_spec": "Leverages AWS products such as EC2, S3, and RDS for scalability and reliability.",
+      "severity_score": 100
+    },
+    {
+      "title": "Multi-tier Architecture",
+      "description": "The site uses a multi-tier architecture involving front-end, application logic, and data storage layers.",
+      "technical_spec": "Separates concerns into presentation, application, and data storage layers.",
       "severity_score": 90
     },
     {
-      "title": "Data Storage",
-      "description": "Various storage solutions are used for different purposes, including Amazon RDS and DynamoDB.",
-      "technical_spec": "Relational and NoSQL databases to manage transactional and big data needs.",
+      "title": "Service-Oriented Architecture",
+      "description": "Supports integration and communication between services across Amazon’s platforms.",
+      "technical_spec": "Uses SOA principles to enhance reusability and manageability.",
+      "severity_score": 90
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Amazon employs load balancing to ensure efficient distribution of incoming requests.",
+      "technical_spec": "Uses load balancers to direct traffic across multiple servers to maintain performance.",
       "severity_score": 85
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Amazon uses CloudFront to deliver content rapidly to global users.",
-      "technical_spec": "Edge locations for low-latency data delivery.",
-      "severity_score": 80
-    },
-    {
-      "title": "Event-Driven Architecture",
-      "description": "To process and respond to events quickly, leveraging services like AWS Lambda.",
-      "technical_spec": "Serverless computing to handle real-time data feeds and processing.",
-      "severity_score": 75
     }
   ]
 }

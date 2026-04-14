@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 111,
+    "rank": 121,
     "site": "google.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "f7194635a7b3c813bdbcfb920165c9dd"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "88ef349fe38e54f6676df27e35033d0f"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "The time it takes for a user to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Simple UI design, streamlined navigation, autocomplete features.",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Users expect your site to work similarly to others they already know.",
-      "technical_spec": "Consistent layout, familiar interface patterns, intuitive icons.",
+      "description": "Minimizes decision-making time by reducing choices.",
+      "technical_spec": "Streamlined navigation with predictive search features.",
       "severity_score": 8
     },
     {
-      "title": "Fitt's Law",
-      "description": "The time to acquire a target is a function of the distance to and size of the target.",
-      "technical_spec": "Responsive design elements, accessible interaction points.",
-      "severity_score": 15
+      "title": "Fitts’s Law",
+      "description": "Optimizes interactive elements for faster accessibility.",
+      "technical_spec": "Large, clickable buttons within reachable area.",
+      "severity_score": 7
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Enhances visual perception by organizing elements harmoniously.",
+      "technical_spec": "Consistent layout and spacing to improve focus.",
+      "severity_score": 5
     },
     {
       "title": "Miller's Law",
-      "description": "The average person can only keep 7 (plus or minus 2) items in their working memory.",
-      "technical_spec": "Chunking information, prioritizing essential content, simplifying choices.",
-      "severity_score": 12
+      "description": "Improves information retention by chunking data.",
+      "technical_spec": "Organized content into short, digestible sections.",
+      "severity_score": 6
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Users often perceive aesthetically pleasing designs as more usable.",
-      "technical_spec": "Clean design, consistent color palettes, whitespace management.",
-      "severity_score": 5
+      "title": "Law of Proximity",
+      "description": "Groups related items together to enhance user understanding.",
+      "technical_spec": "Proximity cues in design to indicate relatedness.",
+      "severity_score": 9
     }
   ]
 }

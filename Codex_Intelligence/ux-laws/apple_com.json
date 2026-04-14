@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 113,
+    "rank": 123,
     "site": "apple.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "75f362d041bbc9aaeccb835b2a4930d7"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "b2083f8400896b59e1bc9dcba02dd3f9"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies choices to reduce decision time, enhancing user experience.",
-      "technical_spec": "Simplified navigation, clear call-to-action, intuitive design.",
-      "severity_score": 85
+      "title": "Hick's Law",
+      "description": "Minimized choices enhance decision-making speed for users navigating the site.",
+      "technical_spec": "Clear Navigation Menus",
+      "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizes interface design to improve user target acquisition.",
-      "technical_spec": "Reachable buttons, responsive design, adaptable interface.",
-      "severity_score": 90
+      "title": "Fitt's Law",
+      "description": "Optimized button size and positioning for ease of use across devices.",
+      "technical_spec": "Adaptive UI Design",
+      "severity_score": 15
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Balances aesthetics and usability to build user trust.",
-      "technical_spec": "Minimalist design, high-quality imagery, consistent branding.",
-      "severity_score": 88
+      "title": "Jakob's Law",
+      "description": "Design elements follow familiar patterns to align with user expectations.",
+      "technical_spec": "Intuitive Interface",
+      "severity_score": 5
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Applies principles of perception to organize elements on the website.",
-      "technical_spec": "Proximity grouping, similarity, and continuity in layouts.",
-      "severity_score": 85
+      "title": "Law of Proximity",
+      "description": "Related items are grouped together to improve visual hierarchy.",
+      "technical_spec": "CSS Flexbox",
+      "severity_score": 10
     },
     {
-      "title": "Law of Common Region",
-      "description": "Uses defined boundaries to guide user interactions.",
-      "technical_spec": "Contained sections, groupings with visual boundaries, clear demarcation.",
-      "severity_score": 87
+      "title": "Law of Prägnanz",
+      "description": "Design reduces visual complexity, presenting information in a direct manner.",
+      "technical_spec": "Minimalistic Aesthetics",
+      "severity_score": 20
     }
   ]
 }

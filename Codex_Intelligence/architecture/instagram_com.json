@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 119,
+    "rank": 129,
     "site": "instagram.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "c7bafdbb20ac1f0c67835c1b66e4e23e"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "e9164b41c5efcd7a141f676b777ca9c8"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Instagram uses a microservices architecture to enhance scalability and maintainability.",
-      "technical_spec": "Containers managed with Kubernetes and Docker, multiple APIs handling different services.",
-      "severity_score": 15
-    },
-    {
-      "title": "GraphQL API",
-      "description": "GraphQL used for efficient data retrieval and to reduce network requests.",
-      "technical_spec": "A single endpoint for handling complex queries, running on Node.js and Apollo Server.",
+      "description": "Instagram employs a microservices architecture to handle various functions like user authentication, media processing, and notifications.",
+      "technical_spec": "Microservices typically run on isolated containers, such as Docker, managed with orchestration tools like Kubernetes.",
       "severity_score": 20
     },
     {
-      "title": "CDN Utilization",
-      "description": "Content Delivery Network used for optimizing content delivery.",
-      "technical_spec": "Integration with services like Akamai or Cloudflare to cache static and dynamic content.",
-      "severity_score": 10
+      "title": "Scalable Infrastructure",
+      "description": "Instagram's infrastructure is designed for scalability to support billions of users and heavy multimedia content.",
+      "technical_spec": "Utilizes distributed databases and content delivery networks (CDNs) for efficient load balancing and data distribution.",
+      "severity_score": 15
     },
     {
-      "title": "Distributed Databases",
-      "description": "High availability maintained through distributed databases.",
-      "technical_spec": "Sharded databases like Cassandra, along with Postgres for data storage.",
+      "title": "Event-Driven Architecture",
+      "description": "An event-driven approach enables real-time engagement through notifications, likes, and comments.",
+      "technical_spec": "Relies on message brokers like Apache Kafka to handle data streams and asynchronous processing.",
       "severity_score": 25
     },
     {
-      "title": "Real-Time Data Processing",
-      "description": "Real-time data processing for features like live feeds and updates.",
-      "technical_spec": "Streams and message queues processed through Apache Kafka.",
+      "title": "High Availability",
+      "description": "Designed for minimal downtime and fast recovery to maintain constant uptime for users globally.",
+      "technical_spec": "Employs redundancy, failover systems, and geographically distributed servers.",
+      "severity_score": 10
+    },
+    {
+      "title": "Monolithic Frontend",
+      "description": "Despite using microservices at the backend, Instagram's frontend relies on a monolithic architecture for a consistent user interface.",
+      "technical_spec": "Single-page applications built with React that make use of RESTful APIs for backend interaction.",
       "severity_score": 30
     }
   ]

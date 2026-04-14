@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 111,
+    "rank": 121,
     "site": "google.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "bb8946717e80111980ed8ab6b2b5b85e"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "fd04696188c9155c4d7c3ce38d0e1fa0"
   },
   "data": [
     {
+      "title": "Simplicity",
+      "description": "Focusing on clear, uncluttered interface design.",
+      "technical_spec": "Minimalist design with focus on core functionalities.",
+      "severity_score": 5
+    },
+    {
       "title": "Innovation",
-      "description": "Google consistently pushes the boundaries of technology and innovation.",
-      "technical_spec": "Research and development initiatives, alpha and beta testing phases.",
-      "severity_score": 8
+      "description": "Commitment to pushing the boundaries of search technology.",
+      "technical_spec": "Incorporation of AI to enhance search results.",
+      "severity_score": 20
     },
     {
-      "title": "User-Focused Approach",
-      "description": "Designs products and services with a primary focus on user experience.",
-      "technical_spec": "UX research, user feedback integration, iterative design processes.",
-      "severity_score": 7
-    },
-    {
-      "title": "Scalability",
-      "description": "All products are built with scalability in mind to accommodate global demand.",
-      "technical_spec": "Cloud-based solutions, distributed infrastructure.",
+      "title": "Reliability",
+      "description": "Ensuring high uptime and performance across services.",
+      "technical_spec": "Robust infrastructure and error correction systems.",
       "severity_score": 10
     },
     {
-      "title": "Sustainability",
-      "description": "Strong commitment to environmental responsibility and sustainability initiatives.",
-      "technical_spec": "Carbon-neutral data centers, renewable energy investments.",
-      "severity_score": 6
+      "title": "Global Reach",
+      "description": "Serving diverse communities with localized services.",
+      "technical_spec": "Multilingual support and regional customization.",
+      "severity_score": 12
     },
     {
-      "title": "Open Source",
-      "description": "A significant contributor to open-source projects, fostering community and collaboration.",
-      "technical_spec": "Projects like TensorFlow, Kubernetes, Chromium.",
-      "severity_score": 5
+      "title": "User-Centric Design",
+      "description": "Maintaining a focus on user needs and feedback.",
+      "technical_spec": "Regular user accessibility testing and iterative feedback loops.",
+      "severity_score": 14
     }
   ]
 }

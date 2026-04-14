@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 112,
+    "rank": 122,
     "site": "youtube.com",
-    "date": "2026-04-14 15:07",
-    "integrity_hash": "2ec52084fbc0a31e1d246dc03037939c"
+    "date": "2026-04-14 16:56",
+    "integrity_hash": "cc6be9fbc4aed9f30ac73a793e8b8575"
   },
   "data": [
     {
-      "title": "User-Generated Content Platform",
-      "description": "YouTube's brand is centered around user-created content, making it a leading platform for diverse voices.",
-      "technical_spec": "Robust video editing and upload tools.",
-      "severity_score": 5
+      "title": "User-Generated Content",
+      "description": "Encourages a community-driven platform where users create and share content.",
+      "technical_spec": "Provides easy-to-use tools for video uploading and editing.",
+      "severity_score": 60
+    },
+    {
+      "title": "Personalization",
+      "description": "Offers personalized content recommendations to enhance user engagement.",
+      "technical_spec": "Utilizes AI algorithms to analyze viewing habits.",
+      "severity_score": 70
+    },
+    {
+      "title": "Global Accessibility",
+      "description": "Aims to make content accessible to users worldwide with diverse languages and cultures.",
+      "technical_spec": "Supports multiple languages and subtitles.",
+      "severity_score": 55
+    },
+    {
+      "title": "Monetization Opportunities",
+      "description": "Provides creators with avenues for monetization through ads and subscriptions.",
+      "technical_spec": "Implements AdSense and Membership features.",
+      "severity_score": 65
     },
     {
       "title": "Community Engagement",
-      "description": "Focuses on building a community through features like comments, likes, and shares.",
-      "technical_spec": "Engagement analytics and community guidelines enforcement.",
-      "severity_score": 15
-    },
-    {
-      "title": "Global Reach",
-      "description": "YouTube maintains a strong global presence, offering localized content and features.",
-      "technical_spec": "Multilingual interface, region-specific content filtering.",
-      "severity_score": 10
-    },
-    {
-      "title": "Innovative Monetization",
-      "description": "Pioneers in providing monetization opportunities through ads, memberships, and super chats.",
-      "technical_spec": "AdSense integration, YouTube Partner Program.",
-      "severity_score": 20
-    },
-    {
-      "title": "Content Diversity",
-      "description": "Offers diverse content genres, catering to various interests and demographics.",
-      "technical_spec": "Advanced search algorithms, personalized recommendation systems.",
-      "severity_score": 10
+      "description": "Fosters robust community interaction through comments, live chats, and shared playlists.",
+      "technical_spec": "Enables interactive features and community guidelines.",
+      "severity_score": 50
     }
   ]
 }
