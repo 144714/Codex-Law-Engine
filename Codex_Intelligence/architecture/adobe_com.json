@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 148,
+    "rank": 158,
     "site": "adobe.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "b15521b008c179a979ea04f443737a13"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "ff693f537bfaa1ccb02b447672203119"
   },
   "data": [
     {
-      "title": "Cloud Infrastructure",
-      "description": "Adobe's architecture utilizes a cloud-based infrastructure for scalable computing and storage.",
-      "technical_spec": "AWS and Microsoft Azure for IaaS and PaaS solutions.",
-      "severity_score": 20
+      "title": "Microservices Architecture",
+      "description": "Adobe's platform utilizes a microservices architecture to enable scalability and flexibility.",
+      "technical_spec": "Decomposed services, each independently deployable and scalable.",
+      "severity_score": 5
     },
     {
-      "title": "Microservices",
-      "description": "Microservices are employed to decouple services and enhance scalability and resilience.",
-      "technical_spec": "Implementation using Docker containers and Kubernetes orchestration.",
+      "title": "RESTful APIs",
+      "description": "Use of RESTful APIs to facilitate communication between services and client applications.",
+      "technical_spec": "HTTP methods (GET, POST, PUT, DELETE) with JSON payloads.",
       "severity_score": 15
     },
     {
-      "title": "Content Delivery Network",
-      "description": "Global CDN is used to deliver content quickly and efficiently.",
-      "technical_spec": "Akamai and Cloudflare provide caching and delivery acceleration.",
+      "title": "Cloud-Native Infrastructure",
+      "description": "Adobe leverages cloud-native technologies for infrastructure and platform agility.",
+      "technical_spec": "Kubernetes clusters, containerized applications, auto-scaling environments.",
       "severity_score": 10
     },
     {
-      "title": "API Management",
-      "description": "APIs are used extensively for integrations and intra-service communication.",
-      "technical_spec": "API Gateway with rate limiting and security features.",
-      "severity_score": 25
+      "title": "Content Delivery Network (CDN)",
+      "description": "Globally distributed CDN for fast content delivery and improved user experience.",
+      "technical_spec": "Edge caching, optimized content routing, and tier-one network partners.",
+      "severity_score": 20
     },
     {
-      "title": "Database Architecture",
-      "description": "Use of both SQL and NoSQL databases to handle different types of data.",
-      "technical_spec": "MySQL and MongoDB for structured and unstructured data respectively.",
-      "severity_score": 30
+      "title": "Database Management",
+      "description": "Use of distributed and scalable databases to manage large volumes of data efficiently.",
+      "technical_spec": "NoSQL databases, relational databases, distributed data models.",
+      "severity_score": 15
     }
   ]
 }

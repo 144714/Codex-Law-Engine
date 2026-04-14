@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 150,
+    "rank": 160,
     "site": "whatsapp.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "2ec57203943c3cc0fab214d8b4be2b2f"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "2e0d1cbf98abc3982216d75aef41c513"
   },
   "data": [
     {
-      "title": "Law of Simplicity",
-      "description": "Focuses on a clean, intuitive interface that ensures ease of use.",
-      "technical_spec": "Minimalist design with clear iconography and straightforward navigation.",
-      "severity_score": 10
-    },
-    {
-      "title": "Hick's Law",
-      "description": "Simplifies decision-making by reducing the number of choices presented to users.",
-      "technical_spec": "Quick-access menus and shortcut gestures expedite user interactions.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Larger, easily tappable touch targets enhance usability, especially on mobile devices.",
-      "technical_spec": "Adaptive touch target sizing for various device form factors.",
-      "severity_score": 20
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "A visually appealing design is perceived as more usable, fostering a positive user experience.",
-      "technical_spec": "Consistent and harmonious color schemes and typography.",
+      "title": "Hick’s Law",
+      "description": "WhatsApp simplifies choices to make decisions faster, like in message interactions.",
+      "technical_spec": "Minimalistic design with clear options to prevent choice overload.",
       "severity_score": 25
     },
     {
-      "title": "Jakob's Law",
-      "description": "Users prefer your website to work the same way as all the other sites they already know.",
-      "technical_spec": "Leverages familiar UI patterns for navigation and messaging.",
+      "title": "Fitts’s Law",
+      "description": "The app design facilitates quick selection of commonly used features through larger touch targets.",
+      "technical_spec": "Strategically placed buttons and icons to accommodate finger size.",
       "severity_score": 15
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Keeps interface clean, aligning with users’ ability to process 7±2 items.",
+      "technical_spec": "Uses grouping and minimal layers in the UI for navigation efficiency.",
+      "severity_score": 40
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Adopts familiar design patterns to leverage users’ prior knowledge.",
+      "technical_spec": "Conventional chat app layout and interaction models.",
+      "severity_score": 35
+    },
+    {
+      "title": "Aesthetic Usability Effect",
+      "description": "Focuses on creating an aesthetically pleasing interface that users find intuitive.",
+      "technical_spec": "Utilizes modern design elements and consistent color schemes.",
+      "severity_score": 20
     }
   ]
 }

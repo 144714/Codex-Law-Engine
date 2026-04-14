@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 143,
+    "rank": 153,
     "site": "apple.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "2ad961bd72d6607d8eab786424990e54"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "8f6061cf0b2523fdb36023cd4c113ae7"
   },
   "data": [
     {
-      "title": "Scalable Infrastructure",
-      "description": "Apple.com is built on a scalable infrastructure to handle millions of users concurrently.",
-      "technical_spec": "Utilizes distributed server architecture with CDN support.",
-      "severity_score": 15
-    },
-    {
-      "title": "High Availability Systems",
-      "description": "Designed to provide high uptime with minimal disruptions.",
-      "technical_spec": "Implemented with redundancy and failover mechanisms.",
-      "severity_score": 10
-    },
-    {
       "title": "Microservices Architecture",
-      "description": "Decomposed systems promoting independent deployment and scaling.",
-      "technical_spec": "Employs containerized services managed via orchestration platforms.",
+      "description": "Apple uses a microservices architecture to ensure scalability and robust performance across its platforms.",
+      "technical_spec": "Docker, Kubernetes, REST APIs",
       "severity_score": 20
     },
     {
-      "title": "Efficient Data Management",
-      "description": "Employs data management strategies to optimize speed and reliability.",
-      "technical_spec": "Uses distributed databases and advanced caching mechanisms.",
+      "title": "Cloud Infrastructure",
+      "description": "The site infrastructure is supported by a combination of in-house servers and cloud services.",
+      "technical_spec": "AWS, Azure integration",
+      "severity_score": 30
+    },
+    {
+      "title": "Content Delivery Network",
+      "description": "Utilizes a global CDN to provide faster load times and reliability no matter where users access from.",
+      "technical_spec": "Akamai, Cloudflare",
+      "severity_score": 10
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Employs responsive design techniques to ensure compatibility with various devices and screen sizes.",
+      "technical_spec": "Bootstrap, CSS3 media queries",
       "severity_score": 25
     },
     {
-      "title": "Advanced Load Balancing",
-      "description": "Optimizes resource utilization and increases throughput.",
-      "technical_spec": "Incorporates software and hardware load balancers across global data centers.",
-      "severity_score": 30
+      "title": "Monolithic Legacy Systems",
+      "description": "Some parts of the system still rely on monolithic structures for core operations.",
+      "technical_spec": "Legacy codebase, mainframe interfaces",
+      "severity_score": 50
     }
   ]
 }

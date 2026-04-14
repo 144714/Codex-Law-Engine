@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 143,
+    "rank": 153,
     "site": "apple.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "9d4454e81bd1c1222db3ab04f1d2b473"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "607d58e2e525ac50294875c19d13ce63"
   },
   "data": [
     {
-      "title": "Consistency",
-      "description": "Provides a uniform experience across various Apple devices and platforms.",
-      "technical_spec": "Unified design language and interaction patterns.",
+      "title": "Fitts's Law",
+      "description": "The design layout prioritizes easily clickable buttons and interfaces to minimize user effort.",
+      "technical_spec": "Large CTA buttons, interactive zones",
       "severity_score": 10
     },
     {
-      "title": "Feedback",
-      "description": "Immediate feedback for user actions improves engagement and satisfaction.",
-      "technical_spec": "Utilizes tactile, visual, and auditory feedback systems.",
-      "severity_score": 20
-    },
-    {
-      "title": "Simplicity",
-      "description": "Coherent and minimalistic design aids user comprehension and navigation.",
-      "technical_spec": "Employs a clear typographic hierarchy and ample white space.",
-      "severity_score": 5
-    },
-    {
-      "title": "Accessibility",
-      "description": "Ensures inclusive design accommodating users of all abilities.",
-      "technical_spec": "Supports alternative input methods and screen reader capabilities.",
+      "title": "Hick's Law",
+      "description": "Balances choice and simplicity by limiting the number of user options to improve decision-making.",
+      "technical_spec": "Streamlined navigation, simple menu structures",
       "severity_score": 15
     },
     {
-      "title": "Affordance",
-      "description": "Design elements intuitively indicate their functionalities and operations.",
-      "technical_spec": "Utilizes icons and controls that encourage interaction.",
-      "severity_score": 25
+      "title": "Miller's Law",
+      "description": "Limits the information presented at any one time to avoid cognitive overload.",
+      "technical_spec": "Chunking of information, minimalistic page design",
+      "severity_score": 12
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Organizes related items together to create a gestalt effect in listing and product displays.",
+      "technical_spec": "CSS flexbox and grid, visual grouping",
+      "severity_score": 8
+    },
+    {
+      "title": "Zeigarnik Effect",
+      "description": "Encourages task completion by highlighting unfinished actions or incomplete user inputs.",
+      "technical_spec": "Progress bars, stateful interfaces",
+      "severity_score": 20
     }
   ]
 }

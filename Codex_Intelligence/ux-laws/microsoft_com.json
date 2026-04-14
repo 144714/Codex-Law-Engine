@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 144,
+    "rank": 154,
     "site": "microsoft.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "61f15f4c0d71a5c6147e02c9c4d41336"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "746c634e33426c093bff2b30b5c9dacd"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Ensures that UI elements are sized and positioned for easy targeting.",
-      "technical_spec": "Responsive button sizing, intuitive placement",
-      "severity_score": 10
-    },
-    {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making processes by limiting options and presenting well-organized information.",
-      "technical_spec": "Clear navigation, minimalistic design",
-      "severity_score": 15
+      "description": "Reduces the time it takes for users to make decisions by simplifying navigation.",
+      "technical_spec": "Streamlined menu options and guided user paths.",
+      "severity_score": 89
     },
     {
-      "title": "Jakob's Law",
-      "description": "Designs follow patterns familiar to users from other websites, improving usability.",
-      "technical_spec": "Consistent UI patterns, standard layouts",
-      "severity_score": 10
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Chunks content into digestible sections to align with cognitive limitations.",
-      "technical_spec": "Modular content blocks",
-      "severity_score": 20
+      "title": "Fitts's Law",
+      "description": "Optimizes target sizes and positions to improve user interactions.",
+      "technical_spec": "Large, easily clickable buttons and links.",
+      "severity_score": 85
     },
     {
       "title": "Law of Proximity",
-      "description": "Groups related items together to indicate their relationship and improve intuitiveness.",
-      "technical_spec": "Strategic spacing and layout design",
-      "severity_score": 5
+      "description": "Items close to each other are perceived as related, aiding cognitive processing.",
+      "technical_spec": "Consistent use of whitespace and grouping strategies.",
+      "severity_score": 87
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Attempts to lessen cognitive load by organizing content in chunks easy for users to process.",
+      "technical_spec": "Logical segmentation of information across the site.",
+      "severity_score": 86
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Users prefer your site to work the same way as all other sites they already know.",
+      "technical_spec": "Leverages common web conventions and familiar design patterns.",
+      "severity_score": 84
     }
   ]
 }

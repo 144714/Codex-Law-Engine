@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 145,
+    "rank": 155,
     "site": "amazon.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "e6c56e234d09e5e17427e049fbf59654"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "f98c20188475e5c800e036859e863686"
   },
   "data": [
     {
-      "title": "DDoS Protection",
-      "description": "Protection against DDoS attacks to maintain uptime and performance.",
-      "technical_spec": "AWS Shield and AWS WAF",
-      "severity_score": 40
-    },
-    {
       "title": "Data Encryption",
-      "description": "Encrypts sensitive data to prevent unauthorized access.",
-      "technical_spec": "AES-256 encryption for data at rest.",
-      "severity_score": 45
+      "description": "Encrypts data both at rest and in transit to protect sensitive information.",
+      "technical_spec": "AES-256 encryption for data at rest, TLS/SSL for data in-transit.",
+      "severity_score": 20
     },
     {
-      "title": "Authentication & Authorization",
-      "description": "Robust authentication mechanisms to prevent unauthorized access.",
-      "technical_spec": "AWS IAM roles and policies.",
-      "severity_score": 50
+      "title": "Intrusion Detection Systems",
+      "description": "Detects unauthorized access or anomalies in the network.",
+      "technical_spec": "AWS GuardDuty, VPC Flow Logs, anomaly detection algorithms.",
+      "severity_score": 25
     },
     {
-      "title": "Security Incident & Event Management (SIEM)",
-      "description": "Monitors and manages potential security threats in real-time.",
-      "technical_spec": "Amazon GuardDuty and AWS CloudTrail.",
-      "severity_score": 55
+      "title": "DDoS Protection",
+      "description": "Designed to mitigate distributed denial-of-service attacks.",
+      "technical_spec": "AWS Shield, rate limiting, Web Application Firewall (WAF).",
+      "severity_score": 28
     },
     {
-      "title": "Patch Management",
-      "description": "Regular updates and patches to address vulnerabilities.",
-      "technical_spec": "AWS Systems Manager for patch compliance.",
-      "severity_score": 30
+      "title": "Access Control",
+      "description": "Strict access control policies to prevent unauthorized access.",
+      "technical_spec": "IAM roles and policies, multi-factor authentication (MFA).",
+      "severity_score": 18
+    },
+    {
+      "title": "Security Audits and Compliance",
+      "description": "Regular security audits to ensure compliance with industry standards.",
+      "technical_spec": "ISO 27001 certification, SOC 1/2/3 compliance checks.",
+      "severity_score": 22
     }
   ]
 }

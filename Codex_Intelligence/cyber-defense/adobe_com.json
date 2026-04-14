@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 148,
+    "rank": 158,
     "site": "adobe.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "5a9b3cfb85f714c77a51ef9c507cdf62"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "f50f27991ac786331718dfe806bed45c"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Data is encrypted both at rest and in transit to protect against unauthorized access.",
-      "technical_spec": "Advanced Encryption Standard (AES) 256-bit is used.",
-      "severity_score": 10
-    },
-    {
-      "title": "Identity Management",
-      "description": "Robust identity management to ensure secure access to resources.",
-      "technical_spec": "Single Sign-On and Multi-Factor Authentication are implemented.",
-      "severity_score": 15
-    },
-    {
-      "title": "Threat Detection",
-      "description": "Advanced systems for detecting and responding to potential threats.",
-      "technical_spec": "Integration with SIEM platforms for real-time threat analysis.",
+      "title": "End-to-End Encryption",
+      "description": "Data protection through encryption protocols to ensure privacy and security across communications.",
+      "technical_spec": "SSL/TLS encryption, 256-bit encryption standards.",
       "severity_score": 25
     },
     {
-      "title": "Incident Response",
-      "description": "Comprehensive incident response plan to address security breaches quickly.",
-      "technical_spec": "Dedicated SOC with incident response tools.",
-      "severity_score": 20
+      "title": "Authentication and Authorization",
+      "description": "Robust identity verification processes to protect user accounts.",
+      "technical_spec": "OAuth 2.0, Single Sign-On (SSO), Multi-factor authentication (MFA).",
+      "severity_score": 30
     },
     {
-      "title": "Network Security",
-      "description": "Multiple layers of security to protect against network intrusions.",
-      "technical_spec": "Firewalls, Intrusion Detection and Prevention Systems.",
-      "severity_score": 30
+      "title": "Network Security Architecture",
+      "description": "Layered security protocols designed to protect against unauthorized access and attacks.",
+      "technical_spec": "Firewalls, intrusion detection systems (IDS), VPNs.",
+      "severity_score": 40
+    },
+    {
+      "title": "Data Loss Prevention (DLP)",
+      "description": "Technologies and processes deployed to prevent data breaches and unauthorized data transfers.",
+      "technical_spec": "Endpoint protection, data encryption, monitoring tools.",
+      "severity_score": 35
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Ongoing security assessments to identify vulnerabilities and improve defenses.",
+      "technical_spec": "Penetration testing, vulnerability scanning, audit trails.",
+      "severity_score": 45
     }
   ]
 }

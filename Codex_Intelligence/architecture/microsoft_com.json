@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 144,
+    "rank": 154,
     "site": "microsoft.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "ba0c535adf3809b3d1b8a18e531d01aa"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "c646c9e32e33936d95ce7e693708375d"
   },
   "data": [
     {
-      "title": "Cloud Integration",
-      "description": "Microsoft.com uses Azure to seamlessly integrate cloud services, ensuring scalability and reliability.",
-      "technical_spec": "Azure App Services, Azure ICS",
-      "severity_score": 10
+      "title": "Microservices Architecture",
+      "description": "Microsoft employs a microservices architecture to enhance scalability and maintainability of its services.",
+      "technical_spec": "Independently deployable services communicating via APIs.",
+      "severity_score": 92
     },
     {
-      "title": "Microservices",
-      "description": "The site employs a microservices architecture to allow independent deployment and scalability of components.",
-      "technical_spec": "Docker, Kubernetes on Azure",
-      "severity_score": 20
+      "title": "Cloud-Native Design",
+      "description": "The site leverages Azure cloud infrastructure for robust performance and reliability.",
+      "technical_spec": "Utilizes containers, serverless functions, and managed databases.",
+      "severity_score": 95
     },
     {
-      "title": "Content Delivery Network",
-      "description": "Utilizes a CDN to distribute content globally, enhancing load times and availability.",
-      "technical_spec": "Azure CDN",
-      "severity_score": 15
+      "title": "Responsive Design",
+      "description": "The layout of microsoft.com adjusts seamlessly across various device sizes.",
+      "technical_spec": "CSS media queries, flexible grids, and responsive images.",
+      "severity_score": 88
     },
     {
-      "title": "Database Management",
-      "description": "Relies on distributed databases for managing large datasets efficiently.",
-      "technical_spec": "Azure SQL, Cosmos DB",
-      "severity_score": 30
+      "title": "Content Delivery Network (CDN)",
+      "description": "A CDN is used to distribute static and dynamic content efficiently across global users.",
+      "technical_spec": "Utilizes Azure CDN for caching and reducing latency.",
+      "severity_score": 90
     },
     {
-      "title": "Legacy System Integration",
-      "description": "Supports integration with legacy systems to ensure continuity and data flow.",
-      "technical_spec": "Azure Logic Apps, Service Bus",
-      "severity_score": 35
+      "title": "Progressive Web Application (PWA)",
+      "description": "Enhances user experience with PWA capabilities for offline usability.",
+      "technical_spec": "Service workers and web application manifest are implemented.",
+      "severity_score": 85
     }
   ]
 }

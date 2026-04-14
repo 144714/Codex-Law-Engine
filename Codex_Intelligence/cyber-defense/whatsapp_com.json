@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 150,
+    "rank": 160,
     "site": "whatsapp.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "8f2f75b31f3b43f49f717515aea61d2f"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "6c25ac06220fef0174684a79fbe1e689"
   },
   "data": [
     {
-      "title": "Robust Encryption",
-      "description": "Messages, calls, and media are end-to-end encrypted, ensuring privacy and security.",
-      "technical_spec": "Signal Protocol implemented for encrypting all user communications.",
-      "severity_score": 5
+      "title": "End-to-End Encryption",
+      "description": "Messages on WhatsApp are secured using end-to-end encryption.",
+      "technical_spec": "Encryption protocols ensuring only communicating users can read messages.",
+      "severity_score": 90
     },
     {
-      "title": "Spam Detection",
-      "description": "Advanced algorithms and machine learning models identify and mitigate spam and phishing threats.",
-      "technical_spec": "Real-time monitoring systems with AI-based patterns recognition.",
-      "severity_score": 30
-    },
-    {
-      "title": "Account Security Measures",
-      "description": "Multiple layers of account security, including two-step verification and biometric authentication.",
-      "technical_spec": "Optional two-step verification; face/fingerprint recognition for secure access.",
-      "severity_score": 40
+      "title": "Two-Step Verification",
+      "description": "WhatsApp offers two-step verification for enhanced account security.",
+      "technical_spec": "User-enabled feature requiring a PIN for account verification.",
+      "severity_score": 70
     },
     {
       "title": "Regular Security Audits",
-      "description": "Frequent security reviews and penetration testing to identify and address vulnerabilities.",
-      "technical_spec": "Annual penetration testing by third-party security firms.",
-      "severity_score": 35
+      "description": "Conducts frequent security audits to identify and resolve potential vulnerabilities.",
+      "technical_spec": "Engages in both internal and external audits in coordination with cybersecurity experts.",
+      "severity_score": 65
     },
     {
-      "title": "Real-time Threat Intelligence",
-      "description": "Updated threat intelligence feeds to adapt to emerging security threats.",
-      "technical_spec": "Integration with global threat intelligence services.",
-      "severity_score": 20
+      "title": "Automatic Security Updates",
+      "description": "WhatsApp regularly updates its application to protect against emerging threats.",
+      "technical_spec": "Pushes security patches without user intervention.",
+      "severity_score": 75
+    },
+    {
+      "title": "Spam Detection",
+      "description": "Uses algorithms to detect and prevent spam across its platform.",
+      "technical_spec": "Automated systems monitoring message patterns and frequency.",
+      "severity_score": 60
     }
   ]
 }

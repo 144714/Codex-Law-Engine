@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 149,
+    "rank": 159,
     "site": "instagram.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "044b3420250a2ff627a03d209a650a17"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "9d1d708d2fd5ee97df97c477b826e425"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplified user interface design to reduce decision-making time.",
-      "technical_spec": "Streamlined menu options, Intuitive UI",
-      "severity_score": 35
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Optimal touch targets for mobile interaction to facilitate user engagement.",
-      "technical_spec": "Responsive design, Touch target sizes",
-      "severity_score": 45
+      "title": "Consistency Principle",
+      "description": "Instagram's UI maintains consistency across devices, fostering usability and predictability.",
+      "technical_spec": "Cross-platform UI frameworks, Material Design guidelines.",
+      "severity_score": 80
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing interface to enhance usability perception.",
-      "technical_spec": "Consistent aesthetic elements, High-resolution media",
-      "severity_score": 25
+      "description": "Visual appeal enhances the perceived usability of the app, encouraging usage and engagement.",
+      "technical_spec": "Minimalistic design, responsive design principles.",
+      "severity_score": 85
     },
     {
-      "title": "Law of Proximity",
-      "description": "Grouping related interface elements to aid user navigation.",
-      "technical_spec": "Grid layout, Alignment of UI components",
-      "severity_score": 30
+      "title": "Fitts's Law",
+      "description": "Optimizes the size and positioning of interactive elements for faster accessibility.",
+      "technical_spec": "Touch optimization, accessibility features.",
+      "severity_score": 82
+    },
+    {
+      "title": "Hick's Law",
+      "description": "Reduces decision-making time by minimizing menu options to essential features.",
+      "technical_spec": "Streamlined navigation, prioritized content.",
+      "severity_score": 83
     },
     {
       "title": "Doherty Threshold",
-      "description": "Maintaining interaction speed to keep user attention and engagement.",
-      "technical_spec": "Asynchronous loading, Progressive content rendering",
-      "severity_score": 50
+      "description": "Achieves high-speed interactions with immediate responses to user inputs.",
+      "technical_spec": "Asynchronous operations, preloading images.",
+      "severity_score": 86
     }
   ]
 }

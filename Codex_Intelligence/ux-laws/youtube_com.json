@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 142,
+    "rank": 152,
     "site": "youtube.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "d3c8f7e20784e743c27f9ed40476ab31"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "7eb0187d25b6b4b6cf6da68291a2c942"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies decision-making processes for the users.",
-      "technical_spec": "Streamlined interface design to reduce complexity and choice overload.",
-      "severity_score": 12
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Improves accessibility and usability of interactive elements.",
-      "technical_spec": "Optimized button sizes and placement to minimize interaction time.",
-      "severity_score": 15
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Balances visual appeal with functionality to enhance perceived usability.",
-      "technical_spec": "Adopts YouTube's signature clean and minimalist design.",
+      "title": "Fitts's Law",
+      "description": "Design principle used to increase usability by optimizing click targets.",
+      "technical_spec": "Interactive elements are strategically placed and sized for easier targeting and click accuracy.",
       "severity_score": 10
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Leverages cognitive bias by placing critical content at list beginnings or ends.",
-      "technical_spec": "Recommendation and playlist algorithms prioritize key content positions.",
-      "severity_score": 20
+      "title": "Hick's Law",
+      "description": "Streamlines decision-making by reducing choice overload in user interfaces.",
+      "technical_spec": "Simplifies the user journey by presenting only necessary options to avoid decision paralysis.",
+      "severity_score": 15
     },
     {
-      "title": "Law of Common Region",
-      "description": "Groups related content to improve cognitive comprehension and navigation.",
-      "technical_spec": "Utilizes borders and colors to create coherent areas for related content.",
-      "severity_score": 18
+      "title": "Jakob's Law",
+      "description": "Design consistency across platforms increases user familiarity and trust.",
+      "technical_spec": "Maintains uniform design patterns for consistent user experiences across all devices.",
+      "severity_score": 5
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Ensures user memory capacity is not overwhelmed by limiting data chunking.",
+      "technical_spec": "Divides information into manageable chunks to enhance content comprehension and retention.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic Usability Effect",
+      "description": "Users perceive aesthetically pleasing design as more usable.",
+      "technical_spec": "Prioritizes visual design elements to enhance aesthetics while maintaining functional usability.",
+      "severity_score": 5
     }
   ]
 }

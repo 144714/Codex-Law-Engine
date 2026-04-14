@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 145,
+    "rank": 155,
     "site": "amazon.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "219b81e1de64a43ab63f4f488e6984a3"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "eac07c7a8403ad84710ae013b2c1d0fb"
   },
   "data": [
     {
       "title": "Customer Obsession",
-      "description": "Focus on providing the best customer experience above all.",
-      "technical_spec": "24/7 customer support and easy return policies.",
-      "severity_score": 10
+      "description": "Prioritizes customer satisfaction across all operations.",
+      "technical_spec": "Customer feedback loops, 24/7 customer support, personalized recommendations.",
+      "severity_score": 18
     },
     {
       "title": "Operational Excellence",
-      "description": "Efficient and effective operations to deliver optimal results.",
-      "technical_spec": "Streamlined logistics and supply chain management.",
-      "severity_score": 15
-    },
-    {
-      "title": "Innovation",
-      "description": "Continuous investment in new technologies and business models.",
-      "technical_spec": "AI-driven recommendations and voice shopping through Alexa.",
+      "description": "Focuses on improvement of operational processes.",
+      "technical_spec": "Lean management principles, continuous improvement cycles, Six Sigma methods.",
       "severity_score": 20
     },
     {
-      "title": "Global Expansion",
-      "description": "Growing presence in international markets.",
-      "technical_spec": "Adaptation of services and products for local markets.",
-      "severity_score": 25
+      "title": "Long-term Thinking",
+      "description": "Decisions are made with a focus on sustainable growth over time.",
+      "technical_spec": "Investment in R&D, energy-efficient data centers, community economic initiatives.",
+      "severity_score": 15
     },
     {
-      "title": "Sustainability",
-      "description": "Commitment to sustainability and reducing environmental impact.",
-      "technical_spec": "Investment in renewable energy and waste reduction initiatives.",
-      "severity_score": 15
+      "title": "Innovation as a Core Value",
+      "description": "Constantly seeks to introduce new technologies and solutions.",
+      "technical_spec": "Research labs, patent portfolios, startup incubator programs.",
+      "severity_score": 22
+    },
+    {
+      "title": "Global Scalability",
+      "description": "Designed to maximize outreach and operations on a global scale.",
+      "technical_spec": "Localization strategies, global fulfillment network, diverse product offerings.",
+      "severity_score": 25
     }
   ]
 }

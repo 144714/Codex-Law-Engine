@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 141,
+    "rank": 151,
     "site": "google.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "1d75860ade8d821852009275ac0b8399"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "1304449bd11e5e01ac1f5941130873dc"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Data is encrypted both in transit and at rest to protect user privacy.",
-      "technical_spec": "TLS 1.3, AES-256 encryption",
-      "severity_score": 5
+      "title": "End-to-End Encryption",
+      "description": "Encrypts data from user endpoints to Google's servers.",
+      "technical_spec": "TLS 1.3 with stronger encryption algorithms",
+      "severity_score": 25
     },
     {
-      "title": "Zero Trust Security Model",
-      "description": "Employs a Zero Trust model where no device or user is automatically trusted.",
-      "technical_spec": "Multi-factor authentication, Identity verification",
-      "severity_score": 15
+      "title": "Advanced Threat Detection",
+      "description": "Utilizes machine learning to identify and mitigate threats.",
+      "technical_spec": "Google Threat Analysis Group (TAG); Event threat detection",
+      "severity_score": 50
+    },
+    {
+      "title": "Zero Trust Networking",
+      "description": "Default-deny policy applied at network level.",
+      "technical_spec": "BeyondCorp architecture; context-aware access control",
+      "severity_score": 30
+    },
+    {
+      "title": "Patch Management",
+      "description": "Regular updates and patches to address vulnerabilities.",
+      "technical_spec": "Automated patching through Google Workspace",
+      "severity_score": 40
     },
     {
       "title": "DDoS Protection",
-      "description": "Advanced protection mechanisms are in place to mitigate distributed denial of service attacks.",
-      "technical_spec": "Traffic filtering, Rate limiting, Edge network protection",
-      "severity_score": 10
-    },
-    {
-      "title": "Vulnerability Scanning",
-      "description": "Regular automated scanning for vulnerabilities across the site.",
-      "technical_spec": "Security patches, CVE monitoring, Penetration testing",
-      "severity_score": 20
-    },
-    {
-      "title": "User Authentication",
-      "description": "Robust systems for secure user authentication and session management.",
-      "technical_spec": "OAuth 2.0, SAML, OpenID Connect",
-      "severity_score": 15
+      "description": "Protections against distributed denial-of-service attacks.",
+      "technical_spec": "Google Cloud Armor; global load balancing",
+      "severity_score": 60
     }
   ]
 }

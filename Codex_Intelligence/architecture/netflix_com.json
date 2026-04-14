@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 146,
+    "rank": 156,
     "site": "netflix.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "0d78cbc139d8a0e0309aad160e9a3c26"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "a4d0689edb357be3805bab1c31f9d6a2"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Decoupled microservices managing various functionalities such as recommendation engine and payment processing.",
-      "technical_spec": "Each service can be deployed independently using containerization technologies like Docker and managed using Kubernetes.",
-      "severity_score": 5
-    },
-    {
-      "title": "Cloud-Native Platform",
-      "description": "Built and operated on cloud infrastructure to ensure scalability and availability.",
-      "technical_spec": "Utilizes cloud services such as Amazon Web Services (AWS) for infrastructure needs.",
-      "severity_score": 10
-    },
-    {
-      "title": "CDN Utilization",
-      "description": "Content is delivered via a global Content Delivery Network to ensure speed and performance.",
-      "technical_spec": "Netflix Open Connect, a purpose-built content delivery network.",
-      "severity_score": 15
-    },
-    {
-      "title": "Event-Driven Architecture",
-      "description": "Utilizes event streams for data-driven decisions and system integrations.",
-      "technical_spec": "Apache Kafka is used for handling real-time data streams.",
+      "title": "Microservices Infrastructure",
+      "description": "The site is built on a distributed set of services that handle different functions within the platform.",
+      "technical_spec": "APIs, cloud-native deployments, service discovery, orchestration",
       "severity_score": 20
     },
     {
-      "title": "Resilience Design",
-      "description": "System designed to handle failures gracefully without affecting user experience.",
-      "technical_spec": "Hystrix and other resiliency patterns are used to manage failover mechanisms.",
-      "severity_score": 8
+      "title": "CDN Usage",
+      "description": "Utilizes Content Delivery Networks to ensure fast streaming and low latency across different regions.",
+      "technical_spec": "AWS CloudFront, Akamai, Fastly",
+      "severity_score": 15
+    },
+    {
+      "title": "Scalable Data Architecture",
+      "description": "Supports large-scale data processing to cater recommendations and personalized experiences.",
+      "technical_spec": "Apache Kafka, Hadoop, BigData solutions",
+      "severity_score": 18
+    },
+    {
+      "title": "Dynamic Rendering",
+      "description": "Adapts content rendering based on device capabilities and user region.",
+      "technical_spec": "NodeJS, React, server-side rendering",
+      "severity_score": 22
+    },
+    {
+      "title": "Resiliency and Fault Tolerance",
+      "description": "Ensures service continuity with redundancy and automated failovers.",
+      "technical_spec": "Circuit breakers, bulkheads, Chaos Monkey",
+      "severity_score": 10
     }
   ]
 }

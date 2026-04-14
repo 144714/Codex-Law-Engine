@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 147,
+    "rank": 157,
     "site": "spotify.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "1009ad7b2742bcd1c14875c5fed0c23a"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "2c52d713b498f174b81496afb7013b63"
   },
   "data": [
     {
-      "title": "Law of Simplicity",
-      "description": "Spotify's user interface is designed to be simple and intuitive to navigate.",
-      "technical_spec": "Minimum steps to achieve tasks, clear labeling, and logical content organization.",
-      "severity_score": 20
-    },
-    {
       "title": "Fitts's Law",
-      "description": "Optimized touch targets and navigation elements based on their distance and size for ease of use.",
-      "technical_spec": "Responsive design elements and appropriately sized buttons for better accessibility.",
-      "severity_score": 15
-    },
-    {
-      "title": "Doherty Threshold",
-      "description": "Spotify ensures systems respond in under 400ms to keep users engaged.",
-      "technical_spec": "Performance optimizations and asynchronous loading techniques.",
-      "severity_score": 25
-    },
-    {
-      "title": "Hick's Law",
-      "description": "Reduces decision-making time by limiting choices on each screen or menu.",
-      "technical_spec": "Prioritizes features most frequently used by analyzing user behavior data.",
+      "description": "Design principle focusing on the size and placement of interactive elements for ease of use.",
+      "technical_spec": "Large buttons, closer interactive elements",
       "severity_score": 30
     },
     {
+      "title": "Hick's Law",
+      "description": "Simplifies user choices by reducing the number of options presented at one time.",
+      "technical_spec": "Progressive disclosure, simplified menus",
+      "severity_score": 25
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Design approach that limits information chunks to enhance user memory retention.",
+      "technical_spec": "Information chunking, focused content display",
+      "severity_score": 40
+    },
+    {
       "title": "Aesthetic-Usability Effect",
-      "description": "A visually attractive interface that enhances perceived usability.",
-      "technical_spec": "Utilization of whitespace, color harmony, and consistent typography.",
-      "severity_score": 10
+      "description": "Aesthetic designs are perceived as more usable, even if they are not necessarily more efficient.",
+      "technical_spec": "Visually pleasing interfaces, engaging color schemes",
+      "severity_score": 35
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Expectations are based on other sites; the site should align with user expectations built elsewhere.",
+      "technical_spec": "Standard navigation patterns, consistent design",
+      "severity_score": 50
     }
   ]
 }

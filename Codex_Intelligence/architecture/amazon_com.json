@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 145,
+    "rank": 155,
     "site": "amazon.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "4fd4e34c451f420d246093f341a22680"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "a75b04a43ebd9fb6167e505f4635676f"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Amazon utilizes a microservices architecture to enable scalability and flexibility in its operations.",
-      "technical_spec": "Decoupled components communicating via APIs.",
+      "title": "Microservices Architecture",
+      "description": "Amazon employs a microservices architecture, allowing individual services to operate independently.",
+      "technical_spec": "Decomposition by business capability, RESTful APIs, service mesh utilization.",
+      "severity_score": 5
+    },
+    {
+      "title": "Scalable Cloud Infrastructure",
+      "description": "The architecture supports massive scalability to handle global traffic and operations.",
+      "technical_spec": "AWS Cloud services, auto-scaling groups, load balancing.",
       "severity_score": 10
     },
     {
-      "title": "Fault-Tolerant Systems",
-      "description": "The architecture is designed to withstand faults without major disruption to service.",
-      "technical_spec": "Redundant systems and failover protocols.",
+      "title": "High Availability Setup",
+      "description": "Ensures the system is reliable and available even during failures.",
+      "technical_spec": "Multi-region deployment, redundancy, failover mechanisms.",
+      "severity_score": 8
+    },
+    {
+      "title": "Continuous Deployment Pipeline",
+      "description": "Automated processes for deploying code changes quickly and safely.",
+      "technical_spec": "CI/CD with Jenkins, automated testing suites, canary deployment strategy.",
       "severity_score": 15
     },
     {
-      "title": "Load Balancing",
-      "description": "Distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed.",
-      "technical_spec": "Elastic Load Balancing (ELB)",
-      "severity_score": 25
-    },
-    {
-      "title": "Data Sharding",
-      "description": "Horizontal partitioning of databases to enhance performance and scalability.",
-      "technical_spec": "Sharding of customer and order databases.",
-      "severity_score": 30
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Uses CDN to deliver content faster to users globally.",
-      "technical_spec": "Amazon CloudFront",
-      "severity_score": 20
+      "title": "Event-Driven Architecture",
+      "description": "Utilizes events to decouple software components and improve response times.",
+      "technical_spec": "AWS Lambda, Kinesis, SNS/SQS integration.",
+      "severity_score": 12
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 141,
+    "rank": 151,
     "site": "google.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "2e29e4953907827683da367b63a6bad1"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "39458cbb193d802afbccdc98280bc0e2"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Minimizes decision time by creating a simple, streamlined interface.",
-      "technical_spec": "Interface design, Cognitive load reduction",
+      "title": "Fitt's Law",
+      "description": "Predicts the thinking and movement time involved in making an action.",
+      "technical_spec": "Clickable elements are large and easy to click even on small devices.",
       "severity_score": 10
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizes target sizes and distances to enhance user interaction speed.",
-      "technical_spec": "Clickable areas, Interface layout",
+      "title": "Hick's Law",
+      "description": "More options increase the decision time.",
+      "technical_spec": "Simple and intuitive UI with prioritized search results.",
       "severity_score": 15
     },
     {
-      "title": "Pareto Principle (80/20 rule)",
-      "description": "Focuses on the most impactful features that users often interact with.",
-      "technical_spec": "Usage analytics, Feature prioritization",
-      "severity_score": 12
+      "title": "Doherty Threshold",
+      "description": "Productivity soars when a computer and its users interact at a pace (<400 ms) that ensures neither has to wait on the other.",
+      "technical_spec": "Sub-400ms response time for user actions and page loads.",
+      "severity_score": 5
     },
     {
-      "title": "Jakob's Law",
-      "description": "Designs consistent with user expectations based on common experiences.",
-      "technical_spec": "UI consistency, Familiarity patterns",
-      "severity_score": 8
+      "title": "Peak-End Rule",
+      "description": "Judgments of past experiences are based on a combination of their peaks and how they ended.",
+      "technical_spec": "Consistent positive experience; fast-loading SERPs with relevant results.",
+      "severity_score": 5
     },
     {
-      "title": "Law of Prägnanz",
-      "description": "Presents information as simply as possible for effortless perception.",
-      "technical_spec": "Simplified visuals, Intuitive navigation",
-      "severity_score": 18
+      "title": "Tesler's Law",
+      "description": "A system’s ease-of-use is often inversely related to its complexity or functionality.",
+      "technical_spec": "Minimalistic design while preserving advanced functionalities like voice search.",
+      "severity_score": 20
     }
   ]
 }

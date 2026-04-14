@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 141,
+    "rank": 151,
     "site": "google.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "836dd4c7c644186874e904af84e23375"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "9f063ff4016ead563693aab84614cc7a"
   },
   "data": [
     {
-      "title": "Simplicity",
-      "description": "Core philosophy to maintain simplicity in interface and user interaction.",
-      "technical_spec": "Minimalist design, Clean typography, Intuitive UX",
-      "severity_score": 20
-    },
-    {
-      "title": "Speed",
-      "description": "Commitment to fast loading times and quick user responses.",
-      "technical_spec": "PageSpeed Insights, Performance optimization",
-      "severity_score": 25
-    },
-    {
       "title": "Innovation",
-      "description": "Continuous innovation in user experience and feature offerings.",
-      "technical_spec": "AI integration, Feature testing, UX Research",
-      "severity_score": 15
-    },
-    {
-      "title": "Accessibility",
-      "description": "Ensures the platform is accessible to all users, including those with disabilities.",
-      "technical_spec": "ARIA standards, Keyboard navigation, Alt text",
+      "description": "Continuous evolution in technological advancements and service offerings.",
+      "technical_spec": "Regular updates on AI, cloud services, and search algorithms.",
       "severity_score": 10
     },
     {
       "title": "Reliability",
-      "description": "Commitment to providing a reliable and consistent service.",
-      "technical_spec": "Uptime monitoring, Backup systems",
-      "severity_score": 14
+      "description": "Consistent service uptime and accurate search results.",
+      "technical_spec": "Multiple redundant data centers; mature failover strategies.",
+      "severity_score": 5
+    },
+    {
+      "title": "User-Centric Design",
+      "description": "Designs focused on enhancing user experience.",
+      "technical_spec": "Intuitive and simple UI; personalized experiences based on user data.",
+      "severity_score": 8
+    },
+    {
+      "title": "Global Reach",
+      "description": "Accessible and localized services for users worldwide.",
+      "technical_spec": "Support for multiple languages and regional data compliance.",
+      "severity_score": 12
+    },
+    {
+      "title": "Security and Privacy",
+      "description": "Commitment to protecting user data.",
+      "technical_spec": "End-to-end data encryption; user data anonymization techniques.",
+      "severity_score": 20
     }
   ]
 }

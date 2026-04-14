@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 146,
+    "rank": 156,
     "site": "netflix.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "a8ec84bdb8097de12ca881a33ee6a652"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "1161da2d2078cef9822878487128925b"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "User data is encrypted using advanced algorithms to ensure privacy and security.",
-      "technical_spec": "AES-256 encryption is applied to sensitive user data both in transit and at rest.",
-      "severity_score": 15
-    },
-    {
-      "title": "DDOS Mitigation",
-      "description": "Robust systems are in place to mitigate Distributed Denial of Service attacks.",
-      "technical_spec": "Use of AWS Shield and custom traffic filtering mechanisms.",
+      "title": "End-to-End Encryption",
+      "description": "Ensures secure transmission of user data and streaming content via encryption protocols.",
+      "technical_spec": "TLS, AES-256 encryption, DRM technology",
       "severity_score": 25
     },
     {
-      "title": "Access Controls",
-      "description": "Strict access management policies to restrict unauthorized data access.",
-      "technical_spec": "Role-based access control (RBAC) and Two-factor authentication (2FA) for administration.",
+      "title": "Identity and Access Management",
+      "description": "Manages user identities and access permissions across services.",
+      "technical_spec": "OAuth2, session management, SSO",
+      "severity_score": 30
+    },
+    {
+      "title": "Persistent Threat Monitoring",
+      "description": "Identification and mitigation of threats through continuous monitoring.",
+      "technical_spec": "SIEM systems, anomaly detection, honeypots",
+      "severity_score": 35
+    },
+    {
+      "title": "Security Testing",
+      "description": "Regular security tests like penetration testing and security audits to minimize vulnerabilities.",
+      "technical_spec": "Automated vulnerability scanners, OWASP Top Ten assessments",
       "severity_score": 20
     },
     {
-      "title": "Security Audits",
-      "description": "Regular security audits and penetration testing to identify and mitigate vulnerabilities.",
-      "technical_spec": "Automated security tests integrated into CI/CD pipeline.",
-      "severity_score": 10
-    },
-    {
-      "title": "User Anomaly Detection",
-      "description": "Systems in place to detect unusual user activities and respond accordingly.",
-      "technical_spec": "Machine learning algorithms monitor user patterns to flag anomalies.",
-      "severity_score": 18
+      "title": "Data Privacy Compliance",
+      "description": "Compliance with data privacy laws including GDPR and CCPA.",
+      "technical_spec": "User consent management, data encryption, privacy policies",
+      "severity_score": 28
     }
   ]
 }

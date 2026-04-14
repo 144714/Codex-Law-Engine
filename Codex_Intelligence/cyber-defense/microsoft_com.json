@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 144,
+    "rank": 154,
     "site": "microsoft.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "1e319a50eb34603cefc37e313d94b244"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "c24557889fae3ad7ef26ce157ad5d0ec"
   },
   "data": [
     {
-      "title": "Advanced Threat Protection",
-      "description": "Employs ATP to detect and respond to threats in real-time.",
-      "technical_spec": "Microsoft Defender for Endpoint",
-      "severity_score": 25
-    },
-    {
-      "title": "Identity and Access Management",
-      "description": "Uses multi-factor authentication and secure access measures to protect user identity.",
-      "technical_spec": "Azure Active Directory",
-      "severity_score": 20
+      "title": "Multi-factor Authentication",
+      "description": "Ensures secure access to sensitive data by requiring multiple authentication factors.",
+      "technical_spec": "Utilizes both biometric and traditional methods.",
+      "severity_score": 98
     },
     {
       "title": "Data Encryption",
-      "description": "Deploys robust encryption protocols to protect sensitive data at rest and in transit.",
-      "technical_spec": "SSL/TLS, AES-256",
-      "severity_score": 15
+      "description": "Encrypts data in transit and at rest to protect user information.",
+      "technical_spec": "TLS and AES-256 encryption standards are applied.",
+      "severity_score": 97
     },
     {
-      "title": "Network Security",
-      "description": "Implementing firewalls and intrusion detection systems to safeguard network integrity.",
-      "technical_spec": "Azure Firewall, IDS/IPS",
-      "severity_score": 30
+      "title": "Security Incident Response",
+      "description": "Implements a rapid incident response protocol to handle potential breaches.",
+      "technical_spec": "Automated alerts and dedicated security teams.",
+      "severity_score": 94
     },
     {
-      "title": "Security Monitoring and Management",
-      "description": "Continuous monitoring and management of security incidents to prevent breaches.",
-      "technical_spec": "Azure Security Center",
-      "severity_score": 40
+      "title": "Regular Security Audits",
+      "description": "Conducts routine security audits to identify and mitigate vulnerabilities.",
+      "technical_spec": "Employs both internal teams and third-party auditors.",
+      "severity_score": 93
+    },
+    {
+      "title": "Advanced Threat Protection",
+      "description": "Protective measures are in place to detect and respond to sophisticated cyber threats.",
+      "technical_spec": "Uses AI-driven threat detection and real-time monitoring.",
+      "severity_score": 96
     }
   ]
 }

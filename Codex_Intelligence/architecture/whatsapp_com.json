@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 150,
+    "rank": 160,
     "site": "whatsapp.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "c691ae71660e33504724820c12900bd1"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "03ff901bab382a2497a1b3e8ca4235af"
   },
   "data": [
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "WhatsApp utilizes cloud infrastructure to handle its vast pool of global communications efficiently.",
-      "technical_spec": "AWS, Google Cloud and other high-availability cloud services power WhatsApp's backend infrastructure.",
+      "title": "Microservices Architecture",
+      "description": "The site likely utilizes a microservices architecture to handle various functionalities separately such as messaging, user authentication, and media sharing.",
+      "technical_spec": "Services independently managed and communicate via APIs or messaging queues.",
       "severity_score": 20
     },
     {
-      "title": "Microservices Architecture",
-      "description": "Leveraging microservices for modular architecture enabling scalable and maintainable code.",
-      "technical_spec": "Containerized microservices deployed using Kubernetes across multiple cloud regions.",
+      "title": "Scalable Infrastructure",
+      "description": "WhatsApp employs cloud-based infrastructure to handle immense traffic and user load efficiently.",
+      "technical_spec": "Utilizes load balancers, containerization, and horizontal scaling techniques.",
       "severity_score": 15
     },
     {
-      "title": "Distributed Database Systems",
-      "description": "WhatsApp employs distributed databases to handle large volumes of data with high availability and redundancy.",
-      "technical_spec": "Cassandra and Kafka used for real-time data processing and storage.",
+      "title": "Database Sharding",
+      "description": "WhatsApp employs sharding to distribute its databases across multiple servers for improved performance.",
+      "technical_spec": "MySQL databases with sharding based on user accounts or geolocations.",
+      "severity_score": 30
+    },
+    {
+      "title": "Event-Driven Architecture",
+      "description": "The site uses an event-driven architecture to manage real-time messaging and updates.",
+      "technical_spec": "Incorporates message brokers to manage event distribution.",
       "severity_score": 25
     },
     {
-      "title": "End-to-End Encryption Protocol",
-      "description": "High-security messaging ensured through sophisticated encryption protocols.",
-      "technical_spec": "Encryption using Signal Protocol for securing conversations end-to-end.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "Uses CDN for faster content delivery to users across the globe.",
+      "technical_spec": "Global caching and fast data retrieval through distributed servers.",
       "severity_score": 10
-    },
-    {
-      "title": "Cross-Platform Development",
-      "description": "Ensures consistent functionality across Android, iOS, Web, and Desktop platforms.",
-      "technical_spec": "React Native, Electron, and web technologies ensure cross-platform compatibility.",
-      "severity_score": 30
     }
   ]
 }

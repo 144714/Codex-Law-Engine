@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 141,
+    "rank": 151,
     "site": "google.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "7adb86ea0e08b482028560e95b1f6698"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "9c8c9dde1e93e93c9b3a8f252451b2fb"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Google.com employs a microservices architecture, allowing for modular, scalable, and independent service deployment.",
-      "technical_spec": "Microservices, Docker, Kubernetes",
+      "title": "Scalable Microservices",
+      "description": "Google uses a microservice architecture to scale its services independently.",
+      "technical_spec": "Kubernetes & Borg for container orchestration; API gateways for inter-service communication",
       "severity_score": 20
     },
     {
-      "title": "Load Balancing",
-      "description": "Utilizes global load balancing to manage traffic efficiently across multiple servers.",
-      "technical_spec": "Global load balancers, Anycast IP, BGP routing",
+      "title": "Global Load Balancing",
+      "description": "Efficiently distributes incoming traffic across multiple servers.",
+      "technical_spec": "Google's proprietary load balancing algorithms; Anycast for DNS",
+      "severity_score": 10
+    },
+    {
+      "title": "Distributed Data Storage",
+      "description": "Data is stored across multiple data centers with redundancy for high availability.",
+      "technical_spec": "Colossus (next-gen GFS); Bigtable; Spanner",
       "severity_score": 15
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Leverages a wide-reaching CDN to deliver content quickly to users worldwide.",
-      "technical_spec": "Edge servers, HTTP/2, Brotli compression",
+      "title": "Edge Caching",
+      "description": "Content delivery networks for faster load times.",
+      "technical_spec": "Google Cloud CDN; multi-region edge locations",
       "severity_score": 10
     },
     {
-      "title": "Multi-Region Deployment",
-      "description": "Data centers deployed in multiple regions ensure high availability and disaster recovery.",
-      "technical_spec": "Geo-redundancy, Data center routes, Failover systems",
-      "severity_score": 10
-    },
-    {
-      "title": "RESTful APIs",
-      "description": "APIs designed using REST principles enable seamless integration and communication between services.",
-      "technical_spec": "REST API standards, HTTP Methods, JSON",
-      "severity_score": 25
+      "title": "Elastic Compute",
+      "description": "Automatic scaling based on demand.",
+      "technical_spec": "Google Cloud VMs; Compute Engine with autoscaler",
+      "severity_score": 15
     }
   ]
 }

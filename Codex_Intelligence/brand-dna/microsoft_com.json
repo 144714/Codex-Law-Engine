@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 144,
+    "rank": 154,
     "site": "microsoft.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "b0a8e23835014dcf8f4c01186f890093"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "cd527545d3f0552ce22620d7d3aac569"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Commitment to technological advancement and cutting-edge solutions.",
-      "technical_spec": "Continuous R&D investments",
-      "severity_score": 5
+      "title": "Innovation Focus",
+      "description": "Microsoft's brand emphasizes continuous innovation and technological advancement.",
+      "technical_spec": "Integration of AI and machine learning solutions.",
+      "severity_score": 97
+    },
+    {
+      "title": "Cloud-First Approach",
+      "description": "Prioritizes cloud technologies as a central aspect of its business strategy.",
+      "technical_spec": "Extensive use of Azure services across platforms.",
+      "severity_score": 96
     },
     {
       "title": "User-Centric Design",
-      "description": "Focuses on designing products and services that meet user needs and enhance experience.",
-      "technical_spec": "User feedback loops, iterative UX testing",
-      "severity_score": 10
+      "description": "Maintains a strong commitment to user experience and accessibility.",
+      "technical_spec": "Dedicated UX research and inclusive design principles.",
+      "severity_score": 95
     },
     {
-      "title": "Reliability",
-      "description": "Ensures all offerings are dependable and robust, reflected in uptime and customer trust.",
-      "technical_spec": "SLA commitments, extensive testing",
-      "severity_score": 20
+      "title": "Enterprise Reliability",
+      "description": "Positioned as a reliable partner for enterprise solutions.",
+      "technical_spec": "Robust security, scalability, and compliance offerings.",
+      "severity_score": 98
     },
     {
       "title": "Global Reach",
-      "description": "Provides localized experiences and support to customers worldwide.",
-      "technical_spec": "Multiple data centers, multilingual support",
-      "severity_score": 15
-    },
-    {
-      "title": "Inclusivity",
-      "description": "Promotes diversity and accessibility in products and workplace culture.",
-      "technical_spec": "Accessibility standards compliance, inclusive hiring practices",
-      "severity_score": 25
+      "description": "Continues to expand its influence and accessibility across international markets.",
+      "technical_spec": "Localization, multilingual support, and global data centers.",
+      "severity_score": 93
     }
   ]
 }

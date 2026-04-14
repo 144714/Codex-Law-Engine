@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 147,
+    "rank": 157,
     "site": "spotify.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "23981725730aaf3448322df419a2f223"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "d346588b7b340089baf27f1623ec8be8"
   },
   "data": [
     {
-      "title": "User-Centric Design",
-      "description": "Focuses on enhancing user experience through personalized content and intuitive navigation.",
-      "technical_spec": "Algorithms for playlist suggestions, AI for music recommendations.",
-      "severity_score": 10
-    },
-    {
-      "title": "Innovation",
-      "description": "Constantly invested in new technologies and features to improve user engagement.",
-      "technical_spec": "Extensive use of machine learning and AI-driven features.",
-      "severity_score": 15
-    },
-    {
-      "title": "Global Reach",
-      "description": "Aims to be accessible and relevant across diverse cultural contexts.",
-      "technical_spec": "Multilingual support and region-specific content policies.",
-      "severity_score": 20
+      "title": "Personalization",
+      "description": "Focus on personalized user experience with tailored playlists and recommendations.",
+      "technical_spec": "Machine learning algorithms, personalized content feeds",
+      "severity_score": 90
     },
     {
       "title": "Music Discovery",
-      "description": "Champions new and emerging artists, providing them a platform alongside mainstream hits.",
-      "technical_spec": "Curated playlists and algorithmic recommendations for diverse tastes.",
-      "severity_score": 15
+      "description": "Facilitate user exploration with discovery tools and curated playlists.",
+      "technical_spec": "Recommendation systems, user behavior analysis",
+      "severity_score": 85
+    },
+    {
+      "title": "Cross-Platform Presence",
+      "description": "Consistent branding across various platforms and devices.",
+      "technical_spec": "SDK integrations, responsive design",
+      "severity_score": 80
     },
     {
       "title": "Community Engagement",
-      "description": "Encourages user interaction and feedback across various platforms to build a loyal community.",
-      "technical_spec": "Integration with social media, user-generated content features like playlists.",
-      "severity_score": 30
+      "description": "Involve users through collaborative playlists and shared listening experiences.",
+      "technical_spec": "Social features, shared playlists",
+      "severity_score": 75
+    },
+    {
+      "title": "Innovation",
+      "description": "Continuously pushing boundaries with new features and technological advancements.",
+      "technical_spec": "Patent filings, beta feature testing",
+      "severity_score": 95
     }
   ]
 }

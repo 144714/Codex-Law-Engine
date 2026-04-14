@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 149,
+    "rank": 159,
     "site": "instagram.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "f00de37fe58b355437160ae485ba9160"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "959ca91c41742f08337cde73929673ce"
   },
   "data": [
     {
       "title": "Visual Storytelling",
-      "description": "Emphasis on visual content as a core aspect of user interaction and engagement.",
-      "technical_spec": "Photo and video sharing, Stories feature",
-      "severity_score": 20
+      "description": "Instagram centers around visual content, aiming to inspire creativity and connection.",
+      "technical_spec": "High-resolution image support, video encoding.",
+      "severity_score": 90
     },
     {
-      "title": "Community Driven",
-      "description": "Focus on community interaction and user-generated content.",
-      "technical_spec": "Commenting, Direct Messaging, Social algorithms",
-      "severity_score": 30
+      "title": "Community Engagement",
+      "description": "Facilitates connections between users and communities with similar interests.",
+      "technical_spec": "Customizable feed algorithms, engagement metrics.",
+      "severity_score": 88
     },
     {
-      "title": "Cutting-edge Innovation",
-      "description": "Constant updates and additions of new features to enhance user capabilities.",
-      "technical_spec": "Reels, AR filters",
-      "severity_score": 40
+      "title": "Innovation in Features",
+      "description": "Continuously evolves with new features like Stories, Reels, and IGTV.",
+      "technical_spec": "Feature rollout via A/B testing, server feature flags.",
+      "severity_score": 87
     },
     {
-      "title": "Influencer Culture",
-      "description": "Platform leveraged by influencers for brand and personal promotion.",
-      "technical_spec": "Business accounts, Insights analytics",
-      "severity_score": 50
+      "title": "Global Presence",
+      "description": "A brand identity that's recognized and embraced worldwide.",
+      "technical_spec": "Multi-language support, localized content delivery.",
+      "severity_score": 92
     },
     {
-      "title": "Seamless Integration",
-      "description": "Integration with other platforms for cohesive user experience.",
-      "technical_spec": "Cross-platform sharing, Facebook integration",
-      "severity_score": 35
+      "title": "Brand Trust",
+      "description": "Maintains trust through transparent policies and strong community guidelines.",
+      "technical_spec": "Real-time user support, verified account mechanisms.",
+      "severity_score": 89
     }
   ]
 }

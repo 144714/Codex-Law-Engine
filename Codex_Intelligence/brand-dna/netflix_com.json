@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 146,
+    "rank": 156,
     "site": "netflix.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "df722c9c443906c2049beacb10a5073d"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "9a25196b98076ea0eda4e63d4a4ddc6a"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Consistent pioneering of new technologies and content delivery methods.",
-      "technical_spec": "Early adoption of AI for content recommendations and original content production.",
-      "severity_score": 10
-    },
-    {
       "title": "Global Reach",
-      "description": "Catering to a diverse global audience with localized content and subtitles.",
-      "technical_spec": "Support for multiple languages and region-specific content libraries.",
-      "severity_score": 8
+      "description": "Available in multiple languages and regions, reflecting a universal appeal and adaptability.",
+      "technical_spec": "Localization services, multi-language support",
+      "severity_score": 25
     },
     {
-      "title": "User-Centric Design",
-      "description": "Placing user preferences at the forefront of the content curation strategy.",
-      "technical_spec": "Algorithm-driven personalization for homepage content and recommendations.",
-      "severity_score": 12
+      "title": "Original Content Production",
+      "description": "Invests significantly in producing exclusive series and films, enhancing brand loyalty.",
+      "technical_spec": "Content curation, partnerships with filmmakers",
+      "severity_score": 30
     },
     {
-      "title": "Content Quality",
-      "description": "Focus on producing high-quality, original content to maintain viewer interest.",
-      "technical_spec": "Investment in high-production-value series and films.",
-      "severity_score": 5
+      "title": "User-Centric Innovation",
+      "description": "Continuously integrates user feedback to innovate and improve user engagement on the platform.",
+      "technical_spec": "Feedback loops, A/B testing, agile methodologies",
+      "severity_score": 20
     },
     {
-      "title": "Cross-Platform Accessibility",
-      "description": "Ensuring consistent user experience across devices and platforms.",
-      "technical_spec": "Available on web, mobile apps, smart TVs, and gaming consoles.",
-      "severity_score": 7
+      "title": "Technological Leadership",
+      "description": "Leverages pioneering technology to set industry standards for streaming.",
+      "technical_spec": "State-of-the-art streaming infrastructure, adaptive bitrate streaming",
+      "severity_score": 28
+    },
+    {
+      "title": "Ecosystem Integration",
+      "description": "Streams across multiple devices, ensuring a consistent user experience everywhere.",
+      "technical_spec": "Mobile, Smart TVs, connected devices support",
+      "severity_score": 22
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 148,
+    "rank": 158,
     "site": "adobe.com",
-    "date": "2026-04-14 19:23",
-    "integrity_hash": "9bdddb740ffc1f5e57cd6b31e2f1a2fd"
+    "date": "2026-04-14 20:43",
+    "integrity_hash": "30db420477e5ac130cf54cd590fb4625"
   },
   "data": [
     {
-      "title": "Creativity and Innovation",
-      "description": "Adobe emphasizes creativity and innovation across all its products.",
-      "technical_spec": "Developing cutting-edge tools like Adobe Sensei to enhance creative workflows.",
-      "severity_score": 10
+      "title": "Innovation",
+      "description": "Continuous focus on creativity and innovation in digital media products.",
+      "technical_spec": "R&D investments, cutting-edge technology adoption.",
+      "severity_score": 65
     },
     {
       "title": "User-Centric Design",
-      "description": "Products and services are designed with a focus on user needs and experience.",
-      "technical_spec": "Human-centered design principles and customer feedback loops.",
-      "severity_score": 15
+      "description": "Commitment to designing products and services around user needs and experiences.",
+      "technical_spec": "User feedback loops, iterative design processes.",
+      "severity_score": 55
     },
     {
-      "title": "Collaboration",
-      "description": "Fostering collaboration through integrated tools and services.",
-      "technical_spec": "Cloud-based collaboration features across Adobe Creative Cloud.",
-      "severity_score": 10
+      "title": "Global Reach",
+      "description": "Expansive presence ensuring Adobe products are accessible worldwide.",
+      "technical_spec": "Localization, international partnerships.",
+      "severity_score": 50
     },
     {
-      "title": "Reliability",
-      "description": "Reliable services and products that professionals can depend on.",
-      "technical_spec": "Continuous integration and deployment to ensure high availability.",
-      "severity_score": 5
+      "title": "Sustainability",
+      "description": "Efforts towards sustainability and reducing environmental impact.",
+      "technical_spec": "Eco-friendly initiatives, digital and cloud-based solutions.",
+      "severity_score": 30
     },
     {
-      "title": "Diversity and Inclusion",
-      "description": "Emphasizing diversity and inclusion internally and in product experiences.",
-      "technical_spec": "Inclusive design practices and diverse user persona consideration.",
-      "severity_score": 15
+      "title": "Community Engagement",
+      "description": "Active participation and support for creative communities and creators.",
+      "technical_spec": "Workshops, forums, and events.",
+      "severity_score": 45
     }
   ]
 }
