@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 59,
+    "rank": 69,
     "site": "instagram.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "2f904cf657fac049efe3bad8b37fef95"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "ad31cfd72558f2a0620f4ddc31dd6ad0"
   },
   "data": [
     {
-      "title": "Rate Limiting",
-      "description": "Prevents abuse of the platform by limiting the number of requests a user can make in a given time.",
-      "technical_spec": "Implemented via API management services with custom rate limiting rules.",
-      "severity_score": 70
+      "title": "Data Encryption",
+      "description": "Encrypts data in transit and at rest to protect user information.",
+      "technical_spec": "Uses protocols like TLS for data during transmission.",
+      "severity_score": 15
     },
     {
-      "title": "Two-Factor Authentication (2FA)",
-      "description": "Enhances account security by requiring a second verification step during login.",
-      "technical_spec": "Supports SMS and authentication apps for second-factor authentication.",
-      "severity_score": 85
+      "title": "Authentication Safeguards",
+      "description": "Implements multi-factor authentication and login alerts.",
+      "technical_spec": "Utilizes phone-based verification and app-based authentication steps.",
+      "severity_score": 50
     },
     {
-      "title": "End-to-End Encryption",
-      "description": "Protects user communications by encrypting messages across the Instagram platform.",
-      "technical_spec": "Utilizes advanced encryption standards (AES) for message and data privacy.",
-      "severity_score": 90
+      "title": "Threat Detection Systems",
+      "description": "Active monitoring solutions to detect and mitigate potential threats.",
+      "technical_spec": "Incorporates machine learning algorithms to identify patterns.",
+      "severity_score": 45
     },
     {
-      "title": "Web Application Firewall (WAF)",
-      "description": "Monitors and filters HTTP requests to defend against common web exploits.",
-      "technical_spec": "Integrated with existing infrastructure to filter malicious traffic.",
-      "severity_score": 75
+      "title": "Regular Security Audits",
+      "description": "Conducts periodic security reviews to strengthen defenses.",
+      "technical_spec": "Engages third-party security firms for comprehensive assessments.",
+      "severity_score": 40
     },
     {
-      "title": "User Data Anonymization",
-      "description": "Anonymizes personal user data to enhance privacy protection.",
-      "technical_spec": "Uses techniques like hashing and tokenization for personal data.",
-      "severity_score": 80
+      "title": "User Privacy Controls",
+      "description": "Provides custom privacy settings ensuring users control their data exposure.",
+      "technical_spec": "Granular sharing settings and content visibility controls.",
+      "severity_score": 30
     }
   ]
 }

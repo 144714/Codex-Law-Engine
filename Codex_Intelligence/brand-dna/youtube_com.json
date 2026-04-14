@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 52,
+    "rank": 62,
     "site": "youtube.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "8dfab8d21ceea39caa98ae2f50a04abc"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "3a713f8005bb94c3d338fcda4ebe86c2"
   },
   "data": [
     {
-      "title": "Diverse Content Availability",
-      "description": "Provides a wide array of content types and formats to cater to different audiences.",
-      "technical_spec": "Supports high-definition video streaming and different codecs.",
-      "severity_score": 5
+      "title": "Global Reach",
+      "description": "YouTube's brand emphasizes a worldwide user base with diverse content.",
+      "technical_spec": "Available in 100+ countries and 80+ languages.",
+      "severity_score": 98
     },
     {
-      "title": "Community Engagement",
-      "description": "Facilitates community building through features such as comments, likes, and subscriptions.",
-      "technical_spec": "Asynchronous social features and notification systems.",
-      "severity_score": 15
+      "title": "User-Generated Content",
+      "description": "Empowers users to create and share content freely.",
+      "technical_spec": "Tools for content creation, editing, and direct upload.",
+      "severity_score": 95
     },
     {
-      "title": "Creator Support Initiatives",
-      "description": "Empowers content creators with monetization options and analytical tools.",
-      "technical_spec": "YouTube Studio with analytics dashboards and revenue management tools.",
-      "severity_score": 20
+      "title": "Community and Engagement",
+      "description": "Promotes interaction through comments, likes, and live streams.",
+      "technical_spec": "Features include a comment moderation system and live chat during streams.",
+      "severity_score": 85
     },
     {
-      "title": "High-Quality Streaming Experience",
-      "description": "Focuses on delivering smooth and high-quality video streaming.",
-      "technical_spec": "Adaptive bitrate streaming and dynamic resolution adjustment.",
-      "severity_score": 10
+      "title": "Monetization Opportunities",
+      "description": "Offers various ways for creators to earn from their content.",
+      "technical_spec": "Ad revenue sharing, channel memberships, and Super Chat features.",
+      "severity_score": 90
     },
     {
-      "title": "Innovative Advertising Platforms",
-      "description": "Encourages innovative ad formats balancing user experience and monetization.",
-      "technical_spec": "Integration of AdSense and machine learning for ad targeting.",
-      "severity_score": 30
+      "title": "Innovative Features",
+      "description": "Continuously evolving platform with new features like Shorts and VR content.",
+      "technical_spec": "Regular updates with beta features and technology partnerships.",
+      "severity_score": 93
     }
   ]
 }

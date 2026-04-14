@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 51,
+    "rank": 61,
     "site": "google.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "1c9401f7de72a2d3e81f0722e1dcd98f"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "b9e47a8f74767a66bf8052b2f49ed7ed"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Continuously develops cutting-edge technologies and solutions.",
-      "technical_spec": "Heavily invests in Research and Development.",
-      "severity_score": 5
-    },
-    {
       "title": "Simplicity",
-      "description": "Simplifies access to information and services for users worldwide.",
-      "technical_spec": "User interfaces are designed to be intuitive and straightforward.",
+      "description": "Commitment to creating intuitive products with minimal complexity.",
+      "technical_spec": "Streamlined designs, intuitive workflows.",
       "severity_score": 5
     },
     {
-      "title": "Trustworthiness",
-      "description": "Maintains user trust through transparency and data security.",
-      "technical_spec": "Regular transparency reports and robust data protection measures.",
+      "title": "Innovation",
+      "description": "A culture of constant innovation and embracing new technology.",
+      "technical_spec": "Strong research and development teams, beta testing environments.",
       "severity_score": 10
     },
     {
-      "title": "Connectivity",
-      "description": "Aims to connect users with information and contacts globally.",
-      "technical_spec": "Supports cross-platform services and integrations.",
-      "severity_score": 5
+      "title": "Reliability",
+      "description": "Focus on creating highly reliable and available services.",
+      "technical_spec": "SLA commitments, robust disaster recovery plans.",
+      "severity_score": 10
     },
     {
-      "title": "Community Impact",
-      "description": "Supports global community initiatives and sustainability.",
-      "technical_spec": "Programs and partnerships focused on education, environment, and entrepreneurship.",
+      "title": "Scalability",
+      "description": "Design systems to efficiently handle increasing loads.",
+      "technical_spec": "Horizontal scaling techniques, elastic resource allocation.",
+      "severity_score": 8
+    },
+    {
+      "title": "User Privacy",
+      "description": "Strong emphasis on user data protection and privacy rights.",
+      "technical_spec": "Data anonymization, privacy policy transparency.",
       "severity_score": 15
     }
   ]

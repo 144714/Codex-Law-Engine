@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 51,
+    "rank": 61,
     "site": "google.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "6ad22d58422ee05fcaaf3450e45de333"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "df3ee80a063d5cd65c3063d3ae78d2b3"
   },
   "data": [
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Aesthetically pleasing designs are perceived as easier to use.",
-      "technical_spec": "Minimalistic design with ample white space and intuitive layout.",
+      "title": "Hick's Law",
+      "description": "Reducing the number of choices to improve decision time for users.",
+      "technical_spec": "Simplified user interfaces, minimalistic design principles.",
+      "severity_score": 15
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "Optimizing button sizes and positions for efficient user interaction.",
+      "technical_spec": "Responsive design, large tap targets on mobile interfaces.",
       "severity_score": 10
     },
     {
-      "title": "Hick’s Law",
-      "description": "Increased number of choices will increase the decision time.",
-      "technical_spec": "Simplified search and task options.",
+      "title": "Jakob's Law",
+      "description": "Design consistency across platforms to match user expectations.",
+      "technical_spec": "Uniform design language, consistent iconography and navigation.",
       "severity_score": 5
     },
     {
-      "title": "Fitts’s Law",
-      "description": "The time to acquire a target is a function of the distance to and size of the target.",
-      "technical_spec": "Important buttons and links are large and placed strategically.",
+      "title": "Aesthetic-Usability Effect",
+      "description": "A visually pleasing design improves user perception of functionality.",
+      "technical_spec": "High-quality imagery, color harmony, typography.",
       "severity_score": 10
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Users spend most of their time on other sites, preferring familiarity.",
-      "technical_spec": "Follows commonly accepted UI/UX patterns.",
-      "severity_score": 10
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Average person can only keep 7 (plus or minus 2) items in working memory.",
-      "technical_spec": "Simplified navigation and concise information displays.",
+      "title": "Law of Proximity",
+      "description": "Grouping related items closely together to enhance readability and comprehension.",
+      "technical_spec": "Grid layout systems, spatial grouping strategies.",
       "severity_score": 5
     }
   ]

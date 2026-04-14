@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 54,
+    "rank": 64,
     "site": "microsoft.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "c413de7751a7ddf4147ddb1b814caf22"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "bc974ca5bc21edc196c39a61ae0e5f40"
   },
   "data": [
     {
-      "title": "Innovative Technological Leadership",
-      "description": "Brand is synonymous with cutting-edge innovation and leadership in the tech space.",
-      "technical_spec": "Product Development, Industry Research",
-      "severity_score": 98
-    },
-    {
-      "title": "Customer-Centric Approach",
-      "description": "Focused on enhancing customer satisfaction and value through tailored solutions.",
-      "technical_spec": "Customer Support Frameworks, User Feedback Mechanisms",
+      "title": "Innovation",
+      "description": "Constantly pushing the boundaries of technology.",
+      "technical_spec": "R&D investment and AI advancements ensuring cutting-edge products.",
       "severity_score": 94
     },
     {
-      "title": "Commitment to Sustainability",
-      "description": "Engaged in initiatives to promote sustainability and reduce environmental impact.",
-      "technical_spec": "Carbon Footprint Reduction, Eco-Friendly Policies",
+      "title": "Enterprise Solutions",
+      "description": "Catering to business needs with scalable, reliable solutions.",
+      "technical_spec": "Comprehensive suite of enterprise applications and systems.",
       "severity_score": 92
     },
     {
-      "title": "Emphasis on Security and Privacy",
-      "description": "Prioritizes security and privacy in all its products and services.",
-      "technical_spec": "GDPR Compliance, Security Features",
-      "severity_score": 96
+      "title": "Sustainability",
+      "description": "Commitment to environmental causes and sustainable practices.",
+      "technical_spec": "Initiatives towards carbon neutral and renewable energy projects.",
+      "severity_score": 90
     },
     {
-      "title": "Inclusive Design Philosophy",
-      "description": "Advocates for inclusivity in its design processes, ensuring accessibility for all.",
-      "technical_spec": "Accessibility Standards, Inclusive UX Practices",
+      "title": "Global Reach",
+      "description": "Presence and influence across various international markets.",
+      "technical_spec": "Localized services and compliance with regional standards.",
       "severity_score": 93
+    },
+    {
+      "title": "Trust and Security",
+      "description": "Building trust through robust security measures and data privacy.",
+      "technical_spec": "Comprehensive security frameworks and transparent data policies.",
+      "severity_score": 95
     }
   ]
 }

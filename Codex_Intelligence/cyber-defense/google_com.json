@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 51,
+    "rank": 61,
     "site": "google.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "d1eed8bc72a96712b3ae06aa71c03d16"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "9bc04aed1a006059cc50e970e34b0ecb"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "An extra layer of security requiring a second form of identification.",
-      "technical_spec": "Supports SMS, apps, and hardware keys for multi-factor authentication.",
-      "severity_score": 20
+      "title": "Encryption Everywhere",
+      "description": "End-to-end data encryption across services and communications.",
+      "technical_spec": "Transport Layer Security (TLS), Perfect Forward Secrecy (PFS).",
+      "severity_score": 5
     },
     {
-      "title": "Data Encryption",
-      "description": "Protects user data at rest and in transit.",
-      "technical_spec": "Uses TLS 1.3 for encryption in transit and AES-256 for data at rest.",
+      "title": "Two-Factor Authentication",
+      "description": "Multi-tier authentication to secure user accounts from unauthorized access.",
+      "technical_spec": "Physical security keys, SMS verification codes.",
       "severity_score": 15
     },
     {
-      "title": "Account Activity Alerts",
-      "description": "Alerts users about suspicious account activities.",
-      "technical_spec": "Machine learning models to detect anomalies.",
-      "severity_score": 25
+      "title": "AI-Driven Threat Detection",
+      "description": "Use of artificial intelligence to identify and respond to potential threats in real time.",
+      "technical_spec": "Machine learning models, anomaly detection algorithms.",
+      "severity_score": 10
     },
     {
-      "title": "DDoS Protection",
-      "description": "Prevent denial-of-service attacks through network defense strategies.",
-      "technical_spec": "Cloud Armor and traffic filtering systems.",
-      "severity_score": 30
-    },
-    {
-      "title": "Security Patch Management",
-      "description": "Ensures the system is up-to-date with the latest security patches.",
-      "technical_spec": "Automated patch management system.",
+      "title": "Bug Bounty Program",
+      "description": "Encourages third-party researchers to find vulnerabilities with rewards.",
+      "technical_spec": "Publicly listed bug bounty initiatives, tiered reward systems.",
       "severity_score": 20
+    },
+    {
+      "title": "Secure Boot Process",
+      "description": "Firmware authentication and verification at boot time to prevent unauthorized code execution.",
+      "technical_spec": "Trusted Platform Module (TPM), secure boot chain.",
+      "severity_score": 10
     }
   ]
 }

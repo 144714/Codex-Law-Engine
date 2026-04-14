@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 59,
+    "rank": 69,
     "site": "instagram.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "1583472972d39adc36c0f854ed9ff6a5"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "b8304d8ad2bb1f1ee2c2a6b8516f1ee0"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifying choices to streamline user decisions and engagement.",
-      "technical_spec": "Interfaces designed to minimize decision time.",
-      "severity_score": 78
+      "title": "Fitts's Law Application",
+      "description": "UI elements are designed with size and distance considerations for ease of access.",
+      "technical_spec": "Interactive elements are adequately sized and positioned.",
+      "severity_score": 20
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizing the size, distance, and positioning of interactive elements.",
-      "technical_spec": "Responsive touch targets and gesture controls in UI design.",
-      "severity_score": 85
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Presenting information in chunks to avoid overwhelming the users.",
-      "technical_spec": "UI organizes feeds, stories, and direct messaging into manageable segments.",
-      "severity_score": 80
+      "title": "Hick’s Law for Simplification",
+      "description": "Reduces cognitive load by minimizing decision points per interface.",
+      "technical_spec": "Operates with clear pathways and streamlined user choices.",
+      "severity_score": 10
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Creating aesthetically pleasing interfaces perceived as more usable.",
-      "technical_spec": "Employs modern design patterns and visual coherence.",
-      "severity_score": 90
+      "description": "Combines an attractive design with user-friendly functionality to increase usability perception.",
+      "technical_spec": "Incorporates visual hierarchy and color psychology.",
+      "severity_score": 15
     },
     {
-      "title": "Jakob's Law",
-      "description": "Utilizing familiar design patterns to meet user expectations.",
-      "technical_spec": "Consistency with mobile and web design standards for user familiarity.",
-      "severity_score": 88
+      "title": "Consistency and Standards",
+      "description": "Maintains uniform design language across different sections of the app.",
+      "technical_spec": "Adheres to visual and interaction standards for a coherent experience.",
+      "severity_score": 25
+    },
+    {
+      "title": "Feedback Mechanisms",
+      "description": "Provides users immediate response or guidance after actions.",
+      "technical_spec": "Responsive animations and message prompts post-interaction.",
+      "severity_score": 25
     }
   ]
 }

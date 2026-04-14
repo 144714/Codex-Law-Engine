@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 52,
+    "rank": 62,
     "site": "youtube.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "91dcac5ccd736322122000e5e79e50c9"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "2d60e5a77b4ed3fe672b21ef9849bf00"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "YouTube utilizes a microservices architecture to enable scalability and facilitate independent deployments.",
-      "technical_spec": "Built using Google Cloud infrastructure, employing various containerization technologies like Kubernetes.",
-      "severity_score": 10
+      "description": "YouTube uses a microservices architecture to handle various functions like video streaming, user management, and recommendation algorithms.",
+      "technical_spec": "Decomposed services running in Docker containers managed by Kubernetes.",
+      "severity_score": 85
+    },
+    {
+      "title": "Monolithic Reduced Design",
+      "description": "Legacy components exist which are built using a monolithic architecture, particularly in backend components.",
+      "technical_spec": "Legacy Java and Python services with RESTful API interfaces.",
+      "severity_score": 65
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Utilizes Google’s expansive CDN to efficiently deliver content globally and minimize latency.",
-      "technical_spec": "Deployment involves advanced caching strategies and edge network delivery.",
-      "severity_score": 15
+      "description": "Utilizes global CDNs for efficient video streaming and data replication.",
+      "technical_spec": "Leverages Google Cloud CDN and other third-party CDNs for edge server locations.",
+      "severity_score": 90
     },
     {
-      "title": "Fault-Tolerant Systems",
-      "description": "Designed to handle failures gracefully with automated failover processes and redundancy.",
-      "technical_spec": "Relies on distributed databases and replication strategies.",
-      "severity_score": 20
+      "title": "Load Balancing",
+      "description": "Load balancing is applied globally across services to ensure uptime and balanced resource utilization.",
+      "technical_spec": "Utilizes Google Cloud Load Balancer with BGP (Border Gateway Protocol) for traffic management.",
+      "severity_score": 88
     },
     {
-      "title": "Data Handling and Processing",
-      "description": "Processes vast amounts of data using BigQuery and Dataflow for analytics and personalization.",
-      "technical_spec": "Utilizes MapReduce parallel processing.",
-      "severity_score": 25
-    },
-    {
-      "title": "APIs for Developers",
-      "description": "Exposes various APIs for developers to integrate functionalities.",
-      "technical_spec": "RESTful APIs and gRPC technologies are employed.",
-      "severity_score": 30
+      "title": "Data Storage Systems",
+      "description": "Utilizes distributed databases for handling data relations and storing large volumes of video data.",
+      "technical_spec": "Uses Bigtable for data storage and Spanner for transactional consistency.",
+      "severity_score": 92
     }
   ]
 }

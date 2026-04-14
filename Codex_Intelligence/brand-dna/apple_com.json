@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 53,
+    "rank": 63,
     "site": "apple.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "95d3f4ad2d6713c7daae550367ed1d8f"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "e74c1de14352d59b38d1bff62ebf1a10"
   },
   "data": [
     {
-      "title": "Minimalism",
-      "description": "Emphasizes a clean, minimalistic design aesthetic reflecting brand simplicity and clarity.",
-      "technical_spec": "Minimalist homepage with ample white space and clear product imagery.",
+      "title": "Innovation",
+      "description": "A core focus on bringing cutting-edge technology and features to consumers.",
+      "technical_spec": "PR and product releases emphasize technological breakthroughs.",
       "severity_score": 5
     },
     {
-      "title": "High-Quality Visuals",
-      "description": "Uses high-resolution imagery and videos in line with their focus on aesthetics and design quality.",
-      "technical_spec": "Retina display optimized images and adaptive quality streaming.",
+      "title": "Design Aesthetics",
+      "description": "Emphasizes elegance, simplicity, and consistent brand identity across all products and communications.",
+      "technical_spec": "Apple’s design language maintained through strict guidelines.",
       "severity_score": 10
     },
     {
-      "title": "Innovation",
-      "description": "Displays cutting-edge features, reflecting the brand's commitment to innovation.",
-      "technical_spec": "Latest web technologies and interactive elements showcasing product prowess.",
-      "severity_score": 20
-    },
-    {
-      "title": "User-Centric Design",
-      "description": "Positions user experience at the forefront of all design and functional decisions.",
-      "technical_spec": "User research and testing guide iterative design processes.",
+      "title": "User-Centered Approach",
+      "description": "Develops products with a strong emphasis on user experience and accessibility.",
+      "technical_spec": "Usability testing and user feedback are integral to design process.",
       "severity_score": 15
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Highlighting Apple's efforts in environmental sustainability through product and operational transparency.",
-      "technical_spec": "Dedicated sustainability pages and product lifecycle assessments.",
-      "severity_score": 12
+      "title": "Eco-Friendly Initiatives",
+      "description": "Strives towards environmental responsibility with a commitment to reducing carbon footprint.",
+      "technical_spec": "Sourcing and production standards prioritize sustainability.",
+      "severity_score": 20
+    },
+    {
+      "title": "Privacy and Security",
+      "description": "Positions consumer privacy and data security as paramount, embedding it deeply within their ecosystem.",
+      "technical_spec": "Robust privacy features marketed and integrated in product design.",
+      "severity_score": 25
     }
   ]
 }

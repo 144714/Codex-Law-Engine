@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 58,
+    "rank": 68,
     "site": "adobe.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "6eb263a855ca9dba1e746f4cb2cfe4f8"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "515ad40c89718ac4468ec3ae09d915ee"
   },
   "data": [
     {
-      "title": "Encryption Standards",
-      "description": "Protects data integrity and confidentiality.",
-      "technical_spec": "Implements TLS 1.3 for secure data transmission.",
-      "severity_score": 60
+      "title": "WAF Protection",
+      "description": "Deployment of Web Application Firewalls to block harmful traffic.",
+      "technical_spec": "AWS WAF, Azure Security Center",
+      "severity_score": 88
     },
     {
-      "title": "Web Application Firewall (WAF)",
-      "description": "Monitors and filters HTTP traffic between a web application and the Internet.",
-      "technical_spec": "Deploys rules using machine learning for real-time threat detection.",
-      "severity_score": 70
+      "title": "DDoS Mitigation",
+      "description": "Strategies to handle Distributed Denial of Service attacks.",
+      "technical_spec": "Traffic analysis, rate limiting, Cloudflare protection",
+      "severity_score": 92
     },
     {
-      "title": "Identity and Access Management (IAM)",
-      "description": "Ensures only authorized users can access sensitive information.",
-      "technical_spec": "Utilizes OAuth 2.0 and SAML for user authentication and authorization.",
-      "severity_score": 75
+      "title": "Secure Data Encryption",
+      "description": "Implementation of industry-standard encryption for data security.",
+      "technical_spec": "TLS/SSL encryption for data in transit, AES-256 for data at rest",
+      "severity_score": 95
     },
     {
-      "title": "Security Audits",
-      "description": "Conducts regular inspections to identify vulnerabilities.",
-      "technical_spec": "Employs automated vulnerability scanning tools like Nessus and manual security testing.",
-      "severity_score": 65
+      "title": "Identity Management",
+      "description": "Strong identity and access management to control user permissions.",
+      "technical_spec": "OAuth 2.0, SAML, IAM roles",
+      "severity_score": 86
     },
     {
-      "title": "DDoS Protection",
-      "description": "Protects against Distributed Denial of Service attacks.",
-      "technical_spec": "Integrates services like Cloudflare or Akamai for traffic analysis and mitigation.",
-      "severity_score": 80
+      "title": "Incident Response",
+      "description": "Comprehensive incident response strategies for cybersecurity threats.",
+      "technical_spec": "SIEM systems, automated alerts, incident management protocols",
+      "severity_score": 90
     }
   ]
 }

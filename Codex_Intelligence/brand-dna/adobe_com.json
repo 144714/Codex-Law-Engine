@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 58,
+    "rank": 68,
     "site": "adobe.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "83d2ac17ba8f253e41cac021f4c7973c"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "57233c339bcc596e7a940f29535b5326"
   },
   "data": [
     {
-      "title": "Creative Freedom",
-      "description": "Encourages users to express creativity with a wide array of tools.",
-      "technical_spec": "Incorporates a rich suite of design tools such as Photoshop and Illustrator.",
-      "severity_score": 40
+      "title": "Innovation Leadership",
+      "description": "Adobe's reputation for leading design and innovation.",
+      "technical_spec": "Creative software solutions, pioneering digital transformations",
+      "severity_score": 93
     },
     {
-      "title": "Innovation",
-      "description": "Constantly evolves through technological advancements and user-centric design.",
-      "technical_spec": "Leverages AI-driven features and augmented reality capabilities.",
-      "severity_score": 45
+      "title": "Customer Focus",
+      "description": "Dedicated to understanding and addressing customer needs efficiently.",
+      "technical_spec": "Feedback loops, customer engagement tools, personalized experiences",
+      "severity_score": 89
     },
     {
-      "title": "Reliability",
-      "description": "Provides dependable products with consistent performance.",
-      "technical_spec": "Ensures robust software architecture and regular updates.",
-      "severity_score": 50
+      "title": "Creative Empowerment",
+      "description": "Centering products on empowering creativity across various domains.",
+      "technical_spec": "Cross-platform creative applications, accessibility features",
+      "severity_score": 92
     },
     {
-      "title": "Customer-Centric Design",
-      "description": "Places user experience at the forefront of product development.",
-      "technical_spec": "Gathers user feedback through surveys and analytics for iterative design improvements.",
-      "severity_score": 55
+      "title": "Sustainability Commitment",
+      "description": "Efforts to promote sustainable practices within and outside the organization.",
+      "technical_spec": "Carbon-neutral initiatives, sustainable product development",
+      "severity_score": 85
     },
     {
-      "title": "Collaboration",
-      "description": "Facilitates team work with shared workspace features.",
-      "technical_spec": "Integrates collaboration tools within Adobe Creative Cloud.",
-      "severity_score": 60
+      "title": "Collaborative Ecosystem",
+      "description": "Building an ecosystem that fosters collaboration among users and developers.",
+      "technical_spec": "API integrations, cloud collaboration tools, resource sharing",
+      "severity_score": 88
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 60,
+    "rank": 70,
     "site": "whatsapp.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "95c82fd0165e114ab18b7ee9eb8bcec0"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "23d10fb46c16321a4fdb6e91d0a3130d"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Minimizing choices to reduce decision time, increasing user efficiency.",
-      "technical_spec": "Streamlined user interface with concise options.",
-      "severity_score": 25
+      "title": "Jakob’s Law of Internet User Experience",
+      "description": "Users spend most of their time on other apps, so they prefer your app to work similar to others they already use.",
+      "technical_spec": "Intuitive touch gestures and simplified navigation resemble other popular applications.",
+      "severity_score": 50
     },
     {
-      "title": "Miller's Law",
-      "description": "Ensuring adaptable design to accommodate the cognitive limits of users.",
-      "technical_spec": "Chunking information to improve user retention and recall.",
-      "severity_score": 30
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Making functions intuitive by aligning with user expectations from other apps.",
-      "technical_spec": "Adopting familiar iconography and navigation patterns.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Optimizing touch target sizes and placement for ease of access.",
-      "technical_spec": "Larger touch targets and strategic placement in high-frequency areas.",
-      "severity_score": 20
+      "title": "Hick’s Law",
+      "description": "Simplifying choices reduces user decision time and boosts app usability.",
+      "technical_spec": "Streamlined interface reducing complex tasks into simple actions.",
+      "severity_score": 65
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Enhancing satisfaction and perceived usability through appealing design.",
-      "technical_spec": "Balanced color schemes and minimalistic design approach.",
-      "severity_score": 20
+      "description": "Aesthetic designs are perceived as easier to use but require simplicity to achieve true usability.",
+      "technical_spec": "Minimalistic UI with an emphasis on functional aesthetics.",
+      "severity_score": 45
+    },
+    {
+      "title": "Pareto Principle (80/20 Rule)",
+      "description": "80% of users use only 20% of the features, so prioritize what’s important.",
+      "technical_spec": "Focus on optimizing critical features like messaging and calls.",
+      "severity_score": 55
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Elements close to each other are perceived to be more related than those spaced farther apart.",
+      "technical_spec": "Organized chat lists and grouped notifications for clarity.",
+      "severity_score": 60
     }
   ]
 }

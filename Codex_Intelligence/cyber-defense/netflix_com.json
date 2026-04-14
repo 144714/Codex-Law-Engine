@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 56,
+    "rank": 66,
     "site": "netflix.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "2d4c07fbe42efcd64cb5bc1ff0b5ac4c"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "d648746a79907a572eae27201f3413b0"
   },
   "data": [
     {
-      "title": "Encryption Protocols",
-      "description": "Netflix secures user data and video streams with advanced encryption protocols.",
-      "technical_spec": "Utilizes TLS 1.3 for data in transit and AES-256 for data at rest.",
-      "severity_score": 25
-    },
-    {
-      "title": "Identity and Access Management",
-      "description": "Strict access controls and authentication processes to protect user accounts.",
-      "technical_spec": "Multi-factor authentication (MFA) and OAuth 2.0 standards for APIs.",
-      "severity_score": 30
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Comprehensive strategies to prevent Distributed Denial-of-Service attacks.",
-      "technical_spec": "Implementation of AWS Shield Advanced and custom filtering rules.",
+      "title": "Data Encryption",
+      "description": "Ensures user data is encrypted both during transmission and at rest.",
+      "technical_spec": "TLS encryption for data in transit, AES-256 encryption for stored data.",
       "severity_score": 20
     },
     {
-      "title": "Security Information and Event Management (SIEM)",
-      "description": "Continuous monitoring and analysis of security threats.",
-      "technical_spec": "Leveraging Splunk and AWS CloudTrail to aggregate and analyze logs.",
-      "severity_score": 40
+      "title": "Access Control",
+      "description": "Strict access control policies to protect sensitive data and systems from unauthorized access.",
+      "technical_spec": "Role-based access control using OAuth 2.0.",
+      "severity_score": 18
     },
     {
-      "title": "Data Breach Response",
-      "description": "A robust incident response plan to handle potential security breaches.",
-      "technical_spec": "Regular drills and a dedicated incident response team using playbooks.",
-      "severity_score": 35
+      "title": "Regular Security Audits",
+      "description": "Conducts regular security assessments and vulnerability scans to identify and remediate potential threats.",
+      "technical_spec": "Automated security scanners and third-party security audits.",
+      "severity_score": 25
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Implements robust defenses to mitigate Distributed Denial of Service attacks.",
+      "technical_spec": "Cloud-based DDoS protection services & traffic analysis tools.",
+      "severity_score": 30
+    },
+    {
+      "title": "Incident Response Plan",
+      "description": "Comprehensive incident response strategies to rapidly address and contain security breaches.",
+      "technical_spec": "Defined breach response protocols with a dedicated incident response team.",
+      "severity_score": 22
     }
   ]
 }

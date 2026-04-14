@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 56,
+    "rank": 66,
     "site": "netflix.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "4a56113134370accbc6031594d8cbf8c"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "a9db24a3808ac036f56e78caee433e95"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Focused on minimizing choices to enhance the speed of decision-making when users select content.",
-      "technical_spec": "Recommendation engine limits the number of top suggestions displayed.",
-      "severity_score": 3
+      "description": "Simplified interface to minimize decision time and enhance user experience.",
+      "technical_spec": "Intuitive navigation menus, minimalistic design.",
+      "severity_score": 12
     },
     {
-      "title": "Fitts's Law",
-      "description": "Interface designs that minimize the distance and size of interactive elements, ensuring efficient navigation.",
-      "technical_spec": "Optimized UI for consistent button placement and size across devices.",
-      "severity_score": 5
+      "title": "Fitts’s Law",
+      "description": "Button sizes and distances are optimized for swift and easy interactions.",
+      "technical_spec": "Responsive design elements, dynamic adjustability for devices.",
+      "severity_score": 10
     },
     {
-      "title": "Doherty Threshold",
-      "description": "Netflix ensures high-speed interactions so that users remain engaged and wait times are reduced.",
-      "technical_spec": "Utilization of asynchronous loading of content and predictive streaming.",
-      "severity_score": 4
+      "title": "Pareto Principle",
+      "description": "Focus on key features which provide the most value and engagement to users.",
+      "technical_spec": "User-centered design with a prioritization of popular content.",
+      "severity_score": 8
     },
     {
-      "title": "Serial Position Effect",
-      "description": "User menus leverage the principle that items at the beginning and end of a list are most memorable.",
-      "technical_spec": "Algorithmic curation of content displays to maximize user engagement.",
-      "severity_score": 5
+      "title": "Gestalt Principles",
+      "description": "Employs principles of visual perception to improve interface organization and coherence.",
+      "technical_spec": "Grouping similar content and clear visual hierarchies.",
+      "severity_score": 15
     },
     {
-      "title": "Jakob's Law",
-      "description": "Design adhering to users' expectations based on patterns learned from similar platforms.",
-      "technical_spec": "Interface consistency across Netflix experiences in mobile, web, and smart TVs.",
-      "severity_score": 2
+      "title": "Aesthetic-Usability Effect",
+      "description": "Aesthetically pleasing interface which enhances perceived usability.",
+      "technical_spec": "Modern and visually appealing design consistent with branding.",
+      "severity_score": 14
     }
   ]
 }

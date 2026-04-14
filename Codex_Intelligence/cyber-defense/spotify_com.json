@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 57,
+    "rank": 67,
     "site": "spotify.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "5de836f7f00e5dd86a3419675be3eb70"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "21ba8d8e311906fa31bf8f8db410ac34"
   },
   "data": [
     {
-      "title": "Encryption Standards",
-      "description": "Guarantees privacy and security through robust encryption methods.",
-      "technical_spec": "Utilizes TLS 1.2+ for data in transit and AES-256 for data at rest.",
-      "severity_score": 92
+      "title": "End-to-End Encryption",
+      "description": "Secure data transmission using encryption.",
+      "technical_spec": "TLS/SSL protocols for data in transit.",
+      "severity_score": 45
     },
     {
-      "title": "Secure Access Control",
-      "description": "Implements strict user authentication methods to prevent unauthorized access.",
-      "technical_spec": "Uses OAuth 2.0 and two-factor authentication for securing user accounts.",
-      "severity_score": 87
+      "title": "Security Monitoring",
+      "description": "Continuous monitoring for threats and anomalies.",
+      "technical_spec": "Utilization of AI-driven security tools.",
+      "severity_score": 55
     },
     {
-      "title": "Threat Monitoring and Response",
-      "description": "Continuous monitoring for threats using advanced AI-driven tools.",
-      "technical_spec": "Leverages AWS GuardDuty and Custom SIEM systems.",
-      "severity_score": 90
+      "title": "User Authentication",
+      "description": "Robust authentication mechanisms to prevent unauthorized access.",
+      "technical_spec": "Multi-factor authentication (MFA).",
+      "severity_score": 40
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts frequent security checks and audits to identify and mitigate vulnerabilities.",
-      "technical_spec": "Engages third-party security firms for independent assessments.",
-      "severity_score": 85
+      "title": "Privacy Controls",
+      "description": "Users can manage their privacy and data sharing settings.",
+      "technical_spec": "User interfaces and backend support for GDPR compliance.",
+      "severity_score": 20
     },
     {
-      "title": "DDoS Protection",
-      "description": "Mitigates Distributed Denial of Service attacks using advanced defense mechanisms.",
-      "technical_spec": "Employs AWS Shield Advanced for comprehensive DDoS mitigation.",
-      "severity_score": 88
+      "title": "Incident Response Plan",
+      "description": "Defined protocols for responding to security breaches.",
+      "technical_spec": "Integrated with automated alerting and response systems.",
+      "severity_score": 65
     }
   ]
 }

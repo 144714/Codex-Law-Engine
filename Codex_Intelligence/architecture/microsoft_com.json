@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 54,
+    "rank": 64,
     "site": "microsoft.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "076cfe0db28fa2209b308edbfc9c1458"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "4f0ca4ae2aa27fc28aa9471177f198be"
   },
   "data": [
     {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "The site leverages Microsoft's Azure cloud services to dynamically scale resources according to demand.",
-      "technical_spec": "Azure Kubernetes Service (AKS), Azure VNets",
-      "severity_score": 95
-    },
-    {
-      "title": "Content Delivery Network",
-      "description": "Usage of a global CDN to ensure fast content delivery and reduced latency for users worldwide.",
-      "technical_spec": "Azure CDN, Geo-DNS routing",
+      "title": "Cloud Integration",
+      "description": "Extensive use of Microsoft Azure for hosting and services.",
+      "technical_spec": "Leverages Azure's global infrastructure for scalability and reliability.",
       "severity_score": 90
     },
     {
       "title": "Microservices Architecture",
-      "description": "The site is built using a microservices architecture to enhance modularity and ease of deployment.",
-      "technical_spec": "Azure Service Fabric, Docker Containers",
+      "description": "Modular service design allowing frequent updates and independent scaling.",
+      "technical_spec": "Decomposed services using containers and orchestration via Kubernetes.",
       "severity_score": 85
     },
     {
-      "title": "High-Availability Setup",
-      "description": "Microsoft.com is designed with redundancy and failover clusters for high availability.",
-      "technical_spec": "Azure Load Balancers, SQL Always On",
-      "severity_score": 92
+      "title": "Single Page Applications (SPA)",
+      "description": "Enhancing user experience with responsive and fast interactions.",
+      "technical_spec": "Built with Angular for dynamic content rendering, minimizing page reloads.",
+      "severity_score": 75
     },
     {
-      "title": "Responsive Web Design",
-      "description": "Adopts responsive web design techniques to ensure compatibility across a range of devices.",
-      "technical_spec": "CSS3 Flexbox, Media Queries",
+      "title": "Content Delivery Network (CDN)",
+      "description": "Fast content delivery to global users.",
+      "technical_spec": "Azure CDN integration speeds up data access times.",
       "severity_score": 88
+    },
+    {
+      "title": "RESTful APIs",
+      "description": "APIs for seamless third-party integrations and data interactions.",
+      "technical_spec": "Use of OpenAPI for defining API contracts and facilitating developer access.",
+      "severity_score": 82
     }
   ]
 }

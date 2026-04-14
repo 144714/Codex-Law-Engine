@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 59,
+    "rank": 69,
     "site": "instagram.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "90150353094b657fe7ed042c1f182ff7"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "027eb2764923e89390b3d9c124aebdb9"
   },
   "data": [
     {
       "title": "Visual Storytelling",
-      "description": "Focuses on user-generated content that emphasizes visual engagement.",
-      "technical_spec": "Support for photos, videos, and time-limited stories.",
-      "severity_score": 95
+      "description": "Core brand value revolves around sharing visual media and personal stories.",
+      "technical_spec": "Focused on image and video sharing features.",
+      "severity_score": 20
     },
     {
-      "title": "Community Building",
-      "description": "Facilitates interactions through likes, comments, and shared content.",
-      "technical_spec": "Algorithm-driven feed prioritizing user engagement.",
-      "severity_score": 90
+      "title": "Influencer Culture Integration",
+      "description": "Embraces collaborative features for influencer and brand partnerships.",
+      "technical_spec": "Enables and encourages collaborations through platform tools.",
+      "severity_score": 30
     },
     {
-      "title": "Authenticity",
-      "description": "Encourages users to share genuine and relatable content.",
-      "technical_spec": "Features like reels and stories for unfiltered expression.",
-      "severity_score": 85
+      "title": "User-Generated Content Focus",
+      "description": "Encourages content creation and sharing by a diverse user base.",
+      "technical_spec": "Provides tools for easy creation and posting.",
+      "severity_score": 20
     },
     {
-      "title": "Trendsetting",
-      "description": "Drives cultural trends and influences fashion, art, and social discourse.",
-      "technical_spec": "Partnerships with influencers and branded hashtags.",
-      "severity_score": 92
+      "title": "Innovation in Story Features",
+      "description": "Regularly updates story functionalities to keep user engagement high.",
+      "technical_spec": "Includes interactive elements like polls and Q&A.",
+      "severity_score": 25
     },
     {
-      "title": "Innovation",
-      "description": "Continuous innovation in features, tools, and services available to users.",
-      "technical_spec": "Regular updates incorporating AI and AR technologies.",
-      "severity_score": 88
+      "title": "Community and Connection",
+      "description": "Aims to foster a sense of community and connectivity globally.",
+      "technical_spec": "Incorporates messaging, live broadcasting, and collaborative features.",
+      "severity_score": 15
     }
   ]
 }

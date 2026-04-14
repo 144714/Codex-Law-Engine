@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 57,
+    "rank": 67,
     "site": "spotify.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "8ff18f13d26da20d91322d0bbaed1b9a"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "8a9f118cc7e51a90807b480ee571c4f9"
   },
   "data": [
     {
-      "title": "Curated Content Experience",
-      "description": "Provides highly personalized music recommendations tailored to user preferences.",
-      "technical_spec": "Machine learning algorithms for analyzing listening behavior.",
-      "severity_score": 95
+      "title": "Personalization",
+      "description": "Delivering a uniquely tailored music experience.",
+      "technical_spec": "Machine learning algorithms for personalized playlists.",
+      "severity_score": 20
     },
     {
-      "title": "Ubiquity Across Devices",
-      "description": "Ensures availability of the service on various platforms and devices.",
-      "technical_spec": "Cross-platform support including iOS, Android, Windows, and macOS.",
-      "severity_score": 93
+      "title": "Music Discovery",
+      "description": "Facilitating user exploration of new music.",
+      "technical_spec": "Recommendation engines and curated playlists.",
+      "severity_score": 15
     },
     {
-      "title": "Community and Social Integration",
-      "description": "Facilitates connection and sharing among users through social features.",
-      "technical_spec": "Integration with Facebook, Instagram, and Spotify’s in-app social playlists.",
-      "severity_score": 88
+      "title": "Cross-Platform Access",
+      "description": "Accessibility on various devices.",
+      "technical_spec": "Dedicated apps for iOS, Android, desktops, and smart devices.",
+      "severity_score": 35
     },
     {
-      "title": "Innovative Audio Formats",
-      "description": "Offers superior audio quality via different streaming bitrates and formats.",
-      "technical_spec": "Support for formats like Ogg Vorbis and AAC for different streaming qualities.",
-      "severity_score": 90
+      "title": "Artist Empowerment",
+      "description": "Supporting artists with tools to reach listeners.",
+      "technical_spec": "Analytics dashboard and direct-to-artist features.",
+      "severity_score": 30
     },
     {
-      "title": "Consistent Branding",
-      "description": "Maintains cohesive brand identity through consistent use of visuals and tone.",
-      "technical_spec": "Use of Spotify’s distinctive green and black color palette across all platforms.",
-      "severity_score": 86
+      "title": "Social Connection",
+      "description": "Connecting users through music experiences.",
+      "technical_spec": "Social sharing features and collaborative playlists.",
+      "severity_score": 25
     }
   ]
 }

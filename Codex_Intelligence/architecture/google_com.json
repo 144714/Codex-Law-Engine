@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 51,
+    "rank": 61,
     "site": "google.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "7c5ba9d17f04f20c9a8b03b3ac05e91b"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "e779ca3f3a5bc6de748ee431e7b9b63a"
   },
   "data": [
     {
-      "title": "Load Balancing",
-      "description": "Distributes user requests across multiple servers to ensure availability and reliability.",
-      "technical_spec": "Uses regional load balancers to optimize for low latency.",
-      "severity_score": 10
-    },
-    {
-      "title": "Microservices",
-      "description": "Google’s backend services are divided into microservices to enhance modularity.",
-      "technical_spec": "Each service is independently deployable using Kubernetes.",
+      "title": "Monolithic Architecture",
+      "description": "Google's core search architecture is designed as a monolith with tightly integrated components.",
+      "technical_spec": "Single logical executable, centralized code-base, tightly coupled components.",
       "severity_score": 20
     },
     {
-      "title": "Scalable Datastore",
-      "description": "Google uses a distributed database that scales horizontally.",
-      "technical_spec": "Bigtable and Spanner for different data workloads.",
+      "title": "Distributed Data Centers",
+      "description": "Utilizes globally distributed data centers to provide high availability and low latency.",
+      "technical_spec": "Multiple geographically distributed locations with redundant services.",
+      "severity_score": 10
+    },
+    {
+      "title": "In-House Databases",
+      "description": "Custom-built databases like BigTable and Spanner for robust data handling and real-time processing.",
+      "technical_spec": "Scalable distributed databases, strong consistency models.",
+      "severity_score": 5
+    },
+    {
+      "title": "Microservices Transition",
+      "description": "Gradual evolution towards microservices and containerization where appropriate.",
+      "technical_spec": "Docker containers, Kubernetes orchestration.",
       "severity_score": 15
     },
     {
-      "title": "Global CDN",
-      "description": "Utilizes a global content delivery network to minimize latency.",
-      "technical_spec": "Edge servers around the world cache static content.",
-      "severity_score": 5
-    },
-    {
-      "title": "High Availability",
-      "description": "Designed to be operational 24/7 without downtime.",
-      "technical_spec": "Redundancy and failover mechanisms in place.",
-      "severity_score": 5
+      "title": "Load Balancing Innovations",
+      "description": "Advanced load balancing techniques for efficient traffic distribution.",
+      "technical_spec": "Edge caching, algorithmic traffic management.",
+      "severity_score": 10
     }
   ]
 }

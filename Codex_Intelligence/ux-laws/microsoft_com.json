@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 54,
+    "rank": 64,
     "site": "microsoft.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "2f0006e3bd6d2e63f27d534913f4ec42"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "59ebf7f301748df7e2eae4574205e934"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "UI elements are large enough and positioned to reduce the time to interact with them effectively.",
-      "technical_spec": "Button Sizes, Click Targets",
-      "severity_score": 88
-    },
-    {
       "title": "Hick's Law",
-      "description": "Simplifies navigation and decision-making by minimizing options presented at any given time.",
-      "technical_spec": "Menu Structures, Breadcrumbs",
-      "severity_score": 91
+      "description": "Simplifying decision-making by reducing choices at a given time.",
+      "technical_spec": "Streamlined navigation and categorized content to prevent user overload.",
+      "severity_score": 80
     },
     {
-      "title": "Jakob's Law",
-      "description": "Designs align with user expectations by utilizing familiar patterns users encounter regularly.",
-      "technical_spec": "Standardized Icons, Consistent Layouts",
-      "severity_score": 93
+      "title": "Fitts's Law",
+      "description": "Optimizing target selection speed and accuracy.",
+      "technical_spec": "Well-sized buttons and consistent cursor movement paths.",
+      "severity_score": 78
     },
     {
-      "title": "Law of Proximity",
-      "description": "Group related elements closely together to make relationships clear.",
-      "technical_spec": "Whitespace Usage, Alignment Practices",
-      "severity_score": 90
+      "title": "Miller's Law",
+      "description": "Presenting information in chunks to improve user memory retention.",
+      "technical_spec": "Content broken into digestible parts like cards or sections.",
+      "severity_score": 77
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing interfaces that improve perceived usability and user satisfaction.",
-      "technical_spec": "Modern Design Aesthetics, Color Schemes",
-      "severity_score": 89
+      "description": "Enhancing usability with aesthetically pleasing design.",
+      "technical_spec": "Modern design elements and intuitive interfaces to build trust.",
+      "severity_score": 85
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Providing users with familiar design patterns.",
+      "technical_spec": "Consistency with common web standards to enhance user comfort.",
+      "severity_score": 86
     }
   ]
 }

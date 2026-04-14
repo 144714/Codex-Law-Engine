@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 57,
+    "rank": 67,
     "site": "spotify.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "20a8aeed180e61bdcf0dd44ed7f30a65"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "ef82a2e023222ee87b2062d6a7396baf"
   },
   "data": [
     {
+      "title": "Hick's Law",
+      "description": "Simplifying choices improves user decision-making speed.",
+      "technical_spec": "Streamlined playlist and content navigation UI.",
+      "severity_score": 35
+    },
+    {
       "title": "Fitts's Law",
-      "description": "Design prioritizes easy access to frequently used features to enhance user experience.",
-      "technical_spec": "Main controls and playlists are placed for quick and intuitive reach.",
-      "severity_score": 80
+      "description": "Optimizing target size and positioning for ease of use.",
+      "technical_spec": "Large, easy-to-tap buttons on mobile platforms.",
+      "severity_score": 40
     },
     {
-      "title": "Hick’s Law",
-      "description": "Designed to minimize decision-making time by offering a manageable number of options.",
-      "technical_spec": "Simplified menus and options to facilitate faster user selection processes.",
-      "severity_score": 75
+      "title": "Aesthetic Usability Effect",
+      "description": "Users perceive aesthetically pleasing designs as easier to use.",
+      "technical_spec": "Consistent color schemes and typography.",
+      "severity_score": 30
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Focus on visually pleasing designs that users perceive as easier to use.",
-      "technical_spec": "Consistent use of branding colors, modern typography, and uncluttered layouts.",
-      "severity_score": 82
+      "title": "Jakob's Law",
+      "description": "Users prefer your site to work the same way as other sites they know.",
+      "technical_spec": "Standard controls and navigation patterns.",
+      "severity_score": 25
     },
     {
-      "title": "Weber’s Law of Just Noticeable Differences",
-      "description": "Subtle changes in the interface are designed to be intuitive and noticeable.",
-      "technical_spec": "Incremental adjustments in volume slider and progress bar for precise control.",
-      "severity_score": 78
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Groups related elements to imply a relationship, aiding user comprehend of the interface.",
-      "technical_spec": "Proximity is used for grouping tracks, playlists, and controls.",
-      "severity_score": 77
+      "title": "Peak-End Rule",
+      "description": "Experience judgment is governed by peaks and endings.",
+      "technical_spec": "Highlight moments like Discover Weekly releases.",
+      "severity_score": 50
     }
   ]
 }

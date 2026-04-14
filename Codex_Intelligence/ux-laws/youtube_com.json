@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 52,
+    "rank": 62,
     "site": "youtube.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "013bae0d55f50958f80cdf04773a1917"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "b458d00c5c84ae6e85cf13bc96bb3d14"
   },
   "data": [
     {
-      "title": "Hick's Law Application",
-      "description": "Minimizes the time to make decisions by reducing options without overwhelming the user.",
-      "technical_spec": "Simplified UI with focused content recommendations.",
-      "severity_score": 25
+      "title": "Fitts's Law",
+      "description": "The size and distance of interactive elements are optimized for faster user interactions.",
+      "technical_spec": "Larger click targets for video controls, recommendations, and menu navigation.",
+      "severity_score": 90
     },
     {
-      "title": "Fitts's Law Design",
-      "description": "Optimizes the placement of interactive elements for easy access and enhanced usability.",
-      "technical_spec": "Thumb-friendly button placement in mobile interfaces.",
-      "severity_score": 15
+      "title": "Hick's Law",
+      "description": "Minimized choices in menus to reduce decision time and improve user experience.",
+      "technical_spec": "Streamlined navigation with concise categories and content filters.",
+      "severity_score": 85
     },
     {
-      "title": "Miller’s Law Usage",
-      "description": "Keeps information chunks within the user’s cognitive limits.",
-      "technical_spec": "Guides and tutorials segmented into concise parts.",
-      "severity_score": 30
+      "title": "Miller’s Law",
+      "description": "Chunks of recommended video content ease cognitive load for users.",
+      "technical_spec": "Curated playlists and suggestions based on user history and preferences.",
+      "severity_score": 88
     },
     {
-      "title": "Jakob's Law of Internet Users Expectation",
-      "description": "Aligns the interface to user expectations based on popular web conventions.",
-      "technical_spec": "Standardized navigation and video controls.",
-      "severity_score": 10
+      "title": "Jakob's Law",
+      "description": "Design patterns align with user expectations for familiarity.",
+      "technical_spec": "UI follows established patterns in video controls and channel page layouts.",
+      "severity_score": 92
     },
     {
-      "title": "Law of Prägnanz Focus",
-      "description": "Designs for simplicity and memorability by utilizing clear and unmistakable visuals.",
-      "technical_spec": "Consistent iconography and branding.",
-      "severity_score": 20
+      "title": "Law of Proximity",
+      "description": "Related items are grouped together to aid user comprehension.",
+      "technical_spec": "Grouping related videos and channel suggestions on homepage and sidebars.",
+      "severity_score": 87
     }
   ]
 }

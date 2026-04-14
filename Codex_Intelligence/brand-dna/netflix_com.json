@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 56,
+    "rank": 66,
     "site": "netflix.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "9fb0375906df21f983cdf79d48d88294"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "6773d908f2fed8d1234bfe160d345d65"
   },
   "data": [
     {
-      "title": "Innovation in Streaming",
-      "description": "Pioneer in introducing and popularizing video streaming services worldwide.",
-      "technical_spec": "Cutting-edge technological investments and in-house content delivery network.",
-      "severity_score": 40
+      "title": "Innovative Storytelling",
+      "description": "Renowned for pioneering original content and new storytelling formats.",
+      "technical_spec": "Original series, movies, and interactive content.",
+      "severity_score": 5
     },
     {
       "title": "Global Reach",
-      "description": "Known for a vast international content library catering to diverse languages and cultures.",
-      "technical_spec": "Licensing agreements and original content production across several continents.",
-      "severity_score": 30
+      "description": "Accessible in over 190 countries, offering diverse content to a worldwide audience.",
+      "technical_spec": "Multilingual content and subtitles, regional content strategies.",
+      "severity_score": 5
     },
     {
-      "title": "Data-Driven Personalization",
-      "description": "Highly customized content recommendations based on data analysis.",
-      "technical_spec": "Advanced machine learning algorithms analyzing viewing habits and trends.",
-      "severity_score": 35
+      "title": "Customer Centricity",
+      "description": "Focuses on user experience and satisfaction through constant product innovation.",
+      "technical_spec": "User personalization and recommendation algorithms.",
+      "severity_score": 8
     },
     {
-      "title": "Original Content Production",
-      "description": "Renowned for investing in and producing critically acclaimed original series and movies.",
-      "technical_spec": "Budget allocation in billions for original productions and acquisitions.",
-      "severity_score": 35
+      "title": "Value Proposition",
+      "description": "Promises a wide variety of accessible and high-quality entertainment at a competitive price.",
+      "technical_spec": "Subscription-based model with different tiers, offering ad-free viewing.",
+      "severity_score": 7
     },
     {
-      "title": "Customer-Centric Approach",
-      "description": "Dedicated to enhancing viewer experience through a user-friendly interface and customer support.",
-      "technical_spec": "QA processes, feedback loops, and continuous user interface improvements.",
-      "severity_score": 25
+      "title": "Technological Leadership",
+      "description": "Emphasizes cutting-edge technology to enhance viewing experiences (e.g., 4K, HDR).",
+      "technical_spec": "Utilization of advanced streaming protocols, adaptive bitrate streaming.",
+      "severity_score": 6
     }
   ]
 }

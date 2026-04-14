@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 55,
+    "rank": 65,
     "site": "amazon.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "0b4ac4d49f0714d6c9fed58fe36ed726"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "e2fb3044e2800efc9679f07bc989ea00"
   },
   "data": [
     {
-      "title": "Customer-Centric",
-      "description": "Focus on providing exceptional customer experiences and satisfaction.",
-      "technical_spec": "24/7 customer support and hassle-free returns.",
-      "severity_score": 97
+      "title": "Customer-centric Evolution",
+      "description": "Relentless focus on enhancing customer experience and satisfaction.",
+      "technical_spec": "Personalized recommendations driven by AI and machine learning.",
+      "severity_score": 5
     },
     {
-      "title": "Innovative Culture",
-      "description": "Pioneering new technologies and services for efficiency and engagement.",
-      "technical_spec": "Integration of AI and machine learning for personalization.",
-      "severity_score": 95
-    },
-    {
-      "title": "Operational Excellence",
-      "description": "Maintaining high standards in all operations and supply chain processes.",
-      "technical_spec": "Advanced logistics and distribution systems.",
-      "severity_score": 90
-    },
-    {
-      "title": "Data-Driven Decision Making",
-      "description": "Leverages data analytics to inform strategies and improve offerings.",
-      "technical_spec": "Big data technologies and business intelligence tools.",
-      "severity_score": 93
+      "title": "Innovation Leadership",
+      "description": "Commitment to technological innovation and infrastructure.",
+      "technical_spec": "Continuous R&D investment in emerging technologies.",
+      "severity_score": 5
     },
     {
       "title": "Global Reach",
-      "description": "Extensive international presence and market penetration.",
-      "technical_spec": "Local language support and regional product offerings.",
-      "severity_score": 89
+      "description": "Presence in numerous countries with localized experiences.",
+      "technical_spec": "Regional AWS infrastructure and tailored market strategies.",
+      "severity_score": 15
+    },
+    {
+      "title": "Operational Excellence",
+      "description": "Streamlined operations with a focus on efficiency and scale.",
+      "technical_spec": "Automated logistics centers and optimized supply chain management.",
+      "severity_score": 10
+    },
+    {
+      "title": "Sustainability Initiatives",
+      "description": "Commitment to environmental sustainability and responsible business practices.",
+      "technical_spec": "Investments in renewable energy projects and sustainable packaging.",
+      "severity_score": 20
     }
   ]
 }

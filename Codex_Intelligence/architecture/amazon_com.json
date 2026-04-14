@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 55,
+    "rank": 65,
     "site": "amazon.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "08513732b2e66448da5c433eef79ef11"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "3915c4f4a161e7a9574e7d2f2595a07a"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Amazon uses a microservices architecture, which breaks down applications into smaller, independent services.",
-      "technical_spec": "Use of APIs and service-oriented architecture for deploying individual services.",
-      "severity_score": 95
-    },
-    {
-      "title": "Scalable Infrastructure",
-      "description": "The architecture is designed to scale in response to varying customer demands.",
-      "technical_spec": "Elastic Load Balancing, auto-scaling groups, and distributed databases.",
-      "severity_score": 90
-    },
-    {
-      "title": "High Availability",
-      "description": "Ensures services are available and resilient to failures across multiple regions and zones.",
-      "technical_spec": "Multi-AZ deployments and cross-region replication.",
-      "severity_score": 92
+      "title": "Microservices Architecture",
+      "description": "Amazon's architecture is built on a microservices model to enhance scalability and flexibility.",
+      "technical_spec": "AWS cloud-based infrastructure, using services like ECS, Lambda, and API Gateway.",
+      "severity_score": 10
     },
     {
       "title": "Serverless Computing",
-      "description": "Adoption of serverless paradigms to reduce resource allocation complexity.",
-      "technical_spec": "Use of AWS Lambda and API Gateway for serverless functions.",
-      "severity_score": 88
+      "description": "Utilizes serverless technologies for on-demand resource allocation.",
+      "technical_spec": "AWS Lambda, S3, and DynamoDB for data storage and processing.",
+      "severity_score": 20
     },
     {
-      "title": "Containerized Deployment",
-      "description": "Efficient deployment and management of applications using container orchestration.",
-      "technical_spec": "Use of Docker containers and Kubernetes.",
-      "severity_score": 85
+      "title": "Load Balancers",
+      "description": "Employs load balancers to accommodate high traffic and ensure availability.",
+      "technical_spec": "AWS ELB (Elastic Load Balancing) for distributing traffic across instances.",
+      "severity_score": 15
+    },
+    {
+      "title": "Data-Driven Architecture",
+      "description": "Empowers decisions with data pipelines and real-time analytics.",
+      "technical_spec": "AWS Kinesis, Redshift, and RDS for data handling.",
+      "severity_score": 25
+    },
+    {
+      "title": "Global CDN",
+      "description": "Global content delivery strategy to improve load times globally.",
+      "technical_spec": "Amazon CloudFront for content caching and delivery.",
+      "severity_score": 5
     }
   ]
 }

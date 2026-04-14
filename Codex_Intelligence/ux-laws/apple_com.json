@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 53,
+    "rank": 63,
     "site": "apple.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "061aef30530fca07d6fdf09ce1d87b5f"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "cc12740d217795d5cf9db5a6d812bbb5"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Interface elements are sized and positioned based on their expected interaction frequency.",
-      "technical_spec": "Larger click targets for common actions, aligned with user flow analysis.",
-      "severity_score": 8
+      "title": "Hick's Law",
+      "description": "Simplifies decision-making by limiting choices presented to users for quicker interactions.",
+      "technical_spec": "User navigation and decision points are streamlined to require minimal effort.",
+      "severity_score": 10
     },
     {
-      "title": "Hick’s Law",
-      "description": "Minimizes decision time by reducing the number of choices presented to users.",
-      "technical_spec": "Simplified navigation menus and product offerings.",
-      "severity_score": 7
+      "title": "Fitts' Law",
+      "description": "Designs elements that are easy to target and interact with, using prominent buttons and links.",
+      "technical_spec": "Interactive elements have adequate size and are positioned within user's reach.",
+      "severity_score": 15
     },
     {
-      "title": "Law of Proximity",
-      "description": "Group related items together to create logical and intuitive navigation paths.",
-      "technical_spec": "Consistent layout with clearly delineated sections.",
-      "severity_score": 5
+      "title": "Law of Prägnanz",
+      "description": "Uses simplicity and clarity to present content in a way that users can easily perceive and process.",
+      "technical_spec": "Apple focuses on clean layouts with ample white space.",
+      "severity_score": 20
+    },
+    {
+      "title": "Von Restorff Effect",
+      "description": "Features unique elements that capture user interest and ensure high recall.",
+      "technical_spec": "Key products or promotions are highlighted visually.",
+      "severity_score": 25
     },
     {
       "title": "Miller’s Law",
-      "description": "Limits the amount of information presented at once to avoid cognitive overload.",
-      "technical_spec": "Information chunking and progressive disclosure techniques.",
-      "severity_score": 9
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Users spend more time on other sites, so Apple.com offers familiar navigation patterns.",
-      "technical_spec": "Adopts well-established UX paradigms, design patterns recognizable to users.",
-      "severity_score": 6
+      "description": "Cognition is aided by limiting content chunks to enhance memory and information processing.",
+      "technical_spec": "Information is grouped into chunks of 7 ± 2 items.",
+      "severity_score": 30
     }
   ]
 }

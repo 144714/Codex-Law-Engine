@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 55,
+    "rank": 65,
     "site": "amazon.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "de70c74f27b4319873803bc819589321"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "eb5cd29de69dcd1499d0af459c21b4c5"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Enables secure transactions by encrypting data throughout transmission.",
-      "technical_spec": "Use of HTTPS, TLS 1.2/1.3 for all communications.",
-      "severity_score": 95
+      "title": "Advanced Threat Detection",
+      "description": "Implementation of automated monitoring to identify and mitigate risks.",
+      "technical_spec": "AWS Security Hub, GuardDuty for threat detection and response.",
+      "severity_score": 30
     },
     {
       "title": "DDoS Protection",
-      "description": "Protection against Distributed Denial of Service attacks.",
-      "technical_spec": "AWS Shield Advanced and custom traffic filtering rules.",
-      "severity_score": 90
+      "description": "Protection against distributed denial-of-service attacks with cloud front and AWS Shield.",
+      "technical_spec": "AWS Shield Advanced for comprehensive DDoS protection.",
+      "severity_score": 40
     },
     {
-      "title": "Intrusion Detection Systems",
-      "description": "Monitor traffic and detect potential threats in real-time.",
-      "technical_spec": "AWS GuardDuty and network monitoring tools.",
-      "severity_score": 88
+      "title": "Data Encryption",
+      "description": "Ensures data integrity with robust encryption algorithms for data at rest and transit.",
+      "technical_spec": "AWS Key Management Service (KMS), SSL/TLS encryption.",
+      "severity_score": 35
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Control over who can access specific resources and data.",
-      "technical_spec": "AWS IAM with multi-factor authentication.",
-      "severity_score": 93
+      "title": "IAM Policies",
+      "description": "Strict identity and access management policies to control permissions.",
+      "technical_spec": "AWS IAM for managing access to AWS services and resources securely.",
+      "severity_score": 25
     },
     {
-      "title": "Data Loss Prevention",
-      "description": "Prevents unauthorized data transfers and potential information breaches.",
-      "technical_spec": "Data encryption at rest and in transit, and regular security audits.",
-      "severity_score": 92
+      "title": "Regular Security Audits",
+      "description": "Frequent audits to detect and address security vulnerabilities.",
+      "technical_spec": "AWS Inspector for automated security assessments.",
+      "severity_score": 45
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 52,
+    "rank": 62,
     "site": "youtube.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "c9c3787b6d7ad924f92cd8acc835f7ab"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "df8c7dd0bf5368183b889ada2353161b"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Ensures that data between users and YouTube servers is encrypted.",
-      "technical_spec": "TLS/SSL protocols employed for data transmission security.",
-      "severity_score": 5
-    },
-    {
-      "title": "Anti-Phishing Mechanisms",
-      "description": "Protects users from phishing attempts by verifying user actions and identities.",
-      "technical_spec": "OAuth 2.0 authentication protocols.",
-      "severity_score": 35
+      "title": "Web Application Firewall",
+      "description": "A WAF is implemented to block malicious web traffic and protect against common web vulnerabilities.",
+      "technical_spec": "Uses Google Cloud Armor for WAF capabilities.",
+      "severity_score": 75
     },
     {
       "title": "DDoS Protection",
-      "description": "Protects against Distributed Denial of Service attacks to ensure service availability.",
-      "technical_spec": "Advanced network filtering and Google Cloud Armor implementations.",
-      "severity_score": 20
+      "description": "Robust DDoS mitigation strategies to combat distributed denial of service attacks.",
+      "technical_spec": "Integrates Cloud Armor Threat Intelligence for recognizing abnormal traffic patterns.",
+      "severity_score": 80
     },
     {
-      "title": "Spam Detection Algorithms",
-      "description": "Proactively identifies and mitigates spam interactions and content.",
-      "technical_spec": "Machine learning models trained on large datasets.",
-      "severity_score": 45
+      "title": "Data Encryption",
+      "description": "Implements both in-transit and at-rest encryption for user and video data.",
+      "technical_spec": "TLS 1.3 for data in transit and AES-256 for data at rest.",
+      "severity_score": 95
     },
     {
-      "title": "Account Security Alerts",
-      "description": "Notifies users of suspicious activities and security breaches.",
-      "technical_spec": "Integration with Google account security features.",
-      "severity_score": 40
+      "title": "Access Management",
+      "description": "Highly secure authentication and access management systems for users and employees.",
+      "technical_spec": "OAuth2.0 for user authentication and IAM roles for employee account management.",
+      "severity_score": 85
+    },
+    {
+      "title": "Threat Detection System",
+      "description": "AI-driven threat detection for ongoing monitoring and incident response.",
+      "technical_spec": "Utilizes Google Cloud SCC (Security Command Center) with machine learning capabilities.",
+      "severity_score": 79
     }
   ]
 }

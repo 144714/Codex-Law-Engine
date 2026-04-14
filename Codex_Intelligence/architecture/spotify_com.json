@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 57,
+    "rank": 67,
     "site": "spotify.com",
-    "date": "2026-04-14 04:39",
-    "integrity_hash": "917a05f1d7b41330b0fcd1fda357a39d"
+    "date": "2026-04-14 06:26",
+    "integrity_hash": "6d3300ae7688dfa95fcba9d531ff631d"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Spotify uses a microservices architecture, enabling independent development, deployment, and scaling of different platform features.",
-      "technical_spec": "Utilizes Kubernetes for container orchestration and Docker for containerization.",
-      "severity_score": 85
+      "title": "Microservices",
+      "description": "Spotify employs a microservices architecture to allow independent deployment and scaling of features.",
+      "technical_spec": "Services communicated via HTTP/REST and event streaming with Kafka.",
+      "severity_score": 25
     },
     {
-      "title": "Data Pipeline",
-      "description": "A robust data pipeline architecture that processes billions of events per day for user insights and recommendations.",
-      "technical_spec": "Built on Apache Kafka and Apache Storm for real-time processing.",
-      "severity_score": 90
+      "title": "Cloud Infrastructure",
+      "description": "The backend is hosted on cloud platforms for scalability and resilience.",
+      "technical_spec": "Primarily on Google Cloud Platform (GCP) with Kubernetes for container orchestration.",
+      "severity_score": 20
     },
     {
-      "title": "Content Delivery Network",
-      "description": "CDN setup ensures fast delivery of music content globally.",
-      "technical_spec": "Integrates with Akamai to distribute music files efficiently.",
-      "severity_score": 75
+      "title": "Content Delivery Network (CDN)",
+      "description": "CDN is used for efficient media file delivery to ensure low latency streaming.",
+      "technical_spec": "Leveraging global CDN networks like Cloudflare or Akamai.",
+      "severity_score": 15
     },
     {
-      "title": "API Gateway",
-      "description": "Centralized entry point for managing and exposing APIs, enhancing security and usability.",
-      "technical_spec": "Implemented using Kong API Gateway to handle requests and authentication.",
-      "severity_score": 80
+      "title": "APIs and SDKs",
+      "description": "APIs support third-party integrations and a wide ecosystem of apps and services.",
+      "technical_spec": "RESTful API with OAuth 2.0 for authentication.",
+      "severity_score": 30
     },
     {
-      "title": "High Availability and Load Balancing",
-      "description": "Designed to handle large volumes of simultaneous connections across geographies.",
-      "technical_spec": "Utilizes AWS Elastic Load Balancing and auto-scaling groups.",
-      "severity_score": 88
+      "title": "Data Analytics",
+      "description": "Advanced analytics and big data frameworks for personalized user experience.",
+      "technical_spec": "Utilizes Apache Hadoop, Dataflow, and BigQuery.",
+      "severity_score": 35
     }
   ]
 }
