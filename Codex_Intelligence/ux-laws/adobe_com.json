@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 298,
+    "rank": 308,
     "site": "adobe.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "9f2afda7133fd0965f024bce91212606"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "71290c4394ec3d8c1113be1c4b661bb6"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Streamlined interfaces to reduce the time taken to make decisions.",
-      "technical_spec": "Optimizing choices presented to the user.",
-      "severity_score": 10
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Design focuses on making interactive elements easily accessible.",
-      "technical_spec": "Larger touch targets for frequently used controls.",
+      "description": "Adobe’s design minimizes choices to improve user decision speed.",
+      "technical_spec": "Simplified navigation, minimalistic design",
       "severity_score": 15
     },
     {
-      "title": "Miller’s Law",
-      "description": "Limits chunks of information presented at one time to avoid overload.",
-      "technical_spec": "Presenting 5-9 elements simultaneously.",
+      "title": "Fitts’s Law",
+      "description": "Interface design optimizes button sizes and placements for easy interaction.",
+      "technical_spec": "Responsive design, target-centric interfaces",
       "severity_score": 20
     },
     {
-      "title": "Jakob's Law",
-      "description": "Design consistency with familiar web interactions to increase user comfort.",
-      "technical_spec": "Borrowing elements from popular interfaces.",
-      "severity_score": 5
+      "title": "Miller’s Law",
+      "description": "Content is chunked to enhance memory retention of information.",
+      "technical_spec": "Data segmentation, use of infographics",
+      "severity_score": 25
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Placing key actions at the beginning and end for better retention.",
-      "technical_spec": "Strategic placement of content and CTAs.",
+      "title": "Jakob’s Law",
+      "description": "Consistent interface design aligning with user expectations.",
+      "technical_spec": "Consistent iconography and terminology",
       "severity_score": 10
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Visually groups related items to enhance interface navigation.",
+      "technical_spec": "Whitespace usage, proximity-based grouping",
+      "severity_score": 20
     }
   ]
 }

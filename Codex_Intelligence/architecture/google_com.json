@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 291,
+    "rank": 301,
     "site": "google.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "543bf9b9f8c318f3affa9094eb4307f0"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "20b426915b6f91e2b1f0cc5bfc4d2918"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Google employs a microservices architecture to enhance scalability and manageability.",
-      "technical_spec": "Services are decoupled, ensuring efficient scaling, independent deployment, and fault isolation.",
-      "severity_score": 92
-    },
-    {
-      "title": "Data Center Infrastructure",
-      "description": "Google uses highly advanced data centers to host its services worldwide.",
-      "technical_spec": "Equipped with advanced cooling, distributed systems, and proprietary hardware.",
-      "severity_score": 95
+      "title": "Microservices Infrastructure",
+      "description": "A distributed architecture where each service is self-contained and independently deployable.",
+      "technical_spec": "Uses container orchestration tools like Kubernetes to manage service deployment.",
+      "severity_score": 10
     },
     {
       "title": "Load Balancing",
-      "description": "Efficient global load balancing ensures minimal response time and reliability.",
-      "technical_spec": "Geographic spread, traffic routing, and redundancy handling.",
-      "severity_score": 90
+      "description": "Efficient distribution of incoming network traffic across multiple servers.",
+      "technical_spec": "Employs global load balancers with advanced algorithms for traffic management.",
+      "severity_score": 8
     },
     {
-      "title": "Kubernetes Orchestration",
-      "description": "Google orchestrates workloads using Kubernetes to manage containerized applications.",
-      "technical_spec": "Automation of deploys, scaling, and operations of application containers.",
-      "severity_score": 88
+      "title": "Caching Systems",
+      "description": "Utilization of edge caching to minimize latency and improve access speeds.",
+      "technical_spec": "Implements CDN services and data caching solutions like Memcached.",
+      "severity_score": 15
     },
     {
-      "title": "Cloud Infrastructure",
-      "description": "Leveraging robust cloud capabilities to support diverse service offerings.",
-      "technical_spec": "Google Cloud Platform (GCP) provides computation, storage, analytics, and AI.",
-      "severity_score": 93
+      "title": "Serverless Computing",
+      "description": "Execution of code without infrastructure management, allowing automatic scaling, and event-driven architecture.",
+      "technical_spec": "Uses Functions as a Service (FaaS) like Google Cloud Functions.",
+      "severity_score": 12
+    },
+    {
+      "title": "Distributed Database Systems",
+      "description": "Stores data across multiple nodes to ensure high availability and resilience.",
+      "technical_spec": "Deploys scalable NoSQL databases such as Bigtable, Spanner.",
+      "severity_score": 9
     }
   ]
 }

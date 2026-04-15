@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 297,
+    "rank": 307,
     "site": "spotify.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "6b7a01cebab3dcc6cd845317a556ded5"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "624c6c11dfb55e1c271099512f00b961"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Spotify uses microservices to manage its large and complex application. This approach allows for scalability and independent deployment of components.",
-      "technical_spec": "Deployed on cloud platforms, with each microservice handling a specific function, connected via APIs.",
+      "title": "Microservices Infrastructure",
+      "description": "Spotify's architecture leverages a distributed system with hundreds of microservices.",
+      "technical_spec": "Each microservice is designed to handle specific tasks with APIs for communication.",
       "severity_score": 20
     },
     {
-      "title": "Distributed Systems",
-      "description": "Spotify employs distributed system design to handle millions of user requests concurrently and provide seamless streaming experiences.",
-      "technical_spec": "Utilizes load balancing and data replication for reliability and speed.",
+      "title": "Load Balancing",
+      "description": "Utilizes load balancing to efficiently distribute incoming network traffic across multiple servers.",
+      "technical_spec": "Nginx and HAProxy are often used to manage traffic flow, ensuring minimal downtime and high availability.",
+      "severity_score": 15
+    },
+    {
+      "title": "Scalability",
+      "description": "Spotify's system is built to scale horizontally to manage user demand efficiently.",
+      "technical_spec": "Incorporates Kubernetes for scaling and deploying containers.",
+      "severity_score": 10
+    },
+    {
+      "title": "Data Management",
+      "description": "Employs various databases to store vast amounts of user data and song catalogs.",
+      "technical_spec": "Mix of SQL and NoSQL databases like Cassandra and Postgres.",
       "severity_score": 25
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Real-time data processing and user interaction is facilitated through event-driven architecture, ensuring fast response to user actions.",
-      "technical_spec": "Relies on message brokers and scalable event streams.",
-      "severity_score": 30
-    },
-    {
-      "title": "Data-Intensive Applications",
-      "description": "The application is designed to efficiently manage and process large volumes of music data and user interaction.",
-      "technical_spec": "Employs big data technologies and optimized data storage solutions.",
-      "severity_score": 35
-    },
-    {
-      "title": "High Availability",
-      "description": "Architectural strategies ensure the application remains available even during high traffic or in case of infrastructure failures.",
-      "technical_spec": "Implements redundancy and automatic failover mechanisms.",
-      "severity_score": 15
+      "title": "Content Delivery Network (CDN)",
+      "description": "Uses CDNs to ensure fast delivery of music and assets globally.",
+      "technical_spec": "Integrates with providers like Akamai for caching and delivering content.",
+      "severity_score": 18
     }
   ]
 }

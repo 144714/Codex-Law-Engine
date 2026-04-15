@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 299,
+    "rank": 309,
     "site": "instagram.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "361dc0a889d6b8ecc9714876a978b6d0"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "3ee49f9eb1d0da511f6fd66e0c191494"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "The application's design minimizes decision time by reducing the amount of choices on-screen.",
-      "technical_spec": "Streamlined user interface to enhance usability and satisfaction.",
-      "severity_score": 20
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Instagram utilizes Gestalt principles to ensure elements are perceived as a unified whole.",
-      "technical_spec": "Proximity, similarity, and closure used in UI design for intuitive experience.",
-      "severity_score": 30
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Interactive elements are designed for efficiency and accessibility across different device sizes.",
-      "technical_spec": "Buttons and clickable areas are optimized for touch targets.",
-      "severity_score": 25
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Content organization aids in users managing information overload by chunking data.",
-      "technical_spec": "Information is grouped into manageable units for better processing.",
+      "description": "Design is simplified to reduce the user's decision time when choosing from multiple options.",
+      "technical_spec": "Minimalist interfaces with logical grouping of features.",
       "severity_score": 15
     },
     {
-      "title": "Law of Common Region",
-      "description": "UI elements are grouped together to indicate relation and improve navigability.",
-      "technical_spec": "Boundaries and defined sections help users quickly find and interpret content.",
+      "title": "Fitts's Law",
+      "description": "Touch targets are optimized for easier access and interaction on mobile devices.",
+      "technical_spec": "Button sizes and distances are calculated to minimize movement time.",
+      "severity_score": 20
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing design that is perceived as more usable and enjoyable by users.",
+      "technical_spec": "Consistent use of modern aesthetic principles in UI design.",
+      "severity_score": 10
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Elements that are close to each other are perceived as related, improving intuitive understanding.",
+      "technical_spec": "UI design leverages spatial arrangements for logical grouping.",
+      "severity_score": 25
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Users spend most of their time on other platforms and expect similar navigation and interface design.",
+      "technical_spec": "Familiar design patterns and interactions used for seamless usability.",
       "severity_score": 30
     }
   ]

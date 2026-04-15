@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 294,
+    "rank": 304,
     "site": "microsoft.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "0afb3b6d48e35eac5cc8da0560c3849c"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "376ea2135f2b60f27c1820b7a5eb1df2"
   },
   "data": [
     {
-      "title": "Fitts's Law Compliance",
-      "description": "Optimized click targets for task efficiency.",
-      "technical_spec": "Button size and placement strategy",
-      "severity_score": 89
+      "title": "Hick's Law",
+      "description": "The time it takes for a user to make a decision increases with the number and complexity of choices.",
+      "technical_spec": "Minimalist Design, Quick Access Menus",
+      "severity_score": 20
     },
     {
-      "title": "Hick’s Law",
-      "description": "Reduces choice overload by minimizing decision paths.",
-      "technical_spec": "Simplified navigation, clear CTAs",
-      "severity_score": 85
+      "title": "Fitts's Law",
+      "description": "The time to acquire a target is a function of the distance and size of the target.",
+      "technical_spec": "Larger Buttons, Closer Proximity",
+      "severity_score": 25
     },
     {
-      "title": "Miller's Law Application",
-      "description": "Chunking information to enhance user recall.",
-      "technical_spec": "Content organization and hierarchy",
-      "severity_score": 82
+      "title": "Jakob's Law",
+      "description": "Users prefer your site to work the same way as all the other sites they already know.",
+      "technical_spec": "Familiar Layout, Standard Controls",
+      "severity_score": 18
     },
     {
-      "title": "Proximity Principle",
-      "description": "Using proximity to create relationships between elements.",
-      "technical_spec": "UI grouping and visual layout design",
-      "severity_score": 88
+      "title": "Miller's Law",
+      "description": "The average person can only keep 7 (plus or minus 2) items in their working memory.",
+      "technical_spec": "Chunking Information, Simplicity",
+      "severity_score": 22
     },
     {
-      "title": "Jakob's Law Consideration",
-      "description": "Ensured familiar website navigation patterns to meet user expectations.",
-      "technical_spec": "Standardized menu layouts",
-      "severity_score": 90
+      "title": "Peak-End Rule",
+      "description": "People judge an experience based primarily on how they felt at its peak and its end.",
+      "technical_spec": "Memorable Onboarding and Logout Sequences",
+      "severity_score": 15
     }
   ]
 }

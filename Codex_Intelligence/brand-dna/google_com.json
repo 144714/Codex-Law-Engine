@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 291,
+    "rank": 301,
     "site": "google.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "58ab2b4beb90ee9d1826fa1c46a914d4"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "0f3e19ed3685441a15f73322d79e7c86"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Continuous evolution and implementation of cutting-edge technology.",
-      "technical_spec": "Research initiatives, technology acquisitions, and AI investments.",
-      "severity_score": 95
+      "title": "Simplicity and Speed",
+      "description": "Commitment to delivering quick, straightforward access to information.",
+      "technical_spec": "Consistent emphasis on lightweight design and performance optimization.",
+      "severity_score": 2
     },
     {
-      "title": "Simplicity",
-      "description": "Minimalist design for user-friendly interaction and efficiency.",
-      "technical_spec": "Simplified UI/UX design principles and clutter-free interfaces.",
-      "severity_score": 90
+      "title": "Innovation and Scale",
+      "description": "Continuous developments to support vast, scalable infrastructure solutions.",
+      "technical_spec": "Pioneers in big data processing, cloud services, and AI advancements.",
+      "severity_score": 3
+    },
+    {
+      "title": "User-Centricity",
+      "description": "Focuses on providing a seamless and intuitive experience to end-users.",
+      "technical_spec": "Regular user feedback integration through UX research and design testing.",
+      "severity_score": 2
+    },
+    {
+      "title": "Security First",
+      "description": "Prioritizes user privacy and security across all service platforms.",
+      "technical_spec": "Deployment of end-to-end encryption and stringent data protection protocols.",
+      "severity_score": 4
     },
     {
       "title": "Global Reach",
-      "description": "Service access and infrastructure are globally distributed.",
-      "technical_spec": "Numerous data centers and diverse language support.",
-      "severity_score": 94
-    },
-    {
-      "title": "Reliability",
-      "description": "Consistent service uptime and dependable performance across platforms.",
-      "technical_spec": "Robust backend systems, redundancy, and failovers.",
-      "severity_score": 96
-    },
-    {
-      "title": "Security",
-      "description": "Commitment to user data protection and privacy.",
-      "technical_spec": "Compliance with global security standards and privacy policies.",
-      "severity_score": 92
+      "description": "Ensures access and adaptability of services to diverse global audiences.",
+      "technical_spec": "Supports multiple languages and regional optimizations in services.",
+      "severity_score": 4
     }
   ]
 }

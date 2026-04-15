@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 296,
+    "rank": 306,
     "site": "netflix.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "81b9459faa5ca629965e2f3e580a7215"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "dab6daaf69af218916fc3100b2cc8aed"
   },
   "data": [
     {
-      "title": "Encryption",
-      "description": "Data encryption in transit and at rest to safeguard user data.",
-      "technical_spec": "TLS for data in transit and AES-256 for data at rest.",
-      "severity_score": 92
-    },
-    {
-      "title": "Identity and Access Management",
-      "description": "Robust IAM practices to control and monitor access to resources.",
-      "technical_spec": "Uses AWS IAM policies and SSO for centralized access control.",
-      "severity_score": 89
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Preventative measures to mitigate Distributed Denial of Service attacks.",
-      "technical_spec": "Employs AWS Shield and AWS WAF for comprehensive protection.",
-      "severity_score": 84
-    },
-    {
-      "title": "Threat Detection",
-      "description": "Systems in place to detect and respond to threats in real-time.",
-      "technical_spec": "Amazon GuardDuty and in-house threat detection algorithms.",
-      "severity_score": 87
+      "title": "Encryption Standards",
+      "description": "Netflix uses advanced encryption to protect user data both at rest and in transit.",
+      "technical_spec": "AES-256 and TLS 1.2 with strong cipher suites.",
+      "severity_score": 5
     },
     {
       "title": "Security Incident Response",
-      "description": "Dedicated team and systems for rapid response to security incidents.",
-      "technical_spec": "24/7 Security Operations Center (SOC) and automated alerts.",
-      "severity_score": 90
+      "description": "A dedicated team and protocol for responding to security incidents.",
+      "technical_spec": "Automated alert mechanisms and incident management playbooks.",
+      "severity_score": 20
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regular vulnerability scanning and patch management protocols.",
+      "technical_spec": "Utilizes both commercial tools and in-house systems for scanning.",
+      "severity_score": 10
+    },
+    {
+      "title": "DDoS Mitigation",
+      "description": "Strategies in place to protect against DDoS attacks on streaming services.",
+      "technical_spec": "Utilizes AWS Shield and edge server CDN enhancements.",
+      "severity_score": 15
+    },
+    {
+      "title": "Authentication and Authorization",
+      "description": "Strong user authentication mechanisms to safeguard account access.",
+      "technical_spec": "Multi-Factor Authentication (MFA) and OAuth 2.0.",
+      "severity_score": 10
     }
   ]
 }

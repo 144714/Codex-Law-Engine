@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 292,
+    "rank": 302,
     "site": "youtube.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "6ab7482b2828d4a903ed83d74f524d4e"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "5565b0a184c1c18d9eb35590c9e1f10c"
   },
   "data": [
     {
-      "title": "Content Moderation",
-      "description": "Automated systems are used to detect and remove harmful content.",
-      "technical_spec": "AI-driven algorithms scan uploaded videos for violations of community guidelines.",
-      "severity_score": 50
-    },
-    {
-      "title": "Authentication Protocols",
-      "description": "Robust authentication mechanisms protect user accounts.",
-      "technical_spec": "Two-factor authentication (2FA) and OAuth protocols secure user access.",
-      "severity_score": 30
+      "title": "Multi-Layer Authentication",
+      "description": "Advanced user authentication systems that offer multiple layers of security for accounts.",
+      "technical_spec": "Incorporates OAuth 2.0 and two-factor authentication methods.",
+      "severity_score": 20
     },
     {
       "title": "Data Encryption",
-      "description": "All data in transit and at rest is encrypted to protect user privacy.",
-      "technical_spec": "Uses TLS 1.3 for data in transit and AES-256 encryption for data stored at rest.",
+      "description": "Video and user data are encrypted in transit and at rest to prevent unauthorized access.",
+      "technical_spec": "TLS for transport encryption and AES for storage encryption.",
+      "severity_score": 10
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Robust distributed denial-of-service attack mitigation to maintain service availability.",
+      "technical_spec": "Uses traffic filtering and anomaly detection techniques to thwart DDoS attacks.",
+      "severity_score": 35
+    },
+    {
+      "title": "Content Moderation Algorithms",
+      "description": "Automated systems and machine learning algorithms for detecting and removing inappropriate content.",
+      "technical_spec": "AI-driven analysis and community flagging for enforcement.",
       "severity_score": 40
     },
     {
-      "title": "DDoS Mitigation",
-      "description": "Techniques are employed to mitigate distributed denial-of-service attacks.",
-      "technical_spec": "Advanced filters and rate limiting detect and block malicious traffic.",
-      "severity_score": 30
-    },
-    {
-      "title": "Bug Bounty Program",
-      "description": "Encourages ethical hackers to find and report security vulnerabilities.",
-      "technical_spec": "Rewards are given for discovering significant vulnerabilities in the platform.",
-      "severity_score": 20
+      "title": "Secure API Integration",
+      "description": "Allows third-party applications to safely interact with YouTube through secure APIs.",
+      "technical_spec": "API keys and quotas used to control access and usage.",
+      "severity_score": 25
     }
   ]
 }

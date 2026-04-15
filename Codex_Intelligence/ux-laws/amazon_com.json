@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 295,
+    "rank": 305,
     "site": "amazon.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "dff841c455a3a4a1eef7c6aa0cbb6321"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "a0b27d16317a8898b1ba57565e5a61cb"
   },
   "data": [
     {
-      "title": "Consistency",
-      "description": "Uniform design patterns and interactions across the platform to enhance user familiarity.",
-      "technical_spec": "Consistent navigation elements, color schemes, and font usage.",
-      "severity_score": 20
+      "title": "Hick’s Law",
+      "description": "Simplified decision-making paths to reduce user decision time.",
+      "technical_spec": "Clean UI with navigable categories and filters.",
+      "severity_score": 4
     },
     {
-      "title": "Feedback",
-      "description": "Timely and informative feedback is provided to actions performed by users.",
-      "technical_spec": "Load indicators, confirmations, and error messages used across platforms.",
-      "severity_score": 25
+      "title": "Fitts’s Law",
+      "description": "Clickable buttons and links that are appropriately sized for ease of access.",
+      "technical_spec": "Prominent call-to-action buttons within natural reach zones.",
+      "severity_score": 3
     },
     {
-      "title": "Navigability",
-      "description": "Efficient and logical navigation structure to facilitate user access to different sections.",
-      "technical_spec": "Use of mega-menus, contextual links, and easy-to-access search functionality.",
-      "severity_score": 15
+      "title": "Jakob’s Law",
+      "description": "Users prefer interfaces similar to the ones they are accustomed to.",
+      "technical_spec": "Design consistent with other popular e-commerce sites.",
+      "severity_score": 3
     },
     {
-      "title": "Credibility",
-      "description": "Establishing trust through secure and reliable design principles.",
-      "technical_spec": "Use of HTTPS, security badges, and transparent privacy policies.",
-      "severity_score": 30
+      "title": "Aesthetic-Usability Effect",
+      "description": "Attractive design leading users to perceive easier usability.",
+      "technical_spec": "High-quality images and a clean, modern interface.",
+      "severity_score": 2
     },
     {
-      "title": "Accessibility",
-      "description": "Accessible design practices to ensure usability for individuals with disabilities.",
-      "technical_spec": "Adherence to WCAG guidelines, screen reader compatibility, and keyboard navigation.",
-      "severity_score": 35
+      "title": "Peak-End Rule",
+      "description": "Designs focused on creating memorable key moments during the user journey.",
+      "technical_spec": "Highlighting deals and special offers prominently.",
+      "severity_score": 4
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 293,
+    "rank": 303,
     "site": "apple.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "ec267896bc8ed6b4aee8842639116b4d"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "07c3b438dc275a76cbf7091fbf71d8ce"
   },
   "data": [
     {
-      "title": "Innovative Design",
-      "description": "Commitment to revolutionary and aesthetically pleasing product design.",
-      "technical_spec": "Integration of high-resolution imagery and minimalist design concept reflective of product innovation.",
-      "severity_score": 98
+      "title": "Minimalist Design",
+      "description": "Defining a sleek and elegant aesthetic synonymous with the brand identity.",
+      "technical_spec": "Sparse Color Palette, Simplified UI",
+      "severity_score": 100
     },
     {
-      "title": "User-Centric Experience",
-      "description": "Design and functionality revolve around user needs and feedback.",
-      "technical_spec": "Engagement-driven improvements through regular user experience research and testing.",
-      "severity_score": 92
-    },
-    {
-      "title": "Privacy and Security",
-      "description": "A core value emphasizing the protection of user data and privacy.",
-      "technical_spec": "Privacy-focused features like secured data handling practices and transparency reports.",
+      "title": "High Performance",
+      "description": "Ensuring fast load times and seamless interaction, reflecting hardware efficiency.",
+      "technical_spec": "Optimized Code, Lazy Loading",
       "severity_score": 95
     },
     {
-      "title": "Environmental Responsibility",
-      "description": "Commitment to sustainability and environmentally friendly practices.",
-      "technical_spec": "Presentation of eco-friendly initiatives, product recycling, and energy-efficient operations.",
-      "severity_score": 85
+      "title": "Innovative Features",
+      "description": "Integrating cutting-edge technologies and designs ahead of industry trends.",
+      "technical_spec": "Augmented Reality, Machine Learning",
+      "severity_score": 90
     },
     {
-      "title": "Global Accessibility",
-      "description": "Ensuring global reachability and inclusivity of services.",
-      "technical_spec": "Multi-language support and accessibility features for diverse user bases.",
-      "severity_score": 90
+      "title": "User Privacy",
+      "description": "Committing to user privacy through strict data handling and transparency standards.",
+      "technical_spec": "Data Anonymization, User Control over Data",
+      "severity_score": 98
+    },
+    {
+      "title": "Ecosystem Integration",
+      "description": "Creating a cohesive user experience across devices and services.",
+      "technical_spec": "Seamless Continuity, Cross-Platform Sync",
+      "severity_score": 97
     }
   ]
 }

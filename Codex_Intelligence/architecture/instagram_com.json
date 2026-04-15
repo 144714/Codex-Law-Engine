@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 299,
+    "rank": 309,
     "site": "instagram.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "e3070fe5fc7a657ac6d3fe855f6f07b7"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "300e0dea9087188e1fdf0a35432076d7"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Instagram's infrastructure is built on a microservices architecture, allowing independent deployment and scaling of different components.",
-      "technical_spec": "Each service is a small, well-defined piece of functionality, enabling isolation and scalability.",
-      "severity_score": 30
+      "description": "Instagram employs a microservices architecture to handle various functionalities like user profiles, media sharing, and messaging.",
+      "technical_spec": "Implemented using frameworks like React Native for frontend and various microservices using Python/Django.",
+      "severity_score": 10
     },
     {
-      "title": "GraphQL API",
-      "description": "Instagram utilizes GraphQL to provide a flexible and efficient way to fetch data from its servers.",
-      "technical_spec": "GraphQL enables clients to request only the data they need and enables easier backend data management.",
-      "severity_score": 20
-    },
-    {
-      "title": "Data Storage Solutions",
-      "description": "A combination of SQL and NoSQL databases are used for handling diverse data types and storage needs.",
-      "technical_spec": "Relational databases for structured data; NoSQL for scalable and fast access to unstructured data.",
-      "severity_score": 25
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Load balancing strategies are in place to ensure smooth user experience and availability across servers.",
-      "technical_spec": "Distribution of incoming network traffic across multiple servers.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "Utilizes a CDN for faster load times and efficient content delivery across global locations.",
+      "technical_spec": "CDNs such as Akamai or Cloudflare to distribute static assets more effectively.",
       "severity_score": 15
     },
     {
-      "title": "CDN Usage",
-      "description": "Content Delivery Networks (CDNs) are used to deliver multimedia content efficiently to a global audience.",
-      "technical_spec": "Caches content closer to users, reducing latency and load times.",
+      "title": "Load Balancing",
+      "description": "Distributes network or application traffic across a number of servers to ensure no single server gets overwhelmed.",
+      "technical_spec": "AWS Elastic Load Balancing or similar solutions to manage incoming traffic.",
       "severity_score": 20
+    },
+    {
+      "title": "Database Sharding",
+      "description": "User data is separated across multiple database instances to optimize retrieval and scalability.",
+      "technical_spec": "Implemented using database solutions like PostgreSQL with sharding strategies.",
+      "severity_score": 25
+    },
+    {
+      "title": "GraphQL API",
+      "description": "Provides a flexible API interface allowing clients to request exactly the data they need.",
+      "technical_spec": "GraphQL endpoints manage interactions with the backend services.",
+      "severity_score": 30
     }
   ]
 }

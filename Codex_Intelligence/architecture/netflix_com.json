@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 296,
+    "rank": 306,
     "site": "netflix.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "4ea594ac21f837719272fc3459212ec2"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "472766fa293034ad466e4382b208ff1b"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Netflix utilizes a microservices architecture to break down its applications into small, independent services.",
-      "technical_spec": "Services communicate over REST APIs or gRPC. Backed by Kubernetes for scalability.",
-      "severity_score": 80
-    },
-    {
-      "title": "AWS Cloud Infrastructure",
-      "description": "Netflix runs its applications primarily on AWS, leveraging multiple AWS services for scalability and reliability.",
-      "technical_spec": "Utilizes EC2, S3, DynamoDB, and RDS with multi-region failover capabilities.",
-      "severity_score": 90
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "CDNs are used to distribute content globally for low-latency streaming.",
-      "technical_spec": "Leverages Open Connect, a custom-built CDN for efficient video streaming.",
-      "severity_score": 85
+      "title": "Microservices Architecture",
+      "description": "Netflix employs a microservices architecture to enhance scalability and resilience.",
+      "technical_spec": "Docker, Kubernetes, and Amazon Web Services (AWS) utilized for deployment.",
+      "severity_score": 10
     },
     {
       "title": "Chaos Engineering",
-      "description": "Techniques used to ensure system reliability by simulating failures.",
-      "technical_spec": "Tools like Chaos Monkey introduce controlled failures to test resilience.",
-      "severity_score": 75
+      "description": "The architecture includes chaos engineering practices to ensure robustness.",
+      "technical_spec": "Simian Army tools used to randomly terminate instances to ensure fault tolerance.",
+      "severity_score": 20
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Netflix uses a global CDN infrastructure to deliver content efficiently.",
+      "technical_spec": "Netflix Open Connect, custom CDNs placed at ISPs around the world.",
+      "severity_score": 5
+    },
+    {
+      "title": "Adaptive Streaming",
+      "description": "Ensures smooth video playback by adjusting bitrate based on network conditions.",
+      "technical_spec": "Uses HTTP Live Streaming (HLS) protocol.",
+      "severity_score": 15
     },
     {
       "title": "Data Pipeline",
-      "description": "Sophisticated data processing pipeline to power recommendations and analytics.",
-      "technical_spec": "Incorporates Apache Kafka, Spark, and Hadoop for real-time data processing.",
-      "severity_score": 88
+      "description": "Processes billions of session starts a day, supporting complex data analytics.",
+      "technical_spec": "Kafka, Flink, and other big data tools.",
+      "severity_score": 15
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 293,
+    "rank": 303,
     "site": "apple.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "cfe7c0c35acbbe69fa7d66966b798182"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "582f164f0bf24fdd7383ee337e1d7956"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Minimizes the time required for users to make decisions by reducing complexity.",
-      "technical_spec": "Implemented through simplified navigation menus and reduced cognitive load.",
+      "title": "Hick’s Law",
+      "description": "Simplifying user decision-making by reducing choices at any given point.",
+      "technical_spec": "Minimalistic Design, Focused Navigation",
       "severity_score": 75
     },
     {
-      "title": "Fitts' Law",
-      "description": "Optimizes button size and spacing for faster interaction.",
-      "technical_spec": "Call-to-action elements strategically placed for ease of access via touch or cursor.",
+      "title": "Fitts’s Law",
+      "description": "Designing for efficient interaction by considering the size and distance of clickable elements.",
+      "technical_spec": "Larger Buttons, Edge Placement",
       "severity_score": 80
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related elements together to improve readability and user comprehension.",
-      "technical_spec": "Utilizes proximity principles within layout templates to enhance the logical flow.",
-      "severity_score": 70
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Maintains cognitive chunking of content to keep user focus.",
-      "technical_spec": "Instructional content presented in easily digestible chunks, adhering to the 7±2 rule.",
-      "severity_score": 78
-    },
-    {
-      "title": "Pareto Principle",
-      "description": "Enhancing key features that provide most of the user value.",
-      "technical_spec": "Focusing development resources on high-usage features, leveraging analytics for prioritization.",
+      "title": "Gestalt Principles",
+      "description": "Creating visual coherence through principles like proximity, similarity, and continuity.",
+      "technical_spec": "Consistent Grid System, Element Grouping",
       "severity_score": 85
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Limiting the amount of information presented at once to enhance comprehension and retention.",
+      "technical_spec": "Chunking Information, Visual Hierarchy",
+      "severity_score": 83
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Users spend most of their time on other sites and prefer your site to work the same way.",
+      "technical_spec": "Adopting Common UI Patterns, Consistency",
+      "severity_score": 90
     }
   ]
 }

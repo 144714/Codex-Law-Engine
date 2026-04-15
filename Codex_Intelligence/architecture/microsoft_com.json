@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 294,
+    "rank": 304,
     "site": "microsoft.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "275f6313c9f3bf2236ae06ed4b5faee8"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "1c337590f1885b0f6fa3f48cf81941ab"
   },
   "data": [
     {
-      "title": "Cloud Infrastructure",
-      "description": "Use of Azure cloud services for hosting and scalability.",
-      "technical_spec": "Azure VMs, Azure App Services, Azure Load Balancer",
-      "severity_score": 95
+      "title": "Cloud-First Strategy",
+      "description": "Microsoft's architectural approach prioritizes cloud services for scalability and flexibility.",
+      "technical_spec": "Azure Integration, Microservices, Kubernetes",
+      "severity_score": 5
     },
     {
-      "title": "Microservices Architecture",
-      "description": "Decoupled microservices to allow independent deployment and scaling.",
-      "technical_spec": "Docker, Kubernetes, Azure Kubernetes Service",
-      "severity_score": 90
+      "title": "Service-Oriented Architecture",
+      "description": "Focus on modular components that provide services across the organization.",
+      "technical_spec": "SOAP, RESTful APIs, HTTP/2",
+      "severity_score": 10
     },
     {
-      "title": "Serverless Computing",
-      "description": "Integration of serverless computing for event-driven tasks.",
-      "technical_spec": "Azure Functions, Logic Apps",
-      "severity_score": 80
+      "title": "Cross-Platform Compatibility",
+      "description": "Ensures applications work seamlessly across different devices and operating systems.",
+      "technical_spec": "Xamarin, .NET Core, Progressive Web Apps",
+      "severity_score": 15
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Utilization of CDN for fast global content delivery.",
-      "technical_spec": "Azure CDN, Akamai, Cloudflare",
-      "severity_score": 85
+      "title": "Decentralized Data Management",
+      "description": "Data handling strategy emphasizing localized data processing to improve latency and reliability.",
+      "technical_spec": "Azure Cosmos DB, Data Lakes, Edge Computing",
+      "severity_score": 20
     },
     {
-      "title": "Relational Database Services",
-      "description": "Use of managed relational databases for data storage and retrieval.",
-      "technical_spec": "Azure SQL Database, Cosmos DB",
-      "severity_score": 88
+      "title": "Continuous Integration/Continuous Deployment",
+      "description": "Automated CI/CD pipelines for faster and more reliable software delivery.",
+      "technical_spec": "Azure DevOps, Jenkins, GitHub Actions",
+      "severity_score": 10
     }
   ]
 }

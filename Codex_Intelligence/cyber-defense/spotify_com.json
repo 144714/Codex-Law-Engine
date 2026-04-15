@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 297,
+    "rank": 307,
     "site": "spotify.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "4215c991126cc6f0487f556c48d60d39"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "07a9d47231f6a476f01964199118fa3e"
   },
   "data": [
     {
       "title": "End-to-End Encryption",
-      "description": "Spotify uses encryption to protect data integrity and privacy as it travels over networks.",
-      "technical_spec": "TLS/SSL protocols are implemented for secure data transmission.",
-      "severity_score": 95
+      "description": "Spotify encrypts user data in transit to protect privacy.",
+      "technical_spec": "Utilizes TLS/SSL protocols for secure communications.",
+      "severity_score": 30
     },
     {
-      "title": "User Authentication",
-      "description": "Secure user authentication processes are in place to prevent unauthorized access.",
-      "technical_spec": "OAuth 2.0 and multi-factor authentication are used.",
-      "severity_score": 90
+      "title": "Access Control",
+      "description": "Strict access control policies to limit access to critical data.",
+      "technical_spec": "Role-based access control (RBAC) ensuring only authorized access.",
+      "severity_score": 45
     },
     {
-      "title": "Security Monitoring",
-      "description": "Active monitoring of network and systems to detect and respond to security threats promptly.",
-      "technical_spec": "Uses SIEM tools for real-time threat analysis and response.",
-      "severity_score": 88
+      "title": "Threat Detection",
+      "description": "Continuous monitoring for suspicious activities and anomalies.",
+      "technical_spec": "Implements SIEM systems for real-time analysis.",
+      "severity_score": 50
     },
     {
-      "title": "Data Privacy Controls",
-      "description": "Policies and technologies implement to protect user data and comply with privacy regulations.",
-      "technical_spec": "GDPR compliance measures and user data anonymization techniques are employed.",
-      "severity_score": 85
+      "title": "Patch Management",
+      "description": "Regular updates and patches to fix vulnerabilities.",
+      "technical_spec": "Automated patch management systems in place for rapid response.",
+      "severity_score": 40
     },
     {
-      "title": "Automated Patching Systems",
-      "description": "Automated systems for keeping all software components up to date with latest security patches.",
-      "technical_spec": "DevSecOps practices with CI/CD pipelines for continuous updates.",
-      "severity_score": 80
+      "title": "Data Breach Response",
+      "description": "Comprehensive strategy for handling data breaches promptly.",
+      "technical_spec": "Incident response teams and predefined processes to mitigate damage.",
+      "severity_score": 60
     }
   ]
 }

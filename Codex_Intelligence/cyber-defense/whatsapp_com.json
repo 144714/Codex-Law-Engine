@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 300,
+    "rank": 310,
     "site": "whatsapp.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "1218715b1051df3689cf93f82ee1eb75"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "ec605a601c87228115bbb1f362767153"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Provides an additional security layer via two-factor authentication.",
-      "technical_spec": "Optional feature requiring a PIN along with the standard login credentials.",
-      "severity_score": 60
+      "title": "Data Encryption",
+      "description": "End-to-end encryption ensures that only you and the person you're communicating with can read what is sent.",
+      "technical_spec": "Utilizes Signal Protocol for message encryption.",
+      "severity_score": 30
     },
     {
-      "title": "Security Patches and Updates",
-      "description": "Regular updates to address vulnerabilities and improve security.",
-      "technical_spec": "Patches for server-side and client-side components are released frequently.",
-      "severity_score": 85
+      "title": "Two-Step Verification",
+      "description": "Additional layer of security to protect user accounts.",
+      "technical_spec": "Requires a six-digit passcode for verification.",
+      "severity_score": 40
     },
     {
-      "title": "Anti-Spam Algorithms",
-      "description": "Implements algorithms to detect and mitigate spam and abuse.",
-      "technical_spec": "Uses machine learning to identify suspicious patterns in messaging.",
-      "severity_score": 65
+      "title": "Fraud Detection Systems",
+      "description": "Automated systems to detect and prevent spam and fraudulent activities.",
+      "technical_spec": "Machine learning algorithms monitor message patterns to identify malicious activities.",
+      "severity_score": 35
     },
     {
-      "title": "Encrypted Backup Options",
-      "description": "Support for encrypted backups of chat histories.",
-      "technical_spec": "End-to-end encrypted backups are available via cloud services.",
-      "severity_score": 75
+      "title": "Regular Security Audits",
+      "description": "Security teams conduct regular audits and vulnerability assessments.",
+      "technical_spec": "Follows OWASP guidelines and uses penetration testing for validation.",
+      "severity_score": 22
     },
     {
-      "title": "User Report Mechanism",
-      "description": "Users can report spam or abusive content directly within the app.",
-      "technical_spec": "In-app mechanism for reporting with an optional forwarding of recent message history to the support team.",
-      "severity_score": 70
+      "title": "Server-Side Security",
+      "description": "Multiple layers of security on the server side.",
+      "technical_spec": "Firewalls, intrusion detection systems, and regular patch management.",
+      "severity_score": 28
     }
   ]
 }

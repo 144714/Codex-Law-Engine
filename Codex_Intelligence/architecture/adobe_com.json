@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 298,
+    "rank": 308,
     "site": "adobe.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "022698b69b35b311f9855dbd0a591a11"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "5c373b0b598009d3b3faae6b3183b38b"
   },
   "data": [
     {
       "title": "Microservices Structure",
-      "description": "Adobe employs a microservices architecture allowing independent deployment and scaling of services.",
-      "technical_spec": "Loosely coupled services, each with distinct functionalities.",
-      "severity_score": 20
-    },
-    {
-      "title": "Cloud-Native Approach",
-      "description": "Adobe's services are designed to leverage cloud environments for scalability.",
-      "technical_spec": "Use of containerization and orchestration tools.",
-      "severity_score": 25
-    },
-    {
-      "title": "Content Delivery Network",
-      "description": "Utilizes CDNs to ensure rapid delivery of content globally.",
-      "technical_spec": "Edge servers spread across key geographic locations.",
-      "severity_score": 15
-    },
-    {
-      "title": "API-First Design",
-      "description": "Design prioritizing APIs for integration and interoperability.",
-      "technical_spec": "RESTful and GraphQL API standards used.",
+      "description": "Adobe operates on a microservices architecture, allowing for independent deployment and scaling of services.",
+      "technical_spec": "Docker, Kubernetes, RESTful services",
       "severity_score": 30
     },
     {
-      "title": "Data-Driven Architecture",
-      "description": "Systems are built to process and analyze large volumes of data efficiently.",
-      "technical_spec": "NoSQL databases and real-time data streaming.",
-      "severity_score": 40
+      "title": "Cloud Infrastructure",
+      "description": "Adobe utilizes cloud services for resilient operations and storage.",
+      "technical_spec": "AWS, Azure integration",
+      "severity_score": 25
+    },
+    {
+      "title": "Load Balancing",
+      "description": "The site uses load balancing to ensure uptime and handle traffic peaks.",
+      "technical_spec": "Nginx, HAProxy",
+      "severity_score": 20
+    },
+    {
+      "title": "CDN Utilization",
+      "description": "Content Delivery Network is used to enhance performance and reduce latency.",
+      "technical_spec": "Akamai CDN",
+      "severity_score": 15
+    },
+    {
+      "title": "Monolithic Legacy Components",
+      "description": "Some legacy systems still remain in a monolithic form.",
+      "technical_spec": "Java EE, .NET",
+      "severity_score": 45
     }
   ]
 }

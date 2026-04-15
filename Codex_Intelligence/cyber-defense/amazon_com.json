@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 295,
+    "rank": 305,
     "site": "amazon.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "b981acd39558b7bbd5adfa0256ea16c0"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "c35d5b55e8bb1c0ed86c40ccbb690c29"
   },
   "data": [
     {
-      "title": "DDoS Protection",
-      "description": "Amazon services are equipped with protection against Distributed Denial of Service attacks.",
-      "technical_spec": "Integration with AWS Shield for DDoS mitigation strategies.",
-      "severity_score": 40
+      "title": "Data Encryption",
+      "description": "Strong encryption is used for data at rest and in transit to protect customer data.",
+      "technical_spec": "TLS for data in transit, AES-256 for data at rest.",
+      "severity_score": 2
     },
     {
       "title": "Identity and Access Management",
-      "description": "Robust identity management controls to ensure proper access levels.",
-      "technical_spec": "Use of AWS IAM to manage permissions and control user access.",
-      "severity_score": 35
+      "description": "Robust IAM policies control user access and permissions.",
+      "technical_spec": "AWS IAM roles, policies, and MFA.",
+      "severity_score": 3
     },
     {
-      "title": "Encryption at Rest and In Transit",
-      "description": "Data is encrypted both at rest and in transit to ensure data confidentiality.",
-      "technical_spec": "Utilization of encryption standards and key management services like AWS KMS.",
-      "severity_score": 30
+      "title": "Threat Detection and Monitoring",
+      "description": "Constant monitoring for suspicious activity to quickly respond to threats.",
+      "technical_spec": "AWS GuardDuty, CloudWatch, and CloudTrail.",
+      "severity_score": 3
     },
     {
-      "title": "Security Monitoring and Logging",
-      "description": "Continuous monitoring of networks and systems for anomalies and potential threats.",
-      "technical_spec": "Use of services like AWS CloudTrail and CloudWatch for logging and analysis.",
-      "severity_score": 25
+      "title": "DDoS Protection",
+      "description": "Systems in place to mitigate distributed denial-of-service attacks.",
+      "technical_spec": "AWS Shield and AWS WAF.",
+      "severity_score": 3
     },
     {
-      "title": "End-user Security Practices",
-      "description": "Implementation of security features and user education to protect end-users.",
-      "technical_spec": "Features include multi-factor authentication and regular user training.",
-      "severity_score": 45
+      "title": "Incident Response Plan",
+      "description": "Well-defined protocols to quickly address and manage incidents.",
+      "technical_spec": "Defined escalation paths and response protocols.",
+      "severity_score": 2
     }
   ]
 }

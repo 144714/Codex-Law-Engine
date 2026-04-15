@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 297,
+    "rank": 307,
     "site": "spotify.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "0daa0d6e13138b6f38598f5afd12d018"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "49e4f0ac4e6533efb92836617943ea7e"
   },
   "data": [
     {
-      "title": "Innovative Listening Experience",
-      "description": "Commitment to deliver a revolutionary music streaming experience through innovative features.",
-      "technical_spec": "Features like Discover Weekly and Release Radar for personalized listening.",
-      "severity_score": 25
+      "title": "Music Discovery",
+      "description": "Focus on enabling users to discover new music effortlessly.",
+      "technical_spec": "Algorithms for personalized playlists and recommendations.",
+      "severity_score": 5
     },
     {
-      "title": "Global Community of Music Lovers",
-      "description": "Building a diverse global community connected through music.",
-      "technical_spec": "Collaborations with artists worldwide and global content curation.",
-      "severity_score": 30
+      "title": "Cross-Platform Experience",
+      "description": "Consistent user experience across devices and platforms.",
+      "technical_spec": "Native desktop, web, and mobile applications seamlessly integrated.",
+      "severity_score": 8
     },
     {
-      "title": "Accessibility and Inclusivity",
-      "description": "Ensures music is accessible to everyone, everywhere.",
-      "technical_spec": "Availability in multiple languages and platforms including web, iOS, Android, and more.",
-      "severity_score": 20
+      "title": "Social Connectivity",
+      "description": "Emphasizes social interaction and sharing capabilities.",
+      "technical_spec": "Features like shared playlists and social media integrations.",
+      "severity_score": 7
     },
     {
-      "title": "Simplicity and Elegance",
-      "description": "Products are designed to be simple and elegant for the best user interaction.",
-      "technical_spec": "Streamlined user interface with focus on ease of use and aesthetic appeal.",
-      "severity_score": 18
+      "title": "Innovation and Adaptability",
+      "description": "Continuous improvement and adaptation to changing market demands.",
+      "technical_spec": "Regular updates introducing new features and services.",
+      "severity_score": 6
     },
     {
-      "title": "Sustainability and Social Impact",
-      "description": "Dedicated to sustainability and fostering positive societal impacts.",
-      "technical_spec": "Initiatives like Greenroom and collaborations supporting sustainable projects.",
-      "severity_score": 28
+      "title": "Brand Identity",
+      "description": "Strong brand presence with a recognizable logo and color scheme.",
+      "technical_spec": "Uses distinct visual and tonal branding across all materials.",
+      "severity_score": 3
     }
   ]
 }

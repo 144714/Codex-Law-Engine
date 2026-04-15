@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 292,
+    "rank": 302,
     "site": "youtube.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "25de449f28d90c2c29d55a5121085b06"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "8900cb080b1fcd71978c34184635d280"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Simplifies navigation to reduce decision-making time for users.",
-      "technical_spec": "Menus and choices are optimized to prevent user overload.",
+      "description": "Simplified user interface helps reduce the complexity and time required for user decision-making.",
+      "technical_spec": "Minimal interface designs and intuitive navigation paths.",
       "severity_score": 15
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Designs for touch targets are optimized to improve accessibility.",
-      "technical_spec": "Interactive elements are suitably sized and positioned for quick access.",
+      "title": "Fitts’ Law",
+      "description": "Target size and distance are optimized to facilitate quicker user interactions and improve engagement.",
+      "technical_spec": "Key interactive elements are appropriately sized and placed for optimal accessibility.",
       "severity_score": 20
     },
     {
       "title": "Miller’s Law",
-      "description": "Limits the amount of content displayed to enhance user memory retention.",
-      "technical_spec": "The amount of information presented per screen is capped to prevent cognitive overload.",
+      "description": "Design accommodates short-term memory limitations by organizing information into chunks.",
+      "technical_spec": "Clear segmentation of information in lists, playlists, and user suggestions.",
       "severity_score": 10
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visual design is used to increase user perception of usability.",
-      "technical_spec": "The interface uses consistent color schemes and typography for a pleasing aesthetic.",
-      "severity_score": 15
+      "title": "Aesthetic Usability Effect",
+      "description": "A visually pleasing interface is designed to improve perceived usability and user satisfaction.",
+      "technical_spec": "Consistent color schemes, typography, and layout designs.",
+      "severity_score": 10
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Familiar design patterns are used to leverage users’ existing knowledge.",
-      "technical_spec": "Navigation and structure resemble other sites users frequent.",
-      "severity_score": 10
+      "title": "Serial Position Effect",
+      "description": "Content presentation leverages primacy and recency by positioning important information first or last.",
+      "technical_spec": "Video recommendations and play queues are ordered for maximum impact.",
+      "severity_score": 25
     }
   ]
 }

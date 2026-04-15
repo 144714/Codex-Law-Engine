@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 296,
+    "rank": 306,
     "site": "netflix.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "b5f437e393272ec7fc0b88b9c949ed4e"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "652727f2ab3ce7cc8d7b4acaa69a2427"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplification of user decisions to enhance content selection.",
-      "technical_spec": "Limit primary interactions to a few choices on the homepage.",
-      "severity_score": 70
+      "title": "Hick’s Law",
+      "description": "The interface minimizes choices to improve decision-making speed.",
+      "technical_spec": "Simplified navigation with categorized browsing options.",
+      "severity_score": 5
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Design for easy and quick interactions to reduce user friction.",
-      "technical_spec": "Large, easily clickable buttons and controls for play/pause.",
-      "severity_score": 68
+      "title": "Fitts' Law",
+      "description": "Interactive elements are placed within easy reach to enhance usability.",
+      "technical_spec": "Responsive design elements and easily clickable buttons.",
+      "severity_score": 5
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Constant engagement in line with users’ cognitive capacity.",
+      "technical_spec": "Recommendation engine designed to limit choice to 7-10 options.",
+      "severity_score": 10
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Creating an aesthetically pleasing interface to improve usability.",
-      "technical_spec": "Clean, modern UI with high-quality visuals and consistent design language.",
-      "severity_score": 75
+      "description": "Visually appealing design to improve perceived usability.",
+      "technical_spec": "Use of high-quality images and intuitive layouts.",
+      "severity_score": 2
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Optimizing for peaks and ends of user experiences.",
-      "technical_spec": "Engaging introductions to new content and personalized recommendations.",
-      "severity_score": 72
-    },
-    {
-      "title": "Jakob’s Law of Internet User Experience",
-      "description": "Leveraging familiar design patterns for smoother navigation and interaction.",
-      "technical_spec": "Standardized menu placement and intuitive navigation paths.",
-      "severity_score": 77
+      "title": "Serial Position Effect",
+      "description": "Key recommendations are strategically placed for optimal recall.",
+      "technical_spec": "Content highlighted based on user preferences and viewing history.",
+      "severity_score": 8
     }
   ]
 }

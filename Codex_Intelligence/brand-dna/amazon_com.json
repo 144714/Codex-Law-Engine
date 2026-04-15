@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 295,
+    "rank": 305,
     "site": "amazon.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "f5c4299a574d99789b73813f860aa958"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "ae9c71033b5cde891b93b6c0bde0cc4a"
   },
   "data": [
     {
-      "title": "Customer Obsession",
-      "description": "Placing the customer at the center of all innovations and developments.",
-      "technical_spec": "Data-driven decisions and customer feedback loops integrated in development.",
-      "severity_score": 10
+      "title": "Customer Centricity",
+      "description": "Amazon's core philosophy is to prioritize customer satisfaction and service.",
+      "technical_spec": "Easily accessible customer support and feedback systems.",
+      "severity_score": 5
+    },
+    {
+      "title": "Innovation and Adaptability",
+      "description": "Continuous improvement and adaptation to new technologies and market demands.",
+      "technical_spec": "Integration of AI, machine learning, and automation.",
+      "severity_score": 4
     },
     {
       "title": "Operational Excellence",
-      "description": "Commitment to high operational standards to efficiently deliver services.",
-      "technical_spec": "Regular audits, benchmarking, and process improvements.",
-      "severity_score": 15
+      "description": "Strong focus on efficiency and effectiveness in operations.",
+      "technical_spec": "Optimized supply chain and logistics operations.",
+      "severity_score": 4
     },
     {
-      "title": "Innovation",
-      "description": "Enhancing user experience and operational efficiency through continuous innovation.",
-      "technical_spec": "Investment in R&D, adoption of emerging technologies, and fostering a culture of innovation.",
-      "severity_score": 20
+      "title": "Diversity and Inclusion",
+      "description": "Commitment to a diverse and inclusive workplace and approach.",
+      "technical_spec": "Initiatives and policies supporting diversity.",
+      "severity_score": 3
     },
     {
       "title": "Sustainability",
-      "description": "Commitment to sustainable practices to mitigate environmental impact.",
-      "technical_spec": "Initiatives for renewable energy use and carbon footprint reduction.",
-      "severity_score": 25
-    },
-    {
-      "title": "Leadership Principles",
-      "description": "Guided by leadership principles that emphasize high standards and accountability.",
-      "technical_spec": "Principles like 'Invent and Simplify', 'Deliver Results', and 'Dive Deep'.",
-      "severity_score": 30
+      "description": "Efforts towards reducing carbon footprint and promoting sustainability.",
+      "technical_spec": "Investments in renewable energy and eco-friendly packaging.",
+      "severity_score": 3
     }
   ]
 }

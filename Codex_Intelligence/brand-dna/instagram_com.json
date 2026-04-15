@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 299,
+    "rank": 309,
     "site": "instagram.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "f5c279184ab8d53cd7103807bea8ad59"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "6bf6643aabdc60386c2aea064f068c5a"
   },
   "data": [
     {
-      "title": "Visual Storytelling",
-      "description": "Instagram focuses on visual content, emphasizing images and videos as the core of user interaction.",
-      "technical_spec": "Features support creation and sharing of high-quality visual media.",
+      "title": "Community Focus",
+      "description": "Prioritizing community engagement and interactivity as core values.",
+      "technical_spec": "Features like Stories, Reels, and IGTV designed to boost interaction.",
       "severity_score": 10
     },
     {
-      "title": "Community Engagement",
-      "description": "Instagram fosters a sense of community through features that promote interaction and collaboration.",
-      "technical_spec": "Likes, comments, direct messaging, and story shares are key engagement tools.",
+      "title": "Visual Storytelling",
+      "description": "Encouraging users to share their experiences visually through photos and videos.",
+      "technical_spec": "Advanced image editing and sharing tools to enhance visual content.",
       "severity_score": 15
     },
     {
-      "title": "Innovative Features",
-      "description": "The platform consistently introduces new functionalities to maintain user interest and engagement.",
-      "technical_spec": "Features like Reels and Stories innovate the way users share content.",
+      "title": "Trendsetting",
+      "description": "Maintaining a focus on innovation to set and catch trends faster than competitors.",
+      "technical_spec": "Agile development methodologies to quickly roll out new features.",
       "severity_score": 20
     },
     {
-      "title": "User-Driven Content",
-      "description": "Content is primarily user-generated, which helps maintain authenticity and personalization.",
-      "technical_spec": "Tools for easy content creation and sharing empower users to contribute regularly.",
+      "title": "Instant Connectivity",
+      "description": "Providing users with the tools to connect instantly with friends, brands, and influencers.",
+      "technical_spec": "Real-time messaging and notifications system integration.",
       "severity_score": 25
     },
     {
-      "title": "Influencer Collaboration",
-      "description": "Instagram facilitates partnerships between brands and influencers, boosting marketing effectiveness.",
-      "technical_spec": "Insight tools and collaboration features for sponsored content and partnerships.",
-      "severity_score": 18
+      "title": "User Privacy",
+      "description": "Commitment to protecting user information and providing control over personal data.",
+      "technical_spec": "Privacy settings and controls empowering users to manage their data.",
+      "severity_score": 30
     }
   ]
 }

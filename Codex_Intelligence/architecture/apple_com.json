@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 293,
+    "rank": 303,
     "site": "apple.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "61ea531321fb5d96263c1838e341a131"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "b7d6151bbfdbcaaa74bfec686d54b0fa"
   },
   "data": [
     {
-      "title": "Microservices Structure",
-      "description": "Apple's website architecture utilizes a microservices framework to enable modular development and rapid updates.",
-      "technical_spec": "Decomposed services connected through REST APIs with deployment using container orchestration platforms like Kubernetes.",
-      "severity_score": 90
+      "title": "Progressive Web App Integration",
+      "description": "Implementing PWA allows better offline functionality and app-like interactions.",
+      "technical_spec": "HTML5, Service Workers, Web App Manifest",
+      "severity_score": 80
     },
     {
-      "title": "Responsive Design",
-      "description": "The site employs responsive design to ensure seamless performance across devices.",
-      "technical_spec": "Implemented with CSS media queries and flexible grids, ensuring UI consistency from desktop to mobile.",
+      "title": "Microservices Architecture",
+      "description": "Decomposition of website functionalities into smaller, independent services to improve scalability.",
+      "technical_spec": "REST APIs, Containerization (Docker), Kubernetes",
+      "severity_score": 70
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Using CDNs to enhance load times worldwide by distributing content through multiple servers.",
+      "technical_spec": "Akamai Technologies, HTTPS secure delivery",
       "severity_score": 85
     },
     {
-      "title": "Content Delivery Network",
-      "description": "Global content distribution to enhance page load speed and performance.",
-      "technical_spec": "Utilizes advanced CDN services like Akamai to cache and deliver content closer to users.",
-      "severity_score": 75
+      "title": "Responsive Design",
+      "description": "Creating a fluid and adaptive layout for optimal viewing experience across various devices.",
+      "technical_spec": "CSS3 Grid, Flexbox, Media Queries",
+      "severity_score": 95
     },
     {
-      "title": "Progressive Enhancement",
-      "description": "Progressive enhancement strategy ensures essential content is accessible regardless of browser capability.",
-      "technical_spec": "Implementation focuses on delivering core features first, layered with advanced functionalities.",
-      "severity_score": 65
-    },
-    {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "Dynamic scaling of computational resources to handle variable loads.",
-      "technical_spec": "Built on cloud platforms enabling elasticity, such as AWS or Apple-specific solutions.",
-      "severity_score": 80
+      "title": "Server-Side Rendering (SSR)",
+      "description": "Improving SEO and initial load performance by rendering pages on the server.",
+      "technical_spec": "Node.js, Next.js",
+      "severity_score": 90
     }
   ]
 }

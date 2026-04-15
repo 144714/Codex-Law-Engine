@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 295,
+    "rank": 305,
     "site": "amazon.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "61f6d530c6f62235ee5cc9bb5d29573e"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "da2302541a784e172b41524422b27600"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Amazon employs a microservices architecture, enabling independent development, deployment, and scaling.",
-      "technical_spec": "Multiple loosely coupled services, each responsible for a specific business function.",
-      "severity_score": 10
-    },
-    {
-      "title": "AWS Cloud Infrastructure",
-      "description": "Amazon uses its own AWS infrastructure to host its platform, ensuring resiliency and scalability.",
-      "technical_spec": "Utilization of AWS services like EC2, S3, and RDS for hosting and storage.",
+      "title": "Microservices",
+      "description": "Amazon employs a microservices architecture, allowing different services to operate independently.",
+      "technical_spec": "Decomposed services communicating through APIs, usually RESTful or gRPC.",
       "severity_score": 5
     },
     {
-      "title": "Global Content Delivery Network",
-      "description": "Amazon uses a global CDN to provide fast and reliable content delivery worldwide.",
-      "technical_spec": "Edge locations and distribution strategies to cache content closer to users.",
-      "severity_score": 15
+      "title": "Scalable Infrastructure",
+      "description": "AWS provides a scalable and elastic infrastructure to handle demand fluctuations.",
+      "technical_spec": "Auto-scaling groups, load balancers, and serverless solutions like AWS Lambda.",
+      "severity_score": 3
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Events trigger system responses, enabling real-time data processing and high responsiveness.",
-      "technical_spec": "Integration of messaging systems like SNS and SQS for event handling.",
-      "severity_score": 20
+      "title": "Distributed Databases",
+      "description": "Utilizes distributed databases for effective data storage and retrieval.",
+      "technical_spec": "Amazon DynamoDB, RDS and S3 for scalable and reliable data storage.",
+      "severity_score": 4
     },
     {
-      "title": "Data Lake Architecture",
-      "description": "A centralized repository stores all structured and unstructured data at scale.",
-      "technical_spec": "Use of services like Amazon Redshift and AWS Lake Formation for data management.",
-      "severity_score": 25
+      "title": "Content Delivery Network",
+      "description": "Global CDN ensures low latency and high transfer speeds for content distribution.",
+      "technical_spec": "Amazon CloudFront with edge locations around the globe.",
+      "severity_score": 2
+    },
+    {
+      "title": "Service-Oriented Architectures (SOA)",
+      "description": "Loose coupling and high cohesion, which enhances flexibility and scalability.",
+      "technical_spec": "Services published via APIs; uses AWS API Gateway.",
+      "severity_score": 4
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 292,
+    "rank": 302,
     "site": "youtube.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "82283ebbe42661862e3958534ec3ad7e"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "d14a3dc9653054d5c7c00893c8006ead"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "YouTube employs a microservices architecture to enhance scalability and flexibility.",
-      "technical_spec": "Each component, such as video encoding, recommendations, and user management, operates as an independent service.",
+      "title": "Microservices architecture",
+      "description": "YouTube uses a highly modular architecture with multiple services handling various tasks such as video playback, recommendation engine, and user authentication.",
+      "technical_spec": "Services are typically containerized and deployed using Kubernetes.",
       "severity_score": 20
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "CDNs are critical for reducing latency and ensuring fast video streaming worldwide.",
-      "technical_spec": "YouTube utilizes multiple CDNs to distribute its content closer to users.",
-      "severity_score": 10
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Load balancers distribute incoming traffic across multiple servers to ensure availability.",
-      "technical_spec": "Global load balancers are used to manage the distribution of user requests.",
+      "description": "A global CDN is used to ensure fast video delivery by caching content at edge servers close to users.",
+      "technical_spec": "Integration with popular CDN providers, employing strategies like edge caching.",
       "severity_score": 15
     },
     {
-      "title": "Data Storage",
-      "description": "YouTube relies on distributed databases and object storage systems for data management.",
-      "technical_spec": "Systems like Bigtable and Google Cloud Storage store vast amounts of user data and video files.",
+      "title": "Data Storage Solutions",
+      "description": "YouTube utilizes systems like Bigtable and Spanner for scalable storage solutions capable of handling vast amounts of video data.",
+      "technical_spec": "Combines both SQL and NoSQL approaches for data throughput and consistency.",
       "severity_score": 25
     },
     {
-      "title": "Frontend Frameworks",
-      "description": "Frontend utilizes modern web technologies for dynamic and responsive UI.",
-      "technical_spec": "YouTube leverages frameworks like Polymer and LitElement to deliver user interfaces.",
-      "severity_score": 10
+      "title": "Load Balancing",
+      "description": "Sophisticated load balancing techniques ensure stability and responsiveness, distributing user requests efficiently.",
+      "technical_spec": "Utilizes both hardware and software load balancers to balance incoming traffic across multiple servers.",
+      "severity_score": 30
+    },
+    {
+      "title": "Scalable Video Encoding",
+      "description": "Efficient video encoding processes that allow for scalable uploads and adaptive streaming.",
+      "technical_spec": "Use of codecs like VP9, AV1 to optimize bitrate and quality.",
+      "severity_score": 35
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 299,
+    "rank": 309,
     "site": "instagram.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "471e7b10ae3fe166e7d9bd8b69397b21"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "5133f449423d36d682f03b780e78f9f2"
   },
   "data": [
     {
-      "title": "Multifactor Authentication",
-      "description": "Instagram supports multifactor authentication to enhance account security.",
-      "technical_spec": "Requires additional verification, such as a text message code or authenticator app.",
-      "severity_score": 35
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "Messages and interactions on Instagram are protected by encryption techniques.",
-      "technical_spec": "Encryption ensures that only the communicating users can read messages.",
-      "severity_score": 40
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Instagram performs regular audits to detect and address vulnerabilities.",
-      "technical_spec": "Involves code review, penetration testing, and vulnerability assessments.",
+      "title": "OAuth 2.0 Authentication",
+      "description": "Secure method for API authentication, used to authorize client access to Instagram services.",
+      "technical_spec": "OAuth 2.0 framework used for secure user authentication.",
       "severity_score": 20
     },
     {
-      "title": "Anomaly Detection Systems",
-      "description": "Automated systems are in place to detect unusual patterns of behavior indicating potential security threats.",
-      "technical_spec": "Machine learning algorithms analyze user behavior to identify anomalies.",
+      "title": "Data Encryption",
+      "description": "Ensures that user data is encrypted in transit and at rest to protect against unauthorized access.",
+      "technical_spec": "Uses TLS for data in transit and AES-256 encryption at rest.",
       "severity_score": 30
     },
     {
-      "title": "Security Community Program",
-      "description": "Instagram encourages and rewards security researchers for identifying potential threats.",
-      "technical_spec": "Bug bounty programs provide incentives for responsible disclosure of security issues.",
-      "severity_score": 25
+      "title": "Rate Limiting",
+      "description": "Restricts the number of API requests a user can make in a given time frame to mitigate abuse.",
+      "technical_spec": "Integrated into API management layer to detect and block excessive requests.",
+      "severity_score": 40
+    },
+    {
+      "title": "Application Security Testing",
+      "description": "Regular security assessments are conducted to identify and fix vulnerabilities.",
+      "technical_spec": "Automated scanning tools and manual penetration testing.",
+      "severity_score": 50
+    },
+    {
+      "title": "Account Monitoring and Alerts",
+      "description": "Detect suspicious activities on user accounts and notify the user.",
+      "technical_spec": "AI-driven anomaly detection algorithms monitor for signs of account compromise.",
+      "severity_score": 60
     }
   ]
 }

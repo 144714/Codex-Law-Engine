@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 298,
+    "rank": 308,
     "site": "adobe.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "5d09c27a3e4079e7a85a1aa29ca44e6e"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "b67af026f103cf20762a5d66f523372d"
   },
   "data": [
     {
-      "title": "Advanced Threat Detection",
-      "description": "Employs AI and ML for identifying potential threats.",
-      "technical_spec": "Self-learning algorithms to identify anomalies.",
-      "severity_score": 70
+      "title": "Web Application Firewall",
+      "description": "WAF is employed to filter and monitor HTTP requests.",
+      "technical_spec": "AWS WAF, ModSecurity",
+      "severity_score": 10
     },
     {
-      "title": "End-to-End Encryption",
-      "description": "Data is encrypted from the user's end to Adobe's infrastructure.",
-      "technical_spec": "AES-256 encryption standard used.",
-      "severity_score": 60
+      "title": "DDoS Protection",
+      "description": "Adobe has measures in place to protect against Distributed Denial of Service attacks.",
+      "technical_spec": "Cloudflare DDoS Protection",
+      "severity_score": 15
+    },
+    {
+      "title": "Data Encryption",
+      "description": "Encryption ensures data is securely stored and transmitted.",
+      "technical_spec": "TLS 1.3, AES-256 encryption",
+      "severity_score": 20
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts thorough security audits to ensure system integrity.",
-      "technical_spec": "Internal and third-party evaluations.",
-      "severity_score": 65
+      "description": "Periodic audits to identify and address vulnerabilities.",
+      "technical_spec": "Internal and third-party security assessments",
+      "severity_score": 35
     },
     {
-      "title": "Zero Trust Networking",
-      "description": "Adopts a zero-trust approach to application access and data management.",
-      "technical_spec": "Verify identity and restrict device or network access.",
-      "severity_score": 55
-    },
-    {
-      "title": "Incident Response Team",
-      "description": "Dedicated team for quick response to security breaches.",
-      "technical_spec": "24/7 monitoring and response capability.",
-      "severity_score": 75
+      "title": "User Authentication",
+      "description": "Strong authentication mechanisms to protect user data and accounts.",
+      "technical_spec": "OAuth 2.0, SAML",
+      "severity_score": 25
     }
   ]
 }

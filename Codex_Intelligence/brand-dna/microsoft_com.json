@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 294,
+    "rank": 304,
     "site": "microsoft.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "4ec504b4824a93997fcc5b14d429b8a4"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "1a1f12f257e182da7b26da08e06fef3e"
   },
   "data": [
     {
-      "title": "Innovation Focus",
-      "description": "Continuous investment in cutting-edge technology and innovation.",
-      "technical_spec": "Research and development strategy",
-      "severity_score": 95
+      "title": "Innovation-Driven",
+      "description": "Microsoft's commitment to innovation and leadership in technology.",
+      "technical_spec": "R&D Investment, Cutting-Edge Technologies",
+      "severity_score": 10
     },
     {
-      "title": "Customer-Centric Approach",
-      "description": "Prioritizing customer feedback in product development.",
-      "technical_spec": "User feedback loops, product iterations",
-      "severity_score": 92
+      "title": "Customer-Centricity",
+      "description": "Focusing on delivering value and positive experiences to customers.",
+      "technical_spec": "User Feedback Mechanisms, Customer Support",
+      "severity_score": 15
     },
     {
-      "title": "Sustainability Efforts",
-      "description": "Commitment to environmentally sustainable practices.",
-      "technical_spec": "Eco-friendly data centers, carbon neutrality goals",
-      "severity_score": 85
+      "title": "Diversity and Inclusion",
+      "description": "Promoting a culture that respects and values diverse perspectives.",
+      "technical_spec": "D&I Initiatives, Inclusive Design",
+      "severity_score": 12
     },
     {
-      "title": "Global Reach",
-      "description": "Strong international presence and cultural adaptation.",
-      "technical_spec": "Localized content, international partnerships",
-      "severity_score": 93
+      "title": "Trust and Security",
+      "description": "Building products and services with privacy and security as foundational principles.",
+      "technical_spec": "GDPR Compliance, Zero Trust Architecture",
+      "severity_score": 8
     },
     {
-      "title": "Ethical Business Practices",
-      "description": "Dedication to ethical corporate governance and compliance.",
-      "technical_spec": "Compliance programs, ethical sourcing",
-      "severity_score": 90
+      "title": "Sustainability",
+      "description": "Commitment to environmental sustainability and reducing carbon footprint.",
+      "technical_spec": "Carbon Neutral Data Centers, Renewable Energy Use",
+      "severity_score": 20
     }
   ]
 }

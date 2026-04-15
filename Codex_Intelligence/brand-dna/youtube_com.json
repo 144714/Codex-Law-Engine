@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 292,
+    "rank": 302,
     "site": "youtube.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "bb1ddd99263280c7e8ecca763be3ef3a"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "dd5e69fee6c720f33df112120de5259b"
   },
   "data": [
     {
-      "title": "User-Generated Content",
-      "description": "Empowers users to create and share content with a global audience.",
-      "technical_spec": "Platforms for uploading, tagging, and sharing videos enhance content discoverability.",
+      "title": "Global Reach",
+      "description": "YouTube's brand is synonymous with worldwide accessibility and community engagement.",
+      "technical_spec": "Supports extensive localization for diverse global audiences.",
+      "severity_score": 15
+    },
+    {
+      "title": "User-Centric Platform",
+      "description": "Prioritizes user needs with a focus on personalized user experiences and content discovery.",
+      "technical_spec": "Adaptive algorithms that suggest relevant content based on user behavior.",
+      "severity_score": 20
+    },
+    {
+      "title": "Innovative Content Formats",
+      "description": "Drives innovation with features like Shorts, Live, and VR video experiences.",
+      "technical_spec": "Integration of cutting-edge technologies to support new content types.",
       "severity_score": 35
     },
     {
-      "title": "Community Engagement",
-      "description": "Features to foster interaction between creators and viewers.",
-      "technical_spec": "Comments, live chats, and community posts bolster user engagement.",
-      "severity_score": 40
+      "title": "Community and Influence",
+      "description": "Fosters a strong sense of community among creators and viewers, emphasizing interaction.",
+      "technical_spec": "Features comment sections, live chat, and community posts.",
+      "severity_score": 20
     },
     {
-      "title": "Diverse Ecosystem",
-      "description": "Offers a rich variety of content to cater to diverse interests.",
-      "technical_spec": "Recommendation algorithms promote a wide range of content genres.",
-      "severity_score": 25
-    },
-    {
-      "title": "Monetization Opportunities",
-      "description": "Provides revenue streams for creators through ads and subscriptions.",
-      "technical_spec": "Programs like AdSense and YouTube Premium offer financial incentives.",
-      "severity_score": 45
-    },
-    {
-      "title": "Global Accessibility",
-      "description": "Accessible from almost any device or location in the world.",
-      "technical_spec": "Localized interfaces and multi-language support reach a global audience.",
+      "title": "Content Monetization",
+      "description": "Empowers creators through varied monetization options like ad revenue, memberships, and Super Chats.",
+      "technical_spec": "Complex monetization algorithms and systems tailored to diverse creator needs.",
       "severity_score": 30
     }
   ]

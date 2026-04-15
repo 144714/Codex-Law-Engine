@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 300,
+    "rank": 310,
     "site": "whatsapp.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "e0ef1c05e66f44ab0c472591db07c703"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "4aaeca2975b9e779b25f87326d4f32dd"
   },
   "data": [
     {
-      "title": "Simplicity First",
-      "description": "Interface design prioritizes user-friendly simplicity.",
-      "technical_spec": "Minimalistic UI with primary functions easily accessible.",
-      "severity_score": 80
+      "title": "Hick's Law",
+      "description": "WhatsApp minimizes user options to enhance decision speed.",
+      "technical_spec": "Streamlined UI with essential navigation and action buttons.",
+      "severity_score": 15
     },
     {
-      "title": "Consistency Principle",
-      "description": "User interface maintains consistency across platforms.",
-      "technical_spec": "Consistent menu structures, button layouts, and navigation paths.",
-      "severity_score": 75
+      "title": "Fitts's Law",
+      "description": "Design is optimized for quick access to frequently used functions.",
+      "technical_spec": "Important actions like send and call are large and within reach.",
+      "severity_score": 18
     },
     {
-      "title": "Feedback Mechanism",
-      "description": "Application provides immediate feedback for user actions.",
-      "technical_spec": "Visual cues and haptic feedback for message sent/read notifications.",
-      "severity_score": 85
+      "title": "Law of Proximity",
+      "description": "Related items are grouped together to create a more intuitive interface.",
+      "technical_spec": "Chats, status, and calls are segregated into easily accessible tabs.",
+      "severity_score": 12
     },
     {
-      "title": "Fast and Responsive Design",
-      "description": "Optimized for quick load times and reactive interactions.",
-      "technical_spec": "Uses caching and background processes to enhance responsiveness.",
-      "severity_score": 90
+      "title": "Miller's Law",
+      "description": "UI design accommodates the user’s ability to process 7±2 items at a time.",
+      "technical_spec": "Limited number of chat options visible without scrolling.",
+      "severity_score": 14
     },
     {
-      "title": "Accessibility Features",
-      "description": "Supports accessibility features to cater to diverse user needs.",
-      "technical_spec": "Includes screen reader support, voice input, and customizable font sizes.",
-      "severity_score": 70
+      "title": "Law of Prägnanz",
+      "description": "WhatsApp uses a clean layout that eases user interaction.",
+      "technical_spec": "Simple design with a focus on core communication functions.",
+      "severity_score": 10
     }
   ]
 }

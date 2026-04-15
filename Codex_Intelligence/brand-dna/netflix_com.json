@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 296,
+    "rank": 306,
     "site": "netflix.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "6db737813d9761e605e73f028d5c82fd"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "009b44f6e40ad876a534a05ad4cddf09"
   },
   "data": [
     {
-      "title": "Innovative Storytelling",
-      "description": "Focus on original content and storytelling excellence.",
-      "technical_spec": "Invests substantially in exclusive content production.",
-      "severity_score": 85
+      "title": "Innovative Content Delivery",
+      "description": "Pioneer in streaming technology and original content creation.",
+      "technical_spec": "Continuous investment in streaming tech and content production.",
+      "severity_score": 5
+    },
+    {
+      "title": "User-Centric Approach",
+      "description": "Design and functionality driven by extensive user research.",
+      "technical_spec": "User feedback loops and extensive A/B testing frameworks.",
+      "severity_score": 5
     },
     {
       "title": "Global Reach",
-      "description": "Appealing to a worldwide audience with diverse, localized content.",
-      "technical_spec": "Available in over 190 countries with region-specific libraries.",
-      "severity_score": 88
+      "description": "Content tailored to diverse audiences in over 190 countries.",
+      "technical_spec": "Localized content delivery and multilingual support.",
+      "severity_score": 5
     },
     {
-      "title": "Customer-Centric Approach",
-      "description": "Personalization at the core of user engagement.",
-      "technical_spec": "AI-driven algorithms for individual user content recommendations.",
-      "severity_score": 90
+      "title": "Data-Driven Decision Making",
+      "description": "Leverages data to personalize user experiences and optimize operations.",
+      "technical_spec": "Advanced analytics platforms integrated with business processes.",
+      "severity_score": 5
     },
     {
-      "title": "Disruptive Innovation",
-      "description": "Pioneering as an industry disruptor transforming how media is consumed.",
-      "technical_spec": "Consistent investment in technology to revolutionize the viewing experience.",
-      "severity_score": 91
-    },
-    {
-      "title": "Flexible Viewing Experience",
-      "description": "Seamless viewing across devices catering to user convenience.",
-      "technical_spec": "Mobile, TV, and web apps with synchronized viewing history.",
-      "severity_score": 86
+      "title": "Strong Brand Identity",
+      "description": "Maintains a distinct brand image through consistent messaging and branding strategies.",
+      "technical_spec": "High standards for marketing campaigns and visual elements.",
+      "severity_score": 3
     }
   ]
 }

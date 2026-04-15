@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 298,
+    "rank": 308,
     "site": "adobe.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "770b29e49116d8daba69ac7b1d2eb7c2"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "0c2762754ba798f1f0ce712dbf6b40b4"
   },
   "data": [
     {
-      "title": "Creative Empowerment",
-      "description": "Adobe's brand revolves around empowering creativity and innovation.",
-      "technical_spec": "Tools and platforms that nurture creative expression.",
-      "severity_score": 5
-    },
-    {
-      "title": "Customer-Centric Design",
-      "description": "Focuses on delivering a seamless experience tailored to user needs.",
-      "technical_spec": "Feedback-driven product development.",
+      "title": "Innovative Design Solutions",
+      "description": "Respected for leading-edge software products and innovation.",
+      "technical_spec": "Adobe Creative Suite, constant product updates",
       "severity_score": 10
     },
     {
-      "title": "Technological Innovation",
-      "description": "Pioneers in digital media solutions with constant innovation.",
-      "technical_spec": "Investment in AI and adaptive design technologies.",
+      "title": "User-Centric Focus",
+      "description": "Commitment to enhancing user experience and meeting creative needs.",
+      "technical_spec": "User feedback integration, beta testing programs",
       "severity_score": 15
     },
     {
-      "title": "Collaborative Ecosystem",
-      "description": "Building an ecosystem that enhances collaboration among creatives.",
-      "technical_spec": "Integrated cloud-based tools for team projects.",
-      "severity_score": 10
+      "title": "Reliability and Performance",
+      "description": "Products known for stability and efficient performance.",
+      "technical_spec": "Performance optimization, routine maintenance schedules",
+      "severity_score": 15
     },
     {
-      "title": "Global Reach",
-      "description": "Adobe's presence as a leader in global digital experiences.",
-      "technical_spec": "Widespread adoption in various creative industries worldwide.",
+      "title": "Cross-Platform Integration",
+      "description": "Seamless integration across various platforms and environments.",
+      "technical_spec": "Cross-platform APIs, cloud harmony",
       "severity_score": 20
+    },
+    {
+      "title": "Sustainability Commitment",
+      "description": "Adobe’s dedication to sustainable business practices and operations.",
+      "technical_spec": "Energy-efficient data centers, CSR initiatives",
+      "severity_score": 5
     }
   ]
 }

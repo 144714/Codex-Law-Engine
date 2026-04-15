@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 291,
+    "rank": 301,
     "site": "google.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "a3e006e3a649aadddcfb5c163c5f2a4d"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "638885de1b9d73c4792ce67f59785a4b"
   },
   "data": [
     {
-      "title": "Fitt’s Law",
-      "description": "Optimized button sizes and positions to reduce navigation time.",
-      "technical_spec": "Edge pressure zones and frequent interactive elements positioned for ease.",
-      "severity_score": 85
+      "title": "Hick's Law",
+      "description": "Simplifies decision-making to improve user task efficiency.",
+      "technical_spec": "Limits options on the user interface to enhance decision speed.",
+      "severity_score": 3
     },
     {
-      "title": "Hick’s Law",
-      "description": "Minimal options presented at any point to reduce decision-making time.",
-      "technical_spec": "Simplified interface with grouped options and progressive disclosure.",
-      "severity_score": 88
+      "title": "Fitts's Law",
+      "description": "Guides design of interactive elements for accessibility and ease of use.",
+      "technical_spec": "Focuses on reducing the distance between interactions on UI layout.",
+      "severity_score": 4
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "A clean, minimalist aesthetic enhances user perception of usability.",
-      "technical_spec": "Responsive design principles and high contrast for readability.",
-      "severity_score": 91
+      "title": "Miller’s Law",
+      "description": "Chunking content into groups of seven to improve usability and user retention.",
+      "technical_spec": "Optimizes information clustering on webpages for better cognitive processing.",
+      "severity_score": 2
     },
     {
       "title": "Jakob’s Law",
-      "description": "Aligned with user expectations by reflecting common web conventions.",
-      "technical_spec": "Consistent interface structures and recognizable icons.",
-      "severity_score": 86
+      "description": "Users prefer a consistent experience similar to other services they use.",
+      "technical_spec": "Standardizes page navigation and visual consistency with intuitive design.",
+      "severity_score": 2
     },
     {
-      "title": "Law of Proximity",
-      "description": "Related items are grouped together for intuitive navigation.",
-      "technical_spec": "Whitespace management and content modules.",
-      "severity_score": 89
+      "title": "Zeigarnik Effect",
+      "description": "Increases engagement by intentionally setting incomplete tasks or information.",
+      "technical_spec": "Implements progressive disclosure on content reveal and form completion.",
+      "severity_score": 1
     }
   ]
 }

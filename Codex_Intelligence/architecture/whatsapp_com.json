@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 300,
+    "rank": 310,
     "site": "whatsapp.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "84dddc95fbecc490e1884cf559fd1dbf"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "94b62137a0d13b0bb81401d6b8f52a31"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "WhatsApp's backend is built using a microservices architecture that allows for scalability and resilience.",
-      "technical_spec": "Services run independently and communicate over APIs and messaging queues.",
-      "severity_score": 75
-    },
-    {
-      "title": "Real-Time Messaging Protocols",
-      "description": "The platform uses custom protocols optimized for real-time messaging over low-bandwidth networks.",
-      "technical_spec": "Employs techniques like binary protocol schemes and mobile-optimized heartbeat mechanisms.",
-      "severity_score": 85
+      "title": "Microservices Architecture",
+      "description": "WhatsApp uses a Microservices architecture to scale its functionalities across various platforms seamlessly.",
+      "technical_spec": "Deployed using Kubernetes with services like message routing, delivery confirmations, and media handling separated.",
+      "severity_score": 15
     },
     {
       "title": "End-to-End Encryption",
-      "description": "WhatsApp utilizes end-to-end encryption to ensure message privacy and security.",
-      "technical_spec": "Implements the Signal Protocol for encryption of message content.",
-      "severity_score": 95
+      "description": "All messages, calls, photos, and videos are encrypted.",
+      "technical_spec": "Advanced Encryption Standard (AES) 256-bit, Transport Layer Security (TLS).",
+      "severity_score": 25
     },
     {
-      "title": "Global Server Network",
-      "description": "A distributed server network enhances global availability and speed.",
-      "technical_spec": "Data centers distributed across multiple continents; uses CDNs.",
-      "severity_score": 80
+      "title": "Global CDN Usage",
+      "description": "To ensure speed and availability, WhatsApp uses a global content delivery network.",
+      "technical_spec": "Utilizes AWS CloudFront and Akamai for edge caching.",
+      "severity_score": 10
     },
     {
-      "title": "High Availability Databases",
-      "description": "Databases are designed for high availability and redundancy.",
-      "technical_spec": "Uses systems like MySQL and NoSQL databases with replication strategies.",
-      "severity_score": 70
+      "title": "Data Redundancy",
+      "description": "WhatsApp employs redundant data storage to ensure data durability and availability.",
+      "technical_spec": "Utilizes multi-region AWS S3 with cross-region replication.",
+      "severity_score": 18
+    },
+    {
+      "title": "Real-Time Communication",
+      "description": "The architecture supports real-time texting and calling.",
+      "technical_spec": "WebSockets protocol used to maintain low-latency connections.",
+      "severity_score": 20
     }
   ]
 }

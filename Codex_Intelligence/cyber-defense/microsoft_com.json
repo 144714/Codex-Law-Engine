@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 294,
+    "rank": 304,
     "site": "microsoft.com",
-    "date": "2026-04-15 19:22",
-    "integrity_hash": "899e509264231861ce8cc364ac924e6c"
+    "date": "2026-04-15 20:39",
+    "integrity_hash": "95474f5026119810a7b78204a189b44c"
   },
   "data": [
     {
-      "title": "Advanced Threat Protection",
-      "description": "Deployment of threat protection across digital assets.",
-      "technical_spec": "Microsoft Defender, Azure Sentinel",
-      "severity_score": 97
-    },
-    {
       "title": "Multi-Factor Authentication",
-      "description": "Enforced multi-factor authentication for user access.",
-      "technical_spec": "Microsoft Authenticator, FIDO2",
-      "severity_score": 90
+      "description": "An added layer of security requiring multiple forms of verification.",
+      "technical_spec": "OAuth 2.0, FIDO2, Microsoft Authenticator",
+      "severity_score": 5
     },
     {
-      "title": "Regular Vulnerability Assessments",
-      "description": "Frequent security assessments to identify and mitigate vulnerabilities.",
-      "technical_spec": "Security Center, Azure Policy",
-      "severity_score": 85
+      "title": "Threat Intelligence",
+      "description": "Utilizes AI-driven insights to anticipate and mitigate cyber threats.",
+      "technical_spec": "Microsoft Sentinel, Azure Security Center, ATP",
+      "severity_score": 10
     },
     {
       "title": "Data Encryption",
-      "description": "Strong encryption practices for data in transit and at rest.",
-      "technical_spec": "TLS 1.3, AES-256 encryption",
-      "severity_score": 92
+      "description": "Securing data through encryption protocols to protect it against unauthorized access.",
+      "technical_spec": "TLS, AES-256, BitLocker",
+      "severity_score": 8
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Comprehensive IAM strategies for secure access control.",
-      "technical_spec": "Azure Active Directory, Conditional Access",
-      "severity_score": 94
+      "title": "Endpoint Protection",
+      "description": "Comprehensive security for end-user devices to prevent malware and intrusions.",
+      "technical_spec": "Microsoft Defender for Endpoint, EDR, VPN",
+      "severity_score": 15
+    },
+    {
+      "title": "Network Security",
+      "description": "Protecting Microsoft's network infrastructure from unauthorized access and threats.",
+      "technical_spec": "Firewalls, VPNs, Intrusion Detection Systems",
+      "severity_score": 12
     }
   ]
 }
