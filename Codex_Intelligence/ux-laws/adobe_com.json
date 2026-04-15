@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 228,
+    "rank": 238,
     "site": "adobe.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "8c52bcf3f2742461c6afb365f08d0408"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "221e19999764c319dfa9aed55d3f0403"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Streamlined navigation to simplify decision-making processes for users, reducing choice overload.",
-      "technical_spec": "Use of minimalistic design elements and clear, concise navigation paths.",
-      "severity_score": 20
-    },
-    {
-      "title": "Fitt's Law",
-      "description": "Design considerations for user interface elements ensure they're easily clickable and accessible.",
-      "technical_spec": "Appropriate sizing and spacing of clickable elements in the website's UI.",
-      "severity_score": 25
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Design employs principles like proximity and similarity to improve content organization and readability.",
-      "technical_spec": "Consistent spacing, typography styles, and alignment practices.",
+      "title": "Fitts's Law",
+      "description": "Recognizes the law that the time required to move to a target area is a function of the distance to the target and the target's size.",
+      "technical_spec": "Interactive elements are designed to be large and easily clickable.",
       "severity_score": 30
     },
     {
-      "title": "Jakob's Law",
-      "description": "Familiarity is maintained by using standard web conventions for navigation and layout.",
-      "technical_spec": "Standardized iconography, search functionalities, and breadcrumb navigation.",
-      "severity_score": 15
+      "title": "Hick's Law",
+      "description": "Minimizes decision-making time by reducing the number of choices and simplifying navigation.",
+      "technical_spec": "Streamlined UI with clear, limited options in navigation menus.",
+      "severity_score": 25
     },
     {
-      "title": "Miller’s Law",
-      "description": "Information is presented in small, manageable chunks to enhance user memory retention.",
-      "technical_spec": "Use of concise paragraphs, bulleted lists, and highlighted text.",
+      "title": "Law of Proximity",
+      "description": "Groups related elements together to enhance user understanding and experience.",
+      "technical_spec": "Visually connected elements through spacing and alignment.",
+      "severity_score": 20
+    },
+    {
+      "title": "Consistency Principle",
+      "description": "Maintains consistency across different elements and interactions for predictability.",
+      "technical_spec": "Standardized components and design patterns across the site.",
+      "severity_score": 10
+    },
+    {
+      "title": "Feedback Principle",
+      "description": "Provides timely feedback to user actions to enhance understanding and UX.",
+      "technical_spec": "Real-time feedback like hover effects, loading indicators, and error messages.",
       "severity_score": 35
     }
   ]

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 224,
+    "rank": 234,
     "site": "microsoft.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "aba76305ba6f6d9161c1922fb341b37a"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "fe5bf573c55cc091dd18a65ab5f02f68"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Continuous innovation as a core component of Microsoft's identity.",
-      "technical_spec": "Integration of AI and machine learning.",
+      "title": "Innovation Leadership",
+      "description": "Maintains a strong emphasis on innovation across its product offerings.",
+      "technical_spec": "Integration with the latest emerging technologies and services.",
       "severity_score": 5
     },
     {
-      "title": "Integration",
-      "description": "Seamless integration of multiple products and services.",
-      "technical_spec": "Unified ecosystem approach, interoperability standards.",
-      "severity_score": 7
-    },
-    {
-      "title": "User-Centric",
-      "description": "A focus on empowering users through technology.",
-      "technical_spec": "User feedback loops, customization features.",
+      "title": "Global Reach",
+      "description": "Positioned as a leader with a global presence and customer base.",
+      "technical_spec": "Tailored content delivery and language localization for global audiences.",
       "severity_score": 10
     },
     {
-      "title": "Global Reach",
-      "description": "Maintaining leadership in global tech markets.",
-      "technical_spec": "Multilingual support, regional optimizations.",
-      "severity_score": 8
+      "title": "Commitment to Accessibility",
+      "description": "Focused on creating accessible software for all users.",
+      "technical_spec": "WCAG 2.1 compliance across web properties with support for assistive technologies.",
+      "severity_score": 15
     },
     {
-      "title": "Sustainability",
-      "description": "Commitment to sustainable technology solutions.",
-      "technical_spec": "Energy-efficient data centers, sustainable product designs.",
-      "severity_score": 9
+      "title": "Trust and Security",
+      "description": "Strong commitment to user privacy and data protection.",
+      "technical_spec": "Compliance with GDPR and other international data protection laws.",
+      "severity_score": 10
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Active participation and engagement in developer and tech communities.",
+      "technical_spec": "Maintains open-source projects and supports independent developers through initiatives.",
+      "severity_score": 20
     }
   ]
 }

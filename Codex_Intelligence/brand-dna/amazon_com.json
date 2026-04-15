@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 225,
+    "rank": 235,
     "site": "amazon.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "4543094e976e5ff1f9f13dcbeb9e22b5"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "0784829d720b17118423f32fb83c0a54"
   },
   "data": [
     {
-      "title": "Customer Obsession",
-      "description": "Amazon prioritizes customer needs and satisfaction, defining its service model.",
-      "technical_spec": "Feedback loops and personalized recommendations enhance user experience.",
-      "severity_score": 6
+      "title": "Customer Centricity",
+      "description": "Commitment to exceptional customer service and experience is central to the brand ethos.",
+      "technical_spec": "24/7 support, hassle-free returns policy",
+      "severity_score": 2
     },
     {
-      "title": "Operational Excellence",
-      "description": "Continuous improvement and optimization are central to Amazon's operations.",
-      "technical_spec": "Advanced logistics and AI-driven process optimizations.",
-      "severity_score": 12
-    },
-    {
-      "title": "Innovation Culture",
-      "description": "Pioneering new technologies and methodologies to stay ahead in the market.",
-      "technical_spec": "Investment in R&D and autonomous systems like drones (Prime Air).",
-      "severity_score": 15
-    },
-    {
-      "title": "Long-term Thinking",
-      "description": "Strategic planning focused on sustainable growth rather than short-term gains.",
-      "technical_spec": "Diversification and eco-friendly initiatives align with future goals.",
+      "title": "Innovation Leadership",
+      "description": "Strives to innovate through technology and processes as a market leader.",
+      "technical_spec": "Research & Development investment",
       "severity_score": 10
     },
     {
-      "title": "Frugality",
-      "description": "Efficient use of resources to keep costs low and provide better value to customers.",
-      "technical_spec": "Automated scaling and resource optimization in cloud operations.",
-      "severity_score": 13
+      "title": "Operational Efficiency",
+      "description": "Relentless focus on streamlining operations to offer lower prices and quick service.",
+      "technical_spec": "Logistics automation, AI optimizations",
+      "severity_score": 15
+    },
+    {
+      "title": "Trust and Security",
+      "description": "Fosters brand loyalty through commitment to user data protection and secure transactions.",
+      "technical_spec": "Secure payment gateways",
+      "severity_score": 12
+    },
+    {
+      "title": "Global Expansion",
+      "description": "Continual expansion into global markets while catering to localized needs.",
+      "technical_spec": "Multilingual support, country-specific offerings",
+      "severity_score": 20
     }
   ]
 }

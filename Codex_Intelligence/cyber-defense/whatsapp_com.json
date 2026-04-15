@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 230,
+    "rank": 240,
     "site": "whatsapp.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "b3cdde4a98cf12af93d4c2d24e7786a1"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "a796aaedbc6c45c2d98f9a6b7a90a79e"
   },
   "data": [
     {
-      "title": "Two-Step Verification",
-      "description": "Provides an additional layer of security by requiring a second form of authentication.",
-      "technical_spec": "6-digit verification PIN",
-      "severity_score": 75
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "WhatsApp offers two-factor authentication for an additional layer of security.",
+      "technical_spec": "Users can enable 2FA by setting a six-digit passcode required when registering their phone number with WhatsApp again.",
+      "severity_score": 5
     },
     {
-      "title": "Encryption at Rest",
-      "description": "Data stored on the servers is encrypted to prevent unauthorized access.",
-      "technical_spec": "AES-256 encryption",
-      "severity_score": 85
+      "title": "Spam Detection Algorithms",
+      "description": "Advanced algorithms detect and limit the spread of spam and misinformation.",
+      "technical_spec": "Machine learning models analyze message patterns and content to identify potential spam.",
+      "severity_score": 15
     },
     {
-      "title": "Challenge-Response Authentication",
-      "description": "Prevents unauthorized device registration by requiring a server-issued token.",
-      "technical_spec": "Challenge token based verification",
-      "severity_score": 82
+      "title": "Account Protection Mechanism",
+      "description": "Security checks are in place to prevent unauthorized account access.",
+      "technical_spec": "Verification processes such as code sent via SMS confirm users' identities.",
+      "severity_score": 20
     },
     {
-      "title": "Spam and Abuse Detection",
-      "description": "Systems in place to prevent spam and abusive activity on the platform.",
-      "technical_spec": "Machine learning algorithms, heuristic rules",
-      "severity_score": 80
+      "title": "Regular Security Audits",
+      "description": "Routine security audits help identify vulnerabilities and reinforce security measures.",
+      "technical_spec": "Third-party audits are conducted to ensure adherence to the latest security standards.",
+      "severity_score": 15
     },
     {
-      "title": "Security Patching and Updates",
-      "description": "Regular updates to address vulnerabilities and enhance security features.",
-      "technical_spec": "Automated security patch management, CVE monitoring",
-      "severity_score": 92
+      "title": "Privacy Protection Policy",
+      "description": "Strict privacy policies protect users' data from unauthorized access.",
+      "technical_spec": "Data collected is used according to predefined privacy rules compliant with global standards.",
+      "severity_score": 10
     }
   ]
 }

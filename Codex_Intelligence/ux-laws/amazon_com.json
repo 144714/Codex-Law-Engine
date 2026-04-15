@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 225,
+    "rank": 235,
     "site": "amazon.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "dd608d1807a2a5d908edda74062638ea"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "2adda836bafe5b1237bb2b747049e17c"
   },
   "data": [
     {
-      "title": "Law of Simplicity",
-      "description": "Amazon's platform is designed with a focus on simplicity to enhance user experience.",
-      "technical_spec": "Minimalistic design principles and easy navigation structure.",
+      "title": "Fitts's Law",
+      "description": "Design principle ensuring that elements are sized and positioned to enhance user interaction efficiency.",
+      "technical_spec": "Clickable elements optimized for speed",
       "severity_score": 5
     },
     {
-      "title": "Fitts's Law",
-      "description": "Elements are strategically placed to improve usability and reduce the effort required to interact with them.",
-      "technical_spec": "Optimized button sizes and placement for quick access.",
-      "severity_score": 10
+      "title": "Hick’s Law",
+      "description": "Simplifying user choices to streamline decision-making and reduce time to convert.",
+      "technical_spec": "Simplified navigation, minimal options",
+      "severity_score": 6
     },
     {
-      "title": "Hick's Law",
-      "description": "Decision-making time is optimized by limiting complex options.",
-      "technical_spec": "Simplified category hierarchies and search functionalities.",
-      "severity_score": 12
+      "title": "Aesthetic-Usability Effect",
+      "description": "Elements are designed to be visually appealing to enhance usability perceptions.",
+      "technical_spec": "Consistent branding, appealing aesthetics",
+      "severity_score": 4
     },
     {
       "title": "Jakob's Law",
-      "description": "Design standards are maintained to meet user expectations based on experiences from other web services.",
-      "technical_spec": "Consistent UI elements and interaction patterns.",
-      "severity_score": 8
+      "description": "Aligns user interfaces with common web standards to meet user expectations.",
+      "technical_spec": "Familiar design patterns, usability consistency",
+      "severity_score": 3
     },
     {
-      "title": "Miller's Law",
-      "description": "Information chunks are maintained within human cognitive limits to aid comprehension.",
-      "technical_spec": "Product details and reviews are formatted in digestible sections.",
-      "severity_score": 7
+      "title": "Pareto Principle",
+      "description": "Focuses on features that provide the most benefit or value to users.",
+      "technical_spec": "80-20 rule optimization, frequent buyer interfaces",
+      "severity_score": 8
     }
   ]
 }

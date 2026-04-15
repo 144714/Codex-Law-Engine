@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 225,
+    "rank": 235,
     "site": "amazon.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "52ffb38625e39c1769a4fef1e3e732eb"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "bed0684ce88f5fc6316585f54b9e2084"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Amazon uses a microservices architecture that breaks down its platform into small, independent services, allowing for flexibility and scalability.",
-      "technical_spec": "Decomposed into 100s of microservices written in Java, Python, etc.",
-      "severity_score": 10
-    },
-    {
-      "title": "Cloud Infrastructure",
-      "description": "The platform is hosted on Amazon Web Services (AWS), providing extensive scalability and reliability.",
-      "technical_spec": "Utilizes AWS EC2, S3, Lambda for tiered service delivery.",
+      "description": "Amazon leverages a microservices architecture to enable independent development and deployment of applications.",
+      "technical_spec": "RESTful services, API Gateway, AWS Lambda",
       "severity_score": 5
     },
     {
-      "title": "Database Systems",
-      "description": "Highly-efficient database systems are used to handle immense data volumes.",
-      "technical_spec": "Features DynamoDB, RDS, and Redshift for various data-storage needs.",
+      "title": "Data-Driven Infrastructure",
+      "description": "Comprehensive data infrastructure supports personalized recommendations and inventory management.",
+      "technical_spec": "Amazon Redshift, AWS RDS, Data lakes",
+      "severity_score": 10
+    },
+    {
+      "title": "Scalable Cloud Environment",
+      "description": "Utilizes AWS cloud services to ensure elasticity and reliability of web services.",
+      "technical_spec": "EC2, S3, Elastic Load Balancing",
       "severity_score": 15
     },
     {
-      "title": "Content Delivery Network",
-      "description": "Amazon employs a robust CDN to quickly deliver content to users around the globe.",
-      "technical_spec": "Amazon CloudFront is integrated to serve content with low latency.",
-      "severity_score": 8
+      "title": "High Availability Architecture",
+      "description": "Designed for resilience through distributed systems and redundancy.",
+      "technical_spec": "Multi-AZ deployments, failover mechanisms",
+      "severity_score": 20
     },
     {
-      "title": "Load Balancing",
-      "description": "To ensure efficient request distribution, load balancing techniques are implemented.",
-      "technical_spec": "Utilizes Elastic Load Balancing on AWS for auto-scaling capabilities.",
-      "severity_score": 12
+      "title": "Content Delivery Network (CDN)",
+      "description": "Accelerates content delivery worldwide using cloud-based CDN solutions.",
+      "technical_spec": "Amazon CloudFront",
+      "severity_score": 7
     }
   ]
 }

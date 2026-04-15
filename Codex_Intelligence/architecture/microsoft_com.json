@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 224,
+    "rank": 234,
     "site": "microsoft.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "b00c8db3b7ea66959222eb6e76727a31"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "805053e0fd9bfd6640161aff832fb6c0"
   },
   "data": [
     {
-      "title": "Modular Design",
-      "description": "Microsoft.com utilizes a modular architecture to ensure the seamless integration of various products and services.",
-      "technical_spec": "Microservices, RESTful APIs, containerization using Docker.",
-      "severity_score": 20
+      "title": "Cloud-First Infrastructure",
+      "description": "Microsoft.com leverages Azure's robust cloud infrastructure to ensure scalability and high availability.",
+      "technical_spec": "Built on Azure cloud services utilizing IaaS and PaaS models.",
+      "severity_score": 5
     },
     {
-      "title": "Cloud Infrastructure",
-      "description": "The website is hosted on Microsoft Azure, benefiting from cloud scalability and reliability.",
-      "technical_spec": "Azure Kubernetes Service, Azure CDN, serverless functions.",
+      "title": "Microservices Architecture",
+      "description": "Adoption of a microservices architecture for flexibility and ease of updates.",
+      "technical_spec": "Docker containers and Kubernetes orchestrations manage microservices.",
       "severity_score": 10
     },
     {
-      "title": "Responsive Design",
-      "description": "Ensures optimal performance and user experience across all devices.",
-      "technical_spec": "CSS flexbox, media queries, adaptive images.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "Integration of Azure CDN to deliver static assets efficiently.",
+      "technical_spec": "Static content is served through Azure's global CDN endpoints.",
+      "severity_score": 8
+    },
+    {
+      "title": "Responsive Web Design",
+      "description": "The website is fully responsive, ensuring usability across a range of devices and screen sizes.",
+      "technical_spec": "HTML5, CSS3 with media queries, and JavaScript for interactivity.",
+      "severity_score": 12
+    },
+    {
+      "title": "Single Page Application (SPA) Framework",
+      "description": "Utilizes SPA frameworks for a seamless and dynamic user experience.",
+      "technical_spec": "Employed frameworks like Angular or React for SPA capabilities.",
       "severity_score": 15
-    },
-    {
-      "title": "Headless CMS",
-      "description": "Content is managed and delivered independently of the frontend.",
-      "technical_spec": "API-driven CMS approach, GraphQL endpoints.",
-      "severity_score": 25
-    },
-    {
-      "title": "Scalable Networking",
-      "description": "Utilizes state-of-the-art networking solutions for content delivery.",
-      "technical_spec": "Load balancing, distributed databases, edge computing.",
-      "severity_score": 20
     }
   ]
 }

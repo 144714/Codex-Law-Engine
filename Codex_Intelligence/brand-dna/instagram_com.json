@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 229,
+    "rank": 239,
     "site": "instagram.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "e51f20ebf17e0645c001af82274f9dde"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "8e9260603afdee8de7b2f323a54301cd"
   },
   "data": [
     {
-      "title": "Visual Storytelling",
-      "description": "Focuses on image and video content to drive engagement.",
-      "technical_spec": "High-resolution support and a robust publishing platform.",
-      "severity_score": 5
-    },
-    {
-      "title": "Community Building",
-      "description": "Central to its philosophy is fostering user-generated content.",
-      "technical_spec": "Hashtags, mentions, and community guidelines.",
-      "severity_score": 10
-    },
-    {
-      "title": "Global Reach",
-      "description": "Creating a universal experience through localization.",
-      "technical_spec": "Support for multiple languages and localized content curation.",
+      "title": "Creative Expression",
+      "description": "Empowering users to creatively share their stories with a global audience.",
+      "technical_spec": "Various filters and editing options for photo and video content.",
       "severity_score": 20
     },
     {
-      "title": "Influencer Ecosystem",
-      "description": "Empowering creators to amplify brand messages.",
-      "technical_spec": "Tools for analytics and sponsored content partnerships.",
-      "severity_score": 15
+      "title": "Community Building",
+      "description": "Facilitating the creation and engagement of communities through shared interests.",
+      "technical_spec": "Features such as hashtags, groups, and direct messaging.",
+      "severity_score": 30
     },
     {
-      "title": "Innovation Culture",
-      "description": "Continuous development and feature releases to stay competitive.",
-      "technical_spec": "Collaborative approach to feature rollouts and user testing.",
+      "title": "Instant Connectivity",
+      "description": "Providing real-time connections and interactions.",
+      "technical_spec": "Push notifications and live video streaming.",
+      "severity_score": 40
+    },
+    {
+      "title": "Inspiration and Discovery",
+      "description": "Encouraging users to explore new content through personalized feeds.",
+      "technical_spec": "Algorithm-driven content suggestions.",
+      "severity_score": 50
+    },
+    {
+      "title": "Visual-first Approach",
+      "description": "Prioritizing visual content in user interactions and platform presentation.",
+      "technical_spec": "High-definition image processing and a focus on aesthetics.",
       "severity_score": 10
     }
   ]

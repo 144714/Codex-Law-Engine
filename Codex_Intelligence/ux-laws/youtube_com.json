@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 222,
+    "rank": 232,
     "site": "youtube.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "1ae91f9819f98c7f1b0259aaa441a9ec"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "d5e877d3581ae9b1e36e19c4e27a2ce1"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "User interactions are simplified to reduce decision time.",
-      "technical_spec": "Streamlined menus and action buttons maintain user engagement.",
-      "severity_score": 10
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Interfaces are designed to minimize the time to interact with key elements.",
-      "technical_spec": "Larger, easily clickable buttons to enhance accessibility.",
+      "description": "User experience design limits choices to simplify decision-making, enhancing ease of use.",
+      "technical_spec": "Interface elements are categorized and limited to reduce cognitive load.",
       "severity_score": 15
     },
     {
-      "title": "Consistency Principle",
-      "description": "Maintains uniformity in design and interaction patterns across the platform.",
-      "technical_spec": "Consistent design language and interaction cues.",
-      "severity_score": 5
+      "title": "Fitts's Law",
+      "description": "Designs prioritize clickability of commonly used elements to improve accessibility.",
+      "technical_spec": "Interactive elements like play and pause buttons are large and easily navigable.",
+      "severity_score": 12
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "A visually appealing interface to enhance perceived usability.",
-      "technical_spec": "High-quality visuals and intuitive layout for a pleasing user experience.",
-      "severity_score": 8
+      "title": "Gestalt Principles",
+      "description": "Uses visual grouping to guide user focus and organize information intuitively.",
+      "technical_spec": "Tabs, layout, and typography are designed to create visual hierarchy.",
+      "severity_score": 20
     },
     {
-      "title": "Jakob's Law",
-      "description": "Designs align with user expectations formed by experiences on other platforms.",
-      "technical_spec": "Common UI patterns borrowed from similar applications.",
-      "severity_score": 7
+      "title": "Law of Proximity",
+      "description": "Group related elements to draw intuitive connections between interface components.",
+      "technical_spec": "Related video suggestions and comments are spatially grouped.",
+      "severity_score": 22
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Interface design accounts for human capacity to process limited amounts of information.",
+      "technical_spec": "Menus and lists are broken into subcategories to enhance interaction efficiency.",
+      "severity_score": 14
     }
   ]
 }

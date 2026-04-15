@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 225,
+    "rank": 235,
     "site": "amazon.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "711e40635ade2a3a0ad9c331692724ea"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "b25a8e0fbe28052a1abef9b0ff28671a"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Amazon ensures user privacy and data protection through comprehensive encryption methods.",
-      "technical_spec": "TLS 1.3 and AES-256 encryption standards in use.",
+      "title": "Encryption Protocols",
+      "description": "Data protection involving both in-transit and at-rest encryption methods.",
+      "technical_spec": "TLS 1.2, AES-256 encryption",
+      "severity_score": 8
+    },
+    {
+      "title": "Identity and Access Management",
+      "description": "Strict management of user access and identity verification processes.",
+      "technical_spec": "AWS IAM, MFA",
       "severity_score": 10
     },
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "MFA is enforced for user account access to enhance security.",
-      "technical_spec": "Support for TOTP protocol and hardware tokens.",
+      "title": "Advanced Threat Detection",
+      "description": "Real-time monitoring systems to detect and respond to threats.",
+      "technical_spec": "AWS GuardDuty, Security Hub",
+      "severity_score": 12
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Strategies to mitigate Distributed Denial of Service attacks.",
+      "technical_spec": "AWS Shield, AWS WAF",
       "severity_score": 20
     },
     {
-      "title": "Intrusion Detection Systems",
-      "description": "An advanced IDS is in place to detect and react to security threats.",
-      "technical_spec": "AWS GuardDuty and custom IDS solutions monitor activities.",
-      "severity_score": 25
-    },
-    {
-      "title": "Data Leakage Prevention",
-      "description": "Strategies are deployed to prevent accidental or malicious data leakage.",
-      "technical_spec": "AWS Macie for sensitive data discovery and protection.",
-      "severity_score": 18
-    },
-    {
-      "title": "User Rights Management",
-      "description": "Strict control over access rights is maintained to enforce security policies.",
-      "technical_spec": "AWS IAM manages detailed access permissions.",
-      "severity_score": 22
+      "title": "Compliance and Audit",
+      "description": "Ensures the protection of user data through compliance with global security frameworks.",
+      "technical_spec": "ISO 27001, PCI DSS",
+      "severity_score": 14
     }
   ]
 }

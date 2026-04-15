@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 226,
+    "rank": 236,
     "site": "netflix.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "e1e57b397be797dfa70a3d569f91dd1b"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "435d3833c4c73669741ea3f9e4d3f2b9"
   },
   "data": [
     {
       "title": "End-to-End Encryption",
-      "description": "Protects data communication from user devices to Netflix servers.",
-      "technical_spec": "Employs HTTPS/SSL across all data exchanges.",
-      "severity_score": 98
+      "description": "Ensures that data is protected from the client to the server.",
+      "technical_spec": "TLS protocol employed for data transmissions.",
+      "severity_score": 10
     },
     {
-      "title": "Content Protection",
-      "description": "Prevents unauthorized copying and distribution of digital media.",
-      "technical_spec": "Utilizes DRM technologies such as PlayReady, Widevine, and FairPlay.",
-      "severity_score": 94
+      "title": "Zero Trust Architecture",
+      "description": "Assumes threat presence and verifies at every stage of interaction.",
+      "technical_spec": "Lay layers of security per session authentication and log validation.",
+      "severity_score": 25
     },
     {
       "title": "Identity and Access Management",
-      "description": "Ensures secure and authorized access to user accounts.",
-      "technical_spec": "Two-factor authentication and continual login session monitoring.",
-      "severity_score": 90
+      "description": "Ensures the right users have access to appropriate resources.",
+      "technical_spec": "Integration with OAuth 2.0 for secure login procedures.",
+      "severity_score": 20
     },
     {
-      "title": "Threat Detection",
-      "description": "Monitors and identifies suspicious activity.",
-      "technical_spec": "Employs machine learning algorithms to detect anomalies in traffic patterns.",
-      "severity_score": 92
+      "title": "Threat Detection and Monitoring",
+      "description": "Continuously monitors network traffic and user behavior for anomalies.",
+      "technical_spec": "Uses AI and machine learning models for timely threat detection.",
+      "severity_score": 20
     },
     {
-      "title": "Security Incident Response",
-      "description": "Improves recovery time in the event of a security breach.",
-      "technical_spec": "Integrates cloud-native monitoring tools and automated response protocols.",
-      "severity_score": 91
+      "title": "Regular Security Audits",
+      "description": "Implementation of ongoing security assessments.",
+      "technical_spec": "Third-party penetration testing and vulnerability scanning.",
+      "severity_score": 30
     }
   ]
 }

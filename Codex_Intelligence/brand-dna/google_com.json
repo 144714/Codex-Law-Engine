@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 221,
+    "rank": 231,
     "site": "google.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "d40d9a52dca5fffb73272051cafa17f3"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "b5f24db475152fe0a48189dfafae3fa6"
   },
   "data": [
     {
       "title": "Simplicity",
-      "description": "Committed to providing a clean, simple, and straightforward user experience.",
-      "technical_spec": "Minimalistic design principles in line with Google’s Material Design.",
-      "severity_score": 8
-    },
-    {
-      "title": "Performance",
-      "description": "Focuses on providing fast and efficient access to resources and services.",
-      "technical_spec": "Optimized code and pre-fetch strategies enhance responsiveness.",
-      "severity_score": 9
+      "description": "Google's brand emphasizes minimalism and clarity in design and communication.",
+      "technical_spec": "Clean homepage design, simple logo, straightforward user interactions",
+      "severity_score": 3
     },
     {
       "title": "Innovation",
-      "description": "Emphasizes continuous innovation and adoption of cutting-edge technology.",
-      "technical_spec": "Research and development investments in AI and ML technologies.",
-      "severity_score": 7
+      "description": "Pioneering new technologies and constantly improving user experience.",
+      "technical_spec": "AI-enhanced search algorithms, integration with Google Assistant, VR/AR experiences",
+      "severity_score": 2
     },
     {
-      "title": "User-Centricity",
-      "description": "Prioritizes user feedback and adapts products to user needs.",
-      "technical_spec": "Product interfaces are iteratively tested and refined with user data.",
-      "severity_score": 6
+      "title": "Trust",
+      "description": "Commitment to user privacy and providing accurate, reliable information.",
+      "technical_spec": "Transparent data policies, verification of sources, secure data handling practices",
+      "severity_score": 2
+    },
+    {
+      "title": "Speed",
+      "description": "Focus on delivering fast loading times and quick access to information.",
+      "technical_spec": "PageSpeed optimization, lightweight code, server-side pre-rendering",
+      "severity_score": 3
     },
     {
       "title": "Global Reach",
-      "description": "Engages with an international audience by offering services in various languages.",
-      "technical_spec": "Localization support and global server infrastructure.",
-      "severity_score": 10
+      "description": "Aims to make information universally accessible and useful.",
+      "technical_spec": "Multi-language support, localized content, global partnerships",
+      "severity_score": 2
     }
   ]
 }

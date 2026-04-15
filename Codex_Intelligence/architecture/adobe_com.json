@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 228,
+    "rank": 238,
     "site": "adobe.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "0e4bec33504696536acd51bc8d14f952"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "3386440efbef4624f2590a0e808b84e1"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Adobe.com utilizes a microservices architecture to allow independent deployment and scaling of different parts of the application.",
-      "technical_spec": "Each service operates in its own process and communicates through a well-defined API.",
+      "title": "Microservices",
+      "description": "Adobe utilizes a microservices architecture to ensure flexibility and scalability of its cloud solutions.",
+      "technical_spec": "Service-Oriented Architecture using containerized services.",
       "severity_score": 25
     },
     {
-      "title": "Cloud Hosting with AWS",
-      "description": "The majority of Adobe's services are hosted on Amazon Web Services (AWS), providing scalability and reliability.",
-      "technical_spec": "Utilizes EC2, S3, and RDS among other services.",
+      "title": "Cloud Infrastructure",
+      "description": "Adobe operates on a cloud infrastructure to provide seamless, scalable service to its global user base.",
+      "technical_spec": "Uses SaaS (Software as a Service) model, hosted on AWS.",
       "severity_score": 20
     },
     {
-      "title": "Kubernetes for Orchestration",
-      "description": "Adobe uses Kubernetes to manage and automate the deployment, scaling, and operations of application containers.",
-      "technical_spec": "Deployed clusters that are platform-agnostic.",
+      "title": "Multi-tenancy",
+      "description": "Supports multiple users on a single instance with isolation of user data.",
+      "technical_spec": "Isolated data layers with shared application codebase.",
       "severity_score": 30
     },
     {
-      "title": "Content Delivery Network Integration",
-      "description": "Adobe implements a CDN to ensure fast loading times globally.",
-      "technical_spec": "Integration with Akamai for global content distribution.",
+      "title": "API-First Approach",
+      "description": "APIs are used extensively for integration between internal services and with third-party solutions.",
+      "technical_spec": "RESTful and GraphQL APIs with OAuth 2.0 for authentication.",
       "severity_score": 15
     },
     {
-      "title": "API-First Design",
-      "description": "Adobe's services are built with an API-first approach to integrate various products.",
-      "technical_spec": "RESTful and GraphQL APIs with robust documentation.",
-      "severity_score": 35
+      "title": "Content Delivery Network (CDN)",
+      "description": "CDN is used to accelerate content delivery and improve user experience globally.",
+      "technical_spec": "Integration with global CDN providers like Akamai.",
+      "severity_score": 10
     }
   ]
 }

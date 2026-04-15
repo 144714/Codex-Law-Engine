@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 223,
+    "rank": 233,
     "site": "apple.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "35964511bfbf84956b12b16c13a2b633"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "516c55c8512379c222becb6a1b44f6e3"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies user interface options to reduce decision time.",
-      "technical_spec": "Emphasizing essential navigation and CTAs.",
-      "severity_score": 5
+      "title": "Hick's Law",
+      "description": "Design reduces decision-making time for users navigating the site.",
+      "technical_spec": "Minimalist layout with a low number of choices on each page.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Designs touch elements like buttons to be easily reachable.",
-      "technical_spec": "Size and proximity optimization of interactive elements.",
-      "severity_score": 5
+      "title": "Fitts's Law",
+      "description": "Large CTAs ensure that frequently used elements are easy to click.",
+      "technical_spec": "Button size and spacing optimized for touch interfaces.",
+      "severity_score": 12
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Grouping related items together to improve readability.",
+      "technical_spec": "Use of whitespace to create visual hierarchy.",
+      "severity_score": 10
     },
     {
       "title": "Gestalt Principles",
-      "description": "Utilizes design principles that help users perceive graphics in grouped forms.",
-      "technical_spec": "Consistent use of proximity, similarity, and continuity.",
-      "severity_score": 10
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Organizes complex information into seven plus or minus two chunks.",
-      "technical_spec": "Structured information architecture.",
-      "severity_score": 10
+      "description": "Visual elements organized to be perceived as part of a whole.",
+      "technical_spec": "Typography and color schemes create brand cohesion.",
+      "severity_score": 18
     },
     {
       "title": "Jakob’s Law",
-      "description": "Aligns with user expectations by following familiar design patterns.",
-      "technical_spec": "Use of commonly recognized web UI patterns.",
-      "severity_score": 5
+      "description": "Design leverages familiar patterns to meet user expectations.",
+      "technical_spec": "Conventional navigation panels and footer links.",
+      "severity_score": 8
     }
   ]
 }

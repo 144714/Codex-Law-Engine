@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 228,
+    "rank": 238,
     "site": "adobe.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "8dfe5bc6a98a9e235e72aaa851efe017"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "0580e868aa9d07d16a5be517c0e87d7e"
   },
   "data": [
     {
-      "title": "Advanced Threat Protection",
-      "description": "Implementing AI-driven threat detection to proactively identify and mitigate potential cyber threats.",
-      "technical_spec": "Utilizes machine learning algorithms to detect anomalies.",
-      "severity_score": 45
-    },
-    {
-      "title": "Continuous Monitoring",
-      "description": "24/7 monitoring of network traffic and system performance to detect and respond to potential threats immediately.",
-      "technical_spec": "Security Operation Centers (SOC) with real-time analytics.",
-      "severity_score": 50
+      "title": "Zero Trust Security",
+      "description": "Adopts a zero trust model that assumes threats are present inside and outside the network.",
+      "technical_spec": "Identity-based access controls and multi-factor authentication.",
+      "severity_score": 75
     },
     {
       "title": "Data Encryption",
-      "description": "Encryption of data both at rest and in transit to protect sensitive information.",
-      "technical_spec": "AES-256 encryption for data storage and TLS for data in transit.",
-      "severity_score": 40
+      "description": "Utilizes strong encryption methods to protect data both in transit and at rest.",
+      "technical_spec": "AES-256 encryption for data storage and TLS/SSL for data transmission.",
+      "severity_score": 70
     },
     {
-      "title": "User Access Management",
-      "description": "Strict policies and mechanisms in place to control user access to sensitive data.",
-      "technical_spec": "Role-Based Access Control (RBAC) with multi-factor authentication.",
-      "severity_score": 60
-    },
-    {
-      "title": "Vulnerability Management",
-      "description": "Regular assessments and patch management protocols to address security vulnerabilities.",
-      "technical_spec": "Patch cycles aligned with industry standards and regular penetration testing.",
+      "title": "Regular Security Audits",
+      "description": "Frequent security audits and vulnerability assessments to prevent breaches.",
+      "technical_spec": "Third-party audits and internal vulnerability scanning tools.",
       "severity_score": 65
+    },
+    {
+      "title": "Advanced Threat Detection",
+      "description": "Deploys AI-powered solutions to detect and mitigate advanced cyber threats in real-time.",
+      "technical_spec": "Machine learning-based anomaly detection systems.",
+      "severity_score": 80
+    },
+    {
+      "title": "Incident Response Plan",
+      "description": "Comprehensive incident response strategy to handle any data breaches or cyber attacks.",
+      "technical_spec": "Robust policies, procedures, and a dedicated security operations center.",
+      "severity_score": 85
     }
   ]
 }

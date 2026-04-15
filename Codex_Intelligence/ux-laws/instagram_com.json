@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 229,
+    "rank": 239,
     "site": "instagram.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "b79d7abc455a5d882073e81d24df365b"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "ab2aecda3cd856e6f100df24f9747361"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplified UI elements to minimize decision time for users.",
-      "technical_spec": "Key options are prioritized on the feed and profile screens.",
-      "severity_score": 10
+      "description": "Minimizing options to enhance user decision-making speeds.",
+      "technical_spec": "Simplified UI and intuitive navigation menus.",
+      "severity_score": 30
     },
     {
-      "title": "Fitt's Law",
-      "description": "Optimized touch targets for user interactions.",
-      "technical_spec": "Enlarged interactive elements based on user touch data.",
-      "severity_score": 15
-    },
-    {
-      "title": "Doherty Threshold",
-      "description": "Ensures fast system response times to keep users engaged.",
-      "technical_spec": "Average interaction time maintained under 400ms.",
+      "title": "Fitts' Law",
+      "description": "Optimization of clickable elements for ease of access.",
+      "technical_spec": "Enlarged touch targets and consideration for thumb zones on mobile.",
       "severity_score": 20
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing design that enhances perceived usability.",
-      "technical_spec": "High-quality imagery and a coherent color scheme.",
-      "severity_score": 5
+      "title": "The Aesthetic-Usability Effect",
+      "description": "The design is created to look appealing while maintaining functionality.",
+      "technical_spec": "Modern visual design languages and animations.",
+      "severity_score": 50
     },
     {
-      "title": "Law of Proximity",
-      "description": "Intuitive grouping of related items to enhance navigation.",
-      "technical_spec": "Logical grouping in UI layouts, such as story highlights.",
-      "severity_score": 10
+      "title": "Jakob's Law",
+      "description": "Building user experience based on familiar patterns found across similar apps.",
+      "technical_spec": "UI that follows common social media app design norms.",
+      "severity_score": 40
+    },
+    {
+      "title": "Peak-End Rule",
+      "description": "Creating memorable user experiences by focusing on key interactions.",
+      "technical_spec": "Optimizing important interactions like posting and messaging.",
+      "severity_score": 60
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 230,
+    "rank": 240,
     "site": "whatsapp.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "960ea97071226333d4116d7dd40f12eb"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "0e239cbf07940cd759c18e49241f9938"
   },
   "data": [
     {
-      "title": "Microservices Framework",
-      "description": "WhatsApp utilizes a microservices architecture to scale its application efficiently across millions of users worldwide.",
-      "technical_spec": "Docker, Kubernetes, RESTful APIs",
-      "severity_score": 85
+      "title": "Microservices Architecture",
+      "description": "WhatsApp employs a microservices architecture for scalability and flexibility in managing different functionalities independently.",
+      "technical_spec": "Individual services communicate over RESTful APIs with load balancers for traffic management.",
+      "severity_score": 20
     },
     {
-      "title": "End-to-End Encryption",
-      "description": "Ensures that only the communicating users can read the messages, preventing even WhatsApp from decrypting them.",
-      "technical_spec": "Signal Protocol, Curve25519, AES-256, HMAC-SHA256",
-      "severity_score": 95
+      "title": "Client-Server Model",
+      "description": "The app uses a classic client-server model where user requests are processed on remote servers.",
+      "technical_spec": "Client requests are routed through secure and distributed servers before reaching end recipients.",
+      "severity_score": 15
     },
     {
-      "title": "Datacenter Configuration",
-      "description": "Globally distributed servers to provide fast and reliable access to users around the world.",
-      "technical_spec": "Geographically distributed data centers, Content Distribution Networks (CDN)",
-      "severity_score": 80
+      "title": "End-to-End Encryption Protocol",
+      "description": "WhatsApp uses Signal Protocol for end-to-end encryption of messages, ensuring privacy and security.",
+      "technical_spec": "Data transmitted between users is encrypted with cryptographic keys known only to the communicating clients.",
+      "severity_score": 5
     },
     {
-      "title": "Persistence Layer",
-      "description": "Database systems optimized for quick retrieval and storage of messages and media.",
-      "technical_spec": "Cassandra, Erlang",
-      "severity_score": 78
+      "title": "Load Balancing",
+      "description": "The system uses load balancing to distribute incoming network traffic across multiple servers.",
+      "technical_spec": "Load balancers ensure no single server becomes overwhelmed with too many requests.",
+      "severity_score": 10
     },
     {
-      "title": "Push Notification System",
-      "description": "A robust system to ensure reliable message delivery alerts to users via their devices.",
-      "technical_spec": "APNs, FCM, SMPP",
-      "severity_score": 88
+      "title": "Global Distribution via CDNs",
+      "description": "Content delivery networks (CDNs) are used for fast, efficient global data distribution.",
+      "technical_spec": "Static and dynamic content is cached and delivered from geographically dispersed data centers.",
+      "severity_score": 10
     }
   ]
 }

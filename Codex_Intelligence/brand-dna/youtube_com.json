@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 222,
+    "rank": 232,
     "site": "youtube.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "8b36f48e636ae623d92d52f7eb6ef1c1"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "a52244e8f6a76193feea7fa8bd6b7faa"
   },
   "data": [
     {
-      "title": "User-Generated Content Platform",
-      "description": "A platform where users can create and share videos.",
-      "technical_spec": "Supports various video formats and resolutions for upload by users.",
-      "severity_score": 50
+      "title": "Global Reach",
+      "description": "YouTube's brand is synonymous with international access to user-generated content.",
+      "technical_spec": "Localized interfaces and multilingual support bolster international presence.",
+      "severity_score": 5
     },
     {
-      "title": "Algorithm-Driven Recommendations",
-      "description": "Employs algorithms to personalize content recommendations for users.",
-      "technical_spec": "Machine learning models analyze user behavior and preferences.",
-      "severity_score": 45
+      "title": "Community Engagement",
+      "description": "A cornerstone of YouTube is its focus on community building and interaction.",
+      "technical_spec": "Features such as comments, likes, and community posts facilitate engagement.",
+      "severity_score": 10
     },
     {
-      "title": "Monetization and Partner Program",
-      "description": "Enables content creators to earn revenue through ads and partnerships.",
-      "technical_spec": "Integrated with AdSense and other revenue-generating tools.",
-      "severity_score": 55
+      "title": "Content Diversity",
+      "description": "Offers a wide range of content types to cater to a broad audience spectrum.",
+      "technical_spec": "Algorithms are optimized to recommend diverse content tailored to individual preferences.",
+      "severity_score": 8
     },
     {
-      "title": "Community Engagement Tools",
-      "description": "Features such as comments, likes, and shares to foster community interaction.",
-      "technical_spec": "Robust social and interaction tools embedded in the platform.",
-      "severity_score": 40
+      "title": "Innovative Features",
+      "description": "Leverages cutting-edge technology to consistently innovate user experience.",
+      "technical_spec": "Frequent updates introduce new functionalities like VR videos and Live Streaming.",
+      "severity_score": 12
     },
     {
-      "title": "Mobile Accessibility",
-      "description": "Optimized for mobile devices to cater to the growing mobile-first audience.",
-      "technical_spec": "Adaptive streaming and UI optimizations for mobile platforms.",
-      "severity_score": 35
+      "title": "Ad-Driven Model",
+      "description": "Revenue strategy based on targeted advertisements integrated into video content.",
+      "technical_spec": "Algorithms tailored to serve personalized ads while balancing user experience.",
+      "severity_score": 15
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 226,
+    "rank": 236,
     "site": "netflix.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "7b363ddec6386b55b40cc45ab69275ba"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "2c1ea2d6ab7ec6ff8c0a927d1b61eebe"
   },
   "data": [
     {
-      "title": "Content Diversity",
-      "description": "A wide selection of content targeting various demographics and interests.",
-      "technical_spec": "Includes original programming, movies, series, documentaries, international titles.",
-      "severity_score": 95
+      "title": "Global Content Reach",
+      "description": "Provides a wide range of international content to accommodate diverse audiences.",
+      "technical_spec": "Original productions in various languages and licensing deals.",
+      "severity_score": 10
     },
     {
-      "title": "Innovative Technology",
-      "description": "Adopts new technologies to enhance user streaming experience.",
-      "technical_spec": "Leader in distributed systems, algorithms, and data usage.",
-      "severity_score": 94
+      "title": "Content-first Strategy",
+      "description": "Prioritizes high-quality, original content to differentiate the service.",
+      "technical_spec": "Significant investment in original programming and partnerships.",
+      "severity_score": 10
     },
     {
-      "title": "Subscription Flexibility",
-      "description": "Offers multiple plans catering to different user needs.",
-      "technical_spec": "Monthly subscription model with no contracts and easy cancellation.",
-      "severity_score": 90
+      "title": "User-Centric Experience",
+      "description": "Focuses on creating an engaging and seamless user experience.",
+      "technical_spec": "Personalized recommendations powered by user data analytics.",
+      "severity_score": 10
     },
     {
-      "title": "Global Reach",
-      "description": "Available in over 190 countries, catering to a global audience.",
-      "technical_spec": "Localized content and interfaces, extensive subtitle and dubbing options.",
-      "severity_score": 92
+      "title": "Brand Consistency",
+      "description": "Maintains a consistent brand image across all platforms.",
+      "technical_spec": "Uniform design language and tone in marketing and interface.",
+      "severity_score": 5
     },
     {
-      "title": "Customer-Centric Approach",
-      "description": "Focuses on user-experience and satisfaction through personalized recommendations.",
-      "technical_spec": "Powered by an advanced AI-driven recommendation engine.",
-      "severity_score": 93
+      "title": "Innovation Leadership",
+      "description": "Leads in streaming technology advancements and distribution.",
+      "technical_spec": "Early adoption of adaptive streaming technology.",
+      "severity_score": 15
     }
   ]
 }

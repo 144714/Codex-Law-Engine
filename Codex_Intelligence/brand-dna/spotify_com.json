@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 227,
+    "rank": 237,
     "site": "spotify.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "2de8cd3e745c757dc1d4fd063d8a9ade"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "3bd969f0720af04f3b20622efa866097"
   },
   "data": [
     {
-      "title": "Music Discovery and Personalization",
-      "description": "Central focus on user-driven music discovery through personalized playlists.",
-      "technical_spec": "AI-driven recommendations, user data analytics.",
-      "severity_score": 93
+      "title": "Global Accessibility",
+      "description": "Spotify is accessible worldwide, reflecting a commitment to diverse and widespread reach.",
+      "technical_spec": "Offers services in multiple languages and regions with localized content.",
+      "severity_score": 30
     },
     {
-      "title": "Cross-Platform Experience",
-      "description": "Seamless access to Spotify across various devices and operating systems.",
-      "technical_spec": "Synchronization between devices, platform-specific apps.",
-      "severity_score": 90
+      "title": "Innovative Discovery",
+      "description": "Promotes new music discovery through algorithms and curated playlists.",
+      "technical_spec": "Utilizes machine learning for personalized music recommendations.",
+      "severity_score": 40
     },
     {
-      "title": "Collaborative Playlists",
-      "description": "Enables users to create and share playlists with friends.",
-      "technical_spec": "Real-time collaboration, social sharing features.",
-      "severity_score": 88
+      "title": "User-Centric Design",
+      "description": "Designs are focused on simplifying and enhancing the user experience.",
+      "technical_spec": "User interface optimized for both mobile and desktop experiences.",
+      "severity_score": 25
     },
     {
-      "title": "High-Quality Streaming",
-      "description": "Focus on delivering superior audio quality options to users.",
-      "technical_spec": "Multiple streaming quality settings, lossless audio support.",
-      "severity_score": 92
+      "title": "Community Engagement",
+      "description": "Encourages user interaction and community feeling through social features.",
+      "technical_spec": "Incorporates sharing and collaboration features for social connectivity.",
+      "severity_score": 35
     },
     {
-      "title": "Artist and Podcaster Platform",
-      "description": "Support for artist and podcaster tools to connect directly with their audience.",
-      "technical_spec": "Analytics tools for artists, podcaster publications.",
-      "severity_score": 89
+      "title": "Artist Support",
+      "description": "Empowers artists with tools for distribution and fan engagement.",
+      "technical_spec": "Provides analytics and promotional opportunities for artists.",
+      "severity_score": 45
     }
   ]
 }

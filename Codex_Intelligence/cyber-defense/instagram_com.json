@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 229,
+    "rank": 239,
     "site": "instagram.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "5fb23afb38ec3fb80faa21cee7a314e5"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "38ab76a5ed28e93e6cc2df9ab371efbd"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Enhanced account security via secondary authentication.",
-      "technical_spec": "Supports SMS and authenticator apps.",
-      "severity_score": 45
-    },
-    {
       "title": "Data Encryption",
-      "description": "Ensures privacy through encryption of data in transit and at rest.",
-      "technical_spec": "Uses TLS for encryption in transit and AES-256 for data at rest.",
+      "description": "Implementation of cryptographic protocols to safeguard user data.",
+      "technical_spec": "TLS 1.3 for data in transit, AES-256 for data at rest.",
       "severity_score": 30
     },
     {
-      "title": "Account Takeover Protection",
-      "description": "Prevention measures against unauthorized account access.",
-      "technical_spec": "Machine learning models detect and block suspicious logins.",
+      "title": "Two-Factor Authentication",
+      "description": "Offer optional user account protection through a second verification step.",
+      "technical_spec": "OTP via SMS and authentication app compatibility.",
+      "severity_score": 20
+    },
+    {
+      "title": "Threat Detection Systems",
+      "description": "Constant monitoring and defense against potential security breaches.",
+      "technical_spec": "AI-based anomaly detection and logging.",
       "severity_score": 50
     },
     {
-      "title": "Bug Bounty Program",
-      "description": "Incentivizes discovery of security vulnerabilities by external researchers.",
-      "technical_spec": "Managed through a platform like HackerOne.",
-      "severity_score": 40
+      "title": "Data Breach Contingency Planning",
+      "description": "Protocols in place for rapid response to any data breaches.",
+      "technical_spec": "Incident response team and predefined SOPs.",
+      "severity_score": 70
     },
     {
-      "title": "SOC Monitoring",
-      "description": "24/7 security operations center for threat detection and response.",
-      "technical_spec": "Uses advanced SIEM tools for log analysis.",
-      "severity_score": 35
+      "title": "User Privacy Controls",
+      "description": "Tools and settings provided to users to control data privacy.",
+      "technical_spec": "Privacy settings for posts and account visibility.",
+      "severity_score": 40
     }
   ]
 }

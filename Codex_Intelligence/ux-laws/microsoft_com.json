@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 224,
+    "rank": 234,
     "site": "microsoft.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "b0d9164766e0cd1923e0246f0d8246ea"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "f21b826be3d0d40749df20bfa19ed348"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies user choices on the site to enhance decision-making.",
-      "technical_spec": "Streamlined dropdowns, focused navigation.",
+      "description": "Simplified navigation paths to reduce decision-making time for users.",
+      "technical_spec": "Streamlined menu structures with concise options.",
       "severity_score": 18
     },
     {
-      "title": "Fitt's Law",
-      "description": "Design improves user interaction efficiency with target sizes.",
-      "technical_spec": "Large clickable areas, predictable path movements.",
+      "title": "Fitts's Law",
+      "description": "Design elements positioned for intuitive user interaction.",
+      "technical_spec": "Prominently placed CTAs for easy access and reduced interaction time.",
       "severity_score": 15
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing design enhances usability perception.",
-      "technical_spec": "Consistent color schemes, high-quality visuals.",
+      "title": "Miller's Law",
+      "description": "Information is chunked into digestible portions to aid memory retention.",
+      "technical_spec": "Content sections limited to 7±2 items to avoid cognitive overload.",
       "severity_score": 12
     },
     {
-      "title": "Miller's Law",
-      "description": "Organizes content to reflect limited short-term memory capacity.",
-      "technical_spec": "Chunking of information, organized content blocks.",
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing design enhances user satisfaction and perceived usability.",
+      "technical_spec": "Consistent use of branding elements and a modern design aesthetic.",
       "severity_score": 20
     },
     {
       "title": "Jakob's Law",
-      "description": "Design aligns with user familiarity from similar sites.",
-      "technical_spec": "Standardized iconography, conventional layouts.",
-      "severity_score": 17
+      "description": "Design adheres to user expectations by mirroring standard web design practices.",
+      "technical_spec": "Familiar navigation conventions and interface elements throughout.",
+      "severity_score": 10
     }
   ]
 }

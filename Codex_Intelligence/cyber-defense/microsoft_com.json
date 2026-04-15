@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 224,
+    "rank": 234,
     "site": "microsoft.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "c18f45623990efb1b2eaf2d39e52e804"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "40c2ffcb45ccadc87957af1c3cc850ca"
   },
   "data": [
     {
       "title": "Advanced Threat Protection",
-      "description": "Multi-layer security to protect against complex threats.",
-      "technical_spec": "AI-driven threat detection, anti-phishing mechanisms.",
-      "severity_score": 5
+      "description": "Integration of Azure Advanced Threat Protection for proactive security.",
+      "technical_spec": "Real-time threat detection and monitoring powered by machine learning.",
+      "severity_score": 15
     },
     {
-      "title": "Data Encryption",
-      "description": "All user data is encrypted both in transit and at rest.",
-      "technical_spec": "TLS 1.3, AES-256 encryption standards.",
+      "title": "Multi-Factor Authentication (MFA)",
+      "description": "Requires MFA for accessing sensitive and administrative areas of the website.",
+      "technical_spec": "Uses Azure MFA services for additional security layers.",
+      "severity_score": 20
+    },
+    {
+      "title": "Secure Sockets Layer (SSL)",
+      "description": "Implementation of HTTPS across the entire site to ensure secure data transmission.",
+      "technical_spec": "TLS 1.2/1.3 encryption protocols ensure data integrity and privacy.",
       "severity_score": 10
     },
     {
       "title": "Regular Security Audits",
-      "description": "Frequent assessments to identify and mitigate vulnerabilities.",
-      "technical_spec": "Penetration testing, vulnerability scanners.",
-      "severity_score": 15
+      "description": "Conducts periodic security audits to identify and rectify vulnerabilities.",
+      "technical_spec": "Vulnerability assessments and penetration testing carried out regularly.",
+      "severity_score": 25
     },
     {
-      "title": "DDoS Protection",
-      "description": "Robust defenses against Distributed Denial of Service attacks.",
-      "technical_spec": "Azure DDoS Protection, scalable bandwidth.",
-      "severity_score": 10
-    },
-    {
-      "title": "User Access Controls",
-      "description": "Strict controls over user authentication and access levels.",
-      "technical_spec": "Multi-factor authentication, role-based access control.",
-      "severity_score": 12
+      "title": "Data Encryption at Rest",
+      "description": "Ensures all user data is encrypted while stored to prevent unauthorized access.",
+      "technical_spec": "Advanced Encryption Standard (AES) 256-bit used for disk encryption.",
+      "severity_score": 30
     }
   ]
 }

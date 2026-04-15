@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 221,
+    "rank": 231,
     "site": "google.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "e2ad3e34dc7d5d4b5670e90ecb2c3c9d"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "4e95eba8e54cdc070a72595759628503"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Aims to minimize the time needed to move the pointer by making navigation elements easily accessible.",
-      "technical_spec": "Designs employ large clickable areas for frequent action items.",
-      "severity_score": 10
-    },
-    {
       "title": "Hick's Law",
-      "description": "Reduces choice overload by simplifying options, improving decision-making speed.",
-      "technical_spec": "UI interfaces categorize and simplify features.",
-      "severity_score": 8
+      "description": "Reduces decision-making time by limiting choices on search result pages.",
+      "technical_spec": "Minimalist interface, clear categorization, relevant suggestions",
+      "severity_score": 5
     },
     {
-      "title": "Miller's Law",
-      "description": "Limits information overload by chunking content into smaller, manageable groups.",
-      "technical_spec": "Designs utilize breaking information into chunks and sections.",
-      "severity_score": 7
+      "title": "Fitts's Law",
+      "description": "Designed fast interaction for navigation elements to be easily selectable.",
+      "technical_spec": "Large clickable areas, toolbars, easy-to-reach buttons",
+      "severity_score": 4
     },
     {
-      "title": "Jakob's Law",
-      "description": "Utilizes familiar patterns users have experienced on other sites to increase usability.",
-      "technical_spec": "Adheres to conventional navigation and layout strategies.",
+      "title": "Miller’s Law",
+      "description": "Groups content into manageable chunks for easier processing by users.",
+      "technical_spec": "Clustering search results, expandable menus, predictive search",
       "severity_score": 6
     },
     {
+      "title": "Jakob’s Law",
+      "description": "Offers a familiar experience by adhering to common web conventions.",
+      "technical_spec": "Consistent layout with other web services, recognizable icons, standard navigation",
+      "severity_score": 4
+    },
+    {
       "title": "Aesthetic-Usability Effect",
-      "description": "Encourages positive emotional response in users through clear and visually appealing designs.",
-      "technical_spec": "CSS frameworks and design guidelines ensure visuals are consistent and engaging.",
-      "severity_score": 5
+      "description": "Achieves a balance between aesthetics and functionality to increase user satisfaction.",
+      "technical_spec": "Responsive UI design, Google Material Design principles, adaptive color schemes",
+      "severity_score": 3
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 221,
+    "rank": 231,
     "site": "google.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "ef0bd9f07fc606f8238c6afe0f5c244f"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "85b8bea26677328130325d5b8300b582"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Protects data in transit and at rest through encryption protocols.",
-      "technical_spec": "Uses TLS for data in transit and AES for stored data.",
-      "severity_score": 5
-    },
-    {
-      "title": "Access Control and Authentication",
-      "description": "Enforces strict authentication and authorization protocols.",
-      "technical_spec": "Utilizes OAuth 2.0 and multi-factor authentication (MFA) mechanisms.",
-      "severity_score": 12
-    },
-    {
-      "title": "Security Patch Management",
-      "description": "Regularly updates systems and applications to defend against vulnerabilities.",
-      "technical_spec": "Automated patch deployment and management system.",
-      "severity_score": 4
-    },
-    {
-      "title": "Intrusion Detection Systems (IDS)",
-      "description": "Monitors and flags suspicious activities in the network.",
-      "technical_spec": "Advanced anomaly detection algorithms and machine learning models employed.",
-      "severity_score": 15
+      "title": "Encryption",
+      "description": "Advanced encryption protocols to protect data both in transit and at rest.",
+      "technical_spec": "TLS 1.3, AES-256, end-to-end encryption",
+      "severity_score": 2
     },
     {
       "title": "DDoS Protection",
-      "description": "Defends against distributed denial-of-service attacks.",
-      "technical_spec": "Traffic analysis tools and network-level defenses to mitigate DDoS attacks.",
-      "severity_score": 20
+      "description": "Protection against distributed denial-of-service attacks to ensure service availability.",
+      "technical_spec": "Adaptive filtering, centralized scrubbing centers, regional load balancing",
+      "severity_score": 3
+    },
+    {
+      "title": "Authentication",
+      "description": "Robust authentication systems to protect user accounts and data.",
+      "technical_spec": "OAuth 2.0, 2-step verification, Password Alert extension",
+      "severity_score": 2
+    },
+    {
+      "title": "Vulnerability scanning",
+      "description": "Continuous scanning for vulnerabilities in the codebase and infrastructure.",
+      "technical_spec": "Automated scanning tools, Bug Bounty Program, regular security audits",
+      "severity_score": 4
+    },
+    {
+      "title": "Data Loss Prevention",
+      "description": "Strategies to prevent data leakage or unauthorized access.",
+      "technical_spec": "Cloud DLP API, access control policies, data anonymization tools",
+      "severity_score": 3
     }
   ]
 }

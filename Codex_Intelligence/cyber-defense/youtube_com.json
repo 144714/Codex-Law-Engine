@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 222,
+    "rank": 232,
     "site": "youtube.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "ed5b5f2c5b64d14d4940d76213591625"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "9619187b5bb407e54c057df53e2a49e6"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Protects data by encrypting it from the source to the destination.",
-      "technical_spec": "AES-256 encryption standard for video and metadata.",
+      "title": "DDOS Protection",
+      "description": "Systems in place to prevent and mitigate Distributed Denial of Service attacks.",
+      "technical_spec": "Utilizes Google's infrastructure to filter traffic and sustain service under high load.",
       "severity_score": 20
     },
     {
-      "title": "Bot and Spam Detection",
-      "description": "Utilizes algorithms to identify and mitigate bot activity and spam on the platform.",
-      "technical_spec": "Machine learning models trained on known spam patterns.",
-      "severity_score": 30
+      "title": "Secure Data Transmission",
+      "description": "End-to-end encryption for all data in transit between users and YouTube servers.",
+      "technical_spec": "HTTPS and Transport Layer Security (TLS) are standard.",
+      "severity_score": 15
     },
     {
-      "title": "Two-Factor Authentication (2FA)",
-      "description": "Provides an additional layer of security for user accounts.",
-      "technical_spec": "Supports SMS and authenticator apps for 2FA.",
-      "severity_score": 18
+      "title": "User Authentication",
+      "description": "Robust authentication mechanisms to protect user accounts.",
+      "technical_spec": "Two-factor authentication (2FA) and OAuth 2.0 for secure logins.",
+      "severity_score": 12
     },
     {
-      "title": "Secure API Gateways",
-      "description": "Ensures secure interactions between services through robust API security protocols.",
-      "technical_spec": "OAuth 2.0 for secure API authentication.",
+      "title": "Content Moderation",
+      "description": "Automated and manual systems to detect and remove harmful content.",
+      "technical_spec": "Machine learning algorithms assist in detecting inappropriate content.",
       "severity_score": 25
     },
     {
-      "title": "DDoS Protection",
-      "description": "Mitigates distributed denial-of-service attacks to keep services operational.",
-      "technical_spec": "Traffic analysis and mitigation tools monitor and restrict suspicious activity.",
-      "severity_score": 35
+      "title": "Privacy Controls",
+      "description": "User privacy is protected through customizable privacy settings and robust data protection policies.",
+      "technical_spec": "Adheres to GDPR and CCPA standards, offering detailed user data controls.",
+      "severity_score": 18
     }
   ]
 }

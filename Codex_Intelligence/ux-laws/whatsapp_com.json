@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 230,
+    "rank": 240,
     "site": "whatsapp.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "da5de0a8a7913e430e1687097f49a46e"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "16da6b181ed6bc52075a72b95750809f"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Interface designed to make the most frequently used actions easily accessible.",
-      "technical_spec": "One-handed mode, swipe gestures",
-      "severity_score": 78
-    },
-    {
       "title": "Hick’s Law",
-      "description": "Minimized decision-making time by simplifying choices within the app.",
-      "technical_spec": "Streamlined menu options, intuitive chat functions",
-      "severity_score": 80
+      "description": "The app design minimizes decision-making time with a clear and intuitive interface.",
+      "technical_spec": "Simple menu options and an intuitive layout reduce cognitive load on users.",
+      "severity_score": 10
     },
     {
-      "title": "Miller’s Law",
-      "description": "Content is organized in a way that users can easily remember different elements.",
-      "technical_spec": "Chunking of contact and chat information, consistent UI patterns",
-      "severity_score": 75
+      "title": "Fitts’s Law",
+      "description": "Interactive elements are designed for easy access on touchscreens, enhancing user experience.",
+      "technical_spec": "Buttons are sized and positioned for fast and easy touchscreen interaction.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "WhatsApp maintains a visually pleasing design that suggests ease of use and efficiency.",
+      "technical_spec": "Consistent use of color schemes, icons, and typography enhances aesthetic appeal.",
+      "severity_score": 5
+    },
+    {
+      "title": "Law of Simplicity",
+      "description": "The application implements a minimalist design that ensures user tasks are straightforward.",
+      "technical_spec": "Navigational paths are clear and uncluttered, emphasizing key user functions.",
+      "severity_score": 10
     },
     {
       "title": "Jakob’s Law",
-      "description": "The design aligns with user expectations derived from other similar platforms.",
-      "technical_spec": "Consistent with social media and messaging app conventions",
-      "severity_score": 82
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Elements placed close together appear as related, enhancing user comprehension.",
-      "technical_spec": "Grouped message threads, proximity-based notification settings",
-      "severity_score": 77
+      "description": "Users expect WhatsApp's interface to resemble familiar applications, which it does.",
+      "technical_spec": "Design patterns consistent with commonly used apps simplify user transition and learning curve.",
+      "severity_score": 8
     }
   ]
 }

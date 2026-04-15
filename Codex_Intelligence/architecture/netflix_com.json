@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 226,
+    "rank": 236,
     "site": "netflix.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "60403a616ffc1a0bbb2780ce23cb12d1"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "b957894ac816a0bda0a7da846f42fda2"
   },
   "data": [
     {
-      "title": "Microservices Framework",
-      "description": "Netflix employs a microservices architecture, which allows independent development, deployment, and scaling of services.",
-      "technical_spec": "Based on Spring Boot and AWS Cloud for deployment.",
-      "severity_score": 95
+      "title": "Microservices",
+      "description": "Decomposed architecture where independent services are responsible for different functionalities.",
+      "technical_spec": "Uses AWS infrastructure for scalable and reliable service deployment.",
+      "severity_score": 20
     },
     {
-      "title": "Playback Service",
-      "description": "Handles video streaming to ensure smooth delivery across different devices and network conditions.",
-      "technical_spec": "Built on a combination of NGINX and Netflix's own custom caching solution, including Open Connect.",
-      "severity_score": 88
+      "title": "Content Delivery Network (CDN)",
+      "description": "Efficient delivery of content such as movies and shows using a distributed network of servers.",
+      "technical_spec": "Primarily Akamai and Fastly for edge server caching.",
+      "severity_score": 15
     },
     {
-      "title": "Data Pipeline",
-      "description": "Processes data to gain insights and drive recommendations, optimizing user experience.",
-      "technical_spec": "Utilizes Apache Kafka and AWS for real-time data processing.",
-      "severity_score": 92
+      "title": "Serverless Computing",
+      "description": "On-demand resource allocation for specific tasks and workloads.",
+      "technical_spec": "AWS Lambda used for event-driven compute tasks.",
+      "severity_score": 10
     },
     {
-      "title": "Global Scalability",
-      "description": "Infrastructure adjusted to serve millions of concurrent users worldwide.",
-      "technical_spec": "Deployed across multiple regions with AWS Elastic Load Balancing.",
-      "severity_score": 90
+      "title": "Cloud-native",
+      "description": "Cloud-first infrastructure allowing for rapid scalability, easy updates, and cost-effectiveness.",
+      "technical_spec": "Hosted on Amazon Web Services (AWS) offering redundancy and scalability.",
+      "severity_score": 15
     },
     {
-      "title": "Chaos Engineering",
-      "description": "Methodology to test system resilience through controlled failure experimentation.",
-      "technical_spec": "Utilizes tools like Chaos Monkey and other tools in the Simian Army suite.",
-      "severity_score": 85
+      "title": "RESTful APIs",
+      "description": "Use of RESTful APIs to enable communication between client and server.",
+      "technical_spec": "APIs follow REST principles to ensure stateless communication.",
+      "severity_score": 30
     }
   ]
 }

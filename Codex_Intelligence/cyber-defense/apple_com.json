@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 223,
+    "rank": 233,
     "site": "apple.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "74b6a581e2fae75ba4c2099aa6c8008f"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "79fbcb2df1dec26e920c93afbda50b4f"
   },
   "data": [
     {
-      "title": "WAF (Web Application Firewall)",
-      "description": "Provides protection against web threats by filtering and monitoring HTTP traffic.",
-      "technical_spec": "Advanced WAF rules and bot management.",
-      "severity_score": 20
+      "title": "HTTPS/TLS Protocol",
+      "description": "Encryption to secure data in transit for user security.",
+      "technical_spec": "TLS 1.3 protocol ensuring end-to-end encryption.",
+      "severity_score": 5
     },
     {
-      "title": "DDoS Protection",
-      "description": "Mitigates distributed denial-of-service attacks to ensure uptime.",
-      "technical_spec": "Automatic scaling and global data centers.",
-      "severity_score": 30
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular security assessments to identify vulnerabilities.",
-      "technical_spec": "Utilizing internal and third-party expertise.",
-      "severity_score": 15
-    },
-    {
-      "title": "Data Encryption",
-      "description": "Sensitive data is encrypted in transit and at rest.",
-      "technical_spec": "AES-256 encryption for data at rest.",
+      "title": "Secure Authentication Mechanisms",
+      "description": "Two-factor authentication protects user accounts.",
+      "technical_spec": "Combination of SMS-based and app-based authentication.",
       "severity_score": 10
     },
     {
-      "title": "User Behavior Analytics",
-      "description": "Monitors user activity to detect anomalies and potential threats.",
-      "technical_spec": "Machine learning algorithms for behavior analysis.",
-      "severity_score": 20
+      "title": "Web Application Firewall (WAF)",
+      "description": "Protects against cross-site scripting and SQL injection.",
+      "technical_spec": "Integration with a cloud-based WAF provider.",
+      "severity_score": 8
+    },
+    {
+      "title": "Data Loss Prevention (DLP)",
+      "description": "Monitors and protects sensitive data from being accessed or shared.",
+      "technical_spec": "Automated systems for detecting and blocking threats.",
+      "severity_score": 15
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Routine security checks to identify vulnerabilities.",
+      "technical_spec": "Internal team conducting manual and automated reviews.",
+      "severity_score": 12
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 227,
+    "rank": 237,
     "site": "spotify.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "d76b510fb513bcdb06694f81f5106426"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "85bf96a3dcfea96f7ee606e1a0ef4c18"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Spotify minimizes decision-making time by keeping choices simple.",
-      "technical_spec": "Simplified navigation, concise options menu.",
-      "severity_score": 85
+      "title": "Aesthetic-Usability Effect",
+      "description": "Aesthetic designs are perceived as more usable, which is evident in Spotify's clean interface.",
+      "technical_spec": "Adopts a modern design language with a focus on clarity and engagement.",
+      "severity_score": 20
     },
     {
       "title": "Fitts's Law",
-      "description": "Design of the app ensures easily clickable targets for touch and clicks.",
-      "technical_spec": "Target size optimization, adequate spacing.",
-      "severity_score": 88
+      "description": "Design considers that the time to interact with elements depends on their size and distance.",
+      "technical_spec": "Key controls and buttons are optimally placed for quick access and usability.",
+      "severity_score": 25
     },
     {
-      "title": "Consistency and Standards",
-      "description": "Interface elements provide consistent experiences across platforms.",
-      "technical_spec": "Platform-native design elements, homogenous interaction patterns.",
-      "severity_score": 90
-    },
-    {
-      "title": "The Aesthetic-Usability Effect",
-      "description": "Aesthetic design enhances perceived ease of use.",
-      "technical_spec": "Modern design, smooth animations, intuitive color schemes.",
-      "severity_score": 87
+      "title": "Hick's Law",
+      "description": "Reduces decision-making time by simplifying options available at once.",
+      "technical_spec": "Clear navigation with focused menus to streamline user journeys.",
+      "severity_score": 20
     },
     {
       "title": "Jakob's Law",
-      "description": "Users experience seamless navigation with recognizable design patterns from other apps.",
-      "technical_spec": "Familiar UI elements, consistent iconography.",
-      "severity_score": 85
+      "description": "Users prefer interfaces that work similarly to those they are accustomed to.",
+      "technical_spec": "Consistent design with familiar music-related features that users expect.",
+      "severity_score": 30
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Considers the capacity of short-term memory by limiting the number of elements in a group.",
+      "technical_spec": "Organizes content in manageable chunks, enhancing focus and recall.",
+      "severity_score": 25
     }
   ]
 }

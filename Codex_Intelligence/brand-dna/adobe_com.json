@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 228,
+    "rank": 238,
     "site": "adobe.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "c2ea23bb5403a9848d9546166dc54d38"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "90c0c84a041c8f45726bc74df3186eda"
   },
   "data": [
     {
-      "title": "Creativity and Innovation",
-      "description": "Adobe's brand DNA revolves around enabling creativity and innovation in digital media and marketing solutions.",
-      "technical_spec": "Extended support for creative cloud suite and continuous product enhancements.",
+      "title": "Creativity Empowerment",
+      "description": "Adobe's brand is centered around empowering creativity in individuals and businesses worldwide.",
+      "technical_spec": "Software products like Photoshop, Illustrator, and Premiere Pro designed for creative professionals.",
       "severity_score": 10
     },
     {
-      "title": "Consistency and Reliability",
-      "description": "The brand promises consistent user experience and reliable solutions across its range of products.",
-      "technical_spec": "Consistent UI design across all platforms and services.",
+      "title": "Innovation",
+      "description": "Focus on continuous innovation to lead the creative software industry.",
+      "technical_spec": "Investment in AI-driven features and cloud-based offerings.",
       "severity_score": 15
     },
     {
-      "title": "Collaboration and Community",
-      "description": "Adobe fosters a collaborative environment within its community of users and creative professionals.",
-      "technical_spec": "Community forums, Behance integration, and collaborative tools in apps.",
+      "title": "Reliability",
+      "description": "Adobe is known for offering reliable, professional-grade solutions to creative challenges.",
+      "technical_spec": "Robust software with regular updates and support services.",
       "severity_score": 20
     },
     {
-      "title": "User-Centric Design",
-      "description": "Adobe emphasizes designing tools that prioritize user needs and workflows.",
-      "technical_spec": "User feedback loops in product development and beta testing phases.",
-      "severity_score": 25
+      "title": "User-Centric Approach",
+      "description": "Prioritizes user experience and customer feedback in product development.",
+      "technical_spec": "Regular usability testing and design based on user research.",
+      "severity_score": 12
     },
     {
-      "title": "Cutting-Edge Technology",
-      "description": "Adobe integrates the latest technological advancements in artificial intelligence and machine learning into its products.",
-      "technical_spec": "Integrations of Adobe Sensei AI across different application features.",
-      "severity_score": 30
+      "title": "Community Engagement",
+      "description": "Strong emphasis on community involvement and user communities for product growth.",
+      "technical_spec": "Support forums, online communities, and events like Adobe MAX.",
+      "severity_score": 18
     }
   ]
 }

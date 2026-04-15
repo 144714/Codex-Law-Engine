@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 226,
+    "rank": 236,
     "site": "netflix.com",
-    "date": "2026-04-15 08:23",
-    "integrity_hash": "de47bfc519f4beded263c34d336f7bd6"
+    "date": "2026-04-15 10:09",
+    "integrity_hash": "5fffd20fd8da70e7f13008afe7e97809"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Design optimized for quick accessibility of controls, reducing cognitive load.",
-      "technical_spec": "Placement of key interactive UI elements in easily reachable areas.",
-      "severity_score": 89
+      "title": "Hick’s Law",
+      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
+      "technical_spec": "Simplified navigation and categorization of content.",
+      "severity_score": 15
     },
     {
-      "title": "Hick's Law",
-      "description": "Streamlined decision paths in UI reduce user choice overload.",
-      "technical_spec": "Minimal and clear menu options presented on interface.",
-      "severity_score": 87
-    },
-    {
-      "title": "Aesthetic Usability Effect",
-      "description": "A visually appealing design contributes to the perceived ease of use.",
-      "technical_spec": "Utilizes a sleek, modern interface with consistent color themes.",
-      "severity_score": 90
+      "title": "Aesthetic-Usability Effect",
+      "description": "Users perceive aesthetically pleasing designs as more usable.",
+      "technical_spec": "Visually appealing interface with minimalistic design.",
+      "severity_score": 5
     },
     {
       "title": "Law of Proximity",
-      "description": "Related elements grouped together for intuitive navigation.",
-      "technical_spec": "Items are clustered logically, such as genre categories and similar titles.",
-      "severity_score": 88
+      "description": "Objects that are near each other are perceived as related.",
+      "technical_spec": "Intuitive grouping of related content and features.",
+      "severity_score": 10
     },
     {
-      "title": "Law of Common Region",
-      "description": "Elements sharing the same regions are perceived as related.",
-      "technical_spec": "Utilizes card-based layouts to separate distinct episodes or shows.",
-      "severity_score": 85
+      "title": "Pareto Principle (80/20 Rule)",
+      "description": "80% of results come from 20% of actions.",
+      "technical_spec": "Focus on most-watched sections and recommendations.",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "The average person can only keep 7 (plus or minus 2) items in their working memory.",
+      "technical_spec": "Content browsing is segmented into top picks, categories, and recommendations.",
+      "severity_score": 15
     }
   ]
 }
