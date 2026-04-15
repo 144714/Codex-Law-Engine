@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 186,
+    "rank": 196,
     "site": "netflix.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "b37f450704693a26a076e9a058609653"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "a17ecd8662acbe4860628f1a652860c5"
   },
   "data": [
     {
-      "title": "Security Information and Event Management (SIEM)",
-      "description": "SIEM solutions are integrated for real-time analysis of security alerts.",
-      "technical_spec": "Incorporates Splunk for log management and event monitoring.",
-      "severity_score": 30
+      "title": "Comprehensive Encryption",
+      "description": "Ensures data protection through end-to-end encryption protocols.",
+      "technical_spec": "TLS protocols for data-in-transit and AES encryption for data-at-rest.",
+      "severity_score": 10
     },
     {
-      "title": "Multi-layer Authentication",
-      "description": "Ensures user accounts are secure with multiple authentication factors.",
-      "technical_spec": "Two-factor authentication is supported for enhanced security.",
-      "severity_score": 25
+      "title": "Identity and Access Management",
+      "description": "Robust IAM policies manage user permissions and secure access.",
+      "technical_spec": "Utilizes OAuth for token-based authentication and multi-factor verification.",
+      "severity_score": 15
     },
     {
-      "title": "Data Encryption",
-      "description": "Uses encryption protocols to protect user data at rest and in transit.",
-      "technical_spec": "Employs TLS and AES-256 for data protection.",
+      "title": "Security Incident Response",
+      "description": "Well-defined protocols for detecting and responding to cyber threats.",
+      "technical_spec": "24/7 monitoring with advanced intrusion detection systems.",
       "severity_score": 20
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular vulnerability scans and assessments to mitigate security risks.",
-      "technical_spec": "Utilizes tools like Nessus and Burp Suite for vulnerability scanning.",
-      "severity_score": 35
+      "title": "DDoS Protection",
+      "description": "Multi-layered defense against distributed denial-of-service attacks.",
+      "technical_spec": "Combines network firewalls with traffic analysis tools.",
+      "severity_score": 25
     },
     {
-      "title": "Threat Intelligence",
-      "description": "Incorporates threat intelligence feeds to anticipate potential threats.",
-      "technical_spec": "Employs solutions that aggregate and analyze threat data from multiple sources.",
-      "severity_score": 40
+      "title": "Vulnerability Management",
+      "description": "Continuous scanning and patching of potential security vulnerabilities.",
+      "technical_spec": "Automated patch management integrated with CI/CD pipelines.",
+      "severity_score": 18
     }
   ]
 }

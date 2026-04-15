@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 189,
+    "rank": 199,
     "site": "instagram.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "aefab35d75cfac15dc4d2a599bdd9b32"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "2d566c758f6a385f832657b5fa66841d"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making in-app by limiting the number of choices presented to users.",
-      "technical_spec": "Fewer navigation options, streamlined interfaces.",
-      "severity_score": 30
+      "description": "Limiting options to reduce decision fatigue for a seamless user experience.",
+      "technical_spec": "Streamlined UI design, concise navigation elements.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Attractive interfaces can enhance perceived usability and engagement.",
+      "technical_spec": "High-quality imagery, modern typography.",
+      "severity_score": 15
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Users spend most of their time on other sites, so interfaces should follow common design patterns.",
+      "technical_spec": "Familiar UI interactions, standard layout conventions.",
+      "severity_score": 12
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Elements that are close together appear to be more related than elements that are spaced farther apart.",
+      "technical_spec": "Consistent spacing and grouping.",
+      "severity_score": 13
     },
     {
       "title": "Fitts's Law",
-      "description": "Optimizes button and element sizes for faster interactions based on Fitts’s law.",
-      "technical_spec": "Accessible sizing and spacing for touch interfaces.",
-      "severity_score": 40
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Designs interface to match user expectations from other platforms (e.g., Facebook).",
-      "technical_spec": "Utilizes familiar UI patterns and navigation structures.",
-      "severity_score": 25
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Segments content into chunks to help users better process and remember information.",
-      "technical_spec": "Use of stories and carousel features.",
-      "severity_score": 20
-    },
-    {
-      "title": "Aesthetic Usability Effect",
-      "description": "Maintains a visually appealing design to enhance perceived usability.",
-      "technical_spec": "High-quality imagery, consistent color palettes.",
-      "severity_score": 35
+      "description": "The time to acquire a target is a function of the distance and size of the target.",
+      "technical_spec": "Large, easy-to-hit buttons for common actions.",
+      "severity_score": 10
     }
   ]
 }

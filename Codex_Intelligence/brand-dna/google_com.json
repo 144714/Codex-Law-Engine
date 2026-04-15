@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 181,
+    "rank": 191,
     "site": "google.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "fc0c254306216bcf80076e06c7e4b3bc"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "5cc20ffcfb572e909b105257b7126d7d"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Commitment to being at the forefront of technological advancements.",
-      "technical_spec": "R&D investments, patent portfolio",
+      "title": "Simplicity",
+      "description": "Maintains a simple, clean, and uncluttered brand image that resonates with its 'do no evil' philosophy.",
+      "technical_spec": "Minimalist design; Uncluttered interface; Simple user interactions",
       "severity_score": 5
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focus on creating products that prioritize user needs and experiences.",
-      "technical_spec": "A/B testing, user feedback loops",
+      "title": "Reliability",
+      "description": "Perceived as a reliable and consistent source of information, underscoring its reputation.",
+      "technical_spec": "Consistent performance; Trusted search results; Availability",
       "severity_score": 10
     },
     {
-      "title": "Global Reach",
-      "description": "A brand that connects with users in diverse locales around the globe.",
-      "technical_spec": "Multi-language support, region-specific services",
+      "title": "Innovation",
+      "description": "Known for integrating cutting-edge technology and constantly evolving its services.",
+      "technical_spec": "AI integration; Regular updates; Innovative features",
+      "severity_score": 20
+    },
+    {
+      "title": "Accessibility",
+      "description": "Committed to making technology accessible, appealing to a global audience.",
+      "technical_spec": "Multilingual support; Accessible design; Global reach",
       "severity_score": 10
     },
     {
-      "title": "Sustainability",
-      "description": "Striving for eco-friendly operations and reducing environmental impact.",
-      "technical_spec": "Carbon-neutral initiatives, renewable energy usage",
-      "severity_score": 15
-    },
-    {
-      "title": "Security",
-      "description": "Maintaining high levels of trust by prioritizing security across all products.",
-      "technical_spec": "Zero-Trust architecture, frequent patching",
+      "title": "Community",
+      "description": "Cultivates a sense of global community through its products and outreach initiatives.",
+      "technical_spec": "User-focused services; Developer communities; Open-source projects",
       "severity_score": 15
     }
   ]

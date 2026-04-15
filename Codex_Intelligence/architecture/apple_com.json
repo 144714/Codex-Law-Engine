@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 183,
+    "rank": 193,
     "site": "apple.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "609dc9f1d2e8302fbf03a6eba70e137b"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "0abff939e25d932e9c3c854c28603f18"
   },
   "data": [
     {
+      "title": "Responsive Design",
+      "description": "The site adjusts seamlessly to various devices, ensuring a consistent experience across mobile, tablet, and desktop.",
+      "technical_spec": "Utilizes CSS Media Queries, Flexible Grid System, and Viewport Meta Tag.",
+      "severity_score": 15
+    },
+    {
       "title": "Microservices Architecture",
-      "description": "Apple utilizes a microservices architecture to ensure independent services can be scaled and developed separately.",
-      "technical_spec": "Multiple lightweight services with distinct capabilities, communicating over HTTP/HTTPS with data usually serialized in JSON.",
-      "severity_score": 90
+      "description": "Employs a microservices architecture to handle various site functionalities independently.",
+      "technical_spec": "Uses RESTful APIs and distributed services for modular design.",
+      "severity_score": 20
     },
     {
-      "title": "Cloud-Native Infrastructure",
-      "description": "Infrastructure based on cloud technologies that can dynamically scale based on user demand.",
-      "technical_spec": "Integration with public/private cloud providers, Kubernetes for orchestration.",
-      "severity_score": 85
+      "title": "Content Delivery Network (CDN)",
+      "description": "Employs a CDN to reduce latency and improve load times globally.",
+      "technical_spec": "Cloudflare or Akamai integration for global content distribution.",
+      "severity_score": 10
     },
     {
-      "title": "Server-Side Rendering",
-      "description": "Content is dynamically generated on the server to improve loading times and SEO performance.",
-      "technical_spec": "Utilizes frameworks like Next.js for server-side rendering capabilities.",
-      "severity_score": 75
+      "title": "High Availability",
+      "description": "Designed for high availability to ensure minimal downtime through redundancy and failover strategies.",
+      "technical_spec": "Load Balancers with multi-region server deployment.",
+      "severity_score": 5
     },
     {
-      "title": "Load Balancing",
-      "description": "Distributes incoming web traffic across multiple servers to ensure stability and performance.",
-      "technical_spec": "Implemented using hardware or software-based solutions like Nginx or AWS ELB.",
-      "severity_score": 80
-    },
-    {
-      "title": "Continuous Integration/Continuous Deployment (CI/CD)",
-      "description": "Automated pipeline for testing and deploying code changes promptly and efficiently.",
-      "technical_spec": "Tools like Jenkins or CircleCI used for CI/CD pipelines.",
-      "severity_score": 78
+      "title": "Scalable Infrastructure",
+      "description": "Built to handle high traffic volumes with scalable cloud infrastructure solutions.",
+      "technical_spec": "Utilizes AWS or similar cloud platforms with auto-scaling capabilities.",
+      "severity_score": 18
     }
   ]
 }

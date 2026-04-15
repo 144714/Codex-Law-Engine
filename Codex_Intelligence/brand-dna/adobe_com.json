@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 188,
+    "rank": 198,
     "site": "adobe.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "ab9b87e63f95a50b516beac603da103f"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "b47d2d866ee2457c0519cc364cf9395c"
   },
   "data": [
     {
       "title": "Creative Freedom",
-      "description": "Adobe positions itself as an enabler of creativity through its diverse suite of tools.",
-      "technical_spec": "Photoshop, Illustrator, Premiere Pro",
-      "severity_score": 10
+      "description": "Adobe empowers creativity across its suite of software.",
+      "technical_spec": "Photoshop, Illustrator, After Effects",
+      "severity_score": 5
     },
     {
-      "title": "Innovation and Evolution",
-      "description": "Adobe consistently develops cutting-edge technologies to redefine digital creativity.",
-      "technical_spec": "Adobe Sensei AI, cloud computing",
+      "title": "Innovation Leadership",
+      "description": "Leader in adopting and implementing cutting-edge technologies.",
+      "technical_spec": "AI Integration, Cloud Technologies",
       "severity_score": 15
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Focuses on enhancing user experiences by tailoring products to professional needs.",
-      "technical_spec": "User feedback loops, beta programs",
-      "severity_score": 15
-    },
-    {
-      "title": "Global Reach and Accessibility",
-      "description": "Adobe products are accessible globally, supporting diverse languages and accessibility standards.",
-      "technical_spec": "Localization support, WCAG compliance",
-      "severity_score": 20
+      "title": "Sustainability Commitment",
+      "description": "Focused on sustainable and responsible business practices.",
+      "technical_spec": "Eco-friendly Data Centers",
+      "severity_score": 8
     },
     {
       "title": "Community Engagement",
-      "description": "Engages with a vast community of users and professionals to provide support and inspiration.",
-      "technical_spec": "Community forums, Adobe MAX events",
-      "severity_score": 15
+      "description": "Strong emphasis on building and fostering a creative community.",
+      "technical_spec": "Adobe Forums, Behance",
+      "severity_score": 10
+    },
+    {
+      "title": "Customer-Centric Innovation",
+      "description": "Adapts innovations to meet evolving customer needs.",
+      "technical_spec": "User Feedback Systems",
+      "severity_score": 12
     }
   ]
 }

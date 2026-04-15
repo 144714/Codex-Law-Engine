@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 190,
+    "rank": 200,
     "site": "whatsapp.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "0c23196f41f285739c336ce0e9332071"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "6cfdfa7d92059c059886e553f0ceae7c"
   },
   "data": [
     {
-      "title": "Scalable Microservices",
-      "description": "WhatsApp's architecture is built using microservices that ensure scalability and performance.",
-      "technical_spec": "Microservices architecture utilizes containerization with tools like Docker and Kubernetes.",
-      "severity_score": 25
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "Messages are secured with end-to-end encryption, protecting data from unauthorized access.",
-      "technical_spec": "Utilizes the Signal Protocol for encryption, ensuring messages are only read by the sender and recipient.",
-      "severity_score": 10
-    },
-    {
-      "title": "Data Replication",
-      "description": "WhatsApp uses data replication techniques for failover and high availability.",
-      "technical_spec": "Replication is achieved with database clusters distributed across multiple data centers.",
+      "title": "Microservices Infrastructure",
+      "description": "WhatsApp uses a microservices architecture to manage different functionalities like messaging, notifications, and user authentication separately, providing scalability and maintenance ease.",
+      "technical_spec": "Architecture style: Microservices; Communication: REST/GRPC; Scalability: Horizontal; Deployment: Containers/Kubernetes",
       "severity_score": 20
     },
     {
-      "title": "Load Balancing",
-      "description": "To handle millions of simultaneous connections, WhatsApp employs robust load balancing techniques.",
-      "technical_spec": "Network load balancers spread traffic evenly across distributed servers.",
+      "title": "End-to-End Encryption",
+      "description": "Built-in end-to-end encryption ensures that messages are securely transmitted between users without interception.",
+      "technical_spec": "Protocols: Signal Protocol for encryption; Key Management: Asymmetric cryptography; Storage: Encrypted storage on device",
+      "severity_score": 10
+    },
+    {
+      "title": "Global Distributed Servers",
+      "description": "A network of distributed servers globally to ensure reliable and fast message delivery across different regions.",
+      "technical_spec": "Distribution: Global CDN; Load Balancing: Geo-based routing; Redundancy: High availability clusters",
       "severity_score": 15
     },
     {
-      "title": "Real-Time Communication",
-      "description": "The architecture is optimized for real-time messaging and calls.",
-      "technical_spec": "Utilizes protocols like WebRTC and XMPP for low-latency communication.",
-      "severity_score": 30
+      "title": "Real-Time Messaging Protocol",
+      "description": "Real-time messaging protocol enables instant sending and receiving of messages across platforms.",
+      "technical_spec": "Protocol: WebSocket for real-time communication; Backup: HTTP fallback; Efficiency: Low-latency message dispatch",
+      "severity_score": 25
+    },
+    {
+      "title": "Cross-Platform Compatibility",
+      "description": "Supports a wide range of devices and operating systems to ensure broad accessibility.",
+      "technical_spec": "Compatibility: iOS, Android, Web; Frameworks: React Native for mobile; Integration: Seamless sync across platforms",
+      "severity_score": 20
     }
   ]
 }

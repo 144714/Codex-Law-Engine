@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 185,
+    "rank": 195,
     "site": "amazon.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "6d5615437cbc94a52817b9b5f5088c7f"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "3570187d5dbf504858e4b2c84913fbd9"
   },
   "data": [
     {
-      "title": "Identity and Access Management",
-      "description": "Comprehensive IAM policies to control permissions and user access.",
-      "technical_spec": "AWS IAM, MFA, Role-based access control",
+      "title": "Access Management",
+      "description": "Multi-factor authentication (MFA) and role-based access control to secure user accounts.",
+      "technical_spec": "AWS IAM with MFA enabled for critical operations.",
+      "severity_score": 15
+    },
+    {
+      "title": "Encryption",
+      "description": "Encryption of data at rest and in transit to protect customer information.",
+      "technical_spec": "AES-256 for data at rest and TLS 1.2 for data in transit.",
+      "severity_score": 10
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Measures in place to protect against distributed denial-of-service attacks.",
+      "technical_spec": "AWS Shield Advanced and AWS WAF for filtering malicious traffic.",
       "severity_score": 20
     },
     {
-      "title": "Data Encryption Standards",
-      "description": "Encryption to protect data at rest and in transit.",
-      "technical_spec": "AWS KMS, TLS/SSL certificates",
-      "severity_score": 18
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular security audits to identify vulnerabilities.",
-      "technical_spec": "AWS CloudTrail, Inspector, GuardDuty",
-      "severity_score": 22
-    },
-    {
-      "title": "Firewalls and Network Security",
-      "description": "Uses firewalls and network security measures to protect against attacks.",
-      "technical_spec": "AWS WAF, Shield, Security Groups",
+      "title": "Firewalls and VPCs",
+      "description": "Enhanced security through virtual private clouds and firewalls.",
+      "technical_spec": "AWS Security Groups and Network ACLs in place.",
       "severity_score": 25
     },
     {
-      "title": "Incident Response Plan",
-      "description": "Preparedness plan to respond to security incidents effectively.",
-      "technical_spec": "AWS Security Hub, Incident Manager",
+      "title": "Security Audits",
+      "description": "Regular security audits and compliance checks.",
+      "technical_spec": "Automated tools for continuous monitoring and vulnerability scanning.",
       "severity_score": 30
     }
   ]

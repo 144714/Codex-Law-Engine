@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 183,
+    "rank": 193,
     "site": "apple.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "48b5fc5e0f983884b0ff8ae23c7b819a"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "d4dfce6e7a9bf9cbb5f2e3a65863a103"
   },
   "data": [
     {
-      "title": "Minimalistic Design",
-      "description": "Focus on simplicity and clarity in design, eliminating unnecessary elements.",
-      "technical_spec": "Use of clean lines, simple color palettes, and ample white space.",
-      "severity_score": 95
+      "title": "Innovation and Design",
+      "description": "Focuses on innovative and premium design that sets industry standards.",
+      "technical_spec": "Employs cutting-edge design tools and methodologies.",
+      "severity_score": 10
     },
     {
-      "title": "Innovation",
-      "description": "Commitment to leading-edge technology and innovative design in products and services.",
-      "technical_spec": "Continuous investment in R&D, patent acquisitions.",
-      "severity_score": 90
+      "title": "Integration and Ecosystem",
+      "description": "Provides seamless integration across a range of products and services.",
+      "technical_spec": "Uses proprietary APIs and continuous ecosystem updates.",
+      "severity_score": 15
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Design and development processes centered around the end-user experience and needs.",
-      "technical_spec": "User experience testing, iterative design based on feedback.",
-      "severity_score": 93
+      "title": "Simplicity and Intuitiveness",
+      "description": "Maintains simplicity at its core, ensuring intuitive user experiences.",
+      "technical_spec": "Adopts minimalist design and clear, straightforward navigation.",
+      "severity_score": 13
     },
     {
-      "title": "Privacy and Security",
-      "description": "Strong emphasis on user privacy protection and secure technology solutions.",
-      "technical_spec": "End-to-end encryption, stringent data privacy policies.",
-      "severity_score": 92
+      "title": "Security and Privacy",
+      "description": "Prioritizes user privacy and security, building trust through protection measures.",
+      "technical_spec": "Implements strong data protection and privacy policies.",
+      "severity_score": 18
     },
     {
-      "title": "Eco-Friendly Practices",
-      "description": "Sustainability and environmentally friendly practices embedded in the product lifecycle.",
-      "technical_spec": "Use of recycled materials, carbon neutrality initiatives.",
-      "severity_score": 88
+      "title": "Customer-Centric Approach",
+      "description": "Puts customer needs first by delivering personalized experiences.",
+      "technical_spec": "Leverages CRM systems and user data analytics for personalization.",
+      "severity_score": 13
     }
   ]
 }

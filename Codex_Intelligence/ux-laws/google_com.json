@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 181,
+    "rank": 191,
     "site": "google.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "088410865fda90068c777d2589a45183"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "703aba9cdd7a06c7a21673143c1baeda"
   },
   "data": [
     {
-      "title": "Simplicity",
-      "description": "The interface is designed to be minimalistic and easy to understand.",
-      "technical_spec": "Clean UI, flat design principles",
+      "title": "Hick’s Law",
+      "description": "The simpler the interface, the quicker users can navigate and find information.",
+      "technical_spec": "Minimalist design; Quick links; Streamlined navigation",
+      "severity_score": 10
+    },
+    {
+      "title": "Fitts’s Law",
+      "description": "Optimized for efficient user interaction with commonly used controls positioned in easy-to-reach areas.",
+      "technical_spec": "Ergonomic design; Proximity-based arrangement; Responsive buttons",
+      "severity_score": 15
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Google’s clean design aesthetics make users perceive the website as more user-friendly and functional.",
+      "technical_spec": "Visual hierarchy; Consistent branding; Clean interface",
       "severity_score": 5
     },
     {
-      "title": "Accessibility",
-      "description": "The site prioritizes accessibility by employing a range of assistive technologies.",
-      "technical_spec": "ARIA roles, keyboard navigation support",
+      "title": "Jakob’s Law",
+      "description": "Aligned with users' existing mental models for site functionality from past experiences with Google search.",
+      "technical_spec": "Predictable interface; Familiar functionality; Established patterns",
+      "severity_score": 5
+    },
+    {
+      "title": "The Principle of Least Effort",
+      "description": "Design focuses on providing search results with minimal effort from the user.",
+      "technical_spec": "Search algorithms; Auto-complete features; Intuitive search bar",
       "severity_score": 20
-    },
-    {
-      "title": "Performance",
-      "description": "Fast loading times are crucial for enhanced user experience.",
-      "technical_spec": "Lazy loading, resource optimization",
-      "severity_score": 10
-    },
-    {
-      "title": "Consistency",
-      "description": "UI elements are consistently designed to meet user expectations.",
-      "technical_spec": "Material Design guidelines",
-      "severity_score": 10
-    },
-    {
-      "title": "Feedback",
-      "description": "Timely feedback mechanisms to guide and inform users.",
-      "technical_spec": "Loading indicators, error messages",
-      "severity_score": 15
     }
   ]
 }

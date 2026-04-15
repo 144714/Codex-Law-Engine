@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 185,
+    "rank": 195,
     "site": "amazon.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "00a30554b852d8d3d9af4203e8ecd23d"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "bf8d4846e74a34dfaf4c8319f74b7983"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies decision making by reducing choices presented at once.",
-      "technical_spec": "Simplified UI, easy navigation",
-      "severity_score": 12
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Optimizes button sizes to enhance usability on various devices.",
-      "technical_spec": "Responsive design, touch-friendly interfaces",
-      "severity_score": 15
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Ensures familiar design patterns that users have encountered before.",
-      "technical_spec": "Consistent layout, familiar icons",
+      "title": "Consistency",
+      "description": "Consistent design patterns across the platform to enhance user familiarity.",
+      "technical_spec": "Unified design language across web and mobile apps.",
       "severity_score": 10
     },
     {
-      "title": "Law of User Control",
-      "description": "Allows users to feel in control with easy undo and redo options.",
-      "technical_spec": "Clear navigation, customer account control",
-      "severity_score": 13
+      "title": "Feedback",
+      "description": "Immediate feedback for user actions to improve interaction.",
+      "technical_spec": "Interactive elements like loading spinners and progress indicators.",
+      "severity_score": 15
     },
     {
-      "title": "Law of Feedback",
-      "description": "Provides users with timely feedback about their interactions.",
-      "technical_spec": "Loading indicators, confirmation messages",
-      "severity_score": 18
+      "title": "Accessibility",
+      "description": "Efforts to make the website accessible to users with disabilities.",
+      "technical_spec": "WCAG 2.1 AA compliance across major sections.",
+      "severity_score": 20
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "Optimized placement of interactive elements to reduce user effort.",
+      "technical_spec": "Call-to-action buttons placed intuitively within clickable distance.",
+      "severity_score": 10
+    },
+    {
+      "title": "Hick's Law",
+      "description": "Reducing choice overload for quicker decision making.",
+      "technical_spec": "Simplified navigation with categorized drop-down menus.",
+      "severity_score": 15
     }
   ]
 }

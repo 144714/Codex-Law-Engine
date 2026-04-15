@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 181,
+    "rank": 191,
     "site": "google.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "775454a8dd857d49de82d9f34b5c21fb"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "e25054d65b33e1ea65102686f8e1133e"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "Google uses a robust microservices architecture to ensure scalability and flexibility.",
-      "technical_spec": "Microservices, Kubernetes, Borg",
-      "severity_score": 10
-    },
-    {
-      "title": "Global CDN",
-      "description": "A vast Content Delivery Network (CDN) helps deliver content with low latency worldwide.",
-      "technical_spec": "Edge nodes, Cloudflare-like systems",
-      "severity_score": 5
-    },
-    {
-      "title": "High-Performance Data Centers",
-      "description": "Data centers optimized for performance, efficiency, and reliability.",
-      "technical_spec": "Custom-built servers, green energy solutions",
-      "severity_score": 5
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Effective load balancing to manage high traffic volumes and ensure uptime.",
-      "technical_spec": "HTTP/2, QUIC, proprietary algorithms",
+      "title": "Monolithic vs. Microservices",
+      "description": "Google employs a microservices architecture to enhance scalability, allowing each service to operate independently and communicate over APIs.",
+      "technical_spec": "Microservices; APIs for communication; Independent deployments",
       "severity_score": 15
     },
     {
-      "title": "Decentralized Database Management",
-      "description": "Distributed database systems for managing massive amounts of data.",
-      "technical_spec": "Spanner, Bigtable, NoSQL solutions",
+      "title": "Load Balancing",
+      "description": "Google uses global load balancers to distribute incoming traffic efficiently and prevent overloading servers.",
+      "technical_spec": "Global load balancing; Auto-scaling; Traffic distribution",
+      "severity_score": 20
+    },
+    {
+      "title": "Data Centers",
+      "description": "Utilizes geographically distributed data centers to ensure high availability and redundancy.",
+      "technical_spec": "Global data centers; Redundancy; High availability",
       "severity_score": 10
+    },
+    {
+      "title": "Network Infrastructure",
+      "description": "Robust network infrastructure with custom-built data cables and peering agreements.",
+      "technical_spec": "Custom data cables; Peering; Network optimization",
+      "severity_score": 30
+    },
+    {
+      "title": "Containerization",
+      "description": "Extensive use of containers (e.g., Kubernetes) for deploying applications to ensure consistency across environments.",
+      "technical_spec": "Kubernetes; Container orchestration; Consistent deployments",
+      "severity_score": 25
     }
   ]
 }

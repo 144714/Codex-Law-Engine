@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 183,
+    "rank": 193,
     "site": "apple.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "83af01865cb5f9572507a82f5ae4b70d"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "2f6e94e05656d47b88462fcc7fc3d779"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "Extra security layer requiring more than one form of verification to log in to accounts.",
-      "technical_spec": "Uses OTP, biometrics, or authentication apps.",
-      "severity_score": 95
+      "title": "SSL/TLS Encryption",
+      "description": "Implements SSL/TLS encryption to secure data transmitted between users and the server.",
+      "technical_spec": "Uses HTTPS with TLS 1.2/1.3 protocols and strong cipher suites.",
+      "severity_score": 12
     },
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Encryption protocol to ensure secure data transmission over the internet.",
-      "technical_spec": "Implements TLS 1.2 and 1.3, certificates issued by trusted CAs.",
-      "severity_score": 85
+      "title": "Web Application Firewall (WAF)",
+      "description": "Protects against common web attacks by filtering and monitoring HTTP traffic.",
+      "technical_spec": "Deployed WAF rules for OWASP Top 10 threat mitigation.",
+      "severity_score": 22
+    },
+    {
+      "title": "Multi-Factor Authentication",
+      "description": "Enforces multi-factor authentication for user accounts to enhance security.",
+      "technical_spec": "Integrates OTP or biometric verification mechanisms.",
+      "severity_score": 25
     },
     {
       "title": "Regular Security Audits",
-      "description": "Routine audits to identify and resolve potential vulnerabilities in the system.",
-      "technical_spec": "Involves penetration testing and code reviews.",
-      "severity_score": 88
+      "description": "Conducts periodic security audits and vulnerability assessments.",
+      "technical_spec": "Utilizes automated scanning tools and manual penetration testing.",
+      "severity_score": 30
     },
     {
-      "title": "Intrusion Detection Systems (IDS)",
-      "description": "Monitors network traffic for suspicious activities and potential threats.",
-      "technical_spec": "Combination of host-based and network-based IDS solutions.",
-      "severity_score": 82
-    },
-    {
-      "title": "Data Loss Prevention (DLP)",
-      "description": "Strategies and tools to prevent data breaches and unauthorized access to sensitive information.",
-      "technical_spec": "Involves endpoint scanning and data encryption policies.",
-      "severity_score": 80
+      "title": "Data Encryption",
+      "description": "Encrypts sensitive data at rest and in transit to protect user information.",
+      "technical_spec": "Employs AES-256 encryption for database and file storage.",
+      "severity_score": 20
     }
   ]
 }

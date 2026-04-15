@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 184,
+    "rank": 194,
     "site": "microsoft.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "e982c2707e4a91a459cafc16d6e512c6"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "0e066b03234cfc1b032e28b6980e7d14"
   },
   "data": [
     {
-      "title": "Innovative Technology",
-      "description": "Commitment to cutting-edge technology and continuous innovation.",
-      "technical_spec": "Utilizes AI and machine learning in service offerings.",
+      "title": "Innovation",
+      "description": "Commitment to pioneering technology solutions and breakthroughs.",
+      "technical_spec": "Focus on AI, cloud, and edge computing advancements.",
       "severity_score": 5
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focuses on creating a seamless and intuitive user experience.",
-      "technical_spec": "Human-centered design processes and usability studies.",
-      "severity_score": 5
-    },
-    {
-      "title": "Global Reach",
-      "description": "Presence and accessibility across global markets.",
-      "technical_spec": "Localized content and multilingual support.",
+      "title": "Reliability",
+      "description": "Brand known for robust and dependable technology solutions.",
+      "technical_spec": "Backed by comprehensive support ecosystems.",
       "severity_score": 10
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Dedicated to environmental sustainability in operations and services.",
-      "technical_spec": "Plans to be carbon negative by 2030.",
-      "severity_score": 5
+      "title": "Accessibility",
+      "description": "Ensures accessibility for all users, emphasizing inclusive design.",
+      "technical_spec": "WCAG 2.1 compliance across all digital properties.",
+      "severity_score": 20
     },
     {
-      "title": "Security and Privacy",
-      "description": "Prioritizes security and user privacy in digital services.",
-      "technical_spec": "Adheres to GDPR and CCPA for data protection.",
-      "severity_score": 5
+      "title": "Security",
+      "description": "Positions security as a core tenet of product and service development.",
+      "technical_spec": "End-to-end security features across platforms and services.",
+      "severity_score": 15
+    },
+    {
+      "title": "Customer-Centricity",
+      "description": "Focuses on understanding and meeting customer needs and expectations.",
+      "technical_spec": "Data-driven insights to tailor user experiences.",
+      "severity_score": 10
     }
   ]
 }

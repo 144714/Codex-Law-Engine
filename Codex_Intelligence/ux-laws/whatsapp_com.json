@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 190,
+    "rank": 200,
     "site": "whatsapp.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "aca9dd9cc4b2517039013b899296e7fe"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "cb2d9185a9af2c249b0f66f3cd1fe2b4"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "The design is optimized such that frequently used buttons are larger and easier to click.",
-      "technical_spec": "Interface components are designed with ample size and intuitive positioning.",
+      "title": "Jakob's Law",
+      "description": "Users spend most of their time on other sites, so they prefer user interfaces that work similarly to those they already know.",
+      "technical_spec": "UI Consistency: Familiar navigation patterns; Accessibility: Standard icons and gestures",
       "severity_score": 15
     },
     {
-      "title": "Hick’s Law",
-      "description": "Limiting choices and making each action as straightforward as possible to reduce decision time.",
-      "technical_spec": "Streamlined menu design with concise options for quick decision-making.",
+      "title": "Fitts's Law",
+      "description": "The time to acquire a target is a function of the distance to and size of the target.",
+      "technical_spec": "Design: Large touch targets for buttons; Spacing: Adequate margins to prevent misclicks",
       "severity_score": 10
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Users spend most of their time on other sites; thus, WhatsApp follows interface conventions for familiarity.",
-      "technical_spec": "Adopts common interface elements and interaction patterns familiar to users.",
-      "severity_score": 10
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "A visually appealing interface enhances the perceived usability of the app.",
-      "technical_spec": "Incorporates high-resolution images, smooth transitions, and a cohesive color palette.",
+      "title": "Hick's Law",
+      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
+      "technical_spec": "Decision Points: Simplified choices; UI Flow: Minimalism in design",
       "severity_score": 20
     },
     {
-      "title": "Law of Proximity",
-      "description": "Elements that are related are placed close together to reduce cognitive load.",
-      "technical_spec": "Content grouping and alignment strategies used in chat layouts and menus.",
+      "title": "Miller's Law",
+      "description": "The average person can only keep about seven items in their working memory.",
+      "technical_spec": "Content Design: Chunking information; Interface: Clear categorization of messages",
+      "severity_score": 25
+    },
+    {
+      "title": "Peak-End Rule",
+      "description": "People judge an experience largely based on how they felt at its peak and end.",
+      "technical_spec": "Experience Design: Focused on user interaction points; User Feedback: Positive end experiences",
       "severity_score": 15
     }
   ]

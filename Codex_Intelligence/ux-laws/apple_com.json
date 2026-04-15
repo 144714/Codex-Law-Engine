@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 183,
+    "rank": 193,
     "site": "apple.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "31f4653610a0db096ac838ac908b0e41"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "61fe653c9aa1c58b9dc3da10c9397f67"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Design principle that predicts the time required to move to a target area, emphasizing clickable items’ size and distance.",
-      "technical_spec": "Optimization of interactive elements to be large enough and appropriately spaced.",
-      "severity_score": 70
-    },
-    {
       "title": "Hick's Law",
-      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Simplified navigation structure and reduced options on interfaces.",
-      "severity_score": 65
+      "description": "Simplifies choices to reduce response time and improve decision-making efficiency.",
+      "technical_spec": "Streamlined menu layout with categorized options.",
+      "severity_score": 14
     },
     {
-      "title": "Law of Common Region",
-      "description": "Elements tend to be perceived as grouped if they are located within the same closed region.",
-      "technical_spec": "Use of color, borders, or background to logically group related items.",
-      "severity_score": 68
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Users perceive objects that are close to each other as related more than objects that are further apart.",
-      "technical_spec": "Strategic use of whitespace and proximity to relate UI components.",
-      "severity_score": 75
+      "title": "Fitts’s Law",
+      "description": "Designs large, easily clickable buttons to enhance usability.",
+      "technical_spec": "Focuses on button and link sizes proportional to their importance.",
+      "severity_score": 18
     },
     {
       "title": "Jakob's Law",
-      "description": "Users spend most of their time on other sites; they prefer your site to work the same way.",
-      "technical_spec": "Adherence to standard web practices that meet user expectations.",
-      "severity_score": 80
+      "description": "Aligns with user expectations by maintaining consistency with commonly used interface patterns.",
+      "technical_spec": "Utilizes standard navigation bars and action flows.",
+      "severity_score": 10
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Chunks information to help users remember data more efficiently.",
+      "technical_spec": "Breaks content into visually distinct sections with a clear hierarchy.",
+      "severity_score": 16
+    },
+    {
+      "title": "Aesthetic Usability Effect",
+      "description": "Ensures aesthetically pleasing design to improve perceived ease of use.",
+      "technical_spec": "Clean, minimalistic design with moderated color palette.",
+      "severity_score": 12
     }
   ]
 }

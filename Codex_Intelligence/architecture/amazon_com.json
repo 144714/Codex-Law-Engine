@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 185,
+    "rank": 195,
     "site": "amazon.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "d4531eae397895f5399c0ff72e10894c"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "78b5623c159ccd166a9d0ccff2696012"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Amazon uses a microservices architecture to allow independently deployable services.",
-      "technical_spec": "AWS Lambda, Amazon ECS (Elastic Container Service), API Gateway",
+      "title": "Microservices",
+      "description": "Amazon utilizes a microservices architecture to allow independent deployment and scaling of individual services.",
+      "technical_spec": "Decoupled services with RESTful APIs, typically using AWS ECS or Kubernetes.",
+      "severity_score": 5
+    },
+    {
+      "title": "Data Centers",
+      "description": "Globally distributed data centers ensure low latency and high availability.",
+      "technical_spec": "Leveraging AWS regions for redundancy and load balancing.",
       "severity_score": 10
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Leveraging AWS services for real-time data processing and event-driven workflows.",
-      "technical_spec": "Amazon Kinesis, AWS Step Functions, Amazon SNS",
+      "title": "Serverless Computing",
+      "description": "Serverless architecture for handling unpredictable traffic spikes effectively.",
+      "technical_spec": "AWS Lambda functions trigger for event-driven processes.",
       "severity_score": 15
     },
     {
-      "title": "Scalable Load Balancing",
-      "description": "Amazon's infrastructure utilizes load balancing for handling millions of requests simultaneously.",
-      "technical_spec": "Elastic Load Balancing, Auto Scaling Groups",
-      "severity_score": 8
+      "title": "Content Delivery Network (CDN)",
+      "description": "Utilizes CDN to deliver content with minimal latency to users worldwide.",
+      "technical_spec": "Amazon CloudFront integrates with AWS S3, providing quick delivery.",
+      "severity_score": 5
     },
     {
-      "title": "Global Content Delivery",
-      "description": "Uses Content Delivery Networks to ensure quick load times globally.",
-      "technical_spec": "Amazon CloudFront",
-      "severity_score": 12
-    },
-    {
-      "title": "Highly Available Databases",
-      "description": "Ensures data availability and integrity with distributed databases.",
-      "technical_spec": "Amazon RDS, DynamoDB",
-      "severity_score": 7
+      "title": "Database Management",
+      "description": "Flexible and scalable database services for managing extensive datasets.",
+      "technical_spec": "AWS RDS and DynamoDB for relational and NoSQL databases.",
+      "severity_score": 20
     }
   ]
 }

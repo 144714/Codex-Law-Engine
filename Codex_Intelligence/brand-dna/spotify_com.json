@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 187,
+    "rank": 197,
     "site": "spotify.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "80ae31101a6b43c350e8f7ad8abc9a29"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "a25590f5e53bdbb2bccea494f902447d"
   },
   "data": [
     {
-      "title": "Music-Centric Identity",
-      "description": "Spotify identifies as a music streaming leader, providing broad access to various artists and genres.",
-      "technical_spec": "Rich and diverse global music cataloging.",
+      "title": "Personalized Experience",
+      "description": "Focus on delivering personalized music recommendations to users.",
+      "technical_spec": "Machine learning algorithms for Discover Weekly and Daily Mix playlists.",
       "severity_score": 10
     },
     {
-      "title": "Personalized Experience",
-      "description": "Tailors the user experience with personalized playlists and song recommendations.",
-      "technical_spec": "Leverages machine learning algorithms and user data analytics.",
-      "severity_score": 35
+      "title": "Social Integration",
+      "description": "Enables users to share music across social media platforms.",
+      "technical_spec": "API integrations with Facebook, Instagram, and Twitter.",
+      "severity_score": 15
     },
     {
-      "title": "Innovative Discovery Tools",
-      "description": "Continuously develops new features like Discover Weekly and Release Radar for music discovery.",
-      "technical_spec": "Algorithmic curations updated weekly based on listening habits.",
-      "severity_score": 30
-    },
-    {
-      "title": "Cross-Platform Accessibility",
-      "description": "Access Spotify on multiple platforms including mobile, desktop, and smart devices.",
-      "technical_spec": "Compatibility with iOS, Android, Windows, macOS, and various smart speakers.",
+      "title": "Accessibility",
+      "description": "Designs for inclusive user experiences accommodating various needs.",
+      "technical_spec": "Screen reader support and customizable text sizes.",
       "severity_score": 20
     },
     {
-      "title": "Cultural Inclusion",
-      "description": "Promotes cultural diversity and inclusion through curated playlists and campaigns.",
-      "technical_spec": "Dedicated playlists and content highlighting diverse cultures and languages.",
-      "severity_score": 15
+      "title": "Global Reach",
+      "description": "Offers music streaming services worldwide supporting multiple languages.",
+      "technical_spec": "Localized content and multi-language support within the app.",
+      "severity_score": 25
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Engages with community through playlists and live events.",
+      "technical_spec": "Collaborative playlists and integration with live streaming services.",
+      "severity_score": 20
     }
   ]
 }

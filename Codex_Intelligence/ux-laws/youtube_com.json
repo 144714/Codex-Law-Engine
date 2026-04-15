@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 182,
+    "rank": 192,
     "site": "youtube.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "fb8952d89eb3bf13ed29042e3b5bb3a0"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "b714457173c8c709413ee4f542f54a5c"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies decision-making processes by reducing choices on interface screens for faster user interaction.",
-      "technical_spec": "User interfaces are designed to present a limited number of logical paths.",
-      "severity_score": 78
+      "title": "Hick’s Law",
+      "description": "Minimizes choices in UI to reduce decision time for users.",
+      "technical_spec": "Simplified interface with prioritized options and a clean design.",
+      "severity_score": 75
     },
     {
       "title": "Fitts’s Law",
-      "description": "Ensures that clickable targets are appropriately sized and positioned for quicker user access.",
-      "technical_spec": "Interface elements sized and spaced according to their importance to minimize user effort.",
-      "severity_score": 85
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Design decisions consider cognitive load by chunking content to process information more easily.",
-      "technical_spec": "Content organized into easily digestible sections with clear headings.",
+      "description": "Optimizes button size and placement for better usability.",
+      "technical_spec": "Larger buttons for frequent actions, strategically placed elements.",
       "severity_score": 80
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Interface follows established web conventions to meet user expectations and enhance usability.",
-      "technical_spec": "Design leverages patterns from familiar platforms for intuitive navigation.",
-      "severity_score": 82
+      "title": "Law of Proximity",
+      "description": "Groups related items together to improve comprehension.",
+      "technical_spec": "Logical grouping of video-related actions and information.",
+      "severity_score": 78
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing interfaces create a positive perception of usability and engagement.",
-      "technical_spec": "Use of responsive, clean designs with high contrast and pleasing visuals.",
-      "severity_score": 88
+      "description": "Balances visual appeal and functionality to enhance user experience.",
+      "technical_spec": "Consistent style guide and minimalist design principles.",
+      "severity_score": 82
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Designs elements familiar to users for intuitive navigation.",
+      "technical_spec": "Consistent navigation patterns and familiar icons.",
+      "severity_score": 85
     }
   ]
 }

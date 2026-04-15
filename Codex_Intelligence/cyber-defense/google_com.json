@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 181,
+    "rank": 191,
     "site": "google.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "4a8aee2133976b8c00377fc475383d3f"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "543468ef6d2a37e51b7816aff5bdaa75"
   },
   "data": [
     {
-      "title": "Advanced Threat Detection",
-      "description": "Integrated systems for detecting and responding to cyber threats in real-time.",
-      "technical_spec": "Machine learning, AI-based threat intelligence",
-      "severity_score": 20
+      "title": "Encryption",
+      "description": "All data is encrypted both at rest and in transit, using strong cryptographic protocols.",
+      "technical_spec": "AES-256; TLS/SSL for data in transit; Encrypted storage",
+      "severity_score": 5
     },
     {
-      "title": "Encrypted Communications",
-      "description": "All communication channels are encrypted to protect user data and privacy.",
-      "technical_spec": "TLS/SSL protocols, end-to-end encryption",
-      "severity_score": 15
-    },
-    {
-      "title": "Two-Factor Authentication",
-      "description": "Enhanced login security with multi-factor authentication options.",
-      "technical_spec": "OAuth 2.0, FIDO security keys",
+      "title": "DDoS Protection",
+      "description": "Advanced DDoS defense systems to mitigate attacks and maintain service availability.",
+      "technical_spec": "DDoS protection; Network firewalls; Traffic filtering",
       "severity_score": 10
     },
     {
-      "title": "Bot and DDoS Protection",
-      "description": "Defense mechanisms to manage and mitigate bot and DDoS attacks.",
-      "technical_spec": "Edge protection, CAPTCHA systems",
+      "title": "Threat Detection",
+      "description": "Continuous monitoring for potential threats using AI and machine learning techniques.",
+      "technical_spec": "AI/ML-based threat detection; Security Information and Event Management (SIEM)",
+      "severity_score": 15
+    },
+    {
+      "title": "Access Control",
+      "description": "Strict access control measures and multi-factor authentication for internal systems.",
+      "technical_spec": "Multi-factor authentication; Role-based access control; OAuth",
       "severity_score": 25
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Frequent audits and vulnerability assessments to reinforce security posture.",
-      "technical_spec": "External audits, internal red team exercises",
-      "severity_score": 15
+      "title": "Security Audits",
+      "description": "Regular security audits and penetration testing to identify and remediate vulnerabilities.",
+      "technical_spec": "Penetration testing; Vulnerability scanning; Regular security reviews",
+      "severity_score": 20
     }
   ]
 }

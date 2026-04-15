@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 182,
+    "rank": 192,
     "site": "youtube.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "b147761441387978bf9031c5588f546e"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "d45dd648bf098980d3f4e41c4102410e"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Ensures the privacy and security of user data during transmission between devices and servers.",
-      "technical_spec": "TLS/SSL protocols implemented across all communication channels.",
+      "title": "Distributed Denial of Service (DDoS) Protection",
+      "description": "Mitigates large-scale DDoS attacks to ensure availability.",
+      "technical_spec": "Integration with Google's Cloud Armor service.",
       "severity_score": 92
     },
     {
-      "title": "Advanced Threat Detection",
-      "description": "YouTube employs a suite of AI-driven tools to detect and mitigate security threats in real-time.",
-      "technical_spec": "Behavioral analysis and anomaly detection systems.",
-      "severity_score": 89
-    },
-    {
-      "title": "Two-Factor Authentication (2FA)",
-      "description": "An extra layer of security to prevent unauthorized access to user accounts.",
-      "technical_spec": "Supports various methods of authentication, including authenticator apps and SMS.",
-      "severity_score": 87
-    },
-    {
-      "title": "Abuse and Spam Prevention",
-      "description": "Machine learning algorithms are used to identify and mitigate spam content and abuse.",
-      "technical_spec": "NLP and pattern recognition models constantly updated with new threat intelligence.",
-      "severity_score": 85
+      "title": "User Data Encryption",
+      "description": "Ensures user data is encrypted during transmission.",
+      "technical_spec": "TLS encryption for data in transit, PGP for certain data storage.",
+      "severity_score": 90
     },
     {
       "title": "Regular Security Audits",
-      "description": "Regular internal and external audits to ensure compliance with security best practices and standards.",
-      "technical_spec": "Industry-standard techniques and tools employed for vulnerability assessments.",
+      "description": "Conducts periodic security audits to identify vulnerabilities.",
+      "technical_spec": "Automated and manual audits with third-party penetration testing.",
+      "severity_score": 85
+    },
+    {
+      "title": "Account Security Features",
+      "description": "Two-factor authentication for user accounts to prevent unauthorized access.",
+      "technical_spec": "SMS and app-based verification methods.",
       "severity_score": 88
+    },
+    {
+      "title": "Content Moderation Systems",
+      "description": "Automated and manual detection systems for inappropriate content.",
+      "technical_spec": "AI-driven algorithms supported by human reviewers.",
+      "severity_score": 80
     }
   ]
 }

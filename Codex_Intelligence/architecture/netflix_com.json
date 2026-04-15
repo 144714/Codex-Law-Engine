@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 186,
+    "rank": 196,
     "site": "netflix.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "bda4468126271cf90cb73f4efcdfe1b7"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "2e164fac4939e1788b0d99c584da73fb"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Netflix utilizes a microservices architecture to enhance scalability and flexibility.",
-      "technical_spec": "Deployed via AWS, with services like Eureka for service discovery.",
+      "title": "Microservices Architecture",
+      "description": "Netflix employs a microservices architecture to build and deploy scalable applications rapidly.",
+      "technical_spec": "Distributed system with modular services allowing for independent scaling, deployment, and management.",
       "severity_score": 10
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Netflix employs a CDN to deliver content efficiently across the globe.",
-      "technical_spec": "Open Connect, a custom CDN solution developed and optimized by Netflix.",
-      "severity_score": 15
-    },
-    {
-      "title": "Data-Driven Infrastructure",
-      "description": "System architecture is heavily influenced by user data analytics for improved service.",
-      "technical_spec": "Includes real-time data processing and Apache Kafka for streaming data pipelines.",
-      "severity_score": 20
-    },
-    {
-      "title": "Resilient and Redundant Systems",
-      "description": "Infrastructure is built with redundancy to ensure high availability.",
-      "technical_spec": "Utilizes Chaos Monkey and other tools for testing system resilience.",
+      "title": "Global CDN",
+      "description": "Netflix has a global Content Delivery Network optimized for fast streaming and minimal buffering.",
+      "technical_spec": "Utilizes Open Connect appliance at ISP locations to cache content closer to users.",
       "severity_score": 5
     },
     {
       "title": "Cloud-Based Infrastructure",
-      "description": "Primarily operates on a cloud infrastructure for scalability and flexibility.",
-      "technical_spec": "Predominantly uses AWS for cloud services and deployment.",
+      "description": "Netflix runs on AWS, leveraging cloud resources for scalability and resilience.",
+      "technical_spec": "Extensive use of EC2 instances, S3 storage, and other AWS services.",
+      "severity_score": 8
+    },
+    {
+      "title": "Chaos Engineering",
+      "description": "Netflix pioneered Chaos Monkey and similar tools to ensure system resilience.",
+      "technical_spec": "Regularly conducts fault injection testing to identify system weaknesses.",
+      "severity_score": 20
+    },
+    {
+      "title": "Data-Driven Architecture",
+      "description": "Uses advanced data analytics to drive decision-making and personalization.",
+      "technical_spec": "Large-scale data pipelines and machine learning algorithms for content recommendations.",
       "severity_score": 15
     }
   ]

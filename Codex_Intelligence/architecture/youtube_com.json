@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 182,
+    "rank": 192,
     "site": "youtube.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "e70d0af43401639ffe92f0e580e6c255"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "93030fb65022468d15912c2930b27fd7"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "YouTube operates on a scalable microservices architecture that enables independent deployment, robust scaling, and fault isolation.",
-      "technical_spec": "Built on top of Google's Cloud Infrastructure utilizing containers for distributed service management.",
-      "severity_score": 85
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "YouTube leverages a global network of CDNs to provide fast and reliable video streaming worldwide.",
-      "technical_spec": "CDNs are strategically placed to minimize latency and optimize content delivery.",
+      "title": "Microservices Architecture",
+      "description": "YouTube employs a microservices-based architecture allowing for independent development, deployment, and scaling of components.",
+      "technical_spec": "Services are containerized using Docker and orchestrated with Kubernetes.",
       "severity_score": 90
     },
     {
-      "title": "Data Replication and Storage",
-      "description": "Utilizes extensive data replication to ensure data durability and high availability across multiple data centers.",
-      "technical_spec": "Replica sets and distributed databases like Bigtable and Spanner.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "YouTube utilizes a CDN to ensure video delivery is fast and efficient globally.",
+      "technical_spec": "Global Edge servers cache content close to users; integrates with Google's global infrastructure.",
+      "severity_score": 95
+    },
+    {
+      "title": "Data Storage Infrastructure",
+      "description": "Videos and metadata are stored using distributed systems for scalability and reliability.",
+      "technical_spec": "Google’s Bigtable and Spanner are used for data storage and management.",
       "severity_score": 88
     },
     {
-      "title": "User Personalization Service",
-      "description": "Advanced algorithms for content recommendations based on user behavior and preferences.",
-      "technical_spec": "Uses machine learning models to predict user interests.",
-      "severity_score": 80
+      "title": "Streaming Protocols",
+      "description": "Dynamic video streaming using adaptive bitrate to optimize quality.",
+      "technical_spec": "Uses DASH and HLS protocols for adaptive streaming.",
+      "severity_score": 85
     },
     {
-      "title": "Load Balancing and Traffic Management",
-      "description": "Sophisticated load balancing techniques ensure efficient distribution of incoming traffic among servers.",
-      "technical_spec": "Google's own global load balancers manage large volumes with minimal delay.",
-      "severity_score": 83
+      "title": "Scalable API Design",
+      "description": "APIs support various functionalities like video upload, streaming, data retrieval.",
+      "technical_spec": "RESTful design, OAuth 2.0 for secure access.",
+      "severity_score": 80
     }
   ]
 }

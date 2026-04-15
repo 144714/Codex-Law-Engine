@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 184,
+    "rank": 194,
     "site": "microsoft.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "721bfb897d2b6ba02e880774762b8d42"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "a3f129cb32cbdc055873c12056bf2aa0"
   },
   "data": [
     {
-      "title": "Cloud Infrastructure",
-      "description": "Microsoft's website is backed by Azure cloud services to ensure scalability and reliability.",
-      "technical_spec": "Leverages Azure CDN for global content distribution.",
+      "title": "Microservices",
+      "description": "Adopting a microservices architecture allows for modular deployment and scalability.",
+      "technical_spec": "Utilizes containerization and orchestration tools like Kubernetes.",
       "severity_score": 10
     },
     {
-      "title": "Microservices Architecture",
-      "description": "The website employs a microservices architecture, allowing different services to scale independently.",
-      "technical_spec": "Deployed using Azure Kubernetes Service for container orchestration.",
+      "title": "Cloud-Based Infrastructure",
+      "description": "The site leverages cloud computing to ensure reliability and flexibility.",
+      "technical_spec": "Hosted on Azure, leveraging IaaS and PaaS offerings.",
       "severity_score": 15
     },
     {
-      "title": "Responsive Design",
-      "description": "Ensures optimal viewing and interaction experience across a wide range of devices.",
-      "technical_spec": "Implemented using CSS3 media queries and flexible grid layouts.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "Implements CDNs to enhance site load speeds globally.",
+      "technical_spec": "Uses Azure CDN solutions to cache content closer to users.",
       "severity_score": 5
     },
     {
-      "title": "API Integration",
-      "description": "Extensive API integrations are used to fetch dynamic content and services.",
-      "technical_spec": "Utilizes REST and GraphQL APIs for data operations.",
+      "title": "API-Driven Design",
+      "description": "APIs used to integrate various services and data sources seamlessly.",
+      "technical_spec": "RESTful APIs with OAuth2 authentication.",
       "severity_score": 20
     },
     {
-      "title": "Progressive Web App",
-      "description": "PWA features for improved performance and offline capabilities.",
-      "technical_spec": "Service Workers and Web App Manifest for PWA functionality.",
+      "title": "Scalable Data Storage",
+      "description": "Adopts scalable databases for efficient data management.",
+      "technical_spec": "Combines SQL and NoSQL databases for flexibility.",
       "severity_score": 25
     }
   ]

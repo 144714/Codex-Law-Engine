@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 186,
+    "rank": 196,
     "site": "netflix.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "2434e1134b10b27eb97c1edf639410e0"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "2040865e5e33061895ad4ea3abfed1b9"
   },
   "data": [
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "The visually appealing interface encourages usage and engagement.",
-      "technical_spec": "Consistent design language with smooth animations across platforms.",
-      "severity_score": 10
-    },
-    {
-      "title": "Hick’s Law",
-      "description": "The design minimizes decision time by simplifying layout and navigation.",
-      "technical_spec": "Intuitive UI with personalized content recommendations reduces cognitive load.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Elements are placed strategically for ease of use, enhancing navigation efficiency.",
-      "technical_spec": "Focus on position and size of interactive elements to reduce user effort.",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Adheres to web standards to meet user expectations and ease navigation.",
-      "technical_spec": "UI consistency across devices with familiar control patterns.",
+      "title": "Hick's Law",
+      "description": "Simplifies user choices to streamline decision-making on the platform.",
+      "technical_spec": "Minimalistic interface design with focused menu options.",
       "severity_score": 5
     },
     {
-      "title": "Pareto Principle",
-      "description": "Focus on key features that drive the most user engagement.",
-      "technical_spec": "Prioritization of discovery and playback functionalities.",
-      "severity_score": 20
+      "title": "Serial Position Effect",
+      "description": "Prioritizes key content placement to improve recall and recognition.",
+      "technical_spec": "Top recommendations positioned at the fore, leveraging recency and primacy effects.",
+      "severity_score": 10
+    },
+    {
+      "title": "Fitts’s Law",
+      "description": "Design focused on making interactive components easily actionable.",
+      "technical_spec": "Large clickable areas for navigation and content interaction.",
+      "severity_score": 8
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Ensures the platform is intuitively beautiful, increasing user engagement.",
+      "technical_spec": "Consistent color scheme, typography, and layout enhancing visual appeal.",
+      "severity_score": 12
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Aligns with user expectations for familiar navigation patterns.",
+      "technical_spec": "Standardized layout elements consistent with common streaming interfaces.",
+      "severity_score": 7
     }
   ]
 }

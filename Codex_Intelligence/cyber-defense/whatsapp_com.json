@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 190,
+    "rank": 200,
     "site": "whatsapp.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "7d48ec116c6faef0f88c4cb415bd7aac"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "c9a044f8a7a6552a205100a3179df651"
   },
   "data": [
     {
-      "title": "Two-Step Verification",
-      "description": "An optional feature providing an additional layer of security during account setup.",
-      "technical_spec": "Combines password and a 6-digit PIN for user verification.",
-      "severity_score": 45
+      "title": "Two-Factor Authentication",
+      "description": "Additional security layer requiring a second form of verification to access the account.",
+      "technical_spec": "Method: SMS and email-based verification; Enforcement: Optional but encouraged",
+      "severity_score": 40
     },
     {
-      "title": "App Sandbox",
-      "description": "Use of a sandbox to isolate app processes, preventing malicious code execution.",
-      "technical_spec": "Sandboxing involves running the application in a controlled environment.",
-      "severity_score": 20
-    },
-    {
-      "title": "Automatic Updates",
-      "description": "Security patches and updates are automatically rolled out to users to address vulnerabilities.",
-      "technical_spec": "Automated update system ensures users are protected against known exploits.",
-      "severity_score": 25
-    },
-    {
-      "title": "Security Audits",
-      "description": "Regular security audits are conducted to identify and mitigate vulnerabilities.",
-      "technical_spec": "Involves both automated and manual testing to find security loopholes.",
+      "title": "Abuse Detection and Prevention",
+      "description": "Detection algorithms are used to identify and prevent spam and abuse on the platform.",
+      "technical_spec": "Machine Learning: Pattern and anomaly detection; Response: Automated and manual review systems",
       "severity_score": 30
     },
     {
-      "title": "Network-level Defense",
-      "description": "Advanced measures to protect against network intrusions and DDoS attacks.",
-      "technical_spec": "Implementation of firewalls and intrusion detection systems.",
+      "title": "App Sandbox Environment",
+      "description": "Applications run in a sandboxed environment to minimize exploitation risks.",
+      "technical_spec": "Security Model: iOS and Android sandboxing; Permissions: Strict runtime checks",
+      "severity_score": 20
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Frequent security assessments and audits to identify vulnerabilities and apply patches.",
+      "technical_spec": "Framework: OWASP Compliance; Tools: Automated scanners and manual penetration testing",
+      "severity_score": 15
+    },
+    {
+      "title": "User Privacy Protections",
+      "description": "Strong privacy policies and practices to protect user data.",
+      "technical_spec": "Policy: GDPR compliance; Data Handling: Minimal data collection; Transparency: User data access logs",
       "severity_score": 35
     }
   ]

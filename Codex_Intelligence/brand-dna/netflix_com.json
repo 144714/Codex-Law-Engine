@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 186,
+    "rank": 196,
     "site": "netflix.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "b18b8ea62091e64bb9c475e12e162a75"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "cec65d953fc9799db556d6a0c4c6c069"
   },
   "data": [
     {
-      "title": "Innovative Storytelling",
-      "description": "Cuts through the clutter with a wide range of original and compelling content.",
-      "technical_spec": "Utilizes predictive analytics for content acquisition and production decisions.",
-      "severity_score": 10
-    },
-    {
-      "title": "User-Centric Personalization",
-      "description": "Delivers a personalized experience to improve viewer satisfaction.",
-      "technical_spec": "Machine learning algorithms curate content recommendations.",
-      "severity_score": 10
-    },
-    {
-      "title": "Global Reach and Local Appeal",
-      "description": "Caters to a global audience while offering culturally relevant local content.",
-      "technical_spec": "Dubbing and subtitles in multiple languages; focus on local productions.",
-      "severity_score": 15
-    },
-    {
-      "title": "Data-Driven Decisions",
-      "description": "Business strategy is highly reliant on data analytics to drive growth.",
-      "technical_spec": "Comprehensive data collection and analysis for user behavior insights.",
+      "title": "Original Content",
+      "description": "Focus on producing exclusive shows and movies to attract and retain viewers.",
+      "technical_spec": "Investments in high-quality production and storytelling.",
       "severity_score": 20
     },
     {
-      "title": "Technological Pioneer",
-      "description": "Pioneers in streaming technology and content delivery innovation.",
-      "technical_spec": "Maintains cutting-edge infrastructure and develops proprietary technology.",
-      "severity_score": 10
+      "title": "Global Reach",
+      "description": "Operates in numerous countries, offering a wide array of regional content.",
+      "technical_spec": "Localized content libraries and subtitles/language options.",
+      "severity_score": 12
+    },
+    {
+      "title": "User-Centric Experience",
+      "description": "Continuous improvements aligned with user feedback to enhance satisfaction.",
+      "technical_spec": "Use of A/B testing and analytics to refine user interactions.",
+      "severity_score": 15
+    },
+    {
+      "title": "Technological Innovation",
+      "description": "Puzzling itself as a pioneer in streaming technology.",
+      "technical_spec": "Investments in adaptive streaming, codecs, and compression algorithms.",
+      "severity_score": 22
+    },
+    {
+      "title": "Binge-Watching Culture",
+      "description": "Encourages consuming entire series in one go through autoplay features.",
+      "technical_spec": "Auto-playing next episodes and curated playlists to drive engagement.",
+      "severity_score": 18
     }
   ]
 }

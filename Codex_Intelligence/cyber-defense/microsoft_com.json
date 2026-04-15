@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 184,
+    "rank": 194,
     "site": "microsoft.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "900c69cb03e4628548ddfaedcccb2235"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "8bc95229008e0ba5fefd62c67da7231e"
   },
   "data": [
     {
-      "title": "DDOS Protection",
-      "description": "Mitigation strategies in place to prevent Distributed Denial of Service attacks.",
-      "technical_spec": "Azure DDoS Protection Standard Service.",
+      "title": "Multi-Factor Authentication (MFA)",
+      "description": "Ensures secure access to user accounts through multiple authentication methods.",
+      "technical_spec": "Implemented via Microsoft Authenticator and SMS codes.",
+      "severity_score": 20
+    },
+    {
+      "title": "Integrated Threat Protection",
+      "description": "Detects and responds to threats with integrated security solutions.",
+      "technical_spec": "Utilizes Microsoft Defender for Endpoint.",
       "severity_score": 15
     },
     {
       "title": "Data Encryption",
-      "description": "Data transmission is secured using TLS encryption standards.",
-      "technical_spec": "TLS 1.2/1.3 for data in transit.",
-      "severity_score": 10
-    },
-    {
-      "title": "Identity Management",
-      "description": "Ensures secure access through robust identity management services.",
-      "technical_spec": "Azure Active Directory for Single Sign-On and MFA.",
-      "severity_score": 20
-    },
-    {
-      "title": "Security Incident Response",
-      "description": "Automated and manual systems in place for detecting and responding to security incidents.",
-      "technical_spec": "Azure Security Center and Microsoft Sentinel for threat detection.",
+      "description": "Encrypts sensitive data in transit and at rest to protect user information.",
+      "technical_spec": "Employs TLS 1.2+ for data in transit, AES-256 for encryption at rest.",
       "severity_score": 30
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Routine security evaluations to discover and resolve vulnerabilities.",
-      "technical_spec": "Conducted using Azure Security Benchmark and third-party penetration testing.",
+      "title": "Firewall and Network Segmentation",
+      "description": "Implements advanced firewall solutions to safeguard network infrastructure.",
+      "technical_spec": "Azure Firewall and Network Security Groups (NSGs) in use.",
       "severity_score": 25
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts regular security assessments to identify and mitigate vulnerabilities.",
+      "technical_spec": "Utilizes both automated and manual penetration testing methodologies.",
+      "severity_score": 10
     }
   ]
 }

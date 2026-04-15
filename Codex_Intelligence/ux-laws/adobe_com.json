@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 188,
+    "rank": 198,
     "site": "adobe.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "1f81759b23fc3e51e208f397ec64f52e"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "7bac10ee0f54cb5867f5dd2ab93f11ff"
   },
   "data": [
     {
-      "title": "Hick’s Law Implementation",
-      "description": "Minimizes decision complexity through clear navigation and content categorization.",
-      "technical_spec": "Simplified user paths, dropdown menus",
-      "severity_score": 25
-    },
-    {
-      "title": "Fitts’s Law Optimization",
-      "description": "Interface elements are strategically placed for rapid accessibility and usability.",
-      "technical_spec": "Button size and position optimization",
-      "severity_score": 30
-    },
-    {
-      "title": "Aesthetic Usability Effect",
-      "description": "Aesthetically pleasing design improves user perception of ease of use.",
-      "technical_spec": "Consistent branding, high-quality graphics",
+      "title": "Law of Uniform Connectedness",
+      "description": "Adobe maintains a uniform design language across its platforms.",
+      "technical_spec": "Adobe XD, Creative Cloud Libraries",
       "severity_score": 15
     },
     {
-      "title": "Gestalt Principles for Layout",
-      "description": "The use of proximity, similarity, and continuity to create an intuitive layout.",
-      "technical_spec": "Grid systems, balanced whitespace",
-      "severity_score": 20
+      "title": "Fitts’s Law",
+      "description": "Design approach focuses on minimizing interaction time across interfaces.",
+      "technical_spec": "Interactive Design Techniques",
+      "severity_score": 8
     },
     {
-      "title": "Feedback for User Actions",
-      "description": "Responsive feedback is provided for user interactions to enhance usability.",
-      "technical_spec": "Loading indicators, confirmation messages",
-      "severity_score": 20
+      "title": "Hick’s Law",
+      "description": "The platform is optimized to reduce the time complexity of user decisions.",
+      "technical_spec": "Simplified Navigation Structures",
+      "severity_score": 10
+    },
+    {
+      "title": "The Aesthetic-Usability Effect",
+      "description": "Adobe's visual design enhances perceived usability and desirability.",
+      "technical_spec": "Photoshop, Illustrator",
+      "severity_score": 5
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Information is presented in chunks to improve comprehension and retention.",
+      "technical_spec": "Content Management Strategies",
+      "severity_score": 12
     }
   ]
 }

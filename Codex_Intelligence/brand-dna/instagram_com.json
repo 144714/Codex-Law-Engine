@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 189,
+    "rank": 199,
     "site": "instagram.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "e78fd928126be17c35d8ac920c4b350e"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "5f434eebacda1c34d94afdea738b1340"
   },
   "data": [
     {
-      "title": "Visual Storytelling",
-      "description": "Focuses on image and video-sharing capabilities to promote visual storytelling.",
-      "technical_spec": "Supports various media formats, including images, short videos, and reels.",
-      "severity_score": 15
-    },
-    {
-      "title": "Community Building",
-      "description": "Facilitates connection and community through interactive features.",
-      "technical_spec": "Comments, direct messages, and following systems.",
+      "title": "Visual Identity",
+      "description": "Instagram’s vibrant and dynamic brand colors reflect creativity and modernity.",
+      "technical_spec": "Bright color gradients, bold iconography.",
       "severity_score": 10
     },
     {
-      "title": "Influencer Culture",
-      "description": "Promotes influencer culture as a key component of its social media platform.",
-      "technical_spec": "Analytics for engagement, partnership tools.",
+      "title": "Community Focus",
+      "description": "Strong emphasis on user-generated content and community building.",
+      "technical_spec": "Support for live interactions, user tagging, and comments.",
       "severity_score": 20
     },
     {
-      "title": "Innovative Features",
-      "description": "Regularly updates with innovative features to keep users engaged.",
-      "technical_spec": "Introduction of features like stories, IGTV, and shopping experiences.",
-      "severity_score": 15
+      "title": "Mobile-First Design",
+      "description": "Prioritizes mobile experience due to its large mobile user base.",
+      "technical_spec": "Responsive design principles, native mobile app optimization.",
+      "severity_score": 30
     },
     {
-      "title": "Global Accessibility",
-      "description": "Strives for global reach with language support and content policies sensitive to a diverse audience.",
-      "technical_spec": "Multi-language support, region-specific content adjustments.",
-      "severity_score": 10
+      "title": "Influencer Ecosystem",
+      "description": "Cultivates an ecosystem where influencers thrive, which attracts brands and advertisers.",
+      "technical_spec": "Integration of business tools, advertisement metrics.",
+      "severity_score": 40
+    },
+    {
+      "title": "Cultural Trendsetter",
+      "description": "Acts as a trendsetter in social media design and features.",
+      "technical_spec": "Innovative story formats, integrated AR effects.",
+      "severity_score": 25
     }
   ]
 }

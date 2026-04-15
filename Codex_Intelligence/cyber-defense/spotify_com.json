@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 187,
+    "rank": 197,
     "site": "spotify.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "1c9c4fa556dfddf1aa13ecc1b54eb2cb"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "f004c7171b99facb5446c66a1891cc82"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Protects user data and communications between clients and servers.",
-      "technical_spec": "TLS is used to encrypt data in transit.",
-      "severity_score": 35
+      "title": "User Data Encryption",
+      "description": "Ensures all user data is encrypted in transit and at rest.",
+      "technical_spec": "TLS for data in transit, AES-256 encryption for data at rest.",
+      "severity_score": 10
     },
     {
-      "title": "OAuth for Authentication",
-      "description": "Utilizes OAuth 2.0 for secure user authentication and authorization.",
-      "technical_spec": "API requests require an access token received upon OAuth flow completion.",
+      "title": "Security Monitoring and Incident Response",
+      "description": "Continuous monitoring for security threats with a robust incident response team.",
+      "technical_spec": "SIEM systems and a dedicated security operations center.",
+      "severity_score": 30
+    },
+    {
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Optional 2FA for user accounts to enhance account security.",
+      "technical_spec": "Supports TOTP apps for second-factor authentication.",
       "severity_score": 20
     },
     {
       "title": "Regular Security Audits",
-      "description": "Routine security audits to identify and mitigate potential vulnerabilities.",
-      "technical_spec": "Includes both automated scans and manual penetration testing.",
-      "severity_score": 50
+      "description": "Conducts regular security audits and vulnerability assessments.",
+      "technical_spec": "Third-party audits, penetration testing, and code reviews.",
+      "severity_score": 40
     },
     {
-      "title": "Bot Detection Mechanisms",
-      "description": "Systems in place to detect and prevent automated bot abuse of the platform.",
-      "technical_spec": "Behavioral analytics and CAPTCHA integrations.",
-      "severity_score": 60
-    },
-    {
-      "title": "User Account Protection",
-      "description": "Enhanced security measures for account protection and anomaly detection.",
-      "technical_spec": "Multi-factor authentication and anomaly detection algorithms.",
-      "severity_score": 45
+      "title": "DDoS Protection",
+      "description": "Protects against Distributed Denial of Service attacks.",
+      "technical_spec": "Cloudflare protection and in-house mitigation strategies.",
+      "severity_score": 35
     }
   ]
 }

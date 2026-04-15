@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 188,
+    "rank": 198,
     "site": "adobe.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "b362aa2acd518779a5ff346139532dc5"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "222f124e575132666785b5bf50d10a04"
   },
   "data": [
     {
-      "title": "Content Delivery Network (CDN) Utilization",
-      "description": "Adobe.com employs CDNs to efficiently deliver content on its site globally.",
-      "technical_spec": "Cloud-based CDN services, multi-region edge servers",
-      "severity_score": 25
-    },
-    {
-      "title": "Scalable Microservices",
-      "description": "Adobe leverages a microservices architecture to ensure scalable and independent application deployment.",
-      "technical_spec": "Docker containers, Kubernetes orchestration",
-      "severity_score": 20
-    },
-    {
-      "title": "Load Balancing Capabilities",
-      "description": "The site utilizes load balancing to distribute traffic evenly across servers, enhancing performance under load.",
-      "technical_spec": "Nginx or HAProxy with automatic failover",
-      "severity_score": 30
-    },
-    {
-      "title": "Responsive Web Design",
-      "description": "Ensures that adobe.com is accessible and aesthetically pleasing across all device types and sizes.",
-      "technical_spec": "CSS Flexbox/Grid, media queries",
+      "title": "Microservices Architecture",
+      "description": "Adobe's platform utilizes microservices to ensure scalability and modularity.",
+      "technical_spec": "Docker, Kubernetes, REST APIs",
       "severity_score": 15
     },
     {
-      "title": "APIs and Integration Points",
-      "description": "Adobe offers public APIs for developers to integrate Adobe services into other applications and services.",
-      "technical_spec": "RESTful API endpoints, OAuth 2.0 authentication",
-      "severity_score": 40
+      "title": "Cloud-Native Infrastructure",
+      "description": "Leverages cloud-native technologies for deployment and management.",
+      "technical_spec": "AWS, Azure, Google Cloud",
+      "severity_score": 10
+    },
+    {
+      "title": "Content Delivery Network",
+      "description": "Utilizes CDNs for fast content delivery across the globe.",
+      "technical_spec": "Akamai, Cloudflare",
+      "severity_score": 5
+    },
+    {
+      "title": "Database Sharding",
+      "description": "Implements database sharding for efficient data management.",
+      "technical_spec": "MySQL, Postgres",
+      "severity_score": 20
+    },
+    {
+      "title": "Serverless Computing",
+      "description": "Adopts serverless architectures for specific workloads to improve efficiency.",
+      "technical_spec": "AWS Lambda, Azure Functions",
+      "severity_score": 12
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 189,
+    "rank": 199,
     "site": "instagram.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "82712334d6893a6e683236e079b32be2"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "6e30fba0b4c5fe9c01d91eb3d52b63c1"
   },
   "data": [
     {
-      "title": "Distributed Systems",
-      "description": "Instagram employs a distributed architecture to handle its large scale and ensure reliability and uptime.",
-      "technical_spec": "Utilizes load balancers, microservices, and data replication.",
-      "severity_score": 10
-    },
-    {
-      "title": "Microservices",
-      "description": "A shift from monolithic to microservices architecture allows for independent deployment and scaling.",
-      "technical_spec": "Decomposed services handling different functionalities such as user media, notifications.",
-      "severity_score": 15
-    },
-    {
-      "title": "Graph Databases",
-      "description": "Instagram leverages graph databases to efficiently manage and query complex and interconnected data.",
-      "technical_spec": "Use of technologies like Apollo (GraphQL) for querying relational data structures.",
+      "title": "Microservices Structure",
+      "description": "Instagram utilizes a microservices architecture to handle its scale, allowing independent components to communicate via APIs.",
+      "technical_spec": "RESTful APIs, JSON data exchange, container orchestration with Kubernetes.",
       "severity_score": 20
     },
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Relying on Facebook's data centers, Instagram is hosted on cloud platforms ensuring flexibility and scalability.",
-      "technical_spec": "AWS and Facebook's proprietary infrastructure.",
-      "severity_score": 10
+      "title": "Databases",
+      "description": "Utilizes a mix of SQL (PostgreSQL) and NoSQL databases for data storage and retrieval.",
+      "technical_spec": "PostgreSQL for relational data, Apache Cassandra for distributed storage.",
+      "severity_score": 30
     },
     {
       "title": "CDN Utilization",
-      "description": "Content delivery networks are employed to reduce latency and serve content quickly to global users.",
-      "technical_spec": "Akamai, Cloudflare, or in-house solutions for high-speed delivery.",
-      "severity_score": 5
+      "description": "Leverages Content Delivery Networks to deliver multimedia content efficiently worldwide.",
+      "technical_spec": "Global CDN providers, edge caching for image and video content.",
+      "severity_score": 15
+    },
+    {
+      "title": "Frontend Framework",
+      "description": "Front-end likely built using React.js for modern, responsive user experiences.",
+      "technical_spec": "React.js, potential use of Flux/Redux for state management.",
+      "severity_score": 25
+    },
+    {
+      "title": "Cloud Infrastructure",
+      "description": "Hosted on a cloud platform for scalability and reliability.",
+      "technical_spec": "AWS/GCP for cloud services, auto-scaling groups.",
+      "severity_score": 30
     }
   ]
 }

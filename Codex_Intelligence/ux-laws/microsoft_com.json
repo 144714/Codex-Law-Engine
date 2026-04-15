@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 184,
+    "rank": 194,
     "site": "microsoft.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "492b656c30677bd796c3da63daf25747"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "e026f8e1fb446dfdc73f50edee0a2e38"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Design elements are sized and positioned to enhance target acquisition speed.",
-      "technical_spec": "Button sizes and spacing based on user interaction data.",
+      "title": "Hick's Law",
+      "description": "Simplifies user choice by limiting options and enhancing decision speed.",
+      "technical_spec": "Streamlined menus and grouped functionalities.",
       "severity_score": 5
     },
     {
-      "title": "Hick's Law",
-      "description": "Minimizes the number of choices to reduce decision times.",
-      "technical_spec": "Simplified navigation menu with drop-down options.",
+      "title": "Fitts's Law",
+      "description": "Optimizes navigation elements for easier access based on target size and distance.",
+      "technical_spec": "Larger click targets for key actions on-page.",
       "severity_score": 10
     },
     {
-      "title": "Pareto Principle",
-      "description": "Focuses on the 20% of functionalities used by 80% of users.",
-      "technical_spec": "User journey analytics to prioritize key features.",
+      "title": "Consistency",
+      "description": "Maintains consistent elements throughout to reduce cognitive load.",
+      "technical_spec": "Uniform design language and iconography.",
       "severity_score": 15
     },
     {
-      "title": "Miller's Law",
-      "description": "Presentation of information is limited to the user's capacity to process chunks at a time.",
-      "technical_spec": "Content structured into bite-sized pieces with progressive disclosure.",
-      "severity_score": 10
+      "title": "Visual Hierarchy",
+      "description": "Uses visual cues to guide the user's eye to areas of importance.",
+      "technical_spec": "Contrast and whitespace prioritize key content areas.",
+      "severity_score": 20
     },
     {
-      "title": "Jakob's Law",
-      "description": "Design aligns with user expectations based on prevalent digital interfaces.",
-      "technical_spec": "Industry-standard UI elements such as icons and gestures.",
-      "severity_score": 5
+      "title": "Feedback",
+      "description": "Provides immediate and clear responses to user actions.",
+      "technical_spec": "Interactive components provide visual and textual feedback.",
+      "severity_score": 10
     }
   ]
 }

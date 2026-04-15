@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 185,
+    "rank": 195,
     "site": "amazon.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "71974790142d5c1cf60f1bb659e9d1d7"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "4930aeefcae7bf5a81a9a00cfc8c4608"
   },
   "data": [
     {
       "title": "Customer Centricity",
-      "description": "Focused on delivering a superior customer experience.",
-      "technical_spec": "Customer feedback loops, personalization features",
+      "description": "Focus on enhancing customer experience in every interaction.",
+      "technical_spec": "Dedicated customer service and personalized recommendations.",
       "severity_score": 5
     },
     {
-      "title": "Innovation at Scale",
-      "description": "Constantly innovating to improve global logistics and service.",
-      "technical_spec": "Amazon Prime, AWS technology integration",
+      "title": "Innovation",
+      "description": "Continuous investment in technological advancements and innovations.",
+      "technical_spec": "Development of technologies like Amazon Alexa and AWS.",
+      "severity_score": 5
+    },
+    {
+      "title": "Scalability",
+      "description": "Building scalable solutions to handle massive amounts of traffic and transactions.",
+      "technical_spec": "Cloud-based infrastructure to scale horizontally as needed.",
       "severity_score": 10
     },
     {
       "title": "Operational Excellence",
-      "description": "Efficiency in operations to reduce costs and pass savings to customers.",
-      "technical_spec": "Supply chain optimization, data-driven decision-making",
-      "severity_score": 15
+      "description": "Optimizing operations to achieve high efficiency and cost-effectiveness.",
+      "technical_spec": "Lean methodologies and automation in supply chain and logistics.",
+      "severity_score": 10
     },
     {
-      "title": "Trust and Security",
-      "description": "Maintaining customer trust is paramount through secure transactions.",
-      "technical_spec": "Robust security policies, transparent operations",
-      "severity_score": 20
-    },
-    {
-      "title": "Global Reach",
-      "description": "Expanding presence to offer services worldwide.",
-      "technical_spec": "International shipping options, localized interfaces",
-      "severity_score": 12
+      "title": "Trust",
+      "description": "Establishing trust with consumers through transparent policies and practices.",
+      "technical_spec": "Clear communication of privacy policies and secure payment systems.",
+      "severity_score": 5
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 187,
+    "rank": 197,
     "site": "spotify.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "c166ab39f9425e87d0f7164068806176"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "694da6d7ecb914832e78ce6f0e7bc003"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Spotify employs a microservices architecture allowing independent deployment and scaling of services.",
-      "technical_spec": "Each service runs its own process and communicates with lightweight mechanisms, often an HTTP resource API.",
+      "title": "Service-Oriented Architecture",
+      "description": "Spotify employs a service-oriented architecture with services communicating over the network.",
+      "technical_spec": "Microservices deployed on Kubernetes, using gRPC for communication.",
       "severity_score": 20
     },
     {
-      "title": "Event-Driven Systems",
-      "description": "Spotify uses event-driven systems to handle asynchronous communications and updates across different services.",
-      "technical_spec": "Kafka and Pub/Sub are integral for streaming logs and events.",
-      "severity_score": 30
-    },
-    {
-      "title": "Client-Server Model",
-      "description": "A robust client-server model that enables seamless music streaming and user interactions.",
-      "technical_spec": "RESTful APIs serve as the backbone for data interaction between client and backend services.",
+      "title": "Data Infrastructure",
+      "description": "A robust data pipeline architecture that supports real-time analytics and user behavior tracking.",
+      "technical_spec": "Apache Kafka for messaging, Hadoop and Google BigQuery for data processing.",
       "severity_score": 25
     },
     {
-      "title": "Cloud Native Architecture",
-      "description": "Spotify is mostly hosted on cloud platforms enabling flexible scaling and high availability.",
-      "technical_spec": "Utilization of container orchestration platforms like Kubernetes for deployment.",
+      "title": "Scalable Backend Systems",
+      "description": "Designed to handle millions of concurrent users streaming music across the globe.",
+      "technical_spec": "Built using Java, Python, and Node.js, deployed on AWS.",
+      "severity_score": 30
+    },
+    {
+      "title": "Content Delivery Network",
+      "description": "Utilizes CDNs for efficient distribution of media content to users globally.",
+      "technical_spec": "Partnered with third-party CDN providers like Akamai and Cloudflare.",
       "severity_score": 15
     },
     {
-      "title": "Data-Partitioning",
-      "description": "Ensures efficient management and retrieval of user and song data across distributed databases.",
-      "technical_spec": "Sharding techniques are used to partition data across global servers.",
-      "severity_score": 40
+      "title": "Highly Available Streaming Services",
+      "description": "Ensures uninterrupted music streaming with minimal latency.",
+      "technical_spec": "Global server presence with load balancing and fault tolerance.",
+      "severity_score": 25
     }
   ]
 }

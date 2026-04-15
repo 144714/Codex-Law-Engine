@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 189,
+    "rank": 199,
     "site": "instagram.com",
-    "date": "2026-04-14 23:35",
-    "integrity_hash": "18b18d65e06bbaebb05e6551bded10fe"
+    "date": "2026-04-15 01:27",
+    "integrity_hash": "95ff3cca1f100a9b85ee68c1b5d2fb88"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Instagram incorporates encryption to secure user data during transit and storage.",
-      "technical_spec": "TLS/SSL for data encryption, HTTPS for secure communications.",
+      "title": "Data Encryption",
+      "description": "End-to-end encryption is in place for data in transmission to protect user privacy.",
+      "technical_spec": "TLS 1.3 for data in transit, encrypted data storage.",
       "severity_score": 15
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Offers 2FA to add a layer of security preventing unauthorized access to user accounts.",
-      "technical_spec": "SMS and authenticator apps for verification.",
-      "severity_score": 25
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts ongoing security audits and penetration testing to identify vulnerabilities.",
-      "technical_spec": "Automated testing and ethical hacking protocols.",
+      "title": "User Authentication",
+      "description": "Two-factor authentication is available to enhance user account security.",
+      "technical_spec": "Two-factor authentication via SMS or authenticator apps.",
       "severity_score": 20
     },
     {
-      "title": "Phishing and Scam Detection",
-      "description": "Monitors and prevents attempts to conduct phishing and scams using automated tools.",
-      "technical_spec": "AI-based detection tools and manual verification processes.",
-      "severity_score": 20
+      "title": "Threat Detection",
+      "description": "Real-time monitoring systems for detecting unusual activity and potential threats.",
+      "technical_spec": "Machine learning anomaly detection, log analysis.",
+      "severity_score": 40
     },
     {
-      "title": "SOC2 Compliance",
-      "description": "Compliance with the SOC2 standard to ensure appropriate controls over data security and privacy.",
-      "technical_spec": "Adherence to strict access control and security measures.",
-      "severity_score": 30
+      "title": "Access Controls",
+      "description": "Role-based access controls are in place to manage employee and system access.",
+      "technical_spec": "RBAC, API key management.",
+      "severity_score": 35
+    },
+    {
+      "title": "Incident Response",
+      "description": "Established protocols for responding to security incidents.",
+      "technical_spec": "Incident response teams, post-mortem analyses.",
+      "severity_score": 50
     }
   ]
 }
