@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 304,
+    "rank": 314,
     "site": "microsoft.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "1c337590f1885b0f6fa3f48cf81941ab"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "88816b4e773fddad077b7ed8f56a835c"
   },
   "data": [
     {
-      "title": "Cloud-First Strategy",
-      "description": "Microsoft's architectural approach prioritizes cloud services for scalability and flexibility.",
-      "technical_spec": "Azure Integration, Microservices, Kubernetes",
-      "severity_score": 5
-    },
-    {
-      "title": "Service-Oriented Architecture",
-      "description": "Focus on modular components that provide services across the organization.",
-      "technical_spec": "SOAP, RESTful APIs, HTTP/2",
-      "severity_score": 10
-    },
-    {
-      "title": "Cross-Platform Compatibility",
-      "description": "Ensures applications work seamlessly across different devices and operating systems.",
-      "technical_spec": "Xamarin, .NET Core, Progressive Web Apps",
-      "severity_score": 15
-    },
-    {
-      "title": "Decentralized Data Management",
-      "description": "Data handling strategy emphasizing localized data processing to improve latency and reliability.",
-      "technical_spec": "Azure Cosmos DB, Data Lakes, Edge Computing",
+      "title": "Microservices Architecture",
+      "description": "Microsoft employs a microservices architecture which allows services to be independently deployable and scalable.",
+      "technical_spec": "Containers, service mesh, cloud-native infrastructure.",
       "severity_score": 20
     },
     {
-      "title": "Continuous Integration/Continuous Deployment",
-      "description": "Automated CI/CD pipelines for faster and more reliable software delivery.",
-      "technical_spec": "Azure DevOps, Jenkins, GitHub Actions",
+      "title": "Scalable Cloud Infrastructure",
+      "description": "Built on top of Azure's scalable cloud services, enabling dynamic resource allocation.",
+      "technical_spec": "Azure App Services, Azure Functions, Kubernetes.",
+      "severity_score": 15
+    },
+    {
+      "title": "CDN Implementation",
+      "description": "Content Delivery Network (CDN) used for fast and reliable content delivery globally.",
+      "technical_spec": "Azure CDN, distributed PoPs for content caching.",
       "severity_score": 10
+    },
+    {
+      "title": "API Gateway",
+      "description": "Centralized entry point for APIs, providing route management and security.",
+      "technical_spec": "Azure API Management, OAuth2 authentication.",
+      "severity_score": 30
+    },
+    {
+      "title": "Database Sharding",
+      "description": "Technique to split databases into smaller, faster, more manageable parts called shards.",
+      "technical_spec": "Azure SQL Database, SQL Server Stretch Database.",
+      "severity_score": 40
     }
   ]
 }

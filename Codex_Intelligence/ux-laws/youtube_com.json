@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 302,
+    "rank": 312,
     "site": "youtube.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "8900cb080b1fcd71978c34184635d280"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "e2ee2eb15d81aafe1954af61644c3abe"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplified user interface helps reduce the complexity and time required for user decision-making.",
-      "technical_spec": "Minimal interface designs and intuitive navigation paths.",
+      "title": "Fitts’s Law",
+      "description": "Focuses on the time required to move to a target area.",
+      "technical_spec": "Optimized layout with easily accessible buttons and controls.",
       "severity_score": 15
     },
     {
-      "title": "Fitts’ Law",
-      "description": "Target size and distance are optimized to facilitate quicker user interactions and improve engagement.",
-      "technical_spec": "Key interactive elements are appropriately sized and placed for optimal accessibility.",
-      "severity_score": 20
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Design accommodates short-term memory limitations by organizing information into chunks.",
-      "technical_spec": "Clear segmentation of information in lists, playlists, and user suggestions.",
+      "title": "Hick's Law",
+      "description": "Decision time increases with the number of choices presented.",
+      "technical_spec": "Lean interfaces with simplified interaction paths to reduce cognitive load.",
       "severity_score": 10
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "A visually pleasing interface is designed to improve perceived usability and user satisfaction.",
-      "technical_spec": "Consistent color schemes, typography, and layout designs.",
+      "title": "Law of Proximity",
+      "description": "Objects placed close together are perceived as a group.",
+      "technical_spec": "Structured layout with related content grouped together for intuitive navigation.",
       "severity_score": 10
     },
     {
       "title": "Serial Position Effect",
-      "description": "Content presentation leverages primacy and recency by positioning important information first or last.",
-      "technical_spec": "Video recommendations and play queues are ordered for maximum impact.",
-      "severity_score": 25
+      "description": "Items presented at the start or end of a list are remembered more vividly.",
+      "technical_spec": "Strategically places key content at the beginning and end of lists.",
+      "severity_score": 20
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Users prefer your site to work the same way as all the other sites they already know.",
+      "technical_spec": "Adopts universally familiar navigation patterns and interface elements.",
+      "severity_score": 5
     }
   ]
 }

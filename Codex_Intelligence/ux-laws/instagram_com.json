@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 309,
+    "rank": 319,
     "site": "instagram.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "3ee49f9eb1d0da511f6fd66e0c191494"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "a52a74b179309d60d676fe12d7db1839"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Design is simplified to reduce the user's decision time when choosing from multiple options.",
-      "technical_spec": "Minimalist interfaces with logical grouping of features.",
-      "severity_score": 15
+      "title": "Hicks’s Law",
+      "description": "Simplified user interaction by minimizing the number of choices.",
+      "technical_spec": "Streamlined navigation with progressive disclosure",
+      "severity_score": 30
     },
     {
-      "title": "Fitts's Law",
-      "description": "Touch targets are optimized for easier access and interaction on mobile devices.",
-      "technical_spec": "Button sizes and distances are calculated to minimize movement time.",
-      "severity_score": 20
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing design that is perceived as more usable and enjoyable by users.",
-      "technical_spec": "Consistent use of modern aesthetic principles in UI design.",
-      "severity_score": 10
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Elements that are close to each other are perceived as related, improving intuitive understanding.",
-      "technical_spec": "UI design leverages spatial arrangements for logical grouping.",
+      "title": "Fitts’s Law",
+      "description": "Easy-to-target elements enhance user interaction.",
+      "technical_spec": "Large, tappable buttons and interactive elements",
       "severity_score": 25
     },
     {
-      "title": "Jakob's Law",
-      "description": "Users spend most of their time on other platforms and expect similar navigation and interface design.",
-      "technical_spec": "Familiar design patterns and interactions used for seamless usability.",
-      "severity_score": 30
+      "title": "Aesthetic-Usability Effect",
+      "description": "Aesthetic design to enhance perceived usability.",
+      "technical_spec": "Consistent brand colors and clean UI design",
+      "severity_score": 40
+    },
+    {
+      "title": "Cognitive Load Theory",
+      "description": "Reduces complexity and aids in fast decision-making.",
+      "technical_spec": "Minimalist design, focusing on core functionality",
+      "severity_score": 35
+    },
+    {
+      "title": "Zeigarnik Effect",
+      "description": "Leveraged to keep users engaged with incomplete actions.",
+      "technical_spec": "Notifications and task reminders to incentivize activity",
+      "severity_score": 20
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 301,
+    "rank": 311,
     "site": "google.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "638885de1b9d73c4792ce67f59785a4b"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "62beae6bfefcc3cfbd1339b7fd8dd86d"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making to improve user task efficiency.",
-      "technical_spec": "Limits options on the user interface to enhance decision speed.",
-      "severity_score": 3
+      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
+      "technical_spec": "Minimize complexity and present clear options to streamline decision-making.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts's Law",
-      "description": "Guides design of interactive elements for accessibility and ease of use.",
-      "technical_spec": "Focuses on reducing the distance between interactions on UI layout.",
-      "severity_score": 4
+      "title": "Fitts’s Law",
+      "description": "The time to acquire a target is a function of the distance to and size of the target.",
+      "technical_spec": "Optimize clickable areas and their proximity to improve usability.",
+      "severity_score": 10
     },
     {
-      "title": "Miller’s Law",
-      "description": "Chunking content into groups of seven to improve usability and user retention.",
-      "technical_spec": "Optimizes information clustering on webpages for better cognitive processing.",
-      "severity_score": 2
+      "title": "Law of Prägnanz",
+      "description": "People will perceive and interpret ambiguous or complex images as the simplest form(s) possible.",
+      "technical_spec": "Design interfaces using clear, clean, and easily recognizable patterns.",
+      "severity_score": 12
+    },
+    {
+      "title": "Miller's Law",
+      "description": "The average person can only keep 7 (plus or minus 2) items in their working memory.",
+      "technical_spec": "Segment information and avoid overwhelming users with too much data at once.",
+      "severity_score": 20
     },
     {
       "title": "Jakob’s Law",
-      "description": "Users prefer a consistent experience similar to other services they use.",
-      "technical_spec": "Standardizes page navigation and visual consistency with intuitive design.",
-      "severity_score": 2
-    },
-    {
-      "title": "Zeigarnik Effect",
-      "description": "Increases engagement by intentionally setting incomplete tasks or information.",
-      "technical_spec": "Implements progressive disclosure on content reveal and form completion.",
-      "severity_score": 1
+      "description": "Users spend most of their time on other sites, so they prefer your site to work the same way.",
+      "technical_spec": "Adhere to standard conventions to ensure users know how to navigate your product.",
+      "severity_score": 25
     }
   ]
 }

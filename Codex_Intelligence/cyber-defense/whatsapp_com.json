@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 310,
+    "rank": 320,
     "site": "whatsapp.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "ec605a601c87228115bbb1f362767153"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "70b072e9be108359e5bb29c97c38f089"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "End-to-end encryption ensures that only you and the person you're communicating with can read what is sent.",
-      "technical_spec": "Utilizes Signal Protocol for message encryption.",
-      "severity_score": 30
+      "title": "Two-Factor Authentication",
+      "description": "Critical defensive measure that requires a second factor for user account verification.",
+      "technical_spec": "OTP via SMS or email for additional security layer.",
+      "severity_score": 90
     },
     {
-      "title": "Two-Step Verification",
-      "description": "Additional layer of security to protect user accounts.",
-      "technical_spec": "Requires a six-digit passcode for verification.",
-      "severity_score": 40
+      "title": "Security Patches and Updates",
+      "description": "Regular updates to fix vulnerabilities and enhance system security.",
+      "technical_spec": "Continuous integration/continuous deployment practices.",
+      "severity_score": 85
     },
     {
-      "title": "Fraud Detection Systems",
-      "description": "Automated systems to detect and prevent spam and fraudulent activities.",
-      "technical_spec": "Machine learning algorithms monitor message patterns to identify malicious activities.",
-      "severity_score": 35
+      "title": "Data Encryption at Rest",
+      "description": "Protects user data stored on servers from unauthorized access using encryption.",
+      "technical_spec": "AES 256-bit encryption standards.",
+      "severity_score": 75
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Security teams conduct regular audits and vulnerability assessments.",
-      "technical_spec": "Follows OWASP guidelines and uses penetration testing for validation.",
-      "severity_score": 22
+      "title": "Spam and Abuse Detection",
+      "description": "Automated mechanisms to prevent spam messages and abuse.",
+      "technical_spec": "Machine learning algorithms for pattern recognition.",
+      "severity_score": 80
     },
     {
-      "title": "Server-Side Security",
-      "description": "Multiple layers of security on the server side.",
-      "technical_spec": "Firewalls, intrusion detection systems, and regular patch management.",
-      "severity_score": 28
+      "title": "Vulnerability Disclosure Policy",
+      "description": "Encourages third parties to report vulnerabilities to enhance security.",
+      "technical_spec": "Structured bug bounty programs.",
+      "severity_score": 70
     }
   ]
 }

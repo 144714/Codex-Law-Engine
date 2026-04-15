@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 306,
+    "rank": 316,
     "site": "netflix.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "dab6daaf69af218916fc3100b2cc8aed"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "7305d94048a48b6aac2afd9b89019037"
   },
   "data": [
     {
-      "title": "Encryption Standards",
-      "description": "Netflix uses advanced encryption to protect user data both at rest and in transit.",
-      "technical_spec": "AES-256 and TLS 1.2 with strong cipher suites.",
-      "severity_score": 5
+      "title": "Encryption in Transit and At Rest",
+      "description": "Data is encrypted both in transit and at rest to prevent unauthorized access.",
+      "technical_spec": "TLS for data transmission and AES-256 encryption for stored data.",
+      "severity_score": 95
     },
     {
-      "title": "Security Incident Response",
-      "description": "A dedicated team and protocol for responding to security incidents.",
-      "technical_spec": "Automated alert mechanisms and incident management playbooks.",
-      "severity_score": 20
+      "title": "Threat Detection and Response",
+      "description": "Continuous monitoring and automated responses to detect and mitigate threats.",
+      "technical_spec": "Uses machine learning for anomaly detection, paired with security incident event management.",
+      "severity_score": 85
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular vulnerability scanning and patch management protocols.",
-      "technical_spec": "Utilizes both commercial tools and in-house systems for scanning.",
-      "severity_score": 10
+      "title": "Multi-factor Authentication",
+      "description": "Additional security layer to verify user identity beyond passwords.",
+      "technical_spec": "Integrated MFA for user accounts and corporate access.",
+      "severity_score": 80
     },
     {
-      "title": "DDoS Mitigation",
-      "description": "Strategies in place to protect against DDoS attacks on streaming services.",
-      "technical_spec": "Utilizes AWS Shield and edge server CDN enhancements.",
-      "severity_score": 15
+      "title": "Regular Security Audits",
+      "description": "Frequent evaluations of security posture by internal teams and third-party firms.",
+      "technical_spec": "Vulnerability assessments and penetration testing conducted periodically.",
+      "severity_score": 78
     },
     {
-      "title": "Authentication and Authorization",
-      "description": "Strong user authentication mechanisms to safeguard account access.",
-      "technical_spec": "Multi-Factor Authentication (MFA) and OAuth 2.0.",
-      "severity_score": 10
+      "title": "Data Breach Response Plan",
+      "description": "Predefined procedures to manage and respond to data breaches.",
+      "technical_spec": "Includes isolation protocols, customer communication, and legal compliance measures.",
+      "severity_score": 88
     }
   ]
 }

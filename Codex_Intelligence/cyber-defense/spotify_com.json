@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 307,
+    "rank": 317,
     "site": "spotify.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "07a9d47231f6a476f01964199118fa3e"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "621b350eef4d7d90c2e860fcdc7fe48d"
   },
   "data": [
     {
+      "title": "Multi-Factor Authentication (MFA)",
+      "description": "Secures user accounts with an additional factor of authentication.",
+      "technical_spec": "Time-based OTP apps, SMS verification",
+      "severity_score": 85
+    },
+    {
       "title": "End-to-End Encryption",
-      "description": "Spotify encrypts user data in transit to protect privacy.",
-      "technical_spec": "Utilizes TLS/SSL protocols for secure communications.",
-      "severity_score": 30
+      "description": "Encrypts data from the user's device to the server to protect privacy.",
+      "technical_spec": "TLS/SSL, AES-256 encryption",
+      "severity_score": 90
     },
     {
-      "title": "Access Control",
-      "description": "Strict access control policies to limit access to critical data.",
-      "technical_spec": "Role-based access control (RBAC) ensuring only authorized access.",
-      "severity_score": 45
+      "title": "Intrusion Detection Systems (IDS)",
+      "description": "Monitors network traffic for suspicious activities.",
+      "technical_spec": "Snort, Suricata",
+      "severity_score": 87
     },
     {
-      "title": "Threat Detection",
-      "description": "Continuous monitoring for suspicious activities and anomalies.",
-      "technical_spec": "Implements SIEM systems for real-time analysis.",
-      "severity_score": 50
+      "title": "Data Anonymization",
+      "description": "Personal data is anonymized to reduce privacy risks.",
+      "technical_spec": "Tokenization, Differential Privacy techniques",
+      "severity_score": 83
     },
     {
-      "title": "Patch Management",
-      "description": "Regular updates and patches to fix vulnerabilities.",
-      "technical_spec": "Automated patch management systems in place for rapid response.",
-      "severity_score": 40
-    },
-    {
-      "title": "Data Breach Response",
-      "description": "Comprehensive strategy for handling data breaches promptly.",
-      "technical_spec": "Incident response teams and predefined processes to mitigate damage.",
-      "severity_score": 60
+      "title": "Bot Prevention Measures",
+      "description": "Protects the platform from automated bots to ensure fair usage.",
+      "technical_spec": "CAPTCHA, rate limiting",
+      "severity_score": 89
     }
   ]
 }

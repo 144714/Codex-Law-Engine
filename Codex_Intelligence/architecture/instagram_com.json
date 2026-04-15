@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 309,
+    "rank": 319,
     "site": "instagram.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "300e0dea9087188e1fdf0a35432076d7"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "5fa1559024ec755f773832d203799708"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Instagram employs a microservices architecture to handle various functionalities like user profiles, media sharing, and messaging.",
-      "technical_spec": "Implemented using frameworks like React Native for frontend and various microservices using Python/Django.",
-      "severity_score": 10
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Utilizes a CDN for faster load times and efficient content delivery across global locations.",
-      "technical_spec": "CDNs such as Akamai or Cloudflare to distribute static assets more effectively.",
-      "severity_score": 15
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Distributes network or application traffic across a number of servers to ensure no single server gets overwhelmed.",
-      "technical_spec": "AWS Elastic Load Balancing or similar solutions to manage incoming traffic.",
+      "title": "Microservices",
+      "description": "Instagram is built on a microservice architecture enabling scalability and flexibility.",
+      "technical_spec": "Deployed on AWS, utilizes Docker for containerization",
       "severity_score": 20
     },
     {
       "title": "Database Sharding",
-      "description": "User data is separated across multiple database instances to optimize retrieval and scalability.",
-      "technical_spec": "Implemented using database solutions like PostgreSQL with sharding strategies.",
-      "severity_score": 25
+      "description": "To manage large volumes of data, Instagram implements database sharding.",
+      "technical_spec": "Uses PostgreSQL with custom sharding logic",
+      "severity_score": 15
     },
     {
-      "title": "GraphQL API",
-      "description": "Provides a flexible API interface allowing clients to request exactly the data they need.",
-      "technical_spec": "GraphQL endpoints manage interactions with the backend services.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "A CDN is used to distribute media content efficiently across the globe.",
+      "technical_spec": "Akamai and Facebook's own CDN",
+      "severity_score": 10
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Ensures even distribution of traffic across servers.",
+      "technical_spec": "Nginx and custom load balancing algorithms",
+      "severity_score": 12
+    },
+    {
+      "title": "RESTful API",
+      "description": "Provides data access and interaction through APIs following REST principles.",
+      "technical_spec": "JSON over HTTPS, uses OAuth for authentication",
       "severity_score": 30
     }
   ]

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 303,
+    "rank": 313,
     "site": "apple.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "582f164f0bf24fdd7383ee337e1d7956"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "97e2006ac6c96b1dcf359ece5e3e4ac2"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifying user decision-making by reducing choices at any given point.",
-      "technical_spec": "Minimalistic Design, Focused Navigation",
-      "severity_score": 75
+      "title": "Hick's Law",
+      "description": "Simplifies choices to reduce decision time, focusing on streamlined navigation.",
+      "technical_spec": "Optimized navigation bars and minimization of options at the decision point.",
+      "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Designing for efficient interaction by considering the size and distance of clickable elements.",
-      "technical_spec": "Larger Buttons, Edge Placement",
-      "severity_score": 80
+      "title": "Fitts's Law",
+      "description": "Design principle focusing on large, easily clickable interfaces to improve user interactions.",
+      "technical_spec": "Ensures key interactive elements are larger and closer to the expected interaction path.",
+      "severity_score": 15
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Creating visual coherence through principles like proximity, similarity, and continuity.",
-      "technical_spec": "Consistent Grid System, Element Grouping",
-      "severity_score": 85
+      "title": "Aesthetic-Usability Effect",
+      "description": "Attractive designs create a positive user experience even under challenging usability situations.",
+      "technical_spec": "High-resolution images, smooth animations, and consistent branding to engage users.",
+      "severity_score": 5
     },
     {
-      "title": "Miller’s Law",
-      "description": "Limiting the amount of information presented at once to enhance comprehension and retention.",
-      "technical_spec": "Chunking Information, Visual Hierarchy",
-      "severity_score": 83
+      "title": "Miller's Law",
+      "description": "Focuses on presenting information in chunks to aid user memory and processing.",
+      "technical_spec": "Content layout that groups related information into digestible sections.",
+      "severity_score": 20
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Users spend most of their time on other sites and prefer your site to work the same way.",
-      "technical_spec": "Adopting Common UI Patterns, Consistency",
-      "severity_score": 90
+      "title": "Jakob's Law",
+      "description": "Design consistency across Apple’s online presence to meet user expectations derived from other digital platforms.",
+      "technical_spec": "Unified interface styles and predictability across all Apple online properties.",
+      "severity_score": 30
     }
   ]
 }

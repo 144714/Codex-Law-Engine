@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 306,
+    "rank": 316,
     "site": "netflix.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "009b44f6e40ad876a534a05ad4cddf09"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "a612fd6fdd39b5058b77cd33061035aa"
   },
   "data": [
     {
-      "title": "Innovative Content Delivery",
-      "description": "Pioneer in streaming technology and original content creation.",
-      "technical_spec": "Continuous investment in streaming tech and content production.",
-      "severity_score": 5
+      "title": "Innovative Storytelling",
+      "description": "Focus on producing and distributing unique content that pushes boundaries in narrative and production.",
+      "technical_spec": "Diverse content library with a mix of licensed shows and Netflix Originals.",
+      "severity_score": 85
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Design and functionality driven by extensive user research.",
-      "technical_spec": "User feedback loops and extensive A/B testing frameworks.",
-      "severity_score": 5
+      "title": "Customer-Centric Approach",
+      "description": "Prioritizing user experience and satisfaction through personalization and responsive design.",
+      "technical_spec": "Algorithms tailored for personalized recommendations and adaptive streaming quality.",
+      "severity_score": 90
     },
     {
-      "title": "Global Reach",
-      "description": "Content tailored to diverse audiences in over 190 countries.",
-      "technical_spec": "Localized content delivery and multilingual support.",
-      "severity_score": 5
+      "title": "Global Accessibility",
+      "description": "Commitment to making content available to a worldwide audience, ensuring inclusivity.",
+      "technical_spec": "Multi-language support, subtitles, and deep localization in content and user interface.",
+      "severity_score": 88
     },
     {
-      "title": "Data-Driven Decision Making",
-      "description": "Leverages data to personalize user experiences and optimize operations.",
-      "technical_spec": "Advanced analytics platforms integrated with business processes.",
-      "severity_score": 5
+      "title": "Pioneering Technology",
+      "description": "Continuous investment in technology to stay ahead in streaming quality and service reliability.",
+      "technical_spec": "Development of custom solutions like Open Connect and optimizing streaming protocols.",
+      "severity_score": 92
     },
     {
-      "title": "Strong Brand Identity",
-      "description": "Maintains a distinct brand image through consistent messaging and branding strategies.",
-      "technical_spec": "High standards for marketing campaigns and visual elements.",
-      "severity_score": 3
+      "title": "Bold Branding",
+      "description": "Distinct brand voice and presence across all platforms, characterized by creativity and boldness.",
+      "technical_spec": "Consistent design language, promotional campaigns, and social media engagements.",
+      "severity_score": 82
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 305,
+    "rank": 315,
     "site": "amazon.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "da2302541a784e172b41524422b27600"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "e85f70c17af4f84abca18209e5c9efcd"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Amazon employs a microservices architecture, allowing different services to operate independently.",
-      "technical_spec": "Decomposed services communicating through APIs, usually RESTful or gRPC.",
-      "severity_score": 5
+      "title": "Microservices Architecture",
+      "description": "Amazon's backend is built on a microservices architecture allowing independent development, deployment, and scaling.",
+      "technical_spec": "AWS Lambda, Docker, Kubernetes",
+      "severity_score": 85
     },
     {
-      "title": "Scalable Infrastructure",
-      "description": "AWS provides a scalable and elastic infrastructure to handle demand fluctuations.",
-      "technical_spec": "Auto-scaling groups, load balancers, and serverless solutions like AWS Lambda.",
-      "severity_score": 3
+      "title": "Cloud Infrastructure",
+      "description": "Utilizing Amazon Web Services, the site leverages elastic cloud computing resources.",
+      "technical_spec": "AWS EC2, S3, RDS",
+      "severity_score": 90
     },
     {
-      "title": "Distributed Databases",
-      "description": "Utilizes distributed databases for effective data storage and retrieval.",
-      "technical_spec": "Amazon DynamoDB, RDS and S3 for scalable and reliable data storage.",
-      "severity_score": 4
+      "title": "Data Replication and Storage",
+      "description": "Data is stored across distributed databases with replication and redundancy protocols.",
+      "technical_spec": "DynamoDB, Aurora, Cassandra",
+      "severity_score": 80
     },
     {
-      "title": "Content Delivery Network",
-      "description": "Global CDN ensures low latency and high transfer speeds for content distribution.",
-      "technical_spec": "Amazon CloudFront with edge locations around the globe.",
-      "severity_score": 2
+      "title": "Load Balancing",
+      "description": "Automatic distribution of incoming application traffic across multiple resources.",
+      "technical_spec": "Elastic Load Balancing",
+      "severity_score": 70
     },
     {
-      "title": "Service-Oriented Architectures (SOA)",
-      "description": "Loose coupling and high cohesion, which enhances flexibility and scalability.",
-      "technical_spec": "Services published via APIs; uses AWS API Gateway.",
-      "severity_score": 4
+      "title": "Serverless Computing",
+      "description": "Serverless functions handle operational tasks, improving scalability and cost efficiency.",
+      "technical_spec": "AWS Lambda",
+      "severity_score": 75
     }
   ]
 }

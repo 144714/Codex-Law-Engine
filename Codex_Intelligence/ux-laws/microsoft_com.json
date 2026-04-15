@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 304,
+    "rank": 314,
     "site": "microsoft.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "376ea2135f2b60f27c1820b7a5eb1df2"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "e069dd286f0b1da5ff8081aa141e35d3"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "The time it takes for a user to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Minimalist Design, Quick Access Menus",
+      "title": "Hick’s Law",
+      "description": "Streamlined user experience with reduced cognitive load by limiting choices on any given page.",
+      "technical_spec": "Simplified menus, focused content presentation.",
       "severity_score": 20
     },
     {
-      "title": "Fitts's Law",
-      "description": "The time to acquire a target is a function of the distance and size of the target.",
-      "technical_spec": "Larger Buttons, Closer Proximity",
+      "title": "Fitts’s Law",
+      "description": "Elements are placed and sized to optimize for ease of clicking and interaction.",
+      "technical_spec": "Larger clickable areas for primary actions, frequently used actions positioned near the user's point of focus.",
       "severity_score": 25
     },
     {
-      "title": "Jakob's Law",
-      "description": "Users prefer your site to work the same way as all the other sites they already know.",
-      "technical_spec": "Familiar Layout, Standard Controls",
-      "severity_score": 18
-    },
-    {
-      "title": "Miller's Law",
-      "description": "The average person can only keep 7 (plus or minus 2) items in their working memory.",
-      "technical_spec": "Chunking Information, Simplicity",
-      "severity_score": 22
-    },
-    {
-      "title": "Peak-End Rule",
-      "description": "People judge an experience based primarily on how they felt at its peak and its end.",
-      "technical_spec": "Memorable Onboarding and Logout Sequences",
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually attractive interfaces are designed to make systems more usable and plausible.",
+      "technical_spec": "High-quality visuals, consistent color schemes, clean typography.",
       "severity_score": 15
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "The web experience accounts for the average memory capacity by chunking information.",
+      "technical_spec": "Card layouts, segmented flows in onboarding processes.",
+      "severity_score": 30
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Design patterns are familiar to users based on their experience with other Microsoft products.",
+      "technical_spec": "Consistency in navigation, UI components across platforms.",
+      "severity_score": 10
     }
   ]
 }

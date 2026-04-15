@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 304,
+    "rank": 314,
     "site": "microsoft.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "1a1f12f257e182da7b26da08e06fef3e"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "e9cb474e267302e974d176af44204fe4"
   },
   "data": [
     {
       "title": "Innovation-Driven",
-      "description": "Microsoft's commitment to innovation and leadership in technology.",
-      "technical_spec": "R&D Investment, Cutting-Edge Technologies",
-      "severity_score": 10
+      "description": "Continuous pursuit of cutting-edge technology and forward-thinking solutions.",
+      "technical_spec": "AI technologies, Quantum computing research, Hololens AR innovations.",
+      "severity_score": 30
     },
     {
-      "title": "Customer-Centricity",
-      "description": "Focusing on delivering value and positive experiences to customers.",
-      "technical_spec": "User Feedback Mechanisms, Customer Support",
+      "title": "Global Accessibility",
+      "description": "Commitment to making products accessible to people with disabilities.",
+      "technical_spec": "Built-in accessibility features, collaboration with accessibility experts.",
       "severity_score": 15
     },
     {
-      "title": "Diversity and Inclusion",
-      "description": "Promoting a culture that respects and values diverse perspectives.",
-      "technical_spec": "D&I Initiatives, Inclusive Design",
-      "severity_score": 12
-    },
-    {
-      "title": "Trust and Security",
-      "description": "Building products and services with privacy and security as foundational principles.",
-      "technical_spec": "GDPR Compliance, Zero Trust Architecture",
-      "severity_score": 8
-    },
-    {
-      "title": "Sustainability",
-      "description": "Commitment to environmental sustainability and reducing carbon footprint.",
-      "technical_spec": "Carbon Neutral Data Centers, Renewable Energy Use",
+      "title": "Cloud-First Vision",
+      "description": "Transition from software-based to cloud-centric services.",
+      "technical_spec": "Azure cloud services, SaaS offerings, Cloud-based Office solutions.",
       "severity_score": 20
+    },
+    {
+      "title": "Security-Centric Philosophy",
+      "description": "Prioritize customer privacy and data protection across all Microsoft services.",
+      "technical_spec": "GDPR compliance, end-to-end encryption standards.",
+      "severity_score": 45
+    },
+    {
+      "title": "Integration and Ecosystem",
+      "description": "Developing products that seamlessly integrate within the Microsoft ecosystem and with third-party services.",
+      "technical_spec": "Microsoft Graph API, Office 365 integrations, Partner collaborations.",
+      "severity_score": 25
     }
   ]
 }

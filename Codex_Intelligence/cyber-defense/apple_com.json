@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 303,
+    "rank": 313,
     "site": "apple.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "d96730716cd0eee9f722ce41f4c762f3"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "dcb9da5040ba86e3d5e0d9eafcb295a5"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Protecting user data from interception with robust encryption protocols.",
-      "technical_spec": "TLS/SSL Certificates, AES-256 Encryption",
-      "severity_score": 98
+      "title": "Advanced Encryption Standards",
+      "description": "Encryption protocols that ensure data confidentiality and integrity for user communications and transactions.",
+      "technical_spec": "Utilizes AES-256 encryption for sensitive data alongside HTTPS for secure web communication.",
+      "severity_score": 5
     },
     {
-      "title": "2-Factor Authentication (2FA)",
-      "description": "An additional layer of security to ensure that only the intended user can access their account.",
-      "technical_spec": "SMS Verification, Authenticator Apps",
-      "severity_score": 92
+      "title": "Multi-Factor Authentication (MFA)",
+      "description": "Enhances security by requiring two or more verification factors to access an account.",
+      "technical_spec": "Provides MFA options, such as SMS codes or authenticator apps, for user accounts.",
+      "severity_score": 10
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducting frequent security assessments to identify and fix vulnerabilities.",
-      "technical_spec": "Penetration Testing, Vulnerability Scanning",
-      "severity_score": 85
+      "description": "Continuous security assessments to identify vulnerabilities and implement defenses.",
+      "technical_spec": "Conducts internal and third-party security audits to check for potential security gaps.",
+      "severity_score": 20
     },
     {
-      "title": "Content Security Policy (CSP)",
-      "description": "Preventing a variety of attacks by defining which content sources are trustworthy.",
-      "technical_spec": "HTTP Headers, Script/Style Restrictions",
-      "severity_score": 88
+      "title": "Firewall Protection",
+      "description": "Utilizes firewalls to protect network resources from unauthorized access and threats.",
+      "technical_spec": "Employs both software and hardware firewalls as part of a comprehensive network security strategy.",
+      "severity_score": 15
     },
     {
-      "title": "Data Loss Prevention (DLP)",
-      "description": "Ensuring sensitive data is not accessed or transmitted outside authorized channels.",
-      "technical_spec": "Firewall Rules, Network Monitoring Tools",
-      "severity_score": 90
+      "title": "DDoS Mitigation",
+      "description": "Prevents Distributed Denial of Service attacks that can disrupt website accessibility.",
+      "technical_spec": "Uses advanced DDoS protection measures from cloud services or in-house solutions to absorb traffic spikes.",
+      "severity_score": 25
     }
   ]
 }

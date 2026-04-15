@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 309,
+    "rank": 319,
     "site": "instagram.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "5133f449423d36d682f03b780e78f9f2"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "aa4a994703c0d7d287103ce8dccb276c"
   },
   "data": [
     {
-      "title": "OAuth 2.0 Authentication",
-      "description": "Secure method for API authentication, used to authorize client access to Instagram services.",
-      "technical_spec": "OAuth 2.0 framework used for secure user authentication.",
-      "severity_score": 20
+      "title": "Encryption",
+      "description": "End-to-end encryption to secure data in transit and at rest.",
+      "technical_spec": "TLS 1.3 for data in transit, AES-256 for data at rest",
+      "severity_score": 80
     },
     {
-      "title": "Data Encryption",
-      "description": "Ensures that user data is encrypted in transit and at rest to protect against unauthorized access.",
-      "technical_spec": "Uses TLS for data in transit and AES-256 encryption at rest.",
-      "severity_score": 30
+      "title": "Authentication and Authorization",
+      "description": "Multi-factor authentication and strict authorization protocols.",
+      "technical_spec": "OAuth2 for token-based authentication",
+      "severity_score": 75
     },
     {
-      "title": "Rate Limiting",
-      "description": "Restricts the number of API requests a user can make in a given time frame to mitigate abuse.",
-      "technical_spec": "Integrated into API management layer to detect and block excessive requests.",
-      "severity_score": 40
+      "title": "Security Audits",
+      "description": "Regular security audits to identify vulnerabilities.",
+      "technical_spec": "Penetration testing and code reviews",
+      "severity_score": 70
     },
     {
-      "title": "Application Security Testing",
-      "description": "Regular security assessments are conducted to identify and fix vulnerabilities.",
-      "technical_spec": "Automated scanning tools and manual penetration testing.",
-      "severity_score": 50
+      "title": "Spam and Abuse Detection",
+      "description": "AI-powered systems to detect and prevent spam and abusive behaviors.",
+      "technical_spec": "Machine learning models running in real-time",
+      "severity_score": 65
     },
     {
-      "title": "Account Monitoring and Alerts",
-      "description": "Detect suspicious activities on user accounts and notify the user.",
-      "technical_spec": "AI-driven anomaly detection algorithms monitor for signs of account compromise.",
-      "severity_score": 60
+      "title": "DDoS Protection",
+      "description": "Mechanisms in place to protect against distributed denial-of-service attacks.",
+      "technical_spec": "CDN-level protection and traffic filtering",
+      "severity_score": 85
     }
   ]
 }

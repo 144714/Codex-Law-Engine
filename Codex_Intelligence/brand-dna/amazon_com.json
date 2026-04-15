@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 305,
+    "rank": 315,
     "site": "amazon.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "ae9c71033b5cde891b93b6c0bde0cc4a"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "16564ca1b6a8c418af564cb85a1a5611"
   },
   "data": [
     {
-      "title": "Customer Centricity",
-      "description": "Amazon's core philosophy is to prioritize customer satisfaction and service.",
-      "technical_spec": "Easily accessible customer support and feedback systems.",
-      "severity_score": 5
-    },
-    {
-      "title": "Innovation and Adaptability",
-      "description": "Continuous improvement and adaptation to new technologies and market demands.",
-      "technical_spec": "Integration of AI, machine learning, and automation.",
-      "severity_score": 4
+      "title": "Customer Obsession",
+      "description": "Amazon places customers at the center of its operations ensuring top-notch service.",
+      "technical_spec": "24/7 customer support",
+      "severity_score": 95
     },
     {
       "title": "Operational Excellence",
-      "description": "Strong focus on efficiency and effectiveness in operations.",
-      "technical_spec": "Optimized supply chain and logistics operations.",
-      "severity_score": 4
+      "description": "Focus on running lean operations that maximize value delivery.",
+      "technical_spec": "Automated supply chain",
+      "severity_score": 90
     },
     {
-      "title": "Diversity and Inclusion",
-      "description": "Commitment to a diverse and inclusive workplace and approach.",
-      "technical_spec": "Initiatives and policies supporting diversity.",
-      "severity_score": 3
+      "title": "Innovation",
+      "description": "Continuous development of new features and services that cater to various market needs.",
+      "technical_spec": "AI and ML integration",
+      "severity_score": 85
+    },
+    {
+      "title": "Global Reach",
+      "description": "Servicing international markets with localized options to accommodate diverse customer bases.",
+      "technical_spec": "International shipping logistics",
+      "severity_score": 80
     },
     {
       "title": "Sustainability",
-      "description": "Efforts towards reducing carbon footprint and promoting sustainability.",
-      "technical_spec": "Investments in renewable energy and eco-friendly packaging.",
-      "severity_score": 3
+      "description": "Commitment to reducing carbon footprint and promoting sustainable practices.",
+      "technical_spec": "Carbon-neutral shipping initiatives",
+      "severity_score": 75
     }
   ]
 }

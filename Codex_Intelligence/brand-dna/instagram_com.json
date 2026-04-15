@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 309,
+    "rank": 319,
     "site": "instagram.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "6bf6643aabdc60386c2aea064f068c5a"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "177a258c27df01eca979ce582437aaf1"
   },
   "data": [
     {
-      "title": "Community Focus",
-      "description": "Prioritizing community engagement and interactivity as core values.",
-      "technical_spec": "Features like Stories, Reels, and IGTV designed to boost interaction.",
-      "severity_score": 10
-    },
-    {
-      "title": "Visual Storytelling",
-      "description": "Encouraging users to share their experiences visually through photos and videos.",
-      "technical_spec": "Advanced image editing and sharing tools to enhance visual content.",
+      "title": "Community Focused",
+      "description": "Centered around building communities and connections.",
+      "technical_spec": "Features like stories, reels, and live interactions",
       "severity_score": 15
     },
     {
-      "title": "Trendsetting",
-      "description": "Maintaining a focus on innovation to set and catch trends faster than competitors.",
-      "technical_spec": "Agile development methodologies to quickly roll out new features.",
+      "title": "Visually Driven",
+      "description": "Emphasizes visual content with photo and video sharing.",
+      "technical_spec": "High-quality image processing and media storage",
       "severity_score": 20
     },
     {
-      "title": "Instant Connectivity",
-      "description": "Providing users with the tools to connect instantly with friends, brands, and influencers.",
-      "technical_spec": "Real-time messaging and notifications system integration.",
+      "title": "Trendsetting",
+      "description": "Often initiates social media trends with new features.",
+      "technical_spec": "Regular updates and feature rollouts to stay ahead",
       "severity_score": 25
     },
     {
-      "title": "User Privacy",
-      "description": "Commitment to protecting user information and providing control over personal data.",
-      "technical_spec": "Privacy settings and controls empowering users to manage their data.",
+      "title": "User-Centric Design",
+      "description": "User experience is prioritized in design decisions.",
+      "technical_spec": "User testing and feedback loops for continuous improvement",
       "severity_score": 30
+    },
+    {
+      "title": "Inclusion and Diversity",
+      "description": "Strives to accommodate a diverse user base.",
+      "technical_spec": "Accessibility features and diverse representation in content",
+      "severity_score": 18
     }
   ]
 }

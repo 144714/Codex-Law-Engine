@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 305,
+    "rank": 315,
     "site": "amazon.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "c35d5b55e8bb1c0ed86c40ccbb690c29"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "713f2fff3e81b83bc276247249b34739"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Strong encryption is used for data at rest and in transit to protect customer data.",
-      "technical_spec": "TLS for data in transit, AES-256 for data at rest.",
-      "severity_score": 2
+      "title": "DDoS Protection",
+      "description": "Defenses against distributed denial of service attacks aimed at ensuring service availability.",
+      "technical_spec": "AWS Shield",
+      "severity_score": 95
     },
     {
       "title": "Identity and Access Management",
-      "description": "Robust IAM policies control user access and permissions.",
-      "technical_spec": "AWS IAM roles, policies, and MFA.",
-      "severity_score": 3
+      "description": "Secure management of user identities and granular control over resource access.",
+      "technical_spec": "AWS IAM",
+      "severity_score": 85
     },
     {
-      "title": "Threat Detection and Monitoring",
-      "description": "Constant monitoring for suspicious activity to quickly respond to threats.",
-      "technical_spec": "AWS GuardDuty, CloudWatch, and CloudTrail.",
-      "severity_score": 3
+      "title": "Network Firewalls",
+      "description": "Protection through network firewalls preventing unauthorized access to resources.",
+      "technical_spec": "AWS WAF",
+      "severity_score": 88
     },
     {
-      "title": "DDoS Protection",
-      "description": "Systems in place to mitigate distributed denial-of-service attacks.",
-      "technical_spec": "AWS Shield and AWS WAF.",
-      "severity_score": 3
+      "title": "Encryption in Transit and at Rest",
+      "description": "Data is encrypted both in transit and at rest ensuring confidentiality and integrity.",
+      "technical_spec": "TLS, AES-256",
+      "severity_score": 90
     },
     {
-      "title": "Incident Response Plan",
-      "description": "Well-defined protocols to quickly address and manage incidents.",
-      "technical_spec": "Defined escalation paths and response protocols.",
-      "severity_score": 2
+      "title": "Automated Threat Detection",
+      "description": "Utilizes machine learning to identify and mitigate threats in real-time.",
+      "technical_spec": "Amazon GuardDuty",
+      "severity_score": 85
     }
   ]
 }

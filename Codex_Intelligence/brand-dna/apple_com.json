@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 303,
+    "rank": 313,
     "site": "apple.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "07c3b438dc275a76cbf7091fbf71d8ce"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "d3f8f9f1d6908b6d13b99e98f9ff69b3"
   },
   "data": [
     {
-      "title": "Minimalist Design",
-      "description": "Defining a sleek and elegant aesthetic synonymous with the brand identity.",
-      "technical_spec": "Sparse Color Palette, Simplified UI",
-      "severity_score": 100
+      "title": "Innovation",
+      "description": "Apple's commitment to cutting-edge technology and design thinking.",
+      "technical_spec": "Integration of the latest technologies and continuous updates in digital properties.",
+      "severity_score": 5
     },
     {
-      "title": "High Performance",
-      "description": "Ensuring fast load times and seamless interaction, reflecting hardware efficiency.",
-      "technical_spec": "Optimized Code, Lazy Loading",
-      "severity_score": 95
+      "title": "Simplicity",
+      "description": "A straightforward and user-friendly design ethos that prioritizes ease of use.",
+      "technical_spec": "Minimalistic UI elements, promoting clear and direct interactions.",
+      "severity_score": 10
     },
     {
-      "title": "Innovative Features",
-      "description": "Integrating cutting-edge technologies and designs ahead of industry trends.",
-      "technical_spec": "Augmented Reality, Machine Learning",
-      "severity_score": 90
+      "title": "Privacy",
+      "description": "Central brand focus on user data protection and privacy.",
+      "technical_spec": "Robust data protection policies and user consent frameworks based on privacy principles.",
+      "severity_score": 5
     },
     {
-      "title": "User Privacy",
-      "description": "Committing to user privacy through strict data handling and transparency standards.",
-      "technical_spec": "Data Anonymization, User Control over Data",
-      "severity_score": 98
+      "title": "Quality",
+      "description": "Constant pursuit of excellence across all user touchpoints, digital or physical.",
+      "technical_spec": "High-definition imagery, fluid animations, and cohesive branding experiences.",
+      "severity_score": 15
     },
     {
-      "title": "Ecosystem Integration",
-      "description": "Creating a cohesive user experience across devices and services.",
-      "technical_spec": "Seamless Continuity, Cross-Platform Sync",
-      "severity_score": 97
+      "title": "Ecosystem",
+      "description": "A seamless integration of services and products within the Apple ecosystem.",
+      "technical_spec": "Cross-platform integration capabilities, ensuring consistency and connectivity.",
+      "severity_score": 20
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 301,
+    "rank": 311,
     "site": "google.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "0f3e19ed3685441a15f73322d79e7c86"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "70729f61962aa03e93f4906e99fe099a"
   },
   "data": [
     {
-      "title": "Simplicity and Speed",
-      "description": "Commitment to delivering quick, straightforward access to information.",
-      "technical_spec": "Consistent emphasis on lightweight design and performance optimization.",
-      "severity_score": 2
+      "title": "Innovation",
+      "description": "Continuously developing new technologies and improving processes.",
+      "technical_spec": "Focuses on AI advancement, cloud infrastructure, and search algorithm efficiency.",
+      "severity_score": 50
     },
     {
-      "title": "Innovation and Scale",
-      "description": "Continuous developments to support vast, scalable infrastructure solutions.",
-      "technical_spec": "Pioneers in big data processing, cloud services, and AI advancements.",
-      "severity_score": 3
-    },
-    {
-      "title": "User-Centricity",
-      "description": "Focuses on providing a seamless and intuitive experience to end-users.",
-      "technical_spec": "Regular user feedback integration through UX research and design testing.",
-      "severity_score": 2
-    },
-    {
-      "title": "Security First",
-      "description": "Prioritizes user privacy and security across all service platforms.",
-      "technical_spec": "Deployment of end-to-end encryption and stringent data protection protocols.",
-      "severity_score": 4
+      "title": "User-Focused",
+      "description": "Prioritizes user experience and accessibility in product design and updates.",
+      "technical_spec": "Employs extensive user testing and accessibility features across services.",
+      "severity_score": 45
     },
     {
       "title": "Global Reach",
-      "description": "Ensures access and adaptability of services to diverse global audiences.",
-      "technical_spec": "Supports multiple languages and regional optimizations in services.",
-      "severity_score": 4
+      "description": "Serves a vast, diverse user base across multiple countries and languages.",
+      "technical_spec": "Localization in multiple languages and regional content adaptation.",
+      "severity_score": 55
+    },
+    {
+      "title": "Data Privacy",
+      "description": "Commits to maintaining user privacy and protecting personal information.",
+      "technical_spec": "Implements transparency policies and secure data handling procedures.",
+      "severity_score": 60
+    },
+    {
+      "title": "Sustainability",
+      "description": "Aims to reduce environmental impact through eco-friendly initiatives.",
+      "technical_spec": "Adopts energy-efficient data centers and sustainability reporting.",
+      "severity_score": 35
     }
   ]
 }

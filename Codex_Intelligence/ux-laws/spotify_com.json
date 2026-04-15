@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 307,
+    "rank": 317,
     "site": "spotify.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "0e1ea5fdb8a5950882c134498a4e8921"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "20e9ea923b3295fd2393f3402dc8c2de"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Elements that are larger and closer to users are easier to click.",
-      "technical_spec": "Design prioritizes larger, easily clickable buttons for main actions.",
-      "severity_score": 10
-    },
-    {
-      "title": "Hick's Law",
-      "description": "The time it takes to make a decision increases with the number of choices.",
-      "technical_spec": "Simplified interfaces to limit choices and reduce cognitive load.",
-      "severity_score": 15
+      "title": "Consistency Heuristic",
+      "description": "Ensures a consistent user experience across devices and platforms.",
+      "technical_spec": "Unified styling, responsive design frameworks",
+      "severity_score": 92
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Users perceive aesthetically pleasing designs to be more usable.",
-      "technical_spec": "Focus on clean, visually appealing layout that enhances user experience.",
-      "severity_score": 12
+      "description": "Enhances perceived usability through appealing UI design.",
+      "technical_spec": "Minimalist design, high-quality visuals",
+      "severity_score": 88
     },
     {
-      "title": "Jakob's Law",
-      "description": "Users prefer interfaces that work similarly to those of frequently used applications.",
-      "technical_spec": "Adopts familiar navigation patterns and controls.",
-      "severity_score": 18
+      "title": "Feedback Principle",
+      "description": "Provides clear feedback to user actions to enhance interaction.",
+      "technical_spec": "Loading indicators, action confirmations",
+      "severity_score": 95
     },
     {
-      "title": "Law of Proximity",
-      "description": "Objects near each other are perceived to be related.",
-      "technical_spec": "Groups related actions and elements to improve user understanding and navigation.",
-      "severity_score": 11
+      "title": "Hick's Law",
+      "description": "Reduces decision time by limiting the number of options in menus.",
+      "technical_spec": "Simplified navigation, prioritized content",
+      "severity_score": 90
+    },
+    {
+      "title": "Recognition over Recall",
+      "description": "Designs interfaces that prioritize user recognition over recall.",
+      "technical_spec": "Iconography, predictable patterns",
+      "severity_score": 91
     }
   ]
 }

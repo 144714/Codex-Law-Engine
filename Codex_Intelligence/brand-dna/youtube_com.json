@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 302,
+    "rank": 312,
     "site": "youtube.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "dd5e69fee6c720f33df112120de5259b"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "5d27ba7c6b67555e4837c39ad17fbe2c"
   },
   "data": [
     {
-      "title": "Global Reach",
-      "description": "YouTube's brand is synonymous with worldwide accessibility and community engagement.",
-      "technical_spec": "Supports extensive localization for diverse global audiences.",
-      "severity_score": 15
+      "title": "Community Engagement",
+      "description": "YouTube enables creators and viewers to build and engage with communities.",
+      "technical_spec": "Features like comment sections, community posts, and live chats.",
+      "severity_score": 25
     },
     {
-      "title": "User-Centric Platform",
-      "description": "Prioritizes user needs with a focus on personalized user experiences and content discovery.",
-      "technical_spec": "Adaptive algorithms that suggest relevant content based on user behavior.",
+      "title": "Monetization Opportunities",
+      "description": "Supports content creators with various monetization methods.",
+      "technical_spec": "AdSense integration, Super Chat, Channel Memberships, and Merchandise Shelf.",
       "severity_score": 20
     },
     {
-      "title": "Innovative Content Formats",
-      "description": "Drives innovation with features like Shorts, Live, and VR video experiences.",
-      "technical_spec": "Integration of cutting-edge technologies to support new content types.",
-      "severity_score": 35
-    },
-    {
-      "title": "Community and Influence",
-      "description": "Fosters a strong sense of community among creators and viewers, emphasizing interaction.",
-      "technical_spec": "Features comment sections, live chat, and community posts.",
-      "severity_score": 20
-    },
-    {
-      "title": "Content Monetization",
-      "description": "Empowers creators through varied monetization options like ad revenue, memberships, and Super Chats.",
-      "technical_spec": "Complex monetization algorithms and systems tailored to diverse creator needs.",
+      "title": "Diverse Content Library",
+      "description": "A platform offering a wide range of content across different genres and languages.",
+      "technical_spec": "Facilitated by sophisticated video processing and recommendation algorithms.",
       "severity_score": 30
+    },
+    {
+      "title": "Innovation in Video Sharing",
+      "description": "Pioneer in the online video sharing and streaming services.",
+      "technical_spec": "Regular updates with new features like Shorts, YouTube Music, and VR integration.",
+      "severity_score": 20
+    },
+    {
+      "title": "Global Reach and Accessibility",
+      "description": "Available worldwide with localized interfaces and content.",
+      "technical_spec": "Supports multiple languages and regional content adaptations.",
+      "severity_score": 15
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 304,
+    "rank": 314,
     "site": "microsoft.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "95474f5026119810a7b78204a189b44c"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "34776344102e7be8ace028795bdea86c"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication",
-      "description": "An added layer of security requiring multiple forms of verification.",
-      "technical_spec": "OAuth 2.0, FIDO2, Microsoft Authenticator",
-      "severity_score": 5
+      "title": "Advanced Threat Protection",
+      "description": "Utilizes AI-driven strategies to detect and protect against advanced threats.",
+      "technical_spec": "Microsoft Defender for Endpoint, Machine Learning algorithms.",
+      "severity_score": 50
     },
     {
-      "title": "Threat Intelligence",
-      "description": "Utilizes AI-driven insights to anticipate and mitigate cyber threats.",
-      "technical_spec": "Microsoft Sentinel, Azure Security Center, ATP",
-      "severity_score": 10
+      "title": "Zero Trust Model",
+      "description": "Security strategy that presumes a breach is inevitable and verifies each request as though it originates from an open network.",
+      "technical_spec": "Multi-factor authentication, Conditional Access, Identity Protection.",
+      "severity_score": 35
     },
     {
       "title": "Data Encryption",
-      "description": "Securing data through encryption protocols to protect it against unauthorized access.",
-      "technical_spec": "TLS, AES-256, BitLocker",
-      "severity_score": 8
+      "description": "Data is encrypted both at rest and in transit using industry-standard protocols.",
+      "technical_spec": "TLS 1.3, AES-256 encryption standards.",
+      "severity_score": 25
     },
     {
-      "title": "Endpoint Protection",
-      "description": "Comprehensive security for end-user devices to prevent malware and intrusions.",
-      "technical_spec": "Microsoft Defender for Endpoint, EDR, VPN",
-      "severity_score": 15
+      "title": "Network Security Group (NSG)",
+      "description": "Filter network traffic to and from Azure resources in an Azure virtual network.",
+      "technical_spec": "NSG Rule configurations, Inbound and Outbound Traffic restrictions.",
+      "severity_score": 40
     },
     {
-      "title": "Network Security",
-      "description": "Protecting Microsoft's network infrastructure from unauthorized access and threats.",
-      "technical_spec": "Firewalls, VPNs, Intrusion Detection Systems",
-      "severity_score": 12
+      "title": "DDoS Protection",
+      "description": "Mitigates the risk and impact of DDoS attacks with built-in network defense mechanisms.",
+      "technical_spec": "Azure DDoS Protection, real-time detection and mitigation.",
+      "severity_score": 60
     }
   ]
 }

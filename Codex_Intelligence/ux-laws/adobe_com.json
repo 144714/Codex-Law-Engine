@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 308,
+    "rank": 318,
     "site": "adobe.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "71290c4394ec3d8c1113be1c4b661bb6"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "a5da11648060ba126bc8db137f6f7503"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Adobe’s design minimizes choices to improve user decision speed.",
-      "technical_spec": "Simplified navigation, minimalistic design",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Interface design optimizes button sizes and placements for easy interaction.",
-      "technical_spec": "Responsive design, target-centric interfaces",
-      "severity_score": 20
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Content is chunked to enhance memory retention of information.",
-      "technical_spec": "Data segmentation, use of infographics",
+      "title": "Consistency Heuristic",
+      "description": "Ensures uniformity across design elements and interactions to enhance usability.",
+      "technical_spec": "Design systems, UI frameworks, style guides",
       "severity_score": 25
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Consistent interface design aligning with user expectations.",
-      "technical_spec": "Consistent iconography and terminology",
-      "severity_score": 10
+      "title": "Fitts’s Law Implementation",
+      "description": "Designs interfaces that minimize distance and maximize target size for quicker user actions.",
+      "technical_spec": "Responsive Design, Adaptive Layouts",
+      "severity_score": 20
     },
     {
-      "title": "Law of Proximity",
-      "description": "Visually groups related items to enhance interface navigation.",
-      "technical_spec": "Whitespace usage, proximity-based grouping",
-      "severity_score": 20
+      "title": "Hick’s Law Awareness",
+      "description": "Simplifies user decision-making by limiting the number of presented choices at once.",
+      "technical_spec": "Streamlined menu systems, contextual actions",
+      "severity_score": 30
+    },
+    {
+      "title": "Usability Testing Protocols",
+      "description": "Regular usability testing to assess and enhance user interactions and satisfaction.",
+      "technical_spec": "A/B testing software, user feedback tools",
+      "severity_score": 35
+    },
+    {
+      "title": "Jakob’s Law Compliance",
+      "description": "Designs interfaces based on users' experience with other familiar applications.",
+      "technical_spec": "User Experience Research, Interface Benchmarking",
+      "severity_score": 40
     }
   ]
 }

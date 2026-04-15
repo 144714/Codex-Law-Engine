@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 308,
+    "rank": 318,
     "site": "adobe.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "5c373b0b598009d3b3faae6b3183b38b"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "cbe9273e3898fc5cb55a09c515bb8e3b"
   },
   "data": [
     {
-      "title": "Microservices Structure",
-      "description": "Adobe operates on a microservices architecture, allowing for independent deployment and scaling of services.",
-      "technical_spec": "Docker, Kubernetes, RESTful services",
-      "severity_score": 30
-    },
-    {
-      "title": "Cloud Infrastructure",
-      "description": "Adobe utilizes cloud services for resilient operations and storage.",
-      "technical_spec": "AWS, Azure integration",
-      "severity_score": 25
-    },
-    {
-      "title": "Load Balancing",
-      "description": "The site uses load balancing to ensure uptime and handle traffic peaks.",
-      "technical_spec": "Nginx, HAProxy",
-      "severity_score": 20
-    },
-    {
-      "title": "CDN Utilization",
-      "description": "Content Delivery Network is used to enhance performance and reduce latency.",
-      "technical_spec": "Akamai CDN",
+      "title": "Scalable Microservices",
+      "description": "Adobe's platform uses microservices architecture to allow for independent deployments and service scaling.",
+      "technical_spec": "Kubernetes, Docker, REST APIs",
       "severity_score": 15
     },
     {
-      "title": "Monolithic Legacy Components",
-      "description": "Some legacy systems still remain in a monolithic form.",
-      "technical_spec": "Java EE, .NET",
-      "severity_score": 45
+      "title": "Cloud-Native Infrastructure",
+      "description": "Fully utilizes cloud services to ensure redundancy, availability, and manageability.",
+      "technical_spec": "AWS, Azure, multi-cloud setups",
+      "severity_score": 10
+    },
+    {
+      "title": "Content Delivery Network (CDN) Utilization",
+      "description": "CDN is employed to ensure fast delivery of content across various geographies.",
+      "technical_spec": "Akamai, Cloudflare, edge servers",
+      "severity_score": 20
+    },
+    {
+      "title": "Monolithic to Microservices Transition",
+      "description": "Transitioning from a monolithic architecture to microservices to enhance flexibility and scalability.",
+      "technical_spec": "Service Oriented Architecture, APIs",
+      "severity_score": 30
+    },
+    {
+      "title": "Data-Driven Systems",
+      "description": "Employs data lakes and analytic tools to handle vast amounts of user and system data.",
+      "technical_spec": "Apache Hadoop, Spark, big data frameworks",
+      "severity_score": 25
     }
   ]
 }

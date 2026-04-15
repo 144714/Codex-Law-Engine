@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 302,
+    "rank": 312,
     "site": "youtube.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "5565b0a184c1c18d9eb35590c9e1f10c"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "a3b245bde22491b0f5ed5b9e871455e2"
   },
   "data": [
     {
-      "title": "Multi-Layer Authentication",
-      "description": "Advanced user authentication systems that offer multiple layers of security for accounts.",
-      "technical_spec": "Incorporates OAuth 2.0 and two-factor authentication methods.",
+      "title": "DDoS Protection",
+      "description": "Defense mechanisms to protect against Distributed Denial-of-Service attacks.",
+      "technical_spec": "Uses Google's DDoS protection services like Shielded VMs and Project Shield.",
+      "severity_score": 30
+    },
+    {
+      "title": "Secure Video Streaming",
+      "description": "Security protocols to ensure video and data streams are encrypted.",
+      "technical_spec": "Utilizes HTTPS with forward secrecy and other cryptographic measures.",
       "severity_score": 20
     },
     {
-      "title": "Data Encryption",
-      "description": "Video and user data are encrypted in transit and at rest to prevent unauthorized access.",
-      "technical_spec": "TLS for transport encryption and AES for storage encryption.",
-      "severity_score": 10
+      "title": "User Access Control",
+      "description": "Mechanisms to protect user accounts and sensitive information.",
+      "technical_spec": "Involves two-factor authentication (2FA) and OAuth 2.0 protocols.",
+      "severity_score": 25
     },
     {
-      "title": "DDoS Protection",
-      "description": "Robust distributed denial-of-service attack mitigation to maintain service availability.",
-      "technical_spec": "Uses traffic filtering and anomaly detection techniques to thwart DDoS attacks.",
+      "title": "Content Moderation AI",
+      "description": "Tools for automatic detection and flagging of inappropriate content.",
+      "technical_spec": "Employs machine learning models trained on vast datasets to detect violations.",
       "severity_score": 35
     },
     {
-      "title": "Content Moderation Algorithms",
-      "description": "Automated systems and machine learning algorithms for detecting and removing inappropriate content.",
-      "technical_spec": "AI-driven analysis and community flagging for enforcement.",
+      "title": "Phishing and Malware Detection",
+      "description": "Systems to identify and prevent phishing attempts and malware spread.",
+      "technical_spec": "Utilizes machine learning and threat intelligence feeds to detect malicious activities.",
       "severity_score": 40
-    },
-    {
-      "title": "Secure API Integration",
-      "description": "Allows third-party applications to safely interact with YouTube through secure APIs.",
-      "technical_spec": "API keys and quotas used to control access and usage.",
-      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 302,
+    "rank": 312,
     "site": "youtube.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "d14a3dc9653054d5c7c00893c8006ead"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "6c856c52bc850e5710751ba26f524d31"
   },
   "data": [
     {
-      "title": "Microservices architecture",
-      "description": "YouTube uses a highly modular architecture with multiple services handling various tasks such as video playback, recommendation engine, and user authentication.",
-      "technical_spec": "Services are typically containerized and deployed using Kubernetes.",
-      "severity_score": 20
+      "title": "Microservices Framework",
+      "description": "YouTube's architecture includes a collection of microservices that handle separate functions independently.",
+      "technical_spec": "Built using Google infrastructure components like Borg (container orchestration), Bigtable (data storage), and Colossus (file storage).",
+      "severity_score": 5
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "A global CDN is used to ensure fast video delivery by caching content at edge servers close to users.",
-      "technical_spec": "Integration with popular CDN providers, employing strategies like edge caching.",
+      "description": "A global network of servers that caches video content to deliver it efficiently.",
+      "technical_spec": "Utilizes a combination of Google's own CDN and partnerships with external CDNs for redundancy and speed.",
+      "severity_score": 10
+    },
+    {
+      "title": "Scalable Video Processing",
+      "description": "System for encoding and processing videos to different formats and resolutions.",
+      "technical_spec": "Leverages Google's internal tools like TensorFlow for processing and optimizing video delivery.",
       "severity_score": 15
     },
     {
-      "title": "Data Storage Solutions",
-      "description": "YouTube utilizes systems like Bigtable and Spanner for scalable storage solutions capable of handling vast amounts of video data.",
-      "technical_spec": "Combines both SQL and NoSQL approaches for data throughput and consistency.",
-      "severity_score": 25
+      "title": "NoSQL Database Systems",
+      "description": "Datastore for managing metadata and user information.",
+      "technical_spec": "Primarily uses Google's Bigtable and Spanner for distributed data management.",
+      "severity_score": 20
     },
     {
       "title": "Load Balancing",
-      "description": "Sophisticated load balancing techniques ensure stability and responsiveness, distributing user requests efficiently.",
-      "technical_spec": "Utilizes both hardware and software load balancers to balance incoming traffic across multiple servers.",
-      "severity_score": 30
-    },
-    {
-      "title": "Scalable Video Encoding",
-      "description": "Efficient video encoding processes that allow for scalable uploads and adaptive streaming.",
-      "technical_spec": "Use of codecs like VP9, AV1 to optimize bitrate and quality.",
-      "severity_score": 35
+      "description": "A method to distribute incoming traffic efficiently to servers hosting YouTube services.",
+      "technical_spec": "Integrated with Google's global load balancing infrastructure.",
+      "severity_score": 10
     }
   ]
 }

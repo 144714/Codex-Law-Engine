@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 310,
+    "rank": 320,
     "site": "whatsapp.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "4aaeca2975b9e779b25f87326d4f32dd"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "d3f9d920d41de3d0697272afff1a6296"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "WhatsApp minimizes user options to enhance decision speed.",
-      "technical_spec": "Streamlined UI with essential navigation and action buttons.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Design is optimized for quick access to frequently used functions.",
-      "technical_spec": "Important actions like send and call are large and within reach.",
-      "severity_score": 18
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Related items are grouped together to create a more intuitive interface.",
-      "technical_spec": "Chats, status, and calls are segregated into easily accessible tabs.",
-      "severity_score": 12
+      "title": "Jakob's Law",
+      "description": "Users spend most of their time on other sites, aligning familiar design patterns was critical.",
+      "technical_spec": "Consistent UI components, standard navigation patterns.",
+      "severity_score": 85
     },
     {
       "title": "Miller's Law",
-      "description": "UI design accommodates the user’s ability to process 7±2 items at a time.",
-      "technical_spec": "Limited number of chat options visible without scrolling.",
-      "severity_score": 14
+      "description": "Recognizes the limited ability to process information, ensuring clear and concise communication.",
+      "technical_spec": "Chunked information, minimalistic design approach.",
+      "severity_score": 80
     },
     {
-      "title": "Law of Prägnanz",
-      "description": "WhatsApp uses a clean layout that eases user interaction.",
-      "technical_spec": "Simple design with a focus on core communication functions.",
-      "severity_score": 10
+      "title": "Fitts' Law",
+      "description": "Optimized touch targets for mobile devices to improve usability.",
+      "technical_spec": "Large, easily tappable buttons and controls.",
+      "severity_score": 90
+    },
+    {
+      "title": "Tesler’s Law",
+      "description": "Simplification of learning and execution tasks keeps the user focus intact.",
+      "technical_spec": "Avoidance of unnecessary complexity, intuitive gesture controls.",
+      "severity_score": 88
+    },
+    {
+      "title": "Hick’s Law",
+      "description": "Reduction of choices per screen to streamline decision-making.",
+      "technical_spec": "Simplified menus, curated user paths.",
+      "severity_score": 77
     }
   ]
 }

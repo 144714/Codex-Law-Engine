@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 301,
+    "rank": 311,
     "site": "google.com",
-    "date": "2026-04-15 20:39",
-    "integrity_hash": "20b426915b6f91e2b1f0cc5bfc4d2918"
+    "date": "2026-04-15 21:43",
+    "integrity_hash": "13974ad3268d73cc03692cec5ffd92ba"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "A distributed architecture where each service is self-contained and independently deployable.",
-      "technical_spec": "Uses container orchestration tools like Kubernetes to manage service deployment.",
+      "title": "Load Balancing",
+      "description": "Distributes incoming network traffic across multiple servers to ensure no single server is overwhelmed.",
+      "technical_spec": "Uses hardware or software solutions to manage request flow in real-time.",
       "severity_score": 10
     },
     {
-      "title": "Load Balancing",
-      "description": "Efficient distribution of incoming network traffic across multiple servers.",
-      "technical_spec": "Employs global load balancers with advanced algorithms for traffic management.",
-      "severity_score": 8
+      "title": "Scalable Microservices",
+      "description": "Architecture style that structures the application as a collection of small autonomous services.",
+      "technical_spec": "Individual services that are loosely coupled and can be developed, deployed, and scaled independently.",
+      "severity_score": 5
     },
     {
-      "title": "Caching Systems",
-      "description": "Utilization of edge caching to minimize latency and improve access speeds.",
-      "technical_spec": "Implements CDN services and data caching solutions like Memcached.",
+      "title": "API Gateway",
+      "description": "Acts as a single entry point for all client interactions, routing them to the appropriate services.",
+      "technical_spec": "Manages authentication, routing, rate limiting, and more for APIs.",
       "severity_score": 15
     },
     {
-      "title": "Serverless Computing",
-      "description": "Execution of code without infrastructure management, allowing automatic scaling, and event-driven architecture.",
-      "technical_spec": "Uses Functions as a Service (FaaS) like Google Cloud Functions.",
-      "severity_score": 12
+      "title": "Content Delivery Network (CDN)",
+      "description": "Geographically distributed network of proxy servers that cache content close to end-users.",
+      "technical_spec": "Utilizes edge servers to store copies of content to reduce latency.",
+      "severity_score": 8
     },
     {
-      "title": "Distributed Database Systems",
-      "description": "Stores data across multiple nodes to ensure high availability and resilience.",
-      "technical_spec": "Deploys scalable NoSQL databases such as Bigtable, Spanner.",
-      "severity_score": 9
+      "title": "High Availability Clustering",
+      "description": "Ensures application availability even in the case of server failure.",
+      "technical_spec": "Uses clusters of servers to provide failover support.",
+      "severity_score": 12
     }
   ]
 }
