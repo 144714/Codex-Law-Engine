@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 276,
+    "rank": 286,
     "site": "netflix.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "a9f3dc75f959c2326e80c26a2d5806fa"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "c4df5a332382a3d2dd08d2123d781194"
   },
   "data": [
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Prioritizes an engaging, visually appealing interface to enhance usability perception.",
-      "technical_spec": "Uses sleek design with a dark theme and intuitive navigation.",
-      "severity_score": 10
-    },
-    {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making by displaying limited options at once for user clarity.",
-      "technical_spec": "Reduces cognitive load by categorizing content into easily navigable sections.",
-      "severity_score": 5
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Designs buttons and interactive elements sized to reduce interaction time.",
-      "technical_spec": "Employs large, tappable areas for critical controls on mobile and web interfaces.",
+      "description": "Minimized options to reduce cognitive overload and enhance user decision-making.",
+      "technical_spec": "Simple, streamlined navigation and focused content display.",
       "severity_score": 15
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Positions most popular or recommended content at the beginning and end of lists.",
-      "technical_spec": "Uses algorithms to dynamically adjust content order based on user preferences.",
-      "severity_score": 10
+      "title": "Fitts's Law",
+      "description": "Design that facilitates user interaction by optimizing the distance required to complete tasks.",
+      "technical_spec": "Large call-to-action buttons and intuitive accessibility.",
+      "severity_score": 20
     },
     {
       "title": "Miller's Law",
-      "description": "Limits information chunks to improve memory retention during browsing.",
-      "technical_spec": "Conveys information in bite-sized pieces to avoid overwhelming users.",
-      "severity_score": 20
+      "description": "Chunked information to conform with user memory limits.",
+      "technical_spec": "Categories, genres, and groupings to manage content presentation.",
+      "severity_score": 25
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Leverages user familiarity by using standard interface norms.",
+      "technical_spec": "Adoption of widely recognized symbols and interaction patterns.",
+      "severity_score": 10
+    },
+    {
+      "title": "Law of Prägnanz",
+      "description": "Optimized so users perceive visuals in the simplest form possible.",
+      "technical_spec": "Clean interface design with clear color contrasts and minimalism.",
+      "severity_score": 30
     }
   ]
 }

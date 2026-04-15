@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 279,
+    "rank": 289,
     "site": "instagram.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "98186f6934c5ec4a91b755a1d265051f"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "483b1cf3f742582f5989fa99867fe575"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Instagram utilizes a microservices architecture to ensure scalability and isolated management of features.",
-      "technical_spec": "Docker and Kubernetes are often used to manage and deploy isolated services.",
-      "severity_score": 20
-    },
-    {
-      "title": "Data Infrastructure",
-      "description": "Relies heavily on sharded MySQL databases and Cassandra for data storage and retrieval.",
-      "technical_spec": "MySQL, Cassandra, and Redis are commonly used database technologies.",
-      "severity_score": 40
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Uses a CDN to distribute content effectively around the globe.",
-      "technical_spec": "CDNs like Akamai or Cloudflare improve load times by caching content.",
+      "title": "Application Layer Design",
+      "description": "Instagram's application architecture uses a microservices model to allow scalability and independent feature deployment.",
+      "technical_spec": "Built with Python/Django, updated with React Native for components.",
       "severity_score": 15
     },
     {
-      "title": "GraphQL API",
-      "description": "Provides a GraphQL API for efficient data queries and to minimize over-fetching.",
-      "technical_spec": "GraphQL framework for flexible and rapid data retrieval.",
+      "title": "Data Storage",
+      "description": "Stores user data, multimedia, and interactions.",
+      "technical_spec": "Relies on a combination of PostgreSQL for structured data and Cassandra or Redis for other data types.",
       "severity_score": 30
     },
     {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Utilizes a CDN to deliver media quickly worldwide.",
+      "technical_spec": "CDN services like Akamai or AWS CloudFront employed for global speed optimization.",
+      "severity_score": 10
+    },
+    {
       "title": "Load Balancing",
-      "description": "Ensures high availability and reliability through load balancing techniques.",
-      "technical_spec": "HTTP/S load balancing using NGINX or HAProxy.",
+      "description": "Dynamically distributes incoming service requests across multiple servers.",
+      "technical_spec": "Implemented using HAProxy or other proprietary solutions.",
+      "severity_score": 20
+    },
+    {
+      "title": "Fault Tolerance",
+      "description": "Ensures app availability with minimal downtime.",
+      "technical_spec": "Redundancy through multi-data center configuration.",
       "severity_score": 25
     }
   ]

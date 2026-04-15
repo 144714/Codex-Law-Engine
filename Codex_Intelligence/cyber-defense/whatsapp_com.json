@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 280,
+    "rank": 290,
     "site": "whatsapp.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "52b2a6d0473edd7238b8023db07f4422"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "96398208276d51b38ebedba598613082"
   },
   "data": [
     {
       "title": "Two-Factor Authentication",
-      "description": "Adds an extra layer of security to user accounts.",
-      "technical_spec": "Time-based One-Time Password Algorithm",
-      "severity_score": 20
+      "description": "An additional layer of security for account access.",
+      "technical_spec": "OTP delivery via SMS, authentication apps.",
+      "severity_score": 75
     },
     {
-      "title": "Data Encryption",
-      "description": "All user data is end-to-end encrypted, ensuring confidentiality.",
-      "technical_spec": "RSA-2048 for key exchange",
-      "severity_score": 5
+      "title": "Data Privacy and Compliance",
+      "description": "Strict adherence to privacy regulations and guidelines.",
+      "technical_spec": "GDPR compliance, CCPA adherence.",
+      "severity_score": 90
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular security audits and penetration testing.",
-      "technical_spec": "OWASP guidelines for application security",
-      "severity_score": 15
+      "title": "Malware Protection",
+      "description": "Defensive measures against malware targeting the service.",
+      "technical_spec": "Anomaly detection systems, sandboxing.",
+      "severity_score": 80
     },
     {
-      "title": "Spam Detection Algorithms",
-      "description": "Detects and filters out spam and malicious content.",
-      "technical_spec": "Machine Learning models for spam detection",
-      "severity_score": 30
+      "title": "Incident Response Plan",
+      "description": "Prepared strategies for addressing security breaches.",
+      "technical_spec": "Response team protocols, automated alert systems.",
+      "severity_score": 85
     },
     {
-      "title": "User Privacy Controls",
-      "description": "Allows users to manage their privacy settings and control data sharing.",
-      "technical_spec": "Privacy management user interface",
-      "severity_score": 20
+      "title": "Secure Software Development Lifecycle",
+      "description": "Emphasis on security during software development.",
+      "technical_spec": "Code audits, penetration testing, DevSecOps.",
+      "severity_score": 88
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 274,
+    "rank": 284,
     "site": "microsoft.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "ec296b4429854e613999a65127ede439"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "8a326596af85df30cd74f5cc3a229138"
   },
   "data": [
     {
-      "title": "Intrusion Detection Systems",
-      "description": "Monitors network traffic to identify suspicious activities.",
-      "technical_spec": "Azure Security Center, IDS/IPS",
-      "severity_score": 45
-    },
-    {
-      "title": "Data Encryption",
-      "description": "Encrypts data at rest and in transit to prevent unauthorized access.",
-      "technical_spec": "TLS 1.3, AES-256 encryption",
-      "severity_score": 60
-    },
-    {
-      "title": "Incident Response Plan",
-      "description": "Structured approach to manage and mitigate security incidents.",
-      "technical_spec": "Azure Sentinel, Automated Incident Response",
-      "severity_score": 50
-    },
-    {
-      "title": "Vulnerability Management",
-      "description": "Regularly scans and addresses vulnerabilities in the systems.",
-      "technical_spec": "Azure Defender, Patch Management",
-      "severity_score": 55
+      "title": "Advanced Threat Protection",
+      "description": "Implements sophisticated threat detection algorithms to prevent and respond to cyber threats.",
+      "technical_spec": "Microsoft Defender, AI-Based Analysis, Threat Intelligence",
+      "severity_score": 5
     },
     {
       "title": "Multi-Factor Authentication",
-      "description": "Requires multiple forms of verification to access sensitive data and systems.",
-      "technical_spec": "Azure MFA, FIDO2",
-      "severity_score": 70
+      "description": "Ensures user identity verification through multiple authentication methods.",
+      "technical_spec": "OAuth, Biometrics, Authenticator Apps",
+      "severity_score": 10
+    },
+    {
+      "title": "Network Security",
+      "description": "Deploys strong firewall and intrusion detection systems to safeguard network traffic.",
+      "technical_spec": "Azure Security Center, SIEM, Firewall Rules",
+      "severity_score": 5
+    },
+    {
+      "title": "Data Encryption",
+      "description": "Data is encrypted at rest and in transit to maintain confidentiality and integrity.",
+      "technical_spec": "TLS/SSL, AES-256, Secure Key Management",
+      "severity_score": 5
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regular scans and updates to patch vulnerabilities and enhance security posture.",
+      "technical_spec": "Automated Patching, Vulnerability Scanners, Patch Management Tools",
+      "severity_score": 10
     }
   ]
 }

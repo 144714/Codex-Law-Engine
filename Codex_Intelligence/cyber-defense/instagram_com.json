@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 279,
+    "rank": 289,
     "site": "instagram.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "85c33bf582d4da404a6a7497e7795c3e"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "b7a86db851e6bffa140c6aeed43161df"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Users are encouraged to enable multi-factor authentication to enhance account security.",
-      "technical_spec": "2FA via SMS or Authentication apps.",
-      "severity_score": 10
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "Messages and media are encrypted to protect user privacy.",
-      "technical_spec": "Utilizes TLS for encrypting data in transit.",
-      "severity_score": 35
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular security audits and pen tests to identify and rectify vulnerabilities.",
-      "technical_spec": "Uses automated vulnerability scanners and manual testing.",
-      "severity_score": 25
-    },
-    {
-      "title": "Bug Bounty Program",
-      "description": "Encourages ethical hacking to find security vulnerabilities by offering bounties.",
-      "technical_spec": "Collaborates with platforms like HackerOne for bug reporting.",
+      "title": "Encryption",
+      "description": "Encrypts data in transit and at rest to protect user privacy.",
+      "technical_spec": "TLS for data in transit; AES-256 for data at rest.",
       "severity_score": 20
     },
     {
-      "title": "Rate Limiting",
-      "description": "Prevents abuse and DDoS attacks by implementing strict rate limiting on APIs.",
-      "technical_spec": "API Gateway with rate limiting rules.",
+      "title": "Threat Detection",
+      "description": "Monitors and detects abnormal activities to prevent breaches.",
+      "technical_spec": "ML-driven solutions for anomaly detection; custom threat intelligence systems.",
+      "severity_score": 35
+    },
+    {
+      "title": "User Authentication",
+      "description": "Multifactor authentication to prevent unauthorized access.",
+      "technical_spec": "Support for 2FA using SMS and authentication apps.",
+      "severity_score": 40
+    },
+    {
+      "title": "Data Breach Protocols",
+      "description": "Defined procedures for handling data breaches and user notifications.",
+      "technical_spec": "Incident response teams with automated security alerts.",
       "severity_score": 30
+    },
+    {
+      "title": "API Security",
+      "description": "Secure API endpoints to prevent misuse and data leaks.",
+      "technical_spec": "OAuth 2.0 for secure API requests; rate limiting applied.",
+      "severity_score": 35
     }
   ]
 }

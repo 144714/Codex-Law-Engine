@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 273,
+    "rank": 283,
     "site": "apple.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "b257d3498575ea7e4e6e8111553ff1d7"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "1c6d7313187a551ad780524ebd69d1c8"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Easy navigation by minimizing the number of choices presented at any given time.",
-      "technical_spec": "Streamlined menus, context-aware navigation paths.",
-      "severity_score": 70
+      "title": "Hick’s Law",
+      "description": "Minimizes decision-making time by simplifying choices on the website.",
+      "technical_spec": "Streamlined navigation and menu options for easier user decisions.",
+      "severity_score": 78
     },
     {
       "title": "Fitts’s Law",
-      "description": "Designs for quick accessibility to frequently used controls.",
-      "technical_spec": "Large, easily clickable buttons and touches targets.",
-      "severity_score": 75
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Ensures content is organized into chunks that are easy to digest.",
-      "technical_spec": "Clear headings, listed content, and intuitive groupings.",
+      "description": "Optimizes button sizes and layout for improved accessibility.",
+      "technical_spec": "Large, easily clickable buttons conforming to Fitts's law for action-heavy pages.",
       "severity_score": 80
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Emphasizes pleasing design to make interfaces appear easier to use.",
-      "technical_spec": "Consistent style, coherent color schemes, Apple’s design language.",
-      "severity_score": 90
+      "title": "Gestalt Principles",
+      "description": "Uses principles like proximity, similarity, and closure to enhance visual coherence.",
+      "technical_spec": "Groupings and layout alignments following Gestalt theories to guide user attention.",
+      "severity_score": 85
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Focuses on creating memorable moments within the user journey.",
-      "technical_spec": "Micromoments, seamless transitions, delightful interactions.",
-      "severity_score": 85
+      "title": "Miller’s Law",
+      "description": "Limits chunks of information to enhance information retention.",
+      "technical_spec": "Content is segmented into manageable parts to improve comprehension.",
+      "severity_score": 82
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Prioritizes visual appeal to enhance perceived usability.",
+      "technical_spec": "Sleek design using Apple’s visual language conveying simplicity and elegance.",
+      "severity_score": 88
     }
   ]
 }

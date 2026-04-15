@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 277,
+    "rank": 287,
     "site": "spotify.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "c7e3361226f2127f9e1866b082474300"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "ef316ebd1429be99e0c2246a1eb36d34"
   },
   "data": [
     {
-      "title": "Cultural Influencer",
-      "description": "Spotify is recognized as a pioneer in music streaming, influencing cultural consumption patterns.",
-      "technical_spec": "Global music licensing deals",
-      "severity_score": 5
+      "title": "Personalized Experience",
+      "description": "Emphasizes customizing user interactions through personalized playlists and recommendations.",
+      "technical_spec": "Algorithm-driven personalization based on user data and listening habits.",
+      "severity_score": 93
     },
     {
-      "title": "Innovative Technology",
-      "description": "Known for its cutting-edge technology that personalizes user experiences.",
-      "technical_spec": "Machine learning algorithms for recommendations",
-      "severity_score": 10
+      "title": "Music Discovery and Sharing",
+      "description": "Promotes discovery and social sharing to enhance the music listening experience.",
+      "technical_spec": "Functionalities such as curated playlists and social network integration.",
+      "severity_score": 91
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Focuses heavily on user satisfaction and feedback to drive platform improvements.",
-      "technical_spec": "Regular UX testing and feedback loops",
-      "severity_score": 15
+      "title": "Cross-Platform Accessibility",
+      "description": "Ensures users can access music seamlessly across various devices and platforms.",
+      "technical_spec": "Native applications for mobile, desktop, and web with synchronization features.",
+      "severity_score": 95
     },
     {
-      "title": "Strong Community Engagement",
-      "description": "Cultivates a strong community connection through playlists and social sharing features.",
-      "technical_spec": "Interactive, collaborative playlist features",
-      "severity_score": 20
+      "title": "Artist Support",
+      "description": "Focuses on fair compensation and promotion for artists on the platform.",
+      "technical_spec": "Revenue-sharing models and analytical tools for artists.",
+      "severity_score": 87
     },
     {
-      "title": "Sustainability Initiatives",
-      "description": "Incorporates sustainability into its business practices.",
-      "technical_spec": "Carbon disclosure reports",
-      "severity_score": 25
+      "title": "Global Reach with Local Appeal",
+      "description": "Balances a worldwide presence with localized content and features.",
+      "technical_spec": "Content delivery networks (CDNs) and region-specific playlists.",
+      "severity_score": 90
     }
   ]
 }

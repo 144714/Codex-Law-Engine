@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 280,
+    "rank": 290,
     "site": "whatsapp.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "c8b7c87243c671eff54635ca2b87fa9c"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "c10c3f7494de540c4e912d0757c8864a"
   },
   "data": [
     {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Attractive design influences perception of functionality.",
+      "technical_spec": "Minimalist interface, consistent color schemes.",
+      "severity_score": 70
+    },
+    {
       "title": "Hick's Law",
-      "description": "Simplifies choices to enhance user experience.",
-      "technical_spec": "Minimalistic UI with quick-access menus",
-      "severity_score": 10
+      "description": "Minimizing choices to speed up user decision-making.",
+      "technical_spec": "Minimal menu options, guided user flows.",
+      "severity_score": 75
     },
     {
       "title": "Fitts's Law",
-      "description": "Design focuses on ease of clicking and finger targets on mobile.",
-      "technical_spec": "Optimized touch interface and button sizing",
-      "severity_score": 15
+      "description": "Easy access to frequently used elements.",
+      "technical_spec": "Large buttons for primary actions.",
+      "severity_score": 78
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Focuses on creating a visually organized UI.",
-      "technical_spec": "Consistent layout and typography",
-      "severity_score": 10
+      "title": "Jakob's Law",
+      "description": "Users expect systems to work similarly to others they use.",
+      "technical_spec": "Intuitive navigation, consistent patterns.",
+      "severity_score": 80
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related items to simplify navigation.",
-      "technical_spec": "Smart grouping of chat lists and options",
-      "severity_score": 15
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Prioritizes aesthetic design to enhance perceived usability.",
-      "technical_spec": "Clean and modern interface design",
-      "severity_score": 20
+      "title": "Zeigarnik Effect",
+      "description": "People remember uncompleted tasks better than completed ones.",
+      "technical_spec": "Notifications for pending messages or actions.",
+      "severity_score": 68
     }
   ]
 }

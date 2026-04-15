@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 272,
+    "rank": 282,
     "site": "youtube.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "cf207251341cc43f841b213a512c5f21"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "7e57a10f580dcb024e467294944d7c3a"
   },
   "data": [
     {
-      "title": "User-Generated Content Focus",
-      "description": "Centers the platform around user-generated video content, enabling creativity and self-expression.",
-      "technical_spec": "Upload tools, community engagement features, monetization options for creators.",
-      "severity_score": 30
+      "title": "User-Centric Design",
+      "description": "Prioritizing user needs and experiences in the platform's design.",
+      "technical_spec": "User feedback mechanisms, Regular UX updates",
+      "severity_score": 90
     },
     {
-      "title": "Global Reach",
-      "description": "Expands accessibility and availability to users all around the globe.",
-      "technical_spec": "Multi-language support, region-specific recommendations, scalable infrastructure.",
-      "severity_score": 20
+      "title": "Content Accessibility",
+      "description": "Ensuring content is accessible to a diverse audience.",
+      "technical_spec": "Subtitles, Translations, Support for screen readers",
+      "severity_score": 92
     },
     {
-      "title": "Community and Interaction",
-      "description": "Fosters interaction and community building between users and content creators.",
-      "technical_spec": "Comment sections, live chat during streams, community posts and polls.",
-      "severity_score": 25
+      "title": "Community Engagement",
+      "description": "Tools for user interaction and engagement.",
+      "technical_spec": "Comment sections, Community posts, Live chats",
+      "severity_score": 85
     },
     {
-      "title": "Content Personalization",
-      "description": "Leverages data and algorithms to deliver personalized content to users.",
-      "technical_spec": "Recommendation engine, watch history analysis, user preferences algorithms.",
-      "severity_score": 35
+      "title": "Creator Empowerment",
+      "description": "Providing tools and analytics for content creators.",
+      "technical_spec": "YouTube Studio, Monetization features, Analytics dashboard",
+      "severity_score": 95
     },
     {
-      "title": "Brand Inclusivity",
-      "description": "Encourages diverse voices and content across different channels and creators.",
-      "technical_spec": "Inclusive policy guidelines, diverse creator sponsorships, adaptive platform policies.",
-      "severity_score": 20
+      "title": "Innovative Content Delivery",
+      "description": "Continuous improvements in video content delivery.",
+      "technical_spec": "4K/8K video support, HDR streaming, Offline viewing options",
+      "severity_score": 93
     }
   ]
 }

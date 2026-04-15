@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 280,
+    "rank": 290,
     "site": "whatsapp.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "db65717fe8d879b66d36ca758c49cdf0"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "52df2b95f184d01a48fca7178a45eabd"
   },
   "data": [
     {
-      "title": "User-Centric Design",
-      "description": "The brand is fundamentally aligned with prioritizing user needs and simple communication.",
-      "technical_spec": "Iterative usability tests and feedback loops",
-      "severity_score": 20
-    },
-    {
       "title": "Global Connectivity",
-      "description": "Empowers users around the globe to connect regardless of location.",
-      "technical_spec": "Robust internationalization support",
-      "severity_score": 15
+      "description": "Ease of communication across international borders.",
+      "technical_spec": "Multilingual support, cross-platform availability.",
+      "severity_score": 90
     },
     {
-      "title": "Security & Privacy Commitment",
-      "description": "Consistently communicates a strong emphasis on privacy and security.",
-      "technical_spec": "Marketing materials focused on E2E encryption",
-      "severity_score": 10
+      "title": "Simplicity and Reliability",
+      "description": "Focus on providing a straightforward and dependable service.",
+      "technical_spec": "Robust backend systems, intuitive UI.",
+      "severity_score": 84
     },
     {
-      "title": "Social Innovation",
-      "description": "Encourages societal connection and progress via seamless communication.",
-      "technical_spec": "Support for voice and video calls, and group chats",
-      "severity_score": 20
+      "title": "Free and Cross-Platform",
+      "description": "Access across different devices without any cost.",
+      "technical_spec": "Consistent functionality on Android, iOS, web.",
+      "severity_score": 88
     },
     {
-      "title": "Non-Intrusive Monetization",
-      "description": "Focus on a user-friendly monetization model without advertisements.",
-      "technical_spec": "Subscription services and business API",
-      "severity_score": 25
+      "title": "Security and Privacy",
+      "description": "Strong emphasis on user privacy and secure communication.",
+      "technical_spec": "Encryption-by-default, privacy policies.",
+      "severity_score": 95
+    },
+    {
+      "title": "Community and Engagement",
+      "description": "Building a community through group chats and broadcast lists.",
+      "technical_spec": "Group chat features, broadcast message options.",
+      "severity_score": 85
     }
   ]
 }

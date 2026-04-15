@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 276,
+    "rank": 286,
     "site": "netflix.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "1bb1082b3b895b91fdf86f275b1c84ae"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "b7b05465b8363f9e58d32dbc8559f0f0"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Netflix employs a microservices architecture that allows for independent deployment and scaling of services.",
-      "technical_spec": "Each service is independently deployable and integrates using REST or message queues.",
+      "description": "The site uses a microservices architecture to allow independent deployment and scaling of features.",
+      "technical_spec": "Each service runs a unique process and communicates through a well-defined API, typically using REST or gRPC.",
       "severity_score": 10
     },
     {
-      "title": "Distributed Data Management",
-      "description": "Data is distributed across various global data centers to ensure low latency and high availability.",
-      "technical_spec": "Utilizes NoSQL databases like Cassandra and Dynomite.",
+      "title": "CDN Utilization",
+      "description": "Content Delivery Networks are leveraged to optimize content delivery for better performance and scalability.",
+      "technical_spec": "Akamai, Fastly, and Amazon CloudFront are used to cache content closer to users.",
       "severity_score": 15
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Netflix uses its proprietary CDN, Open Connect, to stream content efficiently worldwide.",
-      "technical_spec": "CDN nodes are strategically located near ISPs to optimize content delivery.",
-      "severity_score": 5
-    },
-    {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "Netflix operates entirely on the cloud using AWS, ensuring scalability and reliability.",
-      "technical_spec": "Utilizes AWS services such as EC2, S3, and DynamoDB.",
-      "severity_score": 10
-    },
-    {
-      "title": "Resilient System Design",
-      "description": "Systems are designed to be fault-tolerant and resilient against server failures.",
-      "technical_spec": "Implements circuit breakers and fallback protocols.",
+      "title": "Cross-Platform Compatibility",
+      "description": "Designed to provide a consistent experience across multiple devices.",
+      "technical_spec": "Responsive design principles implemented using CSS3 and HTML5.",
       "severity_score": 20
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Load balancers distribute network or application traffic across multiple servers.",
+      "technical_spec": "Elastic Load Balancing (ELB) with auto-scaling on AWS to maintain efficient load distribution.",
+      "severity_score": 25
+    },
+    {
+      "title": "Data Pipeline",
+      "description": "Sophisticated pipelines for data aggregation and processing for recommendations and analytics.",
+      "technical_spec": "Apache Kafka and Apache Flink are used for stream processing.",
+      "severity_score": 30
     }
   ]
 }

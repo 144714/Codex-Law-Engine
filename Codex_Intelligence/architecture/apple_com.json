@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 273,
+    "rank": 283,
     "site": "apple.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "5e1b3a9e2c541b8e9c27f8f51ed13fa8"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "febf178f45cea07c88a14e3ebfd30d2f"
   },
   "data": [
     {
-      "title": "Responsive Design",
-      "description": "Ensures that the website layout adapts to various screen sizes and resolutions.",
-      "technical_spec": "CSS3 media queries, flexible grid layout, adaptive images.",
+      "title": "Scalable Cloud Infrastructure",
+      "description": "Apple’s website leverages robust cloud infrastructure to ensure high availability and scalability.",
+      "technical_spec": "Utilizes content delivery networks (CDNs) and cloud services for load balancing and fault tolerance.",
       "severity_score": 85
     },
     {
       "title": "Microservices Architecture",
-      "description": "The site is structured in modular, independent units that can be developed and maintained separately.",
-      "technical_spec": "Docker, Kubernetes, REST APIs.",
-      "severity_score": 90
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Improves site speed and reliability by distributing content across a global network of servers.",
-      "technical_spec": "Akamai or similar CDN services.",
+      "description": "Decoupled components for enhanced flexibility and faster deployment cycles.",
+      "technical_spec": "Employs a microservices approach to isolate different features for independent scaling and updates.",
       "severity_score": 75
     },
     {
-      "title": "Cloud Integration",
-      "description": "Utilizes cloud services for scalability and efficiency in data management.",
-      "technical_spec": "AWS, Google Cloud, or Apple’s own infrastructure.",
+      "title": "Responsive Design Framework",
+      "description": "Responsive web design to ensure compatibility across devices.",
+      "technical_spec": "Built with CSS frameworks like Bootstrap for adaptable layouts and media queries.",
+      "severity_score": 90
+    },
+    {
+      "title": "Server-side Rendering",
+      "description": "Ensures improved SEO and faster load times by rendering pages on the server.",
+      "technical_spec": "Node.js and other SSR technologies to pre-render pages before sending to the client.",
       "severity_score": 80
     },
     {
-      "title": "Progressive Web App (PWA)",
-      "description": "Aims to provide native app-like experiences on the web.",
-      "technical_spec": "Service Workers, Web App Manifest, HTTPS.",
+      "title": "API Integration Layer",
+      "description": "Facilitates seamless interaction with various backend services through APIs.",
+      "technical_spec": "REST and GraphQL APIs to manage data flow between frontend and backend.",
       "severity_score": 70
     }
   ]

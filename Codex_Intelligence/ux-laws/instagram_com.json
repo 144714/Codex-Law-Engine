@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 279,
+    "rank": 289,
     "site": "instagram.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "ab66c36430d3970839c121ed5b0d5cfa"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "72039ed0db7a6fa281d41ea295bdd395"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Simplifies user choices to decrease decision time and enhance navigation.",
-      "technical_spec": "Streamlined interface with limited actions available per screen.",
+      "description": "Minimizes user choice overload by presenting relevant actions.",
+      "technical_spec": "Streamlined menu options and focused features.",
       "severity_score": 15
     },
     {
       "title": "Fitts’s Law",
-      "description": "Ensures that targets (buttons, links) are large and easily tappable.",
-      "technical_spec": "Optimized touch targets for ease of use on touch devices.",
+      "description": "Optimizes touch target sizes for better accessibility and interaction.",
+      "technical_spec": "Adequate padding and easy-to-tap targets particularly in app interfaces.",
+      "severity_score": 10
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Chunking content to enhance the memorability and understanding of information.",
+      "technical_spec": "Feed design that breaks content into digestible pieces.",
+      "severity_score": 20
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Keeps interface familiar by aligning it with expectations from similar platforms.",
+      "technical_spec": "Consistent design patterns and navigational cues similar to other leading apps.",
       "severity_score": 10
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Focuses on visual appeal to create a perception of better usability.",
-      "technical_spec": "Consistent use of Instagram's color palette and typography.",
-      "severity_score": 18
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Design is consistent with patterns from other popular applications like Facebook.",
-      "technical_spec": "Utilization of familiar UI elements like the news feed.",
-      "severity_score": 12
-    },
-    {
-      "title": "Law of Common Region",
-      "description": "Uses borders and containers to group related content.",
-      "technical_spec": "Card-based layout to organize posts, comments, and stories.",
-      "severity_score": 20
+      "description": "Aesthetic design influences perceptions of usability.",
+      "technical_spec": "High-quality visual design and smooth animations.",
+      "severity_score": 25
     }
   ]
 }

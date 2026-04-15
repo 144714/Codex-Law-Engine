@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 273,
+    "rank": 283,
     "site": "apple.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "1207ce412ba58629904b78af71821bba"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "df94a87e794a45af4fb4e1bf7072abae"
   },
   "data": [
     {
-      "title": "Secure Sockets Layer (SSL)",
-      "description": "Protects user data with encrypted connections.",
-      "technical_spec": "TLS 1.3, HTTPS implementation site-wide.",
+      "title": "SSL/TLS Encryption",
+      "description": "Ensures secure data transmission across the network.",
+      "technical_spec": "Implements TLS 1.3 for all web communications to enhance privacy and data integrity.",
       "severity_score": 95
     },
     {
-      "title": "Web Application Firewall (WAF)",
-      "description": "Monitors and blocks possible attacks on web applications.",
-      "technical_spec": "ModSecurity or other advanced WAF solutions.",
+      "title": "WAF Protection",
+      "description": "Web Application Firewall to mitigate threats like SQL injection and XSS attacks.",
+      "technical_spec": "Advanced WAF systems monitor and filter HTTP requests to block malicious traffic.",
       "severity_score": 85
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Safeguards against distributed denial-of-service attacks.",
-      "technical_spec": "Cloudflare or similar anti-DDoS tools.",
-      "severity_score": 90
     },
     {
       "title": "Regular Security Audits",
-      "description": "Consistent checking of systems for vulnerabilities and compliance.",
-      "technical_spec": "Penetration testing, vulnerability scanners (e.g., Nessus, Qualys).",
+      "description": "Frequent security assessments to identify and rectify vulnerabilities.",
+      "technical_spec": "Conducts both automated and manual security audits including penetration testing.",
       "severity_score": 80
     },
     {
-      "title": "User Authentication",
-      "description": "Ensures secure user logins with multi-factor authentication.",
-      "technical_spec": "OAuth 2.0, biometric authentication, 2FA.",
-      "severity_score": 85
+      "title": "DDoS Mitigation",
+      "description": "Protection against Distributed Denial of Service attacks.",
+      "technical_spec": "Employs anti-DDoS services by providers like Akamai to counteract traffic overloads.",
+      "severity_score": 90
+    },
+    {
+      "title": "Endpoint Security",
+      "description": "Secures devices accessing the network to prevent unauthorized access.",
+      "technical_spec": "Utilizes advanced endpoint protection protocols and antivirus solutions.",
+      "severity_score": 75
     }
   ]
 }

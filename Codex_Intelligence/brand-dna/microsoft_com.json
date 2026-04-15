@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 274,
+    "rank": 284,
     "site": "microsoft.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "041d1ade7640d7ea6cafb1c3cae3f351"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "1998802869e86be2efa09596a34dac03"
   },
   "data": [
     {
-      "title": "Innovation Focus",
-      "description": "Microsoft prioritizes perpetual innovation and technological advancements.",
-      "technical_spec": "Cutting-edge R&D, AI Integration",
-      "severity_score": 40
-    },
-    {
-      "title": "User-Centric Design",
-      "description": "Emphasis on designs that cater specifically to diverse user needs.",
-      "technical_spec": "UX Research, User Testing",
+      "title": "Innovation Leader",
+      "description": "Positioned as a leader in technological innovation and cutting-edge solutions.",
+      "technical_spec": "Continuous R&D, Emerging Technologies",
       "severity_score": 30
     },
     {
-      "title": "Global Reach",
-      "description": "Targeting a global audience with localized and adaptable solutions.",
-      "technical_spec": "Localization, Globalization Standards",
-      "severity_score": 35
+      "title": "Customer-Centric Approach",
+      "description": "Focuses on delivering customer value and enhancing user experiences.",
+      "technical_spec": "Feedback Loops, User Research",
+      "severity_score": 20
     },
     {
-      "title": "Environmental Sustainability",
-      "description": "Commitment to sustainability through eco-friendly practices and technologies.",
-      "technical_spec": "Carbon Neutral Initiatives, Cloud Efficiency",
-      "severity_score": 45
+      "title": "Global Brand Presence",
+      "description": "Strong global presence with localized content and solutions.",
+      "technical_spec": "Regional Marketing, Multilingual Support",
+      "severity_score": 15
     },
     {
-      "title": "Trust and Security",
-      "description": "Building trust through robust security measures and transparent practices.",
-      "technical_spec": "Privacy Compliance, Trust Center",
-      "severity_score": 50
+      "title": "Commitment to Sustainability",
+      "description": "Integrated sustainability practices into operations and product offerings.",
+      "technical_spec": "Sustainable Cloud, Eco-Friendly Initiatives",
+      "severity_score": 10
+    },
+    {
+      "title": "Security and Trust",
+      "description": "Brand equity built on a foundation of security, trust, and reliability.",
+      "technical_spec": "ISO Certifications, Compliance Standards",
+      "severity_score": 5
     }
   ]
 }

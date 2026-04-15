@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 271,
+    "rank": 281,
     "site": "google.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "41f82b0967ba657f011ae9539773291e"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "61f56139940ddbb1aca1dda59fd3c7f7"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Continual drive to create cutting-edge technology.",
-      "technical_spec": "Invests heavily in R&D and encourages a culture of innovation.",
-      "severity_score": 10
+      "title": "Innovation at Scale",
+      "description": "Focuses on leveraging technological advancements to drive innovation.",
+      "technical_spec": "R&D, Google X, focus on emerging tech",
+      "severity_score": 2
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focuses on providing the best user experience.",
-      "technical_spec": "Regularly conducts user testing and feedback sessions.",
-      "severity_score": 15
+      "title": "Commitment to Open Source",
+      "description": "Regular contributions and open sourcing of projects to benefit the wider tech community.",
+      "technical_spec": "TensorFlow, Kubernetes, Chromium",
+      "severity_score": 1
     },
     {
-      "title": "Global Accessibility",
-      "description": "Ensures services are accessible worldwide.",
-      "technical_spec": "Multiple language support and adapting to different compliance standards.",
-      "severity_score": 20
+      "title": "Data-Driven Decision Making",
+      "description": "Utilizes data analytics to drive strategic decisions across products and services.",
+      "technical_spec": "BigQuery, Analytics pipeline, A/B testing framework",
+      "severity_score": 6
     },
     {
-      "title": "Data Privacy",
-      "description": "Prioritizes user data protection.",
-      "technical_spec": "Implements strong data encryption and transparency in data policies.",
-      "severity_score": 10
-    },
-    {
-      "title": "Sustainability",
-      "description": "Commits to reducing environmental impact.",
-      "technical_spec": "Initiatives for energy efficiency and reduced carbon footprint in its operations.",
+      "title": "Privacy and Trust",
+      "description": "Emphasizes user privacy and data protection.",
+      "technical_spec": "GDPR compliance, privacy settings, data transparency",
       "severity_score": 5
+    },
+    {
+      "title": "Diversity and Inclusion",
+      "description": "Promotes diversity and inclusion in tech and within the company.",
+      "technical_spec": "Inclusive hiring practices, community outreach programs, diversity metrics",
+      "severity_score": 7
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 277,
+    "rank": 287,
     "site": "spotify.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "91cced77bd2144fd6986938f59e1abee"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "4e57c52d5f2a510064c042672c2651f0"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Reduces user decision time by simplifying choices on the interface.",
-      "technical_spec": "Simplified navigation menus",
-      "severity_score": 15
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Spotify interfaces are designed to align with user expectations from common digital experiences.",
-      "technical_spec": "Consistent user interface patterns",
-      "severity_score": 10
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Enhances user satisfaction through an aesthetically pleasing interface that facilitates usability.",
-      "technical_spec": "Responsive, minimalist design",
-      "severity_score": 20
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Breaks down complex information into chunks to aid user comprehension.",
-      "technical_spec": "Content categorization, playlists",
-      "severity_score": 25
+      "description": "The design minimizes user decision time by simplifying choices and offering intuitive navigation.",
+      "technical_spec": "Optimized UI flow with limited and prioritized options to reduce cognitive load.",
+      "severity_score": 88
     },
     {
       "title": "Fitts's Law",
-      "description": "Ensures ease of access to frequently used functions through optimal button and interface placement.",
-      "technical_spec": "Large clickable areas, optimized button placement",
-      "severity_score": 10
+      "description": "Interactive elements are positioned to facilitate quicker and more accurate interaction.",
+      "technical_spec": "Button sizes and spacings are designed for efficient use on devices.",
+      "severity_score": 85
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Closely positioned items are perceived as related, aiding navigation and information hierarchy.",
+      "technical_spec": "Logical grouping and spacing to enhance user comprehension.",
+      "severity_score": 90
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "An aesthetically pleasing design enhances user satisfaction and perceived usability.",
+      "technical_spec": "Consistent color schemes and visual elements reflect brand aesthetics.",
+      "severity_score": 92
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Design aligns with user expectations based on experiences from other digital platforms.",
+      "technical_spec": "Utilizes familiar interface patterns and user-friendly interactions.",
+      "severity_score": 89
     }
   ]
 }

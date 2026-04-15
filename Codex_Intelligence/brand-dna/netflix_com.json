@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 276,
+    "rank": 286,
     "site": "netflix.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "a1556ab65bd9c8859b1da09b4a2136e5"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "2a578aa65e94612766ab440051b677b7"
   },
   "data": [
     {
-      "title": "Global Storytelling Innovation",
-      "description": "Focuses on pushing boundaries in content creation and delivery to engage worldwide audiences.",
-      "technical_spec": "Offers diverse content catalogs with high production value in multiple languages.",
-      "severity_score": 5
+      "title": "Global Accessibility",
+      "description": "Focus on ensuring content is available worldwide with local adaptations.",
+      "technical_spec": "Support multiple languages and regional content compliance.",
+      "severity_score": 20
     },
     {
-      "title": "Customer-Centric Model",
-      "description": "Places customers at the heart of business decisions, fueling innovations tailored to user needs.",
-      "technical_spec": "Employs data analytics to understand user preferences and enhance personalization.",
-      "severity_score": 10
+      "title": "Innovative Content Delivery",
+      "description": "Leading in delivering diverse original content with technological edge.",
+      "technical_spec": "Investments in production and unique proprietary streaming technology.",
+      "severity_score": 25
     },
     {
-      "title": "Commitment to Original Content",
-      "description": "Invests significantly in producing original series and movies to differentiate its platform.",
-      "technical_spec": "Uses in-house studios and collaborations to create exclusive content offerings.",
+      "title": "User-centric Experience",
+      "description": "Prioritization of personalized recommendation and viewing experiences.",
+      "technical_spec": "Machine learning algorithms personalize content suggestions.",
       "severity_score": 15
     },
     {
-      "title": "Technology-Driven Experience",
-      "description": "Utilizes technology to offer seamless streaming and innovative viewing experiences.",
-      "technical_spec": "Incorporates adaptive streaming technologies for uninterrupted viewing.",
-      "severity_score": 5
+      "title": "Commitment to Original Productions",
+      "description": "Dedication to producing unique, exclusive shows and movies.",
+      "technical_spec": "High-budget investments in original programming and partnerships.",
+      "severity_score": 30
     },
     {
-      "title": "Cultural Phenomenon",
-      "description": "Aims to create content that resonates across different cultures and sparks global conversations.",
-      "technical_spec": "Analyzes cultural trends through big data to guide content creation.",
-      "severity_score": 20
+      "title": "Adaptability and Innovation",
+      "description": "A culture of continual evolution and embracing new technologies.",
+      "technical_spec": "Agility in technology adoption and experimentation in new market segments.",
+      "severity_score": 10
     }
   ]
 }

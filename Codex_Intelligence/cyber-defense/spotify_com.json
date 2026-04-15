@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 277,
+    "rank": 287,
     "site": "spotify.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "5d35969799126bca3268b68b86e6b496"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "25f083869ca89cde25606f13e067b5f3"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Ensures user data is secure through encryption protocols.",
-      "technical_spec": "TLS/SSL Encryption",
-      "severity_score": 10
+      "title": "Secure Authentication",
+      "description": "Spotify employs OAuth 2.0 for secure user authentication and authorization.",
+      "technical_spec": "Utilizes token-based access to protect user data and services.",
+      "severity_score": 95
     },
     {
-      "title": "Data Privacy Compliance",
-      "description": "Abides by regulations to protect user data privacy.",
-      "technical_spec": "GDPR, CCPA compliance",
-      "severity_score": 15
+      "title": "Encryption Protocols",
+      "description": "Strong encryption is applied to protect data in transit and at rest.",
+      "technical_spec": "TLS/SSL for network traffic encryption and AES for data protection.",
+      "severity_score": 98
     },
     {
-      "title": "Incident Detection & Response",
-      "description": "Spotify has protocols in place for swift detection and response to security incidents.",
-      "technical_spec": "SIEM, SOC Operations",
-      "severity_score": 20
+      "title": "Regular Security Audits",
+      "description": "Regular third-party security audits are conducted to identify potential vulnerabilities.",
+      "technical_spec": "Penetration testing and vulnerability scanning are part of routine checks.",
+      "severity_score": 92
     },
     {
-      "title": "Authentication Mechanisms",
-      "description": "Uses multiple authentication mechanisms to safeguard user accounts.",
-      "technical_spec": "OAuth 2.0, Two-Factor Authentication",
-      "severity_score": 25
+      "title": "DDoS Protection",
+      "description": "Infrastructure is fortified against Distributed Denial of Service attacks.",
+      "technical_spec": "Leverage cloud-based DDoS protection services like Cloudflare.",
+      "severity_score": 90
     },
     {
-      "title": "Bug Bounty Program",
-      "description": "Engages with security researchers through a bug bounty program to identify vulnerabilities.",
-      "technical_spec": "HackerOne partnership",
-      "severity_score": 30
+      "title": "Intrusion Detection and Prevention",
+      "description": "Systems are continuously monitored to detect and respond to suspicious activities.",
+      "technical_spec": "AI-driven IDP systems analyze traffic patterns and enforce threat mitigation.",
+      "severity_score": 94
     }
   ]
 }

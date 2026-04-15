@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 273,
+    "rank": 283,
     "site": "apple.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "80be00a7dc99c5a56cca03214d2bbc1e"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "0b6c692c5f8454f597f9093ff834ba5f"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Constant drive to push forward in technology and design, setting market trends.",
-      "technical_spec": "Integration of cutting-edge technology in product designs and presentations.",
-      "severity_score": 95
-    },
-    {
-      "title": "Simplicity",
-      "description": "Streamlined user experiences and minimalist aesthetics.",
-      "technical_spec": "Intuitive interface, minimalistic layouts and content presentation.",
+      "title": "Minimalist Design",
+      "description": "Consistent minimalist aesthetics reflecting Apple's brand philosophy.",
+      "technical_spec": "Clean lines, whitespace, and a focus on essential content across all pages.",
       "severity_score": 90
     },
     {
-      "title": "Quality",
-      "description": "Commitment to high standards in both software and hardware.",
-      "technical_spec": "Robust build quality, seamless software integration, thorough testing.",
-      "severity_score": 97
+      "title": "Innovation-Driven",
+      "description": "Emphasizes cutting-edge technology and innovation in products and web presence.",
+      "technical_spec": "Showcases latest technologies and product features through interactive elements.",
+      "severity_score": 85
     },
     {
-      "title": "Privacy",
-      "description": "Dedication to user privacy and data protection.",
-      "technical_spec": "End-to-end encryption, clear privacy policies, frequent updates.",
-      "severity_score": 92
+      "title": "User-Centric Experience",
+      "description": "Focuses on creating intuitive and smooth user experiences.",
+      "technical_spec": "Highly intuitive interface designed with user feedback and experience in mind.",
+      "severity_score": 95
     },
     {
-      "title": "Exclusivity",
-      "description": "Creating a prestigious and exclusive brand image.",
-      "technical_spec": "Premium product lines, strategic pricing, iconic branding.",
+      "title": "Eco-Friendly Narrative",
+      "description": "Promotes sustainability and eco-friendly practices in design and communication.",
+      "technical_spec": "Content emphasizing Apple’s commitment to sustainability throughout the website.",
+      "severity_score": 80
+    },
+    {
+      "title": "Privacy First",
+      "description": "Communicates a strong stance on user privacy and data protection.",
+      "technical_spec": "Prominent privacy settings and transparent information on data usage.",
       "severity_score": 88
     }
   ]

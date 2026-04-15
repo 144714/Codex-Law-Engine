@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 274,
+    "rank": 284,
     "site": "microsoft.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "1549d10a834366cf1fa5596ca0597902"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "c3116313c17a796692510bf1785d271d"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Reduces decision-making time by presenting limited and prioritized options.",
-      "technical_spec": "Simplified User Interfaces, Decision Trees",
-      "severity_score": 25
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Optimizes interface for speedier navigation and accessibility.",
-      "technical_spec": "Optimized Button Placement, Accessible Click Targets",
-      "severity_score": 25
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Design patterns familiar to the users for improved usability.",
-      "technical_spec": "Consistent Navigation, Standard Control Layouts",
+      "title": "Hick's Law",
+      "description": "Simplifies decision-making by reducing the number of choices presented to the user.",
+      "technical_spec": "Minimalist Design, Intuitive Navigation",
       "severity_score": 20
     },
     {
-      "title": "Miller’s Law",
-      "description": "Chunk information to aid user cognition and prevent overload.",
-      "technical_spec": "Content Chunking, Modular Layout",
-      "severity_score": 30
+      "title": "Fitt's Law",
+      "description": "Design elements are placed strategically to minimize interaction time.",
+      "technical_spec": "Responsive Design, Accessible Touch Targets",
+      "severity_score": 15
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Information is chunked into smaller, manageable units to prevent cognitive overload.",
+      "technical_spec": "Scannable Content, Layered Information",
+      "severity_score": 10
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "An aesthetic design perceived as easier to use.",
-      "technical_spec": "High Fidelity Mockups, Consistent Color Schemes",
-      "severity_score": 20
+      "description": "Focuses on creating visually appealing interfaces that enhance perceived usability.",
+      "technical_spec": "Modern UI Design, Consistent Branding",
+      "severity_score": 15
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Leverages user familiarity by aligning with common web patterns and expectations.",
+      "technical_spec": "Consistent Layouts, Common Interaction Patterns",
+      "severity_score": 5
     }
   ]
 }

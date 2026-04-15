@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 278,
+    "rank": 288,
     "site": "adobe.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "703e8ab5a266b40e48ab435a60982540"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "a0e92c53b46a5ce6d2d11ff0cc98eaea"
   },
   "data": [
     {
-      "title": "Jakob's Law of Internet User Experience",
-      "description": "Users spend most of their time on other sites, so they prefer products that work similarly to those they already know.",
-      "technical_spec": "Emphasis on common design patterns and navigation structures.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "The time required to move to a target depends on the distance to and size of the target.",
-      "technical_spec": "Large interactive elements, crucial for tools and buttons.",
-      "severity_score": 20
-    },
-    {
-      "title": "Hick’s Law",
-      "description": "The more options users are presented with, the longer it will take them to make a decision.",
-      "technical_spec": "Optimized menu structure with clear categorization.",
-      "severity_score": 18
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Users perceive aesthetically pleasing designs as more usable, influencing their interactions.",
-      "technical_spec": "Adobe's strong emphasis on UI/UX aesthetics and functional design.",
+      "title": "Hick's Law",
+      "description": "Simplifies user choices to reduce decision time and enhance experience.",
+      "technical_spec": "Implemented streamlined navigation and choice architecture.",
       "severity_score": 12
     },
     {
-      "title": "Tesler’s Law (Law of Conservation of Complexity)",
-      "description": "Every application has an inherent amount of irreducible complexity; smart designs aim to offload complexity from users.",
-      "technical_spec": "Simplified task flows with automated suggestions.",
-      "severity_score": 25
+      "title": "Fitt's Law",
+      "description": "Design elements are optimized to reduce the time to interact based on size and distance.",
+      "technical_spec": "Adjusted UI element sizes and spacing for optimal reachability.",
+      "severity_score": 22
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Limits chunking of information to improve user understanding and retention.",
+      "technical_spec": "Content divided into manageable sections with clear headers.",
+      "severity_score": 8
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Designs intuitive interfaces based on familiar conventions from other web experiences.",
+      "technical_spec": "Adopts common UI patterns and design heuristics.",
+      "severity_score": 16
+    },
+    {
+      "title": "Law of Prägnanz",
+      "description": "Encourages interface simplicity and visual clarity to aid in perception.",
+      "technical_spec": "Ensures consistent use of whitespace and minimalistic design principles.",
+      "severity_score": 10
     }
   ]
 }

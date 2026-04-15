@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 278,
+    "rank": 288,
     "site": "adobe.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "a2ceda7bc50cc5b50fea14ba5ce427eb"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "136bd6030cf546addd9c3b445c2a6890"
   },
   "data": [
     {
       "title": "Advanced Threat Detection",
-      "description": "Adobe employs modern tools for real-time monitoring and detection of potential threats.",
-      "technical_spec": "Utilizes machine learning and AI through tools like Splunk and CrowdStrike.",
-      "severity_score": 40
+      "description": "Systems equipped with AI-driven threat detection to identify and mitigate potential risks.",
+      "technical_spec": "Incorporates advanced SIEM solutions.",
+      "severity_score": 25
     },
     {
-      "title": "Robust Data Encryption",
-      "description": "All user data and communications are encrypted both at rest and in transit.",
-      "technical_spec": "AES-256 encryption standard and SSL/TLS protocols.",
+      "title": "Secure Data Encryption",
+      "description": "Encrypts data at rest and during transmission to protect sensitive information.",
+      "technical_spec": "Uses AES-256 encryption protocols.",
+      "severity_score": 30
+    },
+    {
+      "title": "Comprehensive Security Audits",
+      "description": "Regular security audits and penetration testing to identify vulnerabilities.",
+      "technical_spec": "Third-party security firms conducted annually.",
       "severity_score": 35
     },
     {
-      "title": "Dedicated Security Operations Center",
-      "description": "24/7 monitoring and incident response to manage and mitigate security risks effectively.",
-      "technical_spec": "SIEM systems and incident response protocols.",
-      "severity_score": 45
+      "title": "Access Management",
+      "description": "Strict identity verification and access controls to limit unauthorized access.",
+      "technical_spec": "Implements SSO and MFA for user authentication.",
+      "severity_score": 20
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Frequent security assessments and penetration testing to identify vulnerabilities.",
-      "technical_spec": "Third-party audits and internal security teams.",
-      "severity_score": 38
-    },
-    {
-      "title": "Comprehensive End-User Authentication",
-      "description": "Multi-factor authentication (MFA) is mandatory for all account holders.",
-      "technical_spec": "Supports authentication apps, SMS codes, and hardware tokens.",
-      "severity_score": 42
+      "title": "Incident Response Procedures",
+      "description": "Established protocols for responding to security incidents and breaches.",
+      "technical_spec": "Incident response team active 24/7 with defined escalation procedures.",
+      "severity_score": 18
     }
   ]
 }

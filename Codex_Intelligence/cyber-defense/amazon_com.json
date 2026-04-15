@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 275,
+    "rank": 285,
     "site": "amazon.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "a5b98dc999cbcdda8c7622ed15d3b453"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "6cc117ab6387a8275496cac1f9cfc871"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "All data is transferred between end-users and the site using HTTPS, with TLS ensuring secure transactions.",
-      "technical_spec": "TLS 1.2/1.3 is used to encrypt data in transit, protecting user credentials and sensitive information.",
-      "severity_score": 5
-    },
-    {
-      "title": "Advanced Threat Detection",
-      "description": "Employs machine learning algorithms to detect and mitigate potential threats in real time.",
-      "technical_spec": "Utilizes AWS GuardDuty to identify malicious activity and unauthorized behavior.",
-      "severity_score": 15
-    },
-    {
-      "title": "Secure Access Controls",
-      "description": "Uses strict access protocols and IAM policies to limit and control access internally and externally.",
-      "technical_spec": "Implement identity-based, fine-grained access permissions via AWS IAM.",
+      "title": "DDoS Protection",
+      "description": "Amazon uses advanced DDoS protection mechanisms to guard against large-scale attacks.",
+      "technical_spec": "AWS Shield, AWS WAF",
       "severity_score": 10
     },
     {
-      "title": "DDoS Protection",
-      "description": "Defenses in place to prevent Distributed Denial of Service attacks from impacting service availability.",
-      "technical_spec": "AWS Shield and Web Application Firewall (WAF) used to mitigate such attacks.",
+      "title": "Data Encryption",
+      "description": "Implements robust encryption for data at rest and in transit.",
+      "technical_spec": "AES-256, TLS 1.3",
+      "severity_score": 15
+    },
+    {
+      "title": "Identity and Access Management",
+      "description": "A comprehensive IAM system to monitor and control access across all resources.",
+      "technical_spec": "AWS IAM, MFA, Role-based access control",
       "severity_score": 20
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Frequent security audits and penetration tests to identify vulnerabilities.",
-      "technical_spec": "Automated scans combined with manual reviews by cybersecurity experts.",
+      "title": "Threat Intelligence",
+      "description": "Amazon collects and analyzes threat intelligence data to proactively prevent security incidents.",
+      "technical_spec": "AWS GuardDuty, AI/ML threat detection",
       "severity_score": 25
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regular vulnerability assessments and patch management protocols are in place.",
+      "technical_spec": "AWS Inspector, automated patch management",
+      "severity_score": 30
     }
   ]
 }

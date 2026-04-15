@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 278,
+    "rank": 288,
     "site": "adobe.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "3b759b90c7338a2a7d418facf6321e98"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "3e8912c7692aed2fe428139f195e02fe"
   },
   "data": [
     {
-      "title": "Creativity and Innovation",
-      "description": "Adobe is synonymous with creativity, providing world-class tools for digital content creation.",
-      "technical_spec": "AI and ML infused tools such as Adobe Sensei to enhance creative processes.",
+      "title": "Creative Empowerment",
+      "description": "Focuses on providing tools and services that empower creativity and innovation.",
+      "technical_spec": "Suite of software solutions like Photoshop and Illustrator.",
       "severity_score": 15
     },
     {
-      "title": "Customer-centric Development",
-      "description": "Adobe prioritizes user feedback in its product iterations, ensuring solutions meet market demands.",
-      "technical_spec": "Continuous user testing and beta programs.",
-      "severity_score": 18
+      "title": "Global Consistency",
+      "description": "Maintains a consistent brand image and messaging across international markets.",
+      "technical_spec": "Universal branding guidelines and localized content strategy.",
+      "severity_score": 12
     },
     {
-      "title": "Global Accessibility",
-      "description": "Committed to making products accessible to users around the world, adhering to global standards.",
-      "technical_spec": "Compliance with WCAG 2.1 and regular updates for accessibility features.",
+      "title": "Innovation Leadership",
+      "description": "Positioned as a leader in digital media and marketing innovation.",
+      "technical_spec": "Investment in R&D and strategic acquisitions.",
       "severity_score": 20
     },
     {
-      "title": "Sustainability and Responsibility",
-      "description": "Adobe focuses on sustainable practices and corporate responsibility in its operations and initiatives.",
-      "technical_spec": "Environmentally-friendly business practices and community outreach programs.",
+      "title": "Commitment to User Experience",
+      "description": "Prioritizes user-centered design principles in product development.",
+      "technical_spec": "User feedback loops and iterative design processes.",
       "severity_score": 10
     },
     {
-      "title": "Integration and Interoperability",
-      "description": "Adobe products are designed to integrate seamlessly with third-party tools, ensuring a fluid user experience.",
-      "technical_spec": "Open API frameworks and cloud storage synchronization.",
-      "severity_score": 22
+      "title": "Sustainability Initiatives",
+      "description": "Incorporates sustainable practices into operations and product lifecycle.",
+      "technical_spec": "Adopts eco-friendly policies and sustainable sourcing.",
+      "severity_score": 18
     }
   ]
 }

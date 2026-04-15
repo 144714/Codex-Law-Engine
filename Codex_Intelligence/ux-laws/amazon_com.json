@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 275,
+    "rank": 285,
     "site": "amazon.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "0a17a6a6a26616b5fab437a3e6750e17"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "7815b127f633456317bb968dd29f1b60"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "The design optimizes the target size and distance for frequently used interactions, like buying options.",
-      "technical_spec": "UI components are easily clickable, reducing the user's movement time across the interface.",
+      "title": "Hick's Law",
+      "description": "Simplifies user choices to reduce decision-making time and cognitive load.",
+      "technical_spec": "Personalized navigation, search suggestions",
       "severity_score": 10
     },
     {
-      "title": "Hick's Law",
-      "description": "Minimizes choice overload by categorizing products into clearly defined groups.",
-      "technical_spec": "Efficient taxonomy and search functionality quicken decision-making processes.",
+      "title": "Fitts's Law",
+      "description": "Ensures interactive elements are large enough and reachable based on expected usage.",
+      "technical_spec": "Responsive design, prioritization of primary action buttons",
       "severity_score": 15
     },
     {
-      "title": "Miller's Law",
-      "description": "User information is chunked into digestible parts to enhance cognitive processing.",
-      "technical_spec": "Simplified content layouts with adequate whitespace and logical grouping.",
-      "severity_score": 12
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "The platform's interface meets user expectations by mirroring other successful e-commerce interfaces.",
-      "technical_spec": "Standard conventions like navigation bars, shopping carts, and search bars located where users expect them.",
-      "severity_score": 8
-    },
-    {
-      "title": "Tesler's Law",
-      "description": "Complex processes are hidden from users, presenting a simple interface for the shopping experience.",
-      "technical_spec": "Automation of repetitive tasks and smart suggestions reduce user effort.",
+      "title": "Pareto Principle",
+      "description": "Focuses on the vital few features that bring the most value to users.",
+      "technical_spec": "Customer feedback loops, A/B testing",
       "severity_score": 20
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Features an aesthetically pleasing interface to enhance perceived usability.",
+      "technical_spec": "High-quality images, intuitive design patterns",
+      "severity_score": 25
+    },
+    {
+      "title": "Zeigarnik Effect",
+      "description": "Encourages user engagement by using incomplete elements to entice further interaction.",
+      "technical_spec": "Progressive form filling, game-like prompts",
+      "severity_score": 30
     }
   ]
 }

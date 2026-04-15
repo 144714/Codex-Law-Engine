@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 271,
+    "rank": 281,
     "site": "google.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "38bc495d318f938346242cea01c5478c"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "5ba3047e45d3a0ab6f1780f3c174c115"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "The time to acquire a target is a function of the distance to and size of the target.",
-      "technical_spec": "UI elements are designed considering size for ease of access.",
-      "severity_score": 30
+      "title": "Consistency and Standards",
+      "description": "Maintains a consistent design language across all Google services.",
+      "technical_spec": "Material Design, UX/UI best practices",
+      "severity_score": 7
     },
     {
-      "title": "Hick's Law",
-      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Simplifies navigation paths to reduce cognitive load.",
-      "severity_score": 25
+      "title": "Visibility of System Status",
+      "description": "Ensures that users are informed of system status to enhance trust and reliability.",
+      "technical_spec": "Loading indicators, error messages, real-time updates",
+      "severity_score": 5
     },
     {
-      "title": "Miller's Law",
-      "description": "Average person can keep only 7 (plus or minus 2) items in their working memory.",
-      "technical_spec": "Limits the amount of information presented at once.",
-      "severity_score": 20
+      "title": "User Control and Freedom",
+      "description": "Empowers users to easily navigate and control their interactions with Google services.",
+      "technical_spec": "UNDO options, settings customization, clear navigation",
+      "severity_score": 6
     },
     {
-      "title": "Law of Proximity",
-      "description": "Objects near each other appear to form groups.",
-      "technical_spec": "Aligns related content closely to create logical groupings.",
-      "severity_score": 15
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Users expect your site to work similarly to other sites.",
-      "technical_spec": "Adheres to common web conventions to avoid user confusion.",
+      "title": "Recognizing Needs and Preferences",
+      "description": "Identifies user needs through behavioral data analysis to personalize experiences.",
+      "technical_spec": "Machine learning, user consent-driven preferences, adaptive algorithms",
       "severity_score": 10
+    },
+    {
+      "title": "Error Prevention",
+      "description": "Designs interfaces to prevent errors before they occur.",
+      "technical_spec": "Form validations, contextual hints, confirmation dialogs",
+      "severity_score": 4
     }
   ]
 }

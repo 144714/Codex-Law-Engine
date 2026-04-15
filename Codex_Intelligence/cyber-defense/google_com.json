@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 271,
+    "rank": 281,
     "site": "google.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "6426f612994e043fdd018c98c500be8e"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "a324e4fdcebe3b18e1370dd7bccd6633"
   },
   "data": [
     {
-      "title": "DDoS Protection",
-      "description": "Protects against distributed denial-of-service attacks.",
-      "technical_spec": "Advanced algorithms and server redundancy are used to mitigate attacks.",
-      "severity_score": 5
+      "title": "Encryption",
+      "description": "Data at rest and in transit are encrypted using industry-standard protocols.",
+      "technical_spec": "TLS, AES-256, Perfect Forward Secrecy (PFS)",
+      "severity_score": 3
     },
     {
-      "title": "Security Patching",
-      "description": "Regular updates are applied to protect against vulnerabilities.",
-      "technical_spec": "Automated patch management with immediate response to CVE alerts.",
-      "severity_score": 15
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "Secures data transmission to/from servers.",
-      "technical_spec": "Uses TLS for data encryption to ensure privacy and integrity.",
-      "severity_score": 5
-    },
-    {
-      "title": "Intrusion Detection System (IDS)",
-      "description": "Monitors the network for suspicious activities.",
-      "technical_spec": "Uses machine learning algorithms to detect and respond to anomalies.",
+      "title": "Account Protection",
+      "description": "Advanced security features to protect user accounts from unauthorized access.",
+      "technical_spec": "2-Step Verification, Security Key, OAuth 2.0",
       "severity_score": 10
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Adds an extra layer of security to user accounts.",
-      "technical_spec": "Supports various 2FA options including SMS and authenticator apps.",
+      "title": "Threat Detection and Response",
+      "description": "Proactive monitoring and threat analysis to detect and respond to potential security incidents.",
+      "technical_spec": "Machine learning algorithms, anomaly detection, SIEM tools",
       "severity_score": 15
+    },
+    {
+      "title": "Security Audits and Penetration Testing",
+      "description": "Regular security audits and penetration testing to identify vulnerabilities.",
+      "technical_spec": "Third-party audits, OWASP guidelines, internal red team exercises",
+      "severity_score": 20
+    },
+    {
+      "title": "Advanced DDoS Mitigation",
+      "description": "Protection against distributed denial-of-service attacks.",
+      "technical_spec": "Anycast network, dynamic resource scaling, attack traffic filtering",
+      "severity_score": 12
     }
   ]
 }

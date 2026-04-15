@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 271,
+    "rank": 281,
     "site": "google.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "3c8716a3b70753b8a4cbaddd2078573a"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "b7961f073be682843c394d1a7f338b5f"
   },
   "data": [
     {
-      "title": "Load Balancing",
-      "description": "Distributes incoming network traffic across multiple servers.",
-      "technical_spec": "Uses DNS-based load balancing with a combination of regional server distribution.",
-      "severity_score": 5
-    },
-    {
-      "title": "Microservices",
-      "description": "Utilizes microservices architecture to improve scalability and resilience.",
-      "technical_spec": "All services are independently deployable and managed within containers.",
+      "title": "Distributed Systems Design",
+      "description": "Google's architecture utilizes a distributed system design to manage its vast network of data centers worldwide.",
+      "technical_spec": "Load balancing, replication, fault-tolerance",
       "severity_score": 10
     },
     {
-      "title": "Data Centers",
-      "description": "Operates globally distributed data centers for redundancy and availability.",
-      "technical_spec": "Located in key global locations with fiber optic connectivity.",
-      "severity_score": 10
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Accelerates the delivery of content using geographically distributed servers.",
-      "technical_spec": "Utilizes a global CDN to cache static content closer to users.",
+      "title": "Microservices Architecture",
+      "description": "Google uses a microservices approach to scale and manage its services efficiently.",
+      "technical_spec": "Kubernetes, Istio, container orchestration",
       "severity_score": 15
     },
     {
-      "title": "Serverless Computing",
-      "description": "Runs backend code without managing server infrastructures.",
-      "technical_spec": "Relies on cloud functions and managed services for certain backend operations.",
-      "severity_score": 20
+      "title": "Global CDN",
+      "description": "Content delivery network to ensure fast load times and low latency by caching content globally.",
+      "technical_spec": "Edge servers, HTTP/2, QUIC protocol",
+      "severity_score": 8
+    },
+    {
+      "title": "High Availability Infrastructure",
+      "description": "Ensures that Google services are resilient and available 24/7 with minimal downtime.",
+      "technical_spec": "Redundancy, failover mechanisms, geo-diverse data centers",
+      "severity_score": 5
+    },
+    {
+      "title": "Scalable Storage Solutions",
+      "description": "Uses proprietary databases like Bigtable and Spanner for scalable and distributed storage.",
+      "technical_spec": "NoSQL databases, SQL layer on key-value stores, consistency models",
+      "severity_score": 12
     }
   ]
 }

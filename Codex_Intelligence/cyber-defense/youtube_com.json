@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 272,
+    "rank": 282,
     "site": "youtube.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "89ec9de01c3c454bf35a98ddcca891fe"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "e3bd47edc88b736f73068bf9a79e42df"
   },
   "data": [
     {
+      "title": "Authentication and Authorization",
+      "description": "Robust authentication systems to manage user access.",
+      "technical_spec": "OAuth 2.0, OpenID Connect",
+      "severity_score": 92
+    },
+    {
+      "title": "Encryption Protocols",
+      "description": "Encryption standards employed to protect user data.",
+      "technical_spec": "TLS for data in transit, AES for data at rest",
+      "severity_score": 95
+    },
+    {
       "title": "DDoS Protection",
-      "description": "Implements measures to protect against distributed denial-of-service attacks.",
-      "technical_spec": "Anycast network configuration, anomaly detection, bandwidth over-provisioning.",
-      "severity_score": 30
+      "description": "Mechanisms to mitigate Distributed Denial of Service attacks.",
+      "technical_spec": "Traffic analysis, Rate limiting, Global traffic load balancing",
+      "severity_score": 90
     },
     {
-      "title": "User Account Security",
-      "description": "Enforces security measures to protect user accounts from unauthorized access.",
-      "technical_spec": "Two-factor authentication, OAuth tokens, reCAPTCHA verification.",
-      "severity_score": 40
-    },
-    {
-      "title": "Content Moderation Systems",
-      "description": "Employs automated and manual review processes to ensure content abides by community guidelines.",
-      "technical_spec": "AI moderation tools, human reviewers, policy enforcement algorithms.",
-      "severity_score": 35
-    },
-    {
-      "title": "Data Encryption",
-      "description": "Ensures data privacy and security through encryption protocols both in transit and at rest.",
-      "technical_spec": "TLS/SSL for data transmission, AES-256 encryption for stored data.",
-      "severity_score": 25
+      "title": "Content Filtering",
+      "description": "Systems in place to filter harmful or non-compliant content.",
+      "technical_spec": "Machine Learning, Automated flagging systems",
+      "severity_score": 88
     },
     {
       "title": "Vulnerability Management",
-      "description": "Identifies and addresses potential security vulnerabilities within the platform.",
-      "technical_spec": "Regular security audits, penetration testing, automated patch management.",
-      "severity_score": 45
+      "description": "Processes to identify and patch system vulnerabilities.",
+      "technical_spec": "Regular security audits, Penetration testing",
+      "severity_score": 93
     }
   ]
 }

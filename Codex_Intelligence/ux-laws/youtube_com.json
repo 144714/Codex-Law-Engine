@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 272,
+    "rank": 282,
     "site": "youtube.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "24f000ebe71f918ac49558d6751f917b"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "1007cb097a72f53ffc412b0ffd2754ea"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies choices to reduce decision time and enhance user experience.",
-      "technical_spec": "Streamlined interface, category-based menus, personalized recommendations.",
-      "severity_score": 15
+      "title": "Hick’s Law",
+      "description": "Minimizing decision-making time by reducing the number of options.",
+      "technical_spec": "Clean design, Clear CTAs",
+      "severity_score": 85
     },
     {
-      "title": "Fitts's Law",
-      "description": "Designs interactive elements for ease of use based on size and distance.",
-      "technical_spec": "Large clickable buttons, intuitive layout structure, touch-friendly designs.",
-      "severity_score": 20
+      "title": "Fitts’s Law",
+      "description": "Optimized clickable elements for ease of access.",
+      "technical_spec": "Larger targets, Intuitive placement of icons",
+      "severity_score": 90
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related items close to one another to create logical connections and improve navigation.",
-      "technical_spec": "Video thumbnails and titles, grouped playlists, consistent layout patterns.",
-      "severity_score": 10
+      "title": "Aesthetic-Usability Effect",
+      "description": "Aesthetic design assumed to be user-friendly.",
+      "technical_spec": "Consistent layout, Visual hierarchy",
+      "severity_score": 80
     },
     {
-      "title": "Law of Similarity",
-      "description": "Uses visual similarities to denote relationships among elements.",
-      "technical_spec": "Consistent color schemes for related content, uniform icons for actions, unified style guides.",
-      "severity_score": 15
+      "title": "Pareto Principle",
+      "description": "Focusing on the vital features most users engage with.",
+      "technical_spec": "Popular content recommendations, Simplified navigation",
+      "severity_score": 88
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Capitalizes on the tendency to better recall items at the beginning and end of a list.",
-      "technical_spec": "Highlighted beginning and end content sections, suggested videos carousel, prioritized viewing history placement.",
-      "severity_score": 10
+      "title": "Zeigarnik Effect",
+      "description": "The inclination to remember uncompleted or interrupted tasks.",
+      "technical_spec": "Watch later lists, Recommendations based on unfinished content",
+      "severity_score": 87
     }
   ]
 }

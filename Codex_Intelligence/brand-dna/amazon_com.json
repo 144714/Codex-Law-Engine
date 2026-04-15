@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 275,
+    "rank": 285,
     "site": "amazon.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "c73754f38f470e7e9fcbc427a0a61296"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "1b99efe545f0f37d08625654cb070fc1"
   },
   "data": [
     {
-      "title": "Customer-Centric Approach",
-      "description": "Amazon’s brand is rooted in a customer-first philosophy, ensuring satisfaction and loyalty.",
-      "technical_spec": "24/7 customer service, adaptive interfaces, user reviews, and comprehensive help resources.",
-      "severity_score": 5
-    },
-    {
-      "title": "Innovation Culture",
-      "description": "Constantly evolving with new technologies and features, the company challenges traditional retail methods.",
-      "technical_spec": "Programs like Amazon Prime, AWS innovations, and Alexa integration show technological leadership.",
+      "title": "Customer Obsession",
+      "description": "Amazon's brand is built on a relentless focus on customer satisfaction and feedback.",
+      "technical_spec": "Customer service excellence, feedback loops, adaptive changes",
       "severity_score": 10
     },
     {
-      "title": "Global Reach",
-      "description": "Amazon’s operations span across the globe, providing localized services to meet regional needs.",
-      "technical_spec": "Localized versions of the site, multiple language options, and regional support centers.",
-      "severity_score": 12
-    },
-    {
-      "title": "Trustworthy Brand",
-      "description": "Known for reliable delivery service, quality assurance, and secure transactions.",
-      "technical_spec": "A-to-Z guarantee, secure payment gateways, and verified reviews build consumer trust.",
-      "severity_score": 8
-    },
-    {
-      "title": "Subscription Ecosystem",
-      "description": "Offers an expansive subscription model through services like Prime for enhanced customer value.",
-      "technical_spec": "Subscription benefits including free shipping, streaming services, and exclusive deals.",
+      "title": "Operational Excellence",
+      "description": "The brand prioritizes operational efficiency and innovation heavily.",
+      "technical_spec": "Continuous improvement processes, Six Sigma methodologies",
       "severity_score": 15
+    },
+    {
+      "title": "Innovation in Technology",
+      "description": "Embraces cutting-edge technology and innovation at the core of its growth strategy.",
+      "technical_spec": "R&D investment, adoption of AI/ML solutions",
+      "severity_score": 20
+    },
+    {
+      "title": "Global Reach",
+      "description": "Aims to serve global customers with localized service and inventory management.",
+      "technical_spec": "Localization strategies, diverse product offerings",
+      "severity_score": 25
+    },
+    {
+      "title": "Sustainability Initiatives",
+      "description": "Commitment to environmental sustainability and responsible commerce.",
+      "technical_spec": "Carbon-neutral ambitions, sustainable packaging",
+      "severity_score": 30
     }
   ]
 }

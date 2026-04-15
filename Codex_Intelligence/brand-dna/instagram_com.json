@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 279,
+    "rank": 289,
     "site": "instagram.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "72cb4d442376c20c19fc7bf2991d9e54"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "7f57dbc6d1b8414b3e54ab85e0c6316e"
   },
   "data": [
     {
-      "title": "Visual Storytelling",
-      "description": "Promotes visual content as the primary mode of storytelling and engagement.",
-      "technical_spec": "Features like Stories, Reels, and IGTV focus on visual content.",
-      "severity_score": 30
+      "title": "Visual Identity",
+      "description": "Consistent use of color and imagery that aligns with brand identity.",
+      "technical_spec": "Influenced by vibrant color palettes; simplistic logo design.",
+      "severity_score": 5
     },
     {
       "title": "Community Building",
-      "description": "Fosters a sense of community among users through features like comments, hashtags, and live interactions.",
-      "technical_spec": "Algorithm-driven content recommendations and user connection suggestions.",
-      "severity_score": 25
+      "description": "Focuses on user-generated content and interaction.",
+      "technical_spec": "Features like Stories, IGTV, and Reels enhance community connectivity.",
+      "severity_score": 10
     },
     {
-      "title": "Innovation",
-      "description": "Continuously innovates with new features to keep user engagement high.",
-      "technical_spec": "Regular updates incorporating AR, shopping, and integrated partner APIs.",
-      "severity_score": 40
-    },
-    {
-      "title": "Inclusivity",
-      "description": "Efforts to include diverse user demographics through accessibility features.",
-      "technical_spec": "Options for image alt text, captions, and customization settings.",
+      "title": "Influencer Ecosystem",
+      "description": "Facilitates influencer-brand partnerships through tools and analytics.",
+      "technical_spec": "Robust insights dashboard for user engagement tracking.",
       "severity_score": 15
     },
     {
-      "title": "Influencer Marketing",
-      "description": "Central to brand strategy, leveraging influencer collaborations for increased reach.",
-      "technical_spec": "Tools for influencer analytics and partnership programs.",
-      "severity_score": 28
+      "title": "Innovation and Evolution",
+      "description": "Constantly evolving platform reflecting user trends and technology.",
+      "technical_spec": "Regular feature updates and new tool integrations.",
+      "severity_score": 15
+    },
+    {
+      "title": "Seamless Commerce Integration",
+      "description": "Supports in-app shopping features to boost e-commerce.",
+      "technical_spec": "Integrated shopping tags and checkout experiences.",
+      "severity_score": 20
     }
   ]
 }

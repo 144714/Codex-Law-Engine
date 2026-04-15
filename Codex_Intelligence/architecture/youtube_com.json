@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 272,
+    "rank": 282,
     "site": "youtube.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "686a62dd16e852cc0b930e575d0111f8"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "e9fd37a57106853111d6f134b2add29b"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "YouTube's backend is built using a microservices architecture to handle large-scale data and video processing.",
-      "technical_spec": "Decoupled services with RESTful APIs, containerized deployments using Kubernetes.",
-      "severity_score": 20
+      "description": "YouTube uses a microservices architecture to handle various functionalities independently.",
+      "technical_spec": "Containers, Kubernetes, Service meshes",
+      "severity_score": 85
+    },
+    {
+      "title": "Cloud Infrastructure",
+      "description": "YouTube uses cloud infrastructure to scale its services globally.",
+      "technical_spec": "Google Cloud Platform, Load Balancers, CDN",
+      "severity_score": 90
     },
     {
       "title": "Distributed Databases",
-      "description": "Utilizes distributed databases to manage massive scale of data and ensure reliability and availability.",
-      "technical_spec": "Google Spanner and Bigtable for storage, sharding and replication strategies.",
-      "severity_score": 20
+      "description": "YouTube uses distributed databases to manage massive data efficiently.",
+      "technical_spec": "Bigtable, Spanner",
+      "severity_score": 80
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Uses a global CDN to deliver video content quickly and efficiently to users around the world.",
-      "technical_spec": "Edge caching, regional data centers, adaptive bitrate streaming.",
-      "severity_score": 15
+      "title": "Video Streaming Protocols",
+      "description": "Protocols designed for high-efficiency video streaming.",
+      "technical_spec": "DASH, HTTP Live Streaming, RTMP",
+      "severity_score": 95
     },
     {
-      "title": "Load Balancers",
-      "description": "Employs load balancing to distribute incoming network traffic across multiple servers.",
-      "technical_spec": "Layer 7 load balancers, Google Cloud internal systems, dynamic scaling.",
-      "severity_score": 25
-    },
-    {
-      "title": "Video Encoding and Transcoding",
-      "description": "Automates the transformation of videos to different formats and qualities.",
-      "technical_spec": "Utilizes ffmpeg libraries, VP9 and AV1 codecs, resolution conversion.",
-      "severity_score": 25
+      "title": "Data Analytics Pipelines",
+      "description": "Complex data pipelines for video recommendation and analytics.",
+      "technical_spec": "Flume, MapReduce, Hive",
+      "severity_score": 88
     }
   ]
 }

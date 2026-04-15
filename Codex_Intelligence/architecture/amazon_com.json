@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 275,
+    "rank": 285,
     "site": "amazon.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "d8a4e006c11f88e010b7ec93a4b4ac7b"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "e7a573fdb36e69f417a8813c38708103"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Amazon uses a distributed microservices architecture to manage its vast e-commerce platform, allowing for independent development and deployment of services.",
-      "technical_spec": "Each service is loosely coupled, typically with its own database and communication via HTTP requests or messaging queues.",
+      "description": "Amazon uses a microservices architecture, allowing for independent deployment and scaling of services.",
+      "technical_spec": "Service-oriented architecture, RESTful APIs, AWS Lambda, Docker containers",
       "severity_score": 10
     },
     {
-      "title": "Scalable Data Infrastructure",
-      "description": "The site uses a highly scalable data infrastructure, including AWS services like S3 for storage and DynamoDB for scalable database management.",
-      "technical_spec": "Designed to handle millions of transactions per second with distributed database systems.",
-      "severity_score": 5
+      "title": "Distributed Systems",
+      "description": "Amazon's infrastructure is based on distributed systems to ensure high availability and reliability.",
+      "technical_spec": "Distributed databases, load balancing, fault tolerance",
+      "severity_score": 15
     },
     {
-      "title": "Global Content Delivery Network (CDN)",
-      "description": "Leverages CloudFront, Amazon’s CDN, to deliver content quickly worldwide, reducing latency and increasing reliability.",
-      "technical_spec": "Distributed servers strategically placed across the globe to deliver cached content.",
-      "severity_score": 8
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Utilizes load balancers to distribute incoming traffic evenly across servers, ensuring no single server becomes a bottleneck.",
-      "technical_spec": "Employs Elastic Load Balancing (ELB) for automatic scaling and distribution.",
+      "title": "Auto-Scaling",
+      "description": "Amazon's infrastructure automatically scales resources based on demand to ensure service elasticity.",
+      "technical_spec": "AWS Auto Scaling, Elastic Load Balancing",
       "severity_score": 20
     },
     {
-      "title": "Serverless Computing",
-      "description": "Implements AWS Lambda for various backend functions to reduce overheads associated with running traditional servers.",
-      "technical_spec": "Event-driven, allowing code execution without provisioning or managing servers.",
-      "severity_score": 15
+      "title": "Event-Driven Architecture",
+      "description": "Utilizes event-driven architecture to handle billions of customer requests per day.",
+      "technical_spec": "Amazon SNS, Amazon SQS, AWS Step Functions",
+      "severity_score": 25
+    },
+    {
+      "title": "Data Replication",
+      "description": "Ensures data consistency and redundancy across multiple regions.",
+      "technical_spec": "Multi-AZ deployments, eventual consistency models",
+      "severity_score": 30
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 274,
+    "rank": 284,
     "site": "microsoft.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "6e3e40b702f1493def307148ead8c6d7"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "ffb1aecc9abc1a3aac7e2f886bd45db2"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Utilizes microservices to allow independent development and deployment of different features.",
-      "technical_spec": "Docker, Kubernetes, Service Fabric",
-      "severity_score": 20
-    },
-    {
-      "title": "Cloud-First",
-      "description": "Emphasis on cloud-based services and solutions across platforms.",
-      "technical_spec": "Azure Cloud Services",
+      "title": "Microservices Infrastructure",
+      "description": "Microsoft's website infrastructure is built on a microservices architecture, facilitating agility and scalability.",
+      "technical_spec": "Docker, Kubernetes, .NET Core",
       "severity_score": 15
     },
     {
-      "title": "Responsive Design",
-      "description": "Ensures the website is accessible and usable on a variety of devices with different screen sizes.",
-      "technical_spec": "CSS Flexbox, Media Queries",
+      "title": "Content Delivery Network (CDN)",
+      "description": "Utilizes a CDN for global content distribution to ensure fast load times and reduce latency.",
+      "technical_spec": "Azure CDN, HTTP/2, Load Balancers",
       "severity_score": 10
     },
     {
-      "title": "API-Centric",
-      "description": "Heavy reliance on APIs to connect and fetch data across Microsoft services.",
-      "technical_spec": "RESTful APIs, GraphQL",
-      "severity_score": 25
+      "title": "Serverless Computing",
+      "description": "Leverages serverless functions to optimize resource usage and reduce operational overhead.",
+      "technical_spec": "Azure Functions, Event Driven Architecture",
+      "severity_score": 20
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Integrated identity and access management solutions to protect resources.",
-      "technical_spec": "Azure Active Directory, OAuth 2.0",
-      "severity_score": 30
+      "title": "Cloud-Based Hosting",
+      "description": "Hosted on Azure's cloud infrastructure, providing scalability and high availability.",
+      "technical_spec": "Azure App Service, Virtual Machines, Global Regions",
+      "severity_score": 10
+    },
+    {
+      "title": "Database Architecture",
+      "description": "Incorporates both relational and non-relational databases to handle complex queries and large data volumes.",
+      "technical_spec": "Azure SQL Database, Cosmos DB",
+      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 278,
+    "rank": 288,
     "site": "adobe.com",
-    "date": "2026-04-15 16:09",
-    "integrity_hash": "98d0c6ff6f9003b8c7b28876038f70fd"
+    "date": "2026-04-15 17:59",
+    "integrity_hash": "1e478c1513450221c61eb0b94873fa5b"
   },
   "data": [
     {
-      "title": "Cloud-based Infrastructure",
-      "description": "Adobe utilizes a cloud-first architecture to deliver its services, leveraging multiple data centers across the globe.",
-      "technical_spec": "Utilizes AWS and Azure for cloud hosting, with microservices architecture for scalability.",
-      "severity_score": 25
+      "title": "Modular Design",
+      "description": "Uses a modular design approach to separate different functionalities for easier maintenance and updates.",
+      "technical_spec": "Microservices architecture implemented for scalability and redundancy.",
+      "severity_score": 5
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "A CDN is employed to enhance the speed and performance of content delivery to users worldwide.",
-      "technical_spec": "Akami and Cloudflare CDNs for load balancing and caching.",
+      "title": "Scalable Cloud Infrastructure",
+      "description": "Utilizes cloud infrastructure to provide scalable and flexible resources for handling various workloads.",
+      "technical_spec": "Hosted on AWS with Elastic Load Balancing and Auto Scaling features.",
+      "severity_score": 10
+    },
+    {
+      "title": "Database Management",
+      "description": "Robust management of user data and assets for efficient storage and retrieval.",
+      "technical_spec": "Utilizes both SQL and NoSQL databases like MySQL and MongoDB.",
+      "severity_score": 15
+    },
+    {
+      "title": "API-Centric Development",
+      "description": "APIs are implemented for interaction with external applications and services.",
+      "technical_spec": "REST and GraphQL APIs used for various integrations.",
       "severity_score": 20
     },
     {
-      "title": "API-driven Connectivity",
-      "description": "APIs are at the core of Adobe's integration capabilities across its product suite.",
-      "technical_spec": "RESTful and GraphQL APIs for cross-application data sharing.",
-      "severity_score": 35
-    },
-    {
-      "title": "Modular Product Suites",
-      "description": "Adobe's software solutions are built with a modular approach, allowing seamless integration with additional tools.",
-      "technical_spec": "Component-based architecture using JavaScript frameworks like React.",
-      "severity_score": 30
-    },
-    {
-      "title": "Automated Deployment Pipelines",
-      "description": "Continuous integration and deployment methodologies to ensure swift updates and feature rollouts.",
-      "technical_spec": "Jenkins and Kubernetes used for CI/CD processes.",
-      "severity_score": 28
+      "title": "High Availability Systems",
+      "description": "Designed systems to ensure maximum operational uptime.",
+      "technical_spec": "Redundant systems and failover mechanisms in place across global data centers.",
+      "severity_score": 7
     }
   ]
 }
