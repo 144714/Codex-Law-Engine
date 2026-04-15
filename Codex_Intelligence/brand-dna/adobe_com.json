@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 218,
+    "rank": 228,
     "site": "adobe.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "96a18cf1f8aab0769545ff8acb61b452"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "c2ea23bb5403a9848d9546166dc54d38"
   },
   "data": [
     {
-      "title": "Innovation and Creativity",
-      "description": "Adobe positions itself as a leader in creative software solutions, continuously pushing the envelope of what's possible.",
-      "technical_spec": "Integration of AI features like Adobe Sensei across products for enhancement of creative processes.",
-      "severity_score": 5
-    },
-    {
-      "title": "User-Centric Design",
-      "description": "Adobe prioritizes the needs and feedback of its vast user base in product development.",
-      "technical_spec": "Conducts iterative testing and user research to refine and improve product experiences.",
+      "title": "Creativity and Innovation",
+      "description": "Adobe's brand DNA revolves around enabling creativity and innovation in digital media and marketing solutions.",
+      "technical_spec": "Extended support for creative cloud suite and continuous product enhancements.",
       "severity_score": 10
     },
     {
-      "title": "Collaboration and Community",
-      "description": "Building an engaging community for users to learn and grow through shared knowledge.",
-      "technical_spec": "Platforms like Adobe Behance and Adobe Live foster collaboration among creative professionals.",
+      "title": "Consistency and Reliability",
+      "description": "The brand promises consistent user experience and reliable solutions across its range of products.",
+      "technical_spec": "Consistent UI design across all platforms and services.",
       "severity_score": 15
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Adobe is committed to environmental sustainability and responsible business practices.",
-      "technical_spec": "Implementation of sustainable data centers and eco-friendly policies across operations.",
+      "title": "Collaboration and Community",
+      "description": "Adobe fosters a collaborative environment within its community of users and creative professionals.",
+      "technical_spec": "Community forums, Behance integration, and collaborative tools in apps.",
       "severity_score": 20
     },
     {
-      "title": "Global Reach and Accessibility",
-      "description": "Adobe ensures its products are accessible to users globally through localized content and support.",
-      "technical_spec": "Localization efforts in languages and support as well as accessibility features adhering to WCAG standards.",
+      "title": "User-Centric Design",
+      "description": "Adobe emphasizes designing tools that prioritize user needs and workflows.",
+      "technical_spec": "User feedback loops in product development and beta testing phases.",
       "severity_score": 25
+    },
+    {
+      "title": "Cutting-Edge Technology",
+      "description": "Adobe integrates the latest technological advancements in artificial intelligence and machine learning into its products.",
+      "technical_spec": "Integrations of Adobe Sensei AI across different application features.",
+      "severity_score": 30
     }
   ]
 }

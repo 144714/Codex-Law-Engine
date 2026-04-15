@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 214,
+    "rank": 224,
     "site": "microsoft.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "750a99472b19f5b9d5c80740458527d6"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "c18f45623990efb1b2eaf2d39e52e804"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Encrypts data in transit and at rest to protect user information.",
-      "technical_spec": "Uses TLS for data transmission and AES for data storage.",
+      "title": "Advanced Threat Protection",
+      "description": "Multi-layer security to protect against complex threats.",
+      "technical_spec": "AI-driven threat detection, anti-phishing mechanisms.",
       "severity_score": 5
     },
     {
-      "title": "Web Application Firewall",
-      "description": "Protects against threats such as SQL injection or XSS.",
-      "technical_spec": "Implemented via Azure WAF capabilities.",
+      "title": "Data Encryption",
+      "description": "All user data is encrypted both in transit and at rest.",
+      "technical_spec": "TLS 1.3, AES-256 encryption standards.",
       "severity_score": 10
     },
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Requires multiple forms of verification to access sensitive areas.",
-      "technical_spec": "Supports software and hardware token generation.",
-      "severity_score": 20
+      "title": "Regular Security Audits",
+      "description": "Frequent assessments to identify and mitigate vulnerabilities.",
+      "technical_spec": "Penetration testing, vulnerability scanners.",
+      "severity_score": 15
     },
     {
       "title": "DDoS Protection",
-      "description": "Mitigates distributed denial of service attacks.",
-      "technical_spec": "Built-in Azure DDoS protection.",
-      "severity_score": 30
+      "description": "Robust defenses against Distributed Denial of Service attacks.",
+      "technical_spec": "Azure DDoS Protection, scalable bandwidth.",
+      "severity_score": 10
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic reviews to ensure security compliance.",
-      "technical_spec": "Automated tools alongside manual expert reviews.",
-      "severity_score": 15
+      "title": "User Access Controls",
+      "description": "Strict controls over user authentication and access levels.",
+      "technical_spec": "Multi-factor authentication, role-based access control.",
+      "severity_score": 12
     }
   ]
 }

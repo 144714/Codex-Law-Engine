@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 220,
+    "rank": 230,
     "site": "whatsapp.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "89fef1d9ea4f9970b5d85252bfb11956"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "b3cdde4a98cf12af93d4c2d24e7786a1"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Provides an additional security layer by requiring a second authentication factor.",
-      "technical_spec": "Users can enable this feature to require a passcode in addition to their phone number for security.",
-      "severity_score": 35
+      "title": "Two-Step Verification",
+      "description": "Provides an additional layer of security by requiring a second form of authentication.",
+      "technical_spec": "6-digit verification PIN",
+      "severity_score": 75
     },
     {
-      "title": "Real-Time Threat Detection",
-      "description": "Implements systems to detect and mitigate security threats in real-time.",
-      "technical_spec": "Uses machine learning algorithms to identify unusual patterns and potential breaches.",
-      "severity_score": 60
+      "title": "Encryption at Rest",
+      "description": "Data stored on the servers is encrypted to prevent unauthorized access.",
+      "technical_spec": "AES-256 encryption",
+      "severity_score": 85
     },
     {
-      "title": "Spam and Abuse Monitoring",
-      "description": "Continuously monitors and reduces spam and abusive content.",
-      "technical_spec": "Employs AI and user reports to flag and remove unwanted content or block accounts.",
-      "severity_score": 50
+      "title": "Challenge-Response Authentication",
+      "description": "Prevents unauthorized device registration by requiring a server-issued token.",
+      "technical_spec": "Challenge token based verification",
+      "severity_score": 82
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular updates and patches to address vulnerabilities in the application.",
-      "technical_spec": "Follows a rigorous patch management schedule, informed by security audits and vulnerability scans.",
-      "severity_score": 40
+      "title": "Spam and Abuse Detection",
+      "description": "Systems in place to prevent spam and abusive activity on the platform.",
+      "technical_spec": "Machine learning algorithms, heuristic rules",
+      "severity_score": 80
     },
     {
-      "title": "Security Audits and Penetration Testing",
-      "description": "Periodically conducts security audits and penetration tests to assess and improve the system's defenses.",
-      "technical_spec": "Involves external security firms and internal red teams to evaluate security measures and protocols.",
-      "severity_score": 70
+      "title": "Security Patching and Updates",
+      "description": "Regular updates to address vulnerabilities and enhance security features.",
+      "technical_spec": "Automated security patch management, CVE monitoring",
+      "severity_score": 92
     }
   ]
 }

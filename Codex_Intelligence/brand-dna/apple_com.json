@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 213,
+    "rank": 223,
     "site": "apple.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "2e3aacfcea703479aa16e4c6583dde1f"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "d984d897ad15c14ecc768cec4747d935"
   },
   "data": [
     {
-      "title": "Minimalist Design",
-      "description": "Focus on clean, uncluttered designs aligned with Apple's brand identity.",
-      "technical_spec": "Whitespace usage, intuitive layout structures.",
-      "severity_score": 5
+      "title": "Minimalistic Design",
+      "description": "Consistent minimalistic approach reflecting elegance and simplicity.",
+      "technical_spec": "Whitespace utilization and subtle aesthetics.",
+      "severity_score": 20
     },
     {
-      "title": "High-Quality Imagery",
-      "description": "Emphasizes the use of high-resolution images to showcase products effectively.",
-      "technical_spec": "Retina displays optimized content.",
-      "severity_score": 10
+      "title": "Innovation-Driven",
+      "description": "Focus on cutting-edge technology and user-centric design.",
+      "technical_spec": "Regular updates and feature enhancements.",
+      "severity_score": 30
     },
     {
-      "title": "Innovative UI Elements",
-      "description": "Embraces cutting-edge UI elements that reflect Apple's technological prowess.",
-      "technical_spec": "Animation libraries and SVGs for dynamic visuals.",
-      "severity_score": 10
+      "title": "Seamless Integration",
+      "description": "Provides a cohesive experience across all devices and platforms.",
+      "technical_spec": "Cross-platform compatibility and synchronized services.",
+      "severity_score": 25
     },
     {
-      "title": "Consistent Branding",
-      "description": "Maintains a consistent visual and tonal brand presence across all web entities.",
-      "technical_spec": "Brand guidelines adherence, consistent color palettes.",
-      "severity_score": 5
+      "title": "Eco-Friendly Initiatives",
+      "description": "Demonstrates commitment to sustainability in design and operations.",
+      "technical_spec": "Use of renewable resources and eco-design in product lifecycle.",
+      "severity_score": 20
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Design decisions prioritize user needs and enhance the user experience.",
-      "technical_spec": "User personas and journey maps in design planning.",
-      "severity_score": 10
+      "title": "High-Quality Assurance",
+      "description": "Focus on delivering superior quality in products and services.",
+      "technical_spec": "Rigorous testing and quality control processes.",
+      "severity_score": 30
     }
   ]
 }

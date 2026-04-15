@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 213,
+    "rank": 223,
     "site": "apple.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "dd1f195fa18bcd3a85f8482290df7fb0"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "35964511bfbf84956b12b16c13a2b633"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplified navigation to minimize user decision-making time.",
-      "technical_spec": "Streamlined menu layouts and clear call-to-action buttons.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Design elements placed for easy access and interaction.",
-      "technical_spec": "Large clickable areas and buttons with ample spacing.",
-      "severity_score": 10
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "High aesthetic value contributes to perceived usability.",
-      "technical_spec": "Use of visually appealing typography and high-quality images.",
+      "title": "Hick’s Law",
+      "description": "Simplifies user interface options to reduce decision time.",
+      "technical_spec": "Emphasizing essential navigation and CTAs.",
       "severity_score": 5
     },
     {
-      "title": "Jakob's Law",
-      "description": "Design familiar to what users see across the web, leading to better user satisfaction.",
-      "technical_spec": "Consistent UI patterns and industry-standard navigation practices.",
+      "title": "Fitts’s Law",
+      "description": "Designs touch elements like buttons to be easily reachable.",
+      "technical_spec": "Size and proximity optimization of interactive elements.",
+      "severity_score": 5
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Utilizes design principles that help users perceive graphics in grouped forms.",
+      "technical_spec": "Consistent use of proximity, similarity, and continuity.",
       "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Information is chunked into smaller, digestible pieces for easy comprehension.",
-      "technical_spec": "Use of concise copy, bullet points, and imagery.",
-      "severity_score": 15
+      "title": "Miller’s Law",
+      "description": "Organizes complex information into seven plus or minus two chunks.",
+      "technical_spec": "Structured information architecture.",
+      "severity_score": 10
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Aligns with user expectations by following familiar design patterns.",
+      "technical_spec": "Use of commonly recognized web UI patterns.",
+      "severity_score": 5
     }
   ]
 }

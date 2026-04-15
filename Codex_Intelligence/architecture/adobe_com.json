@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 218,
+    "rank": 228,
     "site": "adobe.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "bc46c804f38e3751f8f147cdfd681ed5"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "0e4bec33504696536acd51bc8d14f952"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Adobe likely uses a microservices architecture to manage its diverse range of products and services efficiently.",
-      "technical_spec": "Deployed across a distributed network with Kubernetes for orchestration.",
-      "severity_score": 10
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "To enhance content delivery speed and reliability, Adobe utilizes a CDN for distributing content globally.",
-      "technical_spec": "Utilizes Akamai or a similar CDN solution to cache and serve content closer to user locations.",
-      "severity_score": 15
-    },
-    {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Adobe's infrastructure is heavily based on cloud services to enable scalability and reliability.",
-      "technical_spec": "Primary services are hosted on AWS and Azure, leveraging cloud computing and storage.",
-      "severity_score": 20
-    },
-    {
-      "title": "API-Driven Ecosystem",
-      "description": "Adobe offers APIs for seamless integration across its applications and with third-party services.",
-      "technical_spec": "RESTful APIs with OAuth 2.0 for authentication and JSON for data interchange.",
+      "description": "Adobe.com utilizes a microservices architecture to allow independent deployment and scaling of different parts of the application.",
+      "technical_spec": "Each service operates in its own process and communicates through a well-defined API.",
       "severity_score": 25
     },
     {
-      "title": "Load Balancing and Auto-Scaling",
-      "description": "To handle high traffic and ensure optimal performance, Adobe employs load balancing and auto-scaling mechanisms.",
-      "technical_spec": "Load balancers via AWS Elastic Load Balancing, auto-scaling with cloud-native solutions.",
+      "title": "Cloud Hosting with AWS",
+      "description": "The majority of Adobe's services are hosted on Amazon Web Services (AWS), providing scalability and reliability.",
+      "technical_spec": "Utilizes EC2, S3, and RDS among other services.",
+      "severity_score": 20
+    },
+    {
+      "title": "Kubernetes for Orchestration",
+      "description": "Adobe uses Kubernetes to manage and automate the deployment, scaling, and operations of application containers.",
+      "technical_spec": "Deployed clusters that are platform-agnostic.",
       "severity_score": 30
+    },
+    {
+      "title": "Content Delivery Network Integration",
+      "description": "Adobe implements a CDN to ensure fast loading times globally.",
+      "technical_spec": "Integration with Akamai for global content distribution.",
+      "severity_score": 15
+    },
+    {
+      "title": "API-First Design",
+      "description": "Adobe's services are built with an API-first approach to integrate various products.",
+      "technical_spec": "RESTful and GraphQL APIs with robust documentation.",
+      "severity_score": 35
     }
   ]
 }

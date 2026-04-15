@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 215,
+    "rank": 225,
     "site": "amazon.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "239293a6a4e32dfb64b69c5903c7bd4f"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "52ffb38625e39c1769a4fef1e3e732eb"
   },
   "data": [
     {
-      "title": "Distributed Systems",
-      "description": "Amazon's architecture relies heavily on distributed systems to manage its vast network of services and databases.",
-      "technical_spec": "Microservices, data redundancy, fault tolerance, and load balancing.",
+      "title": "Microservices Architecture",
+      "description": "Amazon uses a microservices architecture that breaks down its platform into small, independent services, allowing for flexibility and scalability.",
+      "technical_spec": "Decomposed into 100s of microservices written in Java, Python, etc.",
       "severity_score": 10
     },
     {
-      "title": "Scalable Infrastructure",
-      "description": "The platform is designed to scale rapidly in response to increased demand.",
-      "technical_spec": "Elastic Compute Cloud (EC2), Auto Scaling, and DynamoDB.",
+      "title": "Cloud Infrastructure",
+      "description": "The platform is hosted on Amazon Web Services (AWS), providing extensive scalability and reliability.",
+      "technical_spec": "Utilizes AWS EC2, S3, Lambda for tiered service delivery.",
       "severity_score": 5
     },
     {
-      "title": "Data Centers",
-      "description": "Amazon utilizes numerous data centers globally to ensure low latency and high availability.",
-      "technical_spec": "Geo-redundancy, data replication, and edge nodes.",
-      "severity_score": 20
-    },
-    {
-      "title": "Serverless Computing",
-      "description": "Services like AWS Lambda are employed to provide serverless processing capabilities.",
-      "technical_spec": "Event-driven compute workloads, on-demand billing.",
+      "title": "Database Systems",
+      "description": "Highly-efficient database systems are used to handle immense data volumes.",
+      "technical_spec": "Features DynamoDB, RDS, and Redshift for various data-storage needs.",
       "severity_score": 15
     },
     {
-      "title": "Integrated Content Delivery Network",
-      "description": "Amazon CloudFront is used to deliver content with low latency and high transfer speeds.",
-      "technical_spec": "CDN, caching mechanisms, edge locations.",
-      "severity_score": 10
+      "title": "Content Delivery Network",
+      "description": "Amazon employs a robust CDN to quickly deliver content to users around the globe.",
+      "technical_spec": "Amazon CloudFront is integrated to serve content with low latency.",
+      "severity_score": 8
+    },
+    {
+      "title": "Load Balancing",
+      "description": "To ensure efficient request distribution, load balancing techniques are implemented.",
+      "technical_spec": "Utilizes Elastic Load Balancing on AWS for auto-scaling capabilities.",
+      "severity_score": 12
     }
   ]
 }

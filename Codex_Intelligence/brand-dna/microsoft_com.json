@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 214,
+    "rank": 224,
     "site": "microsoft.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "8101356025d89b040eb33cb92d791e93"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "aba76305ba6f6d9161c1922fb341b37a"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "Promotes cutting-edge technology and forward-thinking solutions.",
-      "technical_spec": "Emphasis on AI, Cloud, and Mixed Reality development.",
-      "severity_score": 20
+      "description": "Continuous innovation as a core component of Microsoft's identity.",
+      "technical_spec": "Integration of AI and machine learning.",
+      "severity_score": 5
     },
     {
-      "title": "Reliability",
-      "description": "Trusted brand in software and hardware, known for dependable products.",
-      "technical_spec": "Robust quality assurance and continuous support systems.",
-      "severity_score": 15
+      "title": "Integration",
+      "description": "Seamless integration of multiple products and services.",
+      "technical_spec": "Unified ecosystem approach, interoperability standards.",
+      "severity_score": 7
     },
     {
-      "title": "Global Reach",
-      "description": "Widely recognized, and accessible, serving a vast international audience.",
-      "technical_spec": "Localization and scalability in products and services.",
-      "severity_score": 25
-    },
-    {
-      "title": "Customer-Centric",
-      "description": "Focus on user and customer experience through responsive service.",
-      "technical_spec": "Comprehensive customer support and feedback integration.",
+      "title": "User-Centric",
+      "description": "A focus on empowering users through technology.",
+      "technical_spec": "User feedback loops, customization features.",
       "severity_score": 10
     },
     {
+      "title": "Global Reach",
+      "description": "Maintaining leadership in global tech markets.",
+      "technical_spec": "Multilingual support, regional optimizations.",
+      "severity_score": 8
+    },
+    {
       "title": "Sustainability",
-      "description": "Commitment to environmental sustainability and ethical practices.",
-      "technical_spec": "Investment in green energy and sustainable practices.",
-      "severity_score": 30
+      "description": "Commitment to sustainable technology solutions.",
+      "technical_spec": "Energy-efficient data centers, sustainable product designs.",
+      "severity_score": 9
     }
   ]
 }

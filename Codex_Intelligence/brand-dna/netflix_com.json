@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 216,
+    "rank": 226,
     "site": "netflix.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "1d37478cb9eb7e3ffd3de03fccdeec48"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "7b363ddec6386b55b40cc45ab69275ba"
   },
   "data": [
     {
-      "title": "Global Adaptability",
-      "description": "Reflects a commitment to diverse content and a globally unified brand experience.",
-      "technical_spec": "Localization features and regional content licensing.",
-      "severity_score": 5
+      "title": "Content Diversity",
+      "description": "A wide selection of content targeting various demographics and interests.",
+      "technical_spec": "Includes original programming, movies, series, documentaries, international titles.",
+      "severity_score": 95
     },
     {
-      "title": "Continuous Innovation",
-      "description": "Focus on leading-edge technology implementations and content delivery strategies.",
-      "technical_spec": "AI-driven recommendation engines with real-time content adaption.",
-      "severity_score": 7
+      "title": "Innovative Technology",
+      "description": "Adopts new technologies to enhance user streaming experience.",
+      "technical_spec": "Leader in distributed systems, algorithms, and data usage.",
+      "severity_score": 94
+    },
+    {
+      "title": "Subscription Flexibility",
+      "description": "Offers multiple plans catering to different user needs.",
+      "technical_spec": "Monthly subscription model with no contracts and easy cancellation.",
+      "severity_score": 90
+    },
+    {
+      "title": "Global Reach",
+      "description": "Available in over 190 countries, catering to a global audience.",
+      "technical_spec": "Localized content and interfaces, extensive subtitle and dubbing options.",
+      "severity_score": 92
     },
     {
       "title": "Customer-Centric Approach",
-      "description": "Prioritizes user preferences and seamless content discovery.",
-      "technical_spec": "Personalized homepages and adjustable user settings.",
-      "severity_score": 8
-    },
-    {
-      "title": "Quality Content Production",
-      "description": "Investment in original content production as a key brand differentiator.",
-      "technical_spec": "High-budget original series and films with exclusive production agreements.",
-      "severity_score": 10
-    },
-    {
-      "title": "Sustainability Commitment",
-      "description": "Dedicated to sustainable practices within its operations and content production cycles.",
-      "technical_spec": "Net-zero carbon footprint initiatives and renewable energy sourcing.",
-      "severity_score": 6
+      "description": "Focuses on user-experience and satisfaction through personalized recommendations.",
+      "technical_spec": "Powered by an advanced AI-driven recommendation engine.",
+      "severity_score": 93
     }
   ]
 }

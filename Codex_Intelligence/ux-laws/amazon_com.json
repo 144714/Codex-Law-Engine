@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 215,
+    "rank": 225,
     "site": "amazon.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "6f0499d33719d8fb03ebfe25d4565744"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "dd608d1807a2a5d908edda74062638ea"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplified online browsing and purchasing processes reduce decision time.",
-      "technical_spec": "Structured menus, predictive search, and one-click ordering.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Efficient navigation is provided through optimized clickable areas and content layout.",
-      "technical_spec": "Responsive design, mobile-friendly interfaces.",
-      "severity_score": 10
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Content is organized into manageable chunks to aid comprehension and retention.",
-      "technical_spec": "Categories, subcategories, and filters.",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Users prefer familiar functionality. Amazon aligns its features with user expectations.",
-      "technical_spec": "Standard e-commerce patterns, intuitive interfaces.",
+      "title": "Law of Simplicity",
+      "description": "Amazon's platform is designed with a focus on simplicity to enhance user experience.",
+      "technical_spec": "Minimalistic design principles and easy navigation structure.",
       "severity_score": 5
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Focus on creating positive experiences at pivotal user journey points.",
-      "technical_spec": "Customer service chatbots, loyalty programs.",
-      "severity_score": 20
+      "title": "Fitts's Law",
+      "description": "Elements are strategically placed to improve usability and reduce the effort required to interact with them.",
+      "technical_spec": "Optimized button sizes and placement for quick access.",
+      "severity_score": 10
+    },
+    {
+      "title": "Hick's Law",
+      "description": "Decision-making time is optimized by limiting complex options.",
+      "technical_spec": "Simplified category hierarchies and search functionalities.",
+      "severity_score": 12
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Design standards are maintained to meet user expectations based on experiences from other web services.",
+      "technical_spec": "Consistent UI elements and interaction patterns.",
+      "severity_score": 8
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Information chunks are maintained within human cognitive limits to aid comprehension.",
+      "technical_spec": "Product details and reviews are formatted in digestible sections.",
+      "severity_score": 7
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 217,
+    "rank": 227,
     "site": "spotify.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "d9771373c71dbac7cf6705209cb998e4"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "d76b510fb513bcdb06694f81f5106426"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Interface design that accounts for users taking action quickly by optimizing button size and placement.",
-      "technical_spec": "Adaptive UI scaling, intuitive navigation.",
-      "severity_score": 12
-    },
-    {
       "title": "Hick's Law",
-      "description": "Minimized choices on the interface to reduce decision time and improve user experience.",
-      "technical_spec": "Simplified user flows, minimalistic design.",
-      "severity_score": 8
+      "description": "Spotify minimizes decision-making time by keeping choices simple.",
+      "technical_spec": "Simplified navigation, concise options menu.",
+      "severity_score": 85
     },
     {
-      "title": "Miller’s Law",
-      "description": "Users can only retain up to 7 items in their working memory, so menus and options are grouped logically.",
-      "technical_spec": "Logical grouping of playlists, categorized music recommendations.",
-      "severity_score": 10
+      "title": "Fitts's Law",
+      "description": "Design of the app ensures easily clickable targets for touch and clicks.",
+      "technical_spec": "Target size optimization, adequate spacing.",
+      "severity_score": 88
+    },
+    {
+      "title": "Consistency and Standards",
+      "description": "Interface elements provide consistent experiences across platforms.",
+      "technical_spec": "Platform-native design elements, homogenous interaction patterns.",
+      "severity_score": 90
+    },
+    {
+      "title": "The Aesthetic-Usability Effect",
+      "description": "Aesthetic design enhances perceived ease of use.",
+      "technical_spec": "Modern design, smooth animations, intuitive color schemes.",
+      "severity_score": 87
     },
     {
       "title": "Jakob's Law",
-      "description": "Being familiar with user expectations based on similar platforms to enhance usability.",
-      "technical_spec": "Consistent UI patterns, familiar icons.",
-      "severity_score": 18
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Emphasis on aesthetic design to create positive first impressions and perceived usability.",
-      "technical_spec": "High-fidelity graphics, smooth animations.",
-      "severity_score": 15
+      "description": "Users experience seamless navigation with recognizable design patterns from other apps.",
+      "technical_spec": "Familiar UI elements, consistent iconography.",
+      "severity_score": 85
     }
   ]
 }

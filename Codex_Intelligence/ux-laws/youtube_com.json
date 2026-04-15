@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 212,
+    "rank": 222,
     "site": "youtube.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "2d8324e2566f0288982df21bb66308b8"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "1ae91f9819f98c7f1b0259aaa441a9ec"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Minimizing decision-making time by simplifying user choices.",
-      "technical_spec": "Simple and logical menu structures with easily accessible options.",
-      "severity_score": 15
+      "description": "User interactions are simplified to reduce decision time.",
+      "technical_spec": "Streamlined menus and action buttons maintain user engagement.",
+      "severity_score": 10
     },
     {
       "title": "Fitts's Law",
-      "description": "Designs that allow quick and effective interactions, reducing the distance to actionable buttons.",
-      "technical_spec": "Responsive button placement and size optimization on mobile and desktop.",
-      "severity_score": 20
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Utilizes proximity, similarity, and closure in visual design for effective grouping and navigation.",
-      "technical_spec": "Consistent iconography and spacing for intuitive groupings.",
-      "severity_score": 20
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Information chunking to improve content comprehension and recall.",
-      "technical_spec": "Video thumbnails and titles are designed for clarity and instant recognition.",
+      "description": "Interfaces are designed to minimize the time to interact with key elements.",
+      "technical_spec": "Larger, easily clickable buttons to enhance accessibility.",
       "severity_score": 15
     },
     {
+      "title": "Consistency Principle",
+      "description": "Maintains uniformity in design and interaction patterns across the platform.",
+      "technical_spec": "Consistent design language and interaction cues.",
+      "severity_score": 5
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "A visually appealing interface to enhance perceived usability.",
+      "technical_spec": "High-quality visuals and intuitive layout for a pleasing user experience.",
+      "severity_score": 8
+    },
+    {
       "title": "Jakob's Law",
-      "description": "Interfaces following user expectations based on their experiences with other sites.",
-      "technical_spec": "Adoption of industry-standard design patterns like menu placement and video controls.",
-      "severity_score": 25
+      "description": "Designs align with user expectations formed by experiences on other platforms.",
+      "technical_spec": "Common UI patterns borrowed from similar applications.",
+      "severity_score": 7
     }
   ]
 }

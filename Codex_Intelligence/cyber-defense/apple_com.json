@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 213,
+    "rank": 223,
     "site": "apple.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "f7b6460f62e6b1bd440917b4181bf8a9"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "74b6a581e2fae75ba4c2099aa6c8008f"
   },
   "data": [
     {
-      "title": "HTTPS Encryption",
-      "description": "Ensures all data transmitted between users and the website is encrypted.",
-      "technical_spec": "TLS 1.3 with strong ciphers.",
-      "severity_score": 10
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts frequent audits to identify and mitigate vulnerabilities.",
-      "technical_spec": "Use of automated security scanning tools.",
+      "title": "WAF (Web Application Firewall)",
+      "description": "Provides protection against web threats by filtering and monitoring HTTP traffic.",
+      "technical_spec": "Advanced WAF rules and bot management.",
       "severity_score": 20
     },
     {
-      "title": "Cross-Site Scripting (XSS) Protection",
-      "description": "Implements measures to thwart XSS attacks on user data.",
-      "technical_spec": "Content Security Policy (CSP) headers and sanitization of input data.",
-      "severity_score": 25
+      "title": "DDoS Protection",
+      "description": "Mitigates distributed denial-of-service attacks to ensure uptime.",
+      "technical_spec": "Automatic scaling and global data centers.",
+      "severity_score": 30
     },
     {
-      "title": "DDoS Mitigation",
-      "description": "Protects against distributed denial of service attacks to maintain site availability.",
-      "technical_spec": "Cloudflare integration or similar solutions.",
+      "title": "Regular Security Audits",
+      "description": "Conducts regular security assessments to identify vulnerabilities.",
+      "technical_spec": "Utilizing internal and third-party expertise.",
       "severity_score": 15
     },
     {
-      "title": "Authentication and Session Management",
-      "description": "Utilizes robust methods for user authentication and session handling.",
-      "technical_spec": "OAuth 2.0, two-factor authentication (2FA).",
-      "severity_score": 30
+      "title": "Data Encryption",
+      "description": "Sensitive data is encrypted in transit and at rest.",
+      "technical_spec": "AES-256 encryption for data at rest.",
+      "severity_score": 10
+    },
+    {
+      "title": "User Behavior Analytics",
+      "description": "Monitors user activity to detect anomalies and potential threats.",
+      "technical_spec": "Machine learning algorithms for behavior analysis.",
+      "severity_score": 20
     }
   ]
 }

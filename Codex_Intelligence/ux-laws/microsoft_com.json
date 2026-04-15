@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 214,
+    "rank": 224,
     "site": "microsoft.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "f43c0916dc15550bbcbb8a6a3b8d53df"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "b0d9164766e0cd1923e0246f0d8246ea"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Reduces decision time by minimizing choices available at each stage.",
-      "technical_spec": "Streamlined navigation and clear call-to-action buttons.",
-      "severity_score": 10
+      "description": "Simplifies user choices on the site to enhance decision-making.",
+      "technical_spec": "Streamlined dropdowns, focused navigation.",
+      "severity_score": 18
     },
     {
-      "title": "Fitts's Law",
-      "description": "Ensures clickable elements are large enough and positioned for easy reach.",
-      "technical_spec": "Large buttons and links with intuitive spacing.",
-      "severity_score": 5
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Limits on-page information to enhance cognitive processing.",
-      "technical_spec": "Chunking content and using progressive disclosure.",
+      "title": "Fitt's Law",
+      "description": "Design improves user interaction efficiency with target sizes.",
+      "technical_spec": "Large clickable areas, predictable path movements.",
       "severity_score": 15
     },
     {
-      "title": "Jakob's Law",
-      "description": "Designs follow web standards to meet user expectations based on familiarity.",
-      "technical_spec": "Consistent design patterns across the site.",
-      "severity_score": 10
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing design enhances usability perception.",
+      "technical_spec": "Consistent color schemes, high-quality visuals.",
+      "severity_score": 12
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related items closely to improve understanding and accessibility.",
-      "technical_spec": "Logical grouping and alignment of content blocks.",
-      "severity_score": 5
+      "title": "Miller's Law",
+      "description": "Organizes content to reflect limited short-term memory capacity.",
+      "technical_spec": "Chunking of information, organized content blocks.",
+      "severity_score": 20
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Design aligns with user familiarity from similar sites.",
+      "technical_spec": "Standardized iconography, conventional layouts.",
+      "severity_score": 17
     }
   ]
 }

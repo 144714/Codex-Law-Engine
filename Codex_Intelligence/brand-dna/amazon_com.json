@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 215,
+    "rank": 225,
     "site": "amazon.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "f72552eacf012d6d9d47b2805cde6217"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "4543094e976e5ff1f9f13dcbeb9e22b5"
   },
   "data": [
     {
       "title": "Customer Obsession",
-      "description": "The brand's core focus is on improving customer experience continuously.",
-      "technical_spec": "Personalization engines, robust customer support.",
-      "severity_score": 5
+      "description": "Amazon prioritizes customer needs and satisfaction, defining its service model.",
+      "technical_spec": "Feedback loops and personalized recommendations enhance user experience.",
+      "severity_score": 6
     },
     {
       "title": "Operational Excellence",
-      "description": "Efficiency and reliability in operations to deliver value to customers.",
-      "technical_spec": "Supply chain optimization, advanced logistics systems.",
-      "severity_score": 10
+      "description": "Continuous improvement and optimization are central to Amazon's operations.",
+      "technical_spec": "Advanced logistics and AI-driven process optimizations.",
+      "severity_score": 12
     },
     {
-      "title": "Innovation",
-      "description": "Constant innovation in services and technology sets Amazon apart.",
-      "technical_spec": "Patent libraries, research & development investment.",
-      "severity_score": 8
+      "title": "Innovation Culture",
+      "description": "Pioneering new technologies and methodologies to stay ahead in the market.",
+      "technical_spec": "Investment in R&D and autonomous systems like drones (Prime Air).",
+      "severity_score": 15
     },
     {
       "title": "Long-term Thinking",
-      "description": "Strategies are aligned with long-term goals rather than short-term gains.",
-      "technical_spec": "Investment in high-growth areas, market expansion projects.",
-      "severity_score": 7
+      "description": "Strategic planning focused on sustainable growth rather than short-term gains.",
+      "technical_spec": "Diversification and eco-friendly initiatives align with future goals.",
+      "severity_score": 10
     },
     {
-      "title": "Security Focus",
-      "description": "Emphasis on customer data safety enhances brand trust.",
-      "technical_spec": "Data protection measures, compliance with global security standards.",
-      "severity_score": 6
+      "title": "Frugality",
+      "description": "Efficient use of resources to keep costs low and provide better value to customers.",
+      "technical_spec": "Automated scaling and resource optimization in cloud operations.",
+      "severity_score": 13
     }
   ]
 }

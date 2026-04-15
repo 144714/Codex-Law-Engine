@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 211,
+    "rank": 221,
     "site": "google.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "5b3db4821bf051cc2071f4c50ce3a1b1"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "e2ad3e34dc7d5d4b5670e90ecb2c3c9d"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Design principle focusing on ease of interaction with UI elements based on their size and distance.",
-      "technical_spec": "Large clickable areas for important actions, minimalistic design.",
-      "severity_score": 30
+      "title": "Fitts's Law",
+      "description": "Aims to minimize the time needed to move the pointer by making navigation elements easily accessible.",
+      "technical_spec": "Designs employ large clickable areas for frequent action items.",
+      "severity_score": 10
     },
     {
-      "title": "Hick’s Law",
-      "description": "Methods to reduce user's decision time by minimizing choices.",
-      "technical_spec": "Optimized search functionality and simple navigation.",
-      "severity_score": 25
+      "title": "Hick's Law",
+      "description": "Reduces choice overload by simplifying options, improving decision-making speed.",
+      "technical_spec": "UI interfaces categorize and simplify features.",
+      "severity_score": 8
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Design consistency with user expectations based on frequent browser behaviors.",
-      "technical_spec": "Familiar UI patterns and search functionalities.",
-      "severity_score": 20
+      "title": "Miller's Law",
+      "description": "Limits information overload by chunking content into smaller, manageable groups.",
+      "technical_spec": "Designs utilize breaking information into chunks and sections.",
+      "severity_score": 7
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Utilizes familiar patterns users have experienced on other sites to increase usability.",
+      "technical_spec": "Adheres to conventional navigation and layout strategies.",
+      "severity_score": 6
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "User perception of more attractive designs being easier to use.",
-      "technical_spec": "Clean interface with Google's minimalistic design roots.",
-      "severity_score": 15
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "The limitation of human memory to handle about seven chunks of information.",
-      "technical_spec": "Streamlined information display and task segregation.",
-      "severity_score": 35
+      "description": "Encourages positive emotional response in users through clear and visually appealing designs.",
+      "technical_spec": "CSS frameworks and design guidelines ensure visuals are consistent and engaging.",
+      "severity_score": 5
     }
   ]
 }

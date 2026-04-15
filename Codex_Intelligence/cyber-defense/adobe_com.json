@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 218,
+    "rank": 228,
     "site": "adobe.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "3bc3b776953a6c6bc36b64376fa058cf"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "8dfe5bc6a98a9e235e72aaa851efe017"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "Enhanced security through multi-factor authentication for user accounts to prevent unauthorized access.",
-      "technical_spec": "Implemented via integrated third-party authentication providers.",
-      "severity_score": 5
+      "title": "Advanced Threat Protection",
+      "description": "Implementing AI-driven threat detection to proactively identify and mitigate potential cyber threats.",
+      "technical_spec": "Utilizes machine learning algorithms to detect anomalies.",
+      "severity_score": 45
+    },
+    {
+      "title": "Continuous Monitoring",
+      "description": "24/7 monitoring of network traffic and system performance to detect and respond to potential threats immediately.",
+      "technical_spec": "Security Operation Centers (SOC) with real-time analytics.",
+      "severity_score": 50
     },
     {
       "title": "Data Encryption",
-      "description": "Encryption methodologies are employed to protect sensitive data both at rest and in transit.",
-      "technical_spec": "AES-256 encryption for data at rest, TLS/SSL for data in transit.",
-      "severity_score": 10
+      "description": "Encryption of data both at rest and in transit to protect sensitive information.",
+      "technical_spec": "AES-256 encryption for data storage and TLS for data in transit.",
+      "severity_score": 40
     },
     {
-      "title": "Security Information and Event Management (SIEM)",
-      "description": "Proactive threat detection and response mechanisms through a SIEM system.",
-      "technical_spec": "Deployment of tools like Splunk or other SIEM platforms for real-time monitoring.",
-      "severity_score": 15
+      "title": "User Access Management",
+      "description": "Strict policies and mechanisms in place to control user access to sensitive data.",
+      "technical_spec": "Role-Based Access Control (RBAC) with multi-factor authentication.",
+      "severity_score": 60
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Periodic audits and penetration testing to uncover vulnerabilities and enhance security posture.",
-      "technical_spec": "Engagement of third-party cybersecurity firms for unbiased audits.",
-      "severity_score": 20
-    },
-    {
-      "title": "Zero Trust Architecture",
-      "description": "Adoption of a Zero Trust security framework to safeguard network resources and data.",
-      "technical_spec": "Verification of every user and device via micro-segmentation and least privilege access controls.",
-      "severity_score": 25
+      "title": "Vulnerability Management",
+      "description": "Regular assessments and patch management protocols to address security vulnerabilities.",
+      "technical_spec": "Patch cycles aligned with industry standards and regular penetration testing.",
+      "severity_score": 65
     }
   ]
 }

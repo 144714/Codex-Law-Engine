@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 211,
+    "rank": 221,
     "site": "google.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "5b9fb24349c225eb19f995247ae33ff9"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "ef0bd9f07fc606f8238c6afe0f5c244f"
   },
   "data": [
     {
-      "title": "DDoS Protection",
-      "description": "Protects servers from Distributed Denial of Service attacks.",
-      "technical_spec": "Utilizes proprietary anti-DDoS technology and high-bandwidth capacity.",
-      "severity_score": 8
-    },
-    {
       "title": "End-to-End Encryption",
-      "description": "Ensures communication security by encrypting data between client and server.",
-      "technical_spec": "HTTPS with TLS encryption protocols.",
+      "description": "Protects data in transit and at rest through encryption protocols.",
+      "technical_spec": "Uses TLS for data in transit and AES for stored data.",
       "severity_score": 5
     },
     {
-      "title": "Threat Detection",
-      "description": "Analyzes traffic patterns to identify and mitigate potential threats.",
-      "technical_spec": "Machine learning algorithms for anomaly detection.",
+      "title": "Access Control and Authentication",
+      "description": "Enforces strict authentication and authorization protocols.",
+      "technical_spec": "Utilizes OAuth 2.0 and multi-factor authentication (MFA) mechanisms.",
       "severity_score": 12
     },
     {
-      "title": "Secure Authentication",
-      "description": "Protects user accounts with multi-factor authentication processes.",
-      "technical_spec": "OAuth 2.0 and FIDO2 standards for secure login.",
-      "severity_score": 10
+      "title": "Security Patch Management",
+      "description": "Regularly updates systems and applications to defend against vulnerabilities.",
+      "technical_spec": "Automated patch deployment and management system.",
+      "severity_score": 4
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regularly reviews and patches system vulnerabilities.",
-      "technical_spec": "Automated scanning tools and security audits.",
+      "title": "Intrusion Detection Systems (IDS)",
+      "description": "Monitors and flags suspicious activities in the network.",
+      "technical_spec": "Advanced anomaly detection algorithms and machine learning models employed.",
       "severity_score": 15
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Defends against distributed denial-of-service attacks.",
+      "technical_spec": "Traffic analysis tools and network-level defenses to mitigate DDoS attacks.",
+      "severity_score": 20
     }
   ]
 }

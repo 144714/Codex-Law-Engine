@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 212,
+    "rank": 222,
     "site": "youtube.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "cd4f718cdfd8b6c62b692a6def0c3ed9"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "ed5b5f2c5b64d14d4940d76213591625"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Enhances account security by requiring a second form of verification.",
-      "technical_spec": "Support for OAuth, SMS, and Authenticator apps.",
+      "title": "End-to-End Encryption",
+      "description": "Protects data by encrypting it from the source to the destination.",
+      "technical_spec": "AES-256 encryption standard for video and metadata.",
       "severity_score": 20
     },
     {
-      "title": "DDOS Protection Measures",
-      "description": "Mitigates Distributed Denial of Service attacks to maintain service availability.",
-      "technical_spec": "Employs techniques like rate limiting, traffic filtering, and global CDN edge servers.",
+      "title": "Bot and Spam Detection",
+      "description": "Utilizes algorithms to identify and mitigate bot activity and spam on the platform.",
+      "technical_spec": "Machine learning models trained on known spam patterns.",
       "severity_score": 30
     },
     {
-      "title": "Data Encryption",
-      "description": "Encrypts data in transit using TLS to secure user information.",
-      "technical_spec": "TLS 1.3 deployed for secure HTTP connections.",
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Provides an additional layer of security for user accounts.",
+      "technical_spec": "Supports SMS and authenticator apps for 2FA.",
+      "severity_score": 18
+    },
+    {
+      "title": "Secure API Gateways",
+      "description": "Ensures secure interactions between services through robust API security protocols.",
+      "technical_spec": "OAuth 2.0 for secure API authentication.",
       "severity_score": 25
     },
     {
-      "title": "Account Security Alerts",
-      "description": "Notifies users of suspicious login attempts to prevent unauthorized access.",
-      "technical_spec": "Utilizes machine learning to detect anomalies in user behavior.",
-      "severity_score": 30
-    },
-    {
-      "title": "Content Moderation Tools",
-      "description": "Filters inappropriate content and enforces community guidelines.",
-      "technical_spec": "Integrates AI-driven algorithms with human review processes.",
+      "title": "DDoS Protection",
+      "description": "Mitigates distributed denial-of-service attacks to keep services operational.",
+      "technical_spec": "Traffic analysis and mitigation tools monitor and restrict suspicious activity.",
       "severity_score": 35
     }
   ]

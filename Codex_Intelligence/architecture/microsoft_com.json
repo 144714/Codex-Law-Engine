@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 214,
+    "rank": 224,
     "site": "microsoft.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "9d32aac222e048f8e524f7d735ebb43d"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "b00c8db3b7ea66959222eb6e76727a31"
   },
   "data": [
     {
-      "title": "Responsive Design",
-      "description": "Ensures Microsoft site adapts to various device screens, from desktops to mobiles.",
-      "technical_spec": "Utilizes CSS media queries and flexible grids.",
-      "severity_score": 10
-    },
-    {
-      "title": "Microservices Infrastructure",
-      "description": "Allows independent scaling and deployment of components.",
-      "technical_spec": "Built using a range of services such as Azure Kubernetes Service.",
-      "severity_score": 15
-    },
-    {
-      "title": "Cloud Deployment",
-      "description": "Facilitates deployment and hosting in the cloud, offering scalability.",
-      "technical_spec": "Deployed on Microsoft Azure cloud platform.",
+      "title": "Modular Design",
+      "description": "Microsoft.com utilizes a modular architecture to ensure the seamless integration of various products and services.",
+      "technical_spec": "Microservices, RESTful APIs, containerization using Docker.",
       "severity_score": 20
     },
     {
-      "title": "Content Delivery Network",
-      "description": "Uses a CDN to ensure fast global content delivery.",
-      "technical_spec": "Leverages Azure CDN for efficient media asset distribution.",
-      "severity_score": 5
+      "title": "Cloud Infrastructure",
+      "description": "The website is hosted on Microsoft Azure, benefiting from cloud scalability and reliability.",
+      "technical_spec": "Azure Kubernetes Service, Azure CDN, serverless functions.",
+      "severity_score": 10
     },
     {
-      "title": "APIs and Integration",
-      "description": "Facilitates integration with third-party services and internal applications.",
-      "technical_spec": "Wide use of RESTful APIs for seamless data exchange.",
+      "title": "Responsive Design",
+      "description": "Ensures optimal performance and user experience across all devices.",
+      "technical_spec": "CSS flexbox, media queries, adaptive images.",
+      "severity_score": 15
+    },
+    {
+      "title": "Headless CMS",
+      "description": "Content is managed and delivered independently of the frontend.",
+      "technical_spec": "API-driven CMS approach, GraphQL endpoints.",
       "severity_score": 25
+    },
+    {
+      "title": "Scalable Networking",
+      "description": "Utilizes state-of-the-art networking solutions for content delivery.",
+      "technical_spec": "Load balancing, distributed databases, edge computing.",
+      "severity_score": 20
     }
   ]
 }

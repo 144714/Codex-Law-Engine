@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 217,
+    "rank": 227,
     "site": "spotify.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "a0eb02af71baeaff6404476dbe060b69"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "a42531a539f95c32ef8c4104f713bc83"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Spotify's architecture is based on a microservices model, which enables small teams to own and manage different parts of the application.",
-      "technical_spec": "Decoupled services, RESTful APIs, containerization, Kubernetes.",
-      "severity_score": 10
+      "title": "Microservices Architecture",
+      "description": "Spotify uses a microservices architecture to independently deploy and manage different services.",
+      "technical_spec": "Distributed services, scalable, enables CI/CD pipelines.",
+      "severity_score": 90
     },
     {
-      "title": "Data-Driven Architecture",
-      "description": "The system is designed to collect, process, and analyze large volumes of data in real-time to personalize user experiences.",
-      "technical_spec": "Apache Kafka, Google BigQuery, real-time data streaming.",
-      "severity_score": 15
+      "title": "Content Delivery Network (CDN)",
+      "description": "A CDN is used to distribute audio content efficiently to global users.",
+      "technical_spec": "Utilizes caching, edge servers, reduces latency.",
+      "severity_score": 85
     },
     {
-      "title": "Event-Driven Communication",
-      "description": "Event-driven architecture allows Spotify to handle asynchronous communication between services efficiently.",
-      "technical_spec": "Event sourcing, CQRS, Pub/Sub messaging systems.",
-      "severity_score": 12
+      "title": "Database Management",
+      "description": "Relational and NoSQL databases are deployed to handle user data and analytics.",
+      "technical_spec": "PostgreSQL, Cassandra, designed for high availability and fault tolerance.",
+      "severity_score": 88
     },
     {
-      "title": "Scalable Infrastructure",
-      "description": "Scalable servers to ensure reliability and availability during heavy traffic.",
-      "technical_spec": "AWS, Google Cloud Platform, auto-scaling groups.",
-      "severity_score": 8
+      "title": "Hybrid Cloud Infrastructure",
+      "description": "Spotify employs a combination of on-premises and cloud solutions to optimize performance.",
+      "technical_spec": "AWS services, multi-region support, Kubernetes orchestration.",
+      "severity_score": 92
     },
     {
-      "title": "Polycloud Strategy",
-      "description": "Utilization of multiple cloud providers to increase redundancy and optimize cost.",
-      "technical_spec": "Multi-cloud integrations, cloud resource management.",
-      "severity_score": 20
+      "title": "API Gateway",
+      "description": "Centralized management of APIs that serve as an entry point for clients.",
+      "technical_spec": "Handles authentication, rate limiting, request routing.",
+      "severity_score": 87
     }
   ]
 }

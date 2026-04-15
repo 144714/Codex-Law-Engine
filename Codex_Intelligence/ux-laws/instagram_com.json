@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 219,
+    "rank": 229,
     "site": "instagram.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "df57304b15cba2ff8237cec8f17c2498"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "b79d7abc455a5d882073e81d24df365b"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies choices to reduce decision time for user engagement.",
-      "technical_spec": "Streamlined UI paths, consistent iconography.",
-      "severity_score": 20
+      "title": "Hick's Law",
+      "description": "Simplified UI elements to minimize decision time for users.",
+      "technical_spec": "Key options are prioritized on the feed and profile screens.",
+      "severity_score": 10
     },
     {
-      "title": "Fitt’s Law",
-      "description": "Optimizes layout by placing frequent actions within easy reach.",
-      "technical_spec": "Responsive design, thumb-friendly navigation for mobile devices.",
-      "severity_score": 25
-    },
-    {
-      "title": "Aesthetic Usability Effect",
-      "description": "Leveraging aesthetics to enhance perceived usability and user satisfaction.",
-      "technical_spec": "Minimalistic design, high-quality visuals.",
+      "title": "Fitt's Law",
+      "description": "Optimized touch targets for user interactions.",
+      "technical_spec": "Enlarged interactive elements based on user touch data.",
       "severity_score": 15
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related elements to improve interface structure and readability.",
-      "technical_spec": "Grid systems, white space usage.",
+      "title": "Doherty Threshold",
+      "description": "Ensures fast system response times to keep users engaged.",
+      "technical_spec": "Average interaction time maintained under 400ms.",
       "severity_score": 20
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Designs memorable peak moments to enhance user experience.",
-      "technical_spec": "Interactive storytelling features, impactful transitions.",
-      "severity_score": 30
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing design that enhances perceived usability.",
+      "technical_spec": "High-quality imagery and a coherent color scheme.",
+      "severity_score": 5
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Intuitive grouping of related items to enhance navigation.",
+      "technical_spec": "Logical grouping in UI layouts, such as story highlights.",
+      "severity_score": 10
     }
   ]
 }

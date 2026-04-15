@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 217,
+    "rank": 227,
     "site": "spotify.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "fcfee2d32d36bc911de68b0237a8d7d7"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "2de8cd3e745c757dc1d4fd063d8a9ade"
   },
   "data": [
     {
+      "title": "Music Discovery and Personalization",
+      "description": "Central focus on user-driven music discovery through personalized playlists.",
+      "technical_spec": "AI-driven recommendations, user data analytics.",
+      "severity_score": 93
+    },
+    {
+      "title": "Cross-Platform Experience",
+      "description": "Seamless access to Spotify across various devices and operating systems.",
+      "technical_spec": "Synchronization between devices, platform-specific apps.",
+      "severity_score": 90
+    },
+    {
       "title": "Collaborative Playlists",
-      "description": "Emphasizes sharing music and building connections through joint playlist creation.",
-      "technical_spec": "Real-time playlist updates, multi-user access.",
-      "severity_score": 5
+      "description": "Enables users to create and share playlists with friends.",
+      "technical_spec": "Real-time collaboration, social sharing features.",
+      "severity_score": 88
     },
     {
-      "title": "Music Discovery",
-      "description": "Personalized recommendations to help users discover new music tailored to their tastes.",
-      "technical_spec": "Machine learning algorithms, user behavior analytics.",
-      "severity_score": 10
+      "title": "High-Quality Streaming",
+      "description": "Focus on delivering superior audio quality options to users.",
+      "technical_spec": "Multiple streaming quality settings, lossless audio support.",
+      "severity_score": 92
     },
     {
-      "title": "Cross-Platform Availability",
-      "description": "Seamless experience across multiple devices to maintain user engagement.",
-      "technical_spec": "Responsive design, app synchronization.",
-      "severity_score": 8
-    },
-    {
-      "title": "Social Integration",
-      "description": "Integration with social media to enhance community and connectivity.",
-      "technical_spec": "OAuth integration, shareable music links.",
-      "severity_score": 12
-    },
-    {
-      "title": "Curated Content",
-      "description": "Expert-curated playlists and content to enhance the listening experience and engagement.",
-      "technical_spec": "Editorial team input, artist partnerships.",
-      "severity_score": 15
+      "title": "Artist and Podcaster Platform",
+      "description": "Support for artist and podcaster tools to connect directly with their audience.",
+      "technical_spec": "Analytics tools for artists, podcaster publications.",
+      "severity_score": 89
     }
   ]
 }

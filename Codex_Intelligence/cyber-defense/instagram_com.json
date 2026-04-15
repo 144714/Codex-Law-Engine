@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 219,
+    "rank": 229,
     "site": "instagram.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "9d397780127ef2aca5129484ae005b5e"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "5fb23afb38ec3fb80faa21cee7a314e5"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Enhances user security with additional verification steps during login.",
-      "technical_spec": "TOTP, SMS-based 2FA support.",
-      "severity_score": 15
+      "title": "Two-Factor Authentication",
+      "description": "Enhanced account security via secondary authentication.",
+      "technical_spec": "Supports SMS and authenticator apps.",
+      "severity_score": 45
     },
     {
-      "title": "End-to-End Encryption",
-      "description": "Ensures the privacy of messages and user data through encryption protocols.",
-      "technical_spec": "AES-256 encryption, RSA keys for data protection.",
+      "title": "Data Encryption",
+      "description": "Ensures privacy through encryption of data in transit and at rest.",
+      "technical_spec": "Uses TLS for encryption in transit and AES-256 for data at rest.",
       "severity_score": 30
     },
     {
-      "title": "Automated Threat Detection",
-      "description": "Monitors and mitigates suspicious activities through real-time analysis.",
-      "technical_spec": "Machine learning algorithms for threat analysis, integration with SIEM systems.",
+      "title": "Account Takeover Protection",
+      "description": "Prevention measures against unauthorized account access.",
+      "technical_spec": "Machine learning models detect and block suspicious logins.",
+      "severity_score": 50
+    },
+    {
+      "title": "Bug Bounty Program",
+      "description": "Incentivizes discovery of security vulnerabilities by external researchers.",
+      "technical_spec": "Managed through a platform like HackerOne.",
+      "severity_score": 40
+    },
+    {
+      "title": "SOC Monitoring",
+      "description": "24/7 security operations center for threat detection and response.",
+      "technical_spec": "Uses advanced SIEM tools for log analysis.",
       "severity_score": 35
-    },
-    {
-      "title": "Secure Development Lifecycle",
-      "description": "Incorporates security practices at each phase of software development.",
-      "technical_spec": "Static code analysis tools, OWASP guidelines.",
-      "severity_score": 25
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic security assessments and vulnerability testing.",
-      "technical_spec": "Penetration testing tools, vulnerability scanners like Nessus.",
-      "severity_score": 20
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 211,
+    "rank": 221,
     "site": "google.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "c01fd3a587d851a9870d026c0493c674"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "1cbc42aa43b047541af8915ddf6768d5"
   },
   "data": [
     {
+      "title": "Microservices Architecture",
+      "description": "Google employs a microservices architecture allowing services to be independently developed and deployed.",
+      "technical_spec": "Uses containerization with Kubernetes for managing microservices.",
+      "severity_score": 5
+    },
+    {
       "title": "Load Balancing",
-      "description": "Distribution of incoming network traffic across multiple servers to ensure reliability and responsiveness.",
-      "technical_spec": "Uses global and regional load balancers with failover capabilities.",
+      "description": "Advanced load balancing techniques ensure even distribution of traffic across servers.",
+      "technical_spec": "Uses proprietary global load balancing system with DNS-based and direct routing methods.",
       "severity_score": 10
     },
     {
-      "title": "Microservices",
-      "description": "Application design pattern involving loosely coupled services for flexibility and scalability.",
-      "technical_spec": "Implemented using Kubernetes for container orchestration.",
-      "severity_score": 20
+      "title": "Scalable Data Infrastructure",
+      "description": "Google’s architecture scales horizontally, allowing it to handle massive data volumes.",
+      "technical_spec": "Incorporates NoSQL databases like Bigtable combined with distributed file storage systems.",
+      "severity_score": 8
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Utilizes Edge Network to distribute content proximally to users.",
-      "technical_spec": "Built over Google's own global infrastructure.",
-      "severity_score": 15
+      "description": "Leverages a global CDN to accelerate content delivery and reduce latency.",
+      "technical_spec": "Operates Edge Points for caching content close to users.",
+      "severity_score": 7
     },
     {
-      "title": "Data Caching",
-      "description": "Caches frequently accessed data to improve response time and reduce server load.",
-      "technical_spec": "Employs multi-layered caching strategies with Redis and in-memory data stores.",
-      "severity_score": 25
-    },
-    {
-      "title": "Server-Side Rendering",
-      "description": "Renders web pages on the server and sends fully-built pages to the client.",
-      "technical_spec": "Used to enhance page load performance and SEO.",
-      "severity_score": 30
+      "title": "Fault Tolerance",
+      "description": "Ensures system resilience and uptime through redundancy and failovers.",
+      "technical_spec": "Implements failover strategies using distributed systems and replication.",
+      "severity_score": 3
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 220,
+    "rank": 230,
     "site": "whatsapp.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "b9b6dd03453afa6e78b0fee1c1486a30"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "960ea97071226333d4116d7dd40f12eb"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "WhatsApp employs a scalable microservices architecture to manage user interactions and features efficiently.",
-      "technical_spec": "The system is composed of multiple microservices, each responsible for specific functionalities like messaging, media sharing, and user authentication, typically using RESTful APIs.",
-      "severity_score": 20
+      "title": "Microservices Framework",
+      "description": "WhatsApp utilizes a microservices architecture to scale its application efficiently across millions of users worldwide.",
+      "technical_spec": "Docker, Kubernetes, RESTful APIs",
+      "severity_score": 85
     },
     {
       "title": "End-to-End Encryption",
-      "description": "WhatsApp uses end-to-end encryption to ensure that only the communicating users can read the messages, enhancing privacy.",
-      "technical_spec": "Utilizes the Signal Protocol to encrypt messages, which means even WhatsApp cannot access the message contents.",
-      "severity_score": 10
+      "description": "Ensures that only the communicating users can read the messages, preventing even WhatsApp from decrypting them.",
+      "technical_spec": "Signal Protocol, Curve25519, AES-256, HMAC-SHA256",
+      "severity_score": 95
     },
     {
-      "title": "Cross-Platform Synchronization",
-      "description": "Provides real-time message and data synchronization across multiple platforms, including iOS, Android, and web.",
-      "technical_spec": "Relies on cloud services and persistent connections to ensure data is consistent and up-to-date across user devices.",
-      "severity_score": 25
+      "title": "Datacenter Configuration",
+      "description": "Globally distributed servers to provide fast and reliable access to users around the world.",
+      "technical_spec": "Geographically distributed data centers, Content Distribution Networks (CDN)",
+      "severity_score": 80
     },
     {
-      "title": "Messaging Protocol",
-      "description": "A custom messaging protocol that ensures reliable and fast message delivery across global networks.",
-      "technical_spec": "Based on the XMPP protocol but heavily modified for optimization and reliability at scale.",
-      "severity_score": 15
+      "title": "Persistence Layer",
+      "description": "Database systems optimized for quick retrieval and storage of messages and media.",
+      "technical_spec": "Cassandra, Erlang",
+      "severity_score": 78
     },
     {
-      "title": "Data Storage and Management",
-      "description": "WhatsApp efficiently handles large volumes of data with a robust storage management system.",
-      "technical_spec": "Uses a mix of on-premise and cloud solutions, including database technologies like MySQL or NoSQL databases for scalable storage.",
-      "severity_score": 30
+      "title": "Push Notification System",
+      "description": "A robust system to ensure reliable message delivery alerts to users via their devices.",
+      "technical_spec": "APNs, FCM, SMPP",
+      "severity_score": 88
     }
   ]
 }

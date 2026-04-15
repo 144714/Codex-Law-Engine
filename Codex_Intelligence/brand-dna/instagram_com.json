@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 219,
+    "rank": 229,
     "site": "instagram.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "57101550d47869196094b17d2530e29c"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "e51f20ebf17e0645c001af82274f9dde"
   },
   "data": [
     {
-      "title": "Community-Centric",
-      "description": "Focuses on building supportive and interconnected communities globally.",
-      "technical_spec": "Features like Stories and Algorithms for personalized feed.",
+      "title": "Visual Storytelling",
+      "description": "Focuses on image and video content to drive engagement.",
+      "technical_spec": "High-resolution support and a robust publishing platform.",
+      "severity_score": 5
+    },
+    {
+      "title": "Community Building",
+      "description": "Central to its philosophy is fostering user-generated content.",
+      "technical_spec": "Hashtags, mentions, and community guidelines.",
+      "severity_score": 10
+    },
+    {
+      "title": "Global Reach",
+      "description": "Creating a universal experience through localization.",
+      "technical_spec": "Support for multiple languages and localized content curation.",
       "severity_score": 20
     },
     {
-      "title": "Creative Expression",
-      "description": "Provides tools for users to creatively express themselves with visuals.",
-      "technical_spec": "Photo filters, editing tools, AR effects.",
+      "title": "Influencer Ecosystem",
+      "description": "Empowering creators to amplify brand messages.",
+      "technical_spec": "Tools for analytics and sponsored content partnerships.",
       "severity_score": 15
     },
     {
-      "title": "Privacy Conscious",
-      "description": "Commitment to safeguarding user data and privacy.",
-      "technical_spec": "Privacy settings, user consent mechanisms.",
-      "severity_score": 25
-    },
-    {
-      "title": "Innovative Engagement",
-      "description": "Implements novel interaction methods to encourage user interaction.",
-      "technical_spec": "Live updates, IGTV, Reels.",
-      "severity_score": 30
-    },
-    {
-      "title": "Accessibility Importance",
-      "description": "Prioritizes accessibility to make Instagram usable by everyone.",
-      "technical_spec": "ALT text for images, color contrast settings.",
+      "title": "Innovation Culture",
+      "description": "Continuous development and feature releases to stay competitive.",
+      "technical_spec": "Collaborative approach to feature rollouts and user testing.",
       "severity_score": 10
     }
   ]

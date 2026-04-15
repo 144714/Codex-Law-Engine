@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 216,
+    "rank": 226,
     "site": "netflix.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "3726dd93e1080b5d92bfaabbda0e4469"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "e1e57b397be797dfa70a3d569f91dd1b"
   },
   "data": [
     {
-      "title": "TLS/SSL Encryption",
-      "description": "Netflix encrypts data in transit using industry-standard encryption protocols to protect sensitive information.",
-      "technical_spec": "TLS 1.3 for client-server encryption.",
-      "severity_score": 5
+      "title": "End-to-End Encryption",
+      "description": "Protects data communication from user devices to Netflix servers.",
+      "technical_spec": "Employs HTTPS/SSL across all data exchanges.",
+      "severity_score": 98
     },
     {
-      "title": "DDoS Protection",
-      "description": "Implements DDoS mitigation techniques to protect against distributed denial of service attacks.",
-      "technical_spec": "AWS Shield Advanced and custom-built defense mechanisms.",
-      "severity_score": 10
+      "title": "Content Protection",
+      "description": "Prevents unauthorized copying and distribution of digital media.",
+      "technical_spec": "Utilizes DRM technologies such as PlayReady, Widevine, and FairPlay.",
+      "severity_score": 94
     },
     {
-      "title": "User Authentication and Access Control",
-      "description": "Robust user authentication mechanisms to ensure secure access to accounts.",
-      "technical_spec": "Multi-factor authentication and OAuth 2.0 protocols.",
-      "severity_score": 15
+      "title": "Identity and Access Management",
+      "description": "Ensures secure and authorized access to user accounts.",
+      "technical_spec": "Two-factor authentication and continual login session monitoring.",
+      "severity_score": 90
     },
     {
-      "title": "Security Monitoring and Incident Response",
-      "description": "Continuous monitoring for security threats with a dedicated incident response team.",
-      "technical_spec": "SIEM tools and real-time anomaly detection.",
-      "severity_score": 12
+      "title": "Threat Detection",
+      "description": "Monitors and identifies suspicious activity.",
+      "technical_spec": "Employs machine learning algorithms to detect anomalies in traffic patterns.",
+      "severity_score": 92
     },
     {
-      "title": "Data Privacy and Compliance",
-      "description": "Adheres to global data privacy standards such as GDPR.",
-      "technical_spec": "Data anonymization and transparency in data usage.",
-      "severity_score": 8
+      "title": "Security Incident Response",
+      "description": "Improves recovery time in the event of a security breach.",
+      "technical_spec": "Integrates cloud-native monitoring tools and automated response protocols.",
+      "severity_score": 91
     }
   ]
 }

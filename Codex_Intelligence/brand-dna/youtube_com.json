@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 212,
+    "rank": 222,
     "site": "youtube.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "8f04659504dd590ce8dd399d9b33bea5"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "8b36f48e636ae623d92d52f7eb6ef1c1"
   },
   "data": [
     {
-      "title": "Community-Centric",
-      "description": "Emphasis on fostering a global community through user-generated content.",
-      "technical_spec": "Features like comments, live chats, and community posts.",
-      "severity_score": 20
+      "title": "User-Generated Content Platform",
+      "description": "A platform where users can create and share videos.",
+      "technical_spec": "Supports various video formats and resolutions for upload by users.",
+      "severity_score": 50
     },
     {
-      "title": "Innovative Technology",
-      "description": "Commitment to using cutting-edge tech for video delivery and user experience.",
-      "technical_spec": "Regular updates integrating AI, AR, and greater interactivity in content.",
-      "severity_score": 20
+      "title": "Algorithm-Driven Recommendations",
+      "description": "Employs algorithms to personalize content recommendations for users.",
+      "technical_spec": "Machine learning models analyze user behavior and preferences.",
+      "severity_score": 45
     },
     {
-      "title": "Accessibility Focus",
-      "description": "Prioritizes inclusivity with tools for various user needs.",
-      "technical_spec": "Closed captions, audio descriptions, and screen reader optimization.",
-      "severity_score": 15
+      "title": "Monetization and Partner Program",
+      "description": "Enables content creators to earn revenue through ads and partnerships.",
+      "technical_spec": "Integrated with AdSense and other revenue-generating tools.",
+      "severity_score": 55
     },
     {
-      "title": "Global Reach",
-      "description": "Ensures content accessibility and relevance for diverse international audiences.",
-      "technical_spec": "Multi-language support and localized content recommendations.",
-      "severity_score": 20
+      "title": "Community Engagement Tools",
+      "description": "Features such as comments, likes, and shares to foster community interaction.",
+      "technical_spec": "Robust social and interaction tools embedded in the platform.",
+      "severity_score": 40
     },
     {
-      "title": "Educational Resource",
-      "description": "Supports educational content creators with monetization and outreach tools.",
-      "technical_spec": "YouTube EDU, partnerships and YouTube Kids for safe learning environments.",
-      "severity_score": 25
+      "title": "Mobile Accessibility",
+      "description": "Optimized for mobile devices to cater to the growing mobile-first audience.",
+      "technical_spec": "Adaptive streaming and UI optimizations for mobile platforms.",
+      "severity_score": 35
     }
   ]
 }

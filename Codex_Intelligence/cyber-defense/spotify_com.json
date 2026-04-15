@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 217,
+    "rank": 227,
     "site": "spotify.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "8cc22a4f918a3c59cf0ca49a2983b21c"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "85465f46a56dc06d57a2ddb1900e35b6"
   },
   "data": [
     {
-      "title": "Encryption",
-      "description": "Advanced encryption techniques are used to protect user data both in transit and at rest.",
-      "technical_spec": "TLS for data in transit, AES-256 for data at rest.",
-      "severity_score": 5
+      "title": "Data Encryption",
+      "description": "Encryption is applied to data at rest and in transit for user privacy.",
+      "technical_spec": "AES-256 encryption, TLS for secure connections.",
+      "severity_score": 95
     },
     {
-      "title": "Threat Detection",
-      "description": "A comprehensive suite of tools is employed to detect and mitigate potential cyber threats in real time.",
-      "technical_spec": "Intrusion detection systems (IDS), SIEM solutions.",
-      "severity_score": 25
+      "title": "Threat Detection and Monitoring",
+      "description": "Continuous monitoring for unusual activity using AI-driven tools.",
+      "technical_spec": "SIEM tools, anomaly detection, real-time alerting.",
+      "severity_score": 89
     },
     {
-      "title": "Access Control",
-      "description": "Strict access control mechanisms ensure that sensitive data is accessible only to authorized personnel.",
-      "technical_spec": "Role-based access control (RBAC), multi-factor authentication (MFA).",
-      "severity_score": 15
+      "title": "Access Control and Authentication",
+      "description": "Strict access control policies and multi-factor authentication (MFA) are enforced.",
+      "technical_spec": "OAuth 2.0, multi-factor verification methods.",
+      "severity_score": 92
     },
     {
-      "title": "Security Audits",
-      "description": "Regular security audits and vulnerability assessments are conducted to maintain a robust security posture.",
-      "technical_spec": "Penetration testing, regular code reviews.",
-      "severity_score": 18
+      "title": "DDoS Protection",
+      "description": "Strategies are implemented to mitigate the effects of distributed denial of service attacks.",
+      "technical_spec": "Traffic filtering, rate limiting, failover strategies.",
+      "severity_score": 90
     },
     {
-      "title": "Compliance",
-      "description": "Spotify is compliant with global data protection laws to safeguard user privacy.",
-      "technical_spec": "GDPR compliance, adherence to industry-specific regulations.",
-      "severity_score": 10
+      "title": "Security Patch Management",
+      "description": "Regular updates and patches to software vulnerabilities.",
+      "technical_spec": "Automated patch deployment, vulnerability scanning tools.",
+      "severity_score": 87
     }
   ]
 }

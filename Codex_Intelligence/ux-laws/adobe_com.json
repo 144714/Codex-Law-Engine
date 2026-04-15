@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 218,
+    "rank": 228,
     "site": "adobe.com",
-    "date": "2026-04-15 06:28",
-    "integrity_hash": "1beb44927228b873bd8c33b0dd2c59dd"
+    "date": "2026-04-15 08:23",
+    "integrity_hash": "8c52bcf3f2742461c6afb365f08d0408"
   },
   "data": [
     {
-      "title": "Fitt's Law",
-      "description": "Interface design follows Fitt’s Law to ensure that target areas are sized appropriately for efficient user interaction.",
-      "technical_spec": "User interface elements are designed with accessibility and ease-of-use in mind.",
-      "severity_score": 5
-    },
-    {
       "title": "Hick's Law",
-      "description": "Simplification of choices in the UI minimizes the time required for users to make decisions.",
-      "technical_spec": "Implementing streamlined navigation and reducing cognitive load across platforms.",
-      "severity_score": 10
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Design elements are structured to present information in chunks, easing cognitive processing.",
-      "technical_spec": "Information architecture utilizes grouping to support Miller's limit of human memory.",
-      "severity_score": 15
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Ensuring consistency with user expectations by following familiar conventions in UI design.",
-      "technical_spec": "Adopts design patterns that users are accustomed to from other industry-standard apps.",
+      "description": "Streamlined navigation to simplify decision-making processes for users, reducing choice overload.",
+      "technical_spec": "Use of minimalistic design elements and clear, concise navigation paths.",
       "severity_score": 20
     },
     {
-      "title": "Law of Proximity",
-      "description": "Elements within a UI are positioned in relation to each other to indicate association and improve user perception.",
-      "technical_spec": "Utilizes proximity in layout design to enhance visual cohesion and usability.",
+      "title": "Fitt's Law",
+      "description": "Design considerations for user interface elements ensure they're easily clickable and accessible.",
+      "technical_spec": "Appropriate sizing and spacing of clickable elements in the website's UI.",
       "severity_score": 25
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Design employs principles like proximity and similarity to improve content organization and readability.",
+      "technical_spec": "Consistent spacing, typography styles, and alignment practices.",
+      "severity_score": 30
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Familiarity is maintained by using standard web conventions for navigation and layout.",
+      "technical_spec": "Standardized iconography, search functionalities, and breadcrumb navigation.",
+      "severity_score": 15
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Information is presented in small, manageable chunks to enhance user memory retention.",
+      "technical_spec": "Use of concise paragraphs, bulleted lists, and highlighted text.",
+      "severity_score": 35
     }
   ]
 }
