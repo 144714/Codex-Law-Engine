@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 322,
+    "rank": 332,
     "site": "youtube.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "4fc0129dd83331f4d5f3daa2b365d991"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "ab059eccf82811d51187ab371f2ebee5"
   },
   "data": [
     {
-      "title": "User-Generated Content",
-      "description": "Empowers users to create and share content globally.",
-      "technical_spec": "Supports varied content formats like video, live streams, and shorts.",
-      "severity_score": 5
+      "title": "Community Engagement",
+      "description": "Fosters a sense of community with comments, likes, and sharing features.",
+      "technical_spec": "Interactive modules with real-time feedback systems.",
+      "severity_score": 50
     },
     {
-      "title": "Global Accessibility",
-      "description": "Ensures content accessibility across different devices and regions.",
-      "technical_spec": "Develops mobile apps and responsive browser interfaces.",
-      "severity_score": 10
+      "title": "Influencer Partnerships",
+      "description": "Collaborates with content creators to promote brand integration.",
+      "technical_spec": "Partner management tools and analytics for influencer metrics.",
+      "severity_score": 35
     },
     {
-      "title": "Monetization Opportunities",
-      "description": "Offers revenue generation tools for content creators.",
-      "technical_spec": "Includes ads integration, memberships, and Super Chat features.",
-      "severity_score": 15
+      "title": "Diversified Content Formats",
+      "description": "Supports a wide range of media formats including HDR and 360-degree videos.",
+      "technical_spec": "Advanced codecs for video processing and multidimensional rendering.",
+      "severity_score": 45
     },
     {
-      "title": "Community Building",
-      "description": "Fosters an interactive community around video content.",
-      "technical_spec": "Features comment sections, likes, and subscriptions for social interaction.",
-      "severity_score": 10
-    },
-    {
-      "title": "Innovative Engagements",
-      "description": "Introduces new forms of user engagement like VR and 360-degree videos.",
-      "technical_spec": "Develops compatibility with VR headsets and 360 cameras for immersive experiences.",
+      "title": "Accessibility Initiatives",
+      "description": "Commits to inclusive access by supporting captions and translations.",
+      "technical_spec": "Speech recognition technology and multilingual support features.",
       "severity_score": 20
+    },
+    {
+      "title": "User Personalization",
+      "description": "Delivers tailored content recommendations based on user behavior data.",
+      "technical_spec": "Machine learning models for real-time personalization analytics.",
+      "severity_score": 65
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 328,
+    "rank": 338,
     "site": "adobe.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "fffb4c300d5c4f9381068d416ba7de65"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "3e1878b15eb7d99ff7f5300e9bb62ada"
   },
   "data": [
     {
-      "title": "Creativity and Design",
-      "description": "Adobe’s core identity revolves around empowering creativity and innovation in design.",
-      "technical_spec": "Flagship products like Photoshop and Illustrator underpin their branding.",
+      "title": "Creative Empowerment",
+      "description": "Adobe is committed to empowering creativity through its robust suite of tools.",
+      "technical_spec": "Offers products like Photoshop, Illustrator, Premiere Pro.",
+      "severity_score": 10
+    },
+    {
+      "title": "Innovation Legacy",
+      "description": "Adobe maintains a reputation for driving technological innovations in digital media.",
+      "technical_spec": "Investments in AI, machine learning, and mobile technologies.",
       "severity_score": 15
     },
     {
-      "title": "Collaboration",
-      "description": "Encourages collaborative work environments with tools that enhance teamwork.",
-      "technical_spec": "Adobe Creative Cloud features built-in collaboration tools.",
+      "title": "Community Focus",
+      "description": "Adobe fosters a global community of creatives and professionals through events and forums.",
+      "technical_spec": "Adobe MAX Conference, Behance platform.",
       "severity_score": 20
     },
     {
-      "title": "Digital Transformation",
-      "description": "Aims to lead and inspire digital transformation across industries.",
-      "technical_spec": "Solutions for digital marketing, media, and digital experience management.",
+      "title": "Sustainability Commitment",
+      "description": "Efforts towards sustainability and responsible environmental practices.",
+      "technical_spec": "Sustainability reports, eco-friendly initiatives.",
       "severity_score": 25
     },
     {
-      "title": "Sustainability",
-      "description": "Committed to sustainable practices and reducing environmental impact.",
-      "technical_spec": "Sustainable product lifecycles and energy-efficient data centers.",
-      "severity_score": 30
-    },
-    {
-      "title": "Innovation",
-      "description": "Continuous focus on research and development to innovate and improve.",
-      "technical_spec": "Adobe Sensei for AI and machine learning innovations.",
-      "severity_score": 35
+      "title": "Diversity and Inclusion",
+      "description": "Adobe promotes diversity and inclusivity within its workforce and product offerings.",
+      "technical_spec": "Diversity programs, inclusive product designs.",
+      "severity_score": 20
     }
   ]
 }

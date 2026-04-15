@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 326,
+    "rank": 336,
     "site": "netflix.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "a7aae659d4e8bfe7337192933817c4be"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "8f06456d01657f9507029e5cb2c6c89d"
   },
   "data": [
     {
-      "title": "Zero Trust Security Model",
-      "description": "Netflix implements a zero trust model to ensure strict identity verification.",
-      "technical_spec": "Utilizes IAM, MFA, and strict access control policies.",
-      "severity_score": 15
-    },
-    {
-      "title": "DDoS Mitigation Strategies",
-      "description": "Netflix deploys technology to mitigate distributed denial-of-service attacks.",
-      "technical_spec": "Employs AWS Shield and load balancing strategies to reduce impact.",
+      "title": "Encryption Protocols",
+      "description": "Employs robust encryption to protect data at rest and in transit, ensuring user privacy.",
+      "technical_spec": "Uses TLS for data transmission and AES for storage encryption.",
       "severity_score": 20
     },
     {
-      "title": "Encryption and Data Protection",
-      "description": "Ensures data is encrypted in transit and at rest using industry standards.",
-      "technical_spec": "Utilizes TLS for data in transit and AES-256 for data at rest.",
-      "severity_score": 10
+      "title": "Identity and Access Management",
+      "description": "Strict control of user identities and permissions for both consumer and developer access.",
+      "technical_spec": "Employs multi-factor authentication and role-based access controls.",
+      "severity_score": 15
     },
     {
-      "title": "Security Monitoring and Response",
-      "description": "Proactive threat detection and incident response using advanced monitoring tools.",
-      "technical_spec": "Leveraging SIEM tools, machine learning for anomalous patterns.",
+      "title": "Distributed Denial of Service (DDoS) Protection",
+      "description": "Utilizes advanced measures to prevent and mitigate DDoS attacks, ensuring service availability.",
+      "technical_spec": "Incorporates traffic filtering and rate limiting at network edges.",
+      "severity_score": 20
+    },
+    {
+      "title": "Continuous Security Monitoring",
+      "description": "Maintains continuous surveillance of the operating environment to detect and respond to anomalies.",
+      "technical_spec": "Deploys automated systems for threat detection and incident response.",
       "severity_score": 25
     },
     {
-      "title": "Security Awareness Training",
-      "description": "Continuous security training programs for employees to mitigate human threats.",
-      "technical_spec": "Regular phishing simulations and awareness modules.",
-      "severity_score": 30
+      "title": "Security Compliance",
+      "description": "Adheres to international security standards to ensure data security and user trust.",
+      "technical_spec": "Regular compliance with standards like ISO 27001 and GDPR.",
+      "severity_score": 10
     }
   ]
 }

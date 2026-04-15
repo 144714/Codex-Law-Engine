@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 329,
+    "rank": 339,
     "site": "instagram.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "04fbe845ae834beaca548a7f33be69cf"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "abb79c79ced55cd53a4b106aaffcb45a"
   },
   "data": [
     {
       "title": "Visual Storytelling",
-      "description": "Creates a platform for dynamic sharing of personal stories through images and videos.",
-      "technical_spec": "Supports high-resolution images and multi-format video uploads.",
-      "severity_score": 10
+      "description": "Focuses on sharing moments through images and videos.",
+      "technical_spec": "High-resolution media upload and sharing capabilities.",
+      "severity_score": 8
     },
     {
-      "title": "Influencer Ecosystem",
-      "description": "Developed a robust environment supporting influencer marketing.",
-      "technical_spec": "Features like IGTV and Stories cater to content creators.",
-      "severity_score": 25
+      "title": "Community Building",
+      "description": "Connects users with shared interests and hobbies.",
+      "technical_spec": "Hashtags, group chats, and community guidelines.",
+      "severity_score": 22
     },
     {
-      "title": "Social Connectivity",
-      "description": "Facilitates seamless interaction and networking between users.",
-      "technical_spec": "Includes messaging, comments, and live video features.",
-      "severity_score": 5
+      "title": "Innovation in Social Media",
+      "description": "Continuously evolves features to maintain engagement.",
+      "technical_spec": "Frequent updates and addition of new functionalities like reels and shopping.",
+      "severity_score": 30
     },
     {
-      "title": "User Empowerment",
-      "description": "Offers tools for users to express creativity and individuality.",
-      "technical_spec": "Photo editing tools, filters, and creative digital media options.",
+      "title": "Mobile-First Experience",
+      "description": "Prioritizes seamless user experience on mobile devices.",
+      "technical_spec": "Native apps for iOS and Android, optimized for different screen sizes.",
       "severity_score": 12
     },
     {
-      "title": "Community Support",
-      "description": "Provides a sense of community with options for niche group creation.",
-      "technical_spec": "Group features, hashtags, and community guidelines.",
-      "severity_score": 8
+      "title": "Privacy and Trust",
+      "description": "Emphasizes user privacy and data security.",
+      "technical_spec": "Advanced privacy settings, transparency reports, and security features.",
+      "severity_score": 40
     }
   ]
 }

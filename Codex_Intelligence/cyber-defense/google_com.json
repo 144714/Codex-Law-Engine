@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 321,
+    "rank": 331,
     "site": "google.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "3582820d4ae4f8815e53c5ff9eef9737"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "c618cc60d3174bf07131c05a6ade2f6c"
   },
   "data": [
     {
-      "title": "Encryption",
-      "description": "Data in transit and at rest is encrypted using state-of-the-art cryptographic protocols.",
-      "technical_spec": "TLS for data in transit, AES-256 for data at rest.",
-      "severity_score": 5
+      "title": "Zero Trust Security",
+      "description": "Adopts a Zero Trust security model to safeguard access and networks.",
+      "technical_spec": "Verification of identity for every access attempt.",
+      "severity_score": 92
+    },
+    {
+      "title": "Encryption at Rest and in Transit",
+      "description": "Encrypts data both at rest and during transit to protect information.",
+      "technical_spec": "AES-256 for storage encryption, TLS for data in transit.",
+      "severity_score": 95
+    },
+    {
+      "title": "Security Incident Detection",
+      "description": "Monitors for suspicious behavior and potential security threats continuously.",
+      "technical_spec": "Employs machine learning algorithms for anomaly detection.",
+      "severity_score": 88
     },
     {
       "title": "DDoS Protection",
-      "description": "Implementing DDoS protection mechanisms to mitigate attack vectors.",
-      "technical_spec": "Utilizes Project Shield and Cloud Armor.",
-      "severity_score": 10
+      "description": "Advanced protection against Distributed Denial-of-Service attacks.",
+      "technical_spec": "Global server load balancing and filtering techniques.",
+      "severity_score": 90
     },
     {
-      "title": "User Authentication",
-      "description": "Secure and robust authentication layers to protect user accounts.",
-      "technical_spec": "OAuth 2.0, multi-factor authentication (MFA), FIDO2 support.",
-      "severity_score": 15
-    },
-    {
-      "title": "Security Auditing",
-      "description": "Regular security audits and penetration testing to identify vulnerabilities.",
-      "technical_spec": "Engagement with cybersecurity firms and internal security teams.",
-      "severity_score": 10
-    },
-    {
-      "title": "Phishing Protection",
-      "description": "Advanced AI algorithms to detect and block phishing attempts.",
-      "technical_spec": "Machine learning models and real-time threat intelligence.",
-      "severity_score": 20
+      "title": "Identity and Access Management",
+      "description": "Strict control over user and device access to resources.",
+      "technical_spec": "OPA-based policy management and multi-factor authentication.",
+      "severity_score": 89
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 328,
+    "rank": 338,
     "site": "adobe.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "970875f7765b4db2d9bcb4feac62df71"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "d4597b9895176e3faedbdccc88677ae4"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Adobe employs a microservices architecture to manage its diverse range of services and products efficiently.",
-      "technical_spec": "Service-oriented architecture using Docker and Kubernetes for container orchestration.",
-      "severity_score": 15
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Akamai CDN is used to deliver content quickly and efficiently to a global audience.",
-      "technical_spec": "Integration with Akamai for global content distribution.",
-      "severity_score": 10
-    },
-    {
-      "title": "API-First Approach",
-      "description": "Focus on providing RESTful APIs for better integration across products.",
-      "technical_spec": "Use of OpenAPI standards for API definition and documentation.",
+      "description": "Adobe utilizes a microservices architecture to promote modularity and scalability across its wide range of software solutions.",
+      "technical_spec": "Defined APIs, containerized deployments, and distributed systems.",
       "severity_score": 20
     },
     {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "Adobe utilizes cloud infrastructure to ensure scalability and reliability of its services.",
-      "technical_spec": "AWS and Azure cloud services for scalable server and storage solutions.",
+      "title": "Cloud-Native Infrastructure",
+      "description": "Leveraging the cloud to enhance performance and availability for users globally.",
+      "technical_spec": "AWS and Azure integrations, serverless functions.",
+      "severity_score": 15
+    },
+    {
+      "title": "Content Delivery Networks (CDN)",
+      "description": "To ensure fast content delivery worldwide, CDNs are employed.",
+      "technical_spec": "Use of Akamai and other CDN services.",
       "severity_score": 25
     },
     {
-      "title": "Database Management",
-      "description": "Combination of SQL and NoSQL databases to handle structured and unstructured data.",
-      "technical_spec": "MySQL and MongoDB for versatile data handling.",
+      "title": "Scalable Storage Solutions",
+      "description": "Adobe uses distributed storage solutions for its creative cloud and other applications.",
+      "technical_spec": "Object storage, data lakes and NoSQL databases.",
       "severity_score": 30
+    },
+    {
+      "title": "Continuous Integration/Deployment",
+      "description": "Supports agile development practices with CI/CD pipelines.",
+      "technical_spec": "Jenkins, Docker, Kubernetes for deployment.",
+      "severity_score": 20
     }
   ]
 }

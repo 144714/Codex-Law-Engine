@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 323,
+    "rank": 333,
     "site": "apple.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "6b009c73169a3236ac1b2cca8ee0a9bb"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "6758854cbc378926d452f3093d5a772d"
   },
   "data": [
     {
-      "title": "Simplicity",
-      "description": "The site embodies Apple's brand theme of simplicity, with a clean interface focused on ease of navigation and sleek aesthetics.",
-      "technical_spec": "Minimalistic design elements with a focus on whitespace and typography.",
-      "severity_score": 3
-    },
-    {
       "title": "Innovation",
-      "description": "Showcases cutting-edge technology products, emphasizing Apple's role as a leader in tech innovation.",
-      "technical_spec": "Regular content updates highlighting new product technologies and releases.",
-      "severity_score": 2
+      "description": "Focus on creating cutting-edge technology and services.",
+      "technical_spec": "Patent filings, New product lines every fiscal year.",
+      "severity_score": 85
     },
     {
-      "title": "Quality",
-      "description": "Reflects Apple's commitment to high standards through polished design and smooth functionality.",
-      "technical_spec": "Rigorously tested UI components for reliability and durability.",
-      "severity_score": 1
+      "title": "User-Centric Design",
+      "description": "Emphasizes intuitive and elegant user experiences.",
+      "technical_spec": "User feedback loops, Iterative design processes.",
+      "severity_score": 90
     },
     {
-      "title": "User-Friendliness",
-      "description": "Focus on creating an intuitive user journey from product discovery to checkout, fostering a positive customer experience.",
-      "technical_spec": "Strategically placed call-to-action buttons and clear navigation paths.",
-      "severity_score": 4
+      "title": "Ecosystem Cohesion",
+      "description": "Ensures seamless integration across Apple products.",
+      "technical_spec": "iCloud, Continuity features like Handoff and AirDrop.",
+      "severity_score": 95
+    },
+    {
+      "title": "Privacy and Security",
+      "description": "Commitment to protecting user data and system security.",
+      "technical_spec": "Privacy policies, Security frameworks.",
+      "severity_score": 98
     },
     {
       "title": "Sustainability",
-      "description": "Commitment to environmental initiatives is evident in the site’s representation of eco-friendly products and processes.",
-      "technical_spec": "Sections dedicated to Apple's environmental reports and sustainable practices.",
-      "severity_score": 5
+      "description": "Efforts toward environmentally-friendly practices.",
+      "technical_spec": "Recyclable material usage, Renewable energy operations.",
+      "severity_score": 80
     }
   ]
 }

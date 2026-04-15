@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 324,
+    "rank": 334,
     "site": "microsoft.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "5e992ac8c944e13798276ed6fab31922"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "e11aaad4bbfc3de7f7cf71be3ffae08f"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies user choices to decrease decision time and improve navigation efficiency.",
-      "technical_spec": "Minimalist navigation bars",
-      "severity_score": 20
-    },
-    {
-      "title": "Pareto Principle",
-      "description": "Focuses on the 20% of features that deliver 80% of value to users.",
-      "technical_spec": "Highlighted main product features",
-      "severity_score": 30
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Designs key action buttons larger and closer to natural click areas.",
-      "technical_spec": "Large, prominent CTAs (Call To Action)",
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing design that encourages user trust and engagement.",
+      "technical_spec": "Modern UI Design, Material Design Principles",
       "severity_score": 25
     },
     {
-      "title": "Jakob's Law",
-      "description": "Leverages users' familiarity with other major technology websites to ensure ease of use.",
-      "technical_spec": "Consistent interface guidelines",
-      "severity_score": 15
+      "title": "Hick's Law",
+      "description": "Simplification of decision-making by minimizing choices.",
+      "technical_spec": "Streamlined Navigation, Personalized Content Recommendations",
+      "severity_score": 20
     },
     {
-      "title": "Doherty Threshold",
-      "description": "Ensures response times are fast enough to keep users engaged.",
-      "technical_spec": "Fast page load times (<400ms)",
-      "severity_score": 10
+      "title": "Fitts’s Law",
+      "description": "Designs elements for faster interaction by optimizing button sizes and positions.",
+      "technical_spec": "Clickable Area Optimization, Adaptive Layouts",
+      "severity_score": 35
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Organizes content into smaller, manageable chunks to aid memorability.",
+      "technical_spec": "Progressive Disclosures, Accordion Menus",
+      "severity_score": 30
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Designs interfaces consistent with user expectations based on other familiar platforms.",
+      "technical_spec": "Standard Web Patterns, Consistent Visual Language",
+      "severity_score": 28
     }
   ]
 }

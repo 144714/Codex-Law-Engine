@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 325,
+    "rank": 335,
     "site": "amazon.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "2406417cf58cef75abb4a92065a7754c"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "068d00c876e35e06b8a2327ae0a999a3"
   },
   "data": [
     {
-      "title": "Customer-Centric Approach",
-      "description": "Focused on delivering exceptional customer experiences.",
-      "technical_spec": "24/7 customer service, responsive support teams",
-      "severity_score": 10
+      "title": "Customer Obsession",
+      "description": "Focus on building a platform that prioritizes customer satisfaction.",
+      "technical_spec": "24/7 customer support, generous return policies.",
+      "severity_score": 100
     },
     {
-      "title": "Innovative Culture",
-      "description": "Continual innovation to stay ahead in technology and service offerings.",
-      "technical_spec": "R&D investments, tech labs",
-      "severity_score": 15
+      "title": "Operational Excellence",
+      "description": "Continuous optimization of logistics and operations for efficiency.",
+      "technical_spec": "Automated warehousing, AI-driven supply chain.",
+      "severity_score": 97
     },
     {
-      "title": "Diverse Product Range",
-      "description": "Offers a comprehensive range of products across multiple categories.",
-      "technical_spec": "Vast product database, dynamic listing algorithms",
-      "severity_score": 20
+      "title": "Innovation Leadership",
+      "description": "Adopting cutting-edge technologies to enhance services continually.",
+      "technical_spec": "AI and machine learning applications, cloud computing advancements.",
+      "severity_score": 98
     },
     {
-      "title": "Global Reach",
-      "description": "World-wide presence with localized experiences.",
-      "technical_spec": "Country-specific sites, international logistics",
-      "severity_score": 30
+      "title": "Wide Product Selection",
+      "description": "Offers the largest selection of products available online.",
+      "technical_spec": "Integrated seller platform, global reach.",
+      "severity_score": 95
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Commitment to sustainable practices and reducing carbon footprint.",
-      "technical_spec": "Renewable energy initiatives, eco-friendly packaging",
-      "severity_score": 25
+      "title": "Convenience and Speed",
+      "description": "Ensuring fast shipping and convenient shopping experiences.",
+      "technical_spec": "Prime service, same-day delivery options.",
+      "severity_score": 96
     }
   ]
 }

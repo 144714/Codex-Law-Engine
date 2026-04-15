@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 330,
+    "rank": 340,
     "site": "whatsapp.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "26ead34714a537c602845c37d9f667a1"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "01ce6b74a1475794f0faffa0ad0f0acf"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Messages are secured with end-to-end encryption, preventing interception.",
-      "technical_spec": "Utilizes the Signal Protocol for securing messages.",
-      "severity_score": 90
+      "title": "Advanced Encryption",
+      "description": "End-to-end encryption ensures that only communicating users can read the messages.",
+      "technical_spec": "Encryption based on the Signal Protocol.",
+      "severity_score": 5
     },
     {
-      "title": "Two-step Verification",
-      "description": "Two-step verification is available to enhance account security.",
-      "technical_spec": "Optional feature requiring a six-digit PIN when registering phone number.",
-      "severity_score": 70
+      "title": "Two-Step Verification",
+      "description": "An optional feature that adds more security to users' accounts.",
+      "technical_spec": "Requires entering a passcode after the initial account setup.",
+      "severity_score": 30
+    },
+    {
+      "title": "Spam Detection",
+      "description": "Automatic detection and prevention systems to limit spam messages and fake accounts.",
+      "technical_spec": "Combines machine learning algorithms with community reports for accuracy.",
+      "severity_score": 40
     },
     {
       "title": "Regular Security Audits",
-      "description": "Continuous auditing of systems to mitigate vulnerabilities.",
-      "technical_spec": "Involves code review, penetration testing, and security updates.",
-      "severity_score": 60
+      "description": "Continuous security audits are conducted to identify and fix vulnerabilities.",
+      "technical_spec": "Audits include code reviews and pen testing.",
+      "severity_score": 25
     },
     {
-      "title": "Spam Detection Mechanisms",
-      "description": "Automated systems to identify and block spam messages.",
-      "technical_spec": "Includes algorithms and user reporting systems to flag inappropriate content.",
-      "severity_score": 50
-    },
-    {
-      "title": "Data Leak Prevention",
-      "description": "Procedures and technologies are in place to prevent data leaks.",
-      "technical_spec": "Includes data encryption and user access management.",
-      "severity_score": 85
+      "title": "Software Update Alerts",
+      "description": "Ensures users have the latest security patches through frequent app updates.",
+      "technical_spec": "Push notifications for updates.",
+      "severity_score": 20
     }
   ]
 }

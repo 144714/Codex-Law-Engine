@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 324,
+    "rank": 334,
     "site": "microsoft.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "bdf207dcf676717500671d279dfea44d"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "35116d710c0c5c6642f5417e9faf083f"
   },
   "data": [
     {
-      "title": "Cloud-Based Structure",
-      "description": "Microsoft.com is built on a cloud architecture using Azure services to ensure high availability and scalability.",
-      "technical_spec": "Azure App Services, Azure CDN",
+      "title": "Cloud Infrastructure",
+      "description": "Uses Azure Cloud for hosting and services, ensuring scalability and reliability.",
+      "technical_spec": "Azure Resource Manager, Virtual Machines, Load Balancers",
       "severity_score": 20
     },
     {
-      "title": "Microservices Infrastructure",
-      "description": "Implements microservices for modularity and independent deployment.",
-      "technical_spec": "Docker, Kubernetes on Azure",
+      "title": "Microservices Architecture",
+      "description": "Decomposed services to enhance modularity and independent deployment.",
+      "technical_spec": "Docker, Kubernetes, Azure Service Fabric",
       "severity_score": 30
     },
     {
-      "title": "Global Load Balancing",
-      "description": "Utilizes global load balancing to distribute user traffic across server locations.",
-      "technical_spec": "Azure Traffic Manager",
-      "severity_score": 25
-    },
-    {
       "title": "Content Delivery Network",
-      "description": "Employs a CDN to cache content close to users to improve site loading times.",
-      "technical_spec": "Azure CDN",
+      "description": "Implements CDN for fast content delivery to global users.",
+      "technical_spec": "Azure CDN, Edge nodes, Geo-replication",
       "severity_score": 15
     },
     {
-      "title": "Resilient Data Storage",
-      "description": "Uses multiple data centers and redundant systems for data storage.",
-      "technical_spec": "Azure Blob Storage, SQL Database",
-      "severity_score": 35
+      "title": "Responsive Design",
+      "description": "Ensures optimal user experience across devices and screen sizes.",
+      "technical_spec": "CSS Flexbox, Media Queries, Progressive Enhancement",
+      "severity_score": 25
+    },
+    {
+      "title": "API-Driven Architecture",
+      "description": "Utilizes APIs for data exchange and integration with various services.",
+      "technical_spec": "RESTful HTTP API, GraphQL, OAuth 2.0",
+      "severity_score": 30
     }
   ]
 }

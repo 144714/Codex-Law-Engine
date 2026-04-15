@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 321,
+    "rank": 331,
     "site": "google.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "f3f5bf32eaded66d2b2caf02ae360af8"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "210c2a5e2c1d0672388ac87bb722c7d7"
   },
   "data": [
     {
-      "title": "Market Leader",
-      "description": "Google is perceived as the leading search engine provider globally.",
-      "technical_spec": "Emphasizing search performance and speed.",
-      "severity_score": 5
-    },
-    {
       "title": "Innovation",
-      "description": "Constantly pushing the envelope with new technologies and services.",
-      "technical_spec": "R&D investments in AI, machine learning, and quantum computing.",
-      "severity_score": 10
+      "description": "Focuses on technological innovation and product development.",
+      "technical_spec": "Investment in AI and machine learning technologies.",
+      "severity_score": 93
     },
     {
       "title": "User-Centric Design",
-      "description": "Prioritizing user needs and satisfaction in all product designs.",
-      "technical_spec": "User feedback loops, focus on usability and accessibility.",
-      "severity_score": 5
+      "description": "Prioritizes user experience and accessibility across products.",
+      "technical_spec": "Human-centered design practices and inclusive features.",
+      "severity_score": 90
     },
     {
       "title": "Global Reach",
-      "description": "Offers services in a multitude of languages, reaching almost every corner of the online world.",
-      "technical_spec": "Localization efforts, multi-language support, international data centers.",
-      "severity_score": 10
+      "description": "Aims to provide services to a global audience.",
+      "technical_spec": "Localization and language support for diverse regions.",
+      "severity_score": 92
+    },
+    {
+      "title": "Sustainability",
+      "description": "Commits to environmentally sustainable practices.",
+      "technical_spec": "Investments in renewable energy and carbon footprint reductions.",
+      "severity_score": 91
     },
     {
       "title": "Data Privacy",
-      "description": "Commitment to data protection and user privacy.",
-      "technical_spec": "GDPR compliance, transparency reports, privacy settings.",
-      "severity_score": 20
+      "description": "Emphasizes on securing user data and privacy.",
+      "technical_spec": "Transparent data policies and controls for users.",
+      "severity_score": 94
     }
   ]
 }

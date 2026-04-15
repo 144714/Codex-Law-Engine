@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 326,
+    "rank": 336,
     "site": "netflix.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "99763cb3836ba6cece3e0cdf1e95a4f4"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "19a54ca2c8c096b4d3b8d6caf2925eea"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Designs focus on decision-making efficiency by limiting choices.",
-      "technical_spec": "UI displays minimalistic options for ease of navigation.",
+      "description": "Minimizes the number of choices to streamline decision-making and reduce user cognitive load.",
+      "technical_spec": "Interfaces are simplified, avoiding clutter and focusing on core functionality.",
       "severity_score": 15
     },
     {
       "title": "Fitts’s Law",
-      "description": "Enhances target accessibility to facilitate easy user interaction.",
-      "technical_spec": "Critical buttons and links are large and easily clickable.",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Designs are consistent with user expectations to reduce cognitive load.",
-      "technical_spec": "Interfaces are similar across devices and adhere to common patterns.",
-      "severity_score": 5
+      "description": "Designs with easy-to-access controls by placing important interactions within quick reach.",
+      "technical_spec": "Touch targets are large and positioned for intuitive use on various devices.",
+      "severity_score": 15
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing designs that enhance perceived usability.",
-      "technical_spec": "High-quality imagery and animations to draw user engagement.",
-      "severity_score": 20
+      "description": "Balances aesthetic design with usability, ensuring visually appealing and functional interfaces.",
+      "technical_spec": "Invests in high-quality imagery and consistent branding elements.",
+      "severity_score": 10
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Groups related items together to create intuitive and organized layouts.",
+      "technical_spec": "Grouping and spacing are used to imply relationships between content.",
+      "severity_score": 10
     },
     {
       "title": "Miller’s Law",
-      "description": "Applies user chunking to manage information complexity.",
-      "technical_spec": "Content is grouped into manageable, digestible units.",
-      "severity_score": 25
+      "description": "Conveys information in manageable chunks to facilitate retention and comprehension.",
+      "technical_spec": "Content is subdivided into logical sections with clear headings.",
+      "severity_score": 20
     }
   ]
 }

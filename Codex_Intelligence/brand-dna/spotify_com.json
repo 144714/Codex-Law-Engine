@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 327,
+    "rank": 337,
     "site": "spotify.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "0be490f8f5fec0e4a37fa2ff609e023d"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "7f928c97e7058311c6e5faa56cc97c19"
   },
   "data": [
     {
       "title": "Personalization",
-      "description": "Focuses on delivering a personalized music listening experience.",
-      "technical_spec": "Utilizes algorithms and user data to curate personalized playlists and recommendations.",
-      "severity_score": 18
+      "description": "Focus on personalized music experiences.",
+      "technical_spec": "Algorithm-driven recommendations based on user listening habits.",
+      "severity_score": 5
     },
     {
-      "title": "Discovery",
-      "description": "Empowers users to discover new music through curated playlists and daily mixes.",
-      "technical_spec": "Incorporates machine learning for dynamic playlist generation.",
-      "severity_score": 14
+      "title": "Cross-Platform Accessibility",
+      "description": "Support across multiple devices and platforms.",
+      "technical_spec": "Apps available for iOS, Android, desktop, and web with synchronized experiences.",
+      "severity_score": 5
     },
     {
-      "title": "Cross-Platform Experience",
-      "description": "Ensures seamless experience across various devices and operating systems.",
-      "technical_spec": "Maintains consistent UI and data syncing across mobile, desktop, and web applications.",
-      "severity_score": 9
-    },
-    {
-      "title": "Social Integration",
-      "description": "Facilitates sharing and collaborative playlist creation among users.",
-      "technical_spec": "Integrates with social media platforms and internal social features.",
-      "severity_score": 16
-    },
-    {
-      "title": "Music Streaming Quality",
-      "description": "Prioritizes high-quality audio streaming options for music enthusiasts.",
-      "technical_spec": "Offers different bitrate options, including high fidelity streaming with OGG Vorbis.",
+      "title": "Community Engagement",
+      "description": "Building a community through playlist sharing and social features.",
+      "technical_spec": "Integration of social media features, allowing playlist sharing and collaborative playlists.",
       "severity_score": 10
+    },
+    {
+      "title": "Innovative UX/UI",
+      "description": "Commitment to a user-friendly, innovative interface.",
+      "technical_spec": "Emphasizes intuitive design with constant updates based on user feedback.",
+      "severity_score": 5
+    },
+    {
+      "title": "Music Discovery",
+      "description": "Facilitates discovery of new music and artists.",
+      "technical_spec": "Curated playlists and algorithm-based discovery features like 'Discover Weekly.'",
+      "severity_score": 3
     }
   ]
 }

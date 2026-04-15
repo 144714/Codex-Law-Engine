@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 324,
+    "rank": 334,
     "site": "microsoft.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "82aef5df9a3cdabbae6e0ca3cb64c8fc"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "18a96909b8891764146f870c96f80c7f"
   },
   "data": [
     {
-      "title": "Multi-factor Authentication",
-      "description": "Enables MFA to ensure secure access to user accounts.",
-      "technical_spec": "Azure Multi-Factor Authentication",
+      "title": "Advanced Threat Protection",
+      "description": "Utilizes machine learning to detect and protect against threats.",
+      "technical_spec": "AI-based threat detection, Azure Security Center",
+      "severity_score": 40
+    },
+    {
+      "title": "Data Encryption",
+      "description": "Employs data encryption both at rest and in transit to secure user data.",
+      "technical_spec": "SSL/TLS, AES-256, BitLocker",
+      "severity_score": 35
+    },
+    {
+      "title": "Identity and Access Management",
+      "description": "Implements robust IAM systems for authentication and authorization.",
+      "technical_spec": "Azure Active Directory, Multi-Factor Authentication",
+      "severity_score": 45
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts frequent security audits and vulnerability assessments.",
+      "technical_spec": "Penetration testing, OWASP compliance, Vulnerability Scanning",
       "severity_score": 30
     },
     {
       "title": "DDoS Protection",
-      "description": "Implements protections against Distributed Denial of Service attacks.",
-      "technical_spec": "Azure DDoS Protection",
-      "severity_score": 40
-    },
-    {
-      "title": "Encryption Standards",
-      "description": "Uses SSL/TLS for data encryption in transit.",
-      "technical_spec": "TLS 1.2, AES-256 encryption",
-      "severity_score": 15
-    },
-    {
-      "title": "Vulnerability Scanning",
-      "description": "Regularly scans for vulnerabilities within the infrastructure.",
-      "technical_spec": "Azure Security Center",
-      "severity_score": 35
-    },
-    {
-      "title": "Access Management",
-      "description": "Strict access controls and monitoring of user access and actions.",
-      "technical_spec": "Azure AD Identity Protection",
-      "severity_score": 25
+      "description": "Protects against distributed denial-of-service attacks using specialized services.",
+      "technical_spec": "Azure DDoS Protection, Traffic Scrubbing, Rate Limiting",
+      "severity_score": 50
     }
   ]
 }

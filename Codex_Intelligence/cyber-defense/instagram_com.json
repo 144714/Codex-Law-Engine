@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 329,
+    "rank": 339,
     "site": "instagram.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "c38e591b4befa89f9be43981abb035bf"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "76dcadf6ea5f44d1428b0f7dbfa337d3"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Encrypts data in transit and at rest to protect user information.",
-      "technical_spec": "Uses TLS/SSL for data transit and AES for data at rest.",
-      "severity_score": 30
+      "title": "End-to-End Encryption",
+      "description": "Secure communication channels for private messaging.",
+      "technical_spec": "Uses HTTPS/TLS for data in transit.",
+      "severity_score": 5
     },
     {
       "title": "Two-Factor Authentication",
-      "description": "Offers 2FA for enhanced user account security.",
-      "technical_spec": "Supports SMS and authenticator apps for 2FA.",
-      "severity_score": 15
+      "description": "Adds an extra layer of security for user accounts.",
+      "technical_spec": "Supports both SMS-based and app-based (e.g., Google Authenticator) 2FA.",
+      "severity_score": 30
     },
     {
-      "title": "Threat Detection Systems",
-      "description": "Monitors and identifies potential threats to platform security.",
-      "technical_spec": "Utilizes a mix of AI-based algorithms and manual oversight.",
+      "title": "Intrusion Detection System",
+      "description": "Monitors network for malicious activities.",
+      "technical_spec": "Implements systems like Snort or customized IDS solutions.",
+      "severity_score": 45
+    },
+    {
+      "title": "Data Protection Protocols",
+      "description": "Protects user data from breaches and leaks.",
+      "technical_spec": "Regular audits and compliance with GDPR and CCPA.",
       "severity_score": 40
     },
     {
-      "title": "Incident Response Protocol",
-      "description": "Well-defined protocols to handle data breaches and security incidents.",
-      "technical_spec": "Real-time response systems with event logging and forensics capabilities.",
+      "title": "Regular Security Audits",
+      "description": "Routine checks to identify and fix vulnerabilities.",
+      "technical_spec": "Employs automated tools and third-party audits.",
       "severity_score": 25
-    },
-    {
-      "title": "Account Security Features",
-      "description": "Options like secure password reset and suspicious login alerts.",
-      "technical_spec": "Email and app-based notifications for unusual activity.",
-      "severity_score": 20
     }
   ]
 }

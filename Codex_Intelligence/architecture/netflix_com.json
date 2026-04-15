@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 326,
+    "rank": 336,
     "site": "netflix.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "2c446609402a6f0a990e9c8e62c5fc8c"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "c78c589a131aae8de65bb6ac932d1148"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Netflix uses a microservices architecture to break applications into smaller, independent services.",
-      "technical_spec": "Services communicate over HTTP/2 using gRPC, RESTful APIs, and utilize load balancing.",
-      "severity_score": 15
-    },
-    {
-      "title": "Cloud-Native Infrastructure",
-      "description": "Netflix is built on a cloud-native infrastructure, primarily hosted on AWS.",
-      "technical_spec": "Utilizes Amazon EC2, S3, and other AWS resources for scalable and resilient operations.",
-      "severity_score": 20
-    },
-    {
-      "title": "Global Content Delivery Network",
-      "description": "Netflix employs a CDN strategy using Open Connect for optimized content delivery.",
-      "technical_spec": "Open Connect appliances are embedded near ISPs for efficient video streaming.",
+      "title": "Microservices",
+      "description": "Netflix uses a microservices architecture to deploy and manage its applications, allowing for scalability and rapid deployment.",
+      "technical_spec": "Each service is independently deployable, managed with containers, and communicates over their own APIs.",
       "severity_score": 10
     },
     {
-      "title": "Service Discovery and Configuration",
-      "description": "Uses Eureka for service discovery and Archaius for dynamic configuration updates.",
-      "technical_spec": "Eureka is a REST-based service for locating services, Archaius allows for configurable properties.",
-      "severity_score": 25
+      "title": "Global Content Delivery Network (CDN)",
+      "description": "Utilizes CDNs for efficient content distribution and localization, providing low-latency access to users worldwide.",
+      "technical_spec": "Redundant nodes across global regions ensure high availability and quick loading times.",
+      "severity_score": 5
     },
     {
-      "title": "Data-Driven Infrastructure Management",
-      "description": "Leverages Spinnaker for continuous delivery and Asgard for AWS tracking.",
-      "technical_spec": "Spinnaker integrates with Jenkins, Asgard focuses on EC2 instance management.",
-      "severity_score": 30
+      "title": "Reactive Systems",
+      "description": "Incorporates reactive principles to ensure a responsive, resilient, and elastic user interaction experience.",
+      "technical_spec": "Systems are designed to be event-driven, scalable, and capable of handling unpredictable demand.",
+      "severity_score": 15
+    },
+    {
+      "title": "Cloud-Based Infrastructure",
+      "description": "Operates primarily on the cloud, allowing extensive compute power and storage scalability.",
+      "technical_spec": "Uses AWS for hosting and services, facilitating dynamic scaling, storage, and processing.",
+      "severity_score": 10
+    },
+    {
+      "title": "Data-Driven Decision Making",
+      "description": "Relies on big data analytics for decision support, personalization, and content recommendations.",
+      "technical_spec": "Integrated data warehouses and analytics engines process massive datasets for customer insights.",
+      "severity_score": 20
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 325,
+    "rank": 335,
     "site": "amazon.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "0b18514c2e55bf0645dafc304db0648f"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "621038147d036101e95a9ffcafaaddb0"
   },
   "data": [
     {
-      "title": "DDoS Protection",
-      "description": "Defensive mechanisms against distributed denial-of-service attacks.",
-      "technical_spec": "AWS Shield, AWS WAF",
-      "severity_score": 35
+      "title": "End-to-End Encryption",
+      "description": "Data is encrypted in transit and at rest to ensure user privacy.",
+      "technical_spec": "TLS/SSL encryption, AES-256 standard.",
+      "severity_score": 100
     },
     {
-      "title": "Data Encryption",
-      "description": "Deep encryption protocols for data at rest and in transit.",
-      "technical_spec": "KMS, TLS/SSL",
-      "severity_score": 50
+      "title": "DDoS Protection",
+      "description": "Advanced DDoS protection to safeguard against traffic surges.",
+      "technical_spec": "AWS Shield, AWS WAF.",
+      "severity_score": 98
     },
     {
       "title": "Identity and Access Management",
-      "description": "Strict control policies for user access and resource permissions.",
-      "technical_spec": "AWS IAM",
-      "severity_score": 40
+      "description": "Robust IAM policies to control and secure access to resources.",
+      "technical_spec": "AWS IAM, role-based access control.",
+      "severity_score": 96
     },
     {
-      "title": "Network Monitoring and Logging",
-      "description": "Constant monitoring of network for anomalies and logging suspicious activities.",
-      "technical_spec": "Amazon CloudWatch, GuardDuty",
-      "severity_score": 45
+      "title": "Continuous Security Monitoring",
+      "description": "Proactive monitoring and automatic threat detection.",
+      "technical_spec": "AWS CloudTrail, AWS GuardDuty.",
+      "severity_score": 97
     },
     {
-      "title": "Security Compliance",
-      "description": "Adhering to international standards and regulations for security measures.",
-      "technical_spec": "ISO/IEC 27001, PCI DSS",
-      "severity_score": 60
+      "title": "Compliance and Certifications",
+      "description": "Adherence to global security standards and certifications.",
+      "technical_spec": "ISO 27001, SOC 1/2/3 compliance.",
+      "severity_score": 95
     }
   ]
 }

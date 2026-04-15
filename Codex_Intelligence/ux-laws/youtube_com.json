@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 322,
+    "rank": 332,
     "site": "youtube.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "c9a9ace727be388253f4f51f16f7f6b1"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "f8bf7461c8e2714b824eabef91327b32"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies choices to reduce user decision-making time.",
-      "technical_spec": "Limits options on the interface to enhance user navigation.",
-      "severity_score": 20
+      "title": "Fitts's Law",
+      "description": "Optimizes interface elements placement for faster user interaction.",
+      "technical_spec": "Buttons sized for easy touch and placed in the most likely activation zones.",
+      "severity_score": 22
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Designs large clickable areas for frequently accessed features.",
-      "technical_spec": "Positioned key interactive elements within thumb reach on mobile UI.",
-      "severity_score": 30
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Optimizes content in bite-sized chunks for easy information processing.",
-      "technical_spec": "Employs playlists and series arrangements for logical content flow.",
-      "severity_score": 25
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Maintains consistency with familiar web navigation structures.",
-      "technical_spec": "Utilizes standard icons and menu placements across the platform.",
-      "severity_score": 15
+      "title": "Hick's Law",
+      "description": "Limits choices per screen to aid user decision-making.",
+      "technical_spec": "Intuitive design with dropdowns and progressive disclosure techniques.",
+      "severity_score": 18
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Enhances visual appeal to improve perceived usability.",
-      "technical_spec": "Incorporates a clean and visually pleasing design.",
-      "severity_score": 10
+      "description": "Enhances perceived usability through polished visual design.",
+      "technical_spec": "High-definition visuals and thematic color palettes with gradient usage.",
+      "severity_score": 40
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Aligns with user expectations by matching common usage patterns.",
+      "technical_spec": "Follows established web standards for navigation and content layout.",
+      "severity_score": 15
+    },
+    {
+      "title": "Zeigarnik Effect",
+      "description": "Motivates users by designing unfinished tasks to enhance engagement.",
+      "technical_spec": "Persistent notification badges and progress bars.",
+      "severity_score": 28
     }
   ]
 }

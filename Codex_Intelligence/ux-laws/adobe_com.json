@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 328,
+    "rank": 338,
     "site": "adobe.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "47255332b7d199d1a615b8cf540f4e58"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "0e889fbb7c1cd7337fecc55e104d76f9"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Strives to reduce the number of choices to improve decision-making time.",
-      "technical_spec": "Simplified navigation with intuitive user interface design.",
+      "title": "Hick's Law",
+      "description": "Simplifying user choices to enhance decision-making speed.",
+      "technical_spec": "Minimalist design approach, reduced navigation options.",
       "severity_score": 20
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Applies the principle to make interactive elements easy to select.",
-      "technical_spec": "Large clickable areas and buttons for key actions.",
+      "title": "Fitts's Law",
+      "description": "Optimizing user interface elements to improve accessibility and ease of use.",
+      "technical_spec": "Larger clickable areas, accessible touch targets.",
       "severity_score": 25
     },
     {
       "title": "Gestalt Principles",
-      "description": "Utilizes proximity, similarity, and closure for more organized user interfaces.",
-      "technical_spec": "Consistent design patterns and organized layout structures.",
+      "description": "Implementation of visual hierarchy and grouping for improved user comprehension.",
+      "technical_spec": "Use of contrast, alignment, and proximity.",
       "severity_score": 30
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related items to improve content readability and organization.",
-      "technical_spec": "Logical groupings of tools and features within applications.",
-      "severity_score": 35
+      "title": "Jakob's Law",
+      "description": "Design consistency with popular platforms to meet user expectations.",
+      "technical_spec": "Adherence to interface standards, familiarity in design language.",
+      "severity_score": 15
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Focuses on creating memorable user interactions by enhancing peak moments and endings.",
-      "technical_spec": "Highlighted features and smooth transitions for enhanced user experience.",
-      "severity_score": 40
+      "title": "Law of Proximity",
+      "description": "Elements close to each other are perceived as related, aiding in intuitive navigation.",
+      "technical_spec": "Logical grouping of menu items, clustered icons.",
+      "severity_score": 20
     }
   ]
 }

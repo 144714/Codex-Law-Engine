@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 323,
+    "rank": 333,
     "site": "apple.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "5eb4a6d0b54a94f2784aa0b342da4fde"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "d184800bb5f3c7789542dd4242428f39"
   },
   "data": [
     {
-      "title": "Monolithic Framework",
-      "description": "Apple.com employs a unified codebase that handles various services under one umbrella to ensure seamless integration and debuggability.",
-      "technical_spec": "An all-in-one architecture combining e-commerce, support, and marketing pages without microservices.",
-      "severity_score": 20
-    },
-    {
-      "title": "Managed Hosting",
-      "description": "Utilizes high-performance web servers optimized for Apple’s needs, ensuring high availability and load balancing.",
-      "technical_spec": "Hosted on Apple-managed infrastructure with custom configurations for optimal server performance.",
+      "title": "Responsive Design",
+      "description": "Optimized layout for varying screen sizes and resolutions.",
+      "technical_spec": "CSS Grid and Flexbox, Media Queries.",
       "severity_score": 10
     },
     {
-      "title": "Single Page Application Elements",
-      "description": "Certain sections on the site employ SPA techniques to provide a seamless user experience.",
-      "technical_spec": "JavaScript frameworks enable dynamic page updates without full reloads.",
-      "severity_score": 15
+      "title": "Microservices Architecture",
+      "description": "Breaks down applications into smaller, independent services.",
+      "technical_spec": "RESTful APIs, GraphQL, Kubernetes.",
+      "severity_score": 16
     },
     {
-      "title": "API Integration",
-      "description": "Various APIs are utilized for data fetching and service integrations, offering connective flexibility.",
-      "technical_spec": "RESTful and GraphQL APIs facilitate backend communication.",
-      "severity_score": 25
-    },
-    {
-      "title": "Responsive Design",
-      "description": "The site is built to adapt across devices, optimizing the layout and performance for different screen sizes.",
-      "technical_spec": "CSS media queries and fluid grid structures ensure responsiveness.",
+      "title": "Content Delivery Network",
+      "description": "Global distribution network to deliver content efficiently.",
+      "technical_spec": "Akamai, Cloudflare.",
       "severity_score": 5
+    },
+    {
+      "title": "Cloud Integration",
+      "description": "Uses cloud services for scalability and performance.",
+      "technical_spec": "AWS, Azure.",
+      "severity_score": 20
+    },
+    {
+      "title": "Progressive Web App",
+      "description": "Enhances web applications to work offline and be installable.",
+      "technical_spec": "Service Workers, Manifest Files.",
+      "severity_score": 12
     }
   ]
 }

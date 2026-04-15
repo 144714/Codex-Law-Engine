@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 330,
+    "rank": 340,
     "site": "whatsapp.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "9f82bf489329ce7dfd32861b7171b0af"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "f81fd2f458ccee44ad471edaddaa008e"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "WhatsApp uses a microservices architecture to maximize scalability and flexibility.",
-      "technical_spec": "Service-oriented architecture with APIs to allow seamless communication across services.",
-      "severity_score": 20
+      "title": "Microservice Architecture",
+      "description": "WhatsApp utilizes a microservice architecture to handle different functionalities like messaging, media sharing, and authentication.",
+      "technical_spec": "Decoupled services communicating over HTTP/REST APIs.",
+      "severity_score": 15
     },
     {
       "title": "End-to-End Encryption",
-      "description": "Fundamental to WhatsApp's architecture is its incorporation of end-to-end encryption for security.",
-      "technical_spec": "Encryption protocol ensures that only the communicating users can read messages.",
-      "severity_score": 80
+      "description": "All messages, calls, photos, and videos sent on WhatsApp are secured with end-to-end encryption.",
+      "technical_spec": "Uses Signal Protocol libraries.",
+      "severity_score": 5
     },
     {
-      "title": "Cloud-based Infrastructure",
-      "description": "WhatsApp operates on a distributed cloud-based platform for high availability and performance.",
-      "technical_spec": "Utilizes cloud servers for distributed computing and data storage.",
+      "title": "Database Management",
+      "description": "WhatsApp uses multiple databases to handle user data, message data, and media storage.",
+      "technical_spec": "Primarily uses SQL databases and NoSQL for media storage.",
       "severity_score": 30
     },
     {
-      "title": "Real-time Messaging Protocol",
-      "description": "Supporting instant communication, using protocols optimized for low latency.",
-      "technical_spec": "Based on protocols like XMPP tailored for mobile optimization.",
-      "severity_score": 40
+      "title": "Load Balancing",
+      "description": "WhatsApp employs load balancing to distribute incoming connection requests effectively.",
+      "technical_spec": "Utilizes DNS and server-side load balancing.",
+      "severity_score": 20
     },
     {
-      "title": "Cross-Platform Support",
-      "description": "WhatsApp's architecture supports various operating systems ensuring wide accessibility.",
-      "technical_spec": "Utilizes frameworks that allow seamless experiences on iOS, Android, and web platforms.",
-      "severity_score": 25
+      "title": "Scalability Solutions",
+      "description": "WhatsApp's architecture is built to support millions of concurrent connections globally.",
+      "technical_spec": "Uses sharding and partitioning strategies.",
+      "severity_score": 10
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 326,
+    "rank": 336,
     "site": "netflix.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "a8c8e654c7303b2b45c178f01e46c490"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "33c6dc76371009572034810a501c8b1b"
   },
   "data": [
     {
-      "title": "Innovative Storytelling",
-      "description": "Focus on producing original content that pushes creative boundaries.",
-      "technical_spec": "Develops and procures exclusive series and films in house.",
-      "severity_score": 10
-    },
-    {
-      "title": "Customer-Centric Approach",
-      "description": "Emphasizes a seamless and personalized viewer experience.",
-      "technical_spec": "Employs algorithms for personalized show recommendations.",
-      "severity_score": 15
-    },
-    {
-      "title": "Global Reach and Diversity",
-      "description": "Commitment to offering diverse content accessible worldwide.",
-      "technical_spec": "Content available in multiple languages with diverse cultural offerings.",
-      "severity_score": 20
-    },
-    {
-      "title": "Brand Partnership Integration",
-      "description": "Strategic partnerships to enhance brand visibility and content variety.",
-      "technical_spec": "Collaborations with brands for promotional content.",
+      "title": "Global Entertainment Leader",
+      "description": "Committed to delivering diverse and high-quality entertainment content worldwide.",
+      "technical_spec": "Invests heavily in original productions and international collaborations.",
       "severity_score": 25
     },
     {
-      "title": "Technology and Streaming Innovation",
-      "description": "Pioneers in streaming technology and adaptive bitrate streaming solutions.",
-      "technical_spec": "Uninterrupted streaming experience with adaptive technology.",
-      "severity_score": 5
+      "title": "Customer-Centric Innovation",
+      "description": "Pioneers new technologies to enhance user experience and content accessibility.",
+      "technical_spec": "Regularly launches new features based on advanced analytics and user feedback.",
+      "severity_score": 20
+    },
+    {
+      "title": "Data-Driven Engagement",
+      "description": "Leverages user data for personalized recommendations and targeted marketing.",
+      "technical_spec": "Utilizes machine learning algorithms to optimize content suggestions.",
+      "severity_score": 15
+    },
+    {
+      "title": "Commitment to Diversity",
+      "description": "Focuses on inclusive storytelling and diverse narratives globally.",
+      "technical_spec": "Collaborates with creators from diverse backgrounds and across cultures.",
+      "severity_score": 10
+    },
+    {
+      "title": "Seamless Cross-Platform Experience",
+      "description": "Provides consistent user experience across multiple devices and platforms.",
+      "technical_spec": "Ensures feature parity and adaptive design for all supported devices.",
+      "severity_score": 30
     }
   ]
 }

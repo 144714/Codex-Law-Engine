@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 329,
+    "rank": 339,
     "site": "instagram.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "8b961903e0d126e13222a6a33d1fe31c"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "91c0011e9bda05eedf62e14ecd7709ef"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies navigation with a limited number of choices.",
-      "technical_spec": "Minimalistic design to ensure quick decision-making.",
+      "title": "Hick's Law",
+      "description": "Simplifies decision-making processes for the user.",
+      "technical_spec": "Limits choices in navigation menus and interface elements.",
+      "severity_score": 15
+    },
+    {
+      "title": "Fitt's Law",
+      "description": "Ensures interfaces are optimized for ease of use.",
+      "technical_spec": "Designs large clickable areas for frequent tasks like 'Like' or 'Comment.'",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Considers cognitive limitations in user interaction design.",
+      "technical_spec": "Groups content into manageable chunks (e.g., stories and reels).",
       "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Design focused on making interaction targets easily selectable.",
-      "technical_spec": "Large, easily clickable buttons and touch targets.",
-      "severity_score": 12
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Creates appealing interfaces to enhance usability perception.",
-      "technical_spec": "Consistent color schemes and modern design elements.",
+      "title": "Jakob's Law",
+      "description": "Leverages user familiarity by aligning with web conventions.",
+      "technical_spec": "Consistent design elements with the broader social media ecosystem.",
       "severity_score": 5
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Utilizes familiar navigation patterns users expect.",
-      "technical_spec": "Consistent UI elements derived from common mobile app conventions.",
-      "severity_score": 8
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Limits information presented at one time to improve processing.",
-      "technical_spec": "Uses carousels and minimal prose to focus attention.",
-      "severity_score": 15
+      "title": "Gestalt Principles",
+      "description": "Creates visually appealing and understandable interfaces.",
+      "technical_spec": "Use of proximity, similarity, and continuity in design.",
+      "severity_score": 18
     }
   ]
 }

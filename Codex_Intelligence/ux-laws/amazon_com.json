@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 325,
+    "rank": 335,
     "site": "amazon.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "b47c1db9f82c62d5cc442cb70f8450d4"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "3558590899a9cf68918d78060e53f6c2"
   },
   "data": [
     {
+      "title": "Fitts's Law",
+      "description": "Interfaces are designed to minimize execution time for point-and-click interactions.",
+      "technical_spec": "Optimized button size and positioning.",
+      "severity_score": 89
+    },
+    {
       "title": "Hick's Law",
-      "description": "Simplifies choices available to users to reduce decision time.",
-      "technical_spec": "Streamlined UI, quick-access menus",
-      "severity_score": 20
+      "description": "Simplifying navigation by minimizing choices to reduce user decision time.",
+      "technical_spec": "Streamlined categories, dynamic menus.",
+      "severity_score": 87
     },
     {
-      "title": "F-Shaped Pattern",
-      "description": "Design layout aligns with the natural reading pattern of users.",
-      "technical_spec": "Left-aligned text, predictable navigation",
-      "severity_score": 25
+      "title": "Gestalt Principles",
+      "description": "Utilizes visual grouping for intuitive navigation.",
+      "technical_spec": "Consistent design patterns, alignment, proximity.",
+      "severity_score": 91
     },
     {
-      "title": "Whitespace Utilization",
-      "description": "Efficient use of whitespace to improve readability and focus.",
-      "technical_spec": "Clean spacing between sections and elements",
-      "severity_score": 30
+      "title": "Jakob's Law",
+      "description": "Design leverages user familiarity to provide an intuitive experience.",
+      "technical_spec": "Common patterns, recognizability in UI elements.",
+      "severity_score": 92
     },
     {
-      "title": "Consistency Principle",
-      "description": "Maintaining uniformity across design elements for better user familiarity.",
-      "technical_spec": "Consistent button styles, color schemes",
-      "severity_score": 15
-    },
-    {
-      "title": "Feedback Loop",
-      "description": "Intuitive feedback elements for confirming user actions.",
-      "technical_spec": "Loading indicators, confirmation alerts",
-      "severity_score": 35
+      "title": "Miller's Law",
+      "description": "Information is chunked into easier-to-process groups for better cognition.",
+      "technical_spec": "Pagination, dropdowns, memorable product categories.",
+      "severity_score": 90
     }
   ]
 }

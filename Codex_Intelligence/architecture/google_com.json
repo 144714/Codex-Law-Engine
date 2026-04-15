@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 321,
+    "rank": 331,
     "site": "google.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "f8771267541eda165a83538a758481be"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "e455400262808c55f945ff41bbcb1127"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Google.com employs a microservices architecture allowing individual service components to scale independently.",
-      "technical_spec": "Decoupled application architecture; deployment on Kubernetes.",
-      "severity_score": 10
-    },
-    {
-      "title": "Distributed Systems",
-      "description": "Infrastructure spans globally across multiple data centers, supporting high availability and fault tolerance.",
-      "technical_spec": "Use of Google Cloud Platform, Spanner, and Bigtable.",
-      "severity_score": 5
+      "title": "Microservices Architecture",
+      "description": "Google employs a microservices architecture to enable scalability and flexibility.",
+      "technical_spec": "Decomposed monolithic applications into independent, deployable services.",
+      "severity_score": 90
     },
     {
       "title": "Load Balancing",
-      "description": "Advanced load balancing techniques are employed to handle millions of queries per second.",
-      "technical_spec": "Utilizes Google Front End (GFE) and Cloud Load Balancers.",
-      "severity_score": 5
+      "description": "Uses advanced load balancing techniques to distribute workload across resources.",
+      "technical_spec": "Global and regional load balancing with traffic scaling.",
+      "severity_score": 85
     },
     {
-      "title": "Caching",
-      "description": "Intensive use of caching to improve response times and reduce server load.",
-      "technical_spec": "Integration with edge caching systems like Varnish and proprietary cache solutions.",
-      "severity_score": 15
+      "title": "Data Replication",
+      "description": "Replicates data across multiple data centers to ensure availability and fault tolerance.",
+      "technical_spec": "Multi-zone and multi-region replication strategies.",
+      "severity_score": 88
     },
     {
-      "title": "Search Indexing",
-      "description": "Comprehensive indexing architecture to quickly fetch and display relevant results.",
-      "technical_spec": "Utilizing Googlebot for web crawling and a massive inverted index for search.",
-      "severity_score": 20
+      "title": "Edge Caching",
+      "description": "Uses edge caching to reduce latency and improve performance.",
+      "technical_spec": "Content delivery networks (CDNs) at strategic locations.",
+      "severity_score": 82
+    },
+    {
+      "title": "Service Mesh",
+      "description": "Implemented service mesh for observability and security in services communication.",
+      "technical_spec": "Use of container orchestration platforms like Kubernetes.",
+      "severity_score": 80
     }
   ]
 }

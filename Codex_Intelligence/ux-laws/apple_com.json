@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 323,
+    "rank": 333,
     "site": "apple.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "7c91b23f30ab6ebcd03000ef0f326cc9"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "8a3dbea0a8798246ac214b9b9674fb44"
   },
   "data": [
     {
+      "title": "Hick’s Law",
+      "description": "Simplifies user choice to improve decision time.",
+      "technical_spec": "Streamlined menu options, Focused content presentation.",
+      "severity_score": 30
+    },
+    {
       "title": "Fitts’s Law",
-      "description": "The site design considers the time needed to acquire targets on a webpage, with larger and closer buttons for ease of use.",
-      "technical_spec": "Larger clickable areas in key navigation and action sections.",
-      "severity_score": 10
+      "description": "Optimizes navigation elements for faster interaction.",
+      "technical_spec": "Large clickable targets, Proximal placements.",
+      "severity_score": 25
     },
     {
-      "title": "Hick's Law",
-      "description": "The interface minimizes choice overload by providing intuitive and limited options to encourage decision-making.",
-      "technical_spec": "Dropdown menus and progressive disclosure techniques.",
-      "severity_score": 8
+      "title": "Law of Common Region",
+      "description": "Groups related elements to aid in visual processing.",
+      "technical_spec": "Visual Cues, Bordered Sections.",
+      "severity_score": 40
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Effective use of proximity, similarity, and continuity in arranging elements, fostering a clean, organized visual hierarchy.",
-      "technical_spec": "Consistent spacing and pattern recognition throughout the interface.",
-      "severity_score": 5
+      "title": "Aesthetic-Usability Effect",
+      "description": "Prioritizes aesthetics to enhance perceived usability.",
+      "technical_spec": "Clean design, High-quality imagery.",
+      "severity_score": 20
     },
     {
-      "title": "Law of Proximity",
-      "description": "Related items are placed close together to create a clear association between elements.",
-      "technical_spec": "Groupings in user interfaces reflect task-related activities, organizing content logically.",
-      "severity_score": 6
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Limiting the user’s cognitive load by grouping content and information to span no more than 7±2 concepts.",
-      "technical_spec": "Clear categorization and summarization of information.",
-      "severity_score": 7
+      "title": "Jakob’s Law",
+      "description": "Design for user behavior learned from other sites.",
+      "technical_spec": "Consistent UI patterns, Familiar navigation.",
+      "severity_score": 18
     }
   ]
 }

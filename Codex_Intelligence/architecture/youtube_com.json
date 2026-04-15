@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 322,
+    "rank": 332,
     "site": "youtube.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "b116948d2aebd2158bab7d8ebeff2298"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "1d6bf8e85611669a410d690fc7d7c999"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "Utilizes a microservices architecture to manage different functionalities independently.",
-      "technical_spec": "Employs containerization technologies like Kubernetes and Docker.",
+      "title": "Monolithic Frontend",
+      "description": "Uses a single-page application model for efficient client-side routing and rendering.",
+      "technical_spec": "React.js framework integrated with server-side rendering.",
+      "severity_score": 40
+    },
+    {
+      "title": "Microservices Backend",
+      "description": "Spans across hundreds of individual microservices handling various functionalities.",
+      "technical_spec": "Deployed on a Kubernetes platform with Docker containers.",
+      "severity_score": 30
+    },
+    {
+      "title": "Global CDN Network",
+      "description": "Content is delivered through a globally distributed network to reduce latency.",
+      "technical_spec": "Hosted on Google Cloud’s CDN infrastructure with multiple nodes.",
       "severity_score": 20
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Leverages global CDN for efficient video streaming and reducing latency.",
-      "technical_spec": "Partnered with multiple CDN providers across data centers worldwide.",
-      "severity_score": 10
-    },
-    {
-      "title": "Scalable Data Storage",
-      "description": "Manages petabytes of video data with scalable cloud storage solutions.",
-      "technical_spec": "Uses distributed NoSQL databases for metadata and object storage.",
-      "severity_score": 25
-    },
-    {
-      "title": "APIs and SDKs",
-      "description": "Offers APIs and SDKs for third-party integrations and app development.",
-      "technical_spec": "RESTful services with OAuth 2.0 authentication for access control.",
-      "severity_score": 15
-    },
-    {
-      "title": "Real-time Streaming Protocols",
-      "description": "Supports live streaming with low latency and high-quality resolution.",
-      "technical_spec": "Uses WebRTC and HLS protocols to facilitate streaming services.",
+      "title": "Data Replication",
+      "description": "Utilizes data replication for redundancy and high availability.",
+      "technical_spec": "Relational and NoSQL databases with synchronous replication mechanisms.",
       "severity_score": 35
+    },
+    {
+      "title": "API Gateway",
+      "description": "Centralized entry-point for microservices traffic, providing load balancing and API management.",
+      "technical_spec": "Implemented using Envoy for service mesh capabilities.",
+      "severity_score": 45
     }
   ]
 }

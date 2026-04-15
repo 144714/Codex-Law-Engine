@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 327,
+    "rank": 337,
     "site": "spotify.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "274ab1e0c3e9f83e085c7a0442795838"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "0fd83a5b46b9da09feec307aed46dfcc"
   },
   "data": [
     {
       "title": "Data Encryption",
-      "description": "Employs encryption methodologies to protect user data both in transit and at rest.",
-      "technical_spec": "TLS for data in transit and AES encryption for data at rest.",
-      "severity_score": 14
+      "description": "Encryption of data in transit and at rest to protect user data.",
+      "technical_spec": "Uses AES-256 encryption and TLS for data transport security.",
+      "severity_score": 40
     },
     {
-      "title": "Authentication and Authorization",
-      "description": "Ensures secure user login and resource access control.",
-      "technical_spec": "Uses OAuth2 and OpenID Connect for secure authentication.",
-      "severity_score": 20
+      "title": "User Authentication",
+      "description": "Strong authentication protocols to secure user accounts.",
+      "technical_spec": "Multi-factor authentication and OAuth 2.0 are employed for user access control.",
+      "severity_score": 50
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic security audits to identify and address vulnerabilities.",
-      "technical_spec": "Utilizes both automated tools and manual penetration testing.",
-      "severity_score": 10
+      "title": "Vulnerability Management",
+      "description": "Regular security audits and vulnerability assessments.",
+      "technical_spec": "Incorporates a Secure Development Lifecycle (SDL) and regular pen testing.",
+      "severity_score": 35
     },
     {
-      "title": "Intrusion Detection Systems",
-      "description": "Monitors traffic and system activities to detect malicious activities.",
-      "technical_spec": "Integrates with cloud-based IDS/IPS solutions.",
-      "severity_score": 25
+      "title": "Firewall and Intrusion Detection",
+      "description": "Network security implemented via firewalls and intrusion detection systems.",
+      "technical_spec": "Utilizes advanced firewalls and intrusion detection/prevention systems to monitor and protect network traffic.",
+      "severity_score": 45
     },
     {
-      "title": "User Data Privacy",
-      "description": "Implements strict policies for user data handling and privacy.",
-      "technical_spec": "Complies with GDPR and other international data protection regulations.",
-      "severity_score": 18
+      "title": "DDoS Protection",
+      "description": "Defense mechanisms to mitigate Distributed Denial of Service Attacks.",
+      "technical_spec": "Cloud-based anti-DDoS infrastructure and traffic filtering technologies.",
+      "severity_score": 55
     }
   ]
 }

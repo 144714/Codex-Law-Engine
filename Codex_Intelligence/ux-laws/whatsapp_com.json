@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 330,
+    "rank": 340,
     "site": "whatsapp.com",
-    "date": "2026-04-15 22:34",
-    "integrity_hash": "98b0d8908bd080f5e8dc2e64db2ae308"
+    "date": "2026-04-15 23:34",
+    "integrity_hash": "e7428831ca9c9161c12c34306509b80c"
   },
   "data": [
     {
-      "title": "Jakob's Law",
-      "description": "WhatsApp leverages familiarity by ensuring its interface aligns with users' expectations of messaging apps.",
-      "technical_spec": "Simplified UI with intuitive navigation mirroring conventional messaging apps.",
-      "severity_score": 30
-    },
-    {
       "title": "Hick's Law",
-      "description": "Reduced time complexity by minimizing choices for users through tailored interface design.",
-      "technical_spec": "Streamlined menu options and user-centric design approach.",
-      "severity_score": 25
+      "description": "WhatsApp minimizes decision-making time by offering a simple and direct interface.",
+      "technical_spec": "Limited number of primary actions in top navigation.",
+      "severity_score": 10
     },
     {
-      "title": "Consistency Principle",
-      "description": "Maintains consistent design patterns and messaging formats.",
-      "technical_spec": "Standardized UI elements and consistent interaction models across devices.",
-      "severity_score": 40
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Optimizes touch target sizes suitable for mobile usage.",
-      "technical_spec": "Adjustable button sizes and spacing for ease of use on small screens.",
-      "severity_score": 45
+      "title": "Fitts' Law",
+      "description": "Interaction targets (e.g., buttons) are large and easily clickable.",
+      "technical_spec": "Responsive design with adaptive touch zones.",
+      "severity_score": 20
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "An aesthetically pleasing design enhances user satisfaction and perceived usability.",
-      "technical_spec": "Utilizes a visually appealing interface with a focus on simplicity and functionality.",
-      "severity_score": 35
+      "description": "A visually appealing design suggests that WhatsApp is easy to use.",
+      "technical_spec": "Adoption of a clean, minimalist design.",
+      "severity_score": 15
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Design patterns familiar to users from other messaging apps are utilized.",
+      "technical_spec": "Familiar UI elements like chat bubbles and status indicators.",
+      "severity_score": 5
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "The interface avoids overwhelming users with information by limiting on-screen elements.",
+      "technical_spec": "Simplified chat layouts with collapsible sections.",
+      "severity_score": 10
     }
   ]
 }
