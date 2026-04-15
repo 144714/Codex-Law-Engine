@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 313,
+    "rank": 323,
     "site": "apple.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "d3f8f9f1d6908b6d13b99e98f9ff69b3"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "6b009c73169a3236ac1b2cca8ee0a9bb"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Apple's commitment to cutting-edge technology and design thinking.",
-      "technical_spec": "Integration of the latest technologies and continuous updates in digital properties.",
-      "severity_score": 5
-    },
-    {
       "title": "Simplicity",
-      "description": "A straightforward and user-friendly design ethos that prioritizes ease of use.",
-      "technical_spec": "Minimalistic UI elements, promoting clear and direct interactions.",
-      "severity_score": 10
+      "description": "The site embodies Apple's brand theme of simplicity, with a clean interface focused on ease of navigation and sleek aesthetics.",
+      "technical_spec": "Minimalistic design elements with a focus on whitespace and typography.",
+      "severity_score": 3
     },
     {
-      "title": "Privacy",
-      "description": "Central brand focus on user data protection and privacy.",
-      "technical_spec": "Robust data protection policies and user consent frameworks based on privacy principles.",
-      "severity_score": 5
+      "title": "Innovation",
+      "description": "Showcases cutting-edge technology products, emphasizing Apple's role as a leader in tech innovation.",
+      "technical_spec": "Regular content updates highlighting new product technologies and releases.",
+      "severity_score": 2
     },
     {
       "title": "Quality",
-      "description": "Constant pursuit of excellence across all user touchpoints, digital or physical.",
-      "technical_spec": "High-definition imagery, fluid animations, and cohesive branding experiences.",
-      "severity_score": 15
+      "description": "Reflects Apple's commitment to high standards through polished design and smooth functionality.",
+      "technical_spec": "Rigorously tested UI components for reliability and durability.",
+      "severity_score": 1
     },
     {
-      "title": "Ecosystem",
-      "description": "A seamless integration of services and products within the Apple ecosystem.",
-      "technical_spec": "Cross-platform integration capabilities, ensuring consistency and connectivity.",
-      "severity_score": 20
+      "title": "User-Friendliness",
+      "description": "Focus on creating an intuitive user journey from product discovery to checkout, fostering a positive customer experience.",
+      "technical_spec": "Strategically placed call-to-action buttons and clear navigation paths.",
+      "severity_score": 4
+    },
+    {
+      "title": "Sustainability",
+      "description": "Commitment to environmental initiatives is evident in the site’s representation of eco-friendly products and processes.",
+      "technical_spec": "Sections dedicated to Apple's environmental reports and sustainable practices.",
+      "severity_score": 5
     }
   ]
 }

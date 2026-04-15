@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 317,
+    "rank": 327,
     "site": "spotify.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "b2163bbb87ebded39d0c0fc9cf2c0d51"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "0be490f8f5fec0e4a37fa2ff609e023d"
   },
   "data": [
     {
       "title": "Personalization",
-      "description": "Offers users personalized playlists and recommendations.",
-      "technical_spec": "Machine learning algorithms, user data analytics",
-      "severity_score": 94
+      "description": "Focuses on delivering a personalized music listening experience.",
+      "technical_spec": "Utilizes algorithms and user data to curate personalized playlists and recommendations.",
+      "severity_score": 18
+    },
+    {
+      "title": "Discovery",
+      "description": "Empowers users to discover new music through curated playlists and daily mixes.",
+      "technical_spec": "Incorporates machine learning for dynamic playlist generation.",
+      "severity_score": 14
+    },
+    {
+      "title": "Cross-Platform Experience",
+      "description": "Ensures seamless experience across various devices and operating systems.",
+      "technical_spec": "Maintains consistent UI and data syncing across mobile, desktop, and web applications.",
+      "severity_score": 9
     },
     {
       "title": "Social Integration",
-      "description": "Encourages social interaction through playlist sharing and collaborative features.",
-      "technical_spec": "Social APIs, OAuth",
-      "severity_score": 85
+      "description": "Facilitates sharing and collaborative playlist creation among users.",
+      "technical_spec": "Integrates with social media platforms and internal social features.",
+      "severity_score": 16
     },
     {
-      "title": "Music Discovery",
-      "description": "Innovative features like 'Discover Weekly' to enhance user discovery.",
-      "technical_spec": "AI-based recommendation engines",
-      "severity_score": 93
-    },
-    {
-      "title": "Cross-Platform Accessibility",
-      "description": "Ensures access across a wide range of devices and platforms.",
-      "technical_spec": "Responsive web design, native apps",
-      "severity_score": 88
-    },
-    {
-      "title": "Artist Support",
-      "description": "Supports artists through features like Spotify for Artists.",
-      "technical_spec": "Analytics dashboards, direct artist communication tools",
-      "severity_score": 86
+      "title": "Music Streaming Quality",
+      "description": "Prioritizes high-quality audio streaming options for music enthusiasts.",
+      "technical_spec": "Offers different bitrate options, including high fidelity streaming with OGG Vorbis.",
+      "severity_score": 10
     }
   ]
 }

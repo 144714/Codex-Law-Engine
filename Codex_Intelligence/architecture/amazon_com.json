@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 315,
+    "rank": 325,
     "site": "amazon.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "e85f70c17af4f84abca18209e5c9efcd"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "56c5be254ac822b8ebd1fd12f1d3f99c"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Amazon's backend is built on a microservices architecture allowing independent development, deployment, and scaling.",
+      "title": "Microservices Infrastructure",
+      "description": "Service-oriented architecture with microservices allows independent deployment and scalability.",
       "technical_spec": "AWS Lambda, Docker, Kubernetes",
-      "severity_score": 85
+      "severity_score": 15
     },
     {
-      "title": "Cloud Infrastructure",
-      "description": "Utilizing Amazon Web Services, the site leverages elastic cloud computing resources.",
-      "technical_spec": "AWS EC2, S3, RDS",
-      "severity_score": 90
+      "title": "Distributed Database Systems",
+      "description": "Utilizes distributed databases to handle massive amounts of data across various locations.",
+      "technical_spec": "Amazon DynamoDB, RDS, Aurora",
+      "severity_score": 20
     },
     {
-      "title": "Data Replication and Storage",
-      "description": "Data is stored across distributed databases with replication and redundancy protocols.",
-      "technical_spec": "DynamoDB, Aurora, Cassandra",
-      "severity_score": 80
+      "title": "Global CDN Integration",
+      "description": "Content delivery network to distribute static and dynamic content to end users.",
+      "technical_spec": "Amazon CloudFront",
+      "severity_score": 10
     },
     {
       "title": "Load Balancing",
-      "description": "Automatic distribution of incoming application traffic across multiple resources.",
-      "technical_spec": "Elastic Load Balancing",
-      "severity_score": 70
+      "description": "Automatically distributes incoming application traffic across multiple targets.",
+      "technical_spec": "Elastic Load Balancing (ELB)",
+      "severity_score": 25
     },
     {
-      "title": "Serverless Computing",
-      "description": "Serverless functions handle operational tasks, improving scalability and cost efficiency.",
-      "technical_spec": "AWS Lambda",
-      "severity_score": 75
+      "title": "Auto-Scaling",
+      "description": "Automatically adjusts the number of active servers in response to the load.",
+      "technical_spec": "Amazon EC2 Auto Scaling",
+      "severity_score": 30
     }
   ]
 }

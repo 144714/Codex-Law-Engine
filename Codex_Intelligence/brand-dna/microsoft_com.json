@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 314,
+    "rank": 324,
     "site": "microsoft.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "e9cb474e267302e974d176af44204fe4"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "cb4b2d1eaa46d8128327d18857960021"
   },
   "data": [
     {
-      "title": "Innovation-Driven",
-      "description": "Continuous pursuit of cutting-edge technology and forward-thinking solutions.",
-      "technical_spec": "AI technologies, Quantum computing research, Hololens AR innovations.",
-      "severity_score": 30
-    },
-    {
-      "title": "Global Accessibility",
-      "description": "Commitment to making products accessible to people with disabilities.",
-      "technical_spec": "Built-in accessibility features, collaboration with accessibility experts.",
-      "severity_score": 15
-    },
-    {
-      "title": "Cloud-First Vision",
-      "description": "Transition from software-based to cloud-centric services.",
-      "technical_spec": "Azure cloud services, SaaS offerings, Cloud-based Office solutions.",
+      "title": "Innovation",
+      "description": "Continuously integrates cutting-edge technologies and features.",
+      "technical_spec": "Focus on AI and Cloud integrations",
       "severity_score": 20
     },
     {
-      "title": "Security-Centric Philosophy",
-      "description": "Prioritize customer privacy and data protection across all Microsoft services.",
-      "technical_spec": "GDPR compliance, end-to-end encryption standards.",
-      "severity_score": 45
+      "title": "Trustworthiness",
+      "description": "Maintains a reputation of security and reliability.",
+      "technical_spec": "ISO 27001, GDPR Compliance",
+      "severity_score": 30
     },
     {
-      "title": "Integration and Ecosystem",
-      "description": "Developing products that seamlessly integrate within the Microsoft ecosystem and with third-party services.",
-      "technical_spec": "Microsoft Graph API, Office 365 integrations, Partner collaborations.",
+      "title": "Customer-centric",
+      "description": "Prioritizes user needs and feedback in product development.",
+      "technical_spec": "User feedback loops, Customer support forums",
       "severity_score": 25
+    },
+    {
+      "title": "Global Reach",
+      "description": "Serves a diverse global audience with localized content.",
+      "technical_spec": "Multi-language support",
+      "severity_score": 35
+    },
+    {
+      "title": "Sustainability",
+      "description": "Commits to environmentally sustainable business practices.",
+      "technical_spec": "Carbon-neutral operations, Sustainable data centers",
+      "severity_score": 10
     }
   ]
 }

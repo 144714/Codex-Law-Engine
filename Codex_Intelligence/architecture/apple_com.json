@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 313,
+    "rank": 323,
     "site": "apple.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "afc79bfeb82f3dbd28a50b4ae833b806"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "5eb4a6d0b54a94f2784aa0b342da4fde"
   },
   "data": [
     {
-      "title": "Microservices Framework",
-      "description": "Apple likely uses a microservices architecture to ensure scalability and modularity across its global online presence.",
-      "technical_spec": "Utilizes container orchestration tools possibly like Kubernetes or proprietary solutions for service management.",
+      "title": "Monolithic Framework",
+      "description": "Apple.com employs a unified codebase that handles various services under one umbrella to ensure seamless integration and debuggability.",
+      "technical_spec": "An all-in-one architecture combining e-commerce, support, and marketing pages without microservices.",
       "severity_score": 20
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "A robust CDN architecture is used to distribute content efficiently and reduce latency globally.",
-      "technical_spec": "Third-party CDN services such as Akamai or in-house solutions to ensure fast content delivery.",
+      "title": "Managed Hosting",
+      "description": "Utilizes high-performance web servers optimized for Apple’s needs, ensuring high availability and load balancing.",
+      "technical_spec": "Hosted on Apple-managed infrastructure with custom configurations for optimal server performance.",
       "severity_score": 10
     },
     {
-      "title": "Load Balancing",
-      "description": "Ensures efficient distribution of incoming traffic across multiple servers to maintain performance and availability.",
-      "technical_spec": "Likely employs hardware appliances or software solutions for load balancing across server farms.",
+      "title": "Single Page Application Elements",
+      "description": "Certain sections on the site employ SPA techniques to provide a seamless user experience.",
+      "technical_spec": "JavaScript frameworks enable dynamic page updates without full reloads.",
       "severity_score": 15
     },
     {
-      "title": "Server-Side Rendering (SSR)",
-      "description": "Enables dynamic content to be rendered on the server rather than the client to improve performance and SEO.",
-      "technical_spec": "Adopts modern SSR frameworks like Next.js or custom solutions for rendering dynamic content.",
+      "title": "API Integration",
+      "description": "Various APIs are utilized for data fetching and service integrations, offering connective flexibility.",
+      "technical_spec": "RESTful and GraphQL APIs facilitate backend communication.",
       "severity_score": 25
     },
     {
-      "title": "Database Management Systems",
-      "description": "Use of advanced database technologies for handling large volumes of transactional data efficiently.",
-      "technical_spec": "Likely employs a mix of SQL databases such as MySQL and NoSQL databases for different application needs.",
-      "severity_score": 30
+      "title": "Responsive Design",
+      "description": "The site is built to adapt across devices, optimizing the layout and performance for different screen sizes.",
+      "technical_spec": "CSS media queries and fluid grid structures ensure responsiveness.",
+      "severity_score": 5
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 318,
+    "rank": 328,
     "site": "adobe.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "cbe9273e3898fc5cb55a09c515bb8e3b"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "970875f7765b4db2d9bcb4feac62df71"
   },
   "data": [
     {
-      "title": "Scalable Microservices",
-      "description": "Adobe's platform uses microservices architecture to allow for independent deployments and service scaling.",
-      "technical_spec": "Kubernetes, Docker, REST APIs",
+      "title": "Microservices Architecture",
+      "description": "Adobe employs a microservices architecture to manage its diverse range of services and products efficiently.",
+      "technical_spec": "Service-oriented architecture using Docker and Kubernetes for container orchestration.",
       "severity_score": 15
     },
     {
-      "title": "Cloud-Native Infrastructure",
-      "description": "Fully utilizes cloud services to ensure redundancy, availability, and manageability.",
-      "technical_spec": "AWS, Azure, multi-cloud setups",
+      "title": "Content Delivery Network (CDN)",
+      "description": "Akamai CDN is used to deliver content quickly and efficiently to a global audience.",
+      "technical_spec": "Integration with Akamai for global content distribution.",
       "severity_score": 10
     },
     {
-      "title": "Content Delivery Network (CDN) Utilization",
-      "description": "CDN is employed to ensure fast delivery of content across various geographies.",
-      "technical_spec": "Akamai, Cloudflare, edge servers",
+      "title": "API-First Approach",
+      "description": "Focus on providing RESTful APIs for better integration across products.",
+      "technical_spec": "Use of OpenAPI standards for API definition and documentation.",
       "severity_score": 20
     },
     {
-      "title": "Monolithic to Microservices Transition",
-      "description": "Transitioning from a monolithic architecture to microservices to enhance flexibility and scalability.",
-      "technical_spec": "Service Oriented Architecture, APIs",
-      "severity_score": 30
+      "title": "Scalable Cloud Infrastructure",
+      "description": "Adobe utilizes cloud infrastructure to ensure scalability and reliability of its services.",
+      "technical_spec": "AWS and Azure cloud services for scalable server and storage solutions.",
+      "severity_score": 25
     },
     {
-      "title": "Data-Driven Systems",
-      "description": "Employs data lakes and analytic tools to handle vast amounts of user and system data.",
-      "technical_spec": "Apache Hadoop, Spark, big data frameworks",
-      "severity_score": 25
+      "title": "Database Management",
+      "description": "Combination of SQL and NoSQL databases to handle structured and unstructured data.",
+      "technical_spec": "MySQL and MongoDB for versatile data handling.",
+      "severity_score": 30
     }
   ]
 }

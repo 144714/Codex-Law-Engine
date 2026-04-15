@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 314,
+    "rank": 324,
     "site": "microsoft.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "34776344102e7be8ace028795bdea86c"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "82aef5df9a3cdabbae6e0ca3cb64c8fc"
   },
   "data": [
     {
-      "title": "Advanced Threat Protection",
-      "description": "Utilizes AI-driven strategies to detect and protect against advanced threats.",
-      "technical_spec": "Microsoft Defender for Endpoint, Machine Learning algorithms.",
-      "severity_score": 50
-    },
-    {
-      "title": "Zero Trust Model",
-      "description": "Security strategy that presumes a breach is inevitable and verifies each request as though it originates from an open network.",
-      "technical_spec": "Multi-factor authentication, Conditional Access, Identity Protection.",
-      "severity_score": 35
-    },
-    {
-      "title": "Data Encryption",
-      "description": "Data is encrypted both at rest and in transit using industry-standard protocols.",
-      "technical_spec": "TLS 1.3, AES-256 encryption standards.",
-      "severity_score": 25
-    },
-    {
-      "title": "Network Security Group (NSG)",
-      "description": "Filter network traffic to and from Azure resources in an Azure virtual network.",
-      "technical_spec": "NSG Rule configurations, Inbound and Outbound Traffic restrictions.",
-      "severity_score": 40
+      "title": "Multi-factor Authentication",
+      "description": "Enables MFA to ensure secure access to user accounts.",
+      "technical_spec": "Azure Multi-Factor Authentication",
+      "severity_score": 30
     },
     {
       "title": "DDoS Protection",
-      "description": "Mitigates the risk and impact of DDoS attacks with built-in network defense mechanisms.",
-      "technical_spec": "Azure DDoS Protection, real-time detection and mitigation.",
-      "severity_score": 60
+      "description": "Implements protections against Distributed Denial of Service attacks.",
+      "technical_spec": "Azure DDoS Protection",
+      "severity_score": 40
+    },
+    {
+      "title": "Encryption Standards",
+      "description": "Uses SSL/TLS for data encryption in transit.",
+      "technical_spec": "TLS 1.2, AES-256 encryption",
+      "severity_score": 15
+    },
+    {
+      "title": "Vulnerability Scanning",
+      "description": "Regularly scans for vulnerabilities within the infrastructure.",
+      "technical_spec": "Azure Security Center",
+      "severity_score": 35
+    },
+    {
+      "title": "Access Management",
+      "description": "Strict access controls and monitoring of user access and actions.",
+      "technical_spec": "Azure AD Identity Protection",
+      "severity_score": 25
     }
   ]
 }

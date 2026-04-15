@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 317,
+    "rank": 327,
     "site": "spotify.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "621b350eef4d7d90c2e860fcdc7fe48d"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "274ab1e0c3e9f83e085c7a0442795838"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "Secures user accounts with an additional factor of authentication.",
-      "technical_spec": "Time-based OTP apps, SMS verification",
-      "severity_score": 85
+      "title": "Data Encryption",
+      "description": "Employs encryption methodologies to protect user data both in transit and at rest.",
+      "technical_spec": "TLS for data in transit and AES encryption for data at rest.",
+      "severity_score": 14
     },
     {
-      "title": "End-to-End Encryption",
-      "description": "Encrypts data from the user's device to the server to protect privacy.",
-      "technical_spec": "TLS/SSL, AES-256 encryption",
-      "severity_score": 90
+      "title": "Authentication and Authorization",
+      "description": "Ensures secure user login and resource access control.",
+      "technical_spec": "Uses OAuth2 and OpenID Connect for secure authentication.",
+      "severity_score": 20
     },
     {
-      "title": "Intrusion Detection Systems (IDS)",
-      "description": "Monitors network traffic for suspicious activities.",
-      "technical_spec": "Snort, Suricata",
-      "severity_score": 87
+      "title": "Regular Security Audits",
+      "description": "Conducts periodic security audits to identify and address vulnerabilities.",
+      "technical_spec": "Utilizes both automated tools and manual penetration testing.",
+      "severity_score": 10
     },
     {
-      "title": "Data Anonymization",
-      "description": "Personal data is anonymized to reduce privacy risks.",
-      "technical_spec": "Tokenization, Differential Privacy techniques",
-      "severity_score": 83
+      "title": "Intrusion Detection Systems",
+      "description": "Monitors traffic and system activities to detect malicious activities.",
+      "technical_spec": "Integrates with cloud-based IDS/IPS solutions.",
+      "severity_score": 25
     },
     {
-      "title": "Bot Prevention Measures",
-      "description": "Protects the platform from automated bots to ensure fair usage.",
-      "technical_spec": "CAPTCHA, rate limiting",
-      "severity_score": 89
+      "title": "User Data Privacy",
+      "description": "Implements strict policies for user data handling and privacy.",
+      "technical_spec": "Complies with GDPR and other international data protection regulations.",
+      "severity_score": 18
     }
   ]
 }

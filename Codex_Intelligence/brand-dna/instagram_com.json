@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 319,
+    "rank": 329,
     "site": "instagram.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "177a258c27df01eca979ce582437aaf1"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "04fbe845ae834beaca548a7f33be69cf"
   },
   "data": [
     {
-      "title": "Community Focused",
-      "description": "Centered around building communities and connections.",
-      "technical_spec": "Features like stories, reels, and live interactions",
-      "severity_score": 15
+      "title": "Visual Storytelling",
+      "description": "Creates a platform for dynamic sharing of personal stories through images and videos.",
+      "technical_spec": "Supports high-resolution images and multi-format video uploads.",
+      "severity_score": 10
     },
     {
-      "title": "Visually Driven",
-      "description": "Emphasizes visual content with photo and video sharing.",
-      "technical_spec": "High-quality image processing and media storage",
-      "severity_score": 20
-    },
-    {
-      "title": "Trendsetting",
-      "description": "Often initiates social media trends with new features.",
-      "technical_spec": "Regular updates and feature rollouts to stay ahead",
+      "title": "Influencer Ecosystem",
+      "description": "Developed a robust environment supporting influencer marketing.",
+      "technical_spec": "Features like IGTV and Stories cater to content creators.",
       "severity_score": 25
     },
     {
-      "title": "User-Centric Design",
-      "description": "User experience is prioritized in design decisions.",
-      "technical_spec": "User testing and feedback loops for continuous improvement",
-      "severity_score": 30
+      "title": "Social Connectivity",
+      "description": "Facilitates seamless interaction and networking between users.",
+      "technical_spec": "Includes messaging, comments, and live video features.",
+      "severity_score": 5
     },
     {
-      "title": "Inclusion and Diversity",
-      "description": "Strives to accommodate a diverse user base.",
-      "technical_spec": "Accessibility features and diverse representation in content",
-      "severity_score": 18
+      "title": "User Empowerment",
+      "description": "Offers tools for users to express creativity and individuality.",
+      "technical_spec": "Photo editing tools, filters, and creative digital media options.",
+      "severity_score": 12
+    },
+    {
+      "title": "Community Support",
+      "description": "Provides a sense of community with options for niche group creation.",
+      "technical_spec": "Group features, hashtags, and community guidelines.",
+      "severity_score": 8
     }
   ]
 }

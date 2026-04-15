@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 317,
+    "rank": 327,
     "site": "spotify.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "a55b381ccea523c6b445b9f17c7053c1"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "145cd2cbb638eff97469349073d886f4"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "Spotify utilizes a microservices architecture to enhance scalability and manageability.",
-      "technical_spec": "Distributed systems, RESTful APIs, Docker, Kubernetes",
-      "severity_score": 82
+      "title": "Microservices Architecture",
+      "description": "Spotify uses microservices to enable independent deployment and scaling of various application components.",
+      "technical_spec": "Each microservice is designed to handle a specific business function and communicates with others through APIs.",
+      "severity_score": 5
     },
     {
-      "title": "AWS Cloud Integration",
-      "description": "Spotify integrates extensively with AWS to leverage cloud computing capabilities.",
-      "technical_spec": "AWS EC2, S3, Lambda, RDS",
-      "severity_score": 78
+      "title": "Distributed System",
+      "description": "Leveraging a distributed system to ensure reliability and high availability of the service.",
+      "technical_spec": "Uses cloud infrastructure and multiple data centers globally.",
+      "severity_score": 10
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Fast content delivery is enhanced by using global CDNs.",
-      "technical_spec": "Akamai, CloudFront",
-      "severity_score": 76
+      "title": "Event-Driven Architecture",
+      "description": "Handles user interactions and service activities through real-time event processing.",
+      "technical_spec": "Uses event streams and message brokers like Kafka for real-time data processing.",
+      "severity_score": 15
     },
     {
-      "title": "Data Streaming Pipelines",
-      "description": "Real-time data streaming is integral to Spotify's operations, especially for user analytics and recommendations.",
-      "technical_spec": "Kafka, Google Cloud Pub/Sub",
-      "severity_score": 88
+      "title": "API Gateway",
+      "description": "Centralized entry point for client requests directed towards backend services.",
+      "technical_spec": "Utilizes RESTful and sometimes GraphQL APIs.",
+      "severity_score": 8
     },
     {
-      "title": "NoSQL and SQL Databases",
-      "description": "Spotify uses a combination of NoSQL and SQL databases for data storage and retrieval.",
-      "technical_spec": "PostgreSQL, Cassandra, Redis",
-      "severity_score": 83
+      "title": "Containerization",
+      "description": "Deploys applications using container technologies for consistency and efficiency.",
+      "technical_spec": "Employs Docker and Kubernetes for container orchestration.",
+      "severity_score": 12
     }
   ]
 }

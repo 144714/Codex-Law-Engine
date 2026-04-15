@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 316,
+    "rank": 326,
     "site": "netflix.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "7305d94048a48b6aac2afd9b89019037"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "a7aae659d4e8bfe7337192933817c4be"
   },
   "data": [
     {
-      "title": "Encryption in Transit and At Rest",
-      "description": "Data is encrypted both in transit and at rest to prevent unauthorized access.",
-      "technical_spec": "TLS for data transmission and AES-256 encryption for stored data.",
-      "severity_score": 95
+      "title": "Zero Trust Security Model",
+      "description": "Netflix implements a zero trust model to ensure strict identity verification.",
+      "technical_spec": "Utilizes IAM, MFA, and strict access control policies.",
+      "severity_score": 15
     },
     {
-      "title": "Threat Detection and Response",
-      "description": "Continuous monitoring and automated responses to detect and mitigate threats.",
-      "technical_spec": "Uses machine learning for anomaly detection, paired with security incident event management.",
-      "severity_score": 85
+      "title": "DDoS Mitigation Strategies",
+      "description": "Netflix deploys technology to mitigate distributed denial-of-service attacks.",
+      "technical_spec": "Employs AWS Shield and load balancing strategies to reduce impact.",
+      "severity_score": 20
     },
     {
-      "title": "Multi-factor Authentication",
-      "description": "Additional security layer to verify user identity beyond passwords.",
-      "technical_spec": "Integrated MFA for user accounts and corporate access.",
-      "severity_score": 80
+      "title": "Encryption and Data Protection",
+      "description": "Ensures data is encrypted in transit and at rest using industry standards.",
+      "technical_spec": "Utilizes TLS for data in transit and AES-256 for data at rest.",
+      "severity_score": 10
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Frequent evaluations of security posture by internal teams and third-party firms.",
-      "technical_spec": "Vulnerability assessments and penetration testing conducted periodically.",
-      "severity_score": 78
+      "title": "Security Monitoring and Response",
+      "description": "Proactive threat detection and incident response using advanced monitoring tools.",
+      "technical_spec": "Leveraging SIEM tools, machine learning for anomalous patterns.",
+      "severity_score": 25
     },
     {
-      "title": "Data Breach Response Plan",
-      "description": "Predefined procedures to manage and respond to data breaches.",
-      "technical_spec": "Includes isolation protocols, customer communication, and legal compliance measures.",
-      "severity_score": 88
+      "title": "Security Awareness Training",
+      "description": "Continuous security training programs for employees to mitigate human threats.",
+      "technical_spec": "Regular phishing simulations and awareness modules.",
+      "severity_score": 30
     }
   ]
 }

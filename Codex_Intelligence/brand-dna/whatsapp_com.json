@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 320,
+    "rank": 330,
     "site": "whatsapp.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "9fc4ace82e8adaf613ec3483f5d0cd87"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "e01c5b4a048ce1813a3abaf07f119bd5"
   },
   "data": [
     {
-      "title": "Global Connectivity",
-      "description": "Empowering users to connect with anyone, anywhere for free.",
-      "technical_spec": "Seamless international messaging, voice and video calls.",
+      "title": "Security Focused",
+      "description": "WhatsApp's branding heavily emphasizes its commitment to user privacy and security.",
+      "technical_spec": "Marketing materials often highlight encryption and security features.",
       "severity_score": 90
     },
     {
-      "title": "Privacy-Centric Approach",
-      "description": "Commitment to user privacy with industry-leading technology.",
-      "technical_spec": "Default end-to-end encryption, privacy-focused engineering.",
-      "severity_score": 95
+      "title": "Global Connectivity",
+      "description": "The brand is synonymous with connecting people worldwide for free.",
+      "technical_spec": "Focus on multinational user base and multicultural support features.",
+      "severity_score": 70
     },
     {
-      "title": "User-Friendly Interface",
-      "description": "Design simplicity ensures easy navigation and use.",
-      "technical_spec": "Minimalistic design, clear navigation cues.",
+      "title": "User-Centric Design",
+      "description": "WhatsApp promotes a user-friendly experience as one of its core values.",
+      "technical_spec": "User experience guided development decisions and feature implementations.",
+      "severity_score": 60
+    },
+    {
+      "title": "Reliability and Trust",
+      "description": "The brand is built on reliability and user trust through consistent performance.",
+      "technical_spec": "Strong uptime records and dependable service even in low bandwidth areas.",
       "severity_score": 85
     },
     {
-      "title": "Innovation in Communication",
-      "description": "Constantly evolving to introduce new ways to communicate effectively.",
-      "technical_spec": "Regular feature updates, integration of new media types.",
-      "severity_score": 80
-    },
-    {
-      "title": "Trust and Security",
-      "description": "Maintains user trust through robust security measures and transparency.",
-      "technical_spec": "Transparent privacy policies, reliable security infrastructure.",
-      "severity_score": 92
+      "title": "Minimalistic Identity",
+      "description": "WhatsApp maintains a simple, minimalistic brand image, avoiding ad clutter.",
+      "technical_spec": "The interface avoids unnecessary features, focusing on core messaging capabilities.",
+      "severity_score": 50
     }
   ]
 }

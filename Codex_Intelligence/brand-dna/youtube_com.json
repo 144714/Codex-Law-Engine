@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 312,
+    "rank": 322,
     "site": "youtube.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "5d27ba7c6b67555e4837c39ad17fbe2c"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "4fc0129dd83331f4d5f3daa2b365d991"
   },
   "data": [
     {
-      "title": "Community Engagement",
-      "description": "YouTube enables creators and viewers to build and engage with communities.",
-      "technical_spec": "Features like comment sections, community posts, and live chats.",
-      "severity_score": 25
+      "title": "User-Generated Content",
+      "description": "Empowers users to create and share content globally.",
+      "technical_spec": "Supports varied content formats like video, live streams, and shorts.",
+      "severity_score": 5
+    },
+    {
+      "title": "Global Accessibility",
+      "description": "Ensures content accessibility across different devices and regions.",
+      "technical_spec": "Develops mobile apps and responsive browser interfaces.",
+      "severity_score": 10
     },
     {
       "title": "Monetization Opportunities",
-      "description": "Supports content creators with various monetization methods.",
-      "technical_spec": "AdSense integration, Super Chat, Channel Memberships, and Merchandise Shelf.",
-      "severity_score": 20
-    },
-    {
-      "title": "Diverse Content Library",
-      "description": "A platform offering a wide range of content across different genres and languages.",
-      "technical_spec": "Facilitated by sophisticated video processing and recommendation algorithms.",
-      "severity_score": 30
-    },
-    {
-      "title": "Innovation in Video Sharing",
-      "description": "Pioneer in the online video sharing and streaming services.",
-      "technical_spec": "Regular updates with new features like Shorts, YouTube Music, and VR integration.",
-      "severity_score": 20
-    },
-    {
-      "title": "Global Reach and Accessibility",
-      "description": "Available worldwide with localized interfaces and content.",
-      "technical_spec": "Supports multiple languages and regional content adaptations.",
+      "description": "Offers revenue generation tools for content creators.",
+      "technical_spec": "Includes ads integration, memberships, and Super Chat features.",
       "severity_score": 15
+    },
+    {
+      "title": "Community Building",
+      "description": "Fosters an interactive community around video content.",
+      "technical_spec": "Features comment sections, likes, and subscriptions for social interaction.",
+      "severity_score": 10
+    },
+    {
+      "title": "Innovative Engagements",
+      "description": "Introduces new forms of user engagement like VR and 360-degree videos.",
+      "technical_spec": "Develops compatibility with VR headsets and 360 cameras for immersive experiences.",
+      "severity_score": 20
     }
   ]
 }

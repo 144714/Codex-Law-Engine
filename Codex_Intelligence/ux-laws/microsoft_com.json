@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 314,
+    "rank": 324,
     "site": "microsoft.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "e069dd286f0b1da5ff8081aa141e35d3"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "5e992ac8c944e13798276ed6fab31922"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Streamlined user experience with reduced cognitive load by limiting choices on any given page.",
-      "technical_spec": "Simplified menus, focused content presentation.",
+      "title": "Hick's Law",
+      "description": "Simplifies user choices to decrease decision time and improve navigation efficiency.",
+      "technical_spec": "Minimalist navigation bars",
       "severity_score": 20
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Elements are placed and sized to optimize for ease of clicking and interaction.",
-      "technical_spec": "Larger clickable areas for primary actions, frequently used actions positioned near the user's point of focus.",
-      "severity_score": 25
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visually attractive interfaces are designed to make systems more usable and plausible.",
-      "technical_spec": "High-quality visuals, consistent color schemes, clean typography.",
-      "severity_score": 15
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "The web experience accounts for the average memory capacity by chunking information.",
-      "technical_spec": "Card layouts, segmented flows in onboarding processes.",
+      "title": "Pareto Principle",
+      "description": "Focuses on the 20% of features that deliver 80% of value to users.",
+      "technical_spec": "Highlighted main product features",
       "severity_score": 30
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Design patterns are familiar to users based on their experience with other Microsoft products.",
-      "technical_spec": "Consistency in navigation, UI components across platforms.",
+      "title": "Fitts's Law",
+      "description": "Designs key action buttons larger and closer to natural click areas.",
+      "technical_spec": "Large, prominent CTAs (Call To Action)",
+      "severity_score": 25
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Leverages users' familiarity with other major technology websites to ensure ease of use.",
+      "technical_spec": "Consistent interface guidelines",
+      "severity_score": 15
+    },
+    {
+      "title": "Doherty Threshold",
+      "description": "Ensures response times are fast enough to keep users engaged.",
+      "technical_spec": "Fast page load times (<400ms)",
       "severity_score": 10
     }
   ]

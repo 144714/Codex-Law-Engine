@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 311,
+    "rank": 321,
     "site": "google.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "13974ad3268d73cc03692cec5ffd92ba"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "f8771267541eda165a83538a758481be"
   },
   "data": [
     {
-      "title": "Load Balancing",
-      "description": "Distributes incoming network traffic across multiple servers to ensure no single server is overwhelmed.",
-      "technical_spec": "Uses hardware or software solutions to manage request flow in real-time.",
+      "title": "Microservices",
+      "description": "Google.com employs a microservices architecture allowing individual service components to scale independently.",
+      "technical_spec": "Decoupled application architecture; deployment on Kubernetes.",
       "severity_score": 10
     },
     {
-      "title": "Scalable Microservices",
-      "description": "Architecture style that structures the application as a collection of small autonomous services.",
-      "technical_spec": "Individual services that are loosely coupled and can be developed, deployed, and scaled independently.",
+      "title": "Distributed Systems",
+      "description": "Infrastructure spans globally across multiple data centers, supporting high availability and fault tolerance.",
+      "technical_spec": "Use of Google Cloud Platform, Spanner, and Bigtable.",
       "severity_score": 5
     },
     {
-      "title": "API Gateway",
-      "description": "Acts as a single entry point for all client interactions, routing them to the appropriate services.",
-      "technical_spec": "Manages authentication, routing, rate limiting, and more for APIs.",
+      "title": "Load Balancing",
+      "description": "Advanced load balancing techniques are employed to handle millions of queries per second.",
+      "technical_spec": "Utilizes Google Front End (GFE) and Cloud Load Balancers.",
+      "severity_score": 5
+    },
+    {
+      "title": "Caching",
+      "description": "Intensive use of caching to improve response times and reduce server load.",
+      "technical_spec": "Integration with edge caching systems like Varnish and proprietary cache solutions.",
       "severity_score": 15
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Geographically distributed network of proxy servers that cache content close to end-users.",
-      "technical_spec": "Utilizes edge servers to store copies of content to reduce latency.",
-      "severity_score": 8
-    },
-    {
-      "title": "High Availability Clustering",
-      "description": "Ensures application availability even in the case of server failure.",
-      "technical_spec": "Uses clusters of servers to provide failover support.",
-      "severity_score": 12
+      "title": "Search Indexing",
+      "description": "Comprehensive indexing architecture to quickly fetch and display relevant results.",
+      "technical_spec": "Utilizing Googlebot for web crawling and a massive inverted index for search.",
+      "severity_score": 20
     }
   ]
 }

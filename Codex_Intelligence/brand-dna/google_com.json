@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 311,
+    "rank": 321,
     "site": "google.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "70729f61962aa03e93f4906e99fe099a"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "f3f5bf32eaded66d2b2caf02ae360af8"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Continuously developing new technologies and improving processes.",
-      "technical_spec": "Focuses on AI advancement, cloud infrastructure, and search algorithm efficiency.",
-      "severity_score": 50
+      "title": "Market Leader",
+      "description": "Google is perceived as the leading search engine provider globally.",
+      "technical_spec": "Emphasizing search performance and speed.",
+      "severity_score": 5
     },
     {
-      "title": "User-Focused",
-      "description": "Prioritizes user experience and accessibility in product design and updates.",
-      "technical_spec": "Employs extensive user testing and accessibility features across services.",
-      "severity_score": 45
+      "title": "Innovation",
+      "description": "Constantly pushing the envelope with new technologies and services.",
+      "technical_spec": "R&D investments in AI, machine learning, and quantum computing.",
+      "severity_score": 10
+    },
+    {
+      "title": "User-Centric Design",
+      "description": "Prioritizing user needs and satisfaction in all product designs.",
+      "technical_spec": "User feedback loops, focus on usability and accessibility.",
+      "severity_score": 5
     },
     {
       "title": "Global Reach",
-      "description": "Serves a vast, diverse user base across multiple countries and languages.",
-      "technical_spec": "Localization in multiple languages and regional content adaptation.",
-      "severity_score": 55
+      "description": "Offers services in a multitude of languages, reaching almost every corner of the online world.",
+      "technical_spec": "Localization efforts, multi-language support, international data centers.",
+      "severity_score": 10
     },
     {
       "title": "Data Privacy",
-      "description": "Commits to maintaining user privacy and protecting personal information.",
-      "technical_spec": "Implements transparency policies and secure data handling procedures.",
-      "severity_score": 60
-    },
-    {
-      "title": "Sustainability",
-      "description": "Aims to reduce environmental impact through eco-friendly initiatives.",
-      "technical_spec": "Adopts energy-efficient data centers and sustainability reporting.",
-      "severity_score": 35
+      "description": "Commitment to data protection and user privacy.",
+      "technical_spec": "GDPR compliance, transparency reports, privacy settings.",
+      "severity_score": 20
     }
   ]
 }

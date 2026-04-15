@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 320,
+    "rank": 330,
     "site": "whatsapp.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "d3f9d920d41de3d0697272afff1a6296"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "98b0d8908bd080f5e8dc2e64db2ae308"
   },
   "data": [
     {
       "title": "Jakob's Law",
-      "description": "Users spend most of their time on other sites, aligning familiar design patterns was critical.",
-      "technical_spec": "Consistent UI components, standard navigation patterns.",
-      "severity_score": 85
+      "description": "WhatsApp leverages familiarity by ensuring its interface aligns with users' expectations of messaging apps.",
+      "technical_spec": "Simplified UI with intuitive navigation mirroring conventional messaging apps.",
+      "severity_score": 30
     },
     {
-      "title": "Miller's Law",
-      "description": "Recognizes the limited ability to process information, ensuring clear and concise communication.",
-      "technical_spec": "Chunked information, minimalistic design approach.",
-      "severity_score": 80
+      "title": "Hick's Law",
+      "description": "Reduced time complexity by minimizing choices for users through tailored interface design.",
+      "technical_spec": "Streamlined menu options and user-centric design approach.",
+      "severity_score": 25
     },
     {
-      "title": "Fitts' Law",
-      "description": "Optimized touch targets for mobile devices to improve usability.",
-      "technical_spec": "Large, easily tappable buttons and controls.",
-      "severity_score": 90
+      "title": "Consistency Principle",
+      "description": "Maintains consistent design patterns and messaging formats.",
+      "technical_spec": "Standardized UI elements and consistent interaction models across devices.",
+      "severity_score": 40
     },
     {
-      "title": "Tesler’s Law",
-      "description": "Simplification of learning and execution tasks keeps the user focus intact.",
-      "technical_spec": "Avoidance of unnecessary complexity, intuitive gesture controls.",
-      "severity_score": 88
+      "title": "Fitts's Law",
+      "description": "Optimizes touch target sizes suitable for mobile usage.",
+      "technical_spec": "Adjustable button sizes and spacing for ease of use on small screens.",
+      "severity_score": 45
     },
     {
-      "title": "Hick’s Law",
-      "description": "Reduction of choices per screen to streamline decision-making.",
-      "technical_spec": "Simplified menus, curated user paths.",
-      "severity_score": 77
+      "title": "Aesthetic-Usability Effect",
+      "description": "An aesthetically pleasing design enhances user satisfaction and perceived usability.",
+      "technical_spec": "Utilizes a visually appealing interface with a focus on simplicity and functionality.",
+      "severity_score": 35
     }
   ]
 }

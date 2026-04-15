@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 311,
+    "rank": 321,
     "site": "google.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "62beae6bfefcc3cfbd1339b7fd8dd86d"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "4dc240b176e39621091e4555af26966b"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Minimize complexity and present clear options to streamline decision-making.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "The time to acquire a target is a function of the distance to and size of the target.",
-      "technical_spec": "Optimize clickable areas and their proximity to improve usability.",
+      "title": "Fitts's Law",
+      "description": "Elements are designed to be quickly accessible and selectable for efficient user interaction.",
+      "technical_spec": "Large clickable areas for primary actions, intuitive placement.",
       "severity_score": 10
     },
     {
-      "title": "Law of Prägnanz",
-      "description": "People will perceive and interpret ambiguous or complex images as the simplest form(s) possible.",
-      "technical_spec": "Design interfaces using clear, clean, and easily recognizable patterns.",
-      "severity_score": 12
+      "title": "Hick's Law",
+      "description": "Consolidation of user options to reduce decision-making time.",
+      "technical_spec": "Minimalist design with clear, concise choices on interfaces.",
+      "severity_score": 15
     },
     {
-      "title": "Miller's Law",
-      "description": "The average person can only keep 7 (plus or minus 2) items in their working memory.",
-      "technical_spec": "Segment information and avoid overwhelming users with too much data at once.",
-      "severity_score": 20
+      "title": "Aesthetic-Usability Effect",
+      "description": "Aesthetic design is perceived as easier to use, leading to improved UX.",
+      "technical_spec": "Clean, modern design with Google Material UI principles.",
+      "severity_score": 5
     },
     {
       "title": "Jakob’s Law",
-      "description": "Users spend most of their time on other sites, so they prefer your site to work the same way.",
-      "technical_spec": "Adhere to standard conventions to ensure users know how to navigate your product.",
-      "severity_score": 25
+      "description": "Users instinctively expect familiar patterns found in other popular services.",
+      "technical_spec": "Consistent navigation structures, predictable interface elements.",
+      "severity_score": 20
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Related items are grouped together to simplify complex functions.",
+      "technical_spec": "Strategic layout of content sections and buttons.",
+      "severity_score": 10
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 319,
+    "rank": 329,
     "site": "instagram.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "aa4a994703c0d7d287103ce8dccb276c"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "c38e591b4befa89f9be43981abb035bf"
   },
   "data": [
     {
-      "title": "Encryption",
-      "description": "End-to-end encryption to secure data in transit and at rest.",
-      "technical_spec": "TLS 1.3 for data in transit, AES-256 for data at rest",
-      "severity_score": 80
+      "title": "Data Encryption",
+      "description": "Encrypts data in transit and at rest to protect user information.",
+      "technical_spec": "Uses TLS/SSL for data transit and AES for data at rest.",
+      "severity_score": 30
     },
     {
-      "title": "Authentication and Authorization",
-      "description": "Multi-factor authentication and strict authorization protocols.",
-      "technical_spec": "OAuth2 for token-based authentication",
-      "severity_score": 75
+      "title": "Two-Factor Authentication",
+      "description": "Offers 2FA for enhanced user account security.",
+      "technical_spec": "Supports SMS and authenticator apps for 2FA.",
+      "severity_score": 15
     },
     {
-      "title": "Security Audits",
-      "description": "Regular security audits to identify vulnerabilities.",
-      "technical_spec": "Penetration testing and code reviews",
-      "severity_score": 70
+      "title": "Threat Detection Systems",
+      "description": "Monitors and identifies potential threats to platform security.",
+      "technical_spec": "Utilizes a mix of AI-based algorithms and manual oversight.",
+      "severity_score": 40
     },
     {
-      "title": "Spam and Abuse Detection",
-      "description": "AI-powered systems to detect and prevent spam and abusive behaviors.",
-      "technical_spec": "Machine learning models running in real-time",
-      "severity_score": 65
+      "title": "Incident Response Protocol",
+      "description": "Well-defined protocols to handle data breaches and security incidents.",
+      "technical_spec": "Real-time response systems with event logging and forensics capabilities.",
+      "severity_score": 25
     },
     {
-      "title": "DDoS Protection",
-      "description": "Mechanisms in place to protect against distributed denial-of-service attacks.",
-      "technical_spec": "CDN-level protection and traffic filtering",
-      "severity_score": 85
+      "title": "Account Security Features",
+      "description": "Options like secure password reset and suspicious login alerts.",
+      "technical_spec": "Email and app-based notifications for unusual activity.",
+      "severity_score": 20
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 318,
+    "rank": 328,
     "site": "adobe.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "b3bb5d46ea56767988a0d693313968c7"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "fffb4c300d5c4f9381068d416ba7de65"
   },
   "data": [
     {
-      "title": "Creative Empowerment",
-      "description": "Adobe's brand is focused on enabling creativity across various disciplines.",
-      "technical_spec": "Creative Cloud Suite, Photoshop, Illustrator",
-      "severity_score": 50
+      "title": "Creativity and Design",
+      "description": "Adobe’s core identity revolves around empowering creativity and innovation in design.",
+      "technical_spec": "Flagship products like Photoshop and Illustrator underpin their branding.",
+      "severity_score": 15
     },
     {
-      "title": "Innovation Leadership",
-      "description": "Brand positions itself as a leader in digital media innovation and new technologies.",
-      "technical_spec": "Adobe Sensei, AI and machine learning advancements",
-      "severity_score": 60
+      "title": "Collaboration",
+      "description": "Encourages collaborative work environments with tools that enhance teamwork.",
+      "technical_spec": "Adobe Creative Cloud features built-in collaboration tools.",
+      "severity_score": 20
     },
     {
-      "title": "Community Engagement",
-      "description": "Adobe actively engages with its user community to foster creativity and collaboration.",
-      "technical_spec": "Adobe Live streams, Behance portfolio platform",
-      "severity_score": 55
+      "title": "Digital Transformation",
+      "description": "Aims to lead and inspire digital transformation across industries.",
+      "technical_spec": "Solutions for digital marketing, media, and digital experience management.",
+      "severity_score": 25
     },
     {
-      "title": "Education and Learning",
-      "description": "Prioritizes education as part of its brand by offering tutorials and learning resources.",
-      "technical_spec": "Adobe Education Exchange, online tutorials",
-      "severity_score": 45
+      "title": "Sustainability",
+      "description": "Committed to sustainable practices and reducing environmental impact.",
+      "technical_spec": "Sustainable product lifecycles and energy-efficient data centers.",
+      "severity_score": 30
     },
     {
-      "title": "Cross-Platform Integration",
-      "description": "Adobe's brand emphasizes seamless integration of tools across different platforms.",
-      "technical_spec": "API connectivity, cross-device synchronization",
-      "severity_score": 70
+      "title": "Innovation",
+      "description": "Continuous focus on research and development to innovate and improve.",
+      "technical_spec": "Adobe Sensei for AI and machine learning innovations.",
+      "severity_score": 35
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 312,
+    "rank": 322,
     "site": "youtube.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "a3b245bde22491b0f5ed5b9e871455e2"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "bc20b5b70085a3148249f87e29c99ecd"
   },
   "data": [
     {
-      "title": "DDoS Protection",
-      "description": "Defense mechanisms to protect against Distributed Denial-of-Service attacks.",
-      "technical_spec": "Uses Google's DDoS protection services like Shielded VMs and Project Shield.",
-      "severity_score": 30
-    },
-    {
-      "title": "Secure Video Streaming",
-      "description": "Security protocols to ensure video and data streams are encrypted.",
-      "technical_spec": "Utilizes HTTPS with forward secrecy and other cryptographic measures.",
-      "severity_score": 20
-    },
-    {
-      "title": "User Access Control",
-      "description": "Mechanisms to protect user accounts and sensitive information.",
-      "technical_spec": "Involves two-factor authentication (2FA) and OAuth 2.0 protocols.",
-      "severity_score": 25
+      "title": "Two-factor Authentication (2FA)",
+      "description": "Provides an additional security layer for user accounts.",
+      "technical_spec": "Supports various authentication apps and SMS-based verification.",
+      "severity_score": 45
     },
     {
       "title": "Content Moderation AI",
-      "description": "Tools for automatic detection and flagging of inappropriate content.",
-      "technical_spec": "Employs machine learning models trained on vast datasets to detect violations.",
-      "severity_score": 35
+      "description": "Employs AI to detect and manage harmful content proactively.",
+      "technical_spec": "Incorporates machine learning algorithms for policy enforcement.",
+      "severity_score": 50
     },
     {
-      "title": "Phishing and Malware Detection",
-      "description": "Systems to identify and prevent phishing attempts and malware spread.",
-      "technical_spec": "Utilizes machine learning and threat intelligence feeds to detect malicious activities.",
-      "severity_score": 40
+      "title": "SSL/TLS Encryption",
+      "description": "Ensures encrypted connections to protect data in transit.",
+      "technical_spec": "Uses strong cryptographic protocols to secure user data traffic.",
+      "severity_score": 30
+    },
+    {
+      "title": "Firewall and DDoS Protection",
+      "description": "Implements robust firewalls to safeguard against cyber attacks.",
+      "technical_spec": "Deploys DDoS mitigation strategies and network monitoring.",
+      "severity_score": 60
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts periodic security reviews to maintain platform integrity.",
+      "technical_spec": "Engages third-party cybersecurity experts for deep assessments.",
+      "severity_score": 55
     }
   ]
 }

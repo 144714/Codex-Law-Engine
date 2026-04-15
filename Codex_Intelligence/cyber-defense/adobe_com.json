@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 318,
+    "rank": 328,
     "site": "adobe.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "e3a9099790abc28c708cbd0ac45c42de"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "69a37f7c4c8a9568212f776aa370b958"
   },
   "data": [
     {
+      "title": "Data Encryption",
+      "description": "Adobe employs strong encryption protocols to secure data in transit and at rest.",
+      "technical_spec": "AES-256 encryption standard.",
+      "severity_score": 20
+    },
+    {
+      "title": "Multi-Factor Authentication",
+      "description": "Enhancing security by requiring multiple forms of verification for access.",
+      "technical_spec": "Two-factor authentication using SMS and authenticator apps.",
+      "severity_score": 25
+    },
+    {
       "title": "Advanced Threat Detection",
-      "description": "Implements systems for detecting and mitigating various cyber threats in real-time.",
-      "technical_spec": "SIEM, AI-driven threat detection tools",
-      "severity_score": 40
-    },
-    {
-      "title": "Robust Identity and Access Management",
-      "description": "Secures user interactions with comprehensive identity management frameworks.",
-      "technical_spec": "OAuth 2.0, SAML, Multi-factor authentication",
-      "severity_score": 35
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "Utilizes encryption protocols to protect data at rest and in transit.",
-      "technical_spec": "TLS 1.3, AES-256 encryption, HTTPS",
-      "severity_score": 50
+      "description": "Use of AI and machine learning for early threat detection and response.",
+      "technical_spec": "Integration of SIEM and UEBA technologies.",
+      "severity_score": 30
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts routine security audits to ensure compliance and identify vulnerabilities.",
-      "technical_spec": "Vulnerability scanners, Penetration testing",
-      "severity_score": 45
+      "description": "Conducting frequent security audits to identify vulnerabilities.",
+      "technical_spec": "Internal and external audits using industry-standard tools.",
+      "severity_score": 35
     },
     {
-      "title": "Incident Response Plan",
-      "description": "Established processes for managing and mitigating the impact of security breaches.",
-      "technical_spec": "NIST Cybersecurity Framework, automated response systems",
-      "severity_score": 55
+      "title": "Patch Management",
+      "description": "Timely updates and patches to fix vulnerabilities in software and systems.",
+      "technical_spec": "Automated patch management using internal systems.",
+      "severity_score": 40
     }
   ]
 }

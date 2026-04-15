@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 312,
+    "rank": 322,
     "site": "youtube.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "e2ee2eb15d81aafe1954af61644c3abe"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "c9a9ace727be388253f4f51f16f7f6b1"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Focuses on the time required to move to a target area.",
-      "technical_spec": "Optimized layout with easily accessible buttons and controls.",
-      "severity_score": 15
-    },
-    {
-      "title": "Hick's Law",
-      "description": "Decision time increases with the number of choices presented.",
-      "technical_spec": "Lean interfaces with simplified interaction paths to reduce cognitive load.",
-      "severity_score": 10
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Objects placed close together are perceived as a group.",
-      "technical_spec": "Structured layout with related content grouped together for intuitive navigation.",
-      "severity_score": 10
-    },
-    {
-      "title": "Serial Position Effect",
-      "description": "Items presented at the start or end of a list are remembered more vividly.",
-      "technical_spec": "Strategically places key content at the beginning and end of lists.",
+      "title": "Hick’s Law",
+      "description": "Simplifies choices to reduce user decision-making time.",
+      "technical_spec": "Limits options on the interface to enhance user navigation.",
       "severity_score": 20
     },
     {
+      "title": "Fitts’s Law",
+      "description": "Designs large clickable areas for frequently accessed features.",
+      "technical_spec": "Positioned key interactive elements within thumb reach on mobile UI.",
+      "severity_score": 30
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Optimizes content in bite-sized chunks for easy information processing.",
+      "technical_spec": "Employs playlists and series arrangements for logical content flow.",
+      "severity_score": 25
+    },
+    {
       "title": "Jakob’s Law",
-      "description": "Users prefer your site to work the same way as all the other sites they already know.",
-      "technical_spec": "Adopts universally familiar navigation patterns and interface elements.",
-      "severity_score": 5
+      "description": "Maintains consistency with familiar web navigation structures.",
+      "technical_spec": "Utilizes standard icons and menu placements across the platform.",
+      "severity_score": 15
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Enhances visual appeal to improve perceived usability.",
+      "technical_spec": "Incorporates a clean and visually pleasing design.",
+      "severity_score": 10
     }
   ]
 }

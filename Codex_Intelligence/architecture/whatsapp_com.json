@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 320,
+    "rank": 330,
     "site": "whatsapp.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "a598932fa8d381f0832746a1ba0b2dfd"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "9f82bf489329ce7dfd32861b7171b0af"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "WhatsApp is built using a microservices architecture to ensure scalability and reliability.",
-      "technical_spec": "Independently deployable services, communication via APIs.",
-      "severity_score": 70
+      "description": "WhatsApp uses a microservices architecture to maximize scalability and flexibility.",
+      "technical_spec": "Service-oriented architecture with APIs to allow seamless communication across services.",
+      "severity_score": 20
     },
     {
-      "title": "End-to-End Encryption Framework",
-      "description": "WhatsApp uses Signal Protocol for end-to-end encryption to ensure user privacy and security.",
-      "technical_spec": "Open Whisper Systems protocol, cryptographic algorithms.",
-      "severity_score": 95
-    },
-    {
-      "title": "Cross-Platform Development",
-      "description": "WhatsApp supports multiple platforms offering native experiences on each.",
-      "technical_spec": "Native iOS, Android app development, web client integration.",
-      "severity_score": 85
-    },
-    {
-      "title": "Real-Time Messaging Infrastructure",
-      "description": "Optimized for efficient, low-latency message delivery worldwide.",
-      "technical_spec": "XMPP protocol, message queuing systems.",
-      "severity_score": 90
-    },
-    {
-      "title": "Resource Optimization",
-      "description": "Built to minimize data usage without sacrificing performance quality.",
-      "technical_spec": "Adaptive codecs, efficient data buffering.",
+      "title": "End-to-End Encryption",
+      "description": "Fundamental to WhatsApp's architecture is its incorporation of end-to-end encryption for security.",
+      "technical_spec": "Encryption protocol ensures that only the communicating users can read messages.",
       "severity_score": 80
+    },
+    {
+      "title": "Cloud-based Infrastructure",
+      "description": "WhatsApp operates on a distributed cloud-based platform for high availability and performance.",
+      "technical_spec": "Utilizes cloud servers for distributed computing and data storage.",
+      "severity_score": 30
+    },
+    {
+      "title": "Real-time Messaging Protocol",
+      "description": "Supporting instant communication, using protocols optimized for low latency.",
+      "technical_spec": "Based on protocols like XMPP tailored for mobile optimization.",
+      "severity_score": 40
+    },
+    {
+      "title": "Cross-Platform Support",
+      "description": "WhatsApp's architecture supports various operating systems ensuring wide accessibility.",
+      "technical_spec": "Utilizes frameworks that allow seamless experiences on iOS, Android, and web platforms.",
+      "severity_score": 25
     }
   ]
 }

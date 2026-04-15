@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 314,
+    "rank": 324,
     "site": "microsoft.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "88816b4e773fddad077b7ed8f56a835c"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "bdf207dcf676717500671d279dfea44d"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Microsoft employs a microservices architecture which allows services to be independently deployable and scalable.",
-      "technical_spec": "Containers, service mesh, cloud-native infrastructure.",
+      "title": "Cloud-Based Structure",
+      "description": "Microsoft.com is built on a cloud architecture using Azure services to ensure high availability and scalability.",
+      "technical_spec": "Azure App Services, Azure CDN",
       "severity_score": 20
     },
     {
-      "title": "Scalable Cloud Infrastructure",
-      "description": "Built on top of Azure's scalable cloud services, enabling dynamic resource allocation.",
-      "technical_spec": "Azure App Services, Azure Functions, Kubernetes.",
-      "severity_score": 15
-    },
-    {
-      "title": "CDN Implementation",
-      "description": "Content Delivery Network (CDN) used for fast and reliable content delivery globally.",
-      "technical_spec": "Azure CDN, distributed PoPs for content caching.",
-      "severity_score": 10
-    },
-    {
-      "title": "API Gateway",
-      "description": "Centralized entry point for APIs, providing route management and security.",
-      "technical_spec": "Azure API Management, OAuth2 authentication.",
+      "title": "Microservices Infrastructure",
+      "description": "Implements microservices for modularity and independent deployment.",
+      "technical_spec": "Docker, Kubernetes on Azure",
       "severity_score": 30
     },
     {
-      "title": "Database Sharding",
-      "description": "Technique to split databases into smaller, faster, more manageable parts called shards.",
-      "technical_spec": "Azure SQL Database, SQL Server Stretch Database.",
-      "severity_score": 40
+      "title": "Global Load Balancing",
+      "description": "Utilizes global load balancing to distribute user traffic across server locations.",
+      "technical_spec": "Azure Traffic Manager",
+      "severity_score": 25
+    },
+    {
+      "title": "Content Delivery Network",
+      "description": "Employs a CDN to cache content close to users to improve site loading times.",
+      "technical_spec": "Azure CDN",
+      "severity_score": 15
+    },
+    {
+      "title": "Resilient Data Storage",
+      "description": "Uses multiple data centers and redundant systems for data storage.",
+      "technical_spec": "Azure Blob Storage, SQL Database",
+      "severity_score": 35
     }
   ]
 }

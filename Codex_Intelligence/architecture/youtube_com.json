@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 312,
+    "rank": 322,
     "site": "youtube.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "6c856c52bc850e5710751ba26f524d31"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "b116948d2aebd2158bab7d8ebeff2298"
   },
   "data": [
     {
-      "title": "Microservices Framework",
-      "description": "YouTube's architecture includes a collection of microservices that handle separate functions independently.",
-      "technical_spec": "Built using Google infrastructure components like Borg (container orchestration), Bigtable (data storage), and Colossus (file storage).",
-      "severity_score": 5
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "A global network of servers that caches video content to deliver it efficiently.",
-      "technical_spec": "Utilizes a combination of Google's own CDN and partnerships with external CDNs for redundancy and speed.",
-      "severity_score": 10
-    },
-    {
-      "title": "Scalable Video Processing",
-      "description": "System for encoding and processing videos to different formats and resolutions.",
-      "technical_spec": "Leverages Google's internal tools like TensorFlow for processing and optimizing video delivery.",
-      "severity_score": 15
-    },
-    {
-      "title": "NoSQL Database Systems",
-      "description": "Datastore for managing metadata and user information.",
-      "technical_spec": "Primarily uses Google's Bigtable and Spanner for distributed data management.",
+      "title": "Microservices Infrastructure",
+      "description": "Utilizes a microservices architecture to manage different functionalities independently.",
+      "technical_spec": "Employs containerization technologies like Kubernetes and Docker.",
       "severity_score": 20
     },
     {
-      "title": "Load Balancing",
-      "description": "A method to distribute incoming traffic efficiently to servers hosting YouTube services.",
-      "technical_spec": "Integrated with Google's global load balancing infrastructure.",
+      "title": "Content Delivery Network (CDN)",
+      "description": "Leverages global CDN for efficient video streaming and reducing latency.",
+      "technical_spec": "Partnered with multiple CDN providers across data centers worldwide.",
       "severity_score": 10
+    },
+    {
+      "title": "Scalable Data Storage",
+      "description": "Manages petabytes of video data with scalable cloud storage solutions.",
+      "technical_spec": "Uses distributed NoSQL databases for metadata and object storage.",
+      "severity_score": 25
+    },
+    {
+      "title": "APIs and SDKs",
+      "description": "Offers APIs and SDKs for third-party integrations and app development.",
+      "technical_spec": "RESTful services with OAuth 2.0 authentication for access control.",
+      "severity_score": 15
+    },
+    {
+      "title": "Real-time Streaming Protocols",
+      "description": "Supports live streaming with low latency and high-quality resolution.",
+      "technical_spec": "Uses WebRTC and HLS protocols to facilitate streaming services.",
+      "severity_score": 35
     }
   ]
 }

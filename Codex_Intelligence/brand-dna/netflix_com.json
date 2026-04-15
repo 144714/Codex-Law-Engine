@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 316,
+    "rank": 326,
     "site": "netflix.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "a612fd6fdd39b5058b77cd33061035aa"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "a8c8e654c7303b2b45c178f01e46c490"
   },
   "data": [
     {
       "title": "Innovative Storytelling",
-      "description": "Focus on producing and distributing unique content that pushes boundaries in narrative and production.",
-      "technical_spec": "Diverse content library with a mix of licensed shows and Netflix Originals.",
-      "severity_score": 85
+      "description": "Focus on producing original content that pushes creative boundaries.",
+      "technical_spec": "Develops and procures exclusive series and films in house.",
+      "severity_score": 10
     },
     {
       "title": "Customer-Centric Approach",
-      "description": "Prioritizing user experience and satisfaction through personalization and responsive design.",
-      "technical_spec": "Algorithms tailored for personalized recommendations and adaptive streaming quality.",
-      "severity_score": 90
+      "description": "Emphasizes a seamless and personalized viewer experience.",
+      "technical_spec": "Employs algorithms for personalized show recommendations.",
+      "severity_score": 15
     },
     {
-      "title": "Global Accessibility",
-      "description": "Commitment to making content available to a worldwide audience, ensuring inclusivity.",
-      "technical_spec": "Multi-language support, subtitles, and deep localization in content and user interface.",
-      "severity_score": 88
+      "title": "Global Reach and Diversity",
+      "description": "Commitment to offering diverse content accessible worldwide.",
+      "technical_spec": "Content available in multiple languages with diverse cultural offerings.",
+      "severity_score": 20
     },
     {
-      "title": "Pioneering Technology",
-      "description": "Continuous investment in technology to stay ahead in streaming quality and service reliability.",
-      "technical_spec": "Development of custom solutions like Open Connect and optimizing streaming protocols.",
-      "severity_score": 92
+      "title": "Brand Partnership Integration",
+      "description": "Strategic partnerships to enhance brand visibility and content variety.",
+      "technical_spec": "Collaborations with brands for promotional content.",
+      "severity_score": 25
     },
     {
-      "title": "Bold Branding",
-      "description": "Distinct brand voice and presence across all platforms, characterized by creativity and boldness.",
-      "technical_spec": "Consistent design language, promotional campaigns, and social media engagements.",
-      "severity_score": 82
+      "title": "Technology and Streaming Innovation",
+      "description": "Pioneers in streaming technology and adaptive bitrate streaming solutions.",
+      "technical_spec": "Uninterrupted streaming experience with adaptive technology.",
+      "severity_score": 5
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 313,
+    "rank": 323,
     "site": "apple.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "dcb9da5040ba86e3d5e0d9eafcb295a5"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "a845ea26dedfee286e9a5cc833519f27"
   },
   "data": [
     {
-      "title": "Advanced Encryption Standards",
-      "description": "Encryption protocols that ensure data confidentiality and integrity for user communications and transactions.",
-      "technical_spec": "Utilizes AES-256 encryption for sensitive data alongside HTTPS for secure web communication.",
+      "title": "End-to-End Encryption",
+      "description": "Data transmitted between users and the site is encrypted to prevent interception.",
+      "technical_spec": "TLS 1.3 encryption is implemented for secure data transfer.",
       "severity_score": 5
     },
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "Enhances security by requiring two or more verification factors to access an account.",
-      "technical_spec": "Provides MFA options, such as SMS codes or authenticator apps, for user accounts.",
+      "title": "Continuous Monitoring",
+      "description": "Real-time monitoring systems track and report suspicious activities and potential breaches.",
+      "technical_spec": "Network intrusion detection systems are utilized.",
       "severity_score": 10
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Continuous security assessments to identify vulnerabilities and implement defenses.",
-      "technical_spec": "Conducts internal and third-party security audits to check for potential security gaps.",
-      "severity_score": 20
-    },
-    {
-      "title": "Firewall Protection",
-      "description": "Utilizes firewalls to protect network resources from unauthorized access and threats.",
-      "technical_spec": "Employs both software and hardware firewalls as part of a comprehensive network security strategy.",
+      "title": "Content Security Policy",
+      "description": "Prevents cross-site scripting (XSS) by specifying which content sources are trusted.",
+      "technical_spec": "Strict CSP headers are set to minimize potential XSS vulnerabilities.",
       "severity_score": 15
     },
     {
-      "title": "DDoS Mitigation",
-      "description": "Prevents Distributed Denial of Service attacks that can disrupt website accessibility.",
-      "technical_spec": "Uses advanced DDoS protection measures from cloud services or in-house solutions to absorb traffic spikes.",
-      "severity_score": 25
+      "title": "DDoS Protection",
+      "description": "Mitigation strategies in place to prevent Distributed Denial of Service attacks.",
+      "technical_spec": "Utilization of global CDNs and automatic traffic filtering.",
+      "severity_score": 20
+    },
+    {
+      "title": "Authentication Protocols",
+      "description": "Strong multi-factor authentication mechanisms protect user accounts from unauthorized access.",
+      "technical_spec": "Support for biometric logins and security keys alongside traditional passwords.",
+      "severity_score": 10
     }
   ]
 }

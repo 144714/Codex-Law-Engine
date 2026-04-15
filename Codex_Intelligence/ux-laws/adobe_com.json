@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 318,
+    "rank": 328,
     "site": "adobe.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "a5da11648060ba126bc8db137f6f7503"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "47255332b7d199d1a615b8cf540f4e58"
   },
   "data": [
     {
-      "title": "Consistency Heuristic",
-      "description": "Ensures uniformity across design elements and interactions to enhance usability.",
-      "technical_spec": "Design systems, UI frameworks, style guides",
-      "severity_score": 25
-    },
-    {
-      "title": "Fitts’s Law Implementation",
-      "description": "Designs interfaces that minimize distance and maximize target size for quicker user actions.",
-      "technical_spec": "Responsive Design, Adaptive Layouts",
+      "title": "Hick’s Law",
+      "description": "Strives to reduce the number of choices to improve decision-making time.",
+      "technical_spec": "Simplified navigation with intuitive user interface design.",
       "severity_score": 20
     },
     {
-      "title": "Hick’s Law Awareness",
-      "description": "Simplifies user decision-making by limiting the number of presented choices at once.",
-      "technical_spec": "Streamlined menu systems, contextual actions",
+      "title": "Fitts’s Law",
+      "description": "Applies the principle to make interactive elements easy to select.",
+      "technical_spec": "Large clickable areas and buttons for key actions.",
+      "severity_score": 25
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Utilizes proximity, similarity, and closure for more organized user interfaces.",
+      "technical_spec": "Consistent design patterns and organized layout structures.",
       "severity_score": 30
     },
     {
-      "title": "Usability Testing Protocols",
-      "description": "Regular usability testing to assess and enhance user interactions and satisfaction.",
-      "technical_spec": "A/B testing software, user feedback tools",
+      "title": "Law of Proximity",
+      "description": "Groups related items to improve content readability and organization.",
+      "technical_spec": "Logical groupings of tools and features within applications.",
       "severity_score": 35
     },
     {
-      "title": "Jakob’s Law Compliance",
-      "description": "Designs interfaces based on users' experience with other familiar applications.",
-      "technical_spec": "User Experience Research, Interface Benchmarking",
+      "title": "Peak-End Rule",
+      "description": "Focuses on creating memorable user interactions by enhancing peak moments and endings.",
+      "technical_spec": "Highlighted features and smooth transitions for enhanced user experience.",
       "severity_score": 40
     }
   ]

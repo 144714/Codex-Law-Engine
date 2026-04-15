@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 316,
+    "rank": 326,
     "site": "netflix.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "db21a238eb32151106dcb2ffc6263963"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "2c446609402a6f0a990e9c8e62c5fc8c"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Netflix's architecture is based on microservices, allowing each service to be developed, deployed, and scaled independently.",
-      "technical_spec": "Services communicate over RESTful APIs and are deployed on a scalable AWS cloud infrastructure.",
-      "severity_score": 90
+      "title": "Microservices Architecture",
+      "description": "Netflix uses a microservices architecture to break applications into smaller, independent services.",
+      "technical_spec": "Services communicate over HTTP/2 using gRPC, RESTful APIs, and utilize load balancing.",
+      "severity_score": 15
+    },
+    {
+      "title": "Cloud-Native Infrastructure",
+      "description": "Netflix is built on a cloud-native infrastructure, primarily hosted on AWS.",
+      "technical_spec": "Utilizes Amazon EC2, S3, and other AWS resources for scalable and resilient operations.",
+      "severity_score": 20
     },
     {
       "title": "Global Content Delivery Network",
-      "description": "Netflix uses a broad network of data centers and CDNs to deliver content efficiently around the globe.",
-      "technical_spec": "Data is cached at edge locations close to users, using AWS CloudFront and proprietary solutions.",
-      "severity_score": 85
+      "description": "Netflix employs a CDN strategy using Open Connect for optimized content delivery.",
+      "technical_spec": "Open Connect appliances are embedded near ISPs for efficient video streaming.",
+      "severity_score": 10
     },
     {
-      "title": "Chaos Engineering",
-      "description": "The approach of intentionally introducing failures to test the robustness of the system.",
-      "technical_spec": "Tools like Chaos Monkey randomly disable servers to test resiliency.",
-      "severity_score": 70
+      "title": "Service Discovery and Configuration",
+      "description": "Uses Eureka for service discovery and Archaius for dynamic configuration updates.",
+      "technical_spec": "Eureka is a REST-based service for locating services, Archaius allows for configurable properties.",
+      "severity_score": 25
     },
     {
-      "title": "Open Connect",
-      "description": "An in-house content delivery network designed to reduce bandwidth costs and improve streaming quality.",
-      "technical_spec": "Uses physical appliances placed within ISPs to store content.",
-      "severity_score": 80
-    },
-    {
-      "title": "API Gateway",
-      "description": "Used to manage and route API requests between clients and backend services.",
-      "technical_spec": "Custom-built API gateway that handles millions of requests, developed for high availability.",
-      "severity_score": 75
+      "title": "Data-Driven Infrastructure Management",
+      "description": "Leverages Spinnaker for continuous delivery and Asgard for AWS tracking.",
+      "technical_spec": "Spinnaker integrates with Jenkins, Asgard focuses on EC2 instance management.",
+      "severity_score": 30
     }
   ]
 }

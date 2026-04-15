@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 315,
+    "rank": 325,
     "site": "amazon.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "16564ca1b6a8c418af564cb85a1a5611"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "2406417cf58cef75abb4a92065a7754c"
   },
   "data": [
     {
-      "title": "Customer Obsession",
-      "description": "Amazon places customers at the center of its operations ensuring top-notch service.",
-      "technical_spec": "24/7 customer support",
-      "severity_score": 95
+      "title": "Customer-Centric Approach",
+      "description": "Focused on delivering exceptional customer experiences.",
+      "technical_spec": "24/7 customer service, responsive support teams",
+      "severity_score": 10
     },
     {
-      "title": "Operational Excellence",
-      "description": "Focus on running lean operations that maximize value delivery.",
-      "technical_spec": "Automated supply chain",
-      "severity_score": 90
+      "title": "Innovative Culture",
+      "description": "Continual innovation to stay ahead in technology and service offerings.",
+      "technical_spec": "R&D investments, tech labs",
+      "severity_score": 15
     },
     {
-      "title": "Innovation",
-      "description": "Continuous development of new features and services that cater to various market needs.",
-      "technical_spec": "AI and ML integration",
-      "severity_score": 85
+      "title": "Diverse Product Range",
+      "description": "Offers a comprehensive range of products across multiple categories.",
+      "technical_spec": "Vast product database, dynamic listing algorithms",
+      "severity_score": 20
     },
     {
       "title": "Global Reach",
-      "description": "Servicing international markets with localized options to accommodate diverse customer bases.",
-      "technical_spec": "International shipping logistics",
-      "severity_score": 80
+      "description": "World-wide presence with localized experiences.",
+      "technical_spec": "Country-specific sites, international logistics",
+      "severity_score": 30
     },
     {
-      "title": "Sustainability",
-      "description": "Commitment to reducing carbon footprint and promoting sustainable practices.",
-      "technical_spec": "Carbon-neutral shipping initiatives",
-      "severity_score": 75
+      "title": "Sustainability Commitment",
+      "description": "Commitment to sustainable practices and reducing carbon footprint.",
+      "technical_spec": "Renewable energy initiatives, eco-friendly packaging",
+      "severity_score": 25
     }
   ]
 }

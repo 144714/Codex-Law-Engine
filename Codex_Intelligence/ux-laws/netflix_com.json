@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 316,
+    "rank": 326,
     "site": "netflix.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "781ae7bb3e5d6ce190b6475928e9002d"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "99763cb3836ba6cece3e0cdf1e95a4f4"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "The time to acquire a target is a function of the distance to and size of the target.",
-      "technical_spec": "Large clickable areas for easy navigation, close proximity for target elements in menus.",
-      "severity_score": 75
-    },
-    {
       "title": "Hick’s Law",
-      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Simple navigation and categorization to minimize cognitive load for users.",
-      "severity_score": 80
+      "description": "Designs focus on decision-making efficiency by limiting choices.",
+      "technical_spec": "UI displays minimalistic options for ease of navigation.",
+      "severity_score": 15
     },
     {
-      "title": "Miller’s Law",
-      "description": "Most people can only hold 7 (plus or minus 2) pieces of information in working memory.",
-      "technical_spec": "Break down information into chunks and limit on-screen elements.",
-      "severity_score": 70
+      "title": "Fitts’s Law",
+      "description": "Enhances target accessibility to facilitate easy user interaction.",
+      "technical_spec": "Critical buttons and links are large and easily clickable.",
+      "severity_score": 10
     },
     {
       "title": "Jakob’s Law",
-      "description": "Users spend most of their time on other sites and prefer your site to work the same way as all the other sites they are familiar with.",
-      "technical_spec": "Conventional UI patterns and familiar user interactions.",
-      "severity_score": 85
+      "description": "Designs are consistent with user expectations to reduce cognitive load.",
+      "technical_spec": "Interfaces are similar across devices and adhere to common patterns.",
+      "severity_score": 5
     },
     {
-      "title": "Tesler’s Law",
-      "description": "Every application has an inherent amount of irreducible complexity that cannot be removed.",
-      "technical_spec": "Efficient use of back-end processing to simplify the front-end user experience.",
-      "severity_score": 78
+      "title": "Aesthetic-Usability Effect",
+      "description": "Visually appealing designs that enhance perceived usability.",
+      "technical_spec": "High-quality imagery and animations to draw user engagement.",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Applies user chunking to manage information complexity.",
+      "technical_spec": "Content is grouped into manageable, digestible units.",
+      "severity_score": 25
     }
   ]
 }

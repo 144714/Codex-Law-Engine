@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 315,
+    "rank": 325,
     "site": "amazon.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "92cfe84a70401226bb5b29da2add1239"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "b47c1db9f82c62d5cc442cb70f8450d4"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Effortlessly presents product options while minimizing decision paralysis.",
-      "technical_spec": "Simplified navigation",
-      "severity_score": 80
+      "description": "Simplifies choices available to users to reduce decision time.",
+      "technical_spec": "Streamlined UI, quick-access menus",
+      "severity_score": 20
     },
     {
-      "title": "Fitts's Law",
-      "description": "Design ensures that clickable elements are adequately sized and properly positioned for ease of use.",
-      "technical_spec": "Button size and placement",
-      "severity_score": 85
+      "title": "F-Shaped Pattern",
+      "description": "Design layout aligns with the natural reading pattern of users.",
+      "technical_spec": "Left-aligned text, predictable navigation",
+      "severity_score": 25
     },
     {
-      "title": "Jakob’s Law",
-      "description": "The site leverages familiar patterns ensuring users navigate intuitively.",
-      "technical_spec": "Consistent layout design",
-      "severity_score": 90
+      "title": "Whitespace Utilization",
+      "description": "Efficient use of whitespace to improve readability and focus.",
+      "technical_spec": "Clean spacing between sections and elements",
+      "severity_score": 30
     },
     {
-      "title": "Miller’s Law",
-      "description": "Limits the amount of information presented at any time to improve comprehension.",
-      "technical_spec": "Paginated search results",
-      "severity_score": 75
+      "title": "Consistency Principle",
+      "description": "Maintaining uniformity across design elements for better user familiarity.",
+      "technical_spec": "Consistent button styles, color schemes",
+      "severity_score": 15
     },
     {
-      "title": "The Law of Proximity",
-      "description": "Arranges related content together for a coherent visual presentation.",
-      "technical_spec": "Product display organization",
-      "severity_score": 80
+      "title": "Feedback Loop",
+      "description": "Intuitive feedback elements for confirming user actions.",
+      "technical_spec": "Loading indicators, confirmation alerts",
+      "severity_score": 35
     }
   ]
 }

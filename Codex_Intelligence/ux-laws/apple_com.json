@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 313,
+    "rank": 323,
     "site": "apple.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "97e2006ac6c96b1dcf359ece5e3e4ac2"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "7c91b23f30ab6ebcd03000ef0f326cc9"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies choices to reduce decision time, focusing on streamlined navigation.",
-      "technical_spec": "Optimized navigation bars and minimization of options at the decision point.",
+      "title": "Fitts’s Law",
+      "description": "The site design considers the time needed to acquire targets on a webpage, with larger and closer buttons for ease of use.",
+      "technical_spec": "Larger clickable areas in key navigation and action sections.",
       "severity_score": 10
     },
     {
-      "title": "Fitts's Law",
-      "description": "Design principle focusing on large, easily clickable interfaces to improve user interactions.",
-      "technical_spec": "Ensures key interactive elements are larger and closer to the expected interaction path.",
-      "severity_score": 15
+      "title": "Hick's Law",
+      "description": "The interface minimizes choice overload by providing intuitive and limited options to encourage decision-making.",
+      "technical_spec": "Dropdown menus and progressive disclosure techniques.",
+      "severity_score": 8
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Attractive designs create a positive user experience even under challenging usability situations.",
-      "technical_spec": "High-resolution images, smooth animations, and consistent branding to engage users.",
+      "title": "Gestalt Principles",
+      "description": "Effective use of proximity, similarity, and continuity in arranging elements, fostering a clean, organized visual hierarchy.",
+      "technical_spec": "Consistent spacing and pattern recognition throughout the interface.",
       "severity_score": 5
     },
     {
-      "title": "Miller's Law",
-      "description": "Focuses on presenting information in chunks to aid user memory and processing.",
-      "technical_spec": "Content layout that groups related information into digestible sections.",
-      "severity_score": 20
+      "title": "Law of Proximity",
+      "description": "Related items are placed close together to create a clear association between elements.",
+      "technical_spec": "Groupings in user interfaces reflect task-related activities, organizing content logically.",
+      "severity_score": 6
     },
     {
-      "title": "Jakob's Law",
-      "description": "Design consistency across Apple’s online presence to meet user expectations derived from other digital platforms.",
-      "technical_spec": "Unified interface styles and predictability across all Apple online properties.",
-      "severity_score": 30
+      "title": "Miller’s Law",
+      "description": "Limiting the user’s cognitive load by grouping content and information to span no more than 7±2 concepts.",
+      "technical_spec": "Clear categorization and summarization of information.",
+      "severity_score": 7
     }
   ]
 }

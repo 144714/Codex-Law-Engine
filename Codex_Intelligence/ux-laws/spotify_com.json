@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 317,
+    "rank": 327,
     "site": "spotify.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "20e9ea923b3295fd2393f3402dc8c2de"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "3bb314760f91e9e40eb70188be126a80"
   },
   "data": [
     {
-      "title": "Consistency Heuristic",
-      "description": "Ensures a consistent user experience across devices and platforms.",
-      "technical_spec": "Unified styling, responsive design frameworks",
-      "severity_score": 92
+      "title": "Hick's Law",
+      "description": "Simplifies and limits user choices to enhance decision-making speed.",
+      "technical_spec": "Streamlined menus and concise options in the application interface.",
+      "severity_score": 12
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "Designs user interface elements for ease of interaction based on size and distance.",
+      "technical_spec": "Large, easily accessible play and pause buttons.",
+      "severity_score": 15
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Enhances perceived usability through appealing UI design.",
-      "technical_spec": "Minimalist design, high-quality visuals",
-      "severity_score": 88
+      "description": "Ensures visually pleasing designs to enhance perceived usability.",
+      "technical_spec": "Carefully chosen color scheme, typography, and iconography.",
+      "severity_score": 8
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Aligns user experience with common patterns and expectations from similar services.",
+      "technical_spec": "Familiar navigation layout akin to music player norms.",
+      "severity_score": 20
     },
     {
       "title": "Feedback Principle",
-      "description": "Provides clear feedback to user actions to enhance interaction.",
-      "technical_spec": "Loading indicators, action confirmations",
-      "severity_score": 95
-    },
-    {
-      "title": "Hick's Law",
-      "description": "Reduces decision time by limiting the number of options in menus.",
-      "technical_spec": "Simplified navigation, prioritized content",
-      "severity_score": 90
-    },
-    {
-      "title": "Recognition over Recall",
-      "description": "Designs interfaces that prioritize user recognition over recall.",
-      "technical_spec": "Iconography, predictable patterns",
-      "severity_score": 91
+      "description": "Provides immediate feedback to user actions for better interaction understanding.",
+      "technical_spec": "Visual and auditory cues for actions like song selection and volume changes.",
+      "severity_score": 10
     }
   ]
 }

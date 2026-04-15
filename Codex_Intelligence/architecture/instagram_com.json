@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 319,
+    "rank": 329,
     "site": "instagram.com",
-    "date": "2026-04-15 21:43",
-    "integrity_hash": "5fa1559024ec755f773832d203799708"
+    "date": "2026-04-15 22:34",
+    "integrity_hash": "42e9c85b559d9c7797b3fe22d4ec30f0"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Instagram is built on a microservice architecture enabling scalability and flexibility.",
-      "technical_spec": "Deployed on AWS, utilizes Docker for containerization",
+      "title": "Cloud-Based Infrastructure",
+      "description": "Instagram relies on cloud services for scalable and efficient operations.",
+      "technical_spec": "Utilizes AWS and Facebook's custom infrastructure for data storage and content delivery.",
       "severity_score": 20
     },
     {
-      "title": "Database Sharding",
-      "description": "To manage large volumes of data, Instagram implements database sharding.",
-      "technical_spec": "Uses PostgreSQL with custom sharding logic",
+      "title": "Microservices Architecture",
+      "description": "Distributed microservices handle different functionalities of Instagram.",
+      "technical_spec": "Divided into multiple services that operate independently but cohesively.",
       "severity_score": 15
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "A CDN is used to distribute media content efficiently across the globe.",
-      "technical_spec": "Akamai and Facebook's own CDN",
+      "title": "RESTful API",
+      "description": "Provides RESTful API for communication between client and server.",
+      "technical_spec": "Follows standard REST principles with JSON data exchange.",
+      "severity_score": 25
+    },
+    {
+      "title": "High Availability Systems",
+      "description": "Ensures service uptime through robust infrastructure.",
+      "technical_spec": "Redundancies, load balancing, and failover systems in place.",
       "severity_score": 10
     },
     {
-      "title": "Load Balancing",
-      "description": "Ensures even distribution of traffic across servers.",
-      "technical_spec": "Nginx and custom load balancing algorithms",
-      "severity_score": 12
-    },
-    {
-      "title": "RESTful API",
-      "description": "Provides data access and interaction through APIs following REST principles.",
-      "technical_spec": "JSON over HTTPS, uses OAuth for authentication",
-      "severity_score": 30
+      "title": "Content Delivery Network (CDN)",
+      "description": "Utilizes CDN to distribute content efficiently.",
+      "technical_spec": "Geographically distributed edge servers for rapid content delivery.",
+      "severity_score": 18
     }
   ]
 }
