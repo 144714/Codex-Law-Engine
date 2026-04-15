@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 198,
+    "rank": 208,
     "site": "adobe.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "b47d2d866ee2457c0519cc364cf9395c"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "b9c77750ad15218126185c5c43884bcc"
   },
   "data": [
     {
-      "title": "Creative Freedom",
-      "description": "Adobe empowers creativity across its suite of software.",
-      "technical_spec": "Photoshop, Illustrator, After Effects",
-      "severity_score": 5
-    },
-    {
-      "title": "Innovation Leadership",
-      "description": "Leader in adopting and implementing cutting-edge technologies.",
-      "technical_spec": "AI Integration, Cloud Technologies",
-      "severity_score": 15
-    },
-    {
-      "title": "Sustainability Commitment",
-      "description": "Focused on sustainable and responsible business practices.",
-      "technical_spec": "Eco-friendly Data Centers",
-      "severity_score": 8
-    },
-    {
-      "title": "Community Engagement",
-      "description": "Strong emphasis on building and fostering a creative community.",
-      "technical_spec": "Adobe Forums, Behance",
+      "title": "Creative Innovation",
+      "description": "Emphasis on empowering creativity through advanced software solutions.",
+      "technical_spec": "Annual updates and introductions of new creative tools",
       "severity_score": 10
     },
     {
-      "title": "Customer-Centric Innovation",
-      "description": "Adapts innovations to meet evolving customer needs.",
-      "technical_spec": "User Feedback Systems",
-      "severity_score": 12
+      "title": "Customer-Centric Design",
+      "description": "Focuses on intuitive and user-friendly product interfaces.",
+      "technical_spec": "Regularly conducts user testing and feedback sessions",
+      "severity_score": 15
+    },
+    {
+      "title": "Global Accessibility",
+      "description": "Strives to make products accessible worldwide.",
+      "technical_spec": "Supports multiple languages and regional standards",
+      "severity_score": 5
+    },
+    {
+      "title": "Sustainability Commitment",
+      "description": "Promotes environmentally sustainable practices across operations.",
+      "technical_spec": "Initiatives for reducing carbon footprint and electronic waste",
+      "severity_score": 20
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Engages creative communities through forums and events.",
+      "technical_spec": "Adobe Live and MAX conferences",
+      "severity_score": 25
     }
   ]
 }

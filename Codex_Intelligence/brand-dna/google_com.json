@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 191,
+    "rank": 201,
     "site": "google.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "5cc20ffcfb572e909b105257b7126d7d"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "b854b85087ef8c98964b1704975ca637"
   },
   "data": [
     {
-      "title": "Simplicity",
-      "description": "Maintains a simple, clean, and uncluttered brand image that resonates with its 'do no evil' philosophy.",
-      "technical_spec": "Minimalist design; Uncluttered interface; Simple user interactions",
+      "title": "Innovation",
+      "description": "Constant evolution and introduction of new technologies.",
+      "technical_spec": "AI and machine learning integration across platforms.",
       "severity_score": 5
     },
     {
-      "title": "Reliability",
-      "description": "Perceived as a reliable and consistent source of information, underscoring its reputation.",
-      "technical_spec": "Consistent performance; Trusted search results; Availability",
-      "severity_score": 10
-    },
-    {
-      "title": "Innovation",
-      "description": "Known for integrating cutting-edge technology and constantly evolving its services.",
-      "technical_spec": "AI integration; Regular updates; Innovative features",
-      "severity_score": 20
-    },
-    {
-      "title": "Accessibility",
-      "description": "Committed to making technology accessible, appealing to a global audience.",
-      "technical_spec": "Multilingual support; Accessible design; Global reach",
-      "severity_score": 10
-    },
-    {
-      "title": "Community",
-      "description": "Cultivates a sense of global community through its products and outreach initiatives.",
-      "technical_spec": "User-focused services; Developer communities; Open-source projects",
+      "title": "Simplicity",
+      "description": "Design and offerings are streamlined to enhance user focus.",
+      "technical_spec": "Minimalist approach to design and user interface.",
       "severity_score": 15
+    },
+    {
+      "title": "Reliability",
+      "description": "Uptime and performance are key brand promises.",
+      "technical_spec": "Commitment to high availability with robust infrastructures.",
+      "severity_score": 7
+    },
+    {
+      "title": "Global Reach",
+      "description": "Services are accessible worldwide, supporting various languages.",
+      "technical_spec": "Localization and international support across platforms.",
+      "severity_score": 12
+    },
+    {
+      "title": "User-Centric Approach",
+      "description": "User feedback is integral to product development and service enhancements.",
+      "technical_spec": "Regular updates and feature rollouts based on user research.",
+      "severity_score": 10
     }
   ]
 }

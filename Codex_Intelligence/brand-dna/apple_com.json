@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 193,
+    "rank": 203,
     "site": "apple.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "d4dfce6e7a9bf9cbb5f2e3a65863a103"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "25c0b444b112db5af2486c9160fed234"
   },
   "data": [
     {
-      "title": "Innovation and Design",
-      "description": "Focuses on innovative and premium design that sets industry standards.",
-      "technical_spec": "Employs cutting-edge design tools and methodologies.",
+      "title": "Minimalistic Design",
+      "description": "Simplicity and elegance are at the core of Apple's design philosophy.",
+      "technical_spec": "Clean UI, White space utilization",
+      "severity_score": 5
+    },
+    {
+      "title": "Product-Centric Imagery",
+      "description": "High-quality product images are prominently featured.",
+      "technical_spec": "4K Images, 3D Visuals",
+      "severity_score": 5
+    },
+    {
+      "title": "Intuitive User Journey",
+      "description": "Streamlined pathways guide users from landing to checkout.",
+      "technical_spec": "Guided Navigation Systems",
       "severity_score": 10
     },
     {
-      "title": "Integration and Ecosystem",
-      "description": "Provides seamless integration across a range of products and services.",
-      "technical_spec": "Uses proprietary APIs and continuous ecosystem updates.",
-      "severity_score": 15
+      "title": "Strong Visual Consistency",
+      "description": "Consistent use of typography and branding elements.",
+      "technical_spec": "San Francisco Font, Branding Guides",
+      "severity_score": 10
     },
     {
-      "title": "Simplicity and Intuitiveness",
-      "description": "Maintains simplicity at its core, ensuring intuitive user experiences.",
-      "technical_spec": "Adopts minimalist design and clear, straightforward navigation.",
-      "severity_score": 13
-    },
-    {
-      "title": "Security and Privacy",
-      "description": "Prioritizes user privacy and security, building trust through protection measures.",
-      "technical_spec": "Implements strong data protection and privacy policies.",
-      "severity_score": 18
-    },
-    {
-      "title": "Customer-Centric Approach",
-      "description": "Puts customer needs first by delivering personalized experiences.",
-      "technical_spec": "Leverages CRM systems and user data analytics for personalization.",
-      "severity_score": 13
+      "title": "Innovation and Tech Savvy",
+      "description": "Constantly pushing the envelope with cutting-edge technologies.",
+      "technical_spec": "Integration with AR/VR, AI Suggestions",
+      "severity_score": 20
     }
   ]
 }

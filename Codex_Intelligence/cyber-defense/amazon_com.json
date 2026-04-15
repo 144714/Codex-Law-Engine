@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 195,
+    "rank": 205,
     "site": "amazon.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "3570187d5dbf504858e4b2c84913fbd9"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "7df538b50c2aadce74069028db671d64"
   },
   "data": [
     {
-      "title": "Access Management",
-      "description": "Multi-factor authentication (MFA) and role-based access control to secure user accounts.",
-      "technical_spec": "AWS IAM with MFA enabled for critical operations.",
-      "severity_score": 15
+      "title": "Data Encryption",
+      "description": "Amazon uses extensive encryption mechanisms to protect data both in transit and at rest.",
+      "technical_spec": "AES-256 encryption standard for data at rest, TLS for secure data transmission.",
+      "severity_score": 93
     },
     {
-      "title": "Encryption",
-      "description": "Encryption of data at rest and in transit to protect customer information.",
-      "technical_spec": "AES-256 for data at rest and TLS 1.2 for data in transit.",
-      "severity_score": 10
+      "title": "Identity and Access Management",
+      "description": "Strong IAM protocols ensure that access to data and systems is restricted to authorized users.",
+      "technical_spec": "Multi-factor authentication (MFA) and fine-grained permission policies.",
+      "severity_score": 92
+    },
+    {
+      "title": "Advanced Threat Detection",
+      "description": "Amazon utilizes AI-driven systems to continuously monitor and respond to security threats.",
+      "technical_spec": " AWS GuardDuty and Machine Learning models for anomaly detection.",
+      "severity_score": 89
     },
     {
       "title": "DDoS Protection",
-      "description": "Measures in place to protect against distributed denial-of-service attacks.",
-      "technical_spec": "AWS Shield Advanced and AWS WAF for filtering malicious traffic.",
-      "severity_score": 20
+      "description": "Robust DDoS mitigation strategies to ensure availability and performance of services.",
+      "technical_spec": "AWS Shield Advanced for automated DDoS defense.",
+      "severity_score": 95
     },
     {
-      "title": "Firewalls and VPCs",
-      "description": "Enhanced security through virtual private clouds and firewalls.",
-      "technical_spec": "AWS Security Groups and Network ACLs in place.",
-      "severity_score": 25
-    },
-    {
-      "title": "Security Audits",
-      "description": "Regular security audits and compliance checks.",
-      "technical_spec": "Automated tools for continuous monitoring and vulnerability scanning.",
-      "severity_score": 30
+      "title": "Vulnerability Management",
+      "description": "Regular security assessments and patch management to identify and mitigate vulnerabilities.",
+      "technical_spec": "Automated scanning tools and centralized patch management workflow.",
+      "severity_score": 87
     }
   ]
 }

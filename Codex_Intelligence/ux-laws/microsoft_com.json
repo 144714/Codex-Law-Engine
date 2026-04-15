@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 194,
+    "rank": 204,
     "site": "microsoft.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "e026f8e1fb446dfdc73f50edee0a2e38"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "d8633dd5e88f759c7f959d959ad49a40"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies user choice by limiting options and enhancing decision speed.",
-      "technical_spec": "Streamlined menus and grouped functionalities.",
-      "severity_score": 5
+      "title": "Fitts’s Law",
+      "description": "Designs elements are optimized according to user interaction efficiency principles.",
+      "technical_spec": "Button proximity, ease of navigation",
+      "severity_score": 60
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizes navigation elements for easier access based on target size and distance.",
-      "technical_spec": "Larger click targets for key actions on-page.",
-      "severity_score": 10
+      "title": "Hick’s Law",
+      "description": "Limits choices to streamline and speed up decision-making processes.",
+      "technical_spec": "Simplified user interfaces, focused navigation paths",
+      "severity_score": 65
     },
     {
-      "title": "Consistency",
-      "description": "Maintains consistent elements throughout to reduce cognitive load.",
-      "technical_spec": "Uniform design language and iconography.",
-      "severity_score": 15
+      "title": "Jakob’s Law",
+      "description": "Users' expectations are aligned with their habitual interaction patterns.",
+      "technical_spec": "Consistency with other Microsoft interfaces and industry standards",
+      "severity_score": 75
     },
     {
-      "title": "Visual Hierarchy",
-      "description": "Uses visual cues to guide the user's eye to areas of importance.",
-      "technical_spec": "Contrast and whitespace prioritize key content areas.",
-      "severity_score": 20
+      "title": "Law of Proximity",
+      "description": "Related items are grouped together to improve comprehension.",
+      "technical_spec": "SEO-optimized content layout, grouped visual elements",
+      "severity_score": 70
     },
     {
-      "title": "Feedback",
-      "description": "Provides immediate and clear responses to user actions.",
-      "technical_spec": "Interactive components provide visual and textual feedback.",
-      "severity_score": 10
+      "title": "Miller’s Law",
+      "description": "Information is presented in chunks to enhance memorability.",
+      "technical_spec": "Use of sections and collapsible menus",
+      "severity_score": 67
     }
   ]
 }

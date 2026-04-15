@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 195,
+    "rank": 205,
     "site": "amazon.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "4930aeefcae7bf5a81a9a00cfc8c4608"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "83c88fac8146822f5ab20b22848aa268"
   },
   "data": [
     {
-      "title": "Customer Centricity",
-      "description": "Focus on enhancing customer experience in every interaction.",
-      "technical_spec": "Dedicated customer service and personalized recommendations.",
-      "severity_score": 5
+      "title": "Customer-Centric",
+      "description": "Amazon prioritizes customer satisfaction through innovations and quality service.",
+      "technical_spec": "Development driven by extensive customer feedback and iterative improvement.",
+      "severity_score": 100
     },
     {
       "title": "Innovation",
-      "description": "Continuous investment in technological advancements and innovations.",
-      "technical_spec": "Development of technologies like Amazon Alexa and AWS.",
-      "severity_score": 5
+      "description": "Culture of continuous innovation to bring advanced services and solutions to market.",
+      "technical_spec": "Significant investment in R&D and cutting-edge technology adoption.",
+      "severity_score": 95
     },
     {
-      "title": "Scalability",
-      "description": "Building scalable solutions to handle massive amounts of traffic and transactions.",
-      "technical_spec": "Cloud-based infrastructure to scale horizontally as needed.",
-      "severity_score": 10
+      "title": "Operational Efficiency",
+      "description": "Commitment to optimizing operations to ensure fast and reliable services.",
+      "technical_spec": "Optimization algorithms for logistics and cloud infrastructure.",
+      "severity_score": 96
     },
     {
-      "title": "Operational Excellence",
-      "description": "Optimizing operations to achieve high efficiency and cost-effectiveness.",
-      "technical_spec": "Lean methodologies and automation in supply chain and logistics.",
-      "severity_score": 10
+      "title": "Diverse Product Catalog",
+      "description": "Offers an extensive range of products to cater to varied customer needs.",
+      "technical_spec": "Robust inventory management and supplier integration.",
+      "severity_score": 89
     },
     {
-      "title": "Trust",
-      "description": "Establishing trust with consumers through transparent policies and practices.",
-      "technical_spec": "Clear communication of privacy policies and secure payment systems.",
-      "severity_score": 5
+      "title": "Global Reach",
+      "description": "Operates on a global scale, aiming for widespread accessibility and service provision.",
+      "technical_spec": "Localized websites and distribution centers globally.",
+      "severity_score": 91
     }
   ]
 }

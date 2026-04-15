@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 197,
+    "rank": 207,
     "site": "spotify.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "c5d18ba42eecc28688dca97b605d7993"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "2059ea175fcdc92cda62ad271828532f"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Interface elements are designed for easy, quick access.",
-      "technical_spec": "Large clickable buttons and intuitive navigation paths.",
-      "severity_score": 15
-    },
-    {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making by reducing the number of choices presented at once.",
-      "technical_spec": "Minimalistic menu designs and contextual menus.",
-      "severity_score": 20
+      "description": "The platform minimizes cognitive load by simplifying user choices.",
+      "technical_spec": "Intuitive navigation and categorized playlists.",
+      "severity_score": 5
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Ensures aesthetically pleasing designs which users perceive as more usable.",
-      "technical_spec": "Modern UI with a clean color scheme and high-resolution imagery.",
-      "severity_score": 15
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Aligns user interface with user expectations by looking similar to other popular interfaces.",
-      "technical_spec": "Consistent layout with familiar icons and functions.",
-      "severity_score": 15
-    },
-    {
-      "title": "Law of Common Region",
-      "description": "Groups related elements together making them easier to distinguish.",
-      "technical_spec": "Use of cards, shaded backgrounds to group related information.",
+      "title": "Fitts's Law",
+      "description": "Spotify ensures that important functions are easily accessible.",
+      "technical_spec": "Key actions can be performed with minimal physical effort.",
       "severity_score": 10
+    },
+    {
+      "title": "Jacob's Law",
+      "description": "The interface is designed to conform to user expectations based on other apps.",
+      "technical_spec": "Consistent design patterns found in similar music applications.",
+      "severity_score": 15
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Elements that are related in function are grouped together.",
+      "technical_spec": "Playlists and controls are strategically placed for user convenience.",
+      "severity_score": 8
+    },
+    {
+      "title": "Law of Similarity",
+      "description": "Visually similar elements are perceived as related, enhancing usability.",
+      "technical_spec": "Coherent color schemes and typography guide user perception.",
+      "severity_score": 12
     }
   ]
 }

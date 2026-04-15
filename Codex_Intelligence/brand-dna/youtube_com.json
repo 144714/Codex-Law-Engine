@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 192,
+    "rank": 202,
     "site": "youtube.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "a2c517d60d8d5d04a4fbc37ed1ad9bac"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "61658d0d4a890f4583255fc8200eed7a"
   },
   "data": [
     {
-      "title": "Global Reach",
-      "description": "Establishes YouTube as a platform accessible worldwide.",
-      "technical_spec": "Localized content and language support for diverse markets.",
-      "severity_score": 95
-    },
-    {
-      "title": "User Empowerment",
-      "description": "Encourages user-generated content, giving users a powerful voice.",
-      "technical_spec": "Intuitive video upload and management tools.",
-      "severity_score": 88
-    },
-    {
-      "title": "Innovation Leadership",
-      "description": "Pioneers new technologies in content delivery and user interaction.",
-      "technical_spec": "Incorporation of VR and AR experiences, live streaming capabilities.",
-      "severity_score": 90
-    },
-    {
       "title": "Community Engagement",
-      "description": "Promotes interaction and connection among content creators and viewers.",
-      "technical_spec": "Features like comments, live chat, and community posts.",
-      "severity_score": 85
+      "description": "Fostering an active user community through comments, likes, and shares.",
+      "technical_spec": "Platforms and algorithms support user interaction and feedback.",
+      "severity_score": 30
     },
     {
-      "title": "Advertising Ecosystem",
-      "description": "Provides a comprehensive platform for advertisers to reach target audiences.",
-      "technical_spec": "Advanced ad targeting and analytics tools.",
-      "severity_score": 92
+      "title": "Content Creation",
+      "description": "Empowerment of creators to produce and distribute content.",
+      "technical_spec": "Dedicated tools and analytics for creators to manage their channels.",
+      "severity_score": 40
+    },
+    {
+      "title": "Accessibility",
+      "description": "Commitment to making content accessible to all users.",
+      "technical_spec": "Features such as captions, translations, and audio descriptions.",
+      "severity_score": 50
+    },
+    {
+      "title": "Innovation",
+      "description": "Continuous investment in new video technologies and services.",
+      "technical_spec": "R&D into VR, AR, and live streaming capabilities.",
+      "severity_score": 35
+    },
+    {
+      "title": "Diversity & Inclusion",
+      "description": "Promoting diverse content from global voices.",
+      "technical_spec": "Content policies and algorithms that surface various perspectives.",
+      "severity_score": 45
     }
   ]
 }

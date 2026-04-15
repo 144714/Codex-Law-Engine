@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 196,
+    "rank": 206,
     "site": "netflix.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "2e164fac4939e1788b0d99c584da73fb"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "0aaf642b5ced6029088abf517a0a780c"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Netflix employs a microservices architecture to build and deploy scalable applications rapidly.",
-      "technical_spec": "Distributed system with modular services allowing for independent scaling, deployment, and management.",
-      "severity_score": 10
-    },
-    {
-      "title": "Global CDN",
-      "description": "Netflix has a global Content Delivery Network optimized for fast streaming and minimal buffering.",
-      "technical_spec": "Utilizes Open Connect appliance at ISP locations to cache content closer to users.",
-      "severity_score": 5
-    },
-    {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Netflix runs on AWS, leveraging cloud resources for scalability and resilience.",
-      "technical_spec": "Extensive use of EC2 instances, S3 storage, and other AWS services.",
-      "severity_score": 8
-    },
-    {
-      "title": "Chaos Engineering",
-      "description": "Netflix pioneered Chaos Monkey and similar tools to ensure system resilience.",
-      "technical_spec": "Regularly conducts fault injection testing to identify system weaknesses.",
+      "description": "Netflix uses a microservices architecture which allows for independent deployment and scaling of services.",
+      "technical_spec": "Services communicate via API gateways, ensuring loose coupling and high cohesion.",
       "severity_score": 20
     },
     {
-      "title": "Data-Driven Architecture",
-      "description": "Uses advanced data analytics to drive decision-making and personalization.",
-      "technical_spec": "Large-scale data pipelines and machine learning algorithms for content recommendations.",
+      "title": "Backend Resilience Patterns",
+      "description": "Incorporates patterns like Hystrix for circuit breaking to prevent cascading failures.",
+      "technical_spec": "Uses bulkheads, timeouts, and fallbacks to isolate failures and protect dependencies.",
       "severity_score": 15
+    },
+    {
+      "title": "Global Load Balancing",
+      "description": "Global load balancing is implemented to distribute traffic effectively across regions.",
+      "technical_spec": "Uses geographically distributed DNS and edge servers for traffic management.",
+      "severity_score": 25
+    },
+    {
+      "title": "Scalable Data Architecture",
+      "description": "Adopts NoSQL databases and data lakes to manage and analyze large-scale data.",
+      "technical_spec": "Employs cloud-native solutions like Cassandra, AWS S3 for storage needs.",
+      "severity_score": 10
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Netflix's CDN, Open Connect, improves video delivery speed and reliability.",
+      "technical_spec": "Strategically placed edge servers cache content close to viewers.",
+      "severity_score": 30
     }
   ]
 }

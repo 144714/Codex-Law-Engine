@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 192,
+    "rank": 202,
     "site": "youtube.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "b714457173c8c709413ee4f542f54a5c"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "a957c219121be10d36abc5e8cb2bbd1a"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Minimizes choices in UI to reduce decision time for users.",
-      "technical_spec": "Simplified interface with prioritized options and a clean design.",
-      "severity_score": 75
+      "title": "Fitts’s Law",
+      "description": "Predictive model for human movement in UI design.",
+      "technical_spec": "Button sizes and spacing are optimized for user actions.",
+      "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizes button size and placement for better usability.",
-      "technical_spec": "Larger buttons for frequent actions, strategically placed elements.",
-      "severity_score": 80
+      "title": "Hick’s Law",
+      "description": "Time taken to make a decision increases with more choices.",
+      "technical_spec": "Clear hierarchies and categorization in content discovery.",
+      "severity_score": 15
     },
     {
       "title": "Law of Proximity",
-      "description": "Groups related items together to improve comprehension.",
-      "technical_spec": "Logical grouping of video-related actions and information.",
-      "severity_score": 78
+      "description": "Objects close to each other are perceived as a group.",
+      "technical_spec": "Related video suggestions and elements grouped contextually.",
+      "severity_score": 20
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Balances visual appeal and functionality to enhance user experience.",
-      "technical_spec": "Consistent style guide and minimalist design principles.",
-      "severity_score": 82
+      "title": "Pareto Principle",
+      "description": "80% of effects come from 20% of the causes, applied to feature usage.",
+      "technical_spec": "Streamlined features in the user interface prioritize primary actions.",
+      "severity_score": 25
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Designs elements familiar to users for intuitive navigation.",
-      "technical_spec": "Consistent navigation patterns and familiar icons.",
-      "severity_score": 85
+      "title": "Tesler’s Law",
+      "description": "Each application has a complexity threshold that cannot be reduced.",
+      "technical_spec": "Balancing feature richness with simplicity in the user interface.",
+      "severity_score": 30
     }
   ]
 }

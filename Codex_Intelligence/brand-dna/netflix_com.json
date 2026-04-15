@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 196,
+    "rank": 206,
     "site": "netflix.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "cec65d953fc9799db556d6a0c4c6c069"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "ba02eb84d919148488d25212bb7a8aa5"
   },
   "data": [
     {
-      "title": "Original Content",
-      "description": "Focus on producing exclusive shows and movies to attract and retain viewers.",
-      "technical_spec": "Investments in high-quality production and storytelling.",
-      "severity_score": 20
-    },
-    {
-      "title": "Global Reach",
-      "description": "Operates in numerous countries, offering a wide array of regional content.",
-      "technical_spec": "Localized content libraries and subtitles/language options.",
-      "severity_score": 12
-    },
-    {
-      "title": "User-Centric Experience",
-      "description": "Continuous improvements aligned with user feedback to enhance satisfaction.",
-      "technical_spec": "Use of A/B testing and analytics to refine user interactions.",
+      "title": "Customer Obsession",
+      "description": "Centered around providing exceptional user experience and value.",
+      "technical_spec": "Constantly innovates based on customer feedback and behavioral data.",
       "severity_score": 15
     },
     {
-      "title": "Technological Innovation",
-      "description": "Puzzling itself as a pioneer in streaming technology.",
-      "technical_spec": "Investments in adaptive streaming, codecs, and compression algorithms.",
-      "severity_score": 22
+      "title": "Creative Freedom",
+      "description": "Invests in producing a wide range of original content to attract diverse audiences.",
+      "technical_spec": "Collaborates extensively with various storytellers and content creators.",
+      "severity_score": 25
     },
     {
-      "title": "Binge-Watching Culture",
-      "description": "Encourages consuming entire series in one go through autoplay features.",
-      "technical_spec": "Auto-playing next episodes and curated playlists to drive engagement.",
-      "severity_score": 18
+      "title": "Data-Driven Culture",
+      "description": "Utilizes analytics for business decision-making and strategic planning.",
+      "technical_spec": "Deploys big data analytics tools to understand viewer preferences and trends.",
+      "severity_score": 30
+    },
+    {
+      "title": "Technological Innovation",
+      "description": "Constantly evolves its technical infrastructure to stay ahead in the industry.",
+      "technical_spec": "Invests in cutting-edge technologies for streaming, security, and content delivery.",
+      "severity_score": 20
+    },
+    {
+      "title": "Global Expansion",
+      "description": "Focuses on expanding its global footprint to increase its market share.",
+      "technical_spec": "Leverages cultural insights to tailor content and marketing strategies for local markets.",
+      "severity_score": 35
     }
   ]
 }

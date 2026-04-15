@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 196,
+    "rank": 206,
     "site": "netflix.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "a17ecd8662acbe4860628f1a652860c5"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "6456578f29e0b35d5fce13c3c91524a3"
   },
   "data": [
     {
-      "title": "Comprehensive Encryption",
-      "description": "Ensures data protection through end-to-end encryption protocols.",
-      "technical_spec": "TLS protocols for data-in-transit and AES encryption for data-at-rest.",
-      "severity_score": 10
+      "title": "Robust Identity and Access Management",
+      "description": "Comprehensive IAM policies ensure that only authorized users have access.",
+      "technical_spec": "Uses OAuth 2.0, multi-factor authentication, and role-based access control.",
+      "severity_score": 60
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Robust IAM policies manage user permissions and secure access.",
-      "technical_spec": "Utilizes OAuth for token-based authentication and multi-factor verification.",
-      "severity_score": 15
+      "title": "Advanced Threat Detection",
+      "description": "Utilizes machine learning for anomaly detection and threat prevention.",
+      "technical_spec": "Real-time analytics with AI-driven decision-making to combat cyber threats.",
+      "severity_score": 55
     },
     {
-      "title": "Security Incident Response",
-      "description": "Well-defined protocols for detecting and responding to cyber threats.",
-      "technical_spec": "24/7 monitoring with advanced intrusion detection systems.",
-      "severity_score": 20
+      "title": "Zero Trust Security Model",
+      "description": "Adopts a Zero Trust approach to security, ensuring strict least-privilege access.",
+      "technical_spec": "Micro-segmentation, authentication, and encryption enforce security boundaries.",
+      "severity_score": 70
     },
     {
       "title": "DDoS Protection",
-      "description": "Multi-layered defense against distributed denial-of-service attacks.",
-      "technical_spec": "Combines network firewalls with traffic analysis tools.",
-      "severity_score": 25
+      "description": "Implements robust DDoS protection measures to ensure service availability.",
+      "technical_spec": "Cloudflare and in-house solutions handle distributed denial-of-service attacks.",
+      "severity_score": 50
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Continuous scanning and patching of potential security vulnerabilities.",
-      "technical_spec": "Automated patch management integrated with CI/CD pipelines.",
-      "severity_score": 18
+      "title": "Data Encryption at Rest and in Transit",
+      "description": "All customer data is encrypted to secure it against unauthorized access.",
+      "technical_spec": "AES-256 encryption is used for at-rest data; TLS/SSL for data in transit.",
+      "severity_score": 45
     }
   ]
 }

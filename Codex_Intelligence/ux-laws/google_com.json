@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 191,
+    "rank": 201,
     "site": "google.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "703aba9cdd7a06c7a21673143c1baeda"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "492f420d616be23adf416d57de10b249"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "The simpler the interface, the quicker users can navigate and find information.",
-      "technical_spec": "Minimalist design; Quick links; Streamlined navigation",
-      "severity_score": 10
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Optimized for efficient user interaction with commonly used controls positioned in easy-to-reach areas.",
-      "technical_spec": "Ergonomic design; Proximity-based arrangement; Responsive buttons",
+      "title": "Fitt's Law",
+      "description": "UI elements are optimized for ease of access and interaction.",
+      "technical_spec": "Strategically positioned search bar and buttons for quick user access.",
       "severity_score": 15
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Google’s clean design aesthetics make users perceive the website as more user-friendly and functional.",
-      "technical_spec": "Visual hierarchy; Consistent branding; Clean interface",
-      "severity_score": 5
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Aligned with users' existing mental models for site functionality from past experiences with Google search.",
-      "technical_spec": "Predictable interface; Familiar functionality; Established patterns",
-      "severity_score": 5
-    },
-    {
-      "title": "The Principle of Least Effort",
-      "description": "Design focuses on providing search results with minimal effort from the user.",
-      "technical_spec": "Search algorithms; Auto-complete features; Intuitive search bar",
+      "title": "Hick's Law",
+      "description": "Design prioritizes reduction of user choice complexity.",
+      "technical_spec": "Minimalist interface with focus on primary actions like search.",
       "severity_score": 20
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Logical grouping of related content for intuitive navigation.",
+      "technical_spec": "Visual grouping through subtle UI elements on landing pages.",
+      "severity_score": 10
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Consistency across Google products to enhance user familiarity.",
+      "technical_spec": "Unified design language for seamless transitions.",
+      "severity_score": 12
+    },
+    {
+      "title": "Pareto Principle",
+      "description": "Focus on key features that drive the majority of user engagement.",
+      "technical_spec": "Search functionality prioritized to serve 80% user needs.",
+      "severity_score": 18
     }
   ]
 }

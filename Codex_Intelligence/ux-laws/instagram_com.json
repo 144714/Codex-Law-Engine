@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 199,
+    "rank": 209,
     "site": "instagram.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "2d566c758f6a385f832657b5fa66841d"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "c53eceac73b67e5e44dfbae25e8ae684"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Limiting options to reduce decision fatigue for a seamless user experience.",
-      "technical_spec": "Streamlined UI design, concise navigation elements.",
-      "severity_score": 10
+      "title": "Hick’s Law",
+      "description": "Streamlined decision points are designed to reduce the user's cognitive load.",
+      "technical_spec": "UI design minimizes complex navigation paths and opt for simple, clear options.",
+      "severity_score": 20
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Attractive interfaces can enhance perceived usability and engagement.",
-      "technical_spec": "High-quality imagery, modern typography.",
-      "severity_score": 15
+      "title": "Fitts’s Law",
+      "description": "Interactive elements are made accessible by considering their size and proximity.",
+      "technical_spec": "Optimized touch targets and shortcuts for common functionalities on mobile interfaces.",
+      "severity_score": 18
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Information is chunked into categories easy for users to understand and process.",
+      "technical_spec": "Organizes feed and stories into well-defined sections and categorizations.",
+      "severity_score": 25
     },
     {
       "title": "Jakob’s Law",
-      "description": "Users spend most of their time on other sites, so interfaces should follow common design patterns.",
-      "technical_spec": "Familiar UI interactions, standard layout conventions.",
-      "severity_score": 12
+      "description": "Design aligns with familiar user experiences to leverage existing mental models.",
+      "technical_spec": "UI and UX flows mirror common patterns found on major social media platforms.",
+      "severity_score": 15
     },
     {
-      "title": "Law of Proximity",
-      "description": "Elements that are close together appear to be more related than elements that are spaced farther apart.",
-      "technical_spec": "Consistent spacing and grouping.",
-      "severity_score": 13
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "The time to acquire a target is a function of the distance and size of the target.",
-      "technical_spec": "Large, easy-to-hit buttons for common actions.",
-      "severity_score": 10
+      "title": "Gestalt Principles",
+      "description": "Design follows Gestalt principles to create more intuitive and aesthetically pleasing interfaces.",
+      "technical_spec": "Uses principles like similarity and proximity to organize content and visual hierarchy.",
+      "severity_score": 22
     }
   ]
 }

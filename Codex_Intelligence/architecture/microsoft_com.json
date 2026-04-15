@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 194,
+    "rank": 204,
     "site": "microsoft.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "a3f129cb32cbdc055873c12056bf2aa0"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "97bf3a6ddfb631163ed0a443fcb55550"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Adopting a microservices architecture allows for modular deployment and scalability.",
-      "technical_spec": "Utilizes containerization and orchestration tools like Kubernetes.",
-      "severity_score": 10
+      "title": "Microservices Infrastructure",
+      "description": "Microsoft.com is built on a microservices architecture, allowing for scalability and independent deployment of services.",
+      "technical_spec": "Docker, Kubernetes, Service Fabric",
+      "severity_score": 85
     },
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "The site leverages cloud computing to ensure reliability and flexibility.",
-      "technical_spec": "Hosted on Azure, leveraging IaaS and PaaS offerings.",
-      "severity_score": 15
+      "title": "Cloud Integration",
+      "description": "The site is integrated with Microsoft's Azure cloud services for hosting and scaling.",
+      "technical_spec": "Azure Cloud Services, Azure DevOps",
+      "severity_score": 90
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Implements CDNs to enhance site load speeds globally.",
-      "technical_spec": "Uses Azure CDN solutions to cache content closer to users.",
-      "severity_score": 5
+      "title": "Content Delivery Network",
+      "description": "Utilizes a global CDN to deliver content quickly to users around the world.",
+      "technical_spec": "Akamai, Azure CDN",
+      "severity_score": 80
     },
     {
-      "title": "API-Driven Design",
-      "description": "APIs used to integrate various services and data sources seamlessly.",
-      "technical_spec": "RESTful APIs with OAuth2 authentication.",
-      "severity_score": 20
+      "title": "Responsive Design",
+      "description": "Adaptive UI layouts ensure usability across a wide range of devices.",
+      "technical_spec": "CSS Grid, Media Queries",
+      "severity_score": 70
     },
     {
-      "title": "Scalable Data Storage",
-      "description": "Adopts scalable databases for efficient data management.",
-      "technical_spec": "Combines SQL and NoSQL databases for flexibility.",
-      "severity_score": 25
+      "title": "API Gateway",
+      "description": "Manages and routes internal and external API calls with secure protocols.",
+      "technical_spec": "Azure API Management, RESTful APIs",
+      "severity_score": 75
     }
   ]
 }

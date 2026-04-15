@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 195,
+    "rank": 205,
     "site": "amazon.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "bf8d4846e74a34dfaf4c8319f74b7983"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "875fa384058e1d0f03bb81a33bee77ca"
   },
   "data": [
     {
-      "title": "Consistency",
-      "description": "Consistent design patterns across the platform to enhance user familiarity.",
-      "technical_spec": "Unified design language across web and mobile apps.",
-      "severity_score": 10
-    },
-    {
-      "title": "Feedback",
-      "description": "Immediate feedback for user actions to improve interaction.",
-      "technical_spec": "Interactive elements like loading spinners and progress indicators.",
-      "severity_score": 15
-    },
-    {
-      "title": "Accessibility",
-      "description": "Efforts to make the website accessible to users with disabilities.",
-      "technical_spec": "WCAG 2.1 AA compliance across major sections.",
-      "severity_score": 20
+      "title": "Hick's Law",
+      "description": "Amazon optimizes decision-making time by simplifying user choices at checkout.",
+      "technical_spec": "Clear call-to-action buttons and streamlined navigation reducing cognitive load.",
+      "severity_score": 84
     },
     {
       "title": "Fitts's Law",
-      "description": "Optimized placement of interactive elements to reduce user effort.",
-      "technical_spec": "Call-to-action buttons placed intuitively within clickable distance.",
-      "severity_score": 10
+      "description": "Design interface prioritizes important functions with larger targets and accessible proximity.",
+      "technical_spec": "Larger buttons for 'Buy Now', prominent search bar placement.",
+      "severity_score": 85
     },
     {
-      "title": "Hick's Law",
-      "description": "Reducing choice overload for quicker decision making.",
-      "technical_spec": "Simplified navigation with categorized drop-down menus.",
-      "severity_score": 15
+      "title": "Jakob's Law",
+      "description": "Design aligns with user expectations by maintaining consistency with standards found in ecommerce applications.",
+      "technical_spec": "Consistent layout structure and familiar iconography.",
+      "severity_score": 90
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Group related items to imply relationship and improve user comprehension.",
+      "technical_spec": "Product details, add-to-cart options, and pricing information grouped together.",
+      "severity_score": 87
+    },
+    {
+      "title": "Aesthetic Usability Effect",
+      "description": "A visually appealing design makes users perceive the system as more usable.",
+      "technical_spec": "Polished interface with a balance of media and text, soothing color palettes.",
+      "severity_score": 86
     }
   ]
 }

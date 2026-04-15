@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 200,
+    "rank": 210,
     "site": "whatsapp.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "cb2d9185a9af2c249b0f66f3cd1fe2b4"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "2ac5fadc92606cf4c1b9864133e5b297"
   },
   "data": [
     {
-      "title": "Jakob's Law",
-      "description": "Users spend most of their time on other sites, so they prefer user interfaces that work similarly to those they already know.",
-      "technical_spec": "UI Consistency: Familiar navigation patterns; Accessibility: Standard icons and gestures",
+      "title": "Law of Clarity",
+      "description": "Clear interface design that prevents confusion and user errors.",
+      "technical_spec": "Minimalist design with intuitive navigation.",
       "severity_score": 15
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "The time to acquire a target is a function of the distance to and size of the target.",
-      "technical_spec": "Design: Large touch targets for buttons; Spacing: Adequate margins to prevent misclicks",
-      "severity_score": 10
     },
     {
       "title": "Hick's Law",
-      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Decision Points: Simplified choices; UI Flow: Minimalism in design",
+      "description": "Design to reduce the complexity of choices, enhancing decision-making speed.",
+      "technical_spec": "Prioritization of actions and shallow menu hierarchies.",
       "severity_score": 20
     },
     {
-      "title": "Miller's Law",
-      "description": "The average person can only keep about seven items in their working memory.",
-      "technical_spec": "Content Design: Chunking information; Interface: Clear categorization of messages",
-      "severity_score": 25
+      "title": "Fitts's Law",
+      "description": "Buttons are sized and positioned for easy access and interaction, especially on mobile.",
+      "technical_spec": "Consistent touch targets and spacing.",
+      "severity_score": 10
     },
     {
-      "title": "Peak-End Rule",
-      "description": "People judge an experience largely based on how they felt at its peak and end.",
-      "technical_spec": "Experience Design: Focused on user interaction points; User Feedback: Positive end experiences",
-      "severity_score": 15
+      "title": "Miller's Law",
+      "description": "Focused on limiting choices to prevent cognitive overload.",
+      "technical_spec": "Use of chunks and categorization in UI elements.",
+      "severity_score": 18
+    },
+    {
+      "title": "Serial Position Effect",
+      "description": "Important information or actions are positioned for maximum visibility and recall.",
+      "technical_spec": "Placement strategies in menus and notification areas.",
+      "severity_score": 12
     }
   ]
 }

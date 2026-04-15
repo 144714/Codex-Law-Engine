@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 198,
+    "rank": 208,
     "site": "adobe.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "222f124e575132666785b5bf50d10a04"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "92262b68adee23edaada621c87594464"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Adobe's platform utilizes microservices to ensure scalability and modularity.",
-      "technical_spec": "Docker, Kubernetes, REST APIs",
-      "severity_score": 15
-    },
-    {
-      "title": "Cloud-Native Infrastructure",
-      "description": "Leverages cloud-native technologies for deployment and management.",
-      "technical_spec": "AWS, Azure, Google Cloud",
+      "title": "Cloud-Based Infrastructure",
+      "description": "Adobe's systems leverage cloud services to ensure scalability and reliability.",
+      "technical_spec": "Uses AWS and Azure for hosting and storage",
       "severity_score": 10
     },
     {
+      "title": "Microservices Architecture",
+      "description": "Applications are broken down into smaller, manageable services.",
+      "technical_spec": "Utilizes Docker and Kubernetes for containerization",
+      "severity_score": 15
+    },
+    {
       "title": "Content Delivery Network",
-      "description": "Utilizes CDNs for fast content delivery across the globe.",
-      "technical_spec": "Akamai, Cloudflare",
+      "description": "Uses CDNs to deliver content swiftly across geographies.",
+      "technical_spec": "Employs Akamai for CDN services",
       "severity_score": 5
     },
     {
-      "title": "Database Sharding",
-      "description": "Implements database sharding for efficient data management.",
-      "technical_spec": "MySQL, Postgres",
+      "title": "RESTful APIs",
+      "description": "APIs are designed to be RESTful, ensuring integration with external systems.",
+      "technical_spec": "Follows HTTP/HTTPS protocols and JSON standards",
       "severity_score": 20
     },
     {
       "title": "Serverless Computing",
-      "description": "Adopts serverless architectures for specific workloads to improve efficiency.",
-      "technical_spec": "AWS Lambda, Azure Functions",
-      "severity_score": 12
+      "description": "Utilizes serverless frameworks to run tasks and processes.",
+      "technical_spec": "Incorporates AWS Lambda and Azure Functions",
+      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 195,
+    "rank": 205,
     "site": "amazon.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "78b5623c159ccd166a9d0ccff2696012"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "a60e29f44ca9a9d2a520bc6db93e602a"
   },
   "data": [
     {
       "title": "Microservices",
-      "description": "Amazon utilizes a microservices architecture to allow independent deployment and scaling of individual services.",
-      "technical_spec": "Decoupled services with RESTful APIs, typically using AWS ECS or Kubernetes.",
-      "severity_score": 5
+      "description": "Amazon's architecture is based on a microservices model, allowing different parts of the application to be developed, deployed, and scaled independently.",
+      "technical_spec": "Each service is a discrete piece of business functionality, with defined APIs.",
+      "severity_score": 90
     },
     {
-      "title": "Data Centers",
-      "description": "Globally distributed data centers ensure low latency and high availability.",
-      "technical_spec": "Leveraging AWS regions for redundancy and load balancing.",
-      "severity_score": 10
+      "title": "Scalable Infrastructure",
+      "description": "Amazon's infrastructure is designed to scale horizontally to handle large volumes of traffic and transactions.",
+      "technical_spec": "AWS infrastructure, leveraging tools like load balancers, auto-scaling, and distributed databases.",
+      "severity_score": 95
     },
     {
-      "title": "Serverless Computing",
-      "description": "Serverless architecture for handling unpredictable traffic spikes effectively.",
-      "technical_spec": "AWS Lambda functions trigger for event-driven processes.",
-      "severity_score": 15
+      "title": "Service-Oriented Architecture (SOA)",
+      "description": "The architecture allows for integration of new services and features with minimal disruption.",
+      "technical_spec": "Decoupled services communicated over standardized protocols.",
+      "severity_score": 85
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Utilizes CDN to deliver content with minimal latency to users worldwide.",
-      "technical_spec": "Amazon CloudFront integrates with AWS S3, providing quick delivery.",
-      "severity_score": 5
+      "title": "Event-Driven Architecture",
+      "description": "Event sourcing and distributed event management across systems improve updates and real-time processing.",
+      "technical_spec": "Services capture and react to events using AWS SNS/SQS.",
+      "severity_score": 80
     },
     {
-      "title": "Database Management",
-      "description": "Flexible and scalable database services for managing extensive datasets.",
-      "technical_spec": "AWS RDS and DynamoDB for relational and NoSQL databases.",
-      "severity_score": 20
+      "title": "Global Network Infrastructure",
+      "description": "Amazon operates on a global scale with data centers located worldwide to optimize content delivery.",
+      "technical_spec": "AWS Global Accelerator and Edge caching via CloudFront.",
+      "severity_score": 88
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 198,
+    "rank": 208,
     "site": "adobe.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "7bac10ee0f54cb5867f5dd2ab93f11ff"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "1b1206bd9d8b72260dad442e2e27b6fe"
   },
   "data": [
     {
-      "title": "Law of Uniform Connectedness",
-      "description": "Adobe maintains a uniform design language across its platforms.",
-      "technical_spec": "Adobe XD, Creative Cloud Libraries",
+      "title": "Hick’s Law",
+      "description": "Minimizes decision time by providing simple interfaces.",
+      "technical_spec": "Simplified navigation and minimalistic design",
       "severity_score": 15
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Design approach focuses on minimizing interaction time across interfaces.",
-      "technical_spec": "Interactive Design Techniques",
-      "severity_score": 8
+      "title": "Fitts’ Law",
+      "description": "Designs interfaces that are easy and quick to navigate.",
+      "technical_spec": "Buttons and menus are strategically sized and placed",
+      "severity_score": 20
     },
     {
-      "title": "Hick’s Law",
-      "description": "The platform is optimized to reduce the time complexity of user decisions.",
-      "technical_spec": "Simplified Navigation Structures",
+      "title": "Gestalt Principles",
+      "description": "Ensures that the visual design is intuitive and organized.",
+      "technical_spec": "Consistent use of proximity and similarity in UI elements",
       "severity_score": 10
     },
     {
-      "title": "The Aesthetic-Usability Effect",
-      "description": "Adobe's visual design enhances perceived usability and desirability.",
-      "technical_spec": "Photoshop, Illustrator",
+      "title": "Jakob’s Law",
+      "description": "Designs align with user expectations from other web experiences.",
+      "technical_spec": "Familiar layouts and user flows",
       "severity_score": 5
     },
     {
       "title": "Miller’s Law",
-      "description": "Information is presented in chunks to improve comprehension and retention.",
-      "technical_spec": "Content Management Strategies",
-      "severity_score": 12
+      "description": "Designs account for human limits in processing information.",
+      "technical_spec": "Breaks down content into parts and uses progressive disclosure",
+      "severity_score": 25
     }
   ]
 }

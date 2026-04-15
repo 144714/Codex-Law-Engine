@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 193,
+    "rank": 203,
     "site": "apple.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "61fe653c9aa1c58b9dc3da10c9397f67"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "f338ae5ae6f6e44f3bd5c6dcabfef982"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies choices to reduce response time and improve decision-making efficiency.",
-      "technical_spec": "Streamlined menu layout with categorized options.",
-      "severity_score": 14
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Designs large, easily clickable buttons to enhance usability.",
-      "technical_spec": "Focuses on button and link sizes proportional to their importance.",
-      "severity_score": 18
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Aligns with user expectations by maintaining consistency with commonly used interface patterns.",
-      "technical_spec": "Utilizes standard navigation bars and action flows.",
+      "title": "Hick’s Law",
+      "description": "Simple navigation design reduces decision time by offering fewer choices.",
+      "technical_spec": "Streamlined Main Menu",
       "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Chunks information to help users remember data more efficiently.",
-      "technical_spec": "Breaks content into visually distinct sections with a clear hierarchy.",
-      "severity_score": 16
+      "title": "Fitts’s Law",
+      "description": "Large, clickable button elements improve accessibility and usability.",
+      "technical_spec": "Size and proximity for ease of use",
+      "severity_score": 10
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "Ensures aesthetically pleasing design to improve perceived ease of use.",
-      "technical_spec": "Clean, minimalistic design with moderated color palette.",
-      "severity_score": 12
+      "title": "Law of Proximity",
+      "description": "Related items are grouped together visually.",
+      "technical_spec": "Grid and card-based layout",
+      "severity_score": 5
+    },
+    {
+      "title": "Serial Position Effect",
+      "description": "Key information is positioned at the beginning and end of lists for impact.",
+      "technical_spec": "Homepage Hero Banners",
+      "severity_score": 15
+    },
+    {
+      "title": "Peak-End Rule",
+      "description": "User experience focuses on creating memorable peak moments.",
+      "technical_spec": "Interactive Elements with high engagement",
+      "severity_score": 20
     }
   ]
 }

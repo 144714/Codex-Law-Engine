@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 193,
+    "rank": 203,
     "site": "apple.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "0abff939e25d932e9c3c854c28603f18"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "216fd8a6a7844b8bbcfa814c55ef117c"
   },
   "data": [
     {
-      "title": "Responsive Design",
-      "description": "The site adjusts seamlessly to various devices, ensuring a consistent experience across mobile, tablet, and desktop.",
-      "technical_spec": "Utilizes CSS Media Queries, Flexible Grid System, and Viewport Meta Tag.",
-      "severity_score": 15
-    },
-    {
-      "title": "Microservices Architecture",
-      "description": "Employs a microservices architecture to handle various site functionalities independently.",
-      "technical_spec": "Uses RESTful APIs and distributed services for modular design.",
-      "severity_score": 20
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Employs a CDN to reduce latency and improve load times globally.",
-      "technical_spec": "Cloudflare or Akamai integration for global content distribution.",
+      "title": "Global CDN Deployment",
+      "description": "A global Content Delivery Network (CDN) ensures fast content delivery and uptime.",
+      "technical_spec": "Akamai, Fastly",
       "severity_score": 10
     },
     {
-      "title": "High Availability",
-      "description": "Designed for high availability to ensure minimal downtime through redundancy and failover strategies.",
-      "technical_spec": "Load Balancers with multi-region server deployment.",
+      "title": "Microservices Architecture",
+      "description": "Apple's backend uses a microservices architecture for scalability and maintainability.",
+      "technical_spec": "Docker, Kubernetes",
+      "severity_score": 15
+    },
+    {
+      "title": "Responsive Web Design",
+      "description": "Flexible grid layout and images make the site responsive across devices.",
+      "technical_spec": "CSS Flexbox, Media Queries",
       "severity_score": 5
     },
     {
-      "title": "Scalable Infrastructure",
-      "description": "Built to handle high traffic volumes with scalable cloud infrastructure solutions.",
-      "technical_spec": "Utilizes AWS or similar cloud platforms with auto-scaling capabilities.",
-      "severity_score": 18
+      "title": "High Availability Infrastructure",
+      "description": "Redundant systems ensure continuous service, even under failure conditions.",
+      "technical_spec": "Auto-Scaling Groups, Load Balancers",
+      "severity_score": 20
+    },
+    {
+      "title": "Server-side Rendering",
+      "description": "Pages are pre-rendered on the server to improve performance.",
+      "technical_spec": "Next.js, Node.js",
+      "severity_score": 15
     }
   ]
 }

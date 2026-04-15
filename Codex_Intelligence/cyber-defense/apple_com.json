@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 193,
+    "rank": 203,
     "site": "apple.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "2f6e94e05656d47b88462fcc7fc3d779"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "c5a74321e51d85e08bca72e13c20ac1b"
   },
   "data": [
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Implements SSL/TLS encryption to secure data transmitted between users and the server.",
-      "technical_spec": "Uses HTTPS with TLS 1.2/1.3 protocols and strong cipher suites.",
-      "severity_score": 12
+      "title": "TLS Encryption",
+      "description": "TLS ensures secure connections between the client and server.",
+      "technical_spec": "TLS 1.2/1.3",
+      "severity_score": 5
     },
     {
       "title": "Web Application Firewall (WAF)",
-      "description": "Protects against common web attacks by filtering and monitoring HTTP traffic.",
-      "technical_spec": "Deployed WAF rules for OWASP Top 10 threat mitigation.",
-      "severity_score": 22
+      "description": "Protects against common threats like SQL injection and XSS.",
+      "technical_spec": "ModSecurity",
+      "severity_score": 20
     },
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Enforces multi-factor authentication for user accounts to enhance security.",
-      "technical_spec": "Integrates OTP or biometric verification mechanisms.",
+      "title": "DDoS Mitigation",
+      "description": "Strategies to mitigate DDoS attacks and ensure service availability.",
+      "technical_spec": "Traffic filtering, Rate limiting",
       "severity_score": 25
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic security audits and vulnerability assessments.",
-      "technical_spec": "Utilizes automated scanning tools and manual penetration testing.",
+      "title": "Regular Vulnerability Scanning",
+      "description": "Scheduled scanning for known vulnerabilities and issues.",
+      "technical_spec": "Nessus, Qualys",
       "severity_score": 30
     },
     {
-      "title": "Data Encryption",
-      "description": "Encrypts sensitive data at rest and in transit to protect user information.",
-      "technical_spec": "Employs AES-256 encryption for database and file storage.",
-      "severity_score": 20
+      "title": "Secure Code Practices",
+      "description": "Strict code review and testing processes prior to deployment.",
+      "technical_spec": "OWASP Top Ten Compliance",
+      "severity_score": 10
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 197,
+    "rank": 207,
     "site": "spotify.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "f004c7171b99facb5446c66a1891cc82"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "ab228f740e14a3c38f4f8c0bd1a2e61d"
   },
   "data": [
     {
-      "title": "User Data Encryption",
-      "description": "Ensures all user data is encrypted in transit and at rest.",
-      "technical_spec": "TLS for data in transit, AES-256 encryption for data at rest.",
+      "title": "End-to-End Encryption",
+      "description": "Encryption applied throughout the data journey from client to server.",
+      "technical_spec": "Use of TLS/SSL protocols for secure data transmission.",
       "severity_score": 10
     },
     {
-      "title": "Security Monitoring and Incident Response",
-      "description": "Continuous monitoring for security threats with a robust incident response team.",
-      "technical_spec": "SIEM systems and a dedicated security operations center.",
-      "severity_score": 30
-    },
-    {
-      "title": "Two-Factor Authentication (2FA)",
-      "description": "Optional 2FA for user accounts to enhance account security.",
-      "technical_spec": "Supports TOTP apps for second-factor authentication.",
+      "title": "Regular Security Audits",
+      "description": "Ongoing examination and remediation of security vulnerabilities.",
+      "technical_spec": "Formal audits performed with internal and external teams.",
       "severity_score": 20
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular security audits and vulnerability assessments.",
-      "technical_spec": "Third-party audits, penetration testing, and code reviews.",
-      "severity_score": 40
+      "title": "Multi-Factor Authentication",
+      "description": "Additional authentication steps to secure user accounts.",
+      "technical_spec": "Implemented through SMS and/or app-based methods.",
+      "severity_score": 15
     },
     {
-      "title": "DDoS Protection",
-      "description": "Protects against Distributed Denial of Service attacks.",
-      "technical_spec": "Cloudflare protection and in-house mitigation strategies.",
-      "severity_score": 35
+      "title": "Bot Detection Mechanisms",
+      "description": "Systems designed to identify and mitigate bot-related threats.",
+      "technical_spec": "Integration of CAPTCHA and anomaly detection algorithms.",
+      "severity_score": 25
+    },
+    {
+      "title": "Vulnerability Management Program",
+      "description": "A structured approach to address emerging threats and vulnerabilities.",
+      "technical_spec": "Proactive response strategies and patch management.",
+      "severity_score": 30
     }
   ]
 }

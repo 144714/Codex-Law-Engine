@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 200,
+    "rank": 210,
     "site": "whatsapp.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "6cfdfa7d92059c059886e553f0ceae7c"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "cf9de4954d9fb17ef0e8e166e51e9deb"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "WhatsApp uses a microservices architecture to manage different functionalities like messaging, notifications, and user authentication separately, providing scalability and maintenance ease.",
-      "technical_spec": "Architecture style: Microservices; Communication: REST/GRPC; Scalability: Horizontal; Deployment: Containers/Kubernetes",
-      "severity_score": 20
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "Built-in end-to-end encryption ensures that messages are securely transmitted between users without interception.",
-      "technical_spec": "Protocols: Signal Protocol for encryption; Key Management: Asymmetric cryptography; Storage: Encrypted storage on device",
+      "title": "Microservices Architecture",
+      "description": "WhatsApp employs a microservices architecture to efficiently handle its large-scale, global user base.",
+      "technical_spec": "Decoupled services using RESTful APIs or gRPC for communication.",
       "severity_score": 10
     },
     {
-      "title": "Global Distributed Servers",
-      "description": "A network of distributed servers globally to ensure reliable and fast message delivery across different regions.",
-      "technical_spec": "Distribution: Global CDN; Load Balancing: Geo-based routing; Redundancy: High availability clusters",
+      "title": "End-to-End Encryption",
+      "description": "Messages are encrypted from sender to recipient, ensuring privacy and security.",
+      "technical_spec": "Uses the Signal Protocol for encryption.",
       "severity_score": 15
     },
     {
-      "title": "Real-Time Messaging Protocol",
-      "description": "Real-time messaging protocol enables instant sending and receiving of messages across platforms.",
-      "technical_spec": "Protocol: WebSocket for real-time communication; Backup: HTTP fallback; Efficiency: Low-latency message dispatch",
-      "severity_score": 25
+      "title": "Global Edge Network",
+      "description": "Distributed server infrastructure to minimize latency and enhance performance.",
+      "technical_spec": "Content Delivery Networks (CDN) and regional balancing.",
+      "severity_score": 12
+    },
+    {
+      "title": "Scalable Infrastructure",
+      "description": "WhatsApp's infrastructure is designed to scale horizontally to accommodate thousands of messages per second.",
+      "technical_spec": "Auto-scaling Kubernetes clusters and load balancing.",
+      "severity_score": 20
     },
     {
       "title": "Cross-Platform Compatibility",
-      "description": "Supports a wide range of devices and operating systems to ensure broad accessibility.",
-      "technical_spec": "Compatibility: iOS, Android, Web; Frameworks: React Native for mobile; Integration: Seamless sync across platforms",
-      "severity_score": 20
+      "description": "Supports multiple operating systems, ensuring high accessibility.",
+      "technical_spec": "Native applications for iOS, Android, Windows, and macOS.",
+      "severity_score": 18
     }
   ]
 }

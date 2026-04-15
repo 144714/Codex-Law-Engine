@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 192,
+    "rank": 202,
     "site": "youtube.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "93030fb65022468d15912c2930b27fd7"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "b5cf9e90fa5ed6881a56f74a6e03df9a"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "YouTube employs a microservices-based architecture allowing for independent development, deployment, and scaling of components.",
-      "technical_spec": "Services are containerized using Docker and orchestrated with Kubernetes.",
-      "severity_score": 90
+      "title": "Distributed Microservices",
+      "description": "YouTube uses a microservices architecture to separate functionalities into independent modules.",
+      "technical_spec": "A variety of services communicate over network protocols, often using RESTful APIs.",
+      "severity_score": 5
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "YouTube utilizes a CDN to ensure video delivery is fast and efficient globally.",
-      "technical_spec": "Global Edge servers cache content close to users; integrates with Google's global infrastructure.",
-      "severity_score": 95
+      "title": "Content Delivery Network (CDN) Integration",
+      "description": "CDNs are used to distribute content efficiently and reduce latency.",
+      "technical_spec": "Multiple regional data centers handle the video streaming traffic.",
+      "severity_score": 15
     },
     {
-      "title": "Data Storage Infrastructure",
-      "description": "Videos and metadata are stored using distributed systems for scalability and reliability.",
-      "technical_spec": "Google’s Bigtable and Spanner are used for data storage and management.",
-      "severity_score": 88
+      "title": "Apache Kafka for Data Streaming",
+      "description": "Real-time data streaming for various analytics and recommendation engines.",
+      "technical_spec": "Uses Apache Kafka to manage real-time data pipelines and streaming applications.",
+      "severity_score": 10
     },
     {
-      "title": "Streaming Protocols",
-      "description": "Dynamic video streaming using adaptive bitrate to optimize quality.",
-      "technical_spec": "Uses DASH and HLS protocols for adaptive streaming.",
-      "severity_score": 85
+      "title": "SQL and NoSQL Databases",
+      "description": "Combination of relational and non-relational databases to handle different data types and volumes.",
+      "technical_spec": "Utilizes databases such as Bigtable (NoSQL) and MySQL (SQL).",
+      "severity_score": 20
     },
     {
-      "title": "Scalable API Design",
-      "description": "APIs support various functionalities like video upload, streaming, data retrieval.",
-      "technical_spec": "RESTful design, OAuth 2.0 for secure access.",
-      "severity_score": 80
+      "title": "Global Load Balancing",
+      "description": "Ensures equitable distribution of incoming network traffic.",
+      "technical_spec": "Cloud-based load balancers distribute web traffic and adjust workloads dynamically.",
+      "severity_score": 30
     }
   ]
 }

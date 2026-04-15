@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 191,
+    "rank": 201,
     "site": "google.com",
-    "date": "2026-04-15 01:27",
-    "integrity_hash": "543468ef6d2a37e51b7816aff5bdaa75"
+    "date": "2026-04-15 04:39",
+    "integrity_hash": "f40392cb1aaa07e1565d96f8e8b1697b"
   },
   "data": [
     {
-      "title": "Encryption",
-      "description": "All data is encrypted both at rest and in transit, using strong cryptographic protocols.",
-      "technical_spec": "AES-256; TLS/SSL for data in transit; Encrypted storage",
+      "title": "End-to-End Encryption",
+      "description": "All data transferred over Google's services is encrypted by default.",
+      "technical_spec": "Utilizes TLS 1.3 for secure data transmission.",
       "severity_score": 5
     },
     {
       "title": "DDoS Protection",
-      "description": "Advanced DDoS defense systems to mitigate attacks and maintain service availability.",
-      "technical_spec": "DDoS protection; Network firewalls; Traffic filtering",
-      "severity_score": 10
+      "description": "Strong protections against Distributed Denial of Service attacks.",
+      "technical_spec": "Cloud Armor and advanced threat detection algorithms.",
+      "severity_score": 4
     },
     {
-      "title": "Threat Detection",
-      "description": "Continuous monitoring for potential threats using AI and machine learning techniques.",
-      "technical_spec": "AI/ML-based threat detection; Security Information and Event Management (SIEM)",
-      "severity_score": 15
+      "title": "Advanced Threat Analysis",
+      "description": "Machine learning models for identifying potential security threats.",
+      "technical_spec": "Custom algorithms monitor traffic and flag anomalies.",
+      "severity_score": 8
     },
     {
-      "title": "Access Control",
-      "description": "Strict access control measures and multi-factor authentication for internal systems.",
-      "technical_spec": "Multi-factor authentication; Role-based access control; OAuth",
-      "severity_score": 25
+      "title": "Identity and Access Management",
+      "description": "Robust identity verification and access management practices.",
+      "technical_spec": "OAuth 2.0 and Multi-Factor Authentication for secure access control.",
+      "severity_score": 12
     },
     {
-      "title": "Security Audits",
-      "description": "Regular security audits and penetration testing to identify and remediate vulnerabilities.",
-      "technical_spec": "Penetration testing; Vulnerability scanning; Regular security reviews",
-      "severity_score": 20
+      "title": "Zero Trust Security",
+      "description": "Google applies zero trust security models to limit access threats.",
+      "technical_spec": "User and device-based authentication and authorization.",
+      "severity_score": 9
     }
   ]
 }
