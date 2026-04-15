@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 288,
+    "rank": 298,
     "site": "adobe.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "a0e92c53b46a5ce6d2d11ff0cc98eaea"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "9f2afda7133fd0965f024bce91212606"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies user choices to reduce decision time and enhance experience.",
-      "technical_spec": "Implemented streamlined navigation and choice architecture.",
-      "severity_score": 12
+      "description": "Streamlined interfaces to reduce the time taken to make decisions.",
+      "technical_spec": "Optimizing choices presented to the user.",
+      "severity_score": 10
     },
     {
-      "title": "Fitt's Law",
-      "description": "Design elements are optimized to reduce the time to interact based on size and distance.",
-      "technical_spec": "Adjusted UI element sizes and spacing for optimal reachability.",
-      "severity_score": 22
+      "title": "Fitts's Law",
+      "description": "Design focuses on making interactive elements easily accessible.",
+      "technical_spec": "Larger touch targets for frequently used controls.",
+      "severity_score": 15
     },
     {
-      "title": "Miller's Law",
-      "description": "Limits chunking of information to improve user understanding and retention.",
-      "technical_spec": "Content divided into manageable sections with clear headers.",
-      "severity_score": 8
+      "title": "Miller’s Law",
+      "description": "Limits chunks of information presented at one time to avoid overload.",
+      "technical_spec": "Presenting 5-9 elements simultaneously.",
+      "severity_score": 20
     },
     {
       "title": "Jakob's Law",
-      "description": "Designs intuitive interfaces based on familiar conventions from other web experiences.",
-      "technical_spec": "Adopts common UI patterns and design heuristics.",
-      "severity_score": 16
+      "description": "Design consistency with familiar web interactions to increase user comfort.",
+      "technical_spec": "Borrowing elements from popular interfaces.",
+      "severity_score": 5
     },
     {
-      "title": "Law of Prägnanz",
-      "description": "Encourages interface simplicity and visual clarity to aid in perception.",
-      "technical_spec": "Ensures consistent use of whitespace and minimalistic design principles.",
+      "title": "Serial Position Effect",
+      "description": "Placing key actions at the beginning and end for better retention.",
+      "technical_spec": "Strategic placement of content and CTAs.",
       "severity_score": 10
     }
   ]

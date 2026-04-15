@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 282,
+    "rank": 292,
     "site": "youtube.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "7e57a10f580dcb024e467294944d7c3a"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "bb1ddd99263280c7e8ecca763be3ef3a"
   },
   "data": [
     {
-      "title": "User-Centric Design",
-      "description": "Prioritizing user needs and experiences in the platform's design.",
-      "technical_spec": "User feedback mechanisms, Regular UX updates",
-      "severity_score": 90
-    },
-    {
-      "title": "Content Accessibility",
-      "description": "Ensuring content is accessible to a diverse audience.",
-      "technical_spec": "Subtitles, Translations, Support for screen readers",
-      "severity_score": 92
+      "title": "User-Generated Content",
+      "description": "Empowers users to create and share content with a global audience.",
+      "technical_spec": "Platforms for uploading, tagging, and sharing videos enhance content discoverability.",
+      "severity_score": 35
     },
     {
       "title": "Community Engagement",
-      "description": "Tools for user interaction and engagement.",
-      "technical_spec": "Comment sections, Community posts, Live chats",
-      "severity_score": 85
+      "description": "Features to foster interaction between creators and viewers.",
+      "technical_spec": "Comments, live chats, and community posts bolster user engagement.",
+      "severity_score": 40
     },
     {
-      "title": "Creator Empowerment",
-      "description": "Providing tools and analytics for content creators.",
-      "technical_spec": "YouTube Studio, Monetization features, Analytics dashboard",
-      "severity_score": 95
+      "title": "Diverse Ecosystem",
+      "description": "Offers a rich variety of content to cater to diverse interests.",
+      "technical_spec": "Recommendation algorithms promote a wide range of content genres.",
+      "severity_score": 25
     },
     {
-      "title": "Innovative Content Delivery",
-      "description": "Continuous improvements in video content delivery.",
-      "technical_spec": "4K/8K video support, HDR streaming, Offline viewing options",
-      "severity_score": 93
+      "title": "Monetization Opportunities",
+      "description": "Provides revenue streams for creators through ads and subscriptions.",
+      "technical_spec": "Programs like AdSense and YouTube Premium offer financial incentives.",
+      "severity_score": 45
+    },
+    {
+      "title": "Global Accessibility",
+      "description": "Accessible from almost any device or location in the world.",
+      "technical_spec": "Localized interfaces and multi-language support reach a global audience.",
+      "severity_score": 30
     }
   ]
 }

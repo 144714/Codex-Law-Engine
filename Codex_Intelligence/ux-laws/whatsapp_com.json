@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 290,
+    "rank": 300,
     "site": "whatsapp.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "c10c3f7494de540c4e912d0757c8864a"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "e0ef1c05e66f44ab0c472591db07c703"
   },
   "data": [
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Attractive design influences perception of functionality.",
-      "technical_spec": "Minimalist interface, consistent color schemes.",
-      "severity_score": 70
-    },
-    {
-      "title": "Hick's Law",
-      "description": "Minimizing choices to speed up user decision-making.",
-      "technical_spec": "Minimal menu options, guided user flows.",
-      "severity_score": 75
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Easy access to frequently used elements.",
-      "technical_spec": "Large buttons for primary actions.",
-      "severity_score": 78
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Users expect systems to work similarly to others they use.",
-      "technical_spec": "Intuitive navigation, consistent patterns.",
+      "title": "Simplicity First",
+      "description": "Interface design prioritizes user-friendly simplicity.",
+      "technical_spec": "Minimalistic UI with primary functions easily accessible.",
       "severity_score": 80
     },
     {
-      "title": "Zeigarnik Effect",
-      "description": "People remember uncompleted tasks better than completed ones.",
-      "technical_spec": "Notifications for pending messages or actions.",
-      "severity_score": 68
+      "title": "Consistency Principle",
+      "description": "User interface maintains consistency across platforms.",
+      "technical_spec": "Consistent menu structures, button layouts, and navigation paths.",
+      "severity_score": 75
+    },
+    {
+      "title": "Feedback Mechanism",
+      "description": "Application provides immediate feedback for user actions.",
+      "technical_spec": "Visual cues and haptic feedback for message sent/read notifications.",
+      "severity_score": 85
+    },
+    {
+      "title": "Fast and Responsive Design",
+      "description": "Optimized for quick load times and reactive interactions.",
+      "technical_spec": "Uses caching and background processes to enhance responsiveness.",
+      "severity_score": 90
+    },
+    {
+      "title": "Accessibility Features",
+      "description": "Supports accessibility features to cater to diverse user needs.",
+      "technical_spec": "Includes screen reader support, voice input, and customizable font sizes.",
+      "severity_score": 70
     }
   ]
 }

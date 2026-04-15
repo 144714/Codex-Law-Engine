@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 283,
+    "rank": 293,
     "site": "apple.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "1c6d7313187a551ad780524ebd69d1c8"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "cfe7c0c35acbbe69fa7d66966b798182"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Minimizes decision-making time by simplifying choices on the website.",
-      "technical_spec": "Streamlined navigation and menu options for easier user decisions.",
-      "severity_score": 78
+      "title": "Hick's Law",
+      "description": "Minimizes the time required for users to make decisions by reducing complexity.",
+      "technical_spec": "Implemented through simplified navigation menus and reduced cognitive load.",
+      "severity_score": 75
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizes button sizes and layout for improved accessibility.",
-      "technical_spec": "Large, easily clickable buttons conforming to Fitts's law for action-heavy pages.",
+      "title": "Fitts' Law",
+      "description": "Optimizes button size and spacing for faster interaction.",
+      "technical_spec": "Call-to-action elements strategically placed for ease of access via touch or cursor.",
       "severity_score": 80
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Uses principles like proximity, similarity, and closure to enhance visual coherence.",
-      "technical_spec": "Groupings and layout alignments following Gestalt theories to guide user attention.",
+      "title": "Law of Proximity",
+      "description": "Groups related elements together to improve readability and user comprehension.",
+      "technical_spec": "Utilizes proximity principles within layout templates to enhance the logical flow.",
+      "severity_score": 70
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Maintains cognitive chunking of content to keep user focus.",
+      "technical_spec": "Instructional content presented in easily digestible chunks, adhering to the 7±2 rule.",
+      "severity_score": 78
+    },
+    {
+      "title": "Pareto Principle",
+      "description": "Enhancing key features that provide most of the user value.",
+      "technical_spec": "Focusing development resources on high-usage features, leveraging analytics for prioritization.",
       "severity_score": 85
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Limits chunks of information to enhance information retention.",
-      "technical_spec": "Content is segmented into manageable parts to improve comprehension.",
-      "severity_score": 82
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Prioritizes visual appeal to enhance perceived usability.",
-      "technical_spec": "Sleek design using Apple’s visual language conveying simplicity and elegance.",
-      "severity_score": 88
     }
   ]
 }

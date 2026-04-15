@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 284,
+    "rank": 294,
     "site": "microsoft.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "1998802869e86be2efa09596a34dac03"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "4ec504b4824a93997fcc5b14d429b8a4"
   },
   "data": [
     {
-      "title": "Innovation Leader",
-      "description": "Positioned as a leader in technological innovation and cutting-edge solutions.",
-      "technical_spec": "Continuous R&D, Emerging Technologies",
-      "severity_score": 30
+      "title": "Innovation Focus",
+      "description": "Continuous investment in cutting-edge technology and innovation.",
+      "technical_spec": "Research and development strategy",
+      "severity_score": 95
     },
     {
       "title": "Customer-Centric Approach",
-      "description": "Focuses on delivering customer value and enhancing user experiences.",
-      "technical_spec": "Feedback Loops, User Research",
-      "severity_score": 20
+      "description": "Prioritizing customer feedback in product development.",
+      "technical_spec": "User feedback loops, product iterations",
+      "severity_score": 92
     },
     {
-      "title": "Global Brand Presence",
-      "description": "Strong global presence with localized content and solutions.",
-      "technical_spec": "Regional Marketing, Multilingual Support",
-      "severity_score": 15
+      "title": "Sustainability Efforts",
+      "description": "Commitment to environmentally sustainable practices.",
+      "technical_spec": "Eco-friendly data centers, carbon neutrality goals",
+      "severity_score": 85
     },
     {
-      "title": "Commitment to Sustainability",
-      "description": "Integrated sustainability practices into operations and product offerings.",
-      "technical_spec": "Sustainable Cloud, Eco-Friendly Initiatives",
-      "severity_score": 10
+      "title": "Global Reach",
+      "description": "Strong international presence and cultural adaptation.",
+      "technical_spec": "Localized content, international partnerships",
+      "severity_score": 93
     },
     {
-      "title": "Security and Trust",
-      "description": "Brand equity built on a foundation of security, trust, and reliability.",
-      "technical_spec": "ISO Certifications, Compliance Standards",
-      "severity_score": 5
+      "title": "Ethical Business Practices",
+      "description": "Dedication to ethical corporate governance and compliance.",
+      "technical_spec": "Compliance programs, ethical sourcing",
+      "severity_score": 90
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 288,
+    "rank": 298,
     "site": "adobe.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "3e8912c7692aed2fe428139f195e02fe"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "770b29e49116d8daba69ac7b1d2eb7c2"
   },
   "data": [
     {
       "title": "Creative Empowerment",
-      "description": "Focuses on providing tools and services that empower creativity and innovation.",
-      "technical_spec": "Suite of software solutions like Photoshop and Illustrator.",
-      "severity_score": 15
+      "description": "Adobe's brand revolves around empowering creativity and innovation.",
+      "technical_spec": "Tools and platforms that nurture creative expression.",
+      "severity_score": 5
     },
     {
-      "title": "Global Consistency",
-      "description": "Maintains a consistent brand image and messaging across international markets.",
-      "technical_spec": "Universal branding guidelines and localized content strategy.",
-      "severity_score": 12
-    },
-    {
-      "title": "Innovation Leadership",
-      "description": "Positioned as a leader in digital media and marketing innovation.",
-      "technical_spec": "Investment in R&D and strategic acquisitions.",
-      "severity_score": 20
-    },
-    {
-      "title": "Commitment to User Experience",
-      "description": "Prioritizes user-centered design principles in product development.",
-      "technical_spec": "User feedback loops and iterative design processes.",
+      "title": "Customer-Centric Design",
+      "description": "Focuses on delivering a seamless experience tailored to user needs.",
+      "technical_spec": "Feedback-driven product development.",
       "severity_score": 10
     },
     {
-      "title": "Sustainability Initiatives",
-      "description": "Incorporates sustainable practices into operations and product lifecycle.",
-      "technical_spec": "Adopts eco-friendly policies and sustainable sourcing.",
-      "severity_score": 18
+      "title": "Technological Innovation",
+      "description": "Pioneers in digital media solutions with constant innovation.",
+      "technical_spec": "Investment in AI and adaptive design technologies.",
+      "severity_score": 15
+    },
+    {
+      "title": "Collaborative Ecosystem",
+      "description": "Building an ecosystem that enhances collaboration among creatives.",
+      "technical_spec": "Integrated cloud-based tools for team projects.",
+      "severity_score": 10
+    },
+    {
+      "title": "Global Reach",
+      "description": "Adobe's presence as a leader in global digital experiences.",
+      "technical_spec": "Widespread adoption in various creative industries worldwide.",
+      "severity_score": 20
     }
   ]
 }

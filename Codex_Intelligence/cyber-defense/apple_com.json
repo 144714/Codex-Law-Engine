@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 283,
+    "rank": 293,
     "site": "apple.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "df94a87e794a45af4fb4e1bf7072abae"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "873ac3fd12bb9e7e9a9e42d44e46f06e"
   },
   "data": [
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Ensures secure data transmission across the network.",
-      "technical_spec": "Implements TLS 1.3 for all web communications to enhance privacy and data integrity.",
-      "severity_score": 95
-    },
-    {
-      "title": "WAF Protection",
-      "description": "Web Application Firewall to mitigate threats like SQL injection and XSS attacks.",
-      "technical_spec": "Advanced WAF systems monitor and filter HTTP requests to block malicious traffic.",
-      "severity_score": 85
+      "title": "Multi-layered Authentication",
+      "description": "Complex authentication processes to protect user data.",
+      "technical_spec": "Incorporates two-factor authentication (2FA) and OAuth for secure user credential verification.",
+      "severity_score": 92
     },
     {
       "title": "Regular Security Audits",
-      "description": "Frequent security assessments to identify and rectify vulnerabilities.",
-      "technical_spec": "Conducts both automated and manual security audits including penetration testing.",
-      "severity_score": 80
+      "description": "Regular audits and vulnerability assessments to identify and mitigate security risks.",
+      "technical_spec": "Utilizes automated scanning tools and manual testing to ensure compliance with the latest security protocols.",
+      "severity_score": 88
     },
     {
-      "title": "DDoS Mitigation",
-      "description": "Protection against Distributed Denial of Service attacks.",
-      "technical_spec": "Employs anti-DDoS services by providers like Akamai to counteract traffic overloads.",
-      "severity_score": 90
+      "title": "Data Encryption",
+      "description": "User data is encrypted both at rest and in transit.",
+      "technical_spec": "Adopts standard encryption protocols like TLS for data in transit and AES for data stored in databases.",
+      "severity_score": 95
     },
     {
-      "title": "Endpoint Security",
-      "description": "Secures devices accessing the network to prevent unauthorized access.",
-      "technical_spec": "Utilizes advanced endpoint protection protocols and antivirus solutions.",
-      "severity_score": 75
+      "title": "DDoS Protection",
+      "description": "Protection against Distributed Denial of Service attacks to maintain website uptime.",
+      "technical_spec": "Employs traffic monitoring and automated filtering to absorb, redirect, and mitigate attack impacts.",
+      "severity_score": 87
+    },
+    {
+      "title": "Access Control Policies",
+      "description": "Strict access control measures to safeguard sensitive information.",
+      "technical_spec": "Role-based access control (RBAC) is enforced, limiting data access based on user roles.",
+      "severity_score": 85
     }
   ]
 }

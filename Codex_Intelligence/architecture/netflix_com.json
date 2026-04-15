@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 286,
+    "rank": 296,
     "site": "netflix.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "b7b05465b8363f9e58d32dbc8559f0f0"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "4ea594ac21f837719272fc3459212ec2"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "The site uses a microservices architecture to allow independent deployment and scaling of features.",
-      "technical_spec": "Each service runs a unique process and communicates through a well-defined API, typically using REST or gRPC.",
-      "severity_score": 10
+      "title": "Microservices",
+      "description": "Netflix utilizes a microservices architecture to break down its applications into small, independent services.",
+      "technical_spec": "Services communicate over REST APIs or gRPC. Backed by Kubernetes for scalability.",
+      "severity_score": 80
     },
     {
-      "title": "CDN Utilization",
-      "description": "Content Delivery Networks are leveraged to optimize content delivery for better performance and scalability.",
-      "technical_spec": "Akamai, Fastly, and Amazon CloudFront are used to cache content closer to users.",
-      "severity_score": 15
+      "title": "AWS Cloud Infrastructure",
+      "description": "Netflix runs its applications primarily on AWS, leveraging multiple AWS services for scalability and reliability.",
+      "technical_spec": "Utilizes EC2, S3, DynamoDB, and RDS with multi-region failover capabilities.",
+      "severity_score": 90
     },
     {
-      "title": "Cross-Platform Compatibility",
-      "description": "Designed to provide a consistent experience across multiple devices.",
-      "technical_spec": "Responsive design principles implemented using CSS3 and HTML5.",
-      "severity_score": 20
+      "title": "Content Delivery Network (CDN)",
+      "description": "CDNs are used to distribute content globally for low-latency streaming.",
+      "technical_spec": "Leverages Open Connect, a custom-built CDN for efficient video streaming.",
+      "severity_score": 85
     },
     {
-      "title": "Load Balancing",
-      "description": "Load balancers distribute network or application traffic across multiple servers.",
-      "technical_spec": "Elastic Load Balancing (ELB) with auto-scaling on AWS to maintain efficient load distribution.",
-      "severity_score": 25
+      "title": "Chaos Engineering",
+      "description": "Techniques used to ensure system reliability by simulating failures.",
+      "technical_spec": "Tools like Chaos Monkey introduce controlled failures to test resilience.",
+      "severity_score": 75
     },
     {
       "title": "Data Pipeline",
-      "description": "Sophisticated pipelines for data aggregation and processing for recommendations and analytics.",
-      "technical_spec": "Apache Kafka and Apache Flink are used for stream processing.",
-      "severity_score": 30
+      "description": "Sophisticated data processing pipeline to power recommendations and analytics.",
+      "technical_spec": "Incorporates Apache Kafka, Spark, and Hadoop for real-time data processing.",
+      "severity_score": 88
     }
   ]
 }

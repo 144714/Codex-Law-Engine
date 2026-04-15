@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 282,
+    "rank": 292,
     "site": "youtube.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "e3bd47edc88b736f73068bf9a79e42df"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "6ab7482b2828d4a903ed83d74f524d4e"
   },
   "data": [
     {
-      "title": "Authentication and Authorization",
-      "description": "Robust authentication systems to manage user access.",
-      "technical_spec": "OAuth 2.0, OpenID Connect",
-      "severity_score": 92
+      "title": "Content Moderation",
+      "description": "Automated systems are used to detect and remove harmful content.",
+      "technical_spec": "AI-driven algorithms scan uploaded videos for violations of community guidelines.",
+      "severity_score": 50
     },
     {
-      "title": "Encryption Protocols",
-      "description": "Encryption standards employed to protect user data.",
-      "technical_spec": "TLS for data in transit, AES for data at rest",
-      "severity_score": 95
+      "title": "Authentication Protocols",
+      "description": "Robust authentication mechanisms protect user accounts.",
+      "technical_spec": "Two-factor authentication (2FA) and OAuth protocols secure user access.",
+      "severity_score": 30
     },
     {
-      "title": "DDoS Protection",
-      "description": "Mechanisms to mitigate Distributed Denial of Service attacks.",
-      "technical_spec": "Traffic analysis, Rate limiting, Global traffic load balancing",
-      "severity_score": 90
+      "title": "Data Encryption",
+      "description": "All data in transit and at rest is encrypted to protect user privacy.",
+      "technical_spec": "Uses TLS 1.3 for data in transit and AES-256 encryption for data stored at rest.",
+      "severity_score": 40
     },
     {
-      "title": "Content Filtering",
-      "description": "Systems in place to filter harmful or non-compliant content.",
-      "technical_spec": "Machine Learning, Automated flagging systems",
-      "severity_score": 88
+      "title": "DDoS Mitigation",
+      "description": "Techniques are employed to mitigate distributed denial-of-service attacks.",
+      "technical_spec": "Advanced filters and rate limiting detect and block malicious traffic.",
+      "severity_score": 30
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Processes to identify and patch system vulnerabilities.",
-      "technical_spec": "Regular security audits, Penetration testing",
-      "severity_score": 93
+      "title": "Bug Bounty Program",
+      "description": "Encourages ethical hackers to find and report security vulnerabilities.",
+      "technical_spec": "Rewards are given for discovering significant vulnerabilities in the platform.",
+      "severity_score": 20
     }
   ]
 }

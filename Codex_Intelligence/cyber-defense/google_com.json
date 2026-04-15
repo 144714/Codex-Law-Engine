@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 281,
+    "rank": 291,
     "site": "google.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "a324e4fdcebe3b18e1370dd7bccd6633"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "db7269e5db71f49e8b39ed4c1c12af04"
   },
   "data": [
     {
-      "title": "Encryption",
-      "description": "Data at rest and in transit are encrypted using industry-standard protocols.",
-      "technical_spec": "TLS, AES-256, Perfect Forward Secrecy (PFS)",
-      "severity_score": 3
+      "title": "End-to-End Encryption",
+      "description": "Data is encrypted in transit and at rest across Google services.",
+      "technical_spec": "TLS protocols, HTTP Strict Transport Security (HSTS), and encryption keys.",
+      "severity_score": 97
     },
     {
-      "title": "Account Protection",
-      "description": "Advanced security features to protect user accounts from unauthorized access.",
-      "technical_spec": "2-Step Verification, Security Key, OAuth 2.0",
-      "severity_score": 10
+      "title": "Automatic Security Updates",
+      "description": "Regular updates automatically applied to enhance security.",
+      "technical_spec": "Patch management and update automation for rapid deployment.",
+      "severity_score": 91
     },
     {
-      "title": "Threat Detection and Response",
-      "description": "Proactive monitoring and threat analysis to detect and respond to potential security incidents.",
-      "technical_spec": "Machine learning algorithms, anomaly detection, SIEM tools",
-      "severity_score": 15
+      "title": "Advanced Threat Detection",
+      "description": "Leveraging AI for real-time threat monitoring and intrusion detection.",
+      "technical_spec": "Behavior analysis, anomaly detection, and machine learning models.",
+      "severity_score": 89
     },
     {
-      "title": "Security Audits and Penetration Testing",
-      "description": "Regular security audits and penetration testing to identify vulnerabilities.",
-      "technical_spec": "Third-party audits, OWASP guidelines, internal red team exercises",
-      "severity_score": 20
+      "title": "Two-Factor Authentication",
+      "description": "Enhanced account security with user authentication beyond passwords.",
+      "technical_spec": "OTP delivery, authenticator apps, and U2F/UAF support.",
+      "severity_score": 94
     },
     {
-      "title": "Advanced DDoS Mitigation",
-      "description": "Protection against distributed denial-of-service attacks.",
-      "technical_spec": "Anycast network, dynamic resource scaling, attack traffic filtering",
-      "severity_score": 12
+      "title": "DDoS Mitigation",
+      "description": "Robust defenses against distributed denial-of-service attacks.",
+      "technical_spec": "Traffic analysis, rate limiting, and absorption strategies.",
+      "severity_score": 93
     }
   ]
 }

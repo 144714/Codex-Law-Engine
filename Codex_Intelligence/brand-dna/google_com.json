@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 281,
+    "rank": 291,
     "site": "google.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "61f56139940ddbb1aca1dda59fd3c7f7"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "58ab2b4beb90ee9d1826fa1c46a914d4"
   },
   "data": [
     {
-      "title": "Innovation at Scale",
-      "description": "Focuses on leveraging technological advancements to drive innovation.",
-      "technical_spec": "R&D, Google X, focus on emerging tech",
-      "severity_score": 2
+      "title": "Innovation",
+      "description": "Continuous evolution and implementation of cutting-edge technology.",
+      "technical_spec": "Research initiatives, technology acquisitions, and AI investments.",
+      "severity_score": 95
     },
     {
-      "title": "Commitment to Open Source",
-      "description": "Regular contributions and open sourcing of projects to benefit the wider tech community.",
-      "technical_spec": "TensorFlow, Kubernetes, Chromium",
-      "severity_score": 1
+      "title": "Simplicity",
+      "description": "Minimalist design for user-friendly interaction and efficiency.",
+      "technical_spec": "Simplified UI/UX design principles and clutter-free interfaces.",
+      "severity_score": 90
     },
     {
-      "title": "Data-Driven Decision Making",
-      "description": "Utilizes data analytics to drive strategic decisions across products and services.",
-      "technical_spec": "BigQuery, Analytics pipeline, A/B testing framework",
-      "severity_score": 6
+      "title": "Global Reach",
+      "description": "Service access and infrastructure are globally distributed.",
+      "technical_spec": "Numerous data centers and diverse language support.",
+      "severity_score": 94
     },
     {
-      "title": "Privacy and Trust",
-      "description": "Emphasizes user privacy and data protection.",
-      "technical_spec": "GDPR compliance, privacy settings, data transparency",
-      "severity_score": 5
+      "title": "Reliability",
+      "description": "Consistent service uptime and dependable performance across platforms.",
+      "technical_spec": "Robust backend systems, redundancy, and failovers.",
+      "severity_score": 96
     },
     {
-      "title": "Diversity and Inclusion",
-      "description": "Promotes diversity and inclusion in tech and within the company.",
-      "technical_spec": "Inclusive hiring practices, community outreach programs, diversity metrics",
-      "severity_score": 7
+      "title": "Security",
+      "description": "Commitment to user data protection and privacy.",
+      "technical_spec": "Compliance with global security standards and privacy policies.",
+      "severity_score": 92
     }
   ]
 }

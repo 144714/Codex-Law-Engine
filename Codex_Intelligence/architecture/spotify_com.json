@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 287,
+    "rank": 297,
     "site": "spotify.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "fcaadcf4ba461b38f1d801779d843b9c"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "6b7a01cebab3dcc6cd845317a556ded5"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Spotify employs a microservices architecture, allowing individual services to be developed, deployed, and scaled independently.",
-      "technical_spec": "The system is designed using multiple services that communicate via REST APIs or message brokers.",
-      "severity_score": 85
+      "description": "Spotify uses microservices to manage its large and complex application. This approach allows for scalability and independent deployment of components.",
+      "technical_spec": "Deployed on cloud platforms, with each microservice handling a specific function, connected via APIs.",
+      "severity_score": 20
     },
     {
-      "title": "Event-Driven Infrastructure",
-      "description": "The platform uses an event-driven architecture to improve real-time capabilities and reduce latency.",
-      "technical_spec": "Services use events and queues for asynchronous processing, often utilizing technologies like Kafka.",
-      "severity_score": 90
+      "title": "Distributed Systems",
+      "description": "Spotify employs distributed system design to handle millions of user requests concurrently and provide seamless streaming experiences.",
+      "technical_spec": "Utilizes load balancing and data replication for reliability and speed.",
+      "severity_score": 25
     },
     {
-      "title": "Cloud-Based Deployment",
-      "description": "Spotify runs its infrastructure on various cloud platforms, enhancing scalability and availability.",
-      "technical_spec": "The use of cloud providers such as Google Cloud Platform enables dynamic resource management.",
-      "severity_score": 88
+      "title": "Event-Driven Architecture",
+      "description": "Real-time data processing and user interaction is facilitated through event-driven architecture, ensuring fast response to user actions.",
+      "technical_spec": "Relies on message brokers and scalable event streams.",
+      "severity_score": 30
     },
     {
-      "title": "Continuous Integration/Deployment",
-      "description": "CI/CD practices allow for frequent releases and quick iteration cycles.",
-      "technical_spec": "Tools like Jenkins and Spinnaker automate testing and deployment processes.",
-      "severity_score": 80
+      "title": "Data-Intensive Applications",
+      "description": "The application is designed to efficiently manage and process large volumes of music data and user interaction.",
+      "technical_spec": "Employs big data technologies and optimized data storage solutions.",
+      "severity_score": 35
     },
     {
-      "title": "Data-Driven Design",
-      "description": "Systems are designed with a focus on data analytics and user behavior insights.",
-      "technical_spec": "The architecture supports robust data pipelines and data warehouses for analysis.",
-      "severity_score": 92
+      "title": "High Availability",
+      "description": "Architectural strategies ensure the application remains available even during high traffic or in case of infrastructure failures.",
+      "technical_spec": "Implements redundancy and automatic failover mechanisms.",
+      "severity_score": 15
     }
   ]
 }

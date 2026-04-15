@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 287,
+    "rank": 297,
     "site": "spotify.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "4e57c52d5f2a510064c042672c2651f0"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "6633d9424661a7200b22fd19b798b8be"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "The design minimizes user decision time by simplifying choices and offering intuitive navigation.",
-      "technical_spec": "Optimized UI flow with limited and prioritized options to reduce cognitive load.",
-      "severity_score": 88
+      "description": "Simplifies navigation by minimizing user choices to reduce decision time.",
+      "technical_spec": "Designs with curated playlists and featured collections.",
+      "severity_score": 40
     },
     {
-      "title": "Fitts's Law",
-      "description": "Interactive elements are positioned to facilitate quicker and more accurate interaction.",
-      "technical_spec": "Button sizes and spacings are designed for efficient use on devices.",
-      "severity_score": 85
+      "title": "Fitts’s Law",
+      "description": "Designs focus on making critical buttons and features easily reachable to enhance usability.",
+      "technical_spec": "Strategically placed playback controls and intuitive navigation icons.",
+      "severity_score": 38
     },
     {
-      "title": "Law of Proximity",
-      "description": "Closely positioned items are perceived as related, aiding navigation and information hierarchy.",
-      "technical_spec": "Logical grouping and spacing to enhance user comprehension.",
-      "severity_score": 90
+      "title": "Aesthetic Usability Effect",
+      "description": "An aesthetically pleasing interface is used, which enhances perceptions of usability.",
+      "technical_spec": "Implements a clean, modern design with vibrant album artwork.",
+      "severity_score": 30
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "An aesthetically pleasing design enhances user satisfaction and perceived usability.",
-      "technical_spec": "Consistent color schemes and visual elements reflect brand aesthetics.",
-      "severity_score": 92
+      "title": "Millers Law",
+      "description": "Interfaces are crafted to avoid cognitive overload by grouping information into manageable chunks.",
+      "technical_spec": "Playlists and playlists categories organized logically.",
+      "severity_score": 35
     },
     {
       "title": "Jakob's Law",
-      "description": "Design aligns with user expectations based on experiences from other digital platforms.",
-      "technical_spec": "Utilizes familiar interface patterns and user-friendly interactions.",
-      "severity_score": 89
+      "description": "Uses familiar design patterns to align with user expectations based on past experiences.",
+      "technical_spec": "Employs standard UI/UX elements similar to popular music apps.",
+      "severity_score": 33
     }
   ]
 }

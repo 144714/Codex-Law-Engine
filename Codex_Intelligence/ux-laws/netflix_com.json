@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 286,
+    "rank": 296,
     "site": "netflix.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "c4df5a332382a3d2dd08d2123d781194"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "b5f437e393272ec7fc0b88b9c949ed4e"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Minimized options to reduce cognitive overload and enhance user decision-making.",
-      "technical_spec": "Simple, streamlined navigation and focused content display.",
-      "severity_score": 15
+      "description": "Simplification of user decisions to enhance content selection.",
+      "technical_spec": "Limit primary interactions to a few choices on the homepage.",
+      "severity_score": 70
     },
     {
-      "title": "Fitts's Law",
-      "description": "Design that facilitates user interaction by optimizing the distance required to complete tasks.",
-      "technical_spec": "Large call-to-action buttons and intuitive accessibility.",
-      "severity_score": 20
+      "title": "Fitts’s Law",
+      "description": "Design for easy and quick interactions to reduce user friction.",
+      "technical_spec": "Large, easily clickable buttons and controls for play/pause.",
+      "severity_score": 68
     },
     {
-      "title": "Miller's Law",
-      "description": "Chunked information to conform with user memory limits.",
-      "technical_spec": "Categories, genres, and groupings to manage content presentation.",
-      "severity_score": 25
+      "title": "Aesthetic-Usability Effect",
+      "description": "Creating an aesthetically pleasing interface to improve usability.",
+      "technical_spec": "Clean, modern UI with high-quality visuals and consistent design language.",
+      "severity_score": 75
     },
     {
-      "title": "Jakob's Law",
-      "description": "Leverages user familiarity by using standard interface norms.",
-      "technical_spec": "Adoption of widely recognized symbols and interaction patterns.",
-      "severity_score": 10
+      "title": "Peak-End Rule",
+      "description": "Optimizing for peaks and ends of user experiences.",
+      "technical_spec": "Engaging introductions to new content and personalized recommendations.",
+      "severity_score": 72
     },
     {
-      "title": "Law of Prägnanz",
-      "description": "Optimized so users perceive visuals in the simplest form possible.",
-      "technical_spec": "Clean interface design with clear color contrasts and minimalism.",
-      "severity_score": 30
+      "title": "Jakob’s Law of Internet User Experience",
+      "description": "Leveraging familiar design patterns for smoother navigation and interaction.",
+      "technical_spec": "Standardized menu placement and intuitive navigation paths.",
+      "severity_score": 77
     }
   ]
 }

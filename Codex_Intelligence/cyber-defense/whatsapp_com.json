@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 290,
+    "rank": 300,
     "site": "whatsapp.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "96398208276d51b38ebedba598613082"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "1218715b1051df3689cf93f82ee1eb75"
   },
   "data": [
     {
       "title": "Two-Factor Authentication",
-      "description": "An additional layer of security for account access.",
-      "technical_spec": "OTP delivery via SMS, authentication apps.",
-      "severity_score": 75
+      "description": "Provides an additional security layer via two-factor authentication.",
+      "technical_spec": "Optional feature requiring a PIN along with the standard login credentials.",
+      "severity_score": 60
     },
     {
-      "title": "Data Privacy and Compliance",
-      "description": "Strict adherence to privacy regulations and guidelines.",
-      "technical_spec": "GDPR compliance, CCPA adherence.",
-      "severity_score": 90
-    },
-    {
-      "title": "Malware Protection",
-      "description": "Defensive measures against malware targeting the service.",
-      "technical_spec": "Anomaly detection systems, sandboxing.",
-      "severity_score": 80
-    },
-    {
-      "title": "Incident Response Plan",
-      "description": "Prepared strategies for addressing security breaches.",
-      "technical_spec": "Response team protocols, automated alert systems.",
+      "title": "Security Patches and Updates",
+      "description": "Regular updates to address vulnerabilities and improve security.",
+      "technical_spec": "Patches for server-side and client-side components are released frequently.",
       "severity_score": 85
     },
     {
-      "title": "Secure Software Development Lifecycle",
-      "description": "Emphasis on security during software development.",
-      "technical_spec": "Code audits, penetration testing, DevSecOps.",
-      "severity_score": 88
+      "title": "Anti-Spam Algorithms",
+      "description": "Implements algorithms to detect and mitigate spam and abuse.",
+      "technical_spec": "Uses machine learning to identify suspicious patterns in messaging.",
+      "severity_score": 65
+    },
+    {
+      "title": "Encrypted Backup Options",
+      "description": "Support for encrypted backups of chat histories.",
+      "technical_spec": "End-to-end encrypted backups are available via cloud services.",
+      "severity_score": 75
+    },
+    {
+      "title": "User Report Mechanism",
+      "description": "Users can report spam or abusive content directly within the app.",
+      "technical_spec": "In-app mechanism for reporting with an optional forwarding of recent message history to the support team.",
+      "severity_score": 70
     }
   ]
 }

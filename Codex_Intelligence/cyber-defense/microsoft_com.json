@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 284,
+    "rank": 294,
     "site": "microsoft.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "8a326596af85df30cd74f5cc3a229138"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "899e509264231861ce8cc364ac924e6c"
   },
   "data": [
     {
       "title": "Advanced Threat Protection",
-      "description": "Implements sophisticated threat detection algorithms to prevent and respond to cyber threats.",
-      "technical_spec": "Microsoft Defender, AI-Based Analysis, Threat Intelligence",
-      "severity_score": 5
+      "description": "Deployment of threat protection across digital assets.",
+      "technical_spec": "Microsoft Defender, Azure Sentinel",
+      "severity_score": 97
     },
     {
       "title": "Multi-Factor Authentication",
-      "description": "Ensures user identity verification through multiple authentication methods.",
-      "technical_spec": "OAuth, Biometrics, Authenticator Apps",
-      "severity_score": 10
+      "description": "Enforced multi-factor authentication for user access.",
+      "technical_spec": "Microsoft Authenticator, FIDO2",
+      "severity_score": 90
     },
     {
-      "title": "Network Security",
-      "description": "Deploys strong firewall and intrusion detection systems to safeguard network traffic.",
-      "technical_spec": "Azure Security Center, SIEM, Firewall Rules",
-      "severity_score": 5
+      "title": "Regular Vulnerability Assessments",
+      "description": "Frequent security assessments to identify and mitigate vulnerabilities.",
+      "technical_spec": "Security Center, Azure Policy",
+      "severity_score": 85
     },
     {
       "title": "Data Encryption",
-      "description": "Data is encrypted at rest and in transit to maintain confidentiality and integrity.",
-      "technical_spec": "TLS/SSL, AES-256, Secure Key Management",
-      "severity_score": 5
+      "description": "Strong encryption practices for data in transit and at rest.",
+      "technical_spec": "TLS 1.3, AES-256 encryption",
+      "severity_score": 92
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular scans and updates to patch vulnerabilities and enhance security posture.",
-      "technical_spec": "Automated Patching, Vulnerability Scanners, Patch Management Tools",
-      "severity_score": 10
+      "title": "Identity and Access Management",
+      "description": "Comprehensive IAM strategies for secure access control.",
+      "technical_spec": "Azure Active Directory, Conditional Access",
+      "severity_score": 94
     }
   ]
 }

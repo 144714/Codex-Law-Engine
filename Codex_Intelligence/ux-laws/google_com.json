@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 281,
+    "rank": 291,
     "site": "google.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "5ba3047e45d3a0ab6f1780f3c174c115"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "a3e006e3a649aadddcfb5c163c5f2a4d"
   },
   "data": [
     {
-      "title": "Consistency and Standards",
-      "description": "Maintains a consistent design language across all Google services.",
-      "technical_spec": "Material Design, UX/UI best practices",
-      "severity_score": 7
+      "title": "Fitt’s Law",
+      "description": "Optimized button sizes and positions to reduce navigation time.",
+      "technical_spec": "Edge pressure zones and frequent interactive elements positioned for ease.",
+      "severity_score": 85
     },
     {
-      "title": "Visibility of System Status",
-      "description": "Ensures that users are informed of system status to enhance trust and reliability.",
-      "technical_spec": "Loading indicators, error messages, real-time updates",
-      "severity_score": 5
+      "title": "Hick’s Law",
+      "description": "Minimal options presented at any point to reduce decision-making time.",
+      "technical_spec": "Simplified interface with grouped options and progressive disclosure.",
+      "severity_score": 88
     },
     {
-      "title": "User Control and Freedom",
-      "description": "Empowers users to easily navigate and control their interactions with Google services.",
-      "technical_spec": "UNDO options, settings customization, clear navigation",
-      "severity_score": 6
+      "title": "Aesthetic-Usability Effect",
+      "description": "A clean, minimalist aesthetic enhances user perception of usability.",
+      "technical_spec": "Responsive design principles and high contrast for readability.",
+      "severity_score": 91
     },
     {
-      "title": "Recognizing Needs and Preferences",
-      "description": "Identifies user needs through behavioral data analysis to personalize experiences.",
-      "technical_spec": "Machine learning, user consent-driven preferences, adaptive algorithms",
-      "severity_score": 10
+      "title": "Jakob’s Law",
+      "description": "Aligned with user expectations by reflecting common web conventions.",
+      "technical_spec": "Consistent interface structures and recognizable icons.",
+      "severity_score": 86
     },
     {
-      "title": "Error Prevention",
-      "description": "Designs interfaces to prevent errors before they occur.",
-      "technical_spec": "Form validations, contextual hints, confirmation dialogs",
-      "severity_score": 4
+      "title": "Law of Proximity",
+      "description": "Related items are grouped together for intuitive navigation.",
+      "technical_spec": "Whitespace management and content modules.",
+      "severity_score": 89
     }
   ]
 }

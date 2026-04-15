@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 288,
+    "rank": 298,
     "site": "adobe.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "136bd6030cf546addd9c3b445c2a6890"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "5d09c27a3e4079e7a85a1aa29ca44e6e"
   },
   "data": [
     {
       "title": "Advanced Threat Detection",
-      "description": "Systems equipped with AI-driven threat detection to identify and mitigate potential risks.",
-      "technical_spec": "Incorporates advanced SIEM solutions.",
-      "severity_score": 25
+      "description": "Employs AI and ML for identifying potential threats.",
+      "technical_spec": "Self-learning algorithms to identify anomalies.",
+      "severity_score": 70
     },
     {
-      "title": "Secure Data Encryption",
-      "description": "Encrypts data at rest and during transmission to protect sensitive information.",
-      "technical_spec": "Uses AES-256 encryption protocols.",
-      "severity_score": 30
+      "title": "End-to-End Encryption",
+      "description": "Data is encrypted from the user's end to Adobe's infrastructure.",
+      "technical_spec": "AES-256 encryption standard used.",
+      "severity_score": 60
     },
     {
-      "title": "Comprehensive Security Audits",
-      "description": "Regular security audits and penetration testing to identify vulnerabilities.",
-      "technical_spec": "Third-party security firms conducted annually.",
-      "severity_score": 35
+      "title": "Regular Security Audits",
+      "description": "Conducts thorough security audits to ensure system integrity.",
+      "technical_spec": "Internal and third-party evaluations.",
+      "severity_score": 65
     },
     {
-      "title": "Access Management",
-      "description": "Strict identity verification and access controls to limit unauthorized access.",
-      "technical_spec": "Implements SSO and MFA for user authentication.",
-      "severity_score": 20
+      "title": "Zero Trust Networking",
+      "description": "Adopts a zero-trust approach to application access and data management.",
+      "technical_spec": "Verify identity and restrict device or network access.",
+      "severity_score": 55
     },
     {
-      "title": "Incident Response Procedures",
-      "description": "Established protocols for responding to security incidents and breaches.",
-      "technical_spec": "Incident response team active 24/7 with defined escalation procedures.",
-      "severity_score": 18
+      "title": "Incident Response Team",
+      "description": "Dedicated team for quick response to security breaches.",
+      "technical_spec": "24/7 monitoring and response capability.",
+      "severity_score": 75
     }
   ]
 }

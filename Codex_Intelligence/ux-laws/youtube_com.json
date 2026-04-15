@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 282,
+    "rank": 292,
     "site": "youtube.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "1007cb097a72f53ffc412b0ffd2754ea"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "25de449f28d90c2c29d55a5121085b06"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Minimizing decision-making time by reducing the number of options.",
-      "technical_spec": "Clean design, Clear CTAs",
-      "severity_score": 85
+      "description": "Simplifies navigation to reduce decision-making time for users.",
+      "technical_spec": "Menus and choices are optimized to prevent user overload.",
+      "severity_score": 15
     },
     {
       "title": "Fitts’s Law",
-      "description": "Optimized clickable elements for ease of access.",
-      "technical_spec": "Larger targets, Intuitive placement of icons",
-      "severity_score": 90
+      "description": "Designs for touch targets are optimized to improve accessibility.",
+      "technical_spec": "Interactive elements are suitably sized and positioned for quick access.",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Limits the amount of content displayed to enhance user memory retention.",
+      "technical_spec": "The amount of information presented per screen is capped to prevent cognitive overload.",
+      "severity_score": 10
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Aesthetic design assumed to be user-friendly.",
-      "technical_spec": "Consistent layout, Visual hierarchy",
-      "severity_score": 80
+      "description": "Visual design is used to increase user perception of usability.",
+      "technical_spec": "The interface uses consistent color schemes and typography for a pleasing aesthetic.",
+      "severity_score": 15
     },
     {
-      "title": "Pareto Principle",
-      "description": "Focusing on the vital features most users engage with.",
-      "technical_spec": "Popular content recommendations, Simplified navigation",
-      "severity_score": 88
-    },
-    {
-      "title": "Zeigarnik Effect",
-      "description": "The inclination to remember uncompleted or interrupted tasks.",
-      "technical_spec": "Watch later lists, Recommendations based on unfinished content",
-      "severity_score": 87
+      "title": "Jakob’s Law",
+      "description": "Familiar design patterns are used to leverage users’ existing knowledge.",
+      "technical_spec": "Navigation and structure resemble other sites users frequent.",
+      "severity_score": 10
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 289,
+    "rank": 299,
     "site": "instagram.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "72039ed0db7a6fa281d41ea295bdd395"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "361dc0a889d6b8ecc9714876a978b6d0"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Minimizes user choice overload by presenting relevant actions.",
-      "technical_spec": "Streamlined menu options and focused features.",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Optimizes touch target sizes for better accessibility and interaction.",
-      "technical_spec": "Adequate padding and easy-to-tap targets particularly in app interfaces.",
-      "severity_score": 10
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Chunking content to enhance the memorability and understanding of information.",
-      "technical_spec": "Feed design that breaks content into digestible pieces.",
+      "title": "Hick's Law",
+      "description": "The application's design minimizes decision time by reducing the amount of choices on-screen.",
+      "technical_spec": "Streamlined user interface to enhance usability and satisfaction.",
       "severity_score": 20
     },
     {
-      "title": "Jakob's Law",
-      "description": "Keeps interface familiar by aligning it with expectations from similar platforms.",
-      "technical_spec": "Consistent design patterns and navigational cues similar to other leading apps.",
-      "severity_score": 10
+      "title": "Gestalt Principles",
+      "description": "Instagram utilizes Gestalt principles to ensure elements are perceived as a unified whole.",
+      "technical_spec": "Proximity, similarity, and closure used in UI design for intuitive experience.",
+      "severity_score": 30
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Aesthetic design influences perceptions of usability.",
-      "technical_spec": "High-quality visual design and smooth animations.",
+      "title": "Fitts's Law",
+      "description": "Interactive elements are designed for efficiency and accessibility across different device sizes.",
+      "technical_spec": "Buttons and clickable areas are optimized for touch targets.",
       "severity_score": 25
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Content organization aids in users managing information overload by chunking data.",
+      "technical_spec": "Information is grouped into manageable units for better processing.",
+      "severity_score": 15
+    },
+    {
+      "title": "Law of Common Region",
+      "description": "UI elements are grouped together to indicate relation and improve navigability.",
+      "technical_spec": "Boundaries and defined sections help users quickly find and interpret content.",
+      "severity_score": 30
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 281,
+    "rank": 291,
     "site": "google.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "b7961f073be682843c394d1a7f338b5f"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "543bf9b9f8c318f3affa9094eb4307f0"
   },
   "data": [
     {
-      "title": "Distributed Systems Design",
-      "description": "Google's architecture utilizes a distributed system design to manage its vast network of data centers worldwide.",
-      "technical_spec": "Load balancing, replication, fault-tolerance",
-      "severity_score": 10
-    },
-    {
       "title": "Microservices Architecture",
-      "description": "Google uses a microservices approach to scale and manage its services efficiently.",
-      "technical_spec": "Kubernetes, Istio, container orchestration",
-      "severity_score": 15
+      "description": "Google employs a microservices architecture to enhance scalability and manageability.",
+      "technical_spec": "Services are decoupled, ensuring efficient scaling, independent deployment, and fault isolation.",
+      "severity_score": 92
     },
     {
-      "title": "Global CDN",
-      "description": "Content delivery network to ensure fast load times and low latency by caching content globally.",
-      "technical_spec": "Edge servers, HTTP/2, QUIC protocol",
-      "severity_score": 8
+      "title": "Data Center Infrastructure",
+      "description": "Google uses highly advanced data centers to host its services worldwide.",
+      "technical_spec": "Equipped with advanced cooling, distributed systems, and proprietary hardware.",
+      "severity_score": 95
     },
     {
-      "title": "High Availability Infrastructure",
-      "description": "Ensures that Google services are resilient and available 24/7 with minimal downtime.",
-      "technical_spec": "Redundancy, failover mechanisms, geo-diverse data centers",
-      "severity_score": 5
+      "title": "Load Balancing",
+      "description": "Efficient global load balancing ensures minimal response time and reliability.",
+      "technical_spec": "Geographic spread, traffic routing, and redundancy handling.",
+      "severity_score": 90
     },
     {
-      "title": "Scalable Storage Solutions",
-      "description": "Uses proprietary databases like Bigtable and Spanner for scalable and distributed storage.",
-      "technical_spec": "NoSQL databases, SQL layer on key-value stores, consistency models",
-      "severity_score": 12
+      "title": "Kubernetes Orchestration",
+      "description": "Google orchestrates workloads using Kubernetes to manage containerized applications.",
+      "technical_spec": "Automation of deploys, scaling, and operations of application containers.",
+      "severity_score": 88
+    },
+    {
+      "title": "Cloud Infrastructure",
+      "description": "Leveraging robust cloud capabilities to support diverse service offerings.",
+      "technical_spec": "Google Cloud Platform (GCP) provides computation, storage, analytics, and AI.",
+      "severity_score": 93
     }
   ]
 }

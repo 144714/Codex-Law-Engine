@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 283,
+    "rank": 293,
     "site": "apple.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "0b6c692c5f8454f597f9093ff834ba5f"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "ec267896bc8ed6b4aee8842639116b4d"
   },
   "data": [
     {
-      "title": "Minimalist Design",
-      "description": "Consistent minimalist aesthetics reflecting Apple's brand philosophy.",
-      "technical_spec": "Clean lines, whitespace, and a focus on essential content across all pages.",
-      "severity_score": 90
-    },
-    {
-      "title": "Innovation-Driven",
-      "description": "Emphasizes cutting-edge technology and innovation in products and web presence.",
-      "technical_spec": "Showcases latest technologies and product features through interactive elements.",
-      "severity_score": 85
+      "title": "Innovative Design",
+      "description": "Commitment to revolutionary and aesthetically pleasing product design.",
+      "technical_spec": "Integration of high-resolution imagery and minimalist design concept reflective of product innovation.",
+      "severity_score": 98
     },
     {
       "title": "User-Centric Experience",
-      "description": "Focuses on creating intuitive and smooth user experiences.",
-      "technical_spec": "Highly intuitive interface designed with user feedback and experience in mind.",
+      "description": "Design and functionality revolve around user needs and feedback.",
+      "technical_spec": "Engagement-driven improvements through regular user experience research and testing.",
+      "severity_score": 92
+    },
+    {
+      "title": "Privacy and Security",
+      "description": "A core value emphasizing the protection of user data and privacy.",
+      "technical_spec": "Privacy-focused features like secured data handling practices and transparency reports.",
       "severity_score": 95
     },
     {
-      "title": "Eco-Friendly Narrative",
-      "description": "Promotes sustainability and eco-friendly practices in design and communication.",
-      "technical_spec": "Content emphasizing Apple’s commitment to sustainability throughout the website.",
-      "severity_score": 80
+      "title": "Environmental Responsibility",
+      "description": "Commitment to sustainability and environmentally friendly practices.",
+      "technical_spec": "Presentation of eco-friendly initiatives, product recycling, and energy-efficient operations.",
+      "severity_score": 85
     },
     {
-      "title": "Privacy First",
-      "description": "Communicates a strong stance on user privacy and data protection.",
-      "technical_spec": "Prominent privacy settings and transparent information on data usage.",
-      "severity_score": 88
+      "title": "Global Accessibility",
+      "description": "Ensuring global reachability and inclusivity of services.",
+      "technical_spec": "Multi-language support and accessibility features for diverse user bases.",
+      "severity_score": 90
     }
   ]
 }

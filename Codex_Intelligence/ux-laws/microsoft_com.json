@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 284,
+    "rank": 294,
     "site": "microsoft.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "c3116313c17a796692510bf1785d271d"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "0afb3b6d48e35eac5cc8da0560c3849c"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies decision-making by reducing the number of choices presented to the user.",
-      "technical_spec": "Minimalist Design, Intuitive Navigation",
-      "severity_score": 20
+      "title": "Fitts's Law Compliance",
+      "description": "Optimized click targets for task efficiency.",
+      "technical_spec": "Button size and placement strategy",
+      "severity_score": 89
     },
     {
-      "title": "Fitt's Law",
-      "description": "Design elements are placed strategically to minimize interaction time.",
-      "technical_spec": "Responsive Design, Accessible Touch Targets",
-      "severity_score": 15
+      "title": "Hick’s Law",
+      "description": "Reduces choice overload by minimizing decision paths.",
+      "technical_spec": "Simplified navigation, clear CTAs",
+      "severity_score": 85
     },
     {
-      "title": "Miller's Law",
-      "description": "Information is chunked into smaller, manageable units to prevent cognitive overload.",
-      "technical_spec": "Scannable Content, Layered Information",
-      "severity_score": 10
+      "title": "Miller's Law Application",
+      "description": "Chunking information to enhance user recall.",
+      "technical_spec": "Content organization and hierarchy",
+      "severity_score": 82
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Focuses on creating visually appealing interfaces that enhance perceived usability.",
-      "technical_spec": "Modern UI Design, Consistent Branding",
-      "severity_score": 15
+      "title": "Proximity Principle",
+      "description": "Using proximity to create relationships between elements.",
+      "technical_spec": "UI grouping and visual layout design",
+      "severity_score": 88
     },
     {
-      "title": "Jakob's Law",
-      "description": "Leverages user familiarity by aligning with common web patterns and expectations.",
-      "technical_spec": "Consistent Layouts, Common Interaction Patterns",
-      "severity_score": 5
+      "title": "Jakob's Law Consideration",
+      "description": "Ensured familiar website navigation patterns to meet user expectations.",
+      "technical_spec": "Standardized menu layouts",
+      "severity_score": 90
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 286,
+    "rank": 296,
     "site": "netflix.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "2a578aa65e94612766ab440051b677b7"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "6db737813d9761e605e73f028d5c82fd"
   },
   "data": [
     {
-      "title": "Global Accessibility",
-      "description": "Focus on ensuring content is available worldwide with local adaptations.",
-      "technical_spec": "Support multiple languages and regional content compliance.",
-      "severity_score": 20
+      "title": "Innovative Storytelling",
+      "description": "Focus on original content and storytelling excellence.",
+      "technical_spec": "Invests substantially in exclusive content production.",
+      "severity_score": 85
     },
     {
-      "title": "Innovative Content Delivery",
-      "description": "Leading in delivering diverse original content with technological edge.",
-      "technical_spec": "Investments in production and unique proprietary streaming technology.",
-      "severity_score": 25
+      "title": "Global Reach",
+      "description": "Appealing to a worldwide audience with diverse, localized content.",
+      "technical_spec": "Available in over 190 countries with region-specific libraries.",
+      "severity_score": 88
     },
     {
-      "title": "User-centric Experience",
-      "description": "Prioritization of personalized recommendation and viewing experiences.",
-      "technical_spec": "Machine learning algorithms personalize content suggestions.",
-      "severity_score": 15
+      "title": "Customer-Centric Approach",
+      "description": "Personalization at the core of user engagement.",
+      "technical_spec": "AI-driven algorithms for individual user content recommendations.",
+      "severity_score": 90
     },
     {
-      "title": "Commitment to Original Productions",
-      "description": "Dedication to producing unique, exclusive shows and movies.",
-      "technical_spec": "High-budget investments in original programming and partnerships.",
-      "severity_score": 30
+      "title": "Disruptive Innovation",
+      "description": "Pioneering as an industry disruptor transforming how media is consumed.",
+      "technical_spec": "Consistent investment in technology to revolutionize the viewing experience.",
+      "severity_score": 91
     },
     {
-      "title": "Adaptability and Innovation",
-      "description": "A culture of continual evolution and embracing new technologies.",
-      "technical_spec": "Agility in technology adoption and experimentation in new market segments.",
-      "severity_score": 10
+      "title": "Flexible Viewing Experience",
+      "description": "Seamless viewing across devices catering to user convenience.",
+      "technical_spec": "Mobile, TV, and web apps with synchronized viewing history.",
+      "severity_score": 86
     }
   ]
 }

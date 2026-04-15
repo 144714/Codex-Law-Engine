@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 287,
+    "rank": 297,
     "site": "spotify.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "ef316ebd1429be99e0c2246a1eb36d34"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "0daa0d6e13138b6f38598f5afd12d018"
   },
   "data": [
     {
-      "title": "Personalized Experience",
-      "description": "Emphasizes customizing user interactions through personalized playlists and recommendations.",
-      "technical_spec": "Algorithm-driven personalization based on user data and listening habits.",
-      "severity_score": 93
+      "title": "Innovative Listening Experience",
+      "description": "Commitment to deliver a revolutionary music streaming experience through innovative features.",
+      "technical_spec": "Features like Discover Weekly and Release Radar for personalized listening.",
+      "severity_score": 25
     },
     {
-      "title": "Music Discovery and Sharing",
-      "description": "Promotes discovery and social sharing to enhance the music listening experience.",
-      "technical_spec": "Functionalities such as curated playlists and social network integration.",
-      "severity_score": 91
+      "title": "Global Community of Music Lovers",
+      "description": "Building a diverse global community connected through music.",
+      "technical_spec": "Collaborations with artists worldwide and global content curation.",
+      "severity_score": 30
     },
     {
-      "title": "Cross-Platform Accessibility",
-      "description": "Ensures users can access music seamlessly across various devices and platforms.",
-      "technical_spec": "Native applications for mobile, desktop, and web with synchronization features.",
-      "severity_score": 95
+      "title": "Accessibility and Inclusivity",
+      "description": "Ensures music is accessible to everyone, everywhere.",
+      "technical_spec": "Availability in multiple languages and platforms including web, iOS, Android, and more.",
+      "severity_score": 20
     },
     {
-      "title": "Artist Support",
-      "description": "Focuses on fair compensation and promotion for artists on the platform.",
-      "technical_spec": "Revenue-sharing models and analytical tools for artists.",
-      "severity_score": 87
+      "title": "Simplicity and Elegance",
+      "description": "Products are designed to be simple and elegant for the best user interaction.",
+      "technical_spec": "Streamlined user interface with focus on ease of use and aesthetic appeal.",
+      "severity_score": 18
     },
     {
-      "title": "Global Reach with Local Appeal",
-      "description": "Balances a worldwide presence with localized content and features.",
-      "technical_spec": "Content delivery networks (CDNs) and region-specific playlists.",
-      "severity_score": 90
+      "title": "Sustainability and Social Impact",
+      "description": "Dedicated to sustainability and fostering positive societal impacts.",
+      "technical_spec": "Initiatives like Greenroom and collaborations supporting sustainable projects.",
+      "severity_score": 28
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 287,
+    "rank": 297,
     "site": "spotify.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "25f083869ca89cde25606f13e067b5f3"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "4215c991126cc6f0487f556c48d60d39"
   },
   "data": [
     {
-      "title": "Secure Authentication",
-      "description": "Spotify employs OAuth 2.0 for secure user authentication and authorization.",
-      "technical_spec": "Utilizes token-based access to protect user data and services.",
+      "title": "End-to-End Encryption",
+      "description": "Spotify uses encryption to protect data integrity and privacy as it travels over networks.",
+      "technical_spec": "TLS/SSL protocols are implemented for secure data transmission.",
       "severity_score": 95
     },
     {
-      "title": "Encryption Protocols",
-      "description": "Strong encryption is applied to protect data in transit and at rest.",
-      "technical_spec": "TLS/SSL for network traffic encryption and AES for data protection.",
-      "severity_score": 98
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Regular third-party security audits are conducted to identify potential vulnerabilities.",
-      "technical_spec": "Penetration testing and vulnerability scanning are part of routine checks.",
-      "severity_score": 92
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Infrastructure is fortified against Distributed Denial of Service attacks.",
-      "technical_spec": "Leverage cloud-based DDoS protection services like Cloudflare.",
+      "title": "User Authentication",
+      "description": "Secure user authentication processes are in place to prevent unauthorized access.",
+      "technical_spec": "OAuth 2.0 and multi-factor authentication are used.",
       "severity_score": 90
     },
     {
-      "title": "Intrusion Detection and Prevention",
-      "description": "Systems are continuously monitored to detect and respond to suspicious activities.",
-      "technical_spec": "AI-driven IDP systems analyze traffic patterns and enforce threat mitigation.",
-      "severity_score": 94
+      "title": "Security Monitoring",
+      "description": "Active monitoring of network and systems to detect and respond to security threats promptly.",
+      "technical_spec": "Uses SIEM tools for real-time threat analysis and response.",
+      "severity_score": 88
+    },
+    {
+      "title": "Data Privacy Controls",
+      "description": "Policies and technologies implement to protect user data and comply with privacy regulations.",
+      "technical_spec": "GDPR compliance measures and user data anonymization techniques are employed.",
+      "severity_score": 85
+    },
+    {
+      "title": "Automated Patching Systems",
+      "description": "Automated systems for keeping all software components up to date with latest security patches.",
+      "technical_spec": "DevSecOps practices with CI/CD pipelines for continuous updates.",
+      "severity_score": 80
     }
   ]
 }

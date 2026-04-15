@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 286,
+    "rank": 296,
     "site": "netflix.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "cb0594f45fd306a88adf268e44a1a1d7"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "81b9459faa5ca629965e2f3e580a7215"
   },
   "data": [
     {
-      "title": "Encryption Standards",
-      "description": "Data encryption is employed to secure information and transactions.",
-      "technical_spec": "TLS 1.3 and AES-256 are used for data encryption at transit and rest.",
-      "severity_score": 10
+      "title": "Encryption",
+      "description": "Data encryption in transit and at rest to safeguard user data.",
+      "technical_spec": "TLS for data in transit and AES-256 for data at rest.",
+      "severity_score": 92
     },
     {
-      "title": "Multi-Factor Authentication",
-      "description": "Enhances security by requiring multiple forms of verification.",
-      "technical_spec": "Utilizes OTPs and device-based confirmation for additional security.",
-      "severity_score": 20
+      "title": "Identity and Access Management",
+      "description": "Robust IAM practices to control and monitor access to resources.",
+      "technical_spec": "Uses AWS IAM policies and SSO for centralized access control.",
+      "severity_score": 89
     },
     {
       "title": "DDoS Protection",
-      "description": "Measures in place to mitigate Distributed Denial of Service attacks.",
-      "technical_spec": "AWS Shield and proprietary solutions for robust DDoS protection.",
-      "severity_score": 30
+      "description": "Preventative measures to mitigate Distributed Denial of Service attacks.",
+      "technical_spec": "Employs AWS Shield and AWS WAF for comprehensive protection.",
+      "severity_score": 84
     },
     {
-      "title": "User Account Security",
-      "description": "Various features to protect user accounts from unauthorized access.",
-      "technical_spec": "Account monitoring, anomaly detection, and frequent security updates.",
-      "severity_score": 40
+      "title": "Threat Detection",
+      "description": "Systems in place to detect and respond to threats in real-time.",
+      "technical_spec": "Amazon GuardDuty and in-house threat detection algorithms.",
+      "severity_score": 87
     },
     {
-      "title": "Incident Response Plan",
-      "description": "Precise plans and teams to respond to security incidents quickly.",
-      "technical_spec": "Regularly updated and tested incident response protocols.",
-      "severity_score": 50
+      "title": "Security Incident Response",
+      "description": "Dedicated team and systems for rapid response to security incidents.",
+      "technical_spec": "24/7 Security Operations Center (SOC) and automated alerts.",
+      "severity_score": 90
     }
   ]
 }

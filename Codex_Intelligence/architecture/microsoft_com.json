@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 284,
+    "rank": 294,
     "site": "microsoft.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "ffb1aecc9abc1a3aac7e2f886bd45db2"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "275f6313c9f3bf2236ae06ed4b5faee8"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "Microsoft's website infrastructure is built on a microservices architecture, facilitating agility and scalability.",
-      "technical_spec": "Docker, Kubernetes, .NET Core",
-      "severity_score": 15
+      "title": "Cloud Infrastructure",
+      "description": "Use of Azure cloud services for hosting and scalability.",
+      "technical_spec": "Azure VMs, Azure App Services, Azure Load Balancer",
+      "severity_score": 95
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Utilizes a CDN for global content distribution to ensure fast load times and reduce latency.",
-      "technical_spec": "Azure CDN, HTTP/2, Load Balancers",
-      "severity_score": 10
+      "title": "Microservices Architecture",
+      "description": "Decoupled microservices to allow independent deployment and scaling.",
+      "technical_spec": "Docker, Kubernetes, Azure Kubernetes Service",
+      "severity_score": 90
     },
     {
       "title": "Serverless Computing",
-      "description": "Leverages serverless functions to optimize resource usage and reduce operational overhead.",
-      "technical_spec": "Azure Functions, Event Driven Architecture",
-      "severity_score": 20
+      "description": "Integration of serverless computing for event-driven tasks.",
+      "technical_spec": "Azure Functions, Logic Apps",
+      "severity_score": 80
     },
     {
-      "title": "Cloud-Based Hosting",
-      "description": "Hosted on Azure's cloud infrastructure, providing scalability and high availability.",
-      "technical_spec": "Azure App Service, Virtual Machines, Global Regions",
-      "severity_score": 10
+      "title": "Content Delivery Network (CDN)",
+      "description": "Utilization of CDN for fast global content delivery.",
+      "technical_spec": "Azure CDN, Akamai, Cloudflare",
+      "severity_score": 85
     },
     {
-      "title": "Database Architecture",
-      "description": "Incorporates both relational and non-relational databases to handle complex queries and large data volumes.",
+      "title": "Relational Database Services",
+      "description": "Use of managed relational databases for data storage and retrieval.",
       "technical_spec": "Azure SQL Database, Cosmos DB",
-      "severity_score": 25
+      "severity_score": 88
     }
   ]
 }

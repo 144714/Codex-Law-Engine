@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 282,
+    "rank": 292,
     "site": "youtube.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "e9fd37a57106853111d6f134b2add29b"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "82283ebbe42661862e3958534ec3ad7e"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "YouTube uses a microservices architecture to handle various functionalities independently.",
-      "technical_spec": "Containers, Kubernetes, Service meshes",
-      "severity_score": 85
+      "title": "Microservices",
+      "description": "YouTube employs a microservices architecture to enhance scalability and flexibility.",
+      "technical_spec": "Each component, such as video encoding, recommendations, and user management, operates as an independent service.",
+      "severity_score": 20
     },
     {
-      "title": "Cloud Infrastructure",
-      "description": "YouTube uses cloud infrastructure to scale its services globally.",
-      "technical_spec": "Google Cloud Platform, Load Balancers, CDN",
-      "severity_score": 90
+      "title": "Content Delivery Network (CDN)",
+      "description": "CDNs are critical for reducing latency and ensuring fast video streaming worldwide.",
+      "technical_spec": "YouTube utilizes multiple CDNs to distribute its content closer to users.",
+      "severity_score": 10
     },
     {
-      "title": "Distributed Databases",
-      "description": "YouTube uses distributed databases to manage massive data efficiently.",
-      "technical_spec": "Bigtable, Spanner",
-      "severity_score": 80
+      "title": "Load Balancing",
+      "description": "Load balancers distribute incoming traffic across multiple servers to ensure availability.",
+      "technical_spec": "Global load balancers are used to manage the distribution of user requests.",
+      "severity_score": 15
     },
     {
-      "title": "Video Streaming Protocols",
-      "description": "Protocols designed for high-efficiency video streaming.",
-      "technical_spec": "DASH, HTTP Live Streaming, RTMP",
-      "severity_score": 95
+      "title": "Data Storage",
+      "description": "YouTube relies on distributed databases and object storage systems for data management.",
+      "technical_spec": "Systems like Bigtable and Google Cloud Storage store vast amounts of user data and video files.",
+      "severity_score": 25
     },
     {
-      "title": "Data Analytics Pipelines",
-      "description": "Complex data pipelines for video recommendation and analytics.",
-      "technical_spec": "Flume, MapReduce, Hive",
-      "severity_score": 88
+      "title": "Frontend Frameworks",
+      "description": "Frontend utilizes modern web technologies for dynamic and responsive UI.",
+      "technical_spec": "YouTube leverages frameworks like Polymer and LitElement to deliver user interfaces.",
+      "severity_score": 10
     }
   ]
 }

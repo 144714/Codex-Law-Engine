@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 289,
+    "rank": 299,
     "site": "instagram.com",
-    "date": "2026-04-15 17:59",
-    "integrity_hash": "483b1cf3f742582f5989fa99867fe575"
+    "date": "2026-04-15 19:22",
+    "integrity_hash": "e3070fe5fc7a657ac6d3fe855f6f07b7"
   },
   "data": [
     {
-      "title": "Application Layer Design",
-      "description": "Instagram's application architecture uses a microservices model to allow scalability and independent feature deployment.",
-      "technical_spec": "Built with Python/Django, updated with React Native for components.",
-      "severity_score": 15
-    },
-    {
-      "title": "Data Storage",
-      "description": "Stores user data, multimedia, and interactions.",
-      "technical_spec": "Relies on a combination of PostgreSQL for structured data and Cassandra or Redis for other data types.",
+      "title": "Microservices Architecture",
+      "description": "Instagram's infrastructure is built on a microservices architecture, allowing independent deployment and scaling of different components.",
+      "technical_spec": "Each service is a small, well-defined piece of functionality, enabling isolation and scalability.",
       "severity_score": 30
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Utilizes a CDN to deliver media quickly worldwide.",
-      "technical_spec": "CDN services like Akamai or AWS CloudFront employed for global speed optimization.",
-      "severity_score": 10
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Dynamically distributes incoming service requests across multiple servers.",
-      "technical_spec": "Implemented using HAProxy or other proprietary solutions.",
+      "title": "GraphQL API",
+      "description": "Instagram utilizes GraphQL to provide a flexible and efficient way to fetch data from its servers.",
+      "technical_spec": "GraphQL enables clients to request only the data they need and enables easier backend data management.",
       "severity_score": 20
     },
     {
-      "title": "Fault Tolerance",
-      "description": "Ensures app availability with minimal downtime.",
-      "technical_spec": "Redundancy through multi-data center configuration.",
+      "title": "Data Storage Solutions",
+      "description": "A combination of SQL and NoSQL databases are used for handling diverse data types and storage needs.",
+      "technical_spec": "Relational databases for structured data; NoSQL for scalable and fast access to unstructured data.",
       "severity_score": 25
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Load balancing strategies are in place to ensure smooth user experience and availability across servers.",
+      "technical_spec": "Distribution of incoming network traffic across multiple servers.",
+      "severity_score": 15
+    },
+    {
+      "title": "CDN Usage",
+      "description": "Content Delivery Networks (CDNs) are used to deliver multimedia content efficiently to a global audience.",
+      "technical_spec": "Caches content closer to users, reducing latency and load times.",
+      "severity_score": 20
     }
   ]
 }
