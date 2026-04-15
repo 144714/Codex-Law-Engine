@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 255,
+    "rank": 265,
     "site": "amazon.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "0b45cfba6215c1afbd640acd96c3bc62"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "a3fde38a7c5fbc8c50324d8366e6e993"
   },
   "data": [
     {
-      "title": "Customer Centricity",
-      "description": "Amazon embodies a relentless focus on customer experience and satisfaction.",
-      "technical_spec": "Voice of the Customer Programs, NPS Tracking",
-      "severity_score": 95
+      "title": "Customer-Centric Approach",
+      "description": "Prioritizes customer satisfaction and works backwards from customer needs.",
+      "technical_spec": "Integrates feedback loops and user data analytics for continual improvement.",
+      "severity_score": 10
     },
     {
-      "title": "Innovation Leadership",
-      "description": "Continuously innovates to set industry standards and delight customers.",
-      "technical_spec": "Patented Technologies, R&D Investments",
-      "severity_score": 85
+      "title": "Innovation-Driven",
+      "description": "Focuses on innovation as a key driver for business processes and services.",
+      "technical_spec": "Encourages experimentation and adoption of emerging technologies.",
+      "severity_score": 15
     },
     {
       "title": "Operational Excellence",
-      "description": "Drives efficiency and effectiveness across all services and processes.",
-      "technical_spec": "Lean Processes, Continuous Improvement",
-      "severity_score": 90
+      "description": "Strives for continuous improvement in all processes to enhance efficiency.",
+      "technical_spec": "Utilizes Six Sigma methodologies and lean practices.",
+      "severity_score": 25
     },
     {
-      "title": "Trust and Security",
-      "description": "Prioritizes secure transactions and data protection to build customer trust.",
-      "technical_spec": "PCI DSS Compliance, GDPR Initiatives",
-      "severity_score": 88
+      "title": "Global Reach",
+      "description": "Emphasizes a strong international presence with operations across the globe.",
+      "technical_spec": "Supports multi-language and currency handling for diverse geographic regions.",
+      "severity_score": 20
     },
     {
-      "title": "Global Reach & Diversity",
-      "description": "Empowers access to Amazon’s vast marketplace across diverse regions.",
-      "technical_spec": "Localized Sites, Multi-Language Support",
-      "severity_score": 93
+      "title": "Sustainability Commitment",
+      "description": "Invests in sustainability practices to minimize environmental impact.",
+      "technical_spec": "Implements practices such as renewable energy solutions and eco-friendly packaging.",
+      "severity_score": 30
     }
   ]
 }

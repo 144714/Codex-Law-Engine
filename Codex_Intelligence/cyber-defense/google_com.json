@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 251,
+    "rank": 261,
     "site": "google.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "a0756eeca3a7c785810f4bfb68ed404a"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "1afd2ad7dc20f6710fd32ef96b71ba30"
   },
   "data": [
     {
-      "title": "BeyondCorp Security Model",
-      "description": "Implements a zero-trust architecture that enhances protection beyond traditional network perimeters.",
-      "technical_spec": "Built on identity and device-based access management, not relying solely on network boundaries.",
-      "severity_score": 15
+      "title": "Advanced Phishing Protection",
+      "description": "Google's security incorporates advanced anti-phishing technology to protect user data.",
+      "technical_spec": "Machine learning models trained on vast data sets to detect phishing patterns.",
+      "severity_score": 87
     },
     {
-      "title": "DDoS Resilience",
-      "description": "Designed to neutralize, detect, and respond to distributed denial-of-service attacks effectively.",
-      "technical_spec": "Incorporates protective measures with Google Cloud Armor and custom-developed filters.",
-      "severity_score": 10
+      "title": "Data Encryption",
+      "description": "Robust encryption practices to secure user information both at rest and in transit.",
+      "technical_spec": "TLS/SSL protocols for data in transit, AES encryption for data at rest.",
+      "severity_score": 92
     },
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Ensures secure communication and data privacy via robust encryptive protocols on web traffic.",
-      "technical_spec": "Enforces HTTPS across all services, utilizing advanced SSL/TLS encryption standards.",
-      "severity_score": 15
+      "title": "Zero Trust Security Model",
+      "description": "Adoption of a Zero Trust approach to ensure maximum security.",
+      "technical_spec": "Verification of identity and context across applications, users, and devices.",
+      "severity_score": 89
     },
     {
-      "title": "Advanced Threat Detection",
-      "description": "Monitors global-scale threats using machine learning to identify new and evolving dangers.",
-      "technical_spec": "In deployed machine learning algorithms and heuristic analysis for real-time threat assessments.",
-      "severity_score": 20
+      "title": "Continuous Security Monitoring",
+      "description": "Real-time monitoring and anomaly detection to identify threats quickly.",
+      "technical_spec": "Custom-built solutions coupled with off-the-shelf monitoring tools.",
+      "severity_score": 91
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Employs proactive measures to identify and rectify vulnerabilities before exploitation.",
-      "technical_spec": "Utilizes an internal Project Zero team dedicated to discovering and mitigating unknown vulnerabilities.",
-      "severity_score": 18
+      "title": "SOC and Threat Intelligence",
+      "description": "Dedicated Security Operations Center (SOC) and threat intelligence analytics.",
+      "technical_spec": "Integration of global threat intelligence feeds and internal data analytics.",
+      "severity_score": 93
     }
   ]
 }

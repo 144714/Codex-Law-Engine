@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 259,
+    "rank": 269,
     "site": "instagram.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "e18f829c4081fa0e8c7df87eb3e6e80a"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "fc2398ba2dd45ea8132fb0337f96ec55"
   },
   "data": [
     {
-      "title": "Scalable Microservices",
-      "description": "Instagram uses microservices architecture to handle a large number of concurrent users.",
-      "technical_spec": "Deployment on Kubernetes with Docker containers.",
-      "severity_score": 15
+      "title": "Microservices Architecture",
+      "description": "Instagram employs a microservices architecture to enhance scalability and maintenance.",
+      "technical_spec": "Decoupled services with specific functions, connected via APIs.",
+      "severity_score": 5
     },
     {
-      "title": "Graph Database for Relationships",
-      "description": "Utilizes graph database for managing relationships and connections.",
-      "technical_spec": "Integration with graph databases like Neo4j.",
-      "severity_score": 20
-    },
-    {
-      "title": "RESTful API",
-      "description": "Provides RESTful APIs to facilitate interaction between services.",
-      "technical_spec": "HTTP/2 support with JSON format.",
-      "severity_score": 18
-    },
-    {
-      "title": "CDN Integration",
-      "description": "Content Delivery Network to deliver images and videos efficiently.",
-      "technical_spec": "Utilizes CDNs like Akamai and Cloudflare.",
+      "title": "GraphQL API",
+      "description": "Instagram uses GraphQL for efficient data retrieval and minimizing redundant data transfer.",
+      "technical_spec": "Single endpoint with tailored queries to fetch exact required data.",
       "severity_score": 10
     },
     {
-      "title": "Serverless Computing for Async Tasks",
-      "description": "Offloads background tasks using serverless functions.",
-      "technical_spec": "AWS Lambda or Google Cloud Functions.",
-      "severity_score": 25
+      "title": "Load Balancing",
+      "description": "Ensures even distribution of incoming traffic across servers.",
+      "technical_spec": "Uses algorithms such as round-robin or least connections.",
+      "severity_score": 15
+    },
+    {
+      "title": "Content Delivery Network",
+      "description": "CDN is used to distribute content around the globe to improve loading times.",
+      "technical_spec": "Edge servers deployed in multiple regions.",
+      "severity_score": 20
+    },
+    {
+      "title": "Data Replication",
+      "description": "Replicates data across multiple data centers to ensure availability and reliability.",
+      "technical_spec": "Master-slave database replication.",
+      "severity_score": 10
     }
   ]
 }

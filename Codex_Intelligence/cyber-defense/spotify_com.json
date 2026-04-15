@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 257,
+    "rank": 267,
     "site": "spotify.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "7967a27cf571f630169adfb7f70d9e93"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "25384ad56deda2fbeeb6cf5a51df9712"
   },
   "data": [
     {
       "title": "Data Encryption",
-      "description": "Spotify encrypts data both in transit and at rest to protect user information and proprietary data.",
-      "technical_spec": "Uses Transport Layer Security (TLS) and AES encryption standards.",
-      "severity_score": 10
+      "description": "Uses encryption to protect user data both at rest and in transit.",
+      "technical_spec": "Employs TLS and AES encryption standards.",
+      "severity_score": 95
     },
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "Adds an extra layer of security to user accounts to prevent unauthorized access.",
-      "technical_spec": "Optional MFA implementation using mobile or email-based verification.",
-      "severity_score": 30
+      "title": "Identity and Access Management",
+      "description": "Strict IAM controls to safeguard user access and permissions.",
+      "technical_spec": "Uses OAuth 2.0 for secure authentication processes.",
+      "severity_score": 90
     },
     {
-      "title": "Security Threat Detection",
-      "description": "Monitors for unauthorized access or breaches using AI-driven security tools.",
-      "technical_spec": "Employs behavioral analytics and intrusion detection systems.",
-      "severity_score": 25
+      "title": "Threat Detection Systems",
+      "description": "Real-time monitoring for potential security threats.",
+      "technical_spec": "Integrations with SIEM systems for anomaly detection.",
+      "severity_score": 88
     },
     {
-      "title": "Regulatory Compliance",
-      "description": "Adheres to data protection regulations like GDPR to maintain user privacy.",
-      "technical_spec": "Implements processes for data management and breach notification requirements.",
-      "severity_score": 15
+      "title": "Security Incident Response",
+      "description": "A defined process to handle security incidents efficiently.",
+      "technical_spec": "Incident response team follows a well-documented protocol.",
+      "severity_score": 85
     },
     {
-      "title": "Vulnerability Management Program",
-      "description": "Regularly scans and patches vulnerabilities in the application network and infrastructure.",
-      "technical_spec": "Uses automated security scanning tools and periodic security audits.",
-      "severity_score": 20
+      "title": "Regular Security Audits",
+      "description": "Conducts periodic audits to ensure security measures are up-to-date.",
+      "technical_spec": "Vulnerability scans and penetration testing executed frequently.",
+      "severity_score": 83
     }
   ]
 }

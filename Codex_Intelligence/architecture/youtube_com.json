@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 252,
+    "rank": 262,
     "site": "youtube.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "2f19ecd6535108d9bdac4cf3cfea493e"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "2d92b00f9e94bcbfbc6aac66c2fa4a52"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "YouTube utilizes a microservices-based architecture to manage various components such as video processing, user interface, and data storage.",
-      "technical_spec": "Kubernetes, Docker, REST APIs",
-      "severity_score": 20
-    },
-    {
-      "title": "Load Balancing",
-      "description": "To handle the massive influx of requests, YouTube employs load balancing techniques to distribute traffic effectively.",
-      "technical_spec": "NGINX, Google Load Balancer",
-      "severity_score": 25
-    },
-    {
-      "title": "Scalable Databases",
-      "description": "YouTube uses scalable databases to efficiently manage video metadata, user data, and analytics.",
-      "technical_spec": "Bigtable, Spanner, MySQL",
-      "severity_score": 30
+      "title": "Scalable Microservices",
+      "description": "YouTube utilizes a microservices architecture to scale its numerous services across millions of users.",
+      "technical_spec": "Services are deployed on Google Cloud Platform using containers and Kubernetes.",
+      "severity_score": 95
     },
     {
       "title": "Content Delivery Network",
-      "description": "A global CDN ensures quick video delivery by caching content closer to the user’s location.",
-      "technical_spec": "Google CDN, Edge Servers",
-      "severity_score": 15
+      "description": "A robust CDN is employed to deliver video content efficiently to users worldwide.",
+      "technical_spec": "Utilizes Google Cloud's global network and caching systems.",
+      "severity_score": 90
     },
     {
-      "title": "Data Pipeline",
-      "description": "To process and analyze large datasets, YouTube employs robust data pipelines.",
-      "technical_spec": "Apache Beam, BigQuery",
-      "severity_score": 35
+      "title": "Data Storage",
+      "description": "Massive amounts of video data are stored using a distributed database.",
+      "technical_spec": "Uses Google Cloud Storage and Bigtable for video and metadata storage.",
+      "severity_score": 92
+    },
+    {
+      "title": "Real-time Data Processing",
+      "description": "Processes user data and engagement metrics in real-time to enhance user experience.",
+      "technical_spec": "Incorporates platforms like Apache Kafka and Google Pub/Sub for streaming data.",
+      "severity_score": 88
+    },
+    {
+      "title": "Front-end Performance Optimization",
+      "description": "Ensures the website and app deliver low-latency interactions and fast load times.",
+      "technical_spec": "Implements React and other JavaScript optimizations for a seamless UI.",
+      "severity_score": 85
     }
   ]
 }

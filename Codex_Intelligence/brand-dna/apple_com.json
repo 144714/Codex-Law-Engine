@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 253,
+    "rank": 263,
     "site": "apple.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "54e75f8afb5fc3cbccf80d32cbbdefe0"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "9afa7ed708cb075e74ecfc8d78d230a7"
   },
   "data": [
     {
-      "title": "Minimalistic Design",
-      "description": "Reflects Apple's commitment to simplicity and elegance.",
-      "technical_spec": "Use of whitespace, minimal text, and a clean visual hierarchy.",
-      "severity_score": 10
+      "title": "Minimalist Design",
+      "description": "Prioritizes simplicity and functionality in design aesthetics.",
+      "technical_spec": "Reduces visual noise to highlight core products and services.",
+      "severity_score": 95
     },
     {
-      "title": "Consistent Branding",
-      "description": "Reinforces Apple’s brand through consistent imagery and tone.",
-      "technical_spec": "Strict adherence to Apple's branding guidelines for color, typography, and imagery.",
-      "severity_score": 8
+      "title": "Innovative Technology",
+      "description": "Showcases cutting-edge technology and forward-thinking solutions.",
+      "technical_spec": "Incorporates the latest tech trends into products and services.",
+      "severity_score": 96
     },
     {
-      "title": "Innovation Emphasis",
-      "description": "Showcases cutting-edge technology and products prominently.",
-      "technical_spec": "Interactive media and animations to highlight features and products.",
-      "severity_score": 20
-    },
-    {
-      "title": "User-Centric Approach",
-      "description": "Focuses on delivering an engaging and user-friendly experience.",
-      "technical_spec": "Regular usability testing and user feedback loops.",
-      "severity_score": 15
+      "title": "Premium User Experience",
+      "description": "Ensures a superior user interaction with products and services.",
+      "technical_spec": "Focuses on seamless integration and intuitive interfaces.",
+      "severity_score": 94
     },
     {
       "title": "Global Accessibility",
-      "description": "Ensures the site is accessible to a worldwide audience.",
-      "technical_spec": "Multi-language support and compliance with international accessibility standards.",
-      "severity_score": 12
+      "description": "Provides products and services that are universally accessible.",
+      "technical_spec": "Adheres to international accessibility standards for web and design.",
+      "severity_score": 92
+    },
+    {
+      "title": "Eco-Friendly Initiatives",
+      "description": "Commits to reducing environmental impact through sustainable practices.",
+      "technical_spec": "Incorporates renewable materials and energy-efficient processes.",
+      "severity_score": 89
     }
   ]
 }

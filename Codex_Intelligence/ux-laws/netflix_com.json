@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 256,
+    "rank": 266,
     "site": "netflix.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "50ce7947476ae5a64161a8636ff17ced"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "f0b323469bd7618f9cca0630a59980fc"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "The user interface designs make interactive elements easy to click based on their sizes and proximity.",
-      "technical_spec": "Interactive UI Elements, Responsive Design",
-      "severity_score": 10
-    },
-    {
       "title": "Hick’s Law",
-      "description": "The decision time is minimized due to simple navigation and content categorization.",
-      "technical_spec": "Navigation Design, User Journey Mapping",
-      "severity_score": 15
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Content is broken into chunks to prevent cognitive overload.",
-      "technical_spec": "Content Chunking, Information Architecture",
+      "description": "Minimizes decision-making time by simplifying interface complexity.",
+      "technical_spec": "Limits the number of choices displayed simultaneously.",
       "severity_score": 12
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Design conventions align with user expectations, leveraging familiar patterns.",
-      "technical_spec": "Consistency in Design, Pattern Libraries",
-      "severity_score": 10
+      "title": "Fitts’s Law",
+      "description": "Design prioritizes the ease of interactive elements.",
+      "technical_spec": "Incorporates adequately sized and spaced clickable elements.",
+      "severity_score": 15
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Ensures user-friendly grouping of visual elements.",
+      "technical_spec": "Uses proximity, similarity, and common region techniques.",
+      "severity_score": 18
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Adheres to cognitive limits by optimizing information chunks.",
+      "technical_spec": "Presents information in bite-sized portions or groupings.",
+      "severity_score": 20
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Visually pleasing interface enhances user perception of usability.",
-      "technical_spec": "Visual Design, Color Theory",
+      "description": "Balances visual appeal with functional usability.",
+      "technical_spec": "Employs a cohesive visual design with intuitive navigation.",
       "severity_score": 10
     }
   ]

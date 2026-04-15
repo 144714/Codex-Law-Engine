@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 253,
+    "rank": 263,
     "site": "apple.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "c6104703daecee0b5f412e0ebf1531bc"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "e4469d9bdc27c76a97b1334e8925627a"
   },
   "data": [
     {
-      "title": "Responsive Layout",
-      "description": "Apple's website adjusts dynamically to fit various screen sizes, providing a seamless experience on all devices.",
-      "technical_spec": "Utilizes CSS media queries and flexible grid systems.",
-      "severity_score": 20
-    },
-    {
-      "title": "Server-Side Rendering",
-      "description": "Generates webpage HTML on the server to improve load times and SEO.",
-      "technical_spec": "Implemented via frameworks like Next.js or Node.js with custom server configurations.",
-      "severity_score": 30
-    },
-    {
-      "title": "Content Delivery Network",
-      "description": "Distributes website content globally to reduce latency and improve load times.",
-      "technical_spec": "Uses a CDN provider like Akamai or Cloudflare.",
-      "severity_score": 25
+      "title": "RESTful API Integration",
+      "description": "Seamless integration with RESTful APIs for data exchange.",
+      "technical_spec": "Uses JSON or XML for request/response. Follows standard HTTP methods.",
+      "severity_score": 85
     },
     {
       "title": "Microservices Architecture",
-      "description": "Modularizes various components of the website to improve scalability and maintainability.",
-      "technical_spec": "Containers and services managed possibly via Kubernetes or Docker.",
-      "severity_score": 40
+      "description": "Decentralized architecture built on interconnected microservices.",
+      "technical_spec": "Each microservice has a distinct responsibility and is deployable independently.",
+      "severity_score": 90
     },
     {
-      "title": "Optimization Algorithms",
-      "description": "Enhances performance by optimizing images, scripts, and styles.",
-      "technical_spec": "Various minification techniques and lazy-loading strategies.",
-      "severity_score": 35
+      "title": "Content Delivery Network (CDN)",
+      "description": "Distributes content globally to improve load times.",
+      "technical_spec": "Utilizes edge servers to cache content closer to end-users.",
+      "severity_score": 80
+    },
+    {
+      "title": "Responsive Design Framework",
+      "description": "Adaptable UI that functions across a variety of devices.",
+      "technical_spec": "Built using CSS media queries and flexible grid layouts.",
+      "severity_score": 88
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Evenly distributes network traffic to prevent overload.",
+      "technical_spec": "Uses algorithms such as round-robin and least connections.",
+      "severity_score": 92
     }
   ]
 }

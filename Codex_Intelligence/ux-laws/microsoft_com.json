@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 254,
+    "rank": 264,
     "site": "microsoft.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "f242d3275f7c5e0c49a005567d95fe83"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "9af111162eaf39e5927dc37b1f69da36"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Simplifies choices to improve user decision-making speed.",
-      "technical_spec": "Minimal main menu items and concise navigation paths.",
+      "description": "Design follows Hick’s Law to simplify and quicken user decision-making.",
+      "technical_spec": "Offers limited and clear options in navigation and layout to reduce cognitive load.",
+      "severity_score": 8
+    },
+    {
+      "title": "Fitts’s Law",
+      "description": "Interface elements are designed considering ease of access and interaction speed.",
+      "technical_spec": "Strategically placed clickable elements to enable quick mouse or touch actions.",
       "severity_score": 20
     },
     {
-      "title": "Fitts’ Law",
-      "description": "Optimizes interactive elements to be larger and closer, enhancing usability.",
-      "technical_spec": "Prominent buttons with optimal sizing.",
-      "severity_score": 10
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Employs principles like similarity, proximity, and closure for better visual organization.",
-      "technical_spec": "Consistent styling and grouped content sections.",
+      "title": "Law of Simplicity",
+      "description": "The interface maintains simplicity to enhance user comprehension and task completion.",
+      "technical_spec": "Uses clean design lines and minimalist visual elements to focus user attention.",
       "severity_score": 15
     },
     {
-      "title": "Miller’s Law",
-      "description": "Limits presented options to prevent cognitive overload.",
-      "technical_spec": "Clear and limited information display per screen.",
-      "severity_score": 15
+      "title": "Feedback Principle",
+      "description": "Provides immediate feedback to user actions ensuring a responsive interface.",
+      "technical_spec": "Incorporates loading indicators, confirmations, and error messages effectively.",
+      "severity_score": 12
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Aligns user experience with common patterns users are already familiar with.",
-      "technical_spec": "Standardized iconography and interface layouts.",
+      "title": "Consistency Principle",
+      "description": "Ensures a consistent look and feel across all pages and services.",
+      "technical_spec": "Uses consistent styling guidelines and component libraries throughout the site.",
       "severity_score": 10
     }
   ]

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 255,
+    "rank": 265,
     "site": "amazon.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "7d1c2be6251ed008815bcc16c3f3bc34"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "3ffdcb94a08782d0d2ddfa307a0d454f"
   },
   "data": [
     {
-      "title": "Advanced Threat Detection",
-      "description": "Employs machine learning for real-time threat detection and prevention.",
-      "technical_spec": "AWS GuardDuty, Machine Learning Algorithms",
-      "severity_score": 92
-    },
-    {
-      "title": "Encryption Standards",
-      "description": "Ensures data security with end-to-end encryption methodologies.",
-      "technical_spec": "AES-256, SSL/TLS",
-      "severity_score": 88
-    },
-    {
-      "title": "Identity and Access Management",
-      "description": "Strict control over access to resources via robust IAM policies.",
-      "technical_spec": "AWS IAM, Multi-factor Authentication",
-      "severity_score": 85
-    },
-    {
       "title": "DDoS Protection",
-      "description": "Implements protection strategies to mitigate distributed denial-of-service attacks.",
-      "technical_spec": "AWS Shield, AWS WAF",
-      "severity_score": 90
+      "description": "Implements robust distributed denial-of-service (DDoS) attack protection mechanisms.",
+      "technical_spec": "AWS Shield and other proprietary tools are used to mitigate attack impacts.",
+      "severity_score": 35
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular vulnerability assessments and patch management.",
-      "technical_spec": "AWS Inspector, Security Patches",
-      "severity_score": 87
+      "title": "Data Encryption",
+      "description": "Uses encryption for both data at rest and data in transit to ensure security.",
+      "technical_spec": "Supports protocols like TLS for secure data transmission and AES-256 for storage encryption.",
+      "severity_score": 40
+    },
+    {
+      "title": "Authentication Protocols",
+      "description": "Employs strong authentication mechanisms to protect user accounts.",
+      "technical_spec": "Supports multi-factor authentication (MFA) and OAuth tokens.",
+      "severity_score": 45
+    },
+    {
+      "title": "Intrusion Detection Systems (IDS)",
+      "description": "Utilizes advanced IDS to monitor and detect potential threats in the network.",
+      "technical_spec": "Incorporates AWS GuardDuty and third-party solutions for comprehensive monitoring.",
+      "severity_score": 50
+    },
+    {
+      "title": "Security Audits and Compliance",
+      "description": "Regularly conducts security audits and complies with international standards.",
+      "technical_spec": "Adheres to standards such as ISO 27001, SOC 2, and PCI DSS.",
+      "severity_score": 30
     }
   ]
 }

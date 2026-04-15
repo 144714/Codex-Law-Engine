@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 252,
+    "rank": 262,
     "site": "youtube.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "e10b31960184f4a4e71c1a97e7fac3cc"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "ecedb3926a3cde80598ab5d215707bb7"
   },
   "data": [
     {
-      "title": "User-Centric Design",
-      "description": "Focus on providing a seamless user experience with intuitive navigation and functionality.",
-      "technical_spec": "User Testing, Feedback Loops",
-      "severity_score": 20
+      "title": "Global Community Builder",
+      "description": "Fosters a sense of community with features like comments, subscriptions, and live streams.",
+      "technical_spec": "Enhanced engagement tools and creator analytics.",
+      "severity_score": 90
     },
     {
-      "title": "Content Diversity",
-      "description": "Supports a wide range of content types to cater to diverse user interests.",
-      "technical_spec": "Adaptive Streaming, Metadata Algorithms",
-      "severity_score": 35
+      "title": "Innovation in Content Delivery",
+      "description": "Leads the market in how content is accessed and consumed.",
+      "technical_spec": "Advanced algorithms for personalized content recommendations.",
+      "severity_score": 95
     },
     {
-      "title": "Global Reach",
-      "description": "Accessible worldwide with localization features for different regions and languages.",
-      "technical_spec": "i18n, Multi-Language Support",
-      "severity_score": 30
+      "title": "Trusted Content Platform",
+      "description": "Balances content freedom with responsibility through content policies.",
+      "technical_spec": "AI-powered content moderation and user report systems.",
+      "severity_score": 92
     },
     {
-      "title": "Creator Empowerment",
-      "description": "Tools and analytics for content creators to maximize engagement and monetization.",
-      "technical_spec": "Creator Studio, YouTube Analytics",
-      "severity_score": 25
+      "title": "Cultural Influencer",
+      "description": "Impacts global culture and trends via viral content and creators.",
+      "technical_spec": "Data-driven insights on trending content and cultural shifts.",
+      "severity_score": 93
     },
     {
-      "title": "Innovation",
-      "description": "Continuous innovation to enhance video technology and user interactivity.",
-      "technical_spec": "R&D Investments, Feature Rollouts",
-      "severity_score": 40
+      "title": "Support for Creators",
+      "description": "Empowers creators with monetization options and community-building tools.",
+      "technical_spec": "Robust creator analytics and monetization algorithms.",
+      "severity_score": 94
     }
   ]
 }

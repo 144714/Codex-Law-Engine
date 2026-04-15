@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 252,
+    "rank": 262,
     "site": "youtube.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "066b9948017ca31846197e63ec32adb7"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "0bfd6e73c56ce323ccba4933a8ec2ad6"
   },
   "data": [
     {
       "title": "DDoS Protection",
-      "description": "YouTube has measures in place to mitigate Distributed Denial of Service attacks.",
-      "technical_spec": "Google Shield, Rate Limiting",
-      "severity_score": 40
+      "description": "Implements measures to mitigate Distributed Denial of Service attacks.",
+      "technical_spec": "Leveraging Google’s Shielded VMs and Cloud Armor.",
+      "severity_score": 97
     },
     {
-      "title": "OAuth 2.0 Authentication",
-      "description": "Ensures secure API access and user authentication using OAuth 2.0 mechanism.",
-      "technical_spec": "OAuth 2.0, JSON Web Tokens",
-      "severity_score": 35
+      "title": "User Data Encryption",
+      "description": "Secures user data through encryption in transit and at rest.",
+      "technical_spec": "Uses TLS for data transmission and AES-256 for storage encryption.",
+      "severity_score": 96
     },
     {
-      "title": "Content Moderation AI",
-      "description": "Automated systems to detect and handle inappropriate content.",
-      "technical_spec": "AI/Machine Learning, TensorFlow",
-      "severity_score": 45
+      "title": "Account Security",
+      "description": "Protects user accounts through multi-factor authentication.",
+      "technical_spec": "Integrates Google's Identity Platform for 2FA and secure login protocols.",
+      "severity_score": 94
     },
     {
-      "title": "Data Encryption",
-      "description": "End-to-end encryption to protect video data and user information.",
-      "technical_spec": "TLS, AES-256",
-      "severity_score": 50
+      "title": "Phishing Detection",
+      "description": "Detects and prevents phishing attempts against users.",
+      "technical_spec": "Machine learning algorithms analyze threats in real-time.",
+      "severity_score": 90
     },
     {
-      "title": "Security Audits & Bug Bounty",
-      "description": "Regular security audits and a bug bounty program to discover vulnerabilities.",
-      "technical_spec": "Vulnerability Scanning Tools",
-      "severity_score": 30
+      "title": "Vulnerability Scanning",
+      "description": "Regular scans to identify potential security weaknesses.",
+      "technical_spec": "Automated vulnerability assessment tools run scans on all web components.",
+      "severity_score": 89
     }
   ]
 }

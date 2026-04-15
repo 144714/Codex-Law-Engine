@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 254,
+    "rank": 264,
     "site": "microsoft.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "af2fabdd13e4c1d93ebd19e6b5fe5d69"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "9ee23b513edd7498ce0952f767e5a0d3"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Microsoft is known for pushing technological boundaries to deliver innovative products.",
-      "technical_spec": "Investments in AI, cloud computing, and IoT ventures.",
-      "severity_score": 12
+      "title": "Trust and Security",
+      "description": "Microsoft brands itself as a trusted and secure tech leader, emphasizing privacy and protection.",
+      "technical_spec": "Recurrent security badges and privacy policy placements across the site.",
+      "severity_score": 5
     },
     {
-      "title": "User-Centric Design",
-      "description": "Prioritizes user needs in the development of software and services.",
-      "technical_spec": "User feedback loops and design thinking approaches.",
+      "title": "Innovation Leadership",
+      "description": "Showcases continual innovation in software and services across sectors.",
+      "technical_spec": "Highlights new releases, updates, and integration announcements prominently.",
       "severity_score": 8
     },
     {
       "title": "Global Accessibility",
-      "description": "Commits to making technology accessible to everyone regardless of ability.",
-      "technical_spec": "Built-in accessibility features and support in multiple languages.",
-      "severity_score": 10
+      "description": "Commits to making its services accessible to a global and diverse user base.",
+      "technical_spec": "Offers multi-language support and accessibility features for all users.",
+      "severity_score": 7
     },
     {
-      "title": "Enterprise Solutions",
-      "description": "Offers robust enterprise-grade solutions that cater to business needs.",
-      "technical_spec": "Azure Cloud Services, Office 365, and Dynamics 365.",
-      "severity_score": 15
+      "title": "Corporate Responsibility",
+      "description": "Portrays a strong sense of corporate social responsibility and sustainability initiatives.",
+      "technical_spec": "Dedicated sections on the site for community efforts and sustainability reports.",
+      "severity_score": 6
     },
     {
-      "title": "Security and Privacy",
-      "description": "Focuses on protecting user data and maintaining privacy across services.",
-      "technical_spec": "GDPR compliance, encryption, and advanced security features.",
+      "title": "Customer-Centric Approach",
+      "description": "Focused on delivering excellent customer experiences and support.",
+      "technical_spec": "Integrates robust customer support channels and feedback loops.",
       "severity_score": 9
     }
   ]

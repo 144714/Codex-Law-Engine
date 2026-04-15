@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 258,
+    "rank": 268,
     "site": "adobe.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "999a0c816a7cb59267932097db90de54"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "efe142101ad13e9d1823f22ca0e1e4ac"
   },
   "data": [
     {
-      "title": "Web Framework",
-      "description": "Adobe.com is built using a combination of modern web technologies.",
-      "technical_spec": "Uses a combination of HTML5, CSS3, and JavaScript frameworks like React or Angular.",
+      "title": "Microservices Architecture",
+      "description": "Adobe's infrastructure likely utilizes a microservices architecture to handle various services and applications efficiently.",
+      "technical_spec": "Subdivided applications into individual services with dedicated APIs, enabling independent deployment and scalability.",
       "severity_score": 20
     },
     {
-      "title": "Backend Infrastructure",
-      "description": "Utilizes a robust backend structure to handle vast amounts of data and user requests.",
-      "technical_spec": "Primarily employs cloud services, possibly leveraging Adobe Experience Manager (AEM).",
+      "title": "Cloud-Based Infrastructure",
+      "description": "Adobe leverages cloud services for scalability and resilience.",
+      "technical_spec": "Utilization of AWS or Azure for hosting and scaling, ensuring global accessibility.",
       "severity_score": 15
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Implements CDN to ensure swift content delivery across global regions.",
-      "technical_spec": "Employs CDNs such as Akamai or AWS CloudFront.",
+      "description": "Use of CDN to accelerate content delivery and improve user experience globally.",
+      "technical_spec": "Services like Akamai or Cloudflare, offering load balancing and quick asset delivery.",
       "severity_score": 10
     },
     {
-      "title": "Database Management",
-      "description": "Supports complex querying and data storage through advanced database systems.",
-      "technical_spec": "Likely utilizes SQL and NoSQL databases for flexibility and scalability.",
-      "severity_score": 25
+      "title": "Data-Driven Architecture",
+      "description": "Architecture designed to handle large sets of user data and analytics.",
+      "technical_spec": "Implementation of big data frameworks like Hadoop or Spark for data processing.",
+      "severity_score": 30
     },
     {
-      "title": "Microservices Architecture",
-      "description": "Facilitates change and scaling through microservices.",
-      "technical_spec": "Implemented using Docker and Kubernetes for containerization.",
-      "severity_score": 30
+      "title": "Containerization",
+      "description": "Adobe uses containerization for application deployment and management.",
+      "technical_spec": "Docker or Kubernetes for container management, providing consistency across environments.",
+      "severity_score": 25
     }
   ]
 }

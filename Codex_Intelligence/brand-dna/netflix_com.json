@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 256,
+    "rank": 266,
     "site": "netflix.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "7a5f9ac8c9bf0359a2361c86c2c099f0"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "4efdbf90d975699b187e54593c964c45"
   },
   "data": [
     {
-      "title": "Global Reach",
-      "description": "Strong international brand presence with localized content offerings.",
-      "technical_spec": "International Partnerships, Subtitling",
-      "severity_score": 12
+      "title": "Innovative Content Delivery",
+      "description": "Pioneers in streaming technology and original content adaptation.",
+      "technical_spec": "Invests heavily in R&D to optimize streaming capabilities.",
+      "severity_score": 8
     },
     {
-      "title": "Innovative Culture",
-      "description": "Continuously drives innovation in streaming technologies and original content.",
-      "technical_spec": "R&D Investments, Original Content Production",
+      "title": "Global Accessibility",
+      "description": "Provides access to a broad range of content to worldwide viewers.",
+      "technical_spec": "Localized interfaces and subtitles/dubbing options.",
       "severity_score": 15
     },
     {
-      "title": "Customer-Centric Design",
-      "description": "Focus on exceptional user experiences tailored to individual preferences.",
-      "technical_spec": "Personalization Algorithms, UX Research",
+      "title": "Original Content Production",
+      "description": "Focuses on producing exclusive and diverse original series.",
+      "technical_spec": "Operates in-house studios and partners with global producers.",
       "severity_score": 10
     },
     {
-      "title": "Strong Marketing Strategies",
-      "description": "Utilizes data-driven marketing strategies to engage users.",
-      "technical_spec": "Data Analytics, Personalized Advertising",
-      "severity_score": 13
+      "title": "User-Centric Experience",
+      "description": "Tailors viewing experience based on user preferences and behaviors.",
+      "technical_spec": "Uses machine learning for personalized recommendations.",
+      "severity_score": 12
     },
     {
-      "title": "Sustainability Initiatives",
-      "description": "Commitment to sustainability and eco-friendly practices.",
-      "technical_spec": "Carbon Footprint Reduction, Renewable Energy Usage",
-      "severity_score": 12
+      "title": "Cross-Platform Synchronization",
+      "description": "Ensures seamless transition and availability across multiple devices.",
+      "technical_spec": "Real-time synchronization of user data and viewing progress.",
+      "severity_score": 14
     }
   ]
 }

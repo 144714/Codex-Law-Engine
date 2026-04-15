@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 257,
+    "rank": 267,
     "site": "spotify.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "a7fee5a2b7a523177446fa7cc7cdf220"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "2b89aac29a5df2d17902c39a2edf1907"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Designs interfaces that minimize the time it takes for users to make a decision by simplifying choices.",
-      "technical_spec": "Limits navigation options to ensure a more direct and intuitive interaction.",
-      "severity_score": 10
+      "description": "Simplifies choices to decrease decision time for users.",
+      "technical_spec": "Streamlined interface with minimal options per screen.",
+      "severity_score": 92
     },
     {
       "title": "Fitts's Law",
-      "description": "Applies principles that make frequently-used interactive elements larger and easier to access.",
-      "technical_spec": "Designs larger touch targets for playlists and play buttons for better accessibility.",
-      "severity_score": 15
+      "description": "Designs interface elements for ease of click and navigation.",
+      "technical_spec": "Large, easily clickable buttons and icons.",
+      "severity_score": 88
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "Creates visually appealing designs that enhance perceived usability despite potential functional limitations.",
-      "technical_spec": "Uses high-quality visuals, animations, and a streamlined interface to engage users.",
-      "severity_score": 5
+      "title": "Aesthetic-Usability Effect",
+      "description": "Ensure visually appealing interface to enhance user satisfaction.",
+      "technical_spec": "High-quality images and modern typography.",
+      "severity_score": 95
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Designs consistent user experiences familiar to users from other music platforms.",
-      "technical_spec": "Incorporates familiar elements such as common play controls, layout, and search functions.",
-      "severity_score": 20
+      "title": "Jakob's Law",
+      "description": "Design expectations based on users’ prior digital experiences.",
+      "technical_spec": "Adheres to common UI patterns for consistent user experience.",
+      "severity_score": 90
     },
     {
-      "title": "Law of Common Region",
-      "description": "Groups related items together to create a clear and intuitive layout.",
-      "technical_spec": "Uses visual boundaries and backgrounds to segregate elements like album art and tracklists.",
-      "severity_score": 8
+      "title": "Peak-End Rule",
+      "description": "Focuses on moments that form peak experiences for users.",
+      "technical_spec": "Curated playlists and personalized recommendations.",
+      "severity_score": 87
     }
   ]
 }

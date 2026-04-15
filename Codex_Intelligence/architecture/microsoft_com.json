@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 254,
+    "rank": 264,
     "site": "microsoft.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "101e833777f8f4b8772694bc4bbddf02"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "337549b488902021656a14055121a977"
   },
   "data": [
     {
-      "title": "Server Infrastructure",
-      "description": "Microsoft.com uses a robust and scalable server infrastructure to handle high traffic volumes seamlessly.",
-      "technical_spec": "Utilizes Azure-based cloud servers with load-balancing and redundancy strategies.",
-      "severity_score": 10
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Employs Azure CDN services to distribute content closer to users globally, reducing latency.",
-      "technical_spec": "Azure CDN with global Points of Presence (PoPs).",
+      "title": "Microservices Architecture",
+      "description": "Microsoft.com utilizes a microservices architecture to ensure scalability and reliability across its services.",
+      "technical_spec": "Distributed services allowing independent scaling and deployment, facilitated by containerization technologies.",
       "severity_score": 15
     },
     {
-      "title": "Microservices Architecture",
-      "description": "Microsoft utilizes a microservices architecture for modular functionality and continuous deployment.",
-      "technical_spec": "Docker and Kubernetes for container orchestration.",
+      "title": "Azure Cloud Integration",
+      "description": "The website is heavily integrated with Azure services for robust infrastructure support.",
+      "technical_spec": "Leveraging Azure’s global data center presence and services like Azure Active Directory and API Management.",
+      "severity_score": 10
+    },
+    {
+      "title": "Serverless Functions",
+      "description": "Uses Azure Functions to trigger backend processes and tasks dynamically.",
+      "technical_spec": "Implementing Functions as a Service (FaaS) to handle event-driven tasks efficiently.",
       "severity_score": 20
     },
     {
       "title": "Progressive Web Application (PWA)",
-      "description": "Utilizes PWA standards to ensure smooth performance across devices and offline access.",
-      "technical_spec": "Service workers and responsive design.",
-      "severity_score": 30
+      "description": "Delivers a seamless user experience across web and mobile devices.",
+      "technical_spec": "Utilizes modern web capabilities to deliver app-like experiences using service workers and Web App Manifests.",
+      "severity_score": 25
     },
     {
-      "title": "Database Management",
-      "description": "High-performance database systems to manage extensive data and user interactions.",
-      "technical_spec": "Azure SQL Database with high-availability configurations.",
-      "severity_score": 25
+      "title": "API Gateway",
+      "description": "Centralized entry point for managing and routing API calls efficiently.",
+      "technical_spec": "Implemented using Azure API Management solutions for reliable API routing and transformation.",
+      "severity_score": 18
     }
   ]
 }

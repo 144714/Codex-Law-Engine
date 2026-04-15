@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 251,
+    "rank": 261,
     "site": "google.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "3cab7e3b30bb16e9c3071bdf9950172d"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "652dd617cc17517da135b155bfd2c111"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Limits the time it takes a user to make a decision by reducing the number of choices presented.",
-      "technical_spec": "Maintains a clean, minimalistic interface with a single search bar focus.",
-      "severity_score": 10
+      "description": "Simplified user interface to minimize choice overload and improve decision-making speed.",
+      "technical_spec": "UI design prioritizes essential features, employs minimalistic design principles.",
+      "severity_score": 78
     },
     {
-      "title": "Fitts's Law",
-      "description": "Prioritizes ease of access to frequent functions through intuitive UI layout.",
-      "technical_spec": "The search bar is prominently placed and highly accessible as the central feature.",
-      "severity_score": 15
+      "title": "Fitts’s Law",
+      "description": "Optimized UI elements designed for efficient navigation and interaction.",
+      "technical_spec": "Strategically placed call-to-action buttons to shorten user interaction paths.",
+      "severity_score": 85
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Encourages user engagement through visually pleasing, yet functionally simple designs.",
-      "technical_spec": "Simplicity in design increases perceived usability, leading to higher user satisfaction.",
-      "severity_score": 12
+      "title": "Millers’s Law",
+      "description": "Information architecture aligns with cognitive load management principles.",
+      "technical_spec": "Organizes information into chunks, uses familiar patterns and labels.",
+      "severity_score": 82
     },
     {
-      "title": "Jakob's Law",
-      "description": "Adapts design elements common in other sites to match user's existing mental models.",
-      "technical_spec": "Consistency in search layout and results aligns with user expectations from other web experiences.",
-      "severity_score": 20
+      "title": "Gestalt Principles",
+      "description": "Design leverages Gestalt principles to create visually cohesive and intuitive layouts.",
+      "technical_spec": "Use of proximity, similarity, and continuity to guide visual hierarchy.",
+      "severity_score": 83
     },
     {
-      "title": "Miller’s Law",
-      "description": "Limits cognitive load by organizing information into smaller chunks for easier comprehension.",
-      "technical_spec": "Search results are concise, often displaying just enough information to reduce the choice paradox.",
-      "severity_score": 25
+      "title": "Jakob’s Law",
+      "description": "Interface consistency with common web and app navigation patterns.",
+      "technical_spec": "Adopted navigation structures and elements users are accustomed to from similar platforms.",
+      "severity_score": 80
     }
   ]
 }

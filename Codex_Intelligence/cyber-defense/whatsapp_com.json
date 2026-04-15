@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 260,
+    "rank": 270,
     "site": "whatsapp.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "e254bf12e7933bbb87cd17b5d0827ecf"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "5c8905a2e48b57eabef59b67163e3758"
   },
   "data": [
     {
-      "title": "Data Encryption Standards",
-      "description": "All communications are encrypted using advanced encryption standards to protect against eavesdropping.",
-      "technical_spec": "AES-256 encryption for data security.",
-      "severity_score": 15
+      "title": "Encryption Protocols",
+      "description": "WhatsApp's chats are protected with state-of-the-art encryption protocols.",
+      "technical_spec": "Implementation of the Signal Protocol for end-to-end encryption.",
+      "severity_score": 10
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular assessments and updates are performed to identify and mitigate vulnerabilities.",
-      "technical_spec": "Continuous vulnerability scanning and patching practices.",
-      "severity_score": 50
-    },
-    {
-      "title": "Authentication Protocols",
-      "description": "Strong authentication mechanisms to ensure user account protection.",
-      "technical_spec": "Two-factor authentication offered to add an extra layer of security.",
+      "title": "User Authentication",
+      "description": "Strong authentication mechanisms to verify user identity and prevent unauthorized access.",
+      "technical_spec": "Two-factor authentication (2FA) and OAuth 2.0 support.",
       "severity_score": 35
     },
     {
-      "title": "Anti-Spam Measures",
-      "description": "Sophisticated algorithms and user reporting features help to detect and block spam messages.",
-      "technical_spec": "Machine learning models detect abnormal patterns and behaviors.",
-      "severity_score": 45
+      "title": "Data Backup and Recovery",
+      "description": "Secure methods for backing up and recovering user data.",
+      "technical_spec": "Optional encryption of backups on iCloud and Google Drive.",
+      "severity_score": 40
     },
     {
-      "title": "Incident Response Plan",
-      "description": "Prepared protocols and teams in place to quickly respond to security incidents.",
-      "technical_spec": "Includes monitoring, detection systems, and a dedicated response team.",
-      "severity_score": 60
+      "title": "Traffic Analysis Mitigation",
+      "description": "Techniques to prevent unauthorized traffic monitoring and data inference.",
+      "technical_spec": "Encrypted metadata and minimized data exposure techniques.",
+      "severity_score": 30
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Ongoing security audits to detect and fix vulnerabilities promptly.",
+      "technical_spec": "Internal and third-party security assessments.",
+      "severity_score": 20
     }
   ]
 }

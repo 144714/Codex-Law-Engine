@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 258,
+    "rank": 268,
     "site": "adobe.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "0ed14b45e678389acfc341bbaa2f9d66"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "269dfa945266f59971eb8879d8fd6d3e"
   },
   "data": [
     {
-      "title": "Encryption Protocols",
-      "description": "Secure data transmission using SSL/TLS encryption.",
-      "technical_spec": "Implements TLS 1.3 for enhanced security.",
-      "severity_score": 5
-    },
-    {
-      "title": "Web Application Firewall (WAF)",
-      "description": "Protects against common web application attacks.",
-      "technical_spec": "Possibly utilizes WAF services from providers like Imperva or AWS Shield.",
-      "severity_score": 15
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Mitigates Distributed Denial of Service attacks.",
-      "technical_spec": "Employs DDoS protection mechanisms provided by large-scale cloud providers.",
-      "severity_score": 20
-    },
-    {
-      "title": "Incident Response",
-      "description": "Prepares to address security breaches promptly.",
-      "technical_spec": "May include automated alerts and a dedicated incident response team.",
-      "severity_score": 25
+      "title": "Zero Trust Security Model",
+      "description": "Adobe implements a zero trust framework to protect its network and systems against breaches.",
+      "technical_spec": "Continuous verification of user identity, multi-factor authentication, monitoring of device health.",
+      "severity_score": 40
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts periodic security reviews to find vulnerabilities.",
-      "technical_spec": "Internal and third-party audits are performed regularly.",
-      "severity_score": 10
+      "description": "Frequent auditing of systems to identify and remedy potential vulnerabilities.",
+      "technical_spec": "Third-party security assessments and penetration testing performed regularly.",
+      "severity_score": 35
+    },
+    {
+      "title": "Data Encryption",
+      "description": "Encryption of data at rest and in transit to protect user information and company data.",
+      "technical_spec": "Use of protocols such as TLS for data in transit and AES for data at rest.",
+      "severity_score": 25
+    },
+    {
+      "title": "Incident Response Plan",
+      "description": "A detailed response plan to quickly handle any detected security incidents.",
+      "technical_spec": "Automated threat detection tools, predefined protocols for data breach responses.",
+      "severity_score": 50
+    },
+    {
+      "title": "Employee Training Programs",
+      "description": "Regular security training to ensure employees follow best practices.",
+      "technical_spec": "Training modules, phishing simulations, and workshops for staying updated on security practices.",
+      "severity_score": 30
     }
   ]
 }

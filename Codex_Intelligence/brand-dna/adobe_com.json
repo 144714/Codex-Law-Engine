@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 258,
+    "rank": 268,
     "site": "adobe.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "bd836fc52d4e6f476c12463d90cdcdce"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "ee9b593deeb28e2576e60deccfcb3314"
   },
   "data": [
     {
-      "title": "Creative Empowerment",
-      "description": "Adobe positions itself as a leader in creative and digital solutions.",
-      "technical_spec": "Focus on toolsets specifically for designers, photographers, and digital artists.",
-      "severity_score": 20
+      "title": "Creativity and Innovation",
+      "description": "Adobe's brand is synonymous with creativity and cutting-edge creative software solutions.",
+      "technical_spec": "Development of flagship products like Photoshop and Illustrator, leading the creative software market.",
+      "severity_score": 5
     },
     {
-      "title": "Innovation",
-      "description": "Constant development of cutting-edge digital media technologies.",
-      "technical_spec": "Invests in AI and machine learning, as seen in products like Adobe Sensei.",
-      "severity_score": 15
-    },
-    {
-      "title": "User-Centric Solutions",
-      "description": "Prioritizes enhancing user productivity and creativity through its software suite.",
-      "technical_spec": "Continuous improvement of user interfaces and experiences in software products.",
+      "title": "User-Centric Approach",
+      "description": "Adobe prioritizes user experience in the development of its platforms and tools.",
+      "technical_spec": "Feedback loops and user testing integrated into the design and development process.",
       "severity_score": 10
     },
     {
-      "title": "Global Reach",
-      "description": "Aims to reach creative professionals worldwide.",
-      "technical_spec": "Multilingual support and global community engagement initiatives.",
-      "severity_score": 25
+      "title": "Global Presence",
+      "description": "Maintaining a robust global reach and influence in the creative and digital solutions markets.",
+      "technical_spec": "Localized products and services to cater to diverse international markets.",
+      "severity_score": 15
     },
     {
-      "title": "Sustainability Engagement",
-      "description": "Adobe commits to sustainable practices in business operations.",
-      "technical_spec": "Initiatives include using renewable energy and reducing carbon footprint.",
-      "severity_score": 5
+      "title": "Commitment to Security",
+      "description": "A strong focus on digital security and protecting user data as a core brand value.",
+      "technical_spec": "Implementation of advanced security measures and certifications across products.",
+      "severity_score": 20
+    },
+    {
+      "title": "Sustainability Initiatives",
+      "description": "Efforts towards sustainability and environmental responsibility are integrated into Adobe's corporate strategies.",
+      "technical_spec": "Programs to reduce carbon footprint, digital resource management initiatives.",
+      "severity_score": 30
     }
   ]
 }

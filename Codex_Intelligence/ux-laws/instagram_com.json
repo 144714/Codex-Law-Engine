@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 259,
+    "rank": 269,
     "site": "instagram.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "cbdaa004af8e186a2ddfa843be912fc2"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "12a85690fee1533cce4cf553aa9c6abc"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies user decision-making by limiting choices.",
-      "technical_spec": "Design layout minimizes navigational elements.",
-      "severity_score": 15
+      "description": "Limits the number of choices to speed up decision-making.",
+      "technical_spec": "Minimalistic design with clear pathways.",
+      "severity_score": 5
     },
     {
       "title": "Fitts's Law",
-      "description": "Optimizes the size and distance of interactive elements.",
-      "technical_spec": "Larger tap targets for buttons on mobile UI.",
-      "severity_score": 20
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Prioritizes aesthetic design to enhance user perception of usability.",
-      "technical_spec": "High-quality imagery and minimalistic design.",
+      "description": "Optimizes target sizes for easier accessibility.",
+      "technical_spec": "Enlarged touch points for frequent actions.",
       "severity_score": 10
     },
     {
-      "title": "Jakob's Law",
-      "description": "Designs with familiar user patterns from other platforms.",
-      "technical_spec": "Adopts common social media navigation patterns.",
-      "severity_score": 18
+      "title": "Serial Position Effect",
+      "description": "Focus on placing frequently used features prominently to ensure recall.",
+      "technical_spec": "Key functions positioned at the top and bottom of lists.",
+      "severity_score": 8
     },
     {
-      "title": "Social Proof Principle",
-      "description": "Encourages user interaction through visible engagement metrics.",
-      "technical_spec": "Display of likes, shares, and comments prominently.",
-      "severity_score": 22
+      "title": "Peak-End Rule",
+      "description": "Designs memorable user experiences by ensuring a strong start and end.",
+      "technical_spec": "Error-free onboarding and rewarding end interactions.",
+      "severity_score": 12
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Utilizes familiarity by adopting design patterns users expect.",
+      "technical_spec": "Navigation similar to established social media norms.",
+      "severity_score": 15
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 256,
+    "rank": 266,
     "site": "netflix.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "25d5fcc7a6bb310123ba9d23c286f7ae"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "ac5036651382b72e61a399f11c32712b"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "Netflix's backend architecture is based on microservices, allowing for independent deployment and scaling.",
-      "technical_spec": "Microservices, Kubernetes, Containerization",
+      "title": "Microservices Architecture",
+      "description": "Decoupled architecture with independent services for scalability and resilience.",
+      "technical_spec": "Utilizes RESTful APIs and message brokers for inter-service communication.",
       "severity_score": 10
     },
     {
-      "title": "Cloud-Based Deployment",
-      "description": "The platform is deployed on cloud services, ensuring scalability and availability.",
-      "technical_spec": "AWS, Cloud Platforms, Auto-scaling",
+      "title": "Content Delivery Network (CDN)",
+      "description": "High-performance globally distributed network for efficient streaming.",
+      "technical_spec": "Leverages third-party CDNs and proprietary Open Connect Appliances.",
       "severity_score": 15
     },
     {
-      "title": "CDN Integration",
-      "description": "Content delivery is optimized through global CDN networks for lower latency.",
-      "technical_spec": "Content Delivery Network, Edge Servers",
+      "title": "Dynamic Load Balancing",
+      "description": "Ensures efficient resource use and optimal user experience.",
+      "technical_spec": "Automated scaling and real-time traffic distribution.",
       "severity_score": 20
     },
     {
-      "title": "Serverless Architecture",
-      "description": "Certain functions leverage serverless computing for agility and cost-efficiency.",
-      "technical_spec": "AWS Lambda, Event-Driven Architecture",
+      "title": "Database Management",
+      "description": "Robust data handling with distributed database systems.",
+      "technical_spec": "Uses NoSQL databases like Cassandra and support for SQL databases.",
       "severity_score": 25
     },
     {
-      "title": "Load Balancing",
-      "description": "Strategic load balancing ensures consistent service availability and performance.",
-      "technical_spec": "Elastic Load Balancing, Traffic Management",
-      "severity_score": 15
+      "title": "Cloud-native Infrastructure",
+      "description": "Flexible deployment across cloud environments with AWS backbone.",
+      "technical_spec": "Containerization and Kubernetes for orchestration.",
+      "severity_score": 18
     }
   ]
 }

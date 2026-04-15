@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 254,
+    "rank": 264,
     "site": "microsoft.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "22926e8defc2ce0bf63e36ba4a6537d0"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "cc018b6b6449d2f3ee8505c1c907b378"
   },
   "data": [
     {
-      "title": "Advanced Threat Protection",
-      "description": "Employs multi-layered threat protection to safeguard against cyber attacks.",
-      "technical_spec": "Microsoft Defender for Endpoint.",
-      "severity_score": 15
-    },
-    {
-      "title": "SSL/TLS Encryption",
-      "description": "Ensures encrypted communications between users and the server.",
-      "technical_spec": "SSL/TLS certificates with 2048-bit encryption.",
+      "title": "Data Encryption",
+      "description": "Data transmitted to and from the site is encrypted using industry-standard protocols.",
+      "technical_spec": "SSL/TLS encryption ensures secure communication over the network.",
       "severity_score": 10
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts frequent security audits to identify and mitigate vulnerabilities.",
-      "technical_spec": "Internal and third-party penetration testing.",
-      "severity_score": 20
+      "title": "Multi-Factor Authentication",
+      "description": "Implements MFA for enhanced user account security.",
+      "technical_spec": "Integration with Microsoft Authenticator and third-party authentication apps.",
+      "severity_score": 5
     },
     {
-      "title": "Two-Factor Authentication (2FA)",
-      "description": "Enhances user security through additional identity verification measures.",
-      "technical_spec": "2FA options through SMS and authenticator apps.",
-      "severity_score": 15
+      "title": "DDoS Protection",
+      "description": "Defensive mechanisms in place to mitigate distributed denial of service attacks.",
+      "technical_spec": "Leverages Azure DDoS Protection Standard to safeguard online assets from large-scale attacks.",
+      "severity_score": 8
     },
     {
-      "title": "Data Breach Response Protocols",
-      "description": "Has well-defined protocols for identifying, responding to, and communicating data breaches.",
-      "technical_spec": "Incident response team and user notification systems.",
-      "severity_score": 25
+      "title": "Secure Code Practices",
+      "description": "Code is written and reviewed with security best practices to minimize vulnerabilities.",
+      "technical_spec": "Adheres to Secure Development Lifecycle (SDL) principles throughout the development process.",
+      "severity_score": 7
+    },
+    {
+      "title": "Intrusion Detection Systems",
+      "description": "Advanced systems in place to detect and respond to security threats in real-time.",
+      "technical_spec": "Utilizes Azure Security Center for threat detection and analysis.",
+      "severity_score": 12
     }
   ]
 }

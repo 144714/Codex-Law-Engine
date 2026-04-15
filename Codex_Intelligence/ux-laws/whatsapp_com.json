@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 260,
+    "rank": 270,
     "site": "whatsapp.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "85b7fb8a3c2f9251c2f90e40f608dd47"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "1ad3defd296049a8ce74346308e7e83e"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "WhatsApp minimizes decision points to create a fast and efficient user experience.",
-      "technical_spec": "Simplified interface with minimal interaction steps.",
+      "description": "Simplified interface promotes faster user decisions.",
+      "technical_spec": "Minimalistic chat interface with quick access buttons.",
       "severity_score": 10
     },
     {
       "title": "Fitts's Law",
-      "description": "Interface elements are designed to be easily tappable, enhancing usability on mobile devices.",
-      "technical_spec": "Larger tap targets positioned in accessible areas of the screen.",
-      "severity_score": 20
+      "description": "Optimized touch targets for mobile user interactions.",
+      "technical_spec": "Large, easily tappable icons and buttons.",
+      "severity_score": 10
     },
     {
-      "title": "Jakob's Law",
-      "description": "Familiar design patterns from other messaging apps to decrease learning phase for new users.",
-      "technical_spec": "Standardized buttons and navigation based on common user expectations.",
+      "title": "Law of Proximity",
+      "description": "Grouping related items to enhance perceptual organization for users.",
+      "technical_spec": "Chats, calls, and contacts are clearly organized within sections.",
       "severity_score": 15
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visual design enhances perception of usability, ensuring a pleasing and intuitive experience.",
-      "technical_spec": "Modern design with a focus on aesthetics and functionality.",
-      "severity_score": 25
+      "title": "Miller’s Law",
+      "description": "Design respects user's cognitive load limitations.",
+      "technical_spec": "Concise menu options and limited notification clutter.",
+      "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Design focuses on reducing cognitive load by not overwhelming users with information.",
-      "technical_spec": "Task-oriented design approach with emphasis on task completion over information presentation.",
-      "severity_score": 30
+      "title": "Jakob's Law",
+      "description": "Familiar interaction patterns to meet user expectations.",
+      "technical_spec": "Adherence to widely accepted chat app designs.",
+      "severity_score": 5
     }
   ]
 }

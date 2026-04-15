@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 259,
+    "rank": 269,
     "site": "instagram.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "01c75b04f486f6044ee681b4ba64af9c"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "feda188417f70ba3f3f0eecbbf98ae9d"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "All user data is encrypted in transit.",
-      "technical_spec": "TLS 1.3 for all data communications.",
-      "severity_score": 30
+      "title": "Two-Factor Authentication",
+      "description": "Enhances account security by requiring an additional verification step.",
+      "technical_spec": "SMS-based or app-generated authentication codes.",
+      "severity_score": 10
     },
     {
-      "title": "Two-factor Authentication",
-      "description": "Provides extra security for user logins.",
-      "technical_spec": "Supports SMS-based and authenticator app-based 2FA.",
-      "severity_score": 35
+      "title": "Encryption",
+      "description": "Protects sensitive user data during transmission and storage.",
+      "technical_spec": "TLS for data in transit; AES-256 for data at rest.",
+      "severity_score": 15
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular audits to identify and fix vulnerabilities.",
-      "technical_spec": "Internal and third-party security assessments.",
+      "title": "Account Activity Monitoring",
+      "description": "Detects unusual activity and alerts users to potential unauthorized access.",
+      "technical_spec": "Machine learning models to identify anomalies.",
       "severity_score": 25
     },
     {
-      "title": "User Account Protection",
-      "description": "Protects user accounts from unauthorized access.",
-      "technical_spec": "Detection of suspicious login attempts and IP blacklisting.",
-      "severity_score": 40
+      "title": "Bug Bounty Program",
+      "description": "Encourages external security experts to find and report vulnerabilities.",
+      "technical_spec": "Collaboration with ethical hackers to improve security.",
+      "severity_score": 20
     },
     {
-      "title": "Bug Bounty Program",
-      "description": "Incentivizes security researchers to find vulnerabilities.",
-      "technical_spec": "Managed through HackerOne platform.",
-      "severity_score": 20
+      "title": "Data Breach Response",
+      "description": "Protocols in place to respond to data breaches effectively.",
+      "technical_spec": "Incident response teams and automated alerts.",
+      "severity_score": 30
     }
   ]
 }

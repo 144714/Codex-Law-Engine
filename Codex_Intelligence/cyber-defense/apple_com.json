@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 253,
+    "rank": 263,
     "site": "apple.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "723a75dd2569125c5dc1405238bf2d33"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "f955de63f08fbce82512795a7edfd137"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Protects user data through encryption, both in transit and at rest.",
-      "technical_spec": "TLS 1.3 implementation for data in transit; encrypted databases or file systems.",
-      "severity_score": 15
-    },
-    {
-      "title": "Web Application Firewall",
-      "description": "Defends against common web threats such as SQL injection and cross-site scripting.",
-      "technical_spec": "Utilizes a WAF solution like AWS WAF or Cloudflare WAF.",
-      "severity_score": 40
-    },
-    {
-      "title": "Security Patches",
-      "description": "Regular updates and patches to protect against vulnerabilities.",
-      "technical_spec": "Automated patch management systems for rapid deployment.",
-      "severity_score": 20
-    },
-    {
-      "title": "Intrusion Detection System",
-      "description": "Monitors network traffic for suspicious activity.",
-      "technical_spec": "Employs solutions like Snort or Suricata.",
-      "severity_score": 30
-    },
-    {
       "title": "Two-Factor Authentication",
-      "description": "Enhances user authentication security.",
-      "technical_spec": "Integration with 2FA solutions, potentially supporting hardware tokens or mobile apps.",
-      "severity_score": 25
+      "description": "Additional security layer requiring second verification method.",
+      "technical_spec": "Token or SMS-based authentication to validate user identity.",
+      "severity_score": 93
+    },
+    {
+      "title": "SSL/TLS Encryption",
+      "description": "Secure data transmission over HTTPS.",
+      "technical_spec": "Encrypts communication using 256-bit keys to protect data integrity.",
+      "severity_score": 95
+    },
+    {
+      "title": "Web Application Firewall (WAF)",
+      "description": "Protects against common web application exploits.",
+      "technical_spec": "Analyzes incoming traffic to block malicious traffic based on rules.",
+      "severity_score": 90
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Continuous security analysis and vulnerability testing.",
+      "technical_spec": "Conducted via automated tools and periodic manual reviews.",
+      "severity_score": 88
+    },
+    {
+      "title": "Data Loss Prevention (DLP)",
+      "description": "Prevents unauthorized data transfers.",
+      "technical_spec": "Monitors, detects, and blocks sensitive data while in use, in motion, and at rest.",
+      "severity_score": 85
     }
   ]
 }

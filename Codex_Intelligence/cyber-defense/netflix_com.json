@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 256,
+    "rank": 266,
     "site": "netflix.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "99b05105594798d8a9a2a57c63aee383"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "f2408f217c8b8c5060b15b7beebad173"
   },
   "data": [
     {
-      "title": "User Authentication Security",
-      "description": "Enhanced security measures through multi-factor authentication.",
-      "technical_spec": "OAuth, Two-Factor Authentication",
-      "severity_score": 20
-    },
-    {
-      "title": "Data Encryption",
-      "description": "User data and streaming content are encrypted end-to-end.",
-      "technical_spec": "SSL/TLS, AES Encryption",
-      "severity_score": 15
-    },
-    {
-      "title": "Threat Detection Systems",
-      "description": "Real-time monitoring for unusual access patterns and threats.",
-      "technical_spec": "Machine Learning, Anomaly Detection",
+      "title": "User Data Encryption",
+      "description": "Protects sensitive user data from unauthorized access.",
+      "technical_spec": "Uses AES-256 and TLS protocols for secure data transmission.",
       "severity_score": 30
     },
     {
-      "title": "API Security",
-      "description": "Strong API security practices to prevent unauthorized access.",
-      "technical_spec": "Rate Limiting, API Gateways",
-      "severity_score": 25
+      "title": "Security Monitoring",
+      "description": "Continuous monitoring for threats and anomalies.",
+      "technical_spec": "Employs SIEM tools for real-time threat intelligence.",
+      "severity_score": 35
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular system audits and patch management to prevent exploits.",
-      "technical_spec": "Penetration Testing, Patch Management",
-      "severity_score": 25
+      "title": "DDoS Mitigation",
+      "description": "Guards against distributed denial-of-service attacks.",
+      "technical_spec": "Utilizes rate limiting and traffic filtering techniques.",
+      "severity_score": 45
+    },
+    {
+      "title": "Identity and Access Management",
+      "description": "Ensures proper user authentication and role assignments.",
+      "technical_spec": "Uses OAuth 2.0 and multifactor authentication protocols.",
+      "severity_score": 40
+    },
+    {
+      "title": "Secure API Gateway",
+      "description": "Protects API endpoints from malicious activities.",
+      "technical_spec": "Integrates with identity management systems and enforces security policies.",
+      "severity_score": 28
     }
   ]
 }

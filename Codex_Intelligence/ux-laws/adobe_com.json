@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 258,
+    "rank": 268,
     "site": "adobe.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "363821f5508949e90b0579bf5d7e72ed"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "a9cc46911b1294b23101d1d8ce702a97"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "The website design ensures easy navigation with accessible interactive elements.",
-      "technical_spec": "Utilizes large clickable areas for primary navigation.",
+      "title": "Hick’s Law",
+      "description": "The design considers the number of choices given to users to optimize decision-making speed.",
+      "technical_spec": "Streamlined menus and option lists to enhance user navigation and efficiency.",
       "severity_score": 10
     },
     {
-      "title": "Hick’s Law",
-      "description": "Simplified navigation reduces user decision time.",
-      "technical_spec": "Minimizes choice overload by categorizing information hierarchically.",
+      "title": "Fitts’s Law",
+      "description": "The UI is optimized for the speed of movement based on size and distance of clickable elements.",
+      "technical_spec": "Placement of action buttons and interactive elements to reduce user effort.",
       "severity_score": 15
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Consistent design aesthetics to help users recognize patterns.",
-      "technical_spec": "Design elements leverage proximity, similarity, and continuity.",
-      "severity_score": 10
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Information chunks are managed to prevent cognitive overload.",
-      "technical_spec": "Content is divided into digestible sections and subsections.",
+      "title": "Jakob’s Law",
+      "description": "Design expectations align with familiar patterns to enhance usability.",
+      "technical_spec": "UI elements and navigation structured similar to commonly used platforms.",
       "severity_score": 20
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Leverages common design conventions for familiarity.",
-      "technical_spec": "Aligns with standard web navigation and interface rules.",
+      "title": "Law of Proximity",
+      "description": "Grouping of related elements to enhance user understanding and experience.",
+      "technical_spec": "Logical grouping of UI components for better cognitive processing.",
       "severity_score": 5
+    },
+    {
+      "title": "Pareto Principle",
+      "description": "Focus on optimizing the 20% of features that are used 80% of the time.",
+      "technical_spec": "Data-driven approach to prioritize features and functionality based on user behavior analytics.",
+      "severity_score": 25
     }
   ]
 }

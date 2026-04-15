@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 253,
+    "rank": 263,
     "site": "apple.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "3b9b6da7792a8706cb7e3a03666c3c3a"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "f418dad5c5d551c3f3e68e57dfff64d2"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Minimizes the time required for a user to make a decision by reducing choices.",
-      "technical_spec": "Prioritization of primary actions by reducing menu options.",
-      "severity_score": 10
+      "description": "Simplifies user decisions by minimizing choices.",
+      "technical_spec": "Limits options on interface to reduce user decision time.",
+      "severity_score": 89
     },
     {
-      "title": "Fitts's Law",
-      "description": "Predicts the time required to reach a target, focusing on button placement and size.",
-      "technical_spec": "Adapts UI elements for ease of access, especially on touch devices.",
-      "severity_score": 20
+      "title": "Fitts’s Law",
+      "description": "Optimizes the size and distance of interactive objects.",
+      "technical_spec": "Targets are sized and positioned for easy accessibility.",
+      "severity_score": 85
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related items together to improve comprehension.",
-      "technical_spec": "Consistent spacing and modular design patterns.",
-      "severity_score": 15
+      "title": "Gestalt Principles",
+      "description": "Uses patterns and symmetry to create an organized layout.",
+      "technical_spec": "Arranges elements in groups to facilitate perception.",
+      "severity_score": 87
     },
     {
-      "title": "Law of Similarity",
-      "description": "Ensures similar elements are perceived as related.",
-      "technical_spec": "Consistent design language and iconography across the site.",
-      "severity_score": 12
+      "title": "Jakob’s Law",
+      "description": "Aligns with user’s mental models by meeting their expectations.",
+      "technical_spec": "Maintains consistency with familiar web experiences.",
+      "severity_score": 90
     },
     {
-      "title": "Jakob's Law",
-      "description": "Aligns with user expectations set by common internet experiences.",
-      "technical_spec": "Adherence to universally recognized UI components and navigational flow.",
-      "severity_score": 18
+      "title": "Miller's Law",
+      "description": "Manages cognitive load by chunking information into manageable parts.",
+      "technical_spec": "Information is grouped into smaller segments for enhanced comprehension.",
+      "severity_score": 84
     }
   ]
 }

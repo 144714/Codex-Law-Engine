@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 252,
+    "rank": 262,
     "site": "youtube.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "60713f1df29083bb1da70985934846d1"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "3fa89a6ee37cbc0d9280850eeebb6d04"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "UI elements are designed to allow quick and easy access, enhancing navigation and engagement.",
-      "technical_spec": "UI Design Guidelines, Clickable Areas",
-      "severity_score": 25
-    },
-    {
       "title": "Hick’s Law",
-      "description": "Reduces decision time by optimizing the number of choices presented to users.",
-      "technical_spec": "Streamlined Menus, Simplified Options",
-      "severity_score": 20
+      "description": "Minimizes decision-making time by presenting limited options in menus.",
+      "technical_spec": "Utilizes dropdowns and category tabs for easier navigation.",
+      "severity_score": 85
     },
     {
-      "title": "Miller’s Law",
-      "description": "Uses chunking to present information in digestible pieces to users.",
-      "technical_spec": "Content Layout Strategies",
-      "severity_score": 30
+      "title": "Fitts’s Law",
+      "description": "Optimizes button sizes and positions for intuitive clicking.",
+      "technical_spec": "Consistent button placement and resizing based on user interaction data.",
+      "severity_score": 87
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Employs visually appealing design for improved user satisfaction.",
+      "technical_spec": "Modern, sleek UI with consistent color schemes and typography.",
+      "severity_score": 88
+    },
+    {
+      "title": "Serial Position Effect",
+      "description": "Prioritizes core content placement based on user attention patterns.",
+      "technical_spec": "Key videos and features are placed prominently on landing pages.",
+      "severity_score": 86
     },
     {
       "title": "Jakob’s Law",
-      "description": "UI design consistency with user expectations based on experiences with other platforms.",
-      "technical_spec": "Industry Standards, UI Patterns",
-      "severity_score": 15
-    },
-    {
-      "title": "Postel’s Law",
-      "description": "System is designed to be tolerant of user input and errors.",
-      "technical_spec": "Error Handling, API Flexibility",
-      "severity_score": 40
+      "description": "Ensures a familiar user experience similar to other popular platforms.",
+      "technical_spec": "Design patterns align with commonly used media sites for ease of transition.",
+      "severity_score": 89
     }
   ]
 }

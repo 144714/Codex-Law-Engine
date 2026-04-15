@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 255,
+    "rank": 265,
     "site": "amazon.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "3a278f93971510142876ca6852ac05bc"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "6471374f05d64ac8d2f29e85cfeadb8c"
   },
   "data": [
     {
-      "title": "Microservices Framework",
-      "description": "Amazon employs a microservices architecture to allow independent deployment and scalability of services.",
-      "technical_spec": "Spring Boot, Docker, Kubernetes, AWS Lambda",
-      "severity_score": 90
+      "title": "Microservices-Based",
+      "description": "Amazon.com uses a microservices architecture to manage its vast array of services and features individually.",
+      "technical_spec": "Each service operates independently, allowing for granular updates and scalability.",
+      "severity_score": 20
+    },
+    {
+      "title": "Distributed Systems",
+      "description": "Utilizes distributed systems to handle enormous amounts of data and user requests globally.",
+      "technical_spec": "Data is stored and managed across multiple, geographically dispersed data centers.",
+      "severity_score": 15
     },
     {
       "title": "Load Balancing",
-      "description": "To manage immense traffic, Amazon uses advanced load balancing techniques.",
-      "technical_spec": "Elastic Load Balancing, Auto Scaling Groups",
-      "severity_score": 85
-    },
-    {
-      "title": "Database Management",
-      "description": "Utilizes a combination of SQL and NoSQL databases to handle diverse data needs.",
-      "technical_spec": "Amazon RDS, DynamoDB, Aurora",
-      "severity_score": 88
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "For faster global content delivery, Amazon uses a CDN strategy.",
-      "technical_spec": "Amazon CloudFront",
-      "severity_score": 70
+      "description": "Employs load balancing techniques to efficiently distribute incoming network traffic across multiple servers.",
+      "technical_spec": "Uses AWS Elastic Load Balancing for optimal resource use, high availability, and fault tolerance.",
+      "severity_score": 25
     },
     {
       "title": "Cloud Infrastructure",
-      "description": "Leverages cloud services to ensure high availability and resilience.",
-      "technical_spec": "AWS EC2, S3, VPC",
-      "severity_score": 95
+      "description": "Amazon.com is primarily hosted on AWS, providing scalable cloud infrastructure.",
+      "technical_spec": "Incorporates services like S3, EC2, and RDS for various operational needs.",
+      "severity_score": 30
+    },
+    {
+      "title": "Continuous Integration and Deployment",
+      "description": "Amazon employs CI/CD for rapid deployment and integration of new features.",
+      "technical_spec": "Uses automated pipelines for testing and deploying updates across the platform.",
+      "severity_score": 20
     }
   ]
 }

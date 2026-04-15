@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 260,
+    "rank": 270,
     "site": "whatsapp.com",
-    "date": "2026-04-15 13:02",
-    "integrity_hash": "1cf7e8c2e997de9f3e4e466088548fe0"
+    "date": "2026-04-15 15:00",
+    "integrity_hash": "553c30a03901347dced727003397cfb0"
   },
   "data": [
     {
-      "title": "Microservices Structure",
-      "description": "WhatsApp uses a microservices architecture that allows independent services to function together to perform various parts of its operations.",
-      "technical_spec": "Decoupled services architected with inter-service communication protocols.",
-      "severity_score": 10
-    },
-    {
-      "title": "Cloud Scalability",
-      "description": "Designed to handle massive scale using cloud infrastructure to ensure uptime and reliability across the globe.",
-      "technical_spec": "Utilizes distributed cloud providers and container orchestration for resource management.",
+      "title": "Microservices",
+      "description": "WhatsApp employs a microservices architecture to ensure scalability and resilience.",
+      "technical_spec": "Decoupled services relying on RESTful APIs or gRPC for communication.",
       "severity_score": 20
     },
     {
-      "title": "End-to-End Encryption",
-      "description": "Messages are secured with end-to-end encryption, ensuring that only the sender and recipient can read the contents.",
-      "technical_spec": "Uses the Signal Protocol to encrypt messages.",
+      "title": "Horizontal Scaling",
+      "description": "WhatsApp uses horizontal scaling to manage increased loads efficiently.",
+      "technical_spec": "Deployment across multiple server instances and data centers.",
       "severity_score": 30
     },
     {
-      "title": "Real-time Messaging",
-      "description": "Architected to deliver messages in real-time, supporting multimedia and group communications efficiently.",
-      "technical_spec": "Supports XMPP for real-time message delivery.",
-      "severity_score": 40
+      "title": "End-to-End Encryption",
+      "description": "Data transmitted across WhatsApp services is end-to-end encrypted.",
+      "technical_spec": "Utilizes the Signal Protocol for robust encryption of messages.",
+      "severity_score": 10
     },
     {
-      "title": "Cross-platform Integration",
-      "description": "Supports multiple platforms including iOS, Android, and web through a consistent architecture.",
-      "technical_spec": "Web client built using web technologies with QR code login for synchronization.",
+      "title": "Event-Driven Architecture",
+      "description": "WhatsApp uses an event-driven architecture to process real-time data streams.",
+      "technical_spec": "Powered by message brokers like Kafka to handle asynchronous processing.",
       "severity_score": 25
+    },
+    {
+      "title": "Global Distribution",
+      "description": "Data is distributed across global servers to ensure availability and low latency.",
+      "technical_spec": "Use of Content Delivery Networks (CDNs) and geo-replication.",
+      "severity_score": 15
     }
   ]
 }
