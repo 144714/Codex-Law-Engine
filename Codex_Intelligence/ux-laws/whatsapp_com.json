@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 250,
+    "rank": 260,
     "site": "whatsapp.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "c6324d51bd7caf50ffc8fe784a72e4c0"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "85b7fb8a3c2f9251c2f90e40f608dd47"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies choices on interface providing a seamless user experience.",
-      "technical_spec": "User interfaces are designed with minimalistic menus to reduce decision time.",
+      "description": "WhatsApp minimizes decision points to create a fast and efficient user experience.",
+      "technical_spec": "Simplified interface with minimal interaction steps.",
       "severity_score": 10
     },
     {
       "title": "Fitts's Law",
-      "description": "Optimizes button and input element sizes based on target distance to improve accessibility.",
-      "technical_spec": "Adjusts elements appropriately based on device, ensuring ease of navigation.",
-      "severity_score": 10
+      "description": "Interface elements are designed to be easily tappable, enhancing usability on mobile devices.",
+      "technical_spec": "Larger tap targets positioned in accessible areas of the screen.",
+      "severity_score": 20
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Design utilizes familiar patterns to ease cognitive load on users.",
-      "technical_spec": "Incorporates standard navigation and action buttons found across popular communication apps.",
+      "title": "Jakob's Law",
+      "description": "Familiar design patterns from other messaging apps to decrease learning phase for new users.",
+      "technical_spec": "Standardized buttons and navigation based on common user expectations.",
       "severity_score": 15
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Well-designed, visually appealing interfaces perceived as easier to use.",
-      "technical_spec": "Clean, uncluttered design with consistent visual themes and color schemes.",
-      "severity_score": 20
+      "description": "Visual design enhances perception of usability, ensuring a pleasing and intuitive experience.",
+      "technical_spec": "Modern design with a focus on aesthetics and functionality.",
+      "severity_score": 25
     },
     {
       "title": "Miller's Law",
-      "description": "Limits the amount of information presented at once to improve user comprehension.",
-      "technical_spec": "Messages and notifications are batch-delivered and grouped contextually.",
-      "severity_score": 10
+      "description": "Design focuses on reducing cognitive load by not overwhelming users with information.",
+      "technical_spec": "Task-oriented design approach with emphasis on task completion over information presentation.",
+      "severity_score": 30
     }
   ]
 }

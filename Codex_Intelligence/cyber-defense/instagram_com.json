@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 249,
+    "rank": 259,
     "site": "instagram.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "9ce74312cd8540ec6270f765b302b650"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "01c75b04f486f6044ee681b4ba64af9c"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Adopts end-to-end encryption protocols to ensure that only authorized users can access their private messages and shared content.",
-      "technical_spec": "Encryption libraries integrated into messaging services for maximum privacy.",
-      "severity_score": 90
+      "title": "Data Encryption",
+      "description": "All user data is encrypted in transit.",
+      "technical_spec": "TLS 1.3 for all data communications.",
+      "severity_score": 30
     },
     {
       "title": "Two-factor Authentication",
-      "description": "Provides two-factor authentication to add an extra layer of security to user accounts.",
-      "technical_spec": "Authentication via OTP, email, or authenticator apps, alongside passwords.",
-      "severity_score": 88
+      "description": "Provides extra security for user logins.",
+      "technical_spec": "Supports SMS-based and authenticator app-based 2FA.",
+      "severity_score": 35
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts routine security audits and bug bounty programs to identify and fix vulnerabilities.",
-      "technical_spec": "Comprehensive security checks involving internal and community-based ethical hacking.",
-      "severity_score": 85
+      "description": "Conducts regular audits to identify and fix vulnerabilities.",
+      "technical_spec": "Internal and third-party security assessments.",
+      "severity_score": 25
     },
     {
-      "title": "Data Anonymization",
-      "description": "Implements data anonymization practices to ensure user data privacy throughout data processing activities.",
-      "technical_spec": "Anonymizing identifiable data points in analytics and storage systems.",
-      "severity_score": 82
+      "title": "User Account Protection",
+      "description": "Protects user accounts from unauthorized access.",
+      "technical_spec": "Detection of suspicious login attempts and IP blacklisting.",
+      "severity_score": 40
     },
     {
-      "title": "Secure API Gateways",
-      "description": "Ensures all API communications are authenticated and encrypted to prevent data breaches.",
-      "technical_spec": "API gateways feature layered security controls, including tokens and encryption.",
-      "severity_score": 87
+      "title": "Bug Bounty Program",
+      "description": "Incentivizes security researchers to find vulnerabilities.",
+      "technical_spec": "Managed through HackerOne platform.",
+      "severity_score": 20
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 241,
+    "rank": 251,
     "site": "google.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "59b9c149250a62199ec73479d3925490"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "8d9c34ca4018a95103620d18e703afb9"
   },
   "data": [
     {
-      "title": "Distributed System",
-      "description": "Google.com runs on a distributed system architecture that spans numerous data centers around the world.",
-      "technical_spec": "Utilizes load balancing, data replication, and fault tolerance across server farms.",
-      "severity_score": 10
+      "title": "Monolithic Structure",
+      "description": "Google's core architecture relies heavily on a monolithic structure that centralizes control, enabling robust data management.",
+      "technical_spec": "Built using a globally distributed monolithic database system called Spanner, which backs many Google services.",
+      "severity_score": 45
     },
     {
-      "title": "Google File System",
-      "description": "A proprietary file storage system that supports Google's large-scale data processing requirements.",
-      "technical_spec": "Optimized for large-scale data storage and retrieval with redundancy.",
-      "severity_score": 15
-    },
-    {
-      "title": "Bigtable",
-      "description": "A distributed storage system for managing structured data that supports Google services.",
-      "technical_spec": "Stores data across thousands of commodity servers, providing scalability.",
+      "title": "Load Balancing",
+      "description": "Effective load balancing is crucial for Google's ability to handle millions of queries per second.",
+      "technical_spec": "Uses proprietary algorithms for distributing queries across global data centers to optimize speed and reliability.",
       "severity_score": 20
     },
     {
-      "title": "MapReduce",
-      "description": "A programming model for processing large data sets with a distributed algorithm.",
-      "technical_spec": "Facilitates data processing across large clusters of computers using parallel processing.",
-      "severity_score": 25
+      "title": "Microservices and Containers",
+      "description": "Gradual integration of microservices to increase development velocity and resilience.",
+      "technical_spec": "Implemented through Borg and Kubernetes, orchestration and management tools for deploying containers at scale.",
+      "severity_score": 35
     },
     {
-      "title": "Borg",
-      "description": "A cluster management system used to manage Google's massive infrastructure.",
-      "technical_spec": "Handles resource allocation and job scheduling across thousands of servers.",
+      "title": "Data Replication",
+      "description": "Ensures data redundancy and reliability through real-time data replication capabilities.",
+      "technical_spec": "Employs systems like Colossus, the next-generation distributed file system for cross-data center redundancy.",
       "severity_score": 30
+    },
+    {
+      "title": "Edge Computing Infrastructure",
+      "description": "Enhances user experience by processing data closer to the user's location.",
+      "technical_spec": "Implements edge nodes and data centers positioned strategically for minimizing latency.",
+      "severity_score": 25
     }
   ]
 }

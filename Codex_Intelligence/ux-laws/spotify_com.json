@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 247,
+    "rank": 257,
     "site": "spotify.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "166bb0f34d1150995cb1a32e1c002674"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "a7fee5a2b7a523177446fa7cc7cdf220"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies user choice to enhance decision-making speed across the application.",
-      "technical_spec": "Efficient user interface design that avoids overcrowding and prioritizes core actions.",
-      "severity_score": 94
+      "description": "Designs interfaces that minimize the time it takes for users to make a decision by simplifying choices.",
+      "technical_spec": "Limits navigation options to ensure a more direct and intuitive interaction.",
+      "severity_score": 10
     },
     {
       "title": "Fitts's Law",
-      "description": "Designs interface elements based on user's ease of access and interaction speed.",
-      "technical_spec": "Place frequently used functions within thumb’s reach in mobile interfaces for quicker interactions.",
-      "severity_score": 92
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Groups related items to improve cognitive ease and navigational flow.",
-      "technical_spec": "Consistent UI positioning and padding to visually associate similar functions.",
-      "severity_score": 90
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Accounts for cognitive load by limiting information presented at one time.",
-      "technical_spec": "Chunking content into manageable segments for optimal comprehension and engagement.",
-      "severity_score": 89
+      "description": "Applies principles that make frequently-used interactive elements larger and easier to access.",
+      "technical_spec": "Designs larger touch targets for playlists and play buttons for better accessibility.",
+      "severity_score": 15
     },
     {
       "title": "Aesthetic Usability Effect",
-      "description": "Emphasizes on visual appeal improving perceived usability and enjoyment.",
-      "technical_spec": "High-fidelity designs with smooth transitions and coherent visual language.",
-      "severity_score": 91
+      "description": "Creates visually appealing designs that enhance perceived usability despite potential functional limitations.",
+      "technical_spec": "Uses high-quality visuals, animations, and a streamlined interface to engage users.",
+      "severity_score": 5
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Designs consistent user experiences familiar to users from other music platforms.",
+      "technical_spec": "Incorporates familiar elements such as common play controls, layout, and search functions.",
+      "severity_score": 20
+    },
+    {
+      "title": "Law of Common Region",
+      "description": "Groups related items together to create a clear and intuitive layout.",
+      "technical_spec": "Uses visual boundaries and backgrounds to segregate elements like album art and tracklists.",
+      "severity_score": 8
     }
   ]
 }

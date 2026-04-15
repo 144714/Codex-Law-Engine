@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 248,
+    "rank": 258,
     "site": "adobe.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "48b67c27803d11c22c7d37d8443c3b8e"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "0ed14b45e678389acfc341bbaa2f9d66"
   },
   "data": [
     {
-      "title": "Zero Trust Security Model",
-      "description": "A strict identity verification process for all users, internal or external.",
-      "technical_spec": "Multi-factor authentication and conditional access.",
+      "title": "Encryption Protocols",
+      "description": "Secure data transmission using SSL/TLS encryption.",
+      "technical_spec": "Implements TLS 1.3 for enhanced security.",
+      "severity_score": 5
+    },
+    {
+      "title": "Web Application Firewall (WAF)",
+      "description": "Protects against common web application attacks.",
+      "technical_spec": "Possibly utilizes WAF services from providers like Imperva or AWS Shield.",
+      "severity_score": 15
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Mitigates Distributed Denial of Service attacks.",
+      "technical_spec": "Employs DDoS protection mechanisms provided by large-scale cloud providers.",
       "severity_score": 20
     },
     {
-      "title": "Advanced Threat Protection",
-      "description": "Continuous monitoring for abnormal activities across the network.",
-      "technical_spec": "Machine learning algorithms and AI-driven insights.",
-      "severity_score": 30
-    },
-    {
-      "title": "Data Encryption Protocols",
-      "description": "Ensures data at rest and in transit are encrypted at all times.",
-      "technical_spec": "AES 256-bit encryption and TLS 1.3 standards.",
+      "title": "Incident Response",
+      "description": "Prepares to address security breaches promptly.",
+      "technical_spec": "May include automated alerts and a dedicated incident response team.",
       "severity_score": 25
     },
     {
       "title": "Regular Security Audits",
-      "description": "Frequent security assessments to identify and mitigate potential vulnerabilities.",
-      "technical_spec": "Independent third-party audits and penetration testing.",
-      "severity_score": 35
-    },
-    {
-      "title": "Incident Response Plan",
-      "description": "Comprehensive strategy to respond to security incidents effectively.",
-      "technical_spec": "Detailed incident response playbooks and communication protocols.",
-      "severity_score": 40
+      "description": "Conducts periodic security reviews to find vulnerabilities.",
+      "technical_spec": "Internal and third-party audits are performed regularly.",
+      "severity_score": 10
     }
   ]
 }

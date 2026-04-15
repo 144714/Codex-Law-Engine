@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 242,
+    "rank": 252,
     "site": "youtube.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "3385e87262fa169f5a11f8e0dd087012"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "066b9948017ca31846197e63ec32adb7"
   },
   "data": [
     {
       "title": "DDoS Protection",
-      "description": "Measures to safeguard against distributed denial-of-service attacks.",
-      "technical_spec": "Use of Google Cloud Shield to block malicious traffic.",
+      "description": "YouTube has measures in place to mitigate Distributed Denial of Service attacks.",
+      "technical_spec": "Google Shield, Rate Limiting",
       "severity_score": 40
     },
     {
-      "title": "Content Moderation",
-      "description": "AI-based tools to detect and remove inappropriate content.",
-      "technical_spec": "Machine learning models trained on large datasets for pattern recognition.",
-      "severity_score": 50
-    },
-    {
-      "title": "User Privacy Controls",
-      "description": "Features and policies to protect user data and privacy in compliance with regulations.",
-      "technical_spec": "GDPR compliance, user consent mechanisms, and data protection protocols.",
+      "title": "OAuth 2.0 Authentication",
+      "description": "Ensures secure API access and user authentication using OAuth 2.0 mechanism.",
+      "technical_spec": "OAuth 2.0, JSON Web Tokens",
       "severity_score": 35
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular security assessments and patch management.",
-      "technical_spec": "Integration of automated scanning tools and manual penetration testing.",
-      "severity_score": 25
+      "title": "Content Moderation AI",
+      "description": "Automated systems to detect and handle inappropriate content.",
+      "technical_spec": "AI/Machine Learning, TensorFlow",
+      "severity_score": 45
     },
     {
-      "title": "Authentication and Authorization",
-      "description": "Robust systems to ensure secure user logins and permissions.",
-      "technical_spec": "Two-factor authentication and OAuth 2.0 based authorization.",
-      "severity_score": 45
+      "title": "Data Encryption",
+      "description": "End-to-end encryption to protect video data and user information.",
+      "technical_spec": "TLS, AES-256",
+      "severity_score": 50
+    },
+    {
+      "title": "Security Audits & Bug Bounty",
+      "description": "Regular security audits and a bug bounty program to discover vulnerabilities.",
+      "technical_spec": "Vulnerability Scanning Tools",
+      "severity_score": 30
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 250,
+    "rank": 260,
     "site": "whatsapp.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "6aaf3d20fd5ed30756e2e0be5b532500"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "1cf7e8c2e997de9f3e4e466088548fe0"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "WhatsApp employs a microservices architecture to handle its large-scale user base, enabling efficient scalability and maintenance.",
-      "technical_spec": "Multiple loosely coupled, independent services with APIs for communication.",
+      "title": "Microservices Structure",
+      "description": "WhatsApp uses a microservices architecture that allows independent services to function together to perform various parts of its operations.",
+      "technical_spec": "Decoupled services architected with inter-service communication protocols.",
       "severity_score": 10
     },
     {
-      "title": "End-to-End Encryption Protocol",
-      "description": "Ensures that only the communicating users can read the messages, using a cryptographic protocol designed for secure communication.",
-      "technical_spec": "Uses a Signal Protocol-based design for message encryption.",
-      "severity_score": 5
-    },
-    {
-      "title": "Real-time Messaging Framework",
-      "description": "Facilitates real-time message delivery and synchronization across platforms.",
-      "technical_spec": "Utilizes XMPP for message routing and synchronous updates.",
-      "severity_score": 10
-    },
-    {
-      "title": "Peer-to-Peer Networking",
-      "description": "Optimizes call quality and reliability by establishing direct connections between users when possible.",
-      "technical_spec": "Leverages ICE, STUN, and TURN protocols.",
-      "severity_score": 15
-    },
-    {
-      "title": "Data Redundancy and Load Balancing",
-      "description": "Utilizes global data centers to ensure high availability and load management.",
-      "technical_spec": "Employs CDN and distributed databases for load distribution.",
+      "title": "Cloud Scalability",
+      "description": "Designed to handle massive scale using cloud infrastructure to ensure uptime and reliability across the globe.",
+      "technical_spec": "Utilizes distributed cloud providers and container orchestration for resource management.",
       "severity_score": 20
+    },
+    {
+      "title": "End-to-End Encryption",
+      "description": "Messages are secured with end-to-end encryption, ensuring that only the sender and recipient can read the contents.",
+      "technical_spec": "Uses the Signal Protocol to encrypt messages.",
+      "severity_score": 30
+    },
+    {
+      "title": "Real-time Messaging",
+      "description": "Architected to deliver messages in real-time, supporting multimedia and group communications efficiently.",
+      "technical_spec": "Supports XMPP for real-time message delivery.",
+      "severity_score": 40
+    },
+    {
+      "title": "Cross-platform Integration",
+      "description": "Supports multiple platforms including iOS, Android, and web through a consistent architecture.",
+      "technical_spec": "Web client built using web technologies with QR code login for synchronization.",
+      "severity_score": 25
     }
   ]
 }

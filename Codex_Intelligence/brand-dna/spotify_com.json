@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 247,
+    "rank": 257,
     "site": "spotify.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "021c41ab6fef984f999ac012a5a1efae"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "02329f480817bbfe686c852b25fbf041"
   },
   "data": [
     {
-      "title": "Personalization and Discoverability",
-      "description": "Focuses on providing personalized music recommendations and easy discoverability features.",
-      "technical_spec": "Advanced algorithms powered by machine learning to tailor user experiences.",
-      "severity_score": 98
+      "title": "Personalization",
+      "description": "A core ethos focused on providing personalized music experiences tailored to each user.",
+      "technical_spec": "Utilizes advanced algorithms for daily curated playlists like 'Discover Weekly' and 'Release Radar'.",
+      "severity_score": 5
     },
     {
-      "title": "Cross-Platform Accessibility",
-      "description": "Ensures users have seamless access to services across multiple devices and platforms.",
-      "technical_spec": "Consistent experiences delivered across mobile, desktop, and web utilizing responsive design.",
-      "severity_score": 97
+      "title": "Cross-Platform Presence",
+      "description": "Ensures seamless access across multiple devices ensuring a consistent brand experience.",
+      "technical_spec": "Develops native applications for iOS, Android, Windows, macOS and web platforms.",
+      "severity_score": 15
     },
     {
-      "title": "Community Engagement",
-      "description": "Promotes user interaction and community building through playlist sharing and collaborative features.",
-      "technical_spec": "Social integrations and collaborative playlists encouraging interactive music exploration.",
-      "severity_score": 95
+      "title": "Innovative Collaborations",
+      "description": "Engages in partnerships and collaborations with artists, brands, and technology leaders.",
+      "technical_spec": "Hosts exclusive content, podcasts, and artist features enhancing user engagement.",
+      "severity_score": 10
     },
     {
-      "title": "Artist Support and Content Creation",
-      "description": "Supports artists by providing platforms for content creation and fan engagement.",
-      "technical_spec": "Tools like Spotify for Artists and exclusive content formats empower creators.",
-      "severity_score": 94
+      "title": "User-Centric Design",
+      "description": "Focuses on creating intuitive design and user-friendly interfaces.",
+      "technical_spec": "Iterations based on user feedback and research optimizing the UI and UX.",
+      "severity_score": 12
     },
     {
-      "title": "Innovation and Adaptability",
-      "description": "Constantly innovates features to adapt to user needs and industry trends.",
-      "technical_spec": "Regular updates and feature rollouts based on user feedback and emerging technologies.",
-      "severity_score": 96
+      "title": "Social Integration",
+      "description": "Encourages social interactions and sharing within and outside the platform.",
+      "technical_spec": "Integrates with social media platforms to allow sharing playlists and tracks.",
+      "severity_score": 18
     }
   ]
 }

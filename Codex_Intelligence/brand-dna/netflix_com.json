@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 246,
+    "rank": 256,
     "site": "netflix.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "897c7807f544bfd1572c5e6ba0f901dc"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "7a5f9ac8c9bf0359a2361c86c2c099f0"
   },
   "data": [
     {
-      "title": "Red & Black Color Scheme",
-      "description": "Iconic red and black color scheme consistent with Netflix's branding.",
-      "technical_spec": "Adhered to in all user interfaces and marketing materials.",
-      "severity_score": 20
+      "title": "Global Reach",
+      "description": "Strong international brand presence with localized content offerings.",
+      "technical_spec": "International Partnerships, Subtitling",
+      "severity_score": 12
     },
     {
-      "title": "N Cutting Through Noise",
-      "description": "Simplistic logo design that is easily recognizable and versatile.",
-      "technical_spec": "Netflix 'N' is optimized for digital and print mediums.",
+      "title": "Innovative Culture",
+      "description": "Continuously drives innovation in streaming technologies and original content.",
+      "technical_spec": "R&D Investments, Original Content Production",
       "severity_score": 15
     },
     {
-      "title": "Innovative Content Curation",
-      "description": "Modern storytelling through diverse and original content.",
-      "technical_spec": "Proprietary algorithms that suggest content based on viewing habits.",
-      "severity_score": 40
+      "title": "Customer-Centric Design",
+      "description": "Focus on exceptional user experiences tailored to individual preferences.",
+      "technical_spec": "Personalization Algorithms, UX Research",
+      "severity_score": 10
     },
     {
-      "title": "Global Reach with Local Impact",
-      "description": "Brand presence and content cater to a global audience with local touches.",
-      "technical_spec": "Localization of content and multicultural marketing strategies.",
-      "severity_score": 35
+      "title": "Strong Marketing Strategies",
+      "description": "Utilizes data-driven marketing strategies to engage users.",
+      "technical_spec": "Data Analytics, Personalized Advertising",
+      "severity_score": 13
     },
     {
-      "title": "Seamless Cross-Platform Experience",
-      "description": "Consistent user experience across all devices and platforms.",
-      "technical_spec": "Integration with diverse streaming devices and smart technologies.",
-      "severity_score": 30
+      "title": "Sustainability Initiatives",
+      "description": "Commitment to sustainability and eco-friendly practices.",
+      "technical_spec": "Carbon Footprint Reduction, Renewable Energy Usage",
+      "severity_score": 12
     }
   ]
 }

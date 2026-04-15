@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 245,
+    "rank": 255,
     "site": "amazon.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "27a1a393fd4193f46c4f5448868c8522"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "9a6131a6a46c1118b492d6eacc771815"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Amazon minimizes choice overload by streamlining user decisions.",
-      "technical_spec": "Predictive search, user history integration, and personalized shopping feed.",
+      "title": "Hick’s Law",
+      "description": "Simplifies decision-making processes by minimizing choices per page.",
+      "technical_spec": "Dynamic Filters, User Personalization",
       "severity_score": 80
     },
     {
-      "title": "Jakob's Law",
-      "description": "Users spend most of their time on other sites, so Amazon leverages common design patterns.",
-      "technical_spec": "Consistent global navigation and standardized checkout process.",
+      "title": "Fitts’s Law",
+      "description": "Design focus on easy-to-reach targets for enhanced usability.",
+      "technical_spec": "Large Buttons, Touchscreen Optimization",
       "severity_score": 85
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Interactive elements on Amazon are sized appropriately for easy access.",
-      "technical_spec": "Prominent call-to-action buttons and intuitive product filtering options.",
+      "title": "Miller’s Law",
+      "description": "Keeps information processing within the limits of the user’s working memory.",
+      "technical_spec": "Chunking Information, Clean Layout",
+      "severity_score": 75
+    },
+    {
+      "title": "The Aesthetic-Usability Effect",
+      "description": "Improved aesthetic design to foster usability perceptions.",
+      "technical_spec": "Modern UI Design, Consistent Branding",
+      "severity_score": 70
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Aligns with user expectations by adhering to common design patterns.",
+      "technical_spec": "Standardized Navigation, Familiar Interactions",
       "severity_score": 82
-    },
-    {
-      "title": "Principle of Feedback",
-      "description": "Amazon provides clear feedback on user actions to enhance user experience.",
-      "technical_spec": "Cart notifications, delivery status updates, and easy return processes.",
-      "severity_score": 87
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Amazon fuses aesthetics with functionality to create a pleasant user experience.",
-      "technical_spec": "Clean interface design, consistent branding, and responsive layouts.",
-      "severity_score": 84
     }
   ]
 }

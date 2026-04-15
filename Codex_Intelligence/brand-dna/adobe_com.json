@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 248,
+    "rank": 258,
     "site": "adobe.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "f3dc22f3d04c01ce4f669fad34a2cec5"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "bd836fc52d4e6f476c12463d90cdcdce"
   },
   "data": [
     {
-      "title": "Creative Suite Integration",
-      "description": "Unified experience across Adobe's array of creative tools.",
-      "technical_spec": "Cross-product features and synchronized workflows.",
-      "severity_score": 30
-    },
-    {
-      "title": "Innovative Design Heritage",
-      "description": "Strong emphasis on cutting-edge design and technological innovation.",
-      "technical_spec": "Continuous updates and pioneering design features.",
+      "title": "Creative Empowerment",
+      "description": "Adobe positions itself as a leader in creative and digital solutions.",
+      "technical_spec": "Focus on toolsets specifically for designers, photographers, and digital artists.",
       "severity_score": 20
     },
     {
-      "title": "Customer-Centric Approach",
-      "description": "Focused on user feedback and needs to drive product development.",
-      "technical_spec": "User research and iterative design processes.",
+      "title": "Innovation",
+      "description": "Constant development of cutting-edge digital media technologies.",
+      "technical_spec": "Invests in AI and machine learning, as seen in products like Adobe Sensei.",
       "severity_score": 15
     },
     {
-      "title": "Sustainability and Responsibility",
-      "description": "Commitment to sustainability and ethical business practices.",
-      "technical_spec": "Green initiatives and responsible sourcing.",
+      "title": "User-Centric Solutions",
+      "description": "Prioritizes enhancing user productivity and creativity through its software suite.",
+      "technical_spec": "Continuous improvement of user interfaces and experiences in software products.",
       "severity_score": 10
     },
     {
-      "title": "Global Community Engagement",
-      "description": "Empowering creatives worldwide through community programs and resources.",
-      "technical_spec": "Online forums, global events, and educational resources.",
+      "title": "Global Reach",
+      "description": "Aims to reach creative professionals worldwide.",
+      "technical_spec": "Multilingual support and global community engagement initiatives.",
       "severity_score": 25
+    },
+    {
+      "title": "Sustainability Engagement",
+      "description": "Adobe commits to sustainable practices in business operations.",
+      "technical_spec": "Initiatives include using renewable energy and reducing carbon footprint.",
+      "severity_score": 5
     }
   ]
 }

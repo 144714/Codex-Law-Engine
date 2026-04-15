@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 243,
+    "rank": 253,
     "site": "apple.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "8420a3826b644efe9a3a190ba7982540"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "3b9b6da7792a8706cb7e3a03666c3c3a"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "UI elements are designed considering the time required to move to a target area on the screen.",
-      "technical_spec": "Critical interactive components are prominently positioned for ease of access and action.",
-      "severity_score": 92
-    },
-    {
       "title": "Hick's Law",
-      "description": "Reduces the user's decision-making time by limiting the number of choices presented.",
-      "technical_spec": "Navigation menus structured with minimal options to prevent choice overload.",
-      "severity_score": 88
+      "description": "Minimizes the time required for a user to make a decision by reducing choices.",
+      "technical_spec": "Prioritization of primary actions by reducing menu options.",
+      "severity_score": 10
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "A visually appealing design is believed to be more usable by users.",
-      "technical_spec": "Clean, minimalist design with high-quality imagery and balanced color schemes.",
-      "severity_score": 95
+      "title": "Fitts's Law",
+      "description": "Predicts the time required to reach a target, focusing on button placement and size.",
+      "technical_spec": "Adapts UI elements for ease of access, especially on touch devices.",
+      "severity_score": 20
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Important items are placed in strategic positions to enhance recall.",
-      "technical_spec": "CTA and essential information prominently placed at strategic locations on a page.",
-      "severity_score": 85
+      "title": "Law of Proximity",
+      "description": "Groups related items together to improve comprehension.",
+      "technical_spec": "Consistent spacing and modular design patterns.",
+      "severity_score": 15
+    },
+    {
+      "title": "Law of Similarity",
+      "description": "Ensures similar elements are perceived as related.",
+      "technical_spec": "Consistent design language and iconography across the site.",
+      "severity_score": 12
     },
     {
       "title": "Jakob's Law",
-      "description": "Users spend most of their time on other sites, so their experience is based on common design patterns.",
-      "technical_spec": "Adhering to web conventions for navigation and layout to meet user expectations.",
-      "severity_score": 90
+      "description": "Aligns with user expectations set by common internet experiences.",
+      "technical_spec": "Adherence to universally recognized UI components and navigational flow.",
+      "severity_score": 18
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 249,
+    "rank": 259,
     "site": "instagram.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "7f104779c5f98cd15960092ad90b5211"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "cbdaa004af8e186a2ddfa843be912fc2"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Minimizes complexity in decision-making processes by offering user interfaces that simplify choices.",
-      "technical_spec": "Limiting options to improve user satisfaction and reduce choice paralysis.",
-      "severity_score": 78
+      "description": "Simplifies user decision-making by limiting choices.",
+      "technical_spec": "Design layout minimizes navigational elements.",
+      "severity_score": 15
     },
     {
       "title": "Fitts's Law",
-      "description": "Designs influenced by Fitts's Law ensure targets (such as buttons) are easily and efficiently accessible.",
-      "technical_spec": "Optimized UI controls by positioning interactive elements where users can quickly engage with them.",
-      "severity_score": 75
-    },
-    {
-      "title": "Peak-End Rule",
-      "description": "Focuses on providing memorable user experiences by emphasizing peak moments of interaction.",
-      "technical_spec": "Specifically crafted interactions or features that are highlighted within user journeys.",
-      "severity_score": 80
+      "description": "Optimizes the size and distance of interactive elements.",
+      "technical_spec": "Larger tap targets for buttons on mobile UI.",
+      "severity_score": 20
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Prioritizes visually appealing designs that foster perceptions of ease-of-use.",
-      "technical_spec": "Stylized and consistent design themes applied across all user interface elements.",
-      "severity_score": 77
+      "description": "Prioritizes aesthetic design to enhance user perception of usability.",
+      "technical_spec": "High-quality imagery and minimalistic design.",
+      "severity_score": 10
     },
     {
       "title": "Jakob's Law",
-      "description": "Leverages familiar design patterns and conventions to meet user expectations and bolster ease of navigation.",
-      "technical_spec": "Alignment with widely accepted user interface standards to streamline user engagement.",
-      "severity_score": 82
+      "description": "Designs with familiar user patterns from other platforms.",
+      "technical_spec": "Adopts common social media navigation patterns.",
+      "severity_score": 18
+    },
+    {
+      "title": "Social Proof Principle",
+      "description": "Encourages user interaction through visible engagement metrics.",
+      "technical_spec": "Display of likes, shares, and comments prominently.",
+      "severity_score": 22
     }
   ]
 }

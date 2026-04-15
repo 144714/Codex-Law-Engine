@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 242,
+    "rank": 252,
     "site": "youtube.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "3724dd80b8bdbd8ad9a7228c221a4098"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "60713f1df29083bb1da70985934846d1"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Minimizing choices to improve user response time and decision making.",
-      "technical_spec": "Streamlined menu options and manageable content layouts.",
-      "severity_score": 30
-    },
-    {
       "title": "Fitts’s Law",
-      "description": "Designing interfaces that allow for quick access to regularly used functions.",
-      "technical_spec": "Larger clickable areas for frequently used buttons or links.",
-      "severity_score": 20
-    },
-    {
-      "title": "Law of Common Region",
-      "description": "Elements tend to be perceived as a group if they are sharing an area with a clearly defined boundary.",
-      "technical_spec": "Usage of bordered, boxed sections to group related functions together.",
+      "description": "UI elements are designed to allow quick and easy access, enhancing navigation and engagement.",
+      "technical_spec": "UI Design Guidelines, Clickable Areas",
       "severity_score": 25
     },
     {
+      "title": "Hick’s Law",
+      "description": "Reduces decision time by optimizing the number of choices presented to users.",
+      "technical_spec": "Streamlined Menus, Simplified Options",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Uses chunking to present information in digestible pieces to users.",
+      "technical_spec": "Content Layout Strategies",
+      "severity_score": 30
+    },
+    {
       "title": "Jakob’s Law",
-      "description": "Users spend most of their time on other websites, so design familiarity aids in ease of use.",
-      "technical_spec": "Adherence to conventional navigation patterns and layouts.",
+      "description": "UI design consistency with user expectations based on experiences with other platforms.",
+      "technical_spec": "Industry Standards, UI Patterns",
       "severity_score": 15
     },
     {
-      "title": "Peak-End Rule",
-      "description": "User experience is defined by the most intense moments and the end of the interaction.",
-      "technical_spec": "Efforts to ensure engaging content display and satisfying end-screen experiences.",
+      "title": "Postel’s Law",
+      "description": "System is designed to be tolerant of user input and errors.",
+      "technical_spec": "Error Handling, API Flexibility",
       "severity_score": 40
     }
   ]

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 242,
+    "rank": 252,
     "site": "youtube.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "22309a5bf8a49f788c3643166c0e87e3"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "2f19ecd6535108d9bdac4cf3cfea493e"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "YouTube uses a microservices architecture to scale and manage different components like video upload, streaming, recommendation, and ads independently.",
-      "technical_spec": "Distributed microservices over a cloud platform such as Google Cloud, utilizing containerization with Kubernetes.",
+      "title": "Microservices Infrastructure",
+      "description": "YouTube utilizes a microservices-based architecture to manage various components such as video processing, user interface, and data storage.",
+      "technical_spec": "Kubernetes, Docker, REST APIs",
       "severity_score": 20
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "A global CDN is used to deliver video content quickly and reliably to users around the world.",
-      "technical_spec": "Use of global PoPs (Points of Presence) with caching servers distributed worldwide.",
+      "title": "Load Balancing",
+      "description": "To handle the massive influx of requests, YouTube employs load balancing techniques to distribute traffic effectively.",
+      "technical_spec": "NGINX, Google Load Balancer",
+      "severity_score": 25
+    },
+    {
+      "title": "Scalable Databases",
+      "description": "YouTube uses scalable databases to efficiently manage video metadata, user data, and analytics.",
+      "technical_spec": "Bigtable, Spanner, MySQL",
+      "severity_score": 30
+    },
+    {
+      "title": "Content Delivery Network",
+      "description": "A global CDN ensures quick video delivery by caching content closer to the user’s location.",
+      "technical_spec": "Google CDN, Edge Servers",
       "severity_score": 15
     },
     {
-      "title": "Data Analytics Infrastructure",
-      "description": "Infrastructure to process, analyze, and store vast amounts of data for recommendations and insights.",
-      "technical_spec": "Hadoop, BigQuery, and other big data technologies.",
-      "severity_score": 10
-    },
-    {
-      "title": "Adaptive Bitrate Streaming",
-      "description": "Technology allowing video quality to adjust in real-time to the user's internet speed.",
-      "technical_spec": "HLS (HTTP Live Streaming) or DASH (Dynamic Adaptive Streaming over HTTP).",
-      "severity_score": 5
-    },
-    {
-      "title": "API Gateway",
-      "description": "Centralized entry point for internal and external API requests.",
-      "technical_spec": "Use of RESTful APIs with OAuth 2.0 for authentication.",
-      "severity_score": 30
+      "title": "Data Pipeline",
+      "description": "To process and analyze large datasets, YouTube employs robust data pipelines.",
+      "technical_spec": "Apache Beam, BigQuery",
+      "severity_score": 35
     }
   ]
 }

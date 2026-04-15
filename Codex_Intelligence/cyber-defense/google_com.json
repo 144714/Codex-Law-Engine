@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 241,
+    "rank": 251,
     "site": "google.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "b57e856aa6432b64c803968924f69f5f"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "a0756eeca3a7c785810f4bfb68ed404a"
   },
   "data": [
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Google.com uses SSL/TLS to encrypt data transmitted between users and servers.",
-      "technical_spec": "Employs strong encryption standards such as AES-256.",
-      "severity_score": 5
-    },
-    {
-      "title": "Two-Factor Authentication (2FA)",
-      "description": "Provides an additional layer of security for user accounts.",
-      "technical_spec": "Supports multiple 2FA methods including mobile push notifications.",
-      "severity_score": 10
-    },
-    {
-      "title": "Advanced Threat Protection",
-      "description": "Leverages machine learning to detect and mitigate potential threats in real-time.",
-      "technical_spec": "Monitors system behavior to identify patterns indicative of an attack.",
+      "title": "BeyondCorp Security Model",
+      "description": "Implements a zero-trust architecture that enhances protection beyond traditional network perimeters.",
+      "technical_spec": "Built on identity and device-based access management, not relying solely on network boundaries.",
       "severity_score": 15
     },
     {
-      "title": "Security Patch Management",
-      "description": "Regular updates and patches are applied to fix vulnerabilities.",
-      "technical_spec": "Automated deployment of patches across global infrastructure.",
+      "title": "DDoS Resilience",
+      "description": "Designed to neutralize, detect, and respond to distributed denial-of-service attacks effectively.",
+      "technical_spec": "Incorporates protective measures with Google Cloud Armor and custom-developed filters.",
+      "severity_score": 10
+    },
+    {
+      "title": "SSL/TLS Encryption",
+      "description": "Ensures secure communication and data privacy via robust encryptive protocols on web traffic.",
+      "technical_spec": "Enforces HTTPS across all services, utilizing advanced SSL/TLS encryption standards.",
+      "severity_score": 15
+    },
+    {
+      "title": "Advanced Threat Detection",
+      "description": "Monitors global-scale threats using machine learning to identify new and evolving dangers.",
+      "technical_spec": "In deployed machine learning algorithms and heuristic analysis for real-time threat assessments.",
       "severity_score": 20
     },
     {
-      "title": "DDoS Mitigation",
-      "description": "Implements measures to protect against distributed denial-of-service attacks.",
-      "technical_spec": "Uses load balancing and anti-DDoS technologies for attack absorption.",
-      "severity_score": 30
+      "title": "Vulnerability Management",
+      "description": "Employs proactive measures to identify and rectify vulnerabilities before exploitation.",
+      "technical_spec": "Utilizes an internal Project Zero team dedicated to discovering and mitigating unknown vulnerabilities.",
+      "severity_score": 18
     }
   ]
 }

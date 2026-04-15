@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 241,
+    "rank": 251,
     "site": "google.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "17d6114a062a10ece40ac1b0b9f3858d"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "3cab7e3b30bb16e9c3071bdf9950172d"
   },
   "data": [
     {
-      "title": "Hick's Law Implementation",
-      "description": "Keeps homepage simplistic to reduce decision time for users.",
-      "technical_spec": "Minimalist design with a clean search bar interface.",
-      "severity_score": 5
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Optimizes clickable areas on webpages for easy user accessibility.",
-      "technical_spec": "Ensures button sizes are large enough and spaced appropriately.",
+      "title": "Hick's Law",
+      "description": "Limits the time it takes a user to make a decision by reducing the number of choices presented.",
+      "technical_spec": "Maintains a clean, minimalistic interface with a single search bar focus.",
       "severity_score": 10
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Prioritizes design appeal to improve perceived usability.",
-      "technical_spec": "Consistently clear and intuitive design across all web pages.",
+      "title": "Fitts's Law",
+      "description": "Prioritizes ease of access to frequent functions through intuitive UI layout.",
+      "technical_spec": "The search bar is prominently placed and highly accessible as the central feature.",
       "severity_score": 15
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related items closer together for improved user comprehension.",
-      "technical_spec": "Utilizes spacing and layout to guide user’s natural flow.",
-      "severity_score": 20
+      "title": "Aesthetic-Usability Effect",
+      "description": "Encourages user engagement through visually pleasing, yet functionally simple designs.",
+      "technical_spec": "Simplicity in design increases perceived usability, leading to higher user satisfaction.",
+      "severity_score": 12
     },
     {
       "title": "Jakob's Law",
-      "description": "Aligns design with user expectations set by other major websites.",
-      "technical_spec": "Incorporates familiar UI elements for seamless user experience.",
+      "description": "Adapts design elements common in other sites to match user's existing mental models.",
+      "technical_spec": "Consistency in search layout and results aligns with user expectations from other web experiences.",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Limits cognitive load by organizing information into smaller chunks for easier comprehension.",
+      "technical_spec": "Search results are concise, often displaying just enough information to reduce the choice paradox.",
       "severity_score": 25
     }
   ]

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 247,
+    "rank": 257,
     "site": "spotify.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "8fb71b519535f13f18ffe276e6a8a989"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "e667f42b267e0ab92b4ca63ec824e32b"
   },
   "data": [
     {
-      "title": "Service-Oriented Architecture",
-      "description": "Spotify uses a complex service-oriented architecture to handle its large user base and deliver music content efficiently.",
-      "technical_spec": "Microservices deployed on cloud infrastructure, using Docker and Kubernetes for scalability.",
-      "severity_score": 95
+      "title": "Microservices Structure",
+      "description": "Spotify employs a microservices architecture to facilitate independent service deployment and scalability.",
+      "technical_spec": "Each function (e.g., playlist management, music streaming) is compartmentalized into services that can be individually developed, scaled, and maintained.",
+      "severity_score": 15
     },
     {
-      "title": "Distributed Database System",
-      "description": "Spotify leverages distributed databases to store user data and music catalog with high availability.",
-      "technical_spec": "Cassandra for scalability, PostgreSQL for relational data management, with in-house optimizations.",
-      "severity_score": 90
+      "title": "Content Delivery Network (CDN) Integration",
+      "description": "CDNs are used to distribute high-quality music and video content efficiently to users worldwide.",
+      "technical_spec": "Utilizes global CDN providers for low latency and high availability of media streaming.",
+      "severity_score": 20
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "In Spotify, event-driven architecture facilitates real-time data processing and system integration.",
-      "technical_spec": "Apache Kafka is used for message queuing and stream processing across services.",
-      "severity_score": 88
+      "title": "Data-Driven Recommendation System",
+      "description": "Spotify's recommendation engine utilizes big data analytics to curate personalized playlists for users.",
+      "technical_spec": "Incorporates machine learning models trained on user listening data to suggest new or popular tracks.",
+      "severity_score": 30
     },
     {
-      "title": "Content Delivery Network",
-      "description": "Spotify employs CDN strategies to reduce latency and improve quality of service for end users.",
-      "technical_spec": "Akamai and AWS CloudFront are integrated for fast delivery of music and media assets.",
-      "severity_score": 87
+      "title": "Distributed Database Management",
+      "description": "Employs distributed database systems to handle large volumes of data with high availability.",
+      "technical_spec": "Managed using technologies like Cassandra for scalability across multiple servers and regions.",
+      "severity_score": 25
     },
     {
-      "title": "Load Balancing and Caching",
-      "description": "Advanced load balancing and caching mechanisms are implemented to efficiently manage user requests.",
-      "technical_spec": "Nginx for load balancing and Redis for in-memory caching to ensure fast response times.",
-      "severity_score": 89
+      "title": "API Gateway",
+      "description": "Acts as a single entry point for API calls, routing them to appropriate microservices.",
+      "technical_spec": "Facilitates communication across services while providing load balancing and request filtering.",
+      "severity_score": 10
     }
   ]
 }

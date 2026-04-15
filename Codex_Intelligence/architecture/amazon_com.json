@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 245,
+    "rank": 255,
     "site": "amazon.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "8e7b5eae4fddcccc6e0efdb48146d23f"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "3a278f93971510142876ca6852ac05bc"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Amazon uses a microservices architecture to handle its vast and varied operations, allowing independent service deployment and scalability.",
-      "technical_spec": "Services are decoupled and communicate over REST APIs.",
-      "severity_score": 85
-    },
-    {
-      "title": "Elastic Compute Cloud (EC2)",
-      "description": "Central to Amazon's architecture, EC2 provides scalable computing capacity.",
-      "technical_spec": "Supports auto-scaling, virtual server instances, and load balancing.",
+      "title": "Microservices Framework",
+      "description": "Amazon employs a microservices architecture to allow independent deployment and scalability of services.",
+      "technical_spec": "Spring Boot, Docker, Kubernetes, AWS Lambda",
       "severity_score": 90
     },
     {
-      "title": "Amazon Simple Storage Service (S3)",
-      "description": "S3 offers object storage with scalability, data availability, security, and performance.",
-      "technical_spec": "Supports REST APIs, governed by AWS IAM policies.",
+      "title": "Load Balancing",
+      "description": "To manage immense traffic, Amazon uses advanced load balancing techniques.",
+      "technical_spec": "Elastic Load Balancing, Auto Scaling Groups",
+      "severity_score": 85
+    },
+    {
+      "title": "Database Management",
+      "description": "Utilizes a combination of SQL and NoSQL databases to handle diverse data needs.",
+      "technical_spec": "Amazon RDS, DynamoDB, Aurora",
       "severity_score": 88
     },
     {
-      "title": "API Gateway",
-      "description": "Amazon uses API Gateway to manage the publishing, maintenance, and security of APIs.",
-      "technical_spec": "Handles authentication, authorization, and usage metering of APIs.",
-      "severity_score": 82
+      "title": "Content Delivery Network (CDN)",
+      "description": "For faster global content delivery, Amazon uses a CDN strategy.",
+      "technical_spec": "Amazon CloudFront",
+      "severity_score": 70
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Amazon CloudFront accelerates delivery of your content to users.",
-      "technical_spec": "Provides caching of content, SSL support, and detailed analytics.",
-      "severity_score": 87
+      "title": "Cloud Infrastructure",
+      "description": "Leverages cloud services to ensure high availability and resilience.",
+      "technical_spec": "AWS EC2, S3, VPC",
+      "severity_score": 95
     }
   ]
 }

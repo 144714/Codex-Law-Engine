@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 248,
+    "rank": 258,
     "site": "adobe.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "b60f18359958f8542046ac976186a0e0"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "363821f5508949e90b0579bf5d7e72ed"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Adobe optimizes for user decision-making time by limiting choices presented at once.",
-      "technical_spec": "Simplified design layouts and progressive disclosure.",
+      "title": "Fitts’s Law",
+      "description": "The website design ensures easy navigation with accessible interactive elements.",
+      "technical_spec": "Utilizes large clickable areas for primary navigation.",
+      "severity_score": 10
+    },
+    {
+      "title": "Hick’s Law",
+      "description": "Simplified navigation reduces user decision time.",
+      "technical_spec": "Minimizes choice overload by categorizing information hierarchically.",
       "severity_score": 15
     },
     {
-      "title": "Fitts' Law",
-      "description": "Design principle used to enhance the accessibility of interactive elements.",
-      "technical_spec": "Larger target areas for the most commonly used buttons.",
+      "title": "Gestalt Principles",
+      "description": "Consistent design aesthetics to help users recognize patterns.",
+      "technical_spec": "Design elements leverage proximity, similarity, and continuity.",
+      "severity_score": 10
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Information chunks are managed to prevent cognitive overload.",
+      "technical_spec": "Content is divided into digestible sections and subsections.",
       "severity_score": 20
     },
     {
-      "title": "Miller's Law",
-      "description": "Adobe considers cognitive load by organizing information into chunks.",
-      "technical_spec": "Hierarchical information architecture and navigation.",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Design consistency across products based on user familiarity with other applications.",
-      "technical_spec": "Consistent use of color schemes and typography.",
-      "severity_score": 25
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Elements are grouped together to improve usability and user comprehension.",
-      "technical_spec": "Optimized spacing and alignment in UI design.",
-      "severity_score": 10
+      "title": "Jakob’s Law",
+      "description": "Leverages common design conventions for familiarity.",
+      "technical_spec": "Aligns with standard web navigation and interface rules.",
+      "severity_score": 5
     }
   ]
 }

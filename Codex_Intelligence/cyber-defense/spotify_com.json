@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 247,
+    "rank": 257,
     "site": "spotify.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "86d61e2ed7ba52434f7aeaac70ba4931"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "7967a27cf571f630169adfb7f70d9e93"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Spotify uses encryption to protect data between clients and servers ensuring secure data transfer.",
-      "technical_spec": "TLS 1.3 is used for data in transit protection with regular updates for vulnerabilities.",
-      "severity_score": 92
+      "title": "Data Encryption",
+      "description": "Spotify encrypts data both in transit and at rest to protect user information and proprietary data.",
+      "technical_spec": "Uses Transport Layer Security (TLS) and AES encryption standards.",
+      "severity_score": 10
     },
     {
-      "title": "Zero Trust Architecture",
-      "description": "Implements a zero-trust security model requiring verification for every access attempt within internal networks.",
-      "technical_spec": "Identity and Access Management (IAM) solutions are used to apply principles of least privilege.",
-      "severity_score": 90
+      "title": "Multi-Factor Authentication (MFA)",
+      "description": "Adds an extra layer of security to user accounts to prevent unauthorized access.",
+      "technical_spec": "Optional MFA implementation using mobile or email-based verification.",
+      "severity_score": 30
     },
     {
-      "title": "Security Incident and Event Management",
-      "description": "Proactive monitoring system in place to detect and respond to security incidents in real-time.",
-      "technical_spec": "Utilizes Splunk and custom-built tools to consolidate logging and event management.",
-      "severity_score": 91
+      "title": "Security Threat Detection",
+      "description": "Monitors for unauthorized access or breaches using AI-driven security tools.",
+      "technical_spec": "Employs behavioral analytics and intrusion detection systems.",
+      "severity_score": 25
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic security audits and utilizes third-party services to assess vulnerabilities.",
-      "technical_spec": "Automated and manual testing methods to evaluate infrastructure and application security.",
-      "severity_score": 89
+      "title": "Regulatory Compliance",
+      "description": "Adheres to data protection regulations like GDPR to maintain user privacy.",
+      "technical_spec": "Implements processes for data management and breach notification requirements.",
+      "severity_score": 15
     },
     {
-      "title": "Data Anonymization and Protection",
-      "description": "Ensures user data is anonymized to protect privacy and comply with regulations like GDPR.",
-      "technical_spec": "Utilizes data masking technologies and practices to remove personally identifiable information.",
-      "severity_score": 88
+      "title": "Vulnerability Management Program",
+      "description": "Regularly scans and patches vulnerabilities in the application network and infrastructure.",
+      "technical_spec": "Uses automated security scanning tools and periodic security audits.",
+      "severity_score": 20
     }
   ]
 }

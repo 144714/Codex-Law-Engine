@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 249,
+    "rank": 259,
     "site": "instagram.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "3dc58e2623e91c078b08e6ab42e2796c"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "ff54fb851353c119c097e80d4939c171"
   },
   "data": [
     {
       "title": "Visual Storytelling",
-      "description": "Instagram's core identity revolves around visual storytelling, enabling users to share life moments through images and videos.",
-      "technical_spec": "Core posting and sharing functions are driven by a focus on high-quality visual media.",
-      "severity_score": 95
+      "description": "Emphasizes visual content to communicate stories.",
+      "technical_spec": "Sophisticated image and video editing tools.",
+      "severity_score": 10
     },
     {
-      "title": "Community Building",
-      "description": "Facilitates rich community connections and engagement through features like comments, likes, and sharing.",
-      "technical_spec": "Integrated social interaction tools and algorithms promoting user engagement.",
-      "severity_score": 90
+      "title": "Community Engagement",
+      "description": "Fosters a community-centric platform for interaction.",
+      "technical_spec": "Tools and features for commenting and sharing.",
+      "severity_score": 18
     },
     {
-      "title": "Innovative Features",
-      "description": "Consistently evolves with new features like Stories, Reels, and Shopping to maintain user interest.",
-      "technical_spec": "Development cycles that integrate user feedback and industry trends to innovate continuously.",
-      "severity_score": 88
+      "title": "Innovation in Features",
+      "description": "Constantly updates with new features to maintain engagement.",
+      "technical_spec": "Regular updates introducing Reels and Stories.",
+      "severity_score": 15
     },
     {
-      "title": "Cross-Platform Integration",
-      "description": "Supports seamless interactions between different platforms, enhancing accessibility and reach.",
-      "technical_spec": "APIs and synchronization capabilities with platforms like Facebook and external apps.",
-      "severity_score": 85
+      "title": "Global Accessibility",
+      "description": "Designs for accessibility across diverse user demographics.",
+      "technical_spec": "Multi-language support and accessibility options.",
+      "severity_score": 20
     },
     {
-      "title": "User Empowerment",
-      "description": "Provides tools that allow users to express themselves creatively and authentically.",
-      "technical_spec": "Extensive editing functions, filters, and creative suites built directly into the app.",
-      "severity_score": 92
+      "title": "Safety and Privacy",
+      "description": "Prioritizes user safety and robust privacy controls.",
+      "technical_spec": "Advanced privacy settings and report mechanisms.",
+      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 243,
+    "rank": 253,
     "site": "apple.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "f84d9f99c3b3ee14f074b4bfcb2b3949"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "c6104703daecee0b5f412e0ebf1531bc"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Apple's website is likely built on a microservices architecture, allowing for modular components to be developed and deployed independently.",
-      "technical_spec": "Use of containerization technologies and RESTful APIs to independently deploy and manage services.",
-      "severity_score": 95
-    },
-    {
-      "title": "Content Delivery Network",
-      "description": "A global content delivery network (CDN) is used to provide fast and reliable access to users worldwide.",
-      "technical_spec": "Integration of CDN services like Akamai or Cloudflare for caching and load balancing.",
-      "severity_score": 90
-    },
-    {
-      "title": "Responsive Design",
-      "description": "The site is designed to be fully responsive, ensuring it displays correctly on a wide range of devices and screen sizes.",
-      "technical_spec": "Adaptive techniques with media queries in CSS, fluid layouts, and flexible grids.",
-      "severity_score": 85
-    },
-    {
-      "title": "Single Page Application",
-      "description": "Dynamic user interactions without full page reloads, increasing speed and user engagement.",
-      "technical_spec": "Implementation using frameworks like React or Angular across key website areas.",
-      "severity_score": 80
+      "title": "Responsive Layout",
+      "description": "Apple's website adjusts dynamically to fit various screen sizes, providing a seamless experience on all devices.",
+      "technical_spec": "Utilizes CSS media queries and flexible grid systems.",
+      "severity_score": 20
     },
     {
       "title": "Server-Side Rendering",
-      "description": "Utilizes server-side rendering to enhance SEO and ensure faster initial loading times.",
-      "technical_spec": "Frameworks such as Next.js could be utilized for rendering pages on the server.",
-      "severity_score": 78
+      "description": "Generates webpage HTML on the server to improve load times and SEO.",
+      "technical_spec": "Implemented via frameworks like Next.js or Node.js with custom server configurations.",
+      "severity_score": 30
+    },
+    {
+      "title": "Content Delivery Network",
+      "description": "Distributes website content globally to reduce latency and improve load times.",
+      "technical_spec": "Uses a CDN provider like Akamai or Cloudflare.",
+      "severity_score": 25
+    },
+    {
+      "title": "Microservices Architecture",
+      "description": "Modularizes various components of the website to improve scalability and maintainability.",
+      "technical_spec": "Containers and services managed possibly via Kubernetes or Docker.",
+      "severity_score": 40
+    },
+    {
+      "title": "Optimization Algorithms",
+      "description": "Enhances performance by optimizing images, scripts, and styles.",
+      "technical_spec": "Various minification techniques and lazy-loading strategies.",
+      "severity_score": 35
     }
   ]
 }

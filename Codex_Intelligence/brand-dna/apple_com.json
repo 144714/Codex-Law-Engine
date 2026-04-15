@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 243,
+    "rank": 253,
     "site": "apple.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "73917b0582e8c5844dbe055e8a2eefd4"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "54e75f8afb5fc3cbccf80d32cbbdefe0"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Apple's brand DNA includes a strong emphasis on innovation, consistently pushing technological boundaries.",
-      "technical_spec": "Continuous product and feature updates aligned with cutting-edge technology trends.",
-      "severity_score": 97
+      "title": "Minimalistic Design",
+      "description": "Reflects Apple's commitment to simplicity and elegance.",
+      "technical_spec": "Use of whitespace, minimal text, and a clean visual hierarchy.",
+      "severity_score": 10
     },
     {
-      "title": "Simplicity",
-      "description": "Products and services are designed to be intuitive and uncomplicated, focusing on a seamless user experience.",
-      "technical_spec": "Simplified interfaces and streamlined user interactions across all platforms.",
-      "severity_score": 95
+      "title": "Consistent Branding",
+      "description": "Reinforces Apple’s brand through consistent imagery and tone.",
+      "technical_spec": "Strict adherence to Apple's branding guidelines for color, typography, and imagery.",
+      "severity_score": 8
     },
     {
-      "title": "Premium Quality",
-      "description": "Apple epitomizes premium quality, from build to customer service and ecosystem interconnectivity.",
-      "technical_spec": "High-end materials, rigorous quality testing, and a cohesive ecosystem of devices and services.",
-      "severity_score": 96
+      "title": "Innovation Emphasis",
+      "description": "Showcases cutting-edge technology and products prominently.",
+      "technical_spec": "Interactive media and animations to highlight features and products.",
+      "severity_score": 20
     },
     {
-      "title": "Design Excellence",
-      "description": "Commitment to superior design aesthetics and functionality.",
-      "technical_spec": "Focus on minimalism, symmetry, and harmony in design principles.",
-      "severity_score": 94
+      "title": "User-Centric Approach",
+      "description": "Focuses on delivering an engaging and user-friendly experience.",
+      "technical_spec": "Regular usability testing and user feedback loops.",
+      "severity_score": 15
     },
     {
-      "title": "Ecosystem Integration",
-      "description": "Products and services are seamlessly interconnected, offering a cohesive user experience.",
-      "technical_spec": "Integration with iOS, macOS, watchOS, and other Apple services to provide synergy across devices.",
-      "severity_score": 92
+      "title": "Global Accessibility",
+      "description": "Ensures the site is accessible to a worldwide audience.",
+      "technical_spec": "Multi-language support and compliance with international accessibility standards.",
+      "severity_score": 12
     }
   ]
 }

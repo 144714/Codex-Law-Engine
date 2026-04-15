@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 248,
+    "rank": 258,
     "site": "adobe.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "1be0afeff1a984dc4d2e23b4778fca69"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "999a0c816a7cb59267932097db90de54"
   },
   "data": [
     {
-      "title": "Cloud-based Infrastructure",
-      "description": "Adobe utilizes a robust cloud infrastructure to deliver its suite of products and services.",
-      "technical_spec": "Adobe Experience Cloud with AWS and Microsoft Azure integrations.",
-      "severity_score": 15
-    },
-    {
-      "title": "Microservices Architecture",
-      "description": "Adobe's modular setup increases scalability and maintainability of services.",
-      "technical_spec": "Docker containers and Kubernetes orchestration.",
+      "title": "Web Framework",
+      "description": "Adobe.com is built using a combination of modern web technologies.",
+      "technical_spec": "Uses a combination of HTML5, CSS3, and JavaScript frameworks like React or Angular.",
       "severity_score": 20
     },
     {
-      "title": "Redundant Data Systems",
-      "description": "Provides redundancy and failover capabilities to ensure high availability.",
-      "technical_spec": "Geographically distributed data centers with load balancing.",
+      "title": "Backend Infrastructure",
+      "description": "Utilizes a robust backend structure to handle vast amounts of data and user requests.",
+      "technical_spec": "Primarily employs cloud services, possibly leveraging Adobe Experience Manager (AEM).",
+      "severity_score": 15
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Implements CDN to ensure swift content delivery across global regions.",
+      "technical_spec": "Employs CDNs such as Akamai or AWS CloudFront.",
       "severity_score": 10
     },
     {
-      "title": "CI/CD Pipelines",
-      "description": "Efficient deployment and integration processes to ensure rapid, reliable updates.",
-      "technical_spec": "Jenkins, GitLab CI, and automated testing frameworks.",
+      "title": "Database Management",
+      "description": "Supports complex querying and data storage through advanced database systems.",
+      "technical_spec": "Likely utilizes SQL and NoSQL databases for flexibility and scalability.",
       "severity_score": 25
     },
     {
-      "title": "APIs and SDKs",
-      "description": "Extensive set of APIs and SDKs available for developers to build on Adobe's platform.",
-      "technical_spec": "RESTful APIs with OAuth 2.0 security.",
-      "severity_score": 15
+      "title": "Microservices Architecture",
+      "description": "Facilitates change and scaling through microservices.",
+      "technical_spec": "Implemented using Docker and Kubernetes for containerization.",
+      "severity_score": 30
     }
   ]
 }

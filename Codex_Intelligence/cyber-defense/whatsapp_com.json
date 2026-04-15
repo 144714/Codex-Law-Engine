@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 250,
+    "rank": 260,
     "site": "whatsapp.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "0198482ae32d8762c5aa70ac7c4cf867"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "e254bf12e7933bbb87cd17b5d0827ecf"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Enhances account security through additional verification steps during login.",
-      "technical_spec": "Combines password with a temporary, time-based code.",
-      "severity_score": 5
-    },
-    {
-      "title": "Advanced Encryption Standards",
-      "description": "Uses strong encryption techniques to secure data in transit.",
-      "technical_spec": "AES-256 bit encryption for data and TLS for network security.",
-      "severity_score": 5
-    },
-    {
-      "title": "Abuse Detection Systems",
-      "description": "Monitors and detects potentially harmful behaviors or spam activities.",
-      "technical_spec": "Advanced machine learning and pattern recognition algorithms.",
-      "severity_score": 20
-    },
-    {
-      "title": "Vulnerability Management Program",
-      "description": "Regularly scans and patches vulnerabilities to protect against exploits.",
-      "technical_spec": "Automated tools and manual code reviews for vulnerability assessment.",
-      "severity_score": 10
-    },
-    {
-      "title": "Secure Backup and Data Recovery",
-      "description": "Ensures user data can be recovered in the case of a cyber disaster.",
-      "technical_spec": "Encrypted backups stored in secure data centers.",
+      "title": "Data Encryption Standards",
+      "description": "All communications are encrypted using advanced encryption standards to protect against eavesdropping.",
+      "technical_spec": "AES-256 encryption for data security.",
       "severity_score": 15
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regular assessments and updates are performed to identify and mitigate vulnerabilities.",
+      "technical_spec": "Continuous vulnerability scanning and patching practices.",
+      "severity_score": 50
+    },
+    {
+      "title": "Authentication Protocols",
+      "description": "Strong authentication mechanisms to ensure user account protection.",
+      "technical_spec": "Two-factor authentication offered to add an extra layer of security.",
+      "severity_score": 35
+    },
+    {
+      "title": "Anti-Spam Measures",
+      "description": "Sophisticated algorithms and user reporting features help to detect and block spam messages.",
+      "technical_spec": "Machine learning models detect abnormal patterns and behaviors.",
+      "severity_score": 45
+    },
+    {
+      "title": "Incident Response Plan",
+      "description": "Prepared protocols and teams in place to quickly respond to security incidents.",
+      "technical_spec": "Includes monitoring, detection systems, and a dedicated response team.",
+      "severity_score": 60
     }
   ]
 }

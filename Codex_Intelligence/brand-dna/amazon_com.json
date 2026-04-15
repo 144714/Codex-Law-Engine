@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 245,
+    "rank": 255,
     "site": "amazon.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "8fa753b051ea754ec527461e16c6587c"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "0b45cfba6215c1afbd640acd96c3bc62"
   },
   "data": [
     {
-      "title": "Customer Obsession",
-      "description": "Amazon places customers at the center of its universe, shaping all strategies and innovations.",
-      "technical_spec": "Customer feedback loops, personalization strategies, and customer service excellence.",
+      "title": "Customer Centricity",
+      "description": "Amazon embodies a relentless focus on customer experience and satisfaction.",
+      "technical_spec": "Voice of the Customer Programs, NPS Tracking",
       "severity_score": 95
     },
     {
+      "title": "Innovation Leadership",
+      "description": "Continuously innovates to set industry standards and delight customers.",
+      "technical_spec": "Patented Technologies, R&D Investments",
+      "severity_score": 85
+    },
+    {
       "title": "Operational Excellence",
-      "description": "Streamlined operations empower Amazon to offer competitive pricing and rapid delivery.",
-      "technical_spec": "Supply chain optimization, automated warehouse systems, and real-time tracking.",
+      "description": "Drives efficiency and effectiveness across all services and processes.",
+      "technical_spec": "Lean Processes, Continuous Improvement",
       "severity_score": 90
     },
     {
-      "title": "Innovative Culture",
-      "description": "Continuous innovation is a hallmark of Amazon's business strategy.",
-      "technical_spec": "Emphasis on R&D, cross-functional teams, and adoption of emerging technologies.",
-      "severity_score": 92
-    },
-    {
-      "title": "Global Reach",
-      "description": "Amazon's diverse market reach ensures an expansive consumer base worldwide.",
-      "technical_spec": "Localized websites, multilingual support, and international logistics.",
-      "severity_score": 89
-    },
-    {
-      "title": "Sustainability Initiatives",
-      "description": "Commitment to sustainability is reflected in Amazon's operations and goals.",
-      "technical_spec": "Renewable energy projects, sustainable packaging, and carbon-neutral incentives.",
+      "title": "Trust and Security",
+      "description": "Prioritizes secure transactions and data protection to build customer trust.",
+      "technical_spec": "PCI DSS Compliance, GDPR Initiatives",
       "severity_score": 88
+    },
+    {
+      "title": "Global Reach & Diversity",
+      "description": "Empowers access to Amazon’s vast marketplace across diverse regions.",
+      "technical_spec": "Localized Sites, Multi-Language Support",
+      "severity_score": 93
     }
   ]
 }

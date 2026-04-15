@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 244,
+    "rank": 254,
     "site": "microsoft.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "0c23580c9995b854ff1e960533cda16c"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "22926e8defc2ce0bf63e36ba4a6537d0"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Implements strong encryption standards to protect user data.",
-      "technical_spec": "TLS 1.3, AES-256 encryption.",
-      "severity_score": 5
-    },
-    {
-      "title": "Identity Protection",
-      "description": "Uses multi-factor authentication to secure user accounts.",
-      "technical_spec": "OAuth 2.0, MFA integration.",
+      "title": "Advanced Threat Protection",
+      "description": "Employs multi-layered threat protection to safeguard against cyber attacks.",
+      "technical_spec": "Microsoft Defender for Endpoint.",
       "severity_score": 15
     },
     {
-      "title": "Threat Detection",
-      "description": "Real-time monitoring for malicious activity.",
-      "technical_spec": "AI-driven threat detection systems.",
+      "title": "SSL/TLS Encryption",
+      "description": "Ensures encrypted communications between users and the server.",
+      "technical_spec": "SSL/TLS certificates with 2048-bit encryption.",
+      "severity_score": 10
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts frequent security audits to identify and mitigate vulnerabilities.",
+      "technical_spec": "Internal and third-party penetration testing.",
       "severity_score": 20
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular security assessments to manage vulnerabilities.",
-      "technical_spec": "Automated vulnerability scans, patch management.",
-      "severity_score": 25
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Enhances user security through additional identity verification measures.",
+      "technical_spec": "2FA options through SMS and authenticator apps.",
+      "severity_score": 15
     },
     {
-      "title": "Network Security",
-      "description": "Robust network protocols to prevent unauthorized access.",
-      "technical_spec": "Firewall, VPN, DDoS protection.",
-      "severity_score": 22
+      "title": "Data Breach Response Protocols",
+      "description": "Has well-defined protocols for identifying, responding to, and communicating data breaches.",
+      "technical_spec": "Incident response team and user notification systems.",
+      "severity_score": 25
     }
   ]
 }

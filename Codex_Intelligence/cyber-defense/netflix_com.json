@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 246,
+    "rank": 256,
     "site": "netflix.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "e813bcecf9e6a6469fd940de74cb7074"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "99b05105594798d8a9a2a57c63aee383"
   },
   "data": [
     {
-      "title": "Continuous Security Testing",
-      "description": "Regular security testing to identify and mitigate vulnerabilities.",
-      "technical_spec": "Automated penetration testing tools integrated into CI/CD pipelines.",
-      "severity_score": 40
+      "title": "User Authentication Security",
+      "description": "Enhanced security measures through multi-factor authentication.",
+      "technical_spec": "OAuth, Two-Factor Authentication",
+      "severity_score": 20
     },
     {
-      "title": "Encryption Standards",
-      "description": "Strict encryption of data both in transit and at rest.",
-      "technical_spec": "AES-256 encryption for data at rest and TLS 1.2+ for data in transit.",
+      "title": "Data Encryption",
+      "description": "User data and streaming content are encrypted end-to-end.",
+      "technical_spec": "SSL/TLS, AES Encryption",
+      "severity_score": 15
+    },
+    {
+      "title": "Threat Detection Systems",
+      "description": "Real-time monitoring for unusual access patterns and threats.",
+      "technical_spec": "Machine Learning, Anomaly Detection",
       "severity_score": 30
     },
     {
-      "title": "Threat Detection and Response",
-      "description": "Proactive monitoring and response to cyber threats.",
-      "technical_spec": "Utilizes machine learning-driven threat intelligence and anomaly detection tools.",
-      "severity_score": 35
+      "title": "API Security",
+      "description": "Strong API security practices to prevent unauthorized access.",
+      "technical_spec": "Rate Limiting, API Gateways",
+      "severity_score": 25
     },
     {
-      "title": "Access Control and Identity Management",
-      "description": "Comprehensive identity and access management (IAM) to control user access.",
-      "technical_spec": "Single Sign-On (SSO), Multi-Factor Authentication (MFA), and role-based access controls.",
-      "severity_score": 45
-    },
-    {
-      "title": "Security Compliance",
-      "description": "Adherence to global security standards and regulations.",
-      "technical_spec": "Compliance with standards such as GDPR, ISO 27001, and PCI DSS.",
-      "severity_score": 20
+      "title": "Vulnerability Management",
+      "description": "Regular system audits and patch management to prevent exploits.",
+      "technical_spec": "Penetration Testing, Patch Management",
+      "severity_score": 25
     }
   ]
 }

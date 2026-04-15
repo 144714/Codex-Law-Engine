@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 246,
+    "rank": 256,
     "site": "netflix.com",
-    "date": "2026-04-15 11:49",
-    "integrity_hash": "a04eb5a65b64de141697669c07048e9d"
+    "date": "2026-04-15 13:02",
+    "integrity_hash": "25d5fcc7a6bb310123ba9d23c286f7ae"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Netflix employs a microservices architecture to decouple various functionalities and achieve scalability.",
-      "technical_spec": "Utilizes Docker containers orchestrated by Kubernetes, with a service mesh for communication.",
-      "severity_score": 15
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Extensive use of CDNs to deliver content efficiently worldwide.",
-      "technical_spec": "CDNs such as Akamai and Amazon CloudFront are utilized to cache and deliver content.",
+      "title": "Microservices Infrastructure",
+      "description": "Netflix's backend architecture is based on microservices, allowing for independent deployment and scaling.",
+      "technical_spec": "Microservices, Kubernetes, Containerization",
       "severity_score": 10
     },
     {
-      "title": "Resilient Data Layer",
-      "description": "Netflix employs a resilient data layer to handle massive data traffic and throughput.",
-      "technical_spec": "Uses technologies such as Apache Cassandra and Elastic Search for data storage and retrieval.",
+      "title": "Cloud-Based Deployment",
+      "description": "The platform is deployed on cloud services, ensuring scalability and availability.",
+      "technical_spec": "AWS, Cloud Platforms, Auto-scaling",
+      "severity_score": 15
+    },
+    {
+      "title": "CDN Integration",
+      "description": "Content delivery is optimized through global CDN networks for lower latency.",
+      "technical_spec": "Content Delivery Network, Edge Servers",
       "severity_score": 20
     },
     {
-      "title": "Global Load Balancing",
-      "description": "Distributed global load balancing to manage traffic and ensure uptime.",
-      "technical_spec": "Employs DNS-based load balancing and Regional Secure Gateways.",
-      "severity_score": 18
+      "title": "Serverless Architecture",
+      "description": "Certain functions leverage serverless computing for agility and cost-efficiency.",
+      "technical_spec": "AWS Lambda, Event-Driven Architecture",
+      "severity_score": 25
     },
     {
-      "title": "Serverless Computing",
-      "description": "Adoption of serverless computing for certain use cases to improve efficiency.",
-      "technical_spec": "AWS Lambda and Google Cloud Functions are leveraged for some operations.",
-      "severity_score": 25
+      "title": "Load Balancing",
+      "description": "Strategic load balancing ensures consistent service availability and performance.",
+      "technical_spec": "Elastic Load Balancing, Traffic Management",
+      "severity_score": 15
     }
   ]
 }
