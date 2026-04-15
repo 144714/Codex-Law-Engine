@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 202,
+    "rank": 212,
     "site": "youtube.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "a957c219121be10d36abc5e8cb2bbd1a"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "2d8324e2566f0288982df21bb66308b8"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Predictive model for human movement in UI design.",
-      "technical_spec": "Button sizes and spacing are optimized for user actions.",
-      "severity_score": 10
-    },
-    {
-      "title": "Hick’s Law",
-      "description": "Time taken to make a decision increases with more choices.",
-      "technical_spec": "Clear hierarchies and categorization in content discovery.",
+      "title": "Hick's Law",
+      "description": "Minimizing decision-making time by simplifying user choices.",
+      "technical_spec": "Simple and logical menu structures with easily accessible options.",
       "severity_score": 15
     },
     {
-      "title": "Law of Proximity",
-      "description": "Objects close to each other are perceived as a group.",
-      "technical_spec": "Related video suggestions and elements grouped contextually.",
+      "title": "Fitts's Law",
+      "description": "Designs that allow quick and effective interactions, reducing the distance to actionable buttons.",
+      "technical_spec": "Responsive button placement and size optimization on mobile and desktop.",
       "severity_score": 20
     },
     {
-      "title": "Pareto Principle",
-      "description": "80% of effects come from 20% of the causes, applied to feature usage.",
-      "technical_spec": "Streamlined features in the user interface prioritize primary actions.",
-      "severity_score": 25
+      "title": "Gestalt Principles",
+      "description": "Utilizes proximity, similarity, and closure in visual design for effective grouping and navigation.",
+      "technical_spec": "Consistent iconography and spacing for intuitive groupings.",
+      "severity_score": 20
     },
     {
-      "title": "Tesler’s Law",
-      "description": "Each application has a complexity threshold that cannot be reduced.",
-      "technical_spec": "Balancing feature richness with simplicity in the user interface.",
-      "severity_score": 30
+      "title": "Miller’s Law",
+      "description": "Information chunking to improve content comprehension and recall.",
+      "technical_spec": "Video thumbnails and titles are designed for clarity and instant recognition.",
+      "severity_score": 15
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Interfaces following user expectations based on their experiences with other sites.",
+      "technical_spec": "Adoption of industry-standard design patterns like menu placement and video controls.",
+      "severity_score": 25
     }
   ]
 }

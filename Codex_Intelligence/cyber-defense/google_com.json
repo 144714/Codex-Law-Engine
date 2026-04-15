@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 201,
+    "rank": 211,
     "site": "google.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "f40392cb1aaa07e1565d96f8e8b1697b"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "5b9fb24349c225eb19f995247ae33ff9"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "All data transferred over Google's services is encrypted by default.",
-      "technical_spec": "Utilizes TLS 1.3 for secure data transmission.",
-      "severity_score": 5
-    },
-    {
       "title": "DDoS Protection",
-      "description": "Strong protections against Distributed Denial of Service attacks.",
-      "technical_spec": "Cloud Armor and advanced threat detection algorithms.",
-      "severity_score": 4
-    },
-    {
-      "title": "Advanced Threat Analysis",
-      "description": "Machine learning models for identifying potential security threats.",
-      "technical_spec": "Custom algorithms monitor traffic and flag anomalies.",
+      "description": "Protects servers from Distributed Denial of Service attacks.",
+      "technical_spec": "Utilizes proprietary anti-DDoS technology and high-bandwidth capacity.",
       "severity_score": 8
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Robust identity verification and access management practices.",
-      "technical_spec": "OAuth 2.0 and Multi-Factor Authentication for secure access control.",
+      "title": "End-to-End Encryption",
+      "description": "Ensures communication security by encrypting data between client and server.",
+      "technical_spec": "HTTPS with TLS encryption protocols.",
+      "severity_score": 5
+    },
+    {
+      "title": "Threat Detection",
+      "description": "Analyzes traffic patterns to identify and mitigate potential threats.",
+      "technical_spec": "Machine learning algorithms for anomaly detection.",
       "severity_score": 12
     },
     {
-      "title": "Zero Trust Security",
-      "description": "Google applies zero trust security models to limit access threats.",
-      "technical_spec": "User and device-based authentication and authorization.",
-      "severity_score": 9
+      "title": "Secure Authentication",
+      "description": "Protects user accounts with multi-factor authentication processes.",
+      "technical_spec": "OAuth 2.0 and FIDO2 standards for secure login.",
+      "severity_score": 10
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regularly reviews and patches system vulnerabilities.",
+      "technical_spec": "Automated scanning tools and security audits.",
+      "severity_score": 15
     }
   ]
 }

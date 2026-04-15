@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 208,
+    "rank": 218,
     "site": "adobe.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "92262b68adee23edaada621c87594464"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "bc46c804f38e3751f8f147cdfd681ed5"
   },
   "data": [
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Adobe's systems leverage cloud services to ensure scalability and reliability.",
-      "technical_spec": "Uses AWS and Azure for hosting and storage",
+      "title": "Microservices Architecture",
+      "description": "Adobe likely uses a microservices architecture to manage its diverse range of products and services efficiently.",
+      "technical_spec": "Deployed across a distributed network with Kubernetes for orchestration.",
       "severity_score": 10
     },
     {
-      "title": "Microservices Architecture",
-      "description": "Applications are broken down into smaller, manageable services.",
-      "technical_spec": "Utilizes Docker and Kubernetes for containerization",
+      "title": "Content Delivery Network (CDN)",
+      "description": "To enhance content delivery speed and reliability, Adobe utilizes a CDN for distributing content globally.",
+      "technical_spec": "Utilizes Akamai or a similar CDN solution to cache and serve content closer to user locations.",
       "severity_score": 15
     },
     {
-      "title": "Content Delivery Network",
-      "description": "Uses CDNs to deliver content swiftly across geographies.",
-      "technical_spec": "Employs Akamai for CDN services",
-      "severity_score": 5
-    },
-    {
-      "title": "RESTful APIs",
-      "description": "APIs are designed to be RESTful, ensuring integration with external systems.",
-      "technical_spec": "Follows HTTP/HTTPS protocols and JSON standards",
+      "title": "Cloud-Based Infrastructure",
+      "description": "Adobe's infrastructure is heavily based on cloud services to enable scalability and reliability.",
+      "technical_spec": "Primary services are hosted on AWS and Azure, leveraging cloud computing and storage.",
       "severity_score": 20
     },
     {
-      "title": "Serverless Computing",
-      "description": "Utilizes serverless frameworks to run tasks and processes.",
-      "technical_spec": "Incorporates AWS Lambda and Azure Functions",
+      "title": "API-Driven Ecosystem",
+      "description": "Adobe offers APIs for seamless integration across its applications and with third-party services.",
+      "technical_spec": "RESTful APIs with OAuth 2.0 for authentication and JSON for data interchange.",
       "severity_score": 25
+    },
+    {
+      "title": "Load Balancing and Auto-Scaling",
+      "description": "To handle high traffic and ensure optimal performance, Adobe employs load balancing and auto-scaling mechanisms.",
+      "technical_spec": "Load balancers via AWS Elastic Load Balancing, auto-scaling with cloud-native solutions.",
+      "severity_score": 30
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 202,
+    "rank": 212,
     "site": "youtube.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "b5cf9e90fa5ed6881a56f74a6e03df9a"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "4b45ac7f8dd05086179172ab56242b21"
   },
   "data": [
     {
-      "title": "Distributed Microservices",
-      "description": "YouTube uses a microservices architecture to separate functionalities into independent modules.",
-      "technical_spec": "A variety of services communicate over network protocols, often using RESTful APIs.",
-      "severity_score": 5
-    },
-    {
-      "title": "Content Delivery Network (CDN) Integration",
-      "description": "CDNs are used to distribute content efficiently and reduce latency.",
-      "technical_spec": "Multiple regional data centers handle the video streaming traffic.",
-      "severity_score": 15
-    },
-    {
-      "title": "Apache Kafka for Data Streaming",
-      "description": "Real-time data streaming for various analytics and recommendation engines.",
-      "technical_spec": "Uses Apache Kafka to manage real-time data pipelines and streaming applications.",
+      "title": "Microservices Architecture",
+      "description": "YouTube utilizes a microservices architecture to enhance scalability and manageability of different components.",
+      "technical_spec": "Decomposed monolithic applications into several independent services which communicate over an API.",
       "severity_score": 10
     },
     {
-      "title": "SQL and NoSQL Databases",
-      "description": "Combination of relational and non-relational databases to handle different data types and volumes.",
-      "technical_spec": "Utilizes databases such as Bigtable (NoSQL) and MySQL (SQL).",
+      "title": "Content Delivery Network (CDN)",
+      "description": "CDNs are employed to efficiently deliver videos, ensuring faster load times globally.",
+      "technical_spec": "Implemented with global edge servers caching content closer to users.",
+      "severity_score": 15
+    },
+    {
+      "title": "Data Center Load Balancing",
+      "description": "Distributes user requests across various data centers to optimize performance.",
+      "technical_spec": "Uses algorithms to direct traffic based on load, proximity, and availability.",
+      "severity_score": 15
+    },
+    {
+      "title": "RESTful API",
+      "description": "APIs facilitate interaction between the platform and third-party applications.",
+      "technical_spec": "Follows REST principles using stateless architecture for API calls.",
       "severity_score": 20
     },
     {
-      "title": "Global Load Balancing",
-      "description": "Ensures equitable distribution of incoming network traffic.",
-      "technical_spec": "Cloud-based load balancers distribute web traffic and adjust workloads dynamically.",
-      "severity_score": 30
+      "title": "Database Sharding",
+      "description": "Employs sharding to partition large databases to improve performance and manageability.",
+      "technical_spec": "Horizontally partitions data to distribute the load across multiple servers.",
+      "severity_score": 25
     }
   ]
 }

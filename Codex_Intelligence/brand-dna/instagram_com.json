@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 209,
+    "rank": 219,
     "site": "instagram.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "5ff3672a135c5b20a97e7dd8cba79b80"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "57101550d47869196094b17d2530e29c"
   },
   "data": [
     {
-      "title": "Visual Storytelling",
-      "description": "At the core of Instagram’s brand identity is the emphasis on visual content sharing.",
-      "technical_spec": "Features like Stories, IGTV, and Reels are optimized for user-generated media sharing.",
-      "severity_score": 30
-    },
-    {
-      "title": "Community Engagement",
-      "description": "Focuses on fostering a community where users can engage and interact through comments, likes, and shares.",
-      "technical_spec": "Algorithms prioritize content from accounts users regularly interact with, enhancing engagement.",
-      "severity_score": 25
-    },
-    {
-      "title": "Innovative Creativity",
-      "description": "Constantly evolving toolsets for users to express creativity through photos and videos.",
-      "technical_spec": "Offering of filters, editing tools, and effects like augmented reality overlays.",
+      "title": "Community-Centric",
+      "description": "Focuses on building supportive and interconnected communities globally.",
+      "technical_spec": "Features like Stories and Algorithms for personalized feed.",
       "severity_score": 20
     },
     {
-      "title": "Influencer Culture",
-      "description": "Supports and promotes influencer-driven economies with tools to monetize content.",
-      "technical_spec": "Insights analytics and branded content tags facilitate partnerships and sponsorships.",
-      "severity_score": 28
+      "title": "Creative Expression",
+      "description": "Provides tools for users to creatively express themselves with visuals.",
+      "technical_spec": "Photo filters, editing tools, AR effects.",
+      "severity_score": 15
     },
     {
-      "title": "Seamless Commerce Integration",
-      "description": "Facilitates integration of e-commerce with social browsing and shopping experiences.",
-      "technical_spec": "Features like Instagram Shop allow users to buy products through an integrated storefront.",
-      "severity_score": 32
+      "title": "Privacy Conscious",
+      "description": "Commitment to safeguarding user data and privacy.",
+      "technical_spec": "Privacy settings, user consent mechanisms.",
+      "severity_score": 25
+    },
+    {
+      "title": "Innovative Engagement",
+      "description": "Implements novel interaction methods to encourage user interaction.",
+      "technical_spec": "Live updates, IGTV, Reels.",
+      "severity_score": 30
+    },
+    {
+      "title": "Accessibility Importance",
+      "description": "Prioritizes accessibility to make Instagram usable by everyone.",
+      "technical_spec": "ALT text for images, color contrast settings.",
+      "severity_score": 10
     }
   ]
 }

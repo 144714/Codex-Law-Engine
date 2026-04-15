@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 203,
+    "rank": 213,
     "site": "apple.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "f338ae5ae6f6e44f3bd5c6dcabfef982"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "dd1f195fa18bcd3a85f8482290df7fb0"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simple navigation design reduces decision time by offering fewer choices.",
-      "technical_spec": "Streamlined Main Menu",
-      "severity_score": 10
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Large, clickable button elements improve accessibility and usability.",
-      "technical_spec": "Size and proximity for ease of use",
-      "severity_score": 10
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Related items are grouped together visually.",
-      "technical_spec": "Grid and card-based layout",
-      "severity_score": 5
-    },
-    {
-      "title": "Serial Position Effect",
-      "description": "Key information is positioned at the beginning and end of lists for impact.",
-      "technical_spec": "Homepage Hero Banners",
+      "title": "Hick's Law",
+      "description": "Simplified navigation to minimize user decision-making time.",
+      "technical_spec": "Streamlined menu layouts and clear call-to-action buttons.",
       "severity_score": 15
     },
     {
-      "title": "Peak-End Rule",
-      "description": "User experience focuses on creating memorable peak moments.",
-      "technical_spec": "Interactive Elements with high engagement",
-      "severity_score": 20
+      "title": "Fitts's Law",
+      "description": "Design elements placed for easy access and interaction.",
+      "technical_spec": "Large clickable areas and buttons with ample spacing.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "High aesthetic value contributes to perceived usability.",
+      "technical_spec": "Use of visually appealing typography and high-quality images.",
+      "severity_score": 5
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Design familiar to what users see across the web, leading to better user satisfaction.",
+      "technical_spec": "Consistent UI patterns and industry-standard navigation practices.",
+      "severity_score": 10
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Information is chunked into smaller, digestible pieces for easy comprehension.",
+      "technical_spec": "Use of concise copy, bullet points, and imagery.",
+      "severity_score": 15
     }
   ]
 }

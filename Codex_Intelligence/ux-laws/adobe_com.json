@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 208,
+    "rank": 218,
     "site": "adobe.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "1b1206bd9d8b72260dad442e2e27b6fe"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "1beb44927228b873bd8c33b0dd2c59dd"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Minimizes decision time by providing simple interfaces.",
-      "technical_spec": "Simplified navigation and minimalistic design",
-      "severity_score": 15
-    },
-    {
-      "title": "Fitts’ Law",
-      "description": "Designs interfaces that are easy and quick to navigate.",
-      "technical_spec": "Buttons and menus are strategically sized and placed",
-      "severity_score": 20
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Ensures that the visual design is intuitive and organized.",
-      "technical_spec": "Consistent use of proximity and similarity in UI elements",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Designs align with user expectations from other web experiences.",
-      "technical_spec": "Familiar layouts and user flows",
+      "title": "Fitt's Law",
+      "description": "Interface design follows Fitt’s Law to ensure that target areas are sized appropriately for efficient user interaction.",
+      "technical_spec": "User interface elements are designed with accessibility and ease-of-use in mind.",
       "severity_score": 5
     },
     {
-      "title": "Miller’s Law",
-      "description": "Designs account for human limits in processing information.",
-      "technical_spec": "Breaks down content into parts and uses progressive disclosure",
+      "title": "Hick's Law",
+      "description": "Simplification of choices in the UI minimizes the time required for users to make decisions.",
+      "technical_spec": "Implementing streamlined navigation and reducing cognitive load across platforms.",
+      "severity_score": 10
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Design elements are structured to present information in chunks, easing cognitive processing.",
+      "technical_spec": "Information architecture utilizes grouping to support Miller's limit of human memory.",
+      "severity_score": 15
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Ensuring consistency with user expectations by following familiar conventions in UI design.",
+      "technical_spec": "Adopts design patterns that users are accustomed to from other industry-standard apps.",
+      "severity_score": 20
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Elements within a UI are positioned in relation to each other to indicate association and improve user perception.",
+      "technical_spec": "Utilizes proximity in layout design to enhance visual cohesion and usability.",
       "severity_score": 25
     }
   ]

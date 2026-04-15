@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 201,
+    "rank": 211,
     "site": "google.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "492f420d616be23adf416d57de10b249"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "5b3db4821bf051cc2071f4c50ce3a1b1"
   },
   "data": [
     {
-      "title": "Fitt's Law",
-      "description": "UI elements are optimized for ease of access and interaction.",
-      "technical_spec": "Strategically positioned search bar and buttons for quick user access.",
-      "severity_score": 15
+      "title": "Fitts’s Law",
+      "description": "Design principle focusing on ease of interaction with UI elements based on their size and distance.",
+      "technical_spec": "Large clickable areas for important actions, minimalistic design.",
+      "severity_score": 30
     },
     {
-      "title": "Hick's Law",
-      "description": "Design prioritizes reduction of user choice complexity.",
-      "technical_spec": "Minimalist interface with focus on primary actions like search.",
+      "title": "Hick’s Law",
+      "description": "Methods to reduce user's decision time by minimizing choices.",
+      "technical_spec": "Optimized search functionality and simple navigation.",
+      "severity_score": 25
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Design consistency with user expectations based on frequent browser behaviors.",
+      "technical_spec": "Familiar UI patterns and search functionalities.",
       "severity_score": 20
     },
     {
-      "title": "Law of Proximity",
-      "description": "Logical grouping of related content for intuitive navigation.",
-      "technical_spec": "Visual grouping through subtle UI elements on landing pages.",
-      "severity_score": 10
+      "title": "Aesthetic-Usability Effect",
+      "description": "User perception of more attractive designs being easier to use.",
+      "technical_spec": "Clean interface with Google's minimalistic design roots.",
+      "severity_score": 15
     },
     {
-      "title": "Jakob's Law",
-      "description": "Consistency across Google products to enhance user familiarity.",
-      "technical_spec": "Unified design language for seamless transitions.",
-      "severity_score": 12
-    },
-    {
-      "title": "Pareto Principle",
-      "description": "Focus on key features that drive the majority of user engagement.",
-      "technical_spec": "Search functionality prioritized to serve 80% user needs.",
-      "severity_score": 18
+      "title": "Miller’s Law",
+      "description": "The limitation of human memory to handle about seven chunks of information.",
+      "technical_spec": "Streamlined information display and task segregation.",
+      "severity_score": 35
     }
   ]
 }

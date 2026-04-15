@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 205,
+    "rank": 215,
     "site": "amazon.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "7df538b50c2aadce74069028db671d64"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "5a2bf03cf91755c0372bd1d566b19538"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Amazon uses extensive encryption mechanisms to protect data both in transit and at rest.",
-      "technical_spec": "AES-256 encryption standard for data at rest, TLS for secure data transmission.",
-      "severity_score": 93
-    },
-    {
-      "title": "Identity and Access Management",
-      "description": "Strong IAM protocols ensure that access to data and systems is restricted to authorized users.",
-      "technical_spec": "Multi-factor authentication (MFA) and fine-grained permission policies.",
-      "severity_score": 92
-    },
-    {
-      "title": "Advanced Threat Detection",
-      "description": "Amazon utilizes AI-driven systems to continuously monitor and respond to security threats.",
-      "technical_spec": " AWS GuardDuty and Machine Learning models for anomaly detection.",
-      "severity_score": 89
+      "title": "Multi-Factor Authentication",
+      "description": "Enhanced user account security with two-step verification.",
+      "technical_spec": "SMS, email, and app-based verification.",
+      "severity_score": 30
     },
     {
       "title": "DDoS Protection",
-      "description": "Robust DDoS mitigation strategies to ensure availability and performance of services.",
-      "technical_spec": "AWS Shield Advanced for automated DDoS defense.",
-      "severity_score": 95
+      "description": "Protection mechanisms against distributed denial-of-service attacks.",
+      "technical_spec": "AWS Shield and AWS WAF integration.",
+      "severity_score": 25
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular security assessments and patch management to identify and mitigate vulnerabilities.",
-      "technical_spec": "Automated scanning tools and centralized patch management workflow.",
-      "severity_score": 87
+      "title": "Encryption",
+      "description": "Data encryption both at rest and in transit is crucial for security.",
+      "technical_spec": "AES-256 encryption, TLS/SSL protocols.",
+      "severity_score": 20
+    },
+    {
+      "title": "Continuous Monitoring",
+      "description": "Amazon employs tools to continuously monitor the network for security anomalies.",
+      "technical_spec": "Amazon GuardDuty, real-time alerts.",
+      "severity_score": 15
+    },
+    {
+      "title": "Identity and Access Management",
+      "description": "Strict control over user permissions and access levels.",
+      "technical_spec": "AWS IAM roles and policies.",
+      "severity_score": 10
     }
   ]
 }

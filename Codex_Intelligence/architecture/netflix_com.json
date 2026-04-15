@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 206,
+    "rank": 216,
     "site": "netflix.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "0aaf642b5ced6029088abf517a0a780c"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "9c2802c8de6607b747a3a2d5736aea2e"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Netflix uses a microservices architecture which allows for independent deployment and scaling of services.",
-      "technical_spec": "Services communicate via API gateways, ensuring loose coupling and high cohesion.",
-      "severity_score": 20
-    },
-    {
-      "title": "Backend Resilience Patterns",
-      "description": "Incorporates patterns like Hystrix for circuit breaking to prevent cascading failures.",
-      "technical_spec": "Uses bulkheads, timeouts, and fallbacks to isolate failures and protect dependencies.",
-      "severity_score": 15
-    },
-    {
-      "title": "Global Load Balancing",
-      "description": "Global load balancing is implemented to distribute traffic effectively across regions.",
-      "technical_spec": "Uses geographically distributed DNS and edge servers for traffic management.",
-      "severity_score": 25
-    },
-    {
-      "title": "Scalable Data Architecture",
-      "description": "Adopts NoSQL databases and data lakes to manage and analyze large-scale data.",
-      "technical_spec": "Employs cloud-native solutions like Cassandra, AWS S3 for storage needs.",
+      "description": "Netflix uses a microservices architecture to enhance scalability and manageability of its services.",
+      "technical_spec": "Distributed system with independently deployable services.",
       "severity_score": 10
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Netflix's CDN, Open Connect, improves video delivery speed and reliability.",
-      "technical_spec": "Strategically placed edge servers cache content close to viewers.",
-      "severity_score": 30
+      "description": "Netflix employs its own CDN named Open Connect to deliver streaming content efficiently.",
+      "technical_spec": "Strategically placed caching servers to optimize streaming quality.",
+      "severity_score": 5
+    },
+    {
+      "title": "Serverless Infrastructure",
+      "description": "Utilizes AWS Lambda and other cloud services for dynamic scaling and processing video workloads.",
+      "technical_spec": "AWS Fargate and Lambda functions for event-driven and scalable computations.",
+      "severity_score": 15
+    },
+    {
+      "title": "Data Pipeline and Storage",
+      "description": "Utilizes data pipelines for processing user and viewing data to drive personalization and recommendations.",
+      "technical_spec": "Apache Kafka, Amazon S3, and Hadoop for data processing and storage.",
+      "severity_score": 12
+    },
+    {
+      "title": "Resilient Architecture with Chaos Engineering",
+      "description": "Employs chaos engineering practices to ensure the system is resilient and fault-tolerant.",
+      "technical_spec": "Simian Army tools for stress testing and fault injection.",
+      "severity_score": 8
     }
   ]
 }

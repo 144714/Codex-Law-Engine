@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 207,
+    "rank": 217,
     "site": "spotify.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "ab228f740e14a3c38f4f8c0bd1a2e61d"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "8cc22a4f918a3c59cf0ca49a2983b21c"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Encryption applied throughout the data journey from client to server.",
-      "technical_spec": "Use of TLS/SSL protocols for secure data transmission.",
-      "severity_score": 10
+      "title": "Encryption",
+      "description": "Advanced encryption techniques are used to protect user data both in transit and at rest.",
+      "technical_spec": "TLS for data in transit, AES-256 for data at rest.",
+      "severity_score": 5
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Ongoing examination and remediation of security vulnerabilities.",
-      "technical_spec": "Formal audits performed with internal and external teams.",
-      "severity_score": 20
-    },
-    {
-      "title": "Multi-Factor Authentication",
-      "description": "Additional authentication steps to secure user accounts.",
-      "technical_spec": "Implemented through SMS and/or app-based methods.",
-      "severity_score": 15
-    },
-    {
-      "title": "Bot Detection Mechanisms",
-      "description": "Systems designed to identify and mitigate bot-related threats.",
-      "technical_spec": "Integration of CAPTCHA and anomaly detection algorithms.",
+      "title": "Threat Detection",
+      "description": "A comprehensive suite of tools is employed to detect and mitigate potential cyber threats in real time.",
+      "technical_spec": "Intrusion detection systems (IDS), SIEM solutions.",
       "severity_score": 25
     },
     {
-      "title": "Vulnerability Management Program",
-      "description": "A structured approach to address emerging threats and vulnerabilities.",
-      "technical_spec": "Proactive response strategies and patch management.",
-      "severity_score": 30
+      "title": "Access Control",
+      "description": "Strict access control mechanisms ensure that sensitive data is accessible only to authorized personnel.",
+      "technical_spec": "Role-based access control (RBAC), multi-factor authentication (MFA).",
+      "severity_score": 15
+    },
+    {
+      "title": "Security Audits",
+      "description": "Regular security audits and vulnerability assessments are conducted to maintain a robust security posture.",
+      "technical_spec": "Penetration testing, regular code reviews.",
+      "severity_score": 18
+    },
+    {
+      "title": "Compliance",
+      "description": "Spotify is compliant with global data protection laws to safeguard user privacy.",
+      "technical_spec": "GDPR compliance, adherence to industry-specific regulations.",
+      "severity_score": 10
     }
   ]
 }

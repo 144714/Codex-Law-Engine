@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 210,
+    "rank": 220,
     "site": "whatsapp.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "b8cfc73c2cefae737f60cf94bbd0ff86"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "89fef1d9ea4f9970b5d85252bfb11956"
   },
   "data": [
     {
-      "title": "Regular Security Audits",
-      "description": "Continuous security assessments and audits to identify and patch vulnerabilities.",
-      "technical_spec": "Third-party security testing and vulnerability assessment frameworks.",
-      "severity_score": 25
-    },
-    {
-      "title": "Two-Step Verification",
-      "description": "An additional layer of security to prevent unauthorized account access.",
-      "technical_spec": "Password and SMS or email verification.",
-      "severity_score": 30
-    },
-    {
-      "title": "Robust Authentication Mechanisms",
-      "description": "Authentication systems are in place to secure user access.",
-      "technical_spec": "OAuth 2.0 and custom token management.",
-      "severity_score": 28
-    },
-    {
-      "title": "Malware Protection",
-      "description": "Advanced detection and prevention mechanisms against malware.",
-      "technical_spec": "Real-time threat intelligence and machine learning-based detection.",
-      "severity_score": 33
-    },
-    {
-      "title": "Data Loss Prevention (DLP)",
-      "description": "Mechanisms to prevent unauthorized data access and leaks.",
-      "technical_spec": "Encryption, access controls, and monitoring.",
+      "title": "Two-Factor Authentication",
+      "description": "Provides an additional security layer by requiring a second authentication factor.",
+      "technical_spec": "Users can enable this feature to require a passcode in addition to their phone number for security.",
       "severity_score": 35
+    },
+    {
+      "title": "Real-Time Threat Detection",
+      "description": "Implements systems to detect and mitigate security threats in real-time.",
+      "technical_spec": "Uses machine learning algorithms to identify unusual patterns and potential breaches.",
+      "severity_score": 60
+    },
+    {
+      "title": "Spam and Abuse Monitoring",
+      "description": "Continuously monitors and reduces spam and abusive content.",
+      "technical_spec": "Employs AI and user reports to flag and remove unwanted content or block accounts.",
+      "severity_score": 50
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regular updates and patches to address vulnerabilities in the application.",
+      "technical_spec": "Follows a rigorous patch management schedule, informed by security audits and vulnerability scans.",
+      "severity_score": 40
+    },
+    {
+      "title": "Security Audits and Penetration Testing",
+      "description": "Periodically conducts security audits and penetration tests to assess and improve the system's defenses.",
+      "technical_spec": "Involves external security firms and internal red teams to evaluate security measures and protocols.",
+      "severity_score": 70
     }
   ]
 }

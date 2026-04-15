@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 206,
+    "rank": 216,
     "site": "netflix.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "7c4a7ccb25cbe2649f2ee068c2081f2e"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "9a2d81d1c70d8dbabe20d0e512a5c911"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Simplified user interfaces to reduce decision-making time and improve experience.",
-      "technical_spec": "Organizes content in logical, intuitive hierarchies to avoid cognitive overload.",
-      "severity_score": 20
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Highly focused on visual appeal to increase perceived usability.",
-      "technical_spec": "Design principles ensure consistency, simplicity, and attractiveness.",
-      "severity_score": 15
-    },
-    {
-      "title": "Pareto Principle (80/20 Rule)",
-      "description": "Focus on features most important to the user's core experience (e.g., streaming).",
-      "technical_spec": "Optimizes resources on high-impact features to maximize user engagement.",
-      "severity_score": 25
+      "description": "Simplified interfaces cater to user decision-making and minimize the time required to choose from streaming options.",
+      "technical_spec": "Navigation design with intuitive category groupings.",
+      "severity_score": 10
     },
     {
       "title": "Fitts’s Law",
-      "description": "Design placement to ensure quick navigation and interaction.",
-      "technical_spec": "Clickable areas and buttons are strategically sized and positioned for ease of access.",
-      "severity_score": 30
+      "description": "Focus on the ease of interaction with onscreen elements, such as buttons and screen navigation.",
+      "technical_spec": "Larger clickable areas for primary actions.",
+      "severity_score": 8
     },
     {
-      "title": "Law of Proximity",
-      "description": "Grouping of related content to enhance readability and comprehension.",
-      "technical_spec": "Layout design uses spacing effectively to intuitively group related elements.",
-      "severity_score": 10
+      "title": "Jakob’s Law",
+      "description": "Leverages user familiarity with common navigation patterns observed on other streaming platforms.",
+      "technical_spec": "Consistent UI components across pages.",
+      "severity_score": 7
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Uses limited information presentation to enhance memory retention and reduce cognitive load.",
+      "technical_spec": "Grid layouts and limited color palettes for content sections.",
+      "severity_score": 9
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Balancing aesthetic elements with high usability standards to encourage user satisfaction.",
+      "technical_spec": "High-resolution artwork and responsive design.",
+      "severity_score": 6
     }
   ]
 }

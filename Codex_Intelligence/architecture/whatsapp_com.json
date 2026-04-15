@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 210,
+    "rank": 220,
     "site": "whatsapp.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "cf9de4954d9fb17ef0e8e166e51e9deb"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "b9b6dd03453afa6e78b0fee1c1486a30"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "WhatsApp employs a microservices architecture to efficiently handle its large-scale, global user base.",
-      "technical_spec": "Decoupled services using RESTful APIs or gRPC for communication.",
-      "severity_score": 10
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "Messages are encrypted from sender to recipient, ensuring privacy and security.",
-      "technical_spec": "Uses the Signal Protocol for encryption.",
-      "severity_score": 15
-    },
-    {
-      "title": "Global Edge Network",
-      "description": "Distributed server infrastructure to minimize latency and enhance performance.",
-      "technical_spec": "Content Delivery Networks (CDN) and regional balancing.",
-      "severity_score": 12
-    },
-    {
-      "title": "Scalable Infrastructure",
-      "description": "WhatsApp's infrastructure is designed to scale horizontally to accommodate thousands of messages per second.",
-      "technical_spec": "Auto-scaling Kubernetes clusters and load balancing.",
+      "description": "WhatsApp employs a scalable microservices architecture to manage user interactions and features efficiently.",
+      "technical_spec": "The system is composed of multiple microservices, each responsible for specific functionalities like messaging, media sharing, and user authentication, typically using RESTful APIs.",
       "severity_score": 20
     },
     {
-      "title": "Cross-Platform Compatibility",
-      "description": "Supports multiple operating systems, ensuring high accessibility.",
-      "technical_spec": "Native applications for iOS, Android, Windows, and macOS.",
-      "severity_score": 18
+      "title": "End-to-End Encryption",
+      "description": "WhatsApp uses end-to-end encryption to ensure that only the communicating users can read the messages, enhancing privacy.",
+      "technical_spec": "Utilizes the Signal Protocol to encrypt messages, which means even WhatsApp cannot access the message contents.",
+      "severity_score": 10
+    },
+    {
+      "title": "Cross-Platform Synchronization",
+      "description": "Provides real-time message and data synchronization across multiple platforms, including iOS, Android, and web.",
+      "technical_spec": "Relies on cloud services and persistent connections to ensure data is consistent and up-to-date across user devices.",
+      "severity_score": 25
+    },
+    {
+      "title": "Messaging Protocol",
+      "description": "A custom messaging protocol that ensures reliable and fast message delivery across global networks.",
+      "technical_spec": "Based on the XMPP protocol but heavily modified for optimization and reliability at scale.",
+      "severity_score": 15
+    },
+    {
+      "title": "Data Storage and Management",
+      "description": "WhatsApp efficiently handles large volumes of data with a robust storage management system.",
+      "technical_spec": "Uses a mix of on-premise and cloud solutions, including database technologies like MySQL or NoSQL databases for scalable storage.",
+      "severity_score": 30
     }
   ]
 }

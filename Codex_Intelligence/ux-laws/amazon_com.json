@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 205,
+    "rank": 215,
     "site": "amazon.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "875fa384058e1d0f03bb81a33bee77ca"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "6f0499d33719d8fb03ebfe25d4565744"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Amazon optimizes decision-making time by simplifying user choices at checkout.",
-      "technical_spec": "Clear call-to-action buttons and streamlined navigation reducing cognitive load.",
-      "severity_score": 84
+      "description": "Simplified online browsing and purchasing processes reduce decision time.",
+      "technical_spec": "Structured menus, predictive search, and one-click ordering.",
+      "severity_score": 15
     },
     {
       "title": "Fitts's Law",
-      "description": "Design interface prioritizes important functions with larger targets and accessible proximity.",
-      "technical_spec": "Larger buttons for 'Buy Now', prominent search bar placement.",
-      "severity_score": 85
+      "description": "Efficient navigation is provided through optimized clickable areas and content layout.",
+      "technical_spec": "Responsive design, mobile-friendly interfaces.",
+      "severity_score": 10
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Content is organized into manageable chunks to aid comprehension and retention.",
+      "technical_spec": "Categories, subcategories, and filters.",
+      "severity_score": 10
     },
     {
       "title": "Jakob's Law",
-      "description": "Design aligns with user expectations by maintaining consistency with standards found in ecommerce applications.",
-      "technical_spec": "Consistent layout structure and familiar iconography.",
-      "severity_score": 90
+      "description": "Users prefer familiar functionality. Amazon aligns its features with user expectations.",
+      "technical_spec": "Standard e-commerce patterns, intuitive interfaces.",
+      "severity_score": 5
     },
     {
-      "title": "Law of Proximity",
-      "description": "Group related items to imply relationship and improve user comprehension.",
-      "technical_spec": "Product details, add-to-cart options, and pricing information grouped together.",
-      "severity_score": 87
-    },
-    {
-      "title": "Aesthetic Usability Effect",
-      "description": "A visually appealing design makes users perceive the system as more usable.",
-      "technical_spec": "Polished interface with a balance of media and text, soothing color palettes.",
-      "severity_score": 86
+      "title": "Peak-End Rule",
+      "description": "Focus on creating positive experiences at pivotal user journey points.",
+      "technical_spec": "Customer service chatbots, loyalty programs.",
+      "severity_score": 20
     }
   ]
 }

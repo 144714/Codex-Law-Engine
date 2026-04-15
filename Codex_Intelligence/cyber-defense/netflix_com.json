@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 206,
+    "rank": 216,
     "site": "netflix.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "6456578f29e0b35d5fce13c3c91524a3"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "3726dd93e1080b5d92bfaabbda0e4469"
   },
   "data": [
     {
-      "title": "Robust Identity and Access Management",
-      "description": "Comprehensive IAM policies ensure that only authorized users have access.",
-      "technical_spec": "Uses OAuth 2.0, multi-factor authentication, and role-based access control.",
-      "severity_score": 60
-    },
-    {
-      "title": "Advanced Threat Detection",
-      "description": "Utilizes machine learning for anomaly detection and threat prevention.",
-      "technical_spec": "Real-time analytics with AI-driven decision-making to combat cyber threats.",
-      "severity_score": 55
-    },
-    {
-      "title": "Zero Trust Security Model",
-      "description": "Adopts a Zero Trust approach to security, ensuring strict least-privilege access.",
-      "technical_spec": "Micro-segmentation, authentication, and encryption enforce security boundaries.",
-      "severity_score": 70
+      "title": "TLS/SSL Encryption",
+      "description": "Netflix encrypts data in transit using industry-standard encryption protocols to protect sensitive information.",
+      "technical_spec": "TLS 1.3 for client-server encryption.",
+      "severity_score": 5
     },
     {
       "title": "DDoS Protection",
-      "description": "Implements robust DDoS protection measures to ensure service availability.",
-      "technical_spec": "Cloudflare and in-house solutions handle distributed denial-of-service attacks.",
-      "severity_score": 50
+      "description": "Implements DDoS mitigation techniques to protect against distributed denial of service attacks.",
+      "technical_spec": "AWS Shield Advanced and custom-built defense mechanisms.",
+      "severity_score": 10
     },
     {
-      "title": "Data Encryption at Rest and in Transit",
-      "description": "All customer data is encrypted to secure it against unauthorized access.",
-      "technical_spec": "AES-256 encryption is used for at-rest data; TLS/SSL for data in transit.",
-      "severity_score": 45
+      "title": "User Authentication and Access Control",
+      "description": "Robust user authentication mechanisms to ensure secure access to accounts.",
+      "technical_spec": "Multi-factor authentication and OAuth 2.0 protocols.",
+      "severity_score": 15
+    },
+    {
+      "title": "Security Monitoring and Incident Response",
+      "description": "Continuous monitoring for security threats with a dedicated incident response team.",
+      "technical_spec": "SIEM tools and real-time anomaly detection.",
+      "severity_score": 12
+    },
+    {
+      "title": "Data Privacy and Compliance",
+      "description": "Adheres to global data privacy standards such as GDPR.",
+      "technical_spec": "Data anonymization and transparency in data usage.",
+      "severity_score": 8
     }
   ]
 }

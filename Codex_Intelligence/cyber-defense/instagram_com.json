@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 209,
+    "rank": 219,
     "site": "instagram.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "b3699e300cbd3c415baca918c8d3c1a7"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "9d397780127ef2aca5129484ae005b5e"
   },
   "data": [
     {
-      "title": "Two-factor Authentication",
-      "description": "An additional layer of security requiring a secondary verification step for user logins.",
-      "technical_spec": "Supports time-based one-time passwords (TOTPs) and SMS verification.",
-      "severity_score": 18
+      "title": "Multi-Factor Authentication",
+      "description": "Enhances user security with additional verification steps during login.",
+      "technical_spec": "TOTP, SMS-based 2FA support.",
+      "severity_score": 15
     },
     {
-      "title": "Data Encryption",
-      "description": "User data is encrypted in transit and at rest to protect privacy and integrity.",
-      "technical_spec": "TLS v1.2 or higher used for data in transit; AES-256 for data at rest.",
-      "severity_score": 22
-    },
-    {
-      "title": "Real-time Threat Monitoring",
-      "description": "Continuous monitoring for suspicious activities or attempts to breach security.",
-      "technical_spec": "Employs machine learning algorithms to detect anomalies in user behavior.",
-      "severity_score": 28
-    },
-    {
-      "title": "Account Recovery Protocols",
-      "description": "Secure methods in place for users to recover accounts compromised by unauthorized access.",
-      "technical_spec": "Multi-step verification process, including email and phone number validation.",
-      "severity_score": 23
-    },
-    {
-      "title": "Automated Mitigation Tools",
-      "description": "Systems in place to automatically respond to detected threats to minimize damage.",
-      "technical_spec": "DDoS protection layers and bot detection are implemented to shield the platform.",
+      "title": "End-to-End Encryption",
+      "description": "Ensures the privacy of messages and user data through encryption protocols.",
+      "technical_spec": "AES-256 encryption, RSA keys for data protection.",
       "severity_score": 30
+    },
+    {
+      "title": "Automated Threat Detection",
+      "description": "Monitors and mitigates suspicious activities through real-time analysis.",
+      "technical_spec": "Machine learning algorithms for threat analysis, integration with SIEM systems.",
+      "severity_score": 35
+    },
+    {
+      "title": "Secure Development Lifecycle",
+      "description": "Incorporates security practices at each phase of software development.",
+      "technical_spec": "Static code analysis tools, OWASP guidelines.",
+      "severity_score": 25
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts periodic security assessments and vulnerability testing.",
+      "technical_spec": "Penetration testing tools, vulnerability scanners like Nessus.",
+      "severity_score": 20
     }
   ]
 }

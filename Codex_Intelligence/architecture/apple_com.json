@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 203,
+    "rank": 213,
     "site": "apple.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "216fd8a6a7844b8bbcfa814c55ef117c"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "baa07211f3df4b56ed6af7909e76d8ab"
   },
   "data": [
     {
-      "title": "Global CDN Deployment",
-      "description": "A global Content Delivery Network (CDN) ensures fast content delivery and uptime.",
-      "technical_spec": "Akamai, Fastly",
+      "title": "Responsive Design",
+      "description": "Apple's website architecture is designed to be fully responsive, ensuring optimal viewing across various devices.",
+      "technical_spec": "CSS3 media queries, flexible grid layouts, and fluid images.",
+      "severity_score": 20
+    },
+    {
+      "title": "Single Page Application Elements",
+      "description": "Utilizes SPA techniques for a smoother user experience with minimal page reloads.",
+      "technical_spec": "JavaScript frameworks like React or Vue may be utilized.",
+      "severity_score": 30
+    },
+    {
+      "title": "Content Delivery Network",
+      "description": "The site employs a CDN to enhance page load speeds and global content delivery.",
+      "technical_spec": "Use of Akamai or another major CDN provider.",
       "severity_score": 10
     },
     {
       "title": "Microservices Architecture",
-      "description": "Apple's backend uses a microservices architecture for scalability and maintainability.",
-      "technical_spec": "Docker, Kubernetes",
-      "severity_score": 15
+      "description": "Microservices support scalability and independent deployment of site features.",
+      "technical_spec": "RESTful services or GraphQL APIs might be involved.",
+      "severity_score": 40
     },
     {
-      "title": "Responsive Web Design",
-      "description": "Flexible grid layout and images make the site responsive across devices.",
-      "technical_spec": "CSS Flexbox, Media Queries",
-      "severity_score": 5
-    },
-    {
-      "title": "High Availability Infrastructure",
-      "description": "Redundant systems ensure continuous service, even under failure conditions.",
-      "technical_spec": "Auto-Scaling Groups, Load Balancers",
-      "severity_score": 20
-    },
-    {
-      "title": "Server-side Rendering",
-      "description": "Pages are pre-rendered on the server to improve performance.",
-      "technical_spec": "Next.js, Node.js",
-      "severity_score": 15
+      "title": "SEO Optimization",
+      "description": "Architecture includes optimized meta tags, structured data, and fast loading times.",
+      "technical_spec": "Use of schema.org markup and lazy loading.",
+      "severity_score": 25
     }
   ]
 }

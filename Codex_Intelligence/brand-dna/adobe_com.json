@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 208,
+    "rank": 218,
     "site": "adobe.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "b9c77750ad15218126185c5c43884bcc"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "96a18cf1f8aab0769545ff8acb61b452"
   },
   "data": [
     {
-      "title": "Creative Innovation",
-      "description": "Emphasis on empowering creativity through advanced software solutions.",
-      "technical_spec": "Annual updates and introductions of new creative tools",
-      "severity_score": 10
-    },
-    {
-      "title": "Customer-Centric Design",
-      "description": "Focuses on intuitive and user-friendly product interfaces.",
-      "technical_spec": "Regularly conducts user testing and feedback sessions",
-      "severity_score": 15
-    },
-    {
-      "title": "Global Accessibility",
-      "description": "Strives to make products accessible worldwide.",
-      "technical_spec": "Supports multiple languages and regional standards",
+      "title": "Innovation and Creativity",
+      "description": "Adobe positions itself as a leader in creative software solutions, continuously pushing the envelope of what's possible.",
+      "technical_spec": "Integration of AI features like Adobe Sensei across products for enhancement of creative processes.",
       "severity_score": 5
     },
     {
+      "title": "User-Centric Design",
+      "description": "Adobe prioritizes the needs and feedback of its vast user base in product development.",
+      "technical_spec": "Conducts iterative testing and user research to refine and improve product experiences.",
+      "severity_score": 10
+    },
+    {
+      "title": "Collaboration and Community",
+      "description": "Building an engaging community for users to learn and grow through shared knowledge.",
+      "technical_spec": "Platforms like Adobe Behance and Adobe Live foster collaboration among creative professionals.",
+      "severity_score": 15
+    },
+    {
       "title": "Sustainability Commitment",
-      "description": "Promotes environmentally sustainable practices across operations.",
-      "technical_spec": "Initiatives for reducing carbon footprint and electronic waste",
+      "description": "Adobe is committed to environmental sustainability and responsible business practices.",
+      "technical_spec": "Implementation of sustainable data centers and eco-friendly policies across operations.",
       "severity_score": 20
     },
     {
-      "title": "Community Engagement",
-      "description": "Engages creative communities through forums and events.",
-      "technical_spec": "Adobe Live and MAX conferences",
+      "title": "Global Reach and Accessibility",
+      "description": "Adobe ensures its products are accessible to users globally through localized content and support.",
+      "technical_spec": "Localization efforts in languages and support as well as accessibility features adhering to WCAG standards.",
       "severity_score": 25
     }
   ]

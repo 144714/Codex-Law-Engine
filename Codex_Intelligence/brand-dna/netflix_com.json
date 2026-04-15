@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 206,
+    "rank": 216,
     "site": "netflix.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "ba02eb84d919148488d25212bb7a8aa5"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "1d37478cb9eb7e3ffd3de03fccdeec48"
   },
   "data": [
     {
-      "title": "Customer Obsession",
-      "description": "Centered around providing exceptional user experience and value.",
-      "technical_spec": "Constantly innovates based on customer feedback and behavioral data.",
-      "severity_score": 15
+      "title": "Global Adaptability",
+      "description": "Reflects a commitment to diverse content and a globally unified brand experience.",
+      "technical_spec": "Localization features and regional content licensing.",
+      "severity_score": 5
     },
     {
-      "title": "Creative Freedom",
-      "description": "Invests in producing a wide range of original content to attract diverse audiences.",
-      "technical_spec": "Collaborates extensively with various storytellers and content creators.",
-      "severity_score": 25
+      "title": "Continuous Innovation",
+      "description": "Focus on leading-edge technology implementations and content delivery strategies.",
+      "technical_spec": "AI-driven recommendation engines with real-time content adaption.",
+      "severity_score": 7
     },
     {
-      "title": "Data-Driven Culture",
-      "description": "Utilizes analytics for business decision-making and strategic planning.",
-      "technical_spec": "Deploys big data analytics tools to understand viewer preferences and trends.",
-      "severity_score": 30
+      "title": "Customer-Centric Approach",
+      "description": "Prioritizes user preferences and seamless content discovery.",
+      "technical_spec": "Personalized homepages and adjustable user settings.",
+      "severity_score": 8
     },
     {
-      "title": "Technological Innovation",
-      "description": "Constantly evolves its technical infrastructure to stay ahead in the industry.",
-      "technical_spec": "Invests in cutting-edge technologies for streaming, security, and content delivery.",
-      "severity_score": 20
+      "title": "Quality Content Production",
+      "description": "Investment in original content production as a key brand differentiator.",
+      "technical_spec": "High-budget original series and films with exclusive production agreements.",
+      "severity_score": 10
     },
     {
-      "title": "Global Expansion",
-      "description": "Focuses on expanding its global footprint to increase its market share.",
-      "technical_spec": "Leverages cultural insights to tailor content and marketing strategies for local markets.",
-      "severity_score": 35
+      "title": "Sustainability Commitment",
+      "description": "Dedicated to sustainable practices within its operations and content production cycles.",
+      "technical_spec": "Net-zero carbon footprint initiatives and renewable energy sourcing.",
+      "severity_score": 6
     }
   ]
 }

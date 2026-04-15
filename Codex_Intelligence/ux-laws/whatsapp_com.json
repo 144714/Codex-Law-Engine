@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 210,
+    "rank": 220,
     "site": "whatsapp.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "2ac5fadc92606cf4c1b9864133e5b297"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "52638b5f61962e29d3929c2011653bee"
   },
   "data": [
     {
-      "title": "Law of Clarity",
-      "description": "Clear interface design that prevents confusion and user errors.",
-      "technical_spec": "Minimalist design with intuitive navigation.",
-      "severity_score": 15
+      "title": "Hick's Law in Action",
+      "description": "Simplifies decision-making by reducing complexity in UI design.",
+      "technical_spec": "Interfaces are streamlined, focusing on essential features to minimize cognitive load.",
+      "severity_score": 25
     },
     {
-      "title": "Hick's Law",
-      "description": "Design to reduce the complexity of choices, enhancing decision-making speed.",
-      "technical_spec": "Prioritization of actions and shallow menu hierarchies.",
+      "title": "Gestalt Principle of Proximity",
+      "description": "Groups related elements together to form a coherent user experience.",
+      "technical_spec": "Leveraged in chat interfaces, where messages, timestamps, and user actions are closely placed to enhance readability.",
       "severity_score": 20
     },
     {
-      "title": "Fitts's Law",
-      "description": "Buttons are sized and positioned for easy access and interaction, especially on mobile.",
-      "technical_spec": "Consistent touch targets and spacing.",
+      "title": "Fitts's Law for Interaction Design",
+      "description": "Optimizes touch targets to enhance usability, especially on mobile devices.",
+      "technical_spec": "Critical interactive elements are sufficiently large and appropriately spaced for ease of use.",
+      "severity_score": 15
+    },
+    {
+      "title": "The Aesthetic-Usability Effect",
+      "description": "Aesthetically pleasing interfaces are easier to use and improve user satisfaction.",
+      "technical_spec": "Uses a minimalistic design approach with a consistent color palette that aligns with the brand.",
       "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Focused on limiting choices to prevent cognitive overload.",
-      "technical_spec": "Use of chunks and categorization in UI elements.",
-      "severity_score": 18
-    },
-    {
-      "title": "Serial Position Effect",
-      "description": "Important information or actions are positioned for maximum visibility and recall.",
-      "technical_spec": "Placement strategies in menus and notification areas.",
-      "severity_score": 12
+      "title": "Miller’s Law in Information Presentation",
+      "description": "Limits user exposure to just the necessary amount of information at one time to reduce overload.",
+      "technical_spec": "Information and notifications are chunked, and additional data is shown on demand.",
+      "severity_score": 30
     }
   ]
 }

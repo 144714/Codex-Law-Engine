@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 207,
+    "rank": 217,
     "site": "spotify.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "2059ea175fcdc92cda62ad271828532f"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "d9771373c71dbac7cf6705209cb998e4"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "The platform minimizes cognitive load by simplifying user choices.",
-      "technical_spec": "Intuitive navigation and categorized playlists.",
-      "severity_score": 5
-    },
-    {
       "title": "Fitts's Law",
-      "description": "Spotify ensures that important functions are easily accessible.",
-      "technical_spec": "Key actions can be performed with minimal physical effort.",
-      "severity_score": 10
+      "description": "Interface design that accounts for users taking action quickly by optimizing button size and placement.",
+      "technical_spec": "Adaptive UI scaling, intuitive navigation.",
+      "severity_score": 12
     },
     {
-      "title": "Jacob's Law",
-      "description": "The interface is designed to conform to user expectations based on other apps.",
-      "technical_spec": "Consistent design patterns found in similar music applications.",
-      "severity_score": 15
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Elements that are related in function are grouped together.",
-      "technical_spec": "Playlists and controls are strategically placed for user convenience.",
+      "title": "Hick's Law",
+      "description": "Minimized choices on the interface to reduce decision time and improve user experience.",
+      "technical_spec": "Simplified user flows, minimalistic design.",
       "severity_score": 8
     },
     {
-      "title": "Law of Similarity",
-      "description": "Visually similar elements are perceived as related, enhancing usability.",
-      "technical_spec": "Coherent color schemes and typography guide user perception.",
-      "severity_score": 12
+      "title": "Miller’s Law",
+      "description": "Users can only retain up to 7 items in their working memory, so menus and options are grouped logically.",
+      "technical_spec": "Logical grouping of playlists, categorized music recommendations.",
+      "severity_score": 10
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Being familiar with user expectations based on similar platforms to enhance usability.",
+      "technical_spec": "Consistent UI patterns, familiar icons.",
+      "severity_score": 18
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Emphasis on aesthetic design to create positive first impressions and perceived usability.",
+      "technical_spec": "High-fidelity graphics, smooth animations.",
+      "severity_score": 15
     }
   ]
 }

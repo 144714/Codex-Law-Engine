@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 201,
+    "rank": 211,
     "site": "google.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "b854b85087ef8c98964b1704975ca637"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "2b248eaeec20fb11d1aca755c0c7df85"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "Constant evolution and introduction of new technologies.",
-      "technical_spec": "AI and machine learning integration across platforms.",
-      "severity_score": 5
-    },
-    {
-      "title": "Simplicity",
-      "description": "Design and offerings are streamlined to enhance user focus.",
-      "technical_spec": "Minimalist approach to design and user interface.",
-      "severity_score": 15
+      "description": "Constant enhancement and development of new technology and services.",
+      "technical_spec": "Continuously evolving algorithms and AI integration.",
+      "severity_score": 10
     },
     {
       "title": "Reliability",
-      "description": "Uptime and performance are key brand promises.",
-      "technical_spec": "Commitment to high availability with robust infrastructures.",
-      "severity_score": 7
+      "description": "Commitment to providing dependable services with minimal downtime.",
+      "technical_spec": "Uptime track record and fast customer support response.",
+      "severity_score": 5
     },
     {
-      "title": "Global Reach",
-      "description": "Services are accessible worldwide, supporting various languages.",
-      "technical_spec": "Localization and international support across platforms.",
-      "severity_score": 12
+      "title": "User-Centric Design",
+      "description": "Focus on creating intuitive and human-friendly interfaces.",
+      "technical_spec": "User-centered design processes and A/B testing.",
+      "severity_score": 20
     },
     {
-      "title": "User-Centric Approach",
-      "description": "User feedback is integral to product development and service enhancements.",
-      "technical_spec": "Regular updates and feature rollouts based on user research.",
-      "severity_score": 10
+      "title": "Scalability",
+      "description": "Capability to accommodate increasing user load seamlessly.",
+      "technical_spec": "Scalable cloud infrastructure supporting exponential growth.",
+      "severity_score": 15
+    },
+    {
+      "title": "Security",
+      "description": "Maintaining the highest standards of user data protection.",
+      "technical_spec": "Comprehensive cyber-defense mechanisms and policies.",
+      "severity_score": 8
     }
   ]
 }

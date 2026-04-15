@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 203,
+    "rank": 213,
     "site": "apple.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "c5a74321e51d85e08bca72e13c20ac1b"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "f7b6460f62e6b1bd440917b4181bf8a9"
   },
   "data": [
     {
-      "title": "TLS Encryption",
-      "description": "TLS ensures secure connections between the client and server.",
-      "technical_spec": "TLS 1.2/1.3",
-      "severity_score": 5
+      "title": "HTTPS Encryption",
+      "description": "Ensures all data transmitted between users and the website is encrypted.",
+      "technical_spec": "TLS 1.3 with strong ciphers.",
+      "severity_score": 10
     },
     {
-      "title": "Web Application Firewall (WAF)",
-      "description": "Protects against common threats like SQL injection and XSS.",
-      "technical_spec": "ModSecurity",
+      "title": "Regular Security Audits",
+      "description": "Conducts frequent audits to identify and mitigate vulnerabilities.",
+      "technical_spec": "Use of automated security scanning tools.",
       "severity_score": 20
     },
     {
-      "title": "DDoS Mitigation",
-      "description": "Strategies to mitigate DDoS attacks and ensure service availability.",
-      "technical_spec": "Traffic filtering, Rate limiting",
+      "title": "Cross-Site Scripting (XSS) Protection",
+      "description": "Implements measures to thwart XSS attacks on user data.",
+      "technical_spec": "Content Security Policy (CSP) headers and sanitization of input data.",
       "severity_score": 25
     },
     {
-      "title": "Regular Vulnerability Scanning",
-      "description": "Scheduled scanning for known vulnerabilities and issues.",
-      "technical_spec": "Nessus, Qualys",
-      "severity_score": 30
+      "title": "DDoS Mitigation",
+      "description": "Protects against distributed denial of service attacks to maintain site availability.",
+      "technical_spec": "Cloudflare integration or similar solutions.",
+      "severity_score": 15
     },
     {
-      "title": "Secure Code Practices",
-      "description": "Strict code review and testing processes prior to deployment.",
-      "technical_spec": "OWASP Top Ten Compliance",
-      "severity_score": 10
+      "title": "Authentication and Session Management",
+      "description": "Utilizes robust methods for user authentication and session handling.",
+      "technical_spec": "OAuth 2.0, two-factor authentication (2FA).",
+      "severity_score": 30
     }
   ]
 }

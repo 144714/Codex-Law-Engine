@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 205,
+    "rank": 215,
     "site": "amazon.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "a60e29f44ca9a9d2a520bc6db93e602a"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "239293a6a4e32dfb64b69c5903c7bd4f"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Amazon's architecture is based on a microservices model, allowing different parts of the application to be developed, deployed, and scaled independently.",
-      "technical_spec": "Each service is a discrete piece of business functionality, with defined APIs.",
-      "severity_score": 90
+      "title": "Distributed Systems",
+      "description": "Amazon's architecture relies heavily on distributed systems to manage its vast network of services and databases.",
+      "technical_spec": "Microservices, data redundancy, fault tolerance, and load balancing.",
+      "severity_score": 10
     },
     {
       "title": "Scalable Infrastructure",
-      "description": "Amazon's infrastructure is designed to scale horizontally to handle large volumes of traffic and transactions.",
-      "technical_spec": "AWS infrastructure, leveraging tools like load balancers, auto-scaling, and distributed databases.",
-      "severity_score": 95
+      "description": "The platform is designed to scale rapidly in response to increased demand.",
+      "technical_spec": "Elastic Compute Cloud (EC2), Auto Scaling, and DynamoDB.",
+      "severity_score": 5
     },
     {
-      "title": "Service-Oriented Architecture (SOA)",
-      "description": "The architecture allows for integration of new services and features with minimal disruption.",
-      "technical_spec": "Decoupled services communicated over standardized protocols.",
-      "severity_score": 85
+      "title": "Data Centers",
+      "description": "Amazon utilizes numerous data centers globally to ensure low latency and high availability.",
+      "technical_spec": "Geo-redundancy, data replication, and edge nodes.",
+      "severity_score": 20
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Event sourcing and distributed event management across systems improve updates and real-time processing.",
-      "technical_spec": "Services capture and react to events using AWS SNS/SQS.",
-      "severity_score": 80
+      "title": "Serverless Computing",
+      "description": "Services like AWS Lambda are employed to provide serverless processing capabilities.",
+      "technical_spec": "Event-driven compute workloads, on-demand billing.",
+      "severity_score": 15
     },
     {
-      "title": "Global Network Infrastructure",
-      "description": "Amazon operates on a global scale with data centers located worldwide to optimize content delivery.",
-      "technical_spec": "AWS Global Accelerator and Edge caching via CloudFront.",
-      "severity_score": 88
+      "title": "Integrated Content Delivery Network",
+      "description": "Amazon CloudFront is used to deliver content with low latency and high transfer speeds.",
+      "technical_spec": "CDN, caching mechanisms, edge locations.",
+      "severity_score": 10
     }
   ]
 }

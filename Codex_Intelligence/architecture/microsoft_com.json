@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 204,
+    "rank": 214,
     "site": "microsoft.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "97bf3a6ddfb631163ed0a443fcb55550"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "9d32aac222e048f8e524f7d735ebb43d"
   },
   "data": [
     {
-      "title": "Microservices Infrastructure",
-      "description": "Microsoft.com is built on a microservices architecture, allowing for scalability and independent deployment of services.",
-      "technical_spec": "Docker, Kubernetes, Service Fabric",
-      "severity_score": 85
+      "title": "Responsive Design",
+      "description": "Ensures Microsoft site adapts to various device screens, from desktops to mobiles.",
+      "technical_spec": "Utilizes CSS media queries and flexible grids.",
+      "severity_score": 10
     },
     {
-      "title": "Cloud Integration",
-      "description": "The site is integrated with Microsoft's Azure cloud services for hosting and scaling.",
-      "technical_spec": "Azure Cloud Services, Azure DevOps",
-      "severity_score": 90
+      "title": "Microservices Infrastructure",
+      "description": "Allows independent scaling and deployment of components.",
+      "technical_spec": "Built using a range of services such as Azure Kubernetes Service.",
+      "severity_score": 15
+    },
+    {
+      "title": "Cloud Deployment",
+      "description": "Facilitates deployment and hosting in the cloud, offering scalability.",
+      "technical_spec": "Deployed on Microsoft Azure cloud platform.",
+      "severity_score": 20
     },
     {
       "title": "Content Delivery Network",
-      "description": "Utilizes a global CDN to deliver content quickly to users around the world.",
-      "technical_spec": "Akamai, Azure CDN",
-      "severity_score": 80
+      "description": "Uses a CDN to ensure fast global content delivery.",
+      "technical_spec": "Leverages Azure CDN for efficient media asset distribution.",
+      "severity_score": 5
     },
     {
-      "title": "Responsive Design",
-      "description": "Adaptive UI layouts ensure usability across a wide range of devices.",
-      "technical_spec": "CSS Grid, Media Queries",
-      "severity_score": 70
-    },
-    {
-      "title": "API Gateway",
-      "description": "Manages and routes internal and external API calls with secure protocols.",
-      "technical_spec": "Azure API Management, RESTful APIs",
-      "severity_score": 75
+      "title": "APIs and Integration",
+      "description": "Facilitates integration with third-party services and internal applications.",
+      "technical_spec": "Wide use of RESTful APIs for seamless data exchange.",
+      "severity_score": 25
     }
   ]
 }

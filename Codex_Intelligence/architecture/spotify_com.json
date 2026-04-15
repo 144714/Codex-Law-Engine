@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 207,
+    "rank": 217,
     "site": "spotify.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "558250d7efc06c7d2e4c2c1bed8f467f"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "a0eb02af71baeaff6404476dbe060b69"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Spotify leverages a microservices architecture to enhance scalability and maintainability.",
-      "technical_spec": "Utilization of independent and loosely coupled services for each functional component.",
+      "title": "Microservices",
+      "description": "Spotify's architecture is based on a microservices model, which enables small teams to own and manage different parts of the application.",
+      "technical_spec": "Decoupled services, RESTful APIs, containerization, Kubernetes.",
+      "severity_score": 10
+    },
+    {
+      "title": "Data-Driven Architecture",
+      "description": "The system is designed to collect, process, and analyze large volumes of data in real-time to personalize user experiences.",
+      "technical_spec": "Apache Kafka, Google BigQuery, real-time data streaming.",
       "severity_score": 15
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Spotify uses a CDN to efficiently deliver music content to users globally.",
-      "technical_spec": "Servers positioned strategically around the globe to reduce latency.",
-      "severity_score": 25
+      "title": "Event-Driven Communication",
+      "description": "Event-driven architecture allows Spotify to handle asynchronous communication between services efficiently.",
+      "technical_spec": "Event sourcing, CQRS, Pub/Sub messaging systems.",
+      "severity_score": 12
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Spotify employs event-driven patterns to manage asynchronous communication.",
-      "technical_spec": "Events are used to trigger and communicate between services.",
-      "severity_score": 30
+      "title": "Scalable Infrastructure",
+      "description": "Scalable servers to ensure reliability and availability during heavy traffic.",
+      "technical_spec": "AWS, Google Cloud Platform, auto-scaling groups.",
+      "severity_score": 8
     },
     {
-      "title": "APIs and Protocol Buffers",
-      "description": "Extensive use of APIs and Protocol Buffers for data serialization.",
-      "technical_spec": "APIs facilitate communication and Protocol Buffers optimize data exchange.",
+      "title": "Polycloud Strategy",
+      "description": "Utilization of multiple cloud providers to increase redundancy and optimize cost.",
+      "technical_spec": "Multi-cloud integrations, cloud resource management.",
       "severity_score": 20
-    },
-    {
-      "title": "Data Streaming Infrastructure",
-      "description": "Support for real-time data streaming to enable dynamic playlist updates.",
-      "technical_spec": "Implementation using Apache Kafka or similar technology.",
-      "severity_score": 35
     }
   ]
 }

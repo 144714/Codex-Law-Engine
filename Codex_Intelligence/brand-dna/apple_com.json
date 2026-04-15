@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 203,
+    "rank": 213,
     "site": "apple.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "25c0b444b112db5af2486c9160fed234"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "2e3aacfcea703479aa16e4c6583dde1f"
   },
   "data": [
     {
-      "title": "Minimalistic Design",
-      "description": "Simplicity and elegance are at the core of Apple's design philosophy.",
-      "technical_spec": "Clean UI, White space utilization",
+      "title": "Minimalist Design",
+      "description": "Focus on clean, uncluttered designs aligned with Apple's brand identity.",
+      "technical_spec": "Whitespace usage, intuitive layout structures.",
       "severity_score": 5
     },
     {
-      "title": "Product-Centric Imagery",
-      "description": "High-quality product images are prominently featured.",
-      "technical_spec": "4K Images, 3D Visuals",
+      "title": "High-Quality Imagery",
+      "description": "Emphasizes the use of high-resolution images to showcase products effectively.",
+      "technical_spec": "Retina displays optimized content.",
+      "severity_score": 10
+    },
+    {
+      "title": "Innovative UI Elements",
+      "description": "Embraces cutting-edge UI elements that reflect Apple's technological prowess.",
+      "technical_spec": "Animation libraries and SVGs for dynamic visuals.",
+      "severity_score": 10
+    },
+    {
+      "title": "Consistent Branding",
+      "description": "Maintains a consistent visual and tonal brand presence across all web entities.",
+      "technical_spec": "Brand guidelines adherence, consistent color palettes.",
       "severity_score": 5
     },
     {
-      "title": "Intuitive User Journey",
-      "description": "Streamlined pathways guide users from landing to checkout.",
-      "technical_spec": "Guided Navigation Systems",
+      "title": "User-Centric Approach",
+      "description": "Design decisions prioritize user needs and enhance the user experience.",
+      "technical_spec": "User personas and journey maps in design planning.",
       "severity_score": 10
-    },
-    {
-      "title": "Strong Visual Consistency",
-      "description": "Consistent use of typography and branding elements.",
-      "technical_spec": "San Francisco Font, Branding Guides",
-      "severity_score": 10
-    },
-    {
-      "title": "Innovation and Tech Savvy",
-      "description": "Constantly pushing the envelope with cutting-edge technologies.",
-      "technical_spec": "Integration with AR/VR, AI Suggestions",
-      "severity_score": 20
     }
   ]
 }

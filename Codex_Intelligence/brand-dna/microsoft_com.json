@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 204,
+    "rank": 214,
     "site": "microsoft.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "93da602ab5d4ae17666470a2e5558354"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "8101356025d89b040eb33cb92d791e93"
   },
   "data": [
     {
-      "title": "Brand Cohesion",
-      "description": "Ensures that all visual and textual elements across microsoft.com align with Microsoft's brand identity.",
-      "technical_spec": "Consistent use of logos, fonts, and color schemes",
-      "severity_score": 85
+      "title": "Innovation",
+      "description": "Promotes cutting-edge technology and forward-thinking solutions.",
+      "technical_spec": "Emphasis on AI, Cloud, and Mixed Reality development.",
+      "severity_score": 20
     },
     {
-      "title": "Innovative Leadership",
-      "description": "Reflects Microsoft’s position as a leader in technological innovations through forward-thinking design and functionality.",
-      "technical_spec": "Integration of AI-driven solutions, cloud-first design",
-      "severity_score": 90
-    },
-    {
-      "title": "Customer-Centric",
-      "description": "Focuses on user experience and satisfaction.",
-      "technical_spec": "Intuitive navigation, accessible web tools",
-      "severity_score": 80
+      "title": "Reliability",
+      "description": "Trusted brand in software and hardware, known for dependable products.",
+      "technical_spec": "Robust quality assurance and continuous support systems.",
+      "severity_score": 15
     },
     {
       "title": "Global Reach",
-      "description": "Caters to an international audience with multilingual support and regional content variations.",
-      "technical_spec": "Localized content delivery, internationalization frameworks",
-      "severity_score": 75
+      "description": "Widely recognized, and accessible, serving a vast international audience.",
+      "technical_spec": "Localization and scalability in products and services.",
+      "severity_score": 25
     },
     {
-      "title": "Security and Trust",
-      "description": "Emphasizes user data protection and secure transactions as core brand values.",
-      "technical_spec": "Compliance with GDPR and other international standards",
-      "severity_score": 90
+      "title": "Customer-Centric",
+      "description": "Focus on user and customer experience through responsive service.",
+      "technical_spec": "Comprehensive customer support and feedback integration.",
+      "severity_score": 10
+    },
+    {
+      "title": "Sustainability",
+      "description": "Commitment to environmental sustainability and ethical practices.",
+      "technical_spec": "Investment in green energy and sustainable practices.",
+      "severity_score": 30
     }
   ]
 }

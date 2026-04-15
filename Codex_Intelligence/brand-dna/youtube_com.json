@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 202,
+    "rank": 212,
     "site": "youtube.com",
-    "date": "2026-04-15 04:39",
-    "integrity_hash": "61658d0d4a890f4583255fc8200eed7a"
+    "date": "2026-04-15 06:28",
+    "integrity_hash": "8f04659504dd590ce8dd399d9b33bea5"
   },
   "data": [
     {
-      "title": "Community Engagement",
-      "description": "Fostering an active user community through comments, likes, and shares.",
-      "technical_spec": "Platforms and algorithms support user interaction and feedback.",
-      "severity_score": 30
+      "title": "Community-Centric",
+      "description": "Emphasis on fostering a global community through user-generated content.",
+      "technical_spec": "Features like comments, live chats, and community posts.",
+      "severity_score": 20
     },
     {
-      "title": "Content Creation",
-      "description": "Empowerment of creators to produce and distribute content.",
-      "technical_spec": "Dedicated tools and analytics for creators to manage their channels.",
-      "severity_score": 40
+      "title": "Innovative Technology",
+      "description": "Commitment to using cutting-edge tech for video delivery and user experience.",
+      "technical_spec": "Regular updates integrating AI, AR, and greater interactivity in content.",
+      "severity_score": 20
     },
     {
-      "title": "Accessibility",
-      "description": "Commitment to making content accessible to all users.",
-      "technical_spec": "Features such as captions, translations, and audio descriptions.",
-      "severity_score": 50
+      "title": "Accessibility Focus",
+      "description": "Prioritizes inclusivity with tools for various user needs.",
+      "technical_spec": "Closed captions, audio descriptions, and screen reader optimization.",
+      "severity_score": 15
     },
     {
-      "title": "Innovation",
-      "description": "Continuous investment in new video technologies and services.",
-      "technical_spec": "R&D into VR, AR, and live streaming capabilities.",
-      "severity_score": 35
+      "title": "Global Reach",
+      "description": "Ensures content accessibility and relevance for diverse international audiences.",
+      "technical_spec": "Multi-language support and localized content recommendations.",
+      "severity_score": 20
     },
     {
-      "title": "Diversity & Inclusion",
-      "description": "Promoting diverse content from global voices.",
-      "technical_spec": "Content policies and algorithms that surface various perspectives.",
-      "severity_score": 45
+      "title": "Educational Resource",
+      "description": "Supports educational content creators with monetization and outreach tools.",
+      "technical_spec": "YouTube EDU, partnerships and YouTube Kids for safe learning environments.",
+      "severity_score": 25
     }
   ]
 }
