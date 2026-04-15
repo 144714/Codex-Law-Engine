@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 239,
+    "rank": 249,
     "site": "instagram.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "11a3f2bc557ef51a0cad4a96fae128f4"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "d1ebfdaf3e65615a96d85102d827015d"
   },
   "data": [
     {
-      "title": "Monolithic Codebase",
-      "description": "Instagram employs a large, intertwined codebase that may be difficult to scale and manage.",
-      "technical_spec": "PHP-based server-side with React Native for mobile UI.",
+      "title": "Microservices Architecture",
+      "description": "Instagram utilizes a microservices architecture to enhance scalability and manage complex dependencies across its platform.",
+      "technical_spec": "Distributed system with interconnected services, each responsible for specific features.",
+      "severity_score": 85
+    },
+    {
+      "title": "Graph API",
+      "description": "The Instagram Graph API allows integration and data access for developers, enabling the extension and customization of user experiences.",
+      "technical_spec": "RESTful API with endpoints for managing photos, videos, comments, and user profiles.",
       "severity_score": 70
     },
     {
-      "title": "Microservices Transition",
-      "description": "Gradual shift from monolithic to microservices architecture to improve scalability.",
-      "technical_spec": "Containers, Kubernetes, and service-oriented architecture principles.",
-      "severity_score": 40
+      "title": "Content Delivery Network (CDN)",
+      "description": "Utilizes a CDN to reduce latency and improve content delivery speed by caching photos and videos closer to users geographically.",
+      "technical_spec": "Third-party CDN providers integrated within the app's data flow.",
+      "severity_score": 65
     },
     {
-      "title": "Data Storage Solutions",
-      "description": "Utilizes a combination of SQL and NoSQL databases for efficient data management.",
-      "technical_spec": "MySQL and Cassandra for structured and unstructured data.",
-      "severity_score": 50
+      "title": "Database Sharding",
+      "description": "Implements sharding to handle massive data volumes efficiently, distributing data across multiple database instances.",
+      "technical_spec": "Partitioning strategy that segments data based on predefined keys, often user IDs.",
+      "severity_score": 75
     },
     {
-      "title": "High Availability",
-      "description": "The architecture is designed for high uptime with global CDN deployment.",
-      "technical_spec": "Use of distributed data centers and load balancers such as HAProxy.",
-      "severity_score": 20
-    },
-    {
-      "title": "API-Driven Development",
-      "description": "Extensive use of APIs for both internal functions and public endpoints.",
-      "technical_spec": "RESTful APIs with JSON responses.",
-      "severity_score": 60
+      "title": "Machine Learning Integration",
+      "description": "Machine learning models are utilized to enhance features such as feed ranking, content suggestions, and spam detection.",
+      "technical_spec": "Algorithms processed in distributed clusters using frameworks like TensorFlow and PyTorch.",
+      "severity_score": 80
     }
   ]
 }

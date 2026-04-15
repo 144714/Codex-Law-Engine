@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 238,
+    "rank": 248,
     "site": "adobe.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "0580e868aa9d07d16a5be517c0e87d7e"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "48b67c27803d11c22c7d37d8443c3b8e"
   },
   "data": [
     {
-      "title": "Zero Trust Security",
-      "description": "Adopts a zero trust model that assumes threats are present inside and outside the network.",
-      "technical_spec": "Identity-based access controls and multi-factor authentication.",
-      "severity_score": 75
+      "title": "Zero Trust Security Model",
+      "description": "A strict identity verification process for all users, internal or external.",
+      "technical_spec": "Multi-factor authentication and conditional access.",
+      "severity_score": 20
     },
     {
-      "title": "Data Encryption",
-      "description": "Utilizes strong encryption methods to protect data both in transit and at rest.",
-      "technical_spec": "AES-256 encryption for data storage and TLS/SSL for data transmission.",
-      "severity_score": 70
+      "title": "Advanced Threat Protection",
+      "description": "Continuous monitoring for abnormal activities across the network.",
+      "technical_spec": "Machine learning algorithms and AI-driven insights.",
+      "severity_score": 30
+    },
+    {
+      "title": "Data Encryption Protocols",
+      "description": "Ensures data at rest and in transit are encrypted at all times.",
+      "technical_spec": "AES 256-bit encryption and TLS 1.3 standards.",
+      "severity_score": 25
     },
     {
       "title": "Regular Security Audits",
-      "description": "Frequent security audits and vulnerability assessments to prevent breaches.",
-      "technical_spec": "Third-party audits and internal vulnerability scanning tools.",
-      "severity_score": 65
-    },
-    {
-      "title": "Advanced Threat Detection",
-      "description": "Deploys AI-powered solutions to detect and mitigate advanced cyber threats in real-time.",
-      "technical_spec": "Machine learning-based anomaly detection systems.",
-      "severity_score": 80
+      "description": "Frequent security assessments to identify and mitigate potential vulnerabilities.",
+      "technical_spec": "Independent third-party audits and penetration testing.",
+      "severity_score": 35
     },
     {
       "title": "Incident Response Plan",
-      "description": "Comprehensive incident response strategy to handle any data breaches or cyber attacks.",
-      "technical_spec": "Robust policies, procedures, and a dedicated security operations center.",
-      "severity_score": 85
+      "description": "Comprehensive strategy to respond to security incidents effectively.",
+      "technical_spec": "Detailed incident response playbooks and communication protocols.",
+      "severity_score": 40
     }
   ]
 }

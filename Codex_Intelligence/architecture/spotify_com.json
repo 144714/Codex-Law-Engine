@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 237,
+    "rank": 247,
     "site": "spotify.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "1c852efd814266be091978f64f6046c7"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "8fb71b519535f13f18ffe276e6a8a989"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Spotify uses a microservices-based architecture allowing independent scaling and deployment of services.",
-      "technical_spec": "Consists of numerous small, interconnected services deployed using Kubernetes.",
-      "severity_score": 15
+      "title": "Service-Oriented Architecture",
+      "description": "Spotify uses a complex service-oriented architecture to handle its large user base and deliver music content efficiently.",
+      "technical_spec": "Microservices deployed on cloud infrastructure, using Docker and Kubernetes for scalability.",
+      "severity_score": 95
     },
     {
-      "title": "Cloud Infrastructure",
-      "description": "The platform leverages cloud computing resources to ensure scalability and reliability.",
-      "technical_spec": "Primarily hosted on Google Cloud Platform for its global reach and scalability.",
-      "severity_score": 10
+      "title": "Distributed Database System",
+      "description": "Spotify leverages distributed databases to store user data and music catalog with high availability.",
+      "technical_spec": "Cassandra for scalability, PostgreSQL for relational data management, with in-house optimizations.",
+      "severity_score": 90
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "CDNs are employed to distribute music content efficiently across different regions.",
-      "technical_spec": "Uses a network of servers located around the world to cache content close to users.",
-      "severity_score": 20
+      "title": "Event-Driven Architecture",
+      "description": "In Spotify, event-driven architecture facilitates real-time data processing and system integration.",
+      "technical_spec": "Apache Kafka is used for message queuing and stream processing across services.",
+      "severity_score": 88
     },
     {
-      "title": "Data Streaming Pipeline",
-      "description": "Processes large volumes of data in real-time for personalized experiences.",
-      "technical_spec": "Built on Apache Kafka for high-throughput data streaming and processing.",
-      "severity_score": 25
+      "title": "Content Delivery Network",
+      "description": "Spotify employs CDN strategies to reduce latency and improve quality of service for end users.",
+      "technical_spec": "Akamai and AWS CloudFront are integrated for fast delivery of music and media assets.",
+      "severity_score": 87
     },
     {
-      "title": "APIs & Integration",
-      "description": "Robust API ecosystem enables third-party integrations and platform extensibility.",
-      "technical_spec": "RESTful APIs conforming to standard HTTP methods for easy integration.",
-      "severity_score": 30
+      "title": "Load Balancing and Caching",
+      "description": "Advanced load balancing and caching mechanisms are implemented to efficiently manage user requests.",
+      "technical_spec": "Nginx for load balancing and Redis for in-memory caching to ensure fast response times.",
+      "severity_score": 89
     }
   ]
 }

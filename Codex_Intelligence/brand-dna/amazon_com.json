@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 235,
+    "rank": 245,
     "site": "amazon.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "0784829d720b17118423f32fb83c0a54"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "8fa753b051ea754ec527461e16c6587c"
   },
   "data": [
     {
-      "title": "Customer Centricity",
-      "description": "Commitment to exceptional customer service and experience is central to the brand ethos.",
-      "technical_spec": "24/7 support, hassle-free returns policy",
-      "severity_score": 2
+      "title": "Customer Obsession",
+      "description": "Amazon places customers at the center of its universe, shaping all strategies and innovations.",
+      "technical_spec": "Customer feedback loops, personalization strategies, and customer service excellence.",
+      "severity_score": 95
     },
     {
-      "title": "Innovation Leadership",
-      "description": "Strives to innovate through technology and processes as a market leader.",
-      "technical_spec": "Research & Development investment",
-      "severity_score": 10
+      "title": "Operational Excellence",
+      "description": "Streamlined operations empower Amazon to offer competitive pricing and rapid delivery.",
+      "technical_spec": "Supply chain optimization, automated warehouse systems, and real-time tracking.",
+      "severity_score": 90
     },
     {
-      "title": "Operational Efficiency",
-      "description": "Relentless focus on streamlining operations to offer lower prices and quick service.",
-      "technical_spec": "Logistics automation, AI optimizations",
-      "severity_score": 15
+      "title": "Innovative Culture",
+      "description": "Continuous innovation is a hallmark of Amazon's business strategy.",
+      "technical_spec": "Emphasis on R&D, cross-functional teams, and adoption of emerging technologies.",
+      "severity_score": 92
     },
     {
-      "title": "Trust and Security",
-      "description": "Fosters brand loyalty through commitment to user data protection and secure transactions.",
-      "technical_spec": "Secure payment gateways",
-      "severity_score": 12
+      "title": "Global Reach",
+      "description": "Amazon's diverse market reach ensures an expansive consumer base worldwide.",
+      "technical_spec": "Localized websites, multilingual support, and international logistics.",
+      "severity_score": 89
     },
     {
-      "title": "Global Expansion",
-      "description": "Continual expansion into global markets while catering to localized needs.",
-      "technical_spec": "Multilingual support, country-specific offerings",
-      "severity_score": 20
+      "title": "Sustainability Initiatives",
+      "description": "Commitment to sustainability is reflected in Amazon's operations and goals.",
+      "technical_spec": "Renewable energy projects, sustainable packaging, and carbon-neutral incentives.",
+      "severity_score": 88
     }
   ]
 }

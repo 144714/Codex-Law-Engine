@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 238,
+    "rank": 248,
     "site": "adobe.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "90c0c84a041c8f45726bc74df3186eda"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "f3dc22f3d04c01ce4f669fad34a2cec5"
   },
   "data": [
     {
-      "title": "Creativity Empowerment",
-      "description": "Adobe's brand is centered around empowering creativity in individuals and businesses worldwide.",
-      "technical_spec": "Software products like Photoshop, Illustrator, and Premiere Pro designed for creative professionals.",
-      "severity_score": 10
+      "title": "Creative Suite Integration",
+      "description": "Unified experience across Adobe's array of creative tools.",
+      "technical_spec": "Cross-product features and synchronized workflows.",
+      "severity_score": 30
     },
     {
-      "title": "Innovation",
-      "description": "Focus on continuous innovation to lead the creative software industry.",
-      "technical_spec": "Investment in AI-driven features and cloud-based offerings.",
-      "severity_score": 15
-    },
-    {
-      "title": "Reliability",
-      "description": "Adobe is known for offering reliable, professional-grade solutions to creative challenges.",
-      "technical_spec": "Robust software with regular updates and support services.",
+      "title": "Innovative Design Heritage",
+      "description": "Strong emphasis on cutting-edge design and technological innovation.",
+      "technical_spec": "Continuous updates and pioneering design features.",
       "severity_score": 20
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Prioritizes user experience and customer feedback in product development.",
-      "technical_spec": "Regular usability testing and design based on user research.",
-      "severity_score": 12
+      "title": "Customer-Centric Approach",
+      "description": "Focused on user feedback and needs to drive product development.",
+      "technical_spec": "User research and iterative design processes.",
+      "severity_score": 15
     },
     {
-      "title": "Community Engagement",
-      "description": "Strong emphasis on community involvement and user communities for product growth.",
-      "technical_spec": "Support forums, online communities, and events like Adobe MAX.",
-      "severity_score": 18
+      "title": "Sustainability and Responsibility",
+      "description": "Commitment to sustainability and ethical business practices.",
+      "technical_spec": "Green initiatives and responsible sourcing.",
+      "severity_score": 10
+    },
+    {
+      "title": "Global Community Engagement",
+      "description": "Empowering creatives worldwide through community programs and resources.",
+      "technical_spec": "Online forums, global events, and educational resources.",
+      "severity_score": 25
     }
   ]
 }

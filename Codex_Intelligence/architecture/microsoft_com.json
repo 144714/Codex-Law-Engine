@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 234,
+    "rank": 244,
     "site": "microsoft.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "805053e0fd9bfd6640161aff832fb6c0"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "899bcad3815722ddc23b65911b319d4f"
   },
   "data": [
     {
-      "title": "Cloud-First Infrastructure",
-      "description": "Microsoft.com leverages Azure's robust cloud infrastructure to ensure scalability and high availability.",
-      "technical_spec": "Built on Azure cloud services utilizing IaaS and PaaS models.",
-      "severity_score": 5
+      "title": "Modular Design",
+      "description": "The site uses a modular architecture with components that can be reused across different pages.",
+      "technical_spec": "React components, microservices architecture.",
+      "severity_score": 15
     },
     {
-      "title": "Microservices Architecture",
-      "description": "Adoption of a microservices architecture for flexibility and ease of updates.",
-      "technical_spec": "Docker containers and Kubernetes orchestrations manage microservices.",
+      "title": "Cloud Integration",
+      "description": "Integrated with Azure services for scalable hosting and data processing.",
+      "technical_spec": "Azure cloud services, Kubernetes.",
+      "severity_score": 20
+    },
+    {
+      "title": "Responsive Layout",
+      "description": "Design automatically adjusts to different screen sizes to ensure usability across devices.",
+      "technical_spec": "CSS Flexbox, Grid layouts, media queries.",
       "severity_score": 10
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Integration of Azure CDN to deliver static assets efficiently.",
-      "technical_spec": "Static content is served through Azure's global CDN endpoints.",
-      "severity_score": 8
+      "title": "Performance Optimization",
+      "description": "Optimized for fast load times with caching and content delivery networks.",
+      "technical_spec": "CDN, lazy loading, Brotli compression.",
+      "severity_score": 18
     },
     {
-      "title": "Responsive Web Design",
-      "description": "The website is fully responsive, ensuring usability across a range of devices and screen sizes.",
-      "technical_spec": "HTML5, CSS3 with media queries, and JavaScript for interactivity.",
-      "severity_score": 12
-    },
-    {
-      "title": "Single Page Application (SPA) Framework",
-      "description": "Utilizes SPA frameworks for a seamless and dynamic user experience.",
-      "technical_spec": "Employed frameworks like Angular or React for SPA capabilities.",
-      "severity_score": 15
+      "title": "SEO Optimization",
+      "description": "Structure optimized for search engines with global accessibility.",
+      "technical_spec": "Structured data, meta tags, sitemaps.",
+      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 236,
+    "rank": 246,
     "site": "netflix.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "435d3833c4c73669741ea3f9e4d3f2b9"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "e813bcecf9e6a6469fd940de74cb7074"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Ensures that data is protected from the client to the server.",
-      "technical_spec": "TLS protocol employed for data transmissions.",
-      "severity_score": 10
+      "title": "Continuous Security Testing",
+      "description": "Regular security testing to identify and mitigate vulnerabilities.",
+      "technical_spec": "Automated penetration testing tools integrated into CI/CD pipelines.",
+      "severity_score": 40
     },
     {
-      "title": "Zero Trust Architecture",
-      "description": "Assumes threat presence and verifies at every stage of interaction.",
-      "technical_spec": "Lay layers of security per session authentication and log validation.",
-      "severity_score": 25
-    },
-    {
-      "title": "Identity and Access Management",
-      "description": "Ensures the right users have access to appropriate resources.",
-      "technical_spec": "Integration with OAuth 2.0 for secure login procedures.",
-      "severity_score": 20
-    },
-    {
-      "title": "Threat Detection and Monitoring",
-      "description": "Continuously monitors network traffic and user behavior for anomalies.",
-      "technical_spec": "Uses AI and machine learning models for timely threat detection.",
-      "severity_score": 20
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Implementation of ongoing security assessments.",
-      "technical_spec": "Third-party penetration testing and vulnerability scanning.",
+      "title": "Encryption Standards",
+      "description": "Strict encryption of data both in transit and at rest.",
+      "technical_spec": "AES-256 encryption for data at rest and TLS 1.2+ for data in transit.",
       "severity_score": 30
+    },
+    {
+      "title": "Threat Detection and Response",
+      "description": "Proactive monitoring and response to cyber threats.",
+      "technical_spec": "Utilizes machine learning-driven threat intelligence and anomaly detection tools.",
+      "severity_score": 35
+    },
+    {
+      "title": "Access Control and Identity Management",
+      "description": "Comprehensive identity and access management (IAM) to control user access.",
+      "technical_spec": "Single Sign-On (SSO), Multi-Factor Authentication (MFA), and role-based access controls.",
+      "severity_score": 45
+    },
+    {
+      "title": "Security Compliance",
+      "description": "Adherence to global security standards and regulations.",
+      "technical_spec": "Compliance with standards such as GDPR, ISO 27001, and PCI DSS.",
+      "severity_score": 20
     }
   ]
 }

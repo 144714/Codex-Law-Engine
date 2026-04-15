@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 234,
+    "rank": 244,
     "site": "microsoft.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "fe5bf573c55cc091dd18a65ab5f02f68"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "965cc8c6799ffaab7877e2a11e4e1650"
   },
   "data": [
     {
-      "title": "Innovation Leadership",
-      "description": "Maintains a strong emphasis on innovation across its product offerings.",
-      "technical_spec": "Integration with the latest emerging technologies and services.",
-      "severity_score": 5
+      "title": "Innovation",
+      "description": "Continuous innovation and integration of cutting-edge technology.",
+      "technical_spec": "AI and machine learning integrations.",
+      "severity_score": 30
     },
     {
-      "title": "Global Reach",
-      "description": "Positioned as a leader with a global presence and customer base.",
-      "technical_spec": "Tailored content delivery and language localization for global audiences.",
-      "severity_score": 10
+      "title": "Reliability",
+      "description": "Emphasizes stability and reliability in its offerings.",
+      "technical_spec": "Redundant systems, fault-tolerant architecture.",
+      "severity_score": 20
     },
     {
-      "title": "Commitment to Accessibility",
-      "description": "Focused on creating accessible software for all users.",
-      "technical_spec": "WCAG 2.1 compliance across web properties with support for assistive technologies.",
+      "title": "Diversity",
+      "description": "Commitment to inclusivity in both product offerings and user experience.",
+      "technical_spec": "Localization, accessibility features.",
+      "severity_score": 25
+    },
+    {
+      "title": "Customer-Centricity",
+      "description": "Focus on user feedback to continuously improve products.",
+      "technical_spec": "Feedback loops, UX research integration.",
       "severity_score": 15
     },
     {
-      "title": "Trust and Security",
-      "description": "Strong commitment to user privacy and data protection.",
-      "technical_spec": "Compliance with GDPR and other international data protection laws.",
-      "severity_score": 10
-    },
-    {
-      "title": "Community Engagement",
-      "description": "Active participation and engagement in developer and tech communities.",
-      "technical_spec": "Maintains open-source projects and supports independent developers through initiatives.",
-      "severity_score": 20
+      "title": "Security",
+      "description": "Ensures user data protection and privacy as a core value.",
+      "technical_spec": "Privacy policy adherence, security-first design principles.",
+      "severity_score": 28
     }
   ]
 }

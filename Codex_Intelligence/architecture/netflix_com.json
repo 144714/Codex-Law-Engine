@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 236,
+    "rank": 246,
     "site": "netflix.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "b957894ac816a0bda0a7da846f42fda2"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "a04eb5a65b64de141697669c07048e9d"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Decomposed architecture where independent services are responsible for different functionalities.",
-      "technical_spec": "Uses AWS infrastructure for scalable and reliable service deployment.",
-      "severity_score": 20
+      "title": "Microservices Architecture",
+      "description": "Netflix employs a microservices architecture to decouple various functionalities and achieve scalability.",
+      "technical_spec": "Utilizes Docker containers orchestrated by Kubernetes, with a service mesh for communication.",
+      "severity_score": 15
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Efficient delivery of content such as movies and shows using a distributed network of servers.",
-      "technical_spec": "Primarily Akamai and Fastly for edge server caching.",
-      "severity_score": 15
-    },
-    {
-      "title": "Serverless Computing",
-      "description": "On-demand resource allocation for specific tasks and workloads.",
-      "technical_spec": "AWS Lambda used for event-driven compute tasks.",
+      "description": "Extensive use of CDNs to deliver content efficiently worldwide.",
+      "technical_spec": "CDNs such as Akamai and Amazon CloudFront are utilized to cache and deliver content.",
       "severity_score": 10
     },
     {
-      "title": "Cloud-native",
-      "description": "Cloud-first infrastructure allowing for rapid scalability, easy updates, and cost-effectiveness.",
-      "technical_spec": "Hosted on Amazon Web Services (AWS) offering redundancy and scalability.",
-      "severity_score": 15
+      "title": "Resilient Data Layer",
+      "description": "Netflix employs a resilient data layer to handle massive data traffic and throughput.",
+      "technical_spec": "Uses technologies such as Apache Cassandra and Elastic Search for data storage and retrieval.",
+      "severity_score": 20
     },
     {
-      "title": "RESTful APIs",
-      "description": "Use of RESTful APIs to enable communication between client and server.",
-      "technical_spec": "APIs follow REST principles to ensure stateless communication.",
-      "severity_score": 30
+      "title": "Global Load Balancing",
+      "description": "Distributed global load balancing to manage traffic and ensure uptime.",
+      "technical_spec": "Employs DNS-based load balancing and Regional Secure Gateways.",
+      "severity_score": 18
+    },
+    {
+      "title": "Serverless Computing",
+      "description": "Adoption of serverless computing for certain use cases to improve efficiency.",
+      "technical_spec": "AWS Lambda and Google Cloud Functions are leveraged for some operations.",
+      "severity_score": 25
     }
   ]
 }

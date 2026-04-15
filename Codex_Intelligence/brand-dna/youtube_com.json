@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 232,
+    "rank": 242,
     "site": "youtube.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "a52244e8f6a76193feea7fa8bd6b7faa"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "0c9d8f7f42a44beda37d78c3507f0294"
   },
   "data": [
     {
-      "title": "Global Reach",
-      "description": "YouTube's brand is synonymous with international access to user-generated content.",
-      "technical_spec": "Localized interfaces and multilingual support bolster international presence.",
-      "severity_score": 5
-    },
-    {
-      "title": "Community Engagement",
-      "description": "A cornerstone of YouTube is its focus on community building and interaction.",
-      "technical_spec": "Features such as comments, likes, and community posts facilitate engagement.",
+      "title": "User-Generated Content Platform",
+      "description": "Platform thrives on user contributions from a wide range of creators.",
+      "technical_spec": "Tools and community guidelines that encourage content generation.",
       "severity_score": 10
     },
     {
-      "title": "Content Diversity",
-      "description": "Offers a wide range of content types to cater to a broad audience spectrum.",
-      "technical_spec": "Algorithms are optimized to recommend diverse content tailored to individual preferences.",
-      "severity_score": 8
-    },
-    {
-      "title": "Innovative Features",
-      "description": "Leverages cutting-edge technology to consistently innovate user experience.",
-      "technical_spec": "Frequent updates introduce new functionalities like VR videos and Live Streaming.",
-      "severity_score": 12
-    },
-    {
-      "title": "Ad-Driven Model",
-      "description": "Revenue strategy based on targeted advertisements integrated into video content.",
-      "technical_spec": "Algorithms tailored to serve personalized ads while balancing user experience.",
+      "title": "Global Reach and Accessibility",
+      "description": "Content and interface designed to be universally accessible.",
+      "technical_spec": "Support for multiple languages and closed captioning.",
       "severity_score": 15
+    },
+    {
+      "title": "Community and Engagement",
+      "description": "Focus on building a community through interactions like comments, likes, and shares.",
+      "technical_spec": "Features enabling interaction, such as comment sections and community postings.",
+      "severity_score": 35
+    },
+    {
+      "title": "Monetization and Advertisements",
+      "description": "Structured advertising and monetization strategies for creators.",
+      "technical_spec": "Google AdSense integration and premium memberships.",
+      "severity_score": 50
+    },
+    {
+      "title": "Innovation in Video Technology",
+      "description": "Leading the advancement of video streaming and playback technologies.",
+      "technical_spec": "Support for 4K resolution, virtual reality, and 360-degree videos.",
+      "severity_score": 5
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 237,
+    "rank": 247,
     "site": "spotify.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "85bf96a3dcfea96f7ee606e1a0ef4c18"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "166bb0f34d1150995cb1a32e1c002674"
   },
   "data": [
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Aesthetic designs are perceived as more usable, which is evident in Spotify's clean interface.",
-      "technical_spec": "Adopts a modern design language with a focus on clarity and engagement.",
-      "severity_score": 20
+      "title": "Hick's Law",
+      "description": "Simplifies user choice to enhance decision-making speed across the application.",
+      "technical_spec": "Efficient user interface design that avoids overcrowding and prioritizes core actions.",
+      "severity_score": 94
     },
     {
       "title": "Fitts's Law",
-      "description": "Design considers that the time to interact with elements depends on their size and distance.",
-      "technical_spec": "Key controls and buttons are optimally placed for quick access and usability.",
-      "severity_score": 25
+      "description": "Designs interface elements based on user's ease of access and interaction speed.",
+      "technical_spec": "Place frequently used functions within thumb’s reach in mobile interfaces for quicker interactions.",
+      "severity_score": 92
     },
     {
-      "title": "Hick's Law",
-      "description": "Reduces decision-making time by simplifying options available at once.",
-      "technical_spec": "Clear navigation with focused menus to streamline user journeys.",
-      "severity_score": 20
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Users prefer interfaces that work similarly to those they are accustomed to.",
-      "technical_spec": "Consistent design with familiar music-related features that users expect.",
-      "severity_score": 30
+      "title": "Law of Proximity",
+      "description": "Groups related items to improve cognitive ease and navigational flow.",
+      "technical_spec": "Consistent UI positioning and padding to visually associate similar functions.",
+      "severity_score": 90
     },
     {
       "title": "Miller's Law",
-      "description": "Considers the capacity of short-term memory by limiting the number of elements in a group.",
-      "technical_spec": "Organizes content in manageable chunks, enhancing focus and recall.",
-      "severity_score": 25
+      "description": "Accounts for cognitive load by limiting information presented at one time.",
+      "technical_spec": "Chunking content into manageable segments for optimal comprehension and engagement.",
+      "severity_score": 89
+    },
+    {
+      "title": "Aesthetic Usability Effect",
+      "description": "Emphasizes on visual appeal improving perceived usability and enjoyment.",
+      "technical_spec": "High-fidelity designs with smooth transitions and coherent visual language.",
+      "severity_score": 91
     }
   ]
 }

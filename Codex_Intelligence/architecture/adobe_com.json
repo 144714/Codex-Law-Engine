@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 238,
+    "rank": 248,
     "site": "adobe.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "3386440efbef4624f2590a0e808b84e1"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "1be0afeff1a984dc4d2e23b4778fca69"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Adobe utilizes a microservices architecture to ensure flexibility and scalability of its cloud solutions.",
-      "technical_spec": "Service-Oriented Architecture using containerized services.",
-      "severity_score": 25
-    },
-    {
-      "title": "Cloud Infrastructure",
-      "description": "Adobe operates on a cloud infrastructure to provide seamless, scalable service to its global user base.",
-      "technical_spec": "Uses SaaS (Software as a Service) model, hosted on AWS.",
-      "severity_score": 20
-    },
-    {
-      "title": "Multi-tenancy",
-      "description": "Supports multiple users on a single instance with isolation of user data.",
-      "technical_spec": "Isolated data layers with shared application codebase.",
-      "severity_score": 30
-    },
-    {
-      "title": "API-First Approach",
-      "description": "APIs are used extensively for integration between internal services and with third-party solutions.",
-      "technical_spec": "RESTful and GraphQL APIs with OAuth 2.0 for authentication.",
+      "title": "Cloud-based Infrastructure",
+      "description": "Adobe utilizes a robust cloud infrastructure to deliver its suite of products and services.",
+      "technical_spec": "Adobe Experience Cloud with AWS and Microsoft Azure integrations.",
       "severity_score": 15
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "CDN is used to accelerate content delivery and improve user experience globally.",
-      "technical_spec": "Integration with global CDN providers like Akamai.",
+      "title": "Microservices Architecture",
+      "description": "Adobe's modular setup increases scalability and maintainability of services.",
+      "technical_spec": "Docker containers and Kubernetes orchestration.",
+      "severity_score": 20
+    },
+    {
+      "title": "Redundant Data Systems",
+      "description": "Provides redundancy and failover capabilities to ensure high availability.",
+      "technical_spec": "Geographically distributed data centers with load balancing.",
       "severity_score": 10
+    },
+    {
+      "title": "CI/CD Pipelines",
+      "description": "Efficient deployment and integration processes to ensure rapid, reliable updates.",
+      "technical_spec": "Jenkins, GitLab CI, and automated testing frameworks.",
+      "severity_score": 25
+    },
+    {
+      "title": "APIs and SDKs",
+      "description": "Extensive set of APIs and SDKs available for developers to build on Adobe's platform.",
+      "technical_spec": "RESTful APIs with OAuth 2.0 security.",
+      "severity_score": 15
     }
   ]
 }

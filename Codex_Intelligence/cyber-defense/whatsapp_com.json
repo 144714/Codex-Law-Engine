@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 240,
+    "rank": 250,
     "site": "whatsapp.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "a796aaedbc6c45c2d98f9a6b7a90a79e"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "0198482ae32d8762c5aa70ac7c4cf867"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication (2FA)",
-      "description": "WhatsApp offers two-factor authentication for an additional layer of security.",
-      "technical_spec": "Users can enable 2FA by setting a six-digit passcode required when registering their phone number with WhatsApp again.",
+      "title": "Two-Factor Authentication",
+      "description": "Enhances account security through additional verification steps during login.",
+      "technical_spec": "Combines password with a temporary, time-based code.",
       "severity_score": 5
     },
     {
-      "title": "Spam Detection Algorithms",
-      "description": "Advanced algorithms detect and limit the spread of spam and misinformation.",
-      "technical_spec": "Machine learning models analyze message patterns and content to identify potential spam.",
-      "severity_score": 15
+      "title": "Advanced Encryption Standards",
+      "description": "Uses strong encryption techniques to secure data in transit.",
+      "technical_spec": "AES-256 bit encryption for data and TLS for network security.",
+      "severity_score": 5
     },
     {
-      "title": "Account Protection Mechanism",
-      "description": "Security checks are in place to prevent unauthorized account access.",
-      "technical_spec": "Verification processes such as code sent via SMS confirm users' identities.",
+      "title": "Abuse Detection Systems",
+      "description": "Monitors and detects potentially harmful behaviors or spam activities.",
+      "technical_spec": "Advanced machine learning and pattern recognition algorithms.",
       "severity_score": 20
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Routine security audits help identify vulnerabilities and reinforce security measures.",
-      "technical_spec": "Third-party audits are conducted to ensure adherence to the latest security standards.",
-      "severity_score": 15
+      "title": "Vulnerability Management Program",
+      "description": "Regularly scans and patches vulnerabilities to protect against exploits.",
+      "technical_spec": "Automated tools and manual code reviews for vulnerability assessment.",
+      "severity_score": 10
     },
     {
-      "title": "Privacy Protection Policy",
-      "description": "Strict privacy policies protect users' data from unauthorized access.",
-      "technical_spec": "Data collected is used according to predefined privacy rules compliant with global standards.",
-      "severity_score": 10
+      "title": "Secure Backup and Data Recovery",
+      "description": "Ensures user data can be recovered in the case of a cyber disaster.",
+      "technical_spec": "Encrypted backups stored in secure data centers.",
+      "severity_score": 15
     }
   ]
 }

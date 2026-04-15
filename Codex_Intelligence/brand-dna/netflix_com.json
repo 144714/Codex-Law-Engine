@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 236,
+    "rank": 246,
     "site": "netflix.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "2c1ea2d6ab7ec6ff8c0a927d1b61eebe"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "897c7807f544bfd1572c5e6ba0f901dc"
   },
   "data": [
     {
-      "title": "Global Content Reach",
-      "description": "Provides a wide range of international content to accommodate diverse audiences.",
-      "technical_spec": "Original productions in various languages and licensing deals.",
-      "severity_score": 10
+      "title": "Red & Black Color Scheme",
+      "description": "Iconic red and black color scheme consistent with Netflix's branding.",
+      "technical_spec": "Adhered to in all user interfaces and marketing materials.",
+      "severity_score": 20
     },
     {
-      "title": "Content-first Strategy",
-      "description": "Prioritizes high-quality, original content to differentiate the service.",
-      "technical_spec": "Significant investment in original programming and partnerships.",
-      "severity_score": 10
-    },
-    {
-      "title": "User-Centric Experience",
-      "description": "Focuses on creating an engaging and seamless user experience.",
-      "technical_spec": "Personalized recommendations powered by user data analytics.",
-      "severity_score": 10
-    },
-    {
-      "title": "Brand Consistency",
-      "description": "Maintains a consistent brand image across all platforms.",
-      "technical_spec": "Uniform design language and tone in marketing and interface.",
-      "severity_score": 5
-    },
-    {
-      "title": "Innovation Leadership",
-      "description": "Leads in streaming technology advancements and distribution.",
-      "technical_spec": "Early adoption of adaptive streaming technology.",
+      "title": "N Cutting Through Noise",
+      "description": "Simplistic logo design that is easily recognizable and versatile.",
+      "technical_spec": "Netflix 'N' is optimized for digital and print mediums.",
       "severity_score": 15
+    },
+    {
+      "title": "Innovative Content Curation",
+      "description": "Modern storytelling through diverse and original content.",
+      "technical_spec": "Proprietary algorithms that suggest content based on viewing habits.",
+      "severity_score": 40
+    },
+    {
+      "title": "Global Reach with Local Impact",
+      "description": "Brand presence and content cater to a global audience with local touches.",
+      "technical_spec": "Localization of content and multicultural marketing strategies.",
+      "severity_score": 35
+    },
+    {
+      "title": "Seamless Cross-Platform Experience",
+      "description": "Consistent user experience across all devices and platforms.",
+      "technical_spec": "Integration with diverse streaming devices and smart technologies.",
+      "severity_score": 30
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 235,
+    "rank": 245,
     "site": "amazon.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "2adda836bafe5b1237bb2b747049e17c"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "27a1a393fd4193f46c4f5448868c8522"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Design principle ensuring that elements are sized and positioned to enhance user interaction efficiency.",
-      "technical_spec": "Clickable elements optimized for speed",
-      "severity_score": 5
-    },
-    {
-      "title": "Hick’s Law",
-      "description": "Simplifying user choices to streamline decision-making and reduce time to convert.",
-      "technical_spec": "Simplified navigation, minimal options",
-      "severity_score": 6
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Elements are designed to be visually appealing to enhance usability perceptions.",
-      "technical_spec": "Consistent branding, appealing aesthetics",
-      "severity_score": 4
+      "title": "Hick's Law",
+      "description": "Amazon minimizes choice overload by streamlining user decisions.",
+      "technical_spec": "Predictive search, user history integration, and personalized shopping feed.",
+      "severity_score": 80
     },
     {
       "title": "Jakob's Law",
-      "description": "Aligns user interfaces with common web standards to meet user expectations.",
-      "technical_spec": "Familiar design patterns, usability consistency",
-      "severity_score": 3
+      "description": "Users spend most of their time on other sites, so Amazon leverages common design patterns.",
+      "technical_spec": "Consistent global navigation and standardized checkout process.",
+      "severity_score": 85
     },
     {
-      "title": "Pareto Principle",
-      "description": "Focuses on features that provide the most benefit or value to users.",
-      "technical_spec": "80-20 rule optimization, frequent buyer interfaces",
-      "severity_score": 8
+      "title": "Fitts’s Law",
+      "description": "Interactive elements on Amazon are sized appropriately for easy access.",
+      "technical_spec": "Prominent call-to-action buttons and intuitive product filtering options.",
+      "severity_score": 82
+    },
+    {
+      "title": "Principle of Feedback",
+      "description": "Amazon provides clear feedback on user actions to enhance user experience.",
+      "technical_spec": "Cart notifications, delivery status updates, and easy return processes.",
+      "severity_score": 87
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Amazon fuses aesthetics with functionality to create a pleasant user experience.",
+      "technical_spec": "Clean interface design, consistent branding, and responsive layouts.",
+      "severity_score": 84
     }
   ]
 }

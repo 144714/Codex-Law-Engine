@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 231,
+    "rank": 241,
     "site": "google.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "85b8bea26677328130325d5b8300b582"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "b57e856aa6432b64c803968924f69f5f"
   },
   "data": [
     {
-      "title": "Encryption",
-      "description": "Advanced encryption protocols to protect data both in transit and at rest.",
-      "technical_spec": "TLS 1.3, AES-256, end-to-end encryption",
-      "severity_score": 2
+      "title": "SSL/TLS Encryption",
+      "description": "Google.com uses SSL/TLS to encrypt data transmitted between users and servers.",
+      "technical_spec": "Employs strong encryption standards such as AES-256.",
+      "severity_score": 5
     },
     {
-      "title": "DDoS Protection",
-      "description": "Protection against distributed denial-of-service attacks to ensure service availability.",
-      "technical_spec": "Adaptive filtering, centralized scrubbing centers, regional load balancing",
-      "severity_score": 3
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Provides an additional layer of security for user accounts.",
+      "technical_spec": "Supports multiple 2FA methods including mobile push notifications.",
+      "severity_score": 10
     },
     {
-      "title": "Authentication",
-      "description": "Robust authentication systems to protect user accounts and data.",
-      "technical_spec": "OAuth 2.0, 2-step verification, Password Alert extension",
-      "severity_score": 2
+      "title": "Advanced Threat Protection",
+      "description": "Leverages machine learning to detect and mitigate potential threats in real-time.",
+      "technical_spec": "Monitors system behavior to identify patterns indicative of an attack.",
+      "severity_score": 15
     },
     {
-      "title": "Vulnerability scanning",
-      "description": "Continuous scanning for vulnerabilities in the codebase and infrastructure.",
-      "technical_spec": "Automated scanning tools, Bug Bounty Program, regular security audits",
-      "severity_score": 4
+      "title": "Security Patch Management",
+      "description": "Regular updates and patches are applied to fix vulnerabilities.",
+      "technical_spec": "Automated deployment of patches across global infrastructure.",
+      "severity_score": 20
     },
     {
-      "title": "Data Loss Prevention",
-      "description": "Strategies to prevent data leakage or unauthorized access.",
-      "technical_spec": "Cloud DLP API, access control policies, data anonymization tools",
-      "severity_score": 3
+      "title": "DDoS Mitigation",
+      "description": "Implements measures to protect against distributed denial-of-service attacks.",
+      "technical_spec": "Uses load balancing and anti-DDoS technologies for attack absorption.",
+      "severity_score": 30
     }
   ]
 }

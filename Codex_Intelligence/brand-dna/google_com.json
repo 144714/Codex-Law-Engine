@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 231,
+    "rank": 241,
     "site": "google.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "b5f24db475152fe0a48189dfafae3fa6"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "92c9dd6cfa8b3c496bff0f714ca79aa7"
   },
   "data": [
     {
-      "title": "Simplicity",
-      "description": "Google's brand emphasizes minimalism and clarity in design and communication.",
-      "technical_spec": "Clean homepage design, simple logo, straightforward user interactions",
-      "severity_score": 3
+      "title": "Innovation Leadership",
+      "description": "Continuously pioneering technology to push the boundaries of what is possible.",
+      "technical_spec": "Investments in AI, quantum computing, and internet services.",
+      "severity_score": 10
     },
     {
-      "title": "Innovation",
-      "description": "Pioneering new technologies and constantly improving user experience.",
-      "technical_spec": "AI-enhanced search algorithms, integration with Google Assistant, VR/AR experiences",
-      "severity_score": 2
+      "title": "User-Centric Design",
+      "description": "Focuses on highly intuitive and simple user interfaces.",
+      "technical_spec": "Design processes centered around user testing and feedback.",
+      "severity_score": 15
     },
     {
-      "title": "Trust",
-      "description": "Commitment to user privacy and providing accurate, reliable information.",
-      "technical_spec": "Transparent data policies, verification of sources, secure data handling practices",
-      "severity_score": 2
-    },
-    {
-      "title": "Speed",
-      "description": "Focus on delivering fast loading times and quick access to information.",
-      "technical_spec": "PageSpeed optimization, lightweight code, server-side pre-rendering",
-      "severity_score": 3
-    },
-    {
-      "title": "Global Reach",
+      "title": "Global Accessibility",
       "description": "Aims to make information universally accessible and useful.",
-      "technical_spec": "Multi-language support, localized content, global partnerships",
-      "severity_score": 2
+      "technical_spec": "Provides multilingual support and accessible design features.",
+      "severity_score": 20
+    },
+    {
+      "title": "Sustainability Commitment",
+      "description": "Strives for sustainable operations with a focus on renewable energy.",
+      "technical_spec": "Utilizes data centers powered by wind and solar energy.",
+      "severity_score": 25
+    },
+    {
+      "title": "Data-Driven Culture",
+      "description": "Utilizes vast amounts of data to inform decision-making processes.",
+      "technical_spec": "Analytics and user data collected to enhance service offerings.",
+      "severity_score": 30
     }
   ]
 }

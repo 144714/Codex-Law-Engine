@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 231,
+    "rank": 241,
     "site": "google.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "e618cd811b82f4a3b9e654ae292afdfb"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "59b9c149250a62199ec73479d3925490"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Google uses a microservices architecture allowing different services to communicate over a network through HTTP/HTTPS or other protocols.",
-      "technical_spec": "RESTful APIs, gRPC, Kubernetes orchestration",
-      "severity_score": 5
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Google employs advanced load balancing to distribute traffic across multiple servers and data centers.",
-      "technical_spec": "Global load balancers, Anycast DNS, HTTP/2 support",
-      "severity_score": 4
-    },
-    {
-      "title": "Data Centers",
-      "description": "Globally distributed data centers ensure redundancy and reduce latency for users across the world.",
-      "technical_spec": "Tier 3 and 4 data centers, fiber-optic connectivity, renewable energy powered",
+      "title": "Distributed System",
+      "description": "Google.com runs on a distributed system architecture that spans numerous data centers around the world.",
+      "technical_spec": "Utilizes load balancing, data replication, and fault tolerance across server farms.",
       "severity_score": 10
     },
     {
-      "title": "Containerization",
-      "description": "Applications are containerized to ensure consistent environments and efficient resource utilization.",
-      "technical_spec": "Docker containers, Borg/Omega for cluster management",
-      "severity_score": 6
+      "title": "Google File System",
+      "description": "A proprietary file storage system that supports Google's large-scale data processing requirements.",
+      "technical_spec": "Optimized for large-scale data storage and retrieval with redundancy.",
+      "severity_score": 15
     },
     {
-      "title": "Scalability",
-      "description": "Scalable infrastructure to handle billions of search queries and process vast amounts of data globally.",
-      "technical_spec": "Automatic scaling with Kubernetes, custom VMs, horizontally distributed architecture",
-      "severity_score": 5
+      "title": "Bigtable",
+      "description": "A distributed storage system for managing structured data that supports Google services.",
+      "technical_spec": "Stores data across thousands of commodity servers, providing scalability.",
+      "severity_score": 20
+    },
+    {
+      "title": "MapReduce",
+      "description": "A programming model for processing large data sets with a distributed algorithm.",
+      "technical_spec": "Facilitates data processing across large clusters of computers using parallel processing.",
+      "severity_score": 25
+    },
+    {
+      "title": "Borg",
+      "description": "A cluster management system used to manage Google's massive infrastructure.",
+      "technical_spec": "Handles resource allocation and job scheduling across thousands of servers.",
+      "severity_score": 30
     }
   ]
 }

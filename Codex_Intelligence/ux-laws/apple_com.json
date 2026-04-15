@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 233,
+    "rank": 243,
     "site": "apple.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "516c55c8512379c222becb6a1b44f6e3"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "8420a3826b644efe9a3a190ba7982540"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Design reduces decision-making time for users navigating the site.",
-      "technical_spec": "Minimalist layout with a low number of choices on each page.",
-      "severity_score": 15
-    },
-    {
       "title": "Fitts's Law",
-      "description": "Large CTAs ensure that frequently used elements are easy to click.",
-      "technical_spec": "Button size and spacing optimized for touch interfaces.",
-      "severity_score": 12
+      "description": "UI elements are designed considering the time required to move to a target area on the screen.",
+      "technical_spec": "Critical interactive components are prominently positioned for ease of access and action.",
+      "severity_score": 92
     },
     {
-      "title": "Law of Proximity",
-      "description": "Grouping related items together to improve readability.",
-      "technical_spec": "Use of whitespace to create visual hierarchy.",
-      "severity_score": 10
+      "title": "Hick's Law",
+      "description": "Reduces the user's decision-making time by limiting the number of choices presented.",
+      "technical_spec": "Navigation menus structured with minimal options to prevent choice overload.",
+      "severity_score": 88
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Visual elements organized to be perceived as part of a whole.",
-      "technical_spec": "Typography and color schemes create brand cohesion.",
-      "severity_score": 18
+      "title": "Aesthetic-Usability Effect",
+      "description": "A visually appealing design is believed to be more usable by users.",
+      "technical_spec": "Clean, minimalist design with high-quality imagery and balanced color schemes.",
+      "severity_score": 95
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Design leverages familiar patterns to meet user expectations.",
-      "technical_spec": "Conventional navigation panels and footer links.",
-      "severity_score": 8
+      "title": "Serial Position Effect",
+      "description": "Important items are placed in strategic positions to enhance recall.",
+      "technical_spec": "CTA and essential information prominently placed at strategic locations on a page.",
+      "severity_score": 85
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Users spend most of their time on other sites, so their experience is based on common design patterns.",
+      "technical_spec": "Adhering to web conventions for navigation and layout to meet user expectations.",
+      "severity_score": 90
     }
   ]
 }

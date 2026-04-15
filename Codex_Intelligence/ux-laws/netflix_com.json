@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 236,
+    "rank": 246,
     "site": "netflix.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "5fffd20fd8da70e7f13008afe7e97809"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "bafc8c402617c340c0eaa7c16e60a55a"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Simplified navigation and categorization of content.",
-      "severity_score": 15
+      "description": "Presenting users with a manageable number of options to reduce decision-making time.",
+      "technical_spec": "Categorically features content to simplify menu navigation.",
+      "severity_score": 50
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Users perceive aesthetically pleasing designs as more usable.",
-      "technical_spec": "Visually appealing interface with minimalistic design.",
-      "severity_score": 5
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Objects that are near each other are perceived as related.",
-      "technical_spec": "Intuitive grouping of related content and features.",
-      "severity_score": 10
-    },
-    {
-      "title": "Pareto Principle (80/20 Rule)",
-      "description": "80% of results come from 20% of actions.",
-      "technical_spec": "Focus on most-watched sections and recommendations.",
-      "severity_score": 20
+      "title": "Fitts’s Law",
+      "description": "Easy-to-click buttons and interactive elements to improve usability.",
+      "technical_spec": "Large call-to-action buttons and streamlined layouts for easy access.",
+      "severity_score": 45
     },
     {
       "title": "Miller’s Law",
-      "description": "The average person can only keep 7 (plus or minus 2) items in their working memory.",
-      "technical_spec": "Content browsing is segmented into top picks, categories, and recommendations.",
-      "severity_score": 15
+      "description": "User interface design leverages chunking to improve user memory retention.",
+      "technical_spec": "Content is presented in groups or categories to aid cognitive processing.",
+      "severity_score": 55
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Aesthetic designs are perceived as more usable.",
+      "technical_spec": "Visually appealing interfaces that align with corporate branding strategies.",
+      "severity_score": 60
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "User expectations are aligned with common web experiences for consistency.",
+      "technical_spec": "Design patterns that mirror popular streaming and social media platforms.",
+      "severity_score": 50
     }
   ]
 }

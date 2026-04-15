@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 232,
+    "rank": 242,
     "site": "youtube.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "d5e877d3581ae9b1e36e19c4e27a2ce1"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "3724dd80b8bdbd8ad9a7228c221a4098"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "User experience design limits choices to simplify decision-making, enhancing ease of use.",
-      "technical_spec": "Interface elements are categorized and limited to reduce cognitive load.",
-      "severity_score": 15
+      "title": "Hick’s Law",
+      "description": "Minimizing choices to improve user response time and decision making.",
+      "technical_spec": "Streamlined menu options and manageable content layouts.",
+      "severity_score": 30
     },
     {
-      "title": "Fitts's Law",
-      "description": "Designs prioritize clickability of commonly used elements to improve accessibility.",
-      "technical_spec": "Interactive elements like play and pause buttons are large and easily navigable.",
-      "severity_score": 12
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Uses visual grouping to guide user focus and organize information intuitively.",
-      "technical_spec": "Tabs, layout, and typography are designed to create visual hierarchy.",
+      "title": "Fitts’s Law",
+      "description": "Designing interfaces that allow for quick access to regularly used functions.",
+      "technical_spec": "Larger clickable areas for frequently used buttons or links.",
       "severity_score": 20
     },
     {
-      "title": "Law of Proximity",
-      "description": "Group related elements to draw intuitive connections between interface components.",
-      "technical_spec": "Related video suggestions and comments are spatially grouped.",
-      "severity_score": 22
+      "title": "Law of Common Region",
+      "description": "Elements tend to be perceived as a group if they are sharing an area with a clearly defined boundary.",
+      "technical_spec": "Usage of bordered, boxed sections to group related functions together.",
+      "severity_score": 25
     },
     {
-      "title": "Miller's Law",
-      "description": "Interface design accounts for human capacity to process limited amounts of information.",
-      "technical_spec": "Menus and lists are broken into subcategories to enhance interaction efficiency.",
-      "severity_score": 14
+      "title": "Jakob’s Law",
+      "description": "Users spend most of their time on other websites, so design familiarity aids in ease of use.",
+      "technical_spec": "Adherence to conventional navigation patterns and layouts.",
+      "severity_score": 15
+    },
+    {
+      "title": "Peak-End Rule",
+      "description": "User experience is defined by the most intense moments and the end of the interaction.",
+      "technical_spec": "Efforts to ensure engaging content display and satisfying end-screen experiences.",
+      "severity_score": 40
     }
   ]
 }

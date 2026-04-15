@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 231,
+    "rank": 241,
     "site": "google.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "4e95eba8e54cdc070a72595759628503"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "17d6114a062a10ece40ac1b0b9f3858d"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Reduces decision-making time by limiting choices on search result pages.",
-      "technical_spec": "Minimalist interface, clear categorization, relevant suggestions",
+      "title": "Hick's Law Implementation",
+      "description": "Keeps homepage simplistic to reduce decision time for users.",
+      "technical_spec": "Minimalist design with a clean search bar interface.",
       "severity_score": 5
     },
     {
       "title": "Fitts's Law",
-      "description": "Designed fast interaction for navigation elements to be easily selectable.",
-      "technical_spec": "Large clickable areas, toolbars, easy-to-reach buttons",
-      "severity_score": 4
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Groups content into manageable chunks for easier processing by users.",
-      "technical_spec": "Clustering search results, expandable menus, predictive search",
-      "severity_score": 6
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Offers a familiar experience by adhering to common web conventions.",
-      "technical_spec": "Consistent layout with other web services, recognizable icons, standard navigation",
-      "severity_score": 4
+      "description": "Optimizes clickable areas on webpages for easy user accessibility.",
+      "technical_spec": "Ensures button sizes are large enough and spaced appropriately.",
+      "severity_score": 10
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Achieves a balance between aesthetics and functionality to increase user satisfaction.",
-      "technical_spec": "Responsive UI design, Google Material Design principles, adaptive color schemes",
-      "severity_score": 3
+      "description": "Prioritizes design appeal to improve perceived usability.",
+      "technical_spec": "Consistently clear and intuitive design across all web pages.",
+      "severity_score": 15
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Groups related items closer together for improved user comprehension.",
+      "technical_spec": "Utilizes spacing and layout to guide user’s natural flow.",
+      "severity_score": 20
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Aligns design with user expectations set by other major websites.",
+      "technical_spec": "Incorporates familiar UI elements for seamless user experience.",
+      "severity_score": 25
     }
   ]
 }

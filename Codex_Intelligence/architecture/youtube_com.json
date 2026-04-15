@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 232,
+    "rank": 242,
     "site": "youtube.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "7342eb450755520d693872128ff9c4be"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "22309a5bf8a49f788c3643166c0e87e3"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "YouTube employs a microservices architecture to support scalability and manageability of its massive volume of data and user interactions.",
-      "technical_spec": "Microservices written in multiple languages such as Java, C++, and Python, deployed via containers on Kubernetes.",
-      "severity_score": 10
+      "description": "YouTube uses a microservices architecture to scale and manage different components like video upload, streaming, recommendation, and ads independently.",
+      "technical_spec": "Distributed microservices over a cloud platform such as Google Cloud, utilizing containerization with Kubernetes.",
+      "severity_score": 20
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Global CDN ensures fast and reliable video streaming service to users worldwide by caching content close to users' geographic locations.",
-      "technical_spec": "Uses partners and proprietary solutions to cache static content, ensuring low latency across diverse regions.",
+      "description": "A global CDN is used to deliver video content quickly and reliably to users around the world.",
+      "technical_spec": "Use of global PoPs (Points of Presence) with caching servers distributed worldwide.",
+      "severity_score": 15
+    },
+    {
+      "title": "Data Analytics Infrastructure",
+      "description": "Infrastructure to process, analyze, and store vast amounts of data for recommendations and insights.",
+      "technical_spec": "Hadoop, BigQuery, and other big data technologies.",
+      "severity_score": 10
+    },
+    {
+      "title": "Adaptive Bitrate Streaming",
+      "description": "Technology allowing video quality to adjust in real-time to the user's internet speed.",
+      "technical_spec": "HLS (HTTP Live Streaming) or DASH (Dynamic Adaptive Streaming over HTTP).",
       "severity_score": 5
     },
     {
-      "title": "Data Centers",
-      "description": "Distributed network of data centers supports global infrastructure demands.",
-      "technical_spec": "High availability with state-of-the-art server management and optimized energy use.",
-      "severity_score": 8
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Dynamic load balancing manages the distribution of traffic across servers to prevent overload.",
-      "technical_spec": "Employs algorithms to predictably distribute load based on traffic patterns.",
-      "severity_score": 7
-    },
-    {
-      "title": "Video Transcoding",
-      "description": "Videos are transcoded into various resolutions and formats for compatibility with diverse devices.",
-      "technical_spec": "Automated process that optimizes for device-specific playback requirements.",
-      "severity_score": 9
+      "title": "API Gateway",
+      "description": "Centralized entry point for internal and external API requests.",
+      "technical_spec": "Use of RESTful APIs with OAuth 2.0 for authentication.",
+      "severity_score": 30
     }
   ]
 }

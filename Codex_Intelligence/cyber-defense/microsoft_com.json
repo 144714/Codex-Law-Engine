@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 234,
+    "rank": 244,
     "site": "microsoft.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "40c2ffcb45ccadc87957af1c3cc850ca"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "0c23580c9995b854ff1e960533cda16c"
   },
   "data": [
     {
-      "title": "Advanced Threat Protection",
-      "description": "Integration of Azure Advanced Threat Protection for proactive security.",
-      "technical_spec": "Real-time threat detection and monitoring powered by machine learning.",
+      "title": "Data Encryption",
+      "description": "Implements strong encryption standards to protect user data.",
+      "technical_spec": "TLS 1.3, AES-256 encryption.",
+      "severity_score": 5
+    },
+    {
+      "title": "Identity Protection",
+      "description": "Uses multi-factor authentication to secure user accounts.",
+      "technical_spec": "OAuth 2.0, MFA integration.",
       "severity_score": 15
     },
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "Requires MFA for accessing sensitive and administrative areas of the website.",
-      "technical_spec": "Uses Azure MFA services for additional security layers.",
+      "title": "Threat Detection",
+      "description": "Real-time monitoring for malicious activity.",
+      "technical_spec": "AI-driven threat detection systems.",
       "severity_score": 20
     },
     {
-      "title": "Secure Sockets Layer (SSL)",
-      "description": "Implementation of HTTPS across the entire site to ensure secure data transmission.",
-      "technical_spec": "TLS 1.2/1.3 encryption protocols ensure data integrity and privacy.",
-      "severity_score": 10
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic security audits to identify and rectify vulnerabilities.",
-      "technical_spec": "Vulnerability assessments and penetration testing carried out regularly.",
+      "title": "Vulnerability Management",
+      "description": "Regular security assessments to manage vulnerabilities.",
+      "technical_spec": "Automated vulnerability scans, patch management.",
       "severity_score": 25
     },
     {
-      "title": "Data Encryption at Rest",
-      "description": "Ensures all user data is encrypted while stored to prevent unauthorized access.",
-      "technical_spec": "Advanced Encryption Standard (AES) 256-bit used for disk encryption.",
-      "severity_score": 30
+      "title": "Network Security",
+      "description": "Robust network protocols to prevent unauthorized access.",
+      "technical_spec": "Firewall, VPN, DDoS protection.",
+      "severity_score": 22
     }
   ]
 }

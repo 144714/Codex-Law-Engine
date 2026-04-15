@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 240,
+    "rank": 250,
     "site": "whatsapp.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "0e239cbf07940cd759c18e49241f9938"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "6aaf3d20fd5ed30756e2e0be5b532500"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "WhatsApp employs a microservices architecture for scalability and flexibility in managing different functionalities independently.",
-      "technical_spec": "Individual services communicate over RESTful APIs with load balancers for traffic management.",
-      "severity_score": 20
-    },
-    {
-      "title": "Client-Server Model",
-      "description": "The app uses a classic client-server model where user requests are processed on remote servers.",
-      "technical_spec": "Client requests are routed through secure and distributed servers before reaching end recipients.",
-      "severity_score": 15
+      "description": "WhatsApp employs a microservices architecture to handle its large-scale user base, enabling efficient scalability and maintenance.",
+      "technical_spec": "Multiple loosely coupled, independent services with APIs for communication.",
+      "severity_score": 10
     },
     {
       "title": "End-to-End Encryption Protocol",
-      "description": "WhatsApp uses Signal Protocol for end-to-end encryption of messages, ensuring privacy and security.",
-      "technical_spec": "Data transmitted between users is encrypted with cryptographic keys known only to the communicating clients.",
+      "description": "Ensures that only the communicating users can read the messages, using a cryptographic protocol designed for secure communication.",
+      "technical_spec": "Uses a Signal Protocol-based design for message encryption.",
       "severity_score": 5
     },
     {
-      "title": "Load Balancing",
-      "description": "The system uses load balancing to distribute incoming network traffic across multiple servers.",
-      "technical_spec": "Load balancers ensure no single server becomes overwhelmed with too many requests.",
+      "title": "Real-time Messaging Framework",
+      "description": "Facilitates real-time message delivery and synchronization across platforms.",
+      "technical_spec": "Utilizes XMPP for message routing and synchronous updates.",
       "severity_score": 10
     },
     {
-      "title": "Global Distribution via CDNs",
-      "description": "Content delivery networks (CDNs) are used for fast, efficient global data distribution.",
-      "technical_spec": "Static and dynamic content is cached and delivered from geographically dispersed data centers.",
-      "severity_score": 10
+      "title": "Peer-to-Peer Networking",
+      "description": "Optimizes call quality and reliability by establishing direct connections between users when possible.",
+      "technical_spec": "Leverages ICE, STUN, and TURN protocols.",
+      "severity_score": 15
+    },
+    {
+      "title": "Data Redundancy and Load Balancing",
+      "description": "Utilizes global data centers to ensure high availability and load management.",
+      "technical_spec": "Employs CDN and distributed databases for load distribution.",
+      "severity_score": 20
     }
   ]
 }

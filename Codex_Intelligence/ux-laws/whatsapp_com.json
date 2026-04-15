@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 240,
+    "rank": 250,
     "site": "whatsapp.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "16da6b181ed6bc52075a72b95750809f"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "c6324d51bd7caf50ffc8fe784a72e4c0"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "The app design minimizes decision-making time with a clear and intuitive interface.",
-      "technical_spec": "Simple menu options and an intuitive layout reduce cognitive load on users.",
+      "title": "Hick's Law",
+      "description": "Simplifies choices on interface providing a seamless user experience.",
+      "technical_spec": "User interfaces are designed with minimalistic menus to reduce decision time.",
       "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Interactive elements are designed for easy access on touchscreens, enhancing user experience.",
-      "technical_spec": "Buttons are sized and positioned for fast and easy touchscreen interaction.",
-      "severity_score": 10
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "WhatsApp maintains a visually pleasing design that suggests ease of use and efficiency.",
-      "technical_spec": "Consistent use of color schemes, icons, and typography enhances aesthetic appeal.",
-      "severity_score": 5
-    },
-    {
-      "title": "Law of Simplicity",
-      "description": "The application implements a minimalist design that ensures user tasks are straightforward.",
-      "technical_spec": "Navigational paths are clear and uncluttered, emphasizing key user functions.",
+      "title": "Fitts's Law",
+      "description": "Optimizes button and input element sizes based on target distance to improve accessibility.",
+      "technical_spec": "Adjusts elements appropriately based on device, ensuring ease of navigation.",
       "severity_score": 10
     },
     {
       "title": "Jakob’s Law",
-      "description": "Users expect WhatsApp's interface to resemble familiar applications, which it does.",
-      "technical_spec": "Design patterns consistent with commonly used apps simplify user transition and learning curve.",
-      "severity_score": 8
+      "description": "Design utilizes familiar patterns to ease cognitive load on users.",
+      "technical_spec": "Incorporates standard navigation and action buttons found across popular communication apps.",
+      "severity_score": 15
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Well-designed, visually appealing interfaces perceived as easier to use.",
+      "technical_spec": "Clean, uncluttered design with consistent visual themes and color schemes.",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Limits the amount of information presented at once to improve user comprehension.",
+      "technical_spec": "Messages and notifications are batch-delivered and grouped contextually.",
+      "severity_score": 10
     }
   ]
 }

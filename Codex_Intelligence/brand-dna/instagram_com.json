@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 239,
+    "rank": 249,
     "site": "instagram.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "8e9260603afdee8de7b2f323a54301cd"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "3dc58e2623e91c078b08e6ab42e2796c"
   },
   "data": [
     {
-      "title": "Creative Expression",
-      "description": "Empowering users to creatively share their stories with a global audience.",
-      "technical_spec": "Various filters and editing options for photo and video content.",
-      "severity_score": 20
+      "title": "Visual Storytelling",
+      "description": "Instagram's core identity revolves around visual storytelling, enabling users to share life moments through images and videos.",
+      "technical_spec": "Core posting and sharing functions are driven by a focus on high-quality visual media.",
+      "severity_score": 95
     },
     {
       "title": "Community Building",
-      "description": "Facilitating the creation and engagement of communities through shared interests.",
-      "technical_spec": "Features such as hashtags, groups, and direct messaging.",
-      "severity_score": 30
+      "description": "Facilitates rich community connections and engagement through features like comments, likes, and sharing.",
+      "technical_spec": "Integrated social interaction tools and algorithms promoting user engagement.",
+      "severity_score": 90
     },
     {
-      "title": "Instant Connectivity",
-      "description": "Providing real-time connections and interactions.",
-      "technical_spec": "Push notifications and live video streaming.",
-      "severity_score": 40
+      "title": "Innovative Features",
+      "description": "Consistently evolves with new features like Stories, Reels, and Shopping to maintain user interest.",
+      "technical_spec": "Development cycles that integrate user feedback and industry trends to innovate continuously.",
+      "severity_score": 88
     },
     {
-      "title": "Inspiration and Discovery",
-      "description": "Encouraging users to explore new content through personalized feeds.",
-      "technical_spec": "Algorithm-driven content suggestions.",
-      "severity_score": 50
+      "title": "Cross-Platform Integration",
+      "description": "Supports seamless interactions between different platforms, enhancing accessibility and reach.",
+      "technical_spec": "APIs and synchronization capabilities with platforms like Facebook and external apps.",
+      "severity_score": 85
     },
     {
-      "title": "Visual-first Approach",
-      "description": "Prioritizing visual content in user interactions and platform presentation.",
-      "technical_spec": "High-definition image processing and a focus on aesthetics.",
-      "severity_score": 10
+      "title": "User Empowerment",
+      "description": "Provides tools that allow users to express themselves creatively and authentically.",
+      "technical_spec": "Extensive editing functions, filters, and creative suites built directly into the app.",
+      "severity_score": 92
     }
   ]
 }

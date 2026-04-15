@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 233,
+    "rank": 243,
     "site": "apple.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "1298545513323a03398bde7b9096978c"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "73917b0582e8c5844dbe055e8a2eefd4"
   },
   "data": [
     {
-      "title": "Minimalism",
-      "description": "Focus on clean, simple designs that reflect the brand ethos.",
-      "technical_spec": "The use of ample white space and simple typography.",
-      "severity_score": 20
-    },
-    {
       "title": "Innovation",
-      "description": "Design constantly evolves to incorporate cutting-edge tech.",
-      "technical_spec": "Dynamic and interactive elements using modern JavaScript frameworks.",
-      "severity_score": 25
+      "description": "Apple's brand DNA includes a strong emphasis on innovation, consistently pushing technological boundaries.",
+      "technical_spec": "Continuous product and feature updates aligned with cutting-edge technology trends.",
+      "severity_score": 97
     },
     {
-      "title": "User-Centric Focus",
-      "description": "User experience is prioritized in all design aspects.",
-      "technical_spec": "Frequent usability testing and user feedback integration.",
-      "severity_score": 15
+      "title": "Simplicity",
+      "description": "Products and services are designed to be intuitive and uncomplicated, focusing on a seamless user experience.",
+      "technical_spec": "Simplified interfaces and streamlined user interactions across all platforms.",
+      "severity_score": 95
     },
     {
-      "title": "Consistency",
-      "description": "Brand ensures a consistent look and feel across all platforms.",
-      "technical_spec": "Strict adherence to style guides and design systems.",
-      "severity_score": 18
+      "title": "Premium Quality",
+      "description": "Apple epitomizes premium quality, from build to customer service and ecosystem interconnectivity.",
+      "technical_spec": "High-end materials, rigorous quality testing, and a cohesive ecosystem of devices and services.",
+      "severity_score": 96
     },
     {
-      "title": "Luxury Appeal",
-      "description": "Brand positioning as a high-quality, premium product provider.",
-      "technical_spec": "Use of high-resolution images and elegant design elements.",
-      "severity_score": 22
+      "title": "Design Excellence",
+      "description": "Commitment to superior design aesthetics and functionality.",
+      "technical_spec": "Focus on minimalism, symmetry, and harmony in design principles.",
+      "severity_score": 94
+    },
+    {
+      "title": "Ecosystem Integration",
+      "description": "Products and services are seamlessly interconnected, offering a cohesive user experience.",
+      "technical_spec": "Integration with iOS, macOS, watchOS, and other Apple services to provide synergy across devices.",
+      "severity_score": 92
     }
   ]
 }

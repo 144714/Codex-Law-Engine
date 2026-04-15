@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 237,
+    "rank": 247,
     "site": "spotify.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "44cf6db3808131bd3006832bd5b247d5"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "86d61e2ed7ba52434f7aeaac70ba4931"
   },
   "data": [
     {
-      "title": "Encryption",
-      "description": "Ensures data security and privacy by encrypting user data both in transit and at rest.",
-      "technical_spec": "Utilizes TLS for data in transit and AES-256 for data at rest.",
-      "severity_score": 40
+      "title": "End-to-End Encryption",
+      "description": "Spotify uses encryption to protect data between clients and servers ensuring secure data transfer.",
+      "technical_spec": "TLS 1.3 is used for data in transit protection with regular updates for vulnerabilities.",
+      "severity_score": 92
     },
     {
-      "title": "User Authentication",
-      "description": "Employs strong user authentication methods to safeguard accounts.",
-      "technical_spec": "Utilizes OAuth 2.0 for secure and delegated access.",
-      "severity_score": 35
+      "title": "Zero Trust Architecture",
+      "description": "Implements a zero-trust security model requiring verification for every access attempt within internal networks.",
+      "technical_spec": "Identity and Access Management (IAM) solutions are used to apply principles of least privilege.",
+      "severity_score": 90
     },
     {
-      "title": "Incident Response Plan",
-      "description": "Implementing protocols to quickly respond to security incidents.",
-      "technical_spec": "Automated alerts and a dedicated team for rapid incident management.",
-      "severity_score": 45
+      "title": "Security Incident and Event Management",
+      "description": "Proactive monitoring system in place to detect and respond to security incidents in real-time.",
+      "technical_spec": "Utilizes Splunk and custom-built tools to consolidate logging and event management.",
+      "severity_score": 91
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts frequent audits and penetration testing to identify vulnerabilities.",
-      "technical_spec": "Third-party cybersecurity firms are contracted for periodic evaluations.",
-      "severity_score": 50
+      "description": "Conducts periodic security audits and utilizes third-party services to assess vulnerabilities.",
+      "technical_spec": "Automated and manual testing methods to evaluate infrastructure and application security.",
+      "severity_score": 89
     },
     {
-      "title": "Access Control",
-      "description": "Deploys strict access control measures to protect user data.",
-      "technical_spec": "Role-based access with advanced IAM policies.",
-      "severity_score": 30
+      "title": "Data Anonymization and Protection",
+      "description": "Ensures user data is anonymized to protect privacy and comply with regulations like GDPR.",
+      "technical_spec": "Utilizes data masking technologies and practices to remove personally identifiable information.",
+      "severity_score": 88
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 238,
+    "rank": 248,
     "site": "adobe.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "221e19999764c319dfa9aed55d3f0403"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "b60f18359958f8542046ac976186a0e0"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Recognizes the law that the time required to move to a target area is a function of the distance to the target and the target's size.",
-      "technical_spec": "Interactive elements are designed to be large and easily clickable.",
-      "severity_score": 30
+      "title": "Hick's Law",
+      "description": "Adobe optimizes for user decision-making time by limiting choices presented at once.",
+      "technical_spec": "Simplified design layouts and progressive disclosure.",
+      "severity_score": 15
     },
     {
-      "title": "Hick's Law",
-      "description": "Minimizes decision-making time by reducing the number of choices and simplifying navigation.",
-      "technical_spec": "Streamlined UI with clear, limited options in navigation menus.",
+      "title": "Fitts' Law",
+      "description": "Design principle used to enhance the accessibility of interactive elements.",
+      "technical_spec": "Larger target areas for the most commonly used buttons.",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Adobe considers cognitive load by organizing information into chunks.",
+      "technical_spec": "Hierarchical information architecture and navigation.",
+      "severity_score": 10
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Design consistency across products based on user familiarity with other applications.",
+      "technical_spec": "Consistent use of color schemes and typography.",
       "severity_score": 25
     },
     {
       "title": "Law of Proximity",
-      "description": "Groups related elements together to enhance user understanding and experience.",
-      "technical_spec": "Visually connected elements through spacing and alignment.",
-      "severity_score": 20
-    },
-    {
-      "title": "Consistency Principle",
-      "description": "Maintains consistency across different elements and interactions for predictability.",
-      "technical_spec": "Standardized components and design patterns across the site.",
+      "description": "Elements are grouped together to improve usability and user comprehension.",
+      "technical_spec": "Optimized spacing and alignment in UI design.",
       "severity_score": 10
-    },
-    {
-      "title": "Feedback Principle",
-      "description": "Provides timely feedback to user actions to enhance understanding and UX.",
-      "technical_spec": "Real-time feedback like hover effects, loading indicators, and error messages.",
-      "severity_score": 35
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 232,
+    "rank": 242,
     "site": "youtube.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "9619187b5bb407e54c057df53e2a49e6"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "3385e87262fa169f5a11f8e0dd087012"
   },
   "data": [
     {
-      "title": "DDOS Protection",
-      "description": "Systems in place to prevent and mitigate Distributed Denial of Service attacks.",
-      "technical_spec": "Utilizes Google's infrastructure to filter traffic and sustain service under high load.",
-      "severity_score": 20
-    },
-    {
-      "title": "Secure Data Transmission",
-      "description": "End-to-end encryption for all data in transit between users and YouTube servers.",
-      "technical_spec": "HTTPS and Transport Layer Security (TLS) are standard.",
-      "severity_score": 15
-    },
-    {
-      "title": "User Authentication",
-      "description": "Robust authentication mechanisms to protect user accounts.",
-      "technical_spec": "Two-factor authentication (2FA) and OAuth 2.0 for secure logins.",
-      "severity_score": 12
+      "title": "DDoS Protection",
+      "description": "Measures to safeguard against distributed denial-of-service attacks.",
+      "technical_spec": "Use of Google Cloud Shield to block malicious traffic.",
+      "severity_score": 40
     },
     {
       "title": "Content Moderation",
-      "description": "Automated and manual systems to detect and remove harmful content.",
-      "technical_spec": "Machine learning algorithms assist in detecting inappropriate content.",
+      "description": "AI-based tools to detect and remove inappropriate content.",
+      "technical_spec": "Machine learning models trained on large datasets for pattern recognition.",
+      "severity_score": 50
+    },
+    {
+      "title": "User Privacy Controls",
+      "description": "Features and policies to protect user data and privacy in compliance with regulations.",
+      "technical_spec": "GDPR compliance, user consent mechanisms, and data protection protocols.",
+      "severity_score": 35
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regular security assessments and patch management.",
+      "technical_spec": "Integration of automated scanning tools and manual penetration testing.",
       "severity_score": 25
     },
     {
-      "title": "Privacy Controls",
-      "description": "User privacy is protected through customizable privacy settings and robust data protection policies.",
-      "technical_spec": "Adheres to GDPR and CCPA standards, offering detailed user data controls.",
-      "severity_score": 18
+      "title": "Authentication and Authorization",
+      "description": "Robust systems to ensure secure user logins and permissions.",
+      "technical_spec": "Two-factor authentication and OAuth 2.0 based authorization.",
+      "severity_score": 45
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 235,
+    "rank": 245,
     "site": "amazon.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "bed0684ce88f5fc6316585f54b9e2084"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "8e7b5eae4fddcccc6e0efdb48146d23f"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Amazon leverages a microservices architecture to enable independent development and deployment of applications.",
-      "technical_spec": "RESTful services, API Gateway, AWS Lambda",
-      "severity_score": 5
+      "description": "Amazon uses a microservices architecture to handle its vast and varied operations, allowing independent service deployment and scalability.",
+      "technical_spec": "Services are decoupled and communicate over REST APIs.",
+      "severity_score": 85
     },
     {
-      "title": "Data-Driven Infrastructure",
-      "description": "Comprehensive data infrastructure supports personalized recommendations and inventory management.",
-      "technical_spec": "Amazon Redshift, AWS RDS, Data lakes",
-      "severity_score": 10
+      "title": "Elastic Compute Cloud (EC2)",
+      "description": "Central to Amazon's architecture, EC2 provides scalable computing capacity.",
+      "technical_spec": "Supports auto-scaling, virtual server instances, and load balancing.",
+      "severity_score": 90
     },
     {
-      "title": "Scalable Cloud Environment",
-      "description": "Utilizes AWS cloud services to ensure elasticity and reliability of web services.",
-      "technical_spec": "EC2, S3, Elastic Load Balancing",
-      "severity_score": 15
+      "title": "Amazon Simple Storage Service (S3)",
+      "description": "S3 offers object storage with scalability, data availability, security, and performance.",
+      "technical_spec": "Supports REST APIs, governed by AWS IAM policies.",
+      "severity_score": 88
     },
     {
-      "title": "High Availability Architecture",
-      "description": "Designed for resilience through distributed systems and redundancy.",
-      "technical_spec": "Multi-AZ deployments, failover mechanisms",
-      "severity_score": 20
+      "title": "API Gateway",
+      "description": "Amazon uses API Gateway to manage the publishing, maintenance, and security of APIs.",
+      "technical_spec": "Handles authentication, authorization, and usage metering of APIs.",
+      "severity_score": 82
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Accelerates content delivery worldwide using cloud-based CDN solutions.",
-      "technical_spec": "Amazon CloudFront",
-      "severity_score": 7
+      "description": "Amazon CloudFront accelerates delivery of your content to users.",
+      "technical_spec": "Provides caching of content, SSL support, and detailed analytics.",
+      "severity_score": 87
     }
   ]
 }

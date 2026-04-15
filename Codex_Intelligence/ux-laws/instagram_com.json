@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 239,
+    "rank": 249,
     "site": "instagram.com",
-    "date": "2026-04-15 10:09",
-    "integrity_hash": "ab2aecda3cd856e6f100df24f9747361"
+    "date": "2026-04-15 11:49",
+    "integrity_hash": "7f104779c5f98cd15960092ad90b5211"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Minimizing options to enhance user decision-making speeds.",
-      "technical_spec": "Simplified UI and intuitive navigation menus.",
-      "severity_score": 30
+      "description": "Minimizes complexity in decision-making processes by offering user interfaces that simplify choices.",
+      "technical_spec": "Limiting options to improve user satisfaction and reduce choice paralysis.",
+      "severity_score": 78
     },
     {
-      "title": "Fitts' Law",
-      "description": "Optimization of clickable elements for ease of access.",
-      "technical_spec": "Enlarged touch targets and consideration for thumb zones on mobile.",
-      "severity_score": 20
-    },
-    {
-      "title": "The Aesthetic-Usability Effect",
-      "description": "The design is created to look appealing while maintaining functionality.",
-      "technical_spec": "Modern visual design languages and animations.",
-      "severity_score": 50
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Building user experience based on familiar patterns found across similar apps.",
-      "technical_spec": "UI that follows common social media app design norms.",
-      "severity_score": 40
+      "title": "Fitts's Law",
+      "description": "Designs influenced by Fitts's Law ensure targets (such as buttons) are easily and efficiently accessible.",
+      "technical_spec": "Optimized UI controls by positioning interactive elements where users can quickly engage with them.",
+      "severity_score": 75
     },
     {
       "title": "Peak-End Rule",
-      "description": "Creating memorable user experiences by focusing on key interactions.",
-      "technical_spec": "Optimizing important interactions like posting and messaging.",
-      "severity_score": 60
+      "description": "Focuses on providing memorable user experiences by emphasizing peak moments of interaction.",
+      "technical_spec": "Specifically crafted interactions or features that are highlighted within user journeys.",
+      "severity_score": 80
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Prioritizes visually appealing designs that foster perceptions of ease-of-use.",
+      "technical_spec": "Stylized and consistent design themes applied across all user interface elements.",
+      "severity_score": 77
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Leverages familiar design patterns and conventions to meet user expectations and bolster ease of navigation.",
+      "technical_spec": "Alignment with widely accepted user interface standards to streamline user engagement.",
+      "severity_score": 82
     }
   ]
 }
