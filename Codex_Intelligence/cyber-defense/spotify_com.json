@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 267,
+    "rank": 277,
     "site": "spotify.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "25384ad56deda2fbeeb6cf5a51df9712"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "5d35969799126bca3268b68b86e6b496"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Uses encryption to protect user data both at rest and in transit.",
-      "technical_spec": "Employs TLS and AES encryption standards.",
-      "severity_score": 95
+      "title": "End-to-End Encryption",
+      "description": "Ensures user data is secure through encryption protocols.",
+      "technical_spec": "TLS/SSL Encryption",
+      "severity_score": 10
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Strict IAM controls to safeguard user access and permissions.",
-      "technical_spec": "Uses OAuth 2.0 for secure authentication processes.",
-      "severity_score": 90
+      "title": "Data Privacy Compliance",
+      "description": "Abides by regulations to protect user data privacy.",
+      "technical_spec": "GDPR, CCPA compliance",
+      "severity_score": 15
     },
     {
-      "title": "Threat Detection Systems",
-      "description": "Real-time monitoring for potential security threats.",
-      "technical_spec": "Integrations with SIEM systems for anomaly detection.",
-      "severity_score": 88
+      "title": "Incident Detection & Response",
+      "description": "Spotify has protocols in place for swift detection and response to security incidents.",
+      "technical_spec": "SIEM, SOC Operations",
+      "severity_score": 20
     },
     {
-      "title": "Security Incident Response",
-      "description": "A defined process to handle security incidents efficiently.",
-      "technical_spec": "Incident response team follows a well-documented protocol.",
-      "severity_score": 85
+      "title": "Authentication Mechanisms",
+      "description": "Uses multiple authentication mechanisms to safeguard user accounts.",
+      "technical_spec": "OAuth 2.0, Two-Factor Authentication",
+      "severity_score": 25
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic audits to ensure security measures are up-to-date.",
-      "technical_spec": "Vulnerability scans and penetration testing executed frequently.",
-      "severity_score": 83
+      "title": "Bug Bounty Program",
+      "description": "Engages with security researchers through a bug bounty program to identify vulnerabilities.",
+      "technical_spec": "HackerOne partnership",
+      "severity_score": 30
     }
   ]
 }

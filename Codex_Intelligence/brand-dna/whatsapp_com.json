@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 270,
+    "rank": 280,
     "site": "whatsapp.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "c5da41113d4833d6845728b37b18a760"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "db65717fe8d879b66d36ca758c49cdf0"
   },
   "data": [
     {
-      "title": "Simplicity",
-      "description": "WhatsApp’s trademark simplicity allows for easy communication.",
-      "technical_spec": "Streamlined UI with straightforward navigation.",
-      "severity_score": 5
-    },
-    {
-      "title": "Reliability",
-      "description": "High availability and consistency in delivering messages and calls.",
-      "technical_spec": "Robust backend infrastructure and failover mechanisms.",
-      "severity_score": 10
-    },
-    {
-      "title": "Privacy",
-      "description": "Commitment to user privacy and data security.",
-      "technical_spec": "End-to-end encryption and minimal data retention policies.",
+      "title": "User-Centric Design",
+      "description": "The brand is fundamentally aligned with prioritizing user needs and simple communication.",
+      "technical_spec": "Iterative usability tests and feedback loops",
       "severity_score": 20
     },
     {
-      "title": "Global Reach",
-      "description": "Extensive global presence fostering connectivity across regions.",
-      "technical_spec": "International server distribution and multi-language support.",
+      "title": "Global Connectivity",
+      "description": "Empowers users around the globe to connect regardless of location.",
+      "technical_spec": "Robust internationalization support",
       "severity_score": 15
     },
     {
-      "title": "Innovation",
-      "description": "Continual updates and feature rollouts that meet user demands.",
-      "technical_spec": "Regular improvements and integration of new technology.",
-      "severity_score": 15
+      "title": "Security & Privacy Commitment",
+      "description": "Consistently communicates a strong emphasis on privacy and security.",
+      "technical_spec": "Marketing materials focused on E2E encryption",
+      "severity_score": 10
+    },
+    {
+      "title": "Social Innovation",
+      "description": "Encourages societal connection and progress via seamless communication.",
+      "technical_spec": "Support for voice and video calls, and group chats",
+      "severity_score": 20
+    },
+    {
+      "title": "Non-Intrusive Monetization",
+      "description": "Focus on a user-friendly monetization model without advertisements.",
+      "technical_spec": "Subscription services and business API",
+      "severity_score": 25
     }
   ]
 }

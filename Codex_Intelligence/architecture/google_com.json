@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 261,
+    "rank": 271,
     "site": "google.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "efd8a4d0183ba5264e9a2dfb9e060ed2"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "3c8716a3b70753b8a4cbaddd2078573a"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Google employs a highly modular microservices architecture, enabling independent development and deployment.",
-      "technical_spec": "Each service is a small, independently deployable unit. Uses Kubernetes for orchestration.",
-      "severity_score": 85
+      "title": "Load Balancing",
+      "description": "Distributes incoming network traffic across multiple servers.",
+      "technical_spec": "Uses DNS-based load balancing with a combination of regional server distribution.",
+      "severity_score": 5
     },
     {
-      "title": "Global Load Balancing",
-      "description": "Google uses advanced load balancing to ensure high availability and performance.",
-      "technical_spec": "Uses BGP-based routing to distribute traffic across multiple data centers.",
-      "severity_score": 90
+      "title": "Microservices",
+      "description": "Utilizes microservices architecture to improve scalability and resilience.",
+      "technical_spec": "All services are independently deployable and managed within containers.",
+      "severity_score": 10
     },
     {
-      "title": "High Availability Infrastructure",
-      "description": "Infrastructure designed for minimal downtime and high fault tolerance.",
-      "technical_spec": "Replication across geographically distributed data centers and automatic failover systems.",
-      "severity_score": 95
+      "title": "Data Centers",
+      "description": "Operates globally distributed data centers for redundancy and availability.",
+      "technical_spec": "Located in key global locations with fiber optic connectivity.",
+      "severity_score": 10
     },
     {
-      "title": "Data Center Optimization",
-      "description": "State-of-the-art data centers optimized for energy efficiency and speed.",
-      "technical_spec": "Custom-built servers and networking equipment with efficient cooling systems.",
-      "severity_score": 80
+      "title": "Content Delivery Network (CDN)",
+      "description": "Accelerates the delivery of content using geographically distributed servers.",
+      "technical_spec": "Utilizes a global CDN to cache static content closer to users.",
+      "severity_score": 15
     },
     {
-      "title": "Scalable Storage Solutions",
-      "description": "Google's storage solutions can handle vast amounts of data with ease.",
-      "technical_spec": "Use of Google File System (GFS) and Colossus for distributed storage management.",
-      "severity_score": 88
+      "title": "Serverless Computing",
+      "description": "Runs backend code without managing server infrastructures.",
+      "technical_spec": "Relies on cloud functions and managed services for certain backend operations.",
+      "severity_score": 20
     }
   ]
 }

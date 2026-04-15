@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 268,
+    "rank": 278,
     "site": "adobe.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "269dfa945266f59971eb8879d8fd6d3e"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "a2ceda7bc50cc5b50fea14ba5ce427eb"
   },
   "data": [
     {
-      "title": "Zero Trust Security Model",
-      "description": "Adobe implements a zero trust framework to protect its network and systems against breaches.",
-      "technical_spec": "Continuous verification of user identity, multi-factor authentication, monitoring of device health.",
+      "title": "Advanced Threat Detection",
+      "description": "Adobe employs modern tools for real-time monitoring and detection of potential threats.",
+      "technical_spec": "Utilizes machine learning and AI through tools like Splunk and CrowdStrike.",
       "severity_score": 40
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Frequent auditing of systems to identify and remedy potential vulnerabilities.",
-      "technical_spec": "Third-party security assessments and penetration testing performed regularly.",
+      "title": "Robust Data Encryption",
+      "description": "All user data and communications are encrypted both at rest and in transit.",
+      "technical_spec": "AES-256 encryption standard and SSL/TLS protocols.",
       "severity_score": 35
     },
     {
-      "title": "Data Encryption",
-      "description": "Encryption of data at rest and in transit to protect user information and company data.",
-      "technical_spec": "Use of protocols such as TLS for data in transit and AES for data at rest.",
-      "severity_score": 25
+      "title": "Dedicated Security Operations Center",
+      "description": "24/7 monitoring and incident response to manage and mitigate security risks effectively.",
+      "technical_spec": "SIEM systems and incident response protocols.",
+      "severity_score": 45
     },
     {
-      "title": "Incident Response Plan",
-      "description": "A detailed response plan to quickly handle any detected security incidents.",
-      "technical_spec": "Automated threat detection tools, predefined protocols for data breach responses.",
-      "severity_score": 50
+      "title": "Regular Security Audits",
+      "description": "Frequent security assessments and penetration testing to identify vulnerabilities.",
+      "technical_spec": "Third-party audits and internal security teams.",
+      "severity_score": 38
     },
     {
-      "title": "Employee Training Programs",
-      "description": "Regular security training to ensure employees follow best practices.",
-      "technical_spec": "Training modules, phishing simulations, and workshops for staying updated on security practices.",
-      "severity_score": 30
+      "title": "Comprehensive End-User Authentication",
+      "description": "Multi-factor authentication (MFA) is mandatory for all account holders.",
+      "technical_spec": "Supports authentication apps, SMS codes, and hardware tokens.",
+      "severity_score": 42
     }
   ]
 }

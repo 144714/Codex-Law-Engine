@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 266,
+    "rank": 276,
     "site": "netflix.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "f2408f217c8b8c5060b15b7beebad173"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "64e90302fbf499d84e7d879f25c571f7"
   },
   "data": [
     {
-      "title": "User Data Encryption",
-      "description": "Protects sensitive user data from unauthorized access.",
-      "technical_spec": "Uses AES-256 and TLS protocols for secure data transmission.",
-      "severity_score": 30
+      "title": "Continuous Threat Monitoring",
+      "description": "Advanced threat detection systems monitor for unusual patterns and potential threats.",
+      "technical_spec": "Uses machine learning algorithms to analyze traffic patterns.",
+      "severity_score": 20
     },
     {
-      "title": "Security Monitoring",
-      "description": "Continuous monitoring for threats and anomalies.",
-      "technical_spec": "Employs SIEM tools for real-time threat intelligence.",
-      "severity_score": 35
+      "title": "Data Encryption and Security",
+      "description": "All data in transit and at rest is encrypted using industry-standard protocols.",
+      "technical_spec": "Employs TLS for data in transit and AES-256 for data at rest.",
+      "severity_score": 5
     },
     {
-      "title": "DDoS Mitigation",
-      "description": "Guards against distributed denial-of-service attacks.",
-      "technical_spec": "Utilizes rate limiting and traffic filtering techniques.",
-      "severity_score": 45
+      "title": "Access Control Management",
+      "description": "Strict access controls are implemented to ensure only authorized users access sensitive data.",
+      "technical_spec": "Utilizes role-based access control (RBAC) and two-factor authentication.",
+      "severity_score": 15
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Ensures proper user authentication and role assignments.",
-      "technical_spec": "Uses OAuth 2.0 and multifactor authentication protocols.",
-      "severity_score": 40
+      "title": "Incident Response and Recovery",
+      "description": "A dedicated team is available to swiftly respond to and recover from any security incident.",
+      "technical_spec": "Has a defined incident response plan and employs automated tools to isolate affected systems.",
+      "severity_score": 25
     },
     {
-      "title": "Secure API Gateway",
-      "description": "Protects API endpoints from malicious activities.",
-      "technical_spec": "Integrates with identity management systems and enforces security policies.",
-      "severity_score": 28
+      "title": "Vulnerability Assessment Program",
+      "description": "Regular assessments are conducted to identify and mitigate vulnerabilities.",
+      "technical_spec": "Employs automated scanning tools and manual code reviews.",
+      "severity_score": 10
     }
   ]
 }

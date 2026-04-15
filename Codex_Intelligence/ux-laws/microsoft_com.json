@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 264,
+    "rank": 274,
     "site": "microsoft.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "9af111162eaf39e5927dc37b1f69da36"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "1549d10a834366cf1fa5596ca0597902"
   },
   "data": [
     {
       "title": "Hick’s Law",
-      "description": "Design follows Hick’s Law to simplify and quicken user decision-making.",
-      "technical_spec": "Offers limited and clear options in navigation and layout to reduce cognitive load.",
-      "severity_score": 8
+      "description": "Reduces decision-making time by presenting limited and prioritized options.",
+      "technical_spec": "Simplified User Interfaces, Decision Trees",
+      "severity_score": 25
     },
     {
       "title": "Fitts’s Law",
-      "description": "Interface elements are designed considering ease of access and interaction speed.",
-      "technical_spec": "Strategically placed clickable elements to enable quick mouse or touch actions.",
+      "description": "Optimizes interface for speedier navigation and accessibility.",
+      "technical_spec": "Optimized Button Placement, Accessible Click Targets",
+      "severity_score": 25
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Design patterns familiar to the users for improved usability.",
+      "technical_spec": "Consistent Navigation, Standard Control Layouts",
       "severity_score": 20
     },
     {
-      "title": "Law of Simplicity",
-      "description": "The interface maintains simplicity to enhance user comprehension and task completion.",
-      "technical_spec": "Uses clean design lines and minimalist visual elements to focus user attention.",
-      "severity_score": 15
+      "title": "Miller’s Law",
+      "description": "Chunk information to aid user cognition and prevent overload.",
+      "technical_spec": "Content Chunking, Modular Layout",
+      "severity_score": 30
     },
     {
-      "title": "Feedback Principle",
-      "description": "Provides immediate feedback to user actions ensuring a responsive interface.",
-      "technical_spec": "Incorporates loading indicators, confirmations, and error messages effectively.",
-      "severity_score": 12
-    },
-    {
-      "title": "Consistency Principle",
-      "description": "Ensures a consistent look and feel across all pages and services.",
-      "technical_spec": "Uses consistent styling guidelines and component libraries throughout the site.",
-      "severity_score": 10
+      "title": "Aesthetic-Usability Effect",
+      "description": "An aesthetic design perceived as easier to use.",
+      "technical_spec": "High Fidelity Mockups, Consistent Color Schemes",
+      "severity_score": 20
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 266,
+    "rank": 276,
     "site": "netflix.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "4efdbf90d975699b187e54593c964c45"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "a1556ab65bd9c8859b1da09b4a2136e5"
   },
   "data": [
     {
-      "title": "Innovative Content Delivery",
-      "description": "Pioneers in streaming technology and original content adaptation.",
-      "technical_spec": "Invests heavily in R&D to optimize streaming capabilities.",
-      "severity_score": 8
+      "title": "Global Storytelling Innovation",
+      "description": "Focuses on pushing boundaries in content creation and delivery to engage worldwide audiences.",
+      "technical_spec": "Offers diverse content catalogs with high production value in multiple languages.",
+      "severity_score": 5
     },
     {
-      "title": "Global Accessibility",
-      "description": "Provides access to a broad range of content to worldwide viewers.",
-      "technical_spec": "Localized interfaces and subtitles/dubbing options.",
-      "severity_score": 15
-    },
-    {
-      "title": "Original Content Production",
-      "description": "Focuses on producing exclusive and diverse original series.",
-      "technical_spec": "Operates in-house studios and partners with global producers.",
+      "title": "Customer-Centric Model",
+      "description": "Places customers at the heart of business decisions, fueling innovations tailored to user needs.",
+      "technical_spec": "Employs data analytics to understand user preferences and enhance personalization.",
       "severity_score": 10
     },
     {
-      "title": "User-Centric Experience",
-      "description": "Tailors viewing experience based on user preferences and behaviors.",
-      "technical_spec": "Uses machine learning for personalized recommendations.",
-      "severity_score": 12
+      "title": "Commitment to Original Content",
+      "description": "Invests significantly in producing original series and movies to differentiate its platform.",
+      "technical_spec": "Uses in-house studios and collaborations to create exclusive content offerings.",
+      "severity_score": 15
     },
     {
-      "title": "Cross-Platform Synchronization",
-      "description": "Ensures seamless transition and availability across multiple devices.",
-      "technical_spec": "Real-time synchronization of user data and viewing progress.",
-      "severity_score": 14
+      "title": "Technology-Driven Experience",
+      "description": "Utilizes technology to offer seamless streaming and innovative viewing experiences.",
+      "technical_spec": "Incorporates adaptive streaming technologies for uninterrupted viewing.",
+      "severity_score": 5
+    },
+    {
+      "title": "Cultural Phenomenon",
+      "description": "Aims to create content that resonates across different cultures and sparks global conversations.",
+      "technical_spec": "Analyzes cultural trends through big data to guide content creation.",
+      "severity_score": 20
     }
   ]
 }

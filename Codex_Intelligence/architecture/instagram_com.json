@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 269,
+    "rank": 279,
     "site": "instagram.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "fc2398ba2dd45ea8132fb0337f96ec55"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "98186f6934c5ec4a91b755a1d265051f"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Instagram employs a microservices architecture to enhance scalability and maintenance.",
-      "technical_spec": "Decoupled services with specific functions, connected via APIs.",
-      "severity_score": 5
-    },
-    {
-      "title": "GraphQL API",
-      "description": "Instagram uses GraphQL for efficient data retrieval and minimizing redundant data transfer.",
-      "technical_spec": "Single endpoint with tailored queries to fetch exact required data.",
-      "severity_score": 10
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Ensures even distribution of incoming traffic across servers.",
-      "technical_spec": "Uses algorithms such as round-robin or least connections.",
-      "severity_score": 15
-    },
-    {
-      "title": "Content Delivery Network",
-      "description": "CDN is used to distribute content around the globe to improve loading times.",
-      "technical_spec": "Edge servers deployed in multiple regions.",
+      "title": "Microservices",
+      "description": "Instagram utilizes a microservices architecture to ensure scalability and isolated management of features.",
+      "technical_spec": "Docker and Kubernetes are often used to manage and deploy isolated services.",
       "severity_score": 20
     },
     {
-      "title": "Data Replication",
-      "description": "Replicates data across multiple data centers to ensure availability and reliability.",
-      "technical_spec": "Master-slave database replication.",
-      "severity_score": 10
+      "title": "Data Infrastructure",
+      "description": "Relies heavily on sharded MySQL databases and Cassandra for data storage and retrieval.",
+      "technical_spec": "MySQL, Cassandra, and Redis are commonly used database technologies.",
+      "severity_score": 40
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Uses a CDN to distribute content effectively around the globe.",
+      "technical_spec": "CDNs like Akamai or Cloudflare improve load times by caching content.",
+      "severity_score": 15
+    },
+    {
+      "title": "GraphQL API",
+      "description": "Provides a GraphQL API for efficient data queries and to minimize over-fetching.",
+      "technical_spec": "GraphQL framework for flexible and rapid data retrieval.",
+      "severity_score": 30
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Ensures high availability and reliability through load balancing techniques.",
+      "technical_spec": "HTTP/S load balancing using NGINX or HAProxy.",
+      "severity_score": 25
     }
   ]
 }

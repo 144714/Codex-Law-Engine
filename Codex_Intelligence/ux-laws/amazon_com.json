@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 265,
+    "rank": 275,
     "site": "amazon.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "aff4f9cc01f02265880f53afa02ff16f"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "0a17a6a6a26616b5fab437a3e6750e17"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies decision-making by limiting options to improve user experience.",
-      "technical_spec": "Utilizes predictive algorithms to streamline choices and increase conversion rates.",
-      "severity_score": 25
-    },
-    {
       "title": "Fitts's Law",
-      "description": "Optimizes navigation by sizing and positioning clickable elements based on user behaviors.",
-      "technical_spec": "Employs responsive design for ease of accessibility in mobile and desktop views.",
-      "severity_score": 20
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Aligns interface designs with user expectations based on familiar site patterns.",
-      "technical_spec": "Maintains a consistent layout and design language across different pages and services.",
-      "severity_score": 15
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Groups related items visually to make interfaces more intuitive.",
-      "technical_spec": "Utilizes whitespace and grouping strategies for better user navigation and understanding.",
+      "description": "The design optimizes the target size and distance for frequently used interactions, like buying options.",
+      "technical_spec": "UI components are easily clickable, reducing the user's movement time across the interface.",
       "severity_score": 10
     },
     {
+      "title": "Hick's Law",
+      "description": "Minimizes choice overload by categorizing products into clearly defined groups.",
+      "technical_spec": "Efficient taxonomy and search functionality quicken decision-making processes.",
+      "severity_score": 15
+    },
+    {
       "title": "Miller's Law",
-      "description": "Groups content into smaller, digestible chunks to improve information processing.",
-      "technical_spec": "Adopts concise text blocks and bullet points for product descriptions and customer feedback.",
+      "description": "User information is chunked into digestible parts to enhance cognitive processing.",
+      "technical_spec": "Simplified content layouts with adequate whitespace and logical grouping.",
+      "severity_score": 12
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "The platform's interface meets user expectations by mirroring other successful e-commerce interfaces.",
+      "technical_spec": "Standard conventions like navigation bars, shopping carts, and search bars located where users expect them.",
+      "severity_score": 8
+    },
+    {
+      "title": "Tesler's Law",
+      "description": "Complex processes are hidden from users, presenting a simple interface for the shopping experience.",
+      "technical_spec": "Automation of repetitive tasks and smart suggestions reduce user effort.",
       "severity_score": 20
     }
   ]

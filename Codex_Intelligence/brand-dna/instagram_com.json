@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 269,
+    "rank": 279,
     "site": "instagram.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "3bcdf694bb224baaebd054bb7638fa57"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "72cb4d442376c20c19fc7bf2991d9e54"
   },
   "data": [
     {
       "title": "Visual Storytelling",
-      "description": "Empowers users to share their stories visually through photos and videos.",
-      "technical_spec": "High-resolution image and video support.",
-      "severity_score": 5
+      "description": "Promotes visual content as the primary mode of storytelling and engagement.",
+      "technical_spec": "Features like Stories, Reels, and IGTV focus on visual content.",
+      "severity_score": 30
     },
     {
-      "title": "Instagram Aesthetic",
-      "description": "Defined by clean, crisp visual layouts and a distinctive color palette.",
-      "technical_spec": "Adherence to branding guidelines and color codes.",
-      "severity_score": 10
+      "title": "Community Building",
+      "description": "Fosters a sense of community among users through features like comments, hashtags, and live interactions.",
+      "technical_spec": "Algorithm-driven content recommendations and user connection suggestions.",
+      "severity_score": 25
     },
     {
-      "title": "Community Engagement",
-      "description": "Facilitates community building and interaction through likes, comments, and shares.",
-      "technical_spec": "Real-time updates and notification systems.",
-      "severity_score": 12
+      "title": "Innovation",
+      "description": "Continuously innovates with new features to keep user engagement high.",
+      "technical_spec": "Regular updates incorporating AR, shopping, and integrated partner APIs.",
+      "severity_score": 40
     },
     {
-      "title": "Influencer Culture",
-      "description": "Emphasizes influencer partnerships and user-generated content.",
-      "technical_spec": "Verified accounts and promotion algorithms.",
-      "severity_score": 20
-    },
-    {
-      "title": "Youth-Oriented Features",
-      "description": "Focuses on the younger demographic with trendy, engaging features.",
-      "technical_spec": "Stories, Reels, and AR filters.",
+      "title": "Inclusivity",
+      "description": "Efforts to include diverse user demographics through accessibility features.",
+      "technical_spec": "Options for image alt text, captions, and customization settings.",
       "severity_score": 15
+    },
+    {
+      "title": "Influencer Marketing",
+      "description": "Central to brand strategy, leveraging influencer collaborations for increased reach.",
+      "technical_spec": "Tools for influencer analytics and partnership programs.",
+      "severity_score": 28
     }
   ]
 }

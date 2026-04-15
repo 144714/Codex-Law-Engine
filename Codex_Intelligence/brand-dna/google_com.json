@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 261,
+    "rank": 271,
     "site": "google.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "c81c83bcb40adef568eef3c77f30a285"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "41f82b0967ba657f011ae9539773291e"
   },
   "data": [
     {
       "title": "Innovation",
-      "description": "Commitment to pushing the boundaries of what technology can achieve.",
-      "technical_spec": "Continuous R&D investment, Google X projects, and experimental technologies.",
-      "severity_score": 95
+      "description": "Continual drive to create cutting-edge technology.",
+      "technical_spec": "Invests heavily in R&D and encourages a culture of innovation.",
+      "severity_score": 10
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Focus on designing products that meet users' needs and enhance their experiences.",
-      "technical_spec": "Incorporates user feedback loops and extensive usability testing.",
-      "severity_score": 88
+      "title": "User-Centric Design",
+      "description": "Focuses on providing the best user experience.",
+      "technical_spec": "Regularly conducts user testing and feedback sessions.",
+      "severity_score": 15
     },
     {
-      "title": "Reliability",
-      "description": "Ensures consistently high levels of system uptime and operational efficiency.",
-      "technical_spec": "Robust infrastructure and operational excellence ensuring over 99.99% uptime.",
-      "severity_score": 93
+      "title": "Global Accessibility",
+      "description": "Ensures services are accessible worldwide.",
+      "technical_spec": "Multiple language support and adapting to different compliance standards.",
+      "severity_score": 20
     },
     {
-      "title": "Accessibility",
-      "description": "Strong focus on making internet services accessible to a broad audience.",
-      "technical_spec": "Adheres to WCAG standards and implements accessibility features across platforms.",
-      "severity_score": 86
+      "title": "Data Privacy",
+      "description": "Prioritizes user data protection.",
+      "technical_spec": "Implements strong data encryption and transparency in data policies.",
+      "severity_score": 10
     },
     {
-      "title": "Privacy and Security",
-      "description": "Core value of prioritizing user privacy and data protection.",
-      "technical_spec": "Data anonymization techniques, GDPR compliance, and user transparency.",
-      "severity_score": 90
+      "title": "Sustainability",
+      "description": "Commits to reducing environmental impact.",
+      "technical_spec": "Initiatives for energy efficiency and reduced carbon footprint in its operations.",
+      "severity_score": 5
     }
   ]
 }

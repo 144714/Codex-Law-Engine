@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 269,
+    "rank": 279,
     "site": "instagram.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "feda188417f70ba3f3f0eecbbf98ae9d"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "85c33bf582d4da404a6a7497e7795c3e"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Enhances account security by requiring an additional verification step.",
-      "technical_spec": "SMS-based or app-generated authentication codes.",
+      "title": "Multi-Factor Authentication",
+      "description": "Users are encouraged to enable multi-factor authentication to enhance account security.",
+      "technical_spec": "2FA via SMS or Authentication apps.",
       "severity_score": 10
     },
     {
-      "title": "Encryption",
-      "description": "Protects sensitive user data during transmission and storage.",
-      "technical_spec": "TLS for data in transit; AES-256 for data at rest.",
-      "severity_score": 15
+      "title": "End-to-End Encryption",
+      "description": "Messages and media are encrypted to protect user privacy.",
+      "technical_spec": "Utilizes TLS for encrypting data in transit.",
+      "severity_score": 35
     },
     {
-      "title": "Account Activity Monitoring",
-      "description": "Detects unusual activity and alerts users to potential unauthorized access.",
-      "technical_spec": "Machine learning models to identify anomalies.",
+      "title": "Regular Security Audits",
+      "description": "Conducts regular security audits and pen tests to identify and rectify vulnerabilities.",
+      "technical_spec": "Uses automated vulnerability scanners and manual testing.",
       "severity_score": 25
     },
     {
       "title": "Bug Bounty Program",
-      "description": "Encourages external security experts to find and report vulnerabilities.",
-      "technical_spec": "Collaboration with ethical hackers to improve security.",
+      "description": "Encourages ethical hacking to find security vulnerabilities by offering bounties.",
+      "technical_spec": "Collaborates with platforms like HackerOne for bug reporting.",
       "severity_score": 20
     },
     {
-      "title": "Data Breach Response",
-      "description": "Protocols in place to respond to data breaches effectively.",
-      "technical_spec": "Incident response teams and automated alerts.",
+      "title": "Rate Limiting",
+      "description": "Prevents abuse and DDoS attacks by implementing strict rate limiting on APIs.",
+      "technical_spec": "API Gateway with rate limiting rules.",
       "severity_score": 30
     }
   ]

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 263,
+    "rank": 273,
     "site": "apple.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "e4469d9bdc27c76a97b1334e8925627a"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "5e1b3a9e2c541b8e9c27f8f51ed13fa8"
   },
   "data": [
     {
-      "title": "RESTful API Integration",
-      "description": "Seamless integration with RESTful APIs for data exchange.",
-      "technical_spec": "Uses JSON or XML for request/response. Follows standard HTTP methods.",
+      "title": "Responsive Design",
+      "description": "Ensures that the website layout adapts to various screen sizes and resolutions.",
+      "technical_spec": "CSS3 media queries, flexible grid layout, adaptive images.",
       "severity_score": 85
     },
     {
       "title": "Microservices Architecture",
-      "description": "Decentralized architecture built on interconnected microservices.",
-      "technical_spec": "Each microservice has a distinct responsibility and is deployable independently.",
+      "description": "The site is structured in modular, independent units that can be developed and maintained separately.",
+      "technical_spec": "Docker, Kubernetes, REST APIs.",
       "severity_score": 90
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Distributes content globally to improve load times.",
-      "technical_spec": "Utilizes edge servers to cache content closer to end-users.",
+      "description": "Improves site speed and reliability by distributing content across a global network of servers.",
+      "technical_spec": "Akamai or similar CDN services.",
+      "severity_score": 75
+    },
+    {
+      "title": "Cloud Integration",
+      "description": "Utilizes cloud services for scalability and efficiency in data management.",
+      "technical_spec": "AWS, Google Cloud, or Apple’s own infrastructure.",
       "severity_score": 80
     },
     {
-      "title": "Responsive Design Framework",
-      "description": "Adaptable UI that functions across a variety of devices.",
-      "technical_spec": "Built using CSS media queries and flexible grid layouts.",
-      "severity_score": 88
-    },
-    {
-      "title": "Load Balancing",
-      "description": "Evenly distributes network traffic to prevent overload.",
-      "technical_spec": "Uses algorithms such as round-robin and least connections.",
-      "severity_score": 92
+      "title": "Progressive Web App (PWA)",
+      "description": "Aims to provide native app-like experiences on the web.",
+      "technical_spec": "Service Workers, Web App Manifest, HTTPS.",
+      "severity_score": 70
     }
   ]
 }

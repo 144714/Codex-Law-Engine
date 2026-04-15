@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 267,
+    "rank": 277,
     "site": "spotify.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "2b89aac29a5df2d17902c39a2edf1907"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "91cced77bd2144fd6986938f59e1abee"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies choices to decrease decision time for users.",
-      "technical_spec": "Streamlined interface with minimal options per screen.",
-      "severity_score": 92
-    },
-    {
-      "title": "Fitts's Law",
-      "description": "Designs interface elements for ease of click and navigation.",
-      "technical_spec": "Large, easily clickable buttons and icons.",
-      "severity_score": 88
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Ensure visually appealing interface to enhance user satisfaction.",
-      "technical_spec": "High-quality images and modern typography.",
-      "severity_score": 95
+      "description": "Reduces user decision time by simplifying choices on the interface.",
+      "technical_spec": "Simplified navigation menus",
+      "severity_score": 15
     },
     {
       "title": "Jakob's Law",
-      "description": "Design expectations based on users’ prior digital experiences.",
-      "technical_spec": "Adheres to common UI patterns for consistent user experience.",
-      "severity_score": 90
+      "description": "Spotify interfaces are designed to align with user expectations from common digital experiences.",
+      "technical_spec": "Consistent user interface patterns",
+      "severity_score": 10
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Focuses on moments that form peak experiences for users.",
-      "technical_spec": "Curated playlists and personalized recommendations.",
-      "severity_score": 87
+      "title": "Aesthetic-Usability Effect",
+      "description": "Enhances user satisfaction through an aesthetically pleasing interface that facilitates usability.",
+      "technical_spec": "Responsive, minimalist design",
+      "severity_score": 20
+    },
+    {
+      "title": "Miller’s Law",
+      "description": "Breaks down complex information into chunks to aid user comprehension.",
+      "technical_spec": "Content categorization, playlists",
+      "severity_score": 25
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "Ensures ease of access to frequently used functions through optimal button and interface placement.",
+      "technical_spec": "Large clickable areas, optimized button placement",
+      "severity_score": 10
     }
   ]
 }

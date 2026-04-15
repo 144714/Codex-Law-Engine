@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 264,
+    "rank": 274,
     "site": "microsoft.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "9ee23b513edd7498ce0952f767e5a0d3"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "041d1ade7640d7ea6cafb1c3cae3f351"
   },
   "data": [
     {
+      "title": "Innovation Focus",
+      "description": "Microsoft prioritizes perpetual innovation and technological advancements.",
+      "technical_spec": "Cutting-edge R&D, AI Integration",
+      "severity_score": 40
+    },
+    {
+      "title": "User-Centric Design",
+      "description": "Emphasis on designs that cater specifically to diverse user needs.",
+      "technical_spec": "UX Research, User Testing",
+      "severity_score": 30
+    },
+    {
+      "title": "Global Reach",
+      "description": "Targeting a global audience with localized and adaptable solutions.",
+      "technical_spec": "Localization, Globalization Standards",
+      "severity_score": 35
+    },
+    {
+      "title": "Environmental Sustainability",
+      "description": "Commitment to sustainability through eco-friendly practices and technologies.",
+      "technical_spec": "Carbon Neutral Initiatives, Cloud Efficiency",
+      "severity_score": 45
+    },
+    {
       "title": "Trust and Security",
-      "description": "Microsoft brands itself as a trusted and secure tech leader, emphasizing privacy and protection.",
-      "technical_spec": "Recurrent security badges and privacy policy placements across the site.",
-      "severity_score": 5
-    },
-    {
-      "title": "Innovation Leadership",
-      "description": "Showcases continual innovation in software and services across sectors.",
-      "technical_spec": "Highlights new releases, updates, and integration announcements prominently.",
-      "severity_score": 8
-    },
-    {
-      "title": "Global Accessibility",
-      "description": "Commits to making its services accessible to a global and diverse user base.",
-      "technical_spec": "Offers multi-language support and accessibility features for all users.",
-      "severity_score": 7
-    },
-    {
-      "title": "Corporate Responsibility",
-      "description": "Portrays a strong sense of corporate social responsibility and sustainability initiatives.",
-      "technical_spec": "Dedicated sections on the site for community efforts and sustainability reports.",
-      "severity_score": 6
-    },
-    {
-      "title": "Customer-Centric Approach",
-      "description": "Focused on delivering excellent customer experiences and support.",
-      "technical_spec": "Integrates robust customer support channels and feedback loops.",
-      "severity_score": 9
+      "description": "Building trust through robust security measures and transparent practices.",
+      "technical_spec": "Privacy Compliance, Trust Center",
+      "severity_score": 50
     }
   ]
 }

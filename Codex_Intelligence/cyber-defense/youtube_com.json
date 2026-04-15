@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 262,
+    "rank": 272,
     "site": "youtube.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "0bfd6e73c56ce323ccba4933a8ec2ad6"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "89ec9de01c3c454bf35a98ddcca891fe"
   },
   "data": [
     {
       "title": "DDoS Protection",
-      "description": "Implements measures to mitigate Distributed Denial of Service attacks.",
-      "technical_spec": "Leveraging Google’s Shielded VMs and Cloud Armor.",
-      "severity_score": 97
+      "description": "Implements measures to protect against distributed denial-of-service attacks.",
+      "technical_spec": "Anycast network configuration, anomaly detection, bandwidth over-provisioning.",
+      "severity_score": 30
     },
     {
-      "title": "User Data Encryption",
-      "description": "Secures user data through encryption in transit and at rest.",
-      "technical_spec": "Uses TLS for data transmission and AES-256 for storage encryption.",
-      "severity_score": 96
+      "title": "User Account Security",
+      "description": "Enforces security measures to protect user accounts from unauthorized access.",
+      "technical_spec": "Two-factor authentication, OAuth tokens, reCAPTCHA verification.",
+      "severity_score": 40
     },
     {
-      "title": "Account Security",
-      "description": "Protects user accounts through multi-factor authentication.",
-      "technical_spec": "Integrates Google's Identity Platform for 2FA and secure login protocols.",
-      "severity_score": 94
+      "title": "Content Moderation Systems",
+      "description": "Employs automated and manual review processes to ensure content abides by community guidelines.",
+      "technical_spec": "AI moderation tools, human reviewers, policy enforcement algorithms.",
+      "severity_score": 35
     },
     {
-      "title": "Phishing Detection",
-      "description": "Detects and prevents phishing attempts against users.",
-      "technical_spec": "Machine learning algorithms analyze threats in real-time.",
-      "severity_score": 90
+      "title": "Data Encryption",
+      "description": "Ensures data privacy and security through encryption protocols both in transit and at rest.",
+      "technical_spec": "TLS/SSL for data transmission, AES-256 encryption for stored data.",
+      "severity_score": 25
     },
     {
-      "title": "Vulnerability Scanning",
-      "description": "Regular scans to identify potential security weaknesses.",
-      "technical_spec": "Automated vulnerability assessment tools run scans on all web components.",
-      "severity_score": 89
+      "title": "Vulnerability Management",
+      "description": "Identifies and addresses potential security vulnerabilities within the platform.",
+      "technical_spec": "Regular security audits, penetration testing, automated patch management.",
+      "severity_score": 45
     }
   ]
 }

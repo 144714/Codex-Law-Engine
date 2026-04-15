@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 270,
+    "rank": 280,
     "site": "whatsapp.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "553c30a03901347dced727003397cfb0"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "7d30e41f4120dab7424b0466d590a7a4"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "WhatsApp employs a microservices architecture to ensure scalability and resilience.",
-      "technical_spec": "Decoupled services relying on RESTful APIs or gRPC for communication.",
+      "title": "Distributed System Architecture",
+      "description": "WhatsApp uses a distributed architecture to handle millions of simultaneous connections across different regions.",
+      "technical_spec": "Microservices with data sharding and replication",
       "severity_score": 20
     },
     {
-      "title": "Horizontal Scaling",
-      "description": "WhatsApp uses horizontal scaling to manage increased loads efficiently.",
-      "technical_spec": "Deployment across multiple server instances and data centers.",
-      "severity_score": 30
+      "title": "End-to-End Encryption",
+      "description": "Ensures user privacy by encrypting messages between devices.",
+      "technical_spec": "AES-256 encryption protocol",
+      "severity_score": 5
     },
     {
-      "title": "End-to-End Encryption",
-      "description": "Data transmitted across WhatsApp services is end-to-end encrypted.",
-      "technical_spec": "Utilizes the Signal Protocol for robust encryption of messages.",
+      "title": "Reliable Message Queuing",
+      "description": "WhatsApp implements robust message queuing to ensure message delivery, even during network disruptions.",
+      "technical_spec": "AMQP Protocol for queuing messages",
+      "severity_score": 15
+    },
+    {
+      "title": "Real-Time Messaging Protocols",
+      "description": "Optimizes for low-latency message transmission across networks.",
+      "technical_spec": "Use of XMPP over TCP/IP",
       "severity_score": 10
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "WhatsApp uses an event-driven architecture to process real-time data streams.",
-      "technical_spec": "Powered by message brokers like Kafka to handle asynchronous processing.",
+      "title": "Multi-Device Synchronization",
+      "description": "Supports users in accessing their messages across multiple devices.",
+      "technical_spec": "Device state synchronization using protobuf",
       "severity_score": 25
-    },
-    {
-      "title": "Global Distribution",
-      "description": "Data is distributed across global servers to ensure availability and low latency.",
-      "technical_spec": "Use of Content Delivery Networks (CDNs) and geo-replication.",
-      "severity_score": 15
     }
   ]
 }

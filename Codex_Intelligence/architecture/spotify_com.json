@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 267,
+    "rank": 277,
     "site": "spotify.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "cea3ae8f3e3dcbe2128fb99c71d0604e"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "f0a822f6ac76466d9d9e0af5fc2981fb"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Spotify employs a microservices architecture to ensure scalability and flexibility.",
-      "technical_spec": "Services are independently deployable and use APIs to communicate.",
-      "severity_score": 95
+      "description": "Spotify uses a microservices architecture to manage its diverse functionalities, allowing independent development and deployment.",
+      "technical_spec": "Docker, Kubernetes",
+      "severity_score": 5
     },
     {
-      "title": "Horizontal Scaling",
-      "description": "The site infrastructure supports horizontal scaling to manage its large user base.",
-      "technical_spec": "Uses load balancers and multiple instances to distribute traffic.",
-      "severity_score": 90
+      "title": "Cloud Infrastructure",
+      "description": "Spotify runs its services on a cloud infrastructure to ensure scalability and availability.",
+      "technical_spec": "Google Cloud Platform",
+      "severity_score": 10
     },
     {
-      "title": "Data Management",
-      "description": "Efficient data handling using distributed databases.",
-      "technical_spec": "Utilizes technologies like Cassandra and PostgreSQL for data storage.",
-      "severity_score": 85
+      "title": "Data-Driven Architecture",
+      "description": "The platform uses data-driven methodologies to enhance user experiences.",
+      "technical_spec": "Apache Kafka, Google BigQuery",
+      "severity_score": 15
     },
     {
-      "title": "Global Content Delivery",
-      "description": "Utilizes CDNs to ensure fast content delivery worldwide.",
-      "technical_spec": "Integration with CDNs like Akamai to minimize latency.",
-      "severity_score": 80
+      "title": "REST and gRPC APIs",
+      "description": "Spotify offers REST and gRPC APIs for internal and external service integrations.",
+      "technical_spec": "HTTP/2, ProtoBuf",
+      "severity_score": 20
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Provides real-time analytics and notifications.",
-      "technical_spec": "Employs message brokers like Kafka for event streaming.",
-      "severity_score": 87
+      "title": "Load Balancing",
+      "description": "Implements load balancing techniques to efficiently handle traffic across their network.",
+      "technical_spec": "NGINX, HAProxy",
+      "severity_score": 25
     }
   ]
 }

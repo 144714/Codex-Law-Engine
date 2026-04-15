@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 263,
+    "rank": 273,
     "site": "apple.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "f955de63f08fbce82512795a7edfd137"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "1207ce412ba58629904b78af71821bba"
   },
   "data": [
     {
-      "title": "Two-Factor Authentication",
-      "description": "Additional security layer requiring second verification method.",
-      "technical_spec": "Token or SMS-based authentication to validate user identity.",
-      "severity_score": 93
-    },
-    {
-      "title": "SSL/TLS Encryption",
-      "description": "Secure data transmission over HTTPS.",
-      "technical_spec": "Encrypts communication using 256-bit keys to protect data integrity.",
+      "title": "Secure Sockets Layer (SSL)",
+      "description": "Protects user data with encrypted connections.",
+      "technical_spec": "TLS 1.3, HTTPS implementation site-wide.",
       "severity_score": 95
     },
     {
       "title": "Web Application Firewall (WAF)",
-      "description": "Protects against common web application exploits.",
-      "technical_spec": "Analyzes incoming traffic to block malicious traffic based on rules.",
+      "description": "Monitors and blocks possible attacks on web applications.",
+      "technical_spec": "ModSecurity or other advanced WAF solutions.",
+      "severity_score": 85
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Safeguards against distributed denial-of-service attacks.",
+      "technical_spec": "Cloudflare or similar anti-DDoS tools.",
       "severity_score": 90
     },
     {
       "title": "Regular Security Audits",
-      "description": "Continuous security analysis and vulnerability testing.",
-      "technical_spec": "Conducted via automated tools and periodic manual reviews.",
-      "severity_score": 88
+      "description": "Consistent checking of systems for vulnerabilities and compliance.",
+      "technical_spec": "Penetration testing, vulnerability scanners (e.g., Nessus, Qualys).",
+      "severity_score": 80
     },
     {
-      "title": "Data Loss Prevention (DLP)",
-      "description": "Prevents unauthorized data transfers.",
-      "technical_spec": "Monitors, detects, and blocks sensitive data while in use, in motion, and at rest.",
+      "title": "User Authentication",
+      "description": "Ensures secure user logins with multi-factor authentication.",
+      "technical_spec": "OAuth 2.0, biometric authentication, 2FA.",
       "severity_score": 85
     }
   ]

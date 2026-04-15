@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 264,
+    "rank": 274,
     "site": "microsoft.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "cc018b6b6449d2f3ee8505c1c907b378"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "ec296b4429854e613999a65127ede439"
   },
   "data": [
     {
+      "title": "Intrusion Detection Systems",
+      "description": "Monitors network traffic to identify suspicious activities.",
+      "technical_spec": "Azure Security Center, IDS/IPS",
+      "severity_score": 45
+    },
+    {
       "title": "Data Encryption",
-      "description": "Data transmitted to and from the site is encrypted using industry-standard protocols.",
-      "technical_spec": "SSL/TLS encryption ensures secure communication over the network.",
-      "severity_score": 10
+      "description": "Encrypts data at rest and in transit to prevent unauthorized access.",
+      "technical_spec": "TLS 1.3, AES-256 encryption",
+      "severity_score": 60
+    },
+    {
+      "title": "Incident Response Plan",
+      "description": "Structured approach to manage and mitigate security incidents.",
+      "technical_spec": "Azure Sentinel, Automated Incident Response",
+      "severity_score": 50
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regularly scans and addresses vulnerabilities in the systems.",
+      "technical_spec": "Azure Defender, Patch Management",
+      "severity_score": 55
     },
     {
       "title": "Multi-Factor Authentication",
-      "description": "Implements MFA for enhanced user account security.",
-      "technical_spec": "Integration with Microsoft Authenticator and third-party authentication apps.",
-      "severity_score": 5
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Defensive mechanisms in place to mitigate distributed denial of service attacks.",
-      "technical_spec": "Leverages Azure DDoS Protection Standard to safeguard online assets from large-scale attacks.",
-      "severity_score": 8
-    },
-    {
-      "title": "Secure Code Practices",
-      "description": "Code is written and reviewed with security best practices to minimize vulnerabilities.",
-      "technical_spec": "Adheres to Secure Development Lifecycle (SDL) principles throughout the development process.",
-      "severity_score": 7
-    },
-    {
-      "title": "Intrusion Detection Systems",
-      "description": "Advanced systems in place to detect and respond to security threats in real-time.",
-      "technical_spec": "Utilizes Azure Security Center for threat detection and analysis.",
-      "severity_score": 12
+      "description": "Requires multiple forms of verification to access sensitive data and systems.",
+      "technical_spec": "Azure MFA, FIDO2",
+      "severity_score": 70
     }
   ]
 }

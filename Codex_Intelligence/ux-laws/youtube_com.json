@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 262,
+    "rank": 272,
     "site": "youtube.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "3fa89a6ee37cbc0d9280850eeebb6d04"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "24f000ebe71f918ac49558d6751f917b"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Minimizes decision-making time by presenting limited options in menus.",
-      "technical_spec": "Utilizes dropdowns and category tabs for easier navigation.",
-      "severity_score": 85
+      "title": "Hick's Law",
+      "description": "Simplifies choices to reduce decision time and enhance user experience.",
+      "technical_spec": "Streamlined interface, category-based menus, personalized recommendations.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizes button sizes and positions for intuitive clicking.",
-      "technical_spec": "Consistent button placement and resizing based on user interaction data.",
-      "severity_score": 87
+      "title": "Fitts's Law",
+      "description": "Designs interactive elements for ease of use based on size and distance.",
+      "technical_spec": "Large clickable buttons, intuitive layout structure, touch-friendly designs.",
+      "severity_score": 20
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Employs visually appealing design for improved user satisfaction.",
-      "technical_spec": "Modern, sleek UI with consistent color schemes and typography.",
-      "severity_score": 88
+      "title": "Law of Proximity",
+      "description": "Groups related items close to one another to create logical connections and improve navigation.",
+      "technical_spec": "Video thumbnails and titles, grouped playlists, consistent layout patterns.",
+      "severity_score": 10
+    },
+    {
+      "title": "Law of Similarity",
+      "description": "Uses visual similarities to denote relationships among elements.",
+      "technical_spec": "Consistent color schemes for related content, uniform icons for actions, unified style guides.",
+      "severity_score": 15
     },
     {
       "title": "Serial Position Effect",
-      "description": "Prioritizes core content placement based on user attention patterns.",
-      "technical_spec": "Key videos and features are placed prominently on landing pages.",
-      "severity_score": 86
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Ensures a familiar user experience similar to other popular platforms.",
-      "technical_spec": "Design patterns align with commonly used media sites for ease of transition.",
-      "severity_score": 89
+      "description": "Capitalizes on the tendency to better recall items at the beginning and end of a list.",
+      "technical_spec": "Highlighted beginning and end content sections, suggested videos carousel, prioritized viewing history placement.",
+      "severity_score": 10
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 267,
+    "rank": 277,
     "site": "spotify.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "e2c1edd547116be1d9b20a1a839fc0a6"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "c7e3361226f2127f9e1866b082474300"
   },
   "data": [
     {
-      "title": "Personalized Experience",
-      "description": "Offers a highly tailored user experience with music suggestions.",
-      "technical_spec": "Utilizes AI-driven algorithms for recommendations.",
-      "severity_score": 98
+      "title": "Cultural Influencer",
+      "description": "Spotify is recognized as a pioneer in music streaming, influencing cultural consumption patterns.",
+      "technical_spec": "Global music licensing deals",
+      "severity_score": 5
     },
     {
-      "title": "Community Engagement",
-      "description": "Builds community through features like collaborative playlists.",
-      "technical_spec": "Real-time collaboration tools integrated into the UX.",
-      "severity_score": 90
+      "title": "Innovative Technology",
+      "description": "Known for its cutting-edge technology that personalizes user experiences.",
+      "technical_spec": "Machine learning algorithms for recommendations",
+      "severity_score": 10
     },
     {
-      "title": "Seamless Integration",
-      "description": "Integrates with multiple platforms and devices.",
-      "technical_spec": "Cross-platform compatibility with native iOS and Android apps.",
-      "severity_score": 95
+      "title": "User-Centric Approach",
+      "description": "Focuses heavily on user satisfaction and feedback to drive platform improvements.",
+      "technical_spec": "Regular UX testing and feedback loops",
+      "severity_score": 15
     },
     {
-      "title": "Brand Consistency",
-      "description": "Maintains a consistent visual and auditory brand identity.",
-      "technical_spec": "Unified color palettes and sound logos across all mediums.",
-      "severity_score": 93
+      "title": "Strong Community Engagement",
+      "description": "Cultivates a strong community connection through playlists and social sharing features.",
+      "technical_spec": "Interactive, collaborative playlist features",
+      "severity_score": 20
     },
     {
-      "title": "Innovative Features",
-      "description": "Continually launches new features to enhance user engagement.",
-      "technical_spec": "Beta testing for early user feedback and iterative design.",
-      "severity_score": 92
+      "title": "Sustainability Initiatives",
+      "description": "Incorporates sustainability into its business practices.",
+      "technical_spec": "Carbon disclosure reports",
+      "severity_score": 25
     }
   ]
 }

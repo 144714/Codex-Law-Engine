@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 261,
+    "rank": 271,
     "site": "google.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "1afd2ad7dc20f6710fd32ef96b71ba30"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "6426f612994e043fdd018c98c500be8e"
   },
   "data": [
     {
-      "title": "Advanced Phishing Protection",
-      "description": "Google's security incorporates advanced anti-phishing technology to protect user data.",
-      "technical_spec": "Machine learning models trained on vast data sets to detect phishing patterns.",
-      "severity_score": 87
+      "title": "DDoS Protection",
+      "description": "Protects against distributed denial-of-service attacks.",
+      "technical_spec": "Advanced algorithms and server redundancy are used to mitigate attacks.",
+      "severity_score": 5
     },
     {
-      "title": "Data Encryption",
-      "description": "Robust encryption practices to secure user information both at rest and in transit.",
-      "technical_spec": "TLS/SSL protocols for data in transit, AES encryption for data at rest.",
-      "severity_score": 92
+      "title": "Security Patching",
+      "description": "Regular updates are applied to protect against vulnerabilities.",
+      "technical_spec": "Automated patch management with immediate response to CVE alerts.",
+      "severity_score": 15
     },
     {
-      "title": "Zero Trust Security Model",
-      "description": "Adoption of a Zero Trust approach to ensure maximum security.",
-      "technical_spec": "Verification of identity and context across applications, users, and devices.",
-      "severity_score": 89
+      "title": "End-to-End Encryption",
+      "description": "Secures data transmission to/from servers.",
+      "technical_spec": "Uses TLS for data encryption to ensure privacy and integrity.",
+      "severity_score": 5
     },
     {
-      "title": "Continuous Security Monitoring",
-      "description": "Real-time monitoring and anomaly detection to identify threats quickly.",
-      "technical_spec": "Custom-built solutions coupled with off-the-shelf monitoring tools.",
-      "severity_score": 91
+      "title": "Intrusion Detection System (IDS)",
+      "description": "Monitors the network for suspicious activities.",
+      "technical_spec": "Uses machine learning algorithms to detect and respond to anomalies.",
+      "severity_score": 10
     },
     {
-      "title": "SOC and Threat Intelligence",
-      "description": "Dedicated Security Operations Center (SOC) and threat intelligence analytics.",
-      "technical_spec": "Integration of global threat intelligence feeds and internal data analytics.",
-      "severity_score": 93
+      "title": "Two-Factor Authentication",
+      "description": "Adds an extra layer of security to user accounts.",
+      "technical_spec": "Supports various 2FA options including SMS and authenticator apps.",
+      "severity_score": 15
     }
   ]
 }

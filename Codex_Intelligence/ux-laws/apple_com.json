@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 263,
+    "rank": 273,
     "site": "apple.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "f418dad5c5d551c3f3e68e57dfff64d2"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "b257d3498575ea7e4e6e8111553ff1d7"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies user decisions by minimizing choices.",
-      "technical_spec": "Limits options on interface to reduce user decision time.",
-      "severity_score": 89
+      "description": "Easy navigation by minimizing the number of choices presented at any given time.",
+      "technical_spec": "Streamlined menus, context-aware navigation paths.",
+      "severity_score": 70
     },
     {
       "title": "Fitts’s Law",
-      "description": "Optimizes the size and distance of interactive objects.",
-      "technical_spec": "Targets are sized and positioned for easy accessibility.",
-      "severity_score": 85
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Uses patterns and symmetry to create an organized layout.",
-      "technical_spec": "Arranges elements in groups to facilitate perception.",
-      "severity_score": 87
-    },
-    {
-      "title": "Jakob’s Law",
-      "description": "Aligns with user’s mental models by meeting their expectations.",
-      "technical_spec": "Maintains consistency with familiar web experiences.",
-      "severity_score": 90
+      "description": "Designs for quick accessibility to frequently used controls.",
+      "technical_spec": "Large, easily clickable buttons and touches targets.",
+      "severity_score": 75
     },
     {
       "title": "Miller's Law",
-      "description": "Manages cognitive load by chunking information into manageable parts.",
-      "technical_spec": "Information is grouped into smaller segments for enhanced comprehension.",
-      "severity_score": 84
+      "description": "Ensures content is organized into chunks that are easy to digest.",
+      "technical_spec": "Clear headings, listed content, and intuitive groupings.",
+      "severity_score": 80
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Emphasizes pleasing design to make interfaces appear easier to use.",
+      "technical_spec": "Consistent style, coherent color schemes, Apple’s design language.",
+      "severity_score": 90
+    },
+    {
+      "title": "Peak-End Rule",
+      "description": "Focuses on creating memorable moments within the user journey.",
+      "technical_spec": "Micromoments, seamless transitions, delightful interactions.",
+      "severity_score": 85
     }
   ]
 }

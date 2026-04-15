@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 268,
+    "rank": 278,
     "site": "adobe.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "a9cc46911b1294b23101d1d8ce702a97"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "703e8ab5a266b40e48ab435a60982540"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "The design considers the number of choices given to users to optimize decision-making speed.",
-      "technical_spec": "Streamlined menus and option lists to enhance user navigation and efficiency.",
-      "severity_score": 10
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "The UI is optimized for the speed of movement based on size and distance of clickable elements.",
-      "technical_spec": "Placement of action buttons and interactive elements to reduce user effort.",
+      "title": "Jakob's Law of Internet User Experience",
+      "description": "Users spend most of their time on other sites, so they prefer products that work similarly to those they already know.",
+      "technical_spec": "Emphasis on common design patterns and navigation structures.",
       "severity_score": 15
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Design expectations align with familiar patterns to enhance usability.",
-      "technical_spec": "UI elements and navigation structured similar to commonly used platforms.",
+      "title": "Fitts’s Law",
+      "description": "The time required to move to a target depends on the distance to and size of the target.",
+      "technical_spec": "Large interactive elements, crucial for tools and buttons.",
       "severity_score": 20
     },
     {
-      "title": "Law of Proximity",
-      "description": "Grouping of related elements to enhance user understanding and experience.",
-      "technical_spec": "Logical grouping of UI components for better cognitive processing.",
-      "severity_score": 5
+      "title": "Hick’s Law",
+      "description": "The more options users are presented with, the longer it will take them to make a decision.",
+      "technical_spec": "Optimized menu structure with clear categorization.",
+      "severity_score": 18
     },
     {
-      "title": "Pareto Principle",
-      "description": "Focus on optimizing the 20% of features that are used 80% of the time.",
-      "technical_spec": "Data-driven approach to prioritize features and functionality based on user behavior analytics.",
+      "title": "Aesthetic-Usability Effect",
+      "description": "Users perceive aesthetically pleasing designs as more usable, influencing their interactions.",
+      "technical_spec": "Adobe's strong emphasis on UI/UX aesthetics and functional design.",
+      "severity_score": 12
+    },
+    {
+      "title": "Tesler’s Law (Law of Conservation of Complexity)",
+      "description": "Every application has an inherent amount of irreducible complexity; smart designs aim to offload complexity from users.",
+      "technical_spec": "Simplified task flows with automated suggestions.",
       "severity_score": 25
     }
   ]

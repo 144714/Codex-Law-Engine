@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 268,
+    "rank": 278,
     "site": "adobe.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "ee9b593deeb28e2576e60deccfcb3314"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "3b759b90c7338a2a7d418facf6321e98"
   },
   "data": [
     {
       "title": "Creativity and Innovation",
-      "description": "Adobe's brand is synonymous with creativity and cutting-edge creative software solutions.",
-      "technical_spec": "Development of flagship products like Photoshop and Illustrator, leading the creative software market.",
-      "severity_score": 5
-    },
-    {
-      "title": "User-Centric Approach",
-      "description": "Adobe prioritizes user experience in the development of its platforms and tools.",
-      "technical_spec": "Feedback loops and user testing integrated into the design and development process.",
-      "severity_score": 10
-    },
-    {
-      "title": "Global Presence",
-      "description": "Maintaining a robust global reach and influence in the creative and digital solutions markets.",
-      "technical_spec": "Localized products and services to cater to diverse international markets.",
+      "description": "Adobe is synonymous with creativity, providing world-class tools for digital content creation.",
+      "technical_spec": "AI and ML infused tools such as Adobe Sensei to enhance creative processes.",
       "severity_score": 15
     },
     {
-      "title": "Commitment to Security",
-      "description": "A strong focus on digital security and protecting user data as a core brand value.",
-      "technical_spec": "Implementation of advanced security measures and certifications across products.",
+      "title": "Customer-centric Development",
+      "description": "Adobe prioritizes user feedback in its product iterations, ensuring solutions meet market demands.",
+      "technical_spec": "Continuous user testing and beta programs.",
+      "severity_score": 18
+    },
+    {
+      "title": "Global Accessibility",
+      "description": "Committed to making products accessible to users around the world, adhering to global standards.",
+      "technical_spec": "Compliance with WCAG 2.1 and regular updates for accessibility features.",
       "severity_score": 20
     },
     {
-      "title": "Sustainability Initiatives",
-      "description": "Efforts towards sustainability and environmental responsibility are integrated into Adobe's corporate strategies.",
-      "technical_spec": "Programs to reduce carbon footprint, digital resource management initiatives.",
-      "severity_score": 30
+      "title": "Sustainability and Responsibility",
+      "description": "Adobe focuses on sustainable practices and corporate responsibility in its operations and initiatives.",
+      "technical_spec": "Environmentally-friendly business practices and community outreach programs.",
+      "severity_score": 10
+    },
+    {
+      "title": "Integration and Interoperability",
+      "description": "Adobe products are designed to integrate seamlessly with third-party tools, ensuring a fluid user experience.",
+      "technical_spec": "Open API frameworks and cloud storage synchronization.",
+      "severity_score": 22
     }
   ]
 }

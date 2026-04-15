@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 270,
+    "rank": 280,
     "site": "whatsapp.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "1ad3defd296049a8ce74346308e7e83e"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "c8b7c87243c671eff54635ca2b87fa9c"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplified interface promotes faster user decisions.",
-      "technical_spec": "Minimalistic chat interface with quick access buttons.",
+      "description": "Simplifies choices to enhance user experience.",
+      "technical_spec": "Minimalistic UI with quick-access menus",
       "severity_score": 10
     },
     {
       "title": "Fitts's Law",
-      "description": "Optimized touch targets for mobile user interactions.",
-      "technical_spec": "Large, easily tappable icons and buttons.",
+      "description": "Design focuses on ease of clicking and finger targets on mobile.",
+      "technical_spec": "Optimized touch interface and button sizing",
+      "severity_score": 15
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Focuses on creating a visually organized UI.",
+      "technical_spec": "Consistent layout and typography",
       "severity_score": 10
     },
     {
       "title": "Law of Proximity",
-      "description": "Grouping related items to enhance perceptual organization for users.",
-      "technical_spec": "Chats, calls, and contacts are clearly organized within sections.",
+      "description": "Groups related items to simplify navigation.",
+      "technical_spec": "Smart grouping of chat lists and options",
       "severity_score": 15
     },
     {
-      "title": "Miller’s Law",
-      "description": "Design respects user's cognitive load limitations.",
-      "technical_spec": "Concise menu options and limited notification clutter.",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Familiar interaction patterns to meet user expectations.",
-      "technical_spec": "Adherence to widely accepted chat app designs.",
-      "severity_score": 5
+      "title": "Aesthetic-Usability Effect",
+      "description": "Prioritizes aesthetic design to enhance perceived usability.",
+      "technical_spec": "Clean and modern interface design",
+      "severity_score": 20
     }
   ]
 }

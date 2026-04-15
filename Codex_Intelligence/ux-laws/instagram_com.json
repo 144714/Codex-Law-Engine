@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 269,
+    "rank": 279,
     "site": "instagram.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "12a85690fee1533cce4cf553aa9c6abc"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "ab66c36430d3970839c121ed5b0d5cfa"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Limits the number of choices to speed up decision-making.",
-      "technical_spec": "Minimalistic design with clear pathways.",
-      "severity_score": 5
+      "title": "Hick’s Law",
+      "description": "Simplifies user choices to decrease decision time and enhance navigation.",
+      "technical_spec": "Streamlined interface with limited actions available per screen.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizes target sizes for easier accessibility.",
-      "technical_spec": "Enlarged touch points for frequent actions.",
+      "title": "Fitts’s Law",
+      "description": "Ensures that targets (buttons, links) are large and easily tappable.",
+      "technical_spec": "Optimized touch targets for ease of use on touch devices.",
       "severity_score": 10
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Focus on placing frequently used features prominently to ensure recall.",
-      "technical_spec": "Key functions positioned at the top and bottom of lists.",
-      "severity_score": 8
-    },
-    {
-      "title": "Peak-End Rule",
-      "description": "Designs memorable user experiences by ensuring a strong start and end.",
-      "technical_spec": "Error-free onboarding and rewarding end interactions.",
-      "severity_score": 12
+      "title": "Aesthetic-Usability Effect",
+      "description": "Focuses on visual appeal to create a perception of better usability.",
+      "technical_spec": "Consistent use of Instagram's color palette and typography.",
+      "severity_score": 18
     },
     {
       "title": "Jakob’s Law",
-      "description": "Utilizes familiarity by adopting design patterns users expect.",
-      "technical_spec": "Navigation similar to established social media norms.",
-      "severity_score": 15
+      "description": "Design is consistent with patterns from other popular applications like Facebook.",
+      "technical_spec": "Utilization of familiar UI elements like the news feed.",
+      "severity_score": 12
+    },
+    {
+      "title": "Law of Common Region",
+      "description": "Uses borders and containers to group related content.",
+      "technical_spec": "Card-based layout to organize posts, comments, and stories.",
+      "severity_score": 20
     }
   ]
 }

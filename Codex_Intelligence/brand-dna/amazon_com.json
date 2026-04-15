@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 265,
+    "rank": 275,
     "site": "amazon.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "a3fde38a7c5fbc8c50324d8366e6e993"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "c73754f38f470e7e9fcbc427a0a61296"
   },
   "data": [
     {
       "title": "Customer-Centric Approach",
-      "description": "Prioritizes customer satisfaction and works backwards from customer needs.",
-      "technical_spec": "Integrates feedback loops and user data analytics for continual improvement.",
+      "description": "Amazon’s brand is rooted in a customer-first philosophy, ensuring satisfaction and loyalty.",
+      "technical_spec": "24/7 customer service, adaptive interfaces, user reviews, and comprehensive help resources.",
+      "severity_score": 5
+    },
+    {
+      "title": "Innovation Culture",
+      "description": "Constantly evolving with new technologies and features, the company challenges traditional retail methods.",
+      "technical_spec": "Programs like Amazon Prime, AWS innovations, and Alexa integration show technological leadership.",
       "severity_score": 10
     },
     {
-      "title": "Innovation-Driven",
-      "description": "Focuses on innovation as a key driver for business processes and services.",
-      "technical_spec": "Encourages experimentation and adoption of emerging technologies.",
-      "severity_score": 15
-    },
-    {
-      "title": "Operational Excellence",
-      "description": "Strives for continuous improvement in all processes to enhance efficiency.",
-      "technical_spec": "Utilizes Six Sigma methodologies and lean practices.",
-      "severity_score": 25
-    },
-    {
       "title": "Global Reach",
-      "description": "Emphasizes a strong international presence with operations across the globe.",
-      "technical_spec": "Supports multi-language and currency handling for diverse geographic regions.",
-      "severity_score": 20
+      "description": "Amazon’s operations span across the globe, providing localized services to meet regional needs.",
+      "technical_spec": "Localized versions of the site, multiple language options, and regional support centers.",
+      "severity_score": 12
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Invests in sustainability practices to minimize environmental impact.",
-      "technical_spec": "Implements practices such as renewable energy solutions and eco-friendly packaging.",
-      "severity_score": 30
+      "title": "Trustworthy Brand",
+      "description": "Known for reliable delivery service, quality assurance, and secure transactions.",
+      "technical_spec": "A-to-Z guarantee, secure payment gateways, and verified reviews build consumer trust.",
+      "severity_score": 8
+    },
+    {
+      "title": "Subscription Ecosystem",
+      "description": "Offers an expansive subscription model through services like Prime for enhanced customer value.",
+      "technical_spec": "Subscription benefits including free shipping, streaming services, and exclusive deals.",
+      "severity_score": 15
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 263,
+    "rank": 273,
     "site": "apple.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "9afa7ed708cb075e74ecfc8d78d230a7"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "80be00a7dc99c5a56cca03214d2bbc1e"
   },
   "data": [
     {
-      "title": "Minimalist Design",
-      "description": "Prioritizes simplicity and functionality in design aesthetics.",
-      "technical_spec": "Reduces visual noise to highlight core products and services.",
+      "title": "Innovation",
+      "description": "Constant drive to push forward in technology and design, setting market trends.",
+      "technical_spec": "Integration of cutting-edge technology in product designs and presentations.",
       "severity_score": 95
     },
     {
-      "title": "Innovative Technology",
-      "description": "Showcases cutting-edge technology and forward-thinking solutions.",
-      "technical_spec": "Incorporates the latest tech trends into products and services.",
-      "severity_score": 96
+      "title": "Simplicity",
+      "description": "Streamlined user experiences and minimalist aesthetics.",
+      "technical_spec": "Intuitive interface, minimalistic layouts and content presentation.",
+      "severity_score": 90
     },
     {
-      "title": "Premium User Experience",
-      "description": "Ensures a superior user interaction with products and services.",
-      "technical_spec": "Focuses on seamless integration and intuitive interfaces.",
-      "severity_score": 94
+      "title": "Quality",
+      "description": "Commitment to high standards in both software and hardware.",
+      "technical_spec": "Robust build quality, seamless software integration, thorough testing.",
+      "severity_score": 97
     },
     {
-      "title": "Global Accessibility",
-      "description": "Provides products and services that are universally accessible.",
-      "technical_spec": "Adheres to international accessibility standards for web and design.",
+      "title": "Privacy",
+      "description": "Dedication to user privacy and data protection.",
+      "technical_spec": "End-to-end encryption, clear privacy policies, frequent updates.",
       "severity_score": 92
     },
     {
-      "title": "Eco-Friendly Initiatives",
-      "description": "Commits to reducing environmental impact through sustainable practices.",
-      "technical_spec": "Incorporates renewable materials and energy-efficient processes.",
-      "severity_score": 89
+      "title": "Exclusivity",
+      "description": "Creating a prestigious and exclusive brand image.",
+      "technical_spec": "Premium product lines, strategic pricing, iconic branding.",
+      "severity_score": 88
     }
   ]
 }

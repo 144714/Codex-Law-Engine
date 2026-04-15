@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 261,
+    "rank": 271,
     "site": "google.com",
-    "date": "2026-04-15 15:00",
-    "integrity_hash": "652dd617cc17517da135b155bfd2c111"
+    "date": "2026-04-15 16:09",
+    "integrity_hash": "38bc495d318f938346242cea01c5478c"
   },
   "data": [
     {
+      "title": "Fitts's Law",
+      "description": "The time to acquire a target is a function of the distance to and size of the target.",
+      "technical_spec": "UI elements are designed considering size for ease of access.",
+      "severity_score": 30
+    },
+    {
       "title": "Hick's Law",
-      "description": "Simplified user interface to minimize choice overload and improve decision-making speed.",
-      "technical_spec": "UI design prioritizes essential features, employs minimalistic design principles.",
-      "severity_score": 78
+      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
+      "technical_spec": "Simplifies navigation paths to reduce cognitive load.",
+      "severity_score": 25
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimized UI elements designed for efficient navigation and interaction.",
-      "technical_spec": "Strategically placed call-to-action buttons to shorten user interaction paths.",
-      "severity_score": 85
+      "title": "Miller's Law",
+      "description": "Average person can keep only 7 (plus or minus 2) items in their working memory.",
+      "technical_spec": "Limits the amount of information presented at once.",
+      "severity_score": 20
     },
     {
-      "title": "Millers’s Law",
-      "description": "Information architecture aligns with cognitive load management principles.",
-      "technical_spec": "Organizes information into chunks, uses familiar patterns and labels.",
-      "severity_score": 82
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Design leverages Gestalt principles to create visually cohesive and intuitive layouts.",
-      "technical_spec": "Use of proximity, similarity, and continuity to guide visual hierarchy.",
-      "severity_score": 83
+      "title": "Law of Proximity",
+      "description": "Objects near each other appear to form groups.",
+      "technical_spec": "Aligns related content closely to create logical groupings.",
+      "severity_score": 15
     },
     {
       "title": "Jakob’s Law",
-      "description": "Interface consistency with common web and app navigation patterns.",
-      "technical_spec": "Adopted navigation structures and elements users are accustomed to from similar platforms.",
-      "severity_score": 80
+      "description": "Users expect your site to work similarly to other sites.",
+      "technical_spec": "Adheres to common web conventions to avoid user confusion.",
+      "severity_score": 10
     }
   ]
 }
