@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 345,
+    "rank": 355,
     "site": "amazon.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "c820331a0623c0a6066686a0cf488a87"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "ae0caa1603c2f369591a3694885a93d4"
   },
   "data": [
     {
-      "title": "Customer Obsession",
-      "description": "Amazon prioritizes customer satisfaction above all else in its operational model.",
-      "technical_spec": "Customer feedback loops, data analysis for personalized experiences.",
-      "severity_score": 5
-    },
-    {
-      "title": "Operational Excellence",
-      "description": "Efficient operations management to ensure swift delivery and logistics.",
-      "technical_spec": "Advanced logistics algorithms, real-time tracking systems.",
-      "severity_score": 10
+      "title": "Customer-Centric Approach",
+      "description": "Amazon prioritizes customer satisfaction and service.",
+      "technical_spec": "Customer reviews and tailored recommendations.",
+      "severity_score": 95
     },
     {
       "title": "Innovation",
-      "description": "Continuous technological and service innovations keep Amazon ahead in the market.",
-      "technical_spec": "Patent filings, R&D investments in AI and logistics technologies.",
-      "severity_score": 15
+      "description": "Constantly evolving technology and services to enhance user experience.",
+      "technical_spec": "Adoption of AI for personalized shopping and voice integration.",
+      "severity_score": 90
+    },
+    {
+      "title": "Wide Product Range",
+      "description": "Hosts a vast array of products across numerous categories.",
+      "technical_spec": "Robust inventory management and product taxonomy.",
+      "severity_score": 88
+    },
+    {
+      "title": "Speed and Efficiency",
+      "description": "Focus on fast delivery and streamlined processes.",
+      "technical_spec": "Uses advanced logistics and Prime services.",
+      "severity_score": 93
     },
     {
       "title": "Global Reach",
-      "description": "Presence in multiple countries allows Amazon to serve a worldwide audience.",
-      "technical_spec": "Localized websites, global distribution networks.",
-      "severity_score": 5
-    },
-    {
-      "title": "Brand Trust",
-      "description": "Maintains high levels of consumer trust through reliability and integrity.",
-      "technical_spec": "Secure transaction systems, transparent policies.",
-      "severity_score": 10
+      "description": "Operates in multiple countries with tailored experiences.",
+      "technical_spec": "Localized sites and diverse currency acceptance.",
+      "severity_score": 85
     }
   ]
 }

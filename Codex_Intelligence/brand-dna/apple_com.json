@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 343,
+    "rank": 353,
     "site": "apple.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "1d008812001c2ddeac03027b60bd0a76"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "ff65be2973d3d8b2eb4646848bc41001"
   },
   "data": [
     {
-      "title": "Innovative Experience",
-      "description": "Apple's website reflects its commitment to innovation and cutting-edge technology.",
-      "technical_spec": "Use of advanced JavaScript frameworks and custom features.",
-      "severity_score": 5
+      "title": "Innovative",
+      "description": "Known for being at the forefront of technology innovation.",
+      "technical_spec": "Seamless integration of cutting-edge technologies across products.",
+      "severity_score": 85
     },
     {
-      "title": "Minimalistic Design",
-      "description": "A sleek, minimalistic design that aligns with Apple's brand ethos.",
-      "technical_spec": "Flat design principles and a reduced color palette.",
-      "severity_score": 5
+      "title": "Design-Centric",
+      "description": "Focuses on delivering aesthetically pleasing and user-friendly designs.",
+      "technical_spec": "Minimalistic design language with intuitive navigation.",
+      "severity_score": 90
     },
     {
-      "title": "Premium Feel",
-      "description": "Every interaction exudes a sense of quality and exclusivity.",
-      "technical_spec": "High-resolution imagery and smooth user interactions.",
-      "severity_score": 5
+      "title": "Ecosystem Cohesion",
+      "description": "Offers a tightly integrated ecosystem of products and services.",
+      "technical_spec": "Unified architecture enabling cross-device synchronization.",
+      "severity_score": 80
     },
     {
-      "title": "Seamless Ecosystem Integration",
-      "description": "Unified experience across devices highlighting Apple's ecosystem.",
-      "technical_spec": "Cross-platform compatibility and synchronized services.",
-      "severity_score": 10
+      "title": "Privacy-Focused",
+      "description": "Prioritizes user privacy and data protection.",
+      "technical_spec": "Adopts robust privacy practices and encryption standards.",
+      "severity_score": 75
     },
     {
-      "title": "Customer-Centric Design",
-      "description": "Design practices focus on the needs and desires of the user.",
-      "technical_spec": "User-centered design strategies like journey mapping and feedback loops.",
-      "severity_score": 10
+      "title": "Global Reach",
+      "description": "Maintains a strong presence in international markets.",
+      "technical_spec": "Localizes content for diverse global audiences.",
+      "severity_score": 70
     }
   ]
 }

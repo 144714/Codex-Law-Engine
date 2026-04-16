@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 350,
+    "rank": 360,
     "site": "whatsapp.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "99e1897ae1ee4939e3eba5c973da2d12"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "0a1477655b9387d8151521d2138e4ce1"
   },
   "data": [
     {
+      "title": "Two-Step Verification",
+      "description": "Adds an extra layer of security by requiring a second form of identification.",
+      "technical_spec": "Optional PIN during sign-in to prevent unauthorized access.",
+      "severity_score": 88
+    },
+    {
+      "title": "Automatic Security Updates",
+      "description": "Regular updates to patch vulnerabilities and add security enhancements.",
+      "technical_spec": "Automated patch management system powered by cloud-update services.",
+      "severity_score": 90
+    },
+    {
+      "title": "Spam and Abuse Detection",
+      "description": "Mechanisms to detect and block spam activities and account abuses.",
+      "technical_spec": "Machine learning models analyzing user behavior patterns for anomalies.",
+      "severity_score": 85
+    },
+    {
       "title": "Data Encryption at Rest",
-      "description": "User data stored in databases is encrypted to prevent unauthorized access.",
-      "technical_spec": "AES-256 encryption applied to stored data.",
-      "severity_score": 40
+      "description": "Ensures that data stored on servers remain secure from unauthorized access.",
+      "technical_spec": "Uses AES-256 encryption for data stored within WhatsApp's servers.",
+      "severity_score": 93
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts routine security audits to identify and rectify vulnerabilities.",
-      "technical_spec": "Involves code reviews and penetration testing by security experts.",
-      "severity_score": 30
-    },
-    {
-      "title": "Multi-Factor Authentication",
-      "description": "Enhances account security by requiring multiple forms of verification.",
-      "technical_spec": "Options include SMS verification and authentication apps.",
-      "severity_score": 35
-    },
-    {
-      "title": "Malware Detection Systems",
-      "description": "Monitors and blocks malicious activity aimed at exploiting user data or infrastructure.",
-      "technical_spec": "Employs AI algorithms to detect abnormal patterns.",
-      "severity_score": 50
-    },
-    {
-      "title": "Zero Trust Framework",
-      "description": "Adopts a zero trust security model to ensure network and data protection.",
-      "technical_spec": "Authenticates and verifies every user and device attempting access.",
-      "severity_score": 45
+      "title": "User Privacy Settings",
+      "description": "Comprehensive privacy settings giving users control over visibility",
+      "technical_spec": "Granular privacy options for profile visibility and contact permissions.",
+      "severity_score": 80
     }
   ]
 }

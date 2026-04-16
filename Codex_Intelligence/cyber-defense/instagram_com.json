@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 349,
+    "rank": 359,
     "site": "instagram.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "8bc9439d46bd29b4282dbd232e7ce161"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "f121229948f5eabd716793b3c1f8c602"
   },
   "data": [
     {
       "title": "Data Encryption",
-      "description": "Utilizes encryption to ensure data confidentiality both in transit and at rest.",
-      "technical_spec": "TLS for data in transit and AES-256 for data at rest.",
-      "severity_score": 30
+      "description": "Employs end-to-end encryption to protect user data from unauthorized access.",
+      "technical_spec": "TLS/SSL used for data in transit; AES-256 for data at rest.",
+      "severity_score": 85
     },
     {
-      "title": "Two-Factor Authentication (2FA)",
-      "description": "Provides an additional layer of security for user accounts via 2FA.",
-      "technical_spec": "Integration with apps like Authy and Google Authenticator.",
-      "severity_score": 40
+      "title": "Account Security Measures",
+      "description": "Provides two-factor authentication and advanced automated detection for suspicious activities.",
+      "technical_spec": "Login verification via SMS/email, anomaly detection algorithms.",
+      "severity_score": 80
     },
     {
-      "title": "Bug Bounty Program",
-      "description": "Incentivizes security researchers to report vulnerabilities.",
-      "technical_spec": "Managed through platforms like HackerOne or Bugcrowd.",
-      "severity_score": 20
-    },
-    {
-      "title": "Security Monitoring and Incident Response",
-      "description": "Continuous monitoring and incident protocols to handle security breaches.",
-      "technical_spec": "Application of SIEM systems such as Splunk or IBM QRadar.",
-      "severity_score": 25
+      "title": "Bot and Spam Prevention",
+      "description": "Combination of machine learning and manual checks to prevent bots.",
+      "technical_spec": "Python scripts and CAPTCHA solutions in place.",
+      "severity_score": 70
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts regular audits to identify and fix security vulnerabilities.",
-      "technical_spec": "In-depth penetration tests and audits by cybersecurity firms.",
-      "severity_score": 35
+      "description": "Conducts periodic security assessments to identify vulnerabilities.",
+      "technical_spec": "Penetration tests, code reviews, and vulnerability scanning tools.",
+      "severity_score": 65
+    },
+    {
+      "title": "Privacy Settings",
+      "description": "Offers customizable privacy settings for user content visibility.",
+      "technical_spec": "Profile privacy controls, blocking, and reporting features.",
+      "severity_score": 60
     }
   ]
 }

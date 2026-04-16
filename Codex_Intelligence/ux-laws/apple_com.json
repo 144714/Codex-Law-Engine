@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 343,
+    "rank": 353,
     "site": "apple.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "1329c9e09e30c4282160f13a4b456742"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "72e5107442f5784b0bf1d7f4f72b4fbd"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplified decision-making processes aid faster user interactions with navigation and purchasing.",
-      "technical_spec": "Easy navigation structure and concise process flows.",
-      "severity_score": 10
-    },
-    {
       "title": "Fitts's Law",
-      "description": "The site's design considers size and positioning of interactive elements for ease of use.",
-      "technical_spec": "Large buttons and accessible UI elements.",
-      "severity_score": 10
+      "description": "The time to acquire a target is a function of the distance and size of the target.",
+      "technical_spec": "Ensures button size and placement facilitate easy interactions.",
+      "severity_score": 50
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "A clean, visually appealing design enhances perceived usability.",
-      "technical_spec": "High-quality images, smooth animations, and coherent typography.",
-      "severity_score": 5
+      "title": "Hick's Law",
+      "description": "Decision-making time increases with the number of choices.",
+      "technical_spec": "Streamlined navigation reduces cognitive load for users.",
+      "severity_score": 60
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Visual hierarchy and grouping elements are used to guide user perception.",
-      "technical_spec": "Consistent use of proximity, similarity, and continuation.",
-      "severity_score": 5
+      "title": "Jakob's Law",
+      "description": "Users spend most of their time on other sites, expecting yours to work the same way.",
+      "technical_spec": "Adopts common design patterns for familiarity.",
+      "severity_score": 40
     },
     {
-      "title": "Miller's Law",
-      "description": "Information is chunked into manageable parts to aid cognitive processing.",
-      "technical_spec": "Content is broken into digestible pieces with headers and sub-sections.",
-      "severity_score": 15
+      "title": "Law of Proximity",
+      "description": "Objects near each other are perceived as related.",
+      "technical_spec": "Groups related elements together visually to signify relationship.",
+      "severity_score": 45
+    },
+    {
+      "title": "Peak-End Rule",
+      "description": "People judge an experience based on how they felt at its peak and at its end.",
+      "technical_spec": "Focuses on crucial interaction points to enhance user satisfaction.",
+      "severity_score": 70
     }
   ]
 }

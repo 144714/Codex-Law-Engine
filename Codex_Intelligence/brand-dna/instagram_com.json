@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 349,
+    "rank": 359,
     "site": "instagram.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "83d8a639660fbe768289f993ca523a01"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "cb22c870f65a0d29756eb3e2059a8d67"
   },
   "data": [
     {
-      "title": "Visual-Driven",
-      "description": "Centered around visual content for storytelling and expression.",
-      "technical_spec": "High-resolution image and video uploads, editing tools, and filters.",
-      "severity_score": 10
+      "title": "Visual Storytelling",
+      "description": "Emphasizes the importance of sharing visual content, connecting people worldwide.",
+      "technical_spec": "Algorithms prioritize engaging media content in feeds.",
+      "severity_score": 40
     },
     {
-      "title": "Social Connectivity",
-      "description": "Emphasizes social interaction through sharing, messaging, and community features.",
-      "technical_spec": "Integration of direct messaging and live streaming services.",
+      "title": "Community Building",
+      "description": "Fosters strong community engagement through features that enable interaction.",
+      "technical_spec": "Comments, likes, DMs, and live interactions built into the platform.",
+      "severity_score": 30
+    },
+    {
+      "title": "Innovation in Features",
+      "description": "Constantly innovates with features like Stories and Reels to keep audiences engaged.",
+      "technical_spec": "Rolling updates and user-testing loop for new feature deployment.",
       "severity_score": 20
     },
     {
-      "title": "Mobile-First",
-      "description": "Prioritizes mobile experience for global accessibility.",
-      "technical_spec": "Responsive design and native mobile apps with mobile-optimized features.",
-      "severity_score": 5
+      "title": "Personalized Content",
+      "description": "Utilizes data-driven algorithms to tailor content to individual user interests.",
+      "technical_spec": "Machine learning models analyze user behavior for feed curation.",
+      "severity_score": 50
     },
     {
-      "title": "Trendy and Youth-Focused",
-      "description": "Targets younger demographics with features and design aligned with current trends.",
-      "technical_spec": "Features like Reels and Stories inspired by competitor platforms.",
-      "severity_score": 15
-    },
-    {
-      "title": "Personalized Experience",
-      "description": "Delivers personalized content and experiences based on user preferences and behaviors.",
-      "technical_spec": "Utilization of machine learning algorithms for content recommendations.",
-      "severity_score": 25
+      "title": "Brand Consistency",
+      "description": "Maintains consistent visual and thematic elements across the platform.",
+      "technical_spec": "Brand guidelines dictate color, font, and style usage.",
+      "severity_score": 35
     }
   ]
 }

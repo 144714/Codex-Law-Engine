@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 344,
+    "rank": 354,
     "site": "microsoft.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "cbe29cab93f3d67438744b15e3c6c47e"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "3d495ccf7f093c77161418840b618bd9"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Designs navigation elements sized for ease of access and interaction.",
-      "technical_spec": "Interactive elements are optimally spaced and sized across devices.",
-      "severity_score": 85
-    },
-    {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making by limiting the number of choices.",
-      "technical_spec": "UI design follows best practices in presenting direct paths for common tasks.",
-      "severity_score": 88
+      "description": "Simplifies user decision-making by restricting menu options.",
+      "technical_spec": "Minimum viable product with a simplified user interface.",
+      "severity_score": 70
     },
     {
-      "title": "Miller's Law",
-      "description": "Organizes information into chunks to aid memory and understanding.",
-      "technical_spec": "Content and navigation structures make complex data easily digestible.",
-      "severity_score": 90
+      "title": "Fitts's Law",
+      "description": "Design aims to minimize the time taken for target selection by optimizing component placements.",
+      "technical_spec": "Keep frequently used elements closer to the central focus areas.",
+      "severity_score": 65
     },
     {
-      "title": "Jakob's Law",
-      "description": "Familiar design patterns to align with user expectations.",
-      "technical_spec": "Consistency across UI elements aligns with common web practices.",
-      "severity_score": 91
+      "title": "Mobile Usability",
+      "description": "Enhanced mobile experience with a responsive design.",
+      "technical_spec": "Bootstrap CSS with media queries.",
+      "severity_score": 80
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related items to reduce cognitive load.",
-      "technical_spec": "Logical grouping and alignment utilized throughout the site layout.",
-      "severity_score": 86
+      "title": "Affordance and Signifiers",
+      "description": "Clear visual cues for interactive elements.",
+      "technical_spec": "Consistent button styling and hover effects.",
+      "severity_score": 75
+    },
+    {
+      "title": "Feedback and Response Time",
+      "description": "Immediate feedback for user actions to keep users informed.",
+      "technical_spec": "Loading spinners and success messages triggered via AJAX.",
+      "severity_score": 70
     }
   ]
 }

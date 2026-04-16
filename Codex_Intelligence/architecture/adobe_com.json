@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 348,
+    "rank": 358,
     "site": "adobe.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "94cf582146579d4e6df1430575d52730"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "e070bf01461c41f5d7860b650adabd7f"
   },
   "data": [
     {
       "title": "Microservices",
-      "description": "Adobe utilizes a microservices architecture to efficiently manage its diverse range of services and applications.",
-      "technical_spec": "Deployed via Docker containers orchestrated through Kubernetes.",
-      "severity_score": 5
+      "description": "Adobe's architecture utilizes microservices to enhance scalability and maintenance.",
+      "technical_spec": "Docker, Kubernetes, RESTful APIs",
+      "severity_score": 20
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Employs CDN to optimize load times and provide a global reach for its media-rich content.",
-      "technical_spec": "Akamai CDN integration for enhanced content delivery and caching.",
+      "description": "A CDN is used to speed up the delivery of Adobe's content globally.",
+      "technical_spec": "Akamai CDN, HTTP/2",
+      "severity_score": 15
+    },
+    {
+      "title": "Cloud Infrastructure",
+      "description": "Deployment on cloud platforms for flexibility and resource management.",
+      "technical_spec": "AWS, Azure",
+      "severity_score": 25
+    },
+    {
+      "title": "Serverless Functions",
+      "description": "Utilizing serverless computing to run short-lived processes efficiently.",
+      "technical_spec": "AWS Lambda, Azure Functions",
       "severity_score": 10
     },
     {
-      "title": "High-Availability Systems",
-      "description": "Ensures consistent uptime and performance through redundant systems and failover mechanisms.",
-      "technical_spec": "Uses AWS cloud services with multi-region deployments.",
-      "severity_score": 4
-    },
-    {
-      "title": "API Gateway",
-      "description": "Provides an API gateway for secure and efficient API management.",
-      "technical_spec": "Built on Node.js and integrated with OAuth 2.0 for authentication.",
-      "severity_score": 8
-    },
-    {
-      "title": "Serverless Computing",
-      "description": "Leverages serverless frameworks for handling certain background tasks and events.",
-      "technical_spec": "Implemented using AWS Lambda functions.",
-      "severity_score": 12
+      "title": "Database Management",
+      "description": "Implementation of robust database solutions for large-scale data operations.",
+      "technical_spec": "NoSQL, SQL, Elasticsearch",
+      "severity_score": 30
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 349,
+    "rank": 359,
     "site": "instagram.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "d153d28e5f7412f91c3e8d86e1af2bb5"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "fbbc91e5709cb50a3fc056c438cfd870"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Design elements are sized and positioned to minimize the effort to reach them.",
-      "technical_spec": "Button placements and size optimized for both mobile and web interactions.",
-      "severity_score": 5
-    },
-    {
       "title": "Hick's Law",
-      "description": "Interfaces are streamlined to reduce decision-making time for users.",
-      "technical_spec": "Simplified UI/UX minimizing options per screen.",
-      "severity_score": 15
+      "description": "Simplifies decision-making by limiting the number of choices on each screen.",
+      "technical_spec": "Clean UI with focused user flows and minimized on-screen elements.",
+      "severity_score": 25
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Focus on creating visually pleasing interfaces which enhance perceived usability.",
-      "technical_spec": "Use of modern design systems like Material Design and UIKit.",
-      "severity_score": 10
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Designs adhere to the principle that people spend most of their time on other sites.",
-      "technical_spec": "UI conventions similar to other popular social platforms for ease of use.",
+      "title": "Fitts's Law",
+      "description": "Optimizes button size and placement for easier navigation.",
+      "technical_spec": "Large tappable areas for continuous interaction, especially on mobile.",
       "severity_score": 20
     },
     {
-      "title": "Law of Proximity",
-      "description": "Elements are grouped to signal relatedness, simplifying navigation.",
-      "technical_spec": "Effective use of whitespace and grouping in UI layout.",
-      "severity_score": 10
+      "title": "Gestalt Principles",
+      "description": "Utilizes proximity and similarity to organize content visually.",
+      "technical_spec": "Consistent visual elements like spacing, alignment, and grouping.",
+      "severity_score": 15
+    },
+    {
+      "title": "Doherty Threshold",
+      "description": "Aims to keep user response time under 400ms to maintain engagement.",
+      "technical_spec": "Efficient code to reduce latency and enhance response time.",
+      "severity_score": 30
+    },
+    {
+      "title": "Peak-End Rule",
+      "description": "Focuses on the memorable moments and the final impression of user interaction.",
+      "technical_spec": "Timely notifications and summary insights to enhance user experience.",
+      "severity_score": 35
     }
   ]
 }

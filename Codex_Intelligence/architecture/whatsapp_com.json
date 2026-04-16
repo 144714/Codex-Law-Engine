@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 350,
+    "rank": 360,
     "site": "whatsapp.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "5ce57de0172f3f1ba7695b0feeed3afb"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "b672aae12f323c79c0c95d107d473608"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "WhatsApp uses a microservices architecture to efficiently manage its backend.",
-      "technical_spec": "Each service is independently deployable and handles a specific function (e.g., messaging, notifications).",
-      "severity_score": 20
+      "description": "WhatsApp uses a microservices architecture to ensure scalability and reliability.",
+      "technical_spec": "Deployment of isolated microservices for messaging, authentication, media handling, etc.",
+      "severity_score": 75
     },
     {
       "title": "End-to-End Encryption",
-      "description": "Messages are encrypted on the sender’s device and only decrypted on the recipient’s device.",
-      "technical_spec": "Uses Signal Protocol for encryption.",
-      "severity_score": 10
+      "description": "All communication is encrypted from sender to receiver with encryption keys stored only on user devices.",
+      "technical_spec": "Signal Protocol for encryption, using AES256 and RSA2048.",
+      "severity_score": 95
     },
     {
-      "title": "Load Balancing",
-      "description": "Balances incoming requests across multiple servers to optimize resource utilization.",
-      "technical_spec": "Employs algorithms like round-robin and least connections.",
-      "severity_score": 25
+      "title": "Data Sync and Consistency",
+      "description": "Ensures user messages and media are synced across different devices consistently.",
+      "technical_spec": "Utilizes protocol buffers and local caches to manage data state.",
+      "severity_score": 80
     },
     {
-      "title": "Scalable Infrastructure",
-      "description": "Built to handle billions of active users and message transactions.",
-      "technical_spec": "Utilizes cloud services with auto-scaling capabilities.",
-      "severity_score": 15
+      "title": "Infrastructure",
+      "description": "Runs on Facebook’s scalable cloud infrastructure to handle billions of active users.",
+      "technical_spec": "Backbone of scalable distributed database systems and distributed queues.",
+      "severity_score": 85
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "System designed to respond to user actions and changes in real-time.",
-      "technical_spec": "Implements event streaming and message queuing.",
-      "severity_score": 30
+      "title": "Cross-Platform Compatibility",
+      "description": "Enables application usage across different operating systems and devices.",
+      "technical_spec": "Uses React Native for a unified codebase respecting native UX paradigms.",
+      "severity_score": 70
     }
   ]
 }

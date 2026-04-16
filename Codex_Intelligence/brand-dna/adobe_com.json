@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 348,
+    "rank": 358,
     "site": "adobe.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "ea3f676aa277b923c1a74302d1fc6b11"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "15f8ed9b8036cfe100f34fec0d7eec9e"
   },
   "data": [
     {
       "title": "Creative Empowerment",
-      "description": "Empowers creatives with the tools necessary for digital creation and artistic expression.",
-      "technical_spec": "Comprehensive suite of creative applications like Photoshop and Illustrator.",
-      "severity_score": 5
+      "description": "Empowering users through powerful creative tools and resources.",
+      "technical_spec": "Photoshop, Illustrator",
+      "severity_score": 25
     },
     {
-      "title": "Innovation Leadership",
-      "description": "Continues to lead the digital landscape by pushing the boundaries of technological innovation.",
-      "technical_spec": "Regular updates and feature rollouts emphasizing AI integration.",
-      "severity_score": 6
+      "title": "Innovation",
+      "description": "Continuous innovation in software development and creative solutions.",
+      "technical_spec": "AI-based features, Cloud integrations",
+      "severity_score": 30
     },
     {
-      "title": "Collaborative Ecosystem",
-      "description": "Facilitates collaboration through integrated cloud services and team-oriented features.",
-      "technical_spec": "Adobe Creative Cloud with shared libraries and assets.",
-      "severity_score": 7
+      "title": "Global Reach",
+      "description": "Serving a global audience with localization and varied content.",
+      "technical_spec": "Multilingual support, Regional content Delivery",
+      "severity_score": 15
     },
     {
-      "title": "Reliability and Trust",
-      "description": "Maintains user trust by ensuring a stable, secure, and reliable service.",
-      "technical_spec": "ISO 27001 certification for security management.",
-      "severity_score": 3
+      "title": "User Centered",
+      "description": "Keeping user needs at the forefront of product design and updates.",
+      "technical_spec": "UX research, Customer feedback loops",
+      "severity_score": 45
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focuses on designing experiences that are intuitive and satisfy user needs.",
-      "technical_spec": "Adoption of design thinking methodologies.",
-      "severity_score": 4
+      "title": "Sustainability",
+      "description": "Commitment to environmentally sustainable practices.",
+      "technical_spec": "Green cloud solutions, Paperless initiatives",
+      "severity_score": 20
     }
   ]
 }

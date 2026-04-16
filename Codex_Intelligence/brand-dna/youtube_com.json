@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 342,
+    "rank": 352,
     "site": "youtube.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "4cfdf8e35b746cb4b78899648586f9e2"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "c818f08d07884d01d653d53da716a5bc"
   },
   "data": [
     {
-      "title": "Content Diversity",
-      "description": "Encourages diverse content creation and sharing.",
-      "technical_spec": "Support for various content formats and categories.",
-      "severity_score": 4
+      "title": "User-Generated Content",
+      "description": "Central to YouTube's platform, allowing users to upload and share videos.",
+      "technical_spec": "Upload APIs, Content Management Systems",
+      "severity_score": 60
     },
     {
-      "title": "Community Engagement",
-      "description": "Strong focus on building a community of creators and viewers.",
-      "technical_spec": "Interactive features like comments, likes, and subscriptions.",
-      "severity_score": 3
+      "title": "Engagement and Community",
+      "description": "Promotes community interaction through comments, likes, and shares.",
+      "technical_spec": "Commenting systems, engagement analytics",
+      "severity_score": 50
     },
     {
-      "title": "Innovation in Streaming",
-      "description": "Pioneering live streaming and video-on-demand technologies.",
-      "technical_spec": "Advanced streaming protocols and adaptive bitrate technologies.",
-      "severity_score": 5
+      "title": "Personalization",
+      "description": "Provides personalized recommendations based on user behavior.",
+      "technical_spec": "Recommendation Algorithms, User Data Analysis",
+      "severity_score": 70
     },
     {
-      "title": "Adaptability to Trends",
-      "description": "Regularly incorporates trending features and designs.",
-      "technical_spec": "Updates influenced by user data and feedback.",
-      "severity_score": 6
+      "title": "Cross-Platform Accessibility",
+      "description": "Seamless access across different devices for varied user experiences.",
+      "technical_spec": "Responsive Design, Mobile Apps",
+      "severity_score": 40
     },
     {
-      "title": "Monetization Opportunities",
-      "description": "Provides various revenue streams for creators.",
-      "technical_spec": "AdSense integration, Super Chat, and channel memberships.",
-      "severity_score": 7
+      "title": "Monetization",
+      "description": "Allows content creators to monetize their videos through ads and subscriptions.",
+      "technical_spec": "AdSense Integration, YouTube Partner Program",
+      "severity_score": 75
     }
   ]
 }

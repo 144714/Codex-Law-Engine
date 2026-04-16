@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 344,
+    "rank": 354,
     "site": "microsoft.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "b6f211c288ff21112e7eb4d8d3e1e9ce"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "be9341a554fb05f1d9fc0b324ecb0c6b"
   },
   "data": [
     {
-      "title": "Comprehensive DDoS Protection",
-      "description": "Implements industry-leading DDoS protection strategies.",
-      "technical_spec": "Utilizes Azure DDoS Protection Standard to mitigate attacks.",
-      "severity_score": 93
+      "title": "Multi-factor Authentication",
+      "description": "Adds an additional layer of security to logins against unauthorized access.",
+      "technical_spec": "Integration with Azure AD's MFA.",
+      "severity_score": 90
     },
     {
-      "title": "Advanced Threat Detection",
-      "description": "Employs advanced threat detection systems to identify vulnerabilities.",
-      "technical_spec": "Uses Azure Security Center for monitoring and alerts.",
-      "severity_score": 94
+      "title": "Advanced Threat Protection",
+      "description": "Real-time detection and response to cyber threats.",
+      "technical_spec": "Microsoft Defender ATP implementation.",
+      "severity_score": 88
     },
     {
-      "title": "Data Encryption",
-      "description": "Encrypted data in transit and at rest using modern standards.",
-      "technical_spec": "Adopts TLS 1.2 for data in transit and AES-256 for data at rest.",
-      "severity_score": 96
-    },
-    {
-      "title": "Identity and Access Management",
-      "description": "Robust identity management strategies to control system access.",
-      "technical_spec": "Utilizes Azure Active Directory for authentication and authorization.",
-      "severity_score": 97
+      "title": "Data Encryption Protocols",
+      "description": "Encrypts all user data both in transit and at rest.",
+      "technical_spec": "AES-256 and TLS 1.2 standards.",
+      "severity_score": 92
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts regular security audits and assessments to enhance defenses.",
-      "technical_spec": "Follows CERT and CIS benchmarks to audit and strengthen security posture.",
-      "severity_score": 92
+      "description": "Routine security inspections to identify vulnerabilities.",
+      "technical_spec": "Automated penetration testing tools.",
+      "severity_score": 85
+    },
+    {
+      "title": "Firewall and DDoS Protection",
+      "description": "Prevents unauthorized network access and mitigates DDoS attacks.",
+      "technical_spec": "Azure Firewall setup with WAF policies.",
+      "severity_score": 87
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 346,
+    "rank": 356,
     "site": "netflix.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "c14eeb110eb8494e40433db607108dd7"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "7ff4e0cfcabf4b162f94d805f1fc7223"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies the decision-making process by limiting choices on the interface, ensuring faster decision-making by users.",
-      "technical_spec": "Minimal Navigation Options, Focused Content",
-      "severity_score": 15
+      "description": "Simplifies decision-making by reducing the number of choices available to the user at once.",
+      "technical_spec": "Intelligent content recommendation reduces cognitive load.",
+      "severity_score": 30
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Utilizes design principles like proximity and similarity to create intuitive layouts.",
+      "technical_spec": "Consistent UI elements grouped logically for user understanding.",
+      "severity_score": 35
     },
     {
       "title": "Fitts's Law",
-      "description": "Ensures interactive elements are accessible and easy to interact with, enhancing user navigation.",
-      "technical_spec": "Responsive Design, Large Buttons",
-      "severity_score": 20
-    },
-    {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Ensures the platform is visually appealing, improving perceived usability.",
-      "technical_spec": "High-Quality Imagery, Consistent Theme",
-      "severity_score": 10
+      "description": "Designs interface elements to be easily accessible and clickable.",
+      "technical_spec": "Large clickable areas for navigation and selection.",
+      "severity_score": 40
     },
     {
       "title": "Miller's Law",
-      "description": "Designs interface to ensure cognitive load is minimized, enhancing the user experience by not overwhelming with too much information.",
-      "technical_spec": "Chunking Information, Simplified Layout",
-      "severity_score": 15
+      "description": "Limits the amount of information presented at any time, enhancing memory recall.",
+      "technical_spec": "Content categorization and previews help manage information load.",
+      "severity_score": 45
     },
     {
-      "title": "Jakob's Law",
-      "description": "Creates a user interface aligned with user expectations based on their experiences from other web platforms.",
-      "technical_spec": "Intuitive Navigation, Familiar UI Patterns",
-      "severity_score": 10
+      "title": "Aesthetic Usability Effect",
+      "description": "A visually appealing design improves perceived usability.",
+      "technical_spec": "High-quality images, typography, and layout enhance visual appeal.",
+      "severity_score": 50
     }
   ]
 }

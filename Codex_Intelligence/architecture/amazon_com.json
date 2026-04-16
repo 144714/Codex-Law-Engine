@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 345,
+    "rank": 355,
     "site": "amazon.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "f04f2b4b53741de4586cadd6e4e9e75f"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "d9a3bf174167aa44250bb803e84c227d"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Amazon utilizes a microservices architecture to separate functionalities into independently deployable services.",
-      "technical_spec": "Decoupled services with API communication, typically running on AWS.",
-      "severity_score": 15
+      "title": "Microservices Architecture",
+      "description": "Utilizes microservices to enhance scalability and maintainability.",
+      "technical_spec": "Distributed architecture with REST/GraphQL APIs.",
+      "severity_score": 85
     },
     {
-      "title": "High Scalability",
-      "description": "The infrastructure is built to handle massive traffic and processing needs.",
-      "technical_spec": "Elastic Load Balancing, Autoscaling Groups, and extensive CDN use.",
-      "severity_score": 20
+      "title": "Load Balancing",
+      "description": "Ensures even distribution of traffic across servers.",
+      "technical_spec": "Uses ELB (Elastic Load Balancing).",
+      "severity_score": 90
     },
     {
-      "title": "Distributed Systems",
-      "description": "Amazon's system is globally distributed to ensure site availability across various regions.",
-      "technical_spec": "Data replication, multi-region AWS hosting.",
-      "severity_score": 10
+      "title": "Responsive Web Design",
+      "description": "Adapts the layout to various screen sizes.",
+      "technical_spec": "CSS3 media queries and flexible grid system.",
+      "severity_score": 80
     },
     {
-      "title": "Data-Driven Architecture",
-      "description": "Extensive use of data analytics and machine learning models to enhance user experience.",
-      "technical_spec": "Real-time data processing with AWS Kinesis, Redshift.",
-      "severity_score": 25
+      "title": "CDN Integration",
+      "description": "Accelerates content delivery globally.",
+      "technical_spec": "Utilizes AWS CloudFront.",
+      "severity_score": 88
     },
     {
-      "title": "Containerization",
-      "description": "Docker and Kubernetes are leveraged for consistent development and deployment environments.",
-      "technical_spec": "EKS for Kubernetes management, ECS for container orchestration.",
-      "severity_score": 30
+      "title": "Serverless Functions",
+      "description": "Uses serverless computing to improve efficiency.",
+      "technical_spec": "AWS Lambda for on-demand computing.",
+      "severity_score": 75
     }
   ]
 }

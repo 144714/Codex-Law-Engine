@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 341,
+    "rank": 351,
     "site": "google.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "860e0a465780bd920adf1c7bc39fac03"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "4c358bee8764b5f9bea74e2cf339d148"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Minimizes options to reduce decision time for users.",
-      "technical_spec": "Presents simplified options and clear call-to-actions.",
-      "severity_score": 82
+      "title": "Hick’s Law",
+      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
+      "technical_spec": "Simplified navigation and clear content hierarchy to minimize cognitive load.",
+      "severity_score": 85
     },
     {
-      "title": "Fitts's Law",
-      "description": "Designs for easy access to frequently used features.",
-      "technical_spec": "Larger interactive elements with short accessible paths.",
-      "severity_score": 84
+      "title": "Fitts’s Law",
+      "description": "Ease of access to navigation elements based on size and distance from the user.",
+      "technical_spec": "Strategically placed and appropriately sized interactive elements.",
+      "severity_score": 80
     },
     {
       "title": "Miller’s Law",
-      "description": "Keeps information chunks to human perceivable quantity.",
-      "technical_spec": "Limits items in menus to 7±2 to match working memory capacity.",
-      "severity_score": 81
+      "description": "The average person can only keep 7 (plus or minus 2) items in their working memory.",
+      "technical_spec": "Chunking information in manageable sections to enhance user comprehension.",
+      "severity_score": 78
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Designs consistent with user expectations formed by other sites.",
-      "technical_spec": "Interface adheres to standard web conventions for consistency.",
-      "severity_score": 86
+      "title": "Jakob's Law",
+      "description": "Users spend most of their time on other sites, so they prefer your site to work the same way as all the other sites they already know.",
+      "technical_spec": "Consistency with common web design patterns and familiar UI elements.",
+      "severity_score": 90
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related objects closer together.",
-      "technical_spec": "Uses proximity to establish relationships amongst interface items.",
-      "severity_score": 80
+      "title": "Serial Position Effect",
+      "description": "Users tend to best remember the first and last items in a series.",
+      "technical_spec": "Present critical information at the beginning or end of any process.",
+      "severity_score": 87
     }
   ]
 }

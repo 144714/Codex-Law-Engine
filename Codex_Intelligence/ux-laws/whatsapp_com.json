@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 350,
+    "rank": 360,
     "site": "whatsapp.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "fc39f0a501df39765d7a35ab2de1ec6e"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "2991a65bcf43f575f7ab4d8da562361c"
   },
   "data": [
     {
-      "title": "Jakob’s Law",
-      "description": "Users prefer your site to work the same way as all the other sites they already know.",
-      "technical_spec": "Consistent navigation patterns and familiar interface design.",
-      "severity_score": 20
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "The time to acquire a target is a function of the distance to and size of the target.",
-      "technical_spec": "Button sizes and placement are optimized for quick access.",
-      "severity_score": 25
-    },
-    {
       "title": "Hick’s Law",
-      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Limits the number of actions available at any given time.",
-      "severity_score": 15
+      "description": "Minimized choices on the interface to streamline decision-making for users.",
+      "technical_spec": "Simplified menu structures within chat and settings interfaces.",
+      "severity_score": 70
     },
     {
-      "title": "Tesler’s Law",
-      "description": "As complexity increases, usability decreases.",
-      "technical_spec": "Focuses on reducing complexity in the user interface.",
-      "severity_score": 30
+      "title": "Fitts’ Law",
+      "description": "Optimizing experience by positioning frequently used elements within easy reach.",
+      "technical_spec": "Larger tappable areas on commonly used buttons like ‘Send’ and ‘Voice Note’.",
+      "severity_score": 75
     },
     {
       "title": "Miller’s Law",
-      "description": "The average person can only keep 7 (±2) items in their working memory.",
-      "technical_spec": "Ensures the interface does not overload cognitive load.",
-      "severity_score": 35
+      "description": "Keeping information chunks manageable for better user comprehension.",
+      "technical_spec": "Segmented user interface for settings and conversation options.",
+      "severity_score": 72
+    },
+    {
+      "title": "Jacob’s Law",
+      "description": "Leveraging user familiarity with common design patterns for ease of use.",
+      "technical_spec": "Consistent use of intuitive icons and interaction models across the app.",
+      "severity_score": 80
+    },
+    {
+      "title": "The Aesthetic-Usability Effect",
+      "description": "Aesthetic design that enhances overall usability perception.",
+      "technical_spec": "Simple yet modern interface design that focuses on user content.",
+      "severity_score": 78
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 349,
+    "rank": 359,
     "site": "instagram.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "2b5b1abad7153e0aa9877b3af1b998f9"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "c564438074f657ead7a438ced969d4a2"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Instagram utilizes a microservices architecture to handle its massive user base and functionality demands.",
-      "technical_spec": "Deployment of services in containers, often using Docker and orchestrated by Kubernetes.",
-      "severity_score": 20
-    },
-    {
-      "title": "Cloud Infrastructure",
-      "description": "Utilizes cloud services to ensure scalability, reliability, and global reach.",
-      "technical_spec": "Integration with AWS or other cloud providers for resources like storage (S3), computing (EC2), and CDN (CloudFront).",
+      "description": "Instagram employs a microservices architecture that allows different services to evolve independently.",
+      "technical_spec": "Based on RESTful services, interconnected via APIs.",
       "severity_score": 15
     },
     {
-      "title": "Graph Databases",
-      "description": "Employs graph databases to efficiently manage user relationships and content feed.",
-      "technical_spec": "Neo4j or similar systems for relationships and Neo4j-Cypher for query language.",
+      "title": "Frontend Framework",
+      "description": "The site uses React.js for its dynamic and responsive user interface.",
+      "technical_spec": "Built using React version 17+ with custom hooks.",
+      "severity_score": 20
+    },
+    {
+      "title": "Database Management",
+      "description": "Utilizes robust database solutions to handle large volumes of user data efficiently.",
+      "technical_spec": "Primary databases include PostgreSQL and NoSQL variants like Cassandra.",
+      "severity_score": 25
+    },
+    {
+      "title": "Image and Video Hosting",
+      "description": "Specialized backend systems for optimizing media storage and delivery.",
+      "technical_spec": "Content Delivery Network (CDN) implementation with cloud storage solutions.",
       "severity_score": 30
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Leverages CDN for fast content delivery across the globe.",
-      "technical_spec": "Use of Edge servers and caching techniques to reduce latency, likely Akamai or CloudFront.",
+      "title": "Scalable Infrastructure",
+      "description": "Designed to support billions of users, ensuring minimal downtime.",
+      "technical_spec": "AWS, Kubernetes, and containerization technologies are used.",
       "severity_score": 10
-    },
-    {
-      "title": "RESTful and GraphQL APIs",
-      "description": "Provides APIs for programmatic access to data and services.",
-      "technical_spec": "Implementation using REST and GraphQL for flexible data queries. Utilizes OAuth2 for authentication.",
-      "severity_score": 25
     }
   ]
 }

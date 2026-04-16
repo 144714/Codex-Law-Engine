@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 347,
+    "rank": 357,
     "site": "spotify.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "826ac808b96ba66f25aa0fb5360eb0bd"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "d3741fbe2ca903eace8c833af847f234"
   },
   "data": [
     {
-      "title": "Personalization",
-      "description": "Core offering of personalized music recommendations enhancing user experience.",
-      "technical_spec": "Machine learning algorithms analyze listening habits to suggest music.",
-      "severity_score": 95
+      "title": "Music Discovery",
+      "description": "Promotes music exploration through personalized recommendations.",
+      "technical_spec": "Leverages collaborative filtering algorithms.",
+      "severity_score": 25
     },
     {
-      "title": "Global Presence",
-      "description": "Serving millions of users worldwide in diverse markets.",
-      "technical_spec": "Localized content and interfaces for different regions.",
-      "severity_score": 90
+      "title": "Cross-Platform Experience",
+      "description": "Guarantees consistent user experience across devices.",
+      "technical_spec": "Develops responsive web and mobile applications.",
+      "severity_score": 30
     },
     {
-      "title": "Community Engagement",
-      "description": "Strong focus on connecting listeners and artists.",
-      "technical_spec": "Tools for artist promotion, user-generated playlists, and social features.",
-      "severity_score": 85
+      "title": "User-Driven Playlists",
+      "description": "Encourages community engagement via playlist sharing.",
+      "technical_spec": "Provides tools for playlist creation and sharing.",
+      "severity_score": 20
     },
     {
-      "title": "Freemium Model",
-      "description": "Offering a dual-tier subscription model to cater to different user needs.",
-      "technical_spec": "Free ad-supported version and premium ad-free subscription plan.",
-      "severity_score": 92
+      "title": "Podcast Integration",
+      "description": "Expands content offering to include podcasts.",
+      "technical_spec": "Utilizes podcast hosting and streaming technology.",
+      "severity_score": 35
     },
     {
-      "title": "Brand Consistency",
-      "description": "Maintains a consistent brand identity across various platforms.",
-      "technical_spec": "Unified design guidelines, color palettes, and typography.",
-      "severity_score": 87
+      "title": "Brand Partnerships",
+      "description": "Enriches user experience through strategic collaborations.",
+      "technical_spec": "Partners with brands for exclusive content and promotions.",
+      "severity_score": 28
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 347,
+    "rank": 357,
     "site": "spotify.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "84a712852604eeb365022f46768ac21e"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "87cd438dcf1641dad4f6b646334369d7"
   },
   "data": [
     {
-      "title": "Encryption Practices",
-      "description": "Data encryption in transit and at rest to protect user privacy.",
-      "technical_spec": "TLS 1.3, AES-256 encryption standards.",
-      "severity_score": 90
+      "title": "Encryption Standards",
+      "description": "Ensures user data and communication are encrypted to protect against unauthorized access.",
+      "technical_spec": "Uses TLS for data in transit and AES-256 for data at rest.",
+      "severity_score": 10
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Enhanced security for user accounts with optional 2FA.",
-      "technical_spec": "Integration with third-party authentication apps.",
-      "severity_score": 70
+      "title": "Multi-Factor Authentication",
+      "description": "Adds an additional layer of security for user accounts.",
+      "technical_spec": "Incorporates support for mobile authentication apps.",
+      "severity_score": 20
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Routine evaluations and penetration tests to identify vulnerabilities.",
-      "technical_spec": "Deploying both in-house and third-party audits.",
-      "severity_score": 85
+      "title": "Secure Software Development Lifecycle (SDLC)",
+      "description": "Integrates security practices into the development process.",
+      "technical_spec": "Utilizes static and dynamic analysis tools.",
+      "severity_score": 30
     },
     {
-      "title": "Incident Response Strategy",
-      "description": "A robust plan for responding to and mitigating security breaches.",
-      "technical_spec": "Automated alerts, detailed incident logs, and recovery protocols.",
-      "severity_score": 80
+      "title": "Incident Response Plan",
+      "description": "Prepared strategy for identifying and mitigating security breaches.",
+      "technical_spec": "Includes automated monitoring and alert systems.",
+      "severity_score": 35
     },
     {
-      "title": "User Data Protection",
-      "description": "Strict policies and measures for securing user personal data.",
-      "technical_spec": "Compliance with GDPR and CCPA standards.",
-      "severity_score": 95
+      "title": "Vulnerability Management",
+      "description": "Regular scans and patching of known system vulnerabilities.",
+      "technical_spec": "Uses tools like Nessus for vulnerability scanning.",
+      "severity_score": 25
     }
   ]
 }

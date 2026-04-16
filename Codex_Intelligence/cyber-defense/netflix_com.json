@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 346,
+    "rank": 356,
     "site": "netflix.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "56ea9f3fa672682b443146ef4dbcbad7"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "01e3eb175839a10d6ba0016c7ffbc2b1"
   },
   "data": [
     {
-      "title": "Zero Trust Security Model",
-      "description": "A security framework requiring all users, whether in or outside the organization's network, to be authenticated and authorized.",
-      "technical_spec": "Identity Access Management, Multi-Factor Authentication",
-      "severity_score": 20
-    },
-    {
       "title": "Encryption",
-      "description": "Netflix employs encryption for data at rest and in transit to protect sensitive information.",
-      "technical_spec": "AES-256, TLS 1.2/1.3",
-      "severity_score": 30
-    },
-    {
-      "title": "Threat Detection",
-      "description": "Utilizes advanced threat detection systems to identify and mitigate potential cyber threats in real-time.",
-      "technical_spec": "Machine Learning Algorithms, Automated Monitoring",
+      "description": "Employs robust encryption protocols to secure user data in transit and at rest.",
+      "technical_spec": "TLS 1.2 or higher for data in transit, AES-256 for data at rest.",
       "severity_score": 40
     },
     {
-      "title": "Security Incident Response",
-      "description": "Security teams and protocols in place to respond promptly to any detected security incidents.",
-      "technical_spec": "Incident Response Plan, Forensic Analysis Tools",
-      "severity_score": 35
+      "title": "Identity and Access Management (IAM)",
+      "description": "Strict IAM policies to limit access to sensitive data and services.",
+      "technical_spec": "Role-based access controls with least privilege principle.",
+      "severity_score": 45
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular security audits and penetration tests to ensure system integrity and compliance.",
-      "technical_spec": "OWASP Standards, External Security Firms",
-      "severity_score": 25
+      "title": "Distributed Denial of Service (DDoS) Protection",
+      "description": "Implements industry-standard DDoS protection mechanisms.",
+      "technical_spec": "AWS Shield and additional third-party solutions.",
+      "severity_score": 50
+    },
+    {
+      "title": "Security Monitoring and Incident Response",
+      "description": "Continuous security monitoring and well-defined incident response plan.",
+      "technical_spec": "SIEM systems and dedicated security operations center (SOC).",
+      "severity_score": 55
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regular vulnerability assessments and penetration testing.",
+      "technical_spec": "Automated scans and manual testing using advanced tools.",
+      "severity_score": 60
     }
   ]
 }

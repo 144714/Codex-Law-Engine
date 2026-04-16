@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 344,
+    "rank": 354,
     "site": "microsoft.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "fd6107048be69c553c1254fc04537209"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "203beccb10526c9d081cbc38367908f8"
   },
   "data": [
     {
-      "title": "Innovative Technology",
-      "description": "Represents a leader in technology innovation and solutions.",
-      "technical_spec": "Showcases cutting-edge products and services across facets of the site.",
-      "severity_score": 98
+      "title": "Innovation Leadership",
+      "description": "Position the brand as a leader in technological advancements.",
+      "technical_spec": "Brand communication through blogs and tech conferences.",
+      "severity_score": 90
     },
     {
-      "title": "Global Reach",
-      "description": "Embodies a global company with solutions impacting worldwide markets.",
-      "technical_spec": "Localized content and multilingual support reflect international focus.",
-      "severity_score": 95
+      "title": "Enterprise Solutions",
+      "description": "Focused on providing comprehensive solutions for businesses.",
+      "technical_spec": "B2B service integration with a focus on scalability.",
+      "severity_score": 85
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focused on delivering exceptional user experiences tailored to customer needs.",
-      "technical_spec": "Continuously iterates on UX/UI to ensure user-friendly experiences.",
-      "severity_score": 92
+      "title": "Global Accessibility",
+      "description": "Committed to providing global access to tools and services.",
+      "technical_spec": "Localization strategies across more than 50 languages.",
+      "severity_score": 88
     },
     {
-      "title": "Trust and Security",
-      "description": "Establishes trust through advanced security and privacy measures.",
-      "technical_spec": "Emphasizes privacy policies, security commitments, and compliance details.",
-      "severity_score": 97
+      "title": "Sustainability Initiatives",
+      "description": "Promotes eco-friendly practices within the tech industry.",
+      "technical_spec": "Carbon-neutral data centers and green energy procurement.",
+      "severity_score": 91
     },
     {
-      "title": "Corporate Responsibility",
-      "description": "Demonstrates commitment to corporate responsibility and sustainability.",
-      "technical_spec": "Promotes initiatives and policies focused on ethical technology use.",
-      "severity_score": 93
+      "title": "Human-centric Design",
+      "description": "Prioritizing user satisfaction with customer-centric designs.",
+      "technical_spec": "Continuous UX research and feedback implementation.",
+      "severity_score": 85
     }
   ]
 }

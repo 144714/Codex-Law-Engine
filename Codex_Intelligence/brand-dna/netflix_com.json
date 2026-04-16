@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 346,
+    "rank": 356,
     "site": "netflix.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "13c4d6fbee0f46353eb71d66cf0d47ee"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "53f069a9600347ad8c7d1dbfb5fa4275"
   },
   "data": [
     {
-      "title": "Original Content",
-      "description": "Focuses heavily on producing original movies, series, and documentaries, strengthening brand identity.",
-      "technical_spec": "Netflix Originals, In-House Production Studios",
-      "severity_score": 30
+      "title": "Innovative Content Delivery",
+      "description": "Pioneers in streaming technology and original content production.",
+      "technical_spec": "Continuous advancement in streaming quality and interactive content.",
+      "severity_score": 55
     },
     {
-      "title": "User Personalization",
-      "description": "Provides a personalized user experience through tailored recommendations and user-specific content.",
-      "technical_spec": "Recommendation Algorithms, AI/ML Personalization",
-      "severity_score": 25
+      "title": "User-Centric Design",
+      "description": "Focuses on delivering an intuitive and personalized user experience.",
+      "technical_spec": "Algorithm-driven personalization and UI/UX enhancements.",
+      "severity_score": 35
     },
     {
-      "title": "Global Accessibility",
-      "description": "Aims for extensive global reach, offering a diverse range of content available in multiple languages.",
-      "technical_spec": "Multiple Language Support, Regional Content Licensing",
-      "severity_score": 20
+      "title": "Global Reach",
+      "description": "Accessible to a vast audience worldwide with localized content.",
+      "technical_spec": "Multi-language support and region-specific offerings.",
+      "severity_score": 60
     },
     {
-      "title": "Technological Innovation",
-      "description": "Invests in innovation to enhance streaming quality and introduce new features.",
-      "technical_spec": "4K HDR Streaming, Dolby Atmos Support",
-      "severity_score": 25
+      "title": "Content Diversity",
+      "description": "Offers a wide range of genres and formats to cater to diverse audiences.",
+      "technical_spec": "Extensive library with tailored recommendations.",
+      "severity_score": 70
     },
     {
-      "title": "Brand Recognition",
-      "description": "Maintains a strong brand presence through strategic marketing and consistent messaging.",
-      "technical_spec": "Global Marketing Campaigns, Strategic Partnerships",
-      "severity_score": 30
+      "title": "Technological Leadership",
+      "description": "Leader in adopting and developing new technologies to enhance streaming.",
+      "technical_spec": "Research and implementation of AI, ML, and data analytics.",
+      "severity_score": 65
     }
   ]
 }

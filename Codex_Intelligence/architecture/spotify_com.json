@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 347,
+    "rank": 357,
     "site": "spotify.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "756ed56a56b0985edd8d61055d54bcb5"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "dfca347bcba7250e7666b84f36044210"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Spotify uses a microservices architecture to enhance scalability and allow independent deployment of services.",
-      "technical_spec": "Docker, Kubernetes, and custom in-house services manage the microservices.",
-      "severity_score": 90
+      "title": "Microservices Architecture",
+      "description": "Spotify uses a microservices architecture to allow for decentralized management and independent deployment of different services.",
+      "technical_spec": "Services are written in various programming languages like Java, Python, and JavaScript.",
+      "severity_score": 15
     },
     {
-      "title": "Cloud Infrastructure",
-      "description": "Spotify leverages cloud-based solutions for hosting and scaling its services.",
-      "technical_spec": "Utilizes Google Cloud Platform for its infrastructure needs.",
-      "severity_score": 85
+      "title": "Server-Side Rendering",
+      "description": "Optimizes initial page load by rendering pages on the server before sending them to the client.",
+      "technical_spec": "Utilizes Node.js for server-side JavaScript execution.",
+      "severity_score": 20
     },
     {
-      "title": "Content Delivery Network",
-      "description": "A global CDN is used to deliver content efficiently to users worldwide.",
-      "technical_spec": "Akamai and Cloudflare are commonly used for such purposes.",
-      "severity_score": 78
+      "title": "API Gateway Pattern",
+      "description": "Centralizes API management to streamline requests between clients and internal services.",
+      "technical_spec": "Built on top of cloud services with RESTful APIs.",
+      "severity_score": 30
     },
     {
-      "title": "RESTful APIs",
-      "description": "Public and private APIs available for integration and extending functionality.",
-      "technical_spec": "HTTP/2, OAuth for secure API requests.",
-      "severity_score": 80
+      "title": "Data Streaming",
+      "description": "Processes large quantities of real-time data from users and recommends music.",
+      "technical_spec": "Incorporates technologies like Apache Kafka and Google BigQuery.",
+      "severity_score": 25
     },
     {
-      "title": "Data Pipelines",
-      "description": "For processing vast amounts of user data for analytics and recommendations.",
-      "technical_spec": "Apache Kafka and Apache Flink for real-time data streaming.",
-      "severity_score": 88
+      "title": "Cloud-Based Infrastructure",
+      "description": "Hosts infrastructure on cloud platforms for scalability and reliability.",
+      "technical_spec": "Primarily uses Google Cloud Platform (GCP).",
+      "severity_score": 40
     }
   ]
 }

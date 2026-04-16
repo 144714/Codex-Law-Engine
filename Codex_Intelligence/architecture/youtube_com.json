@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 342,
+    "rank": 352,
     "site": "youtube.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "2e49123c89a6ed2e93a917593c90982b"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "76ccda21aea359a8a4ca6544b3226e89"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "YouTube utilizes a microservices architecture, allowing for scalability and independent service management.",
-      "technical_spec": "Deployed on cloud platforms, using container orchestration tools like Kubernetes.",
-      "severity_score": 5
+      "title": "Microservices",
+      "description": "YouTube uses a microservices architecture to separate different parts of the platform for scalability and independent deployment.",
+      "technical_spec": "Docker, Kubernetes, REST APIs",
+      "severity_score": 20
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "CDN is used to deliver video content quickly to a global audience.",
-      "technical_spec": "Globally distributed servers with caching mechanisms.",
-      "severity_score": 3
+      "description": "A CDN is used to efficiently deliver video content worldwide.",
+      "technical_spec": "Akamai, Cloudflare",
+      "severity_score": 15
     },
     {
-      "title": "Data Replication",
-      "description": "Ensures high availability and fault tolerance of data across regions.",
-      "technical_spec": "Multiple data centers with replication strategies in place.",
-      "severity_score": 10
+      "title": "Database Management",
+      "description": "YouTube employs a variety of databases to handle large-scale data storage and management.",
+      "technical_spec": "Bigtable, MySQL",
+      "severity_score": 40
     },
     {
-      "title": "Scalable Storage Solutions",
-      "description": "Handles massive amounts of video data with scalable storage solutions.",
-      "technical_spec": "Utilizes distributed databases and storage technologies.",
-      "severity_score": 7
+      "title": "Load Balancing",
+      "description": "Load balancers distribute the network and application traffic across multiple servers.",
+      "technical_spec": "Google Cloud Load Balancing",
+      "severity_score": 30
     },
     {
-      "title": "Real-time Video Processing",
-      "description": "Enables real-time streaming and processing of video content.",
-      "technical_spec": "Leverages GPU acceleration and distributed computing resources.",
-      "severity_score": 6
+      "title": "Edge Computing",
+      "description": "Edge computing processes data near the data source to improve response times.",
+      "technical_spec": "Edge Cache Nodes",
+      "severity_score": 25
     }
   ]
 }

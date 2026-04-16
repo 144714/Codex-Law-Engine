@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 348,
+    "rank": 358,
     "site": "adobe.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "373786366eb1df155618e6225c69281f"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "6c6f8a439314ac5e8904bd32b820d7b3"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Optimizes interface interactions by placing commonly used functions within easy reach.",
-      "technical_spec": "Larger clickable areas for frequent actions.",
-      "severity_score": 5
+      "title": "Jakob's Law",
+      "description": "Users spend most of their time on other sites, and prefer your site to work the same way as all the other sites they already know.",
+      "technical_spec": "Consistent design language and navigation",
+      "severity_score": 60
     },
     {
-      "title": "Hick's Law",
-      "description": "Minimizes decision time by limiting the number of options presented to users.",
-      "technical_spec": "Simplified navigation menus with hierarchical structure.",
-      "severity_score": 10
+      "title": "Miller’s Law",
+      "description": "Users can only keep 7 (plus or minus 2) items in their working memory.",
+      "technical_spec": "Simplified navigation and chunked information",
+      "severity_score": 40
+    },
+    {
+      "title": "Fitts's Law",
+      "description": "The time to acquire a target is a function of the distance to and size of the target.",
+      "technical_spec": "Optimized button sizes and spacing",
+      "severity_score": 50
+    },
+    {
+      "title": "Hick’s Law",
+      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
+      "technical_spec": "Limited choices per interaction",
+      "severity_score": 55
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Enhances user satisfaction by making interfaces more visually appealing.",
-      "technical_spec": "Utilizes Adobe's own design standards for consistency.",
-      "severity_score": 4
-    },
-    {
-      "title": "Jakob's Law",
-      "description": "Designs familiar patterns based on users' experiences with other interfaces.",
-      "technical_spec": "Adopts common web conventions for intuitive user journeys.",
-      "severity_score": 8
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Groups related elements together to improve readability and user comprehension.",
-      "technical_spec": "Uses grid layouts to organize content.",
-      "severity_score": 7
+      "description": "Users perceive more aesthetically pleasing designs to be easier to use.",
+      "technical_spec": "Visual hierarchy and minimalistic design",
+      "severity_score": 35
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 342,
+    "rank": 352,
     "site": "youtube.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "50ded82d95e52502e1a549f72ed5cfc0"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "825747a9048c0770cd8839dbe7894f76"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies decision making by limiting choices.",
-      "technical_spec": "Optimized UI elements for quick navigation.",
-      "severity_score": 8
+      "description": "Simplify choices to reduce decision-making time for users.",
+      "technical_spec": "Simplified navigation and content recommendations.",
+      "severity_score": 35
     },
     {
-      "title": "Fitts's Law",
-      "description": "Design elements sized appropriately for easy interaction.",
-      "technical_spec": "Large clickable buttons for video controls.",
-      "severity_score": 7
+      "title": "Fitts' Law",
+      "description": "Optimize button sizes and placements for ease of use.",
+      "technical_spec": "Larger touch targets for mobile, intuitive progress bars.",
+      "severity_score": 40
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related elements together for intuitive access.",
-      "technical_spec": "Clustered UI components for user-friendly layout.",
-      "severity_score": 5
-    },
-    {
-      "title": "Visual Hierarchy",
-      "description": "Utilizes size and color to guide user attention.",
-      "technical_spec": "Contrasting colors and fonts to highlight key features.",
-      "severity_score": 6
+      "title": "Aesthetic-Usability Effect",
+      "description": "Users perceive more aesthetically pleasing interfaces as easier to use.",
+      "technical_spec": "Modern design elements, consistent themes.",
+      "severity_score": 25
     },
     {
       "title": "Gestalt Principles",
-      "description": "Design based on perception patterns to improve usability.",
-      "technical_spec": "Consistent alignment and symmetry in layout.",
-      "severity_score": 9
+      "description": "Organizing content to enhance pattern recognition and user perception.",
+      "technical_spec": "Use of proximity, similarity, and continuity in layout design.",
+      "severity_score": 30
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Limit the amount of information presented to user at a time.",
+      "technical_spec": "Segmented video content, concise notifications.",
+      "severity_score": 30
     }
   ]
 }

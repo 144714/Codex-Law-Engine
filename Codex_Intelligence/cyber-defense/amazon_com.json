@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 345,
+    "rank": 355,
     "site": "amazon.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "63dbbae78af09aec11482e36652e6e66"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "17bf85811cca29ce5934494ee19ca52e"
   },
   "data": [
     {
-      "title": "AWS Cloud Security",
-      "description": "Security frameworks built within AWS provide baseline protection for Amazon's infrastructure.",
-      "technical_spec": "Identity and Access Management, Virtual Private Cloud.",
-      "severity_score": 20
+      "title": "Advanced Encryption",
+      "description": "Ensures data is encrypted both in transit and at rest.",
+      "technical_spec": "AES-256 encryption standard.",
+      "severity_score": 92
     },
     {
-      "title": "DDoS Mitigation",
-      "description": "Robust systems in place to protect against denial of service attacks.",
-      "technical_spec": "AWS Shield, AWS WAF for filtering and protection.",
-      "severity_score": 25
+      "title": "Two-Factor Authentication",
+      "description": "Enhances user account security.",
+      "technical_spec": "SMS-based and App-based TFA options.",
+      "severity_score": 85
     },
     {
-      "title": "Vulnerability Scanning",
-      "description": "Regular scanning for vulnerabilities within applications and servers.",
-      "technical_spec": "Use of AWS Inspector and third-party tools for continuous scanning.",
-      "severity_score": 35
+      "title": "DDoS Protection",
+      "description": "Prevents distributed denial-of-service attacks.",
+      "technical_spec": "AWS Shield for automated mitigation.",
+      "severity_score": 90
     },
     {
-      "title": "Encryption Standards",
-      "description": "Data integrity and confidentiality maintained through strong encryption practices.",
-      "technical_spec": "TLS for data in transit, KMS for data at rest encryption.",
-      "severity_score": 15
+      "title": "Intrusion Detection System",
+      "description": "Monitors network for suspicious activity.",
+      "technical_spec": "AWS GuardDuty for anomaly detection.",
+      "severity_score": 87
     },
     {
-      "title": "Access Controls",
-      "description": "Strict access management to limit data and system exposure.",
-      "technical_spec": "IAM policies, Multi-Factor Authentication.",
-      "severity_score": 30
+      "title": "Regular Security Audits",
+      "description": "Conducts regular security checkpoints and audits.",
+      "technical_spec": "Compliance with ISO 27001 security standards.",
+      "severity_score": 83
     }
   ]
 }

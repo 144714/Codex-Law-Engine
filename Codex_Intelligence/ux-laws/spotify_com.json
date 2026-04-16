@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 347,
+    "rank": 357,
     "site": "spotify.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "ec5ad0e7184ca744aaa9018c82bba1a2"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "10949412df13492c6e130f4f18d5432d"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Design principle that suggests making UI elements easier to interact with by considering target size and distance.",
-      "technical_spec": "Large interactive elements in easy-to-reach areas, especially on mobile.",
-      "severity_score": 75
-    },
-    {
       "title": "Hick's Law",
-      "description": "Improving decision-making efficiency by minimizing choices.",
-      "technical_spec": "Simplified navigation and tailored content suggestions.",
-      "severity_score": 80
+      "description": "Simplifies choices for users to reduce decision time.",
+      "technical_spec": "Streamlined interfaces with clear, singular tasks.",
+      "severity_score": 10
     },
     {
-      "title": "Miller’s Law",
-      "description": "Designs take into account users' limited memory capacity by chunking information.",
-      "technical_spec": "Playlists, cards, and other groupings in the UI.",
-      "severity_score": 85
+      "title": "Fitts's Law",
+      "description": "Optimizes target sizes and distances to enhance navigation efficiency.",
+      "technical_spec": "Designs intuitive navigation elements that are easy to click.",
+      "severity_score": 15
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Focusing on creating impactful moments to improve overall user satisfaction.",
-      "technical_spec": "Highlighting personalized playlists and providing a satisfying streaming experience.",
-      "severity_score": 88
+      "title": "Aesthetic-Usability Effect",
+      "description": "Creates visually appealing interfaces that improve perceived usability.",
+      "technical_spec": "Focuses on sleek design and rich media integration.",
+      "severity_score": 20
     },
     {
-      "title": "Jakob's Law",
-      "description": "Leveraging familiar design patterns to match user expectations.",
-      "technical_spec": "Consistent UI with other popular apps for intuitive interaction.",
-      "severity_score": 82
+      "title": "Law of Proximity",
+      "description": "Groups related items together for better user understanding.",
+      "technical_spec": "Logical grouping of buttons and menus.",
+      "severity_score": 12
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Limits information displayed to optimize cognitive load.",
+      "technical_spec": "Uses tabs and dropdowns to organize information.",
+      "severity_score": 18
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 341,
+    "rank": 351,
     "site": "google.com",
-    "date": "2026-04-16 01:49",
-    "integrity_hash": "5ed014f95b5fa40a3515dc4f645bff56"
+    "date": "2026-04-16 04:45",
+    "integrity_hash": "63dabdaf578265291d659b2e19bd9629"
   },
   "data": [
     {
-      "title": "Simplistic Design",
-      "description": "Prioritizes a clean and simple user interface.",
-      "technical_spec": "Design emphasizes minimalism with a focus on core functions.",
-      "severity_score": 87
-    },
-    {
-      "title": "Speed and Reliability",
-      "description": "Focuses on delivering fast load times and consistent performance.",
-      "technical_spec": "Optimized for speed through lightweight UI elements and prefetching.",
-      "severity_score": 90
+      "title": "Innovation Leadership",
+      "description": "Continual creation of disruptive technologies and creative solutions.",
+      "technical_spec": "Investment in R&D and fostering a company culture that encourages experimentation.",
+      "severity_score": 98
     },
     {
       "title": "Global Accessibility",
-      "description": "Ensures availability and usability across different regions.",
-      "technical_spec": "Made with internationalization and localization capabilities.",
-      "severity_score": 88
+      "description": "Ensuring global access to information in a decentralized manner.",
+      "technical_spec": "Compliance with web accessibility standards and multilanguage support.",
+      "severity_score": 95
     },
     {
-      "title": "Innovation and Adaptability",
-      "description": "Continuously evolves to incorporate new technologies and trends.",
-      "technical_spec": "Frequent updates and feature rollouts based on user feedback and data insights.",
+      "title": "User-Centric Design",
+      "description": "Focus on simplicity, ease of use, and user satisfaction.",
+      "technical_spec": "Iterative design processes driven by user feedback and usability testing.",
+      "severity_score": 94
+    },
+    {
+      "title": "Environmental Responsibility",
+      "description": "Commitment to sustainable operations and energy consumption.",
+      "technical_spec": "Use of renewable energy sources and efficient data center technologies.",
       "severity_score": 92
     },
     {
-      "title": "User-Centric Approach",
-      "description": "Design and experience built around user needs and feedback.",
-      "technical_spec": "Utilizes user research and A/B testing to refine offerings.",
-      "severity_score": 89
+      "title": "Data Privacy Commitment",
+      "description": "Ensuring users’ data privacy and adherence to privacy norms.",
+      "technical_spec": "Strong data governance policies and compliance with international privacy laws.",
+      "severity_score": 96
     }
   ]
 }
