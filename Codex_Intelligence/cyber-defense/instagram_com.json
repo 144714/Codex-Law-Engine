@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 339,
+    "rank": 349,
     "site": "instagram.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "76dcadf6ea5f44d1428b0f7dbfa337d3"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "8bc9439d46bd29b4282dbd232e7ce161"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Secure communication channels for private messaging.",
-      "technical_spec": "Uses HTTPS/TLS for data in transit.",
-      "severity_score": 5
-    },
-    {
-      "title": "Two-Factor Authentication",
-      "description": "Adds an extra layer of security for user accounts.",
-      "technical_spec": "Supports both SMS-based and app-based (e.g., Google Authenticator) 2FA.",
+      "title": "Data Encryption",
+      "description": "Utilizes encryption to ensure data confidentiality both in transit and at rest.",
+      "technical_spec": "TLS for data in transit and AES-256 for data at rest.",
       "severity_score": 30
     },
     {
-      "title": "Intrusion Detection System",
-      "description": "Monitors network for malicious activities.",
-      "technical_spec": "Implements systems like Snort or customized IDS solutions.",
-      "severity_score": 45
-    },
-    {
-      "title": "Data Protection Protocols",
-      "description": "Protects user data from breaches and leaks.",
-      "technical_spec": "Regular audits and compliance with GDPR and CCPA.",
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Provides an additional layer of security for user accounts via 2FA.",
+      "technical_spec": "Integration with apps like Authy and Google Authenticator.",
       "severity_score": 40
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Routine checks to identify and fix vulnerabilities.",
-      "technical_spec": "Employs automated tools and third-party audits.",
+      "title": "Bug Bounty Program",
+      "description": "Incentivizes security researchers to report vulnerabilities.",
+      "technical_spec": "Managed through platforms like HackerOne or Bugcrowd.",
+      "severity_score": 20
+    },
+    {
+      "title": "Security Monitoring and Incident Response",
+      "description": "Continuous monitoring and incident protocols to handle security breaches.",
+      "technical_spec": "Application of SIEM systems such as Splunk or IBM QRadar.",
       "severity_score": 25
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts regular audits to identify and fix security vulnerabilities.",
+      "technical_spec": "In-depth penetration tests and audits by cybersecurity firms.",
+      "severity_score": 35
     }
   ]
 }

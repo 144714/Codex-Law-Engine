@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 332,
+    "rank": 342,
     "site": "youtube.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "f8bf7461c8e2714b824eabef91327b32"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "50ded82d95e52502e1a549f72ed5cfc0"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Optimizes interface elements placement for faster user interaction.",
-      "technical_spec": "Buttons sized for easy touch and placed in the most likely activation zones.",
-      "severity_score": 22
-    },
-    {
       "title": "Hick's Law",
-      "description": "Limits choices per screen to aid user decision-making.",
-      "technical_spec": "Intuitive design with dropdowns and progressive disclosure techniques.",
-      "severity_score": 18
+      "description": "Simplifies decision making by limiting choices.",
+      "technical_spec": "Optimized UI elements for quick navigation.",
+      "severity_score": 8
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Enhances perceived usability through polished visual design.",
-      "technical_spec": "High-definition visuals and thematic color palettes with gradient usage.",
-      "severity_score": 40
+      "title": "Fitts's Law",
+      "description": "Design elements sized appropriately for easy interaction.",
+      "technical_spec": "Large clickable buttons for video controls.",
+      "severity_score": 7
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Aligns with user expectations by matching common usage patterns.",
-      "technical_spec": "Follows established web standards for navigation and content layout.",
-      "severity_score": 15
+      "title": "Law of Proximity",
+      "description": "Groups related elements together for intuitive access.",
+      "technical_spec": "Clustered UI components for user-friendly layout.",
+      "severity_score": 5
     },
     {
-      "title": "Zeigarnik Effect",
-      "description": "Motivates users by designing unfinished tasks to enhance engagement.",
-      "technical_spec": "Persistent notification badges and progress bars.",
-      "severity_score": 28
+      "title": "Visual Hierarchy",
+      "description": "Utilizes size and color to guide user attention.",
+      "technical_spec": "Contrasting colors and fonts to highlight key features.",
+      "severity_score": 6
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Design based on perception patterns to improve usability.",
+      "technical_spec": "Consistent alignment and symmetry in layout.",
+      "severity_score": 9
     }
   ]
 }

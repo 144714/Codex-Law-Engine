@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 334,
+    "rank": 344,
     "site": "microsoft.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "e11aaad4bbfc3de7f7cf71be3ffae08f"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "cbe29cab93f3d67438744b15e3c6c47e"
   },
   "data": [
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Visually appealing design that encourages user trust and engagement.",
-      "technical_spec": "Modern UI Design, Material Design Principles",
-      "severity_score": 25
+      "title": "Fitts's Law",
+      "description": "Designs navigation elements sized for ease of access and interaction.",
+      "technical_spec": "Interactive elements are optimally spaced and sized across devices.",
+      "severity_score": 85
     },
     {
       "title": "Hick's Law",
-      "description": "Simplification of decision-making by minimizing choices.",
-      "technical_spec": "Streamlined Navigation, Personalized Content Recommendations",
-      "severity_score": 20
-    },
-    {
-      "title": "Fitts’s Law",
-      "description": "Designs elements for faster interaction by optimizing button sizes and positions.",
-      "technical_spec": "Clickable Area Optimization, Adaptive Layouts",
-      "severity_score": 35
+      "description": "Simplifies decision-making by limiting the number of choices.",
+      "technical_spec": "UI design follows best practices in presenting direct paths for common tasks.",
+      "severity_score": 88
     },
     {
       "title": "Miller's Law",
-      "description": "Organizes content into smaller, manageable chunks to aid memorability.",
-      "technical_spec": "Progressive Disclosures, Accordion Menus",
-      "severity_score": 30
+      "description": "Organizes information into chunks to aid memory and understanding.",
+      "technical_spec": "Content and navigation structures make complex data easily digestible.",
+      "severity_score": 90
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Designs interfaces consistent with user expectations based on other familiar platforms.",
-      "technical_spec": "Standard Web Patterns, Consistent Visual Language",
-      "severity_score": 28
+      "title": "Jakob's Law",
+      "description": "Familiar design patterns to align with user expectations.",
+      "technical_spec": "Consistency across UI elements aligns with common web practices.",
+      "severity_score": 91
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Groups related items to reduce cognitive load.",
+      "technical_spec": "Logical grouping and alignment utilized throughout the site layout.",
+      "severity_score": 86
     }
   ]
 }

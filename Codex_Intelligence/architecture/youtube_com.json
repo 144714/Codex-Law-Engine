@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 332,
+    "rank": 342,
     "site": "youtube.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "1d6bf8e85611669a410d690fc7d7c999"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "2e49123c89a6ed2e93a917593c90982b"
   },
   "data": [
     {
-      "title": "Monolithic Frontend",
-      "description": "Uses a single-page application model for efficient client-side routing and rendering.",
-      "technical_spec": "React.js framework integrated with server-side rendering.",
-      "severity_score": 40
+      "title": "Microservices Architecture",
+      "description": "YouTube utilizes a microservices architecture, allowing for scalability and independent service management.",
+      "technical_spec": "Deployed on cloud platforms, using container orchestration tools like Kubernetes.",
+      "severity_score": 5
     },
     {
-      "title": "Microservices Backend",
-      "description": "Spans across hundreds of individual microservices handling various functionalities.",
-      "technical_spec": "Deployed on a Kubernetes platform with Docker containers.",
-      "severity_score": 30
-    },
-    {
-      "title": "Global CDN Network",
-      "description": "Content is delivered through a globally distributed network to reduce latency.",
-      "technical_spec": "Hosted on Google Cloud’s CDN infrastructure with multiple nodes.",
-      "severity_score": 20
+      "title": "Content Delivery Network (CDN)",
+      "description": "CDN is used to deliver video content quickly to a global audience.",
+      "technical_spec": "Globally distributed servers with caching mechanisms.",
+      "severity_score": 3
     },
     {
       "title": "Data Replication",
-      "description": "Utilizes data replication for redundancy and high availability.",
-      "technical_spec": "Relational and NoSQL databases with synchronous replication mechanisms.",
-      "severity_score": 35
+      "description": "Ensures high availability and fault tolerance of data across regions.",
+      "technical_spec": "Multiple data centers with replication strategies in place.",
+      "severity_score": 10
     },
     {
-      "title": "API Gateway",
-      "description": "Centralized entry-point for microservices traffic, providing load balancing and API management.",
-      "technical_spec": "Implemented using Envoy for service mesh capabilities.",
-      "severity_score": 45
+      "title": "Scalable Storage Solutions",
+      "description": "Handles massive amounts of video data with scalable storage solutions.",
+      "technical_spec": "Utilizes distributed databases and storage technologies.",
+      "severity_score": 7
+    },
+    {
+      "title": "Real-time Video Processing",
+      "description": "Enables real-time streaming and processing of video content.",
+      "technical_spec": "Leverages GPU acceleration and distributed computing resources.",
+      "severity_score": 6
     }
   ]
 }

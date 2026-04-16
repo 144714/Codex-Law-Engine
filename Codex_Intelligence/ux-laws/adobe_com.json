@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 338,
+    "rank": 348,
     "site": "adobe.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "0e889fbb7c1cd7337fecc55e104d76f9"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "373786366eb1df155618e6225c69281f"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifying user choices to enhance decision-making speed.",
-      "technical_spec": "Minimalist design approach, reduced navigation options.",
-      "severity_score": 20
-    },
-    {
       "title": "Fitts's Law",
-      "description": "Optimizing user interface elements to improve accessibility and ease of use.",
-      "technical_spec": "Larger clickable areas, accessible touch targets.",
-      "severity_score": 25
+      "description": "Optimizes interface interactions by placing commonly used functions within easy reach.",
+      "technical_spec": "Larger clickable areas for frequent actions.",
+      "severity_score": 5
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Implementation of visual hierarchy and grouping for improved user comprehension.",
-      "technical_spec": "Use of contrast, alignment, and proximity.",
-      "severity_score": 30
+      "title": "Hick's Law",
+      "description": "Minimizes decision time by limiting the number of options presented to users.",
+      "technical_spec": "Simplified navigation menus with hierarchical structure.",
+      "severity_score": 10
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Enhances user satisfaction by making interfaces more visually appealing.",
+      "technical_spec": "Utilizes Adobe's own design standards for consistency.",
+      "severity_score": 4
     },
     {
       "title": "Jakob's Law",
-      "description": "Design consistency with popular platforms to meet user expectations.",
-      "technical_spec": "Adherence to interface standards, familiarity in design language.",
-      "severity_score": 15
+      "description": "Designs familiar patterns based on users' experiences with other interfaces.",
+      "technical_spec": "Adopts common web conventions for intuitive user journeys.",
+      "severity_score": 8
     },
     {
       "title": "Law of Proximity",
-      "description": "Elements close to each other are perceived as related, aiding in intuitive navigation.",
-      "technical_spec": "Logical grouping of menu items, clustered icons.",
-      "severity_score": 20
+      "description": "Groups related elements together to improve readability and user comprehension.",
+      "technical_spec": "Uses grid layouts to organize content.",
+      "severity_score": 7
     }
   ]
 }

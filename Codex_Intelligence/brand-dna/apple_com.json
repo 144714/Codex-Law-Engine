@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 333,
+    "rank": 343,
     "site": "apple.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "6758854cbc378926d452f3093d5a772d"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "1d008812001c2ddeac03027b60bd0a76"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Focus on creating cutting-edge technology and services.",
-      "technical_spec": "Patent filings, New product lines every fiscal year.",
-      "severity_score": 85
+      "title": "Innovative Experience",
+      "description": "Apple's website reflects its commitment to innovation and cutting-edge technology.",
+      "technical_spec": "Use of advanced JavaScript frameworks and custom features.",
+      "severity_score": 5
     },
     {
-      "title": "User-Centric Design",
-      "description": "Emphasizes intuitive and elegant user experiences.",
-      "technical_spec": "User feedback loops, Iterative design processes.",
-      "severity_score": 90
+      "title": "Minimalistic Design",
+      "description": "A sleek, minimalistic design that aligns with Apple's brand ethos.",
+      "technical_spec": "Flat design principles and a reduced color palette.",
+      "severity_score": 5
     },
     {
-      "title": "Ecosystem Cohesion",
-      "description": "Ensures seamless integration across Apple products.",
-      "technical_spec": "iCloud, Continuity features like Handoff and AirDrop.",
-      "severity_score": 95
+      "title": "Premium Feel",
+      "description": "Every interaction exudes a sense of quality and exclusivity.",
+      "technical_spec": "High-resolution imagery and smooth user interactions.",
+      "severity_score": 5
     },
     {
-      "title": "Privacy and Security",
-      "description": "Commitment to protecting user data and system security.",
-      "technical_spec": "Privacy policies, Security frameworks.",
-      "severity_score": 98
+      "title": "Seamless Ecosystem Integration",
+      "description": "Unified experience across devices highlighting Apple's ecosystem.",
+      "technical_spec": "Cross-platform compatibility and synchronized services.",
+      "severity_score": 10
     },
     {
-      "title": "Sustainability",
-      "description": "Efforts toward environmentally-friendly practices.",
-      "technical_spec": "Recyclable material usage, Renewable energy operations.",
-      "severity_score": 80
+      "title": "Customer-Centric Design",
+      "description": "Design practices focus on the needs and desires of the user.",
+      "technical_spec": "User-centered design strategies like journey mapping and feedback loops.",
+      "severity_score": 10
     }
   ]
 }

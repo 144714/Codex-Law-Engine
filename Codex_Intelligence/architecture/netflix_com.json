@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 336,
+    "rank": 346,
     "site": "netflix.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "c78c589a131aae8de65bb6ac932d1148"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "ea1f3606ba6aa015623edb3529a61a2f"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Netflix uses a microservices architecture to deploy and manage its applications, allowing for scalability and rapid deployment.",
-      "technical_spec": "Each service is independently deployable, managed with containers, and communicates over their own APIs.",
+      "title": "Microservices Architecture",
+      "description": "Netflix utilizes a microservices architecture which allows individual services to be developed, deployed, and scaled independently.",
+      "technical_spec": "Docker, Kubernetes, AWS, Spring Boot",
       "severity_score": 10
     },
     {
-      "title": "Global Content Delivery Network (CDN)",
-      "description": "Utilizes CDNs for efficient content distribution and localization, providing low-latency access to users worldwide.",
-      "technical_spec": "Redundant nodes across global regions ensure high availability and quick loading times.",
-      "severity_score": 5
-    },
-    {
-      "title": "Reactive Systems",
-      "description": "Incorporates reactive principles to ensure a responsive, resilient, and elastic user interaction experience.",
-      "technical_spec": "Systems are designed to be event-driven, scalable, and capable of handling unpredictable demand.",
+      "title": "Cloud Infrastructure",
+      "description": "Netflix runs its services on Amazon Web Services (AWS), utilizing its cloud computing capabilities to deliver content globally.",
+      "technical_spec": "AWS S3, AWS EC2, Amazon CloudFront",
       "severity_score": 15
     },
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Operates primarily on the cloud, allowing extensive compute power and storage scalability.",
-      "technical_spec": "Uses AWS for hosting and services, facilitating dynamic scaling, storage, and processing.",
-      "severity_score": 10
+      "title": "Load Balancing",
+      "description": "Netflix uses load balancers to distribute incoming network traffic across multiple servers, ensuring reliability and minimizing downtime.",
+      "technical_spec": "NGINX, AWS Elastic Load Balancing",
+      "severity_score": 20
     },
     {
-      "title": "Data-Driven Decision Making",
-      "description": "Relies on big data analytics for decision support, personalization, and content recommendations.",
-      "technical_spec": "Integrated data warehouses and analytics engines process massive datasets for customer insights.",
-      "severity_score": 20
+      "title": "Data Streaming",
+      "description": "Leveraging technology for continuous data flow, enabling on-the-fly processing and analytics of streaming data.",
+      "technical_spec": "Apache Kafka, Apache Flink",
+      "severity_score": 30
+    },
+    {
+      "title": "Database Management",
+      "description": "Netflix employs a variety of database solutions optimized for different types of data and querying needs.",
+      "technical_spec": "Cassandra, MySQL, DynamoDB",
+      "severity_score": 25
     }
   ]
 }

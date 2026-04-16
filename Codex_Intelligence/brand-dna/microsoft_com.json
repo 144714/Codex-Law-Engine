@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 334,
+    "rank": 344,
     "site": "microsoft.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "c1390265b6366a5cfc43bef3d744eb88"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "fd6107048be69c553c1254fc04537209"
   },
   "data": [
     {
-      "title": "Innovation-Centric",
-      "description": "Fosters a culture of technological innovation to lead in the tech industry.",
-      "technical_spec": "Research & Development Investment, New Product Launches",
-      "severity_score": 20
+      "title": "Innovative Technology",
+      "description": "Represents a leader in technology innovation and solutions.",
+      "technical_spec": "Showcases cutting-edge products and services across facets of the site.",
+      "severity_score": 98
     },
     {
-      "title": "User Empowerment",
-      "description": "Focuses on tools and services that empower users to achieve more.",
-      "technical_spec": "Office Suite, Accessibility Features, Integration with Third-party Apps",
-      "severity_score": 25
+      "title": "Global Reach",
+      "description": "Embodies a global company with solutions impacting worldwide markets.",
+      "technical_spec": "Localized content and multilingual support reflect international focus.",
+      "severity_score": 95
     },
     {
-      "title": "Global Presence",
-      "description": "Operates as a global leader with a significant international market footprint.",
-      "technical_spec": "International Support, Global Data Centers, Multi-language Support",
-      "severity_score": 15
+      "title": "User-Centric Design",
+      "description": "Focused on delivering exceptional user experiences tailored to customer needs.",
+      "technical_spec": "Continuously iterates on UX/UI to ensure user-friendly experiences.",
+      "severity_score": 92
     },
     {
-      "title": "Sustainability Commitment",
-      "description": "Promotes sustainability through eco-friendly practices and policies.",
-      "technical_spec": "Carbon Neutral Initiatives, Green Data Centers",
-      "severity_score": 10
+      "title": "Trust and Security",
+      "description": "Establishes trust through advanced security and privacy measures.",
+      "technical_spec": "Emphasizes privacy policies, security commitments, and compliance details.",
+      "severity_score": 97
     },
     {
-      "title": "Security Leadership",
-      "description": "Prioritizes security to protect customer data and ensure privacy.",
-      "technical_spec": "Regular Security Patches, Bug Bounty Programs",
-      "severity_score": 30
+      "title": "Corporate Responsibility",
+      "description": "Demonstrates commitment to corporate responsibility and sustainability.",
+      "technical_spec": "Promotes initiatives and policies focused on ethical technology use.",
+      "severity_score": 93
     }
   ]
 }

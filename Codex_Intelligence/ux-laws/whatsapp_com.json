@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 340,
+    "rank": 350,
     "site": "whatsapp.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "e7428831ca9c9161c12c34306509b80c"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "fc39f0a501df39765d7a35ab2de1ec6e"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "WhatsApp minimizes decision-making time by offering a simple and direct interface.",
-      "technical_spec": "Limited number of primary actions in top navigation.",
-      "severity_score": 10
-    },
-    {
-      "title": "Fitts' Law",
-      "description": "Interaction targets (e.g., buttons) are large and easily clickable.",
-      "technical_spec": "Responsive design with adaptive touch zones.",
+      "title": "Jakob’s Law",
+      "description": "Users prefer your site to work the same way as all the other sites they already know.",
+      "technical_spec": "Consistent navigation patterns and familiar interface design.",
       "severity_score": 20
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "A visually appealing design suggests that WhatsApp is easy to use.",
-      "technical_spec": "Adoption of a clean, minimalist design.",
+      "title": "Fitts’s Law",
+      "description": "The time to acquire a target is a function of the distance to and size of the target.",
+      "technical_spec": "Button sizes and placement are optimized for quick access.",
+      "severity_score": 25
+    },
+    {
+      "title": "Hick’s Law",
+      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
+      "technical_spec": "Limits the number of actions available at any given time.",
       "severity_score": 15
     },
     {
-      "title": "Jakob's Law",
-      "description": "Design patterns familiar to users from other messaging apps are utilized.",
-      "technical_spec": "Familiar UI elements like chat bubbles and status indicators.",
-      "severity_score": 5
+      "title": "Tesler’s Law",
+      "description": "As complexity increases, usability decreases.",
+      "technical_spec": "Focuses on reducing complexity in the user interface.",
+      "severity_score": 30
     },
     {
       "title": "Miller’s Law",
-      "description": "The interface avoids overwhelming users with information by limiting on-screen elements.",
-      "technical_spec": "Simplified chat layouts with collapsible sections.",
-      "severity_score": 10
+      "description": "The average person can only keep 7 (±2) items in their working memory.",
+      "technical_spec": "Ensures the interface does not overload cognitive load.",
+      "severity_score": 35
     }
   ]
 }

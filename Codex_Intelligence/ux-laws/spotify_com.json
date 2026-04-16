@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 337,
+    "rank": 347,
     "site": "spotify.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "b47c3716dc3cdd3cbc4efb6a2e4ca71d"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "ec5ad0e7184ca744aaa9018c82bba1a2"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Minimize choice to reduce decision time for users.",
-      "technical_spec": "Simplified interfaces with clear choices lead to a seamless user experience.",
-      "severity_score": 10
-    },
-    {
       "title": "Fitts's Law",
-      "description": "Optimizes navigation with easier to access interactive elements.",
-      "technical_spec": "Menus and buttons are strategically positioned to support faster and more natural interaction.",
-      "severity_score": 8
+      "description": "Design principle that suggests making UI elements easier to interact with by considering target size and distance.",
+      "technical_spec": "Large interactive elements in easy-to-reach areas, especially on mobile.",
+      "severity_score": 75
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Enhancing perceived usability through aesthetic appeal.",
-      "technical_spec": "Utilizes consistent, appealing design elements to enhance user experience.",
-      "severity_score": 15
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Groups related items for better user navigation.",
-      "technical_spec": "Content and navigation elements are grouped logically to improve comprehension.",
-      "severity_score": 12
+      "title": "Hick's Law",
+      "description": "Improving decision-making efficiency by minimizing choices.",
+      "technical_spec": "Simplified navigation and tailored content suggestions.",
+      "severity_score": 80
     },
     {
       "title": "Miller’s Law",
-      "description": "Limiting displayed information to prevent cognitive overload.",
-      "technical_spec": "Presents information chunks that users can process immediately, aiding effective interaction.",
-      "severity_score": 9
+      "description": "Designs take into account users' limited memory capacity by chunking information.",
+      "technical_spec": "Playlists, cards, and other groupings in the UI.",
+      "severity_score": 85
+    },
+    {
+      "title": "Peak-End Rule",
+      "description": "Focusing on creating impactful moments to improve overall user satisfaction.",
+      "technical_spec": "Highlighting personalized playlists and providing a satisfying streaming experience.",
+      "severity_score": 88
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Leveraging familiar design patterns to match user expectations.",
+      "technical_spec": "Consistent UI with other popular apps for intuitive interaction.",
+      "severity_score": 82
     }
   ]
 }

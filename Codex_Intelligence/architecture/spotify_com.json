@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 337,
+    "rank": 347,
     "site": "spotify.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "67fdee8e56047c1067842ee9594a03b5"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "756ed56a56b0985edd8d61055d54bcb5"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "Spotify employs a microservices architecture to improve scalability and manageability.",
-      "technical_spec": "Hundreds of interdependent services interface with decentralized databases, ensuring minimal downtime and better resource allocation.",
-      "severity_score": 20
+      "title": "Microservices",
+      "description": "Spotify uses a microservices architecture to enhance scalability and allow independent deployment of services.",
+      "technical_spec": "Docker, Kubernetes, and custom in-house services manage the microservices.",
+      "severity_score": 90
     },
     {
-      "title": "Distributed Systems",
-      "description": "Utilization of distributed systems to handle large data and requests.",
-      "technical_spec": "Distributes workloads across multiple servers using Kubernetes for orchestration.",
-      "severity_score": 25
+      "title": "Cloud Infrastructure",
+      "description": "Spotify leverages cloud-based solutions for hosting and scaling its services.",
+      "technical_spec": "Utilizes Google Cloud Platform for its infrastructure needs.",
+      "severity_score": 85
     },
     {
-      "title": "Event Sourcing",
-      "description": "Spotify uses event sourcing for real-time data processing and fault tolerance.",
-      "technical_spec": "Kafka is majorly used along with a combination of logs and event processing systems.",
-      "severity_score": 15
+      "title": "Content Delivery Network",
+      "description": "A global CDN is used to deliver content efficiently to users worldwide.",
+      "technical_spec": "Akamai and Cloudflare are commonly used for such purposes.",
+      "severity_score": 78
     },
     {
-      "title": "APIs and SDKs",
-      "description": "Robust set of APIs and SDKs for developers to build Spotify-integrated applications.",
-      "technical_spec": "Offers RESTful APIs with OAuth 2.0 for secure access and a variety of SDKs for different platforms.",
-      "severity_score": 10
+      "title": "RESTful APIs",
+      "description": "Public and private APIs available for integration and extending functionality.",
+      "technical_spec": "HTTP/2, OAuth for secure API requests.",
+      "severity_score": 80
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Globally distributed CDN to improve user experience and reduce latency.",
-      "technical_spec": "Utilizes Akamai and other CDN providers to deliver content efficiently.",
-      "severity_score": 10
+      "title": "Data Pipelines",
+      "description": "For processing vast amounts of user data for analytics and recommendations.",
+      "technical_spec": "Apache Kafka and Apache Flink for real-time data streaming.",
+      "severity_score": 88
     }
   ]
 }

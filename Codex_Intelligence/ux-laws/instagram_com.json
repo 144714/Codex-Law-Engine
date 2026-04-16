@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 339,
+    "rank": 349,
     "site": "instagram.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "91c0011e9bda05eedf62e14ecd7709ef"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "d153d28e5f7412f91c3e8d86e1af2bb5"
   },
   "data": [
     {
+      "title": "Fitts's Law",
+      "description": "Design elements are sized and positioned to minimize the effort to reach them.",
+      "technical_spec": "Button placements and size optimized for both mobile and web interactions.",
+      "severity_score": 5
+    },
+    {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making processes for the user.",
-      "technical_spec": "Limits choices in navigation menus and interface elements.",
+      "description": "Interfaces are streamlined to reduce decision-making time for users.",
+      "technical_spec": "Simplified UI/UX minimizing options per screen.",
       "severity_score": 15
     },
     {
-      "title": "Fitt's Law",
-      "description": "Ensures interfaces are optimized for ease of use.",
-      "technical_spec": "Designs large clickable areas for frequent tasks like 'Like' or 'Comment.'",
-      "severity_score": 20
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Considers cognitive limitations in user interaction design.",
-      "technical_spec": "Groups content into manageable chunks (e.g., stories and reels).",
+      "title": "Aesthetic-Usability Effect",
+      "description": "Focus on creating visually pleasing interfaces which enhance perceived usability.",
+      "technical_spec": "Use of modern design systems like Material Design and UIKit.",
       "severity_score": 10
     },
     {
       "title": "Jakob's Law",
-      "description": "Leverages user familiarity by aligning with web conventions.",
-      "technical_spec": "Consistent design elements with the broader social media ecosystem.",
-      "severity_score": 5
+      "description": "Designs adhere to the principle that people spend most of their time on other sites.",
+      "technical_spec": "UI conventions similar to other popular social platforms for ease of use.",
+      "severity_score": 20
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Creates visually appealing and understandable interfaces.",
-      "technical_spec": "Use of proximity, similarity, and continuity in design.",
-      "severity_score": 18
+      "title": "Law of Proximity",
+      "description": "Elements are grouped to signal relatedness, simplifying navigation.",
+      "technical_spec": "Effective use of whitespace and grouping in UI layout.",
+      "severity_score": 10
     }
   ]
 }

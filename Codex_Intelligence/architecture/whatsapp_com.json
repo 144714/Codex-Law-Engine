@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 340,
+    "rank": 350,
     "site": "whatsapp.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "f81fd2f458ccee44ad471edaddaa008e"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "5ce57de0172f3f1ba7695b0feeed3afb"
   },
   "data": [
     {
-      "title": "Microservice Architecture",
-      "description": "WhatsApp utilizes a microservice architecture to handle different functionalities like messaging, media sharing, and authentication.",
-      "technical_spec": "Decoupled services communicating over HTTP/REST APIs.",
-      "severity_score": 15
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "All messages, calls, photos, and videos sent on WhatsApp are secured with end-to-end encryption.",
-      "technical_spec": "Uses Signal Protocol libraries.",
-      "severity_score": 5
-    },
-    {
-      "title": "Database Management",
-      "description": "WhatsApp uses multiple databases to handle user data, message data, and media storage.",
-      "technical_spec": "Primarily uses SQL databases and NoSQL for media storage.",
-      "severity_score": 30
-    },
-    {
-      "title": "Load Balancing",
-      "description": "WhatsApp employs load balancing to distribute incoming connection requests effectively.",
-      "technical_spec": "Utilizes DNS and server-side load balancing.",
+      "title": "Microservices Architecture",
+      "description": "WhatsApp uses a microservices architecture to efficiently manage its backend.",
+      "technical_spec": "Each service is independently deployable and handles a specific function (e.g., messaging, notifications).",
       "severity_score": 20
     },
     {
-      "title": "Scalability Solutions",
-      "description": "WhatsApp's architecture is built to support millions of concurrent connections globally.",
-      "technical_spec": "Uses sharding and partitioning strategies.",
+      "title": "End-to-End Encryption",
+      "description": "Messages are encrypted on the sender’s device and only decrypted on the recipient’s device.",
+      "technical_spec": "Uses Signal Protocol for encryption.",
       "severity_score": 10
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Balances incoming requests across multiple servers to optimize resource utilization.",
+      "technical_spec": "Employs algorithms like round-robin and least connections.",
+      "severity_score": 25
+    },
+    {
+      "title": "Scalable Infrastructure",
+      "description": "Built to handle billions of active users and message transactions.",
+      "technical_spec": "Utilizes cloud services with auto-scaling capabilities.",
+      "severity_score": 15
+    },
+    {
+      "title": "Event-Driven Architecture",
+      "description": "System designed to respond to user actions and changes in real-time.",
+      "technical_spec": "Implements event streaming and message queuing.",
+      "severity_score": 30
     }
   ]
 }

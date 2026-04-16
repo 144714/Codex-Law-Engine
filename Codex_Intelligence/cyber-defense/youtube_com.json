@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 332,
+    "rank": 342,
     "site": "youtube.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "00a2b30780a4e1f5a5934a5608cf8333"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "aff102b54d96560c445353ec6bd1855d"
   },
   "data": [
     {
-      "title": "DDOS Protection",
-      "description": "Prevents Distributed Denial of Service attacks using advanced traffic analysis.",
-      "technical_spec": "Cloud Armor security policies applied through the Google Cloud Platform.",
-      "severity_score": 25
+      "title": "User Account Protection",
+      "description": "Protects user accounts from unauthorized access using security measures.",
+      "technical_spec": "Two-factor authentication and OAuth 2.0 protocols.",
+      "severity_score": 18
     },
     {
-      "title": "User Data Encryption",
-      "description": "Ensures all user data is encrypted during storage and transit.",
-      "technical_spec": "TLS 1.3 used for data in transit, AES-256 for data at rest.",
-      "severity_score": 10
-    },
-    {
-      "title": "Two-Factor Authentication",
-      "description": "Additional authentication layer to enhance user account security.",
-      "technical_spec": "SMS-based and app-based (Google Authenticator) two-factor options.",
+      "title": "Data Encryption",
+      "description": "Ensures that data in transit and at rest is encrypted.",
+      "technical_spec": "SSL/TLS for data in transit, AES for data at rest.",
       "severity_score": 15
     },
     {
-      "title": "Automated Bot Detection",
-      "description": "Prevents abusive bot activities using machine learning algorithms.",
-      "technical_spec": "Real-time analysis with reCAPTCHA and proprietary ML models.",
+      "title": "Regular Security Audits",
+      "description": "Conducts regular security audits to identify vulnerabilities.",
+      "technical_spec": "Utilizes automated tools and third-party assessments.",
+      "severity_score": 12
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Protects against Distributed Denial of Service attacks.",
+      "technical_spec": "Uses advanced filtering and traffic analysis tools.",
       "severity_score": 20
     },
     {
-      "title": "Security Patching Protocol",
-      "description": "Regular updates to maintain security posture against vulnerabilities.",
-      "technical_spec": "Automated patch management with a 24-hour response team.",
-      "severity_score": 30
+      "title": "Machine Learning for Threat Detection",
+      "description": "Uses ML algorithms to detect and respond to suspicious activities.",
+      "technical_spec": "Real-time anomaly detection systems.",
+      "severity_score": 10
     }
   ]
 }

@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 336,
+    "rank": 346,
     "site": "netflix.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "33c6dc76371009572034810a501c8b1b"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "13c4d6fbee0f46353eb71d66cf0d47ee"
   },
   "data": [
     {
-      "title": "Global Entertainment Leader",
-      "description": "Committed to delivering diverse and high-quality entertainment content worldwide.",
-      "technical_spec": "Invests heavily in original productions and international collaborations.",
+      "title": "Original Content",
+      "description": "Focuses heavily on producing original movies, series, and documentaries, strengthening brand identity.",
+      "technical_spec": "Netflix Originals, In-House Production Studios",
+      "severity_score": 30
+    },
+    {
+      "title": "User Personalization",
+      "description": "Provides a personalized user experience through tailored recommendations and user-specific content.",
+      "technical_spec": "Recommendation Algorithms, AI/ML Personalization",
       "severity_score": 25
     },
     {
-      "title": "Customer-Centric Innovation",
-      "description": "Pioneers new technologies to enhance user experience and content accessibility.",
-      "technical_spec": "Regularly launches new features based on advanced analytics and user feedback.",
+      "title": "Global Accessibility",
+      "description": "Aims for extensive global reach, offering a diverse range of content available in multiple languages.",
+      "technical_spec": "Multiple Language Support, Regional Content Licensing",
       "severity_score": 20
     },
     {
-      "title": "Data-Driven Engagement",
-      "description": "Leverages user data for personalized recommendations and targeted marketing.",
-      "technical_spec": "Utilizes machine learning algorithms to optimize content suggestions.",
-      "severity_score": 15
+      "title": "Technological Innovation",
+      "description": "Invests in innovation to enhance streaming quality and introduce new features.",
+      "technical_spec": "4K HDR Streaming, Dolby Atmos Support",
+      "severity_score": 25
     },
     {
-      "title": "Commitment to Diversity",
-      "description": "Focuses on inclusive storytelling and diverse narratives globally.",
-      "technical_spec": "Collaborates with creators from diverse backgrounds and across cultures.",
-      "severity_score": 10
-    },
-    {
-      "title": "Seamless Cross-Platform Experience",
-      "description": "Provides consistent user experience across multiple devices and platforms.",
-      "technical_spec": "Ensures feature parity and adaptive design for all supported devices.",
+      "title": "Brand Recognition",
+      "description": "Maintains a strong brand presence through strategic marketing and consistent messaging.",
+      "technical_spec": "Global Marketing Campaigns, Strategic Partnerships",
       "severity_score": 30
     }
   ]

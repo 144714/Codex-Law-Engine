@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 337,
+    "rank": 347,
     "site": "spotify.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "0fd83a5b46b9da09feec307aed46dfcc"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "84a712852604eeb365022f46768ac21e"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Encryption of data in transit and at rest to protect user data.",
-      "technical_spec": "Uses AES-256 encryption and TLS for data transport security.",
-      "severity_score": 40
+      "title": "Encryption Practices",
+      "description": "Data encryption in transit and at rest to protect user privacy.",
+      "technical_spec": "TLS 1.3, AES-256 encryption standards.",
+      "severity_score": 90
     },
     {
-      "title": "User Authentication",
-      "description": "Strong authentication protocols to secure user accounts.",
-      "technical_spec": "Multi-factor authentication and OAuth 2.0 are employed for user access control.",
-      "severity_score": 50
+      "title": "Two-Factor Authentication",
+      "description": "Enhanced security for user accounts with optional 2FA.",
+      "technical_spec": "Integration with third-party authentication apps.",
+      "severity_score": 70
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular security audits and vulnerability assessments.",
-      "technical_spec": "Incorporates a Secure Development Lifecycle (SDL) and regular pen testing.",
-      "severity_score": 35
+      "title": "Regular Security Audits",
+      "description": "Routine evaluations and penetration tests to identify vulnerabilities.",
+      "technical_spec": "Deploying both in-house and third-party audits.",
+      "severity_score": 85
     },
     {
-      "title": "Firewall and Intrusion Detection",
-      "description": "Network security implemented via firewalls and intrusion detection systems.",
-      "technical_spec": "Utilizes advanced firewalls and intrusion detection/prevention systems to monitor and protect network traffic.",
-      "severity_score": 45
+      "title": "Incident Response Strategy",
+      "description": "A robust plan for responding to and mitigating security breaches.",
+      "technical_spec": "Automated alerts, detailed incident logs, and recovery protocols.",
+      "severity_score": 80
     },
     {
-      "title": "DDoS Protection",
-      "description": "Defense mechanisms to mitigate Distributed Denial of Service Attacks.",
-      "technical_spec": "Cloud-based anti-DDoS infrastructure and traffic filtering technologies.",
-      "severity_score": 55
+      "title": "User Data Protection",
+      "description": "Strict policies and measures for securing user personal data.",
+      "technical_spec": "Compliance with GDPR and CCPA standards.",
+      "severity_score": 95
     }
   ]
 }

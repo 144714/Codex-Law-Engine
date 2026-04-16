@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 336,
+    "rank": 346,
     "site": "netflix.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "19a54ca2c8c096b4d3b8d6caf2925eea"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "c14eeb110eb8494e40433db607108dd7"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Minimizes the number of choices to streamline decision-making and reduce user cognitive load.",
-      "technical_spec": "Interfaces are simplified, avoiding clutter and focusing on core functionality.",
+      "title": "Hick's Law",
+      "description": "Simplifies the decision-making process by limiting choices on the interface, ensuring faster decision-making by users.",
+      "technical_spec": "Minimal Navigation Options, Focused Content",
       "severity_score": 15
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Designs with easy-to-access controls by placing important interactions within quick reach.",
-      "technical_spec": "Touch targets are large and positioned for intuitive use on various devices.",
-      "severity_score": 15
+      "title": "Fitts's Law",
+      "description": "Ensures interactive elements are accessible and easy to interact with, enhancing user navigation.",
+      "technical_spec": "Responsive Design, Large Buttons",
+      "severity_score": 20
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Balances aesthetic design with usability, ensuring visually appealing and functional interfaces.",
-      "technical_spec": "Invests in high-quality imagery and consistent branding elements.",
+      "description": "Ensures the platform is visually appealing, improving perceived usability.",
+      "technical_spec": "High-Quality Imagery, Consistent Theme",
       "severity_score": 10
     },
     {
-      "title": "Law of Proximity",
-      "description": "Groups related items together to create intuitive and organized layouts.",
-      "technical_spec": "Grouping and spacing are used to imply relationships between content.",
-      "severity_score": 10
+      "title": "Miller's Law",
+      "description": "Designs interface to ensure cognitive load is minimized, enhancing the user experience by not overwhelming with too much information.",
+      "technical_spec": "Chunking Information, Simplified Layout",
+      "severity_score": 15
     },
     {
-      "title": "Miller’s Law",
-      "description": "Conveys information in manageable chunks to facilitate retention and comprehension.",
-      "technical_spec": "Content is subdivided into logical sections with clear headings.",
-      "severity_score": 20
+      "title": "Jakob's Law",
+      "description": "Creates a user interface aligned with user expectations based on their experiences from other web platforms.",
+      "technical_spec": "Intuitive Navigation, Familiar UI Patterns",
+      "severity_score": 10
     }
   ]
 }

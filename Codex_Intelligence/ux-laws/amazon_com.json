@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 335,
+    "rank": 345,
     "site": "amazon.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "3558590899a9cf68918d78060e53f6c2"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "351193b3b927d7cd961a768cb6836b84"
   },
   "data": [
     {
       "title": "Fitts's Law",
-      "description": "Interfaces are designed to minimize execution time for point-and-click interactions.",
-      "technical_spec": "Optimized button size and positioning.",
-      "severity_score": 89
+      "description": "Design elements are optimized for quick access and selection by users.",
+      "technical_spec": "Easily clickable buttons and hyperlinks on touch-optimized devices.",
+      "severity_score": 40
     },
     {
       "title": "Hick's Law",
-      "description": "Simplifying navigation by minimizing choices to reduce user decision time.",
-      "technical_spec": "Streamlined categories, dynamic menus.",
-      "severity_score": 87
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Utilizes visual grouping for intuitive navigation.",
-      "technical_spec": "Consistent design patterns, alignment, proximity.",
-      "severity_score": 91
+      "description": "Minimalist design in checkout process to reduce decision time.",
+      "technical_spec": "Streamlined checkout with limited options and clear pathways.",
+      "severity_score": 35
     },
     {
       "title": "Jakob's Law",
-      "description": "Design leverages user familiarity to provide an intuitive experience.",
-      "technical_spec": "Common patterns, recognizability in UI elements.",
-      "severity_score": 92
+      "description": "Benefits from consumers' accustomed ways of browsing with similarities to other e-commerce platforms.",
+      "technical_spec": "Consistent page layout and navigation structures.",
+      "severity_score": 25
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "An aesthetically pleasing user interface that enhances perceived usability.",
+      "technical_spec": "Use of color theory, typography, and visual hierarchy for engagement.",
+      "severity_score": 45
     },
     {
       "title": "Miller's Law",
-      "description": "Information is chunked into easier-to-process groups for better cognition.",
-      "technical_spec": "Pagination, dropdowns, memorable product categories.",
-      "severity_score": 90
+      "description": "Design takes into account memory limits, presenting users with easily digestible information.",
+      "technical_spec": "Chunking techniques applied to product information and recommendations.",
+      "severity_score": 50
     }
   ]
 }

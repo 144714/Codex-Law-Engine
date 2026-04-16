@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 331,
+    "rank": 341,
     "site": "google.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "9cbf0817f61b8a5ec18999e664ac4917"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "860e0a465780bd920adf1c7bc39fac03"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Optimizes decision-making for users by simplifying choices.",
-      "technical_spec": "Minimalistic design language with simple navigation.",
-      "severity_score": 86
+      "description": "Minimizes options to reduce decision time for users.",
+      "technical_spec": "Presents simplified options and clear call-to-actions.",
+      "severity_score": 82
     },
     {
       "title": "Fitts's Law",
-      "description": "Design elements are positioned to be easily accessible.",
-      "technical_spec": "Optimize button placement and touchscreen interfaces.",
+      "description": "Designs for easy access to frequently used features.",
+      "technical_spec": "Larger interactive elements with short accessible paths.",
       "severity_score": 84
     },
     {
-      "title": "Jakob's Law",
-      "description": "Consistency with user expectations to improve experience.",
-      "technical_spec": "Familiar UI patterns and interactions.",
-      "severity_score": 89
+      "title": "Miller’s Law",
+      "description": "Keeps information chunks to human perceivable quantity.",
+      "technical_spec": "Limits items in menus to 7±2 to match working memory capacity.",
+      "severity_score": 81
+    },
+    {
+      "title": "Jakob’s Law",
+      "description": "Designs consistent with user expectations formed by other sites.",
+      "technical_spec": "Interface adheres to standard web conventions for consistency.",
+      "severity_score": 86
     },
     {
       "title": "Law of Proximity",
-      "description": "Groups related elements to increase comprehension.",
-      "technical_spec": "Consistent spacing and alignment.",
-      "severity_score": 85
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Limits for information load on user's working memory.",
-      "technical_spec": "Item grouping into manageable sets.",
-      "severity_score": 87
+      "description": "Groups related objects closer together.",
+      "technical_spec": "Uses proximity to establish relationships amongst interface items.",
+      "severity_score": 80
     }
   ]
 }

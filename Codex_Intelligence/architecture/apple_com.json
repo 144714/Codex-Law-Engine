@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 333,
+    "rank": 343,
     "site": "apple.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "d184800bb5f3c7789542dd4242428f39"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "9510db171b7624f97260c56e80f88b03"
   },
   "data": [
     {
-      "title": "Responsive Design",
-      "description": "Optimized layout for varying screen sizes and resolutions.",
-      "technical_spec": "CSS Grid and Flexbox, Media Queries.",
-      "severity_score": 10
-    },
-    {
       "title": "Microservices Architecture",
-      "description": "Breaks down applications into smaller, independent services.",
-      "technical_spec": "RESTful APIs, GraphQL, Kubernetes.",
-      "severity_score": 16
-    },
-    {
-      "title": "Content Delivery Network",
-      "description": "Global distribution network to deliver content efficiently.",
-      "technical_spec": "Akamai, Cloudflare.",
-      "severity_score": 5
-    },
-    {
-      "title": "Cloud Integration",
-      "description": "Uses cloud services for scalability and performance.",
-      "technical_spec": "AWS, Azure.",
+      "description": "Apple's site is likely using a microservices architecture allowing different sections like Store, Support, and Account to operate independently.",
+      "technical_spec": "A decoupled service architecture utilizing container systems like Kubernetes for scalability.",
       "severity_score": 20
     },
     {
-      "title": "Progressive Web App",
-      "description": "Enhances web applications to work offline and be installable.",
-      "technical_spec": "Service Workers, Manifest Files.",
-      "severity_score": 12
+      "title": "Content Delivery Network (CDN)",
+      "description": "Apple employs a global CDN to deliver content quickly across the world.",
+      "technical_spec": "Utilization of services such as Akamai or Apple's own CDN to cache and distribute content.",
+      "severity_score": 10
+    },
+    {
+      "title": "Responsive Design",
+      "description": "The website is designed to be fully responsive, ensuring a seamless experience across all device types.",
+      "technical_spec": "Frameworks like Bootstrap or custom CSS media queries.",
+      "severity_score": 10
+    },
+    {
+      "title": "High Availability",
+      "description": "Ensures constant uptime and performance even during high-traffic events like product launches.",
+      "technical_spec": "Load balancing technologies and failover strategies including multi-region deployments.",
+      "severity_score": 5
+    },
+    {
+      "title": "Progressive Web App (PWA) Elements",
+      "description": "Implementation of PWA technologies for certain site features, enhancing mobile and offline capabilities.",
+      "technical_spec": "Use of Service Workers and Web App Manifests.",
+      "severity_score": 15
     }
   ]
 }

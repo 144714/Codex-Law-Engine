@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 332,
+    "rank": 342,
     "site": "youtube.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "ab059eccf82811d51187ab371f2ebee5"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "4cfdf8e35b746cb4b78899648586f9e2"
   },
   "data": [
     {
+      "title": "Content Diversity",
+      "description": "Encourages diverse content creation and sharing.",
+      "technical_spec": "Support for various content formats and categories.",
+      "severity_score": 4
+    },
+    {
       "title": "Community Engagement",
-      "description": "Fosters a sense of community with comments, likes, and sharing features.",
-      "technical_spec": "Interactive modules with real-time feedback systems.",
-      "severity_score": 50
+      "description": "Strong focus on building a community of creators and viewers.",
+      "technical_spec": "Interactive features like comments, likes, and subscriptions.",
+      "severity_score": 3
     },
     {
-      "title": "Influencer Partnerships",
-      "description": "Collaborates with content creators to promote brand integration.",
-      "technical_spec": "Partner management tools and analytics for influencer metrics.",
-      "severity_score": 35
+      "title": "Innovation in Streaming",
+      "description": "Pioneering live streaming and video-on-demand technologies.",
+      "technical_spec": "Advanced streaming protocols and adaptive bitrate technologies.",
+      "severity_score": 5
     },
     {
-      "title": "Diversified Content Formats",
-      "description": "Supports a wide range of media formats including HDR and 360-degree videos.",
-      "technical_spec": "Advanced codecs for video processing and multidimensional rendering.",
-      "severity_score": 45
+      "title": "Adaptability to Trends",
+      "description": "Regularly incorporates trending features and designs.",
+      "technical_spec": "Updates influenced by user data and feedback.",
+      "severity_score": 6
     },
     {
-      "title": "Accessibility Initiatives",
-      "description": "Commits to inclusive access by supporting captions and translations.",
-      "technical_spec": "Speech recognition technology and multilingual support features.",
-      "severity_score": 20
-    },
-    {
-      "title": "User Personalization",
-      "description": "Delivers tailored content recommendations based on user behavior data.",
-      "technical_spec": "Machine learning models for real-time personalization analytics.",
-      "severity_score": 65
+      "title": "Monetization Opportunities",
+      "description": "Provides various revenue streams for creators.",
+      "technical_spec": "AdSense integration, Super Chat, and channel memberships.",
+      "severity_score": 7
     }
   ]
 }

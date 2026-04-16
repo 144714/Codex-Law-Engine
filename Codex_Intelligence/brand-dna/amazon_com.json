@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 335,
+    "rank": 345,
     "site": "amazon.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "068d00c876e35e06b8a2327ae0a999a3"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "c820331a0623c0a6066686a0cf488a87"
   },
   "data": [
     {
       "title": "Customer Obsession",
-      "description": "Focus on building a platform that prioritizes customer satisfaction.",
-      "technical_spec": "24/7 customer support, generous return policies.",
-      "severity_score": 100
+      "description": "Amazon prioritizes customer satisfaction above all else in its operational model.",
+      "technical_spec": "Customer feedback loops, data analysis for personalized experiences.",
+      "severity_score": 5
     },
     {
       "title": "Operational Excellence",
-      "description": "Continuous optimization of logistics and operations for efficiency.",
-      "technical_spec": "Automated warehousing, AI-driven supply chain.",
-      "severity_score": 97
+      "description": "Efficient operations management to ensure swift delivery and logistics.",
+      "technical_spec": "Advanced logistics algorithms, real-time tracking systems.",
+      "severity_score": 10
     },
     {
-      "title": "Innovation Leadership",
-      "description": "Adopting cutting-edge technologies to enhance services continually.",
-      "technical_spec": "AI and machine learning applications, cloud computing advancements.",
-      "severity_score": 98
+      "title": "Innovation",
+      "description": "Continuous technological and service innovations keep Amazon ahead in the market.",
+      "technical_spec": "Patent filings, R&D investments in AI and logistics technologies.",
+      "severity_score": 15
     },
     {
-      "title": "Wide Product Selection",
-      "description": "Offers the largest selection of products available online.",
-      "technical_spec": "Integrated seller platform, global reach.",
-      "severity_score": 95
+      "title": "Global Reach",
+      "description": "Presence in multiple countries allows Amazon to serve a worldwide audience.",
+      "technical_spec": "Localized websites, global distribution networks.",
+      "severity_score": 5
     },
     {
-      "title": "Convenience and Speed",
-      "description": "Ensuring fast shipping and convenient shopping experiences.",
-      "technical_spec": "Prime service, same-day delivery options.",
-      "severity_score": 96
+      "title": "Brand Trust",
+      "description": "Maintains high levels of consumer trust through reliability and integrity.",
+      "technical_spec": "Secure transaction systems, transparent policies.",
+      "severity_score": 10
     }
   ]
 }

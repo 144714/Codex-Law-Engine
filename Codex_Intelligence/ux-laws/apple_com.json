@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 333,
+    "rank": 343,
     "site": "apple.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "8a3dbea0a8798246ac214b9b9674fb44"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "1329c9e09e30c4282160f13a4b456742"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies user choice to improve decision time.",
-      "technical_spec": "Streamlined menu options, Focused content presentation.",
-      "severity_score": 30
+      "title": "Hick's Law",
+      "description": "Simplified decision-making processes aid faster user interactions with navigation and purchasing.",
+      "technical_spec": "Easy navigation structure and concise process flows.",
+      "severity_score": 10
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Optimizes navigation elements for faster interaction.",
-      "technical_spec": "Large clickable targets, Proximal placements.",
-      "severity_score": 25
-    },
-    {
-      "title": "Law of Common Region",
-      "description": "Groups related elements to aid in visual processing.",
-      "technical_spec": "Visual Cues, Bordered Sections.",
-      "severity_score": 40
+      "title": "Fitts's Law",
+      "description": "The site's design considers size and positioning of interactive elements for ease of use.",
+      "technical_spec": "Large buttons and accessible UI elements.",
+      "severity_score": 10
     },
     {
       "title": "Aesthetic-Usability Effect",
-      "description": "Prioritizes aesthetics to enhance perceived usability.",
-      "technical_spec": "Clean design, High-quality imagery.",
-      "severity_score": 20
+      "description": "A clean, visually appealing design enhances perceived usability.",
+      "technical_spec": "High-quality images, smooth animations, and coherent typography.",
+      "severity_score": 5
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Design for user behavior learned from other sites.",
-      "technical_spec": "Consistent UI patterns, Familiar navigation.",
-      "severity_score": 18
+      "title": "Gestalt Principles",
+      "description": "Visual hierarchy and grouping elements are used to guide user perception.",
+      "technical_spec": "Consistent use of proximity, similarity, and continuation.",
+      "severity_score": 5
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Information is chunked into manageable parts to aid cognitive processing.",
+      "technical_spec": "Content is broken into digestible pieces with headers and sub-sections.",
+      "severity_score": 15
     }
   ]
 }

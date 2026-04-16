@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 334,
+    "rank": 344,
     "site": "microsoft.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "18a96909b8891764146f870c96f80c7f"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "b6f211c288ff21112e7eb4d8d3e1e9ce"
   },
   "data": [
     {
-      "title": "Advanced Threat Protection",
-      "description": "Utilizes machine learning to detect and protect against threats.",
-      "technical_spec": "AI-based threat detection, Azure Security Center",
-      "severity_score": 40
+      "title": "Comprehensive DDoS Protection",
+      "description": "Implements industry-leading DDoS protection strategies.",
+      "technical_spec": "Utilizes Azure DDoS Protection Standard to mitigate attacks.",
+      "severity_score": 93
+    },
+    {
+      "title": "Advanced Threat Detection",
+      "description": "Employs advanced threat detection systems to identify vulnerabilities.",
+      "technical_spec": "Uses Azure Security Center for monitoring and alerts.",
+      "severity_score": 94
     },
     {
       "title": "Data Encryption",
-      "description": "Employs data encryption both at rest and in transit to secure user data.",
-      "technical_spec": "SSL/TLS, AES-256, BitLocker",
-      "severity_score": 35
+      "description": "Encrypted data in transit and at rest using modern standards.",
+      "technical_spec": "Adopts TLS 1.2 for data in transit and AES-256 for data at rest.",
+      "severity_score": 96
     },
     {
       "title": "Identity and Access Management",
-      "description": "Implements robust IAM systems for authentication and authorization.",
-      "technical_spec": "Azure Active Directory, Multi-Factor Authentication",
-      "severity_score": 45
+      "description": "Robust identity management strategies to control system access.",
+      "technical_spec": "Utilizes Azure Active Directory for authentication and authorization.",
+      "severity_score": 97
     },
     {
       "title": "Regular Security Audits",
-      "description": "Conducts frequent security audits and vulnerability assessments.",
-      "technical_spec": "Penetration testing, OWASP compliance, Vulnerability Scanning",
-      "severity_score": 30
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Protects against distributed denial-of-service attacks using specialized services.",
-      "technical_spec": "Azure DDoS Protection, Traffic Scrubbing, Rate Limiting",
-      "severity_score": 50
+      "description": "Conducts regular security audits and assessments to enhance defenses.",
+      "technical_spec": "Follows CERT and CIS benchmarks to audit and strengthen security posture.",
+      "severity_score": 92
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 331,
+    "rank": 341,
     "site": "google.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "210c2a5e2c1d0672388ac87bb722c7d7"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "5ed014f95b5fa40a3515dc4f645bff56"
   },
   "data": [
     {
-      "title": "Innovation",
-      "description": "Focuses on technological innovation and product development.",
-      "technical_spec": "Investment in AI and machine learning technologies.",
-      "severity_score": 93
+      "title": "Simplistic Design",
+      "description": "Prioritizes a clean and simple user interface.",
+      "technical_spec": "Design emphasizes minimalism with a focus on core functions.",
+      "severity_score": 87
     },
     {
-      "title": "User-Centric Design",
-      "description": "Prioritizes user experience and accessibility across products.",
-      "technical_spec": "Human-centered design practices and inclusive features.",
+      "title": "Speed and Reliability",
+      "description": "Focuses on delivering fast load times and consistent performance.",
+      "technical_spec": "Optimized for speed through lightweight UI elements and prefetching.",
       "severity_score": 90
     },
     {
-      "title": "Global Reach",
-      "description": "Aims to provide services to a global audience.",
-      "technical_spec": "Localization and language support for diverse regions.",
+      "title": "Global Accessibility",
+      "description": "Ensures availability and usability across different regions.",
+      "technical_spec": "Made with internationalization and localization capabilities.",
+      "severity_score": 88
+    },
+    {
+      "title": "Innovation and Adaptability",
+      "description": "Continuously evolves to incorporate new technologies and trends.",
+      "technical_spec": "Frequent updates and feature rollouts based on user feedback and data insights.",
       "severity_score": 92
     },
     {
-      "title": "Sustainability",
-      "description": "Commits to environmentally sustainable practices.",
-      "technical_spec": "Investments in renewable energy and carbon footprint reductions.",
-      "severity_score": 91
-    },
-    {
-      "title": "Data Privacy",
-      "description": "Emphasizes on securing user data and privacy.",
-      "technical_spec": "Transparent data policies and controls for users.",
-      "severity_score": 94
+      "title": "User-Centric Approach",
+      "description": "Design and experience built around user needs and feedback.",
+      "technical_spec": "Utilizes user research and A/B testing to refine offerings.",
+      "severity_score": 89
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 340,
+    "rank": 350,
     "site": "whatsapp.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "01ce6b74a1475794f0faffa0ad0f0acf"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "99e1897ae1ee4939e3eba5c973da2d12"
   },
   "data": [
     {
-      "title": "Advanced Encryption",
-      "description": "End-to-end encryption ensures that only communicating users can read the messages.",
-      "technical_spec": "Encryption based on the Signal Protocol.",
-      "severity_score": 5
-    },
-    {
-      "title": "Two-Step Verification",
-      "description": "An optional feature that adds more security to users' accounts.",
-      "technical_spec": "Requires entering a passcode after the initial account setup.",
-      "severity_score": 30
-    },
-    {
-      "title": "Spam Detection",
-      "description": "Automatic detection and prevention systems to limit spam messages and fake accounts.",
-      "technical_spec": "Combines machine learning algorithms with community reports for accuracy.",
+      "title": "Data Encryption at Rest",
+      "description": "User data stored in databases is encrypted to prevent unauthorized access.",
+      "technical_spec": "AES-256 encryption applied to stored data.",
       "severity_score": 40
     },
     {
       "title": "Regular Security Audits",
-      "description": "Continuous security audits are conducted to identify and fix vulnerabilities.",
-      "technical_spec": "Audits include code reviews and pen testing.",
-      "severity_score": 25
+      "description": "Conducts routine security audits to identify and rectify vulnerabilities.",
+      "technical_spec": "Involves code reviews and penetration testing by security experts.",
+      "severity_score": 30
     },
     {
-      "title": "Software Update Alerts",
-      "description": "Ensures users have the latest security patches through frequent app updates.",
-      "technical_spec": "Push notifications for updates.",
-      "severity_score": 20
+      "title": "Multi-Factor Authentication",
+      "description": "Enhances account security by requiring multiple forms of verification.",
+      "technical_spec": "Options include SMS verification and authentication apps.",
+      "severity_score": 35
+    },
+    {
+      "title": "Malware Detection Systems",
+      "description": "Monitors and blocks malicious activity aimed at exploiting user data or infrastructure.",
+      "technical_spec": "Employs AI algorithms to detect abnormal patterns.",
+      "severity_score": 50
+    },
+    {
+      "title": "Zero Trust Framework",
+      "description": "Adopts a zero trust security model to ensure network and data protection.",
+      "technical_spec": "Authenticates and verifies every user and device attempting access.",
+      "severity_score": 45
     }
   ]
 }

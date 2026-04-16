@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 339,
+    "rank": 349,
     "site": "instagram.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "abb79c79ced55cd53a4b106aaffcb45a"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "83d8a639660fbe768289f993ca523a01"
   },
   "data": [
     {
-      "title": "Visual Storytelling",
-      "description": "Focuses on sharing moments through images and videos.",
-      "technical_spec": "High-resolution media upload and sharing capabilities.",
-      "severity_score": 8
+      "title": "Visual-Driven",
+      "description": "Centered around visual content for storytelling and expression.",
+      "technical_spec": "High-resolution image and video uploads, editing tools, and filters.",
+      "severity_score": 10
     },
     {
-      "title": "Community Building",
-      "description": "Connects users with shared interests and hobbies.",
-      "technical_spec": "Hashtags, group chats, and community guidelines.",
-      "severity_score": 22
+      "title": "Social Connectivity",
+      "description": "Emphasizes social interaction through sharing, messaging, and community features.",
+      "technical_spec": "Integration of direct messaging and live streaming services.",
+      "severity_score": 20
     },
     {
-      "title": "Innovation in Social Media",
-      "description": "Continuously evolves features to maintain engagement.",
-      "technical_spec": "Frequent updates and addition of new functionalities like reels and shopping.",
-      "severity_score": 30
+      "title": "Mobile-First",
+      "description": "Prioritizes mobile experience for global accessibility.",
+      "technical_spec": "Responsive design and native mobile apps with mobile-optimized features.",
+      "severity_score": 5
     },
     {
-      "title": "Mobile-First Experience",
-      "description": "Prioritizes seamless user experience on mobile devices.",
-      "technical_spec": "Native apps for iOS and Android, optimized for different screen sizes.",
-      "severity_score": 12
+      "title": "Trendy and Youth-Focused",
+      "description": "Targets younger demographics with features and design aligned with current trends.",
+      "technical_spec": "Features like Reels and Stories inspired by competitor platforms.",
+      "severity_score": 15
     },
     {
-      "title": "Privacy and Trust",
-      "description": "Emphasizes user privacy and data security.",
-      "technical_spec": "Advanced privacy settings, transparency reports, and security features.",
-      "severity_score": 40
+      "title": "Personalized Experience",
+      "description": "Delivers personalized content and experiences based on user preferences and behaviors.",
+      "technical_spec": "Utilization of machine learning algorithms for content recommendations.",
+      "severity_score": 25
     }
   ]
 }

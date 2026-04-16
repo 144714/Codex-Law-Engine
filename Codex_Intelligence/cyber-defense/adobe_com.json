@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 338,
+    "rank": 348,
     "site": "adobe.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "b8e2e7c5ab6a6bd727d43c2edcb3be90"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "6b84b5ae2cd8309d8e2258dba83b1559"
   },
   "data": [
     {
-      "title": "Security Information and Event Management (SIEM)",
-      "description": "Monitors and analyzes activity across the network for suspicious behavior.",
-      "technical_spec": "Splunk and custom threat intelligence solutions.",
-      "severity_score": 40
+      "title": "End-to-End Encryption",
+      "description": "Ensures data security by implementing encryption protocols for data in transit and at rest.",
+      "technical_spec": "TLS 1.3 for data in transit and AES-256 for data at rest.",
+      "severity_score": 15
     },
     {
-      "title": "Data Encryption Strategies",
-      "description": "Strong encryption protocols are implemented to safeguard user data both in transit and at rest.",
-      "technical_spec": "TLS 1.3, AES-256 encryption standards.",
-      "severity_score": 30
+      "title": "Multi-Factor Authentication",
+      "description": "Provides an additional security layer by requiring multiple forms of verification.",
+      "technical_spec": "Integration with SMS, email, and authenticator apps for 2FA.",
+      "severity_score": 12
     },
     {
-      "title": "Privacy by Design",
-      "description": "Embedded privacy practices to ensure compliance with global data protection regulations.",
-      "technical_spec": "GDPR and CCPA compliance, data anonymization.",
-      "severity_score": 35
+      "title": "DDoS Protection",
+      "description": "Protects services against Distributed Denial of Service attacks to maintain availability.",
+      "technical_spec": "Employs AWS Shield Advanced for DDoS mitigation.",
+      "severity_score": 20
     },
     {
-      "title": "Multi-Factor Authentication (MFA)",
-      "description": "MFA is implemented across user accounts to add an extra layer of security.",
-      "technical_spec": "OAuth 2.0, 2FA with time-based one-time passwords.",
-      "severity_score": 50
+      "title": "Vulnerability Scanning",
+      "description": "Regularly scans the software ecosystem for vulnerabilities to preemptively address security risks.",
+      "technical_spec": "Utilizes tools like Nessus for automated security assessments.",
+      "severity_score": 18
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts frequent audits for vulnerabilities and compliance checks.",
-      "technical_spec": "Third-party security assessments, internal pentesting.",
-      "severity_score": 45
+      "title": "Security Incident and Event Management (SIEM)",
+      "description": "Monitors and analyzes security events from across the network to identify threats.",
+      "technical_spec": "Implemented through Splunk for real-time insights.",
+      "severity_score": 25
     }
   ]
 }

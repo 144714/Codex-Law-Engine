@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 336,
+    "rank": 346,
     "site": "netflix.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "8f06456d01657f9507029e5cb2c6c89d"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "56ea9f3fa672682b443146ef4dbcbad7"
   },
   "data": [
     {
-      "title": "Encryption Protocols",
-      "description": "Employs robust encryption to protect data at rest and in transit, ensuring user privacy.",
-      "technical_spec": "Uses TLS for data transmission and AES for storage encryption.",
+      "title": "Zero Trust Security Model",
+      "description": "A security framework requiring all users, whether in or outside the organization's network, to be authenticated and authorized.",
+      "technical_spec": "Identity Access Management, Multi-Factor Authentication",
       "severity_score": 20
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Strict control of user identities and permissions for both consumer and developer access.",
-      "technical_spec": "Employs multi-factor authentication and role-based access controls.",
-      "severity_score": 15
+      "title": "Encryption",
+      "description": "Netflix employs encryption for data at rest and in transit to protect sensitive information.",
+      "technical_spec": "AES-256, TLS 1.2/1.3",
+      "severity_score": 30
     },
     {
-      "title": "Distributed Denial of Service (DDoS) Protection",
-      "description": "Utilizes advanced measures to prevent and mitigate DDoS attacks, ensuring service availability.",
-      "technical_spec": "Incorporates traffic filtering and rate limiting at network edges.",
-      "severity_score": 20
+      "title": "Threat Detection",
+      "description": "Utilizes advanced threat detection systems to identify and mitigate potential cyber threats in real-time.",
+      "technical_spec": "Machine Learning Algorithms, Automated Monitoring",
+      "severity_score": 40
     },
     {
-      "title": "Continuous Security Monitoring",
-      "description": "Maintains continuous surveillance of the operating environment to detect and respond to anomalies.",
-      "technical_spec": "Deploys automated systems for threat detection and incident response.",
+      "title": "Security Incident Response",
+      "description": "Security teams and protocols in place to respond promptly to any detected security incidents.",
+      "technical_spec": "Incident Response Plan, Forensic Analysis Tools",
+      "severity_score": 35
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts regular security audits and penetration tests to ensure system integrity and compliance.",
+      "technical_spec": "OWASP Standards, External Security Firms",
       "severity_score": 25
-    },
-    {
-      "title": "Security Compliance",
-      "description": "Adheres to international security standards to ensure data security and user trust.",
-      "technical_spec": "Regular compliance with standards like ISO 27001 and GDPR.",
-      "severity_score": 10
     }
   ]
 }

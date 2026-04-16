@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 331,
+    "rank": 341,
     "site": "google.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "c618cc60d3174bf07131c05a6ade2f6c"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "b409d5a9f7b208be9ddb125d3734d7da"
   },
   "data": [
     {
-      "title": "Zero Trust Security",
-      "description": "Adopts a Zero Trust security model to safeguard access and networks.",
-      "technical_spec": "Verification of identity for every access attempt.",
-      "severity_score": 92
+      "title": "Advanced DDoS Protection",
+      "description": "Protects against Distributed Denial of Service (DDoS) attacks.",
+      "technical_spec": "Uses AI-driven measures to detect and mitigate traffic anomalies.",
+      "severity_score": 93
     },
     {
-      "title": "Encryption at Rest and in Transit",
-      "description": "Encrypts data both at rest and during transit to protect information.",
-      "technical_spec": "AES-256 for storage encryption, TLS for data in transit.",
-      "severity_score": 95
-    },
-    {
-      "title": "Security Incident Detection",
-      "description": "Monitors for suspicious behavior and potential security threats continuously.",
-      "technical_spec": "Employs machine learning algorithms for anomaly detection.",
-      "severity_score": 88
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Advanced protection against Distributed Denial-of-Service attacks.",
-      "technical_spec": "Global server load balancing and filtering techniques.",
+      "title": "Transport Layer Security (TLS)",
+      "description": "Secures data in transit with encryption.",
+      "technical_spec": "Implements TLS 1.3 with strong cipher suites.",
       "severity_score": 90
     },
     {
-      "title": "Identity and Access Management",
-      "description": "Strict control over user and device access to resources.",
-      "technical_spec": "OPA-based policy management and multi-factor authentication.",
-      "severity_score": 89
+      "title": "Multi-Factor Authentication",
+      "description": "Adds an extra layer to verify user identity.",
+      "technical_spec": "Supports SMS, app-based, and hardware authentication methods.",
+      "severity_score": 85
+    },
+    {
+      "title": "Continuous Monitoring",
+      "description": "Constantly monitors systems for potential threats.",
+      "technical_spec": "Incorporates AI and machine learning for real-time threat detection.",
+      "severity_score": 91
+    },
+    {
+      "title": "Data Encryption at Rest",
+      "description": "Secures data stored on servers against unauthorized access.",
+      "technical_spec": "Employs AES-256 encryption for all stored data.",
+      "severity_score": 88
     }
   ]
 }

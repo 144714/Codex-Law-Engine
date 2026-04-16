@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 340,
+    "rank": 350,
     "site": "whatsapp.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "14c776ba8731235176516a18844a77e2"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "faa7c250ee4a8cdd0ad31253687e5257"
   },
   "data": [
     {
-      "title": "Global Connectivity",
-      "description": "WhatsApp connects users worldwide with reliable messaging services.",
-      "technical_spec": "Operates in over 180 countries and supports multiple languages.",
-      "severity_score": 20
-    },
-    {
-      "title": "Privacy Focus",
-      "description": "Brand emphasizes strong privacy and security features for user communications.",
-      "technical_spec": "End-to-end encryption and privacy terms.",
+      "title": "Simplicity",
+      "description": "WhatsApp embodies simplicity in its user interface and user experience.",
+      "technical_spec": "Minimalistic design with clear and intuitive pathways.",
       "severity_score": 10
     },
     {
-      "title": "User-Centric Design",
-      "description": "Design prioritizes user experience with intuitive navigation and functionality.",
-      "technical_spec": "Regular user feedback integration for UI/UX updates.",
+      "title": "Reliability",
+      "description": "A commitment to providing consistent and dependable service.",
+      "technical_spec": "Robust message delivery and fault tolerance built into the architecture.",
       "severity_score": 15
     },
     {
-      "title": "Reliable Performance",
-      "description": "Focus on providing stable and fast messaging services even under low bandwidth.",
-      "technical_spec": "Optimizations for low data usage and quick message delivery.",
+      "title": "Privacy",
+      "description": "Focus on user privacy with strong encryption and no data retention.",
+      "technical_spec": "End-to-end encryption ensures message secrecy.",
+      "severity_score": 20
+    },
+    {
+      "title": "Global Accessibility",
+      "description": "Designed to be accessible and user-friendly for a global audience.",
+      "technical_spec": "Supports multiple languages and operates effectively on diverse network conditions.",
       "severity_score": 25
     },
     {
-      "title": "Community Trust",
-      "description": "Building trust through transparency and consistent communication with users.",
-      "technical_spec": "Frequent updates and community engagement.",
+      "title": "Community",
+      "description": "Encourages interaction and connection between individuals globally.",
+      "technical_spec": "Features like group chats and broadcast lists facilitate community building.",
       "severity_score": 30
     }
   ]

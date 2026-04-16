@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 337,
+    "rank": 347,
     "site": "spotify.com",
-    "date": "2026-04-15 23:34",
-    "integrity_hash": "7f928c97e7058311c6e5faa56cc97c19"
+    "date": "2026-04-16 01:49",
+    "integrity_hash": "826ac808b96ba66f25aa0fb5360eb0bd"
   },
   "data": [
     {
       "title": "Personalization",
-      "description": "Focus on personalized music experiences.",
-      "technical_spec": "Algorithm-driven recommendations based on user listening habits.",
-      "severity_score": 5
+      "description": "Core offering of personalized music recommendations enhancing user experience.",
+      "technical_spec": "Machine learning algorithms analyze listening habits to suggest music.",
+      "severity_score": 95
     },
     {
-      "title": "Cross-Platform Accessibility",
-      "description": "Support across multiple devices and platforms.",
-      "technical_spec": "Apps available for iOS, Android, desktop, and web with synchronized experiences.",
-      "severity_score": 5
+      "title": "Global Presence",
+      "description": "Serving millions of users worldwide in diverse markets.",
+      "technical_spec": "Localized content and interfaces for different regions.",
+      "severity_score": 90
     },
     {
       "title": "Community Engagement",
-      "description": "Building a community through playlist sharing and social features.",
-      "technical_spec": "Integration of social media features, allowing playlist sharing and collaborative playlists.",
-      "severity_score": 10
+      "description": "Strong focus on connecting listeners and artists.",
+      "technical_spec": "Tools for artist promotion, user-generated playlists, and social features.",
+      "severity_score": 85
     },
     {
-      "title": "Innovative UX/UI",
-      "description": "Commitment to a user-friendly, innovative interface.",
-      "technical_spec": "Emphasizes intuitive design with constant updates based on user feedback.",
-      "severity_score": 5
+      "title": "Freemium Model",
+      "description": "Offering a dual-tier subscription model to cater to different user needs.",
+      "technical_spec": "Free ad-supported version and premium ad-free subscription plan.",
+      "severity_score": 92
     },
     {
-      "title": "Music Discovery",
-      "description": "Facilitates discovery of new music and artists.",
-      "technical_spec": "Curated playlists and algorithm-based discovery features like 'Discover Weekly.'",
-      "severity_score": 3
+      "title": "Brand Consistency",
+      "description": "Maintains a consistent brand identity across various platforms.",
+      "technical_spec": "Unified design guidelines, color palettes, and typography.",
+      "severity_score": 87
     }
   ]
 }
