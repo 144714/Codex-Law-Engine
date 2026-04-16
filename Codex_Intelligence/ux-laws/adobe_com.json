@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 358,
+    "rank": 368,
     "site": "adobe.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "6c6f8a439314ac5e8904bd32b820d7b3"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "35b4efba34d342107fee02aef3a78ade"
   },
   "data": [
     {
-      "title": "Jakob's Law",
-      "description": "Users spend most of their time on other sites, and prefer your site to work the same way as all the other sites they already know.",
-      "technical_spec": "Consistent design language and navigation",
-      "severity_score": 60
+      "title": "Hick's Law Utilization",
+      "description": "Reducing user choice complexity to improve interface decisions.",
+      "technical_spec": "Simplified menu options and categorized tools for streamlined navigation.",
+      "severity_score": 15
     },
     {
-      "title": "Miller’s Law",
-      "description": "Users can only keep 7 (plus or minus 2) items in their working memory.",
-      "technical_spec": "Simplified navigation and chunked information",
-      "severity_score": 40
+      "title": "Fitts's Law Application",
+      "description": "Design elements are optimized for quicker access based on size and proximity.",
+      "technical_spec": "Enhanced clickable area for frequently used tools and buttons.",
+      "severity_score": 8
     },
     {
-      "title": "Fitts's Law",
-      "description": "The time to acquire a target is a function of the distance to and size of the target.",
-      "technical_spec": "Optimized button sizes and spacing",
-      "severity_score": 50
+      "title": "Gestalt Principles",
+      "description": "Consistency in visual layout, grouping related elements for cognitive ease.",
+      "technical_spec": "Uniform theming and color palettes across applications.",
+      "severity_score": 10
     },
     {
-      "title": "Hick’s Law",
-      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Limited choices per interaction",
-      "severity_score": 55
+      "title": "Doherty Threshold Implementation",
+      "description": "Meeting user reaction times to enhance usability satisfaction.",
+      "technical_spec": "Ensures systems respond uunder 400 ms to keep user attention.",
+      "severity_score": 12
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Users perceive more aesthetically pleasing designs to be easier to use.",
-      "technical_spec": "Visual hierarchy and minimalistic design",
-      "severity_score": 35
+      "title": "Jakob’s Law of Internet Assumption",
+      "description": "Keeping design familiarity across applications to match user expectations.",
+      "technical_spec": "UI patterns consistent with common web applications.",
+      "severity_score": 9
     }
   ]
 }

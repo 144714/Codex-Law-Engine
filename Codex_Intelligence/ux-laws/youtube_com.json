@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 352,
+    "rank": 362,
     "site": "youtube.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "825747a9048c0770cd8839dbe7894f76"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "a99459a59a39a501d046d5b8f359cd4e"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplify choices to reduce decision-making time for users.",
-      "technical_spec": "Simplified navigation and content recommendations.",
-      "severity_score": 35
+      "title": "Fitt’s Law",
+      "description": "Button sizes and placements are optimized for efficient user interaction.",
+      "technical_spec": "Ensures critical actions are easily accessible and clickable.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts' Law",
-      "description": "Optimize button sizes and placements for ease of use.",
-      "technical_spec": "Larger touch targets for mobile, intuitive progress bars.",
-      "severity_score": 40
+      "title": "Hick’s Law",
+      "description": "Simplified navigation reduces decision-making time for users.",
+      "technical_spec": "Streamlined menu options and guided recommendations.",
+      "severity_score": 12
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Users perceive more aesthetically pleasing interfaces as easier to use.",
-      "technical_spec": "Modern design elements, consistent themes.",
-      "severity_score": 25
+      "title": "Miller’s Law",
+      "description": "Information chunking aids user comprehension and retention.",
+      "technical_spec": "Content curation and categorization for easy consumption.",
+      "severity_score": 18
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Organizing content to enhance pattern recognition and user perception.",
-      "technical_spec": "Use of proximity, similarity, and continuity in layout design.",
-      "severity_score": 30
+      "title": "Jakob’s Law",
+      "description": "Consistency with familiar design patterns to enhance ease of use.",
+      "technical_spec": "Universal design elements in line with user expectations.",
+      "severity_score": 14
     },
     {
-      "title": "Miller's Law",
-      "description": "Limit the amount of information presented to user at a time.",
-      "technical_spec": "Segmented video content, concise notifications.",
-      "severity_score": 30
+      "title": "Tesler’s Law",
+      "description": "Complexity is managed to balance feature richness and usability.",
+      "technical_spec": "Intuitive user interfaces with guided interactions.",
+      "severity_score": 16
     }
   ]
 }

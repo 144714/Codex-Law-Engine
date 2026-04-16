@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 358,
+    "rank": 368,
     "site": "adobe.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "15f8ed9b8036cfe100f34fec0d7eec9e"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "75c90e7f0bc7fff84cb2f6767a985fe7"
   },
   "data": [
     {
-      "title": "Creative Empowerment",
-      "description": "Empowering users through powerful creative tools and resources.",
-      "technical_spec": "Photoshop, Illustrator",
-      "severity_score": 25
+      "title": "Creative Cloud Ecosystem",
+      "description": "Comprehensive suite of tools designed specifically for creative professionals.",
+      "technical_spec": "Centralized platform offering subscription-based services including Photoshop, Illustrator, and more.",
+      "severity_score": 5
     },
     {
-      "title": "Innovation",
-      "description": "Continuous innovation in software development and creative solutions.",
-      "technical_spec": "AI-based features, Cloud integrations",
-      "severity_score": 30
+      "title": "Commitment to Innovation",
+      "description": "Continuous development of new features to lead the market in creative solutions.",
+      "technical_spec": "R&D investments focusing on AI and machine learning enhancements.",
+      "severity_score": 8
     },
     {
-      "title": "Global Reach",
-      "description": "Serving a global audience with localization and varied content.",
-      "technical_spec": "Multilingual support, Regional content Delivery",
-      "severity_score": 15
+      "title": "Integration and Collaboration",
+      "description": "Facilitating seamless workflows and integrations across multiple platforms.",
+      "technical_spec": "API support for cross-application functionality and third-party integrations.",
+      "severity_score": 12
     },
     {
-      "title": "User Centered",
-      "description": "Keeping user needs at the forefront of product design and updates.",
-      "technical_spec": "UX research, Customer feedback loops",
-      "severity_score": 45
+      "title": "Customer-Centric Experience",
+      "description": "Focus on creating intuitive experiences tailored to user feedback and insights.",
+      "technical_spec": "Data-driven decisions with regular customer feedback loops implemented.",
+      "severity_score": 10
     },
     {
-      "title": "Sustainability",
-      "description": "Commitment to environmentally sustainable practices.",
-      "technical_spec": "Green cloud solutions, Paperless initiatives",
-      "severity_score": 20
+      "title": "Sustainable and Ethical Practices",
+      "description": "Emphasis on sustainability and corporate responsibility in business operations.",
+      "technical_spec": "Initiatives aligned with ISO 14001 and corporate philanthropy programs.",
+      "severity_score": 7
     }
   ]
 }

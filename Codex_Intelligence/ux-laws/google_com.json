@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 351,
+    "rank": 361,
     "site": "google.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "4c358bee8764b5f9bea74e2cf339d148"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "ac1bf8307e8482cd1af516ca6d2f6b30"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "The time it takes to make a decision increases with the number and complexity of choices.",
-      "technical_spec": "Simplified navigation and clear content hierarchy to minimize cognitive load.",
-      "severity_score": 85
+      "title": "Fitts's Law",
+      "description": "Element proximity improves usability and user satisfaction.",
+      "technical_spec": "Strategically placed elements reduce navigation time.",
+      "severity_score": 15
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Ease of access to navigation elements based on size and distance from the user.",
-      "technical_spec": "Strategically placed and appropriately sized interactive elements.",
-      "severity_score": 80
+      "title": "Hick's Law",
+      "description": "Simplified choice reduces decision time and improves user interaction.",
+      "technical_spec": "Optimizing interface choices to boost efficiency.",
+      "severity_score": 20
     },
     {
-      "title": "Miller’s Law",
-      "description": "The average person can only keep 7 (plus or minus 2) items in their working memory.",
-      "technical_spec": "Chunking information in manageable sections to enhance user comprehension.",
-      "severity_score": 78
+      "title": "Law of Proximity",
+      "description": "Elements that are close to each other tend to be grouped logically.",
+      "technical_spec": "Clustering related links/tools for intuitive navigation.",
+      "severity_score": 10
     },
     {
-      "title": "Jakob's Law",
-      "description": "Users spend most of their time on other sites, so they prefer your site to work the same way as all the other sites they already know.",
-      "technical_spec": "Consistency with common web design patterns and familiar UI elements.",
-      "severity_score": 90
+      "title": "Miller's Law",
+      "description": "Users can retain about seven items in short-term memory.",
+      "technical_spec": "Use chunking to avoid overwhelming users with information.",
+      "severity_score": 20
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Users tend to best remember the first and last items in a series.",
-      "technical_spec": "Present critical information at the beginning or end of any process.",
-      "severity_score": 87
+      "title": "Aesthetic-Usability Effect",
+      "description": "Aesthetically pleasing designs are perceived as easier to use.",
+      "technical_spec": "Clean, minimalistic design with an emphasis on visual appeal.",
+      "severity_score": 10
     }
   ]
 }

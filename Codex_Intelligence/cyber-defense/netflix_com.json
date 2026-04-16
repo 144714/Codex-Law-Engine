@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 356,
+    "rank": 366,
     "site": "netflix.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "01e3eb175839a10d6ba0016c7ffbc2b1"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "ce3ba2a627d8e602c9fbcfb427839650"
   },
   "data": [
     {
-      "title": "Encryption",
-      "description": "Employs robust encryption protocols to secure user data in transit and at rest.",
-      "technical_spec": "TLS 1.2 or higher for data in transit, AES-256 for data at rest.",
+      "title": "Multi-Factor Authentication",
+      "description": "MFA implementation for enhanced account security.",
+      "technical_spec": "Combines passwords with secondary code sent to user devices.",
       "severity_score": 40
     },
     {
-      "title": "Identity and Access Management (IAM)",
-      "description": "Strict IAM policies to limit access to sensitive data and services.",
-      "technical_spec": "Role-based access controls with least privilege principle.",
-      "severity_score": 45
+      "title": "SSL/TLS Encryption",
+      "description": "Encrypts data in transit between users and Netflix services.",
+      "technical_spec": "Employs SSL/TLS to protect streaming and browsing sessions.",
+      "severity_score": 10
     },
     {
-      "title": "Distributed Denial of Service (DDoS) Protection",
-      "description": "Implements industry-standard DDoS protection mechanisms.",
-      "technical_spec": "AWS Shield and additional third-party solutions.",
-      "severity_score": 50
+      "title": "DDoS Protection",
+      "description": "Defensive measures against Distributed Denial of Service attacks.",
+      "technical_spec": "Utilizes AWS Shield and custom DDoS prevention techniques.",
+      "severity_score": 25
     },
     {
-      "title": "Security Monitoring and Incident Response",
-      "description": "Continuous security monitoring and well-defined incident response plan.",
-      "technical_spec": "SIEM systems and dedicated security operations center (SOC).",
-      "severity_score": 55
+      "title": "Threat Detection and Response",
+      "description": "Proactive threat monitoring and incident response.",
+      "technical_spec": "Uses custom tools and third-party integrations for threat intelligence.",
+      "severity_score": 35
     },
     {
-      "title": "Vulnerability Management",
-      "description": "Regular vulnerability assessments and penetration testing.",
-      "technical_spec": "Automated scans and manual testing using advanced tools.",
-      "severity_score": 60
+      "title": "Regular Security Audits",
+      "description": "Frequent audits to identify vulnerabilities and enforce security policies.",
+      "technical_spec": "Penetration testing and automated scans to find security gaps.",
+      "severity_score": 20
     }
   ]
 }

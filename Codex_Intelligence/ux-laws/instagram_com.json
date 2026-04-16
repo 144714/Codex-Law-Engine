@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 359,
+    "rank": 369,
     "site": "instagram.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "fbbc91e5709cb50a3fc056c438cfd870"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "d37f8ccc982997d4b4d50327af531979"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making by limiting the number of choices on each screen.",
-      "technical_spec": "Clean UI with focused user flows and minimized on-screen elements.",
-      "severity_score": 25
+      "description": "Minimizes decision time by simplifying user choices through intuitive UI design.",
+      "technical_spec": "Single-screen interactions, reduced option overload in interfaces.",
+      "severity_score": 60
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizes button size and placement for easier navigation.",
-      "technical_spec": "Large tappable areas for continuous interaction, especially on mobile.",
-      "severity_score": 20
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Utilizes proximity and similarity to organize content visually.",
-      "technical_spec": "Consistent visual elements like spacing, alignment, and grouping.",
-      "severity_score": 15
+      "title": "Fitt's Law",
+      "description": "Optimizes interactive elements to improve usability.",
+      "technical_spec": "Consistently sized and located buttons for easy user access.",
+      "severity_score": 55
     },
     {
       "title": "Doherty Threshold",
-      "description": "Aims to keep user response time under 400ms to maintain engagement.",
-      "technical_spec": "Efficient code to reduce latency and enhance response time.",
-      "severity_score": 30
+      "description": "Ensures system feedback within 400ms to maintain user engagement.",
+      "technical_spec": "Asynchronous loading with skeleton screens for perceived speed.",
+      "severity_score": 70
     },
     {
-      "title": "Peak-End Rule",
-      "description": "Focuses on the memorable moments and the final impression of user interaction.",
-      "technical_spec": "Timely notifications and summary insights to enhance user experience.",
-      "severity_score": 35
+      "title": "Aesthetic-Usability Effect",
+      "description": "Enhances visual appeal to increase perceived usability.",
+      "technical_spec": "Consistent branding with visual hierarchy and whitespace usage.",
+      "severity_score": 50
+    },
+    {
+      "title": "Zeigarnik Effect",
+      "description": "Encourages task completion by keeping incomplete tasks prominent.",
+      "technical_spec": "Clear progression indicators, notification badges for pending actions.",
+      "severity_score": 45
     }
   ]
 }

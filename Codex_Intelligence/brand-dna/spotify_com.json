@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 357,
+    "rank": 367,
     "site": "spotify.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "d3741fbe2ca903eace8c833af847f234"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "bc2291d9d0fdddc3a39224c06eb08c5e"
   },
   "data": [
     {
-      "title": "Music Discovery",
-      "description": "Promotes music exploration through personalized recommendations.",
-      "technical_spec": "Leverages collaborative filtering algorithms.",
-      "severity_score": 25
+      "title": "Personalization",
+      "description": "Focused on providing personalized music discovery experiences.",
+      "technical_spec": "Machine learning algorithms for user preferences.",
+      "severity_score": 5
     },
     {
-      "title": "Cross-Platform Experience",
-      "description": "Guarantees consistent user experience across devices.",
-      "technical_spec": "Develops responsive web and mobile applications.",
-      "severity_score": 30
+      "title": "Cross-Platform Compatibility",
+      "description": "Offers seamless access across multiple devices and platforms.",
+      "technical_spec": "Support for iOS, Android, Windows, macOS, Web.",
+      "severity_score": 5
     },
     {
-      "title": "User-Driven Playlists",
-      "description": "Encourages community engagement via playlist sharing.",
-      "technical_spec": "Provides tools for playlist creation and sharing.",
+      "title": "Curated Content",
+      "description": "Focus on editorial playlists and exclusive content.",
+      "technical_spec": "Music experts and AI curate playlist options.",
+      "severity_score": 10
+    },
+    {
+      "title": "Social Connectivity",
+      "description": "Integrated social features to share music and playlists.",
+      "technical_spec": "Integration with Facebook, Instagram, and direct sharing.",
       "severity_score": 20
     },
     {
-      "title": "Podcast Integration",
-      "description": "Expands content offering to include podcasts.",
-      "technical_spec": "Utilizes podcast hosting and streaming technology.",
-      "severity_score": 35
-    },
-    {
-      "title": "Brand Partnerships",
-      "description": "Enriches user experience through strategic collaborations.",
-      "technical_spec": "Partners with brands for exclusive content and promotions.",
-      "severity_score": 28
+      "title": "Continuous Innovation",
+      "description": "Constantly evolving with new features and technologies.",
+      "technical_spec": "Regular updates and feature roll-outs.",
+      "severity_score": 15
     }
   ]
 }

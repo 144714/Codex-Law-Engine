@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 356,
+    "rank": 366,
     "site": "netflix.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "7ff4e0cfcabf4b162f94d805f1fc7223"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "b6c188b195a919677881844016d5b04a"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making by reducing the number of choices available to the user at once.",
-      "technical_spec": "Intelligent content recommendation reduces cognitive load.",
-      "severity_score": 30
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Utilizes design principles like proximity and similarity to create intuitive layouts.",
-      "technical_spec": "Consistent UI elements grouped logically for user understanding.",
+      "description": "Minimizing user decision time during navigation on the interface.",
+      "technical_spec": "Simplified menu options and search features to reduce cognitive load.",
       "severity_score": 35
     },
     {
       "title": "Fitts's Law",
-      "description": "Designs interface elements to be easily accessible and clickable.",
-      "technical_spec": "Large clickable areas for navigation and selection.",
+      "description": "Improving accessibility of targets for navigation and selection.",
+      "technical_spec": "Large, easily clickable buttons and responsive UI elements.",
+      "severity_score": 30
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Enhancing user perception of ease of use through visual design.",
+      "technical_spec": "Sleek, modern interface with high contrast and clean layouts.",
       "severity_score": 40
     },
     {
-      "title": "Miller's Law",
-      "description": "Limits the amount of information presented at any time, enhancing memory recall.",
-      "technical_spec": "Content categorization and previews help manage information load.",
-      "severity_score": 45
+      "title": "Serial Position Effect",
+      "description": "Ensuring important content placement in prime viewing areas.",
+      "technical_spec": "Key content and features placed in top and bottom areas of UI.",
+      "severity_score": 50
     },
     {
-      "title": "Aesthetic Usability Effect",
-      "description": "A visually appealing design improves perceived usability.",
-      "technical_spec": "High-quality images, typography, and layout enhance visual appeal.",
-      "severity_score": 50
+      "title": "Jakob's Law",
+      "description": "Leveraging user familiarities to improve navigation experiences.",
+      "technical_spec": "Design patterns familiar to users from similar services.",
+      "severity_score": 25
     }
   ]
 }

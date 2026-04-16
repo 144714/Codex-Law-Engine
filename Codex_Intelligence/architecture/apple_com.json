@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 353,
+    "rank": 363,
     "site": "apple.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "1c8ae99dcba20bc7ccb157d1b76b7c18"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "e9c7b003fffdd93c812cad2648c43b4a"
   },
   "data": [
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Global network to distribute content with high availability and performance.",
-      "technical_spec": "CDNs like Akamai or AWS CloudFront help improve load times and reliability.",
-      "severity_score": 10
+      "title": "Microservices Framework",
+      "description": "Apple's website likely uses a microservices architecture to manage various functions independently.",
+      "technical_spec": "Docker, Kubernetes for orchestration.",
+      "severity_score": 25
     },
     {
-      "title": "Microservices Architecture",
-      "description": "System design with individual services designed for specific business functions.",
-      "technical_spec": "Utilizes RESTful APIs and cloud infrastructure.",
-      "severity_score": 30
+      "title": "Content Delivery Network (CDN)",
+      "description": "Employs a CDN to optimize load times across global markets.",
+      "technical_spec": "Akamai or Fastly as typical CDN providers.",
+      "severity_score": 15
     },
     {
       "title": "Responsive Design",
-      "description": "Ensures the website layout adjusts dynamically to various screen sizes.",
-      "technical_spec": "Implemented using CSS media queries and flexible grid systems.",
+      "description": "Ensures compatibility across a vast range of devices by employing responsive design techniques.",
+      "technical_spec": "HTML5, CSS3 media queries.",
+      "severity_score": 10
+    },
+    {
+      "title": "Server-Side Rendering (SSR)",
+      "description": "Uses SSR to improve SEO and initial load performance.",
+      "technical_spec": "Node.js for server-side operations.",
       "severity_score": 20
     },
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Secures data transfer between users and the website.",
-      "technical_spec": "Uses TLS 1.3 for optimal encryption standards.",
-      "severity_score": 5
-    },
-    {
-      "title": "Progressive Web App (PWA) Features",
-      "description": "Blend of web and mobile app features for enhanced user experience.",
-      "technical_spec": "Service workers, web app manifest, and app-like interactions.",
-      "severity_score": 40
+      "title": "API Integration",
+      "description": "Integrates APIs for dynamic content rendering and data fetching.",
+      "technical_spec": "GraphQL or RESTful APIs.",
+      "severity_score": 30
     }
   ]
 }

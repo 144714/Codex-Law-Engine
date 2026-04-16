@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 357,
+    "rank": 367,
     "site": "spotify.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "dfca347bcba7250e7666b84f36044210"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "3ad8625db2e7d2fcc75a664e6def706c"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Spotify uses a microservices architecture to allow for decentralized management and independent deployment of different services.",
-      "technical_spec": "Services are written in various programming languages like Java, Python, and JavaScript.",
-      "severity_score": 15
-    },
-    {
-      "title": "Server-Side Rendering",
-      "description": "Optimizes initial page load by rendering pages on the server before sending them to the client.",
-      "technical_spec": "Utilizes Node.js for server-side JavaScript execution.",
+      "description": "Spotify uses a microservices architecture allowing different parts of the application to be independently developed and scaled.",
+      "technical_spec": "Deployed via Docker containers, managed through Kubernetes.",
       "severity_score": 20
     },
     {
-      "title": "API Gateway Pattern",
-      "description": "Centralizes API management to streamline requests between clients and internal services.",
-      "technical_spec": "Built on top of cloud services with RESTful APIs.",
-      "severity_score": 30
+      "title": "Content Delivery Network (CDN)",
+      "description": "Utilized to efficiently deliver music content across the globe.",
+      "technical_spec": "AWS CloudFront and Akamai are commonly used.",
+      "severity_score": 15
     },
     {
-      "title": "Data Streaming",
-      "description": "Processes large quantities of real-time data from users and recommends music.",
-      "technical_spec": "Incorporates technologies like Apache Kafka and Google BigQuery.",
+      "title": "Event-Driven Applications",
+      "description": "System uses event-driven patterns to manage notifications and real-time updates.",
+      "technical_spec": "Kafka is often used for this purpose.",
       "severity_score": 25
     },
     {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Hosts infrastructure on cloud platforms for scalability and reliability.",
-      "technical_spec": "Primarily uses Google Cloud Platform (GCP).",
-      "severity_score": 40
+      "title": "NoSQL Database Systems",
+      "description": "Designed to handle vast amounts of music metadata and user information.",
+      "technical_spec": "Cassandra for wide-column storage.",
+      "severity_score": 10
+    },
+    {
+      "title": "API Gateway",
+      "description": "Central gateway for managing API requests.",
+      "technical_spec": "Based on frameworks like NGINX or Kong.",
+      "severity_score": 30
     }
   ]
 }

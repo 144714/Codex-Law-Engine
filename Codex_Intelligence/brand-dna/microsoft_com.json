@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 354,
+    "rank": 364,
     "site": "microsoft.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "203beccb10526c9d081cbc38367908f8"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "12f4f92dbbd391264137840075017995"
   },
   "data": [
     {
-      "title": "Innovation Leadership",
-      "description": "Position the brand as a leader in technological advancements.",
-      "technical_spec": "Brand communication through blogs and tech conferences.",
-      "severity_score": 90
+      "title": "Innovation-Driven",
+      "description": "A commitment to being at the forefront of technology.",
+      "technical_spec": "Integration with cutting-edge technologies, continuous R&D",
+      "severity_score": 5
     },
     {
-      "title": "Enterprise Solutions",
-      "description": "Focused on providing comprehensive solutions for businesses.",
-      "technical_spec": "B2B service integration with a focus on scalability.",
-      "severity_score": 85
+      "title": "Customer-Centric",
+      "description": "Focused on providing valuable solutions for users’ needs.",
+      "technical_spec": "User feedback integration, personalized experiences",
+      "severity_score": 10
     },
     {
-      "title": "Global Accessibility",
-      "description": "Committed to providing global access to tools and services.",
-      "technical_spec": "Localization strategies across more than 50 languages.",
-      "severity_score": 88
+      "title": "Global Reach",
+      "description": "Building products and services for a worldwide audience.",
+      "technical_spec": "Multi-language support, global data centers",
+      "severity_score": 5
     },
     {
-      "title": "Sustainability Initiatives",
-      "description": "Promotes eco-friendly practices within the tech industry.",
-      "technical_spec": "Carbon-neutral data centers and green energy procurement.",
-      "severity_score": 91
+      "title": "Collaborative Ecosystem",
+      "description": "Facilitating partnership and ecosystem growth.",
+      "technical_spec": "Extensive partner networks, open API platforms",
+      "severity_score": 20
     },
     {
-      "title": "Human-centric Design",
-      "description": "Prioritizing user satisfaction with customer-centric designs.",
-      "technical_spec": "Continuous UX research and feedback implementation.",
-      "severity_score": 85
+      "title": "Sustainability Commitment",
+      "description": "Pledging to environmentally responsible practices.",
+      "technical_spec": "Carbon-neutral initiatives, eco-friendly operations",
+      "severity_score": 15
     }
   ]
 }

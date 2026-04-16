@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 352,
+    "rank": 362,
     "site": "youtube.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "76ccda21aea359a8a4ca6544b3226e89"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "2a0b498650bb12c65e9de996e96b05dd"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "YouTube uses a microservices architecture to separate different parts of the platform for scalability and independent deployment.",
-      "technical_spec": "Docker, Kubernetes, REST APIs",
-      "severity_score": 20
+      "title": "Microservices Architecture",
+      "description": "YouTube utilizes a microservices architecture to manage different features independently.",
+      "technical_spec": "Containerized services deployed on cloud infrastructure.",
+      "severity_score": 10
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "A CDN is used to efficiently deliver video content worldwide.",
-      "technical_spec": "Akamai, Cloudflare",
+      "description": "A global network of servers to deliver video content efficiently.",
+      "technical_spec": "Utilizes Google's CDN for low latency and high-speed delivery.",
       "severity_score": 15
     },
     {
-      "title": "Database Management",
-      "description": "YouTube employs a variety of databases to handle large-scale data storage and management.",
-      "technical_spec": "Bigtable, MySQL",
-      "severity_score": 40
+      "title": "Data Storage Solutions",
+      "description": "Distributed storage systems for scalable and reliable data management.",
+      "technical_spec": "Combination of Google Cloud Storage and BigTable.",
+      "severity_score": 20
     },
     {
       "title": "Load Balancing",
-      "description": "Load balancers distribute the network and application traffic across multiple servers.",
-      "technical_spec": "Google Cloud Load Balancing",
-      "severity_score": 30
+      "description": "Ensures efficient distribution of incoming network traffic.",
+      "technical_spec": "Implemented via advanced load balancing techniques.",
+      "severity_score": 18
     },
     {
-      "title": "Edge Computing",
-      "description": "Edge computing processes data near the data source to improve response times.",
-      "technical_spec": "Edge Cache Nodes",
-      "severity_score": 25
+      "title": "API Gateway",
+      "description": "Centralized entry point for service interactions.",
+      "technical_spec": "Manages communication between different services and clients.",
+      "severity_score": 22
     }
   ]
 }

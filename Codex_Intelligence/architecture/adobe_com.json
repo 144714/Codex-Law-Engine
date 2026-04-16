@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 358,
+    "rank": 368,
     "site": "adobe.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "e070bf01461c41f5d7860b650adabd7f"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "58193f2c4f695e8f24d386ec5f5b8479"
   },
   "data": [
     {
-      "title": "Microservices",
-      "description": "Adobe's architecture utilizes microservices to enhance scalability and maintenance.",
-      "technical_spec": "Docker, Kubernetes, RESTful APIs",
+      "title": "Microservices Infrastructure",
+      "description": "Adobe uses a microservices architecture to manage its wide array of services.",
+      "technical_spec": "Decoupled services with API communication handled via REST and GraphQL.",
+      "severity_score": 10
+    },
+    {
+      "title": "Cloud-Native Deployment",
+      "description": "Many of Adobe's services are deployed in a cloud-native fashion to enhance scalability and reliability.",
+      "technical_spec": "Utilizes AWS and Azure for elastic scaling and global distribution.",
+      "severity_score": 15
+    },
+    {
+      "title": "Reactive Event-Driven Model",
+      "description": "The system operates on event-driven architecture to handle asynchronous data flow efficiently.",
+      "technical_spec": "Kafka and RabbitMQ are leveraged for queue management across services.",
       "severity_score": 20
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "A CDN is used to speed up the delivery of Adobe's content globally.",
-      "technical_spec": "Akamai CDN, HTTP/2",
-      "severity_score": 15
-    },
-    {
-      "title": "Cloud Infrastructure",
-      "description": "Deployment on cloud platforms for flexibility and resource management.",
-      "technical_spec": "AWS, Azure",
-      "severity_score": 25
+      "description": "Adobe employs CDNs to deliver content globally with optimized latency and faster load times.",
+      "technical_spec": "Partnerships with Akamai and CloudFront for edge cache and security.",
+      "severity_score": 8
     },
     {
       "title": "Serverless Functions",
-      "description": "Utilizing serverless computing to run short-lived processes efficiently.",
-      "technical_spec": "AWS Lambda, Azure Functions",
-      "severity_score": 10
-    },
-    {
-      "title": "Database Management",
-      "description": "Implementation of robust database solutions for large-scale data operations.",
-      "technical_spec": "NoSQL, SQL, Elasticsearch",
-      "severity_score": 30
+      "description": "Adobe integrates serverless functions to perform backend operations without managing infrastructure.",
+      "technical_spec": "AWS Lambda functions orchestrated for operations automation and batch processing workflows.",
+      "severity_score": 18
     }
   ]
 }

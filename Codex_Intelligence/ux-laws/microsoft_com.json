@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 354,
+    "rank": 364,
     "site": "microsoft.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "3d495ccf7f093c77161418840b618bd9"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "8b264ee74ad544a438d02b5ee10266f0"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies user decision-making by restricting menu options.",
-      "technical_spec": "Minimum viable product with a simplified user interface.",
-      "severity_score": 70
+      "title": "Fitts’s Law",
+      "description": "Design ensures elements are easily clickable and accessible.",
+      "technical_spec": "Adaptive layout, touch-friendly elements",
+      "severity_score": 10
     },
     {
-      "title": "Fitts's Law",
-      "description": "Design aims to minimize the time taken for target selection by optimizing component placements.",
-      "technical_spec": "Keep frequently used elements closer to the central focus areas.",
-      "severity_score": 65
+      "title": "Hick’s Law",
+      "description": "Minimized choices to streamline user interactions.",
+      "technical_spec": "Simplified navigation, clear call-to-action buttons",
+      "severity_score": 25
     },
     {
-      "title": "Mobile Usability",
-      "description": "Enhanced mobile experience with a responsive design.",
-      "technical_spec": "Bootstrap CSS with media queries.",
-      "severity_score": 80
+      "title": "Jakob’s Law",
+      "description": "Consistent experience aligned with user expectations.",
+      "technical_spec": "Familiar UI patterns, standardized interfaces",
+      "severity_score": 15
     },
     {
-      "title": "Affordance and Signifiers",
-      "description": "Clear visual cues for interactive elements.",
-      "technical_spec": "Consistent button styling and hover effects.",
-      "severity_score": 75
+      "title": "Law of Proximity",
+      "description": "Grouping related items to naturally guide user behavior.",
+      "technical_spec": "Logical grouping of content, consistent spacing",
+      "severity_score": 35
     },
     {
-      "title": "Feedback and Response Time",
-      "description": "Immediate feedback for user actions to keep users informed.",
-      "technical_spec": "Loading spinners and success messages triggered via AJAX.",
-      "severity_score": 70
+      "title": "Miller’s Law",
+      "description": "Limiting information to prevent cognitive overload.",
+      "technical_spec": "Prioritized information display, progressive disclosure",
+      "severity_score": 20
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 352,
+    "rank": 362,
     "site": "youtube.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "c818f08d07884d01d653d53da716a5bc"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "5657b83f276404005b772d2f37e82044"
   },
   "data": [
     {
-      "title": "User-Generated Content",
-      "description": "Central to YouTube's platform, allowing users to upload and share videos.",
-      "technical_spec": "Upload APIs, Content Management Systems",
-      "severity_score": 60
+      "title": "User-Centric Content Platform",
+      "description": "Focus on user-driven content creation and sharing.",
+      "technical_spec": "Enables a diverse array of content creators to publish videos.",
+      "severity_score": 8
     },
     {
-      "title": "Engagement and Community",
-      "description": "Promotes community interaction through comments, likes, and shares.",
-      "technical_spec": "Commenting systems, engagement analytics",
-      "severity_score": 50
+      "title": "Community Engagement",
+      "description": "Promotes interaction and engagement among users and creators.",
+      "technical_spec": "Comments, likes, subscriptions, and live streams.",
+      "severity_score": 10
     },
     {
-      "title": "Personalization",
-      "description": "Provides personalized recommendations based on user behavior.",
-      "technical_spec": "Recommendation Algorithms, User Data Analysis",
-      "severity_score": 70
+      "title": "Content Discovery Algorithm",
+      "description": "Uses sophisticated algorithms to recommend personalized content.",
+      "technical_spec": "Machine learning models analyze viewing habits and preferences.",
+      "severity_score": 12
     },
     {
-      "title": "Cross-Platform Accessibility",
-      "description": "Seamless access across different devices for varied user experiences.",
-      "technical_spec": "Responsive Design, Mobile Apps",
-      "severity_score": 40
+      "title": "Monetization Opportunities",
+      "description": "Offers various avenues for creators to monetize their content.",
+      "technical_spec": "AdSense, sponsorships, and premium features.",
+      "severity_score": 20
     },
     {
-      "title": "Monetization",
-      "description": "Allows content creators to monetize their videos through ads and subscriptions.",
-      "technical_spec": "AdSense Integration, YouTube Partner Program",
-      "severity_score": 75
+      "title": "Global Accessibility",
+      "description": "Strives for inclusivity by supporting multiple languages and formats.",
+      "technical_spec": "Language localization and accessibility features.",
+      "severity_score": 14
     }
   ]
 }

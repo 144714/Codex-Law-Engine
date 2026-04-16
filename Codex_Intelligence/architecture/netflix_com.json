@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 356,
+    "rank": 366,
     "site": "netflix.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "dde71547db64353df2f26a4dc0d8f658"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "89c54bdb80a001858d281149461b3934"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Netflix uses a microservices architecture to split its application into smaller, independent services.",
-      "technical_spec": "Each microservice is responsible for a single feature or functionality and communicates via APIs.",
-      "severity_score": 10
-    },
-    {
-      "title": "Cloud-Based Infrastructure",
-      "description": "Relies heavily on Amazon Web Services (AWS) for scalable cloud computing resources.",
-      "technical_spec": "Utilizes AWS EC2 instances and S3 buckets for storage and computing.",
-      "severity_score": 15
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Netflix employs a global CDN to deliver content efficiently to users worldwide.",
-      "technical_spec": "Uses Netflix Open Connect alongside commercial CDNs.",
+      "description": "Netflix employs a microservices architecture to improve scalability and manageability.",
+      "technical_spec": "APIs connect multiple small, independently deployable services.",
       "severity_score": 20
     },
     {
-      "title": "NoSQL Databases",
-      "description": "Netflix uses NoSQL databases such as Cassandra for handling large volumes of user data.",
-      "technical_spec": "Cassandra is used for its ability to handle massive amounts of streaming data.",
+      "title": "Global CDN",
+      "description": "Netflix uses a global content delivery network to distribute streaming content efficiently.",
+      "technical_spec": "Leverages Open Connect Appliances in ISP networks.",
+      "severity_score": 10
+    },
+    {
+      "title": "Cloud-based Infrastructure",
+      "description": "Most Netflix services are deployed on cloud platforms.",
+      "technical_spec": "Primarily hosted on Amazon Web Services (AWS) for flexibility and scalability.",
+      "severity_score": 15
+    },
+    {
+      "title": "NoSQL Database System",
+      "description": "Database strategy optimizes for availability, partition tolerance, and consistency.",
+      "technical_spec": "Utilizes DynamoDB, Cassandra, and other NoSQL technologies.",
       "severity_score": 25
     },
     {
-      "title": "Event-Driven Architecture",
-      "description": "Utilizes an event-driven architecture to process user actions and system events asynchronously.",
-      "technical_spec": "Kafka is used for message brokering and real-time data streaming.",
+      "title": "Service Discovery",
+      "description": "Automated service discovery for components to communicate efficiently.",
+      "technical_spec": "Utilizes tools like Eureka for real-time service location.",
       "severity_score": 30
     }
   ]

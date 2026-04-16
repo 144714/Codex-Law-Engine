@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 355,
+    "rank": 365,
     "site": "amazon.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "6c373145e2f2f7fe468273ce1bf07302"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "d1f7232cd76acf093ae104879a2f6af3"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Simplifies decision-making to reduce user cognitive load.",
-      "technical_spec": "Minimizes options on the homepage.",
-      "severity_score": 78
+      "description": "Simplified choices to improve decision-making efficiency.",
+      "technical_spec": "A/B testing to optimize user choices and minimize cognitive load.",
+      "severity_score": 84
     },
     {
-      "title": "Fitt's Law",
-      "description": "Optimizes button size and placement for better user interaction.",
-      "technical_spec": "Larger CTA buttons for quicker access.",
-      "severity_score": 80
-    },
-    {
-      "title": "Miller's Law",
-      "description": "Groups information into chunks to enhance memorability.",
-      "technical_spec": "Utilizes categorized menus and lists.",
-      "severity_score": 75
+      "title": "Fitts's Law",
+      "description": "Intuitive UI design for quick access to frequently-used actions.",
+      "technical_spec": "Button size and positioning optimized based on interaction data.",
+      "severity_score": 86
     },
     {
       "title": "Jakob's Law",
-      "description": "Design is consistent with user expectations.",
-      "technical_spec": "Adheres to e-commerce platform standards.",
+      "description": "Consistent design patterns for improved user familiarity.",
+      "technical_spec": "Consistent navigation structure across platforms.",
+      "severity_score": 90
+    },
+    {
+      "title": "Miller's Law",
+      "description": "Limiting the number of items displayed at once for better retention.",
+      "technical_spec": "Catalog pagination and categorization.",
       "severity_score": 85
     },
     {
-      "title": "Gestalt Principles",
-      "description": "Uses visual hierarchy and structure to guide users.",
-      "technical_spec": "Clear typographic hierarchy and visual spacing.",
+      "title": "Law of Similarity",
+      "description": "Group similar items for enhanced visual structure.",
+      "technical_spec": "Product grouping based on category and utility.",
       "severity_score": 82
     }
   ]

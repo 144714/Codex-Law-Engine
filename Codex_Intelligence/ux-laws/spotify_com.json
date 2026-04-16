@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 357,
+    "rank": 367,
     "site": "spotify.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "10949412df13492c6e130f4f18d5432d"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "71f47fcf1145cbaa89285904a01ac77e"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplifies choices for users to reduce decision time.",
-      "technical_spec": "Streamlined interfaces with clear, singular tasks.",
+      "title": "Hick’s Law",
+      "description": "Simplifies user choice to improve decision-making times.",
+      "technical_spec": "Within app navigation, presenting options in a clear manner.",
+      "severity_score": 5
+    },
+    {
+      "title": "Fitts’s Law",
+      "description": "Design principle explaining the time required to move to a target area.",
+      "technical_spec": "Consistent and large touch targets for mobile interfaces.",
       "severity_score": 10
     },
     {
-      "title": "Fitts's Law",
-      "description": "Optimizes target sizes and distances to enhance navigation efficiency.",
-      "technical_spec": "Designs intuitive navigation elements that are easy to click.",
-      "severity_score": 15
+      "title": "Gestalt Principles",
+      "description": "Allows users to visually group related elements for coherent understanding.",
+      "technical_spec": "Utilizes proximity, similarity, and continuity in UI design.",
+      "severity_score": 8
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Creates visually appealing interfaces that improve perceived usability.",
-      "technical_spec": "Focuses on sleek design and rich media integration.",
-      "severity_score": 20
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Groups related items together for better user understanding.",
-      "technical_spec": "Logical grouping of buttons and menus.",
+      "title": "Jakob’s Law",
+      "description": "Users spend most of their time on other sites and prefer similar experiences.",
+      "technical_spec": "Spotify's interface follows common music app conventions.",
       "severity_score": 12
     },
     {
-      "title": "Miller's Law",
-      "description": "Limits information displayed to optimize cognitive load.",
-      "technical_spec": "Uses tabs and dropdowns to organize information.",
-      "severity_score": 18
+      "title": "Miller’s Law",
+      "description": "Organizes information into chunks to handle human memory limits.",
+      "technical_spec": "Playlists and albums as cognitive chunks in the app.",
+      "severity_score": 7
     }
   ]
 }

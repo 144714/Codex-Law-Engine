@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 352,
+    "rank": 362,
     "site": "youtube.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "9a1c7111643047d27007412196285e16"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "fede7318daeda9783a6bfeb42c658f6b"
   },
   "data": [
     {
-      "title": "Two-factor Authentication",
-      "description": "Enhanced security through two-factor authentication for user accounts.",
-      "technical_spec": "SMS, Authenticator Apps",
-      "severity_score": 50
+      "title": "Content Moderation",
+      "description": "Prevents harmful or inappropriate content using AI and manual reviews.",
+      "technical_spec": "Automated systems enhanced by human oversight.",
+      "severity_score": 25
     },
     {
-      "title": "Encryption",
-      "description": "Data is encrypted both in transit and at rest to protect against unauthorized access.",
-      "technical_spec": "TLS, HTTPS, AES",
-      "severity_score": 70
-    },
-    {
-      "title": "Spam and Abuse Filters",
-      "description": "Automated systems detect and reduce spam, fake engagement metrics, and abuse.",
-      "technical_spec": "Machine Learning Algorithms",
-      "severity_score": 60
+      "title": "User Data Encryption",
+      "description": "Protects user data through encryption during transit and at rest.",
+      "technical_spec": "TLS for data in transit and strong encryption standards.",
+      "severity_score": 30
     },
     {
       "title": "DDoS Protection",
-      "description": "Protection mechanisms against Distributed Denial of Service attacks.",
-      "technical_spec": "Traffic Anomaly Detection, Rate Limiting",
-      "severity_score": 55
+      "description": "Mitigates Distributed Denial of Service attacks.",
+      "technical_spec": "Incorporates robotic mitigation technology and Google’s infrastructure.",
+      "severity_score": 28
     },
     {
-      "title": "Security Incident Response",
-      "description": "A dedicated team monitors and responds to security threats.",
-      "technical_spec": "24/7 Security Operations Center",
-      "severity_score": 45
+      "title": "Authentication Mechanisms",
+      "description": "Strengthens account security through multifactor authentication.",
+      "technical_spec": "Google account integration with two-step verification.",
+      "severity_score": 35
+    },
+    {
+      "title": "Security Audits and Patch Management",
+      "description": "Regular security audits and updates to ensure system integrity.",
+      "technical_spec": "Proactive scanning and prompt vulnerability patching.",
+      "severity_score": 32
     }
   ]
 }

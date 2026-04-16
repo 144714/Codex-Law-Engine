@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 355,
+    "rank": 365,
     "site": "amazon.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "17bf85811cca29ce5934494ee19ca52e"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "0da1caca73dad41c568af4a31b6f5851"
   },
   "data": [
     {
-      "title": "Advanced Encryption",
-      "description": "Ensures data is encrypted both in transit and at rest.",
-      "technical_spec": "AES-256 encryption standard.",
+      "title": "Distributed Denial-of-Service (DDoS) Protection",
+      "description": "Robust DDoS protection measures to prevent downtime.",
+      "technical_spec": "AWS Shield and AWS WAF to detect and mitigate DDoS attacks.",
       "severity_score": 92
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Enhances user account security.",
-      "technical_spec": "SMS-based and App-based TFA options.",
-      "severity_score": 85
+      "title": "Identity and Access Management (IAM)",
+      "description": "Granular control of access permissions for users and services.",
+      "technical_spec": "AWS IAM for managing user roles and policies securely.",
+      "severity_score": 89
     },
     {
-      "title": "DDoS Protection",
-      "description": "Prevents distributed denial-of-service attacks.",
-      "technical_spec": "AWS Shield for automated mitigation.",
-      "severity_score": 90
+      "title": "Encryption and Key Management",
+      "description": "Data encryption in transit and at rest to protect user information.",
+      "technical_spec": "AWS KMS and TLS for encryption protocols.",
+      "severity_score": 94
     },
     {
-      "title": "Intrusion Detection System",
-      "description": "Monitors network for suspicious activity.",
-      "technical_spec": "AWS GuardDuty for anomaly detection.",
+      "title": "Security Monitoring and Incident Response",
+      "description": "Continuous monitoring and logging to detect suspicious activities.",
+      "technical_spec": "AWS CloudTrail and AWS GuardDuty for security intelligence.",
+      "severity_score": 91
+    },
+    {
+      "title": "Vulnerability Management",
+      "description": "Regular security assessments and patch management.",
+      "technical_spec": "AWS Inspector for evaluating application security posture.",
       "severity_score": 87
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Conducts regular security checkpoints and audits.",
-      "technical_spec": "Compliance with ISO 27001 security standards.",
-      "severity_score": 83
     }
   ]
 }

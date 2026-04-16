@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 360,
+    "rank": 370,
     "site": "whatsapp.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "2991a65bcf43f575f7ab4d8da562361c"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "d8a4ccbae07c7962dc4b81dc56c47e36"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Minimized choices on the interface to streamline decision-making for users.",
-      "technical_spec": "Simplified menu structures within chat and settings interfaces.",
-      "severity_score": 70
-    },
-    {
-      "title": "Fitts’ Law",
-      "description": "Optimizing experience by positioning frequently used elements within easy reach.",
-      "technical_spec": "Larger tappable areas on commonly used buttons like ‘Send’ and ‘Voice Note’.",
-      "severity_score": 75
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Keeping information chunks manageable for better user comprehension.",
-      "technical_spec": "Segmented user interface for settings and conversation options.",
-      "severity_score": 72
-    },
-    {
-      "title": "Jacob’s Law",
-      "description": "Leveraging user familiarity with common design patterns for ease of use.",
-      "technical_spec": "Consistent use of intuitive icons and interaction models across the app.",
+      "title": "Fitts's Law",
+      "description": "Predicts the time required to move to a target area.",
+      "technical_spec": "Optimizes button sizes and their placement to enhance usability.",
       "severity_score": 80
     },
     {
-      "title": "The Aesthetic-Usability Effect",
-      "description": "Aesthetic design that enhances overall usability perception.",
-      "technical_spec": "Simple yet modern interface design that focuses on user content.",
-      "severity_score": 78
+      "title": "Hick's Law",
+      "description": "Describes the time it takes to make a decision based on the choices available.",
+      "technical_spec": "Simplifies UI by reducing choice overload.",
+      "severity_score": 85
+    },
+    {
+      "title": "Aesthetic-Usability Effect",
+      "description": "Users perceive aesthetically pleasing design as more usable.",
+      "technical_spec": "Employs clean typography and a soothing color palette.",
+      "severity_score": 90
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "States users spend most time on other sites and prefer consistency.",
+      "technical_spec": "Adopts conventional design patterns to enhance familiarity.",
+      "severity_score": 88
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Items close to each other are perceived as a group.",
+      "technical_spec": "Groups related functions and content to improve navigation.",
+      "severity_score": 82
     }
   ]
 }

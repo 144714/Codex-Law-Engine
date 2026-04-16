@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 353,
+    "rank": 363,
     "site": "apple.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "72e5107442f5784b0bf1d7f4f72b4fbd"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "d36a5ade7d22157125b9f2e2da2594b4"
   },
   "data": [
     {
       "title": "Fitts's Law",
-      "description": "The time to acquire a target is a function of the distance and size of the target.",
-      "technical_spec": "Ensures button size and placement facilitate easy interactions.",
-      "severity_score": 50
+      "description": "Consideration of ergonomics in button size and placement for user efficiency.",
+      "technical_spec": "Intuitive UI design for easy navigation.",
+      "severity_score": 15
     },
     {
       "title": "Hick's Law",
-      "description": "Decision-making time increases with the number of choices.",
-      "technical_spec": "Streamlined navigation reduces cognitive load for users.",
-      "severity_score": 60
+      "description": "Limits choices per page to facilitate faster decision-making by users.",
+      "technical_spec": "Minimalist design.",
+      "severity_score": 20
     },
     {
-      "title": "Jakob's Law",
-      "description": "Users spend most of their time on other sites, expecting yours to work the same way.",
-      "technical_spec": "Adopts common design patterns for familiarity.",
-      "severity_score": 40
+      "title": "Miller's Law",
+      "description": "Keeps information chunks manageable to optimize memory recall.",
+      "technical_spec": "Chunking content pieces.",
+      "severity_score": 10
     },
     {
-      "title": "Law of Proximity",
-      "description": "Objects near each other are perceived as related.",
-      "technical_spec": "Groups related elements together visually to signify relationship.",
-      "severity_score": 45
+      "title": "Laws of Proximity",
+      "description": "Utilizes proximity in design elements to construct a logical and organized interface.",
+      "technical_spec": "Grids and grouping technologies.",
+      "severity_score": 5
     },
     {
-      "title": "Peak-End Rule",
-      "description": "People judge an experience based on how they felt at its peak and at its end.",
-      "technical_spec": "Focuses on crucial interaction points to enhance user satisfaction.",
-      "severity_score": 70
+      "title": "Aesthetic-Usability Effect",
+      "description": "Models an intuitive and engaging visual appearance to enhance user satisfaction.",
+      "technical_spec": "High-fidelity design prototypes.",
+      "severity_score": 25
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 360,
+    "rank": 370,
     "site": "whatsapp.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "0a1477655b9387d8151521d2138e4ce1"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "5b040f534a69c89065cfb9681f5dcfcf"
   },
   "data": [
     {
-      "title": "Two-Step Verification",
-      "description": "Adds an extra layer of security by requiring a second form of identification.",
-      "technical_spec": "Optional PIN during sign-in to prevent unauthorized access.",
-      "severity_score": 88
+      "title": "End-to-End Encryption",
+      "description": "Encrypts messages between sender and receiver.",
+      "technical_spec": "Utilizes the Signal Protocol for encryption.",
+      "severity_score": 95
     },
     {
-      "title": "Automatic Security Updates",
-      "description": "Regular updates to patch vulnerabilities and add security enhancements.",
-      "technical_spec": "Automated patch management system powered by cloud-update services.",
+      "title": "Two-Factor Authentication",
+      "description": "Adds an extra layer of security during login.",
+      "technical_spec": "Uses SMS or App-based authentication codes.",
       "severity_score": 90
     },
     {
-      "title": "Spam and Abuse Detection",
-      "description": "Mechanisms to detect and block spam activities and account abuses.",
-      "technical_spec": "Machine learning models analyzing user behavior patterns for anomalies.",
+      "title": "Regular Security Audits",
+      "description": "Conducts periodic evaluations of the security measures.",
+      "technical_spec": "Employs both automated scans and manual pen-testing.",
       "severity_score": 85
     },
     {
-      "title": "Data Encryption at Rest",
-      "description": "Ensures that data stored on servers remain secure from unauthorized access.",
-      "technical_spec": "Uses AES-256 encryption for data stored within WhatsApp's servers.",
-      "severity_score": 93
+      "title": "Firewall Protection",
+      "description": "Prevents unauthorized access to network resources.",
+      "technical_spec": "Utilizes both network-level and host-level firewalls.",
+      "severity_score": 80
     },
     {
-      "title": "User Privacy Settings",
-      "description": "Comprehensive privacy settings giving users control over visibility",
-      "technical_spec": "Granular privacy options for profile visibility and contact permissions.",
-      "severity_score": 80
+      "title": "Data Anonymization",
+      "description": "Protects personal user data by making it anonymous.",
+      "technical_spec": "Implements techniques like data masking and tokenization.",
+      "severity_score": 75
     }
   ]
 }

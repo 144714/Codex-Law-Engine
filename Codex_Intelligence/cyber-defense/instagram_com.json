@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 359,
+    "rank": 369,
     "site": "instagram.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "f121229948f5eabd716793b3c1f8c602"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "4432c743ab792ae0a2a205821c92435b"
   },
   "data": [
     {
       "title": "Data Encryption",
-      "description": "Employs end-to-end encryption to protect user data from unauthorized access.",
-      "technical_spec": "TLS/SSL used for data in transit; AES-256 for data at rest.",
-      "severity_score": 85
+      "description": "Ensures all sensitive data in transit is encrypted using TLS 1.2 or higher.",
+      "technical_spec": "TLS across all data exchange, AES-256 for stored data.",
+      "severity_score": 25
     },
     {
-      "title": "Account Security Measures",
-      "description": "Provides two-factor authentication and advanced automated detection for suspicious activities.",
-      "technical_spec": "Login verification via SMS/email, anomaly detection algorithms.",
-      "severity_score": 80
+      "title": "Two-Factor Authentication",
+      "description": "Provides an optional 2FA mechanism to enhance user account security.",
+      "technical_spec": "Supports authentication apps like Google Authenticator for time-based codes.",
+      "severity_score": 15
     },
     {
-      "title": "Bot and Spam Prevention",
-      "description": "Combination of machine learning and manual checks to prevent bots.",
-      "technical_spec": "Python scripts and CAPTCHA solutions in place.",
-      "severity_score": 70
+      "title": "Rate Limiting",
+      "description": "Implements rate limiting to prevent DDoS attacks and API abuse.",
+      "technical_spec": "Configurable limits using API gateways and middleware.",
+      "severity_score": 50
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic security assessments to identify vulnerabilities.",
-      "technical_spec": "Penetration tests, code reviews, and vulnerability scanning tools.",
-      "severity_score": 65
+      "title": "Vulnerability Scanning",
+      "description": "Conducts regular vulnerability scans and penetration testing on infrastructure.",
+      "technical_spec": "Tools like Qualys and internal penetration testing teams.",
+      "severity_score": 30
     },
     {
-      "title": "Privacy Settings",
-      "description": "Offers customizable privacy settings for user content visibility.",
-      "technical_spec": "Profile privacy controls, blocking, and reporting features.",
-      "severity_score": 60
+      "title": "User Privacy Controls",
+      "description": "Offers users comprehensive privacy settings to manage data visibility.",
+      "technical_spec": "Custom privacy settings, GDPR compliance tools.",
+      "severity_score": 40
     }
   ]
 }

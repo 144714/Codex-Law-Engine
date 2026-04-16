@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 360,
+    "rank": 370,
     "site": "whatsapp.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "b672aae12f323c79c0c95d107d473608"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "f6017446ebea578d7345682d063b617f"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "WhatsApp uses a microservices architecture to ensure scalability and reliability.",
-      "technical_spec": "Deployment of isolated microservices for messaging, authentication, media handling, etc.",
-      "severity_score": 75
-    },
-    {
-      "title": "End-to-End Encryption",
-      "description": "All communication is encrypted from sender to receiver with encryption keys stored only on user devices.",
-      "technical_spec": "Signal Protocol for encryption, using AES256 and RSA2048.",
-      "severity_score": 95
-    },
-    {
-      "title": "Data Sync and Consistency",
-      "description": "Ensures user messages and media are synced across different devices consistently.",
-      "technical_spec": "Utilizes protocol buffers and local caches to manage data state.",
-      "severity_score": 80
-    },
-    {
-      "title": "Infrastructure",
-      "description": "Runs on Facebook’s scalable cloud infrastructure to handle billions of active users.",
-      "technical_spec": "Backbone of scalable distributed database systems and distributed queues.",
+      "title": "Load Balancing",
+      "description": "Ensures even distribution of user traffic across servers.",
+      "technical_spec": "Implements algorithms such as round-robin or IP-hash.",
       "severity_score": 85
     },
     {
-      "title": "Cross-Platform Compatibility",
-      "description": "Enables application usage across different operating systems and devices.",
-      "technical_spec": "Uses React Native for a unified codebase respecting native UX paradigms.",
+      "title": "Microservices Architecture",
+      "description": "Decomposes the application into smaller, independent services.",
+      "technical_spec": "Utilizes Docker containers and Kubernetes for orchestration.",
+      "severity_score": 90
+    },
+    {
+      "title": "API Gateway",
+      "description": "Serves as the entry point for client requests.",
+      "technical_spec": "Employs rate limiting and authentication protocols.",
+      "severity_score": 80
+    },
+    {
+      "title": "Database Sharding",
+      "description": "Splits database into smaller, distributed segments.",
+      "technical_spec": "Uses Hash Sharding to distribute user data.",
+      "severity_score": 75
+    },
+    {
+      "title": "Asynchronous Messaging",
+      "description": "Handles communication across services non-linearly.",
+      "technical_spec": "Uses messaging queues like RabbitMQ or Kafka.",
       "severity_score": 70
     }
   ]

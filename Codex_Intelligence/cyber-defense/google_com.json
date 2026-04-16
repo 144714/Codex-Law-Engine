@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 351,
+    "rank": 361,
     "site": "google.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "681e4bd537d2f08a68f661d4033f4e58"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "5995f1cbb427188f0dd6ebba89c516d8"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Data is encrypted at rest and in transit to ensure high security and privacy.",
-      "technical_spec": "Use of TLS for data in transit, AES-256 for data at rest.",
-      "severity_score": 96
+      "title": "SSL/TLS Encryption",
+      "description": "Google enforces strong SSL/TLS encryption across its services.",
+      "technical_spec": "TLS 1.3 used to secure data transfer between users and servers.",
+      "severity_score": 15
     },
     {
-      "title": "Threat Detection Systems",
-      "description": "Advanced threat detection mechanisms to identify and mitigate potential security threats.",
-      "technical_spec": "Machine learning algorithms and real-time monitoring for anomalous activities.",
-      "severity_score": 95
+      "title": "Safe Browsing",
+      "description": "Proactive protection against potential phishing sites and malware.",
+      "technical_spec": "Database feeds browsers with updates on unsafe sites.",
+      "severity_score": 10
     },
     {
-      "title": "DDoS Protection",
-      "description": "Robust DDoS mitigation strategies to protect against large-scale distributed denial of service attacks.",
-      "technical_spec": "Use of global infrastructure and traffic analysis to disperse and handle volume spikes.",
-      "severity_score": 97
+      "title": "Account Security Measures",
+      "description": "Multi-factor authentication (MFA) is encouraged for user accounts.",
+      "technical_spec": "Uses SMS, authenticator apps, and hardware keys for MFA.",
+      "severity_score": 25
     },
     {
-      "title": "Authentication Protocols",
-      "description": "Multi-factor authentication and advanced authentication protocols to secure user accounts.",
-      "technical_spec": "OAuth 2.0 for secure access and 2-step verification for additional security layers.",
-      "severity_score": 92
+      "title": "Infrastructure Security",
+      "description": "Data centers are equipped with extensive physical and logical security.",
+      "technical_spec": "Custom hardware, identity management, and secure boot processes.",
+      "severity_score": 20
     },
     {
-      "title": "Security Patch Management",
-      "description": "Regular updates and patch management to protect against known vulnerabilities.",
-      "technical_spec": "Continuous integration and deployment practices to roll out security patches.",
-      "severity_score": 93
+      "title": "Vulnerability Reward Program",
+      "description": "Bug bounty program to incentivize discovery of security flaws.",
+      "technical_spec": "Rewards for researchers identifying vulnerabilities across products.",
+      "severity_score": 35
     }
   ]
 }

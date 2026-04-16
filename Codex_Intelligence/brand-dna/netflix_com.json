@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 356,
+    "rank": 366,
     "site": "netflix.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "53f069a9600347ad8c7d1dbfb5fa4275"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "ee307826332c7ad349d87e9c07fcdd85"
   },
   "data": [
     {
-      "title": "Innovative Content Delivery",
-      "description": "Pioneers in streaming technology and original content production.",
-      "technical_spec": "Continuous advancement in streaming quality and interactive content.",
-      "severity_score": 55
+      "title": "Content Variety",
+      "description": "Offering a diverse range of content to appeal to global audiences.",
+      "technical_spec": "Extensive catalog across various genres, languages, and formats.",
+      "severity_score": 15
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focuses on delivering an intuitive and personalized user experience.",
-      "technical_spec": "Algorithm-driven personalization and UI/UX enhancements.",
-      "severity_score": 35
+      "title": "Personalized Experience",
+      "description": "Customizing user experience based on viewing history and preferences.",
+      "technical_spec": "Machine learning algorithms powering recommendation engines.",
+      "severity_score": 25
+    },
+    {
+      "title": "Original Programming",
+      "description": "Investing in Netflix Originals to enhance unique content offerings.",
+      "technical_spec": "High-budget productions spanning multiple formats and regions.",
+      "severity_score": 10
     },
     {
       "title": "Global Reach",
-      "description": "Accessible to a vast audience worldwide with localized content.",
-      "technical_spec": "Multi-language support and region-specific offerings.",
-      "severity_score": 60
+      "description": "Accessibility and adaptation of content for international markets.",
+      "technical_spec": "Subtitles and dubbing in multiple languages, region-specific strategies.",
+      "severity_score": 20
     },
     {
-      "title": "Content Diversity",
-      "description": "Offers a wide range of genres and formats to cater to diverse audiences.",
-      "technical_spec": "Extensive library with tailored recommendations.",
-      "severity_score": 70
-    },
-    {
-      "title": "Technological Leadership",
-      "description": "Leader in adopting and developing new technologies to enhance streaming.",
-      "technical_spec": "Research and implementation of AI, ML, and data analytics.",
-      "severity_score": 65
+      "title": "User-Centric Design",
+      "description": "Focusing on user-friendly and intuitive design elements.",
+      "technical_spec": "Consistent updates to interface and functionality based on user feedback.",
+      "severity_score": 30
     }
   ]
 }

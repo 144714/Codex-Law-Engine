@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 354,
+    "rank": 364,
     "site": "microsoft.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "be9341a554fb05f1d9fc0b324ecb0c6b"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "a618188ce16c73644e588ca3fe27654d"
   },
   "data": [
     {
-      "title": "Multi-factor Authentication",
-      "description": "Adds an additional layer of security to logins against unauthorized access.",
-      "technical_spec": "Integration with Azure AD's MFA.",
-      "severity_score": 90
+      "title": "Active Directory Security",
+      "description": "Utilizes enterprise-grade identity protection and management.",
+      "technical_spec": "Azure Active Directory, Multi-Factor Authentication",
+      "severity_score": 30
     },
     {
-      "title": "Advanced Threat Protection",
-      "description": "Real-time detection and response to cyber threats.",
-      "technical_spec": "Microsoft Defender ATP implementation.",
-      "severity_score": 88
+      "title": "Threat Detection",
+      "description": "Proactive threat detection using machine learning-based tools.",
+      "technical_spec": "Azure Sentinel, Microsoft Defender for Cloud",
+      "severity_score": 40
     },
     {
-      "title": "Data Encryption Protocols",
-      "description": "Encrypts all user data both in transit and at rest.",
-      "technical_spec": "AES-256 and TLS 1.2 standards.",
-      "severity_score": 92
+      "title": "Data Encryption",
+      "description": "End-to-end encryption to protect data in transit and at rest.",
+      "technical_spec": "TLS/SSL, AES-256 encryption",
+      "severity_score": 35
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Routine security inspections to identify vulnerabilities.",
-      "technical_spec": "Automated penetration testing tools.",
-      "severity_score": 85
+      "title": "Network Security",
+      "description": "Comprehensive network protection with firewall and DDoS protection.",
+      "technical_spec": "Azure Firewall, DDoS Protection, Network Security Groups",
+      "severity_score": 20
     },
     {
-      "title": "Firewall and DDoS Protection",
-      "description": "Prevents unauthorized network access and mitigates DDoS attacks.",
-      "technical_spec": "Azure Firewall setup with WAF policies.",
-      "severity_score": 87
+      "title": "Compliance and Auditing",
+      "description": "Regular compliance checks and audits to maintain security standards.",
+      "technical_spec": "Azure Policy, Compliance Manager",
+      "severity_score": 15
     }
   ]
 }

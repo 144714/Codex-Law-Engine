@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 351,
+    "rank": 361,
     "site": "google.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "63dabdaf578265291d659b2e19bd9629"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "359d5a35d477866497c6204ea61c69cc"
   },
   "data": [
     {
-      "title": "Innovation Leadership",
-      "description": "Continual creation of disruptive technologies and creative solutions.",
-      "technical_spec": "Investment in R&D and fostering a company culture that encourages experimentation.",
-      "severity_score": 98
+      "title": "Innovation",
+      "description": "Continual investment in developing cutting-edge technologies.",
+      "technical_spec": "Project Loon, DeepMind initiatives, and ongoing research.",
+      "severity_score": 30
     },
     {
-      "title": "Global Accessibility",
-      "description": "Ensuring global access to information in a decentralized manner.",
-      "technical_spec": "Compliance with web accessibility standards and multilanguage support.",
-      "severity_score": 95
+      "title": "Accessibility",
+      "description": "Commitment to making information universally accessible.",
+      "technical_spec": "Accessibility features built into products like Google Assistant.",
+      "severity_score": 20
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focus on simplicity, ease of use, and user satisfaction.",
-      "technical_spec": "Iterative design processes driven by user feedback and usability testing.",
-      "severity_score": 94
+      "title": "Scalability",
+      "description": "Ability to handle massive amounts of data and users seamlessly.",
+      "technical_spec": "Data centers designed for scalability and efficiency.",
+      "severity_score": 25
     },
     {
-      "title": "Environmental Responsibility",
-      "description": "Commitment to sustainable operations and energy consumption.",
-      "technical_spec": "Use of renewable energy sources and efficient data center technologies.",
-      "severity_score": 92
+      "title": "Privacy and Security",
+      "description": "Focus on protecting user data and privacy across services.",
+      "technical_spec": "Data anonymization, encryption, and transparency reports.",
+      "severity_score": 30
     },
     {
-      "title": "Data Privacy Commitment",
-      "description": "Ensuring users’ data privacy and adherence to privacy norms.",
-      "technical_spec": "Strong data governance policies and compliance with international privacy laws.",
-      "severity_score": 96
+      "title": "Community Engagement",
+      "description": "Initiatives to engage and support the global community.",
+      "technical_spec": "Open-source projects, educational platforms, and developer forums.",
+      "severity_score": 15
     }
   ]
 }

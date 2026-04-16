@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 359,
+    "rank": 369,
     "site": "instagram.com",
-    "date": "2026-04-16 04:45",
-    "integrity_hash": "cb22c870f65a0d29756eb3e2059a8d67"
+    "date": "2026-04-16 06:29",
+    "integrity_hash": "61d0f3001c78b81c099a40f23f4733de"
   },
   "data": [
     {
       "title": "Visual Storytelling",
-      "description": "Emphasizes the importance of sharing visual content, connecting people worldwide.",
-      "technical_spec": "Algorithms prioritize engaging media content in feeds.",
-      "severity_score": 40
-    },
-    {
-      "title": "Community Building",
-      "description": "Fosters strong community engagement through features that enable interaction.",
-      "technical_spec": "Comments, likes, DMs, and live interactions built into the platform.",
+      "description": "Instagram's core feature facilitates sharing and viewing visual narratives.",
+      "technical_spec": "Carousel posts, stories, reels for diverse content formats.",
       "severity_score": 30
     },
     {
-      "title": "Innovation in Features",
-      "description": "Constantly innovates with features like Stories and Reels to keep audiences engaged.",
-      "technical_spec": "Rolling updates and user-testing loop for new feature deployment.",
+      "title": "Community Engagement",
+      "description": "Focuses on building community through interactive content and engagement.",
+      "technical_spec": "Comments, likes, DMs, and collaborative posts.",
       "severity_score": 20
     },
     {
-      "title": "Personalized Content",
-      "description": "Utilizes data-driven algorithms to tailor content to individual user interests.",
-      "technical_spec": "Machine learning models analyze user behavior for feed curation.",
-      "severity_score": 50
+      "title": "Influencer Marketing Platform",
+      "description": "Empowers brands and creators to engage audiences effectively.",
+      "technical_spec": "Influencer tools, insights, and branded content features.",
+      "severity_score": 25
     },
     {
-      "title": "Brand Consistency",
-      "description": "Maintains consistent visual and thematic elements across the platform.",
-      "technical_spec": "Brand guidelines dictate color, font, and style usage.",
+      "title": "Mobile-Centric Design",
+      "description": "Prioritizes mobile experience as primary interaction platform.",
+      "technical_spec": "Mobile-first design with app-exclusive features.",
       "severity_score": 35
+    },
+    {
+      "title": "Continuous Innovation",
+      "description": "Consistently evolves features based on feedback and market trends.",
+      "technical_spec": "Feature trials, user feedback loops, rapid iteration cycles.",
+      "severity_score": 40
     }
   ]
 }
