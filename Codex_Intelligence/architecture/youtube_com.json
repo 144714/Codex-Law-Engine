@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 362,
+    "rank": 372,
     "site": "youtube.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "2a0b498650bb12c65e9de996e96b05dd"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "12b591e45241ac085850a75282d28851"
   },
   "data": [
     {
-      "title": "Microservices Architecture",
-      "description": "YouTube utilizes a microservices architecture to manage different features independently.",
-      "technical_spec": "Containerized services deployed on cloud infrastructure.",
+      "title": "Scalable Video Delivery",
+      "description": "YouTube employs a global content delivery network to ensure fast video streaming.",
+      "technical_spec": "Utilizes CDNs distributed worldwide for low latency content delivery.",
       "severity_score": 10
     },
     {
-      "title": "Content Delivery Network (CDN)",
-      "description": "A global network of servers to deliver video content efficiently.",
-      "technical_spec": "Utilizes Google's CDN for low latency and high-speed delivery.",
+      "title": "Microservices Architecture",
+      "description": "Decomposes the application into smaller, independently deployable services.",
+      "technical_spec": "REST APIs connect various microservices for seamless user interaction and data management.",
       "severity_score": 15
     },
     {
-      "title": "Data Storage Solutions",
-      "description": "Distributed storage systems for scalable and reliable data management.",
-      "technical_spec": "Combination of Google Cloud Storage and BigTable.",
+      "title": "Large-Scale Data Management",
+      "description": "Handles vast amounts of user and video data using efficient storage and retrieval strategies.",
+      "technical_spec": "Bigtable and Spanner databases ensure consistency and quick access to data.",
       "severity_score": 20
     },
     {
-      "title": "Load Balancing",
-      "description": "Ensures efficient distribution of incoming network traffic.",
-      "technical_spec": "Implemented via advanced load balancing techniques.",
-      "severity_score": 18
+      "title": "Full-Text Search Algorithms",
+      "description": "Allows efficient search through billions of videos to deliver relevant results.",
+      "technical_spec": "Utilizes inverted indexing and advanced search algorithms to retrieve video metadata.",
+      "severity_score": 25
     },
     {
-      "title": "API Gateway",
-      "description": "Centralized entry point for service interactions.",
-      "technical_spec": "Manages communication between different services and clients.",
-      "severity_score": 22
+      "title": "Adaptive Bitrate Streaming",
+      "description": "Automates video quality adjustments to match the user's internet speed.",
+      "technical_spec": "MPEG-DASH and HTTP Live Streaming (HLS) protocols optimize video playback experience.",
+      "severity_score": 12
     }
   ]
 }

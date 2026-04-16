@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 368,
+    "rank": 378,
     "site": "adobe.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "35b4efba34d342107fee02aef3a78ade"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "d52474ece6d42433987fa533c1e6e560"
   },
   "data": [
     {
-      "title": "Hick's Law Utilization",
-      "description": "Reducing user choice complexity to improve interface decisions.",
-      "technical_spec": "Simplified menu options and categorized tools for streamlined navigation.",
-      "severity_score": 15
+      "title": "Hick's Law",
+      "description": "Simplifies user choices to improve decision-making speed.",
+      "technical_spec": "Streamlined navigation and minimized options per screen.",
+      "severity_score": 30
     },
     {
-      "title": "Fitts's Law Application",
-      "description": "Design elements are optimized for quicker access based on size and proximity.",
-      "technical_spec": "Enhanced clickable area for frequently used tools and buttons.",
-      "severity_score": 8
+      "title": "Fitts's Law",
+      "description": "Designs interactive elements that are easy to click or tap.",
+      "technical_spec": "Large, easily clickable/tappable buttons and links.",
+      "severity_score": 35
+    },
+    {
+      "title": "Visual Hierarchy",
+      "description": "Emphasizes important elements to guide user attention.",
+      "technical_spec": "Contrast, size, and positioning to establish hierarchy.",
+      "severity_score": 25
     },
     {
       "title": "Gestalt Principles",
-      "description": "Consistency in visual layout, grouping related elements for cognitive ease.",
-      "technical_spec": "Uniform theming and color palettes across applications.",
-      "severity_score": 10
+      "description": "Uses visual grouping to enhance perception and comprehension.",
+      "technical_spec": "Consistent patterns and proximity-based grouping.",
+      "severity_score": 40
     },
     {
-      "title": "Doherty Threshold Implementation",
-      "description": "Meeting user reaction times to enhance usability satisfaction.",
-      "technical_spec": "Ensures systems respond uunder 400 ms to keep user attention.",
-      "severity_score": 12
-    },
-    {
-      "title": "Jakob’s Law of Internet Assumption",
-      "description": "Keeping design familiarity across applications to match user expectations.",
-      "technical_spec": "UI patterns consistent with common web applications.",
-      "severity_score": 9
+      "title": "Aesthetic-Usability Effect",
+      "description": "Prioritizes both functionality and pleasing design.",
+      "technical_spec": "Balanced color schemes, intuitive design elements.",
+      "severity_score": 20
     }
   ]
 }

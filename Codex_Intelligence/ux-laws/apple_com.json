@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 363,
+    "rank": 373,
     "site": "apple.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "d36a5ade7d22157125b9f2e2da2594b4"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "eaa5c22799f29b58b2661972ee3f2731"
   },
   "data": [
     {
-      "title": "Fitts's Law",
-      "description": "Consideration of ergonomics in button size and placement for user efficiency.",
-      "technical_spec": "Intuitive UI design for easy navigation.",
-      "severity_score": 15
-    },
-    {
       "title": "Hick's Law",
-      "description": "Limits choices per page to facilitate faster decision-making by users.",
-      "technical_spec": "Minimalist design.",
-      "severity_score": 20
+      "description": "Minimized choices to reduce decision time for users.",
+      "technical_spec": "Simplified navigation with clear call-to-action paths.",
+      "severity_score": 88
     },
     {
-      "title": "Miller's Law",
-      "description": "Keeps information chunks manageable to optimize memory recall.",
-      "technical_spec": "Chunking content pieces.",
-      "severity_score": 10
+      "title": "Fitts's Law",
+      "description": "Focused on making interactive elements easily accessible.",
+      "technical_spec": "Properly spaced and adequately sized buttons and links.",
+      "severity_score": 92
     },
     {
-      "title": "Laws of Proximity",
-      "description": "Utilizes proximity in design elements to construct a logical and organized interface.",
-      "technical_spec": "Grids and grouping technologies.",
-      "severity_score": 5
+      "title": "Miller’s Law",
+      "description": "Content is organized into small, digestible groups.",
+      "technical_spec": "Use of bullet points and concise text blocks.",
+      "severity_score": 90
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Models an intuitive and engaging visual appearance to enhance user satisfaction.",
-      "technical_spec": "High-fidelity design prototypes.",
-      "severity_score": 25
+      "title": "Jakob’s Law",
+      "description": "Design consistency across the site makes it intuitive.",
+      "technical_spec": "Consistent design patterns and visually coherent UI.",
+      "severity_score": 91
+    },
+    {
+      "title": "Law of Proximity",
+      "description": "Elements related by functionality are grouped together.",
+      "technical_spec": "Logical content grouping for intuitive user flow.",
+      "severity_score": 89
     }
   ]
 }

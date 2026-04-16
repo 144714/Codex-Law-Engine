@@ -1,39 +1,39 @@
 {
   "meta": {
-    "rank": 362,
+    "rank": 372,
     "site": "youtube.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "fede7318daeda9783a6bfeb42c658f6b"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "090b84e82b412871bb9d8b6df63f5728"
   },
   "data": [
     {
-      "title": "Content Moderation",
-      "description": "Prevents harmful or inappropriate content using AI and manual reviews.",
-      "technical_spec": "Automated systems enhanced by human oversight.",
-      "severity_score": 25
-    },
-    {
-      "title": "User Data Encryption",
-      "description": "Protects user data through encryption during transit and at rest.",
-      "technical_spec": "TLS for data in transit and strong encryption standards.",
+      "title": "Data Encryption",
+      "description": "Ensures all data, whether at rest or in transit, are securely encrypted.",
+      "technical_spec": "AES-256 and TLS encryptions protect user information and video data.",
       "severity_score": 30
     },
     {
-      "title": "DDoS Protection",
-      "description": "Mitigates Distributed Denial of Service attacks.",
-      "technical_spec": "Incorporates robotic mitigation technology and Google’s infrastructure.",
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Provides an additional security layer for user accounts.",
+      "technical_spec": "Google Authenticator or SMS-based verification used for account login validity.",
+      "severity_score": 40
+    },
+    {
+      "title": "DDoS Mitigation",
+      "description": "Prevents Distributed Denial of Service attacks to maintain service availability.",
+      "technical_spec": "Uses global load balancing and traffic throttling to mitigate attack impact.",
       "severity_score": 28
     },
     {
-      "title": "Authentication Mechanisms",
-      "description": "Strengthens account security through multifactor authentication.",
-      "technical_spec": "Google account integration with two-step verification.",
+      "title": "Content Moderation and Flagging",
+      "description": "Combines AI and human review to maintain platform integrity and user safety.",
+      "technical_spec": "Machine learning algorithms detect and flag potentially harmful content for review.",
       "severity_score": 35
     },
     {
-      "title": "Security Audits and Patch Management",
-      "description": "Regular security audits and updates to ensure system integrity.",
-      "technical_spec": "Proactive scanning and prompt vulnerability patching.",
+      "title": "Regular Security Audits",
+      "description": "Conducts periodic evaluations to assess and strengthen security measures.",
+      "technical_spec": "Utilizes third-party services and internal audits to identify vulnerabilities.",
       "severity_score": 32
     }
   ]

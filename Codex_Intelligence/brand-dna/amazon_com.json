@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 365,
+    "rank": 375,
     "site": "amazon.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "25c6103e1a62a9e736c8f4593cb4b8bf"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "15d480b4dbea5a4c995ff4cc08a44672"
   },
   "data": [
     {
       "title": "Customer Obsession",
-      "description": "Focus on long-term customer satisfaction and service excellence.",
-      "technical_spec": "Customer feedback loops and personalized recommendations.",
-      "severity_score": 97
+      "description": "Puts the customer at the heart of every decision and innovation.",
+      "technical_spec": "Feedback loops, iterative testing, and user experience monitoring.",
+      "severity_score": 5
     },
     {
       "title": "Operational Excellence",
-      "description": "Continuous improvement of processes to optimize operational flow.",
-      "technical_spec": "Lean management practices and metrics-driven operations.",
-      "severity_score": 94
+      "description": "Strives for continued optimization of operational processes.",
+      "technical_spec": "Automation of supply chain, rigorous process analysis.",
+      "severity_score": 7
     },
     {
-      "title": "Innovation Leadership",
-      "description": "Commitment to technology and market innovation.",
-      "technical_spec": "Investment in R&D and proprietary technology development.",
-      "severity_score": 96
+      "title": "Innovation Commitment",
+      "description": "Prioritizes breakthrough technologies and novel solutions.",
+      "technical_spec": "Investment in R&D, partnerships with tech innovators.",
+      "severity_score": 10
     },
     {
-      "title": "Global Reach with Local Focus",
-      "description": "Customizing services to cater to local market needs while maintaining a global brand image.",
-      "technical_spec": "Localized websites and regional supply chain management.",
-      "severity_score": 92
+      "title": "Global Reach and Diversity",
+      "description": "Focuses on expanding and serving a global customer base.",
+      "technical_spec": "Localization strategies, diverse product selections, and international shipping.",
+      "severity_score": 12
     },
     {
-      "title": "Sustainability Efforts",
-      "description": "Initiatives to reduce carbon footprint and promote eco-friendly operations.",
-      "technical_spec": "Deployment of renewable energy sources and sustainable packaging.",
-      "severity_score": 90
+      "title": "Sustainability Initiatives",
+      "description": "Invests in sustainable practices to minimize environmental impact.",
+      "technical_spec": "Commitment to renewable energy, packaging innovations.",
+      "severity_score": 8
     }
   ]
 }

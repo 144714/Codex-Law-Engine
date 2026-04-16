@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 361,
+    "rank": 371,
     "site": "google.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "359d5a35d477866497c6204ea61c69cc"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "7ff0db26e62915d6edfc7326a0ac9fdc"
   },
   "data": [
     {
+      "title": "Simplicity and Speed",
+      "description": "Focuses on fast and simple user interactions.",
+      "technical_spec": "Minimalistic design, instant responses, and quick load times.",
+      "severity_score": 1
+    },
+    {
+      "title": "Global Recognition",
+      "description": "Maintains a leading position in global market awareness.",
+      "technical_spec": "Uniform branding and ubiquitous presence.",
+      "severity_score": 1
+    },
+    {
       "title": "Innovation",
-      "description": "Continual investment in developing cutting-edge technologies.",
-      "technical_spec": "Project Loon, DeepMind initiatives, and ongoing research.",
-      "severity_score": 30
+      "description": "Consistently integrates cutting-edge technology into services.",
+      "technical_spec": "AI, ML advancements, and user-driven features.",
+      "severity_score": 2
     },
     {
-      "title": "Accessibility",
-      "description": "Commitment to making information universally accessible.",
-      "technical_spec": "Accessibility features built into products like Google Assistant.",
-      "severity_score": 20
+      "title": "User-Centered Design",
+      "description": "Prioritizes the needs and preferences of its users in design choices.",
+      "technical_spec": "Continuous user feedback integration and A/B testing.",
+      "severity_score": 3
     },
     {
-      "title": "Scalability",
-      "description": "Ability to handle massive amounts of data and users seamlessly.",
-      "technical_spec": "Data centers designed for scalability and efficiency.",
-      "severity_score": 25
-    },
-    {
-      "title": "Privacy and Security",
-      "description": "Focus on protecting user data and privacy across services.",
-      "technical_spec": "Data anonymization, encryption, and transparency reports.",
-      "severity_score": 30
-    },
-    {
-      "title": "Community Engagement",
-      "description": "Initiatives to engage and support the global community.",
-      "technical_spec": "Open-source projects, educational platforms, and developer forums.",
-      "severity_score": 15
+      "title": "Trust and Security",
+      "description": "Builds trust with comprehensive security and privacy measures.",
+      "technical_spec": "Transparent privacy policies and robust security implementations.",
+      "severity_score": 5
     }
   ]
 }

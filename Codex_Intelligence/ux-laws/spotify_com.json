@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 367,
+    "rank": 377,
     "site": "spotify.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "71f47fcf1145cbaa89285904a01ac77e"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "8c111c3e29c822fe283cf4660a24fb2e"
   },
   "data": [
     {
-      "title": "Hick’s Law",
-      "description": "Simplifies user choice to improve decision-making times.",
-      "technical_spec": "Within app navigation, presenting options in a clear manner.",
-      "severity_score": 5
+      "title": "Hick's Law",
+      "description": "Limits user choices to improve decision-making time and user satisfaction.",
+      "technical_spec": "Designs interfaces with a minimalistic approach to choices and navigation.",
+      "severity_score": 6
     },
     {
-      "title": "Fitts’s Law",
-      "description": "Design principle explaining the time required to move to a target area.",
-      "technical_spec": "Consistent and large touch targets for mobile interfaces.",
-      "severity_score": 10
-    },
-    {
-      "title": "Gestalt Principles",
-      "description": "Allows users to visually group related elements for coherent understanding.",
-      "technical_spec": "Utilizes proximity, similarity, and continuity in UI design.",
+      "title": "Fitts's Law",
+      "description": "Optimizes control size and arrangement for better user interaction.",
+      "technical_spec": "Ensures larger touch targets for commonly used buttons and actions.",
       "severity_score": 8
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Users spend most of their time on other sites and prefer similar experiences.",
-      "technical_spec": "Spotify's interface follows common music app conventions.",
-      "severity_score": 12
+      "title": "Affordance",
+      "description": "Design cues are utilized to indicate how an action can be performed.",
+      "technical_spec": "Incorporates visual and interactive design elements that suggest their usage.",
+      "severity_score": 5
     },
     {
-      "title": "Miller’s Law",
-      "description": "Organizes information into chunks to handle human memory limits.",
-      "technical_spec": "Playlists and albums as cognitive chunks in the app.",
-      "severity_score": 7
+      "title": "Aesthetic-Usability Effect",
+      "description": "Positive emotional responses to aesthetically pleasing design improve usability perception.",
+      "technical_spec": "Focuses on clean, modern design with visually appealing elements.",
+      "severity_score": 4
+    },
+    {
+      "title": "Gestalt Principles",
+      "description": "Applies principles of grouping and organization to improve user comprehension.",
+      "technical_spec": "Designs interfaces to guide user vision and interaction paths naturally.",
+      "severity_score": 6
     }
   ]
 }

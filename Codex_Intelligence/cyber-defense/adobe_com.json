@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 368,
+    "rank": 378,
     "site": "adobe.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "6f8f2df4ccb8ddf1f5990d895e70ba02"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "35e9d3ee028d41637dc3b47cf5aafd92"
   },
   "data": [
     {
-      "title": "Encryption Standards",
-      "description": "Encryption at rest and in-transit for data protection.",
-      "technical_spec": "AES-256 and TLS 1.2+ used for data encryption.",
-      "severity_score": 5
+      "title": "Web Application Firewall (WAF)",
+      "description": "Protects against common web exploits that could compromise site security.",
+      "technical_spec": "Cloudflare or AWS WAF deployment.",
+      "severity_score": 80
+    },
+    {
+      "title": "End-to-End Encryption",
+      "description": "All data is encrypted from Facebook to its databases.",
+      "technical_spec": "TLS/SSL encryption with Let's Encrypt or similar.",
+      "severity_score": 75
     },
     {
       "title": "Regular Security Audits",
-      "description": "Frequent audits help identify potential vulnerabilities and secure systems proactively.",
-      "technical_spec": "Adherence to ISO/IEC 27001 standards for security management practices.",
-      "severity_score": 12
+      "description": "Conducts frequent vulnerability assessments and penetration testing.",
+      "technical_spec": "Utilizes tools like OWASP ZAP and Burp Suite.",
+      "severity_score": 85
     },
     {
-      "title": "Comprehensive Network Security",
-      "description": "Network security measures implemented to protect against unauthorized access.",
-      "technical_spec": "Utilization of firewalls, intrusion detection systems (IDS), and intrusion prevention systems (IPS).",
-      "severity_score": 15
+      "title": "Identity and Access Management",
+      "description": "Ensures secure access to services and data through IAM solutions.",
+      "technical_spec": "Integration with Azure Active Directory or Okta.",
+      "severity_score": 70
     },
     {
-      "title": "Identity and Access Management (IAM)",
-      "description": "Strict IAM policies to control user access and permissions.",
-      "technical_spec": "Policies enforced through SAML and OAuth 2.0 protocols.",
-      "severity_score": 20
-    },
-    {
-      "title": "Zero Trust Architecture",
-      "description": "Adoption of Zero Trust ensures every user connection is authenticated and authorized.",
-      "technical_spec": "Continuous assessment of security posture via real-time monitoring.",
-      "severity_score": 25
+      "title": "Intrusion Detection Systems (IDS)",
+      "description": "Monitors network traffic for suspicious activities.",
+      "technical_spec": "Deployed Snort or Suricata systems.",
+      "severity_score": 90
     }
   ]
 }

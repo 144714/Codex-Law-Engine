@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 367,
+    "rank": 377,
     "site": "spotify.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "c080f003374d755065415bd659093f34"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "7dc6ad54cb4c42d1bfa9ba151147678a"
   },
   "data": [
     {
+      "title": "User Data Encryption",
+      "description": "Encrypts user data to protect privacy and ensure data security.",
+      "technical_spec": "Uses AES-256 encryption standard or similar for data protection.",
+      "severity_score": 5
+    },
+    {
       "title": "OAuth 2.0 Authentication",
-      "description": "Secures user information during login and authorization processes.",
-      "technical_spec": "Tokens generated and validated using industry standards.",
-      "severity_score": 10
-    },
-    {
-      "title": "SSL/TLS Encryption",
-      "description": "Protects data in transit across networks.",
-      "technical_spec": "Let's Encrypt or AWS SSL certificates.",
-      "severity_score": 15
-    },
-    {
-      "title": "Intrusion Detection Systems",
-      "description": "Regular monitoring to detect unusual activity or breaches.",
-      "technical_spec": "Tools might range from AWS GuardDuty to custom-built solutions.",
-      "severity_score": 40
+      "description": "Secures user authentication processes with robust authorization protocols.",
+      "technical_spec": "Utilizes OAuth 2.0 for user authentication and third-party app access.",
+      "severity_score": 12
     },
     {
       "title": "Regular Security Audits",
-      "description": "Spotify performs regular security audits to maintain data integrity.",
-      "technical_spec": "Third-party security firm engagements.",
-      "severity_score": 30
+      "description": "Conducts periodic security testing to identify and mitigate vulnerabilities.",
+      "technical_spec": "Engages in penetration testing and vulnerability assessments.",
+      "severity_score": 8
     },
     {
-      "title": "Data Anonymization Techniques",
-      "description": "Protects user data by anonymizing personally identifiable information.",
-      "technical_spec": "Database level anonymization strategies.",
-      "severity_score": 20
+      "title": "Application Layer Protection",
+      "description": "Employs measures to protect against common web application vulnerabilities.",
+      "technical_spec": "Implements WAFs to safeguard against SQL injection, XSS, etc.",
+      "severity_score": 7
+    },
+    {
+      "title": "Multi-Factor Authentication",
+      "description": "Enhances account security by requiring multiple verification methods.",
+      "technical_spec": "Offers Two-Factor Authentication for an additional layer of security.",
+      "severity_score": 10
     }
   ]
 }

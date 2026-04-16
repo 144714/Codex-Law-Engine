@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 361,
+    "rank": 371,
     "site": "google.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "ac1bf8307e8482cd1af516ca6d2f6b30"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "f554d491e9dc00978261d0ef2beef4a8"
   },
   "data": [
     {
       "title": "Fitts's Law",
-      "description": "Element proximity improves usability and user satisfaction.",
-      "technical_spec": "Strategically placed elements reduce navigation time.",
-      "severity_score": 15
+      "description": "Designs interfaces where target selection time is minimized.",
+      "technical_spec": "Clickable elements with optimal spacing and size.",
+      "severity_score": 7
     },
     {
       "title": "Hick's Law",
-      "description": "Simplified choice reduces decision time and improves user interaction.",
-      "technical_spec": "Optimizing interface choices to boost efficiency.",
-      "severity_score": 20
+      "description": "Limits decision-making time for users by minimizing choices.",
+      "technical_spec": "Streamlined options on initial landing pages.",
+      "severity_score": 15
     },
     {
-      "title": "Law of Proximity",
-      "description": "Elements that are close to each other tend to be grouped logically.",
-      "technical_spec": "Clustering related links/tools for intuitive navigation.",
+      "title": "Gestalt Principles",
+      "description": "Utilizes visual grouping to enhance user experience.",
+      "technical_spec": "Consistent use of proximity, similarity, and continuity.",
       "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Users can retain about seven items in short-term memory.",
-      "technical_spec": "Use chunking to avoid overwhelming users with information.",
-      "severity_score": 20
+      "title": "The Law of Common Region",
+      "description": "Groups relateable UI elements to improve navigation.",
+      "technical_spec": "Sections and icons enclosed within delineated regions.",
+      "severity_score": 18
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Aesthetically pleasing designs are perceived as easier to use.",
-      "technical_spec": "Clean, minimalistic design with an emphasis on visual appeal.",
-      "severity_score": 10
+      "title": "Accessibility Compliance",
+      "description": "Ensures the site is usable for all users, including those with disabilities.",
+      "technical_spec": "WCAG 2.1 standards, ARIA roles, and alt-text descriptions.",
+      "severity_score": 5
     }
   ]
 }

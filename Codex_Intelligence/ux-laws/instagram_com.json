@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 369,
+    "rank": 379,
     "site": "instagram.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "d37f8ccc982997d4b4d50327af531979"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "da2668d4dd90d416b4aef5709c717b86"
   },
   "data": [
     {
       "title": "Hick's Law",
-      "description": "Minimizes decision time by simplifying user choices through intuitive UI design.",
-      "technical_spec": "Single-screen interactions, reduced option overload in interfaces.",
-      "severity_score": 60
+      "description": "Efficient navigation is achieved by reducing the number of clickable options, aiding user decision-making processes.",
+      "technical_spec": "Optimized UI pathing, prioritizing frequently used actions.",
+      "severity_score": 10
     },
     {
-      "title": "Fitt's Law",
-      "description": "Optimizes interactive elements to improve usability.",
-      "technical_spec": "Consistently sized and located buttons for easy user access.",
-      "severity_score": 55
+      "title": "Fitts' Law",
+      "description": "Designs interfaces that accommodate quick tap interactions, considering touch target sizes and spacing.",
+      "technical_spec": "Responsive design, target size principles, gesture ease.",
+      "severity_score": 10
     },
     {
-      "title": "Doherty Threshold",
-      "description": "Ensures system feedback within 400ms to maintain user engagement.",
-      "technical_spec": "Asynchronous loading with skeleton screens for perceived speed.",
-      "severity_score": 70
+      "title": "Jakob's Law",
+      "description": "Design elements are consistent with other popular platforms to improve user familiarity and ease of use.",
+      "technical_spec": "Cross-platform design uniformity, consistency in UI/UX elements.",
+      "severity_score": 5
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Enhances visual appeal to increase perceived usability.",
-      "technical_spec": "Consistent branding with visual hierarchy and whitespace usage.",
-      "severity_score": 50
+      "title": "Miller's Law",
+      "description": "Information is presented in chunks to improve user understanding and retention.",
+      "technical_spec": "Chunking strategies, cognitive load management.",
+      "severity_score": 5
     },
     {
       "title": "Zeigarnik Effect",
-      "description": "Encourages task completion by keeping incomplete tasks prominent.",
-      "technical_spec": "Clear progression indicators, notification badges for pending actions.",
-      "severity_score": 45
+      "description": "Prioritizes displaying unfinished tasks prominently to motivate completion.",
+      "technical_spec": "Task progress indicators, completion prompts.",
+      "severity_score": 5
     }
   ]
 }

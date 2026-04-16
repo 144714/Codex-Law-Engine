@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 361,
+    "rank": 371,
     "site": "google.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "5995f1cbb427188f0dd6ebba89c516d8"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "c016a58b16113d7c1a1c439d80a1502a"
   },
   "data": [
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Google enforces strong SSL/TLS encryption across its services.",
-      "technical_spec": "TLS 1.3 used to secure data transfer between users and servers.",
-      "severity_score": 15
+      "title": "Advanced Encryption",
+      "description": "Ensures data protection with industry-standard encryption protocols.",
+      "technical_spec": "HTTPS, TLS 1.3, and Public Key Infrastructure (PKI).",
+      "severity_score": 2
     },
     {
-      "title": "Safe Browsing",
-      "description": "Proactive protection against potential phishing sites and malware.",
-      "technical_spec": "Database feeds browsers with updates on unsafe sites.",
-      "severity_score": 10
+      "title": "Real-time Threat Detection",
+      "description": "Uses real-time monitoring tools to detect and mitigate threats instantly.",
+      "technical_spec": "Behavioral analytics and anomaly detection systems.",
+      "severity_score": 4
     },
     {
-      "title": "Account Security Measures",
-      "description": "Multi-factor authentication (MFA) is encouraged for user accounts.",
-      "technical_spec": "Uses SMS, authenticator apps, and hardware keys for MFA.",
-      "severity_score": 25
+      "title": "Regular Security Audits",
+      "description": "Conducts routine security audits to identify and address vulnerabilities.",
+      "technical_spec": "Penetration testing and vulnerability scanning.",
+      "severity_score": 3
     },
     {
-      "title": "Infrastructure Security",
-      "description": "Data centers are equipped with extensive physical and logical security.",
-      "technical_spec": "Custom hardware, identity management, and secure boot processes.",
-      "severity_score": 20
+      "title": "User Authentication and Protection",
+      "description": "Provides robust user authentication mechanisms.",
+      "technical_spec": "Two-factor authentication and account recovery options.",
+      "severity_score": 2
     },
     {
-      "title": "Vulnerability Reward Program",
-      "description": "Bug bounty program to incentivize discovery of security flaws.",
-      "technical_spec": "Rewards for researchers identifying vulnerabilities across products.",
-      "severity_score": 35
+      "title": "Phishing Protection",
+      "description": "Prevents phishing attacks with sophisticated detection algorithms.",
+      "technical_spec": "Machine learning models for identifying phishing URLs.",
+      "severity_score": 5
     }
   ]
 }

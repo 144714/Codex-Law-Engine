@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 370,
+    "rank": 380,
     "site": "whatsapp.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "5b040f534a69c89065cfb9681f5dcfcf"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "83a87020d2c3be745fab0825d6155b88"
   },
   "data": [
     {
-      "title": "End-to-End Encryption",
-      "description": "Encrypts messages between sender and receiver.",
-      "technical_spec": "Utilizes the Signal Protocol for encryption.",
-      "severity_score": 95
+      "title": "Encryption Key Management",
+      "description": "Handles encryption key management, crucial to preventing unauthorized access.",
+      "technical_spec": "Key management is decentralized and secured at both ends of communication.",
+      "severity_score": 93
     },
     {
       "title": "Two-Factor Authentication",
-      "description": "Adds an extra layer of security during login.",
-      "technical_spec": "Uses SMS or App-based authentication codes.",
-      "severity_score": 90
+      "description": "Offers 2FA to enhance account security.",
+      "technical_spec": "Users can set up an additional PIN to access their account.",
+      "severity_score": 87
     },
     {
-      "title": "Regular Security Audits",
-      "description": "Conducts periodic evaluations of the security measures.",
-      "technical_spec": "Employs both automated scans and manual pen-testing.",
-      "severity_score": 85
+      "title": "Fraud Detection",
+      "description": "Monitors and detects fraudulent activities within the application.",
+      "technical_spec": "AI-powered algorithms are used to track unusual patterns and behavior.",
+      "severity_score": 82
     },
     {
-      "title": "Firewall Protection",
-      "description": "Prevents unauthorized access to network resources.",
-      "technical_spec": "Utilizes both network-level and host-level firewalls.",
+      "title": "Bug Bounty Program",
+      "description": "Engages ethical hackers to find and report vulnerabilities.",
+      "technical_spec": "Includes a comprehensive program that rewards successful submissions.",
       "severity_score": 80
     },
     {
-      "title": "Data Anonymization",
-      "description": "Protects personal user data by making it anonymous.",
-      "technical_spec": "Implements techniques like data masking and tokenization.",
-      "severity_score": 75
+      "title": "Network Security Protocols",
+      "description": "Implements advanced network security protocols to protect data during transmission.",
+      "technical_spec": "SSH, Secure Sockets Layer (SSL), and Transport Layer Security (TLS) are employed.",
+      "severity_score": 90
     }
   ]
 }

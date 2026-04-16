@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 364,
+    "rank": 374,
     "site": "microsoft.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "8b264ee74ad544a438d02b5ee10266f0"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "6e4b94941addf5e4d46fda26e06c51bf"
   },
   "data": [
     {
-      "title": "Fitts’s Law",
-      "description": "Design ensures elements are easily clickable and accessible.",
-      "technical_spec": "Adaptive layout, touch-friendly elements",
+      "title": "Fitts's Law",
+      "description": "The design is optimized for mouse and touch interaction, making interactive elements accessible.",
+      "technical_spec": "Incorporates larger clickable areas and closer targets.",
+      "severity_score": 12
+    },
+    {
+      "title": "Hick's Law",
+      "description": "Reduces decision time by limiting menu options and simplifying navigation.",
+      "technical_spec": "Streamlined menus and categorized content.",
+      "severity_score": 14
+    },
+    {
+      "title": "Jakob's Law",
+      "description": "Aligns user interface patterns with user expectations from other web experiences.",
+      "technical_spec": "Consistent navigation and element placement.",
       "severity_score": 10
     },
     {
-      "title": "Hick’s Law",
-      "description": "Minimized choices to streamline user interactions.",
-      "technical_spec": "Simplified navigation, clear call-to-action buttons",
-      "severity_score": 25
+      "title": "Miller's Law",
+      "description": "Information is chunked into digestible pieces to avoid overwhelming users.",
+      "technical_spec": "Deploys bullet points and succinct key information.",
+      "severity_score": 8
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Consistent experience aligned with user expectations.",
-      "technical_spec": "Familiar UI patterns, standardized interfaces",
-      "severity_score": 15
-    },
-    {
-      "title": "Law of Proximity",
-      "description": "Grouping related items to naturally guide user behavior.",
-      "technical_spec": "Logical grouping of content, consistent spacing",
-      "severity_score": 35
-    },
-    {
-      "title": "Miller’s Law",
-      "description": "Limiting information to prevent cognitive overload.",
-      "technical_spec": "Prioritized information display, progressive disclosure",
-      "severity_score": 20
+      "title": "Aesthetic-Usability Effect",
+      "description": "A modern and visually appealing design which promotes a positive user experience.",
+      "technical_spec": "Responsive design with high-quality visual assets.",
+      "severity_score": 7
     }
   ]
 }

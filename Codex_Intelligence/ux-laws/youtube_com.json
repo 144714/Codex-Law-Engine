@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 362,
+    "rank": 372,
     "site": "youtube.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "a99459a59a39a501d046d5b8f359cd4e"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "fce13a16e14d3c7e994021664370c228"
   },
   "data": [
     {
-      "title": "Fitt’s Law",
-      "description": "Button sizes and placements are optimized for efficient user interaction.",
-      "technical_spec": "Ensures critical actions are easily accessible and clickable.",
+      "title": "Fitts' Law",
+      "description": "Users tend to have here lower movement times for closer and larger target areas on the interface.",
+      "technical_spec": "Interface layouts favor large, strategically placed CTA buttons for easier access.",
       "severity_score": 15
     },
     {
-      "title": "Hick’s Law",
-      "description": "Simplified navigation reduces decision-making time for users.",
-      "technical_spec": "Streamlined menu options and guided recommendations.",
-      "severity_score": 12
+      "title": "Hick's Law",
+      "description": "The time it takes to make a decision increases with the number of choices.",
+      "technical_spec": "Simplified UI design with curated recommendations to support quick decision-making.",
+      "severity_score": 10
     },
     {
-      "title": "Miller’s Law",
-      "description": "Information chunking aids user comprehension and retention.",
-      "technical_spec": "Content curation and categorization for easy consumption.",
+      "title": "Aesthetic-Usability Effect",
+      "description": "Aesthetically pleasing designs are perceived as easier to use.",
+      "technical_spec": "Employs a clean, consistent interface that enhances user satisfaction and engagement.",
       "severity_score": 18
     },
     {
-      "title": "Jakob’s Law",
-      "description": "Consistency with familiar design patterns to enhance ease of use.",
-      "technical_spec": "Universal design elements in line with user expectations.",
-      "severity_score": 14
+      "title": "Jakob's Law",
+      "description": "Users spend most of their time on other sites, preferring familiar experiences.",
+      "technical_spec": "Aligns design paradigms with common web practices to minimize learning curves.",
+      "severity_score": 12
     },
     {
-      "title": "Tesler’s Law",
-      "description": "Complexity is managed to balance feature richness and usability.",
-      "technical_spec": "Intuitive user interfaces with guided interactions.",
-      "severity_score": 16
+      "title": "Law of Proximity",
+      "description": "Objects that are close together are perceived as a group.",
+      "technical_spec": "Grouped elements in video thumbnails and related section to enhance navigability.",
+      "severity_score": 14
     }
   ]
 }

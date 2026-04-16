@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 365,
+    "rank": 375,
     "site": "amazon.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "1572f573f2c35697efc783816bde94bc"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "468976d50e6c7455a5a8a56f2cd5c4a1"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Amazon uses a microservices architecture to enable agility and scalability.",
-      "technical_spec": "Multiple loosely coupled services communicating typically over HTTP/JSON.",
-      "severity_score": 95
+      "description": "Amazon uses a microservices-based architecture to enhance scalability and maintainability.",
+      "technical_spec": "Decomposed services with REST APIs, asynchronous communication, and continuous deployment.",
+      "severity_score": 10
     },
     {
-      "title": "Cloud Infrastructure",
-      "description": "Amazon AWS provides backbone for hosting and compute needs.",
-      "technical_spec": "Utilizes services like EC2, S3, Lambda, and more for operational efficiency.",
-      "severity_score": 93
+      "title": "AWS Infrastructure",
+      "description": "Amazon leverages its own AWS platform for infrastructure needs.",
+      "technical_spec": "Utilizes EC2, S3, RDS, and Lambda for scalable hosting, storage, database, and serverless computing.",
+      "severity_score": 5
     },
     {
-      "title": "APIs and Gateway Layers",
-      "description": "APIs serve as a communication layer between various microservices.",
-      "technical_spec": "API Gateway supports routing and load balancing among services.",
-      "severity_score": 88
+      "title": "Global Data Centers",
+      "description": "Amazon deploys its infrastructure across a global network of data centers.",
+      "technical_spec": "Regional availability zones with redundancy, failover, and backup.",
+      "severity_score": 5
     },
     {
-      "title": "Global Content Delivery Network (CDN)",
-      "description": "CDN reduces latency and improves load times for global users.",
-      "technical_spec": "Uses Amazon CloudFront to cache content near user locations.",
-      "severity_score": 85
+      "title": "Caching Solutions",
+      "description": "Utilizes caching to improve website performance and reduce latency.",
+      "technical_spec": "Includes services like Amazon CloudFront and ElastiCache for content delivery and caching.",
+      "severity_score": 8
     },
     {
-      "title": "Data Lake and Warehousing",
-      "description": "Amazon operates a large-scale data lake architecture for data analytics.",
-      "technical_spec": "Integrates AWS Athena, Redshift, and Glue for big data processing.",
-      "severity_score": 90
+      "title": "Service-Oriented Architecture",
+      "description": "Promotes independence of individual systems for better agility.",
+      "technical_spec": "Encapsulation of functions into discrete services communicating over the network.",
+      "severity_score": 12
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 366,
+    "rank": 376,
     "site": "netflix.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "ee307826332c7ad349d87e9c07fcdd85"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "f0d4589ae75c06ac00ac4a0553cfd6de"
   },
   "data": [
     {
-      "title": "Content Variety",
-      "description": "Offering a diverse range of content to appeal to global audiences.",
-      "technical_spec": "Extensive catalog across various genres, languages, and formats.",
-      "severity_score": 15
-    },
-    {
-      "title": "Personalized Experience",
-      "description": "Customizing user experience based on viewing history and preferences.",
-      "technical_spec": "Machine learning algorithms powering recommendation engines.",
-      "severity_score": 25
-    },
-    {
-      "title": "Original Programming",
-      "description": "Investing in Netflix Originals to enhance unique content offerings.",
-      "technical_spec": "High-budget productions spanning multiple formats and regions.",
-      "severity_score": 10
-    },
-    {
-      "title": "Global Reach",
-      "description": "Accessibility and adaptation of content for international markets.",
-      "technical_spec": "Subtitles and dubbing in multiple languages, region-specific strategies.",
+      "title": "Original Content",
+      "description": "Invests heavily in creating unique, exclusive content.",
+      "technical_spec": "Produces and distributes Netflix Originals across various genres.",
       "severity_score": 20
     },
     {
-      "title": "User-Centric Design",
-      "description": "Focusing on user-friendly and intuitive design elements.",
-      "technical_spec": "Consistent updates to interface and functionality based on user feedback.",
-      "severity_score": 30
+      "title": "Customer-Centric Approach",
+      "description": "Focuses on providing a seamless user experience tailored to viewer preferences.",
+      "technical_spec": "Uses machine learning for personalization and recommendation algorithms.",
+      "severity_score": 12
+    },
+    {
+      "title": "Global Accessibility",
+      "description": "Aims to reach a wide audience with diverse content offerings.",
+      "technical_spec": "Subtitles, dubbing options, and a vast content library available in multiple languages.",
+      "severity_score": 15
+    },
+    {
+      "title": "Innovative Technology",
+      "description": "Leads in adopting cutting-edge technologies to improve streaming quality and accessibility.",
+      "technical_spec": "Continuous improvement of streaming algorithms and adaptive bitrate streaming.",
+      "severity_score": 18
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Engages proactively with its user base through social media and interactive platforms.",
+      "technical_spec": "Maintains active social media presence and fan engagement strategies.",
+      "severity_score": 10
     }
   ]
 }

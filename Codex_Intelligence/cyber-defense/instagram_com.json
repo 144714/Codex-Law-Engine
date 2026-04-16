@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 369,
+    "rank": 379,
     "site": "instagram.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "4432c743ab792ae0a2a205821c92435b"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "3a82cc5dcc5d18df93e7ae352321852d"
   },
   "data": [
     {
-      "title": "Data Encryption",
-      "description": "Ensures all sensitive data in transit is encrypted using TLS 1.2 or higher.",
-      "technical_spec": "TLS across all data exchange, AES-256 for stored data.",
-      "severity_score": 25
+      "title": "Two-Factor Authentication (2FA)",
+      "description": "Enhances user account security with 2FA, reducing the risk of unauthorized access.",
+      "technical_spec": "SMS verification, authenticator apps, backup codes.",
+      "severity_score": 5
     },
     {
-      "title": "Two-Factor Authentication",
-      "description": "Provides an optional 2FA mechanism to enhance user account security.",
-      "technical_spec": "Supports authentication apps like Google Authenticator for time-based codes.",
+      "title": "End-to-End Encryption",
+      "description": "Implements end-to-end encryption for private communications to protect user data from interception.",
+      "technical_spec": "Transport Layer Security (TLS), HTTPS protocol.",
+      "severity_score": 10
+    },
+    {
+      "title": "Automated Threat Detection",
+      "description": "Uses machine learning algorithms to detect suspicious activities and potential threats in real-time.",
+      "technical_spec": "Anomaly detection models, real-time alerts, behavioral analysis.",
       "severity_score": 15
     },
     {
-      "title": "Rate Limiting",
-      "description": "Implements rate limiting to prevent DDoS attacks and API abuse.",
-      "technical_spec": "Configurable limits using API gateways and middleware.",
-      "severity_score": 50
+      "title": "Data Anonymization",
+      "description": "Applies data anonymization techniques to protect user privacy and confidentiality.",
+      "technical_spec": "Data masking, hashing algorithms, pseudo-anonymization.",
+      "severity_score": 20
     },
     {
-      "title": "Vulnerability Scanning",
-      "description": "Conducts regular vulnerability scans and penetration testing on infrastructure.",
-      "technical_spec": "Tools like Qualys and internal penetration testing teams.",
-      "severity_score": 30
-    },
-    {
-      "title": "User Privacy Controls",
-      "description": "Offers users comprehensive privacy settings to manage data visibility.",
-      "technical_spec": "Custom privacy settings, GDPR compliance tools.",
-      "severity_score": 40
+      "title": "Bug Bounty Program",
+      "description": "Encourages external security researchers to report vulnerabilities through a reward-based bug bounty program.",
+      "technical_spec": "Vulnerability disclosure, third-party reporting platforms.",
+      "severity_score": 5
     }
   ]
 }

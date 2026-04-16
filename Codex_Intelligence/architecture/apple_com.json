@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 363,
+    "rank": 373,
     "site": "apple.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "e9c7b003fffdd93c812cad2648c43b4a"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "8107b85603f056056eb2002dcb506979"
   },
   "data": [
     {
-      "title": "Microservices Framework",
-      "description": "Apple's website likely uses a microservices architecture to manage various functions independently.",
-      "technical_spec": "Docker, Kubernetes for orchestration.",
-      "severity_score": 25
+      "title": "Responsive Design",
+      "description": "Apple's website adapts seamlessly to various screen sizes, providing an optimal viewing experience across devices.",
+      "technical_spec": "Utilizes CSS Flexbox and Grid for layout, alongside media queries for responsiveness.",
+      "severity_score": 85
     },
     {
       "title": "Content Delivery Network (CDN)",
-      "description": "Employs a CDN to optimize load times across global markets.",
-      "technical_spec": "Akamai or Fastly as typical CDN providers.",
-      "severity_score": 15
+      "description": "A robust CDN setup to ensure fast and reliable content delivery globally.",
+      "technical_spec": "Leveraging Akamai and custom servers for efficient content distribution.",
+      "severity_score": 90
     },
     {
-      "title": "Responsive Design",
-      "description": "Ensures compatibility across a vast range of devices by employing responsive design techniques.",
-      "technical_spec": "HTML5, CSS3 media queries.",
-      "severity_score": 10
+      "title": "Secure Protocols",
+      "description": "Fully SSL/TLS encrypted to ensure data integrity and privacy.",
+      "technical_spec": "Implementation of HTTPS with modern TLS versions.",
+      "severity_score": 95
     },
     {
-      "title": "Server-Side Rendering (SSR)",
-      "description": "Uses SSR to improve SEO and initial load performance.",
-      "technical_spec": "Node.js for server-side operations.",
-      "severity_score": 20
+      "title": "Microservices Architecture",
+      "description": "Backend services are modular and scalable, improving load management and deployment.",
+      "technical_spec": "Decomposed services communicating over RESTful APIs.",
+      "severity_score": 80
     },
     {
-      "title": "API Integration",
-      "description": "Integrates APIs for dynamic content rendering and data fetching.",
-      "technical_spec": "GraphQL or RESTful APIs.",
-      "severity_score": 30
+      "title": "Cloud Integration",
+      "description": "Utilizes cloud-based infrastructures for scalability and reliability.",
+      "technical_spec": "Integration with AWS and custom Apple infrastructures.",
+      "severity_score": 88
     }
   ]
 }

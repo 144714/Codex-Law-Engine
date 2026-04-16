@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 367,
+    "rank": 377,
     "site": "spotify.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "bc2291d9d0fdddc3a39224c06eb08c5e"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "6b6ed29ab6019aaa13c5db42445ece4d"
   },
   "data": [
     {
-      "title": "Personalization",
-      "description": "Focused on providing personalized music discovery experiences.",
-      "technical_spec": "Machine learning algorithms for user preferences.",
+      "title": "Personalized Experience",
+      "description": "Offers users a personalized music listening experience.",
+      "technical_spec": "Utilizes algorithms for personalized playlists and recommendations.",
       "severity_score": 5
     },
     {
-      "title": "Cross-Platform Compatibility",
-      "description": "Offers seamless access across multiple devices and platforms.",
-      "technical_spec": "Support for iOS, Android, Windows, macOS, Web.",
-      "severity_score": 5
+      "title": "Innovative Technology",
+      "description": "Adopts cutting-edge technology to maintain a competitive advantage.",
+      "technical_spec": "Invests in AI, machine learning, and innovative audio technologies.",
+      "severity_score": 3
     },
     {
-      "title": "Curated Content",
-      "description": "Focus on editorial playlists and exclusive content.",
-      "technical_spec": "Music experts and AI curate playlist options.",
-      "severity_score": 10
+      "title": "Global Reach",
+      "description": "Aims to be a global leader in music streaming.",
+      "technical_spec": "Operates in numerous countries with localized content offerings.",
+      "severity_score": 8
     },
     {
-      "title": "Social Connectivity",
-      "description": "Integrated social features to share music and playlists.",
-      "technical_spec": "Integration with Facebook, Instagram, and direct sharing.",
-      "severity_score": 20
+      "title": "Community Engagement",
+      "description": "Encourages user and artist interaction, fostering a music community.",
+      "technical_spec": "Features like Spotify for Artists and collaborative playlists support engagement.",
+      "severity_score": 7
     },
     {
-      "title": "Continuous Innovation",
-      "description": "Constantly evolving with new features and technologies.",
-      "technical_spec": "Regular updates and feature roll-outs.",
-      "severity_score": 15
+      "title": "Cross-Platform Availability",
+      "description": "Ensures access to services on multiple devices and operating systems.",
+      "technical_spec": "Provides apps and web access on iOS, Android, Windows, macOS, and more.",
+      "severity_score": 4
     }
   ]
 }

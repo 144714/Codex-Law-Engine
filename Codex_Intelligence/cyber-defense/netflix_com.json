@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 366,
+    "rank": 376,
     "site": "netflix.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "ce3ba2a627d8e602c9fbcfb427839650"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "70234a8cee440f14be7622c6a275ed71"
   },
   "data": [
     {
-      "title": "Multi-Factor Authentication",
-      "description": "MFA implementation for enhanced account security.",
-      "technical_spec": "Combines passwords with secondary code sent to user devices.",
-      "severity_score": 40
+      "title": "End-to-End Encryption",
+      "description": "Ensures secure transmission of user data across the Netflix platform.",
+      "technical_spec": "TLS/SSL encryption protocols are employed for secure data transit.",
+      "severity_score": 5
     },
     {
-      "title": "SSL/TLS Encryption",
-      "description": "Encrypts data in transit between users and Netflix services.",
-      "technical_spec": "Employs SSL/TLS to protect streaming and browsing sessions.",
-      "severity_score": 10
-    },
-    {
-      "title": "DDoS Protection",
-      "description": "Defensive measures against Distributed Denial of Service attacks.",
-      "technical_spec": "Utilizes AWS Shield and custom DDoS prevention techniques.",
-      "severity_score": 25
-    },
-    {
-      "title": "Threat Detection and Response",
-      "description": "Proactive threat monitoring and incident response.",
-      "technical_spec": "Uses custom tools and third-party integrations for threat intelligence.",
-      "severity_score": 35
-    },
-    {
-      "title": "Regular Security Audits",
-      "description": "Frequent audits to identify vulnerabilities and enforce security policies.",
-      "technical_spec": "Penetration testing and automated scans to find security gaps.",
+      "title": "Zero Trust Security Model",
+      "description": "Every request, whether inside or outside the network, is treated as though it originated from an open network.",
+      "technical_spec": "Implement strict authentication and authorization protocols.",
       "severity_score": 20
+    },
+    {
+      "title": "Automated Security Response",
+      "description": "Automates the identification and response to threats.",
+      "technical_spec": "Leverages tools for threat detection and real-time monitoring.",
+      "severity_score": 15
+    },
+    {
+      "title": "Periodic Security Audits",
+      "description": "Regular security audits and penetration testing to identify vulnerabilities.",
+      "technical_spec": "Collaborates with external security experts for comprehensive assessments.",
+      "severity_score": 18
+    },
+    {
+      "title": "User Data Protection",
+      "description": "Strict policies to protect customer data and privacy.",
+      "technical_spec": "Complies with GDPR and CCPA regulations.",
+      "severity_score": 10
     }
   ]
 }

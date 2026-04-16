@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 366,
+    "rank": 376,
     "site": "netflix.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "89c54bdb80a001858d281149461b3934"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "83789d5093d31e8c7c2e15443a988a1a"
   },
   "data": [
     {
       "title": "Microservices Architecture",
-      "description": "Netflix employs a microservices architecture to improve scalability and manageability.",
-      "technical_spec": "APIs connect multiple small, independently deployable services.",
-      "severity_score": 20
-    },
-    {
-      "title": "Global CDN",
-      "description": "Netflix uses a global content delivery network to distribute streaming content efficiently.",
-      "technical_spec": "Leverages Open Connect Appliances in ISP networks.",
-      "severity_score": 10
+      "description": "Netflix uses microservices to break its application into smaller, independent services.",
+      "technical_spec": "Services are deployed independently using containers. Each service manages a specific business capability.",
+      "severity_score": 5
     },
     {
       "title": "Cloud-based Infrastructure",
-      "description": "Most Netflix services are deployed on cloud platforms.",
-      "technical_spec": "Primarily hosted on Amazon Web Services (AWS) for flexibility and scalability.",
+      "description": "The platform relies heavily on cloud computing services for scalability and resilience.",
+      "technical_spec": "Hosted primarily on AWS, utilizing EC2, S3, and RDS.",
+      "severity_score": 10
+    },
+    {
+      "title": "Global CDN Deployment",
+      "description": "Content delivery network to ensure fast streaming worldwide.",
+      "technical_spec": "Utilizes Open Connect, a custom Netflix CDN, distributed globally.",
       "severity_score": 15
     },
     {
-      "title": "NoSQL Database System",
-      "description": "Database strategy optimizes for availability, partition tolerance, and consistency.",
-      "technical_spec": "Utilizes DynamoDB, Cassandra, and other NoSQL technologies.",
-      "severity_score": 25
+      "title": "Multi-region Redundancy",
+      "description": "Operates across multiple cloud regions for high availability and disaster recovery.",
+      "technical_spec": "Data replication and failover strategies are implemented.",
+      "severity_score": 20
     },
     {
-      "title": "Service Discovery",
-      "description": "Automated service discovery for components to communicate efficiently.",
-      "technical_spec": "Utilizes tools like Eureka for real-time service location.",
-      "severity_score": 30
+      "title": "Event-Driven Architecture",
+      "description": "Loose coupling within applications allowing for real-time data processing.",
+      "technical_spec": "Employs Apache Kafka for streaming and event processing.",
+      "severity_score": 12
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 364,
+    "rank": 374,
     "site": "microsoft.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "12f4f92dbbd391264137840075017995"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "ac43847277e242b3c5ae03b52a4fc562"
   },
   "data": [
     {
-      "title": "Innovation-Driven",
-      "description": "A commitment to being at the forefront of technology.",
-      "technical_spec": "Integration with cutting-edge technologies, continuous R&D",
+      "title": "Innovation",
+      "description": "Focuses on cutting-edge technology and innovation in software solutions.",
+      "technical_spec": "Constant R&D, beta testing new software products.",
       "severity_score": 5
     },
     {
-      "title": "Customer-Centric",
-      "description": "Focused on providing valuable solutions for users’ needs.",
-      "technical_spec": "User feedback integration, personalized experiences",
-      "severity_score": 10
+      "title": "Trust and Security",
+      "description": "Prioritizes customer trust through security and data protection.",
+      "technical_spec": "Comprehensive security protocols and privacy policies.",
+      "severity_score": 6
+    },
+    {
+      "title": "Accessibility",
+      "description": "Emphasizes the importance of accessibility for all users.",
+      "technical_spec": "WCAG 2.1 AA compliance, accessibility tools like screen readers.",
+      "severity_score": 7
     },
     {
       "title": "Global Reach",
-      "description": "Building products and services for a worldwide audience.",
-      "technical_spec": "Multi-language support, global data centers",
-      "severity_score": 5
+      "description": "Aims for a global presence with services available worldwide.",
+      "technical_spec": "Localized content and multiple language support.",
+      "severity_score": 8
     },
     {
-      "title": "Collaborative Ecosystem",
-      "description": "Facilitating partnership and ecosystem growth.",
-      "technical_spec": "Extensive partner networks, open API platforms",
-      "severity_score": 20
-    },
-    {
-      "title": "Sustainability Commitment",
-      "description": "Pledging to environmentally responsible practices.",
-      "technical_spec": "Carbon-neutral initiatives, eco-friendly operations",
-      "severity_score": 15
+      "title": "Customer Focus",
+      "description": "Centers around customer satisfaction and feedback-driven improvements.",
+      "technical_spec": "Customer support channels, feedback loops, and user testing.",
+      "severity_score": 10
     }
   ]
 }

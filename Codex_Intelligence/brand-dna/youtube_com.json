@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 362,
+    "rank": 372,
     "site": "youtube.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "5657b83f276404005b772d2f37e82044"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "3167b9d4a5e54461e683b2f632c733e8"
   },
   "data": [
     {
-      "title": "User-Centric Content Platform",
-      "description": "Focus on user-driven content creation and sharing.",
-      "technical_spec": "Enables a diverse array of content creators to publish videos.",
-      "severity_score": 8
+      "title": "User-Generated Content Platform",
+      "description": "Empowers users to create and share their content globally.",
+      "technical_spec": "Provides tools and resources for video creation, editing, and distribution.",
+      "severity_score": 5
     },
     {
       "title": "Community Engagement",
-      "description": "Promotes interaction and engagement among users and creators.",
-      "technical_spec": "Comments, likes, subscriptions, and live streams.",
-      "severity_score": 10
+      "description": "Encourages interaction with content creators through comments, likes, and subscriptions.",
+      "technical_spec": "Engagement is fostered using algorithms that highlight community interactions.",
+      "severity_score": 8
     },
     {
-      "title": "Content Discovery Algorithm",
-      "description": "Uses sophisticated algorithms to recommend personalized content.",
-      "technical_spec": "Machine learning models analyze viewing habits and preferences.",
-      "severity_score": 12
+      "title": "Diverse Content Library",
+      "description": "Hosts a wide variety of content catering to different interests and demographics.",
+      "technical_spec": "Leverages sophisticated categorization and search to help users find content easily.",
+      "severity_score": 6
     },
     {
       "title": "Monetization Opportunities",
-      "description": "Offers various avenues for creators to monetize their content.",
-      "technical_spec": "AdSense, sponsorships, and premium features.",
-      "severity_score": 20
+      "description": "Facilitates revenue streams for content creators through ads and channel memberships.",
+      "technical_spec": "Utilizes AdSense integration and membership features to support creators financially.",
+      "severity_score": 7
     },
     {
-      "title": "Global Accessibility",
-      "description": "Strives for inclusivity by supporting multiple languages and formats.",
-      "technical_spec": "Language localization and accessibility features.",
-      "severity_score": 14
+      "title": "Educational and Informative Content",
+      "description": "Serves as a resource for learning and professional development.",
+      "technical_spec": "Supports educational content through playlists and dedicated channels promoting curricular topics.",
+      "severity_score": 9
     }
   ]
 }

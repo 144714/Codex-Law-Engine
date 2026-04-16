@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 369,
+    "rank": 379,
     "site": "instagram.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "836fcd4d949b96f8e3bc27422b4dedfd"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "c05c6bea57a56fe58e7adde519b06adf"
   },
   "data": [
     {
-      "title": "Microservice Architecture",
-      "description": "Instagram uses a microservice architecture allowing independent deployment and scalability.",
-      "technical_spec": "Services communicate over HTTP/JSON APIs; managed via Kubernetes.",
+      "title": "Microservices Architecture",
+      "description": "Instagram deploys a microservices architecture to handle various functionalities such as user management, image processing, notifications, and analytics.",
+      "technical_spec": "Decoupled services, API communication, horizontal scaling.",
+      "severity_score": 10
+    },
+    {
+      "title": "Content Delivery Network (CDN)",
+      "description": "Implements CDNs to ensure rapid content delivery and improve loading times for images and videos globally.",
+      "technical_spec": "CDNs like Akamai, Cloudflare; caching, edge servers.",
+      "severity_score": 10
+    },
+    {
+      "title": "Database Sharding",
+      "description": "Employs database sharding to distribute user data across multiple databases to balance the load and enhance performance.",
+      "technical_spec": "Relational databases, horizontal partitioning, shard key.",
       "severity_score": 20
     },
     {
       "title": "GraphQL API",
-      "description": "Uses GraphQL for efficient data fetching, reducing bandwidth usage.",
-      "technical_spec": "GraphQL server implemented in Python with Apollo client for requests.",
+      "description": "Utilizes GraphQL for flexible data fetching, allowing clients to request specific data structures.",
+      "technical_spec": "GraphQL queries, mutations, schemas, resolvers.",
       "severity_score": 15
     },
     {
-      "title": "Database Layer",
-      "description": "Leverages sharded databases to store and manage large volumes of data.",
-      "technical_spec": "Primarily uses PostgreSQL and Cassandra for different types of data workloads.",
-      "severity_score": 40
-    },
-    {
-      "title": "Content Delivery Network (CDN)",
-      "description": "Uses CDNs for faster global content delivery and enhanced media streaming.",
-      "technical_spec": "CDNs like Akamai and Cloudflare ensure low-latency access.",
-      "severity_score": 10
-    },
-    {
-      "title": "Caching Strategy",
-      "description": "Employs caching mechanisms to speed up data retrieval and improve performance.",
-      "technical_spec": "Utilizes Redis and Memcached for in-memory caching solutions.",
-      "severity_score": 30
+      "title": "Load Balancing",
+      "description": "Utilizes load balancers to distribute incoming network traffic across multiple servers to ensure reliability and scalability.",
+      "technical_spec": "Hardware load balancers, cloud-based solutions, round-robin algorithms.",
+      "severity_score": 15
     }
   ]
 }

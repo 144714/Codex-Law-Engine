@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 365,
+    "rank": 375,
     "site": "amazon.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "d1f7232cd76acf093ae104879a2f6af3"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "76f616af0f987bb8451dab5707528e2e"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Simplified choices to improve decision-making efficiency.",
-      "technical_spec": "A/B testing to optimize user choices and minimize cognitive load.",
-      "severity_score": 84
+      "title": "Fitts’s Law",
+      "description": "Facilitates easy navigation by optimizing button placement and size for efficiency.",
+      "technical_spec": "Strategic positioning of CTAs and interactive elements.",
+      "severity_score": 12
     },
     {
-      "title": "Fitts's Law",
-      "description": "Intuitive UI design for quick access to frequently-used actions.",
-      "technical_spec": "Button size and positioning optimized based on interaction data.",
-      "severity_score": 86
+      "title": "Hick’s Law",
+      "description": "Simplifies decision-making by minimizing choices displayed at one time.",
+      "technical_spec": "Grouping of similar products and filters to streamline choices.",
+      "severity_score": 15
     },
     {
-      "title": "Jakob's Law",
-      "description": "Consistent design patterns for improved user familiarity.",
-      "technical_spec": "Consistent navigation structure across platforms.",
-      "severity_score": 90
+      "title": "Jakob’s Law",
+      "description": "Creates familiarity by adhering to established web conventions.",
+      "technical_spec": "Consistent navigation, layout, and shopping cart experience.",
+      "severity_score": 10
     },
     {
-      "title": "Miller's Law",
-      "description": "Limiting the number of items displayed at once for better retention.",
-      "technical_spec": "Catalog pagination and categorization.",
-      "severity_score": 85
+      "title": "Miller’s Law",
+      "description": "Enhances user understanding by chunking information into digestible bits.",
+      "technical_spec": "Use of logical categories and expandable sections for detailed info.",
+      "severity_score": 15
     },
     {
-      "title": "Law of Similarity",
-      "description": "Group similar items for enhanced visual structure.",
-      "technical_spec": "Product grouping based on category and utility.",
-      "severity_score": 82
+      "title": "Aesthetic-Usability Effect",
+      "description": "Focuses on beauty enhancing the perceived usability of the site.",
+      "technical_spec": "High-quality imagery, balanced typography, and white space.",
+      "severity_score": 10
     }
   ]
 }

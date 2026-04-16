@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 366,
+    "rank": 376,
     "site": "netflix.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "b6c188b195a919677881844016d5b04a"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "7f4f78c740d2eee1433f3ef04b51dafc"
   },
   "data": [
     {
-      "title": "Hick's Law",
-      "description": "Minimizing user decision time during navigation on the interface.",
-      "technical_spec": "Simplified menu options and search features to reduce cognitive load.",
-      "severity_score": 35
+      "title": "Aesthetic-Usability Effect",
+      "description": "A design that looks nice is often perceived to be more usable.",
+      "technical_spec": "Highly responsive layout with visual consistency across devices.",
+      "severity_score": 8
     },
     {
       "title": "Fitts's Law",
-      "description": "Improving accessibility of targets for navigation and selection.",
-      "technical_spec": "Large, easily clickable buttons and responsive UI elements.",
-      "severity_score": 30
+      "description": "Ease of use is proportional to the target size and distance.",
+      "technical_spec": "Large, easily clickable or tappable buttons/icons for user interaction.",
+      "severity_score": 12
     },
     {
-      "title": "Aesthetic-Usability Effect",
-      "description": "Enhancing user perception of ease of use through visual design.",
-      "technical_spec": "Sleek, modern interface with high contrast and clean layouts.",
-      "severity_score": 40
+      "title": "Hick’s Law",
+      "description": "The time taken to make a decision increases with the number of choices.",
+      "technical_spec": "Curated content and personalized recommendations to guide user decisions.",
+      "severity_score": 10
     },
     {
-      "title": "Serial Position Effect",
-      "description": "Ensuring important content placement in prime viewing areas.",
-      "technical_spec": "Key content and features placed in top and bottom areas of UI.",
-      "severity_score": 50
+      "title": "Miller’s Law",
+      "description": "Limits the user's cognitive load by not overloading with information.",
+      "technical_spec": "Focused content sections and minimalistic interface design.",
+      "severity_score": 9
     },
     {
-      "title": "Jakob's Law",
-      "description": "Leveraging user familiarities to improve navigation experiences.",
-      "technical_spec": "Design patterns familiar to users from similar services.",
-      "severity_score": 25
+      "title": "Jakob’s Law",
+      "description": "Users prefer your site to work the same way as all the other sites they use.",
+      "technical_spec": "Utilizes familiar interaction patterns and control schemes.",
+      "severity_score": 7
     }
   ]
 }

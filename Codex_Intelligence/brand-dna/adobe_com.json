@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 368,
+    "rank": 378,
     "site": "adobe.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "75c90e7f0bc7fff84cb2f6767a985fe7"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "7347e66b521954084ce9f7735e91e950"
   },
   "data": [
     {
-      "title": "Creative Cloud Ecosystem",
-      "description": "Comprehensive suite of tools designed specifically for creative professionals.",
-      "technical_spec": "Centralized platform offering subscription-based services including Photoshop, Illustrator, and more.",
-      "severity_score": 5
+      "title": "Creativity and Innovation",
+      "description": "Core to Adobe's identity, fostering tools for digital creativity.",
+      "technical_spec": "Regular release of new features in Creative Cloud products.",
+      "severity_score": 15
     },
     {
-      "title": "Commitment to Innovation",
-      "description": "Continuous development of new features to lead the market in creative solutions.",
-      "technical_spec": "R&D investments focusing on AI and machine learning enhancements.",
-      "severity_score": 8
+      "title": "Reliability and Performance",
+      "description": "Delivering robust and performant tools for users globally.",
+      "technical_spec": "Focus on uptime and performance metrics.",
+      "severity_score": 20
     },
     {
-      "title": "Integration and Collaboration",
-      "description": "Facilitating seamless workflows and integrations across multiple platforms.",
-      "technical_spec": "API support for cross-application functionality and third-party integrations.",
-      "severity_score": 12
+      "title": "User Community Engagement",
+      "description": "Strong ties and interactions with creative professionals.",
+      "technical_spec": "Community forums, Adobe MAX, and live webinars.",
+      "severity_score": 30
     },
     {
-      "title": "Customer-Centric Experience",
-      "description": "Focus on creating intuitive experiences tailored to user feedback and insights.",
-      "technical_spec": "Data-driven decisions with regular customer feedback loops implemented.",
+      "title": "Sustainability Initiatives",
+      "description": "Commitment to environmentally friendly practices.",
+      "technical_spec": "Use of renewable energy in data centers.",
       "severity_score": 10
     },
     {
-      "title": "Sustainable and Ethical Practices",
-      "description": "Emphasis on sustainability and corporate responsibility in business operations.",
-      "technical_spec": "Initiatives aligned with ISO 14001 and corporate philanthropy programs.",
-      "severity_score": 7
+      "title": "Diverse and Inclusive Culture",
+      "description": "Promotes diversity in both the workplace and in product accessibility.",
+      "technical_spec": "Programs to support diverse hiring and product inclusivity.",
+      "severity_score": 35
     }
   ]
 }

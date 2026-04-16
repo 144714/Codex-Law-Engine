@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 363,
+    "rank": 373,
     "site": "apple.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "a782206892315f16f85d9a30c6bc056b"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "0c9f6b99ed90c3542ba2370b1cc9b36f"
   },
   "data": [
     {
-      "title": "Innovation-Centric",
-      "description": "Apple's DNA revolves around innovation in technology and experiences.",
-      "technical_spec": "R&D investments and emerging tech explorations.",
+      "title": "Simplicity",
+      "description": "Apple's design ethos emphasizes simplicity and elegance.",
+      "technical_spec": "Minimalistic design with whitespace in layouts.",
+      "severity_score": 95
+    },
+    {
+      "title": "Innovation",
+      "description": "Continuous innovation in both tech and user experience.",
+      "technical_spec": "R&D focus on cutting-edge technologies and design.",
+      "severity_score": 96
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Active interaction and feedback from a loyal customer base.",
+      "technical_spec": "Incorporation of community feedback loops.",
       "severity_score": 90
     },
     {
-      "title": "Simplicity and Elegance",
-      "description": "Design ethos focused on simplicity and elegance, reflected in both products and web interfaces.",
-      "technical_spec": "Minimalist design language.",
-      "severity_score": 70
+      "title": "Quality Assurance",
+      "description": "Commitment to delivering high-quality products and services.",
+      "technical_spec": "Rigorous testing and premium material selection.",
+      "severity_score": 93
     },
     {
-      "title": "User Privacy",
-      "description": "A core priority, ensuring user data handling is secure and private.",
-      "technical_spec": "Secure enclaves and encryption.",
-      "severity_score": 85
-    },
-    {
-      "title": "Ecosystem Integration",
-      "description": "Seamlessly integrates software and hardware for cohesive user experiences.",
-      "technical_spec": "iCloud, continuity features.",
-      "severity_score": 75
-    },
-    {
-      "title": "Premium Quality",
-      "description": "Strives for high-quality user experiences both online and offline.",
-      "technical_spec": "Rigorous usability testing.",
-      "severity_score": 95
+      "title": "Seamless Integration",
+      "description": "Ensures that Apple products and services work perfectly together.",
+      "technical_spec": "Ecosystem synchronization through proprietary technology.",
+      "severity_score": 94
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "meta": {
-    "rank": 364,
+    "rank": 374,
     "site": "microsoft.com",
-    "date": "2026-04-16 06:29",
-    "integrity_hash": "a618188ce16c73644e588ca3fe27654d"
+    "date": "2026-04-16 08:23",
+    "integrity_hash": "65cce24919e6d1129d69e4f4022fc0c4"
   },
   "data": [
     {
-      "title": "Active Directory Security",
-      "description": "Utilizes enterprise-grade identity protection and management.",
-      "technical_spec": "Azure Active Directory, Multi-Factor Authentication",
+      "title": "Multi-Factor Authentication",
+      "description": "Mandatory MFA for accessing critical systems to prevent unauthorized access.",
+      "technical_spec": "Supports SMS, authenticator apps, and biometric options.",
       "severity_score": 30
     },
     {
-      "title": "Threat Detection",
-      "description": "Proactive threat detection using machine learning-based tools.",
-      "technical_spec": "Azure Sentinel, Microsoft Defender for Cloud",
-      "severity_score": 40
+      "title": "Advanced Threat Protection",
+      "description": "Uses AI-driven threat intelligence to detect and mitigate threats.",
+      "technical_spec": "Integrated with Microsoft Defender and Sentinel.",
+      "severity_score": 25
     },
     {
       "title": "Data Encryption",
-      "description": "End-to-end encryption to protect data in transit and at rest.",
-      "technical_spec": "TLS/SSL, AES-256 encryption",
-      "severity_score": 35
-    },
-    {
-      "title": "Network Security",
-      "description": "Comprehensive network protection with firewall and DDoS protection.",
-      "technical_spec": "Azure Firewall, DDoS Protection, Network Security Groups",
-      "severity_score": 20
-    },
-    {
-      "title": "Compliance and Auditing",
-      "description": "Regular compliance checks and audits to maintain security standards.",
-      "technical_spec": "Azure Policy, Compliance Manager",
+      "description": "Employs end-to-end encryption to protect data in transit and at rest.",
+      "technical_spec": "TLS for in-transit, Azure Storage Service Encryption for at-rest.",
       "severity_score": 15
+    },
+    {
+      "title": "Regular Security Audits",
+      "description": "Conducts regular internal and third-party audits to identify vulnerabilities.",
+      "technical_spec": "Compliance with ISO 27001 and SOC 2 standards.",
+      "severity_score": 18
+    },
+    {
+      "title": "DDoS Protection",
+      "description": "Prevents Distributed Denial of Service attacks with global network filtering.",
+      "technical_spec": "Azure DDoS Protection service.",
+      "severity_score": 20
     }
   ]
 }
