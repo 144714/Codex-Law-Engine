@@ -13,16 +13,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-      - run: pip install openai
+
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install openai
+
       - name: Run Codex Factory
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python generator_engine.py
+        run: |
+          python generator_engine.py || (echo "❌ Python Script Crashed!" && exit 1)
+
       - name: Deploy Data & Sites
+        if: success()
         run: |
           git config --global user.name "Codex-Bot"
           git config --global user.email "bot@codex.ai"
