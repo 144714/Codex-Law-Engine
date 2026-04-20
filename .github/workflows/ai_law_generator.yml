@@ -1,4 +1,4 @@
-name: Codex Genesis Pipeline
+name: Codex Infinite Factory
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  run-audit:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -18,14 +18,14 @@ jobs:
         with:
           python-version: '3.9'
       - run: pip install openai
-      - name: Execute Oracle
+      - name: Run Codex Factory
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python generator_engine.py
-      - name: Sync Cloud Database
+      - name: Deploy Data & Sites
         run: |
-          git config --global user.name "Codex-System-Bot"
+          git config --global user.name "Codex-Bot"
           git config --global user.email "bot@codex.ai"
           git add .
-          git commit -m "Auto-Update: Global Intelligence Sync [skip ci]" || echo "No changes"
+          git commit -m "Codex Sync: New Data & Generated Sites [skip ci]" || echo "No changes"
           git push origin main
