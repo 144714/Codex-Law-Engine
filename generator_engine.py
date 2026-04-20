@@ -1,6 +1,6 @@
 import os, json, openai, urllib.request, datetime, hashlib, time
 
-# קונפיגורציה מרכזית
+# הגדרות מנוע ה-Intelligence
 BASE_PATH = 'Codex_Intelligence'
 INDEX_FILE = os.path.join(BASE_PATH, 'global_registry.json')
 STATE_FILE = 'engine_state.log'
@@ -10,7 +10,7 @@ def setup_env():
     if not os.path.exists(BASE_PATH):
         os.makedirs(BASE_PATH)
 
-def get_prime_targets(count=30):
+def get_prime_targets(count=20): # סורק 20 אתרים לעומק בכל הרצה
     rank = 0
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE, 'r') as f:
@@ -18,10 +18,7 @@ def get_prime_targets(count=30):
             except: rank = 0
     
     targets = []
-    sources = [
-        "https://tranco-list.eu/download/daily/top-1m.csv",
-        "https://raw.githubusercontent.com/pytoolz/tranco-list/master/top-1m.csv"
-    ]
+    sources = ["https://tranco-list.eu/download/daily/top-1m.csv"]
     
     for url in sources:
         try:
@@ -29,19 +26,13 @@ def get_prime_targets(count=30):
             with urllib.request.urlopen(req, timeout=20) as resp:
                 for i, line in enumerate(resp):
                     if i < rank: continue
-                    try:
-                        decoded = line.decode('utf-8').strip()
-                        if ',' in decoded:
-                            domain = decoded.split(',')[1]
-                            targets.append({"domain": domain, "rank": i + 1})
-                    except: continue
+                    decoded = line.decode('utf-8').strip()
+                    if ',' in decoded:
+                        domain = decoded.split(',')[1]
+                        targets.append({"domain": domain, "rank": i + 1})
                     if len(targets) >= count: break
             if targets: break
         except: continue
-
-    if not targets:
-        hardcoded = ["google.com", "apple.com", "microsoft.com", "amazon.com", "netflix.com"]
-        targets = [{"domain": d, "rank": rank + i + 1} for i, d in enumerate(hardcoded)]
 
     with open(STATE_FILE, 'w') as f: f.write(str(rank + len(targets)))
     return targets
@@ -55,13 +46,13 @@ def build_vault(site, audit):
 
     for category, laws in audit.items():
         if not isinstance(laws, list): continue
-        cat_id = category.lower().replace(" ", "_").strip()
+        cat_id = category.upper().replace(" ", "_").strip()
         folder = os.path.join(BASE_PATH, cat_id)
         os.makedirs(folder, exist_ok=True)
         
         file_id = f"{site['domain'].replace('.', '_')}.json"
         intel_record = {
-            "meta": {"rank": site['rank'], "site": site['domain'], "date": TIMESTAMP},
+            "meta": {"rank": site['rank'], "site": site['domain'], "date": TIMESTAMP, "version": "DeepScan_v4"},
             "data": laws
         }
         
@@ -76,22 +67,32 @@ def build_vault(site, audit):
 
 def execute_vision():
     setup_env()
-    targets = get_prime_targets(30)
+    targets = get_prime_targets(20) # 20 אתרים - כל אחד מקבל טיפול VIP
     client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     
     for target in targets:
+        print(f"🔍 Deep Auditing: {target['domain']}")
         try:
+            # פרומפט "מטורף" שמכריח את ה-AI להוציא המון דאטה
             res = client.chat.completions.create(
                 model="gpt-4o",
                 messages=[
-                    {"role": "system", "content": "Return ONLY JSON. Keys: Architecture, Cyber-Defense, UX-Laws, Brand-DNA. List of 5 objects: {title, description, technical_spec, severity_score(1-100)}."},
-                    {"role": "user", "content": f"Deconstruct: {target['domain']}"}
+                    {"role": "system", "content": """You are the Codex Oracle. Perform a DEEP technical audit. 
+                    Return ONLY a JSON with exactly these 6 categories: 
+                    1. VISUAL_ENGINEERING (UI/UX), 
+                    2. SECURITY_PROTOCOLS, 
+                    3. PERFORMANCE_DNA, 
+                    4. ACCESSIBILITY_LAWS, 
+                    5. ARCHITECTURAL_PATTERNS,
+                    6. CONVERSION_PSYCHOLOGY.
+                    Each category must have 6-8 detailed laws. Each law: {title, description, technical_spec, severity_score(1-100)}."""},
+                    {"role": "user", "content": f"Deconstruct everything about: {target['domain']}"}
                 ],
                 response_format={"type": "json_object"}
             )
             build_vault(target, json.loads(res.choices[0].message.content))
-            print(f"✅ Indexed: {target['domain']}")
-        except Exception as e: print(f"❌ Error {target['domain']}: {e}")
+            print(f"💎 Data Goldmine Saved: {target['domain']}")
+        except Exception as e: print(f"❌ Failure on {target['domain']}: {e}")
 
 if __name__ == "__main__":
     execute_vision()
