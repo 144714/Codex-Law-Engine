@@ -1,9 +1,9 @@
-name: Codex Global Ingestion Pipeline
+name: Codex Genesis Pipeline
 
 on:
   schedule:
-    - cron: '0 * * * *' # הרצה אוטומטית בכל שעה עגולה
-  workflow_dispatch:   # הפעלה ידנית לצורך בדיקה
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,24 +13,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Setup Environment
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-
-      - name: Install Logic
-        run: pip install openai
-
-      - name: Execute Autonomous Scan
+      - run: pip install openai
+      - name: Execute Oracle
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python generator_engine.py
-
-      - name: Sync Database
+      - name: Sync Cloud Database
         run: |
           git config --global user.name "Codex-System-Bot"
           git config --global user.email "bot@codex.ai"
           git add .
-          git commit -m "Pipeline Sync: Ingested Global DNA [skip ci]" || echo "No changes"
+          git commit -m "Auto-Update: Global Intelligence Sync [skip ci]" || echo "No changes"
           git push origin main
