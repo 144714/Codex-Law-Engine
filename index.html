@@ -2,7 +2,7 @@
 <html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>CODEX GENESIS | Intelligence</title>
+    <title>CODEX GENESIS | Intelligence Forge</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap" rel="stylesheet">
     <style>
@@ -10,25 +10,32 @@
         body { background: var(--bg); color: #fff; font-family: 'Space Grotesk', sans-serif; }
         .sidebar { width: 350px; height: 100vh; position: fixed; background: #000; border-left: 1px solid var(--accent); padding: 40px; }
         .main { margin-right: 350px; padding: 60px; }
-        .nav-item-codex { padding: 15px; border: 1px solid var(--accent); cursor: pointer; transition: 0.3s; margin-bottom: 10px; font-size: 0.8rem; letter-spacing: 1px; }
+        .nav-item-codex { padding: 15px; border: 1px solid var(--accent); cursor: pointer; transition: 0.3s; margin-bottom: 10px; font-size: 0.8rem; }
         .nav-item-codex:hover, .nav-item-codex.active { background: var(--primary); color: #000; font-weight: bold; }
-        .law-card { background: var(--card); border: 1px solid var(--accent); padding: 25px; transition: 0.4s; }
-        .law-card:hover { border-color: var(--primary); transform: translateY(-5px); }
-        .severity-bar { height: 4px; width: 100%; background: #111; margin-top: 15px; }
-        .severity-fill { height: 100%; background: var(--primary); }
+        .law-card { background: var(--card); border: 1px solid var(--accent); padding: 25px; transition: 0.4s; height: 100%; }
+        .btn-forge { background: var(--primary); color: #000; font-weight: bold; border: none; padding: 15px 30px; border-radius: 4px; text-decoration: none; display: inline-block; }
     </style>
 </head>
 <body>
 
 <div class="sidebar">
-    <h2 class="fw-bold mb-5">CODEX <span style="color:var(--primary)">GENESIS</span></h2>
+    <h2 class="fw-bold mb-4">CODEX <span style="color:var(--primary)">GENESIS</span></h2>
+    <div class="mb-5">
+        <a href="Generated_Sites/latest_dna_site.html" target="_blank" class="btn-forge">🚀 VIEW GENERATED SITE</a>
+    </div>
     <div id="category-list"></div>
 </div>
 
 <div class="main">
     <div class="row mb-5">
-        <div class="col-md-4 text-center border p-3"><h6>SITES IN VAULT</h6><h2 id="total-sites" style="color:var(--primary)">0</h2></div>
-        <div class="col-md-4 text-center border p-3"><h6>LIVE STATUS</h6><h2 class="text-success small">ACTIVE</h2></div>
+        <div class="col-md-6">
+            <h1 class="display-4 fw-bold">Intelligence Vault</h1>
+            <p class="text-secondary">נתוני ה-DNA של מיליון האתרים המובילים בעולם</p>
+        </div>
+        <div class="col-md-6 text-end">
+            <h6 class="text-secondary">ASSETS SCANNED</h6>
+            <h2 id="total-sites" style="color:var(--primary)">0</h2>
+        </div>
     </div>
     <div id="main-grid" class="row g-4"></div>
 </div>
@@ -36,19 +43,20 @@
 <script>
     let registry = {};
     async function init() {
-        const r = await fetch('Codex_Intelligence/global_registry.json?t=' + Date.now());
-        registry = await r.json();
-        renderSidebar();
+        try {
+            const r = await fetch('Codex_Intelligence/global_registry.json?t=' + Date.now());
+            registry = await r.json();
+            renderSidebar();
+        } catch(e) { console.error("Waiting for first scan..."); }
     }
     function renderSidebar() {
         const list = document.getElementById('category-list');
         const cats = Object.keys(registry);
-        let total = 0;
-        list.innerHTML = cats.map(c => {
-            total += registry[c].length;
-            return `<div class="nav-item-codex" onclick="loadCat('${c}', this)">${c.replace('_', ' ')} (${registry[c].length})</div>`;
-        }).join('');
-        document.getElementById('total-sites').innerText = total;
+        list.innerHTML = cats.map(c => `
+            <div class="nav-item-codex" onclick="loadCat('${c}', this)">
+                ${c.replace('_', ' ')} (${registry[c].length})
+            </div>`).join('');
+        document.getElementById('total-sites').innerText = Object.values(registry).flat().length;
     }
     async function loadCat(cat, el) {
         document.querySelectorAll('.nav-item-codex').forEach(i => i.classList.remove('active'));
@@ -60,16 +68,17 @@
             try {
                 const res = await fetch(`Codex_Intelligence/${cat}/${site.replace('.', '_')}.json`);
                 const siteData = await res.json();
-                html += `<div class="col-12"><h3 class="mt-5">🌐 ${site.toUpperCase()}</h3></div>`;
+                html += `<div class="col-12 mt-5"><h3 class="border-bottom pb-2">🌐 ${site.toUpperCase()}</h3></div>`;
                 siteData.data.forEach(item => {
-                    html += `<div class="col-md-6 col-lg-4"><div class="law-card">
-                        <h6 class="fw-bold">${item.title}</h6>
-                        <p class="small opacity-75">${item.description}</p>
-                        <code class="small text-primary">${item.technical_spec}</code>
-                        <div class="severity-bar"><div class="severity-fill" style="width:${item.severity_score}%"></div></div>
-                    </div></div>`;
+                    html += `<div class="col-md-4 mb-3">
+                        <div class="law-card">
+                            <h6 class="fw-bold text-primary">${item.title}</h6>
+                            <p class="small opacity-75">${item.description}</p>
+                            <div class="p-2 bg-dark rounded small" style="font-size:0.7rem">${item.technical_spec}</div>
+                        </div>
+                    </div>`;
                 });
-            } catch (e) {}
+            } catch(e) {}
         }
         grid.innerHTML = html;
     }
